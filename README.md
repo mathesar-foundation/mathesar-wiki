@@ -1,1 +1,0 @@
-# mathesar-wiki
