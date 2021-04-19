@@ -2,7 +2,7 @@
 title: Ideas
 description: 
 published: true
-date: 2021-04-19T21:09:50.092Z
+date: 2021-04-19T21:10:52.453Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:06.260Z
@@ -13,7 +13,7 @@ related to one of the goals in the [Goals](../goals/) section.
 
 ## Final idea
 [Simple Databases for Everyone](dabble)  
-* see also: [reasoning for picking this idea](../summaries/2021-02-18)
+* see also: [reasoning for picking this idea](../pre-mathesar/summaries/2021-02-18)
 
 ## Recently discarded ideas
 
