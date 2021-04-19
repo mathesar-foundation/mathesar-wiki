@@ -1,3 +1,13 @@
+---
+title: Johnathan Nightingale
+description: 
+published: true
+date: 2021-04-19T21:24:20.739Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:21:01.714Z
+---
+
 # Johnathan Nightingale meeting notes
 
 **Date**: 2021-02-05  
