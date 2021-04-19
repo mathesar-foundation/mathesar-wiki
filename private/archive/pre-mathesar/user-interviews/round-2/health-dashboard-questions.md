@@ -1,3 +1,13 @@
+---
+title: Script: Health Dashboard
+description: 
+published: true
+date: 2021-04-19T21:32:21.095Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:22:53.474Z
+---
+
 # Health Dashboard
 
 1. How much attention do you pay to your health?
