@@ -1,3 +1,13 @@
+---
+title: Script: Easy DB
+description: 
+published: true
+date: 2021-04-19T21:32:10.037Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:22:46.872Z
+---
+
 # Easy DB Questions
 
 These could be asked of business folk, scientific researchers, archivists, or anyone else who wants to use data, but doesn't have the time/skillset to implement their desires in a currently existing database language.
