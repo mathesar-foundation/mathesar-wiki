@@ -1,14 +1,14 @@
 ---
-title:  Moderation as a Service
+title: Moderation as a Service
 description: 
 published: true
-date: 2021-04-19T20:58:04.228Z
+date: 2021-04-19T21:18:00.556Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:56.022Z
 ---
 
-Related to [Encourage Conversation Between People Who Disagree](encourage-conversation)
+Related to [Encourage Conversation Between People Who Disagree](../goals/encourage-conversation)
 
 ## Problem
 Every service accepting user generated content has its own moderation policies and moderation decisions are not transparent. Moderation policies are also controversial, with large sections of the populace believing that major platforms moderate based on political bias.
