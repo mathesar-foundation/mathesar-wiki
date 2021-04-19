@@ -1,4 +1,12 @@
-# Build Your Own Search
+---
+title: Build Your Own Search
+description: 
+published: true
+date: 2021-04-19T20:53:31.720Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:26.060Z
+---
 
 Related to
 
