@@ -1,4 +1,12 @@
-# Encourage Thoughtful Consumption of Information
+---
+title:  Encourage Thoughtful Consumption of Information
+description: 
+published: true
+date: 2021-04-19T20:48:07.433Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:53.292Z
+---
 
 ## Motivation
 
