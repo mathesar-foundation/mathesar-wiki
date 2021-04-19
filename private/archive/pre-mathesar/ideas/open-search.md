@@ -2,7 +2,7 @@
 title: Open Search
 description: 
 published: true
-date: 2021-04-19T20:58:37.868Z
+date: 2021-04-19T21:16:23.743Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:19:02.977Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-19T20:19:02.977Z
 
 ## Vision
 The long term vision for “Open Search” is to
-[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation)
+[accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation)
 through: 
 * making freely reusable IP discoverable through community driven search and
   curation tools.
