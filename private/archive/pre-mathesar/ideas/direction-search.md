@@ -2,13 +2,13 @@
 title: Wander search
 description: 
 published: true
-date: 2021-04-19T20:54:47.390Z
+date: 2021-04-19T21:17:42.006Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:36.015Z
 ---
 
-Related to [Innovate discovery](innovate-discovery)
+Related to [Innovate discovery](../goals/innovate-discovery)
 
 ## Problem
 
