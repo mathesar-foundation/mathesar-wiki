@@ -1,4 +1,12 @@
-# Personalized Learning
+---
+title: Personalized Learning
+description: 
+published: true
+date: 2021-04-19T20:58:53.947Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:06.659Z
+---
 
 Related goal: [Accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md)
 
