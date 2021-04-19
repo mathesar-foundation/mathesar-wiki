@@ -1,4 +1,12 @@
-# Accelerate Knowledge, Creativity, and Innovation
+---
+title: Accelerate Knowledge, Creativity, and Innovation
+description: 
+published: true
+date: 2021-04-19T20:47:47.003Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:37.033Z
+---
 
 ## Motivation
 It's important for society to keep producing new art, science, and knowledge in order to better itself. We'd like to accelerate that process and reduce legal and logistical barriers that block creation.
