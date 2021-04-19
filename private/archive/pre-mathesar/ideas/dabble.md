@@ -2,15 +2,15 @@
 title: Simple Databases for Everyone
 description: a.k.a. Modern version of Dabble DB
 published: true
-date: 2021-04-19T20:54:30.280Z
+date: 2021-04-19T21:12:34.738Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:32.610Z
 ---
 
 Related to:  
-* [accelerate knowledge, creativity, and innovation in the world](accelerate-innovation)
-* [decentralize the internet](decentralize-internet)
+* [accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation)
+* [decentralize the internet](../goals/decentralize-internet)
 
 ## Problem
 Most people want to track and analyze data of one sort or another from simple personal uses such as a book reading log or food inventory to large scale datasets. People often use spreadsheets for this, but spreadsheets are limited – collaboration is hard, and it can be difficult to normalize and connect data between different spreadsheets.
