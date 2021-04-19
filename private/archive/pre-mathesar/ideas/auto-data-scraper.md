@@ -1,4 +1,12 @@
-# Automated Data Scraper / ETL (for the masses)
+---
+title:  Automated Data Scraper / ETL (for the masses)
+description: 
+published: true
+date: 2021-04-19T20:52:42.257Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:16.087Z
+---
 
 Related to:
 
