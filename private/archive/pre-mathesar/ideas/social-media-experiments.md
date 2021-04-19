@@ -1,4 +1,12 @@
-# Experimental Social Media Platforms
+---
+title: Experimental Social Media Platforms
+description: 
+published: true
+date: 2021-04-19T20:59:53.705Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:17.136Z
+---
 
 Related to [Connect People in Positive Ways](connect-people.md)
 
