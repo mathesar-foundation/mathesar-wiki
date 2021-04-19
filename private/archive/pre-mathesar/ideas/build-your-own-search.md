@@ -2,7 +2,7 @@
 title: Build Your Own Search
 description: 
 published: true
-date: 2021-04-19T20:53:31.720Z
+date: 2021-04-19T21:19:28.385Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:26.060Z
@@ -10,9 +10,9 @@ dateCreated: 2021-04-19T20:18:26.060Z
 
 Related to
 
-1. [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation)
-1. [Innovate Discovery](innovate-discovery)
-1. [Decentralize the Internet](decentralize-internet)
+1. [Accelerate Knowledge, Creativity, and Innovation](../goals/accelerate-innovation)
+1. [Innovate Discovery](../goals/innovate-discovery)
+1. [Decentralize the Internet](../goals/decentralize-internet)
 
 ## Problem
 
