@@ -1,4 +1,12 @@
-# User Interviews: Round 2
+---
+title: User Interviews: Round 2
+description: 
+published: true
+date: 2021-04-19T20:27:05.916Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:22:39.892Z
+---
 
 The purpose of Round 2 of user interviews is to validate specific ideas with potential users or stakeholders.
 
