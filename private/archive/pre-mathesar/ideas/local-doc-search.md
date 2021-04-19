@@ -1,4 +1,12 @@
-# Local document full text search
+---
+title: Local document full text search
+description: 
+published: true
+date: 2021-04-19T20:57:10.682Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:52.629Z
+---
 
 ## Problem
 
