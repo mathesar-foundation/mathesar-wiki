@@ -2,7 +2,7 @@
 title: Goals
 description: 
 published: true
-date: 2021-04-19T20:44:55.327Z
+date: 2021-04-19T21:09:26.134Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:17:33.813Z
