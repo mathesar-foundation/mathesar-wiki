@@ -2,13 +2,13 @@
 title: Personalized Learning
 description: 
 published: true
-date: 2021-04-19T20:58:53.947Z
+date: 2021-04-19T21:16:35.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:19:06.659Z
 ---
 
-Related goal: [Accelerate knowledge, creativity, and innovation in the world](accelerate-innovation)
+Related goal: [Accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation)
 
 ## Problem
 Learning new things is harder than it could be:
