@@ -1,4 +1,12 @@
-# Open Health Dashboard
+---
+title: Open Health Dashboard
+description: 
+published: true
+date: 2021-04-19T20:58:17.772Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:59.303Z
+---
 
 Related to [Decentralize the internet](decentralize-internet.md)
 
