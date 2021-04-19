@@ -1,4 +1,12 @@
-# Encourage Conversation Between People Who Disagree
+---
+title: encourage-conversation
+description: 
+published: true
+date: 2021-04-19T20:48:19.630Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:50.041Z
+---
 
 Related to [Encourage Thoughtful Consumption of Information](encourage-thinking.md)
 
