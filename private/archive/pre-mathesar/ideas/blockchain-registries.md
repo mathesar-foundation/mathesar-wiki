@@ -1,14 +1,14 @@
 ---
-title:  Blockchain Registries of things
+title: Blockchain Registries of things
 description: 
 published: true
-date: 2021-04-19T20:53:13.252Z
+date: 2021-04-19T21:19:45.429Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:22.793Z
 ---
 
-Related to [Decentralize the Internet](decentralize-internet)
+Related to [Decentralize the Internet](../goals/decentralize-internet)
 
 ## Problem
 
