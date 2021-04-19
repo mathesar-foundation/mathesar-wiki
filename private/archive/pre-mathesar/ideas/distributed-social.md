@@ -1,17 +1,17 @@
 ---
-title:  Distributed Social Networking
+title: Distributed Social Networking
 description: 
 published: true
-date: 2021-04-19T20:55:08.996Z
+date: 2021-04-19T21:12:59.726Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:39.352Z
 ---
 
 Related to 
-- [Encourage Thoughtful Consumption of Information](encourage-thinking)
-- [Connect People in Positive Ways](connect-people)
-- [Decentralize the Internet](decentralize-internet)
+- [Encourage Thoughtful Consumption of Information](../goals/encourage-thinking)
+- [Connect People in Positive Ways](../goals/connect-people)
+- [Decentralize the Internet](../goals/decentralize-internet)
 
 ## Problem
 
