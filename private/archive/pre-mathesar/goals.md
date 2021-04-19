@@ -2,7 +2,7 @@
 title: Goals
 description: 
 published: true
-date: 2021-04-19T20:44:39.924Z
+date: 2021-04-19T20:44:55.327Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:17:33.813Z
@@ -18,4 +18,4 @@ Potential high level goals for the project to evaluate. One file per goal.
 1. [Connect People in Positive Ways](connect-people)
 1. [Decentralize the Internet](decentralize-internet)
 
-See also [Problems to Solve](problems-to-solve/README.md)
+See also [Problems to Solve](problems-to-solve)
