@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:19:17.136Z
 ---
 
-Related to [Connect People in Positive Ways](connect-people.md)
+Related to [Connect People in Positive Ways](connect-people)
 
 ## Problem
 Social media does more harm than good. Some of the flaws I see with social media:

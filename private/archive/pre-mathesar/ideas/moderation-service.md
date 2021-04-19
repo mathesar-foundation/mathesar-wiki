@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:56.022Z
 ---
 
-Related to [Encourage Conversation Between People Who Disagree](encourage-conversation.md)
+Related to [Encourage Conversation Between People Who Disagree](encourage-conversation)
 
 ## Problem
 Every service accepting user generated content has its own moderation policies and moderation decisions are not transparent. Moderation policies are also controversial, with large sections of the populace believing that major platforms moderate based on political bias.

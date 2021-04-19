@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:59.303Z
 ---
 
-Related to [Decentralize the internet](decentralize-internet.md)
+Related to [Decentralize the internet](decentralize-internet)
 
 ## Problem
 Everyone needs to take care of their health. There is data available to people about their own health, but there aren't a lot of tools that help people see all of the data in one place and see the big picture. There are some existing solutions that focus on just aggregation (e.g. Apple Health) or on a subset of health (e.g. MyFitnessPal), but they are proprietary, and there's no way to be in control of your own health data.

@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:45.940Z
 ---
 
-Related to [Decentralize the Internet](decentralize-internet.md)
+Related to [Decentralize the Internet](decentralize-internet)
 
 ## Problem
 Every family deals with a common set of problems when managing their home.
@@ -22,7 +22,7 @@ Every family deals with a common set of problems when managing their home.
 ## Solution
 A self-hosted suite of tools that solves each of these problems that integrate with each other or via APIs with third-party tools.
 - Task management
-- Food management (see [Food Inventory and Recipe Search Engine](recipe-search.md))
+- Food management (see [Food Inventory and Recipe Search Engine](recipe-search))
 - Money management
 - Shared calendar
 – Media server

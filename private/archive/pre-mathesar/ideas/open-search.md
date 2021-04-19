@@ -10,7 +10,7 @@ dateCreated: 2021-04-19T20:19:02.977Z
 
 ## Vision
 The long term vision for “Open Search” is to
-[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md)
+[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation)
 through: 
 * making freely reusable IP discoverable through community driven search and
   curation tools.

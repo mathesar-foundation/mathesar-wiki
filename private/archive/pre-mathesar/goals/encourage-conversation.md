@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:17:50.041Z
 ---
 
-Related to [Encourage Thoughtful Consumption of Information](encourage-thinking.md)
+Related to [Encourage Thoughtful Consumption of Information](encourage-thinking)
 
 ## Motivation
 

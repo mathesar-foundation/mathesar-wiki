@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:19:20.433Z
 ---
 
-Related to both [credibility](credibility.md), and [accelerate innovation](accelerate-innovation.md).
+Related to both [credibility](credibility), and [accelerate innovation](accelerate-innovation).
 
 ## Problem
 
@@ -82,5 +82,5 @@ great).
   
 ## Integration
 
-This could integrate with both [Open Search](open-search.md) and
-[Article Checker](article-checker.md) as entry points.
+This could integrate with both [Open Search](open-search) and
+[Article Checker](article-checker) as entry points.

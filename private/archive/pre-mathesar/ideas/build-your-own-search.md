@@ -10,9 +10,9 @@ dateCreated: 2021-04-19T20:18:26.060Z
 
 Related to
 
-1. [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation.md)
-1. [Innovate Discovery](innovate-discovery.md)
-1. [Decentralize the Internet](decentralize-internet.md)
+1. [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation)
+1. [Innovate Discovery](innovate-discovery)
+1. [Decentralize the Internet](decentralize-internet)
 
 ## Problem
 

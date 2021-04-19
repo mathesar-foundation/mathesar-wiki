@@ -10,9 +10,9 @@ dateCreated: 2021-04-19T20:18:16.087Z
 
 Related to:
 
-- [Use Open Information / Science to Enhance Credibility](credibility.md)
-- [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation.md)
-- [Innovate Discovery](innovate-discovery.md)
+- [Use Open Information / Science to Enhance Credibility](credibility)
+- [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation)
+- [Innovate Discovery](innovate-discovery)
 
 Inspired by `needlebase`: https://www.youtube.com/watch?v=58Gzlq4zSDk
 

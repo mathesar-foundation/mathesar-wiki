@@ -8,11 +8,11 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:09.551Z
 ---
 
-Related to both [credibility](credibility.md), and
-[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md).
+Related to both [credibility](credibility), and
+[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation).
 
 This is essentially the same as the
-[Social network centered on source material](source-commentary-ecosystem.md),
+[Social network centered on source material](source-commentary-ecosystem),
 but aimed squarely at academics discussing preprints or recently published
 scholarly articles.
 
@@ -20,8 +20,8 @@ scholarly articles.
 
 Discussion online of scholarly work generally happens in an ad-hoc way.  This
 is verified by some interviews conducted by the team recently:
-- [Jim Geelan](2021-02-02-jim.md)
-- [Karthik Dinakar](2021-02-03-karthik.md)
+- [Jim Geelan](2021-02-02-jim)
+- [Karthik Dinakar](2021-02-03-karthik)
 In the interview with Jim, we discovered that his academic community was mostly
 collaborating through a blog: [The Matroid Union](http://matroidunion.org/),
 though pre-prints of papers are generally cross-posted to the
@@ -64,5 +64,5 @@ scholarly articles and other academic works are hosted.
 
 ## Integration
 
-This could integrate with both [Open Search](open-search.md) and
-[Article Checker](article-checker.md) as entry points.
+This could integrate with both [Open Search](open-search) and
+[Article Checker](article-checker) as entry points.

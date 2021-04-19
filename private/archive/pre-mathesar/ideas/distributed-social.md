@@ -9,9 +9,9 @@ dateCreated: 2021-04-19T20:18:39.352Z
 ---
 
 Related to 
-- [Encourage Thoughtful Consumption of Information](encourage-thinking.md)
-- [Connect People in Positive Ways](connect-people.md)
-- [Decentralize the Internet](decentralize-internet.md)
+- [Encourage Thoughtful Consumption of Information](encourage-thinking)
+- [Connect People in Positive Ways](connect-people)
+- [Decentralize the Internet](decentralize-internet)
 
 ## Problem
 

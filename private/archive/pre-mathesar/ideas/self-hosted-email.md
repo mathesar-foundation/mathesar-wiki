@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:19:13.726Z
 ---
 
-Related to [Decentralize the Internet](decentralize-internet.md)
+Related to [Decentralize the Internet](decentralize-internet)
 
 ## Problem
 There is no easy way to self-host your email. Most people rely on third-party services like GMail, which has a host of issues – privacy, lack of ownership of user data, etc.

@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:19:06.659Z
 ---
 
-Related goal: [Accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md)
+Related goal: [Accelerate knowledge, creativity, and innovation in the world](accelerate-innovation)
 
 ## Problem
 Learning new things is harder than it could be:

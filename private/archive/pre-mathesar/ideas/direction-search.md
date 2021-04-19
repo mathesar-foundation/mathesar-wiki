@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:36.015Z
 ---
 
-Related to [Innovate discovery](innovate-discovery.md)
+Related to [Innovate discovery](innovate-discovery)
 
 ## Problem
 

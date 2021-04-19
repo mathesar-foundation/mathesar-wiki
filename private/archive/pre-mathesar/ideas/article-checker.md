@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:12.871Z
 ---
 
-Related to [credibility](credibility.md).
+Related to [credibility](credibility).
 
 ## Problem
 

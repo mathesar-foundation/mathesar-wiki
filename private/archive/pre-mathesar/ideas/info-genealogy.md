@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:49.311Z
 ---
 
-Related to [credibility](credibility.md), [innovation of discovery](innovate-discovery.md), and maybe [accelerate innovation](accelerate-innovation.md).
+Related to [credibility](credibility), [innovation of discovery](innovate-discovery), and maybe [accelerate innovation](accelerate-innovation).
 
 ## Problem
 

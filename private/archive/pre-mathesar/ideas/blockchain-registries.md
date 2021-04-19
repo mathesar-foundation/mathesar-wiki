@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-04-19T20:18:22.793Z
 ---
 
-Related to [Decentralize the Internet](decentralize-internet.md)
+Related to [Decentralize the Internet](decentralize-internet)
 
 ## Problem
 

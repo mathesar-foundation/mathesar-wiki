@@ -9,4 +9,4 @@ dateCreated: 2021-04-19T20:17:29.991Z
 ---
 
 The archive contains:
-- [Notes related to pre-Mathesar ideas](pre-mathesar/home.md)
+- [Notes related to pre-Mathesar ideas](pre-mathesar/home)
