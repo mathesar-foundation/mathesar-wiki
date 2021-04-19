@@ -2,13 +2,13 @@
 title: Social network centered on source material
 description: 
 published: true
-date: 2021-04-19T21:00:28.058Z
+date: 2021-04-19T21:11:24.168Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:19:20.433Z
 ---
 
-Related to both [credibility](credibility), and [accelerate innovation](accelerate-innovation).
+Related to both [credibility](../goals/credibility), and [accelerate innovation](../goals/accelerate-innovation).
 
 ## Problem
 
