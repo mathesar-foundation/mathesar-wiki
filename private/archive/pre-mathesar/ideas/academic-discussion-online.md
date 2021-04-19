@@ -2,7 +2,7 @@
 title: Academic discussion protocol and tool
 description: 
 published: true
-date: 2021-04-19T21:15:14.830Z
+date: 2021-04-19T21:15:59.161Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:09.551Z
@@ -12,7 +12,7 @@ Related to both [credibility](../goals/credibility), and
 [accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation).
 
 This is essentially the same as the
-[Social network centered on source material](source-commentary-ecosystem),
+[Social network centered on source material](./source-commentary-ecosystem),
 but aimed squarely at academics discussing preprints or recently published
 scholarly articles.
 
@@ -64,5 +64,5 @@ scholarly articles and other academic works are hosted.
 
 ## Integration
 
-This could integrate with both [Open Search](open-search) and
-[Article Checker](article-checker) as entry points.
+This could integrate with both [Open Search](./open-search) and
+[Article Checker](./article-checker) as entry points.
