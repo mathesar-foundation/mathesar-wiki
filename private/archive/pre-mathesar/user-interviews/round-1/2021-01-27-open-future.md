@@ -1,3 +1,13 @@
+---
+title: Open Future
+description: 
+published: true
+date: 2021-04-19T21:22:21.047Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:20:26.202Z
+---
+
 # Alek & Paul (Open Future) meeting
 
 **Date**: 2021-01-27  
