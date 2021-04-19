@@ -1,4 +1,12 @@
-# GitHub for data
+---
+title: GitHub for Data
+description: 
+published: true
+date: 2021-04-19T20:56:08.002Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:42.657Z
+---
 
 ## Problem
 GitHub and Gitlab make finding, exploring, and working with code very easy, even for inexperienced developers. There is no equivalent website that makes finding, exploring, and working with datasets equally easy.
