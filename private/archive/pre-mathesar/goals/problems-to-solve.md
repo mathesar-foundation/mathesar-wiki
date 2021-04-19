@@ -1,4 +1,12 @@
-## Problems to Solve
+---
+title: Problems to Solve
+description: 
+published: true
+date: 2021-04-19T20:45:51.788Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:59.770Z
+---
 
 For now, everything is in one file. We should consider splitting into
 different files later. Ideally, these should be focused, and phrased as
