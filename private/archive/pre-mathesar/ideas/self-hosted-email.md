@@ -1,4 +1,12 @@
-# One Click Self-Hosted Email
+---
+title: One Click Self-Hosted Email
+description: 
+published: true
+date: 2021-04-19T20:59:41.376Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:13.726Z
+---
 
 Related to [Decentralize the Internet](decentralize-internet.md)
 
