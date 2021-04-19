@@ -1,4 +1,12 @@
-# Complete Home Management Suite
+---
+title: Complete Home Management Suite
+description: 
+published: true
+date: 2021-04-19T20:56:27.312Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:45.940Z
+---
 
 Related to [Decentralize the Internet](decentralize-internet.md)
 
