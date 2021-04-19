@@ -2,10 +2,10 @@
 title: Pre-Mathesar notes
 description: Notes related to previous ideas we were considering building before Mathesar (~2021-01 to 2021-03)
 published: true
-date: 
+date: 2021-04-19T20:28:01.677Z
 tags: 
 editor: markdown
-dateCreated:
+dateCreated: 2021-04-19T20:18:03.026Z
 ---
 
 * Analyses
@@ -13,6 +13,6 @@ dateCreated:
   * [2021-01-26 competitive analysis brainstorming](summaries/2021-01-26.md)
   * [2021-01-19 idea winnowing](summaries/2021-01-19.md)
   * [2021-01-11 summary](summaries/2021-01-11.md)
-* [Goals](goals/): High level goals
-* [Ideas](ideas/): Specific software ideas
-* [User Interviews](user-interviews/): User interview suggestions and notes
+* [Goals](goals/home): High level goals
+* [Ideas](ideas/home): Specific software ideas
+* [User Interviews](user-interviews/home): User interview suggestions and notes
