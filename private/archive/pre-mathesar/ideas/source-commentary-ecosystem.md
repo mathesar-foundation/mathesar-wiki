@@ -1,6 +1,14 @@
-# Social network centered on source material
+---
+title: Social network centered on source material
+description: 
+published: true
+date: 2021-04-19T21:00:28.058Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:20.433Z
+---
 
-Related to both [credibility](credibility.md), and [](accelerate-innovation.md).
+Related to both [credibility](credibility.md), and [accelerate innovation](accelerate-innovation.md).
 
 ## Problem
 
