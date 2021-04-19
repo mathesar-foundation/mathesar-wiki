@@ -2,13 +2,13 @@
 title: Experimental Social Media Platforms
 description: 
 published: true
-date: 2021-04-19T20:59:53.705Z
+date: 2021-04-19T21:18:10.574Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:19:17.136Z
 ---
 
-Related to [Connect People in Positive Ways](connect-people)
+Related to [Connect People in Positive Ways](../goals/connect-people)
 
 ## Problem
 Social media does more harm than good. Some of the flaws I see with social media:
