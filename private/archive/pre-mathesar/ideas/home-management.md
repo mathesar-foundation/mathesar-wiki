@@ -2,13 +2,13 @@
 title: Complete Home Management Suite
 description: 
 published: true
-date: 2021-04-19T20:56:27.312Z
+date: 2021-04-19T21:18:49.701Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:45.940Z
 ---
 
-Related to [Decentralize the Internet](decentralize-internet)
+Related to [Decentralize the Internet](../goals/decentralize-internet)
 
 ## Problem
 Every family deals with a common set of problems when managing their home.
@@ -22,7 +22,7 @@ Every family deals with a common set of problems when managing their home.
 ## Solution
 A self-hosted suite of tools that solves each of these problems that integrate with each other or via APIs with third-party tools.
 - Task management
-- Food management (see [Food Inventory and Recipe Search Engine](recipe-search))
+- Food management (see [Food Inventory and Recipe Search Engine](./recipe-search))
 - Money management
 - Shared calendar
 – Media server
