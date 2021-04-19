@@ -1,4 +1,12 @@
-# Goals
+---
+title: Goals
+description: 
+published: true
+date: 2021-04-19T20:38:34.088Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:33.813Z
+---
 
 Potential high level goals for the project to evaluate. One file per goal.
 
