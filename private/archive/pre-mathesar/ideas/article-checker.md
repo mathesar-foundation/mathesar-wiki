@@ -2,7 +2,7 @@
 title: Article Checker
 description: 
 published: true
-date: 2021-04-19T21:16:48.880Z
+date: 2021-04-19T21:17:14.610Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:12.871Z
