@@ -1,14 +1,14 @@
 ---
-title:  Code Search Engine
+title: Code Search Engine
 description: 
 published: true
-date: 2021-04-19T20:53:53.486Z
+date: 2021-04-19T21:17:52.345Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:29.329Z
 ---
 
-Related to [Innovate discovery](innovate-discovery)
+Related to [Innovate discovery](../goals/innovate-discovery)
 
 ## Problem
 
