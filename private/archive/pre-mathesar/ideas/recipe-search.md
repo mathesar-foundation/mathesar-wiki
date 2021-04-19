@@ -1,4 +1,12 @@
-# Food Inventory and Recipe Search Engine
+---
+title: Food Inventory and Recipe Search Engine
+description: 
+published: true
+date: 2021-04-19T20:59:18.381Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:10.409Z
+---
 
 Related to [Innovate discovery](innovate-discovery.md)
 
