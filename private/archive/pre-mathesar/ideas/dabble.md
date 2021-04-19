@@ -1,5 +1,12 @@
-# Simple Databases for Everyone
-a.k.a. Modern version of Dabble DB
+---
+title: Simple Databases for Everyone
+description: a.k.a. Modern version of Dabble DB
+published: true
+date: 2021-04-19T20:54:30.280Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:32.610Z
+---
 
 Related to:  
 * [accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md)
