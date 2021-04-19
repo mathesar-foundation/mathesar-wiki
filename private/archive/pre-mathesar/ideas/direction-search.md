@@ -1,4 +1,12 @@
-# Wander search
+---
+title: Wander search
+description: 
+published: true
+date: 2021-04-19T20:54:47.390Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:36.015Z
+---
 
 Related to [Innovate discovery](innovate-discovery.md)
 
