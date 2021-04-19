@@ -1,8 +1,8 @@
 ---
-title: encourage-conversation
+title:  Encourage Conversation Between People Who Disagree
 description: 
 published: true
-date: 2021-04-19T20:48:19.630Z
+date: 2021-04-19T20:48:29.063Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:17:50.041Z
