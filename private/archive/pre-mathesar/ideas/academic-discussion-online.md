@@ -1,4 +1,12 @@
-# Academic discussion protocol and tool
+---
+title:  Academic discussion protocol and tool
+description: 
+published: true
+date: 2021-04-19T20:52:03.097Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:09.551Z
+---
 
 Related to both [credibility](credibility.md), and
 [accelerate knowledge, creativity, and innovation in the world](accelerate-innovation.md).
