@@ -1,8 +1,8 @@
 ---
-title:  Automated Data Scraper / ETL (for the masses)
+title: Automated Data Scraper / ETL (for the masses)
 description: 
 published: true
-date: 2021-04-19T20:52:42.257Z
+date: 2021-04-19T21:19:13.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:16.087Z
@@ -10,9 +10,9 @@ dateCreated: 2021-04-19T20:18:16.087Z
 
 Related to:
 
-- [Use Open Information / Science to Enhance Credibility](credibility)
-- [Accelerate Knowledge, Creativity, and Innovation](accelerate-innovation)
-- [Innovate Discovery](innovate-discovery)
+- [Use Open Information / Science to Enhance Credibility](../goals/credibility)
+- [Accelerate Knowledge, Creativity, and Innovation](../goals/accelerate-innovation)
+- [Innovate Discovery](../goals/innovate-discovery)
 
 Inspired by `needlebase`: https://www.youtube.com/watch?v=58Gzlq4zSDk
 
