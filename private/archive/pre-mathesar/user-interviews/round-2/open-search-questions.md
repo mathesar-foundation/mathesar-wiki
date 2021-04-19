@@ -1,3 +1,13 @@
+---
+title: Script: Open Search
+description: 
+published: true
+date: 2021-04-19T21:31:36.148Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:23:00.178Z
+---
+
 # Open Search Interview Questions
 
 These questions could be asked of academics, researchers, or journalists.
