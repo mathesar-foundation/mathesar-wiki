@@ -2,13 +2,13 @@
 title: Information Genealogy Project
 description: 
 published: true
-date: 2021-04-19T20:56:53.743Z
+date: 2021-04-19T20:57:37.635Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:49.311Z
 ---
 
-Related to [credibility](credibility.md), [](innovate-discovery.md), and maybe [](accelerate-innovation.md).
+Related to [credibility](credibility.md), [innovation of discovery](innovate-discovery.md), and maybe [accelerate innovation](accelerate-innovation.md).
 
 ## Problem
 
