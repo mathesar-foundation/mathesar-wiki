@@ -1,4 +1,12 @@
-# Distributed Social Networking
+---
+title:  Distributed Social Networking
+description: 
+published: true
+date: 2021-04-19T20:55:08.996Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:39.352Z
+---
 
 Related to 
 - [Encourage Thoughtful Consumption of Information](encourage-thinking.md)
