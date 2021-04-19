@@ -1,15 +1,15 @@
 ---
-title:  Academic discussion protocol and tool
+title: Academic discussion protocol and tool
 description: 
 published: true
-date: 2021-04-19T20:52:03.097Z
+date: 2021-04-19T21:13:58.598Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:09.551Z
 ---
 
-Related to both [credibility](credibility), and
-[accelerate knowledge, creativity, and innovation in the world](accelerate-innovation).
+Related to both [credibility](../goals/credibility), and
+[accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation).
 
 This is essentially the same as the
 [Social network centered on source material](source-commentary-ecosystem),
