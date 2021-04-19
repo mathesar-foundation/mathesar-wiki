@@ -2,7 +2,7 @@
 title: Academic discussion protocol and tool
 description: 
 published: true
-date: 2021-04-19T21:13:58.598Z
+date: 2021-04-19T21:15:14.830Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:09.551Z
@@ -20,8 +20,8 @@ scholarly articles.
 
 Discussion online of scholarly work generally happens in an ad-hoc way.  This
 is verified by some interviews conducted by the team recently:
-- [Jim Geelan](2021-02-02-jim)
-- [Karthik Dinakar](2021-02-03-karthik)
+- [Jim Geelan](../user-interviews/round-2/2021-02-02-jim)
+- [Karthik Dinakar](../user-interviews/round-2/2021-02-03-karthik)
 In the interview with Jim, we discovered that his academic community was mostly
 collaborating through a blog: [The Matroid Union](http://matroidunion.org/),
 though pre-prints of papers are generally cross-posted to the
