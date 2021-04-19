@@ -2,13 +2,15 @@
 title: Pre-Mathesar notes
 description: Notes related to previous ideas we were considering building before Mathesar (~2021-01 to 2021-03)
 published: true
-date: 2021-04-19T21:59:29.894Z
+date: 2021-04-19T22:00:05.940Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:03.026Z
 ---
 
 Prior to picking the project, we considered several other ideas. Notes and conversations related to these ideas can be found here.
+
+Mathesar's original description: [Simple Databases for Everyone](/private/archive/pre-mathesar/ideas/dabble)
 
 * Analyses
   * [2021-02-18 idea selection](summaries/2021-02-18)  
