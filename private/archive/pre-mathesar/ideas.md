@@ -1,4 +1,12 @@
-# Ideas
+---
+title: Ideas
+description: 
+published: true
+date: 2021-04-19T20:37:57.794Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:06.260Z
+---
 
 Potential ideas for software to build. One file per idea. Ideas should be
 related to one of the goals in the [Goals](../goals/) section.
