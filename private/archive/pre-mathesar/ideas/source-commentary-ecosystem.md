@@ -2,7 +2,7 @@
 title: Social network centered on source material
 description: 
 published: true
-date: 2021-04-19T21:11:24.168Z
+date: 2021-04-19T21:17:09.151Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:19:20.433Z
@@ -82,5 +82,5 @@ great).
   
 ## Integration
 
-This could integrate with both [Open Search](open-search) and
-[Article Checker](article-checker) as entry points.
+This could integrate with both [Open Search](./open-search) and
+[Article Checker](./article-checker) as entry points.
