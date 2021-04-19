@@ -2,11 +2,13 @@
 title: Pre-Mathesar notes
 description: Notes related to previous ideas we were considering building before Mathesar (~2021-01 to 2021-03)
 published: true
-date: 2021-04-19T20:42:15.787Z
+date: 2021-04-19T21:59:29.894Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:03.026Z
 ---
+
+Prior to picking the project, we considered several other ideas. Notes and conversations related to these ideas can be found here.
 
 * Analyses
   * [2021-02-18 idea selection](summaries/2021-02-18)  
