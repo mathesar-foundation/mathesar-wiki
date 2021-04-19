@@ -2,7 +2,7 @@
 title: User Interviews: Round 2
 description: 
 published: true
-date: 2021-04-19T21:33:08.946Z
+date: 2021-04-19T21:34:13.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:22:39.892Z
@@ -13,26 +13,26 @@ The purpose of Round 2 of user interviews is to validate specific ideas with pot
 ## Scripts
 
 These are scripts for the four top ideas we're talking to users about this round:
-1. [Easy DB questions](./easy-db-questions)
-1. [Health Dashboard questions](./health-dashboard-questions)
-1. [Open Search questions](./open-search-questions)
-1. [Personalized Learning questions](./personalized-learning-questions)
+1. [Easy DB questions](easy-db-questions)
+1. [Health Dashboard questions](health-dashboard-questions)
+1. [Open Search questions](open-search-questions)
+1. [Personalized Learning questions](personalized-learning-questions)
 
 ## Interviews
 
 | Name                     | Idea                                    | Notes                                      |
 |--------------------------|-----------------------------------------|--------------------------------------------|
-| Avi Bryant               | Easy DB                                 | [2021-01-27 notes](2021-01-27-avi.md)      |
-| Ariel Ganz               | Health Dashboard                        | [2021-02-01 notes](2021-02-01-ariel.md)    |
-| Jim Geelen               | Personalized Learning                   | [2021-02-02 notes](2021-02-02-jim.md)      |
-| David Eigen              | Health Dashboard                        | [2021-02-02 notes](2021-02-02-david.md)    |
-| Karthik Dinakar          | Open Search                             | [2021-02-03 notes](2021-02-03-karthik.md)  |
-| MIT ProbComp Team        | *infrastructure for all ideas*          | [2021-02-03 notes](2021-02-03-probcomp.md) |
-| Alexander James Phillips | Open Search                             | [2021-02-04 notes](2021-02-04-ajp.md)      |
-| Vishal Punwani           | Personalized Learning, Health Dashboard | [2021-02-04 notes](2021-02-04-vishal.md)   |
-| Tateki Matsuda           | Health Dashboard                        | [2021-02-05 notes](2021-02-05-tateki.md)   |
-| Ryan Kellogg             | Health Dashboard                        | [2021-02-16 notes](2021-02-16-ryan.md)     |
-| Samuel (SJ) Klein        | Research Collaboration                  | [2021-02-17 notes](2021-02-17-sj.md)       |
+| Avi Bryant               | Easy DB                                 | [2021-01-27 notes](2021-01-27-avi)      |
+| Ariel Ganz               | Health Dashboard                        | [2021-02-01 notes](2021-02-01-ariel)    |
+| Jim Geelen               | Personalized Learning                   | [2021-02-02 notes](2021-02-02-jim)      |
+| David Eigen              | Health Dashboard                        | [2021-02-02 notes](2021-02-02-david)    |
+| Karthik Dinakar          | Open Search                             | [2021-02-03 notes](2021-02-03-karthik)  |
+| MIT ProbComp Team        | *infrastructure for all ideas*          | [2021-02-03 notes](2021-02-03-probcomp) |
+| Alexander James Phillips | Open Search                             | [2021-02-04 notes](2021-02-04-ajp)      |
+| Vishal Punwani           | Personalized Learning, Health Dashboard | [2021-02-04 notes](2021-02-04-vishal)   |
+| Tateki Matsuda           | Health Dashboard                        | [2021-02-05 notes](2021-02-05-tateki)   |
+| Ryan Kellogg             | Health Dashboard                        | [2021-02-16 notes](2021-02-16-ryan)     |
+| Samuel (SJ) Klein        | Research Collaboration                  | [2021-02-17 notes](2021-02-17-sj)       |
 
 ## Potential Users
 
