@@ -1,4 +1,12 @@
-# Use Open Information / Science to Enhance Credibility
+---
+title: Use Open Information / Science to Enhance Credibility
+description: 
+published: true
+date: 2021-04-19T20:47:18.478Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:43.537Z
+---
 
 ## Motivation
 
