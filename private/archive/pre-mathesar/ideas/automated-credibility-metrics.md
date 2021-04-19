@@ -1,4 +1,12 @@
-# Automated Credibility Metrics
+---
+title:  Automated Credibility Metrics
+description: 
+published: true
+date: 2021-04-19T20:52:55.870Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:19.529Z
+---
 
 Related to [credibility](credibility.md).
 
