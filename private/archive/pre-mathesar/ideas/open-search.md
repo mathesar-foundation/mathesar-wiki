@@ -1,4 +1,12 @@
-# Open Search
+---
+title: Open Search
+description: 
+published: true
+date: 2021-04-19T20:58:37.868Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:19:02.977Z
+---
 
 ## Vision
 The long term vision for “Open Search” is to
