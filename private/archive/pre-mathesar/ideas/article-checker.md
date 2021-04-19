@@ -2,13 +2,13 @@
 title: Article Checker
 description: 
 published: true
-date: 2021-04-19T20:52:19.166Z
+date: 2021-04-19T21:16:48.880Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:18:12.871Z
 ---
 
-Related to [credibility](credibility).
+Related to [credibility](../goals/credibility).
 
 ## Problem
 
