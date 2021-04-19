@@ -1,4 +1,12 @@
-# Information Genealogy Project
+---
+title: Information Genealogy Project
+description: 
+published: true
+date: 2021-04-19T20:56:53.743Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:18:49.311Z
+---
 
 Related to [credibility](credibility.md), [](innovate-discovery.md), and maybe [](accelerate-innovation.md).
 
