@@ -1,4 +1,12 @@
-# Innovate discovery
+---
+title: Innovate Discovery
+description: 
+published: true
+date: 2021-04-19T20:48:59.020Z
+tags: 
+editor: markdown
+dateCreated: 2021-04-19T20:17:56.539Z
+---
 
 ## Motivation
 Most search engines and experiences have more-or-less the same user flow.  You
