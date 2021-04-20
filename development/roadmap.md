@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-04-20T19:43:28.320Z
+date: 2021-04-20T19:47:59.425Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -11,7 +11,7 @@ dateCreated: 2021-04-20T19:43:28.320Z
 This is the Mathesar roadmap for the next few months until we get to a mininum viable product. Each section represents a conceptual grouping of features.
 
 > We are still finalizing the roadmap and it is expected to change significantly over the next few weeks. This notice will be removed when the roadmap is more stable.
-{.is-danger}
+{.is-warning}
 
 ## Installation and Configuration
 
@@ -100,37 +100,6 @@ Users should be able to perform these actions in both the GUI and API:
 	- Date & Time, Date, Time support all grouping options supported by Postgres EXTRACT function.
 	- Duration: Range
 - Allow filtering using natural language for dates (e.g. "next month")
-
-## Location Type
-- Add new type, using existing PostGIS type where possible:
-	- Location
-- Autodetect this type during import
-- Allow user to change columns to this type
-- Add additional grouping options:
-	 Street Address
-	 Country
-	 Administrative Area Level 1 *(in the US, these are states)*
-	 Administrative Area Level 2 *(in the US, these are counties)*
-	 Administrative Area Level 3
-	 Administrative Area Level 4
-	 Administrative Area Level 5
-	 Locality *(city/town)*
-	 Sublocality *(subdivision of city/town)*
-	 Neighborhood
-	 Postal Code
-	 Latitude
-	 Longitude
-
-The attributes of the location column type are based on results returned by the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview), Since they\'ve done the work of putting addresses into a global format.
-
-## Phone Number Type
-- Add new type
-	- Phone Number
-- Autodetect this type during import
-- Allow user to change columns to this type
-- Add grouping options:
-	- Country Code
-	- Area Code
 
 ## Relationship Type
 Users should be able to:
