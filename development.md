@@ -2,14 +2,11 @@
 title: Development
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-04-20T20:01:58.698Z
+date: 2021-04-20T20:37:35.182Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
 ---
-
-> This section of the wiki is for notes and resources related to Mathesar development. The content here may be disorganized/rough and subject to frequent change.
-{.is-warning}
 
 # Development Process
 Most of our work happens on GitHub. We create GitHub issues to track everything we're working on.
@@ -27,7 +24,10 @@ In addition, the Mathesar core team meets weekly to plan out work and does publi
 We are not yet ready for contributions from the public, but hope to be ready by mid-May 2021. We're still deciding on an open source license and finalizing our initial roadmap.
 
 # Notes
-These are notes on various topics.
+> This section of the wiki is for notes and resources related to Mathesar development. The content here is disorganized/rough and potentially outdated.
+{.is-warning}
+
+- [:wrench: Implementation *Notes on various implementation details*](/development/implementation)
 - [:classical_building: Technology *Notes and resources related to technology choices*](/development/technology)
 - [:earth_asia: Community *Notes on building a community*](/development/community)
 - [:books: Resources *Links to potentially interesting resources.*](/development/resources)
