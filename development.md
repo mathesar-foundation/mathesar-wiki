@@ -2,7 +2,7 @@
 title: Development
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-04-20T16:15:59.765Z
+date: 2021-04-20T16:33:15.472Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -12,7 +12,6 @@ dateCreated: 2021-04-20T16:15:59.765Z
 {.is-warning}
 
 # Development Process
-
 Most of our work happens on GitHub. We create GitHub issues to track everything we're working on.
 
 - [Mathesar code](https://github.com/centerofci/mathesar)
@@ -25,5 +24,9 @@ We use Matrix for ephemeral conversation. You can find us on [`#mathesar:matrix.
 In addition, the Mathesar core team meets weekly to plan out work and does public daily standups asynchronously on Matrix on [`#mathesar-standup:matrix.org`](https://matrix.to/#/#mathesar-standup:matrix.org).
 
 # Contributing
-
 We are not yet ready for contributions from the public, but hope to be ready by mid-May 2021. We're still deciding on an open source license and finalizing our initial roadmap.
+
+# Notes
+These are notes on various topics.
+- [:books: Resources *Links to potentially interesting resources.*](/development/resources)
+{.links-list}
