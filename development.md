@@ -2,7 +2,7 @@
 title: Development
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-04-20T18:51:03.407Z
+date: 2021-04-20T19:04:11.117Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -31,3 +31,4 @@ These are notes on various topics.
 - [:earth_asia: Community *Notes on building a community*](/development/community)
 - [:books: Resources *Links to potentially interesting resources.*](/development/resources)
 {.links-list}
+- [:briefcase: Jobs *Jobs for Mathesar*](/development/community)
