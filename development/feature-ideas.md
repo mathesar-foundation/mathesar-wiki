@@ -2,7 +2,7 @@
 title: Feature Ideas
 description: Ideas for features that aren't in our roadmap yet.
 published: true
-date: 2021-04-20T19:47:31.098Z
+date: 2021-04-20T19:48:52.346Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:47:31.098Z
@@ -25,6 +25,37 @@ Users should be able to import data in the following additional formats:
 - Apple Numbers file upload
 - Collabora import
 - Airtable
+
+## Location Type
+- Add new type, using existing PostGIS type where possible:
+	- Location
+- Autodetect this type during import
+- Allow user to change columns to this type
+- Add additional grouping options:
+	 Street Address
+	 Country
+	 Administrative Area Level 1 *(in the US, these are states)*
+	 Administrative Area Level 2 *(in the US, these are counties)*
+	 Administrative Area Level 3
+	 Administrative Area Level 4
+	 Administrative Area Level 5
+	 Locality *(city/town)*
+	 Sublocality *(subdivision of city/town)*
+	 Neighborhood
+	 Postal Code
+	 Latitude
+	 Longitude
+
+The attributes of the location column type are based on results returned by the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview), Since they\'ve done the work of putting addresses into a global format.
+
+## Phone Number Type
+- Add new type
+	- Phone Number
+- Autodetect this type during import
+- Allow user to change columns to this type
+- Add grouping options:
+	- Country Code
+	- Area Code
 
 ## Additional Fields
 - File field (for images, attachments, etc.)
