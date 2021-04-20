@@ -2,13 +2,15 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-04-20T19:47:59.425Z
+date: 2021-04-20T19:48:28.304Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
 ---
 
 This is the Mathesar roadmap for the next few months until we get to a mininum viable product. Each section represents a conceptual grouping of features.
+
+Please see [Feature Ideas](/development/feature-ideas) for ideas that haven't made it to our roadmap yet.
 
 > We are still finalizing the roadmap and it is expected to change significantly over the next few weeks. This notice will be removed when the roadmap is more stable.
 {.is-warning}
