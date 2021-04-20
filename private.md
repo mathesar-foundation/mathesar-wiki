@@ -2,7 +2,7 @@
 title: Private Area
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-04-20T16:48:12.730Z
+date: 2021-04-20T16:52:11.845Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
@@ -14,6 +14,7 @@ Most information about Mathesar should be in the public section of this wiki (an
 
 - Raw user interview notes and videos
 - Notes on competitors
+- Notes on potential collaborations
 - Notes on product strategy and publicity
 
 Please add more things above if you think of any.
