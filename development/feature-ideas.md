@@ -2,7 +2,7 @@
 title: Feature Ideas
 description: Ideas for features that aren't in our roadmap yet.
 published: true
-date: 2021-04-20T19:48:52.346Z
+date: 2021-04-20T19:49:02.448Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:47:31.098Z
@@ -64,6 +64,7 @@ The attributes of the location column type are based on results returned by the 
 - JSON field
 
 ## Additional Views
+- Map view
 - Card (Gallery) view
 - Kanban view
 - Data modeling view (of entire schema or database)
