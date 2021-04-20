@@ -2,7 +2,7 @@
 title: Concepts
 description: Early notes on product concepts for Mathesar
 published: true
-date: 2021-04-20T20:44:01.795Z
+date: 2021-04-20T20:49:23.126Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:44:01.795Z
@@ -10,7 +10,6 @@ dateCreated: 2021-04-20T20:44:01.795Z
 
 > This page is in the **Archive** because it's out of date.
 {.is-warning}
-
 
 These are concepts that are relevant to the product. In general, these are user-facing concepts (with a few exceptions). This is not intended to be a spec of the necessary technical/implementation concepts.
 
