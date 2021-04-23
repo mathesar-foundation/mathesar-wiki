@@ -2,7 +2,7 @@
 title: Implementation
 description: Notes related to implementation details.
 published: true
-date: 2021-04-20T20:34:57.900Z
+date: 2021-04-23T11:45:31.370Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -10,8 +10,8 @@ dateCreated: 2021-04-20T20:34:57.900Z
 
 This document will hold the beginnings of some notes about tech, including design and implementation ideas.
 
-> See also: [Technology](/development/technology)
-{.is-info}
+> This information is outdated and mainly preserved for historical purposes.
+{.is-warning}
 
 We'll refer to tables, schemas, databases, etc. defined by the user through the interface (as opposed to service model tables) as UD-{tables|schemas|databases|etc.}
  
