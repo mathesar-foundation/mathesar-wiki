@@ -2,7 +2,7 @@
 title: April 2021 meeting notes
 description: 
 published: true
-date: 2021-04-23T11:40:31.327Z
+date: 2021-04-23T11:42:03.214Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-23T11:36:19.054Z
@@ -97,7 +97,7 @@ dateCreated: 2021-04-23T11:36:19.054Z
       - Ghislaine will do some research and write up user journey
       - Then we'll measure roadmap against it and refine roadmap
 
-## Kriti's use cases for Mathesar:
+## Kriti's use cases for Mathesar
   - Book collection inventory
       - would be great to support barcode scanning that looks up books
   - DVD/Bluray collection inventory
