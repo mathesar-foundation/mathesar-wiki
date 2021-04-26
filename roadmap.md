@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-04-20T19:48:28.304Z
+date: 2021-04-26T18:11:15.456Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -15,36 +15,27 @@ Please see [Feature Ideas](/development/feature-ideas) for ideas that haven't ma
 > We are still finalizing the roadmap and it is expected to change significantly over the next few weeks. This notice will be removed when the roadmap is more stable.
 {.is-warning}
 
-## Installation and Configuration
-
-Users should be able to:
-- Follow provided instructions to install Mathesar on a server.
-	- The installation process should only install PostgreSQL if needed.
-- Access existing PostgreSQL databases via Mathesar using existing PostgreSQL user credentials.
-	- Existing databases should reflect all columns and types correctly in the user interface.
-- Set up a PostgreSQL server automatically if none exists.
-- Create a new database from scratch.
-- Create an initial user if needed.
-- Configure sending email (for password resets, notifications)
-
 ## CRUD For Tables & Schemas
 Users should be able to perform these actions in both the GUI and API:
+
+### GUI & API
 - Create a new table
 	- in an existing schema
 	- in a new schema
 - Create a table via importing data via
 	- CSV
 	- TSV
-	- copy/paste from a spreadsheet
 - View a table and see what type each column is.
 - Edit a table name
 - Edit a schema name
-- Edit the data in their table using a spreadsheet-like interface
-	- e.g. fill down cells by dragging a corner
 - Delete a table
 - Delete a schema
 
-At this point, all columns are displayed and edited as strings. We will support reflecting types from the database, but we\'re not going to be doing anything with those types yet.
+### GUI only
+- Create a table via
+	- copy/paste from a spreadsheet
+- Edit the data in their table using a spreadsheet-like interface
+	- e.g. fill down cells by dragging a corner
 
 ## Filtering, Sorting, Grouping
 Users should be able to perform these actions in both the GUI and API:
@@ -113,7 +104,6 @@ Users should be able to:
 Users should be able to:
 - Save filtered/sorted/grouped tables as views.
 - Create a calendar view based on date and time fields in their data
-- Create a map view based on locations in their data
 - Create a histogram chart view based on their data
 - Create a pie chart view based on their data
 - Create a line graph view based on their data
@@ -130,6 +120,18 @@ Users should be able to:
 	- Support different types of subtotals: SUM, AVG, MIN, MAX, MED
 - Create summary views based on subtotals, and use that data in views
 	- e.g. given a database of sales with dates, create a summary view of sales per quarter and put that into a histogram
+
+
+## Installation and Configuration
+Users should be able to:
+- Follow provided instructions to install Mathesar on a server.
+	- The installation process should only install PostgreSQL if needed.
+- Access existing PostgreSQL databases via Mathesar using existing PostgreSQL user credentials.
+	- Existing databases should reflect all columns and types correctly in the user interface.
+- Set up a PostgreSQL server automatically if none exists.
+- Create a new database from scratch.
+- Create an initial user if needed.
+- Configure sending email (for password resets, notifications)
 
 ## User Management
 Users should be able to:
