@@ -8,6 +8,74 @@ editor: markdown
 dateCreated: 2021-04-23T11:36:19.054Z
 ---
 
+# 2021-04-26
+## Welcome Pavish!
+- Welcome!
+
+## Last week retrospective
+- Ghislaine: wireframes & roadmap update
+    - Went well
+    - Discovered a lot of things while making wireframes
+    - Need to agree on what we'll cover in wireframes, and what we'll do in later steps
+        - See questions in notes
+- Brent:
+    - Library splitting done
+    - Code moving over from prototype - in progress
+        - Crucial method in SQLAlchemy deprecated (meant to be internal method)
+    - Doing a better job of testing the Mathesar db library (someday could be pip installable on its own)
+    - Setup Mathesar to work with existing Postgres DB.
+- Kriti:
+    - Everything is now moved to the wiki
+    - Collections -> tables, Applications -> schemas
+    - Read-only APIs (APIs ongoing, CRUD and records API pending)
+- Pavish:
+    - Set up his CCI account
+    - Started discussion re: front-end framework and repo structure
+    - Finalized Svelte/Django templates + monorepo
+
+## This week's plan
+- Ghislaine:
+    - Wireframes for data explorer
+    - Move current work to wiki
+- Brent:
+    - Finish moving code over from the prototype
+    - Types:
+        - String
+        - Email
+        - Number types
+        - Datetime types
+- Kriti:
+    - Update roadmap based on current work
+    - Finish API work
+    - Sync database tables and webapp tables
+    - Import TSVs as well as CSVs
+- Pavish:
+    - Set up frontend repo
+    - Set up workflows required for client
+    - Set up Docker
+    
+## Community readiness check-in
+- License
+    - Hopefully finalized next week
+- Ticket creation
+    - Depends on wireframes/roadmap finalization, at least a couple of weeks away
+- Other community building ideas?
+    - Too early
+
+## Internship update
+- FYI, we have an intern from May 17 to Aug 20 (`@eito-fis`)
+
+## Team event
+- Galaxy Quest
+
+## Discussion
+- How to install Mathesar?
+    - Use docker for now
+    - Installation instructions for deployment, we'll figure this out as its own task:
+        - see wiki.js as an example https://docs.requarks.io/install
+- How to handle large amounts of data?
+    - Two approaches: canvas vs. replace data in elements
+
 # 2021-04-19
 ## Frontend hiring update
   - Pavish is onboard, pending logistics
