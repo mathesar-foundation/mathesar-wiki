@@ -2,7 +2,7 @@
 title: Technology
 description: Notes on technology
 published: true
-date: 2021-04-28T12:52:31.416Z
+date: 2021-04-28T12:53:37.011Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:56:46.300Z
@@ -30,7 +30,9 @@ We considered these options for the frontend:
 	- [HTMX](https://htmx.org/)
 	- [Django Unicorn](https://www.django-unicorn.com/)
 
-See ["Deciding the frontend framework" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/55) for more detail.
+> See ["Deciding the frontend framework" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/55) for the final decision.
+{.is-info}
+
 
 ## Django Tenants
 
