@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-04-29T17:28:01.167Z
+date: 2021-04-29T19:51:38.357Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -28,6 +28,7 @@ Please follow these guidelines when reviewing PRs.
 - Request changes if you want another look at the PR before it is merged.
 - Resolve your own comments, do not resolve anyone else's.
 - If you approve the PR, merge it unless someone else has requested changes.
+- If the branch needs to be updated before merging (because it's out-of-date with the master branch), do so, as long as the action can be performed automatically.  Otherwise, ask the Author to handle it.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
 
 # Reading
