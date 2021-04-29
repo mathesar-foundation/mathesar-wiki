@@ -2,7 +2,7 @@
 title: Development
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-04-23T11:44:18.278Z
+date: 2021-04-29T17:28:20.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -24,8 +24,8 @@ In addition, the Mathesar core team meets weekly to plan out work and does publi
 We are not yet ready for contributions from the public, but hope to be ready by mid-May 2021. We're still deciding on an open source license and finalizing our initial roadmap.
 
 # Notes
-
 - [:memo: Meeting Notes *Our team's meeting notes*](/development/meeting-notes)
+- [:white_check_mark: Code Review *Code review guidelines*](/development/code-review)
 - [:wrench: Implementation *Notes on various implementation details*](/development/implementation)
 - [:classical_building: Technology *Notes and resources related to technology choices*](/development/technology)
 - [:earth_asia: Community *Notes on building a community*](/development/community)
