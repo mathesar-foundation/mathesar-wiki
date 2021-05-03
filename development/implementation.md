@@ -24,8 +24,7 @@ TODO: This will be important to get correct, but we need to do some reading; thi
 # DDL operations (Data Layer)
 Recall that DDL operations are those involving creating, altering, or dropping (deleting) database objects like:
 - Tables
-- Views
-- UDFs (functions)
+- Views - UDFs (functions)
 
 The main interest we'll have in these operations in this context is to allow the user to refine or modify their data model, and have that model reflected in the underlying DB model. We'll mostly focus on table (table) creation and manipulation, since that's the main expected operation of this type.
 
@@ -33,7 +32,14 @@ The main interest we'll have in these operations in this context is to allow the
 - User should be able to create tables
 - User should be able to define tables in terms of already existing tables (e.g., joins, or by splitting columns out of a table)
 - User should be able to recover previous models. For DDL ops, it's not clear this should be an "undo" flow. The user might start with one big table, normalize their DB schema to reduce repetition for some manual input, then want to see everything back on one big table again. It's more of having different models with the same underlying data.
-  
+
+## DDL function signatures
+- Since DDL operations do not consistently support transactions, we should prioritize safety and correctness for these functions.
+- In python, these functions should take non-immutable types (e.g., strings) as input, and return non-immutable types as outputs.
+- Ideally, these immutable types should be strings.
+  - This will enhance safety of these functions, and guarantee that they check the DB themselves for its state before commencing any changes.
+  - This will also enable better composability of these functions (it's easy to chain functions together that have the same output type (or tuples of it) as input type)
+
 ## Implementation options
 1. Map table creation, deletion or modification directly to underlying tables (create, drop, or alter)
 	- Conceptually simple
@@ -63,7 +69,7 @@ The main interest we'll have in these operations in this context is to allow the
 
 	For tables that we intend the user to be able to insert into, it might be best to use materialized views, with the intricate set of triggers in place to keep things consistent. It should be possible to iteratively generate these triggers as the user creates new tables under most (maybe all? not sure...) circumstances. For other tables, where input to the table makes no sense, we might want to just call them "views" even in the UI, and use normal views (or materialize them if desired for performance). An example of this would be a view involving aggregation of data from another table. It doesn't make sense to insert into such an aggregation.
 
-# Data Input and Modification operations (Data Layer)
+# DML operations (Data Layer)
 This section deals with details about importing data, adding it to tables, and modifying/deleting records from tables.
 
 ## Goals
@@ -74,6 +80,13 @@ This section deals with details about importing data, adding it to tables, and m
   - They might still want to import more data in the original format (say from an updated version of the original source).
   - They might want to also add data manually using the improved model.
 - Undo. The user should be able to undo inserts (easy), deletes (kinda easy) and updates (a little more difficult).
+
+## DML Function signatures
+- These (as opposed to DDL functions) are allowed mutable types (e.g., an SQLAlchemy `Table` object as input and output)
+- We'll prioritize speed and efficiency over safety and accuracy for these.
+  - We expect these functions to be run quite often, and for reactivity to be essential.
+  - All DML operations are transactional in PostgreSQL (and indeed in the SQL standard).
+  - We expect these functions to be run quite often, and for reactivity to be essential.
 
 ## Undo / Audit Implementation 
 We should keep an audit table for each table/view that's modifiable in a user's database. Two options are possible for this implementation:
