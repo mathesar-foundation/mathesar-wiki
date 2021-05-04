@@ -1,8 +1,8 @@
 ---
-title: # Design Explorations
-description: Exploratory design documents
+title: Design Explorations
+description: Exploratory design documents for research and discovery
 published: true
-date: 2021-05-04T18:22:27.710Z
+date: 2021-05-04T18:23:14.864Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
