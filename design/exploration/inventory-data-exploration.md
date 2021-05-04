@@ -2,7 +2,7 @@
 title: Inventory: Data Exploration
 description: 
 published: true
-date: 2021-05-04T18:37:21.882Z
+date: 2021-05-04T18:48:21.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:37:21.882Z
@@ -69,7 +69,7 @@ There are two alternatives to solve this step, and each has its pros and cons.
 
 ## User creates a relationship between two tables
 
-*Coming soon.*
+![upload_c3499aaef0865fe3837e3308a6adadef.gif](/upload_c3499aaef0865fe3837e3308a6adadef.gif)
 
 # Questions & Notes
 
