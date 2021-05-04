@@ -2,13 +2,11 @@
 title: Inventory Use Case
 description: 
 published: true
-date: 2021-05-04T18:19:10.451Z
+date: 2021-05-04T18:19:24.779Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:19:10.451Z
 ---
-
-###### tags: `design`
 
 # User Journey Overview
 The following is a top-level overview of the different steps and screens a user would go through in order to set up a simple inventory project.
