@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-04-20T20:03:35.872Z
+date: 2021-05-05T19:02:23.894Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -16,6 +16,7 @@ We are in early development and hope to launch an alpha version of Mathesar by f
 # Sections
 - [:construction: Roadmap *Features that we plan to build*](/roadmap)
 - [:bulb: Feature ideas *Ideas that haven't made it to the roadmap yet*](/feature-ideas)
+- [:art: Design *Notes and resources related to the design of Mathesar*](/design)
 - [:hammer_and_pick: Development *Notes and resources for Mathesar developers*](/development)
 {.links-list}
 
