@@ -2,7 +2,7 @@
 title: Data Management Skills
 description: 
 published: true
-date: 2021-05-05T19:51:39.792Z
+date: 2021-05-05T19:56:23.147Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T19:11:08.621Z
@@ -10,7 +10,8 @@ dateCreated: 2021-05-04T19:11:08.621Z
 
 This research project explores the factors that influence the adoption and acquisition of data management skills and how Mathesar can minimize the negative impact of skill gaps in this area.
 
-# What are data management skills?
+# Data management skills?
+## What are data management skills?
 Data management skills are learned abilities that allow people to accomplish different goals using data. These skills are applied to various scenarios, such as when working with data as part of a business process or creating data-driven strategies. It's important to note that data management skills are not necessarily about technology alone. There are also procedural and conceptual aspects that influence proficiency in this area.
 
 Most data management skills fall into the following categories:
