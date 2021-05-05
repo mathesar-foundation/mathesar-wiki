@@ -2,7 +2,7 @@
 title: Data Management Skills
 description: 
 published: true
-date: 2021-05-05T18:57:57.996Z
+date: 2021-05-05T19:51:39.792Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T19:11:08.621Z
@@ -31,7 +31,10 @@ Most data management skills fall into the following categories:
     * Clearly understand a database usage purpose
     * Produce complete and reliable information of events in a process
 
-So, for example, in the case of tracking health data, as per Kriti's example:
+## Adapting use cases to data management skill levels
+We rely on use cases to come up with different scenarios and situations where applying Mathesar can solve a user problem. However, if the use case is very complex it can introduce a lot of variables and make it harder to incrementally work on defining and implementing Mathesar's set of features and functionality.
+
+For example, in the case of tracking health data, as per Kriti's example:
 > "Would be great to be able to upload Apple Health exports, Migraine Buddy exports, MyFitnessPal exports, etc. and find patterns in data, correlate different types of data."
 
 A user looking to accomplish this task will require almost all of the skills listed above, except maybe for SQL and workflow optimization ones. A user will need to obtain the data from different sources, determine the correct data types, combine datasets and identify patterns.
