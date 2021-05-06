@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-06T18:51:50.334Z
+date: 2021-05-06T18:54:32.620Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -16,7 +16,9 @@ Most of our work happens on GitHub. We create GitHub issues to track everything 
 - [Active project on GitHub](https://github.com/centerofci/mathesar/projects/1): tasks we're currently working on
 - [Backlog project](https://github.com/centerofci/mathesar/projects/2): tasks planned for the future. New issues end up here automatically for triage.
 
-We use Matrix for ephemeral conversation. You can find us on [`#mathesar:matrix.org`](https://matrix.to/#/#mathesar:matrix.org) or our [Matrix community](https://matrix.to/#/+mathesar:matrix.org).
+We try and keep our communication public. See:
+- [Meeting Notes](/meeting-notes)
+- [Community](/community)
 
 # Sections
 - [:white_check_mark: Code Review *Code review guidelines*](/engineering/code-review)
