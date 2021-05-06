@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-06T15:01:06.174Z
+date: 2021-05-06T15:01:15.194Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -44,7 +44,7 @@ These principles are not directly applicable to the use case above, but are bein
 ## Records
 - Users should be able to manage records using the GUI or API (view, create, edit, delete)
 
-## TODO: Cleanup
+# TODO: Cleanup
 
 ## CRUD For Tables & Schemas
 Users should be able to perform these actions in both the GUI and API:
