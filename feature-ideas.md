@@ -2,15 +2,15 @@
 title: Feature Ideas
 description: Ideas for features that aren't in our roadmap yet.
 published: true
-date: 2021-05-06T14:36:34.855Z
+date: 2021-05-06T18:19:16.652Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:47:31.098Z
 ---
 
 These are potential feature ideas for Mathesar. Each section represents a conceptual grouping of features.
-> 
-> We are still finalizing the roadmap and it is expected to change significantly over the next few weeks. This notice will be removed when the roadmap is more stable.
+
+> Please note that this list is long and disorganized. Some are slated to be built in our roadmap, and others we might not build at all.
 {.is-warning}
 
 ## CRUD For Tables & Schemas
