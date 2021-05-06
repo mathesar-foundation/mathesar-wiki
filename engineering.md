@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-06T18:17:16.444Z
+date: 2021-05-06T18:17:39.109Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -27,5 +27,5 @@ We are not yet ready for contributions from the public, but hope to be ready by 
 - [:white_check_mark: Code Review *Code review guidelines*](/engineering/code-review)
 - [:wrench: Implementation *Notes on various implementation details*](/engineering/implementation)
 - [:classical_building: Technology *Notes and resources related to technology choices*](/engineering/technology)
-- [:books: Resources *Links to potentially interesting resources.*](/development/resources)
+- [:books: Resources *Links to potentially interesting resources.*](/engineering/resources)
 {.links-list}
