@@ -1,8 +1,8 @@
 ---
 title: Community
-description: Notes on building the Mathesar community
+description: Introduction to the Mathesar community
 published: true
-date: 2021-05-06T18:44:21.437Z
+date: 2021-05-06T18:45:03.797Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
