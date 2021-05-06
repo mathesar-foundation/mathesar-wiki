@@ -2,18 +2,49 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-04-26T18:16:30.439Z
+date: 2021-05-06T15:01:06.174Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
 ---
 
-This is the Mathesar roadmap for the next few months until we get to a mininum viable product. Each section represents a conceptual grouping of features.
+# Introduction
 
-Please see [Feature Ideas](/feature-ideas) for ideas that haven't made it to our roadmap yet.
+This version of the roadmap is only for the alpha/minimum viable product (MVP) version of Mathesar, expected to ship fall 2021. Our plan is to build all the features required for a user for a very simple use case. Once we've shipped that, we will then expand the roadmap based on user feedback and enabling more complex use cases.
 
-> We are still finalizing the roadmap and it is expected to change significantly over the next few weeks. This notice will be removed when the roadmap is more stable.
-{.is-warning}
+The initial use case we've chosen is a user creating and maintaining a basic inventory of their media collection using Mathesar. Please see the following design documents for more information:
+- [Inventory Use Case exploratory document](/design/exploration/inventory-use-case)
+- [Inventory: Data Exploration exploratory document](/design/exploration/inventory-data-exploration)
+- [Inventory Use Case report/conclusions](/design/reports/inventory-use-case)
+
+The roadmap below reflects the features needed to create a good user experience for this use case.
+
+# General Principles
+These principles are not directly applicable to the use case above, but are being followed to ensure that our architecture works for our eventual vision.
+
+- Mathesar should be able to work with existing databases without altering data, even if not all features are available.
+- Mathesar should support other frontend clients (all actions should be available via API)
+
+# Roadmap
+
+## Database
+- Users should be able to configure a Postgres database to use with Mathesar.
+- We should create the configured database if it does not exist.
+
+## Schemas
+- Users should be able to manage schemas using the GUI or API (view, create, edit, delete)
+
+## Tables
+- Users should be able to manage tables using the GUI or API (view, create, edit, delete)
+- Users should be able to create a table through the following methods:
+	- Uploading a CSV file
+  - Uploading a TSV file
+  - Copy/pasting from a spreadsheet.
+
+## Records
+- Users should be able to manage records using the GUI or API (view, create, edit, delete)
+
+## TODO: Cleanup
 
 ## CRUD For Tables & Schemas
 Users should be able to perform these actions in both the GUI and API:
@@ -163,3 +194,7 @@ Users should be able to:
 	- JSON
 	- Excel
 	- XML
+
+> Please see [Feature Ideas](/feature-ideas) for a long and non-organized list of feature ideas that we're drawing from.
+{.is-info}
+
