@@ -2,14 +2,14 @@
 title: Engineering Decisions
 description: Reference for major engineering decisions
 published: true
-date: 2021-05-06T19:17:12.011Z
+date: 2021-05-06T19:20:58.117Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T19:17:12.011Z
 ---
 
 ## May 2021
-- Finalized implementation details for table creation from file imports
+- We finalized implementation details for table creation from file imports.
   - **Discussion**: [CSV importing / type inference](https://github.com/centerofci/mathesar/discussions/104)
 
 ## April 2021
