@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-06T16:52:43.638Z
+date: 2021-05-06T18:05:52.706Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -65,81 +65,58 @@ These principles are not directly applicable to the use case above, but are bein
 - Users should be able to see data types for their column correctly even if they are not on the above list (which means that Mathesar does not support changing to that type yet).
 
 ## Filtering, Sorting, Grouping
-Users should be able to perform these actions in both the GUI and API:
-- Filter the table by rules applied to data in various fields.
-- Sort the table by various fields.
-- Group results by the first character of any given field.
-- Group results by the first word of any given field.
+Users should be able to:
+- Filter tables by various fields.
+- Sort the tables by various fields.
+- Group results by various fields.
 - Apply multiple filters, groups, and/or sorts at once.
 
-# TODO: Cleanup
-
-
-
-## Views
-Users should be able to:
-- Save filtered/sorted/grouped tables as views.
-- Create a calendar view based on date and time fields in their data
-- Create a histogram chart view based on their data
-- Create a pie chart view based on their data
-- Create a line graph view based on their data
-- Create a scatter plot view based on their data
-- View all saved views and switch between views
-- Set a default view for a table/schema
-- Delete a view
-- Rename a view
+Each data type will support its own types of filtering and grouping. These will be detailed elsewhere.
 
 ## Computed Data
 Users should be able to:
 - Create a new column that computes data from other columns using forumulas.
 - Create "subtotals" for grouped views
 	- Support different types of subtotals: SUM, AVG, MIN, MAX, MED
-- Create summary views based on subtotals, and use that data in views
-	- e.g. given a database of sales with dates, create a summary view of sales per quarter and put that into a histogram
 
+## Views
+Users should be able to view, create, edit, and delete the following types of views:
+- Table view with custom filtering, sorting, and grouping
+- Calendar view based on data of date and time types
+- Histogram chart view
+- Pie chart view
+- Line graph view
+- Summary view based on computed subtotals
 
-## Installation and Configuration
-Users should be able to:
-- Follow provided instructions to install Mathesar on a server.
-	- The installation process should only install PostgreSQL if needed.
-- Access existing PostgreSQL databases via Mathesar using existing PostgreSQL user credentials.
-	- Existing databases should reflect all columns and types correctly in the user interface.
-- Set up a PostgreSQL server automatically if none exists.
-- Create a new database from scratch.
-- Create an initial user if needed.
-- Configure sending email (for password resets, notifications)
+## Sharing
+- Users should be able to share any view publicly
 
 ## User Management
 Users should be able to:
-- Log in
-- Log out
-- Create a new user with permissions: admin, editor, viewer
-- Change a user's permissions
-- Reset a user's password
-- Reset their own password (if email is enabled)
-
-## Collaboration
-- Users should be able to share tables, schemas, and/or views with either:
-	- the general public (no sign in required)
-	- all signed in users
-	- specific users
-- Each of these should support:
-	- admin, view, edit permissions
-- Existing postgres permissions should be respected/reflected
+- Log in and log out
+- Change their password
 
 ## Data Workflow Improvements
 Users should be able to:
 - Search for data across various tables and schemas
 - Bulk edit data
 - Bulk import new data into an existing collection
-- Export data to:
-	- SQL
-	- CSV
-	- TSV
-	- JSON
-	- Excel
-	- XML
+- Export data in common formats (to be defined)
 
-> Please see [Feature Ideas](/feature-ideas) for a long and non-organized list of feature ideas that we're drawing from.
+## User Documentation
+Users should be able to:
+- Follow provided instructions to install Mathesar on a server
+- Point Mathesar at an existing database or set up a new one
+- Install Mathesar on different operating systems and environments
+- Get help on how to use Mathesr
+
+## API
+Users should be able to:
+- Create, update, or delete an API token
+- Consult comprehensive API documentation
+
+Users should not be able to use the API without a token.
+
+# Future Features
+> Please see [Feature Ideas](/feature-ideas) for a long and disorganized list of feature ideas that we're drawing from to create this roadmap.
 {.is-info}
-
