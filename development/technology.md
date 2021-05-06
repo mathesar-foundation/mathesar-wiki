@@ -2,7 +2,7 @@
 title: Technology
 description: Notes on technology
 published: true
-date: 2021-04-28T12:53:37.011Z
+date: 2021-05-06T18:12:17.702Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:56:46.300Z
