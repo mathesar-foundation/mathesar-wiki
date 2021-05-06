@@ -2,14 +2,13 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-06T18:54:32.620Z
+date: 2021-05-06T18:54:49.834Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
 ---
 
-# Engineering Process
-Most of our work happens on GitHub. We create GitHub issues to track everything we're working on.
+Mathesar engineering work happens on GitHub. We create GitHub issues to track everything we're working on.
 
 - [Mathesar code](https://github.com/centerofci/mathesar)
 - [Mathesar GitHub Discussions](https://github.com/centerofci/mathesar/discussions): we discuss and document architectural decisions here.
