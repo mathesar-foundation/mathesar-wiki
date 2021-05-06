@@ -2,7 +2,7 @@
 title: Implementation
 description: Notes related to implementation details.
 published: true
-date: 2021-04-23T11:46:55.384Z
+date: 2021-05-06T19:24:25.226Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -17,9 +17,6 @@ We'll refer to tables, schemas, databases, etc. defined by the user through the 
  
 # Logic placement
 It's not yet clear which logic should live where. For example, we could implement "undo" logic either in PostgreSQL, or in python. If implemented in PostgreSQL, we'd get lots of tools (triggers, etc.) that could help us keep the data model consistent automatically, and ensure transactions work properly. However, this logic (i.e., any logic implemented in the DB itself) would be extremely difficult to test, and probably somewhat unapproachable for contributors. Any logic implemented in python would be more testable and approachable, but we'd lose lots of the actual DB functionality, and probably end up reimplementing things like triggers, etc.
-
-# Multitenancy
-TODO: This will be important to get correct, but we need to do some reading; this is a somewhat novel situation.
 
 # DDL operations (Data Layer)
 Recall that DDL operations are those involving creating, altering, or dropping (deleting) database objects like:
