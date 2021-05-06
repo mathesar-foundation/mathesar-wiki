@@ -2,13 +2,13 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-06T18:45:39.978Z
+date: 2021-05-06T18:49:52.640Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
 ---
 
-# Development Process
+# Engineering Process
 Most of our work happens on GitHub. We create GitHub issues to track everything we're working on.
 
 - [Mathesar code](https://github.com/centerofci/mathesar)
