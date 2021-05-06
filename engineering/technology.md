@@ -2,14 +2,13 @@
 title: Technology
 description: Notes on technology
 published: true
-date: 2021-05-06T19:01:08.316Z
+date: 2021-05-06T19:01:30.318Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:56:46.300Z
 ---
 
 # Stack
-Mathesar is built using:
 
 - [PostgreSQL](https://www.postgresql.org/) for the data storage
 - [Python](https://www.python.org/) for the backend
