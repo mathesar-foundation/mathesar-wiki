@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-06T15:01:15.194Z
+date: 2021-05-06T16:52:43.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -24,6 +24,7 @@ These principles are not directly applicable to the use case above, but are bein
 
 - Mathesar should be able to work with existing databases without altering data, even if not all features are available.
 - Mathesar should support other frontend clients (all actions should be available via API)
+- Mathesar's frontend should have a really intuitive and delightful user interface
 
 # Roadmap
 
@@ -43,30 +44,25 @@ These principles are not directly applicable to the use case above, but are bein
 
 ## Records
 - Users should be able to manage records using the GUI or API (view, create, edit, delete)
+- Users should be able to edit records using a spreadsheet-like interface.
 
-# TODO: Cleanup
-
-## CRUD For Tables & Schemas
-Users should be able to perform these actions in both the GUI and API:
-
-### GUI & API
-- Create a new table
-	- in an existing schema
-	- in a new schema
-- Create a table via importing data via
-	- CSV
-	- TSV
-- View a table and see what type each column is.
-- Edit a table name
-- Edit a schema name
-- Delete a table
-- Delete a schema
-
-### GUI only
-- Create a table via
-	- copy/paste from a spreadsheet
-- Edit the data in their table using a spreadsheet-like interface
-	- e.g. fill down cells by dragging a corner
+## Data Types
+- Users should be able to view and change the data types of columns in their table.
+- Users should be able to upload files to create tables and have Mathesar guess appropriate types for their data.
+- We will support the following data types:
+	- Text
+	- Email
+	- URL
+	- Boolean
+	- Number
+	- Money
+	- Percentage
+	- Date
+	- Time
+	- Date & Time
+	- Duration
+	- Relationship
+- Users should be able to see data types for their column correctly even if they are not on the above list (which means that Mathesar does not support changing to that type yet).
 
 ## Filtering, Sorting, Grouping
 Users should be able to perform these actions in both the GUI and API:
@@ -76,60 +72,9 @@ Users should be able to perform these actions in both the GUI and API:
 - Group results by the first word of any given field.
 - Apply multiple filters, groups, and/or sorts at once.
 
-## Multiple Types Support
-Users should be able to perform these actions in both the GUI and API:
-- Change the type of data per-column to any type supported by Postgres or PostGIS
-	- The data in the column will be validated.
-- Import data via any supported import method and have the types of data automatically detected during the import process
-	- Types are suggestions and can be changed by the user.
+# TODO: Cleanup
 
-## Boolean Type
-- Add new type (use Postgres type if possible):
-	- Boolean
-- Autodetect this type during import
-- Allow user to change columns to this type
-- Add additional grouping options by value (yes/no)
 
-## New Text Types
-- Add new types:
-	- Email
-	- URL
-- Autodetect these types during import
-- Allow user to change columns to these types
-- Add additional grouping options:
-	- Email: Domain
-	- URL: TLD, Protocol
-
-## Numeric Types
-- Add new types, using existing Postgres types where possible:
-	- Money (with specified currency)
-	- Percentage
-	- Number
-- Autodetect these types during import
-- Allow user to change columns to these types
-- Add additional grouping options:
-	- Number: Range (calculate range options dynamically based on data, e.g. if data varies from 1-100, ranges could be 1-10, 10-20, etc.)
-	- Money: Range, Currency
-	- Percentage: Range
-  
-## Date and Time Types
-- Add new types, using existing Postgres types where possible:
-	- Date & Time
-	- Date
-	- Time
-	- Duration
-- Autodetect these types during import
-- Allow user to change columns to these types
-- Add additional grouping options:
-	- Date & Time, Date, Time support all grouping options supported by Postgres EXTRACT function.
-	- Duration: Range
-- Allow filtering using natural language for dates (e.g. "next month")
-
-## Relationship Type
-Users should be able to:
-- Create a column that represents a relationship to another record (e.g. Book --> Author)
-- "Extract" a column from a table into a separate table (change the underlying schemas)
-- Choose which field from the other table to use to represent the relationship (e.g. if I'm displaying the Author in the Book table, I want to see the Author's name, not ID)
 
 ## Views
 Users should be able to:
