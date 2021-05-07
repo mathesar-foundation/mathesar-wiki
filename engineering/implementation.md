@@ -1,8 +1,8 @@
 ---
-title: Implementation
-description: Notes related to implementation details.
+title: Architecture
+description: Documents describing the technical design of Mathesar
 published: true
-date: 2021-05-07T15:06:09.412Z
+date: 2021-05-07T15:07:57.500Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
