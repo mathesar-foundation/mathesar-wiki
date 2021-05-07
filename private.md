@@ -2,7 +2,7 @@
 title: Private - Core Team Only
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-05-07T20:43:24.795Z
+date: 2021-05-07T20:46:35.371Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
@@ -23,9 +23,7 @@ Please add more things above if you think of any.
 - [:chart_with_upwards_trend: Strategy *Notes on strategy*](strategy)
 - [:raised_hands: Collaborations *Notes on potential collaborations*](collaborations)
 - [:man_in_tuxedo: Competitors *Notes on competitors*](competitors)
-- [:loud_sound: Publicity *Ideas for publicizing Mathesar.*](publicity)
+- [:loud_sound: Publicity *Ideas for publicizing Mathesar*](publicity)
+- [:wrench: Tools *Tools used by Mathesar team*](/private/tools)
 - [:file_cabinet: Archive *Content no longer relevant to current work.*](archive)
 {.links-list}
-
-# Other Pages
-- [Tools](/private/tools)
