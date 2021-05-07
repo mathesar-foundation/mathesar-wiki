@@ -2,13 +2,19 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2021-05-07T15:21:44.337Z
+date: 2021-05-07T15:27:18.949Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z
 ---
 
-# Database Objects
+# Database Layer
+
+## Database
+Databases are PostgreSQL databases.
 
 ## Tables
-Tables are Postgres tables.
+Databases are PostgreSQL tables.
+
+## Schemas
+Schemas are PostgreSQL schemas.
