@@ -2,7 +2,7 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2021-05-07T20:26:12.600Z
+date: 2021-05-07T20:26:53.035Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z
@@ -36,7 +36,7 @@ Each column in a table has an associated data type, which defines the type of da
 
 Mathesar will accurately show the type of data in the user interface to all the native data types that Postgres supports. Users can change the data type of existing columns to any of these types. 
 
-Mathesar also implements some custom types not available in PostgreSQL, as well as some custom filtering and grouping options for existing types. Only types for which we are implementing something custom are documented below; please consult [PostgreSQL documentation for the list of all native types]((https://www.postgresql.org/docs/current/datatype.html).
+Mathesar also implements some custom types not available in PostgreSQL, as well as some custom filtering and grouping options for existing types. Only types for which we are implementing something custom are documented below; please consult [PostgreSQL documentation for the list of all native types](https://www.postgresql.org/docs/current/datatype.html).
 
 ## Native Types
 These types are available in PostgreSQL, but have custom grouping options that we'll need to implement or create an interface for.
