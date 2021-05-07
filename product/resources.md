@@ -2,11 +2,13 @@
 title: Resources
 description: External reading and resources
 published: true
-date: 2021-05-07T19:05:00.832Z
+date: 2021-05-07T19:06:30.674Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T19:05:00.832Z
 ---
+
+This is a miscellaneous set of reading and resources that may or may not be relevant to Mathesar. **Feel free to add more!**
 
 * [Speed is the killer feature](https://bdickason.com/posts/speed-is-the-killer-feature/)
 * ["Early Work" by Paul Graham](http://paulgraham.com/early.html)
