@@ -2,7 +2,7 @@
 title: Private
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-05-07T18:25:20.175Z
+date: 2021-05-07T20:43:07.322Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
@@ -27,5 +27,5 @@ Please add more things above if you think of any.
 - [:file_cabinet: Archive *Content no longer relevant to current work.*](archive)
 {.links-list}
 
-# Internal Process
+# Other Pages
 - [Tools](/private/tools)
