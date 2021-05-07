@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-06T18:05:52.706Z
+date: 2021-05-07T20:39:53.771Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -17,14 +17,7 @@ The initial use case we've chosen is a user creating and maintaining a basic inv
 - [Inventory: Data Exploration exploratory document](/design/exploration/inventory-data-exploration)
 - [Inventory Use Case report/conclusions](/design/reports/inventory-use-case)
 
-The roadmap below reflects the features needed to create a good user experience for this use case.
-
-# General Principles
-These principles are not directly applicable to the use case above, but are being followed to ensure that our architecture works for our eventual vision.
-
-- Mathesar should be able to work with existing databases without altering data, even if not all features are available.
-- Mathesar should support other frontend clients (all actions should be available via API)
-- Mathesar's frontend should have a really intuitive and delightful user interface
+The roadmap below reflects the features needed to create a good user experience for this use case, while following our general [product principles](/product).
 
 # Roadmap
 
