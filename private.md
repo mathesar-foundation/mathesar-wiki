@@ -2,7 +2,7 @@
 title: Private
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-04-20T18:55:49.081Z
+date: 2021-05-07T18:25:20.175Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
@@ -19,10 +19,13 @@ Most information about Mathesar should be in the public section of this wiki (an
 
 Please add more things above if you think of any.
 
-# Sections
+# Notes
 - [:chart_with_upwards_trend: Strategy *Notes on strategy*](strategy)
 - [:raised_hands: Collaborations *Notes on potential collaborations*](collaborations)
 - [:man_in_tuxedo: Competitors *Notes on competitors*](competitors)
 - [:loud_sound: Publicity *Ideas for publicizing Mathesar.*](publicity)
 - [:file_cabinet: Archive *Content no longer relevant to current work.*](archive)
 {.links-list}
+
+# Internal Process
+- [Tools](/private/tools)
