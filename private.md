@@ -2,7 +2,7 @@
 title: Private - Core Team Only
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-05-07T20:46:35.371Z
+date: 2021-05-07T20:47:07.930Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
@@ -16,6 +16,7 @@ Most information about Mathesar should be in the public section of this wiki (an
 - Notes on competitors
 - Notes on potential collaborations
 - Notes on product strategy and publicity
+- Internal documentation on how the Mathesar team works at CCI
 
 Please add more things above if you think of any.
 
