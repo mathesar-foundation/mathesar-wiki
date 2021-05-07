@@ -2,13 +2,13 @@
 title: Product
 description: Pages related to the Mathesar product
 published: true
-date: 2021-05-07T20:39:20.887Z
+date: 2021-05-07T20:40:44.273Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T18:21:40.836Z
 ---
 
-# General Principles
+# Principles
 We're following these principles while building Mathesar:
 - Mathesar should be able to work as a frontend to existing databases without altering data, even if not all features are available.
 - Mathesar is built in a modular way, so that:
