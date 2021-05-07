@@ -1,8 +1,8 @@
 ---
-title: Private
+title: Private - Core Team Only
 description: This section is only accessible to the Mathesar core team.
 published: true
-date: 2021-05-07T20:43:07.322Z
+date: 2021-05-07T20:43:24.795Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-19T20:34:07.425Z
