@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-06T19:20:31.815Z
+date: 2021-05-07T15:10:01.237Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -25,7 +25,15 @@ We try and keep our communication public. See:
 
 # Notes
 - [:balance_scale: Engineering Decisions *Summary of major engineering decisions*](/engineering/decisions)
-- [:classical_building: Technology *Mathesar technology stack*](/engineering/technology)
-- [:wrench: Implementation *Notes on various implementation details*](/engineering/implementation)
+- [:classical_building: Architecture *Notes on Mathesar's technical design*](/engineering/implementation)
 - [:books: Resources *Links to potentially interesting resources.*](/engineering/resources)
 {.links-list}
+
+# Stack
+Mathesar is built using:
+- [PostgreSQL](https://www.postgresql.org/) for the data storage
+- [Python](https://www.python.org/) for the backend
+- [SQLAlchemy](https://www.sqlalchemy.org/) to talk to the database
+- [Django](https://www.djangoproject.com/) for the web application
+- [Django REST Framework](https://www.django-rest-framework.org/) for the API 
+- [Svelte](https://svelte.dev/) for the frontend
