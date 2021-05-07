@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-05-07T15:10:01.237Z
+date: 2021-05-07T15:10:30.082Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -25,7 +25,7 @@ We try and keep our communication public. See:
 
 # Notes
 - [:balance_scale: Engineering Decisions *Summary of major engineering decisions*](/engineering/decisions)
-- [:classical_building: Architecture *Notes on Mathesar's technical design*](/engineering/implementation)
+- [:classical_building: Architecture *Notes on Mathesar's technical design*](/engineering/architecture)
 - [:books: Resources *Links to potentially interesting resources.*](/engineering/resources)
 {.links-list}
 
