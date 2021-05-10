@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-05-04T19:07:07.187Z
+date: 2021-05-10T11:36:25.047Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -17,4 +17,5 @@ This is the homepage for Mathesar design, closely related to [Development](/deve
 {.links-list}
 
 # Design Process
-**Coming soon**
+- [:memo: Design Process *Design Process Overview*](/design/process)
+{.links-list}
