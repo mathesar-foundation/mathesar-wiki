@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-10T15:10:02.876Z
+date: 2021-05-10T15:17:20.654Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -35,7 +35,7 @@ To understand the user needs, we develop [use cases](/design/exploration/use-cas
 Design problems are concerned with design aspects of the product that are lacking, unresolved, or otherwise preventing a desirable future state from being achieved.
 
 ## Point-of-view, Goals and Constraints
-During the point-of-view phase, we turn the problem into an actionable, goal-oriented statement. Actionable is key here, as we understand there's no "right" product feature or design solution; we have to decide which is best for the situation we're in. The point of view is essential for decision-making and helps us focus our energies to prioritize. While no decision or solution has to be predetermined or fully worked out in advance, identifying the constraints of the problem and goals is critical to creating opportunities for innovation.
+During the point-of-view phase, we turn the problem into an actionable, goal-oriented statement. Actionable is key here, as we understand there's no "right" product feature or design solution; we have to decide which is best for the situation we're in. The point of view is essential for decision-making and helps us focus our energies to prioritize.
 
 ### Goals
 Transform the framed problems into a set of goals and use those to kickstart the possibility exploration process. 
