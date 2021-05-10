@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-10T11:32:19.017Z
+date: 2021-05-10T13:14:54.183Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -10,7 +10,8 @@ dateCreated: 2021-05-10T11:06:16.074Z
 
 # Design Process
 
-## Problem Framing
+
+## Design Problem Framing
 During this phase, we try to define the boundaries and context of the design problem by drawing connections between the current situation and the desired future state. Once we understand the gap that exists between these two, we can describe the design problem from the perspective of the user. We look at the problem from their perspective and consider what they need.
 
 ### Goals
@@ -34,8 +35,35 @@ To understand the user needs, we develop [use cases](/design/exploration/use-cas
 Design problems are concerned with design aspects of the product that are lacking, unresolved, or otherwise preventing a desirable future state from being achieved.
 
 
-## Define Point-of-view and Goals
-During the point-of-view phase, we turn the problem into an actionable, goal-oriented statement. Actionable is key here, as we understand there's no "right" product feature or design solution; we have to decide which is best for the situation we're in. The point of view is essential for decision-making and helps us focus our energies to prioritize.
-## Ideation
+## Point-of-view, Goals and Constraints
+During the point-of-view phase, we turn the problem into an actionable, goal-oriented statement. Actionable is key here, as we understand there's no "right" product feature or design solution; we have to decide which is best for the situation we're in. The point of view is essential for decision-making and helps us focus our energies to prioritize. While no decision or solution has to be predetermined or fully worked out in advance, identifying the constraints of the problem and goals is critical to creating opportunities for innovation.
+
+### Goals
+Transform the framed problems into a set of goals and use those to kickstart the possibility exploration process. 
+
+### Activities
+- **Exploratory Wireframing**
+- **User Journey Maps**
+- **Storyboards**
+
+## Explore Possibilities
+During this phase, we explore the universe of possible design solutions and identify those that can potentially help us meet the goals we're trying to achieve. Design solutions don't have to be fully worked out to start the selection process.
+
+### Goals
+Explore the different ways in which a design problem can be solved 
+
+### Activities
+- **Possibility Generation**: 
+- **Define Selection Criteria**
+- **Possibility Selection**
+
+### Questions
+#### How are ideas selected?
+We work towards selecting ideas in different ways, based on the implications of the decision being made. Some design solutions are critical for the product strategy, and others are less so. Identifying which ones are the most critical allows us define the criteria we're going to use during the final selection process.
+#### How do we balance methodology and creativity?
+As is the case with most design projects, there isn't a single correct outcome. While methods, when applied properly, have a solid chance of leading to good results, creativity often trumps methodology when exploring the seemingly endless options and nuances of design ideas. From time to time, we need to sacrifice our methodology in order to stay open to new possibilities, loosen up, and embrace the chaos. The fewer constraints we put on ourselves during the ideation process, the more creative we can get.
+
 ## Prototyping
+
+
 ## Testing
