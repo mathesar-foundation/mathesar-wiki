@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-10T15:06:02.010Z
+date: 2021-05-10T15:08:23.705Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -18,7 +18,7 @@ During this phase, we try to define the boundaries and context of the design pro
 Frame the design problems that need to be solved to implement the roadmap.
 
 ### Activities
-- **Research:** practical research on the problem from literature, user testing with prototypes, user interviews, and product feedback.
+- **Research:** practical research on the problem from literature review, user testing with prototypes, user interviews, and product feedback.
 - **Data Analysis:** learn more about the problem through analyzing qualitative and quantitative data.
 - **Facilitated Discussion:** foster a discussion to gain an understanding of the way each team member views the design problem.
 
