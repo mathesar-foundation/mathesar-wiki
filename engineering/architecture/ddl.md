@@ -2,13 +2,13 @@
 title: DDL Operations
 description: 
 published: true
-date: 2021-05-07T15:16:38.992Z
+date: 2021-05-11T19:46:39.280Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:15:13.597Z
 ---
 
-Recall that DDL operations are those involving creating, altering, or dropping (deleting) database objects like:
+Data Definition Language (DDL) operations are those involving creating, altering, or dropping (deleting) database objects like:
 - Tables
 - Views
 
