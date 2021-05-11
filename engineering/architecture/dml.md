@@ -2,13 +2,13 @@
 title: DML Operations
 description: 
 published: true
-date: 2021-05-07T15:16:22.341Z
+date: 2021-05-11T20:03:04.062Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:16:22.341Z
 ---
 
-This section deals with details about importing data, adding it to tables, and modifying/deleting records from tables.
+DML (Data Manipulation Language) operations involve adding (inserting), deleting, and modifying (updating) data in a database. This section deals with details about importing data, adding it to tables, and modifying/deleting records from tables.
 
 # Goals
 - User should be able to insert arbitrary data into tables.
