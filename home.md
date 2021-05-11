@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-05-07T20:44:22.548Z
+date: 2021-05-11T19:44:36.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -14,7 +14,7 @@ Mathesar is an open source project that aims to make databases accessible to non
 We are in early development and hope to launch an alpha version of Mathesar by fall 2021.
 
 # Sections
-- [:package: Product *Product roadmap, feature ideas, etc.*](/product)
+- [:package: Product *About Mathesar, product roadmap, feature ideas, etc.*](/product)
 - [:art: Design *Notes and resources related to the design of Mathesar*](/design)
 - [:hammer_and_pick: Engineering *Notes and resources for Mathesar developers*](/engineering)
 - [:earth_asia: Community *About the Mathesar community*](/community)
