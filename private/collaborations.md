@@ -2,7 +2,7 @@
 title: Collaborations
 description: 
 published: true
-date: 2021-04-20T16:50:34.660Z
+date: 2021-05-11T20:04:48.563Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:50:34.660Z
@@ -14,6 +14,7 @@ Notes on potential collaborations with organizations or individuals.
 These projects have solved problems similar to what we are trying to solve and are worth looking at to draw inspiration or code from. We could also integrate with them.
 - [Baserow](https://baserow.io/): Airtable equivalent
 - [Datasette](https://datasette.io/): lightweight tool for exploring and publishing data
+  - [Django SQL Dashboard](https://django-sql-dashboard.datasette.io/en/latest/), part of Datasette, involves running SQL queries against Django DB.
 - [OpenRefine](https://openrefine.org/): tool for cleaning up and extending messy data
 - [Airbyte](https://airbyte.io/): standardized data integration pipelines
 - [Apache Superset](https://superset.apache.org/): data visualization platform
