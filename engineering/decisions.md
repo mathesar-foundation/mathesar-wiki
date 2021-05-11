@@ -2,13 +2,19 @@
 title: Engineering Decisions
 description: Reference for major engineering decisions
 published: true
-date: 2021-05-06T19:20:58.117Z
+date: 2021-05-11T19:00:23.161Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T19:17:12.011Z
 ---
 
 ## May 2021
+- We finalized what we expect the Mathesar "Money" type to look like.
+	- **Discussion**: [Money type](https://github.com/centerofci/mathesar/discussions/118)
+- We're going to store timezones with local timezone information, not as UTC.
+  - **Discussion**: [Timezones](https://github.com/centerofci/mathesar/discussions/119)
+- We're using `NUMERIC` Postgres types to power our general "Number" type on the roadmap.
+	- **Discussion**: ["Number" types ](https://github.com/centerofci/mathesar/discussions/116)
 - We finalized implementation details for table creation from file imports.
   - **Discussion**: [CSV importing / type inference](https://github.com/centerofci/mathesar/discussions/104)
 
