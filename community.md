@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2021-05-06T18:45:03.797Z
+date: 2021-05-12T18:47:38.391Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-20T18:46:48.688Z
 
 Welcome to the Mathesar community! We'd love to have you involved in our project, as a contributor, a user or both!
 
-You are welcome to participate in our [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) and join us on [`#mathesar:matrix.org`](https://matrix.to/#/#mathesar:matrix.org) or our [other Matrix channels](https://matrix.to/#/+mathesar:matrix.org).
+You are welcome to participate in our [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) and join us on [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) or any of our publics room in the `matrix.mathesar.org` server.
 
 # Contributors
 We are not yet ready for contributions from the public, but hope to be ready by mid-June 2021. We're working to finalize our initial architecture and designs and build up a backlog of issues to contribute to.
