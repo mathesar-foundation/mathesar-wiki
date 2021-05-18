@@ -2,13 +2,17 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-18T21:43:30.063Z
+date: 2021-05-18T22:01:11.813Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
 ---
 
 There are five phases in our design process.
+
+> See [Documents](/design/process/documents) for deliverables from this process.
+{.is-info}
+
 
 # Design Problem Framing
 During this phase, we try to define the boundaries and context of the design problem by drawing connections between the current situation and the desired future state. Once we understand the gap that exists between these two, we can describe the design problem from the perspective of the user. We look at the problem from their perspective and consider what they need.
