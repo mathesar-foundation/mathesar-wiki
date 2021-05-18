@@ -1,6 +1,12 @@
-###### tags: `design`
-
-# Read-Only Tables Specs
+---
+title: Read Only Table Spec
+description: 
+published: true
+date: 2021-05-18T13:53:58.372Z
+tags: 
+editor: markdown
+dateCreated: 2021-05-18T13:50:27.664Z
+---
 
 #### Figma File
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FTable-View%3Fpage-id%3D0%253A1%26node-id%3D1%253A2%26viewport%3D604%252C346%252C0.19209809601306915%26scaling%3Dscale-down-width" allowfullscreen></iframe>
@@ -20,7 +26,7 @@ Scrolling is preferred over other methods of showing partial content, such as pa
 # User Interface
 ## Components
 ### Table
-![](https://i.imgur.com/z7S80Vm.png)
+![z7s80vm.png](/design-assets/z7s80vm.png)
 
 The table component uses columns and rows to display data in a grid.
 #### Read-Only Variation
