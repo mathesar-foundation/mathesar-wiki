@@ -2,7 +2,7 @@
 title: Read Only Table Spec
 description: 
 published: true
-date: 2021-05-20T09:04:36.681Z
+date: 2021-05-20T09:05:25.115Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T13:50:27.664Z
@@ -19,6 +19,8 @@ Tables are also used to represent data in other views, such as import of data fr
 
 # Interactions
 ## Browsing multiple tables
+*Not covered yet*
+
 ## Overflowing content
 When tables exceed the number of rows that can fit in the viewport, the user will have to scroll in order to reveal the hidden content.
 Scrolling is preferred over other methods of showing partial content, such as pagination. because it’s less disruptive and also because some of the spreadsheet-like interactions only work if the user is able to perform actions on rows that might not be simultaneously visible.
@@ -37,8 +39,10 @@ Other uses:
 - For a tble with no permission to edit
 
 #### States
-#### Behavior
+*Not covered yet*
 
+#### Behavior
+*Not covered yet*
 
 ### Tabs
 ![](https://i.imgur.com/FVrZz22.png)
@@ -65,9 +69,6 @@ Based on the type of content represented by the tab, there will be a different i
 - A control to close tabs should be available on each tab.
  ![](https://hackmd.io/_uploads/BJJCkI5O_.png =240x)
 
-
-
-
 Notes:
 - In future iteration maybe tabs can be reordered by drag-and-drop interaction. 
 
@@ -88,7 +89,6 @@ For content that exceeds the available space, labels should be truncated and a t
 
 ![](https://i.imgur.com/D2oJz5s.png =240x)
 
-
 #### Behavior
 On launch, and if no content is active, the sidebar navigation is displayed with all the levels collapsed.
 The main content area is also empty with no tables opened. An empty state is displayed when no tables are open.
@@ -98,7 +98,6 @@ The main content area is also empty with no tables opened. An empty state is dis
 On reload, the navigation level states should persist.
 
 What is expanded or collapsed should also persist if a higher level state changes. 
-
 
 Questions:
 - Can a schema contain no tables?
@@ -122,7 +121,3 @@ This will also help to make Mathesar more extensible in the future, as new funct
 
 #### Sidebar Area
 The sidebar area will contain the main navigational controls for Mathesar. This area will also contain some account and user information, as well as options for account-related actions, such as logout. Unlike the main content area, the sidebar area doesn’t include any widgets or functionality related to data manipulation.  However, it will be possible to delete, rename, and create schemas and tables from the sidebar, as well as searching the content of these objects.
-
-
-
-
