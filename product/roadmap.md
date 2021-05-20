@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-20T09:03:13.100Z
+date: 2021-05-20T09:07:12.079Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -20,6 +20,7 @@ The initial use case we've chosen is a user creating and maintaining a basic inv
 The roadmap below reflects the features needed to create a good user experience for this use case, while following our general [product principles](/product).
 
 # Roadmap
+Please note that this does not describe the order that we're building features, only the finished product.
 
 ## Database
 - Users should be able to configure a Postgres database to use with Mathesar.
