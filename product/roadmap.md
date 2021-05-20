@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-05-10T11:12:32.753Z
+date: 2021-05-20T09:03:13.100Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z
@@ -111,5 +111,5 @@ Users should be able to:
 Users should not be able to use the API without a token.
 
 # Future Features
-> Please see [Feature Ideas](/feature-ideas) for a long and disorganized list of feature ideas that we're drawing from to create this roadmap.
+> Please see [Feature Ideas](/product/feature-ideas) for a long and disorganized list of feature ideas that we're drawing from to create this roadmap.
 {.is-info}
