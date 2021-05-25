@@ -14,7 +14,7 @@ We selected the inventory use case because it combined simple data storage with 
 > **See also**: [Mathesar Tool Category Exploration](/design/reports/tool-category)
 {.is-info}
 
-To learn from this use case, [wireframes that depicted the various user steps needed to build an inventory](/design/exploration/inventory-use-case) were created and shared for feedback. An additional wireframe round was conducted to dig deeper into the [data exploration process](/design/exploration/inventory-data-exploration).
+To learn from this use case, [wireframes that depicted the various user steps needed to build an inventory](/design/exploration/use-cases/inventory-use-case) were created and shared for feedback. An additional wireframe round was conducted to dig deeper into the [data exploration process](/design/exploration/inventory-data-exploration).
 
 # Conclusions
 
