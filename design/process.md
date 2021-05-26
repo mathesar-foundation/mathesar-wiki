@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T09:41:50.661Z
+date: 2021-05-26T10:43:26.322Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -21,7 +21,7 @@ During this phase, we try to define the boundaries and context of the design pro
 Frame the design problems that need to be solved to implement the roadmap.
 
 ## Activities
-- ** Research:** practical Research on the problem from literature review, user testing with prototypes, user interviews, and product feedback.
+- **Research:** practical research on the problem from literature review, user testing with prototypes, user interviews, and product feedback.
 - **Data Analysis:** learn more about the problem through analyzing qualitative and quantitative data.
 - **Facilitated Discussion:** foster a discussion to gain an understanding of the way each team member views the design problem.
 
@@ -66,7 +66,15 @@ We work towards selecting ideas in different ways, based on the implications of 
 As is the case with most design projects, there isn't a single correct outcome. While methods, when applied properly, have a solid chance of leading to good results, creativity often trumps methodology when exploring the seemingly endless options and nuances of design ideas. We need to sacrifice our methodology to stay open to new possibilities, loosen up, and embrace the chaos from time to time. The fewer constraints we put on ourselves during the ideation process, the more creative we can get.
 
 # Prototyping
-*Coming soon*
+During the prototyping phase, the ideas from the previous step will evolve into more realistic representations of the final solution. To this end, prototypes can be interactive, use actual data, or whatever means exist to make the concepts more tangible. Prototypes should be used to create a testable solution that the team can implement. 
+
+It's essential to be attentive to sources of feedback when iterating through prototypes. We often over-design a prototype to the point where we are not testing the intended solution but simply refining it. To ensure that every iteration has a clear purpose, we must move from prototyping into testing as soon as possible and many times as necessary during the design process.
+
+## Goals
+Create a testable solution for the design problem that can be experienced by the team or users.
+
+## Activities
+
 
 # Testing
 *Coming soon*
