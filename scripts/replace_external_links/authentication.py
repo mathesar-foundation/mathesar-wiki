@@ -5,10 +5,10 @@ def check_hackmd_login(res):
     """
     Checks response content to see if login was succesful
     """
-    content = str(res.content)
-    if "User not found or password not set." in content:
-        return False
-    return True
+    soup = BeautifulSoup(res.text, "lxml")
+    if soup.find(id="hackmd-app"):
+        return True
+    return False
 
 def authenticate(email, password, url):
     """
