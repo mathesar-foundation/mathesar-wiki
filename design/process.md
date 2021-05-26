@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T11:10:31.180Z
+date: 2021-05-26T12:11:29.518Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -88,7 +88,7 @@ Maximize learning??
 - Preliminary team evaluation of prototypes
 - Heuristic evaluation of prototypes (against predefined design principles)
 - Conduct user testing (comparative or explorative)
-- Send out surveys to obtain user insights
+- Conduct surveys or interviews to obtain user insights
 
 ## Questions
 ### Do we need to always test with actual users?
