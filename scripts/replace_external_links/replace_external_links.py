@@ -49,18 +49,17 @@ def make_image_paths(md_file, link):
             save_path: str, path to save image locally
             rel_path: str, relative link that points to save_path
     """
-    md_dir, md_base = os.path.split(md_file)
-    md_dir = md_dir.lstrip("./")
+    md_file = md_file.lstrip("./")
     # Remove '.md'
-    md_base = md_base[:-3]
+    md_file = md_file[:-3]
 
     name = link.split("/")[-1]
     name_parts = name.split(" ")
     name = name_parts[0]
     styling = " ".join(name_parts[1:])
 
-    save_path = os.path.join(BASE_IMAGE_DIR, md_dir, md_base, name)
-    rel_path = "/" + save_path + " " + styling
+    save_path = os.path.join(BASE_IMAGE_DIR, md_file, name)
+    rel_path = "/" + save_path + (" " if styling else "") + styling
     return save_path, rel_path
 
 def download_image(session, link, save_path):
