@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-05-04T18:37:21.882Z
 ---
 
-> Refer to [Inventory Use Case](/design/exploration/inventory-use-case) for additional context.
+> Refer to [Inventory Use Case](/design/exploration/use-cases/inventory-use-case) for additional context.
 {.is-info}
 
 # Context

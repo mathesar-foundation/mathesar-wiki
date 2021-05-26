@@ -12,3 +12,4 @@ jobs:
         with:
           paths: 'https://wiki.mathesar.org'
           skip: 'http://matrix.mathesar.org/, https://github.com/centerofci/mathesar-wiki'
+          verbosity: 'INFO'
