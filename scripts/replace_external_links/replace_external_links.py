@@ -13,13 +13,21 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
-logger = logging.getLogger("image_automation")
+logger = logging.getLogger("replace-external-links")
 
 HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
 HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
 HACKMD_URL = "https://hackmd.io/login"
 
 def get_image_links(md_file):
+    """
+    Given a markdown file, find all external image links
+
+    Args:
+        md_file: str, path to a markdown file
+    Returns:
+        links: list of external image link strings
+    """
     with open(md_file, 'r') as f:
         # Matches markdown image syntax, capturing image link and image name
         pattern = r'!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)'
@@ -30,6 +38,17 @@ def get_image_links(md_file):
     return links
 
 def make_image_paths(md_file, link):
+    """
+    Generate a path to save to and a relative link that points to it
+
+    Args:
+        md_file: str, path to a markdown file
+        link: str, external image link
+    Returns:
+        tuple containing:
+            save_path: str, path to save image locally
+            rel_path: str, relative link that points to save_path
+    """
     md_dir, md_base = os.path.split(md_file)
     md_dir = md_dir.lstrip("./")
     # Remove '.md'
@@ -45,6 +64,16 @@ def make_image_paths(md_file, link):
     return save_path, rel_path
 
 def download_image(session, link, save_path):
+    """
+    Download an image
+
+    Args:
+        session: requests.Session, current session to make requests with
+        link: str, external image link
+        save_path: str, path to save the image to
+    Returns:
+        status_code: int, the status code of the request
+    """
     response = session.get(link, stream=True)
     if response.status_code == 200:
         logger.info(f"  Saving {link} to {save_path}...")
@@ -58,7 +87,10 @@ def download_image(session, link, save_path):
     return response.status_code
 
 def is_url(link):
-    # Looks for text followed by '://' to identify a URL
+    """
+    Checks is a link is a url or relative link
+    """
+    # Looks for text followed by '://' to identify a url
     pattern = r'^[a-z0-9]*:\/\/.*$'
     if re.search(pattern, link):
         return True
@@ -66,6 +98,9 @@ def is_url(link):
         return False
 
 def get_markdown_files(root):
+    """
+    Gathers markdown file paths recursively
+    """
     logger.info("Gathering markdown files...")
     all_files = []
     for dir_path, dirs, files in os.walk(root):
@@ -74,6 +109,15 @@ def get_markdown_files(root):
     return all_files
 
 def update_markdown_file(md_file, replace_links):
+    """
+    Replaces urls in a markdown file with relative links
+
+    Args:
+        md_file: str, path to a markdown file
+        replace_links: list of tuples, where each tuple is of the form (url,
+        relative_link). Each url in the markdown file will be replaced with
+        it's respective relative link.
+    """
     if not replace_links:
         return
     logger.info(f" Replacing links...")
@@ -86,6 +130,10 @@ def update_markdown_file(md_file, replace_links):
         f.write(text)
 
 def replace_links():
+    """
+    Iterates over markdown files in the root directory, downloading any
+    external images and replacing the urls with relative links
+    """
     logger.info("Logging into HackMD...")
     session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
     if session is None:
