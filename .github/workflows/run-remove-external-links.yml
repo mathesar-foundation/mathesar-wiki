@@ -19,6 +19,9 @@ jobs:
           pip install -r scripts/replace_external_links/requirements.txt
       - name: Run script
         run: python scripts/replace_external_links/replace_external_links.py
+        env: |
+          HACKMD_EMAIL: ""
+          HACKMD_PASSWORD: ${{ secrets.HACKMD_PASSWORD }}
       - name: Commit to git
         run: |
           git config --global user.name 'mathesar-bot'
