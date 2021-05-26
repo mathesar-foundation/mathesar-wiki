@@ -1,13 +1,28 @@
 import requests
 from bs4 import BeautifulSoup
 
-def check_login(res):
+def check_hackmd_login(res):
+    """
+    Checks response content to see if login was succesful
+    """
     content = str(res.content)
     if "User not found or password not set." in content:
         return False
     return True
 
 def authenticate(email, password, url):
+    """
+    Return an authenticated Session
+
+    Args:
+        email: str, email to login with
+        password: str, password to login with
+        url: str, url to send login request to
+    Returns:
+        request.Session is login was succesful, otherwise None
+
+    Currently only works for https://hackmd.io/login
+    """
     session = requests.Session()
     body = (f"email={requests.utils.quote(email)}&"
             f"password={requests.utils.quote(password)}")
@@ -25,7 +40,7 @@ def authenticate(email, password, url):
     headers["X-XSRF-Token"] = csrf_token
 
     res = session.post(url, data=body, headers=headers)
-    if res.status_code == 200 and check_login(res):
+    if res.status_code == 200 and check_hackmd_login(res):
         return session
     else:
         return None
