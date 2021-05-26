@@ -1,7 +1,7 @@
 on:
   schedule:
-    # Run everyday at 00:00 UTC
-    - cron: '0 0 * * *'
+    # Run everyday at 01:00 UTC
+    - cron: '0 1 * * *'
 name: linkinator
 jobs:
   linkinator:
@@ -11,4 +11,4 @@ jobs:
       - uses: JustinBeckwith/linkinator-action@v1
         with:
           paths: 'https://wiki.mathesar.org'
-          skip: 'http://matrix.mathesar.org/, https://hackmd.io/*, https://github.com/centerofci/mathesar-wiki'
+          skip: 'http://matrix.mathesar.org/, https://github.com/centerofci/mathesar-wiki'
