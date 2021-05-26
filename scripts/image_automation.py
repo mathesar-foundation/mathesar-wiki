@@ -1,10 +1,17 @@
 import os
 import re
 import shutil
+import logging
 
 import requests
 
 BASE_IMAGE_DIR = "assets"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger("image_automation")
 
 def get_image_links(md_file):
     with open(md_file, 'r') as f:
@@ -13,6 +20,7 @@ def get_image_links(md_file):
         links = re.findall(pattern, f.read())
     # Currently throw out names, consider using down the line
     links = [link for link, name in links]
+    links = list(filter(is_url, links))
     return links
 
 def make_image_path(md_file, link):
@@ -31,12 +39,14 @@ def make_image_path(md_file, link):
 def download_image(link, save_path):
     response = requests.get(link, stream=True)
     if response.status_code == 200:
+        logger.info(f"  Saving {link} to {save_path}...")
         response.raw.decode_content = True
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         with open(save_path, 'wb') as f:
             shutil.copyfileobj(response.raw, f)
     else:
-        print(f"{link} could not be downloaded!")
+        logger.warning(f"  Failed to download {link}! "
+                       f"Error code {response.status_code}")
     return response.status_code
 
 def is_url(link):
@@ -48,6 +58,7 @@ def is_url(link):
         return False
 
 def get_markdown_files(root):
+    logger.info("Gathering markdown files...")
     all_files = []
     for dir_path, dirs, files in os.walk(root):
         all_files.extend([os.path.join(dir_path, f) for f in files
@@ -59,26 +70,33 @@ def save_2_rel(save_path):
     return "/"  + save_path.lstrip("/")
 
 def update_markdown_file(md_file, replace_links):
+    if not replace_links:
+        return
+    logger.info(f" Replacing links...")
     with open(md_file, 'r') as f:
         text = f.read()
     for link, save_path in replace_links:
         rel_link = save_2_rel(save_path)
         text = text.replace(link, rel_link)
+        logger.info(f"  {link} -> {rel_link}")
     with open(md_file, 'w') as f:
         f.write(text)
 
 def check_and_update_images():
+    logger.info("Starting image update process...")
     md_files = get_markdown_files(".")
     for md_file in md_files:
         image_links = get_image_links(md_file)
-        replace_links = []
-        for link in image_links:
-            if is_url(link):
+        if image_links:
+            logger.info(f"External links found in {md_file}!")
+            logger.info(" Starting image download...")
+            replace_links = []
+            for link in image_links:
                 save_path = make_image_path(md_file, link)
                 status_code = download_image(link, save_path)
                 if status_code == 200:
                     replace_links.append((link, save_path))
-        update_markdown_file(md_file, replace_links)
+            update_markdown_file(md_file, replace_links)
 
 if __name__ == "__main__":
     check_and_update_images()
