@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T12:54:01.795Z
+date: 2021-05-26T12:54:54.682Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -81,7 +81,7 @@ Create a testable, working model of the solution that the team or users can expe
 - **Share prototypes**
 
 # Testing
-During the testing phase, the prototypes produced in the previous step go through different forms of user-centered testing, where they are evaluated based on pre-established criteria.
+During the testing phase, the prototypes produced in the previous step go through different forms of user-centered testing, where they are evaluated based on pre-established acceptance criteria.
 
 ## Goals
 Evaluate how usable (i.e., can users use it?), desirable (i.e., do users want it?), and performant the prototypes are; collect that information to improve the final design or start an additional prototype iteration.
