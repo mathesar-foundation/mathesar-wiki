@@ -12,6 +12,8 @@ def authenticate(email, password, url):
 
     # Get CSRF token
     res = session.get(url)
+    if res.status_code != 200:
+        return None
     soup = BeautifulSoup(res.text, "lxml")
     csrf_token = soup.select_one('meta[name="csrf-token"]')['content']
     headers["X-XSRF-Token"] = csrf_token
