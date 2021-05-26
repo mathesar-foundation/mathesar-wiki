@@ -19,7 +19,7 @@ jobs:
           pip install -r scripts/replace_external_links/requirements.txt
       - name: Run script
         run: python scripts/replace_external_links/replace_external_links.py
-        env: |
+        env:
           HACKMD_EMAIL: fakeemail@email.com
           HACKMD_PASSWORD: ${{ secrets.HACKMD_PASSWORD }}
       - name: Commit to git
