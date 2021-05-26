@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T12:53:39.264Z
+date: 2021-05-26T12:54:01.795Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -94,9 +94,9 @@ Evaluate how usable (i.e., can users use it?), desirable (i.e., do users want it
 	- Imagine what people are thinking or doing while using the prototype
   - Find obvious problems, missing controls, confusing labels
 - **Heuristic evaluation of prototypes (against predefined design principles)**
- - Evaluate a design based on guidelines or general principles
- - Evaluators do the analysis alone then problems are combined
- - Often useful to analyze combined results as a group activity
+	- Evaluate a design based on guidelines or general principles
+	- Evaluators do the analysis alone then problems are combined
+	- Often useful to analyze combined results as a group activity
 - **Conduct user testing (comparative or explorative)**
 - **Conduct surveys or interviews to obtain user insights**
 
