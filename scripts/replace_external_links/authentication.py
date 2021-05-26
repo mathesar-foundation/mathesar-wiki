@@ -17,7 +17,7 @@ def authenticate(email, password, url):
     headers["X-XSRF-Token"] = csrf_token
 
     res = session.post(url, data=body, headers=headers)
-    if res.status_code = 200:
+    if res.status_code == 200:
         return session
     else:
         return None
