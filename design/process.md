@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T10:43:26.322Z
+date: 2021-05-26T11:09:44.245Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -71,10 +71,22 @@ During the prototyping phase, the ideas from the previous step will evolve into 
 It's essential to be attentive to sources of feedback when iterating through prototypes. We often over-design a prototype to the point where we are not testing the intended solution but simply refining it. To ensure that every iteration has a clear purpose, we must move from prototyping into testing as soon as possible and many times as necessary during the design process.
 
 ## Goals
-Create a testable solution for the design problem that can be experienced by the team or users.
+Create a testable solution for the design problem that the team or users can experience to obtain feedback.
 
 ## Activities
-
+- Select components and patterns
+- Build prototypes
+- Share prototypes
 
 # Testing
-*Coming soon*
+During the testing phase, the prototypes produced in the previous step go through different forms of user-centered testing, where they are evaluated based on pre-established criteria.
+
+## Activities
+- Preliminary team evaluation of prototypes
+- Heuristic evaluation of prototypes (against predefined design principles)
+- Conduct user testing (comparative or explorative)
+- Send out surveys to obtain user insights
+
+## Questions
+### Do we need to always test with actual users?
+User-centered testing can be conducted with or without actual users depending on the requirements and context. However, in the end, both types of testing will always be required. 
