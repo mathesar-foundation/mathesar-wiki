@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T12:55:09.772Z
+date: 2021-05-26T13:15:20.521Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -27,7 +27,7 @@ Frame the design problems that need to be solved to implement the roadmap.
 
 ## Questions
 ### How do we know what the desired future state is?
-Our product strategy and the desired future state are defined by our product strategy and the required functionality that it aims to deliver as captured in our [roadmap](/product/roadmap). The product strategy is the "big picture" that drives our work, and it helps us communicate what the product stands for, why it exists and where it should go.
+The desired future state is defined by our product strategy and the required functionality that it aims to deliver as captured in our [roadmap](/product/roadmap). The product strategy is the "big picture" that drives our work, and it helps us communicate what the product stands for, why it exists and where it should go.
 
 ### What if the roadmap changes?
 In a perfect world, we would build everything we outlined in our product roadmap. However, as we often learn the hard way, nobody has time to do everything in the roadmap at once. So we have to compromise and determine what we absolutely can build based on constraints like time and current team size.
