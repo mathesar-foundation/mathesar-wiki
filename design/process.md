@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-05-26T12:35:01.169Z
+date: 2021-05-26T12:53:39.264Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z
@@ -76,9 +76,9 @@ It's essential to be attentive to sources of feedback when iterating through pro
 Create a testable, working model of the solution that the team or users can experience.
 
 ## Activities
-- Select components and patterns
-- Design interactive prototypes
-- Share prototypes
+- **Select components and patterns**
+- **Design interactive prototypes**
+- **Share prototypes**
 
 # Testing
 During the testing phase, the prototypes produced in the previous step go through different forms of user-centered testing, where they are evaluated based on pre-established criteria.
@@ -87,10 +87,18 @@ During the testing phase, the prototypes produced in the previous step go throug
 Evaluate how usable (i.e., can users use it?), desirable (i.e., do users want it?), and performant the prototypes are; collect that information to improve the final design or start an additional prototype iteration.
 
 ## Activities
-- Preliminary team evaluation of prototypes
-- Heuristic evaluation of prototypes (against predefined design principles)
-- Conduct user testing (comparative or explorative)
-- Conduct surveys or interviews to obtain user insights
+- **Informal action analysis**
+	- Take a look at the sequence of actions users have to perform to complete a task
+  - Analyze each action based on how frequent they might be, how many facts does the user have to learn to perform an action etc. 
+- **Cognitive walkthrough**
+	- Imagine what people are thinking or doing while using the prototype
+  - Find obvious problems, missing controls, confusing labels
+- **Heuristic evaluation of prototypes (against predefined design principles)**
+ - Evaluate a design based on guidelines or general principles
+ - Evaluators do the analysis alone then problems are combined
+ - Often useful to analyze combined results as a group activity
+- **Conduct user testing (comparative or explorative)**
+- **Conduct surveys or interviews to obtain user insights**
 
 ## Questions
 ### Do we need to always test with actual users?
