@@ -5,6 +5,8 @@ import logging
 
 import requests
 
+from authentication import authenticate
+
 BASE_IMAGE_DIR = "assets"
 
 logging.basicConfig(
@@ -12,6 +14,10 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger("image_automation")
+
+HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
+HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
+HACKMD_URL = "https://hackmd.io/login"
 
 def get_image_links(md_file):
     with open(md_file, 'r') as f:
@@ -30,7 +36,6 @@ def make_image_paths(md_file, link):
     md_base = md_base[:-3]
 
     name = link.split("/")[-1]
-    # Remove any styling after image name
     name_parts = name.split(" ")
     name = name_parts[0]
     styling = " ".join(name_parts[1:])
@@ -39,8 +44,8 @@ def make_image_paths(md_file, link):
     rel_path = "/" + save_path + " " + styling
     return save_path, rel_path
 
-def download_image(link, save_path):
-    response = requests.get(link, stream=True)
+def download_image(session, link, save_path):
+    response = session.get(link, stream=True)
     if response.status_code == 200:
         logger.info(f"  Saving {link} to {save_path}...")
         response.raw.decode_content = True
@@ -81,6 +86,14 @@ def update_markdown_file(md_file, replace_links):
         f.write(text)
 
 def replace_links():
+    logger.info("Logging into HackMD...")
+    session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
+    if session is None:
+        logger.warning("HackMD log in unsuccesful!")
+        session = requests.Session()
+    else:
+        logger.info("Logged into HackMD")
+
     logger.info("Starting image update process...")
     md_files = get_markdown_files(".")
     for md_file in md_files:
@@ -91,7 +104,7 @@ def replace_links():
             replace_links = []
             for link in image_links:
                 save_path, rel_path = make_image_paths(md_file, link)
-                status_code = download_image(link, save_path)
+                status_code = download_image(session, link, save_path)
                 if status_code == 200:
                     replace_links.append((link, rel_path))
             update_markdown_file(md_file, replace_links)
