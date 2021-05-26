@@ -2,6 +2,7 @@ on:
   schedule:
     # Run everyday at 00:00 UTC
     - cron: '0 0 * * *'
+  push:
 name: linkinator
 jobs:
   linkinator:
@@ -12,3 +13,4 @@ jobs:
         with:
           paths: 'https://wiki.mathesar.org'
           skip: 'http://matrix.mathesar.org/, https://hackmd.io/*, https://github.com/centerofci/mathesar-wiki'
+          verbosity: 'INFO'
