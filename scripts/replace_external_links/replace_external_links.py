@@ -82,7 +82,7 @@ def update_markdown_file(md_file, replace_links):
     with open(md_file, 'w') as f:
         f.write(text)
 
-def check_and_update_images():
+def replace_links():
     logger.info("Starting image update process...")
     md_files = get_markdown_files(".")
     for md_file in md_files:
@@ -99,4 +99,4 @@ def check_and_update_images():
             update_markdown_file(md_file, replace_links)
 
 if __name__ == "__main__":
-    check_and_update_images()
+    replace_links()
