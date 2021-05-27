@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-05-26T23:46:24.489Z
+date: 2021-05-27T00:29:20.734Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -36,18 +36,18 @@ All API endpoints should follow the standards below to ensure consistency.
 ## HTTP Verbs
 - Use HTTP verbs (GET, POST, PATCH, PUT, DELETE) to operate on the collections and elements.
 
-| Verb   | URL Pattern             | Action                                                             |
-|--------|-------------------------|--------------------------------------------------------------------|
-| GET    | /api/v1/resources/      | List all resources                                                 |
-| GET    | /api/v1/resources/<id>/ | Retrieve single resource with matching ID                          |
-| POST   | /api/v1/resources/      | Create a new resource with data in request body                    |
-| PUT    | /api/v1/resources/<id>/ | Replace entire resource with matching ID with data in request body |
-| PATCH  | /api/v1/resources/<id>/ | Update resource with matching ID with data in request body         |
-| DELETE | /api/v1/resources/<id>/ | Delete resource with matching ID                                   |
+| **Verb** | **URL Pattern**         | **Action**                                                         | **Return Status Code** | **Response Data**            |
+|----------|-------------------------|--------------------------------------------------------------------|------------------------|------------------------------|
+| GET      | /api/v1/resources/      | List all resources                                                 | 200                    | List of resources + metadata |
+| GET      | /api/v1/resources/<id>/ | Retrieve single resource with matching ID                          | 200                    | Single resource              |
+| POST     | /api/v1/resources/      | Create a new resource with data in request body                    | 201                    | Single resource              |
+| PUT      | /api/v1/resources/<id>/ | Replace entire resource with matching ID with data in request body | 200                    | Single resource              |
+| PATCH    | /api/v1/resources/<id>/ | Update resource with matching ID with data in request body         | 200                    | Single resource              |
+| DELETE   | /api/v1/resources/<id>/ | Delete resource with matching ID                                   | 204                    | *No data*                    |
 
 ## Responses
 
-- The response corresponding to a given resource should always contain the same keys.
+- The portion of the API response describing to a given resource should always contain the same set of keys.
 - Keys should not contain values, they should always be a string description of the value.
 
 ## Errors
