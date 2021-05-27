@@ -1,11 +1,14 @@
 import os
 import re
+import sys
 import shutil
 import logging
 
 import requests
 
 from authentication import authenticate
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from util import get_files
 
 BASE_IMAGE_DIR = "assets"
 
@@ -142,7 +145,8 @@ def replace_links():
         logger.info("Logged into HackMD")
 
     logger.info("Starting image update process...")
-    md_files = get_markdown_files(".")
+    md_files = get_files(".", logger, [".md"])
+    md_files = md_files[".md"]
     for md_file in md_files:
         image_links = get_image_links(md_file)
         if image_links:
