@@ -2,13 +2,14 @@ on:
   schedule:
     # Run everyday at 01:00 UTC
     - cron: '0 1 * * *'
+  push:
 name: linkinator
 jobs:
   linkinator:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: JustinBeckwith/linkinator-action@v1
+      - uses: eito-fis/linkinator-action@v1
         with:
           paths: 'https://wiki.mathesar.org'
           skip: 'http://matrix.mathesar.org/, https://github.com/centerofci/mathesar-wiki'
