@@ -37,7 +37,7 @@ def get_image_links(md_file, filter_relative=False):
 
     return links
 
-def update_markdown_file(md_file, replace_text):
+def update_markdown_file(logger, md_file, replace_text):
     """
     Replaces urls in a markdown file with relative links
 
