@@ -2,13 +2,13 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-05-28T12:40:44.943Z
+date: 2021-05-28T12:41:33.386Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
 ---
 
-# Staff
+## Core Team
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
