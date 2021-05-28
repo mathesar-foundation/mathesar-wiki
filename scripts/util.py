@@ -48,7 +48,7 @@ def update_markdown_file(logger, md_file, replace_text):
     """
     if not replace_text:
         return
-    logger.info(f" Updating file...")
+    logger.info(f" Updating {md_file}...")
     with open(md_file, 'r') as f:
         text = f.read()
     for src, dest in replace_text:
