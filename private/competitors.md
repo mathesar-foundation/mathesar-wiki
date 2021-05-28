@@ -2,7 +2,7 @@
 title: Competitors
 description: 
 published: true
-date: 2021-05-28T11:29:13.291Z
+date: 2021-05-28T11:55:08.099Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:49:41.795Z
@@ -42,3 +42,6 @@ This is a list of our main competitors and how they're different from what we pl
 
 ## NocoDB
 **Website**: https://www.nocodb.com/
+
+- GitHub: https://github.com/nocodb/nocodb
+- License: AGPLv3
