@@ -8,7 +8,7 @@ import requests
 
 from authentication import authenticate
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from util import get_files
+from util import get_files, get_image_links
 
 BASE_IMAGE_DIR = "assets"
 
@@ -21,24 +21,6 @@ logger = logging.getLogger("replace-external-links")
 HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
 HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
 HACKMD_URL = "https://hackmd.io/login"
-
-def get_image_links(md_file):
-    """
-    Given a markdown file, find all external image links
-
-    Args:
-        md_file: str, path to a markdown file
-    Returns:
-        links: list of external image link strings
-    """
-    with open(md_file, 'r') as f:
-        # Matches markdown image syntax, capturing image link and image name
-        pattern = r'!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)'
-        links = re.findall(pattern, f.read())
-    # Currently throw out names, consider using down the line
-    links = [link for link, name in links]
-    links = list(filter(is_url, links))
-    return links
 
 def make_image_paths(md_file, link):
     """
@@ -87,17 +69,6 @@ def download_image(session, link, save_path):
         logger.warning(f"  Failed to download {link}! "
                        f"Error code {response.status_code}")
     return response.status_code
-
-def is_url(link):
-    """
-    Checks is a link is a url or relative link
-    """
-    # Looks for text followed by '://' to identify a url
-    pattern = r'^[a-z0-9]*:\/\/.*$'
-    if re.search(pattern, link):
-        return True
-    else:
-        return False
 
 def get_markdown_files(root):
     """
