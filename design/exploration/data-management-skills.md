@@ -73,4 +73,4 @@ Based on user research, the ideal roadmap will seek to balance core database man
 (Hvorecky, Drlik & Munk, 2010) stress the role of interface design in the acquisition of database querying skills. Their study identified the factors that influence how people learn to interact with data in a relational database and found that query interfaces based on natural language increased user's satisfaction, accuracy and speed. 
 
 In another study, they identified the different concepts and knowledge required for appropriate learning of database management skills and proposed the following order for concept introduction:
-![tauevzw.png](/design-assets/tauevzw.png)
+![tauevzw.png](/assets/design/exploration/data-management-skills/tauevzw.png)
