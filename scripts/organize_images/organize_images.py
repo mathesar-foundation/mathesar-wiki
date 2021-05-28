@@ -16,25 +16,42 @@ logging.basicConfig(
 logger = logging.getLogger("organize-images")
 
 def rel2path(link):
+    """
+    Converts a relative path to a path we can save to and read from
+    """
     path, *_ = link.split(" ")
     path = path.lstrip("/")
     return path
 
 def path2rel(link):
+    """
+    Converts a system path to a relative path
+    """
     path = "/" + link
     return path
 
 def clean_file_name(path):
+    """
+    Removes the initial directory added by get_files()
+    """
     path = path.lstrip("./")
     return path
 
-def build_path(file_name):
+def build_path(markdown_file):
+    """
+    Given a markdown file an image was referenced in, build a path to the
+    directory we woulds save the image in
+    """
     # Remove '.md'
-    file_name = file_name[:-3]
-    path = os.path.join(BASE_IMAGE_DIR, file_name)
+    markdown_file = markdown_file[:-3]
+    path = os.path.join(BASE_IMAGE_DIR, markdown_file)
     return path
 
 def build_common_path(files):
+    """
+    Given a list of markdown files that all reference an image, build the path
+    to the directory we would save the image in
+    """
     paths = [build_path(f) for f in files]
     try:
         common_path = os.path.commonpath(paths)
@@ -43,6 +60,9 @@ def build_common_path(files):
     return common_path
 
 def build_image_paths(img, path):
+    """
+    Given an image and a directory, build a save path and relative link
+    """
     name = img.split("/")[-1]
     name, *styling = name.split(" ")
     styling = " ".join(styling)
@@ -54,6 +74,9 @@ def build_image_paths(img, path):
     return save_path, rel_path
 
 def build_unique_path(file_name):
+    """
+    Given a file name, build a unique name if the current one is taken
+    """
     i = 1
     name, ext = os.path.splitext(file_name)
     ret_name = file_name
@@ -62,6 +85,9 @@ def build_unique_path(file_name):
     return ret_name
 
 def move_file(src, dest):
+    """
+    Move a file
+    """
     # Ensure we do not overwrite when we move
     dest = build_unique_path(dest)
     # Move file
@@ -71,6 +97,10 @@ def move_file(src, dest):
     return dest
 
 def clean_directories(path):
+    """
+    Recursively clean up empty directories, starting from the parent of the
+    path that is passed
+    """
     path = os.path.dirname(path)
     if path and not os.listdir(path):
         logger.info(f"Cleaning up {path}...")
