@@ -15,8 +15,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger("organize-images")
 
-# Must move images to the correct location
-
 def rel2path(link):
     path, *_ = link.split(" ")
     path = path.lstrip("/")
@@ -119,7 +117,6 @@ def organize_images():
     # Update markdown files
     for md_file, links in file2links.items():
         update_markdown_file(logger, md_file, links)
-
 
 if __name__ == "__main__":
     organize_images()
