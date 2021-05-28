@@ -66,16 +66,19 @@ def move_file(src, dest):
     dest = build_unique_path(dest)
     # Move file
     os.makedirs(os.path.dirname(dest), exist_ok=True)
+    logger.info(f"Moving {src} -> {dest}...")
     os.rename(src, dest)
     return dest
 
 def clean_directories(path):
     path = os.path.dirname(path)
     if path and not os.listdir(path):
+        logger.info(f"Cleaning up {path}...")
         os.rmdir(path)
         clean_directories(path)
 
 def organize_images():
+    logger.info("Finding markdown files and images...")
     all_files = get_files(".", logger, [".md"] + IMAGE_EXTS)
     md_files = [clean_file_name(f) for f in all_files[".md"]]
     file2links = {md_file: [] for md_file in md_files}
