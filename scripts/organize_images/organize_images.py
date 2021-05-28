@@ -82,6 +82,7 @@ def build_unique_path(file_name):
     ret_name = file_name
     while os.path.isfile(ret_name):
         ret_name = name + f"({i})" + ext
+        i += 1
     return ret_name
 
 def move_file(src, dest):
