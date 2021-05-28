@@ -8,7 +8,7 @@ import requests
 
 from authentication import authenticate
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from util import get_files, get_image_links
+from util import get_files, get_image_links, update_markdown_file
 
 BASE_IMAGE_DIR = "assets"
 
@@ -80,27 +80,6 @@ def get_markdown_files(root):
         all_files.extend([os.path.join(dir_path, f) for f in files
                           if f.endswith(".md")])
     return all_files
-
-def update_markdown_file(md_file, replace_links):
-    """
-    Replaces urls in a markdown file with relative links
-
-    Args:
-        md_file: str, path to a markdown file
-        replace_links: list of tuples, where each tuple is of the form (url,
-        relative_link). Each url in the markdown file will be replaced with
-        it's respective relative link.
-    """
-    if not replace_links:
-        return
-    logger.info(f" Replacing links...")
-    with open(md_file, 'r') as f:
-        text = f.read()
-    for link, rel_link in replace_links:
-        text = text.replace(link, rel_link)
-        logger.info(f"  {link} -> {rel_link}")
-    with open(md_file, 'w') as f:
-        f.write(text)
 
 def replace_links():
     """

@@ -37,6 +37,26 @@ def get_image_links(md_file, filter_relative=False):
 
     return links
 
+def update_markdown_file(md_file, replace_text):
+    """
+    Replaces urls in a markdown file with relative links
+
+    Args:
+        md_file: str, path to a markdown file
+        replace_text: list of tuples, where each tuple is of the form (src,
+        dest). Each piece of src text will be replaced by its dest text.
+    """
+    if not replace_text:
+        return
+    logger.info(f" Updating file...")
+    with open(md_file, 'r') as f:
+        text = f.read()
+    for src, dest in replace_text:
+        text = text.replace(src, dest)
+        logger.info(f"  {src} -> {dest}")
+    with open(md_file, 'w') as f:
+        f.write(text)
+
 def get_files(root, logger, extensions=None):
     """
     Gathers file of given extensions recursively
