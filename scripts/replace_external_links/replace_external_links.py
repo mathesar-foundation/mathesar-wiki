@@ -108,7 +108,7 @@ def replace_links():
                 status_code = download_image(session, link, save_path)
                 if status_code == 200:
                     replace_links.append((link, rel_path))
-            update_markdown_file(md_file, replace_links)
+            update_markdown_file(logger, md_file, replace_links)
 
 if __name__ == "__main__":
     replace_links()
