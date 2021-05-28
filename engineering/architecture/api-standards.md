@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-05-27T00:30:16.531Z
+date: 2021-05-28T12:17:42.698Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -14,11 +14,18 @@ All API endpoints should follow the standards below to ensure consistency.
 
 # Standards
 
+Please note that we are assuming that all endpoints are RESTful nd will involve CRUD (create, read, update, or delete) on a resource. This is a deliberate choice so that we try to fit operations into the a RESTful model.
+
+We do want to keep our APIs sensible, so pragmatically, we may eventually need to implement non-CRUD APIs for some things. We will create standards for those when we encounter them.
+
 ## Versioning
 - All API endpoints should include a version number at the base of the URL (e.g. `/api/v0/tables/`.
 - Versions should be integers, not decimal numbers, prefixed with ‘v’.
 	- `v0` endpoints are unstable and can change without warning.
-	- `v1` endpoints (and onwards) are considered stable. New fields/parameters can be added, but existing fields/parameters should not be removed.
+	- `v1` endpoints (and onwards) are considered stable. 
+- Stable versions should follow these rules:
+  - Existing fields/parameters/values should not be removed.
+  - New fields/parameters can be added, as long as they do not modify the behavior of existing fields/parameters/values.
 
 ## URLs
 - A URL identifies a resource.
