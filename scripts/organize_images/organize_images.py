@@ -7,6 +7,7 @@ from util import get_files, get_image_links, update_markdown_file
 
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
+PRIVATE_IMAGE_DIR = "private"
 IMAGE_EXTS = [".tif", ".tiff", ".bmp", ".jpg", ".jpeg", ".gif", ".png"]
 
 logging.basicConfig(level=logging.INFO,
@@ -39,6 +40,19 @@ def clean_file_name(path):
     return path
 
 
+def check_private_paths(files):
+    """
+    Given a list of files, check if there is a mix of public and private paths
+    """
+    is_private = [f.startswith(PRIVATE_IMAGE_DIR) for f in files]
+    # If there is any private, all should be private. Otherwise, we have a mix
+    # of public and private paths
+    if files and any(is_private) != all(is_private):
+        return False
+    else:
+        return True
+
+
 def build_path(markdown_file):
     """
     Given a markdown file an image was referenced in, build a path to the
@@ -60,17 +74,26 @@ def build_common_path(files):
     return common_path
 
 
-def build_image_paths(img, path):
+def build_image_paths(img, files):
     """
     Given an image and a directory, build a save path and relative link
     """
-    name = img.split("/")[-1]
-    name, *styling = name.split(" ")
-    styling = " ".join(styling)
+    assert check_private_paths(files), (
+        f"Mix of private and public paths found for {img}!"
+        f"Referenced in: {files}")
+
+    if not files:
+        if UNUSED_IMAGE_DIR not in img:
+            logger.warn(f"{img} not used in any files!")
+        path = os.path.join(BASE_IMAGE_DIR, UNUSED_IMAGE_DIR)
+    else:
+        path = build_common_path(files)
+
+    name = os.path.basename(img)
+    # Remove styling
+    name = name.split(" ")[0]
 
     save_path = os.path.join(path, name)
-    # rel_path = "/" + save_path + (" " if styling else "") + styling
-    # Ignore styling, since we just replace the first part of the link
     rel_path = path2rel(save_path)
     return save_path, rel_path
 
@@ -90,7 +113,7 @@ def build_unique_path(file_name):
 
 def move_file(src, dest):
     """
-    Move a file
+    Move a file from src to dest
     """
     # Ensure we do not overwrite when we move
     dest = build_unique_path(dest)
@@ -135,12 +158,7 @@ def organize_images():
 
     # Move images depending on where they appear
     for img, files in img2files.items():
-        if not files and UNUSED_IMAGE_DIR not in img:
-            logger.warn(f"{img} not used in any files!")
-            path = os.path.join(BASE_IMAGE_DIR, UNUSED_IMAGE_DIR)
-        else:
-            path = build_common_path(files)
-        save_path, rel_path = build_image_paths(img, path)
+        save_path, rel_path = build_image_paths(img, files)
         # If image is not where it should be...
         if img != save_path:
             # Move image
