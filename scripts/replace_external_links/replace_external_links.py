@@ -1,5 +1,4 @@
 import os
-import re
 import sys
 import shutil
 import logging
@@ -7,20 +6,20 @@ import logging
 import requests
 
 from authentication import authenticate
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from util import get_files, get_image_links, update_markdown_file
 
 BASE_IMAGE_DIR = "assets"
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("replace-external-links")
 
 HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
 HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
 HACKMD_URL = "https://hackmd.io/login"
+
 
 def make_image_paths(md_file, link):
     """
@@ -47,6 +46,7 @@ def make_image_paths(md_file, link):
     rel_path = "/" + save_path + (" " if styling else "") + styling
     return save_path, rel_path
 
+
 def download_image(session, link, save_path):
     """
     Download an image
@@ -70,16 +70,18 @@ def download_image(session, link, save_path):
                        f"Error code {response.status_code}")
     return response.status_code
 
+
 def get_markdown_files(root):
     """
     Gathers markdown file paths recursively
     """
     logger.info("Gathering markdown files...")
     all_files = []
-    for dir_path, dirs, files in os.walk(root):
-        all_files.extend([os.path.join(dir_path, f) for f in files
-                          if f.endswith(".md")])
+    for dir_path, _, files in os.walk(root):
+        all_files.extend(
+            [os.path.join(dir_path, f) for f in files if f.endswith(".md")])
     return all_files
+
 
 def replace_links():
     """
@@ -109,6 +111,7 @@ def replace_links():
                 if status_code == 200:
                     replace_links.append((link, rel_path))
             update_markdown_file(logger, md_file, replace_links)
+
 
 if __name__ == "__main__":
     replace_links()

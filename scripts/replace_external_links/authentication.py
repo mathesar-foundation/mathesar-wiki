@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def check_hackmd_login(res):
     """
     Checks response content to see if login was succesful
@@ -9,6 +10,7 @@ def check_hackmd_login(res):
     if soup.find(id="hackmd-app"):
         return True
     return False
+
 
 def authenticate(email, password, url):
     """
@@ -44,6 +46,7 @@ def authenticate(email, password, url):
         return session
     else:
         return None
+
 
 if __name__ == "__main__":
     print(authenticate("fake@email.com", "password",

@@ -1,16 +1,19 @@
 import os
 import re
 
+
 def is_url(link):
     """
     Checks if a link is a url or relative link
     """
     # Looks for text followed by '://' to identify a url
     pattern = r'^[a-z0-9]*:\/\/.*$'
+
     if re.search(pattern, link):
         return True
     else:
         return False
+
 
 def get_image_links(md_file, filter_relative=False):
     """
@@ -28,7 +31,7 @@ def get_image_links(md_file, filter_relative=False):
         pattern = r'!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)'
         links = re.findall(pattern, f.read())
     # Currently throw out names, consider using down the line
-    links = [link for link, name in links]
+    links = [link for link, _ in links]
 
     if filter_relative:
         links = list(filter(lambda x: not is_url(x), links))
@@ -36,6 +39,7 @@ def get_image_links(md_file, filter_relative=False):
         links = list(filter(is_url, links))
 
     return links
+
 
 def update_markdown_file(logger, md_file, replace_text):
     """
@@ -57,6 +61,7 @@ def update_markdown_file(logger, md_file, replace_text):
     with open(md_file, 'w') as f:
         f.write(text)
 
+
 def get_files(root, logger, extensions=None):
     """
     Gathers file of given extensions recursively
@@ -74,7 +79,7 @@ def get_files(root, logger, extensions=None):
     else:
         all_files = []
 
-    for dir_path, dirs, files in os.walk(root):
+    for dir_path, _, files in os.walk(root):
         for f in files:
             full_path = os.path.join(dir_path, f)
             _, file_ext = os.path.splitext(f)
