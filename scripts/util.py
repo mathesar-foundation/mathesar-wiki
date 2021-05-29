@@ -1,5 +1,5 @@
 import os
-import re
+import urllib.parse
 
 import markdown
 from markdown.treeprocessors import Treeprocessor
@@ -29,10 +29,8 @@ def is_url(link):
     """
     Checks if a link is a url or relative link
     """
-    # Looks for text followed by '://' to identify a url
-    pattern = r'^[a-z0-9]*:\/\/.*$'
-
-    if re.search(pattern, link):
+    parse_result = urllib.parse.urlparse(link)
+    if parse_result.netloc:
         return True
     else:
         return False
