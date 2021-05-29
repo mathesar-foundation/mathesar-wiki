@@ -71,18 +71,6 @@ def download_image(session, link, save_path):
     return response.status_code
 
 
-def get_markdown_files(root):
-    """
-    Gathers markdown file paths recursively
-    """
-    logger.info("Gathering markdown files...")
-    all_files = []
-    for dir_path, _, files in os.walk(root):
-        all_files.extend(
-            [os.path.join(dir_path, f) for f in files if f.endswith(".md")])
-    return all_files
-
-
 def replace_links():
     """
     Iterates over markdown files in the root directory, downloading any
