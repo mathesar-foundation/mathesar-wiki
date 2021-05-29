@@ -1,6 +1,29 @@
 import os
 import re
 
+import markdown
+from markdown.treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+
+
+class ImgExtractor(Treeprocessor):
+    def run(self, doc):
+        """
+        Gather all images in XML tree and store in markdown.images attribute
+        """
+        self.markdown.images = []
+        for image in doc.findall('.//img'):
+            self.markdown.images.append(image.get('src'))
+
+
+class ImgExtExtension(Extension):
+    def extendMarkdown(self, md, md_globals):
+        """
+        Register ImageExtractor as an extension
+        """
+        img_ext = ImgExtractor(md)
+        md.treeprocessors.add('imgext', img_ext, '>inline')
+
 
 def is_url(link):
     """
@@ -27,11 +50,9 @@ def get_image_links(md_file, filter_relative=False):
         links: list of external image link strings
     """
     with open(md_file, 'r') as f:
-        # Matches markdown image syntax, capturing image link and image name
-        pattern = r'!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)'
-        links = re.findall(pattern, f.read())
-    # Currently throw out names, consider using down the line
-    links = [link for link, _ in links]
+        md = markdown.Markdown(extensions=[ImgExtExtension()])
+        md.convert(f.read())
+        links = md.images
 
     if filter_relative:
         links = list(filter(lambda x: not is_url(x), links))
