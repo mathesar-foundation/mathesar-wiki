@@ -28,7 +28,7 @@ Scrolling is preferred over other methods of showing partial content, such as pa
 # User Interface
 ## Components
 ### Table
-![z7s80vm.png](/design-assets/z7s80vm.png)
+![z7s80vm.png](/assets/design/process/documents/read-only-table-specs/z7s80vm.png)
 
 The table component uses columns and rows to display data in a grid.
 #### Read-Only Variation

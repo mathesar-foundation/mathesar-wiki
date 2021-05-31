@@ -180,7 +180,7 @@ Grid views take the traditional tabular form. Grid views can have custom:
 Summary views show only summaries of grouped data.
 
 Here is an example from Dabble DB:
-![summary_view.png](/assets/summary_view.png)
+![summary_view.png](/assets/private/archive/concepts/summary_view.png)
 
 ## Map View
 Shows a map based on a Location Column Type.
