@@ -2,7 +2,7 @@
 title: Design System
 description: Design System for Mathesar
 published: true
-date: 2021-05-31T19:47:13.843Z
+date: 2021-05-31T19:51:00.582Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-31T12:11:46.738Z
@@ -34,7 +34,9 @@ Ideally a component library entry should contain the following:
 - Name of the component
 - Description of the component
 - Usage guidelines
-	- When, how
+	- Behavior
+	- Properties
+	- States
 - Applicable examples
 - Links to code examples if available
 
