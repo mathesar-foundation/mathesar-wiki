@@ -2,7 +2,7 @@
 title: Design System
 description: Design System for Mathesar
 published: true
-date: 2021-05-31T13:33:52.137Z
+date: 2021-05-31T14:36:27.237Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-31T12:11:46.738Z
@@ -17,5 +17,10 @@ dateCreated: 2021-05-31T12:11:46.738Z
 ## Component Library
 - Common core elements that can be used throughout the product
 - Design Files or living code
+
+### Ways to create library components
+#### Build Up Components to Create Interfaces
+#### Break Down Interfaces into Components
+
 ## Front-end Guidelines
 
