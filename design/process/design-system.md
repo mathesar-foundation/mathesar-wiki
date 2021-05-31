@@ -2,7 +2,7 @@
 title: Design System
 description: Design System for Mathesar
 published: true
-date: 2021-05-31T19:46:33.818Z
+date: 2021-05-31T19:47:13.843Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-31T12:11:46.738Z
@@ -28,7 +28,7 @@ In the book *Building Design Systems*, two different approaches to creating new 
 Both methods will still require documentation to be created at the end of the process. Still, the former method focuses more on anticipating design requirements based on available solutions, and the latter happens as the result of prototyping activities.
 
 ### Documenting components
-Documenting components is a crucial step of the design process. It provides the team with a resource to reuse and integrate components into existing or new interfaces, understand how a component works, its relationship with other components, and maintain consistency as the product evolves.
+Documenting components is a crucial step of the design process. It provides the team with a resource to reuse and integrate components and maintain consistency as the product evolves.
 
 Ideally a component library entry should contain the following:
 - Name of the component
