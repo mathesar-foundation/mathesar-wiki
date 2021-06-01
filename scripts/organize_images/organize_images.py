@@ -197,7 +197,7 @@ def organize_images():
         update_markdown_file(logger, md_file, links)
 
     if error_message:
-        sys.exit("Public pages pointed to private images:" + error_message)
+        print("Public pages pointed to private images:" + error_message)
 
 
 if __name__ == "__main__":
