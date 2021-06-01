@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-05-28T12:41:33.386Z
+date: 2021-06-01T16:30:41.662Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -17,3 +17,9 @@ dateCreated: 2021-05-28T12:40:44.943Z
 | Eamon Ito-Fisher | `@eito-fis:matrix.mathesar.org` | `@eito-fis` | Engineering |
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
+
+## Community Team
+
+| **Name** | **Matrix** | **GitHub** | **Roles** |
+|-|-|-|-|
+| Dhruvi Butti | `@dhruvi16:matrix.orgg` | `@Dhruvi16` | Design |
