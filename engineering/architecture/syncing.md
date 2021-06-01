@@ -27,8 +27,14 @@ We include the following fields for each database object model (currently table 
 
 Whenever we perform an action such as 'list all tables in schema', we update all table resources associated with that schema. This will also be the case for 'list all schemata in database'.
 
-In the current codebase, we have two relevant viewsets where we want to trigger a refresh whenever we access their queryset, the `SchemaViewSet` and the `TableViewSet` (both in `mathesar/views/api.py`)
+In the current codebase, we want to trigger a refresh whenever we access the queryset for a given viewset, e.g., the `SchemaViewSet`, `TableViewSet`, and `RecordViewSet` (in `mathesar/views/api.py`). To do this, we'll replace the static `queryset` property with the `get_queryset` function. This should get picked up and automatically run when the ViewSet is called. Using this allows us to run arbitrary code before returning the queryset. In particular, we'll call functions to sync the models with the DB.
 
 ## Use cache whenever an object is called directly
 
 Whenever we get a specific object by ID, we'll simply use the model for performance reasons rather than re-reflecting each time. This means we'll need to have error handling for whenever the underlying resource has changed in some incompatible way.
+
+This is applicable to some functions in the `RecordViewSet` in the current codebase. Note that whenever we call methods that actually _modify_ a table by changing records we reflect the table details anyway via logic in the properties of the `Table` model.
+
+# Importing a previously-existing DB
+
+We'll "import" a previously existing DB simply by reflecting all schemata in the database, and then reflecting all tables in each schemata, adding the resulting objects to the `Schema` and `Table` model tables as we go.
