@@ -1,8 +1,6 @@
 on:
-  schedule:
-    # Run everyday at 00:00 UTC
-    - cron: '0 0 * * *'
-name: replace-external-links
+  push:
+name: organize-images
 jobs:
   replace-external-links:
     runs-on: ubuntu-latest
