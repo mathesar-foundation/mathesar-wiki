@@ -12,6 +12,8 @@ This page contains technical specs or design documents and other implementation 
 
 # Documents
 
+- [Syncing Database Objects](/engineering/architecture/syncing)
+
 ## Webservice/API Layer
 - [API Standards](/engineering/architecture/api-standards)
 
