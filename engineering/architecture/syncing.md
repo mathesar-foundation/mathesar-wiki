@@ -27,7 +27,7 @@ We include the following fields for each database object model (currently table 
 
 Whenever we perform an action such as 'list all tables in schema', we update all table resources associated with that schema. This will also be the case for 'list all schemata in database'.
 
-In the current codebase, we want to trigger a refresh whenever we access the queryset for a given viewset, e.g., the `SchemaViewSet`, `TableViewSet`, and `RecordViewSet` (in `mathesar/views/api.py`). To do this, we'll replace the static `queryset` property with the `get_queryset` function. This should get picked up and automatically run when the ViewSet is called. Using this allows us to run arbitrary code before returning the queryset. In particular, we'll call functions to sync the models with the DB.
+In the current codebase, we want to trigger a refresh whenever we access the queryset for a given viewset, e.g., the `SchemaViewSet`, `TableViewSet`, and `RecordViewSet` (in `mathesar/views/api.py`). To do this, we'll replace the static `queryset` property with the `get_queryset` function. This should get picked up and automatically run when the ViewSet is called. Using this allows us to run arbitrary code before returning the queryset. In particular, we'll call functions that check the `last_synced` value for each object, and sync the models with the DB if this value is too far in the past. We'll access DB objects by their `oid` (also stored in the model) so we notice name changes. Finally, if we can't find a given object by its `oid`, we'll mark it as `deleted`.
 
 ## Use cache whenever an object is called directly
 
