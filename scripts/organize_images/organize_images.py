@@ -156,12 +156,22 @@ def organize_images():
     error_message = ""
     for img, files in img2files.items():
         if not check_private_paths(files):
+            private_files = [
+                f for f in files if f.startswith(PRIVATE_IMAGE_DIR)
+            ]
+            public_files = [
+                f for f in files if not f.startswith(PRIVATE_IMAGE_DIR)
+            ]
+
+            # Update links so only references are private files
+            img2files[img] = private_files
+
+            # Save public files to remove the links
             rel_img = path2rel(img)
-            for md_file in files:
-                if not md_file.startswith(PRIVATE_IMAGE_DIR):
-                    # Replace private link with empty link
-                    private_replacements[md_file].append((rel_img, ""))
-                    error_message += f"\n- {rel_img} in {md_file}"
+            for md_file in public_files:
+                private_replacements[md_file].append((rel_img, ""))
+            error_message += f"\n- {rel_img} in {md_file}"
+
     for md_file, links in private_replacements.items():
         update_markdown_file(logger, md_file, links)
 
@@ -182,6 +192,7 @@ def organize_images():
             rel_img = path2rel(img)
             for md_file in files:
                 link_replacements[md_file].append((rel_img, rel_path))
+
     for md_file, links in link_replacements.items():
         update_markdown_file(logger, md_file, links)
 
