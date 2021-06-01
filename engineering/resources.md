@@ -2,7 +2,7 @@
 title: Resources
 description: Reading and resources that might be of interest.
 published: true
-date: 2021-05-07T19:04:27.075Z
+date: 2021-06-01T10:27:48.520Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:30:35.472Z
@@ -18,6 +18,10 @@ Information on Postgres related projects and tools.
 - [Evaluating PostGraphile For Your Project](https://www.graphile.org/postgraphile/evaluating/): The section on "Schema Driven APIs" here has some great insights.
 - [Advice on Indexes in Postgres](https://www.graphile.org/postgraphile/postgresql-indexes/)
 - [10 Things I Hate About PostgreSQL](https://rbranson.medium.com/10-things-i-hate-about-postgresql-20dbab8c2791)
+
+### Primary Keys
+- [UUID, serial or identity columns for PostgreSQL auto-generated primary keys?](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/)
+- [Sequential UUID Generators](https://www.2ndquadrant.com/en/blog/sequential-uuid-generators/)
 
 ## Projects
 - The [graphile](https://github.com/graphile) organization on GitHub is full of postgres-related projects written in TypeScript. Clean,  straightforward codebases with very good documentation.
