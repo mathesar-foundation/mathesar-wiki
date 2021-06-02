@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 
+      - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: "3.6.x"
@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 
+      - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: "3.6.x"
@@ -40,7 +40,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/organize_images/requirements.txt
       - name: Run script
-        run: python scripts/organize_images/organize_images.py
+        id: run-script
+        run: |
+          output=$(python scripts/organize_images/organize_images.py)
+          # Must escape characters to handle multi-line oututs
+          output="${output//'%'/'%25'}"
+          output="${output//$'\n'/'%0A'}"
+          output="${output//$'\r'/'%0D'}"
+          echo "::set-output name=error-message::$output"
       - name: Commit to git
         run: |
           git config --global user.name 'mathesar-bot'
@@ -48,5 +55,12 @@ jobs:
           git add -A
           git diff-index --quiet --cached HEAD || git commit -m "Organize images"
           git push
-          
-          
+      - name: Error Message
+        if: steps.run-script.outputs.error-message != 0
+        run: |
+          output="${{ steps.run-script.outputs.error-message }}"
+          output="${output//'%'/'%25'}"
+          output="${output//$'\n'/'%0A'}"
+          output="${output//$'\r'/'%0D'}"
+          echo "::error file=,line=,col=::$output"
+          exit 1

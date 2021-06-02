@@ -8,6 +8,9 @@ from util import get_files, get_image_links, update_markdown_file
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
 PRIVATE_IMAGE_DIR = "private"
+REMOVED_MSG = ("*This image was removed automatically because it was not"
+               "uploaded to a public folder. Please contact a [Mathesar core"
+               "team member](/team) if you see this on the wiki.*")
 IMAGE_EXTS = [".tif", ".tiff", ".bmp", ".jpg", ".jpeg", ".gif", ".png"]
 
 logging.basicConfig(level=logging.INFO,
@@ -42,12 +45,12 @@ def clean_file_name(path):
 
 def check_private_paths(files):
     """
-    Given a list of files, check if there is a mix of public and private paths
+    Returns True if there is a mix of public and private paths, else False
     """
     is_private = [f.startswith(PRIVATE_IMAGE_DIR) for f in files]
     # If there is any private, all should be private. Otherwise, we have a mix
     # of public and private paths
-    if files and any(is_private) != all(is_private):
+    if files and any(is_private) and not all(is_private):
         return False
     else:
         return True
@@ -78,10 +81,6 @@ def build_image_paths(img, files):
     """
     Given an image and a directory, build a save path and relative link
     """
-    assert check_private_paths(files), (
-        f"Mix of private and public paths found for {img}!"
-        f"Referenced in: {files}")
-
     if not files:
         if UNUSED_IMAGE_DIR not in img:
             logger.warn(f"{img} not used in any files!")
@@ -140,7 +139,6 @@ def organize_images():
     logger.info("Finding markdown files and images...")
     all_files = get_files(".", logger, [".md"] + IMAGE_EXTS)
     md_files = [clean_file_name(f) for f in all_files[".md"]]
-    file2links = {md_file: [] for md_file in md_files}
     img2files = {
         clean_file_name(img): []
         for ext in IMAGE_EXTS for img in all_files[ext]
@@ -156,7 +154,32 @@ def organize_images():
                 continue
             img2files[link].append(md_file)
 
+    # Remove links to private images
+    private_replacements = {md_file: [] for md_file in md_files}
+    error_message = ""
+    for img, files in img2files.items():
+        if not check_private_paths(files):
+            private_files = [
+                f for f in files if f.startswith(PRIVATE_IMAGE_DIR)
+            ]
+            public_files = [
+                f for f in files if not f.startswith(PRIVATE_IMAGE_DIR)
+            ]
+
+            # Update links so only references are private files
+            img2files[img] = private_files
+
+            # Save public files to remove the links
+            rel_img = path2rel(img)
+            for md_file in public_files:
+                private_replacements[md_file].append((rel_img, REMOVED_MSG))
+            error_message += f"\n- {rel_img} in {md_file}"
+
+    for md_file, links in private_replacements.items():
+        update_markdown_file(logger, md_file, links)
+
     # Move images depending on where they appear
+    link_replacements = {md_file: [] for md_file in md_files}
     for img, files in img2files.items():
         save_path, rel_path = build_image_paths(img, files)
         # If image is not where it should be...
@@ -171,11 +194,13 @@ def organize_images():
             # Track moved images
             rel_img = path2rel(img)
             for md_file in files:
-                file2links[md_file].append((rel_img, rel_path))
+                link_replacements[md_file].append((rel_img, rel_path))
 
-    # Update markdown files
-    for md_file, links in file2links.items():
+    for md_file, links in link_replacements.items():
         update_markdown_file(logger, md_file, links)
+
+    if error_message:
+        print("Public pages pointed to private images:" + error_message)
 
 
 if __name__ == "__main__":
