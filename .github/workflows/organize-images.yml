@@ -48,7 +48,6 @@ jobs:
           output="${output//$'\n'/'%0A'}"
           output="${output//$'\r'/'%0D'}"
           echo "::set-output name=error-message::$output"
-        continue-on-error: true
       - name: Commit to git
         run: |
           git config --global user.name 'mathesar-bot'
