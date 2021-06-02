@@ -8,6 +8,7 @@ from util import get_files, get_image_links, update_markdown_file
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
 PRIVATE_IMAGE_DIR = "private"
+REMOVED_MSG = "PRIVATE IMAGE REMOVED"
 IMAGE_EXTS = [".tif", ".tiff", ".bmp", ".jpg", ".jpeg", ".gif", ".png"]
 
 logging.basicConfig(level=logging.INFO,
@@ -169,7 +170,7 @@ def organize_images():
             # Save public files to remove the links
             rel_img = path2rel(img)
             for md_file in public_files:
-                private_replacements[md_file].append((rel_img, ""))
+                private_replacements[md_file].append((rel_img, REMOVED_MSG))
             error_message += f"\n- {rel_img} in {md_file}"
 
     for md_file, links in private_replacements.items():
