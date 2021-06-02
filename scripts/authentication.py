@@ -53,10 +53,8 @@ def authenticate(email, password, url):
 
 
 def authenticate_hackmd(logger):
-    # HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
-    # HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
-    HACKMD_EMAIL = ""
-    HACKMD_PASSWORD = ""
+    HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
+    HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
     HACKMD_URL = "https://hackmd.io/login"
 
     logger.info("Logging into HackMD...")
