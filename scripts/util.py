@@ -17,6 +17,13 @@ def is_url(link):
         return False
 
 
+def markdown_parse(md_file, extensions):
+    with open(md_file, 'r') as f:
+        md = markdown.Markdown(extensions=extensions)
+        md.convert(f.read())
+    return md
+
+
 class ImgExtractor(Treeprocessor):
     def run(self, doc):
         """
@@ -36,13 +43,6 @@ class ImgExtExtension(Extension):
         md.treeprocessors.add('imgext', img_ext, '>inline')
 
 
-def markdown_parse(md_file, extensions):
-    with open(md_file, 'r') as f:
-        md = markdown.Markdown(extensions=extensions)
-        md.convert(f.read())
-    return md
-
-
 def get_image_links(md_file, filter_relative=None):
     """
     Given a markdown file, find all image links
@@ -56,6 +56,46 @@ def get_image_links(md_file, filter_relative=None):
     """
     md = markdown_parse(md_file, extensions=[ImgExtExtension()])
     links = md.images
+    if filter_relative is None:
+        return links
+    elif filter_relative:
+        return list(filter(lambda x: not is_url(x), links))
+    else:
+        return list(filter(is_url, links))
+
+
+class LinkExtractor(Treeprocessor):
+    def run(self, doc):
+        """
+        Gather all links in XML tree and store in markdown.links attribute
+        """
+        self.markdown.links = []
+        for link in doc.findall('.//a'):
+            self.markdown.links.append(link.get('href'))
+
+
+class LinkExtExtension(Extension):
+    def extendMarkdown(self, md, _):
+        """
+        Register LinkExtractor as an extension
+        """
+        link_ext = LinkExtractor(md)
+        md.treeprocessors.add('linkext', link_ext, '>inline')
+
+
+def get_links(md_file, filter_relative=None):
+    """
+    Given a markdown file, find (non-image) links
+
+    Args:
+        md_file: str, path to a markdown file
+        filter_relative: bool, if True return only relative links, if false
+        return only external links and if None return all
+    Returns:
+        links: list of external image link strings
+    """
+    md = markdown_parse(md_file, extensions=[LinkExtExtension()])
+    links = md.links
     if filter_relative is None:
         return links
     elif filter_relative:
