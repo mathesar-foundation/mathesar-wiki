@@ -100,13 +100,8 @@ def check_link(session, cache, link):
             link["return_code"] = check_relative_link(link["link"])
         cache[link["link"]] = link["return_code"]
 
-    msg = (f"[{link['return_code']}] link: {link['link']}, parent:"
-           f"{link['file']}")
-    if is_success_code(link["return_code"]):
-        core.info(msg)
-    else:
-        core.error(msg)
-
+    core.info(f"[{link['return_code']}] link: {link['link']} | "
+              f"parent: {link['file']}")
     return link
 
 
@@ -163,7 +158,7 @@ def detect_link_rot(skip_links):
     all_errors = defaultdict(list)
     for link in links:
         if not is_success_code(link["return_code"]):
-            error = f"[{link['return_code']} {link['link']}"
+            error = f"[{link['return_code']}] {link['link']}"
             all_errors[link["file"]].append(error)
 
     # Build final error message
