@@ -149,9 +149,10 @@ def detect_link_rot(skip_links):
 
     # Get all links
     links = []
-    for f in md_files:
-        links += [{"link": l, "file": f} for l in get_links(f)]
-        links += [{"link": l, "file": f} for l in get_image_links(f)]
+    for md_file in md_files:
+        f = md_file.lstrip("./")
+        links += [{"link": l, "file": f} for l in get_links(md_file)]
+        links += [{"link": l, "file": f} for l in get_image_links(md_file)]
 
     # Process links
     skip_links = set(skip_links)

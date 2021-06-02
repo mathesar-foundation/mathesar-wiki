@@ -2,7 +2,7 @@ on:
   schedule:
     # Run everyday at 00:00 UTC
     - cron: '0 0 * * *'
-name: linkinator
+name: link-rot-detection
 jobs:
   linkinator:
     runs-on: ubuntu-latest
