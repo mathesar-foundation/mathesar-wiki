@@ -1,3 +1,5 @@
+import os
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -46,6 +48,21 @@ def authenticate(email, password, url):
         return session
     else:
         return None
+
+
+def authenticate_hackmd(logger):
+    HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
+    HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
+    HACKMD_URL = "https://hackmd.io/login"
+
+    logger.info("Logging into HackMD...")
+    session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
+    if session is None:
+        logger.warning("HackMD log in unsuccesful!")
+        session = requests.Session()
+    else:
+        logger.info("Logged into HackMD")
+    return session
 
 
 if __name__ == "__main__":
