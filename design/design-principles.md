@@ -2,7 +2,7 @@
 title: Design Principles
 description: Design Principles for Mathesar
 published: true
-date: 2021-06-02T10:16:53.572Z
+date: 2021-06-02T11:17:43.482Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T10:16:53.572Z
@@ -21,12 +21,12 @@ Our design principles are a set of beliefs, views, or approaches we chose to gui
 
 ## Principle 1: Focus
 Our team does not want to spend time on decisions that don't help our users or us.
-### Process Focus
+### We are process-oriented
 - Enable spaces that are appropriate for co-creation, participative design
 - Provide an environment in which designers and non-designers feel like their opinions are valued
 - Create resources so that the team and community can learn more about design
 - Make decisions more quickly and efficiently so that we can deliver value to the users
-### Results Focus
+### We are results-oriented
 - Create features that users will accept and care about
 - Confirm user satisfaction with the product through objective and subjective measurements, not just one.
 
@@ -37,5 +37,7 @@ We try our best to predict how users will respond to a design and find ways to m
 - We make assumptions about what will happen to prototype and test our designs, but we are careful to question them and double-check that our beliefs and hypotheses are reasonable.
 
 ## Principle 3: Adaptability
-We consider the whole environment in which our product is used and what interactions are unique to each product component.
-
+We consider the whole environment in which our product is used and what interactions are unique to each product component. We adapt to that context by consistently testing and refining our designs.
+### Just enough design so that we can adapt to new ideas and fail fast
+- We can change the plan as circumstances change
+- We are in regular contact with the key stakeholders of the project
