@@ -2,6 +2,9 @@ import os
 import sys
 import logging
 import urllib3
+from concurrent import futures
+import multiprocessing as mp
+from collections import defaultdict
 
 from actions_toolkit import core
 
@@ -75,46 +78,59 @@ def check_relative_link(link):
         return 404
 
 
-def check_link(session, link):
+def check_link(session, cache, link):
     """
     Checks to see if a link is valid
 
     Args:
         session: requests.Session, current session to make requests with
-        link: str, the link to check
+        cache: dict, a cache of links mapped to their responses
+        link: dict, link of the form:
+            {"link": "link.com", "file": "parent.md"}
     Returns:
-        status_code: int, the status code of the request
+        link: dict, link of the form:
+            {"link": "link.com", "file": "parent.md", "return_code": 200}
     """
-    if is_url(link):
-        return check_external_link(session, link)
+    if link["link"] in cache:
+        link["return_code"] = cache[link["link"]]
     else:
-        return check_relative_link(link)
+        if is_url(link["link"]):
+            link["return_code"] = check_external_link(session, link["link"])
+        else:
+            link["return_code"] = check_relative_link(link["link"])
+        cache[link["link"]] = link["return_code"]
+
+    msg = (f"[{link['return_code']}] link: {link['link']}, parent:"
+           f"{link['file']}")
+    if is_success_code(link["return_code"]):
+        core.info(msg)
+    else:
+        core.error(msg)
+
+    return link
 
 
-def check_links(session, links, cache):
+def check_links(session, links):
     """
-    Checks a list of links and returns a list of errors
+    Checks a list of links and returns a dict of errors
 
     Args:
         session: requests.Session, current session to make requests with
-        link: list of strs, where each str is a link
-        cache: dict, that maps links to return codes
+        links: list of dicts, where each dict is a link of the form:
+            {"link": "link.com", "file": "parent.md"}
     Returns:
-        errors: list of strs, where each str is an error message for a link
+        links: list of dicts, where each dict is a link of the form:
+            {"link": "link.com", "file": "parent.md", "return_code": 200}
     """
-    errors = []
-    for link in links:
-        if link in cache:
-            continue
-        return_code = check_link(session, link)
-        cache[link] = return_code
-        log_msg = f"[{return_code}] {link}"
-        if is_success_code(return_code):
-            core.info(f"  {log_msg}")
-        else:
-            core.error(f"  {log_msg}")
-            errors.append(log_msg)
-    return errors
+    cache = {}
+    num_threads = mp.cpu_count() * 4
+    with futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
+        links = executor.map(lambda link: check_link(
+            session,
+            cache,
+            link,
+        ), links)
+    return links
 
 
 def detect_link_rot(skip_links):
@@ -123,21 +139,33 @@ def detect_link_rot(skip_links):
     external images and replacing the urls with relative links
 
     Args:
-        skip_links: Set of links to skip over
+        skip_links: list of links to skip over
     """
     session = authenticate_hackmd(logger)
 
+    # Get all files
     md_files = get_files(".", logger, [".md"])
     md_files = md_files[".md"]
-    all_errors = {}
-    cache = {}
-    for md_file in md_files:
-        core.info(f"Checking {md_file}...")
-        links = get_links(md_file)
-        links += get_image_links(md_file)
-        links = list(filter(lambda x: x not in skip_links, links))
-        all_errors[md_file] = check_links(session, links, cache)
 
+    # Get all links
+    links = []
+    for f in md_files:
+        links += [{"link": l, "file": f} for l in get_links(f)]
+        links += [{"link": l, "file": f} for l in get_image_links(f)]
+
+    # Process links
+    skip_links = set(skip_links)
+    links = list(filter(lambda x: x["link"] not in skip_links, links))
+    links = check_links(session, links)
+
+    # Map errors to files
+    all_errors = defaultdict(list)
+    for link in links:
+        if not is_success_code(link["return_code"]):
+            error = f"[{link['return_code']} {link['link']}"
+            all_errors[link["file"]].append(error)
+
+    # Build final error message
     error_msg = ""
     for md_file, errors in all_errors.items():
         error_msg += f"\n{md_file}:"
