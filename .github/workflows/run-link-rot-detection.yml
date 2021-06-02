@@ -4,7 +4,7 @@ on:
     - cron: '0 0 * * *'
 name: link-rot-detection
 jobs:
-  linkinator:
+  link-rot-detection:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
