@@ -8,7 +8,9 @@ from util import get_files, get_image_links, update_markdown_file
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
 PRIVATE_IMAGE_DIR = "private"
-REMOVED_MSG = "PRIVATE IMAGE REMOVED"
+REMOVED_MSG = ("*This image was removed automatically because it was not"
+               "uploaded to a public folder. Please contact a [Mathesar core"
+               "team member](/team) if you see this on the wiki.*")
 IMAGE_EXTS = [".tif", ".tiff", ".bmp", ".jpg", ".jpeg", ".gif", ".png"]
 
 logging.basicConfig(level=logging.INFO,
