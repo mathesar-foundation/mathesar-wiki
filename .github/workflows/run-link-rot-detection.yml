@@ -1,0 +1,23 @@
+on:
+  schedule:
+    # Run everyday at 00:00 UTC
+    - cron: '0 0 * * *'
+name: linkinator
+jobs:
+  linkinator:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.6.x"
+      - name: Set up dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/link_rot_detection/requirements.txt
+      - name: Run script
+        run: python scripts/link_rot_detection/link_rot_detection.py
+        env:
+          HACKMD_EMAIL: ${{ secrets.HACKMD_EMAIL }}
+          HACKMD_PASSWORD: ${{ secrets.HACKMD_PASSWORD }}
