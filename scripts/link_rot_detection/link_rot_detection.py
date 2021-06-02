@@ -1,6 +1,7 @@
 import os
 import sys
 import logging
+import urllib3
 
 from actions_toolkit import core
 
@@ -11,6 +12,8 @@ from authentication import authenticate_hackmd, USER_AGENT
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("link-rot-detection")
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 SKIP_LINKS = {
     "http://matrix.mathesar.org/",
@@ -24,8 +27,13 @@ def link2path(link):
     """
     Convert wiki.js style relative link to file path
     """
+    # Remove leading slash from relative path
     link = link.lstrip("/")
-    if not link.endswith(".md"):
+    # Remove styling that might be part of image links
+    link = link.split(" ")[0]
+    # Add .md extension is there is no extension
+    _, ext = os.path.splitext(link)
+    if not ext:
         link += ".md"
     return link
 
