@@ -45,7 +45,7 @@ def is_success_code(return_code):
     """
     Returns true if return_code is a success code, otherwise false
     """
-    if return_code >= 200 and return_code < 300:
+    if return_code >= 200 and return_code < 400:
         return True
     return False
 
