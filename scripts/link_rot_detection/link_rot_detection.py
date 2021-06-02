@@ -162,13 +162,15 @@ def detect_link_rot(skip_links):
             all_errors[link["file"]].append(error)
 
     # Build final error message
+    count = 0
     error_msg = ""
     for md_file, errors in all_errors.items():
         error_msg += f"\n{md_file}:"
+        count += len(errors)
         for error in errors:
             error_msg += f"\n  {error}"
     if error_msg:
-        error_msg = "Broken links found!" + error_msg
+        error_msg = f"{count} Broken links found!" + error_msg
         core.set_failed(error_msg)
 
 
