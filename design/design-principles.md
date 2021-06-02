@@ -2,7 +2,7 @@
 title: Design Principles
 description: Design Principles for Mathesar
 published: true
-date: 2021-06-02T11:17:43.482Z
+date: 2021-06-02T11:40:12.135Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T10:16:53.572Z
@@ -28,13 +28,13 @@ Our team does not want to spend time on decisions that don't help our users or u
 - Make decisions more quickly and efficiently so that we can deliver value to the users
 ### We are results-oriented
 - Create features that users will accept and care about
-- Confirm user satisfaction with the product through objective and subjective measurements, not just one.
+- Confirm user satisfaction with the product through objective and subjective measurements, not just one
 
 ## Principle 2: Impact
 We try our best to predict how users will respond to a design and find ways to maximize the benefits and minimize risks. We anticipate the various effects of the project result on the users.
 ### We value data and empirical support over assumptions
 - As we implement features, we gather data, we observe, we iterate based on those observations.
-- We make assumptions about what will happen to prototype and test our designs, but we are careful to question them and double-check that our beliefs and hypotheses are reasonable.
+- We make assumptions about what will happen to prototype and test our designs, but we are careful to question them and double-check that our beliefs and hypotheses are reasonable
 
 ## Principle 3: Adaptability
 We consider the whole environment in which our product is used and what interactions are unique to each product component. We adapt to that context by consistently testing and refining our designs.
