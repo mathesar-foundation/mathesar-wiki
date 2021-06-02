@@ -75,7 +75,7 @@ def replace_links():
     md_files = get_files(".", logger, [".md"])
     md_files = md_files[".md"]
     for md_file in md_files:
-        image_links = get_image_links(md_file)
+        image_links = get_image_links(md_file, filter_relative=False)
         if image_links:
             logger.info(f"External links found in {md_file}!")
             logger.info(" Starting image download...")
