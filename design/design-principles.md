@@ -2,7 +2,7 @@
 title: Design Principles
 description: Design Principles for Mathesar
 published: true
-date: 2021-06-02T11:48:12.938Z
+date: 2021-06-02T11:48:57.040Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T10:16:53.572Z
@@ -22,7 +22,6 @@ Our team does not want to spend time on decisions that don't help our users or u
 - Enable spaces that are appropriate for co-creation, participative design
 - Provide an environment in which designers and non-designers feel like their opinions are valued
 - Create resources so that the team and community can learn more about design
-- Make decisions more quickly and efficiently so that we can deliver value to the users
 ### We are results-oriented
 - Create features that users will accept and care about
 - Confirm user satisfaction with the product through objective and subjective measurements, not just one of them
