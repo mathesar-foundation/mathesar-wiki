@@ -59,7 +59,7 @@ def check_external_link(session, link):
                             headers=HEADERS,
                             timeout=TIMEOUT)
     # Page might not like head requets, try get instead
-    if response.status_code == 405:
+    if response.status_code == 405 or response.status_code == 403:
         response = session.get(link,
                                verify=False,
                                headers=HEADERS,
