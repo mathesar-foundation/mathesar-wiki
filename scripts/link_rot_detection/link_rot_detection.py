@@ -54,16 +54,10 @@ def check_external_link(session, link):
     """
     Checks if an external link exists
     """
-    response = session.head(link,
-                            verify=False,
-                            headers=HEADERS,
-                            timeout=TIMEOUT)
-    # Page might not like head requets, try get instead
-    if response.status_code == 405 or response.status_code == 403:
-        response = session.get(link,
-                               verify=False,
-                               headers=HEADERS,
-                               timeout=TIMEOUT)
+    response = session.get(link,
+                           verify=False,
+                           headers=HEADERS,
+                           timeout=TIMEOUT)
     return response.status_code
 
 
