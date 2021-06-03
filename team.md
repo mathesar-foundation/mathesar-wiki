@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-06-01T16:30:52.788Z
+date: 2021-06-03T12:06:49.723Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -22,4 +22,5 @@ dateCreated: 2021-05-28T12:40:44.943Z
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
+| Dhruv Bhanushali | `@dhruvkb:matrix.org` | `@dhruvkb` | Engineering |
 | Dhruvi Butti | `@dhruvi16:matrix.org` | `@Dhruvi16` | Design |
