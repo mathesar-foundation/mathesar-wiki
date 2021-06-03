@@ -2,7 +2,7 @@
 title: Tools
 description: Tools used by the Mathesar team
 published: true
-date: 2021-05-07T20:48:57.737Z
+date: 2021-06-03T15:50:03.093Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T18:23:34.742Z
@@ -24,3 +24,12 @@ This page was written by Kriti as a reference for what to invite people to while
 - Google Cloud Platform for deployment
 
 CCI also has Miro and Airtable accounts that we use sometimes, but not regularly.
+
+
+# Private Matrix Channels
+
+| Name | Address | Purpose |
+|-|-|-|
+| Private - Core | [`#core-team:matrix.mathesar.org`](https://matrix.to/#/#core-team:matrix.mathesar.org) | Private channel for core team. |
+| Wiki Updates | [`!cpuwTGxSqUdzZQWEkr:matrix.mathesar.org`](https://matrix.to/#/!cpuwTGxSqUdzZQWEkr:matrix.mathesar.org?via=matrix.mathesar.org) | Automated notifications from the wiki's GitHub repo. |
+
