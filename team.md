@@ -2,13 +2,14 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-06-03T12:06:49.723Z
+date: 2021-06-03T15:41:43.545Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
 ---
 
 ## Core Team
+The **core team** defines the direction of Mathesar and maintains the project.
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
@@ -19,6 +20,7 @@ dateCreated: 2021-05-28T12:40:44.943Z
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
 
 ## Community Team
+The **community team** contributes to Mathesar's design and development. If you've contributed to Mathesar and are interested in joining the community team, please let us know.
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
