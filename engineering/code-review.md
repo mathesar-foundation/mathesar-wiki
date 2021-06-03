@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-05-28T17:37:40.101Z
+date: 2021-06-03T12:03:36.343Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -36,7 +36,7 @@ Some reading related to our process:
 
 ## Why not squash or rebase merges?
 - [Why I’m against merging pull requests in squash mode or rebase mode?](https://myst729.github.io/posts/2019/on-merging-pull-requests/)
-- [Sqauash merges are evil](https://medium.com/bananatag-engineering-blog/squash-merges-are-evil-171f55139c51)
+- [Squash merges are evil](https://medium.com/bananatag-engineering-blog/squash-merges-are-evil-171f55139c51)
 - [Why git squash merges are bad](https://felixmoessbauer.com/blog-reader/why-git-squash-merges-are-bad.html)
 - [Git merge - to squash or not to squash? - Stack Overflow](https://stackoverflow.com/questions/26999930/git-merge-to-squash-or-not-to-squash)
 
