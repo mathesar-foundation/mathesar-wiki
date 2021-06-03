@@ -124,8 +124,8 @@ def check_links(session, links):
 
 def detect_link_rot(skip_links):
     """
-    Iterates over markdown files in the root directory, downloading any
-    external images and replacing the urls with relative links
+    Gathers all links (image and otherwise) in the root directory, then
+    checks whether they are reachable or not.
 
     Args:
         skip_links: list of links to skip over
@@ -145,7 +145,7 @@ def detect_link_rot(skip_links):
 
     # Process links
     skip_links = set(skip_links)
-    links = list(filter(lambda x: x["link"] not in skip_links, links))
+    links = [l for l in links if l["link"] not in skip_links]
     links = check_links(session, links)
 
     # Map errors to files
