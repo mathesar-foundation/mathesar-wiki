@@ -77,12 +77,14 @@ def resolve_dir_path(link, file):
     """
     Resolves paths that search from a directory
     """
-    # Directory name is filename without extension
+    # Directory name would be filename without extension
     dir_name = os.path.splitext(file)[0]
-    if not os.path.exists(dir_name):
-        return None
-    else:
+    if os.path.exists(dir_name):
         return os.path.join(dir_name, link)
+    # If dir doesn't exist, we assume we search from current directory
+    else:
+        parent_dir = os.path.dirname(file)
+        return os.path.join(parent_dir, link)
 
 
 def relative2absolute(link, file):
