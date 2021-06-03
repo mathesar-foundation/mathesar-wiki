@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2021-06-03T13:18:27.111Z
+date: 2021-06-03T14:26:47.049Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -31,7 +31,7 @@ If you want to work on something for which there is no GitHub issue open yet, cr
 Once you've found an issue to work on, 
 
 - Comment on it and say you're working on that issue. This is to avoid conflicts with others also working on the issue.
-- A Mathesar team member will assign you to that issue.
+- A Mathesar [team member](/team) will assign you to that issue.
 - Write your code and submit your pull request. Be sure to read and follow our [code review guidelines](/engineering/code-review).
 - Wait for code review and address any issues raised as soon as you can.
 
