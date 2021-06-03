@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2021-06-03T14:26:47.049Z
+date: 2021-06-03T14:27:23.562Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -25,7 +25,7 @@ Find an issue to work on from our [issues page](https://github.com/centerofci/ma
   - Unassigned issues tagged `status: ready` are also fair game.
     - [Issues tagged `status: ready`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3A+ready%22+no%3Aassignee).
 
-If you want to work on something for which there is no GitHub issue open yet, create an issue and propose your change there. A Mathesar maintainer will evaluate your issue and decide whether we'll accept a pull request for the issue. If we indicate that we will accept a PR, then go ahead and start work on it.
+If you want to work on something for which there is no GitHub issue open yet, create an issue and propose your change there. A Mathesar [team member](/team) will evaluate your issue and decide whether we'll accept a pull request for the issue. If we indicate that we will accept a PR, then go ahead and start work on it.
 
 ## Contributing
 Once you've found an issue to work on, 
