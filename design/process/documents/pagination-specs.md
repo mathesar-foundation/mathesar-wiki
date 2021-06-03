@@ -1,4 +1,12 @@
-###### tags: `design`
+---
+title: pagination-specs
+description: 
+published: true
+date: 2021-06-03T10:54:48.749Z
+tags: 
+editor: markdown
+dateCreated: 2021-06-02T09:10:30.296Z
+---
 
 # Pagination Component
 
