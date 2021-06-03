@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2021-06-03T15:33:05.893Z
+date: 2021-06-03T15:38:28.125Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -14,6 +14,7 @@ Welcome to the Mathesar community! We'd love to have you involved in our project
 {.is-info}
 
 # Community Forums
+The Mathesar team does most of our work in public communication channels, which also serve as the place we interact with our community.
 
 ## Matrix
 We have a Matrix homeserver at `matrix.mathesar.org`, but you can join our public rooms using any Matrix account. If you haven't used Matrix before, we recommend getting started [using Element](https://element.io/get-started).
