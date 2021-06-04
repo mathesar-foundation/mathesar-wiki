@@ -2,7 +2,7 @@ import os
 import logging
 
 from util.markdown import get_image_links, update_markdown_file
-from util.links import get_files
+from util.links import get_files, resolve_wiki_link
 
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
@@ -147,11 +147,11 @@ def organize_images():
     for md_file in md_files:
         links = get_image_links(md_file, filter_relative=True)
         for link in links:
-            link = rel2path(link)
-            if link not in img2files:
+            abs_link = resolve_wiki_link(link, md_file)
+            if abs_link not in img2files:
                 logger.warn(f"Broken link found! {link} in {md_file}")
                 continue
-            img2files[link].append(md_file)
+            img2files[abs_link].append(md_file)
 
     # Remove links to private images
     private_replacements = {md_file: [] for md_file in md_files}
