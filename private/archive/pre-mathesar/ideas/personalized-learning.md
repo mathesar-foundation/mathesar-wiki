@@ -33,7 +33,7 @@ Here are some very rough UI mockups to illustrate the idea behind the project.
 
 **Homepage**: This shows different ways of exploring educational content – by search, by topic, and by featured curriculum. It also has the option for users to make their own curriculum.
 
-![Homepage](archive/ideas/personalized-learning/homepage.png)
+![Homepage](learning-homepage.png)
 
 **Curricula Search**: This shows search results for curricula that users have put together. "fly a rocket" shows two results – a course on building a rocket, and a course on the history of rocketry. Curators can be "experts" in the field (mechanic for determining this is TBD)
 

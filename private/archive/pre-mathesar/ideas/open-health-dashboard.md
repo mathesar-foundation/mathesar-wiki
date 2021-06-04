@@ -42,7 +42,7 @@ Here are some very rough UI mockups to illustrate the idea behind the project.
 
 **Homepage**: This shows recent activity, insights gained from recent activity, and all the different modules you can add or track.
 
-![Homepage](archive/ideas/open-health-dashboard/homepage.png)
+![Homepage](homepage.png)
 
 **Physical Activity**: This shows the homepage for the "physical activity" module. It shows you the different types of activity tracked there (steps, walking, cycling, etc.), the data tracked for each one (including graphs), and allows you to manage and connect different data sources for the data. It also allows you to set goals for the activity, so that you can track if you're meeting your health goals.
 
