@@ -8,7 +8,7 @@ from collections import defaultdict
 from actions_toolkit import core
 
 from util.markdown import get_image_links, get_links
-from util.links import get_files, is_url, relative2absolute
+from util.links import get_files, is_url, resolve_wiki_link
 from util.authentication import authenticate_hackmd, USER_AGENT
 
 logging.basicConfig(level=logging.INFO,
@@ -62,12 +62,7 @@ def check_local_link(link, file):
     """
     Checks if a local link exists
     """
-    link = link2path(link)
-    if not link.startswith("/"):
-        link = relative2absolute(link, file)
-    else:
-        link = link.lstrip("/")
-
+    link = resolve_wiki_link(link, file)
     if link is not None and os.path.exists(link):
         return 200
     else:
