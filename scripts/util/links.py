@@ -34,11 +34,14 @@ def resolve_dir_path(link, file):
     # Directory name would be filename without extension
     dir_name = os.path.splitext(file)[0]
     if os.path.exists(dir_name):
-        return os.path.join(dir_name, link)
-    # If dir doesn't exist, we assume we search from current directory
-    else:
-        parent_dir = os.path.dirname(file)
-        return os.path.join(parent_dir, link)
+        n_link = os.path.join(dir_name, link)
+        if os.path.exists(n_link):
+            return n_link
+
+    # If dir doesn't exist, or if it does exist but the file isn't inside of
+    # it, we assume we search from current directory
+    parent_dir = os.path.dirname(file)
+    return os.path.join(parent_dir, link)
 
 
 def resolve_relative_link(link, file):
