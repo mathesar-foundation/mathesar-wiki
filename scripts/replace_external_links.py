@@ -1,9 +1,7 @@
 import os
-import sys
 import shutil
 import logging
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from util.markdown import get_image_links, update_markdown_file
 from util.links import get_files
 from util.authentication import authenticate_hackmd

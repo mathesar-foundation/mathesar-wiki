@@ -1,5 +1,4 @@
 import os
-import sys
 import logging
 import urllib3
 from concurrent import futures
@@ -8,7 +7,6 @@ from collections import defaultdict
 
 from actions_toolkit import core
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from util.markdown import get_image_links, get_links
 from util.links import get_files, is_url, relative2absolute
 from util.authentication import authenticate_hackmd, USER_AGENT
