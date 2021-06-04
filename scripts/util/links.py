@@ -41,7 +41,7 @@ def resolve_dir_path(link, file):
         return os.path.join(parent_dir, link)
 
 
-def relative2absolute(link, file):
+def resolve_relative_link(link, file):
     """
     Converts a relative link to an absolute link
 
@@ -54,6 +54,23 @@ def relative2absolute(link, file):
         return resolve_dot_path(link, file)
     else:
         return resolve_dir_path(link, file)
+
+
+def resolve_wiki_link(link, file):
+    """
+    Converts wiki.js link to usable local path
+    """
+    # Remove styling that might be part of image links
+    link = link.split(" ")[0]
+    # Add .md extension is there is no extension
+    _, ext = os.path.splitext(link)
+    if not ext:
+        link += ".md"
+
+    if not link.startswith("/"):
+        return resolve_relative_link(link, file)
+    else:
+        return link.lstrip("/")
 
 
 def get_files(root, logger, extensions=None):
