@@ -4,6 +4,7 @@ import urllib3
 from concurrent import futures
 import multiprocessing as mp
 from collections import defaultdict
+import requests
 
 from actions_toolkit import core
 
@@ -51,11 +52,14 @@ def check_external_link(session, link):
     """
     Checks if an external link exists
     """
-    response = session.get(link,
-                           verify=False,
-                           headers=HEADERS,
-                           timeout=TIMEOUT)
-    return response.status_code
+    try:
+        response = session.get(link,
+                               verify=False,
+                               headers=HEADERS,
+                               timeout=TIMEOUT)
+        return response.status_code
+    except requests.exceptions.ReadTimeout:
+        return 404
 
 
 def check_local_link(link, file):
