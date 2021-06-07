@@ -2,7 +2,7 @@
 title: Collaborations
 description: 
 published: true
-date: 2021-05-11T20:04:48.563Z
+date: 2021-06-07T18:32:53.847Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:50:34.660Z
@@ -20,6 +20,9 @@ These projects have solved problems similar to what we are trying to solve and a
 - [Apache Superset](https://superset.apache.org/): data visualization platform
 - [Graphtage](https://github.com/trailofbits/graphtage): utility to semantically compare and merge tree-like structures, such as JSON, XML, HTML, YAML, plist, and CSS files.
 - [MindsDB](https://mindsdb.com/): machine learning in your database
+- [Steampipe](https://steampipe.io/): CLI providing SQL interface to various cloud services
+- [Q](https://harelba.github.io/q/): Run SQL directly on CSV or TSV files
+- [csvkit](https://csvkit.readthedocs.io/en/latest/index.html): Suite of command-line tools for converting to and working with CSV
 
 ## Groups and Individuals
 These are groups and individuals we should reach out to see if they are interested in the product.
