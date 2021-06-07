@@ -3,22 +3,15 @@ import sys
 import shutil
 import logging
 
-import requests
-
-from authentication import authenticate
-
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from util import get_files, get_image_links, update_markdown_file
+from authentication import authenticate_hackmd
 
 BASE_IMAGE_DIR = "assets"
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger("replace-external-links")
-
-HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
-HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
-HACKMD_URL = "https://hackmd.io/login"
 
 
 def make_image_paths(md_file, link):
@@ -76,19 +69,13 @@ def replace_links():
     Iterates over markdown files in the root directory, downloading any
     external images and replacing the urls with relative links
     """
-    logger.info("Logging into HackMD...")
-    session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
-    if session is None:
-        logger.warning("HackMD log in unsuccesful!")
-        session = requests.Session()
-    else:
-        logger.info("Logged into HackMD")
+    session = authenticate_hackmd(logger)
 
     logger.info("Starting image update process...")
     md_files = get_files(".", logger, [".md"])
     md_files = md_files[".md"]
     for md_file in md_files:
-        image_links = get_image_links(md_file)
+        image_links = get_image_links(md_file, filter_relative=False)
         if image_links:
             logger.info(f"External links found in {md_file}!")
             logger.info(" Starting image download...")

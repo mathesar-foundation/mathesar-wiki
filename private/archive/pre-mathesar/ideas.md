@@ -1,18 +1,18 @@
 ---
 title: Ideas
-description: 
+description:
 published: true
 date: 2021-04-19T21:10:52.453Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2021-04-19T20:18:06.260Z
 ---
 
 Potential ideas for software to build. One file per idea. Ideas should be
-related to one of the goals in the [Goals](../goals/) section.
+related to one of the goals in the [Goals](/private/archive/pre-mathesar/goals.md) section.
 
 ## Final idea
-[Simple Databases for Everyone](dabble)  
+[Simple Databases for Everyone](dabble)
 * see also: [reasoning for picking this idea](../pre-mathesar/summaries/2021-02-18)
 
 ## Recently discarded ideas

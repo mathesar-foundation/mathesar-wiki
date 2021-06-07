@@ -3,12 +3,12 @@ title: Roadmap
 description: Early notes on the Mathesar roadmap
 published: true
 date: 2021-04-20T20:49:57.645Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2021-04-20T20:49:57.645Z
 ---
 
-> This page is in the **Archive** because it's out of date. Please see **[Roadmap](/roadmap)** for the current roadmap.
+> This page is in the **Archive** because it's out of date. Please see **[Roadmap](/product/roadmap)** for the current roadmap.
 {.is-warning}
 
 This is a list of features that we anticipate having in the MVP. Please see [Features](./features.md) for a full list of potential features for the product.

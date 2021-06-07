@@ -1,5 +1,10 @@
+import os
 import requests
 from bs4 import BeautifulSoup
+
+USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2)"
+              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117"
+              "Safari/537.36")
 
 
 def check_hackmd_login(res):
@@ -30,7 +35,7 @@ def authenticate(email, password, url):
             f"password={requests.utils.quote(password)}")
     headers = {
         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-        "User-Agent": "Python Script"
+        "User-Agent": USER_AGENT
     }
 
     # Get CSRF token
@@ -46,6 +51,21 @@ def authenticate(email, password, url):
         return session
     else:
         return None
+
+
+def authenticate_hackmd(logger):
+    HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
+    HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
+    HACKMD_URL = "https://hackmd.io/login"
+
+    logger.info("Logging into HackMD...")
+    session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
+    if session is None:
+        logger.warning("HackMD log in unsuccesful!")
+        session = requests.Session()
+    else:
+        logger.info("Logged into HackMD")
+    return session
 
 
 if __name__ == "__main__":
