@@ -2,13 +2,15 @@
 title: Engineering Decisions
 description: Reference for major engineering decisions
 published: true
-date: 2021-06-07T05:22:59.351Z
+date: 2021-06-07T15:26:26.321Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T19:17:12.011Z
 ---
 
 ## June 2021
+- We decided to use limit/offset pagination instead of cursor pagination.
+	- **Discussion**: [Pagination options](https://github.com/centerofci/mathesar/discussions/177)
 - We finalized on using TypeScript on the client.
 	- **Discussion**: [Using Typescript on Client](https://github.com/centerofci/mathesar/discussions/145)
 
