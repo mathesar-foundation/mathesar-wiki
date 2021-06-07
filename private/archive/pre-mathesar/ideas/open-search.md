@@ -1,9 +1,9 @@
 ---
 title: Open Search
-description: 
+description:
 published: true
 date: 2021-04-19T21:16:23.743Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2021-04-19T20:19:02.977Z
 ---
@@ -11,7 +11,7 @@ dateCreated: 2021-04-19T20:19:02.977Z
 ## Vision
 The long term vision for “Open Search” is to
 [accelerate knowledge, creativity, and innovation in the world](../goals/accelerate-innovation)
-through: 
+through:
 * making freely reusable IP discoverable through community driven search and
   curation tools.
 * providing robust collaboration and community tools around open IP
@@ -25,7 +25,7 @@ through:
 * Increase the production of new freely available and reusable scholarly works
 * Strengthen the network of open scholarly works by providing rich contextual
   (meta)data
-  
+
 ### Questions * Is lack of access to freely available scholarly resources _actually_ a
   barrier to creating more scientific work?
 * Is the lack of collaboration tools _actually_ a barrier to creating more
@@ -74,8 +74,8 @@ through:
   make scholarly communications better."
 * [Microsoft Academic](https://academic.microsoft.com/home) Similar tool for researchers to set up profiles and link their
   publications. Similar to Google Scholar, Reseachgate and Academia.edu.
-  
-### Integrations with other ideas 
+
+### Integrations with other ideas
 * Source Commentary Ecosystem
   - This is fairly obvious, but if the search becomes popular enough, it could
     be a reasonable place for folks to discuss.
@@ -135,29 +135,32 @@ in the citation graph.
 ### UI/UX ideas
 
 #### Initial search page
-![Initial search page](https://share.balsamiq.com/c/jYVE4jpBvyXgRH3KceDWcR.png)
+Initial search page (Link broken)
+<!-- https://share.balsamiq.com/c/jYVE4jpBvyXgRH3KceDWcR.png -->
 
 #### The results page
-![Results Page](https://share.balsamiq.com/c/nreLYp6H9yMgT7Y1ij2cyo.png)
+Results Page (Link Broken)
+<!-- https://share.balsamiq.com/c/nreLYp6H9yMgT7Y1ij2cyo.png -->
 The abstract and other details are hidden until the user clicks on a result.
 The "Choose Version" drop-down allows switching between different locations
 where the article appears online.  It should have info about whether the
 version is a pre-print, and how much a pdf costs at that location.
 
 #### Citation graph navigation
-![Citation Graph View](https://share.balsamiq.com/c/oo5msy9DEkdP92rqbuxzwH.png)
+Citation Graph View (Link Broken)!
+<!-- https://share.balsamiq.com/c/oo5msy9DEkdP92rqbuxzwH.png -->
 This shows a UI for navigating the citation graph. "Upstream Articles" are
 articles that the central article cites. "Downstream Articles" are articles
 that cite the central article.  Clicking on the expanded up/down-stream article
 should put it in the center; recurse.
-  
 
-## Option: More general focus on freely available content 
+
+## Option: More general focus on freely available content
 
 ### Goals
 
 * Enable communities using open content to curate their own data
-* Enable the creation of community-led search engines for open content 
+* Enable the creation of community-led search engines for open content
 * Increase the production of new freely reusable IP
 * Strengthen the network of open content by providing rich contextual data
 
