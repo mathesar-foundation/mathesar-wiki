@@ -43,6 +43,14 @@ def clean_file_name(path):
     return path
 
 
+def strip_styling(path):
+    """
+    Remove styling from a relative path
+    """
+    path = path.split(" ")[0]
+    return path
+
+
 def check_private_paths(files):
     """
     Returns True if there is a mix of public and private paths, else False
@@ -155,7 +163,8 @@ def organize_images():
             # Store original link as we need to replace it
             img2files[abs_link].append({
                 "file": md_file,
-                "link": link,
+                # Strip styling so we only replace the link
+                "link": strip_styling(link),
             })
 
     # Remove links to private images
