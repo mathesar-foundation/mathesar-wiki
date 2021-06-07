@@ -2,14 +2,14 @@
 title: Pagination Specs
 description: 
 published: true
-date: 2021-06-07T20:25:53.202Z
+date: 2021-06-07T20:26:42.338Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T09:10:30.296Z
 ---
 
 # Context
-The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](https://wiki.mathesar.org/design/process/documents/read-only-table-specs). The team decided to add pagination to read-only tables during the [May 19th team meeting](https://hackmd.io/Wn-9gqTeTcWzrOgPihsxTA#Paginated-view-vs-Infinite-scrolling). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
+The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](https://wiki.mathesar.org/design/process/documents/read-only-table-specs). The team decided to add pagination to read-only tables during the [May 19th team meeting](/meeting-notes/may-2021). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
 
 # Pagination Component Details
 ![](/assets/design/process/documents/pagination-specs/HyZR_lN9d.png)
