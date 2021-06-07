@@ -2,11 +2,15 @@
 title: Engineering Decisions
 description: Reference for major engineering decisions
 published: true
-date: 2021-05-11T19:00:23.161Z
+date: 2021-06-07T05:22:59.351Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T19:17:12.011Z
 ---
+
+## June 2021
+- We finalized on using TypeScript on the client.
+	- **Discussion**: [Using Typescript on Client](https://github.com/centerofci/mathesar/discussions/145)
 
 ## May 2021
 - We finalized what we expect the Mathesar "Money" type to look like.
