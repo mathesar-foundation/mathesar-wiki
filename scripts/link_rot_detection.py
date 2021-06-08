@@ -1,16 +1,16 @@
 import os
-import sys
 import logging
 import urllib3
 from concurrent import futures
 import multiprocessing as mp
 from collections import defaultdict
+import requests
 
 from actions_toolkit import core
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from util import get_files, get_image_links, get_links, is_url
-from authentication import authenticate_hackmd, USER_AGENT
+from util.markdown import get_image_links, get_links
+from util.links import get_files, is_url, resolve_wiki_link
+from util.authentication import authenticate_hackmd, USER_AGENT
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -52,66 +52,21 @@ def check_external_link(session, link):
     """
     Checks if an external link exists
     """
-    response = session.get(link,
-                           verify=False,
-                           headers=HEADERS,
-                           timeout=TIMEOUT)
-    return response.status_code
-
-
-def resolve_dot_path(link, file):
-    """
-    Resolves paths that start with dots
-    """
-    file = os.path.dirname(file)
-    while link and link.startswith("./") or link.startswith("../"):
-        if link.startswith("./"):
-            link = link[2:]
-        elif link.startswith("../"):
-            link = link[3:]
-            file = os.path.dirname(file)
-    return os.path.join(file, link)
-
-
-def resolve_dir_path(link, file):
-    """
-    Resolves paths that search from a directory
-    """
-    # Directory name would be filename without extension
-    dir_name = os.path.splitext(file)[0]
-    if os.path.exists(dir_name):
-        return os.path.join(dir_name, link)
-    # If dir doesn't exist, we assume we search from current directory
-    else:
-        parent_dir = os.path.dirname(file)
-        return os.path.join(parent_dir, link)
-
-
-def relative2absolute(link, file):
-    """
-    Converts a relative link to an absolute link
-
-    Three modes of relative path:
-        './': Search from parent directory of file
-        '../': Search from parent of parent directory of file
-        No prefix: Search inside directory of same name as file
-    """
-    if link.startswith("./") or link.startswith("../"):
-        return resolve_dot_path(link, file)
-    else:
-        return resolve_dir_path(link, file)
+    try:
+        response = session.get(link,
+                               verify=False,
+                               headers=HEADERS,
+                               timeout=TIMEOUT)
+        return response.status_code
+    except requests.exceptions.ReadTimeout:
+        return 404
 
 
 def check_local_link(link, file):
     """
     Checks if a local link exists
     """
-    link = link2path(link)
-    if not link.startswith("/"):
-        link = relative2absolute(link, file)
-    else:
-        link = link.lstrip("/")
-
+    link = resolve_wiki_link(link, file)
     if link is not None and os.path.exists(link):
         return 200
     else:

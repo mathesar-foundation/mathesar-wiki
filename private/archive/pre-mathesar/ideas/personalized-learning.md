@@ -33,23 +33,23 @@ Here are some very rough UI mockups to illustrate the idea behind the project.
 
 **Homepage**: This shows different ways of exploring educational content – by search, by topic, and by featured curriculum. It also has the option for users to make their own curriculum.
 
-![Homepage](archive/ideas/personalized-learning/homepage.png)
+![Homepage](/assets/private/archive/pre-mathesar/ideas/personalized-learning/learning-homepage.png)
 
 **Curricula Search**: This shows search results for curricula that users have put together. "fly a rocket" shows two results – a course on building a rocket, and a course on the history of rocketry. Curators can be "experts" in the field (mechanic for determining this is TBD)
 
-![Curricula Search](curricula-search.png)
+![Curricula Search](/assets/private/archive/pre-mathesar/ideas/personalized-learning/curricula-search.png)
 
 **Curriculum Detail**: This shows the detail page for a single curriculum. It shows a description, reviews, etc., but also shows a map of modules that are part of the curriculum.
 
-![Curriculum Detail](curriculum-detail.png)
+![Curriculum Detail](/assets/private/archive/pre-mathesar/ideas/personalized-learning/curriculum-detail.png)
 
 **Module Detail**: This shows the detail page for a single module. It shows different ways you can learn the material, and some metadata about it. It allows the user to suggest additional alternatives to learn the material, and also shows some related short material in the sidebar.
 
-![Module Detail](module-detail.png)
+![Module Detail](/assets/private/archive/pre-mathesar/ideas/personalized-learning/module-detail.png)
 
 **My Learning**: This page shows how the user can track their own learning.
 
-![My Learning](my-learning.png)
+![My Learning](/assets/private/archive/pre-mathesar/ideas/personalized-learning/my-learning.png)
 
 ## Feasability
 It should be pretty easy to get to a MVP of this project, there's not a lot of technical complexity.
