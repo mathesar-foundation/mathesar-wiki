@@ -15,9 +15,9 @@ jobs:
       - name: Set up dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/link_rot_detection/requirements.txt
+          pip install -r scripts/requirements.txt
       - name: Run script
-        run: python scripts/link_rot_detection/link_rot_detection.py
+        run: python scripts/link_rot_detection.py
         env:
           HACKMD_EMAIL: ${{ secrets.HACKMD_EMAIL }}
           HACKMD_PASSWORD: ${{ secrets.HACKMD_PASSWORD }}

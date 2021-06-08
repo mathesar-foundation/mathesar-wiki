@@ -1,9 +1,9 @@
 import os
-import sys
 import logging
+from collections import defaultdict
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from util import get_files, get_image_links, update_markdown_file
+from util.markdown import get_image_links, update_markdown_file
+from util.links import get_files, resolve_wiki_link
 
 BASE_IMAGE_DIR = "assets"
 UNUSED_IMAGE_DIR = ".unused"
@@ -40,6 +40,14 @@ def clean_file_name(path):
     Removes the initial directory added by get_files()
     """
     path = path.lstrip("./")
+    return path
+
+
+def strip_styling(path):
+    """
+    Remove styling from a relative path
+    """
+    path = path.split(" ")[0]
     return path
 
 
@@ -148,40 +156,46 @@ def organize_images():
     for md_file in md_files:
         links = get_image_links(md_file, filter_relative=True)
         for link in links:
-            link = rel2path(link)
-            if link not in img2files:
+            abs_link = resolve_wiki_link(link, md_file)
+            if abs_link not in img2files:
                 logger.warn(f"Broken link found! {link} in {md_file}")
                 continue
-            img2files[link].append(md_file)
+            # Store original link as we need to replace it
+            img2files[abs_link].append({
+                "file": md_file,
+                # Strip styling so we only replace the link
+                "link": strip_styling(link),
+            })
 
     # Remove links to private images
-    private_replacements = {md_file: [] for md_file in md_files}
+    private_replacements = defaultdict(list)
     error_message = ""
     for img, files in img2files.items():
-        if not check_private_paths(files):
+        file_paths = [f["file"] for f in files]
+        if not check_private_paths(file_paths):
             private_files = [
-                f for f in files if f.startswith(PRIVATE_IMAGE_DIR)
+                f for f in files if f["file"].startswith(PRIVATE_IMAGE_DIR)
             ]
             public_files = [
-                f for f in files if not f.startswith(PRIVATE_IMAGE_DIR)
+                f for f in files if not f["file"].startswith(PRIVATE_IMAGE_DIR)
             ]
 
             # Update links so only references are private files
             img2files[img] = private_files
 
-            # Save public files to remove the links
-            rel_img = path2rel(img)
             for md_file in public_files:
-                private_replacements[md_file].append((rel_img, REMOVED_MSG))
-            error_message += f"\n- {rel_img} in {md_file}"
+                file, link = md_file["file"], md_file["link"]
+                private_replacements[file].append((link, REMOVED_MSG))
+                error_message += f"\n- {link} in {file}"
 
     for md_file, links in private_replacements.items():
         update_markdown_file(logger, md_file, links)
 
     # Move images depending on where they appear
-    link_replacements = {md_file: [] for md_file in md_files}
+    link_replacements = defaultdict(list)
     for img, files in img2files.items():
-        save_path, rel_path = build_image_paths(img, files)
+        file_paths = [f["file"] for f in files]
+        save_path, rel_path = build_image_paths(img, file_paths)
         # If image is not where it should be...
         if img != save_path:
             # Move image
@@ -192,9 +206,9 @@ def organize_images():
             clean_directories(img)
 
             # Track moved images
-            rel_img = path2rel(img)
             for md_file in files:
-                link_replacements[md_file].append((rel_img, rel_path))
+                file, link = md_file["file"], md_file["link"]
+                link_replacements[file].append((link, rel_path))
 
     for md_file, links in link_replacements.items():
         update_markdown_file(logger, md_file, links)
