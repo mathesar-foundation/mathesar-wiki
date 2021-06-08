@@ -211,7 +211,9 @@ def organize_images():
         update_markdown_file(md_file, links)
 
     if error_message:
-        core.error("Public pages pointed to private images:" + error_message)
+        msg = "Public pages pointed to private images:" + error_message
+        core.set_output("error-message", msg)
+        core.set_failed()
 
 
 if __name__ == "__main__":
