@@ -1,6 +1,8 @@
 import os
 import urllib.parse
 
+from actions_toolkit import core
+
 
 def is_url(link):
     """
@@ -76,18 +78,17 @@ def resolve_wiki_link(link, file):
         return link.lstrip("/")
 
 
-def get_files(root, logger, extensions=None):
+def get_files(root, extensions=None):
     """
     Gathers file of given extensions recursively
 
     Args:
         root: Root directory to search from
-        logger: Logger to log with
         extensions: A list of strings, where each string is an extension of the
         form ".ext". Ex: ".txt", ".md", ".pdf". If not passed, all files are
         returned
     """
-    logger.info("Gathering files...")
+    core.info("Gathering files...")
     if extensions:
         all_files = {ext: [] for ext in extensions}
     else:

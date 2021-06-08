@@ -1,5 +1,4 @@
 import os
-import logging
 import urllib3
 from concurrent import futures
 import multiprocessing as mp
@@ -11,10 +10,6 @@ from actions_toolkit import core
 from util.markdown import get_image_links, get_links
 from util.links import get_files, is_url, resolve_wiki_link
 from util.authentication import authenticate_hackmd, USER_AGENT
-
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger("link-rot-detection")
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -131,10 +126,10 @@ def detect_link_rot(skip_links):
     Args:
         skip_links: list of links to skip over
     """
-    session = authenticate_hackmd(logger)
+    session = authenticate_hackmd()
 
     # Get all files
-    md_files = get_files(".", logger, [".md"])
+    md_files = get_files(".", [".md"])
     md_files = md_files[".md"]
 
     # Get all links
