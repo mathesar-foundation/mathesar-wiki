@@ -186,7 +186,7 @@ def organize_images():
                 error_message += f"\n- {link} in {file}"
 
     for md_file, links in private_replacements.items():
-        update_markdown_file(md_file,klinks)
+        update_markdown_file(md_file, links)
 
     # Move images depending on where they appear
     link_replacements = defaultdict(list)
@@ -211,7 +211,7 @@ def organize_images():
         update_markdown_file(md_file, links)
 
     if error_message:
-        print("Public pages pointed to private images:" + error_message)
+        core.error("Public pages pointed to private images:" + error_message)
 
 
 if __name__ == "__main__":
