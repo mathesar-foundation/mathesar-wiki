@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2021-06-03T15:38:28.125Z
+date: 2021-06-08T14:47:43.960Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -24,6 +24,8 @@ A list of our public rooms:
 | Name | Address | Purpose |
 |-|-|-|
 | General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
+| Code | [`#code:matrix.mathesar.org`](https://matrix.to/#/#mathesar:code.mathesar.org) | Technical or code-related discussion. |
+| Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
 | Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
 | Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
