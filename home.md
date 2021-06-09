@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-03T16:52:40.460Z
+date: 2021-06-09T18:45:39.027Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -11,9 +11,11 @@ dateCreated: 2021-04-16T14:07:42.267Z
 # Welcome
 Mathesar is an open source project that aims to make databases accessible to non-technical users, allowing users to store, manipulate, visualize, and collaborate with others on their data. We're heavily inspired by [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
 
-We are in early development and hope to launch an alpha version of Mathesar by fall 2021.
+We are in early development and hope to launch an alpha version of Mathesar by November 2021.
 
-# Sections
+## About the wiki
+The Mathesar wiki is our primary knowledge base.
+
 - [:package: Product *About Mathesar, product roadmap, feature ideas, etc.*](/product)
 - [:art: Design *Notes and resources related to the design of Mathesar*](/design)
 - [:hammer_and_pick: Engineering *Notes and resources for Mathesar developers*](/engineering)
