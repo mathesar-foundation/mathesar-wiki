@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-09T18:45:39.027Z
+date: 2021-06-09T19:06:55.316Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -14,16 +14,16 @@ Mathesar is an open source project that aims to make databases accessible to non
 We are in early development and hope to launch an alpha version of Mathesar by November 2021.
 
 ## About the wiki
-The Mathesar wiki is our primary knowledge base.
+The Mathesar wiki is our primary knowledge base for everything we do. You can use the sidebar to navigate around the wiki. Some quick links:
 
-- [:package: Product *About Mathesar, product roadmap, feature ideas, etc.*](/product)
-- [:art: Design *Notes and resources related to the design of Mathesar*](/design)
-- [:hammer_and_pick: Engineering *Notes and resources for Mathesar developers*](/engineering)
-- [:rocket: Contributing to Mathesar *How to contribute code or design to Mathesar*](/community/contributing)
-- [:earth_asia: Community *Join the Mathesar community*](/community)
-- [:memo: Meeting Notes *Our team's meeting notes*](/meeting-notes)
-- [:file_cabinet: Archive *Content no longer relevant to current work*](/archive)
-{.links-list}
+- If you're interested in learning more about Mathesar, you'll probably want to look at our [Product](/product) section, including our [Product Principles](/product/principles).
+- If you're interested in contributing to Mathesar, please look at:
+  - [Joing the Community](/community)
+  - [Contributing to Mathesar](/community/contributing)
+- If you're interested in how we do things, please see:
+  - [Design](/design)
+  - [Engineering](/engineering)
+  - [Meeting Notes](/meeting-notes)
 
 # Support
 Mathesar is based out of the **[Center of Complex Interventions](https://www.centerofci.org/)**.
