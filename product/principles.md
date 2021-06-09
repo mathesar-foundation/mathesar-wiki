@@ -2,7 +2,7 @@
 title: Product Principles
 description: 
 published: true
-date: 2021-06-08T11:00:24.020Z
+date: 2021-06-09T20:10:59.798Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-08T11:00:24.020Z
@@ -18,9 +18,15 @@ These principles apply to _what_ Mathesar is.
 - Mathesar should be able to work as a frontend to existing databases without altering data, even if not all features are available.
 - Mathesar is built in a modular way, so that:
 	- Our database helper library should be able to be used independently of using Mathesar.
-  - Mathesar's backend should support building custom frontend/mobile clients (all actions should be available via API, and should be well documented)
+  - Mathesar's backend should support building custom frontend/mobile clients. All actions should be available via API, and should be well documented.
   - Mathesar should support plugins for custom data types, views, data manipulations, etc.
-- Mathesar's frontend should have an intuitive, user-friendly, and delightful user interface.
+- Mathesar's frontend should have an intuitive, user-friendly, and delightful user interface
+  - Our aim is to make users feel empowered to explore, make mistakes, and recover from them.
+- Mathesar is for both non-technical and technical users.
+  - We favor [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration) (sensible defaults).
+  - Users do not need to know anything about database concepts to use Mathesar, but we do not hide them either.
+  - We aim to actively guide non-technical users into using Mathesar (and databases in general) optimally.
+  - We aim to create a standard PostgreSQL database that technical users can use with other PostgreSQL tooling.
 
 # Process
 
