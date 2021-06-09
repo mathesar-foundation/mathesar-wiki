@@ -1,8 +1,7 @@
-import os
-
 import markdown
 from markdown.treeprocessors import Treeprocessor
 from markdown.extensions import Extension
+from actions_toolkit import core
 
 from .links import is_url
 
@@ -94,7 +93,7 @@ def get_links(md_file, filter_relative=None):
         return list(filter(is_url, links))
 
 
-def update_markdown_file(logger, md_file, replace_text):
+def update_markdown_file(md_file, replace_text):
     """
     Replaces urls in a markdown file with relative links
 
@@ -105,11 +104,11 @@ def update_markdown_file(logger, md_file, replace_text):
     """
     if not replace_text:
         return
-    logger.info(f" Updating {md_file}...")
+    core.info(f" Updating {md_file}...")
     with open(md_file, 'r') as f:
         text = f.read()
     for src, dest in replace_text:
         text = text.replace(src, dest)
-        logger.info(f"  {src} -> {dest}")
+        core.info(f"  {src} -> {dest}")
     with open(md_file, 'w') as f:
         f.write(text)

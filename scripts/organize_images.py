@@ -1,6 +1,7 @@
 import os
-import logging
 from collections import defaultdict
+
+from actions_toolkit import core
 
 from util.markdown import get_image_links, update_markdown_file
 from util.links import get_files, resolve_wiki_link
@@ -12,10 +13,6 @@ REMOVED_MSG = ("*This image was removed automatically because it was not"
                "uploaded to a public folder. Please contact a [Mathesar core"
                "team member](/team) if you see this on the wiki.*")
 IMAGE_EXTS = [".tif", ".tiff", ".bmp", ".jpg", ".jpeg", ".gif", ".png"]
-
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger("organize-images")
 
 
 def rel2path(link):
@@ -91,7 +88,7 @@ def build_image_paths(img, files):
     """
     if not files:
         if UNUSED_IMAGE_DIR not in img:
-            logger.warn(f"{img} not used in any files!")
+            core.warning(f"{img} not used in any files!")
         path = os.path.join(BASE_IMAGE_DIR, UNUSED_IMAGE_DIR)
     else:
         path = build_common_path(files)
@@ -126,7 +123,7 @@ def move_file(src, dest):
     dest = build_unique_path(dest)
     # Move file
     os.makedirs(os.path.dirname(dest), exist_ok=True)
-    logger.info(f"Moving {src} -> {dest}...")
+    core.info(f"Moving {src} -> {dest}...")
     os.rename(src, dest)
     return dest
 
@@ -138,14 +135,14 @@ def clean_directories(path):
     """
     path = os.path.dirname(path)
     if path and not os.listdir(path):
-        logger.info(f"Cleaning up {path}...")
+        core.info(f"Cleaning up {path}...")
         os.rmdir(path)
         clean_directories(path)
 
 
 def organize_images():
-    logger.info("Finding markdown files and images...")
-    all_files = get_files(".", logger, [".md"] + IMAGE_EXTS)
+    core.info("Finding markdown files and images...")
+    all_files = get_files(".", [".md"] + IMAGE_EXTS)
     md_files = [clean_file_name(f) for f in all_files[".md"]]
     img2files = {
         clean_file_name(img): []
@@ -158,7 +155,7 @@ def organize_images():
         for link in links:
             abs_link = resolve_wiki_link(link, md_file)
             if abs_link not in img2files:
-                logger.warn(f"Broken link found! {link} in {md_file}")
+                core.warning(f"Broken link found! {link} in {md_file}")
                 continue
             # Store original link as we need to replace it
             img2files[abs_link].append({
@@ -189,7 +186,7 @@ def organize_images():
                 error_message += f"\n- {link} in {file}"
 
     for md_file, links in private_replacements.items():
-        update_markdown_file(logger, md_file, links)
+        update_markdown_file(md_file, links)
 
     # Move images depending on where they appear
     link_replacements = defaultdict(list)
@@ -211,10 +208,12 @@ def organize_images():
                 link_replacements[file].append((link, rel_path))
 
     for md_file, links in link_replacements.items():
-        update_markdown_file(logger, md_file, links)
+        update_markdown_file(md_file, links)
 
     if error_message:
-        print("Public pages pointed to private images:" + error_message)
+        msg = "Public pages pointed to private images:" + error_message
+        core.set_output("error-message", msg)
+        core.set_failed()
 
 
 if __name__ == "__main__":
