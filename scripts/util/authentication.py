@@ -1,6 +1,8 @@
 import os
 import requests
+
 from bs4 import BeautifulSoup
+from actions_toolkit import core
 
 USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2)"
               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117"
@@ -53,18 +55,18 @@ def authenticate(email, password, url):
         return None
 
 
-def authenticate_hackmd(logger):
+def authenticate_hackmd():
     HACKMD_EMAIL = os.environ["HACKMD_EMAIL"]
     HACKMD_PASSWORD = os.environ["HACKMD_PASSWORD"]
     HACKMD_URL = "https://hackmd.io/login"
 
-    logger.info("Logging into HackMD...")
+    core.info("Logging into HackMD...")
     session = authenticate(HACKMD_EMAIL, HACKMD_PASSWORD, HACKMD_URL)
     if session is None:
-        logger.warning("HackMD log in unsuccesful!")
+        core.warning("HackMD log in unsuccesful!")
         session = requests.Session()
     else:
-        logger.info("Logged into HackMD")
+        core.info("Logged into HackMD")
     return session
 
 
