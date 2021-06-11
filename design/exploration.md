@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2021-05-11T20:00:08.368Z
+date: 2021-06-11T21:22:04.570Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -21,4 +21,5 @@ These are long-form documents exploring various ideas.
 These are screenshots, articles etc. related to UI/UX patterns that may be useful to us while designing Mathesar.
 
 - [Data Types](/design/exploration/data-types)
+- [Advanced Filters](/design/exploration/filters)
 {.links-list}
