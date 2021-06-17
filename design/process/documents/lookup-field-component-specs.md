@@ -7,7 +7,7 @@ The lookup field component was specified as part of the design for ['Add Table f
 
 # Scenario: Selecting a Schema
 
-![](https://i.imgur.com/Cr6i2pU.png =320x)
+![](/assets/design/process/documents/lookup-field-component-specs/Cr6i2pU.png =320x)
 
 The lookup field component allows the user to choose a value from a list to perform a specific action. A common task within Mathesar will be the creation of database objects such as tables and views. These objects belong to a schema, which is the structure of a database.
 
@@ -25,16 +25,16 @@ Our current use case doesn't contain instances where a lookup field might requir
 ### Selecting from Existing Values
 For a schema that already exists, the user will have to click on the desired schema to select it.
 
-![](https://i.imgur.com/jRBFNUO.png)
+![](/assets/design/process/documents/lookup-field-component-specs/jRBFNUO.png)
 
 In some cases, users might see an item listed but can't select it. This state could be due to insufficient privileges or other factors. In that case, the item will be grayed out and non-interactive.
 
-![](https://i.imgur.com/eej36bN.png =240x)
+![](/assets/design/process/documents/lookup-field-component-specs/eej36bN.png =240x)
 
 ### Add a New Schema and Select It
 In some cases, a user might want to add the table to a new schema. To avoid leaving this view and restarting the process, the user can add it from the lookup menu.
 
-![](https://i.imgur.com/aP3hoGa.png)
+![](/assets/design/process/documents/lookup-field-component-specs/aP3hoGa.png)
 
 #### Pros
 - Easier to transform into multi-select in the future as space can be handled better because 'Find a schema' is separated from 'Selected Schemas'
@@ -49,16 +49,16 @@ In some cases, a user might want to add the table to a new schema. To avoid leav
 
 - Retrieve all schemas by clicking on the field
 
-![](https://i.imgur.com/dKPcSq3.png =240x)
+![](/assets/design/process/documents/lookup-field-component-specs/dKPcSq3.png =240x)
 
 - Type to find existing schemas
 
-![](https://i.imgur.com/hdL78gs.png =240x)
+![](/assets/design/process/documents/lookup-field-component-specs/hdL78gs.png =240x)
 
 ### Add a New Schema and Select It
 - Type to create a new schema if no matches found
 
-![](https://i.imgur.com/b92JFFc.png =240x)
+![](/assets/design/process/documents/lookup-field-component-specs/b92JFFc.png =240x)
 
 #### Pros
 - Fewer steps overall. User can both refine the list of schemas or create a new one without requiring additional steps
@@ -73,11 +73,11 @@ Alternative #2 is preferred as it is more ARIA friendly.
 
 Clicking the input field to reveal full list of options:
 
-![](https://hackmd.io/_uploads/rygEN__i_.png =300x)
+![](/assets/design/process/documents/lookup-field-component-specs/rygEN__i_.png =300x)
 
 Typing the name of the schema to retrieve matching options:
 
-![](https://hackmd.io/_uploads/BJuBNu_su.png =300x)
+![](/assets/design/process/documents/lookup-field-component-specs/BJuBNu_su.png =300x)
 
 
 ### Discarding 'Add Schema' functionality from the lookup field for now
