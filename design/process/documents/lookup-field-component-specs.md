@@ -1,4 +1,15 @@
+---
+title: lookup-field-component-specs
+description: 
+published: true
+date: 2021-06-17T10:52:03.697Z
+tags: 
+editor: markdown
+dateCreated: 2021-06-17T07:13:36.093Z
+---
+
 # Lookup Field Component Specs
+
 ## Context
 The lookup field component was specified as part of the design for ['Add Table from Import'](https://wiki.mathesar.org/design/process/documents/table-import-specs). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:
 
