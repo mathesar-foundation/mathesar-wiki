@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-06-03T15:45:27.499Z
+date: 2021-06-23T18:43:34.281Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -26,6 +26,7 @@ The **community team** contributes to Mathesar's design and development and has 
 |-|-|-|-|
 | Dhruv Bhanushali | `@dhruvkb:matrix.org` | `@dhruvkb` | Engineering |
 | Dhruvi Butti | `@dhruvi16:matrix.org` | `@Dhruvi16` | Design |
+| Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering |
 
  If you've contributed to Mathesar and are interested in joining the community team, please let us know.
  
