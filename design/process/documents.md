@@ -2,7 +2,7 @@
 title: Design Handoff Documents
 description: Documents related to the design process
 published: true
-date: 2021-06-29T18:32:56.457Z
+date: 2021-06-29T18:38:46.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -18,7 +18,7 @@ These are specs for new features, corresponding to our [development milestones](
 - [Read Only Tables](/design/process/documents/read-only-table-specs)
 
 # Components
-These are more detailed specs for complex components involved in the features above.
+These are detailed specs for complex components involved in the features above.
 
 - [Pagination Component](/design/process/documents/pagination-specs)
 - [Lookup Field Component](/design/process/documents/lookup-field-component-specs.md)
