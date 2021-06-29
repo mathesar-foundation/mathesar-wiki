@@ -1,11 +1,18 @@
-# Adding, Update and Delete Records Via spreadsheet-like UI
+---
+title: Adding, Update and Deleting Records
+description: 
+published: true
+date: 2021-06-29T18:42:14.980Z
+tags: 
+editor: markdown
+dateCreated: 2021-06-28T17:47:57.446Z
+---
 
-## Figma Prototype
+# Figma Prototype
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D1064%253A0%26node-id%3D1066%253A0%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 
-## Context
+# Context
 Adding records will be an essential part of an inventory system as users will have to update their inventory to reflect changes. For example, if users added a new item to their list, we should allow them to update their inventory by adding records to the relevant database table.
-
 
 # User Experience
 The user experience for adding, editing, and deleting records should make table modifications seamless, intuitive, and visual. For example, users should do so without following any specific data entry order and across multiple records at once when adding and editing records. Errors, if present, shouldn't block the user from performing other actions and should be easily corrected from the UI.
