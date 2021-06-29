@@ -2,7 +2,7 @@
 title: Adding, Update and Deleting Records
 description: 
 published: true
-date: 2021-06-29T18:42:14.980Z
+date: 2021-06-29T19:30:23.622Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T17:47:57.446Z
@@ -115,7 +115,7 @@ However, any selected cell will automatically set the row and columns to which i
 ![](/assets/design/process/documents/add-update-delete-records-specs/WaEWViQ.png)
 
 ## Implementation Notes
-- The table toolbar component introduced for the design of this feature could also be used to trigger the table properties panel discussed on the previous [feature specs]([https://].(https://wiki.mathesar.org/design/process/documents/filter-sort-group-specs))
+- The table toolbar component introduced for the design of this feature could also be used to trigger the table properties panel discussed on the previous [feature specs](https://wiki.mathesar.org/design/process/documents/filter-sort-group-specs)
 
 ## Additional Review Notes
 
