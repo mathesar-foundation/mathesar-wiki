@@ -1,18 +1,20 @@
 ---
-title: Design Documents
+title: Design Handoff Documents
 description: Documents related to the design process
 published: true
-date: 2021-06-29T06:20:01.567Z
+date: 2021-06-29T18:30:39.073Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
 ---
 
-# Handoff Documents
+# Milestones
 
-- [Read Only Table Specs](/design/process/documents/read-only-table-specs)
+- [Add, Update, Delete Records](/design/process/documents/add-update-delete-records-specs)
+- [Filter, Sort, Group Tables](/design/process/documents/filter-sort-group-specs)
 - [Add Table from File Import](/design/process/documents/table-import-specs)
+- [Read Only Tables](/design/process/documents/read-only-table-specs)
+
+# Components
 - [Pagination Component](/design/process/documents/pagination-specs)
-- [Filter, Sort, Group Specs](/design/process/documents/filter-sort-group-specs)
-- [Lookup Field Component Specs](/design/process/documents/lookup-field-component-specs.md)
-- [Add, Update, Delete Records Specs](/design/process/documents/add-update-delete-records-specs)
+- [Lookup Field Component](/design/process/documents/lookup-field-component-specs.md)
