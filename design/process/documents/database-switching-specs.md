@@ -1,13 +1,18 @@
+---
+title: database-switching-specs
+description: 
+published: true
+date: 2021-06-29T09:53:20.726Z
+tags: 
+editor: markdown
+dateCreated: 2021-06-29T09:52:09.817Z
+---
+
 # Database Switching Specs
 ## Context
 Users might have multiple databases, and they need to switch between them as necessary, in a seamless manner, without worrying about the current status of open tables or views.
 
 ## Scenarios
-
-### Default Database
-When opening Mathesar, the default database is the one that was most recently open. If this database no longer exists, then Mathesar should show an error message and direct the user to open a different database or troubleshoot the connection. 
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D1207%253A0%26node-id%3D1706%253A13775%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 
 ### Open Single Schema vs. Multiple Schemas
 Having users create multiple related tables inside a schema, rather than having their related data split into different schemas, is desired for our intended use cases. It also reduces complexity, and it's easier to manage. 
@@ -22,6 +27,11 @@ If a table within the open schema has unsaved changes, a warning will inform the
 The status of tabs should be persistent when reopening a schema.
 
 ![](/assets/design/process/documents/database-switching-specs/qMsmiZo.png =400x)
+
+### Missing Default Database 
+When opening Mathesar, the default database is the one that was most recently open. If this database no longer exists, then Mathesar should show an error message and direct the user to open a different database or troubleshoot the connection. 
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D1207%253A0%26node-id%3D1706%253A13775%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 
 ## Interactions
 ### Indicating Tables with Errors
