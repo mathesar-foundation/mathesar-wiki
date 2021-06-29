@@ -21,18 +21,18 @@ If a table within the open schema has unsaved changes, a warning will inform the
 ### Persist Tabs for Schemas
 The status of tabs should be persistent when reopening a schema.
 
-![](https://i.imgur.com/qMsmiZo.png =400x)
+![](/assets/design/process/documents/database-switching-specs/qMsmiZo.png =400x)
 
 ## Interactions
 ### Indicating Tables with Errors
 If a table contains errors, the interface should help identify those by adding a visual indicator to the corresponding tab.
 
-![](https://i.imgur.com/mCwwg8S.png =400x)
+![](/assets/design/process/documents/database-switching-specs/mCwwg8S.png =400x)
 
 ### Showing Recent Objects 
 A list of recent objects is available to help users access their most frequently used objects, such as tables and views.
 
-![](https://i.imgur.com/0vScHwP.png =240x)
+![](/assets/design/process/documents/database-switching-specs/0vScHwP.png =240x)
 
 
 ## User Interface
@@ -41,7 +41,7 @@ A list of recent objects is available to help users access their most frequently
 The database navigation menu provides a context for the various databases and schemas that users can access through Mathesar.
 From this menu, the user can search through all databases and navigate to schemas.
 
-![](https://i.imgur.com/JGIqCOi.png)
+![](/assets/design/process/documents/database-switching-specs/JGIqCOi.png)
 
 
 
