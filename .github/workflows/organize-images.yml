@@ -5,6 +5,10 @@ jobs:
   replace-external-links:
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -25,11 +29,23 @@ jobs:
           git config --global user.email '82667229+mathesar-bot@users.noreply.github.com'
           git add -A
           git diff-index --quiet --cached HEAD || git commit -m "Remove external links"
-          git push
+          git pull
+          CONFLICTS=$(git ls-files -u | wc -l)
+          if [ "$CONFLICTS" -gt 0 ]
+          then
+            exit 0
+          else
+            git push
+          fi
   organize-images:
+    if: always()
     needs: [replace-external-links]
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -49,7 +65,14 @@ jobs:
           git config --global user.email '82667229+mathesar-bot@users.noreply.github.com'
           git add -A
           git diff-index --quiet --cached HEAD || git commit -m "Organize images"
-          git push
+          git pull
+          CONFLICTS=$(git ls-files -u | wc -l)
+          if [ "$CONFLICTS" -gt 0 ]
+          then
+            exit 0
+          else
+            git push
+          fi
       - name: Error Message
         if: steps.run-script.outcome == 'failure'
         run: |
