@@ -30,7 +30,7 @@ The system won't save the table until the empty table is created or the file imp
 #### Schema Selection
 Recent changes in the design might influence how schemas are presented within Mathesar. We assume that a single schema is being displayed, thus eliminating the requirement for a schema selector.
 
-![](https://i.imgur.com/ksN9Z6d.png =200x)
+![](/assets/design/process/documents/design/ksN9Z6d.png =200x)
 
 ### User completes table creation
 Once the table creation process is over, the table name input is hidden while the table label remains. Clicking on the table label will show the input again.
