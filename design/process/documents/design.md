@@ -1,8 +1,8 @@
 ---
-title: Specs for Naming a New Table (discard modal update)
+title: Table Creation Controls Spec (discard modal update)
 description: 
 published: true
-date: 2021-06-30T12:45:46.161Z
+date: 2021-06-30T12:46:52.426Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-30T12:43:41.787Z
