@@ -5,6 +5,10 @@ jobs:
   replace-external-links:
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -38,6 +42,10 @@ jobs:
     needs: [replace-external-links]
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.0
+        with:
+          access_token: ${{ github.token }}
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
