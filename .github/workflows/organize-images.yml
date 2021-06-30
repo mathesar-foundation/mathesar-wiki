@@ -34,6 +34,7 @@ jobs:
             git push
           fi
   organize-images:
+    if: always()
     needs: [replace-external-links]
     runs-on: ubuntu-latest
     steps:
