@@ -2,15 +2,17 @@
 title: Specs for Naming a New Table (discard modal update)
 description: 
 published: true
-date: 2021-06-30T12:43:41.787Z
+date: 2021-06-30T12:45:46.161Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-30T12:43:41.787Z
 ---
 
-# Controls for Naming a New Table
+# Table Creation Controls
 
 ## Context
+
+### Modal component removal
 At the time of its creation, the original design for milestone [2. Tables from File Import](https://github.com/centerofci/mathesar/milestone/1) included a modal component to display the table creation controls as part of the process of adding a new table. However, after team discussion and intending to simplify, we decided to drop the modal component and favor incorporating controls at the page level and in the context of other tasks happening in parallel, such as file import.
 
 ## Scenarios
