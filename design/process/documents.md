@@ -2,7 +2,7 @@
 title: Design Handoff Documents
 description: Documents related to the design process
 published: true
-date: 2021-06-29T19:28:54.001Z
+date: 2021-06-30T12:49:43.530Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -22,3 +22,4 @@ These are detailed specs for complex components involved in the features above.
 
 - [Pagination Component](/design/process/documents/pagination-specs)
 - [Lookup Field Component](/design/process/documents/lookup-field-component-specs.md)
+- [Table Creation Controls](/design/process/documents/design/table-creation-controls-spec)
