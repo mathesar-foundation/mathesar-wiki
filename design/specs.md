@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-07-01T21:19:34.046Z
+date: 2021-07-01T21:23:20.094Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -21,6 +21,6 @@ These are specs for new features, corresponding to our [development milestones](
 # Components
 These are detailed specs for complex components involved in the features above.
 
+- [Table Creation Controls](/design/specs/table-creation-controls)
 - [Pagination Component](/design/specs/pagination)
 - [Lookup Field Component](/design/specs/lookup-field-component)
-- [Table Creation Controls](/design/specs/table-creation-controls)
