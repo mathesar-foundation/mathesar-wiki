@@ -1,21 +1,11 @@
 ---
-title: Untitled Page
-description: 
-published: true
-date: 2021-07-01T21:12:15.231Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-01T21:12:15.231Z
----
-
----
 title: Read Only Table Spec
 description: 
 published: true
-date: 2021-05-20T09:05:25.115Z
+date: 2021-07-01T21:12:46.090Z
 tags: 
 editor: markdown
-dateCreated: 2021-05-18T13:50:27.664Z
+dateCreated: 2021-07-01T21:12:15.231Z
 ---
 
 > See the related [Figma prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=0%3A1&node-id=1%3A2&viewport=604%2C346%2C0.19209809601306915&scaling=scale-down-width)
