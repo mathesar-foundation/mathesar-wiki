@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-07-01T21:16:55.827Z
+date: 2021-07-01T21:19:34.046Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -12,7 +12,7 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
-- [Multiple Databases](/design/process/documents/database-switching)
+- [Multiple Databases](/design/specs/database-switching)
 - [Add, Update, Delete Records](/design/specs/add-update-delete-records)
 - [Filter, Sort, Group Tables](/design/specs/filter-sort-group)
 - [Add Table from File Import](/design/specs/table-import)
