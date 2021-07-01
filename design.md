@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-07-01T20:41:42.279Z
+date: 2021-07-01T21:05:18.450Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -14,7 +14,6 @@ This is the homepage for Mathesar design work, closely related to [Product](/pro
 Outputs of our design process.
 
 - [:page_facing_up: Specs *List of design specs*](/design/specs)
-- [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
 - [:sailboat: Explorations *Rough notes for initial research and discovery*](/design/exploration)
 - [:spiral_notepad: Reports *Conclusions drawn after research*](/design/reports)
 {.links-list}
@@ -26,8 +25,10 @@ We aim to complete design work for a milestone at least 2-3 weeks before the dea
 
 More information:
 
-- [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
 - [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
+- [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
+- [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
+- [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
 - [:books: Resources *Reading and external resources*](/design/resources)
 {.links-list}
 
