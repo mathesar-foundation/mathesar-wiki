@@ -1,8 +1,8 @@
 ---
-title: Design Handoff Documents
-description: Documents related to the design process
+title: Design Specs
+description: Handoff documents coming out of the design process
 published: true
-date: 2021-07-01T21:09:35.187Z
+date: 2021-07-01T21:10:44.330Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
