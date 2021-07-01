@@ -2,13 +2,18 @@
 title: Design Principles
 description: Design principles for Mathesar
 published: true
-date: 2021-07-01T21:25:13.096Z
+date: 2021-07-01T21:26:03.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T10:16:53.572Z
 ---
 
 Our design principles are a set of beliefs, views, or approaches we chose to guide our design decisions.
+
+> See also [Product Principles](/product/principles).
+{.is-info}
+
+
 # Why do we need design principles?
 - To improve our decision process as a team
 - To align on what matters
