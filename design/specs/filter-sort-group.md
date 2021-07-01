@@ -46,39 +46,39 @@ Column display properties such as filter, sort order, and grouping all need to b
 ## Proposed User Flow
 The user opens an existing table within Mathesar.
 
-![](/assets/design/process/documents/filter-sort-group-specs/S1uJu5A5_.png)
+![](/assets/design/specs/filter-sort-group/S1uJu5A5_.png)
 
 The user clicks the header of one of the columns in the table. A menu becomes visible, and they choose to add a filter to this column. 
 
-![](/assets/design/process/documents/filter-sort-group-specs/SJiH-i0qu.png)
+![](/assets/design/specs/filter-sort-group/SJiH-i0qu.png)
 
 The default filter value is empty. The filtering condition is set to "contains" due to the field type.
 
-![](/assets/design/process/documents/filter-sort-group-specs/Ra5lOmJ.png =600x)
+![](/assets/design/specs/filter-sort-group/Ra5lOmJ.png =600x)
 
 A panel like the one below is displayed next to the table. The filter option is added, and the user can modify it or add more filters. 
 
 **The initial iteration of this panel won't have the tables section. The section is included only for illustrating the potential use of the panel as a consolidated query view.**
 
-![](/assets/design/process/documents/filter-sort-group-specs/tzQmsIT.png =200x)
+![](/assets/design/specs/filter-sort-group/tzQmsIT.png =200x)
 
 The user now adds a value to the filter, and the table refreshes to show the result. No additional step is required from the user to trigger the table refresh. The value is case-insensitive. 
 
-![](/assets/design/process/documents/filter-sort-group-specs/r1Q7VsCcd.png)
+![](/assets/design/specs/filter-sort-group/r1Q7VsCcd.png)
 
 ### Refreshing Table Data on KeyPress Event
 The table should refresh its content based on criteria entered by the user. The input controls should include a loading state that displays after after each keypress. A delay can be set so that the user can type full words without triggering constant reloads.
 
-![](/assets/design/process/documents/filter-sort-group-specs/Hk8Kt0Nsd.png =360x)
+![](/assets/design/specs/filter-sort-group/Hk8Kt0Nsd.png =360x)
 
 The user adds a sort rule from the same panel, selects a column, and sets the direction. The table again refreshes to show the updated data.
 
-![](/assets/design/process/documents/filter-sort-group-specs/rkeLEjRq_.png)
+![](/assets/design/specs/filter-sort-group/rkeLEjRq_.png)
 
 The user now, from the same panel, adds a group column and determines its direction. The group column is highlighted.
 
 
-![](/assets/design/process/documents/filter-sort-group-specs/HJKi4iR5O.png)
+![](/assets/design/specs/filter-sort-group/HJKi4iR5O.png)
 
 From here, the user should be able to save this as a view. 
 
@@ -93,11 +93,11 @@ When closed, the panel stays next to the table in a minified state. It can be re
 
 ### States
 #### Open
-![](/assets/design/process/documents/filter-sort-group-specs/rJYKrdyou.png =240x)
+![](/assets/design/specs/filter-sort-group/rJYKrdyou.png =240x)
 
 
 #### Closed
-![](/assets/design/process/documents/filter-sort-group-specs/SkfardkoO.png)
+![](/assets/design/specs/filter-sort-group/SkfardkoO.png)
 
 
 ## Column Selector Controls
@@ -105,51 +105,51 @@ Column selector controls are components that apply various properties to columns
 
 On their default state, they display an empty state indicating that no column is selected.
 
-![](/assets/design/process/documents/filter-sort-group-specs/Bk59qfRcu.png =240x)
+![](/assets/design/specs/filter-sort-group/Bk59qfRcu.png =240x)
 
 
 ### Implementation Notes
 Once more options or table properties are available, we can stack icons for displaying different panels like the example below.
 
-![](/assets/design/process/documents/filter-sort-group-specs/HyaqfcVod.png =320x)
+![](/assets/design/specs/filter-sort-group/HyaqfcVod.png =320x)
 
 ### Setting a Property
 When filter, sort of group properties are added, a default field is set initially to the first column option on the select list.
 
-![](/assets/design/process/documents/filter-sort-group-specs/S1y7ZXC9O.png =240x)
+![](/assets/design/specs/filter-sort-group/S1y7ZXC9O.png =240x)
 
 Changing the column can be done by selecting any of the options from the dropdown menu.
 
-![](/assets/design/process/documents/filter-sort-group-specs/S1U7zXRcu.png =240x)
+![](/assets/design/specs/filter-sort-group/S1U7zXRcu.png =240x)
 
-![](/assets/design/process/documents/filter-sort-group-specs/rJioPmRc_.png =240x)
+![](/assets/design/specs/filter-sort-group/rJioPmRc_.png =240x)
 
 Once the column is set, users can also modify the different filter options. The set of options will depend on the data type of the selected option. If the column is changed to another data type, the UI update with different filter options, and the first one on the list will be chosen by default.
 
-![](/assets/design/process/documents/filter-sort-group-specs/rkY-Lnrou.png =200x)
+![](/assets/design/specs/filter-sort-group/rkY-Lnrou.png =200x)
 
 Users can add additional filters by clicking on the "Add Filter" option.
 
-![](/assets/design/process/documents/filter-sort-group-specs/SkSMQkrod.png =340x)
+![](/assets/design/specs/filter-sort-group/SkSMQkrod.png =340x)
 
 
 ## Table Header Controls
 In the header area of each table, there are column-specific options in each header cell. Users can access the options by clicking on the buttons. The button content will vary depending on the column status. For example, if a filter is applied, the filter icon will become visible.
 
-![](/assets/design/process/documents/filter-sort-group-specs/HyTm5Q0qd.png =240x)
+![](/assets/design/specs/filter-sort-group/HyTm5Q0qd.png =240x)
 
 Users can access the available options by clicking on the button. 
 
-![](/assets/design/process/documents/filter-sort-group-specs/B1S_G4Rc_.png =370x)
+![](/assets/design/specs/filter-sort-group/B1S_G4Rc_.png =370x)
 
 The button will reflect the current column status.
 
-![](/assets/design/process/documents/filter-sort-group-specs/SknEcm09O.png =210x)
+![](/assets/design/specs/filter-sort-group/SknEcm09O.png =210x)
 
 Depending on which option is active, the menu items will change to show other options, such as clearing an active filter. 
 It should be evident to the user that they will clear multiple filters.
 
-![](/assets/design/process/documents/filter-sort-group-specs/HkowXkBj_.png =360x)
+![](/assets/design/specs/filter-sort-group/HkowXkBj_.png =360x)
 
 # User Interface
 ## Read-only Table Updates
@@ -158,17 +158,17 @@ Implementing this feature requires specific updates to read-only tables.
 ### Filtered Table
 When a filter is active, the table header should provide a visual way of knowing which columns are being filtered.
 
-![](/assets/design/process/documents/filter-sort-group-specs/S1s58409d.png)
+![](/assets/design/specs/filter-sort-group/S1s58409d.png)
 
 ### Sorted Table
 When a table is sorted, the table header provides a visual indicator. 
 
-![](/assets/design/process/documents/filter-sort-group-specs/BkaxwEC5O.png)
+![](/assets/design/specs/filter-sort-group/BkaxwEC5O.png)
 
 ### Grouped Table
 When a column groups a table, there are grouping elements added to separate the rows. A count of records for each group is available. 
 
-![](/assets/design/process/documents/filter-sort-group-specs/ByO-PVR9_.png)
+![](/assets/design/specs/filter-sort-group/ByO-PVR9_.png)
 
 ## Implementation Notes:
 - We will create a separate issue to address UI improvements to provide more advanced visual indicators.

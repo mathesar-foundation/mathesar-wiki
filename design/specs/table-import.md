@@ -22,13 +22,13 @@ This feature will also support the experience of first-time users, as it is expe
 
 ## User Flow
 
-![](/assets/design/process/documents/table-import-specs/Z3ngzR9.png)
+![](/assets/design/specs/table-import/Z3ngzR9.png)
 
 
 ### User Adds a Table
 The user starts the process of adding a table by clicking on any of the available options. The user can add a table from the sidebar menu(1) or the 'New' menu located on the top navigation bar in the main content area.
 
-![](/assets/design/process/documents/table-import-specs/DH3XRuj.png =400x)
+![](/assets/design/specs/table-import/DH3XRuj.png =400x)
 
 #### Notes
 - We can implement the 'New' menu at a later iteration.
@@ -37,7 +37,7 @@ The user starts the process of adding a table by clicking on any of the availabl
 Once the add table process starts, the user is prompted to set a name, confirm, or select the schema that will hold the table.
 Using the lookup field, the user could also add a new schema from this dialog.
 
-![](/assets/design/process/documents/table-import-specs/ByfztC0tu.png =400x)
+![](/assets/design/specs/table-import/ByfztC0tu.png =400x)
 
 #### Valid and Invalid Table Names
 Based on [PostgreSQL Documentation](https://www.postgresql.org/docs/13/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS), some naming conventions apply to objects, including tables, views, and columns. For most cases, we'll handle any necessary quoting automatically and transparently and generate unique names when required by adding a number as the last character.
@@ -48,7 +48,7 @@ Based on [PostgreSQL Documentation](https://www.postgresql.org/docs/13/sql-synta
 ### User Selects Add Table Method
 After confirming the table name and schema, the user must select one of the methods available for adding a table. 
 
-![](/assets/design/process/documents/table-import-specs/chcPbaV.png =320x)
+![](/assets/design/specs/table-import/chcPbaV.png =320x)
 
 Implementation Notes:
 - Copy will be revised later with the purpose of supporting best practices while guiding the user during the table creation process. We want to be more explicit in regards to goals for every step. 
@@ -60,21 +60,21 @@ Implementation Notes:
 Once the new table is created, The system will prompt the user to start the import data process. There are various options to import data, whether from a local file, clipboard, or remote location.
 By default, Upload File is the selected option.
 
-![](/assets/design/process/documents/table-import-specs/zU9Csfe.png)
+![](/assets/design/specs/table-import/zU9Csfe.png)
 
 
 ### User Uploads a File
 The user then proceeds to upload a CSV file, and once it's completed, the system will render the file along with an option to remove it and upload another file.
 
-![](/assets/design/process/documents/table-import-specs/1FZ5Efd.png)
+![](/assets/design/specs/table-import/1FZ5Efd.png)
 
 In most cases, when the file is large, processing will take longer. For that reason, a loading UI state is needed.
 
-![](/assets/design/process/documents/table-import-specs/By4JP0CK_.png)
+![](/assets/design/specs/table-import/By4JP0CK_.png)
 
 If any errors prevent the file from being uploaded, an error message will be displayed.
 
-![](/assets/design/process/documents/table-import-specs/HJxJY0AY_.png)
+![](/assets/design/specs/table-import/HJxJY0AY_.png)
 
 #### Implementation Notes
 - Paste and From URL methods will be designed in a future iteration. The current use case only uses the file import method. 
@@ -82,10 +82,10 @@ If any errors prevent the file from being uploaded, an error message will be dis
 ### User Confirms Data
 If the system successfully processed the file, it will prompt the user to confirm if a preview of their data looks correct. The user can also choose to ignore columns, rename them, and change data types from this view. 
 
-![](/assets/design/process/documents/table-import-specs/Rpz9ZhV.png)
+![](/assets/design/specs/table-import/Rpz9ZhV.png)
 
 ### User Opens the New Table
-![](/assets/design/process/documents/table-import-specs/JMtTnDZ.png)
+![](/assets/design/specs/table-import/JMtTnDZ.png)
 
 
 ## Feedback
@@ -99,11 +99,11 @@ Interactions for adding a table via file import focus on guiding the users throu
 Wizards are series of screens that guide users through multi-step processes.
 In adding a table via file import, wizards are used to accomplishing some required tasks, such as selecting the data source to use (e.g., upload a file, paste, URL), mapping columns, and confirming field types.
 
-![](/assets/design/process/documents/table-import-specs/ByYAYLmq_.png)
+![](/assets/design/specs/table-import/ByYAYLmq_.png)
 
 The wizard elements should provide users with information regarding the length of the process, i.e., the number of steps. It should also provide controls to cancel the operation.
 
-![](/assets/design/process/documents/table-import-specs/Bk1x58Q9O.png)
+![](/assets/design/specs/table-import/Bk1x58Q9O.png)
 
 
 ## Pre-Determined Options
@@ -121,19 +121,19 @@ Making pre-determined options visible and editable in the interface can be helpf
 Input controls allow the user to enter or select different values needed to perform tasks within Mathesar. In file import, they will enable the user to specify column types and parameters required to map columns.
 
 #### Text input
-![](/assets/design/process/documents/table-import-specs/rJoUmDX5_.png =140x)
+![](/assets/design/specs/table-import/rJoUmDX5_.png =140x)
 
 #### Select input
-![](/assets/design/process/documents/table-import-specs/rkavQwXc_.png =140x)
+![](/assets/design/specs/table-import/rkavQwXc_.png =140x)
 
 #### Lookup input
-![](/assets/design/process/documents/table-import-specs/BysumDQqu.png =140x)
+![](/assets/design/specs/table-import/BysumDQqu.png =140x)
 
 #### Radio buttons
-![](/assets/design/process/documents/table-import-specs/H1P5XPQcu.png =320x)
+![](/assets/design/specs/table-import/H1P5XPQcu.png =320x)
 
 #### Checkbox input
-![](/assets/design/process/documents/table-import-specs/HJnhQP7cd.png =200x)
+![](/assets/design/specs/table-import/HJnhQP7cd.png =200x)
 
 #### States
 - Default
@@ -146,7 +146,7 @@ Buttons allow users to perform actions and obtain a result from the system.
 #### Types
 There are different types of buttons, and their use depends on several factors, e.g., the type of task they are to perform and their context.
 
-![](/assets/design/process/documents/table-import-specs/rkEwqImqd.png =200x)
+![](/assets/design/specs/table-import/rkEwqImqd.png =200x)
 
 Primary buttons are used for actionable (e.g., submit content, apply a change) and some exceptional navigational purposes (e.g., continue to a next step). However, their use should be restricted to priority or practical actions, with the ideal number of primary buttons being one per view.
 
@@ -157,11 +157,11 @@ Secondary buttons are used alone or in combination with primary controls to comp
 Dialogs are a type of modal window that appears in front of content and is used when the system requires users to make decisions.
 When active, dialogs will prevent other content from being interacted with. In most cases, they are driven by user action, and their unprompted use is discouraged.
 
-![](/assets/design/process/documents/table-import-specs/Hk02qLQc_.png =280x)
+![](/assets/design/specs/table-import/Hk02qLQc_.png =280x)
 
 ### System Notifications
 
 #### Error Messages
-![](/assets/design/process/documents/table-import-specs/SJBTzvX9d.png)
+![](/assets/design/specs/table-import/SJBTzvX9d.png)
 
 
