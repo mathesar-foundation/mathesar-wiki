@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-07-01T21:10:44.330Z
+date: 2021-07-01T21:14:09.809Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -15,7 +15,7 @@ These are specs for new features, corresponding to our [development milestones](
 - [Add, Update, Delete Records](/design/specs/add-update-delete-records)
 - [Filter, Sort, Group Tables](/design/specs/filter-sort-group)
 - [Add Table from File Import](/design/specs/table-import)
-- [Read Only Tables](/design/specs/read-only-table)
+- [Read Only Table](/design/specs/read-only-table)
 
 # Components
 These are detailed specs for complex components involved in the features above.
