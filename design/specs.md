@@ -2,7 +2,7 @@
 title: Design Handoff Documents
 description: Documents related to the design process
 published: true
-date: 2021-06-30T12:49:43.530Z
+date: 2021-07-01T21:09:35.187Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
