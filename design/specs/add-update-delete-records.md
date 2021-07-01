@@ -115,7 +115,7 @@ However, any selected cell will automatically set the row and columns to which i
 ![](/assets/design/specs/add-update-delete-records/WaEWViQ.png)
 
 ## Implementation Notes
-- The table toolbar component introduced for the design of this feature could also be used to trigger the table properties panel discussed on the previous [feature specs](https://wiki.mathesar.org/design/process/documents/filter-sort-group-specs)
+- The table toolbar component introduced for the design of this feature could also be used to trigger the table properties panel discussed on the previous [feature specs](/design/specs/filter-sort-group)
 
 ## Additional Review Notes
 

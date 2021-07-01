@@ -9,7 +9,7 @@ dateCreated: 2021-06-17T07:13:36.093Z
 ---
 
 # Context
-The lookup field component was specified as part of the design for ['Add Table from Import'](https://wiki.mathesar.org/design/process/documents/table-import-specs). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:
+The lookup field component was specified as part of the design for ['Add Table from Import'](/design/specs/table-import). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:
 
 - Add a table to an existing schema
 - Add a table to a new schema

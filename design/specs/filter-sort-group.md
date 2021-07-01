@@ -12,7 +12,7 @@ dateCreated: 2021-06-15T09:31:21.592Z
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D593%253A0%26node-id%3D792%253A28%26viewport%3D2168%252C368%252C0.16661275923252106%26scaling%3Dscale-down-width" allowfullscreen></iframe>
 
 # Context
-In the [Inventory Use Case](https://wiki.mathesar.org/design/exploration/use-cases/inventory-use-case), the user is presented with problems requiring them to make sense of the data and then making decisions, i.e., creating a summarized view of multiple tables. We need to display these data views within Mathesar using the filter, sort, and group functionalities.
+In the [Inventory Use Case](/design/exploration/use-cases/inventory-use-case), the user is presented with problems requiring them to make sense of the data and then making decisions, i.e., creating a summarized view of multiple tables. We need to display these data views within Mathesar using the filter, sort, and group functionalities.
 
 # Considerations
 ## Database objects

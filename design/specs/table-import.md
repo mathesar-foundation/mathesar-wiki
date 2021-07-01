@@ -89,7 +89,7 @@ If the system successfully processed the file, it will prompt the user to confir
 
 
 ## Feedback
-- Does the impact and user experience for this functionality help users achieve the goals established in the [Inventory Use Case](https://wiki.mathesar.org/en/design/exploration/use-cases/inventory-use-case)?
+- Does the impact and user experience for this functionality help users achieve the goals established in the [Inventory Use Case](/design/exploration/use-cases/inventory-use-case)?
 - Is there an opportunity to allow a different user experience or workflow? Why or why not?
 
 # Interactions (WIP)

@@ -10,7 +10,7 @@ dateCreated: 2021-05-10T11:06:16.074Z
 
 There are five phases in our design process.
 
-> See [Documents](/design/process/documents) for deliverables from this process.
+> See [Specs](/design/specs) for deliverables from this process.
 {.is-info}
 
 

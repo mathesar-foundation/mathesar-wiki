@@ -12,14 +12,14 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
-- [Add, Update, Delete Records](/design/process/documents/add-update-delete-records-specs)
-- [Filter, Sort, Group Tables](/design/process/documents/filter-sort-group-specs)
-- [Add Table from File Import](/design/process/documents/table-import-specs)
-- [Read Only Tables](/design/process/documents/read-only-table-specs)
+- [Add, Update, Delete Records](/design/specs/add-update-delete-records)
+- [Filter, Sort, Group Tables](/design/specs/filter-sort-group)
+- [Add Table from File Import](/design/specs/table-import)
+- [Read Only Tables](/design/specs/read-only-table)
 
 # Components
 These are detailed specs for complex components involved in the features above.
 
-- [Pagination Component](/design/process/documents/pagination-specs)
-- [Lookup Field Component](/design/process/documents/lookup-field-component-specs.md)
-- [Table Creation Controls](/design/process/documents/design/table-creation-controls-spec)
+- [Pagination Component](/design/specs/pagination)
+- [Lookup Field Component](/design/specs/lookup-field-component)
+- [Table Creation Controls](/design/specs/table-creation-controls)

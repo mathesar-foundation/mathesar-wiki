@@ -9,7 +9,7 @@ dateCreated: 2021-06-02T09:10:30.296Z
 ---
 
 # Context
-The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](https://wiki.mathesar.org/design/process/documents/read-only-table-specs). The team decided to add pagination to read-only tables during the [May 19th team meeting](/meeting-notes/may-2021). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
+The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](/design/specs/read-only-table). The team decided to add pagination to read-only tables during the [May 19th team meeting](/meeting-notes/may-2021). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
 
 # Pagination Component Details
 ![](/assets/design/process/documents/pagination-specs/HyZR_lN9d.png)
