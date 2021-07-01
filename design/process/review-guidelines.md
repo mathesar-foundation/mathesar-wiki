@@ -1,15 +1,14 @@
 ---
 title: Design Review Guidelines
-description: Guidelines for Reviewers of Design
+description: Guidelines for working with design specs
 published: true
-date: 2021-07-01T20:24:40.771Z
+date: 2021-07-01T21:24:05.763Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
 ---
 
-# Design Review Guidelines
-## General Advice
+# General Advice
 - Describe the problem with the design but don't assume a specific design solution
 - Strive to think from the user's perspective, not your own
 - If you find inconsistencies in the design, describe what you expected to encounter instead
@@ -20,11 +19,10 @@ dateCreated: 2021-05-28T21:02:49.613Z
 - Think backwards from the end-goal
 - Don't highlight only negative aspects of the design. Positive feedback provides valuable information.
 
-
-## Review Process
+# Review Process
 Please follow these guidelines when reviewing designs.
 
-### Authors
+## Authors
 - Write your design spec on the wiki under the [Documents]((/design/specs) folder and link to it from the [Documents]((/design/specs) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
 - Once you think the spec is ready for review, create a GitHub Discussion that includes:
@@ -40,7 +38,7 @@ Please follow these guidelines when reviewing designs.
 
 [Here's an example review request for reference](https://github.com/centerofci/mathesar/discussions/305).
 
-### Reviewers
+## Reviewers
 - Check for outstanding design review requests at least once a day.
 - Comment on the GitHub Discussion with feedback. Please follow the general advice above.
 - Once you're done reviewing the document, if you don't have any feedback, post on the discussion and say you're done reviewing.
