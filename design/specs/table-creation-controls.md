@@ -1,11 +1,11 @@
 ---
-title: Table Creation Controls Spec (discard modal update)
+title: Table Creation Controls (discard modal update)
 description: 
 published: true
-date: 2021-06-30T18:52:23.866Z
+date: 2021-07-01T21:14:55.158Z
 tags: 
 editor: markdown
-dateCreated: 2021-06-30T12:43:41.787Z
+dateCreated: 2021-07-01T21:14:55.158Z
 ---
 
 # Context
@@ -30,7 +30,7 @@ The system won't save the table until the empty table is created or the file imp
 ### Schema Selection
 Recent changes in the design might influence how schemas are presented within Mathesar. We assume that a single schema is being displayed, thus eliminating the requirement for a schema selector.
 
-![](/assets/design/specs/table-creation-controls/ksN9Z6d.png =200x)
+![](/assets/design/process/documents/design/table-creation-controls-spec/ksN9Z6d.png =200x)
 
 ## User completes table creation
 Once the table creation process is over, the table name input is hidden while the table label remains. Clicking on the table label will show the input again.
