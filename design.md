@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-07-01T20:31:12.294Z
+date: 2021-07-01T20:41:42.279Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -13,7 +13,7 @@ This is the homepage for Mathesar design work, closely related to [Product](/pro
 # Documents
 Outputs of our design process.
 
-- [:page_facing_up: Specs *List of design specs*](/design/process/documents)
+- [:page_facing_up: Specs *List of design specs*](/design/specs)
 - [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
 - [:sailboat: Explorations *Rough notes for initial research and discovery*](/design/exploration)
 - [:spiral_notepad: Reports *Conclusions drawn after research*](/design/reports)
