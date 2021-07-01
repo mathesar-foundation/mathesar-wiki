@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-07-01T21:05:18.450Z
+date: 2021-07-01T21:09:03.897Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -14,7 +14,7 @@ This is the homepage for Mathesar design work, closely related to [Product](/pro
 Outputs of our design process.
 
 - [:page_facing_up: Specs *List of design specs*](/design/specs)
-- [:sailboat: Explorations *Rough notes for initial research and discovery*](/design/exploration)
+- [:sailboat: Exploration *Rough notes for initial research and discovery*](/design/exploration)
 - [:spiral_notepad: Reports *Conclusions drawn after research*](/design/reports)
 {.links-list}
 
@@ -25,12 +25,18 @@ We aim to complete design work for a milestone at least 2-3 weeks before the dea
 
 More information:
 
-- [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
-- [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
 - [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
+- [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
 - [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
-- [:books: Resources *Reading and external resources*](/design/resources)
 {.links-list}
 
 ## Contributing
 You must be a member of our [design team](/team) to contribute to design tasks, but we are open to new members. Please see [Contributing to Mathesar](/community/contributing) for more information.
+
+# Philosophy
+High-level information about the philosophy behind our design.
+
+- [:balance_scale: Design Principles *Principles that guide our design*.](/design/design-principles)
+- [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
+- [:books: Resources *Reading and external resources*](/design/resources)
+{.links-list}
