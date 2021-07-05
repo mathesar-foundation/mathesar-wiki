@@ -2,7 +2,7 @@
 title: Multiple Database Switching
 description: 
 published: true
-date: 2021-07-05T10:23:05.111Z
+date: 2021-07-05T10:23:12.466Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:19:29.919Z
@@ -53,6 +53,7 @@ From this menu, the user can search through all databases and navigate to schema
 # Review Notes
 ## Database Names
 Mathesar will use the database connection key to identify databases within Mathesar. If we want a human-readable name in the future, we will need a way to capture that preference.
+
 ## Recent Tables
 Showing a list of the most recently updated tables can help users manage their work progress, and access recently created objects. As part of the implementation of this spec, we will store user-session information locally until we have the structure for user accounts in place.
 
