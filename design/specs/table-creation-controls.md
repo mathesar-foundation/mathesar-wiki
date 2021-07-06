@@ -2,7 +2,7 @@
 title: Table Creation Controls (discard modal update)
 description: 
 published: true
-date: 2021-07-06T07:51:52.663Z
+date: 2021-07-06T07:52:04.767Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:14:55.158Z
