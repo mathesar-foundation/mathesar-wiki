@@ -2,7 +2,7 @@
 title: Table Creation Controls (discard modal update)
 description: 
 published: true
-date: 2021-07-06T07:52:04.767Z
+date: 2021-07-06T08:01:32.544Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:14:55.158Z
@@ -21,7 +21,7 @@ At the time of its creation, the original design for milestone [2. Tables from F
 The way users add a new table remains unchanged. A new table is added by clicking on the add table button next to the tables list header.
 
 ## User starts the add table process and decided on the table creation method
-After the User starts the add table process, a new tab is displayed containing controls for selecting the table creation method. In the table toolbar area, a field exists to enter the table name. If left unchanged, it will default to a placeholder name, and it won't prevent the User from taking the following steps.
+After the user starts the add table process, a new tab is displayed containing controls for selecting the table creation method. In the table toolbar area, a field exists to enter the table name. If left unchanged, it will default to a placeholder name, and it won't prevent the user from taking the following steps.
 
 ### Table status
 The system won't save the table until the empty table is created or the file import succeeds. While unsaved, the table tab and other navigational items representing the table should indicate the unsaved state.
@@ -35,3 +35,5 @@ Recent changes in the design might influence how schemas are presented within Ma
 Once the table creation process is over, the table name input is hidden while the table label remains. Clicking on the table label will show the input again.
 
 # Review Notes
+## Fixed Headers for Overflowing Content
+Controls that are located in headers must remain accessible to users at all times. When a list of items grows more extensive than the space available, the headers must remain fixed, and the list of items will scroll vertically.
