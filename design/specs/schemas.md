@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T11:19:28.815Z
+date: 2021-07-07T11:53:40.466Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -33,6 +33,9 @@ When working on a particular schema, a user might navigate back to a list of all
 ## Editing inline vs. edit modal
 There are cases where, for example, we might want to edit details, such as a table name inline (by clicking on the name label) rather than using a separate modal to provide a form with details.
 In schemas, we might add additional settings that we want to make accessible to users, such as managing access privileges and permissions, etc. This could also be solved by having a schema details dedicated view that is not contained within a modal. 
+
+## Preventing Deletion of Schema
+Deleting a schema could lead to problems when any of its tables had relations with tables from another schema. Users need to be aware of this when they proceed to delete the schema. However, preventing them from doing so might be harder to verify, and the User could find it difficult to break all schema references before proceeding. If we do allow deletion, we'll need to either turn the schema references in other tables to a different type or represent the error once the User opens an affected table.
 
 # User Interface
 ## Top navigation bar
