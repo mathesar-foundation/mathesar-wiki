@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T12:01:00.644Z
+date: 2021-07-07T12:04:15.948Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -26,7 +26,7 @@ Once the schema is created, the User will have to create tables. If the schema i
 For various reasons, a user might, at some point, edit the given name of a schema. They might also want to delete the schema altogether but must do so in a context where they can be informed about the consequences.
 
 ## User navigates back to list of all schemas
-When working on a particular schema, a user might navigate back to a list of all schemas. 
+When working on a particular schema, a user might navigate back to a list of all schemas.
 
 
 # Interactions
