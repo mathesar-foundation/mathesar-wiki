@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T11:53:40.466Z
+date: 2021-07-07T12:01:00.644Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -40,4 +40,6 @@ Deleting a schema could lead to problems when any of its tables had relations wi
 # User Interface
 ## Top navigation bar
 Included on this spec is an initial draft of what our top navigation bar might look like. There are still details to be resolved in how we might incorporate searching or jumping across different databases and schemas (similar to what Github does). 
+
+
 
