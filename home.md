@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-06-09T19:59:08.780Z
+date: 2021-07-07T14:01:08.579Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -18,7 +18,7 @@ The Mathesar wiki is our primary knowledge base for everything we do. You can us
 
 - If you're interested in learning more about Mathesar, you'll probably want to look at our [Product](/product) section, including our [Product Principles](/product/principles).
 - If you're interested in contributing to Mathesar, please look at:
-  - [Joing the Community](/community)
+  - [Joining the Community](/community)
   - [Contributing to Mathesar](/community/contributing)
 - If you're interested in how we develop Mathesar, please see:
   - [Design](/design)
