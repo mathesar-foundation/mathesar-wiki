@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T11:00:45.844Z
+date: 2021-07-07T11:08:45.870Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -33,3 +33,8 @@ When working on a particular schema, a user might navigate back to a list of all
 ## Editing inline vs. edit modal
 There are cases where, for example, we might want to edit details, such as a table name inline (by clicking on the name label) rather than using a separate modal to provide a form with details.
 In schemas, we might add additional settings that we want to make accessible to users, such as managing access privileges and permissions, etc. This could also be solved by having a schema details dedicated view that is not contained within a modal. 
+
+# User Interface
+## Top navigation bar
+Included on this spec is an initial draft of what our top navigation bar might look like. There are still details to be resolved in how we might incorporate searching or jumping across different databases and schemas (similar to what Github does). 
+
