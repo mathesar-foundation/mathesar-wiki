@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T11:08:45.870Z
+date: 2021-07-07T11:19:28.815Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
