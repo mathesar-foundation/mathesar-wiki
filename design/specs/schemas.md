@@ -2,7 +2,7 @@
 title: Working with Schemas Specs
 description: 
 published: true
-date: 2021-07-07T10:59:39.788Z
+date: 2021-07-07T11:00:45.844Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -12,7 +12,7 @@ dateCreated: 2021-07-07T10:57:41.105Z
 Users within Mathesar will have multiple data tables that they want to organize and manage. Schemas can be a helpful mechanism to segregate their data for different purposes. Users with more experience with databases will want to incorporate these for reasons that might go beyond just organizing their database objects. However, this organizational aspect will be a primary feature of the design solution.
 
 # Prototype
-[Working with Schemas Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2144%3A12391&node-id=2146%3A12394&viewport=2334%2C1300%2C2.543393611907959&scaling=min-zoom)
+[Working with Schemas Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2144%3A12391&node-id=2146%3A12394&viewport=2334%2C1300%2C2.543393611907959&scaling=contain)
 
 # User Experience
 
