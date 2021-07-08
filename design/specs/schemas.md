@@ -2,11 +2,14 @@
 title: Working with Schemas
 description: 
 published: true
-date: 2021-07-07T15:04:13.254Z
+date: 2021-07-08T14:48:03.535Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
 ---
+
+>  This spec is in the review process and hasn't been finalized yet.
+{.is-warning}
 
 # Context
 Users within Mathesar will have multiple data tables that they want to organize and manage. Schemas can be a helpful mechanism to segregate their data for different purposes. Users with more experience with databases will want to incorporate these for reasons that might go beyond just organizing their database objects. However, this organizational aspect will be a primary feature of the design solution.
