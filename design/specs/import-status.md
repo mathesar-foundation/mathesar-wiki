@@ -2,11 +2,14 @@
 title: Import Status
 description: 
 published: true
-date: 2021-07-08T14:44:01.687Z
+date: 2021-07-08T14:47:39.903Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-08T12:22:29.972Z
 ---
+
+>  This spec is in the review process and hasn't been finalized yet.
+{.is-warning}
 
 # Context
 The initial design for [Add Table from File Import](https://wiki.mathesar.org/en/design/specs/table-import) defined all the steps needed to import a file, preview its content, make adjustments and save it as a table within Mathesar. However, certain aspects of the upload process and status lack definition for implementation as reported on the issue [#296](https://github.com/centerofci/mathesar/issues/296) on Github. This spec looks to address those gaps in the design.
