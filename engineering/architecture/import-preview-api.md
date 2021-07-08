@@ -20,15 +20,71 @@ The `columns` endpoint will now include the possible targets for type alteration
 
 ## Preview Endpoint behavior
 
-For previewing the inferred types and names of columns, we will use the normal table detail endpoint, with a `alter_preview` query string parameter to define column modifications.  The columns will be given as a list of JSON objects, similar to the `PATCH` requests sent to alter columns via the `columns` endpoint.  We will allow multiple alterations of a given column in a preview, however.  If the columns are given, _all_ must be given with at least some JSON object representation of desired alterations.  In order to leave a column unaltered in the preview, the empty JSON object should be given.  To represent a dropped (or unshown) column, the JSON object should contain a key name set to `null`.  A request to a table with four columns, `mathesar_id`, `name`, `email`, and `backup_email` (in that order) might look like:
+For previewing the inferred types and names of columns, we will use a new `previews` endpoint under the table detail endpoint.  We'll submit a `POST` to the endpoint to create the preview, and then receive a JSON formatted as in the normal table detail endpoint in return with the modified table.
 ```
-GET /api/vX/tables/<table_id>/?alter_preview=[{}, {"name": "Student Name"}, {"type": "email"}, {"name": null}]
+POST /api/vX/tables/<table_id>/previews/
 ```
-In this example, we've left the `mathesar_id` column unaltered, changed the `name` column name to `Student Name`, changed the type of the `email` column to `email`, and dropped the `backup_email` column.
+could have submitted JSON like:
+```json
+{
+    "columns": [
+        {},
+        {
+            "name": "Center2",
+        },
+        {
+            "type": "string"
+        },
+        {
+            "name": "Case Number",
+            "type": "string"
+        }
+    ]
+}
+```
+The full table blob should be returned, so a return for the above request could be something like:
+```json
+{
+    "id": 1,
+    "name": "the_patents_table",
+    "schema": 2,
+    "created_at": "2021-07-07T09:00:30.108653Z",
+    "updated_at": "2021-07-07T09:00:30.108707Z",
+    "columns": [
+        {
+            "name": "mathesar_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "Center2",
+            "type": "VARCHAR"
+        },
+        {
+            "name": "Status",
+            "type": "VARCHAR"
+        },
+        {
+            "name": "Case Number",
+            "type": "VARCHAR"
+        }
+    ],
+    "records": "http://localhost:8000/api/v0/tables/1/records/",
+    "data_files": [
+        1
+    ]
+}
+```
+
+
+This would set the columns in the preview to have the specified names and types.  Any column which is unaltered would have and empty JSON object (as in the 0th column above), otherwise, only attributes of a column which are to be altered would be submitted in the request.  So, in the example:
+- we alter nothing about the 0th column,
+- we alter the name of the 1st column, 
+- we alter the type of the 2nd column, and
+- we alter both the name and type of the 3rd column.
 
 ## Implementation of Preview
 
-Because we eventually want to do type inference in a temporary table, we'll avoid using the table resulting from the current process in the preview action.  Instead, the implementation will simply put together a select with casts (using the custom casting functions defined by the Mathesar installation), aliases, and omitting "dropped" columns.
+Because we eventually want to do type inference in a temporary table, we'll avoid using the table resulting from the current process in the preview action.  Instead, the implementation will simply put together a select with casts (using the custom casting functions defined by the Mathesar installation) and aliases.
 
 ## Saving changes
 
