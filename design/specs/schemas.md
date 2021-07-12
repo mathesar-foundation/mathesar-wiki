@@ -2,7 +2,7 @@
 title: Working with Schemas
 description: 
 published: true
-date: 2021-07-12T06:03:42.461Z
+date: 2021-07-12T06:18:03.878Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-07T10:57:41.105Z
@@ -33,6 +33,12 @@ When working on a particular schema, a user might navigate back to a list of all
 
 ## User jumps to another schema from the top navigation
 A user can click on the top search bar to reveal a list of their recently opened schemas and databases. Typing the name of any existing schema or database should display a list of all matching items. 
+
+## User tries to delete a non-empty schema
+Before a user can delete a schema containing other objects such as tables or views, they must be aware of this information and the content that the system will delete along with the schema. 
+
+## User deletes an empty schema
+An empty schema can be deleted by a user with the appropriate permissions and no additional steps. 
 
 # Interactions
 ## Editing inline vs. edit modal
