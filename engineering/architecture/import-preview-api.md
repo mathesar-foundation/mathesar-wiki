@@ -2,7 +2,7 @@
 title: Import Preview API
 description: Spec for API to preview an imported CSV as a typed table
 published: true
-date: 2021-07-07T13:44:47.885Z
+date: 2021-07-13T16:29:54.626Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-02T15:26:50.560Z
@@ -13,6 +13,10 @@ Relevant issues are:
 [\#199](https://github.com/centerofci/mathesar/issues/199), [\#200](https://github.com/centerofci/mathesar/issues/200), and [\#201](https://github.com/centerofci/mathesar/issues/201)
 
 As specified in the table import [design spec](/design/specs/table-import), we need to be able to support a flow where the user imports a CSV, then sees a preview of the table which would be created, with inferred types.  Thus, we need to create a table preview endpoint.
+
+## Changing whether the first row is a header
+
+In order to change whether the first row of the CSV is used as a header or not, we will need to reimport the table.  This will be accomplished by adding a boolean parameter to the `PUT` request that creates a table from a `DataFile` that gives whether to use the first row as headers.
 
 ## Possible type alterations for a column
 
@@ -88,4 +92,4 @@ Because we eventually want to do type inference in a temporary table, we'll avoi
 
 ## Saving changes
 
-The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being as in the `alter_preview` query string parameter.  Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed)
+The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being as in the `previews` request.  Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed)
