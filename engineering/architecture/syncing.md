@@ -16,25 +16,22 @@ The UI should reflect the current state of the DB, subject to performance constr
 
 # Database object models
 
-We include the following fields for each database object model (currently table or schema):
-
-- `name` (character) -- displayed to user
-- `last_synced` (datetime) -- used for determining whether to renew the state of the model under certain conditions.
-- `oid` (integer) -- used to precisely identify the object in question in the database.
-- `deleted` (boolean) -- we mark an object `deleted` when it's been removed.
+We include the `oid` field for each database object model (currently table or schema) in order to identify it in the database.
 
 ## Renew models whenever listing
 
-Whenever we perform an action such as 'list all tables in schema', we update all table resources associated with that schema. This will also be the case for 'list all schemata in database'.
+Whenever we perform an action such as 'list all tables in schema' or 'list all schemata in database', we reflect all DB objects.  However, we only do so at most every 5 minutes.  This is accomplished by checking the Django cache for a particular key, `database_reflected_recently`.  We don't store any actual _data_ in the cache, but rather in the `Schema` and `Table` models.  The cache only serves to let us know when to re-reflect the underlying DB objects and make appropriate changes to the model tables.
 
-In the current codebase, we want to trigger a refresh whenever we access the queryset for a given viewset, e.g., the `SchemaViewSet`, `TableViewSet`, and `RecordViewSet` (in `mathesar/views/api.py`). To do this, we'll replace the static `queryset` property with the `get_queryset` function. This should get picked up and automatically run when the ViewSet is called. Using this allows us to run arbitrary code before returning the queryset. In particular, we'll call functions that check the `last_synced` value for each object, and sync the models with the DB if this value is too far in the past. We'll access DB objects by their `oid` (also stored in the model) so we notice name changes. Finally, if we can't find a given object by its `oid`, we'll mark it as `deleted`.
+In the current codebase, we trigger the function to check the cache and reflect DB objects when needed whenever we access the queryset for either the `SchemaViewSet` or `TableViewSet` (in `mathesar/views/api.py`). To do this, we use the special `get_queryset` function. This gets picked up and automatically run when the ViewSet is called. Using this allows us to run arbitrary code before returning the queryset. In particular, we call the function `reflect_db_objects` in the same module.  This function finds all DB objects by their `oid`, and notes any changes.
 
-## Use cache whenever an object is called directly
+# Cache names of objects
 
-Whenever we get a specific object by ID, we'll simply use the model for performance reasons rather than re-reflecting each time. This means we'll need to have error handling for whenever the underlying resource has changed in some incompatible way.
-
-This is applicable to some functions in the `RecordViewSet` in the current codebase. Note that whenever we call methods that actually _modify_ a table by changing records we reflect the table details anyway via logic in the properties of the `Table` model.
+Since we use the `name` property of DB objects more than anything else, we cache it using the Django cache framework.
 
 # Importing a previously-existing DB
 
 We'll "import" a previously existing DB simply by reflecting all schemata in the database, and then reflecting all tables in each schemata, adding the resulting objects to the `Schema` and `Table` model tables as we go.
+
+# Objects which are always read on the fly
+
+Records and Columns of tables are always read from the DB on the fly.
