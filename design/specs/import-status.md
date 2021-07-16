@@ -2,7 +2,7 @@
 title: Import Status
 description: 
 published: true
-date: 2021-07-16T08:56:40.419Z
+date: 2021-07-16T12:40:59.144Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-08T12:22:29.972Z
@@ -44,3 +44,41 @@ Global notifications are needed to help users keep track of ongoing operations a
 The content and layout of these notifications might change dynamically according to the number or type of operations. In a single operation, the notification might show specific details, such as the name of the file being imported. Once more operations of the same type are added, it might change to offer a total count rather than details.
 
 When operations are of a distinct type, the design might reduce the notification to only showing the number of operations, and users will find the actual type information in the dropdown.
+
+### Scenarios
+
+#### If a single task is in progress
+A single task in progress, such as importing a file, can be described with details such as task type and file name in the notification widget.
+
+![](https://i.imgur.com/aCCTAfu.png =160x)
+
+#### If multiple tasks of the same type are in progress
+Multiple tasks of the same kind might run concurrently, in which case a total count replaces details such as file names. The user can find the file names under the expanded dropdown.
+
+![](https://i.imgur.com/z2zLgJZ.png =160x)
+
+![](https://i.imgur.com/ixTmGaN.png =480x)
+
+#### If multiple tasks of different types are in progress
+![](https://i.imgur.com/AaDx8IQ.png =80x)
+
+![](https://i.imgur.com/yWuWCS1.png =480x)
+
+#### If multiple tasks are in progress with some finished
+![](https://i.imgur.com/8Csl5h9.png =80x)
+
+#### If all tasks are finished
+
+![](https://i.imgur.com/j1ZadXc.png =80x)
+
+![](https://i.imgur.com/UmHHJyK.png =480x)
+
+#### If any of the tasks failed
+If any of the jobs running fails, the status indicator will change to indicate an error requiring attention.
+
+![](https://i.imgur.com/XCZIBUl.png =80x)
+
+![](https://i.imgur.com/XrUzjdy.png =480x)
+
+#### If a single task failed
+![](https://i.imgur.com/RWAQyS2.png =240x)
