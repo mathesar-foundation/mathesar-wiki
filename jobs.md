@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2021-07-16T17:21:53.329Z
+date: 2021-07-16T17:28:15.648Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -10,7 +10,7 @@ dateCreated: 2021-07-16T16:41:39.528Z
 
 These are job descriptions for open jobs at the Center of Complex Interventions to work on Mathesar.
 
-# Frontend Engineer
+# Frontend Engineer (full-time)
 
 We're looking for a frontend engineer to work on [Mathesar](https://wiki.mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
 
@@ -72,3 +72,7 @@ You are also welcome to [join our community](https://wiki.mathesar.org/community
 
 ## Equal Employment Opportunity Policy  
 The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer. CCI complies with and adheres to all United States state and federal anti-discrimination laws with respect to its employment practices. CCI does not discriminate against any employee or applicant for employment on the basis of race, color, religion, gender, sexual orientation, gender identity and expression, national origin or ancestry, age, or disability or any other category protected under state or federal law. This policy extends to recruiting, hiring, compensation, benefits, assignment, working conditions, termination, re-employment, employee treatment, and all other terms, conditions and privileges of employment. All employment-related decisions are made on a nondiscriminatory basis so as to further the principle of equal employment opportunity.
+
+# Backend Engineer (part-time, 3-month contract)
+
+We're looking for a backend engineer with significant experience with PostgreSQL, Django, and SQL Alchemy to work with us for 3 months. We need coverage for August to October for 20-40 hours per week. If you're interested, please message Kriti on Matrix (see the [Team page](https://wiki.mathesar.org/team) for username).
