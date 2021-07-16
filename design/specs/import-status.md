@@ -50,35 +50,35 @@ When operations are of a distinct type, the design might reduce the notification
 #### If a single task is in progress
 A single task in progress, such as importing a file, can be described with details such as task type and file name in the notification widget.
 
-![](https://i.imgur.com/aCCTAfu.png =160x)
+![](/assets/design/specs/import-status/aCCTAfu.png =160x)
 
 #### If multiple tasks of the same type are in progress
 Multiple tasks of the same kind might run concurrently, in which case a total count replaces details such as file names. The user can find the file names under the expanded dropdown.
 
-![](https://i.imgur.com/z2zLgJZ.png =160x)
+![](/assets/design/specs/import-status/z2zLgJZ.png =160x)
 
-![](https://i.imgur.com/ixTmGaN.png =480x)
+![](/assets/design/specs/import-status/ixTmGaN.png =480x)
 
 #### If multiple tasks of different types are in progress
-![](https://i.imgur.com/AaDx8IQ.png =80x)
+![](/assets/design/specs/import-status/AaDx8IQ.png =80x)
 
-![](https://i.imgur.com/yWuWCS1.png =480x)
+![](/assets/design/specs/import-status/yWuWCS1.png =480x)
 
 #### If multiple tasks are in progress with some finished
-![](https://i.imgur.com/8Csl5h9.png =80x)
+![](/assets/design/specs/import-status/8Csl5h9.png =80x)
 
 #### If all tasks are finished
 
-![](https://i.imgur.com/j1ZadXc.png =80x)
+![](/assets/design/specs/import-status/j1ZadXc.png =80x)
 
-![](https://i.imgur.com/UmHHJyK.png =480x)
+![](/assets/design/specs/import-status/UmHHJyK.png =480x)
 
 #### If any of the tasks failed
 If any of the jobs running fails, the status indicator will change to indicate an error requiring attention.
 
-![](https://i.imgur.com/XCZIBUl.png =80x)
+![](/assets/design/specs/import-status/XCZIBUl.png =80x)
 
-![](https://i.imgur.com/XrUzjdy.png =480x)
+![](/assets/design/specs/import-status/XrUzjdy.png =480x)
 
 #### If a single task failed
-![](https://i.imgur.com/RWAQyS2.png =240x)
+![](/assets/design/specs/import-status/RWAQyS2.png =240x)
