@@ -2,7 +2,7 @@
 title: Import Status
 description: 
 published: true
-date: 2021-07-16T12:40:59.144Z
+date: 2021-07-16T16:42:03.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-08T12:22:29.972Z
@@ -41,44 +41,29 @@ By clicking on any of the files, the user can navigate back to the tab with the 
 Global notifications are needed to help users keep track of ongoing operations and navigate back to the particular pages. The location of these notifications should be a permanent one that is always visible to users, especially in scenarios such as moving from one database or schema to another.
 
 ## Notification States
-The content and layout of these notifications might change dynamically according to the number or type of operations. In a single operation, the notification might show specific details, such as the name of the file being imported. Once more operations of the same type are added, it might change to offer a total count rather than details.
+The content and layout of these notifications might change dynamically according to the number or type of operations. In a single operation, the notification might show specific details, such as the file's name being imported. Once more operations of the same type are added, it might change to offer a total count rather than details.
 
 When operations are of a distinct type, the design might reduce the notification to only showing the number of operations, and users will find the actual type information in the dropdown.
 
 ### Scenarios
 
-#### If a single task is in progress
-A single task in progress, such as importing a file, can be described with details such as task type and file name in the notification widget.
+[Component Examples in Figma](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2798%3A18566&node-id=2798%3A18763&viewport=1285%2C9%2C0.47174111008644104&scaling=min-zoom&starting-point-node-id=2798%3A18763)
 
-![](/assets/design/specs/import-status/aCCTAfu.png =160x)
+#### If a single job is in progress
+A single job in progress, such as importing a file, can be described with details such as job type and file name in the notification widget.
 
-#### If multiple tasks of the same type are in progress
-Multiple tasks of the same kind might run concurrently, in which case a total count replaces details such as file names. The user can find the file names under the expanded dropdown.
+#### If multiple jobs of the same type are in progress
+Various jobs of the same kind might run concurrently, in which case a total count replaces details such as file names. The user can find the file names under the expanded dropdown.
 
-![](/assets/design/specs/import-status/z2zLgJZ.png =160x)
+#### If multiple jobs of different types are in progress
+If the jobs in progress are of different types, the job type is replaced by the general term jobs rather than the job-specific verbs.
 
-![](/assets/design/specs/import-status/ixTmGaN.png =480x)
+#### If multiple jobs are in progress with some finished
+If some jobs are finished, but some are still in progress, the status indicator will show the status of those in progress only.
 
-#### If multiple tasks of different types are in progress
-![](/assets/design/specs/import-status/AaDx8IQ.png =80x)
+#### If all jobs are finished
+If all of the jobs are finished, the status indicator will change to indicate that all jobs are finished.
 
-![](/assets/design/specs/import-status/yWuWCS1.png =480x)
-
-#### If multiple tasks are in progress with some finished
-![](/assets/design/specs/import-status/8Csl5h9.png =80x)
-
-#### If all tasks are finished
-
-![](/assets/design/specs/import-status/j1ZadXc.png =80x)
-
-![](/assets/design/specs/import-status/UmHHJyK.png =480x)
-
-#### If any of the tasks failed
+#### If any of the jobs failed
 If any of the jobs running fails, the status indicator will change to indicate an error requiring attention.
 
-![](/assets/design/specs/import-status/XCZIBUl.png =80x)
-
-![](/assets/design/specs/import-status/XrUzjdy.png =480x)
-
-#### If a single task failed
-![](/assets/design/specs/import-status/RWAQyS2.png =240x)
