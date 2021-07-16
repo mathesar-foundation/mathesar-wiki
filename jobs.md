@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2021-07-16T16:41:39.528Z
+date: 2021-07-16T16:44:55.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -21,7 +21,7 @@ We're working on interesting problems related to simplifying and automating data
 
 This position also involves ownership in building an active community around the product, including participating in conversations with both contributors and users, mentoring for programs like Google Summer of Code, and maintaining documentation, reviewing pull requests, and so on.
 
-We are a fully distributed team and work mostly asynchronously via [Matrix](https://wiki.mathesar.org/en/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you are can make time between 2 PM and 8 PM UTC for occasional synchronous conversations and team events.
+We are a fully distributed team and work mostly asynchronously via [Matrix](https://wiki.mathesar.org/en/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you are can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
 
 ## Qualifications
 
