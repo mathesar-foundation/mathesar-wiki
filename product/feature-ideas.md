@@ -2,7 +2,7 @@
 title: Feature Ideas
 description: Ideas for features that aren't in our roadmap yet.
 published: true
-date: 2021-07-16T19:09:09.254Z
+date: 2021-07-16T19:22:37.635Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:47:31.098Z
@@ -198,3 +198,4 @@ Users should be able to:
 
 ## Database Feature Support
 - Handle editing, deleting, and infinite scroll for tables without primary keys or with multiple primary keys.
+- Cursor based pagination.
