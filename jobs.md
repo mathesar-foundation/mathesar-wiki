@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2021-07-16T16:44:55.154Z
+date: 2021-07-16T17:21:53.329Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -12,7 +12,7 @@ These are job descriptions for open jobs at the Center of Complex Interventions 
 
 # Frontend Engineer
 
-We're looking for a frontend engineer to work on [Mathesar](https://wiki.mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) and are advised by Joi Ito and Reid Hoffman.
+We're looking for a frontend engineer to work on [Mathesar](https://wiki.mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
 You'll be collaborating closely with everyone on the existing [Mathesar team](https://wiki.mathesar.org/team) to build out the frontend for the project. Our frontend stack is Svelte and TypeScript, and our initial roadmap for the MVP is [on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
@@ -47,6 +47,16 @@ You get bonus points if you have experience with any of the following:
 - Collaborating with designers.
 - Usability testing.
 
+## Interview Process
+The interview process will consist of four rounds:
+
+* **Round 1**: 1 hour technical interview with our frontend engineer.
+* **Round 2**: We'll assign you an open issue on the Mathesar repository and ask you to complete it. This is aimed at giving everyone involved a look at what it would be like to work together day to day.
+* **Round 3**: 1 hour interview with our designer and backend engineer.
+* **Round 4**: 45 min interview with our project lead.
+
+The final candidate will also have a conversation with CCI's Executive Director to learn more about the organization.
+
 ## Salary and Benefits
 You will be a salaried employee if you're in the US and an independent contractor otherwise. We offer a competitive salary in the nonprofit sector. We also have a budget for learning material (books, courses, etc.) and conferences.
 
@@ -56,7 +66,9 @@ US employees have the following benefits:
 - 401(k)
 
 ## How to Apply
-[TODO]
+Please fill out [this application form](https://airtable.com/shrvNKkiDJmoQFvR3).
+
+You are also welcome to [join our community](https://wiki.mathesar.org/community) and ask any questions you might have or [contribute to the project](https://wiki.mathesar.org/community/contributing).
 
 ## Equal Employment Opportunity Policy  
 The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer. CCI complies with and adheres to all United States state and federal anti-discrimination laws with respect to its employment practices. CCI does not discriminate against any employee or applicant for employment on the basis of race, color, religion, gender, sexual orientation, gender identity and expression, national origin or ancestry, age, or disability or any other category protected under state or federal law. This policy extends to recruiting, hiring, compensation, benefits, assignment, working conditions, termination, re-employment, employee treatment, and all other terms, conditions and privileges of employment. All employment-related decisions are made on a nondiscriminatory basis so as to further the principle of equal employment opportunity.
