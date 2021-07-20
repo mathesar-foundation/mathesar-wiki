@@ -2,7 +2,7 @@
 title: Basic Table Operations Spec
 description: 
 published: true
-date: 2021-07-13T12:08:32.516Z
+date: 2021-07-20T06:52:42.859Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-13T12:08:32.516Z
@@ -51,3 +51,14 @@ Inputs that contain validation errors should provide users with a clear reason f
 
 ## Bulk Table Operations
 Performing operations on a single table at a time can quickly become an issue if the user has many tables. Bulk operations will be considered in a future iteration.
+
+# Review Notes
+
+## Placeholder Names
+Naming tables should be optional at the moment of creation. The user should get a naming suggestion every time they create a new table. Mathesar should have the ability to auto-generate such names with incremental numbers. The decision to do so in the front-end or back-end will be decided later.
+
+## Table Options Menu
+A menu that contains table-related options can be accessed from the top toolbar. This menu should have additional functionality in the future, such as 'Duplicate Table,' which is only included now for reference.
+
+## Showing Related Tables and Views in the Delete Dialog
+When a user decides to delete a table, they will have to review a list of all related tables and views before confirming their choice.
