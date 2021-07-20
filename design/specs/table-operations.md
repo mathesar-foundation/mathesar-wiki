@@ -2,14 +2,11 @@
 title: Basic Table Operations Spec
 description: 
 published: true
-date: 2021-07-20T06:59:37.492Z
+date: 2021-07-20T07:00:06.652Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-13T12:08:32.516Z
 ---
-
-> This spec is still in review and its contents aren't final and subjected to change
-{.is-warning}
 
 # Context
 
