@@ -2,13 +2,13 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-07-21T10:04:10.817Z
+date: 2021-07-21T10:05:37.122Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
 ---
 
-> This spec is in review process and it's subject to change. 
+> This spec is in review process and its contents are subject to change. 
 {.is-warning}
 
 # Context
