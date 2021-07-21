@@ -2,7 +2,7 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-07-21T10:05:37.122Z
+date: 2021-07-21T10:46:43.338Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
@@ -24,7 +24,7 @@ For content that is greater than 255 characters. And best suited to store larger
 Text data type lets users enter almost any character (letter, symbol, or number).
 
 # Prototype
-[Text Data Type Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2965%3A22194&node-id=3026%3A19273&viewport=-2010%2C270%2C1.0617244243621826&scaling=contain)
+[Text Data Type Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2965%3A22194&node-id=3026%3A19273&viewport=-2010%2C270%2C1.0617244243621826&scaling=contain&show-proto-sidebar=1&starting-point-node-id=3026%3A19273)
 
 # User Experience
 
