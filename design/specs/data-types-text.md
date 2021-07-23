@@ -2,7 +2,7 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-07-21T10:53:52.850Z
+date: 2021-07-23T09:06:25.703Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
@@ -13,12 +13,6 @@ dateCreated: 2021-07-21T10:04:10.817Z
 
 # Context
 Text data types allow users to add letters, symbols, or numbers as field values. The text data type is also the default type for new columns within Mathesar. 
-
-## Types
-### Text (short)
-Best suited for short, alphanumeric values, such as names or street addresses.
-### Long Text
-For content that is greater than 255 characters. And best suited to store larger text strings such as paragraphs, notes, comments, or descriptions.
 
 ## Permitted Characters
 Text data type lets users enter almost any character (letter, symbol, or number).
