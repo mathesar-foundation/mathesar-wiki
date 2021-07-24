@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-07-23T20:02:57.303Z
+date: 2021-07-24T09:57:21.107Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -25,6 +25,7 @@ A user can access the data type configuration of a field through the column menu
 
 ### User sets different data type formats
 When setting a number type, a user can pick from different formats, including decimals, floats, integers, and percentages.
+[Examples of options available for each type](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3172%3A22488&node-id=3172%3A22489&viewport=682%2C424%2C0.9095099568367004&scaling=min-zoom)
 
 ### User filters the values of a number data type column
 A user can filter the values of a number data type column. The filtering options will vary depending on the type selected. 
