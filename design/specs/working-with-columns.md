@@ -2,7 +2,7 @@
 title: Working with Columns
 description: 
 published: true
-date: 2021-07-30T10:29:13.211Z
+date: 2021-07-30T11:13:50.730Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-19T17:34:31.394Z
