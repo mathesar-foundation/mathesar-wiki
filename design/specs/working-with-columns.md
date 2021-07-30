@@ -2,13 +2,13 @@
 title: Working with Columns
 description: 
 published: true
-date: 2021-07-21T10:06:18.296Z
+date: 2021-07-30T10:29:13.211Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-19T17:34:31.394Z
 ---
 
-> This spec is in review process and its contents are subject to change. 
+> This spec is in the review process, and its contents are subject to change. 
 {.is-warning}
 
 # Context
@@ -36,9 +36,8 @@ Users can choose the column data type by choosing from the data types dropdown m
 ### Implementation Notes
 Ideally, users should only change the column data type if it matches their data. Still, when there are inconsistencies, the user will have to resolve them or cancel the data type re-assignment. We will deal with these types of errors when working with specific data types.
 
-
 ## User changes column settings to disallow null values
-Users can change the column settings to allow or disallow null values. If changed, and if the column contains null values, a warning will be indicated by the affected cells. The errors will prevent saving the column settings change until resolved.
+Users can alter the column settings to allow or disallow null values. If changed, and if the column contains null values, a warning will be indicated by the affected cells. The errors will prevent saving the column settings change until resolved.
 
 ## User changes column settings to disallow duplicate values
 Users can also change column settings to prevent duplicate entries. If set from the column options, the unique constraint will only affect the values on that specific field.
@@ -47,10 +46,23 @@ Users can also change column settings to prevent duplicate entries. If set from 
 Users can set table-level constraints by accessing the table properties menu found on the table toolbar area. Changing these settings will impact the entire table. 
 
 ## User sets the default value for a column
-A user might want to set a default value so that every new record contains the appropiate value. In this case, the user can choose from no value, a zero value for numerical types or a default value. The options will vary depending on the set data type.
+A user might want to set a default value so that every new record contains the appropriate value. In this case, the user can choose from no value, a zero value for numerical types, or a default value. The options will vary depending on the set data type.
 
 ## User replaces NULL values across the entire table
-Users can use the replace values functionality in order to resolve errors with non nullable columns. 
+Users can replace NULL values in a column by applying a filter set to 'Empty' and manually replacing the values. 
 
 ## User removes duplicate values across the entire table
-Users can use the remove duplicates functionality in order to resolve problems caused by duplicate values. The can choose to select one or more columns and the affected records will be removed.
+Users can remove duplicate values in a column by applying a filter set to 'has duplicates,' selecting the affected rows and deleting them.
+
+# Review Notes
+## Labeling of  Menus
+Menus that list options for different objects, such as tables, columns, and records, should be easily discovered by users. We have simplified the column-related options to a single menu that users can access in context from the column header. As for table-related actions, we have updated the label to 'Table Actions' for increased clarity. Once all controls and options for the MVP are in place, we will revisit all labels to ensure we are applying the same consistent patterns across the entire app.
+
+## NULL, Empty, Blank Fields
+To simplify the way we handle the filtering of columns based on the content of a field, we have nested the NULL condition under the 'Empty' definition, which also includes empty strings. 
+
+## Help me fix this problem
+Whenever possible, we want to guide users towards resolving problems that hinder their goals within Mathesar. We are introducing a pattern for specific warnings to present suggested actions based on the context.
+
+## Column vs. Table Constraints
+There were some concerns over having both table-level and column-level constraints. We are introducing a help/more info icon next to some options so that users can learn more about them. Once we have the design for the complete set of functionality for the MVP, we can look at the different ways we can educate users within Mathesar.
