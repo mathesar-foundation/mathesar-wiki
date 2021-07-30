@@ -2,7 +2,7 @@
 title: Working with Columns
 description: 
 published: true
-date: 2021-07-30T11:13:50.730Z
+date: 2021-07-30T18:28:53.279Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-19T17:34:31.394Z
@@ -36,11 +36,11 @@ Users can choose the column data type by choosing from the data types dropdown m
 ### Implementation Notes
 Ideally, users should only change the column data type if it matches their data. Still, when there are inconsistencies, the user will have to resolve them or cancel the data type re-assignment. We will deal with these types of errors when working with specific data types.
 
-## User changes column settings to disallow null values
-Users can alter the column settings to allow or disallow null values. If changed, and if the column contains null values, a warning will be indicated by the affected cells. The errors will prevent saving the column settings change until resolved.
+## User changes column settings to disallow empty values
+Users can alter the column settings to allow or disallow empty (null or empty string) values. If changed, and if the column contains empty values, a warning message will appear, and the system will not save the change. The user can then choose to show a filtered view of the table showing the values that the user must change to alter the column constraint.
 
 ## User changes column settings to disallow duplicate values
-Users can also change column settings to prevent duplicate entries. If set from the column options, the unique constraint will only affect the values on that specific field.
+Users can also change column settings to prevent duplicate entries. If set from the column options, the unique constraint will only affect the values on that specific column.
 
 ## User changes table unique constraint settings
 Users can set table-level constraints by accessing the table properties menu found on the table toolbar area. Changing these settings will impact the entire table. 
@@ -48,11 +48,6 @@ Users can set table-level constraints by accessing the table properties menu fou
 ## User sets the default value for a column
 A user might want to set a default value so that every new record contains the appropriate value. In this case, the user can choose from no value, a zero value for numerical types, or a default value. The options will vary depending on the set data type.
 
-## User replaces NULL values across the entire table
-Users can replace NULL values in a column by applying a filter set to 'Empty' and manually replacing the values. 
-
-## User removes duplicate values across the entire table
-Users can remove duplicate values in a column by applying a filter set to 'has duplicates,' selecting the affected rows and deleting them.
 
 # Review Notes
 ## Labeling of  Menus
