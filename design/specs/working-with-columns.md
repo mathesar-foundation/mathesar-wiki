@@ -2,7 +2,7 @@
 title: Working with Columns
 description: 
 published: true
-date: 2021-07-30T18:28:53.279Z
+date: 2021-07-30T18:30:12.471Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-19T17:34:31.394Z
@@ -56,8 +56,8 @@ Menus that list options for different objects, such as tables, columns, and reco
 ## NULL, Empty, Blank Fields
 To simplify the way we handle the filtering of columns based on the content of a field, we have nested the NULL condition under the 'Empty' definition, which also includes empty strings. 
 
-## Help me fix this problem
-Whenever possible, we want to guide users towards resolving problems that hinder their goals within Mathesar. We are introducing a pattern for specific warnings to present suggested actions based on the context.
+## Providing options to solve problems when presenting warnings (Help me fix this problem)
+Whenever possible, we want to guide users towards resolving problems that hinder their goals within Mathesar. We are introducing a pattern for specific warnings to present suggested actions based on the context. In this case, for example, we allow users to navigate to pre-filtered views in order solve issues that prevent them from changing column settings.
 
 ## Column vs. Table Constraints
 There were some concerns over having both table-level and column-level constraints. We are introducing a help/more info icon next to some options so that users can learn more about them. Once we have the design for the complete set of functionality for the MVP, we can look at the different ways we can educate users within Mathesar.
