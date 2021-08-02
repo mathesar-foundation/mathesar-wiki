@@ -2,7 +2,7 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-07-23T09:06:25.703Z
+date: 2021-08-02T08:55:54.576Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
@@ -37,3 +37,10 @@ Users can sort records based on the values of text data type fields. The availab
 
 ### User groups a text data type column
 Users can group records based on the values of text data type fields. The available options allow users to group by first letter or word of field values.
+
+## Review Notes
+### Filter, Sort and Group Actions
+The design for filter, sort and group actions might require some updates to make the status of applied configurations more visible. Originally, these configurations were shown in a consolidated panel, but the solution is not optimal for some use cases. For example, when providing troubleshooting options, we might enable a filter to show affected rows, but the User, might not know how to return to the filter. A proposed solution is to iterate on the design for the filter, sort, and group features to optimize for discoverability and visibility of status.
+
+### Preventing changes that produce errors
+Some changes like column constraints or data type configurations might produce errors if the content in the columns is invalid. Rather than allowing the change and triggering error warnings in all affected records, we want to prevent the change and guide users towards modifying the column content until it's valid. 
