@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-07-28T16:52:36.252Z
+date: 2021-08-02T09:24:18.842Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -31,5 +31,8 @@ When setting a number type, a user can pick from different formats, including de
 A user can filter the values of a number data type column. The filtering options will vary depending on the type selected. 
 
 ### User groups records according to numeric values of a column
-A user can create groups based on the numeric values of a column. The user can choose to group by unique values or automatic ranges. Range options can be set so that groups are created by size or number of groups.
+A user can create groups based on the numeric values of a column. The User can choose to group by unique values or automatic ranges. Range options can be set so that groups are created by size or number of groups.
 
+## Review Notes
+### 'Friendly' and 'Database' type display
+We want to make sure users of all levels can understand and use the appropriate data types. Because the distinction between database types is sometimes not evident to beginner levels, we want to map them to more familiar categorizations. The design ensures that information will be available but prioritizes the user-friendly types in terms of visibility.
