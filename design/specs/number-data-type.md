@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-04T20:07:21.004Z
+date: 2021-08-04T20:10:15.409Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -43,4 +43,7 @@ A user can set the number of groups or the size for each group. If the parameter
 ## Review Notes
 ### 'Friendly' and 'Database' type display
 We want to make sure users of all levels can understand and use the appropriate data types. Because the distinction between database types is sometimes not evident to beginner levels, we want to map them to more familiar categorizations. The design ensures that information will be available but prioritizes the user-friendly types in terms of visibility.
+
+## Number type alignment
+Number types should be aligned to the right for easier reading of numbers with decimals.
 
