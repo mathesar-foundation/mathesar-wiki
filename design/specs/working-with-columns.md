@@ -2,7 +2,7 @@
 title: Working with Columns
 description: 
 published: true
-date: 2021-07-30T18:30:12.471Z
+date: 2021-08-04T06:43:25.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-19T17:34:31.394Z
@@ -12,7 +12,7 @@ dateCreated: 2021-07-19T17:34:31.394Z
 {.is-warning}
 
 # Context
-Working with columns is a central part of a users' database structuring experience, especially in scenarios where tables aren't imported, instead created within Mathesar. It is then on the user to add them, set the data types and other properties according to their needs.
+Working with columns is a central part of a user's database structuring experience, mainly when tables aren't imported, instead created within Mathesar. It is then on the user to add them, set the data types and other properties according to their needs.
 This spec describes the steps and components users would have to interact with to structure a table from scratch and populate it with data.
 
 # Prototype
@@ -28,7 +28,7 @@ Users can add new columns by using the add column button next to the last column
 Users can delete a column by toggling the column header menu and choosing the option to 'Delete Column.' In case the column deletion affects other tables or views, the user should receive a warning.
 
 ## User renames a column
-Users can change a column name at any time without affecting other tables and views referencing it. To rename a column, the user can click on its name label or choose the 'Rename Column' option from the column's header menu.
+Users can change a column name at any time without affecting other tables and views referencing it. The user can click on its name label or choose the 'Rename Column' option from the column's header menu to rename a column.
 
 ## User edits a column type
 Users can choose the column data type by choosing from the data types dropdown menu.
@@ -57,7 +57,10 @@ Menus that list options for different objects, such as tables, columns, and reco
 To simplify the way we handle the filtering of columns based on the content of a field, we have nested the NULL condition under the 'Empty' definition, which also includes empty strings. 
 
 ## Providing options to solve problems when presenting warnings (Help me fix this problem)
-Whenever possible, we want to guide users towards resolving problems that hinder their goals within Mathesar. We are introducing a pattern for specific warnings to present suggested actions based on the context. In this case, for example, we allow users to navigate to pre-filtered views in order solve issues that prevent them from changing column settings.
+Whenever possible, we want to guide users towards resolving problems that hinder their goals within Mathesar. We are introducing a pattern for specific warnings to present suggested actions based on the context. For example, in this case, we allow users to navigate to pre-filtered views to solve issues that prevent them from changing column settings.
 
 ## Column vs. Table Constraints
 There were some concerns over having both table-level and column-level constraints. We are introducing a help/more info icon next to some options so that users can learn more about them. Once we have the design for the complete set of functionality for the MVP, we can look at the different ways we can educate users within Mathesar.
+
+## Filters
+Filters, as presented in this document, are no longer consistent with the latest design updates. The panel component has proven to be incompatible with many of our use cases, and we have opted for a dropdown component instead.
