@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-02T15:50:17.244Z
+date: 2021-08-04T20:07:21.004Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -33,6 +33,14 @@ A user can filter the values of a number data type column. The filtering options
 ### User groups records according to numeric values of a column
 A user can create groups based on the numeric values of a column. The User can choose to group by unique values or automatic ranges. Range options can be set so that groups are created by size or number of groups.
 
+#### User defines range manually
+A user can set a min and max value for a range and the increment size
+#### User defines ranges automatically
+A user can set the number of groups or the size for each group. If the parameter for the number of groups is set to 2, the range will be divided into two equal groups. If the group size parameter is set to 5, the values will be divided into ranges with an equal number of unique values. In this case, 5, not all groups will have the same number of equal values, as the total might not be divided into equal parts.
+
+[Examples of Grouping by Range Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3458%3A26001&node-id=3469%3A27264&viewport=69%2C76%2C0.7793133854866028&scaling=min-zoom)
+
 ## Review Notes
 ### 'Friendly' and 'Database' type display
 We want to make sure users of all levels can understand and use the appropriate data types. Because the distinction between database types is sometimes not evident to beginner levels, we want to map them to more familiar categorizations. The design ensures that information will be available but prioritizes the user-friendly types in terms of visibility.
+
