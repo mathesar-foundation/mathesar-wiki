@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-05T07:24:33.891Z
+date: 2021-08-05T08:08:24.191Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
