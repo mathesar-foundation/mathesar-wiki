@@ -2,7 +2,7 @@
 title: Date and Time Data Type
 description: 
 published: true
-date: 2021-08-06T16:29:46.474Z
+date: 2021-08-06T16:45:20.534Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-06T16:29:46.474Z
@@ -34,4 +34,4 @@ Values in a 'Date and Time' data type column can be filtered by various paramete
 ## The user groups a 'Date and Time' data type column
 Values in a 'Date and Time' data type column can be grouped by range. Where maximum and minimum dates can be provided as well as the desired interval for each group.
 
-[Date/Time Data Type Group Options Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3577%3A29502&node-id=3577%3A29694&viewport=223%2C320%2C0.4651184380054474&scaling=min-zoom)
+[Date/Time Data Type Group Options Figma Prototype](https://www.figma.com/file/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=3596%3A31421)
