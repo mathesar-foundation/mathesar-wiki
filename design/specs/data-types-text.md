@@ -2,14 +2,11 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-08-02T08:55:54.576Z
+date: 2021-08-06T16:57:41.138Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
 ---
-
-> This spec is in review process and its contents are subject to change. 
-{.is-warning}
 
 # Context
 Text data types allow users to add letters, symbols, or numbers as field values. The text data type is also the default type for new columns within Mathesar. 
