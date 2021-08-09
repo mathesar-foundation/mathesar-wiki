@@ -2,11 +2,15 @@
 title: Date and Time Data Type
 description: 
 published: true
-date: 2021-08-09T09:19:51.813Z
+date: 2021-08-09T09:20:19.090Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-06T16:29:46.474Z
 ---
+
+> The content of this spec is under review and might change.
+{.is-warning}
+
 
 # Context
 Date and Time data types are used to represent temporal values. Each temporal value can be displayed in different formats depending on the data or user needs (e.g., 6 Aug 2021, 06/08/2021).
