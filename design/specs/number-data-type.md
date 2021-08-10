@@ -2,14 +2,11 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-05T08:08:24.191Z
+date: 2021-08-10T09:07:43.207Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
 ---
-
-> This spec is in the review process, and its contents are subject to change. 
-{.is-warning}
 
 # Context
 Number data types allow users to add numeric values in different formats. 
