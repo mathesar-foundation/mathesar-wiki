@@ -2,7 +2,7 @@
 title: Duration Data Type Specs
 description: 
 published: true
-date: 2021-08-10T09:42:44.190Z
+date: 2021-08-10T15:33:34.778Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T09:42:44.190Z
@@ -17,7 +17,7 @@ Duration data types represent a period of time measured in hours, minutes, and/o
 # Prototype 
 [Duration Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3652%3A28432&node-id=3652%3A28433&viewport=1951%2C518%2C0.7335814833641052&scaling=min-zoom&starting-point-node-id=3652%3A28433)
 
-# User ExperienceT
+# User Experience
 ## Scenarios
 ### User sets a column to 'Duration' data type
 The user can set the column data type to 'Duration' by accessing the 'Data Type Options' in the columns header menu.
