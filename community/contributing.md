@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2021-06-03T14:27:23.562Z
+date: 2021-08-11T13:00:38.181Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -18,7 +18,10 @@ Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesa
 You may also want to visit our [Engineering](/engineering) page to learn more about our development process.
 
 ## Finding an Issue
-Find an issue to work on from our [issues page](https://github.com/centerofci/mathesar/issues).
+
+If you'd like an issue to work on, we can help you find one! Please join the "General" channel on our [Matrix server](/community) and introduce yourself. Information about your skillset and how much time you have available to work on an issue is helpful for us to figure out what task to assign you to.
+
+You can also find an issue to work on from our [issues page](https://github.com/centerofci/mathesar/issues).
   - Unassigned issues tagged `good first issue` or `help wanted` are especially tagged for contributors.
     - [Issues tagged `good first issue`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22good+first+issue%22)
     - [Issues tagged `help wanted`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22help+wanted%22)
@@ -30,7 +33,7 @@ If you want to work on something for which there is no GitHub issue open yet, cr
 ## Contributing
 Once you've found an issue to work on, 
 
-- Comment on it and say you're working on that issue. This is to avoid conflicts with others also working on the issue.
+- Comment on it and say you'd like to work on that issue. This is to avoid conflicts with others also working on the issue.
 - A Mathesar [team member](/team) will assign you to that issue.
 - Write your code and submit your pull request. Be sure to read and follow our [code review guidelines](/engineering/code-review).
 - Wait for code review and address any issues raised as soon as you can.
