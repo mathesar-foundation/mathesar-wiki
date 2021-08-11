@@ -2,7 +2,7 @@
 title: Email Data Type
 description: 
 published: true
-date: 2021-08-11T09:05:46.024Z
+date: 2021-08-11T09:31:41.904Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T16:15:43.563Z
@@ -26,7 +26,7 @@ If there are no valid email values, the system will discard the existing values 
 The user might enter a new email value with a valid format. If the value is not a valid email, an error should be displayed, preventing the row from being saved.
 
 ### User filters an 'Email' data type column
-Users can filter 'email' data type columns by regular 'Text' type filters as well as 'Email' specific filters such as domain name.
+Users can filter 'email' data type columns by regular 'Text' type filters (except for length filters which are exclusive to text types) as well as 'Email' specific filters such as domain name.
 
 ### User groups an 'Email' data type column
 Users can group 'email' data types columns by first letter or domain.
