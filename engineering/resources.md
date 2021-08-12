@@ -2,13 +2,16 @@
 title: Resources
 description: Reading and resources that might be of interest.
 published: true
-date: 2021-06-01T18:42:05.480Z
+date: 2021-08-12T13:44:09.725Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:30:35.472Z
 ---
 
 This is a miscellaneous set of reading and resources that may or may not be relevant to Mathesar. **Feel free to add more!**
+
+# APIs
+- [Best practices for REST API design - Stack Overflow Blog](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 
 # Deployment
 
