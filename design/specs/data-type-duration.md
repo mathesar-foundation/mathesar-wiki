@@ -2,7 +2,7 @@
 title: Duration Data Type Specs
 description: 
 published: true
-date: 2021-08-10T15:33:34.778Z
+date: 2021-08-16T14:48:29.996Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T09:42:44.190Z
@@ -32,4 +32,5 @@ Depending on the duration format configuration, an empty cell will provide a pla
 Users can filter 'duration' data type columns with the same options as 'Number' data type, and it also allows natural language expressions to be used, such as 'greater than 2 hours.
 
 ### User groups a 'Duration' data type column
-Users can group 'duration' data types columns by different duration units such as hours, minutes, or seconds. Users can apply filters to limit the number of examples or capture specific ranges.
+Users can group 'duration' data types columns by different duration units such as hours, minutes, or seconds. Users can also apply group by ranges, with the same control used for number types.
+[Group by Ranges Control](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4154%3A34308&node-id=4154%3A34363&viewport=324%2C48%2C0.51&scaling=min-zoom)
