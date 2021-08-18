@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-07-01T21:09:05.913Z
+date: 2021-07-01T21:09:03.897Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z

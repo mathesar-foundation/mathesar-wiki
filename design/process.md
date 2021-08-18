@@ -2,7 +2,7 @@
 title: Design Process
 description: An Overview of the Phases Involved in Mathesar’s Design Process
 published: true
-date: 2021-07-01T21:03:07.041Z
+date: 2021-05-26T13:15:20.521Z
 tags: design, process
 editor: markdown
 dateCreated: 2021-05-10T11:06:16.074Z

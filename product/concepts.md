@@ -2,7 +2,7 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2021-05-11T19:51:17.591Z
+date: 2021-05-11T19:51:15.105Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z

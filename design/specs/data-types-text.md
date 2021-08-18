@@ -2,7 +2,7 @@
 title: Text Data Type
 description: 
 published: true
-date: 2021-08-06T16:57:43.603Z
+date: 2021-08-06T16:57:41.138Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-21T10:04:10.817Z
