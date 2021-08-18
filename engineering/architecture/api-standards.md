@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-05-28T12:17:42.698Z
+date: 2021-05-28T12:17:44.777Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z

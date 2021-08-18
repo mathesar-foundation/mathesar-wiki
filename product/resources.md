@@ -2,7 +2,7 @@
 title: Resources
 description: External reading and resources
 published: true
-date: 2021-05-07T19:06:30.674Z
+date: 2021-05-07T19:06:33.009Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T19:05:00.832Z

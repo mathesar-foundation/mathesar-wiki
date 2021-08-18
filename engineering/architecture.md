@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2021-05-26T23:46:49.795Z
+date: 2021-07-06T15:42:23.110Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z

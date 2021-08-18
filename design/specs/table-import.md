@@ -2,12 +2,11 @@
 title: Add Table from File Import Specs
 description: 
 published: true
-date: 2021-06-07T20:24:13.003Z
+date: 2021-07-01T21:03:24.608Z
 tags: 
 editor: markdown
-dateCreated: 2021-06-02T09:10:33.943Z
+dateCreated: 2021-07-01T21:03:22.324Z
 ---
-
 
 # Context
 Adding a new table from a file import allows users to input data into Mathesar without populating tables manually. This feature is also convenient for users who need to import data for testing Mathesar's functionality.

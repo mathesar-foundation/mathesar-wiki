@@ -2,7 +2,7 @@
 title: Adding, Update and Deleting Records
 description: 
 published: true
-date: 2021-06-29T19:30:23.622Z
+date: 2021-07-01T21:03:16.444Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-28T17:47:57.446Z

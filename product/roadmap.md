@@ -2,7 +2,7 @@
 title: Roadmap
 description: Roadmap for upcoming Mathesar features
 published: true
-date: 2021-06-08T12:18:36.570Z
+date: 2021-06-08T12:18:39.302Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:43:28.320Z

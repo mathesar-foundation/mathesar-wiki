@@ -2,19 +2,19 @@
 title: Inventory: Data Exploration
 description: 
 published: true
-date: 2021-05-04T18:48:21.549Z
+date: 2021-05-04T18:48:24.084Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:37:21.882Z
 ---
 
-> Refer to [Inventory Use Case](/design/exploration/use-cases/inventory-use-case) for additional context.
+> Refer to [Inventory Use Case](/design/exploration/inventory-use-case) for additional context.
 {.is-info}
 
 # Context
 The user has created a new table in Mathesar via file import. The table is used to organize their music album collection.
 
-![upload_24f01dd5f890ed625316f0f42e2e6c95.gif](/assets/design/exploration/inventory-data-exploration/upload_24f01dd5f890ed625316f0f42e2e6c95.gif)
+![upload_24f01dd5f890ed625316f0f42e2e6c95.gif](/design-assets/upload_24f01dd5f890ed625316f0f42e2e6c95.gif)
 
 The user's goal is to create a top-level **releases** table and break **artists** into another table.
 
@@ -26,9 +26,9 @@ The user's goal is to create a top-level **releases** table and break **artists*
 ## User creates a new table inside an existing schema
 Once the user has created their initial table, they need to add an additional one to include the data they want to link. The user can enter the data manually or they can create a new table by import, the difference is that this time they add it to an existing schema.
 
-![upload_314ee62b7fb18439e4860713da71af57.gif](/assets/design/exploration/inventory-data-exploration/upload_314ee62b7fb18439e4860713da71af57.gif)
+![upload_314ee62b7fb18439e4860713da71af57.gif](/design-assets/upload_314ee62b7fb18439e4860713da71af57.gif)
 
-![upload_0a739701669a8d3913b365ef516a7055.gif](/assets/design/exploration/inventory-data-exploration/upload_0a739701669a8d3913b365ef516a7055.gif)
+![upload_0a739701669a8d3913b365ef516a7055.gif](/design-assets/upload_0a739701669a8d3913b365ef516a7055.gif)
 
 ### Notes
 - ID field is visible 
@@ -47,7 +47,7 @@ There are two alternatives to solve this step, and each has its pros and cons.
 
 ### Open tables as tabs that can be closed
 
-![9i3tkus.gif](/assets/design/exploration/inventory-data-exploration/9i3tkus.gif)
+![9i3tkus.gif](/design-assets/9i3tkus.gif)
 
 #### Pros
 - Can open tables from different schemas
@@ -59,7 +59,7 @@ There are two alternatives to solve this step, and each has its pros and cons.
 
 ### List all tables as tabs that can be selected
 
-![ibeojth.gif](/assets/design/exploration/inventory-data-exploration/ibeojth.gif)
+![ibeojth.gif](/design-assets/ibeojth.gif)
 
 #### Pros
 - Save up space by removing sidebar
@@ -69,7 +69,7 @@ There are two alternatives to solve this step, and each has its pros and cons.
 
 ## User creates a relationship between two tables
 
-![upload_c3499aaef0865fe3837e3308a6adadef.gif](/assets/design/exploration/inventory-data-exploration/upload_c3499aaef0865fe3837e3308a6adadef.gif)
+![upload_c3499aaef0865fe3837e3308a6adadef.gif](/upload_c3499aaef0865fe3837e3308a6adadef.gif)
 
 # Questions & Notes
 

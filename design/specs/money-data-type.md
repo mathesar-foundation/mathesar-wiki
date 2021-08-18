@@ -2,7 +2,7 @@
 title: Money Data Type Specs
 description: 
 published: true
-date: 2021-08-05T09:14:25.201Z
+date: 2021-08-05T09:14:27.588Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-05T09:14:25.201Z
