@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-19T18:45:54.410Z
+date: 2021-08-19T19:16:26.739Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -12,6 +12,9 @@ dateCreated: 2021-07-23T20:02:57.303Z
 Number data types allow users to add numeric values in different formats. 
 
 # Prototype
+> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+{.is-warning}
+
 [Number Data Type Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3043%3A25937&node-id=3118%3A23009&viewport=-201%2C-496%2C0.35054445266723633&scaling=contain&starting-point-node-id=3118%3A23009)
 
 # User Experience
