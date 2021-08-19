@@ -2,7 +2,7 @@
 title: Money Data Type Specs
 description: 
 published: true
-date: 2021-08-05T09:14:25.201Z
+date: 2021-08-19T18:47:20.653Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-05T09:14:25.201Z
@@ -19,6 +19,10 @@ Money Data Types allow users to manage monetary values, preceded by a currency s
 
 ### The user sets the type of a column with existing values to 'Money.'
 The user opens the menu for the desired column and selects the 'Data Type Options' menu item. From the list, they can set the type to money. Under advanced options, the user may set the currency and decimal places.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[Money Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A40881&viewport=324%2C48%2C0.21&scaling=contain&starting-point-node-id=4270%3A40881&show-proto-sidebar=1)
 
 ### The user filters a 'Money' data type column
 The user can choose from multiple filter options to filter monetary values. The options will be the same as those used for numeric types.
