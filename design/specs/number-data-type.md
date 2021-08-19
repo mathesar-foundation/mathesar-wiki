@@ -2,7 +2,7 @@
 title: Number Data Type
 description: 
 published: true
-date: 2021-08-10T09:23:11.725Z
+date: 2021-08-19T18:42:26.670Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-23T20:02:57.303Z
@@ -19,6 +19,10 @@ Number data types allow users to add numeric values in different formats.
 ## Scenarios
 ### User sets number data type options
 A user can access the data type configuration of a field through the column menu. Depending on which data type is selected, the content of the configuration panel will change.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[Number Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39634&viewport=324%2C48%2C0.21&scaling=contain&starting-point-node-id=4270%3A39634&show-proto-sidebar=1)
 
 ### User sets different data type formats
 When setting a number type, a user can pick from different formats, including decimals, floats, integers, and percentages.
