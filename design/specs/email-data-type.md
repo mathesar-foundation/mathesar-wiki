@@ -2,7 +2,7 @@
 title: Email Data Type
 description: 
 published: true
-date: 2021-08-11T09:31:41.904Z
+date: 2021-08-20T09:00:02.266Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T16:15:43.563Z
@@ -11,7 +11,10 @@ dateCreated: 2021-08-10T16:15:43.563Z
 # Context
 Email data types are custom Mathesar data types used to store email addresses. 
 
-# Prototype 
+# Prototype
+> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+{.is-warning}
+
 [Email Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3750%3A28603&node-id=3757%3A31323&viewport=-337%2C513%2C0.9479455947875977&scaling=contain&starting-point-node-id=3757%3A31323)
 
 # User Experience
@@ -21,6 +24,10 @@ The user can set the column data type to 'Email' by accessing the 'Data Type Opt
 Depending on whether there are existing values or not, and if they are valid email values, the outcomes will vary:
 If there are valid email values, the system will convert them to email types. A valid email will have a username and domain name joined by a '@' symbol.
 If there are no valid email values, the system will discard the existing values and default to an empty cell.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[Email Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4317%3A50925&viewport=324%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=4270%3A39806)
 
 ### User enters a new 'Email' data type value
 The user might enter a new email value with a valid format. If the value is not a valid email, an error should be displayed, preventing the row from being saved.
