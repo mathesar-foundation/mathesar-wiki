@@ -2,7 +2,7 @@
 title: Date and Time Data Type
 description: 
 published: true
-date: 2021-08-20T08:53:53.673Z
+date: 2021-08-20T09:56:05.001Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-06T16:29:46.474Z
@@ -18,6 +18,7 @@ Date and Time data types are used to represent temporal values. Each temporal va
 # Prototype
 > This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 {.is-warning}
+
 [Date/Time Data Type Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3559%3A26639&node-id=3559%3A26640&viewport=-379%2C563%2C0.21144694089889526&scaling=contain&starting-point-node-id=3559%3A26640)
 
 # User Experience
