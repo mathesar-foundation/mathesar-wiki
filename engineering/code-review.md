@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-08-20T11:58:46.550Z
+date: 2021-08-20T12:03:21.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -24,9 +24,11 @@ Please follow these guidelines when reviewing PRs.
 - Do not resolve comments, let the reviewer do this.
 
 ## Reviewers
+Anyone is welcome to review pull requests!
+
 - Request changes if you want another look at the PR before it is merged.
 - Resolve your own comments, do not resolve anyone else's.
-- If the branch needs to be updated before merging (because it's out-of-date with the `master` branch), do so, as long as the action can be performed automatically.  Otherwise, ask the Author to handle it.
+- If the branch needs to be updated before merging (because it's out-of-date with the `master` branch), do so, as long as the merge can be performed automatically.  Otherwise, ask the Author to handle it.
 - See [Backend Code Review](/engineering/code-review/backend) for guidelines specific to backend code.
 
 ### Maintainers
