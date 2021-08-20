@@ -2,7 +2,7 @@
 title: Date and Time Data Type
 description: 
 published: true
-date: 2021-08-20T08:41:49.051Z
+date: 2021-08-20T08:53:53.673Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-06T16:29:46.474Z
