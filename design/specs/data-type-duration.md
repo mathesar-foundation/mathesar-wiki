@@ -2,7 +2,7 @@
 title: Duration Data Type Specs
 description: 
 published: true
-date: 2021-08-16T15:06:34.387Z
+date: 2021-08-20T09:23:39.267Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T09:42:44.190Z
@@ -15,6 +15,9 @@ dateCreated: 2021-08-10T09:42:44.190Z
 Duration data types represent a period of time measured in hours, minutes, and/or seconds.
 
 # Prototype 
+> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+{.is-warning}
+
 [Duration Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3652%3A28432&node-id=3652%3A28433&viewport=1951%2C518%2C0.7335814833641052&scaling=min-zoom&starting-point-node-id=3652%3A28433)
 
 # User Experience
@@ -24,6 +27,10 @@ The user can set the column data type to 'Duration' by accessing the 'Data Type 
 Depending on whether there are existing values or not, and if they are valid duration values, the outcomes will vary:
 If there are valid duration values, the system will convert them to duration types. For example, '120' might become '2:00' if interpreted as total minutes.
 If there are no valid duration values, the system will discard the existing values and default to an empty cell.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[Duration Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A41231&viewport=324%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=4270%3A41231&show-proto-sidebar=1)
 
 ### User enters a new 'Duration' data type value
 Depending on the duration format configuration, an empty cell will provide a placeholder format indicator such as 'h:mm' when the cell is in an active state. Depending on the format, the user might input a value using the exact format or in the unit values of minutes or seconds. For example, '240' will be formatted as '4:00.'
