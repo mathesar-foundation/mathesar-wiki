@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-06-03T12:03:36.343Z
+date: 2021-08-20T11:38:57.045Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -24,11 +24,15 @@ Please follow these guidelines when reviewing PRs.
 - Do not resolve comments, let the reviewer do this.
 
 ## Reviewers
-- Check for outstanding PRs at the start of your day.
 - Request changes if you want another look at the PR before it is merged.
 - Resolve your own comments, do not resolve anyone else's.
-- If you approve the PR, merge it unless someone else has requested changes.
 - If the branch needs to be updated before merging (because it's out-of-date with the `master` branch), do so, as long as the action can be performed automatically.  Otherwise, ask the Author to handle it.
+
+### Maintainers
+- Check for outstanding PRs at least **once a day**.
+- Review core team PRs within 1 work day, community PRs within 3 days.
+- If you approve the PR, merge it unless someone else has requested changes.
+  - If the person who has requested changes is unavailable, merge the PR anyway.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
 
 # Reading
