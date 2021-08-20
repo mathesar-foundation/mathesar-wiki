@@ -2,7 +2,7 @@
 title: Email Data Type
 description: 
 published: true
-date: 2021-08-20T09:00:02.266Z
+date: 2021-08-20T09:01:25.427Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T16:15:43.563Z
@@ -15,7 +15,7 @@ Email data types are custom Mathesar data types used to store email addresses.
 > This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 {.is-warning}
 
-[Email Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3750%3A28603&node-id=3757%3A31323&viewport=-337%2C513%2C0.9479455947875977&scaling=contain&starting-point-node-id=3757%3A31323)
+[Email Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39806&viewport=324%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=4270%3A39806)
 
 # User Experience
 ## Scenarios
