@@ -2,7 +2,7 @@
 title: Date and Time Data Type
 description: 
 published: true
-date: 2021-08-13T09:26:16.486Z
+date: 2021-08-20T08:41:49.051Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-06T16:29:46.474Z
@@ -16,6 +16,8 @@ dateCreated: 2021-08-06T16:29:46.474Z
 Date and Time data types are used to represent temporal values. Each temporal value can be displayed in different formats depending on the data or user needs (e.g., 6 Aug 2021, 06/08/2021).
 
 # Prototype
+> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+{.is-warning}
 [Date/Time Data Type Figma Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3559%3A26639&node-id=3559%3A26640&viewport=-379%2C563%2C0.21144694089889526&scaling=contain&starting-point-node-id=3559%3A26640)
 
 # User Experience
@@ -26,6 +28,10 @@ The user can set the column type by accessing the column header menu's  'data ty
 The 'Date and Time' data type is set, and the user can now input data with a date picker or manually. The system will restrict the allowed values based on the set format. 
 ### If the column contains values
 If the system can't parse the values, the system will not set the 'Date and Time' data type. The user will receive a warning, and if they choose to proceed, the system will empty the column values.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[Date/Time Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A41050&viewport=324%2C48%2C0.34&scaling=contain&starting-point-node-id=4270%3A41050)
 
 ## The user enters a new value for a  'Date and Time' data type column
 When entering values in a column set to the 'Date and Time' type, the users will be able to do so from a date or time picker for easier input.
