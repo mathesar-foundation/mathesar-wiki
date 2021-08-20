@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-08-20T11:39:26.613Z
+date: 2021-08-20T11:39:35.339Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -30,7 +30,7 @@ Please follow these guidelines when reviewing PRs.
 
 ### Maintainers
 - Check for outstanding PRs at least **once a day**.
-- Review core team PRs within 1 work day, community PRs within 3 workdays.
+- Review core team PRs within 1 work day, community PRs within 3 work days.
 - If you approve the PR, merge it unless someone else has requested changes.
   - If the person who has requested changes is unavailable, merge the PR anyway.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
