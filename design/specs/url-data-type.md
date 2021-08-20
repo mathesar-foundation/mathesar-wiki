@@ -2,7 +2,7 @@
 title: URL Data Type
 description: 
 published: true
-date: 2021-08-11T09:31:15.881Z
+date: 2021-08-20T09:12:42.695Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-11T09:31:15.881Z
@@ -12,6 +12,9 @@ dateCreated: 2021-08-11T09:31:15.881Z
 URL data types are custom Mathesar data types used to store URLs.
 
 # Prototype 
+> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+{.is-warning}
+
 [URL Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3750%3A28604&node-id=3763%3A30987&viewport=1049%2C-592%2C0.2776779234409332&scaling=contain&starting-point-node-id=3763%3A30987)
 
 # User Experience
@@ -28,6 +31,10 @@ If there are valid URL values, the system will convert them to URL types. For ex
 `www.website.com/?url=has-querystring`
 
 If there are no valid URL values, the system will discard the existing values and default to an empty cell.
+
+#### Setting Options
+The following is an interactive representation of the various options that users can set for this type:
+[URL Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39962&viewport=324%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=4270%3A39962&show-proto-sidebar=1)
 
 ### User enters a new 'URL' data type value
 The user might enter a new 'URL' value with a valid format. If the value is not a valid URL, an error should be displayed, preventing the row from being saved.
