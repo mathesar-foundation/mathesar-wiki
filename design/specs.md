@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-08-23T12:39:00.850Z
+date: 2021-08-23T13:08:50.496Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
