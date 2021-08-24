@@ -2,7 +2,7 @@
 title: Boolean Data Type
 description: 
 published: true
-date: 2021-08-24T19:15:54.055Z
+date: 2021-08-24T19:17:07.241Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-12T09:27:03.181Z
@@ -22,7 +22,7 @@ Boolean data types are used to store TRUE or FALSE values.
 ### User sets a column to 'Boolean' data type
 The user can set the column data type to 'Boolean' by accessing the 'Data Type Options' in the columns header menu.
 Whether there are existing values or not, the outcomes will vary if they are valid boolean values.
-If there are valid URL values, the system will convert them to boolean types. There are only two boolean values. They are True and False. However, we might map existing binomial values or integers as equivalents to true and false, for example, 'yes and no' or '0 and 1'.
+If there are valid URL values, the system will convert them to boolean types. There are only two boolean values. They are True and False. However, we might map existing values or integers as equivalents to true and false, for example, 'yes and no' or '0 and 1'.
 
 If there are no valid boolean values, the system will prevent the change from being made. 
 
