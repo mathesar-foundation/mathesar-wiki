@@ -2,7 +2,7 @@
 title: Money Data Type Specs
 description: 
 published: true
-date: 2021-08-20T08:58:02.518Z
+date: 2021-08-24T21:05:42.855Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-05T09:14:25.201Z
@@ -32,4 +32,8 @@ The user can choose from multiple filter options to filter monetary values. The 
 
 ### The user groups a 'Money' data type column
 The user might also choose to group the data based on the values of the 'Money' data type column.
+
+# Review Notes
+- For the MVP we'll assume the number locale format based on the selected currency. Eventually we can add options so that, for example, US dollars can be displayed with dot separators instead of commas. 
+- All locales will be included whenever there's a locale related option.
 
