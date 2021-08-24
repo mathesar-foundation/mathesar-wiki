@@ -2,7 +2,7 @@
 title: One-to-one Relationship Specs
 description: 
 published: true
-date: 2021-08-24T09:02:15.127Z
+date: 2021-08-24T09:12:46.107Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
@@ -35,9 +35,7 @@ Once the linked column has been successfully set, the user can begin to enter da
 Records from a referenced table that have been linked in other tables can be deleted as long as the user unchecks the 'Allow Orphan Records' option while setting up the table relation. While there are reasons why a user might choose to do this, the default should remain to restrict the record's deletion. A warning would display, indicating that the user must first remove the record's key reference from the other table.
 
 ### A user transforms a linked column into a regular one.
-If a user decides that they no longer want to reference a table from a column, they can unlink it. This action will not affect the content of the column's fields; however, the system will remove the foreign key constraints and set the data type to that of the referenced table's primary key type. Users can unlink a column by clicking on the 'Unlink Column' option in the column's header menu.
+If users decide that they no longer want to reference a table from a column, they can unlink it. This action will not affect the content of the column's fields; however, the system will remove the foreign key constraints and set the data type to that of the referenced table's primary key type. Users can unlink a column by clicking on the 'Unlink Column' option in the column's header menu.
 
-
-
-
-
+### A user sees a list of table constraints
+Table constraints need to reflect all applied constraints accurately. For that reason, every time a column is linked to another table, the system will add the foreign key constraint to the list. These constraints will be read-only.
