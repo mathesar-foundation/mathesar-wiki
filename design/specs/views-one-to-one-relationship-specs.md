@@ -2,7 +2,7 @@
 title: One-to-one Relationship Specs
 description: 
 published: true
-date: 2021-08-24T09:43:05.083Z
+date: 2021-08-24T09:44:14.919Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
@@ -14,7 +14,7 @@ Users within Mathesar will want to create relationships between tables for diffe
 ## Primary and Foreign Keys
 Primary and foreign keys are the basis of a relational database. They allow tables to be referenced from other tables. Allowing not only to connect the data from the tables in meaningful ways but also to maintain data integrity.
 In the context of Mathesar, we attempt to help users incorporate these concepts in their database design while simplifying the experience so that users can create table relations without fully understanding how primary and foreign keys work.
-Ideally, users will want to relate a table to another, and throughout the process, discover the role that 'key constraints have in performing this action. This will happen at first by understanding the purpose for the automatically generated primary key that Mathesar adds to every record and later when referencing this key from another table.
+Ideally, users will want to relate a table to another, and throughout the process, discover the role that key constraints have in performing these actions. This will happen at first by understanding the purpose for the automatically generated primary key that Mathesar adds to every record and later when referencing this key from another table.
 Because Mathesar seeks to maintain access and visibility of all the tables in the database, there might be some friction in how users familiarize themselves with the concept of related tables at first. They will have to use views to reference other table's data to be more compatible with the spreadsheet standard.
 
 # Prototype
