@@ -2,14 +2,11 @@
 title: Duration Data Type Specs
 description: 
 published: true
-date: 2021-08-20T09:51:19.920Z
+date: 2021-08-25T08:42:25.689Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T09:42:44.190Z
 ---
-
-> The content of this spec is under review and might change.
-{.is-warning}
 
 # Context
 Duration data types represent a period of time measured in hours, minutes, and/or seconds.
@@ -23,10 +20,8 @@ Duration data types represent a period of time measured in hours, minutes, and/o
 # User Experience
 ## Scenarios
 ### User sets a column to 'Duration' data type
-The user can set the column data type to 'Duration' by accessing the 'Data Type Options' in the columns header menu.
-Depending on whether there are existing values or not, and if they are valid duration values, the outcomes will vary:
-If there are valid duration values, the system will convert them to duration types. For example, '120' might become '2:00' if interpreted as total minutes.
-If there are no valid duration values, the system will discard the existing values and default to an empty cell.
+The user can set the column data type to 'Duration' by accessing the 'Data Type Options' in the columns header menu. Depending on whether there are existing values or not, and if they are valid duration values, the outcomes will vary:
+If there are valid duration values, the system will convert them to duration types. For example, '120' might become '2:00' if interpreted as total minutes. If there are no valid duration values, the system will discard the existing values and default to an empty cell.
 
 #### Setting Options
 The following is an interactive representation of the various options that users can set for this type:
@@ -41,3 +36,5 @@ Users can filter 'duration' data type columns with the same options as 'Number' 
 ### User groups a 'Duration' data type column
 Users can group 'duration' data types columns by different duration units such as hours, minutes, or seconds. Users can also apply group by ranges, with the same control used for number types.
 [Group by Ranges Control](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4154%3A34308&node-id=4154%3A34363&viewport=324%2C48%2C0.51&scaling=min-zoom)
+
+# Review Notes
