@@ -2,7 +2,7 @@
 title: Non-Mathesar Data Types
 description: 
 published: true
-date: 2021-08-12T13:04:26.580Z
+date: 2021-08-25T20:56:07.644Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-12T13:04:26.580Z
@@ -30,3 +30,7 @@ Users can filter the existing values of a 'Non-Mathesar' data type column as the
 
 ### User groups a 'Non-Mathesar' data type column
 Users can group the existing values of a 'Non-Mathesar' data type column as they would with [text string types](/design/specs/data-types-text).
+
+# Review Notes
+## Adjust size of cells based on content length
+As part of the implementation of data types, we need to consider how the table will display content such as a JSON document or other longer content formats.
