@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-08-23T13:08:50.496Z
+date: 2021-08-25T08:30:28.799Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -12,6 +12,8 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
+- [Boolean Data Type](/design/specs/boolean-data-type)
+- [Money Data Type](/design/specs/money-data-type)
 - [URL Data Type](/design/specs/url-data-type)
 - [Email Data Type](/design/specs/email-data-type)
 - [Number Data Type](/design/specs/number-data-type)
