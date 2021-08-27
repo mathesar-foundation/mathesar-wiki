@@ -2,7 +2,7 @@
 title: Create, Edit, Delete Views
 description: 
 published: true
-date: 2021-08-27T08:38:06.248Z
+date: 2021-08-27T08:38:42.452Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T08:38:06.248Z
@@ -17,7 +17,7 @@ A view is a database object based on one or more database tables and contains no
 # User Experience
 ## Scenarios
 ### A user creates a view from scratch.
-A user can create a view from scratch by clicking on the 'Add View' button. Since views require a table to be selected, a 'New View' dialog will be presented to the user. From here they can name the view, select a table and one or multiple columns. 
+A user can create a view from scratch by clicking on the 'Add View' button. Since views require a table to be selected, a 'New View' dialog will be presented to the user. From here, they can name the view, select a table and one or multiple columns. 
 
 ### A user creates a view from an open table.
 When working on a table, a user might want to create a view to retain applied filters or sorts or add columns from other tables. To do so, the user can click on the 'Save as View' button on the table's toolbar, which will automatically create a view and open it.
@@ -38,7 +38,3 @@ A user might want to navigate to or modify the tables that are referenced in a v
 
 ### A user can see the query that generated a view.
 For some views that were created through complex queries, we might not allow editing. Still, users can see the query that generated them by clicking on the 'Open View Query' in the 'View Options' menu.
-
-
-
-
