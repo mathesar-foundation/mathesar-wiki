@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2021-07-17T14:46:07.788Z
+date: 2021-08-27T09:55:00.850Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -32,6 +32,8 @@ A list of our public rooms:
 | Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
 | Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
 | GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
+
+You can also join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org) which contains all these rooms.
 
 ## GitHub Discussions
 
