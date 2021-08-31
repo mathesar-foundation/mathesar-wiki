@@ -1,8 +1,8 @@
 ---
-title: Global Data Type Components Specs
+title: Global Data Type Components
 description: 
 published: true
-date: 2021-08-31T09:58:11.359Z
+date: 2021-08-31T11:08:13.526Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
