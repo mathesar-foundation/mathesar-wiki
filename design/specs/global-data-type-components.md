@@ -1,0 +1,51 @@
+---
+title: Global Data Type Components Specs
+description: 
+published: true
+date: 2021-08-31T08:38:10.315Z
+tags: 
+editor: markdown
+dateCreated: 2021-08-31T08:38:10.315Z
+---
+
+# Context
+Data types are attributes associated with data that help to interpret their values. They also define the operations that the users can do and the data that can be stored. Users must have a consistent experience when manipulating different data types within Mathesar. This document goes over the design elements common to all data types and those particular to one or some data types.
+
+## Global Components
+
+### Data Type Options Menu
+The data type options menu contains all of the configurations for a data type. These settings include database and display options. Most options are exclusive to each data type, except for setting a default value. 
+[Data Type Options Menu Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39549&viewport=324%2C48%2C0.29&scaling=contain&starting-point-node-id=4270%3A39549&show-proto-sidebar=1)
+
+#### Database Options
+Database options are those that define how the data is stored in the database. Users cannot always undo changes made to database options once they have applied them. Warnings need to be displayed to users to prevent data from being lost.
+
+#### Display Options
+Display options change how the data is presented in the columns and can be changed without affecting the underlying data.
+
+#### Set default value
+The Set Default Value field in all database options should allow data input using the same specialized input components available for the table interface. 
+
+### Data Type Filters, Groups, and Sorts
+Filtering, grouping, and sorting operators and fields will be different according to each data type. Some options, like grouping by range, will only be available for number-based types, such as Number, Money, and Duration. 
+
+[Filter, group and sort prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4612%3A39411&node-id=4612%3A39412&viewport=324%2C48%2C0.23&scaling=contain&starting-point-node-id=4612%3A39412&show-proto-sidebar=1)
+
+
+## Specialized Components
+When a data type is set for a column, additional functionality might be present at the field level to facilitate data input in the correct format. 
+
+### Date/Time Picker
+For date and time input, a specialized component will be available so that users can enter dates using a calendar-like interface and unit-specific inputs with increment controls for time.
+
+### Boolean Dropdown and Checkbox
+For boolean values input, a specialized component will be available according to the display options set by the user. In the case of dropdown, clicking on the cell will display a menu with options for TRUE, FALSE, or NULL. Users will be able to copy and paste the values from the dropdown as true or false, but not the custom labels if enabled. 
+
+### Currency Formatting
+For currency values input, the formatting will be automatically added after a value has been entered. For example, if the user enters 10000 and the currency locale settings are set to US dollars, the displayed value will be $10,000.00. 
+
+### Long Text Detection and cell size adjustment
+The cell input control will be automatically resized when active if a value exceeds a specific length for text values input. This adjustment will allow users to view the contents of a cell that has multi-line text. When inactive, the overflowing content should be indicated by adding an ellipsis icon in the cell.
+
+### Alignment for Number Types
+Contents of number type cells (number, duration, money) should be right-aligned for easier reading and data comparison.
