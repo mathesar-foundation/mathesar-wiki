@@ -2,7 +2,7 @@
 title: Global Data Type Components Specs
 description: 
 published: true
-date: 2021-08-31T08:44:16.350Z
+date: 2021-08-31T08:46:22.023Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
@@ -43,6 +43,9 @@ For boolean values input, a specialized component will be available according to
 
 ### Currency Formatting
 For currency values input, the formatting will be automatically added after a value has been entered. For example, if the user enters 10000 and the currency locale settings are set to US dollars, the displayed value will be $10,000.00. 
+
+### Percentage Formatting
+For number values input, the percentaeg formatting will be automatically added after a value has been entered. For example, if the user enters 0.20 and the number format settings are set to percentage, the displayed value will be 20%. 
 
 ### Long Text Detection and cell size adjustment
 The cell input control will be automatically resized when active if a value exceeds a specific length for text values input. This adjustment will allow users to view the contents of a cell that has multi-line text. When inactive, the overflowing content should be indicated by adding an ellipsis icon in the cell.
