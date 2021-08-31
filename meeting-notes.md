@@ -2,7 +2,7 @@
 title: Meeting Notes
 description: 
 published: true
-date: 2021-08-31T14:52:01.302Z
+date: 2021-08-31T14:55:22.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-23T10:53:59.841Z
@@ -17,4 +17,3 @@ In addition to meetings, we do daily standups asynchronously on Matrix on [`#sta
 - [June 2021](/meeting-notes/june-2021)
 - [May 2021](/meeting-notes/may-2021)
 - [April 2021](/meeting-notes/april-2021)
-
