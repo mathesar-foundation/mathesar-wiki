@@ -2,7 +2,7 @@
 title: Global Data Type Components Specs
 description: 
 published: true
-date: 2021-08-31T09:51:27.498Z
+date: 2021-08-31T09:52:55.437Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
@@ -18,6 +18,8 @@ It is part of Mathesar's future strategy to offer data modeling recommendations 
 
 ### Data Type Options Menu
 The data type options menu contains all of the configurations for a data type. These settings include database and display options. Most options are exclusive to each data type, except for setting a default value. 
+
+#### Prototype
 [Data Type Options Menu Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39549&viewport=324%2C48%2C0.29&scaling=contain&starting-point-node-id=4270%3A39549&show-proto-sidebar=1)
 
 #### Database Options
@@ -32,7 +34,10 @@ The Set Default Value field in all database options should allow data input usin
 ### Data Type Filters, Groups, and Sorts
 Filtering, grouping, and sorting operators and fields will be different according to each data type. Some options, like grouping by range, will only be available for number-based types, such as Number, Money, and Duration. 
 
+#### Prototype
 [Filter, group and sort prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4612%3A39411&node-id=4612%3A39412&viewport=324%2C48%2C0.23&scaling=contain&starting-point-node-id=4612%3A39412&show-proto-sidebar=1)
+
+
 
 #### Range by Time Unit Selector for Duration Types
 Group by range in duration types will allow users to select a unit measure to create ranges with increments such as '5 years,'15 minutes', etc. 
