@@ -2,10 +2,10 @@
 title: Common Issues
 description: How to fix common issues with the code
 published: true
-date: 2021-08-11T11:30:15.702Z
+date: 2021-08-31T11:34:49.699Z
 tags: 
 editor: markdown
-dateCreated: 2021-08-11T11:15:44.809Z
+dateCreated: 2021-08-31T11:34:49.699Z
 ---
 
 # npm audit Failures
