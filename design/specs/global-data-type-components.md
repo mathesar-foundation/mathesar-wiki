@@ -2,14 +2,14 @@
 title: Global Data Type Components Specs
 description: 
 published: true
-date: 2021-08-31T09:19:34.603Z
+date: 2021-08-31T09:28:52.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
 ---
 
 # Context
-Data types are data attributes that help to interpret their values and define the operations that the users can do and the values that can be stored.
+Data types are data attributes that help to interpret their values and define the operations that the users can do and the values that can be stored. In the context of Mathesar, functionality and options will vary according to selected data types. 
 
 ## Design Consistency Across All Data Types
 It is part of Mathesar's future strategy to offer data modeling recommendations based on data types. This goal will be dependent on the user's adoption and understanding of data type functionality. For this reason, users must have a consistent experience when manipulating different data types within Mathesar. This document goes over the design elements and components common across data types to ensure cohesive design implementation.
@@ -39,7 +39,6 @@ Group by range in duration types will allow users to select a unit measure to cr
 
 #### Natural Language (date literals) Support for Date/Time Filters
 Filter operators for Date/Time will allow natural language values such as 'Today,' 'Yesterday,' 'Last Month.' 
-
 
 ## Specialized Components
 When a data type is set for a column, additional functionality might be present at the field level to facilitate data input in the correct format. 
