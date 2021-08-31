@@ -2,14 +2,16 @@
 title: Global Data Type Components Specs
 description: 
 published: true
-date: 2021-08-31T09:17:14.533Z
+date: 2021-08-31T09:18:37.093Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
 ---
 
 # Context
-Data types are data attributes that help to interpret their values. They also define the operations that the users can do and the data that can be stored. It is part of Mathesar's future strategy to offer data modeling recommendations based on data types. This goal will be dependent on the user's adoption and understanding of data type functionality. For this reason, users must have a consistent experience when manipulating different data types within Mathesar. This document goes over the design elements and components common across data types to ensure cohesive design implementation.
+Data types are data attributes that help to interpret their values and define the operations that the users can do and the values that can be stored.
+
+It is part of Mathesar's future strategy to offer data modeling recommendations based on data types. This goal will be dependent on the user's adoption and understanding of data type functionality. For this reason, users must have a consistent experience when manipulating different data types within Mathesar. This document goes over the design elements and components common across data types to ensure cohesive design implementation.
 
 ## Global Components
 
