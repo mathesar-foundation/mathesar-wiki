@@ -2,7 +2,7 @@
 title: Global Data Type Components Specs
 description: 
 published: true
-date: 2021-08-31T09:28:52.514Z
+date: 2021-08-31T09:51:27.498Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
