@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-08-11T11:19:04.857Z
+date: 2021-08-31T15:50:14.766Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -24,6 +24,7 @@ We welcome new contributors! Please see [Contributing to Mathesar](/community/co
 
 # Process
 - [:white_check_mark: Code Review *Code review guidelines*](/engineering/code-review)
+- [:hospital: Issue Triage *How to triage new issues*](/engineering/issue-triage)
 - [:bangbang: Common Issues *How to fix common issues in the code*](/engineering/common-issues)
 {.links-list}
 
