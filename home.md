@@ -2,13 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2021-07-16T17:39:02.390Z
+date: 2021-09-01T14:30:31.718Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-> We're hiring a frontend engineer and a part-time backend engineer. See [Jobs](/jobs) for more information.
+> We're hiring a frontend engineer. See [Jobs](/jobs) for more information.
 {.is-success}
 
 
