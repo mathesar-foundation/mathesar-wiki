@@ -2,7 +2,7 @@
 title: Create, Edit, Delete Views
 description: 
 published: true
-date: 2021-08-27T08:38:42.452Z
+date: 2021-09-02T07:37:50.628Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T08:38:06.248Z
@@ -20,8 +20,12 @@ A view is a database object based on one or more database tables and contains no
 A user can create a view from scratch by clicking on the 'Add View' button. Since views require a table to be selected, a 'New View' dialog will be presented to the user. From here, they can name the view, select a table and one or multiple columns. 
 
 ### A user creates a view from an open table.
-When working on a table, a user might want to create a view to retain applied filters or sorts or add columns from other tables. To do so, the user can click on the 'Save as View' button on the table's toolbar, which will automatically create a view and open it.
+A user might want to create a view to retain applied filters or sorts or add columns from other tables when working on a table. To do so, the user can click on the 'Save as View' button on the table's toolbar, which will automatically create a view and open it.
  
+#### Views from filtered tables
+A user might want to preserve a particular combination of views, sorts, and groupings as a view, in which case they can create a view after applying the filtering, sorting, or grouping parameters or do so from the view and then proceed to save the view. 
+[Prototype for creating view from filtered table](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4156%3A34396&node-id=4800%3A54681&viewport=324%2C48%2C0.79&scaling=contain&starting-point-node-id=4800%3A54681&show-proto-sidebar=1)
+
 ### A user adds new columns to a view.
 Once in the view, a user might want to add additional columns. For this purpose, the same 'Add Column' control used in tables will be available. However, in the context of views, it will display a menu to select columns from available tables. 
 Available tables will be those that have a foreign key relationship with the already selected tables. Otherwise, they will not be listed. 
