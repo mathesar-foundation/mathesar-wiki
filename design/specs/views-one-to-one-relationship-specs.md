@@ -2,7 +2,7 @@
 title: One-to-one Relationship Specs
 description: 
 published: true
-date: 2021-08-24T09:44:14.919Z
+date: 2021-09-02T06:00:54.201Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
@@ -29,7 +29,7 @@ A user can set a column to reference another table's data by selecting the optio
 A user can reference any table where a primary key is set as long as they are in the same schema. The table selector displays not only the table name but also the primary key column for reference.
 
 ### A user enters data into a linked column. 
-Once the linked column has been successfully set, the user can begin to enter data. The values of the related fields must match exactly any of the values specified in the referenced table's primary key.
+Once the linked column has been successfully set up, the user can begin to enter data. The values of the related fields must match exactly any of the values specified in the referenced table's lookup field.
 
 ### A user deletes a linked record in the reference table.
 Records from a referenced table that have been linked in other tables can be deleted as long as the user unchecks the 'Allow Orphan Records' option while setting up the table relation. While there are reasons why a user might choose to do this, the default should remain to restrict the record's deletion. A warning would display, indicating that the user must first remove the record's key reference from the other table.
@@ -39,3 +39,6 @@ If users decide that they no longer want to reference a table from a column, the
 
 ### A user sees a list of table constraints
 Table constraints need to reflect all applied constraints accurately. For that reason, every time a column is linked to another table, the system will add the foreign key constraint to the list. These constraints will be read-only.
+
+### A user changes the default lookup field for a table
+For every table created within Mathesar, a lookup field is assigned by default. The default value will be assigned based on the column's position, with the first column after the ID column set as default. A user, for any reason, might want to change this, in which case they can select another lookup field by accessing the 'Set Lookup Field' menu item from the 'Table Actions' menu.
