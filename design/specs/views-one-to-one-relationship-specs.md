@@ -2,7 +2,7 @@
 title: One-to-one Relationship Specs
 description: 
 published: true
-date: 2021-09-02T06:00:54.201Z
+date: 2021-09-02T07:32:21.700Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
