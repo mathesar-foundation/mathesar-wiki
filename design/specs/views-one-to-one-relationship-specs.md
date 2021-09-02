@@ -1,8 +1,8 @@
 ---
-title: One-to-one Relationship Specs
+title: One-to-Many Relationships
 description: 
 published: true
-date: 2021-09-02T07:32:21.700Z
+date: 2021-09-02T21:07:43.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
