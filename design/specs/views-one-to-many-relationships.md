@@ -2,7 +2,7 @@
 title: One-to-Many Relationships
 description: 
 published: true
-date: 2021-09-02T21:07:43.514Z
+date: 2021-09-02T21:09:16.391Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
@@ -18,7 +18,7 @@ Ideally, users will want to relate a table to another, and throughout the proces
 Because Mathesar seeks to maintain access and visibility of all the tables in the database, there might be some friction in how users familiarize themselves with the concept of related tables at first. They will have to use views to reference other table's data to be more compatible with the spreadsheet standard.
 
 # Prototype
-[One-to-one Relationship Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4218%3A36833&node-id=4218%3A37265&viewport=324%2C48%2C0.44&scaling=contain&starting-point-node-id=4218%3A37265)
+[One-to-Many Relationship Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4218%3A36833&node-id=4218%3A37265&viewport=324%2C48%2C0.44&scaling=contain&starting-point-node-id=4218%3A37265)
 
 # User Experience
 ## Scenarios
