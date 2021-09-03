@@ -2,7 +2,7 @@
 title: Viewing a View
 description: 
 published: true
-date: 2021-09-03T09:04:39.016Z
+date: 2021-09-03T09:18:39.351Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-03T09:04:39.016Z
@@ -16,6 +16,11 @@ An optimal design solution would make table associations in the context of views
 ## Scenarios
 ### A user understands that columns in a view are referenced
 Because views look exactly like tables, users who are new to views might have difficulty understanding why they can't edit something or why some fields might be missing from the referenced table or present from other tables.
+
+> Note that at this point, users can only select other columns and add them to the view without performing aggregations or data transformations. The design, as it is currently described, does not contemplate those scenarios.  
+{.is-warning}
+
+
 #### Using Color
 The icons at the column header label could show the different referenced fields present in a given view by identifying them by colors. These interface elements could help users understand how many tables are referenced and which fields belong to the same table.
 
