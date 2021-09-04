@@ -12,6 +12,7 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
+- [Global Data Types](/design/specs/global-data-type-components)
 - [Non-Mathesar Data Types](/design/specs/non-mathesar-data-types)
 - [Boolean Data Type](/design/specs/boolean-data-type)
 - [Money Data Type](/design/specs/money-data-type)
