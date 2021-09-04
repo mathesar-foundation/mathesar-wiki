@@ -38,3 +38,6 @@ Users can group 'duration' data types columns by different duration units such a
 [Group by Ranges Control](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4154%3A34308&node-id=4154%3A34363&viewport=324%2C48%2C0.51&scaling=min-zoom)
 
 # Review Notes
+### Duration Range Controls
+A control to define range duration is introduced as part of this spec. It consists of two select input controls that define both the minimum and maximum time units in which the system will represent duration. So, for example, given a duration of 5400 seconds, where the maximum is hours, and the minimum is minutes, the system will represent the value in the cell as '1h 30m'. If the maximum is also set to hours, then 1.5h should show, allowing users to select single unit formats.
+Both the minimum and maximum fields will allow values depending on the state of the other. So, for example, if a minimum is set to hours, then a maximum value of minutes cannot be allowed.

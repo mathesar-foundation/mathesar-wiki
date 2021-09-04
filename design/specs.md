@@ -14,6 +14,8 @@ These are specs for new features, corresponding to our [development milestones](
 
 - [Global Data Types](/design/specs/global-data-type-components)
 - [Non-Mathesar Data Types](/design/specs/non-mathesar-data-types)
+- [Duration Data Type](/design/specs/data-type-duration)
+- [Date/Time Data Type](/design/specs/date-time-data-type)
 - [Boolean Data Type](/design/specs/boolean-data-type)
 - [Money Data Type](/design/specs/money-data-type)
 - [URL Data Type](/design/specs/url-data-type)
