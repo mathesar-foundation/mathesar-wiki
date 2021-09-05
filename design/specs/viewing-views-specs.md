@@ -2,7 +2,7 @@
 title: Viewing a View
 description: 
 published: true
-date: 2021-09-03T09:18:39.351Z
+date: 2021-09-05T08:57:28.838Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-03T09:04:39.016Z
@@ -11,6 +11,9 @@ dateCreated: 2021-09-03T09:04:39.016Z
 # Context
 Views can help users make sense of the data they have in tables and the references between them. However, when coming from the context of spreadsheet-like interfaces, a user might experience some difficulties incorporating views into their process.
 An optimal design solution would make table associations in the context of views easy to understand and modify if needed. 
+
+# Prototype
+[Prototype for Viewing Views](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4816%3A56910&node-id=4816%3A57282&viewport=324%2C48%2C0.2&scaling=scale-down-width&starting-point-node-id=4816%3A57282)
 
 # User Experience
 ## Scenarios
