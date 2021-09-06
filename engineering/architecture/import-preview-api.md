@@ -2,11 +2,14 @@
 title: Import Preview API
 description: Spec for API to preview an imported CSV as a typed table
 published: true
-date: 2021-07-13T16:29:54.626Z
+date: 2021-09-06T16:44:49.208Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-02T15:26:50.560Z
 ---
+
+> This spec is accurate as of 2021-09-06, but we will not be updating it in the future.
+{.is-warning}
 
 Relevant issues are:
 
@@ -16,11 +19,11 @@ As specified in the table import [design spec](/design/specs/table-import), we n
 
 ## Changing whether the first row is a header
 
-In order to change whether the first row of the CSV is used as a header or not, we will need to reimport the table.  This will be accomplished by adding a boolean parameter to the `PUT` request that creates a table from a `DataFile` that gives whether to use the first row as headers.
+In order to change whether the first row of the CSV is used as a header or not, we will need update the data file and recreate the table from it. This is accomplished by changing the `header` parameter of the data file resource via a `PATCH` request. This controls whether to use the first row as headers.
 
 ## Possible type alterations for a column
 
-The `columns` endpoint will now include the possible targets for type alteration of that column.  For example, a string can be altered to any type.  An integer, however, can't be altered to an email type.  Possible target types will be determined _only_ by the current type of the column, and not the data it contains.
+The `columns` endpoint will now include the possible targets for type alteration of that column.  For example, a string can be altered to any type.  An integer, however, can't be altered to an email type. At the moment, possible target types will be determined _only_ by the current type of the column, and not the data it contains.
 
 ## Preview Endpoint behavior
 
@@ -86,10 +89,14 @@ This would set the columns in the preview to have the specified names and types.
 - we alter the type of the 2nd column, and
 - we alter both the name and type of the 3rd column.
 
-## Implementation of Preview
+### Implementation of Preview
 
 Because we eventually want to do type inference in a temporary table, we'll avoid using the table resulting from the current process in the preview action.  Instead, the implementation will simply put together a select with casts (using the custom casting functions defined by the Mathesar installation) and aliases.
 
 ## Saving changes
 
-The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being as in the `previews` request.  Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed)
+The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being the same as the `previews` request.  
+
+Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed).
+
+Please note that both name and columns cannot be changed in the same request at the moment.
