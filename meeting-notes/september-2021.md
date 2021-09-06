@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-09-01T12:10:46.346Z
 ---
 
-# 2021-09-03
+# 2021-09-06
 
 **Meeting topic**: "State of Mathesar", part 2 - progress so far and next steps.  
 **Attendees**: Brent, Ghislaine, Kriti, Pavish
@@ -17,14 +17,32 @@ Please see the previous meeting's notes below to get full context for this meeti
 
 ## Process Retrospective
 
-### Product process
-*Notes will be added after the meeting.*
+### Product definition
+Current process: Kriti making tickets
 
-### Design process
-*Notes will be added after the meeting.*
+####  Issues
 
-Topics brought up at the previous meeting:
+- Lots of tickets, huge volume
+- Can't hash out the details ahead of time
+    - e.g. money type ticket had potentially forseeable issues, but only with serious time investment
+    - Missing details
+    - Interdependencies
+- Not enough frontend tickets
+    - Tickets are for entire features
+    - More frontend tickets will be created after milestone 5
+- It's probably not worth the time to look through all tickets in detail ahead of time.
+    - We need a different process for re-making a ticket once we start working on it and realize the issues with it.
+    - We can't spend an hour per ticket ahead of time, too many tickets.
+- Design tickets have the same issue with missing details and interdependencies, but it's assumed at the design-level tickets
+- Issues open for community contributors (e.g. marked help wanted) need to be fully detailed.
 
+#### New Process
+- Kriti will continue making tickets
+- Hash out problems with Kriti as soon as they show up when you're implementing it.
+    - Ad hoc calls or back and forth on the ticket.
+- Set up a new column in the Active project to put blocked tickets in, that way async communication can also happen and people can move on to other tickets.
+
+### Design work
 - We're focusing on designing features, not about how to guide non-technical users through the designs.
     - Do we need to complete the features first before guiding the users first?
         - We can't guide users until the product is fully finished.
@@ -32,25 +50,141 @@ Topics brought up at the previous meeting:
     - Two stage process:
         - Test with users and make improvements before release
         - Continue to make imporvements after release.
+- Once we have all the pieces implemented, we can think through user scenarios and we'll be thinking about things as a "user flow" rather than a feature.
+    - e.g. user may not "create a view", they'll end up with a view
+    - The good thing is that we're not doing anything too abstract right now, we do need to consider user flow when creating abstract things.
+- By the time we ship alpha or beta, we should have one global prototype.
+    - UI revamp will affect them.
 
-### Frontend
-*Notes will be added after the meeting.*
+### Design review and collaboration
+- Better notifications for design review deadlines
+    - Review cycle has been shortened to 2 days for all designs
+        - This is to match PR review cycles
+- Maybe use wiki repo PRs for design reviews?
+    - Not accessible to the community, not a good option
+- The team can manage notifications better by using the GitHub notification inbox
+- Ghislaine will post in standups that she's blocked a day ahead of time
+- GitHub discussion title - use [Draft], [In Progress], [Complete] - or use labels
+- The usual review process works well, Ghislaine and Pavish can do ad-hoc calls if needed.
+- Pretty good feedback overall
+- Mention things that are good about the design
+    - Knowing what is good/intuitive is helpful to the design process
+    - UX is something you often notice only when it's missing / pissing you off
+- Currently not catching "global" flows (i.e., creating a table vs. view might confuse in combination)
 
-### Backend 
-*Notes will be added after the meeting.*
+### Frontend development
+- Need to flesh out frontend tickets
+    - APIs and design changes needed for the ticket
+- Having parallel file imports took a week, we probably didn't need it.
+    - Figure issues out ahead of time
+- When starting a milestone, figure out everything for all the issues in that milestone and get it sorted before started on the milestone
+    - After milestone 5, we have everything we need for milestone 5 (current milestone)
+- Sync design with frontend
+    - Staging needs to be up, hopefully next week
 
-Topics brought up at the previous meeting:
-
+### Backend development
 - How to take a better approach to iteration?
+    - Previous discussion about product planning process covers this.
+    - e.g. money type - currently, inference will be fairly naive. we can pull some parts out of current tickets because cost/benefit is not worth it.
+- Documentation of the API is a shambles
+    - Wiki vs. navigatable API
+    - Separate tickets to update the docs so that it doesn't slip through the cracks
+- Refactoring (ongoing) will be helpful
+    - Weird global variables like engines and connections to deal with
 
 ### Frontend & backend collaboration
-*Notes will be added after the meeting.*
+- For all new frontend tickets, the APIs that are involved should be documented
+    - (already discussed)
+- API PRs that involve new formats or make changes (e.g. Colin's recent PR), tag Pavish for review
+- Eventually: contract testing APIs might be useful for async collaboration
+    - not right now
+    - https://pactflow.io/blog/what-is-contract-testing/
+- Mentioned previously: frontend should look at APIs before starting a new milestone
 
-### Weekly planning
-*Notes will be added after the meeting.*
+### Work planning
+- This involves:
+    - Standups
+    - GitHub workflow (labels, milestones, projects, etc.)
+    - Weekly planning
+- Discussion:
+    - Working well
+    - More back and forth on standups?
+        - Do we need to repeat what's in GitHub on standups?
+        - Maybe it should be more focused on blockers
+    - Status report type standups may also be useful for community
+        - Useful for Kriti to see work that's not been prioritized
+- New standup format:
+    - Completed (since last standup)
+    - Active (actively worked on, not everything in queue)
+    - Dependencies
+- [Issue triage wiki page](https://wiki.mathesar.org/en/engineering/issue-triage)
+- Weekly planning format and GitHub workflow is working very well
+
+### Communication
+- Written communication
+    - Check messages frequently
+    - for long-form, make sure to think through things before replying
+    - Explore if templates exist for discussions
+        - maybe templates for wiki pages would also be useful
+    - Respond/acknowledge with words instead of emojis so people get notified
+    - Try to over-communicate
+- Ad-hoc calls
+    - :+1: 
+
+### Hiring
+- Going well after first round interviews were divided between Kriti and Pavish
+    - Continue to not put first round interviews on a single person
+- Should we continue to have contribution task?
+    - High rate of candidate drop out due to effort
+    - Ensure all candidates have tasks with the same effort
+    - Maybe say that whatever they do in a given time frame is fine, even if it's not complete
+- Go back to previous process where we give all candidates their own repo and the same task.
+- It is worth seeing how well they work with us because a bad hire would be very bad for us at this stage.
+- Get backend engineer job up soon.
+
+### Community management
+- Some sort of mailing list or way of notifying people about designs, issues you need help with.
+- Label for community input - for discussions and issues
+- Can't spend a lot of active time on growing the community right now until alpha release comes out.
+    - Automated script for community-friendly issues to create a mailing list
+- Eventually monthly community meetings or something like that
+
+### Team events
+- Great, period between it is fine
+- Take turns organizing
 
 ## Deadline Review
-*Notes will be added after the meeting.*
+- Review of [current roadmap](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open) and update deadlines as needed.
+    - Undo/Redo
+        - High cost, high benefit
+        - would be good to have design aspects decided early
+- Deadlines currently left unchanged since it's hard to anticipate how much time we'll need in advance
+- We can't move many deadlines without cutting things, so we'll need to figure out what to cut in a month or so if we move out too many deadlines 
+
+## Action Items
+- Everyone:
+    - use new standup format
+        - Completed, Active, Dependencies
+    - post what you like about designs during design review
+    - create new tickets for documentation updates that are needed so that they don't fall through the cracks
+    - talk to Kriti ASAP if the ticket you're working on needs scope modified or design clarified.
+    - use words instead of emoji reactions to acknowledge
+- Brent:
+    - think about team event
+    - make sure to ask Pavish to review backend tickets with API changes
+- Ghislaine:
+    - use labels to mark status of GitHub Discussions for design review 
+    - post design review reminders 1 day before deadline in standup 
+    - set up a template or checklist for posting review requests
+- Kriti:
+    - add new column to Active project
+    - set up community mailing list or some other form of updates (with automation if possible)
+    - follow up on setting up staging server
+    - update hiring process for next hire to use standardized task
+    - post backend job
+- Pavish:
+    - review frontend tickets and related APIs before starting new milestones
+    - update frontend tickets with API and design changes needed before starting new milestones
 
 # 2021-09-01
 
