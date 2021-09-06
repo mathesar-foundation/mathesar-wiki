@@ -2,18 +2,18 @@
 title: Common Issues
 description: How to fix common issues with the code
 published: true
-date: 2021-09-06T06:36:25.942Z
+date: 2021-09-06T11:32:28.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T11:34:49.699Z
 ---
 
 # Hot module replacement doesn't work on windows
-If changing files on the frontend does not automatically reflect on your browser, it is due to a limitation with WSL, when working on a windows filesystem.
+Hot module replacement, currently does not work when the project is present on a windows filesystem and WSL is used to run docker. This is a known limitation of WSL.
 
 Moving the project to a linux filesystem should resolve this.
 
-This issue https://github.com/centerofci/mathesar/issues/570 keeps track of workarounds and detailed discussions on other commonly faced problems while working on windows.
+This issue https://github.com/centerofci/mathesar/issues/570 keeps track of workarounds and detailed discussions on common problems encountered while working on windows.
 
 # npm audit Failures
 
