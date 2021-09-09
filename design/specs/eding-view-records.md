@@ -2,14 +2,14 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-09T14:31:48.070Z
+date: 2021-09-09T14:37:27.224Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
 ---
 
 # Context
-Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies between them. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.
+Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.
 
 # Prototype
 [Prototype for Editing Records within a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5072%3A57556&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5072%3A57556&show-proto-sidebar=1)
@@ -45,8 +45,16 @@ Users will be able to edit records by changing the values directly from the tabl
 A user can edit a single field from the table by selecting it and changing its contents. This action will change the record, but all other fields will be left the same.
 
 #### User edits the entire record
-A user can edit all fields from a record by opening the record form. which can be accessed by 
+A user can edit all fields from a record by opening the record form, which can be accessed by clicking on the 'Edit Record' button from the view's toolbar.
+[Prototype for Edit Record Form](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A61344&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A61344&show-proto-sidebar=1)
 
 ## Scenario 2: If the view doesn't allow edit (non-updatable view)
 ### User adds, removes, or edits records that are part of a view
-If the view doesn't allow editing, the user will have to navigate to the source table and make changes there. The user can select a record's field and click on the edit button from the view toolbar, and this action will trigger a dialog where the user can choose to navigate and open the source table.
+If the view doesn't allow editing, the user will have to navigate the source table and make changes there. The user can select a record's field and click on the edit button from the view toolbar, and this action will trigger a dialog where the user can choose to navigate and open the source table.
+
+[Prototype for Non-Updatable View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A63068&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A63068&show-proto-sidebar=1)
+
+
+# Global Updates
+Some items from previous reviews for the 'Working with Views' milestone have been included in this prototype and can be accessed in the steps defined for view creation.
+[Prototype for Creating a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A66661&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A66661&show-proto-sidebar=1)
