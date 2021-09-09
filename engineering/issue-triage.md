@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-08-31T15:44:09.044Z
+date: 2021-09-09T14:11:19.603Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -55,7 +55,9 @@ All issues should have a milestone.
 
 If an issue is directly associated with a feature, put it in the milestone for that feature. Otherwise, put it in a monthly improvement milestone (named like `YYYY-MD improvements`) according to priority. More urgent issues should go in this month's milestone, otherwise put it in a milestone in the next couple of months.
 
-Do not create any new milestones.
+If you don't know what milestone to put something in, talk to Kriti.
 
-## I have another question
+**Do not create any new milestones.**
+
+## I have a question
 Talk to Kriti.
