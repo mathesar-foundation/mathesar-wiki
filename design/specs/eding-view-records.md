@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-09T14:37:27.224Z
+date: 2021-09-09T14:45:34.035Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -58,3 +58,8 @@ If the view doesn't allow editing, the user will have to navigate the source tab
 # Global Updates
 Some items from previous reviews for the 'Working with Views' milestone have been included in this prototype and can be accessed in the steps defined for view creation.
 [Prototype for Creating a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A66661&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A66661&show-proto-sidebar=1)
+
+- Add a column to view menu
+- Column options for a linked column
+- Set Up Lookup Column
+- Relationships in View List (previously referenced tables)
