@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-09T14:45:34.035Z
+date: 2021-09-09T14:45:42.541Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
