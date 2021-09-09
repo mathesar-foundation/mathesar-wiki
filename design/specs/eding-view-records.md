@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-09T08:03:57.235Z
+date: 2021-09-09T14:31:48.070Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -12,7 +12,7 @@ dateCreated: 2021-09-09T08:03:57.235Z
 Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies between them. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.
 
 # Prototype
-[Prototype for Editing Records within a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5010%3A50973&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5010%3A50973&show-proto-sidebar=1)
+[Prototype for Editing Records within a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5072%3A57556&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5072%3A57556&show-proto-sidebar=1)
 
 # User Experience
 
