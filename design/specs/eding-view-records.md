@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-09T14:45:42.541Z
+date: 2021-09-09T21:54:52.644Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -50,16 +50,20 @@ A user can edit all fields from a record by opening the record form, which can b
 
 ## Scenario 2: If the view doesn't allow edit (non-updatable view)
 ### User adds, removes, or edits records that are part of a view
-If the view doesn't allow editing, the user will have to navigate the source table and make changes there. The user can select a record's field and click on the edit button from the view toolbar, and this action will trigger a dialog where the user can choose to navigate and open the source table.
+If the view doesn't allow editing, the user will navigate to the source table and make changes there. The user can select a record's field and click on the edit button from the view toolbar, and this action will trigger a dialog where the user can choose to navigate and open the source table.
 
 [Prototype for Non-Updatable View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A63068&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A63068&show-proto-sidebar=1)
+
+# Other Interactions
+## User reorders columns in a view
+A user might want to change the order in which columns are laid out in a view and can do so by dragging and dropping the columns into place. Note that this will require saving the view. Otherwise, the system will revert the order. The system should display a warning for a user that tries to close a view with unsaved changes.
 
 
 # Global Updates
 Some items from previous reviews for the 'Working with Views' milestone have been included in this prototype and can be accessed in the steps defined for view creation.
 [Prototype for Creating a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A66661&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A66661&show-proto-sidebar=1)
 
-- Add a column to view menu
+- Add a column to view the menu
 - Column options for a linked column
 - Set Up Lookup Column
 - Relationships in View List (previously referenced tables)
