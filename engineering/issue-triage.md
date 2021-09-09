@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-09-09T14:11:19.603Z
+date: 2021-09-09T14:36:43.894Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -49,6 +49,10 @@ We have three projects:
 - [Active](https://github.com/centerofci/mathesar/projects/1): Issues that are assigned and are actively planned to be worked on in the next few days should go here.
 - [Backlog](https://github.com/centerofci/mathesar/projects/2): Most issues go here. They should go in the appropriate column according to their status, except for `type: meta` issues which go in the "Meta Issues" column.
 - [Future](https://github.com/centerofci/mathesar/projects/3): tasks under consideration for the future but not actively planned. Any issues tagged `status: future` go here.
+
+Assigning issues to the Backlog and Future projects has been automated based on labels applied so you shouldn't have to do any manual work, just verify that the issue is in the right place.
+
+All new issues end up in the Backlog, so if you put an issue in the Active project, you'll have to manually remove it from the Backlog.
 
 ### Assigning milestones
 All issues should have a milestone.
