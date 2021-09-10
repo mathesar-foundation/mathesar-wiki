@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2021-09-10T14:35:55.578Z
+date: 2021-09-10T14:39:33.722Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -41,7 +41,7 @@ Requirements:
 - Ability to work independently, build good working relationships remotely, and communicate proactively.
 - Interest in building an open source community and helping others contribute to the project.
 - Curiosity and enjoyment of learning new things.
-- Comfort with working without defined specifications and building a product collaboratively.
+- Comfort with working without defined specifications and identifying and resolving ambiguity quickly.
 
 Nice to have:
 - Experience with build/infrastructure tools like Docker and Ansible.
