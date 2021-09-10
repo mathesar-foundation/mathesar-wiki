@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2021-09-10T14:28:58.312Z
+date: 2021-09-10T14:29:18.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-20T19:00:06.658Z
 
 # Frontend Engineer #2
 
-> This job was closed on 2021-09-10
+> This job was closed to new applicants on 2021-09-10
 {.is-danger}
 
 We're looking for a frontend engineer to work on [Mathesar](https://wiki.mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
