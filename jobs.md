@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2021-09-10T14:27:44.676Z
+date: 2021-09-10T14:31:04.638Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -76,3 +76,7 @@ You are also welcome to [join our community](https://wiki.mathesar.org/community
 ## Equal Employment Opportunity Policy
 
 The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer. CCI complies with and adheres to all United States state and federal anti-discrimination laws with respect to its employment practices. CCI does not discriminate against any employee or applicant for employment on the basis of race, color, religion, gender, sexual orientation, gender identity and expression, national origin or ancestry, age, or disability or any other category protected under state or federal law. This policy extends to recruiting, hiring, compensation, benefits, assignment, working conditions, termination, re-employment, employee treatment, and all other terms, conditions and privileges of employment. All employment-related decisions are made on a nondiscriminatory basis so as to further the principle of equal employment opportunity.
+
+# Closed Jobs
+
+Job descriptions for filled positions are in the [Archive > Jobs](/archive/jobs) page.
