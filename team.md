@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-07-21T20:12:07.716Z
+date: 2021-09-10T17:45:38.121Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -29,6 +29,7 @@ The **community team** contributes to Mathesar's design and development and has 
 | Dhruvi Butti | `@dhruvi16:matrix.org` | `@Dhruvi16` | Design |
 | Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) |
 | Colin Powell | `@secstate:matrix.unbl.ink` | `@powellc` | Engineering (backend) |
+| Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
 
  If you've contributed to Mathesar and are interested in joining the community team, please let us know.
  
