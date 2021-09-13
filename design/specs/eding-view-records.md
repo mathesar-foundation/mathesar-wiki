@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-10T10:29:25.704Z
+date: 2021-09-13T07:15:57.956Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -58,7 +58,7 @@ If the view doesn't allow editing, the user will navigate to the source table an
 ## User reorders columns in a view
 A user might want to change the order in which columns are laid out in a view and can do so by dragging and dropping the columns into place. Note that this will require saving the view. Otherwise, the system will revert the order. The system should display a warning for a user that tries to close a view with unsaved changes.
 
-When being dragged, the column will indicate it's new placement visually as represented in the following example:
+When being dragged, the column will indicate its new placement visually, as represented in the following example:
 [Visual indicator of new column placement](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=5182%3A54399&node-id=5182%3A54896&viewport=273%2C48%2C0.68&scaling=min-zoom)
 
 
