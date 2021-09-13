@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2021-09-10T14:29:18.599Z
+date: 2021-09-13T11:03:36.290Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -67,7 +67,7 @@ US employees have the following benefits:
 - 401(k)
 
 ## How to Apply
-Please fill out [this application form](https://airtable.com/shrvNKkiDJmoQFvR3).
+~~Please fill out this application form.~~
 
 You are also welcome to [join our community](https://wiki.mathesar.org/community) and ask any questions you might have or [contribute to the project](https://wiki.mathesar.org/community/contributing).
 
