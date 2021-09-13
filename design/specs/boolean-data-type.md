@@ -2,7 +2,7 @@
 title: Boolean Data Type
 description: 
 published: true
-date: 2021-08-24T19:17:07.241Z
+date: 2021-09-13T20:55:04.005Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-12T09:27:03.181Z
@@ -15,7 +15,7 @@ Boolean data types are used to store TRUE or FALSE values.
 > This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 {.is-warning}
 
-[Boolean Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A40031&viewport=324%2C48%2C0.47&scaling=min-zoom&starting-point-node-id=4270%3A40031)
+[Boolean Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A40031&viewport=324%2C48%2C0.35&scaling=min-zoom&starting-point-node-id=4270%3A40031&show-proto-sidebar=1)
 
 # User Experience
 ## Scenarios
