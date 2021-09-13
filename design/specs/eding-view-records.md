@@ -2,79 +2,72 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-13T07:44:25.821Z
+date: 2021-09-13T14:50:52.912Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
 ---
 
 # Context
-Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.
+Data types are data attributes that help to interpret their values and define the operations that the users can do and the values that the database can store. In the context of Mathesar, functionality and options will vary according to selected data types. 
 
-# Prototype
-[Prototype for Editing Records within a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5072%3A57556&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5072%3A57556&show-proto-sidebar=1)
+## Design Consistency Across All Data Types
+It is part of Mathesar's future strategy to offer data modeling recommendations based on data types. This goal will be dependent on the user's adoption and understanding of data type functionality. For this reason, users must have a consistent experience when manipulating different data types within Mathesar. This document goes over the design elements and components common across data types to ensure cohesive design implementation.
 
-# User Experience
+## Global Components
 
-## Scenario 1: If the view allows editing (updatable view)
-### User adds a record
-Users will be able to add records directly from views. However, they might need to add multiple records across more than one table, depending on how the view is structured. For that reason, some of the constraints applied to the referenced tables might influence the interactions. 
+### Data Type Options Menu
+The data type options menu contains all of the configurations for a data type. These settings include database and display options. Most options are exclusive to each data type, except for setting a default value. 
 
-For convenience, users can add values to the fields of a new record directly in the table. However, a record form will also be available, allowing users to edit the complete record, as it exists in the referenced table.
+#### Prototype
+[Data Type Options Menu Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A39549&viewport=324%2C48%2C0.29&scaling=contain&starting-point-node-id=4270%3A39549&show-proto-sidebar=1)
 
-#### The record table allows empty values for all fields
-If the table allows for empty values, the user can leave it blank or enter a value. Doing so will not prevent the new record from being saved.
+#### Database Options
+Database options are those that define how the data is stored in the database. Users cannot always undo changes made to database options once they have applied them. Warnings need to be displayed to users to prevent data from being lost.
 
-#### The record table does not allow an empty value for some of the fields
-If the table has fields that aren't in the view but can't be empty, the user will have to fill those out. Otherwise, the system cannot save the new record. For such cases, the record form will show and indicate to the user which fields cannot be empty.
+#### Display Options
+Display options change how the data is presented in the columns and can be changed without affecting the underlying data.
 
-### User removes a record
-A user will be able to remove a record from a view. This action might affect the underlying tables and their relations, for example, if the deleted record is referenced via a foreign key in other tables.
-Warnings are needed for such cases to inform the user about the potential conflicts that removing records might cause.
+#### Set default value
+The Set Default Value field in all database options should allow data input using the same specialized input components available for the table interface. 
 
-#### The record was linked as a foreign key
-If the deleted record was linked to other tables or views, the user could still delete it, but the system must display a warning with a list of those affected objects.
+### Data Type Filters, Groups, and Sorts
+Filtering, grouping, and sorting operators and fields will be different according to each data type. Some options, like grouping by range, will only be available for number-based types, such as Number, Money, and Duration. 
 
-#### The record was not linked as a foreign key
-If the deleted record was not linked to other tables or views, the user should delete it without warnings.
-
-### User edits a record
-Users will be able to edit records by changing the values directly from the table. The input control will depend on the data type of the referenced column. 
-
-#### User edits the selected field from the record
-A user can edit a single field from the table by selecting it and changing its contents. This action will change the record, but all other fields will be left the same.
-
-#### User edits the entire record
-A user can edit all fields from a record by opening the record form, which can be accessed by clicking on the 'Edit Record' button from the view's toolbar.
-[Prototype for Edit Record Form](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A61344&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A61344&show-proto-sidebar=1)
-
-## Scenario 2: If the view doesn't allow edit (non-updatable view)
-### User adds, removes, or edits records that are part of a view
-If the view doesn't allow editing, the user will navigate to the source table and make changes there. The user can select a record's field and click on the edit button from the view toolbar, and this action will trigger a dialog where the user can choose to navigate and open the source table.
-
-[Prototype for Non-Updatable View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A63068&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A63068&show-proto-sidebar=1)
-
-# Other Interactions
-## User reorders columns in a view
-A user might want to change the order in which columns are laid out in a view and can do so by dragging and dropping the columns into place. Note that this will require saving the view. Otherwise, the system will revert the order. The system should display a warning for a user that tries to close a view with unsaved changes.
-
-When being dragged, the column will indicate its new placement visually, as represented in the following example:
-[Visual indicator of new column placement](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=5182%3A54399&node-id=5182%3A54896&viewport=273%2C48%2C0.68&scaling=min-zoom)
+#### Prototype
+[Filter, group and sort prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4612%3A39411&node-id=4612%3A39412&viewport=324%2C48%2C0.23&scaling=contain&starting-point-node-id=4612%3A39412&show-proto-sidebar=1)
 
 
-# Global Updates
-Some items from previous reviews for the 'Working with Views' milestone have been included in this prototype and can be accessed in the steps defined for view creation.
-[Prototype for Creating a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A66661&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A66661&show-proto-sidebar=1)
 
-## Scenarios
-### User adds a column
-The user adds a column to a view by accessing the 'New Column' menu from the view table. The user can choose to select a column from a view or a table from the menu. 
+#### Range by Time Unit Selector for Duration Types
+Group by range in duration types will allow users to select a unit measure to create ranges with increments such as '5 years,'15 minutes', etc. 
 
-### User views details for a linked column in a table (foreign key)
-The user might want to view column details for a foreign key column in a table. To do so, they can open the column header menu, which will contain the referenced table, the primary key field from that table, the lookup field, and a link to the referenced table.
+#### Natural Language (date literals) Support for Date/Time Filters
+Filter operators for Date/Time will allow natural language values such as 'Today,' 'Yesterday,' 'Last Month.' 
 
-### User selects a lookup column for a table
-The user might want to use another column as a lookup rather than the default assigned by the system. To do so, they can access the 'Set Lookup Column' from the table options menu in the table toolbar. 
+## Specialized Components
+When a data type is set for a column, additional functionality might be present at the field level to facilitate data input in the correct format. 
 
-### User sees a list of referenced tables for a view
-The user might want to see a list of all tables that are referenced in a particular view. To do so, they can open the view options menu and select the 'Relationships' option.
+### Date/Time Picker
+For date and time input, a specialized component will be available so that users can enter dates using a calendar-like interface and unit-specific inputs with increment controls for time.
+
+### Boolean Dropdown and Checkbox
+For boolean values input, a specialized component will be available according to the display options set by the user. In the case of dropdown, clicking on the cell will display a menu with options for TRUE, FALSE, or NULL. Users will be able to copy and paste the values from the dropdown as true or false, but not the custom labels if enabled. 
+
+### Currency Formatting
+For currency values input, the formatting will be automatically added after a value has been entered. For example, if the user enters 10000 and the currency locale settings are set to US dollars, the displayed value will be $10,000.00. 
+
+### Percentage Formatting
+For number values input, the percentage formatting will be automatically added after a value has been entered. For example, if the user enters 0.20 and the number format settings are set to a percentage, the displayed value will be 20%. 
+
+### Long Text Detection and cell size adjustment
+The cell input control will be automatically resized when active if a value exceeds a specific length for text values input. This adjustment will allow users to view the contents of a cell that has multi-line text. When inactive, the overflowing content should be indicated by adding an ellipsis icon in the cell.
+
+### Alignment for Number Types
+Contents of number type cells (number, duration, money) should be right-aligned for easier reading and data comparison.
+
+### Font Variant for Number Types
+Number types should be displayed using a font variant that supports tabular figures (numbers are all of the same size), allowing them to be easily aligned.
+
+### Decimal Precision Settings for Money vs. Number
+In number types, decimal precision is a database setting, however in money type, it is set as a display option. 
