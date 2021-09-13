@@ -2,7 +2,7 @@
 title: Global Data Type Components
 description: 
 published: true
-date: 2021-09-06T16:31:41.393Z
+date: 2021-09-13T14:58:55.610Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T08:38:10.315Z
@@ -68,3 +68,6 @@ Contents of number type cells (number, duration, money) should be right-aligned 
 
 ### Font Variant for Number Types
 Number types should be displayed using a font variant that supports tabular figures (numbers are all of the same size), allowing them to be easily aligned.
+
+### Decimal Precision Settings for Money vs. Number
+In number types, decimal precision is a database setting and in money type it is set as a display option. 
