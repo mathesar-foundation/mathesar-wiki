@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-09-13T07:15:57.956Z
+date: 2021-09-13T07:44:25.821Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -66,7 +66,15 @@ When being dragged, the column will indicate its new placement visually, as repr
 Some items from previous reviews for the 'Working with Views' milestone have been included in this prototype and can be accessed in the steps defined for view creation.
 [Prototype for Creating a View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5118%3A66661&viewport=324%2C48%2C0.93&scaling=contain&starting-point-node-id=5118%3A66661&show-proto-sidebar=1)
 
-- Add a column to view the menu
-- Column options for a linked column
-- Set Up Lookup Column
-- Relationships in View List (previously referenced tables)
+## Scenarios
+### User adds a column
+The user adds a column to a view by accessing the 'New Column' menu from the view table. The user can choose to select a column from a view or a table from the menu. 
+
+### User views details for a linked column in a table (foreign key)
+The user might want to view column details for a foreign key column in a table. To do so, they can open the column header menu, which will contain the referenced table, the primary key field from that table, the lookup field, and a link to the referenced table.
+
+### User selects a lookup column for a table
+The user might want to use another column as a lookup rather than the default assigned by the system. To do so, they can access the 'Set Lookup Column' from the table options menu in the table toolbar. 
+
+### User sees a list of referenced tables for a view
+The user might want to see a list of all tables that are referenced in a particular view. To do so, they can open the view options menu and select the 'Relationships' option.
