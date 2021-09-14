@@ -2,7 +2,7 @@
 title: Create, Edit, Delete Views
 description: 
 published: true
-date: 2021-09-14T18:52:01.022Z
+date: 2021-09-14T18:55:44.813Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T08:38:06.248Z
