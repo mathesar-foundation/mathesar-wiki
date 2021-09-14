@@ -2,7 +2,7 @@
 title: One-to-Many Relationships
 description: 
 published: true
-date: 2021-09-02T21:09:16.391Z
+date: 2021-09-14T18:13:33.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-24T09:02:15.127Z
@@ -42,3 +42,7 @@ Table constraints need to reflect all applied constraints accurately. For that r
 
 ### A user changes the default lookup field for a table
 For every table created within Mathesar, a lookup field is assigned by default. The default value will be assigned based on the column's position, with the first column after the ID column set as default. A user, for any reason, might want to change this, in which case they can select another lookup field by accessing the 'Set Lookup Field' menu item from the 'Table Actions' menu.
+
+# Review Notes
+## Context-sensitive save indicators
+We need to address how save indicators will be displayed for users, as well as a common location to provide context.
