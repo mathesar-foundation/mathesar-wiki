@@ -2,7 +2,7 @@
 title: Create, Edit, Delete Views
 description: 
 published: true
-date: 2021-09-02T07:37:50.628Z
+date: 2021-09-14T18:52:01.022Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-27T08:38:06.248Z
@@ -24,10 +24,10 @@ A user might want to create a view to retain applied filters or sorts or add col
  
 #### Views from filtered tables
 A user might want to preserve a particular combination of views, sorts, and groupings as a view, in which case they can create a view after applying the filtering, sorting, or grouping parameters or do so from the view and then proceed to save the view. 
-[Prototype for creating view from filtered table](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4156%3A34396&node-id=4800%3A54681&viewport=324%2C48%2C0.79&scaling=contain&starting-point-node-id=4800%3A54681&show-proto-sidebar=1)
+[Prototype for creating a view from the filtered table](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4156%3A34396&node-id=4800%3A54681&viewport=324%2C48%2C0.79&scaling=contain&starting-point-node-id=4800%3A54681&show-proto-sidebar=1)
 
 ### A user adds new columns to a view.
-Once in the view, a user might want to add additional columns. For this purpose, the same 'Add Column' control used in tables will be available. However, in the context of views, it will display a menu to select columns from available tables. 
+Once in the view, a user might want to add additional columns. For this purpose, the same 'Add Column' control used in tables will be available. However, it will display a menu to select columns from available tables in the context of views. 
 Available tables will be those that have a foreign key relationship with the already selected tables. Otherwise, they will not be listed. 
 
 ### A user removes columns from a view.
@@ -41,4 +41,8 @@ As with other database objects within Mathesar, the system should provide a warn
 A user might want to navigate to or modify the tables that are referenced in a view. They should be able to do so by following the 'Go to Referenced Table' option in each column's header menu. 
 
 ### A user can see the query that generated a view.
-For some views that were created through complex queries, we might not allow editing. Still, users can see the query that generated them by clicking on the 'Open View Query' in the 'View Options' menu.
+In views created through complex queries, we might not allow editing. Still, users can see the query that generated them by clicking on the 'Open View Query' in the 'View Options' menu.
+
+# Review Notes
+## Using Color to Represent Table Relations
+The UI for views should incorporate ways to represent the different tables that make a view. Elements like color could be applied as demonstrated in the prototype. A future document will include more details in the global document once all design issues for this milestone are completed.
