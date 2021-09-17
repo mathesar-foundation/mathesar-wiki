@@ -2,7 +2,7 @@
 title: Listing and Searching Views
 description: 
 published: true
-date: 2021-09-17T08:28:58.527Z
+date: 2021-09-17T08:29:11.810Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-17T08:28:58.527Z
@@ -11,7 +11,7 @@ dateCreated: 2021-09-17T08:28:58.527Z
 # Context
 When using Mathesar, users should rely on views for most analysis tasks and tables for more structural tasks like modeling and data transformation. However, both objects are similar and share some functionality. A clear distinction needs to be made between tables and views. Views should also take a more prominent space, and users in a table context should understand that saving as a view will allow them to choose a subset of columns or combine with other tables. 
 
-#Prototype
+# Prototype
 [Prototype for Listing and Finding Views](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=5343%3A76906&node-id=5343%3A76907&viewport=338%2C48%2C0.72&scaling=contain&starting-point-node-id=5343%3A76907)
 
 # User Experience
