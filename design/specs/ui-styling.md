@@ -2,7 +2,7 @@
 title: User Interface Style
 description: 
 published: true
-date: 2021-09-22T16:02:20.699Z
+date: 2021-09-22T16:18:41.336Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-22T10:25:48.749Z
@@ -25,13 +25,14 @@ The design should employ contrast to improve the readability of interface elemen
 The contrast of the design should be based on Web Content Accessibility Guidelines. (WCAG)
 
 ## Colors
-The design should support both light and dark modes, and apply colors in a way that emphasizes important elements that assist users in:
+The design should support both light and dark modes and apply colors in a way that emphasizes important elements that assist users in:
 - Identifying type of objects (table, views)
 - Differentiating states of objects (active, default, disabled)
-- Cell, row and column positioning
+- Cell, row, and column positioning
 - Status of a task (saving, loading, adding, deleting)
 
 ### Themes
+The design should allow modification of its colors via themes so that users can suit it to their preferences.
 
 ### Palette
 
