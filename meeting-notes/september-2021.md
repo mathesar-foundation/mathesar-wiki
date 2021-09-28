@@ -2,11 +2,24 @@
 title: September 2021 meeting notes
 description: 
 published: true
-date: 2021-09-07T21:49:12.791Z
+date: 2021-09-28T17:37:42.633Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-01T12:10:46.346Z
 ---
+
+# 2021-09-28
+
+Please see [2021-09-28 weekly planning](https://github.com/centerofci/mathesar/discussions/684) on GitHub Discussions.
+
+# 2021-09-22
+
+Please see [2021-09-22 weekly planning](https://github.com/centerofci/mathesar/discussions/677) on GitHub Discussions.
+
+# 2021-09-15
+
+Please see [2021-09-15 weekly planning](https://github.com/centerofci/mathesar/discussions/665) on GitHub Discussions.
+
 
 # 2021-09-07
 Please see [2021-09-07 weekly planning](https://github.com/centerofci/mathesar/discussions/644) on GitHub Discussions.
