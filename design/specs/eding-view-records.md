@@ -2,7 +2,7 @@
 title: Editing Records Within a View
 description: 
 published: true
-date: 2021-10-01T09:41:56.590Z
+date: 2021-10-01T09:52:39.110Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-09T08:03:57.235Z
@@ -50,7 +50,7 @@ A user can edit all fields from a record by opening the record form, which can b
 
 ## Scenario 2: If the view doesn't allow edit (non-updatable view)
 ### User adds, removes, or edits records that are part of a view
-If the view doesn't allow editing, the user will only have access to basic functionality such as filtering, sorting or grouping. 
+If the view doesn't allow editing, the user will only have access to basic functionality such as filtering, sorting or grouping.
 
 [Prototype for Non-Updatable View](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4928%3A47261&node-id=5225%3A54934&viewport=256%2C48%2C0.69&scaling=min-zoom&starting-point-node-id=5225%3A54934&show-proto-sidebar=1)
 
