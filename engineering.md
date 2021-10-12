@@ -2,7 +2,7 @@
 title: Engineering
 description: Resources and notes for Mathesar developers
 published: true
-date: 2021-10-12T22:03:33.369Z
+date: 2021-10-12T22:05:02.266Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:15:59.765Z
@@ -12,7 +12,9 @@ Mathesar engineering work happens on GitHub. We create GitHub issues to track ev
 
 - [Mathesar code](https://github.com/centerofci/mathesar)
 - [Mathesar GitHub Discussions](https://github.com/centerofci/mathesar/discussions): we discuss and document architectural decisions here.
-- [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1) (only accessible to [Team](/team) members)
+- [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1) that organizes our open issues
+  - The project is only accessible to [Team](/team) members, but all relevant information (such as status, priority, and milestone) should be available on individual issues.
+  - We will make this project public as soon as GitHub supports it.
 
 We try and keep our communication public. See:
 - [Meeting Notes](/meeting-notes)
