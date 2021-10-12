@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-10-12T22:09:58.770Z
+date: 2021-10-12T22:10:44.810Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -19,7 +19,7 @@ All issues must:
 - Have the appropriate fields set in our GitHub project.
 - Be in a milestone.
 
-New issues are automatically created with the `status: triage` label and end up in the "Triage" column of the [Backlog GitHub project](https://github.com/centerofci/mathesar/projects/2).
+New issues are automatically created with the `status: triage` label and are automatically added to our GitHub project.
 
 ## Who should triage issues?
 Any member of [the Mathesar core or community team](/team) is encouraged to triage issues. If you're making an issue, please ensure that it is triaged as well.
