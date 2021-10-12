@@ -8,6 +8,10 @@ editor: markdown
 dateCreated: 2021-10-05T21:04:00.985Z
 ---
 
+# 2021-10-12
+
+Please see [2021-10-12 weekly discussion ](https://github.com/centerofci/mathesar/discussions/727) on GitHub Discussions.
+
 # 2021-10-08
 
 - Kriti's availability
