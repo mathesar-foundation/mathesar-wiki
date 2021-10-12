@@ -2,7 +2,7 @@
 title: Common Issues
 description: How to fix common issues with the code
 published: true
-date: 2021-09-06T11:32:28.956Z
+date: 2021-10-12T10:41:08.605Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T11:34:49.699Z
@@ -33,5 +33,4 @@ If the `audit` check on your pull request fails, here are the steps to fix it:
 	- If they are directly used packages, update their versions.
   - If they are dependencies of packages used by us (most common), update the parent packages.
   - Most often, newer parent packages may not have been released yet. In which case, we can use the 'resolutions' field in package.json to force the version of packages. Make sure to only update it to the closest non-vulnerable minor release, in this case.
-  
-Issue https://github.com/centerofci/mathesar/issues/124 should ensure that audit failures do not fail the workflows, but instead raise a GH issue automatically.
+  - Force resolving dependencies to a particular version should only be done when the vulnerabilities are not false positives. [This article](https://overreacted.io/npm-audit-broken-by-design/) by Dan Abramov from the React team, gives a good explanation on why most reported vulnerabilities are false positives.
