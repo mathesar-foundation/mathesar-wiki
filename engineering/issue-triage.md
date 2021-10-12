@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-09-09T14:36:43.894Z
+date: 2021-10-12T22:09:58.770Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -16,7 +16,7 @@ This guide describes how to properly triage new issues to work with Mathesar's d
 ## What does it mean for an issue to be triaged?
 All issues must:
 - Have a standard set of labels,
-- Be in the appropriate column in one of our GitHub projects.
+- Have the appropriate fields set in our GitHub project.
 - Be in a milestone.
 
 New issues are automatically created with the `status: triage` label and end up in the "Triage" column of the [Backlog GitHub project](https://github.com/centerofci/mathesar/projects/2).
@@ -36,6 +36,7 @@ All issues should have the following labels:
 - One `status:` label describing the current status of the issue.  
 
 There are also other labels you should consider applying:
+- `priority` labels for issues that are either urgent or are for future consideration.
 - `restricted:` labels for issues that are not open to the community.
   - All `work: design` issues should also be marked `restricted: design team` because only the design team can currently work on those.
   - Consider marking complicated issues or issues that touch the fundamental architecture of Mathesar as `restricted: maintainers`.
@@ -44,15 +45,19 @@ There are also other labels you should consider applying:
 - `affects:` labels for issues that touch technical debt, architecture, DX, or UX.
 - Any other labels that apply from our [repository's configured labels](https://github.com/centerofci/mathesar/labels).
 
-### Assigning issues to projects
-We have three projects:
-- [Active](https://github.com/centerofci/mathesar/projects/1): Issues that are assigned and are actively planned to be worked on in the next few days should go here.
-- [Backlog](https://github.com/centerofci/mathesar/projects/2): Most issues go here. They should go in the appropriate column according to their status, except for `type: meta` issues which go in the "Meta Issues" column.
-- [Future](https://github.com/centerofci/mathesar/projects/3): tasks under consideration for the future but not actively planned. Any issues tagged `status: future` go here.
+Applying the correct label should also sort the issue correctly in the Mathesar GitHub project.
 
-Assigning issues to the Backlog and Future projects has been automated based on labels applied so you shouldn't have to do any manual work, just verify that the issue is in the right place.
+### Ensure the issue is sorted correctly in the Mathesar project
 
-All new issues end up in the Backlog, so if you put an issue in the Active project, you'll have to manually remove it from the Backlog.
+The [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1) organizes our open issues. We need to ensure that the issue is in the project and the following fields are set correctly.
+- Status
+- Priority
+- Work
+
+This process should be fully automated based on setting the correct labels in the previous step.
+
+> The project is only accessible to [Team](/team) members, but all relevant information (such as status, priority, and milestone) should be available on individual issues. We will make this project public as soon as GitHub supports it.
+{.is-warning}
 
 ### Assigning milestones
 All issues should have a milestone.
