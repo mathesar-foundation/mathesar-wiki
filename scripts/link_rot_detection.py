@@ -16,7 +16,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 SKIP_LINKS = {
     "http://matrix.mathesar.org/",
     "https://github.com/centerofci/mathesar-wiki",
-    "https://github.com/centerofci/mathesar-ansible"
+    "https://github.com/centerofci/mathesar-ansible",
+    "https://github.com/orgs/centerofci/projects/1"
 }
 HEADERS = {"User-Agent": USER_AGENT}
 TIMEOUT = 10.0
