@@ -8,6 +8,42 @@ editor: markdown
 dateCreated: 2021-10-05T21:04:00.985Z
 ---
 
+# 2021-10-15
+
+Topic: Views prototype design review
+Attendeees: Brent, Ghislaine, Kriti, Pavish, Sean
+
+Action items:
+- Need to add full create view flow to the prototype
+- Add setting lookup columns to the prototype
+- Make sure to add all Figma flows to the prototype from other issues as well
+- We need different flows for one-to-many and many-to-many relationships in views
+    - Perhaps ask the user what type they want
+        - They should also be able to modify this later
+    - Don't automatically make mapping tables for one-to-many relationships
+- Separate relationships from views
+    - When user wants to create a relationship, ask if you want to:
+        - link to one record: create a FK in the current table
+        - link to multiple records: create a FK in the other (related) tables
+        - many to many: create a mapping table
+    - Then we can suggest creating a view to show the summary view
+    - Views can have summary columns
+- Create new design issues and update existing issues for Views 
+- We'll close existing design discussions and open new ones
+- Set up calls for reviewing future designs as needed (review async first)
+
+Feedback:
+- Views should be about specific columns, not a whole table
+    - (for some use cases)
+- Saving filters, sorts, etc. is also views, so that involves a whole table
+- Don't constrain view creation to just one flow since they serve so many purposes
+
+Improvements to process:
+- Be on the same page about the schema we're working with
+    - e.g. we were all modeling track-album-artist differently in our heads, made talking about it difficult
+- Define design tickets in terms of user scenarios
+    - Also specify functionality and technical constraints 
+
 # 2021-10-12
 
 Please see [2021-10-12 weekly discussion ](https://github.com/centerofci/mathesar/discussions/727) on GitHub Discussions.
