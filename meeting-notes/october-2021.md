@@ -2,11 +2,17 @@
 title: October 2021 meeting notes
 description: 
 published: true
-date: 2021-10-05T21:04:00.985Z
+date: 2021-10-19T23:09:28.852Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T21:04:00.985Z
 ---
+
+# 2021-10-19
+
+
+Please see [2021-10-19 weekly discussion](https://github.com/centerofci/mathesar/discussions/739) on GitHub Discussions.
+
 
 # 2021-10-15
 
@@ -46,7 +52,7 @@ Improvements to process:
 
 # 2021-10-12
 
-Please see [2021-10-12 weekly discussion ](https://github.com/centerofci/mathesar/discussions/727) on GitHub Discussions.
+Please see [2021-10-12 weekly discussion](https://github.com/centerofci/mathesar/discussions/727) on GitHub Discussions.
 
 # 2021-10-08
 
