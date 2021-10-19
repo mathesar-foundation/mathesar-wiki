@@ -2,14 +2,14 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-19T09:20:55.088Z
+date: 2021-10-19T09:21:29.028Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
 # Context
-This design spec describes the solution for the problem proposed in the issue [Design for the usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
+This design spec describes the proposed solution for the problem defined in the issue [Design for the usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
 
 ## Prototype Walkthrough
 [Video]()
