@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-07-01T21:09:03.897Z
+date: 2021-10-20T21:09:50.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -28,6 +28,7 @@ More information:
 - [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
 - [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
 - [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
+- [:straight_ruler: Design Standards *Rules to follow for Mathesar's UI*](/design/standards)
 {.links-list}
 
 ## Contributing
