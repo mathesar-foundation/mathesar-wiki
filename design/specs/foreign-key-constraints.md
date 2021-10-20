@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-20T10:05:42.902Z
+date: 2021-10-20T10:06:41.217Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -37,5 +37,6 @@ A user has a table named 'artist' that contains records for artists in a music a
 - If the column had values, those would be cleared unless they exactly matched contents from the linked column
 ### The user retrieves records from the linked table and adds them to the new column
 - Autocomplete should allow users to complete this action without additional clicks
+- When no results are available, we should show option to add a new record
 ### The user removes the foreign key constraint from the column
 - The column will be assigned the type of the column that was linked (if the linked column was a duration type, then it should be assigned as such)
