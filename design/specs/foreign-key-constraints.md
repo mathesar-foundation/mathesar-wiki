@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-20T09:43:53.544Z
+date: 2021-10-20T09:58:32.583Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -12,7 +12,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 This design spec describes the proposed solution for the problem defined in the issue [Design for the usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
 
 ## Prototype Walkthrough
-[Video](https://www.loom.com/share/65d596c2dbcd4225bc91c3ade7995c39)
+[Video](https://www.loom.com/share/20880a748ec24a588b9b568c5e0f70ba)
 [Prototype Link](https://mathesar-prototype.netlify.app/)
 
 ## Scenarios
