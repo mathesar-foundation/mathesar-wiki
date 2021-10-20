@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-19T09:29:36.619Z
+date: 2021-10-20T09:29:41.498Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -21,6 +21,7 @@ A user has a table named 'artist' that contains records for artists in a music a
 ### The user opens the 'track' table and adds a new column to link records from the 'artist' table
 ### The user opens the new column menu and selects the 'Link to Another Table' option
 ### The user selects a table from the list of available tables
-### The user selects a column from the selected table to create the link
-### The user validates their selection based on the options presented
+### The user selects a column belonging to the selected table to create the link
 ### The user sets the new column as a foreign key for a column in the 'artist' table
+### The user retrieves records from the linked table and adds them to the new column
+### The user removes the foreign key constraint from the column
