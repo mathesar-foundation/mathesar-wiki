@@ -2,7 +2,7 @@
 title: Design Standards
 description: Rules to follow for Mathesar's UI
 published: true
-date: 2021-10-20T21:27:44.224Z
+date: 2021-10-21T12:32:54.494Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-20T21:27:44.224Z
@@ -19,6 +19,7 @@ dateCreated: 2021-10-20T21:27:44.224Z
     - Toast titles
     - Headings
     - Buttons
+    - Menu items
     - Dropdown triggers
 
 - Use **Sentence case** for:
