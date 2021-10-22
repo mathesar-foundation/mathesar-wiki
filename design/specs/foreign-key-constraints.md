@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-22T08:41:54.259Z
+date: 2021-10-22T08:42:30.992Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -24,8 +24,7 @@ A user has a table named 'artist' that contains records for artists in a music a
 ### The user opens the new column menu and selects the 'Link to Another Table' option
 - Click on the column header to show the menu and select the 'Link to Another Table' option
 
-**Note: This step does not cover the scenario where a user has a unique table
-**
+**Note: This step does not cover the scenario where a user has a unique table, in which case they need to create an additional table to add a relationship.**
 
 
 ### The user selects a table from the list of available tables
