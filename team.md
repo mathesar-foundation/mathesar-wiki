@@ -2,11 +2,13 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-10-23T18:09:28.092Z
+date: 2021-10-23T18:10:53.404Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
 ---
+
+# Team Members
 
 ## Core Team
 The **core team** maintains the project.
@@ -31,5 +33,9 @@ The **community team** contributes to Mathesar's design and development and has 
 | Colin Powell | `@secstate:matrix.unbl.ink` | `@powellc` | Engineering (backend) |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
 
+# Joining the Team
+
  If you've contributed to Mathesar and are interested in joining the community team, please let us know.
- 
+
+# Resources
+- [Team Guide](/team/guide)
