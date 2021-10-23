@@ -2,7 +2,7 @@
 title: Weekly Discussion
 description: About the weekly planning discussion
 published: true
-date: 2021-10-23T19:07:28.426Z
+date: 2021-10-23T19:18:46.631Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:53.002Z
@@ -16,7 +16,7 @@ All weekly discussions [can be found here](https://github.com/centerofci/mathesa
 
 ## Posting a Discussion
 
-Quick notes on posting discussions.
+Quick notes on posting discussions. This is usually Kriti's responsibility, but other people on the core team might need to post discussions sometimes if Kriti is unavailable.
 
 - Create a new discussion in the `Planning` category.
 - Set the label to `status: draft` when you are constructing the discussion.
