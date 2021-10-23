@@ -2,7 +2,7 @@
 title: Design Review Guidelines
 description: Guidelines for working with design specs
 published: true
-date: 2021-07-01T21:24:05.763Z
+date: 2021-10-23T17:42:25.156Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
@@ -23,7 +23,7 @@ dateCreated: 2021-05-28T21:02:49.613Z
 Please follow these guidelines when reviewing designs.
 
 ## Authors
-- Write your design spec on the wiki under the [Documents]((/design/specs) folder and link to it from the [Documents]((/design/specs) page.
+- Write your design spec on the wiki under the [Documents](/design/specs) folder and link to it from the top-level [Documents](/design/specs) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
 - Once you think the spec is ready for review, create a GitHub Discussion that includes:
   - the design document and all related resources such as wireframes, prototypes, etc. 
