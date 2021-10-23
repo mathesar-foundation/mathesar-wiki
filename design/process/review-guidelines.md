@@ -2,22 +2,13 @@
 title: Design Review Guidelines
 description: Guidelines for working with design specs
 published: true
-date: 2021-10-23T17:42:25.156Z
+date: 2021-10-23T19:09:12.867Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
 ---
 
-# General Advice
-- Describe the problem with the design but don't assume a specific design solution
-- Strive to think from the user's perspective, not your own
-- If you find inconsistencies in the design, describe what you expected to encounter instead
-- Adapt your feedback to the design's fidelity level
-    - e.g. pointing out alignment issues on wireframes is not useful because they are not meant to be high-fidelity
-- Avoid ambiguity, try to articulate problems clearly and concisely
-    - Use descriptive words such as "clear", "helpful", "obvious", "confusing", "complex", rather than "bad", "wrong", "off", etc.
-- Think backwards from the end-goal
-- Don't highlight only negative aspects of the design. Positive feedback provides valuable information.
+The design team posts new specs to [GitHub Discussions](https://github.com/centerofci/mathesar/discussions/categories/review-request) when there are new designs to review. All [core team](/team) members are encouraged to review new designs. This page describes the process.
 
 # Review Process
 Please follow these guidelines when reviewing designs.
@@ -44,3 +35,14 @@ Please follow these guidelines when reviewing designs.
 - Once you're done reviewing the document, if you don't have any feedback, post on the discussion and say you're done reviewing.
 - Specify explicitly if you want another look at the design spec before it is finalized.
 - By sharing feedback, you actively participate in the UX process; make sure you read the context documents and are clear on the user's needs. If needed, ask questions, don't make assumptions.
+
+# Advice for Reviewers
+- Describe the problem with the design but don't assume a specific design solution
+- Strive to think from the user's perspective, not your own
+- If you find inconsistencies in the design, describe what you expected to encounter instead
+- Adapt your feedback to the design's fidelity level
+    - e.g. pointing out alignment issues on wireframes is not useful because they are not meant to be high-fidelity
+- Avoid ambiguity, try to articulate problems clearly and concisely
+    - Use descriptive words such as "clear", "helpful", "obvious", "confusing", "complex", rather than "bad", "wrong", "off", etc.
+- Think backwards from the end-goal
+- Don't highlight only negative aspects of the design. Positive feedback provides valuable information.
