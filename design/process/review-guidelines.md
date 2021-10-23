@@ -2,7 +2,7 @@
 title: Design Review Guidelines
 description: Guidelines for working with design specs
 published: true
-date: 2021-10-23T19:09:12.867Z
+date: 2021-10-23T19:09:21.178Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
@@ -11,7 +11,6 @@ dateCreated: 2021-05-28T21:02:49.613Z
 The design team posts new specs to [GitHub Discussions](https://github.com/centerofci/mathesar/discussions/categories/review-request) when there are new designs to review. All [core team](/team) members are encouraged to review new designs. This page describes the process.
 
 # Review Process
-Please follow these guidelines when reviewing designs.
 
 ## Authors
 - Write your design spec on the wiki under the [Documents](/design/specs) folder and link to it from the top-level [Documents](/design/specs) page.
