@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-10-20T21:09:50.636Z
+date: 2021-10-23T17:41:27.124Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -25,7 +25,6 @@ We aim to complete design work for a milestone at least 2-3 weeks before the dea
 
 More information:
 
-- [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
 - [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
 - [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
 - [:straight_ruler: Design Standards *Rules to follow for Mathesar's UI*](/design/standards)
@@ -39,5 +38,6 @@ High-level information about the philosophy behind our design.
 
 - [:balance_scale: Design Principles *Principles that guide our design*.](/design/design-principles)
 - [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
+- [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
 - [:books: Resources *Reading and external resources*](/design/resources)
 {.links-list}
