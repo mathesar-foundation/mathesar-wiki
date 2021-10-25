@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-25T07:55:16.359Z
+date: 2021-10-25T10:44:34.812Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -13,7 +13,8 @@ This design spec describes the proposed solution for the problem defined in the 
 In summary, this issue addresses how users set up relationships between data in two different tables.
 
 ## Prototype Walkthrough
-[Video](https://www.loom.com/share/146b0aa3adbb41009ce1a49caeb936ab)
+[Video: Setting Up a Relationship](https://www.loom.com/share/146b0aa3adbb41009ce1a49caeb936ab)
+[Video: Lookup Fields](https://www.loom.com/share/757f7ace02a84296912c6df45410e5e7)
 [Prototype Link](https://mathesar-prototype.netlify.app/)
 
 ## Concepts
