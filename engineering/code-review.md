@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-10-26T20:55:28.063Z
+date: 2021-10-26T21:04:06.162Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -38,6 +38,7 @@ Anyone is welcome to review pull requests!
 - If you approve the PR, merge it unless someone else has requested changes.
   - If the person who has requested changes is unavailable, merge the PR anyway.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
+- If the PR is from a community contributor and it only requires minor changes, feel free to make the changes yourself and merge them.
 
 # Reading
 Some reading related to our process:
