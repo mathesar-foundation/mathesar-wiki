@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2021-08-25T20:50:59.925Z
+date: 2021-10-30T04:25:40.307Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -14,7 +14,7 @@ These are specs for new features, corresponding to our [development milestones](
 
 - [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
 - [Multiple Records Associated with a Single Record](/design/specs/multiple-records-spec)
-- [Editing Records Within a View](/design/spec/eding-view-records)
+- [Editing Records Within a View](/design/specs/eding-view-records)
 - [Create, Edit, Delete Views](/design/specs/create-edit-delete-views)
 - [One-to-Many Relationships](/design/specs/views-one-to-many-relationships)
 - [Viewing Views](/design/specs/viewing-views-specs)
