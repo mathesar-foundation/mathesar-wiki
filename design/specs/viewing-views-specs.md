@@ -8,6 +8,9 @@ editor: markdown
 dateCreated: 2021-09-03T09:04:39.016Z
 ---
 
+> This spec is outdated and should not be followed.
+{.is-error}
+
 # Context
 Views can help users make sense of the data they have in tables and the references between them. However, when coming from the context of spreadsheet-like interfaces, a user might experience some difficulties incorporating views into their process.
 An optimal design solution would make table associations in the context of views easy to understand and modify if needed. 

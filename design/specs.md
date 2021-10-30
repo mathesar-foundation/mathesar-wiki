@@ -12,6 +12,12 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
+- [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
+- [Multiple Records Associated with a Single Record](/design/specs/multiple-records-spec)
+- [Editing Records Within a View](/design/spec/eding-view-records)
+- [Create, Edit, Delete Views](/design/specs/create-edit-delete-views)
+- [One-to-Many Relationships](/design/specs/views-one-to-many-relationships)
+- [Viewing Views](/design/specs/viewing-views-specs)
 - [Global Data Types](/design/specs/global-data-type-components)
 - [Non-Mathesar Data Types](/design/specs/non-mathesar-data-types)
 - [Duration Data Type](/design/specs/data-type-duration)
