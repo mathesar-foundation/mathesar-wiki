@@ -2,14 +2,15 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-25T10:44:34.812Z
+date: 2021-10-30T04:26:04.016Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
 > This spec is outdated and should not be followed.
-{.is-error}
+{.is-danger}
+
 
 # Context
 This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
