@@ -9,7 +9,7 @@ dateCreated: 2021-09-15T10:46:15.425Z
 ---
 
 > This spec is outdated and should not be followed.
-{.is-error}
+{.is-danger}
 
 # Context
 When setting up a relational database, users will want to organize their data to avoid duplication and maintain the integrity of their data. Therefore relationships need to be created between tables, for example, to relate 'tracks' to 'albums' or 'albums' to 'artists.' In cases where records are multiple, users will rely on features to help them summarize or quantify those relationships.

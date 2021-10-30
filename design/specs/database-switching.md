@@ -9,7 +9,7 @@ dateCreated: 2021-07-01T21:19:29.919Z
 ---
 
 > This spec is outdated and should not be followed.
-{.is-error}
+{.is-danger}
 
 # Context
 Users might have multiple databases, and they need to switch between them as necessary, in a seamless manner, without worrying about the current status of open tables or views.

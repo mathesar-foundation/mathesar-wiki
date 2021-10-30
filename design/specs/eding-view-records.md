@@ -9,7 +9,7 @@ dateCreated: 2021-09-09T08:03:57.235Z
 ---
 
 > This spec is outdated and should not be followed.
-{.is-error}
+{.is-danger}
 
 # Context
 Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.

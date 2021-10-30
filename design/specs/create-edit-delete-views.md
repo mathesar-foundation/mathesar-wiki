@@ -9,7 +9,7 @@ dateCreated: 2021-08-27T08:38:06.248Z
 ---
 
 > This spec is outdated and should not be followed.
-{.is-error}
+{.is-danger}
 
 # Context
 A view is a database object based on one or more database tables and contains no data of its own. In the context of Mathesar, the creation and editing of these views is an essential part of the user experience, as it allows users to join and simplify tables into one or represent a subset of the data from a table. For the less technical users, views might be a stepping stone towards analyzing and visualizing their data. For that reason, the design aims to make views easy to discover and edit.
