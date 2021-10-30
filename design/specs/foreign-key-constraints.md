@@ -8,6 +8,9 @@ editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
+> This spec is outdated and should not be followed.
+{.is-error}
+
 # Context
 This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
 In summary, this issue addresses how users set up relationships between data in two different tables.
