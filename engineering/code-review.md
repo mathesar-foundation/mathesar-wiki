@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-10-26T21:04:06.162Z
+date: 2021-11-03T17:42:29.454Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -39,6 +39,23 @@ Anyone is welcome to review pull requests!
   - If the person who has requested changes is unavailable, merge the PR anyway.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
 - If the PR is from a community contributor and it only requires minor changes, feel free to make the changes yourself and merge them.
+
+### Modifying PRs before merging
+You can modify an in progress PR before merging, if necessary.  If the PR is from a branch in the official Mathesar repository, just modify that branch.  If it's in a branch of a fork, it's a bit more complicated.  The smoothest way in that case is to
+1. Add the fork repo as a remote, locked to the appropriate branch and fetch:
+   ```shell
+   git remote add -t $A_BRANCH_NAME -f $A_REMOTE_NAME $REPO_URL
+   ```
+   Here,
+   - `$A_BRANCH_NAME` is the 3rd party branch name.
+   - `$A_REMOTE_NAME` is chosen by the user; make it memorable.
+   - `$REPO_URL` is set to the url of the 3rd party repo in question.
+   - Note that the `-f` flag is *not* for 'force', but for 'fetch'.
+2. Make changes in that branch.
+3. Add, commit, and push your changes (the branch should already have the correct remote set).
+4. Back in the official Mathesar repo, your changes should be shown.  Review and merge as appropriate.
+
+If (3) fails, it may be a permissions issue.  In that case, you'll have to make a new branch in the official Mathesar repo based off of the PR.  To do that, follow the instructions [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally).
 
 # Reading
 Some reading related to our process:
