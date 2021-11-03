@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-10-05T16:15:32.806Z
+date: 2021-11-03T20:51:20.772Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -28,6 +28,8 @@ The Mathesar wiki is our primary knowledge base for everything we do. You can us
   - [Design](/design)
   - [Engineering](/engineering)
   - [Meeting Notes](/meeting-notes)
+  
+We encourage you to contribute to the wiki. You can also contribute by opening a pull request in [this repository](https://github.com/centerofci/mathesar-wiki/).
 
 # Support
 Mathesar is based out of the **[Center of Complex Interventions](https://www.centerofci.org/)**.
