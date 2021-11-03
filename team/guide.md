@@ -2,7 +2,7 @@
 title: Mathesar Team Guide
 description: A guide to processes, workflows, etc. relevant to Mathesar team members
 published: true
-date: 2021-11-03T21:03:58.686Z
+date: 2021-11-03T21:05:52.652Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T17:39:14.627Z
@@ -33,6 +33,6 @@ These pages relate to managing the community of contributors around the project,
 
 Other pages that don't fit into the above two categories.
 
-- [:tada: Team Events *About Mathesar core team events*](/team/events)
+- [:tada: Team Events *About Mathesar core team events*](/team/guide/events)
 - [:busts_in_silhouette: Communication Tips *Communication tips for Mathesar team members*]()
 {.links-list}
