@@ -2,14 +2,11 @@
 title: What is Mathesar?
 description: 
 published: true
-date: 2021-11-03T00:42:34.804Z
+date: 2021-11-03T20:23:43.832Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T00:42:34.804Z
 ---
-
-> Mathesar is still in early development, so not all features described on this page are complete.
-{.is-info}
 
 Mathesar is an open source project that enables users of all skill levels to store, manipulate, and collaborate with others on data. We'd like to make it easy for non-technical users to work with databases without any pre-existing knowledge. 
 
