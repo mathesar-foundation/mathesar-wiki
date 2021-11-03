@@ -2,29 +2,30 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-11-03T17:42:29.454Z
+date: 2021-11-03T20:22:31.173Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
 ---
 
-# General Advice
-- Commit early, commit often.
-- Write good commit messages.
-- Create draft pull requests for in-progress work.
-- Try to keep pull requests small if possible, since it makes review easier.
 
-# Review Process
+
 Please follow these guidelines when reviewing PRs.
 
-## Authors
+# Authors
 - Once you think your code is ready to merge, mark your draft pull request as "ready for review" or create a pull request if you don't have a draft. The required reviewers will automatically be notified when you do this.
 - Please post in [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) and tag the handles of the Mathesar engineering team (see [Team](/team)) when you have a PR ready for review.
 - If the reviewer requests changes, please make the changes and **re-request review**.
 - Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
 - If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
 
-## Reviewers
+## General Advice
+- Commit early, commit often.
+- Write good commit messages.
+- Create draft pull requests for in-progress work.
+- Try to keep pull requests small if possible, since it makes review easier.
+
+# Reviewers
 Anyone is welcome to review pull requests!
 
 - Request changes if you want another look at the PR before it is merged.
@@ -32,7 +33,7 @@ Anyone is welcome to review pull requests!
 - If the branch needs to be updated before merging (because it's out-of-date with the `master` branch), do so, as long as the merge can be performed automatically.  Otherwise, ask the Author to handle it.
 - See [Backend Code Review](/engineering/code-review/backend) for guidelines specific to backend code.
 
-### Maintainers
+## Maintainers
 - Check for outstanding PRs at least **once a day**.
 - Review core team PRs within 1 work day, community PRs within 3 work days.
 - If you approve the PR, merge it unless someone else has requested changes.
