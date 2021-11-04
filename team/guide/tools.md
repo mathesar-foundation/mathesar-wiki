@@ -2,7 +2,7 @@
 title: Tools
 description: Collaboration tools used by the team
 published: true
-date: 2021-11-04T12:29:56.320Z
+date: 2021-11-04T12:59:52.502Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-04T12:29:56.320Z
@@ -11,6 +11,7 @@ dateCreated: 2021-11-04T12:29:56.320Z
 | Tool | Purpose | Notes |
 |-|-|-|
 | Google Workspace | email, calendar, some files | |
+| GitHub | code, discussions, issue tracking | |
 | Matrix | chat | | 
 | HackMD | collaborative notes | |
 | Mathesar wiki  (Wiki.js) | knowledge base and documentation | |
