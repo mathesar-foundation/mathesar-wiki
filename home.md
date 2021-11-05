@@ -2,15 +2,11 @@
 title: Home
 description: 
 published: true
-date: 2021-11-03T20:51:20.772Z
+date: 2021-11-05T16:15:21.293Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
-
-> We're hiring a backend engineer. See **[Jobs](/jobs)** for more information.
-{.is-success}
-
 
 # Welcome
 Mathesar is an open source project that aims to make databases accessible to non-technical users, allowing users to store, manipulate, visualize, and collaborate with others on their data. We're heavily inspired by [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
