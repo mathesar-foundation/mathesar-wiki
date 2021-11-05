@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-10-12T22:10:44.810Z
+date: 2021-11-05T17:26:30.005Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -33,7 +33,7 @@ All issues should have the following labels:
 - One `type:` label. This describes the kind of problem that the issue is solving (bug, enhancement, etc.) This may be automatically present based on the issue template.
   - There's also a `question` label for issues that are questions and not problems.
   - `type: meta` issues collect other issues and are not meant to be worked on directly.
-- One `status:` label describing the current status of the issue.  
+- One `status:` label describing the current status of the issue. If the issue has been triaged, this should not be `status: triage`.
 
 There are also other labels you should consider applying:
 - `priority` labels for issues that are either urgent or are for future consideration.
