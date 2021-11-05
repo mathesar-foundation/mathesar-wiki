@@ -2,7 +2,7 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-11-05T17:30:14.358Z
+date: 2021-11-05T17:42:52.716Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
@@ -26,9 +26,9 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 ### New messages
 The Comms Assignee should aim to respond to all these forms of communication within one business day.
 
-- Community messages on [Matrix]((/community).
-- New GitHub issues (see: [Issue Triage](/team/issue-triage))
-- New GitHub issue comments (see: [Issue Assignment](/team/issue-assignment))
+- Community messages on [Matrix](/community).
+- New GitHub issues (see: [Issue Triage](/team/guide/ssue-triage))
+- New GitHub issue comments (see: [Issue Assignment](/team/guide/issue-assignment))
 - New GitHub pull requests and pull request comments (see: [Code Review](/engineering/code-review))
 
 The Comms Assignee should pull in other team members as needed (e.g. if a pull request needs review or if there's a question and it is not the person's area of expertise).
