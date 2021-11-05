@@ -12,6 +12,7 @@ reviewers:
       - seancolsen
       - ghislaineguerin
       - eito-fis
+      - silentninja
 
 files:
   # Keys are glob expressions.
