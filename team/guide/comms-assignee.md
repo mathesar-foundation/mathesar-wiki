@@ -10,7 +10,7 @@ dateCreated: 2021-10-23T18:49:14.482Z
 
 Every week, one person from the Mathesar [core team](/team) is assigned to be the "Comms Assignee". This means that they are in charge of communication with the community for that week.
 
-# Current Schedule
+## Current Schedule
 
 | Week | Person |
 |-|-|
@@ -21,22 +21,29 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 | Nov 29 to Dec 3 | Pavish |
 | Dec 6 to Dec 10 | Mukesh |
 
-# Responsibilities
+## Purpose
 
 The idea behind the Comms Assignee is to let the rest of the team ignore GitHub notifications if they need to and trust that the Comms Assignee will let them know if there's anything they need to do, such as weigh in on an issue or review a pull request.
 
-### New messages
-The Comms Assignee should aim to respond to all these forms of communication within one business day.
+## How to do comms
 
-- Community messages on [Matrix](/community).
-- New GitHub issues (see: [Issue Triage](/team/guide/issue-triage))
-- New GitHub issue comments (see: [Issue Assignment](/team/guide/issue-assignment))
-- New GitHub pull requests and pull request comments (see: [Code Review](/engineering/code-review))
+### Every day
 
-The Comms Assignee should pull in other team members as needed (e.g. if a pull request needs review or if there's a question and it is not the person's area of expertise).
+1. Respond to [Matrix](/community) messages from community members in all channels.
+1. Look through [newly created issues](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue) and [triage](/team/guide/issue-triage) them.
+1. Look through [recently updated issues](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc) and [assign](/team/guide/issue-assignment) issues to community members who comment with intent to start work.
+1. Look through [new PRs](https://github.com/centerofci/mathesar/pulls?q=is%3Aopen+is%3Apr) for any lacking an assigned [reviewer](/engineering/code-review). Comment on the PR, requesting a review by tagging specific team members who you think would be suited to review it.
 
-The one business day timeline is just for a response, we do not (for example) have to fully review a pull request within a day, we can comment on the PR, thank the contributor, and let them know when they can expect their PR to be reviewed.
+Ensure community members receive a response within 1 business day, either from you or someone else. You don't need to resolve everything within one day though. With a new PR for example, you can comment on it, thank the contributor, and let them know when they can expect their PR to be reviewed.
 
-### Open pull requests
+### Once per week 
 
-The Comms Assignee should check in on PRs from community contributors that have not seen any updates in a while. It might be nice to ask if the community contributor needs any help.
+- Open pull requests
+
+    The Comms Assignee should check in on PRs from community contributors that have not seen any updates in a while. Do your best to help move the PR towards completion which include asking if the contributor needs any help.
+
+## Notes
+
+- Delegate tasks to other team members in as needed.
+
+- Thank new contributors for their time and point them towards other ways to get help if they need it.
