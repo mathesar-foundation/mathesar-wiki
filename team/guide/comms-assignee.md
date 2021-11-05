@@ -2,7 +2,7 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-11-05T17:43:48.566Z
+date: 2021-11-05T17:47:09.035Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
@@ -22,6 +22,8 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 | Dec 6 to Dec 10 | Mukesh |
 
 # Responsibilities
+
+The idea behind the Comms Assignee is to let the rest of the team ignore GitHub notifications if they need to and trust that the Comms Assignee will let them know if there's anything they need to do, such as weigh in on an issue or review a pull request.
 
 ### New messages
 The Comms Assignee should aim to respond to all these forms of communication within one business day.
