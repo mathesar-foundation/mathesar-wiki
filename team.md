@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-10-23T18:10:53.404Z
+date: 2021-11-05T17:31:08.017Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -21,6 +21,7 @@ The **core team** maintains the project.
 | Eamon Ito-Fisher | `@eito-fis:matrix.mathesar.org` | `@eito-fis` | Engineering (backend) |
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering (frontend) |
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering (backend) |
+| Mukesh Murali | `@mukesh:matrix.mathesar.org` | `@silentninja` | Engineering (backend) |
 
 ## Community Team
 The **community team** contributes to Mathesar's design and development and has write access to the `mathesar` repository and wiki.
