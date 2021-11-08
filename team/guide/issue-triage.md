@@ -41,7 +41,7 @@ Triaging an issue means setting all the appropriate fields on it.
 
 1. **Set milestone**
 
-    If an issue is directly associated with a feature, put it in the milestone for that feature. Otherwise, put it in a monthly improvement milestone (named like `YYYY-MD improvements`) according to priority. More urgent issues should go in this month's milestone, otherwise put it in a milestone in the next couple of months.
+    If an issue is directly associated with a feature, put it in the milestone for that feature. Otherwise, put it in a "General Improvements" milestone according to priority. More urgent issues should go in this month's milestone, otherwise put it in a milestone in the next couple of months.
 
     If you don't know what milestone to put something in, talk to Kriti.
 
