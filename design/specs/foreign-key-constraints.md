@@ -2,13 +2,13 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:11:03.977Z
+date: 2021-11-09T10:11:31.902Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
-> This spec is work in progress and should not be followed.
+> This spec is work in progress and shouldn't be used for implementation.
 {.is-warning}
 
 
