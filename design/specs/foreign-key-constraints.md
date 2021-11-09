@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:11:31.902Z
+date: 2021-11-09T10:11:51.992Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -64,6 +64,10 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ### The new field value is invalid
 
 
+
+----------
+OUTDATED
+-------
 
 # Context
 This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
