@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:20:50.752Z
+date: 2021-11-09T16:59:23.145Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -28,10 +28,12 @@ dateCreated: 2021-10-19T09:20:55.088Z
 - The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
 - The user selects the table they wish to link to.
 - The user answers 'yes' or 'no' to the questions presented. The answers will determine the location of the foreign key or whether a new table needs to be created
-	- Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship
+	
+  - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship
   - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
+
 - Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.'
-- Before creating the link, the user will have the chance to rename the new columns or tables.
+- Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should display an inline warning and prevent saving.
 
 ### Manually from the 'Table Constraints' settings
 
@@ -53,12 +55,18 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ## User Identifies a Column With a Foreign Key Constraint Applied
 ### The foreign key constraint is set to a single column
-- The user can see the referenced column from the column header. 
+- The user opens a table which contains columns with a foreign key constraint applied.
+- The user identifies the columns in two ways:
+	- The user looks at the column header and sees the foreign key indicator. This indicator shows a key icon, and the referenced table and column next to it.
+  - The user looks at the column fields, and sees that values are added with a different styling, a tag-like element with a colored background.
+
 ### The foreign key constraint is set to multiple columns
+
 - The user can see the referenced column from the column header.
 ** NEED SOME INDICATOR **
 
 ## User Sees a Preview of the Linked Table in a Column With a Foreign Key Constraint Applied
+
 
 ## User Edits the Values of a Column With a Foreign Key Constraint Applied
 ### The field is empty
