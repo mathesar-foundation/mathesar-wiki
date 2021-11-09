@@ -2,13 +2,13 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:12:19.832Z
+date: 2021-11-09T10:16:59.337Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
-> This spec is work in progress and shouldn't be used for implementation.
+> This spec is a work in progress and shouldn't be used for implementation.
 {.is-warning}
 
 
@@ -48,9 +48,9 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ## User Edits a Foreign Key Constraint
 ### Manually from the 'Table Constraints' settings
-- A user wants to edit an existing foreign key constraint to change the selected columns, or select another referenced table. 
-- The user can open a specific foreign key constraint form by clicking on the foreign key link located in the column header. 
-- 
+- A user wants to edit an existing foreign key constraint to change the selected columns or select another referenced table. 
+- The user can open a specific foreign key constraint form by clicking on the foreign key link in the column header. 
+- If the modified FK constraint causes existing column values to become invalid, the user will receive a warning and be aware of the potential implications of this change, like loss of data or broken views.
 
 ## User Identifies a Column With a Foreign Key Constraint Applied
 ### The foreign key constraint is set to a single column
