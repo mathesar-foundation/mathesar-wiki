@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:26:04.082Z
+date: 2021-11-09T09:29:43.633Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -20,7 +20,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ### Automatically from the 'Link Table' dialog
 
 #### Steps
-- The user wants to link values from a table to another table belonging to the same schema.
+- A user wants to link values from a table to another table belonging to the same schema.
 - The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
 - The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
 - The user selects the table they wish to link to.
@@ -33,7 +33,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ### Manually from the 'Table Constraints' settings
 
 #### Steps
-- The user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
+- A user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
 - The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
 - The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
 - The list panel contains actions at the bottom of the panel. From there, the user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
@@ -44,6 +44,8 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ## User Edits a Foreign Key Constraint
 ### Manually from the 'Table Constraints' settings
+- A user wants to edit an existing foreign key constraint to change the selected columns, or select another referenced table. 
+- The user can 
 
 ## User Identifies a Column With a Foreign Key Constraint Applied
 ### The foreign key constraint is set to a single column
