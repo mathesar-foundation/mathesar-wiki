@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T08:15:20.563Z
+date: 2021-11-09T08:58:41.914Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -10,23 +10,37 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 # Context
 
-## Scenarios
-### User Adds a Foreign Key Constraint
-Tables will have a "Link to Another Table" button in the toolbar
-Clicking the button will open a modal that asks the user some questions (see Brent's comment)
-We will automatically create the column once the user answers them (which table we create the column on will depend on their answer)
-If it's many to many, we will create a map table and another column
-Table constraints modal will show foreign keys
-Users can create, edit, and delete foreign keys from here
-Viewing FKs
-Users should be able to identify columns with foreign key constraints applied
-This could include multi-column foreign keys
-It should look different from multiple single column foreign keys
-Users should see a preview of the linked table in a FK column
-Editing FK cells
-The user should be able to edit values in columns that have foreign key constraints applied
-There should be a lookup component (search + dropdown + autocomplete) to help them
-Autocomplete should allow users to search by any value
+# Scenarios
+## User Adds a Foreign Key Constraint
+### Automatically from the 'Link Table' dialog
+
+#### Steps
+
+- The user wants to link values from a table to another table belonging to the same schema.
+- The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
+- The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
+- The user selects the table they wish to link to.
+- The user answers 'yes' or 'no' to the questions presented. The answers will determine the location of the foreign key or whether a new table needs to be created
+	- Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables creating a many-to-many relationship
+  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropiate table creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
+- Once the questions are answered, the user will read a summary of the changes that will be made by the system, in a section titled 'Under the Hood'.
+- Before creating the link, the user will have the chance to rename the new columns or tables.
+
+### Manually from the 'Table Constraints' settings
+
+## User Edits a Foreign Key Constraint
+### Manually from the 'Table Constraints' settings
+
+## User Identifies a Column With a Foreign Key Constraint Applied
+### The foreign key constraint is set to a single column
+### The foreign key constraint is set to multiple columns
+
+## User Sees a Preview of the Linked Table in a Column With a Foreign Key Constraint Applied
+
+## User Edits the Values of a Column With a Foreign Key Constraint Applied
+### The field is empty
+### The field contains a value
+### The new field value is invalid
 
 
 > This spec is outdated and should not be followed.
