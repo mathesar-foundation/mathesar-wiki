@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:14:40.261Z
+date: 2021-11-09T09:19:46.913Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -14,7 +14,9 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 
 # Scenarios
+
 ## User Adds a Foreign Key Constraint
+
 ### Automatically from the 'Link Table' dialog
 
 #### Steps
@@ -29,6 +31,12 @@ dateCreated: 2021-10-19T09:20:55.088Z
 - Before creating the link, the user will have the chance to rename the new columns or tables.
 
 ### Manually from the 'Table Constraints' settings
+
+#### Steps
+- The user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
+- The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
+- The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
+- 
 
 ## User Edits a Foreign Key Constraint
 ### Manually from the 'Table Constraints' settings
