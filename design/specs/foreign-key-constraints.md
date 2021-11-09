@@ -2,11 +2,32 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-10-30T04:26:04.016Z
+date: 2021-11-09T08:15:20.563Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
+
+# Context
+
+## Scenarios
+### User Adds a Foreign Key Constraint
+Tables will have a "Link to Another Table" button in the toolbar
+Clicking the button will open a modal that asks the user some questions (see Brent's comment)
+We will automatically create the column once the user answers them (which table we create the column on will depend on their answer)
+If it's many to many, we will create a map table and another column
+Table constraints modal will show foreign keys
+Users can create, edit, and delete foreign keys from here
+Viewing FKs
+Users should be able to identify columns with foreign key constraints applied
+This could include multi-column foreign keys
+It should look different from multiple single column foreign keys
+Users should see a preview of the linked table in a FK column
+Editing FK cells
+The user should be able to edit values in columns that have foreign key constraints applied
+There should be a lookup component (search + dropdown + autocomplete) to help them
+Autocomplete should allow users to search by any value
+
 
 > This spec is outdated and should not be followed.
 {.is-danger}
