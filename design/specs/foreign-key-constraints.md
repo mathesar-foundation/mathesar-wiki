@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:01:04.462Z
+date: 2021-11-09T09:11:57.697Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -10,12 +10,14 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 # Context
 
+# Prototype Link
+
+
 # Scenarios
 ## User Adds a Foreign Key Constraint
 ### Automatically from the 'Link Table' dialog
 
 #### Steps
-
 - The user wants to link values from a table to another table belonging to the same schema.
 - The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
 - The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
