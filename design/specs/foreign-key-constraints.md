@@ -2,84 +2,14 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T16:59:23.145Z
+date: 2021-11-09T19:53:41.202Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
 
-> This spec is a work in progress and shouldn't be used for implementation.
-{.is-warning}
-
-# Context
-
-# Prototype Link and Video Walkthrough
-
-
-# Scenarios
-
-## User Adds a Foreign Key Constraint
-
-### Automatically from the 'Link Table' dialog
-
-#### Steps
-- A user wants to link values from a table to another table belonging to the same schema.
-- The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
-- The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
-- The user selects the table they wish to link to.
-- The user answers 'yes' or 'no' to the questions presented. The answers will determine the location of the foreign key or whether a new table needs to be created
-	
-  - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship
-  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
-
-- Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.'
-- Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should display an inline warning and prevent saving.
-
-### Manually from the 'Table Constraints' settings
-
-#### Steps
-- A user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
-- The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
-- The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
-- The list panel contains actions at the bottom of the panel. From there, the user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
-- The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
-- The user selects single or multiple columns they wish to apply the constraint to.
-- The user selects a table to be referenced by these columns.
-- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user understands that a column with unique values is preferred for setting up a foreign key column. 
-
-## User Edits a Foreign Key Constraint
-### Manually from the 'Table Constraints' settings
-- A user wants to edit an existing foreign key constraint to change the selected columns or select another referenced table. 
-- The user can open a specific foreign key constraint form by clicking on the foreign key link in the column header. 
-- If the modified FK constraint causes existing column values to become invalid, the user will receive a warning and be aware of the potential implications of this change, like loss of data or broken views.
-
-## User Identifies a Column With a Foreign Key Constraint Applied
-### The foreign key constraint is set to a single column
-- The user opens a table which contains columns with a foreign key constraint applied.
-- The user identifies the columns in two ways:
-	- The user looks at the column header and sees the foreign key indicator. This indicator shows a key icon, and the referenced table and column next to it.
-  - The user looks at the column fields, and sees that values are added with a different styling, a tag-like element with a colored background.
-
-### The foreign key constraint is set to multiple columns
-
-- The user can see the referenced column from the column header.
-** NEED SOME INDICATOR **
-
-## User Sees a Preview of the Linked Table in a Column With a Foreign Key Constraint Applied
-
-
-## User Edits the Values of a Column With a Foreign Key Constraint Applied
-### The field is empty
-### The field contains a value
-### The new field value is invalid
-
-
-
-
-----------
-
-OUTDATED
--------
+> This spec is outdated and shouldn't be used.
+{.is-danger}
 
 # Context
 This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
