@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:11:57.697Z
+date: 2021-11-09T09:14:40.261Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -10,7 +10,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 # Context
 
-# Prototype Link
+# Prototype Link and Video Walkthrough
 
 
 # Scenarios
@@ -23,9 +23,9 @@ dateCreated: 2021-10-19T09:20:55.088Z
 - The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available. 
 - The user selects the table they wish to link to.
 - The user answers 'yes' or 'no' to the questions presented. The answers will determine the location of the foreign key or whether a new table needs to be created
-	- Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables creating a many-to-many relationship
-  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropiate table creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
-- Once the questions are answered, the user will read a summary of the changes that will be made by the system, in a section titled 'Under the Hood'.
+	- Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship
+  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
+- Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.'
 - Before creating the link, the user will have the chance to rename the new columns or tables.
 
 ### Manually from the 'Table Constraints' settings
