@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:16:59.337Z
+date: 2021-11-09T10:20:21.376Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -54,7 +54,10 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ## User Identifies a Column With a Foreign Key Constraint Applied
 ### The foreign key constraint is set to a single column
+- The user can see the referenced column from the column header. 
 ### The foreign key constraint is set to multiple columns
+- The user can see the referenced column from the column header.
+** NEED SOME INDICATOR **
 
 ## User Sees a Preview of the Linked Table in a Column With a Foreign Key Constraint Applied
 
