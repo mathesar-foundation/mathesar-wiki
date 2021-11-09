@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:19:46.913Z
+date: 2021-11-09T09:26:04.082Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -36,7 +36,11 @@ dateCreated: 2021-10-19T09:20:55.088Z
 - The user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
 - The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
 - The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
-- 
+- The list panel contains actions at the bottom of the panel. From there, the user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
+- The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
+- The user selects single or multiple columns they wish to apply the constraint to.
+- The user selects a table to be referenced by these columns.
+- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user understands that a column with unique values is preferred for setting up a foreign key column. 
 
 ## User Edits a Foreign Key Constraint
 ### Manually from the 'Table Constraints' settings
