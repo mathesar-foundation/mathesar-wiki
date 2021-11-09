@@ -2,7 +2,7 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T10:20:21.376Z
+date: 2021-11-09T10:20:50.752Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
@@ -10,7 +10,6 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 > This spec is a work in progress and shouldn't be used for implementation.
 {.is-warning}
-
 
 # Context
 
