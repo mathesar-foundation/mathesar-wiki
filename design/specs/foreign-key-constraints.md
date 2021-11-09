@@ -2,11 +2,15 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T09:29:43.633Z
+date: 2021-11-09T10:11:03.977Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
+
+> This spec is work in progress and should not be followed.
+{.is-warning}
+
 
 # Context
 
@@ -45,7 +49,8 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ## User Edits a Foreign Key Constraint
 ### Manually from the 'Table Constraints' settings
 - A user wants to edit an existing foreign key constraint to change the selected columns, or select another referenced table. 
-- The user can 
+- The user can open a specific foreign key constraint form by clicking on the foreign key link located in the column header. 
+- 
 
 ## User Identifies a Column With a Foreign Key Constraint Applied
 ### The foreign key constraint is set to a single column
@@ -59,8 +64,6 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ### The new field value is invalid
 
 
-> This spec is outdated and should not be followed.
-{.is-danger}
 
 # Context
 This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
