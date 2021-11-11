@@ -70,24 +70,22 @@ A user wants to link records from another table into their current table. Both t
 - The user opens a table that contains columns with a foreign key constraint applied.
 - The user identifies the columns in two ways:
   - The user looks at the column header and sees the foreign key indicator. This indicator shows a key icon and the referenced table and column next to it.
+    - The indicator can be clicked to display the foreign key settings for the specific column.
+    - The indicator can be hovered over to display a tooltip with information about the foreign key constraints.
   - The user looks at the column fields and sees that values are added with different styling, a tag-like element with a colored background.
 
 ### The foreign key constraint is set to multiple columns
 
-- The user can see the referenced column from the column header.
-**NEED SOME INDICATOR**
+- The user opens a table that contains columns with a multi-column foreign key constraint applied.
+  - The indicator in this case looks similar to the single-column one, however the user will understand that the foreign key constraints are referencing the same table.
+    - The user can tell that a referenced table is the same because they share the same color. Other UI elements could be used instead of color, however the idea is to create a visual distinction that can be easily scanned.
+  - The indicator can be hovered over to see additional information, from here the user will understand that the constraint references more than one column.
 
 ## User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
-
-- The user hovers over
 
 ## User Edits the Values of a Column With a Foreign Key Constraint Applied
 
 ### The field is empty
-
-Load first 50 or so (number depends on performance) only show first five fields
-The search can only retrieve from the first 5
-Text strings, search across all supported types
 
 ### The field contains a value
 
