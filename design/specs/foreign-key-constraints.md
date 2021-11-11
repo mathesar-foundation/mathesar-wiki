@@ -13,7 +13,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ## Scenarios
 
-### Scenario 1 : User Adds a Foreign Key Constraint
+### Scenario 1: User Adds a Foreign Key Constraint
 
 A user wants to link records from another table into their current table. Both tables belong to the same schema.
 
@@ -24,7 +24,7 @@ A user wants to link records from another table into their current table. Both t
 - The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
 - The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
 - The user selects the table they wish to link to from the [table selector](#table-selector).
-- A list of questions is displayed, the user can answer 'yes' or 'no' depending on the type of relationship they want to create.
+- A list of questions is displayed. The user can answer 'yes' or 'no' depending on the relationship they want to create.
 - The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
   - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
   - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
@@ -51,7 +51,7 @@ A user wants to link records from another table into their current table. Both t
 #### Steps for Scenario 2a
 
 - The user hovers over the foreign key reference link below the column name.
-- Information about the constraints applied to the column are displayed in a tooltip.
+- Information about the constraints applied to the column is displayed in a tooltip.
 - The user clicks on the foreign key reference link below the column name.
 - Constraint settings open for the column.
 
@@ -70,20 +70,30 @@ A user wants to link records from another table into their current table. Both t
 - The user opens a table that contains columns with a foreign key constraint applied.
 - The user identifies the columns in two ways:
   - The user looks at the column header and sees the foreign key indicator. This indicator shows a key icon and the referenced table and column next to it.
-    - The indicator can be clicked to display the foreign key settings for the specific column.
+    - The user can click the indicator to display the foreign key settings for the specific column.
     - The indicator can be hovered over to display a tooltip with information about the foreign key constraints.
   - The user looks at the column fields and sees that values are added with different styling, a tag-like element with a colored background.
 
 ### The foreign key constraint is set to multiple columns
 
 - The user opens a table that contains columns with a multi-column foreign key constraint applied.
-  - The indicator in this case looks similar to the single-column one, however the user will understand that the foreign key constraints are referencing the same table.
-    - The user can tell that a referenced table is the same because they share the same color. Other UI elements could be used instead of color, however the idea is to create a visual distinction that can be easily scanned.
-  - The indicator can be hovered over to see additional information, from here the user will understand that the constraint references more than one column.
+  - The indicator, in this case, looks similar to the single-column one. However, the user will understand that the foreign key constraints are referencing the same table.
+    - The user can tell that a referenced table is the same because they share the same color. The system could use other UI elements instead of color. Still, the idea is to create a visual distinction that can be easily scanned.
+  - The indicator can be hovered over to see additional information. From here, the user will understand that the constraint references more than one column.
 
 ## User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
 
+- The user opens a table that contains columns with a foreign key constraint applied.
+  - The column contains the referenced values for each cell. The first five fields are displayed.
+    - The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value to be easier to read.
+    - When clicked, the column displays a dropdown containing a pre-filtered list. The visible list items correspond to the linked record.
+
 ## User Edits the Values of a Column With a Foreign Key Constraint Applied
+
+- The user opens a table that contains columns with a foreign key constraint applied.
+  - The column contains the referenced values for each cell.
+    - When clicked, a pre-filtered list is displayed. The dropdown includes a search input, that if modified, will show other matching records. Clicking on any of those records will close the dropdown and replace the existing one.
+    - Note that in the case of multi-column foreign key constraints, the system could modify additional fields.
 
 ### The field is empty
 
