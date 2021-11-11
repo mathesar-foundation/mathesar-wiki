@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-11-05T17:31:08.017Z
+date: 2021-11-10T17:26:24.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -33,6 +33,7 @@ The **community team** contributes to Mathesar's design and development and has 
 | Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) |
 | Colin Powell | `@secstate:matrix.unbl.ink` | `@powellc` | Engineering (backend) |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
+| Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
 
 # Joining the Team
 
