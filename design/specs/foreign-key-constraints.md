@@ -63,9 +63,11 @@ A user wants to link records from another table into their current table. Both t
 - The user can open a specific foreign key constraint form by clicking on the foreign key link in the column header.
 - If the modified FK constraint causes existing column values to become invalid, the user will receive a warning and be aware of the potential implications of this change, like loss of data or broken views.
 
-## User Identifies a Column With a Foreign Key Constraint Applied
+## Scenario 3 : User Identifies a Column With a Foreign Key Constraint Applied
 
-### The foreign key constraint is set to a single column
+### Scenario 3a: The foreign key constraint is set to a single column
+
+#### Steps for Scenario 3a
 
 - The user opens a table that contains columns with a foreign key constraint applied.
 - The user identifies the columns in two ways:
@@ -74,21 +76,31 @@ A user wants to link records from another table into their current table. Both t
     - The indicator can be hovered over to display a tooltip with information about the foreign key constraints.
   - The user looks at the column fields and sees that values are added with different styling, a tag-like element with a colored background.
 
-### The foreign key constraint is set to multiple columns
+### Scenario 3b: The foreign key constraint is set to multiple columns
+
+#### Steps for Scenario 3b
 
 - The user opens a table that contains columns with a multi-column foreign key constraint applied.
   - The indicator, in this case, looks similar to the single-column one. However, the user will understand that the foreign key constraints are referencing the same table.
     - The user can tell that a referenced table is the same because they share the same color. The system could use other UI elements instead of color. Still, the idea is to create a visual distinction that can be easily scanned.
   - The indicator can be hovered over to see additional information. From here, the user will understand that the constraint references more than one column.
 
-## User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
+## Scenario 4: User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
+
+### Scenario 4a: The option for record preview is enabled
+
+#### Steps for Scenario 4a
 
 - The user opens a table that contains columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell. The first five fields are displayed.
     - The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value to be easier to read.
     - When clicked, the column displays a dropdown containing a pre-filtered list. The visible list items correspond to the linked record.
 
-## User Edits the Values of a Column With a Foreign Key Constraint Applied
+### Scenario 4b: The option for record preview is disabled
+
+#### Steps for Scenario 4b
+
+## Scenario 5: User Edits the Values of a Column With a Foreign Key Constraint Applied
 
 - The user opens a table that contains columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell.
