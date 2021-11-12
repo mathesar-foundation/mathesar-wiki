@@ -88,7 +88,7 @@ A user wants to link records from another table into their current table. Both t
 
 ## Scenario 4: User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
 
-In most cases, the values displayed within a foreign key column won't serve to identify the associated record. A preview of the linked record in a column with a foreign key constraint applied can help the user make this identification.
+In most cases, the values displayed within a foreign key column won't serve to identify the associated record. A preview of the linked record in a column with a foreign key constraint applied can help the user identify it.
 
 ### Scenario 4a: The option for record preview is enabled
 
@@ -130,10 +130,27 @@ Linked records can be changed or removed according to the user's preference. Sin
   - An text input field is available within the dropdown to filter the records based on partial or complete value matches. As the user types in a value, the list narrows down the records. The system can search only the first five fields. Search across all types is supported.
   - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
 
+### Scenario 5 Questions
+
+- What if the PK field is not one of the first five fields?
+
 ## Components
 
 ### Record Selector
 
+The record selector component is used to retrieve records from other tables and add them as values to cells according to the referenced column.
+
 ### Table Selector
 
+The table selector allows users to select tables from a schema. This spec doesn't go into details on how this selector would work. It also doesn't consider the scenario for selecting both tables and views.
+
 ### Record Preview
+
+The record preview allows users to identify records linked in other tables. It shows the first five field names and values. A specific limit for the value length needs to be defined so that space usage is optimal.
+
+## Related Discussions
+
+- [Editing values for columns with a foreign key constraint applied](https://github.com/centerofci/mathesar/discussions/796)
+- [Handling duplicate foreign key columns from the 'Link Table' dialog](https://github.com/centerofci/mathesar/discussions/791)
+- [Help users link tables via question-based forms](https://github.com/centerofci/mathesar/discussions/790)
+- [Handling Composite Primary Keys and Junction Tables](https://github.com/centerofci/mathesar/discussions/804)
