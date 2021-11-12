@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2021-11-12T17:05:40.465Z
+date: 2021-11-12T17:33:43.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -24,6 +24,12 @@ We do not pre-plan sprints. Team members are expected to pick up tasks as they h
 - Use the [Backlog view](https://github.com/orgs/centerofci/projects/1/views/3) to find tasks. Milestones are ordered and it's expected that we complete a milestone before going on the next one.
 - See [Issue Assignment](/team/guide/issue-assignment) for the processs of picking up an issue.
 - Design work is usually a milestone or two ahead of backend work, which is usually a milestone or two ahead of frontend work.
+
+## Creating pull requests
+
+- All pull requests should follow the [code review rules](https://wiki.mathesar.org/engineering/code-review).
+- All external contributors need to open an issue first before creating a pull request.
+- Team members are allowed to create PRs for minor changes without a related issue.
 
 ## In case of breaking API changes
 This process is only valid until we have a first user.  Then, it should be reviewed.
