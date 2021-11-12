@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-11-03T20:22:31.173Z
+date: 2021-11-12T17:03:53.074Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -18,6 +18,7 @@ Please follow these guidelines when reviewing PRs.
 - If the reviewer requests changes, please make the changes and **re-request review**.
 - Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
 - If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
+- Please avoid breaking changes to the API.  If they absolutely can't be avoided, please follow the process described [here](/team/guide/workflow#in-case-of-breaking-api-changes).
 
 ## General Advice
 - Commit early, commit often.
