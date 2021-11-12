@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2021-10-23T19:12:46.622Z
+date: 2021-11-12T17:02:07.729Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -25,6 +25,19 @@ We do not pre-plan work. Team members are expected to pick up tasks as they have
 - See [Issue Assignment](/team/issue-assignment) for the processs of picking up an issue.
 - Design work is usually a milestone or two ahead of backend work, which is usually a milestone or two ahead of frontend work.
 
+## In case of breaking API changes
+This process is only valid until we have a first user.  Then, it should be reviewed.
+- Try to implement API changes in ways that do not cause breakage.
+
+In case that's unavoidable:
+
+1. Finish the changes to the API, and open a PR.  This should be well documented, with a clear description of what the breaking changes are.
+2. Contact a front end dev directly, and ask them to look at the PR.
+3. If they're able to make appropriate front end changes easily and quickly, they should do so in the same PR.
+4. If not (i.e., if front end devs are busy, if it's too complicated, or if the back end PR's unmerged state starts to block too many things): merge the PR with a big warning (i.e., a comment @'ing multiple people).
+5. File an urgent bug describing the changes to the back end, and the needed changes to the front end.
+
+
 # Resources
 
 - [Mathesar repository](https://github.com/centerofci/mathesar)
@@ -35,6 +48,7 @@ We do not pre-plan work. Team members are expected to pick up tasks as they have
 - [Mathesar design prototype repository](https://github.com/centerofci/mathesar-design): The design team prototypes upcoming feature designs for Mathesar in this repository.
 - We have forked [sqlalchemy-filters](https://github.com/centerofci/sqlalchemy-filters) to add some functionality.
 - The [Mathesar Wiki](https://wiki.mathesar.org/) (this wiki) is our main knowledge base.
+  - The [Mathesar wiki repository](https://github.com/centerofci/mathesar-wiki) contains a copy of this wiki's content. Updates to the repo will reflect here.
 
 We try and keep our communication public. See:
 - [Meeting Notes](/meeting-notes)
@@ -48,5 +62,6 @@ These resources are only available to the Mathesar core or community team at the
   - The project is only accessible to [Team](/team) members, but all relevant information (such as status, priority, and milestone) should be available on individual issues.
   - We will make this project public as soon as GitHub supports it.
 - The [Mathesar Ansible repository](https://github.com/centerofci/mathesar-ansible) contains a playbook that deploys our staging server.
-- The [Mathesar wiki repository](https://github.com/centerofci/mathesar-wiki) contains a copy of this wiki's content. Updates to the repo will reflect here.
 - The [Mathesar "staging" server](https://staging.mathesar.org/) is a deployed version of the latest `master`. The username and password to access it are located in 1Password.
+- The [Mathesar private notes repository](https://github.com/centerofci/mathesar-private-notes) contains notes that are private to the core team.
+- The [Mathesar scripts repository](https://github.com/centerofci/mathesar-scripts) contains a bunch of random scripts useful for Mathesar workflows.
