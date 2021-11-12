@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2021-11-03T20:44:10.092Z
+date: 2021-11-12T16:43:15.356Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -19,3 +19,4 @@ This page lists other products that solve similar/related problems to what Mathe
 ## Proprietary
 - [Airtable](https://airtable.com/)
 - [SeaTable](https://seatable.io/)
+- [Rows](https://rows.com/)
