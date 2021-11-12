@@ -15,14 +15,14 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 ### Scenario 1: User Adds a Foreign Key Constraint
 
-A user wants to link records from another table into their current table. Both tables belong to the same schema.
+A user wants to link records from another table into their current table. Both tables belong to the same schema. For this purpose, foreign key constraints can be applied to change the relationship between one table and another based on the values of columns of the linked tables.
 
 ### Scenario 1a: Automatically from the 'Link Table' dialog
 
-#### Steps for Scenario 1a
+#### Steps for 1a
 
 - The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
-- The user reads the instructions in the 'Link Table' dialog and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
+- The user reads the instructions presented within the [link table](#link-table) component and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
 - The user selects the table they wish to link to from the [table selector](#table-selector).
 - A list of questions is displayed. The user can answer 'yes' or 'no' depending on the relationship they want to create.
 - The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
@@ -33,22 +33,23 @@ A user wants to link records from another table into their current table. Both t
 
 ### Scenario 1b: Manually from the 'Table Constraints' settings
 
-#### Steps for Scenario 1b
+#### Steps for 1b
 
 - A user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
 - The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
+- This opens a dialog from which the user can set all supported constraint types.
 - The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
 - The list panel contains actions at the bottom of the panel. From there, the user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
 - The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
 - The user selects single or multiple columns they wish to apply the constraint to.
 - The user selects a table to be referenced by these columns.
-- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user understands that a column with unique values is preferred for setting up a foreign key column.
+- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user can select only columns with a UNIQUE or PRIMARY KEY constraint.
 
 ## Scenario 2: User Edits an Existing Foreign Key Constraint
 
 ### Scenario 2a: From the column header menu
 
-#### Steps for Scenario 2a
+#### Steps for 2a
 
 - The user hovers over the foreign key reference link below the column name.
 - Information about the constraints applied to the column is displayed in a tooltip.
@@ -57,17 +58,17 @@ A user wants to link records from another table into their current table. Both t
 
 ### Scenario 2b: From table constraint settings
 
-#### Steps for Scenario 2b
+#### Steps for 2b
 
 - A user wants to edit an existing foreign key constraint to change the selected columns or select another referenced table.
 - The user can open a specific foreign key constraint form by clicking on the foreign key link in the column header.
 - If the modified FK constraint causes existing column values to become invalid, the user will receive a warning and be aware of the potential implications of this change, like loss of data or broken views.
 
-## Scenario 3 : User Identifies a Column With a Foreign Key Constraint Applied
+## Scenario 3: User Identifies a Column With a Foreign Key Constraint Applied
 
 ### Scenario 3a: The foreign key constraint is set to a single column
 
-#### Steps for Scenario 3a
+#### Steps for 3a
 
 - The user opens a table that contains columns with a foreign key constraint applied.
 - The user identifies the columns in two ways:
@@ -78,7 +79,7 @@ A user wants to link records from another table into their current table. Both t
 
 ### Scenario 3b: The foreign key constraint is set to multiple columns
 
-#### Steps for Scenario 3b
+#### Steps for 3b
 
 - The user opens a table that contains columns with a multi-column foreign key constraint applied.
   - The indicator, in this case, looks similar to the single-column one. However, the user will understand that the foreign key constraints are referencing the same table.
@@ -87,30 +88,52 @@ A user wants to link records from another table into their current table. Both t
 
 ## Scenario 4: User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
 
+In most cases, the values displayed within a foreign key column won't serve to identify the associated record. A preview of the linked record in a column with a foreign key constraint applied can help the user make this identification.
+
 ### Scenario 4a: The option for record preview is enabled
 
-#### Steps for Scenario 4a
+#### Steps for 4a
 
 - The user opens a table that contains columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell. The first five fields are displayed.
     - The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value to be easier to read.
-    - When clicked, the column displays a dropdown containing a pre-filtered list. The visible list items correspond to the linked record.
+    - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
 
 ### Scenario 4b: The option for record preview is disabled
 
-#### Steps for Scenario 4b
+- The user opens a table that has columns with a foreign key constraint applied.
+  - The column contains the primary key value for the referenced column only.
+  - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+
+#### Steps for 4b
 
 ## Scenario 5: User Edits the Values of a Column With a Foreign Key Constraint Applied
 
-- The user opens a table that contains columns with a foreign key constraint applied.
+Linked records can be changed or removed according to the user's preference. Since values are references to records in other tables, users must understand that changes to references don't affect the original records. However, changes to the values of records in the referenced table do.
+
+### Scenario 5a: The field has an existing value
+
+#### Steps for 5a
+
+- The user opens a table that has columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell.
-    - When clicked, a pre-filtered list is displayed. The dropdown includes a search input, that if modified, will show other matching records. Clicking on any of those records will close the dropdown and replace the existing one.
-    - Note that in the case of multi-column foreign key constraints, the system could modify additional fields.
+  - When clicked, a pre-filtered list is displayed inside the [record selector](#record-selector) component. The dropdown includes a search input, that if modified, will show other matching records. Clicking on any of those records will close the dropdown and replace the existing one.
+  - Note that in the case of multi-column foreign key constraints, the system could modify additional fields.
 
-### The field is empty
+### Scenario 5b: The field is empty
 
-### The field contains a value
+#### Steps for 5b
+
+- The user opens a table that has columns with a foreign key constraint applied.
+  - The column contains no values.
+  - When clicked, a list of records is displayed inside the [record selector](#record-selector) component. The list shows the first 50 records.
+  - An text input field is available within the dropdown to filter the records based on partial or complete value matches. As the user types in a value, the list narrows down the records. The system can search only the first five fields. Search across all types is supported.
+  - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
 
 ## Components
 
+### Record Selector
+
 ### Table Selector
+
+### Record Preview
