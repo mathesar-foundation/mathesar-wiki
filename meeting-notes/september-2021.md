@@ -2,7 +2,7 @@
 title: September 2021 meeting notes
 description: 
 published: true
-date: 2021-10-23T18:52:39.946Z
+date: 2021-11-13T19:15:59.927Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-01T12:10:46.346Z
@@ -133,7 +133,7 @@ Current process: Kriti making tickets
     - Completed (since last standup)
     - Active (actively worked on, not everything in queue)
     - Dependencies
-- [Issue triage wiki page](/team/issue-triage)
+- [Issue triage wiki page](/team/guide/issue-triage)
 - Weekly planning format and GitHub workflow is working very well
 
 ### Communication
