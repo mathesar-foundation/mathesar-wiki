@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2021-11-05T16:14:52.495Z
+date: 2021-11-13T19:16:55.251Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -71,7 +71,7 @@ US employees have the following benefits:
 
 ## How to Apply
 
-Please fill out [this application form](https://airtable.com/shryyUvgPQD8O2xXP).
+~~Please fill out this application form.~~
 
 You are also welcome to [join our community](https://wiki.mathesar.org/community) and ask any questions you might have or [contribute to the project](https://wiki.mathesar.org/community/contributing).
 
