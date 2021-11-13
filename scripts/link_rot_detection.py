@@ -17,6 +17,7 @@ SKIP_LINKS = {
     "http://matrix.mathesar.org/",
     "https://staging.mathesar.org/",
     "https://github.com/centerofci/mathesar-ansible",
+    "https://github.com/centerofci/mathesar-private-notes",
     "https://github.com/centerofci/mathesar-scripts",
     "https://github.com/centerofci/mathesar-wiki",
     "https://github.com/orgs/centerofci/projects/1",
