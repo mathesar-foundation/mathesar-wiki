@@ -9,7 +9,21 @@ dateCreated: 2021-10-19T09:20:55.088Z
 ---
 ## Context
 
+This spec describes the design solution for [Usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
+
 ## Prototype Link and Video Walkthrough
+
+### Prototype
+
+[Prototype Link](https://mathesar-prototype.netlify.app/)
+
+### Videos
+
+- Scenario 1: <https://www.loom.com/share/def72e9ff7754b9e833c18dbdf9958c7>
+- Scenario 2: <https://www.loom.com/share/6aeeb12f776f4307beca97057ff60c48>
+- Scenario 3: <https://www.loom.com/share/d2cf81ac75ce47e8941669720ecc28e9>
+- Scenario 4: <https://www.loom.com/share/be12a128b41d443281babab0ccbcd112>
+- Scenario 5: <https://www.loom.com/share/9b5ab511981e4850acd7453fc907c81b>
 
 ## Scenarios
 
@@ -17,7 +31,7 @@ dateCreated: 2021-10-19T09:20:55.088Z
 
 A user wants to link records from another table into their current table. Both tables belong to the same schema. For this purpose, foreign key constraints can be applied to change the relationship between one table and another based on the values of columns of the linked tables.
 
-### Scenario 1a: Automatically from the 'Link Table' dialog
+### Scenario 1a: Automatically adding foreign key constraints from the 'Link Table' dialog
 
 #### Steps for 1a
 
