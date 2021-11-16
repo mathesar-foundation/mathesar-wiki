@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2021-11-10T17:26:24.901Z
+date: 2021-11-16T04:55:44.267Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -22,6 +22,7 @@ The **core team** maintains the project.
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering (frontend) |
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering (backend) |
 | Mukesh Murali | `@mukesh:matrix.mathesar.org` | `@silentninja` | Engineering (backend) |
+| Dominykas Mostauskis | `@dominykas:matrix.mathesar.org` | `@dmos62` | Engineering (backend) |
 
 ## Community Team
 The **community team** contributes to Mathesar's design and development and has write access to the `mathesar` repository and wiki.
