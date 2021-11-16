@@ -2,7 +2,7 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2021-05-11T19:51:15.105Z
+date: 2021-11-16T22:08:29.461Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z
@@ -31,7 +31,7 @@ To avoid duplicating data, we encourage users to set up many small tables that a
 ## Views
 Views are the result of a stored SQL query on the data stored in tables. Views can involve combining data from multiple tables, filtering, sorting, aggregating (grouping), and so on.
 
-We expect that most users will work with data in views more often than working directly with tables, since users will probably want to see related data from across tables easily.
+See [Views](/product/concepts/views) for more details.
 
 ## Data Types
 Each column in a table has an associated data type, which defines the type of data that can be stored.
