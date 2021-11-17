@@ -2,13 +2,13 @@
 title: Weekly Discussion
 description: About the weekly planning discussion
 published: true
-date: 2021-10-23T19:18:46.631Z
+date: 2021-11-17T23:08:19.963Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:53.002Z
 ---
 
-Each Tuesday, we start a discussion on [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) to review Mathesar's progress, provide updates to the community, and to check in about our process and workload. Everyone is welcome to add a new topic to discuss or to comment on existing topics.
+Each week (usually on Tuesday), we start a discussion on [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) to review Mathesar's progress, provide updates to the community, and to check in about our process and workload. Everyone is welcome to add a new topic to discuss or to comment on existing topics.
 
 Core team members are required to participate, others are welcome.
 
