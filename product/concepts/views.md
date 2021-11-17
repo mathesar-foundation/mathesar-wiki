@@ -2,7 +2,7 @@
 title: Views
 description: About Views in Mathesar
 published: true
-date: 2021-11-16T22:07:54.178Z
+date: 2021-11-17T19:16:21.920Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T22:07:54.178Z
@@ -57,7 +57,7 @@ In order to track the data necessary to answer these questions,  here's a possib
 | 97 | 33 | 83 | 
 | .. | .. | .. |
 
-#### Movie Watches
+#### Movie Watch
 | ID | Movie ID | Date |
 |-|-|-|
 | 91 | 13 | 2021-10-13 |
