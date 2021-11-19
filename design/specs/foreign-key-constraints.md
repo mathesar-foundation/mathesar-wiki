@@ -42,6 +42,7 @@ A user wants to link records from another table into their current table. Both t
 - The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
   - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
   - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
+  - Answering 'no' to both questions will set a unique constraint on a new column so that each record can only be linked to another unique record from the other table, creating a one-to-one relationship.
 - Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.'
 - Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should display an inline warning and prevent saving.
 
