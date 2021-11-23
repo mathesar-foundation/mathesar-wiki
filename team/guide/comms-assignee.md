@@ -2,7 +2,7 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-11-17T23:28:17.454Z
+date: 2021-11-23T22:40:36.983Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
@@ -14,13 +14,13 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 
 | Week | Person |
 |-|-|
-| Nov 15 to Nov 19 | Brent |
 | Nov 22 to Nov 26 | Kriti |
 | Nov 29 to Dec 3 | Pavish |
 | Dec 6 to Dec 10 | Mukesh |
 | Dec 13 to Dec 17 | Sean |
 | Dec 20 to Dec 24 | Dominykas |
 | Dec 27 to Dec 31 | Ghislaine |
+| Jan 3 to Jan 7 | Brent |
 
 ## Purpose
 
