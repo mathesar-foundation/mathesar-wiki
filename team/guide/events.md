@@ -2,7 +2,7 @@
 title: Team Events
 description: 
 published: true
-date: 2021-11-03T21:03:44.499Z
+date: 2021-11-23T22:47:11.213Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T21:03:44.499Z
@@ -16,6 +16,7 @@ Previous events have included:
 - Playing trivia competitively (in teams) on [Sporcle](https://www.sporcle.com/).
 - Playing an online escape room together.
 - Playing an online drawing/guessing game on [skribbl](https://skribbl.io/).
+- A murder mystery roleplay event.
 
 ## Ideas for future events
 - Informaal presentations about topics we know well (non-work related) or things we like.
