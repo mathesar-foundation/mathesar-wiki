@@ -43,7 +43,7 @@ A user wants to link records from another table into their current table. Both t
   - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
   - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column is added to the table on the 'many' side of the relationship.
   - Answering 'no' to both questions will set a unique constraint on a new column so that each record can only be linked to another unique record from the other table, creating a one-to-one relationship.
-- Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.'
+- Once questions are answered,  a summary of the system's changes is displayed in a section titled 'Under the Hood.' At the same time, a diagram illustrating the structure of the new relationship is displayed next to the questions.
 - Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should display an inline warning and prevent saving.
 
 ### Scenario 1b: Manually from the 'Table Constraints' settings
@@ -110,9 +110,14 @@ In most cases, the values displayed within a foreign key column won't serve to i
 #### Steps for 4a
 
 - The user opens a table that contains columns with a foreign key constraint applied.
-  - The column contains the referenced values for each cell. The first five fields are displayed.
-    - The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value to be easier to read.
-    - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+  - The column contains the referenced values for each cell. Five fields are displayed.
+    - The displayed fields from the reference table are prioritized applying the following criteria:
+      - They have unique values, meaning that either a primary key, foreign key or unique constraint are applied to the column.
+      - They have a text data type.
+    - If the user wants to show specific fields, these can be selected in the referenced table options under the 'Table Preferences' option. 
+
+- The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value so that it is easier to read.
+- When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
 
 ### Scenario 4b: The option for record preview is disabled
 
