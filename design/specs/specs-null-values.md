@@ -8,9 +8,21 @@ editor: markdown
 dateCreated: 2021-11-25T09:00:00.201Z
 ---
 
-## Handling NULL Values
+## Context
 
 NULL values are used to indicate that a value does not exist in a database. It is important to make it clear to users that NULL is not the same as blank or zero. Ideally, we want users to think of NULL values as placeholders for unknown or missing values that are applicable.
+
+## Prototype
+
+### Link
+
+[Prototype](https://mathesar-prototype.netlify.app/?activeTable=2)
+
+### Videos
+
+- Scenario 1: [Video](https://www.loom.com/share/527224982d534a2db082359360147ad4)
+- Scenario 2: [Video](https://www.loom.com/share/7de3c90af3d74ac195397c643f318867)
+- Scenario 3: [Video](https://www.loom.com/share/7ea4ca9fe3e14acdbffac5ea8e77e760)
 
 ## User Experience
 
