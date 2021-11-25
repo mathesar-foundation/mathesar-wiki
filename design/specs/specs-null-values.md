@@ -118,3 +118,7 @@ As for the process of transforming values to and from NULL, it will be important
         - An error message indicates to the user that a NOT NULL constraint is applied to the column, and the system cannot insert NULL values
     - By opening the contextual menu and selecting the 'Set as NULL' option
         - The 'Set as NULL' option is disabled, and the user cannot select it
+
+## Related Discussions
+
+- [UX for NULL Values](https://github.com/centerofci/mathesar/discussions/832)
