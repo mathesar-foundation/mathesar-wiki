@@ -168,6 +168,14 @@ The table selector allows users to select tables from a schema. This spec doesn'
 
 The record preview allows users to identify records linked in other tables. It shows the first five field names and values. A specific limit for the value length needs to be defined so that space usage is optimal.
 
+## Other Considerations
+
+### Search Columns
+
+- Some primary key columns would be useful, some very not useful (e.g., the one we create). Text helps with this, but there may also be other considerations.
+- Multi-column unique constraints are potentially useful, but only if all columns are included.
+- Non-unique columns are never useful unless a unique column is included (that gives info for the user to choose between rows with duplicate entries in non-unique columns).
+
 ## Related Discussions
 
 - [Editing values for columns with a foreign key constraint applied](https://github.com/centerofci/mathesar/discussions/796)
