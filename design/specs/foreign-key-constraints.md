@@ -19,6 +19,10 @@ This spec describes the design solution for [Usage of Foreign Key constraints](h
 
 ### Videos
 
+- All Scenarios (LATEST): <https://www.loom.com/share/725945b7cc074b7ebc42f62bdd5f325e>
+
+----
+
 - Scenario 1: <https://www.loom.com/share/def72e9ff7754b9e833c18dbdf9958c7>
 - Scenario 2: <https://www.loom.com/share/6aeeb12f776f4307beca97057ff60c48>
 - Scenario 3: <https://www.loom.com/share/d2cf81ac75ce47e8941669720ecc28e9>
