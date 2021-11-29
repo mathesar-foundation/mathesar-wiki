@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-05-28T12:17:42.698Z
+date: 2021-11-29T23:23:44.820Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -58,8 +58,23 @@ We do want to keep our APIs sensible, so pragmatically, we may eventually need t
 - Keys should not contain values, they should always be a string description of the value.
 
 ## Errors
-- Error responses should return the appropriate status code and an error message describing the error.
-- We should follow the default Django REST Framework error conventions.
+- The response status code should be 4xx when the error is handled, with 400 being the default.
+- The response body should always be JSON.
+- The error message should be formatted in one or more sentences, ending with a period and having no trailing spaces.
+- Errors should have a Mathesar-specific integer error code to identify the error.
+- We should strive to make each error message unique to its situation.
+- Untrusted user input _is_ allowed inside error messages. Care should be taken to appropriately escape error messages when printing them in various contexts, as all error messages should be presumed to contain potentially malicious content.
+- API error messages should be written primarily for an audience of Mathesar developers. The front end will typically print user-targeted error messages first, followed by the API error message if appropriate.
+- Errors should follow the following format with `details` providing the error message, `error_code` providing the Mathesar-specific error code, and `field` providing the name of the field the error is related to. `field` can be `null` if the error is not related to a field.
+
+```javascript
+{
+    "details": "This is an error message.",
+    "error_code": "2045",
+    "field": "name",
+}
+```
+- API responses can return either a single error, which is a JSON object following the format above or a list of errors, which is a JSON array JSON objects following the same format. For example, if the API receives a `PATCH` request where several fields have invalid input, it will return a list of errors with each field-specific error specified.
   
 ## Pagination
 - We use limit/offset style pagination for all API endpoints.
