@@ -19,15 +19,16 @@ This spec describes the design solution for [Usage of Foreign Key constraints](h
 
 ### Videos
 
-- All Scenarios (LATEST): <https://www.loom.com/share/725945b7cc074b7ebc42f62bdd5f325e>
-
 ----
 
-- Scenario 1: <https://www.loom.com/share/def72e9ff7754b9e833c18dbdf9958c7>
-- Scenario 2: <https://www.loom.com/share/6aeeb12f776f4307beca97057ff60c48>
-- Scenario 3: <https://www.loom.com/share/d2cf81ac75ce47e8941669720ecc28e9>
-- Scenario 4: <https://www.loom.com/share/be12a128b41d443281babab0ccbcd112>
-- Scenario 5: <https://www.loom.com/share/9b5ab511981e4850acd7453fc907c81b>
+- Scenario 1: <https://www.loom.com/share/01fb12b24f0e4270822da212622a8844>
+- Scenario 2: <https://www.loom.com/share/87fce49545c744d1b475693b7d43c2bf>
+- Scenario 3: <https://www.loom.com/share/e43763b172e449fa9fddff25b311123f>
+- Scenario 4: <https://www.loom.com/share/6deed11141f34c4ba495c4adb7117982>
+- Scenario 5: <https://www.loom.com/share/b90ee712055a4a9cb24a499f943c0bbe>
+- Scenario 6: <https://www.loom.com/share/4b617af642244946be965d609b1aed99>
+
+----
 
 ## Scenarios
 
@@ -40,7 +41,7 @@ A user wants to link records from another table into their current table. Both t
 #### Assumptions for 1a
 
 - The user is not familiar with the concept of foreign keys.
-- The user has created tables within Mathesar, where the ID column is automatically generated and set as primary key.
+- The user has created tables within Mathesar, where the ID column is automatically generated and sent as the primary key.
 
 #### Steps for 1a
 
@@ -59,7 +60,7 @@ A user wants to link records from another table into their current table. Both t
 
 #### Assumptions for 1b
 
-- The user is somewhat if not entirely familiar with the concept of foreign keys.
+- The user is not familiar with the concept of foreign keys.
 
 #### Steps for 1b
 
@@ -73,19 +74,20 @@ A user wants to link records from another table into their current table. Both t
 - The user selects a table to be referenced by these columns.
 - The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user can select only columns with a UNIQUE or PRIMARY KEY constraint.
 
-## Scenario 2: User Edits an Existing Foreign Key Constraint
+## Scenario 2: User Drops an Existing Foreign Key Constraint
 
 ### Scenario 2a: From table constraint settings
 
 #### Assumptions for 2a
 
-- This scenario assumes that foreign keys will be updated, rather than dropped and replaced. This implementation detail is still pending discussion.
+- This scenario assumes that the system will not update foreign keys. The process to edit a foreign key will be to drop it and replace it.
 
 #### Steps for 2a
 
-- A user wants to edit an existing foreign key constraint to change the selected columns or select another referenced table.
-- The user can open a specific foreign key constraint form by clicking on the foreign key link in the column header.
-- If the modified FK constraint causes existing column values to become invalid, the user will receive a warning and be aware of the potential implications of this change, like loss of data or broken views.
+- A user wants to edit an existing foreign key constraint to change the referring column or select another referenced table.
+- The user can view the details for an existing foreign key constraint by clicking on the 'Table Constraints' option in the table menu.
+- From the list of constraints, the user selects the constraint for which they want to see details.
+- The user deletes the selected constraint.
 
 ## Scenario 3: User Identifies a Column With a Foreign Key Constraint Applied
 
@@ -113,7 +115,7 @@ A user wants to link records from another table into their current table. Both t
 
 In most cases, the values displayed within a foreign key column won't serve to identify the associated record. A preview of the linked record in columns with a foreign key constraint can help the user identify it.
 
-By default, the preview will include columns based on certain criteria, such as constraints applied or data type. However, users will be able to change these by updating the reference table preferences.
+By default, the preview will include columns based on specific criteria, such as constraints applied or data type. However, users will be able to change these by updating the reference table preferences.
 
 ### Scenario 4a: The option for record preview is enabled
 
@@ -122,12 +124,13 @@ By default, the preview will include columns based on certain criteria, such as 
 - The user opens a table that contains columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell. Five fields are displayed.
     - The displayed fields from the reference table are prioritized applying the following criteria:
-      - They have unique values, meaning that either a primary key, foreign key or unique constraint are applied to the column.
+      - They have unique values, meaning that either a primary key, foreign key, or unique constraint are applied to the column.
       - They have a text data type.
-    - If the user wants to show specific fields, these can be selected in the referenced table options under the 'Table Preferences' option. 
+    - If the user wants to show specific fields, these can be selected in the referenced table options under the 'Table Preferences' option.
 
 - The displayed fields are presented as concatenated values. Visual contrast is created between the field name and its corresponding value so that it is easier to read.
 - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+- The user can disable the record preview by opening the 'Table Link' preferences from the column header menu and unchecking the 'Show Record Preview' option.
 
 ### Scenario 4b: The option for record preview is disabled
 
@@ -136,6 +139,7 @@ By default, the preview will include columns based on certain criteria, such as 
 - The user opens a table that has columns with a foreign key constraint applied.
   - The column contains the primary key value for the referenced column only.
   - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+- The user can enable the record preview by opening the 'Table Link' preferences from the column header menu and checking the 'Show Record Preview' option.
 
 ## Scenario 5: User Edits the Values of a Column With a Foreign Key Constraint Applied
 
@@ -160,7 +164,19 @@ Linked records can be changed or removed according to the user's preference. Sin
   - An text input field is available within the dropdown to filter the records based on partial or complete value matches. As the user types in a value, the list narrows down the records. The system can search only the first five fields. Search across all types is supported.
   - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
   - If the table contains no records, the user sees an option to add a record.
-  - If there aren't any matches, the user sees an option to add a record for the new entered value or to try changing the 'Search Columns' table preference.
+  - If there aren't any matches, the user sees an option to add a record for the newly entered value or try changing the 'Search Columns' table preference.
+
+## Scenario 6: User changes the table link preferences
+
+### Scenario 6a: From the column menu
+
+- The user opens the column menu for a column that has a foreign key constraint applied
+- The user clicks on the 'Table Link Preferences' option
+
+### Scenario 6b: From the record selector menu
+
+- The user opens the column menu for a column that has a foreign key constraint applied
+- The user clicks on the preferences link
 
 ## Components
 
@@ -178,19 +194,13 @@ The record preview allows users to identify records linked in other tables. It s
 
 ## Other Considerations
 
-### Search Columns
-
-- Some primary key columns would be useful, some very not useful (e.g., the one we create). Text helps with this, but there may also be other considerations.
-- Multi-column unique constraints are potentially useful, but only if all columns are included.
-- Non-unique columns are never useful unless a unique column is included (that gives info for the user to choose between rows with duplicate entries in non-unique columns).
-
 ### Linked Records for Multi-Column Foreign Key Constraints
 
-- The current UI does not take into account multi-column foreign key constraints and how those would be retrieved and selected.
+- The current UI does not consider multi-column foreign key constraints and how those would be retrieved and selected.
 
 ### Usage of Color
 
-- A suggestion to use color as a means to differentiate table references has been included in this spec. However, there are implementation details which need to be discussed before a decision can be made.
+- A suggestion to use color as a means to differentiate table references has been included in this spec. However, there are implementation details that need to be discussed before the team can make a decision.
 
 ## Related Discussions
 
