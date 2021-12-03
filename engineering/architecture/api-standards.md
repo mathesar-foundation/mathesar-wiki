@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-11-30T01:22:24.167Z
+date: 2021-12-03T22:15:42.485Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -65,16 +65,21 @@ We do want to keep our APIs sensible, so pragmatically, we may eventually need t
 - We should strive to make each error message unique to its situation.
 - Untrusted user input _is_ allowed inside error messages. Care should be taken to appropriately escape error messages when printing them in various contexts, as all error messages should be presumed to contain potentially malicious content.
 - API error messages should be written primarily for an audience of Mathesar developers. The front end will typically print user-targeted error messages first, followed by the API error message if appropriate.
-- Errors should adhere to the following format, with `details` providing the error message, `error_code` providing the Mathesar-specific error code, and `field` providing the name of the field the error is related to. `field` can be `null` if the error is not related to a field.
-
+- Error representations should have the following keys:
+   - `message`: The error message, in English.
+   - `error_code`: A Mathesar-specifc integer error code. We will create a separate spec for a list of error codes and what they mean. This page will be updated to link to it when ready.
+   - `field`: The field that the error is related to. It can be `null`
+   - `details`: Any additional details. This is a JSON object with arbitrary keys with details specific to a given error. It can be an empty object if there are no relevant details.
 ```javascript
 {
-    "details": "This is an error message.",
+    "message": "This is an error message.",
     "error_code": "2045",
     "field": "name",
+    "details": {"failed_ids": [1, 2, 3, 4]}
 }
 ```
-- API responses can return either a single error (which is a JSON object following the format above), or a list of errors (which is a JSON array of objects following the same format). For example, if the API receives a `PATCH` request where several fields have invalid input, it will return a list of errors with each field-specific error specified.
+- To keep responses consistent and easy to parse, API responses should always return a list of errors (a JSON array of objects following the above format), even if there's only a single error.
+  - There are some instances where the API will return multiple errors. For example, the API may receive a `PATCH` request where several fields have invalid input, it will then return a list of errors with each field-specific error specified.
   
 ## Pagination
 - We use limit/offset style pagination for all API endpoints.
