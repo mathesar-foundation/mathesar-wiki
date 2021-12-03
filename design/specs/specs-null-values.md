@@ -20,9 +20,9 @@ NULL values indicate that a value does not exist in a database. It is important 
 
 ### Videos
 
-- Scenario 1: [Video](https://www.loom.com/share/527224982d534a2db082359360147ad4)
-- Scenario 2: [Video](https://www.loom.com/share/7de3c90af3d74ac195397c643f318867)
-- Scenario 3: [Video](https://www.loom.com/share/7ea4ca9fe3e14acdbffac5ea8e77e760)
+- Scenario 1  [Video](https://www.loom.com/share/b12f7634961e4cf29e258d2e46f2a7be)
+- Scenario 2: [Video](https://www.loom.com/share/bd127b3214794cd5bf22a146a1ea7ae8)
+- Scenario 3: [Video](https://www.loom.com/share/c998551736104417ac671b5d556f3365)
 
 ## User Experience
 
