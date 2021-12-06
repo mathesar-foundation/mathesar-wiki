@@ -64,20 +64,21 @@ As for the process of transforming values to and from NULL, it will be important
 ##### Steps for 2a
 
 1. The user edits a NULL value in a column that is set to text data type
-2. The user double-clicks the value cell and enters edit mode
+2. The user double-clicks the value cell to enter edit mode
 3. The user enters a value and leaves edit mode by pressing the enter key or clicking outside of the active cell
 4. The NULL value is replaced by the new value
 
-#### Scenario 2b: The data type is text, and the value is empty
+#### Scenario 2b: The data type is text, and the value is cleared
 
 #### Steps for 2b
 
 1. The user edits a NULL value in a column that is set to text data type
-2. The user double-clicks the value cell and enters edit mode
-3. The user sees a text input with a placeholder containing the word 'NULL.'
-4. The user doesn't enter a value, and the value replaces the placeholder text
-5. The user deletes the new value and leaves edit mode by hitting enter or clicking outside of the active cell
-6. The NULL value is replaced by an empty string
+2. The user double-clicks the value cell to enter edit mode
+3. In edit-mode, a text input box is displayed with a placeholder set to 'NULL'
+4. The user types in a value and the placeholder text is replaced by the new typed-in value
+5. The user clears the new value by hitting the backspace key until the value is completely cleared
+6. The user exits edit-mode
+7. The NULL value is replaced by an empty string and the cell is blank
 
 #### Scenario 2c: The data type is boolean with checkbox display enabled
 
