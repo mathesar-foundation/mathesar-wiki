@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-12-09T21:45:23.050Z
+date: 2021-12-09T21:46:11.019Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -15,7 +15,7 @@ Mathesar is an open source project that provides an intuitive user interface to 
 Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
 
 - [:question: About Mathesar *More about the project*](/product/about)
-- [:busts_in_silhouette: Community *Join our community*](/community)
+- [:busts_in_silhouette: Community *How to participate in our community forums*](/community)
 - [:spiral_notepad: About the Wiki *More about this wiki*](/about-the-wiki)
 {.links-list}
 
