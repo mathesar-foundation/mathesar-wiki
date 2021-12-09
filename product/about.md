@@ -2,7 +2,7 @@
 title: About Mathesar
 description: 
 published: true
-date: 2021-12-09T22:32:22.698Z
+date: 2021-12-09T22:44:27.272Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T00:42:34.804Z
@@ -38,4 +38,5 @@ Mathesar's goal is to be an infrastructural tool for anyone who works with infor
 
 ## Further reading
 - [Tool Category Exploration *Report on initial research towards defining Mathesar's scope*](/design/reports/tool-category)
+- [Product Concepts *Concepts in Mathesar*](/product/concepts)
 {.links-list}
