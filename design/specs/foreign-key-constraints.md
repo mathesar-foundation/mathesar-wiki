@@ -163,8 +163,7 @@ Linked records can be changed or removed according to the user's preference. Sin
   - When clicked, a list of records is displayed inside the [record selector](#record-selector) component. The list shows the first 50 records.
   - An text input field is available within the dropdown to filter the records based on partial or complete value matches. As the user types in a value, the list narrows down the records. The system can search only the first five fields. Search across all types is supported.
   - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
-  - If the table contains no records, the user sees an option to add a record.
-  - If there aren't any matches, the user sees an option to add a record for the newly entered value or try changing the 'Search Columns' table preference.
+  - If there aren't any matches, a suggestion to change the 'Search Columns' table preference is displayed.
 
 ## Scenario 6: User changes the table link preferences
 
@@ -196,11 +195,11 @@ The record preview allows users to identify records linked in other tables. It s
 
 ### Linked Records for Multi-Column Foreign Key Constraints
 
-- The current UI does not consider multi-column foreign key constraints and how those would be retrieved and selected.
+- The current UI does not consider multi-column foreign key constraints and how those would be retrieved and selected. Record search and selection through the dropdown component will not be supported, instead the cells will be limited to input and edit of text values. The text values will have to match the primary keys of the referenced records and be unique.
 
 ### Usage of Color
 
-- A suggestion to use color as a means to differentiate table references has been included in this spec. However, there are implementation details that need to be discussed before the team can make a decision.
+- A suggestion to use color as a means to differentiate table references has been included in this spec. However, there are implementation details that need to be discussed before deciding if color will be used to create visual connection between elements.
 
 ## Related Discussions
 
