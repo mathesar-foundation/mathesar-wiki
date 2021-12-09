@@ -41,13 +41,14 @@ A user wants to link records from another table into their current table. Both t
 #### Assumptions for 1a
 
 - The user is not familiar with the concept of foreign keys.
-- The user has created tables within Mathesar, where the ID column is automatically generated and sent as the primary key.
+- The user has at least two tables with primary key constraints set.
 
 #### Steps for 1a
 
 - The user starts the 'Link Table' process by clicking on the 'Link Table' button in the table toolbar area.
 - The user reads the instructions presented within the [link table](#link-table) component and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
 - The user selects the table they wish to link to from the [table selector](#table-selector).
+  - Only tables that have a primary key constraint will allow selection. Tables that don't have a primary key constraint will still be listed, but shown with a warning.
 - A list of questions is displayed. The user can answer 'yes' or 'no' depending on the relationship they want to create.
 - The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
   - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
