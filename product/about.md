@@ -1,8 +1,8 @@
 ---
-title: What is Mathesar?
+title: About Mathesar
 description: 
 published: true
-date: 2021-12-09T21:20:30.306Z
+date: 2021-12-09T21:20:44.609Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T00:42:34.804Z
