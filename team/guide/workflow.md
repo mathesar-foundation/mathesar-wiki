@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2021-11-12T17:33:43.599Z
+date: 2021-12-09T08:41:38.078Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -38,10 +38,11 @@ This process is only valid until we have a first user.  Then, it should be revie
 In case that's unavoidable:
 
 1. Finish the changes to the API, and open a PR.  This should be well documented, with a clear description of what the breaking changes are.
-2. Contact a front end dev directly, and ask them to look at the PR.
-3. If they're able to make appropriate front end changes easily and quickly, they should do so in the same PR.
-4. If not (i.e., if front end devs are busy, if it's too complicated, or if the back end PR's unmerged state starts to block too many things): merge the PR with a big warning (i.e., a comment @'ing multiple people).
-5. File an urgent bug describing the changes to the back end, and the needed changes to the front end.
+2. Contact a front end dev directly, and ask them to look at the PR.  At this point, they should just assess whether the needed front end changes are quick, easy, and feasible with a short turnaround time.
+3. Go through the normal review process for the back end code and API form to the point where all are happy with the API response format.
+4. If the front end devs are able to make appropriate front end changes easily and quickly, they should do so in the same PR.
+5. If not (i.e., if front end devs are busy, if it's too complicated, or if the back end PR's unmerged state starts to block too many things): merge the PR with a big warning (i.e., a comment @'ing multiple people).
+6. File an urgent bug describing the changes to the back end, and the needed changes to the front end.
 
 
 # Resources
