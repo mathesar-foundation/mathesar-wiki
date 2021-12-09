@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-12-09T21:14:30.169Z
+date: 2021-12-09T21:15:07.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-16T14:07:42.267Z
 
 # Welcome
 
-Mathesar is an open source project that provides an intuitive user interface to PostgreSQL databases. We'd like to make it easy for non-technical users to work with databases without any pre-existing knowledge of database concepts.
+Mathesar is an open source project that provides an intuitive user interface to PostgreSQL databases. We'd like to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
 Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
 
