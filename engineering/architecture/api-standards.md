@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-12-03T22:15:42.485Z
+date: 2021-12-12T01:58:31.014Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -68,7 +68,7 @@ We do want to keep our APIs sensible, so pragmatically, we may eventually need t
 - Error representations should have the following keys:
    - `message`: The error message, in English.
    - `error_code`: A Mathesar-specifc integer error code. We will create a separate spec for a list of error codes and what they mean. This page will be updated to link to it when ready.
-   - `field`: The field that the error is related to. It can be `null`
+   - `field`: The request field that the error is related to. This should be identical to a field name in the originating request. It can be `null`
    - `details`: Any additional details. This is a JSON object with arbitrary keys with details specific to a given error. It can be an empty object if there are no relevant details.
 ```javascript
 {
@@ -85,5 +85,7 @@ We do want to keep our APIs sensible, so pragmatically, we may eventually need t
 - We use limit/offset style pagination for all API endpoints.
 - All list APIs should include pagination information for consistency, even if there is only one page of results.
 
-# Acknowledgements
-Many of these standards were borrowed from the [White House Web API Standards](https://github.com/WhiteHouse/api-standards).
+# Resources
+- Related discussions:
+  - ["Define common error structure" on GitHub](https://github.com/centerofci/mathesar/issues/560)
+- Many of these standards were borrowed from the [White House Web API Standards](https://github.com/WhiteHouse/api-standards).
