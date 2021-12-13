@@ -10,7 +10,7 @@ dateCreated: 2021-11-25T09:00:00.201Z
 
 ## Context
 
-`NULL` values indicate that a value does not exist in a database. It is important to clarify that `NULL` is not the same as blank or zero. Ideally, we want users to think of `NULL` values as placeholders for unknown or missing values that are applicable.
+A `NULL` value indicates that a value does not exist in a database. It is important to clarify that `NULL` is not the same as blank or zero. Ideally, we want users to think of `NULL` values as placeholders for unknown or missing values applicable otherwise.
 
 ## Prototype
 
@@ -57,38 +57,46 @@ As for the process of transforming values to and from `NULL`, it will be importa
     - The text has a muted text color
     - The text has a different font style (italic)
 
+#### Scenario 1c: The user identifies a `NULL` value in a boolean type column in checkbox display mode
+
+##### Steps for 1c
+
+1. The user opens a table that contains `NULL` values.
+2. The user identifies a cell that contains an indeterminate state checkbox.
+3. The user hovers over the indeterminate checkbox, and a tooltip with the legend `NULL` is displayed.
+
 ### Scenario 2: User edits a `NULL` Value
 
 #### Scenario 2a: The data type is text
 
 ##### Steps for 2a
 
-1. The user edits a `NULL` value in a column that is set to text data type.
+1. The user edits a `NULL` value in a column set to text data type.
 2. The user double-clicks the value cell to enter edit mode.
-3. The user enters a value and leaves edit mode by pressing the enter key or clicking outside of the active cell.
-4. The `NULL` value is replaced by the new value.
+3. The user enters a value and leaves edit mode by pressing the enter key or clicking outside the active cell.
+4. The new value replaces the `NULL` value.
 
 #### Scenario 2b: The data type is text, and the value is cleared
 
 #### Steps for 2b
 
-1. The user edits a `NULL` value in a column that is set to text data type.
+1. The user edits a `NULL` value in a column set to text data type.
 2. The user double-clicks the value cell to enter edit mode.
-3. In edit mode, a text input box is displayed with a placeholder set to `NULL`.
-4. The user types in a value, and the placeholder text is replaced by the new typed-in value.
+3. A text input box is displayed in edit mode with a placeholder set to `NULL`.
+4. The new typed-in value replaces the user types in a value and the placeholder text.
 5. The user clears the new value by hitting the backspace key until the value is completely cleared.
 6. The user exits edit mode.
-7. The `NULL` value is replaced by an empty string, and the cell is blank.
+7. An empty string replaces the `NULL` value, and the cell is blank.
 
-#### Scenario 2c: The data type is boolean with checkbox display enabled
+#### Scenario 2c: The data type is boolean with checkbox display mode enabled
 
 ##### Steps for 2c
 
-1. The user edits a `NULL` value in a column that is set to boolean type with the checkbox display property enabled.
-    - The field contains a checkbox in an indeterminate state.
-    - Hovering over the `NULL` checkbox will display a tooltip with the '`NULL`' legend.
-2. The user clicks on the checkbox, going from indeterminate (`NULL`) to checked (TRUE).
-3. The user can click on the checkbox again to mark it as false and go back to `NULL`.
+1. The user edits a `NULL` value in a column set to boolean type with the checkbox display mode enabled.
+    - The field contains a checkbox in an indeterminate state, meaning the value is `NULL`.
+2. The user clicks on the checkbox, going from indeterminate `NULL` to checked `TRUE`.
+3. The user can click on the checkbox again to mark it as `FALSE`.
+4. To return the value to `NULL`, the user can select the cell and press the `delete` key or use the contextual menu and select the `Set as NULL` option.
 
 #### Scenario 2d: The data type is number
 
@@ -125,18 +133,20 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 ## Interactions
 
-### edit mode Behavior
+### Select vs. Edit Mode Behaviors
 
-The 'edit mode' state of a cell changes some interactions or provides additional functionality to users while editing data in a table. How users enter and exit 'edit mode' must be defined in better detail as more data types and cell-level functionality are introduced.
+In `Edit Mode`, a table cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific controls for each data type are introduced, this needs to be further defined.
 
-For the implementation of this spec, we should consider the following notes:
+For the implementation of this spec, we should consider the following notes regarding the editing of text and numeric types:
 
-1. User highlights the cell with a single click. Pressing the `delete` or `backspace` key will delete the cell state and convert it to a `NULL` value.
-2. The user presses any key other than `delete` or `backspace` the cell enters edit mode.  Pressing `delete` or `backspace` will delete the text inside the cell.
+1. User enters `Select Mode` by clicking on any cell.
+2. While in `Select Mode`, pressing the `delete` or `backspace` key will delete the cell state and convert it to a `NULL` value.
+3. In `Select Mode`, if the user presses any key other than `delete` or `backspace`, the cell enters `edit mode`. 
+4. While in `Edit Mode`, pressing `delete` or `backspace` will delete the text inside the cell by removing one character at a time or a selection of characters.
 
-The same can be applied for boolean types too. The `checkbox` should be smaller than the cell.
+In the case of boolean types, the behavior should be implemented as follows:
 
-1. Clicking outside the `checkbox` would select the cell, and pressing `delete` would make the cell `NULL`
+1. Consider that the `checkbox` is smaller than the cell, so clicking outside the `checkbox` would select the cell, and pressing `delete` would make the cell `NULL.`
 2. Clicking inside the `checkbox` would toggle the value of the checkbox, similar to spreadsheets.
 
 ## Related Discussions
