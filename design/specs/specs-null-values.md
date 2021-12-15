@@ -137,17 +137,33 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 In `Edit Mode`, a table cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific controls for each data type are introduced, this needs to be further defined.
 
+#### Text or Numeric Types
+
 For the implementation of this spec, we should consider the following notes regarding the editing of text and numeric types:
 
 1. User enters `Select Mode` by clicking on any cell.
 2. While in `Select Mode`, pressing the `delete` or `backspace` key will delete the cell state and convert it to a `NULL` value.
-3. In `Select Mode`, if the user presses any key other than `delete` or `backspace`, the cell enters `edit mode`. 
+3. In `Select Mode`, if the user presses any key other than `delete` or `backspace`, the cell enters `edit mode`.
 4. While in `Edit Mode`, pressing `delete` or `backspace` will delete the text inside the cell by removing one character at a time or a selection of characters.
 
-In the case of boolean types, the behavior should be implemented as follows:
+#### Boolean Type
 
-1. Consider that the `checkbox` is smaller than the cell, so clicking outside the `checkbox` would select the cell, and pressing `delete` would make the cell `NULL.`
-2. Clicking inside the `checkbox` would toggle the value of the checkbox, similar to spreadsheets.
+In the case of boolean types, consider the following:
+
+- Consider that the `checkbox` is smaller than the cell, so clicking outside the `checkbox` would select the cell, and pressing `delete` would make the cell `NULL.`
+- Clicking inside the `checkbox` would toggle the value of the checkbox, similar to spreadsheets.
+
+#### With Dropdown Enabled
+
+Certain column configurations will display a dropdown when editing the contents of a cell. For example, a column with a single-column foreign key constraint will show a record selector dropdown when in edit mode.
+
+In the case of cells with dropdown enabled, consider the following:
+
+- If no record is selected the cell content should be `NULL`
+- To set content of the cell as `NULL` the user can press the `delete` key while the cell is in `select mode`.
+- To set content of the cell as `NULL` the user can deselect a selected record from the record selector, by clicking on a selected item and then closing the dropdown.
+
+- `Select Mode`
 
 ## Related Discussions
 
