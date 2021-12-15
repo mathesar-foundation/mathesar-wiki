@@ -95,12 +95,10 @@ The user selects single or multiple columns to which they wish to apply the cons
 
 #### Steps for 3a
 
-- The user opens a table containing columns with a foreign key constraint applied.
+- The user opens a table containing at least one column with a foreign key constraint applied.
 - The user is able to identify the columns in two ways:
-  - The user looks at the column header and sees the foreign key indicator. This indicator shows a key icon and the referenced table and column next to it.
-    - The user can click the indicator to display the foreign key settings for the specific column.
-    - The indicator can be hovered over to display a tooltip with information about the foreign key constraints.
-  - The user looks at the column fields and sees that values are added with different styling, a tag-like element with a colored background.
+  - The user looks at the column header and sees a foreign key indicator. The indicator shows a key icon and the referenced table and column names.
+  - The cell content is styled as a tag-like element with a colored background. The cell also contains a toggle to open the `record selector` dropdown.
 
 ### Scenario 3b: The foreign key constraint is set to multiple columns
 
@@ -108,7 +106,7 @@ The user selects single or multiple columns to which they wish to apply the cons
 
 - The user opens a table containing columns with a multi-column foreign key constraint applied.
   - The indicator, in this case, looks similar to the single-column one. However, the user will understand that the foreign key constraints reference the same table.
-    - The user can tell that a referenced table is the same because they share the same color. The system could use other UI elements instead of color. Still, the idea is to create a visual distinction that can be easily scanned.
+    - The user can tell that a referenced table is the same because they share the same color. The system could use other UI elements instead of color. Still, the idea is to create a visual distinction that users can scan easily.
 
 ## Scenario 4: User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
 
