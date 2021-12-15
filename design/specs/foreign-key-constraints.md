@@ -26,7 +26,6 @@ This spec describes the design solution for [Usage of Foreign Key constraints](h
 - Scenario 3: <https://www.loom.com/share/e43763b172e449fa9fddff25b311123f>
 - Scenario 4: <https://www.loom.com/share/6deed11141f34c4ba495c4adb7117982>
 - Scenario 5: <https://www.loom.com/share/b90ee712055a4a9cb24a499f943c0bbe>
-- Scenario 6: <https://www.loom.com/share/4b617af642244946be965d609b1aed99>
 
 ----
 
@@ -165,18 +164,6 @@ Linked records can be changed or removed according to the user's preference. Sin
   - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
   - If there aren't any matches, a suggestion to change the 'Search Columns' table preference is displayed.
 
-## Scenario 6: User changes the table link preferences
-
-### Scenario 6a: From the column menu
-
-- The user opens the column menu for a column that has a foreign key constraint applied
-- The user clicks on the 'Table Link Preferences' option
-
-### Scenario 6b: From the record selector menu
-
-- The user opens the column menu for a column that has a foreign key constraint applied
-- The user clicks on the preferences link
-
 ## Components
 
 ### Record Selector
@@ -211,7 +198,7 @@ Table preferences will contain a group of options that users can set up to chang
 
 ### Terminology
 
-- `Remove` and `Delete` are used throughout this spec and should be applied consistently across the entire user interface as they are different affordances. `Remove` will be used for data that can be added back, while `Delete` will indicate data destruction. 
+- `Remove` and `Delete` are used throughout this spec and should be applied consistently across the entire user interface as they are different affordances. `Remove` will be used for data that can be added back, while `Delete` will indicate data destruction.
 
 ## Related Discussions
 
