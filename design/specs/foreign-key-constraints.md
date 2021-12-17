@@ -40,7 +40,7 @@ A user wants to link records from another table into their current table. Both t
 #### Assumptions for 1a
 
 - The user is not familiar with the concept of foreign keys.
-- The user has at least two tables with primary key constraints set.
+- The user has at least a tables with a primary key constraint set.
 
 #### Steps for 1a
 
@@ -74,7 +74,7 @@ The user selects single or multiple columns to which they wish to apply the cons
 - The user selects a table to be referenced by these columns.
 - The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user can select only columns with a `UNIQUE` or `PRIMARY KEY` constraint.
 
-## Scenario 2: User Removes an Existing Foreign Key Constraint
+## Scenario 2: User Deletes an Existing Foreign Key Constraint
 
 ### Scenario 2a: From table constraint settings
 
@@ -87,7 +87,7 @@ The user selects single or multiple columns to which they wish to apply the cons
 - A user wants to edit an existing foreign key constraint to change the referring column or select another referenced table.
 - The user can view the details for an existing foreign key constraint by clicking on the 'Table Constraints' option in the table menu.
 - From the list of constraints, the user selects the constraint for which they want to see details.
-- The user removes the selected constraint.
+- The user Deletes the selected constraint.
 
 ## Scenario 3: User Identifies a Column With a Foreign Key Constraint Applied
 
@@ -140,7 +140,7 @@ By default, the preview will include columns based on specific criteria, such as
 
 ## Scenario 5: User Edits the Values of a Column With a Foreign Key Constraint Applied
 
-Linked records can be changed or removed according to the user's preference. Since values are references to records in other tables, users must understand that changes to references don't affect the original records. However, changes to the values of records in the referenced table do.
+Linked records can be changed or deleted according to the user's preference. Since values are references to records in other tables, users must understand that changes to references don't affect the original records. However, changes to the values of records in the referenced table do.
 
 ### Scenario 5a: The field has an existing value
 
@@ -193,10 +193,6 @@ Table preferences will contain a group of options that users can set up to chang
 ### Usage of Color
 
 - A suggestion to use color as a means to differentiate table references has been included in this spec. However, implementation details need to be discussed before deciding if the user interface will use color elements to create a visual connection between elements.
-
-### Terminology
-
-- `Remove` and `Delete` are used throughout this spec and should be applied consistently across the entire user interface as they are different affordances. `Remove` will be used for data that can be added back, while `Delete` will indicate data destruction.
 
 ## Related Discussions
 
