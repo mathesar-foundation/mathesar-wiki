@@ -40,7 +40,7 @@ A user wants to link records from another table into their current table. Both t
 #### Assumptions for 1a
 
 - The user is not familiar with the concept of foreign keys.
-- The user has at least a tables with a primary key constraint set.
+- The user has at least one table with a (non-composite) primary key constraint set.
 
 #### Steps for 1a
 
