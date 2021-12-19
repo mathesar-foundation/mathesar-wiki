@@ -2,7 +2,7 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-12-14T16:45:41.694Z
+date: 2021-12-19T23:02:34.048Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
@@ -12,16 +12,7 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 
 ## Current Schedule
 
-| Week | Person |
-|-|-|
-| 2021-12-13 to 2021-12-17 | Sean |
-| 2021-12-20 to 2021-12-23 | Dominykas |
-| 2021-12-24 to 2022-01-02 | *CCI closed; team is unavailable.* |
-| 2022-01-03 to 2022-01-07 | Ghislaine |
-| 2022-01-10 to 2022-01-14 | Brent |
-| 2022-01-17 to 2022-01-21 | Kriti |
-| 2022-01-24 to 2022-01-28 | Pavish |
-| 2022-01-31 to 2022-02-04 | Mukesh |
+Please check the latest [planning discussion](https://github.com/centerofci/mathesar/discussions/categories/planning) for the current Comms Assignee schedule.
 
 ## Purpose
 
