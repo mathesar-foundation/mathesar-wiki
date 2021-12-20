@@ -165,6 +165,22 @@ In the case of cells with dropdown enabled, consider the following:
 
 - `Select Mode`
 
+#### Keyboard Interactions
+
+A summary of keyboard interactions discussed in this document:
+
+| current mode | DOM `key` | result |
+| -- | -- | -- |
+| select | any text character | switch to edit mode, place cursor at end, append character to end of cell contents |
+| select | `Backspace` | switch to edit mode, place cursor at end, delete last character |
+| select | `Delete` | nothing |
+| select | `Shift+Backspace` | set cell value to NULL |
+| select | `Shift+Delete` | set cell value to NULL |
+| edit | `Backspace` | delete character to the left of cursor |
+| edit | `Delete` | delete character to the right of cursor |
+| edit | `Shift+Backspace` | _discussion pending_ |
+| edit | `Shift+Delete` | _discussion pending_ |
+
 ## Related Discussions
 
 - [UX for NULL Values](https://github.com/centerofci/mathesar/discussions/832)
