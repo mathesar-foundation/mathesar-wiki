@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2021-12-20T14:26:25.904Z
+date: 2021-12-20T14:30:39.346Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -19,7 +19,7 @@ The Mathesar team participated as a client in UC Berkeley's [Product Design Stud
 A group of four students worked on design concepts for how Mathesar users could work with photos and videos more easily. We hope to use their work as inspiration for future plugins.
 
 - [User Research *Presentation covering research and user interviews*](https://docs.google.com/presentation/d/1g8cgNmavxpik891B_CXAcxFpWeMpc2BH/edit?usp=sharing&ouid=110253414265591589278&rtpof=true&sd=true)
-- [Final Presentation *Final work product, including desicn concepts*](https://docs.google.com/presentation/d/1niviyUEJINRQsOgSRfM65H8YuyYLtLLs/edit?usp=sharing&ouid=110253414265591589278&rtpof=true&sd=true)
+- [Final Presentation *Final work product, including completed designs*](https://docs.google.com/presentation/d/1niviyUEJINRQsOgSRfM65H8YuyYLtLLs/edit?usp=sharing&ouid=110253414265591589278&rtpof=true&sd=true)
 {.links-list}
 
 
