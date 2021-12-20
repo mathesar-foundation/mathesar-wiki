@@ -47,21 +47,37 @@ Initially, users will only be able to search views by name. However, if a user h
 
 - User navigates to the schema explorer view by opening any object in the details page or navigating to an object URL.
 - User sees a list of all tables and views for the current schema.
-  - The list shows both object types by default, but can be filtered to only show tables or views using the filter bar at the top of the sidebar.
+  - The list shows both object types by default but can be filtered to only show tables or views using the filter bar at the top of the sidebar.
 
 ### Scenario 2: User encounters an error in loading a list of views for a currently open schema
 
 #### Scenario 2a: From the schema details view
 
+- User opens the schema details page for an existing schema
+The list of objects for the schema fails to load, and the system displays an error notification.
+- The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
+
 ### Scenario 3: User encounters an error in opening a view for a currently open schema
 
 #### Scenario 3a: From the schema explorer view's sidebar
 
+- The user opens the schema explorer by navigating to it via the sidebar or by URL pointing to that object.
+- The object fails to load, and the system displays an error notice.
+
 #### Scenario 3b: From an open tab
+
+- The user navigates to a tab, which represents a previously open view.
+- The object fails to load, and the system displays an error notice.
 
 ### Scenario 4: User searches a view by name
 
 #### Scenario 4a: From the schema details view
+
+- User navigates to the schema details page by navigating directly to a URL that points to this page or by clicking on the schema link at the top navigation bar.
+- The user enters a search term in the search input box located at the top of the list.
+- The list is filtered to show objects whose name matches the search term.
+  - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
+- The search can be cleared by clearing the input box content or clicking on the `Clear` button at the right side of the search component.
 
 #### Scenario 4b: From the schema explorer view's sidebar
 
