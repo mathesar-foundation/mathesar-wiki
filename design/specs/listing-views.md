@@ -1,27 +1,51 @@
 ---
-title: Listing and Searching Views
+title: Listing Views Spec
 description: 
 published: true
-date: 2021-09-17T08:38:09.720Z
+date: 2021-12-20T09:00:00.201Z
 tags: 
 editor: markdown
-dateCreated: 2021-09-17T08:28:58.527Z
+dateCreated: 2021-12-20T09:00:00.201Z
 ---
 
-# Context
-When using Mathesar, users should rely on views for most analysis tasks and tables for more structural tasks like modeling and data transformation. However, both objects are similar and share some functionality. A clear distinction needs to be made between tables and views. Views should also take a more prominent space, and users in a table context should understand that saving as a view will allow them to choose a subset of columns or combine with other tables. 
+## Context
 
-# Prototype
-[Prototype for Listing and Finding Views](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=5343%3A76906&node-id=5343%3A76907&viewport=338%2C48%2C0.72&scaling=contain&starting-point-node-id=5343%3A76907)
+Database objects are defined objects in a database that store or reference data. In the context of Mathesar, two of those objects are listed and accessible to users as `Tables` and `Views`. Together, these objects are at the core of Mathesar's user experience. One part of that experience is finding and opening these objects and differentiating both.
 
-# User Experience
+## Prototype
+
+### Link
+
+[Prototype](https://mathesar-prototype.netlify.app/)
+
+### Videos
+
+- Scenario 1:
+- Scenario 2:
+- Scenario 3:
+
+## User Experience
+
+### Listing of Views and Searching by Name
+
+With the introduction of `Views`, the user interface needs to be updated to retrieve and identify all objects easily. `Views` in the same manner as `Tables`, have names that allow users to identify them or search them.
+
+Initially, users will only be able to search views by name. However, if a user hasn't encountered a particular object very often, relying on a name alone might not be sufficient to ensure a good user experience.
+
 ## Scenarios
 
-### User sees a list of all views and can filter or sort the list items
-A user can see a list of all views for a schema in the sidebar area. They can filter the list using the search input or sort them by alphabetical order or last modified. Last modified is the default sorting for the list of views.
+### Scenario 1: User browses through a list of all available views in a currently open schema
 
-### User sees a default view when they open a schema
-A view can be set as the default that a user will see when they open a schema. Users can set the default view from the 'View Options' menu in a view.
+#### Scenario 1a: From the schema overview
 
-### User can see a list of views referencing a table
-A user from a table can access a list of views referencing that table. This menu also contains a brief description of how users should use views. 
+#### Scenario 1b: From the sidebar
+
+### Scenario 2: User encounters an error in loading a list of views for a currently open schema
+
+#### Scenario 2a: From the schema overview
+
+### Scenario 3: User encounters an error in opening a view for a currently open schema
+
+#### Scenario 3a: From the sidebar
+
+#### Scenario 3b: From an open tab
