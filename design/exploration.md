@@ -2,14 +2,23 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2021-06-11T21:22:04.570Z
+date: 2021-12-20T14:20:56.428Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
 ---
 
 # Documents
-These are long-form documents exploring various ideas.
+These are documents and presentations exploring various ideas.
+
+## Fall 2021
+
+The Mathesar team participated as a client in UC Berkeley's [Product Design Studio](https://www.ischool.berkeley.edu/courses/info/290/pds) class in 2021.
+
+- [Media Asset Browsing *Design concepts for Mathesar plugins to work with media*](https://docs.google.com/presentation/d/1niviyUEJINRQsOgSRfM65H8YuyYLtLLs/edit?usp=sharing&ouid=110253414265591589278&rtpof=true&sd=true)
+{.links-list}
+
+
 
 ## April 2021
 - [Inventory Use Case *User journey for creating a basic media inventory using Mathesar*](/design/exploration/use-cases/inventory-use-case)
