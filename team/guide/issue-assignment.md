@@ -13,5 +13,5 @@ This page describes the process of assigning issues, either to yourself or someo
 1. Ensure that the issue has sufficient detail and can be worked on. If not, update the issue so that it does.
 2. Assign the issue to the desired person. If the person is not on the [Team](/team), they will need to comment on the issue before it can be assigned to them.
 3. Change the "Priority" in the project to "Active". You can do this from the issue sidebar under "Projects".
-![](/assets//team/guide/issue-assignment/issue-assignment-image.png)
+![](/assets/team/guide/issue-assignment/issue-assignment-image.png)
 4. Remove the existing `status: ready` label and change the label to `status: started`. This will automatically update the "Status" in the project as well, you do not need to do this manually.
