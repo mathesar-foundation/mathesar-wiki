@@ -77,9 +77,15 @@ The list of objects for the schema fails to load, and the system displays an err
 - The user enters a search term in the search input box located at the top of the list.
 - The list is filtered to show objects whose name matches the search term.
   - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
-- The search can be cleared by clearing the input box content or clicking on the `Clear` button at the right side of the search component.
+- The search can be cleared by clearing the input box content or clicking on the `Clear Search` link displayed along the results summary.
 
 #### Scenario 4b: From the schema explorer view's sidebar
+
+- The user opens the schema explorer by navigating to it via the sidebar or by URL pointing to that object.
+- The user enters a search term in the search input box located at the top of the sidebar list.
+- The list is filtered to show objects whose name matches the search term.
+  - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
+- The search can be cleared by clearing the input box content or clicking on the `Clear Search` link displayed along the results summary.
 
 ## Components
 
