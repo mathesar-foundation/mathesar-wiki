@@ -20,9 +20,10 @@ Database objects are defined objects in a database that store or reference data.
 
 ### Videos
 
-- Scenario 1:
-- Scenario 2:
-- Scenario 3:
+- Scenario 1: [Video](https://www.loom.com/share/179070149f00419e9125bd8fba675aa4)
+- Scenario 2: [Video](https://www.loom.com/share/e32500bc744246e5b926852231577fd7)
+- Scenario 3: [Video](https://www.loom.com/share/d553e7edbb28481b8aed02b055270154)
+- Scenario 4: [Video](https://www.loom.com/share/91a20c4770ef4439860425a1bcd84db6)
 
 ## User Experience
 
@@ -57,7 +58,7 @@ Initially, users will only be able to search views by name. However, if a user h
 The list of objects for the schema fails to load, and the system displays an error notification.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 
-### Scenario 3: User encounters an error in opening a view for a currently open schema
+### Scenario 3: User encounters an error while opening a view in a currently open schema
 
 #### Scenario 3a: From the schema explorer view's sidebar
 
