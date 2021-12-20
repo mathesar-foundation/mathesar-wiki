@@ -77,7 +77,7 @@ The list of objects for the schema fails to load, and the system displays an err
 - The user enters a search term in the search input box located at the top of the list.
 - The list is filtered to show objects whose name matches the search term.
   - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
-- The search can be cleared by clearing the input box content or clicking on the `Clear Search` link displayed along the results summary.
+- Users can clear the search by clearing the input box content or clicking on the `Clear Search` link displayed along with the results summary.
 
 #### Scenario 4b: From the schema explorer view's sidebar
 
@@ -85,12 +85,20 @@ The list of objects for the schema fails to load, and the system displays an err
 - The user enters a search term in the search input box located at the top of the sidebar list.
 - The list is filtered to show objects whose name matches the search term.
   - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
-- The search can be cleared by clearing the input box content or clicking on the `Clear Search` link displayed along the results summary.
+- Users can clear the search by clearing the input box content or clicking on the `Clear Search` link displayed along with the results summary.
 
 ## Components
+
+### Sidebar Filters
+
+Sidebar filters will allow users to filter the sidebar's contents to show only a particular type of object. The content will include both tables and views when set to' All'. Setting the filter to `Table` will display only table objects, while `View` will display only view objects.
+
+### Sidebar Sort Control
+
+The sidebar sort control will allow users to select the sorting criteria for the objects displayed in the sidebar.
 
 ## Other Considerations
 
 ### Navigation Structure
 
-- Database, schema, tables, and views.
+Users of Mathesar will be able to connect multiple databases containing multiple schemas and navigate between them. This prototype assumes there's a single schema and database. For that reason, the interface presented is limited in functionality.
