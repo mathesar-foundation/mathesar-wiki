@@ -103,3 +103,7 @@ The sidebar sort control will allow users to select the sorting criteria for the
 ### Navigation Structure
 
 Users of Mathesar will be able to connect multiple databases containing multiple schemas and navigate between them. This prototype assumes there's a single schema and database. For that reason, the interface presented is limited in functionality.
+
+### Regular vs. Materialized Views
+
+No differentiation has been introduced for materialized views, as it was concluded that the functionality will be similar. A different icon was proposed which can be added as part of the UI improvements design work.
