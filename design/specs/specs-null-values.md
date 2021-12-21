@@ -42,9 +42,10 @@ As for the process of transforming values to and from `NULL`, it will be importa
 1. The user opens a table that contains `NULL` values.
 2. The user identifies a cell that contains a `NULL` value.
     - The cell contains the word `NULL` in all uppercase letters
-    - The cell has a lighter background-color
-    - The cell has a muted text color
-    - The cell has a different font style (italic)
+    - The cell has a different styling
+        - A lighter background-color
+        - A muted text color
+        - A different font style (italic)
 
 #### Scenario 1b: The user identifies a `NULL` value in a record preview
 
@@ -67,26 +68,26 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 ### Scenario 2: User edits a `NULL` Value
 
-#### Scenario 2a: The data type is text
+#### Scenario 2a: Replacing `NULL` with a new value
 
 ##### Steps for 2a
 
-1. The user edits a `NULL` value in a column set to text data type.
-2. The user double-clicks the value cell to enter edit mode.
-3. The user enters a value and leaves edit mode by pressing the enter key or clicking outside the active cell.
+1. The user edits a `NULL` value in a column.
+2. The enters `edit mode`.
+3. The user enters a new value and leaves `edit mode` by pressing the `enter` key or clicking outside the active cell.
 4. The new value replaces the `NULL` value.
 
-#### Scenario 2b: The data type is text, and the value is cleared
+#### Scenario 2b: Replacing `NULL` with an empty string
 
-#### Steps for 2b
+##### Steps for 2b
 
-1. The user edits a `NULL` value in a column set to text data type.
-2. The user double-clicks the value cell to enter edit mode.
-3. A text input box is displayed in edit mode with a placeholder set to `NULL`.
-4. The new typed-in value replaces the user types in a value and the placeholder text.
-5. The user clears the new value by hitting the backspace key until the value is completely cleared.
-6. The user exits edit mode.
-7. An empty string replaces the `NULL` value, and the cell is blank.
+1. The user edits a `NULL` value in a column.
+2. The user enters `edit mode`.
+3. A text input box is displayed in `edit mode` with a placeholder set to `NULL`.
+4. The new typed-in value replaces the placeholder text.
+5. The user clears the new value by pressing the `backspace` key until the value is completely cleared.
+6. The user leaves `edit mode`.
+7. An empty string replaces the `NULL` value. The cell appears blank.
 
 #### Scenario 2c: The data type is boolean with checkbox display mode enabled
 
@@ -102,10 +103,10 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 ##### Steps for 2d
 
-1. The user edits a `NULL` value in a column set to number type.
-2. The user double-clicks the cell to enter edit mode.
-3. The user exists in edit mode without making any changes.
-4. The `NULL` value remains.
+1. The user edits a `NULL` value in a column set to `number` type.
+2. The user double-clicks the cell to enter `edit mode`.
+3. The user leaves `edit mode` without making any changes.
+4. The `NULL` value remains unchanged.
 
 ### Scenario 3: User sets a value to `NULL`
 
@@ -116,7 +117,7 @@ As for the process of transforming values to and from `NULL`, it will be importa
 1. The user selects a cell in a column that contains a value.
 2. The user clears the content of the selected cell.
     - By pressing the `delete` key.
-    - By opening the contextual menu and selecting the 'Set as `NULL`' option.
+    - By opening the contextual menu and selecting the `Set as NULL` option.
 3. The selected cell now has a `NULL` value.
 
 #### Scenario 3b: The column does not accept `NULL` values
@@ -128,23 +129,28 @@ As for the process of transforming values to and from `NULL`, it will be importa
     - By pressing the `delete` key.
         - The system prevents the insertion of a `NULL` value.
         - An error message indicates that a NOT `NULL` constraint is applied to the column, and the system cannot insert `NULL` values.
-    - By opening the contextual menu and selecting the 'Set as `NULL`' option.
+    - By opening the contextual menu and selecting the `Set as NULL` option.
         - The 'Set as `NULL`' option is disabled, and the user cannot select it.
 
 ## Interactions
 
 ### Select vs. Edit Mode Behaviors
 
-In `Edit Mode`, a table cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific controls for each data type are introduced, this needs to be further defined.
+When in `Edit Mode`, a cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific behaviors and components for each data types are introduced, these interactions will needs to be further defined to ensure compatibility.
 
 #### Text or Numeric Types
 
-For the implementation of this spec, we should consider the following notes regarding the editing of text and numeric types:
+For the implementation of this spec, we should consider the following notes regarding the editing of text and numeric types as summarized in the following table:
 
-1. User enters `Select Mode` by clicking on any cell.
-2. While in `Select Mode`, pressing the `delete` or `backspace` key will delete the cell state and convert it to a `NULL` value.
-3. In `Select Mode`, if the user presses any key other than `delete` or `backspace`, the cell enters `edit mode`.
-4. While in `Edit Mode`, pressing `delete` or `backspace` will delete the text inside the cell by removing one character at a time or a selection of characters.
+| current mode | DOM `key` | result |
+| -- | -- | -- |
+| select | any text character | switch to edit mode, place cursor at end, append character to end of cell contents |
+| select | `Backspace` | switch to edit mode, place cursor at end, delete last character |
+| select | `Delete` | nothing |
+| select | `Shift+Backspace` | set cell value to NULL |
+| select | `Shift+Delete` | set cell value to NULL |
+| edit | `Backspace` | delete character to the left of cursor |
+| edit | `Delete` | delete character to the right of cursor |
 
 #### Boolean Type
 
@@ -162,24 +168,6 @@ In the case of cells with dropdown enabled, consider the following:
 - If no record is selected the cell content should be `NULL`
 - To set content of the cell as `NULL` the user can press the `delete` key while the cell is in `select mode`.
 - To set content of the cell as `NULL` the user can deselect a selected record from the record selector, by clicking on a selected item and then closing the dropdown.
-
-- `Select Mode`
-
-#### Keyboard Interactions
-
-A summary of keyboard interactions discussed in this document:
-
-| current mode | DOM `key` | result |
-| -- | -- | -- |
-| select | any text character | switch to edit mode, place cursor at end, append character to end of cell contents |
-| select | `Backspace` | switch to edit mode, place cursor at end, delete last character |
-| select | `Delete` | nothing |
-| select | `Shift+Backspace` | set cell value to NULL |
-| select | `Shift+Delete` | set cell value to NULL |
-| edit | `Backspace` | delete character to the left of cursor |
-| edit | `Delete` | delete character to the right of cursor |
-| edit | `Shift+Backspace` | _discussion pending_ |
-| edit | `Shift+Delete` | _discussion pending_ |
 
 ## Related Discussions
 
