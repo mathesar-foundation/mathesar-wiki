@@ -104,7 +104,7 @@ As for the process of transforming values to and from `NULL`, it will be importa
 ##### Steps for 2d
 
 1. The user edits a `NULL` value in a column set to `number` type.
-2. The user double-clicks the cell to enter `edit mode`.
+2. The user double-clicks the cell to enter `edit mode.
 3. The user leaves `edit mode` without making any changes.
 4. The `NULL` value remains unchanged.
 
@@ -136,21 +136,23 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 ### Select vs. Edit Mode Behaviors
 
-When in `Edit Mode`, a cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific behaviors and components for each data types are introduced, these interactions will needs to be further defined to ensure compatibility.
+In `Edit Mode`, a cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific behaviors and components for each data type are introduced, we must further define these interactions to ensure compatibility.
+
+We will create an additional issue to refine these interactions.
 
 #### Text or Numeric Types
 
-For the implementation of this spec, we should consider the following notes regarding the editing of text and numeric types as summarized in the following table:
+For the implementation of this spec, we should consider the following interactions for the editing of text and numeric types as summarized in the following table:
 
 | current mode | DOM `key` | result |
 | -- | -- | -- |
-| select | any text character | switch to edit mode, place cursor at end, append character to end of cell contents |
-| select | `Backspace` | switch to edit mode, place cursor at end, delete last character |
+| select | any text character | switch to edit mode, place cursor at end, append a character to end of cell contents |
+| select | `Backspace` | switch to edit mode, place cursor at end, delete the last character |
 | select | `Delete` | nothing |
 | select | `Shift+Backspace` | set cell value to NULL |
 | select | `Shift+Delete` | set cell value to NULL |
-| edit | `Backspace` | delete character to the left of cursor |
-| edit | `Delete` | delete character to the right of cursor |
+| edit | `Backspace` | delete a character to the left of cursor |
+| edit | `Delete` | delete a character to the right of cursor |
 
 #### Boolean Type
 
@@ -161,13 +163,13 @@ In the case of boolean types, consider the following:
 
 #### With Dropdown Enabled
 
-Certain column configurations will display a dropdown when editing the contents of a cell. For example, a column with a single-column foreign key constraint will show a record selector dropdown when in edit mode.
+Some column configurations will display a dropdown when editing the contents of a cell. For example, a column with a single-column foreign key constraint will show a record selector dropdown when in edit mode.
 
 In the case of cells with dropdown enabled, consider the following:
 
-- If no record is selected the cell content should be `NULL`
-- To set content of the cell as `NULL` the user can press the `delete` key while the cell is in `select mode`.
-- To set content of the cell as `NULL` the user can deselect a selected record from the record selector, by clicking on a selected item and then closing the dropdown.
+- If no record is selected, the cell content should be `NULL`.
+- To set the cell's content as `NULL`, the user can press the `delete` key while the cell is in `select mode`.
+- To set the cell's content as `NULL`, the user can deselect a selected record from the record selector by clicking on a selected item and then closing the dropdown.
 
 ## Related Discussions
 
