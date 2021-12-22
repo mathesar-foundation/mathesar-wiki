@@ -73,7 +73,7 @@ As for the process of transforming values to and from `NULL`, it will be importa
 ##### Steps for 2a
 
 1. The user edits a `NULL` value in a column.
-2. The enters `edit mode`.
+2. The user enters `edit mode`.
 3. The user enters a new value and leaves `edit mode` by pressing the `enter` key or clicking outside the active cell.
 4. The new value replaces the `NULL` value.
 
