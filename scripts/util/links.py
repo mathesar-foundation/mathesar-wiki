@@ -8,6 +8,9 @@ def is_url(link):
     """
     Checks if a link is a url or relative link
     """
+    # Don't check for linkrot if link is a fragment
+    if link.startswith('#'):
+        return False
     parse_result = urllib.parse.urlparse(link)
     if parse_result.netloc:
         return True
