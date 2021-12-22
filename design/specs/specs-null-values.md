@@ -116,7 +116,7 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 1. The user selects a cell in a column that contains a value.
 2. The user clears the content of the selected cell.
-    - By pressing the `delete` key.
+    - By pressing the `Shift`+`Backspace` or `Shift`+`Delete` keys.
     - By opening the contextual menu and selecting the `Set as NULL` option.
 3. The selected cell now has a `NULL` value.
 
@@ -126,7 +126,7 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 1. The user selects a cell in a column that contains a value.
 2. The user attempts to clear the content of the selected cell.
-    - By pressing the `delete` key.
+    - By pressing the `Shift`+`Backspace` or `Shift`+`Delete` keys.
         - The system prevents the insertion of a `NULL` value.
         - An error message indicates that a NOT `NULL` constraint is applied to the column, and the system cannot insert `NULL` values.
     - By opening the contextual menu and selecting the `Set as NULL` option.
@@ -136,7 +136,9 @@ As for the process of transforming values to and from `NULL`, it will be importa
 
 ### Select vs. Edit Mode Behaviors
 
-In `Edit Mode`, a cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell. However, certain data types could have different interactions. Once specific behaviors and components for each data type are introduced, we must further define these interactions to ensure compatibility.
+In `Select Mode`, the cell is highlighted and set as the target for actions applying to the cell or elements associated with it, such as its row or column. `Select Mode` is toggled by clicking on a cell or by navigating to with the direction keys while `Select Mode` is active.
+
+In `Edit Mode`, a cell provides additional functionality and interactions to users. `Edit Mode` is toggled by double-clicking on a cell or by typing a text character or pressing backspace while in `Select Mode`. However, certain data types could have different interactions. Once specific behaviors and components for each data type are introduced, we must further define these interactions to ensure compatibility.
 
 We will create an additional issue to refine these interactions.
 
