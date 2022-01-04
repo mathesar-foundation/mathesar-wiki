@@ -13,6 +13,7 @@ dateCreated: 2021-05-18T21:39:18.962Z
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 - [Listing of Views](/design/specs/listing-views)
+- [UX for NULL Values](/design/specs/specs-null-values)
 - [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
 - [Multiple Records Associated with a Single Record](/design/specs/multiple-records-spec)
 - [Editing Records Within a View](/design/specs/eding-view-records)

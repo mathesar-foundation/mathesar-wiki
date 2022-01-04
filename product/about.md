@@ -2,7 +2,7 @@
 title: About Mathesar
 description: 
 published: true
-date: 2021-12-09T22:44:27.272Z
+date: 2021-12-24T01:17:29.354Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T00:42:34.804Z
@@ -35,6 +35,23 @@ Mathesar can be used to:
 - Automatically generate REST APIs to interact with connected database
 
 Mathesar's goal is to be an infrastructural tool for anyone who works with information and we're looking forward to seeing other use cases people come up with.
+
+## Why build Mathesar?
+
+There are already many tools out there for working with data such as database administration GUIs, spreadsheet software, “low code” platforms, and business intelligence tools. Why do we need another?
+
+**Interoperability and Data Portability**
+Data stored using most comparable tools cannot be modified by other software. Mathesar uses a general purpose database (Postgres) with a thriving ecosystem of interoperable tools.
+
+**Approachable User Experience**
+Existing tools either limit available features or focus on power users. Mathesar meets users at their technical skill level while also supporting advanced features and encouraging learning.
+
+**Data Integrity and Reuse**
+Spreadsheets and low code platforms don’t do much by default to help you make sure data is consistent and this limits reuse potential. Databases are good at this by design.
+
+**Open Source Infrastructure**
+Data is valuable and shouldn’t be tied to using a specific proprietary service. The public needs open source, decentralized, and private infrastructure for people to manage their own data.
+
 
 ## Further reading
 - [Tool Category Exploration *Report on initial research towards defining Mathesar's scope*](/design/reports/tool-category)

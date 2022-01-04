@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-12-09T21:54:31.511Z
+date: 2021-12-23T15:35:53.642Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -23,7 +23,7 @@ Currently, Mathesar is a work in progress. We aim to release our alpha version i
 - [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](/community/contributing)
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](/product)
 - [:art: Design *Documentation about Mathesar's visual design and UI*](/design)
-- [:desktop_computer: Engineering *Documentation about Mathesar's code*](/design)
+- [:desktop_computer: Engineering *Documentation about Mathesar's code*](/engineering)
 - [:notebook: Team Guide *Guide for Mathesar team members*](/team/guide)
 - [:memo: Meeting Notes *Mathesar team meeting notes*](/meeting-notes)
 {.links-list}
