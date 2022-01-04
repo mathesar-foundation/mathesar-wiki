@@ -2,75 +2,202 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T19:53:41.202Z
+date: 2021-11-09T16:59:23.145Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
+## Context
 
-> This spec is outdated and shouldn't be used.
-{.is-danger}
+This spec describes the design solution for [Usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
 
-# Context
-This design spec describes the proposed solution for the problem defined in the issue [Design for using Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243). 
-In summary, this issue addresses how users set up relationships between data in two different tables.
+## Prototype Link and Video Walkthrough
 
-## Prototype Walkthrough
-[Video: Setting Up a Relationship](https://www.loom.com/share/146b0aa3adbb41009ce1a49caeb936ab)
-[Video: Lookup Fields](https://www.loom.com/share/757f7ace02a84296912c6df45410e5e7)
+### Prototype
+
 [Prototype Link](https://mathesar-prototype.netlify.app/)
 
-## Concepts
-### Table relationship
-Two tables can be linked together using a "foreign key constraint" to identify this relationship. Relating tables prevents issues like data conflicts and duplication and supports data consistency and integrity.
-For users, this knowledge of "linked tables" is critical for the system's overall usability.
+### Videos
 
-### Primary Key
-Primary keys are unique identifiers used to identify records in a table. In Mathesar, primary keys are set by default to the id column, and their values are generated automatically. 
+----
 
-### Foreign Key
-The foreign key is a relationship between two tables that identifies which column in the other table references the first one.
+- Scenario 1: <https://www.loom.com/share/01fb12b24f0e4270822da212622a8844>
+- Scenario 2: <https://www.loom.com/share/87fce49545c744d1b475693b7d43c2bf>
+- Scenario 3: <https://www.loom.com/share/e43763b172e449fa9fddff25b311123f>
+- Scenario 4: <https://www.loom.com/share/6deed11141f34c4ba495c4adb7117982>
+- Scenario 5: <https://www.loom.com/share/b90ee712055a4a9cb24a499f943c0bbe>
 
-### Lookup Column
-They are used to show information from linked records in another table. The lookup column setting determines which column values are visible when displaying the record.
+----
 
 ## Scenarios
-### A user wants to create a one-to-many table relationship between two existing tables
-A user has a table named 'artist' that contains records for artists in a music album collection. The user wants to link each artist to records in another table named 'track.' If successful, the user should link all tracks associated with an artist to records in the 'artist' table.
 
+### Scenario 1: User Adds a Foreign Key Constraint
 
-### Steps
+A user wants to link records from another table into their current table. Both tables belong to the same schema. For this purpose, foreign key constraints can be applied to change the relationship between one table and another based on the values of columns belonging to the linked tables.
 
-#### 1. The user opens the 'track' table and adds a new column to link records from the 'artist' table
-- From the sidebar navigation list of tables, click on a table named 'track.'
-- Click on 'Add new Column,' and a new column is added with text type by default
-#### The user opens the new column menu and selects the 'Link to Another Table' option
-- Click on the column header to show the menu and select the 'Link to Another Table' option
+### Scenario 1a: Automatically adding foreign key constraints from the 'Link Table' dialog
 
-**Note: This step does not cover the scenario where a user has a unique table, in which case they need to create an additional table to add a relationship.**
+#### Assumptions for 1a
 
-#### 2. The user selects a table from the list of available tables
-- The user selects the table on the 'one side of the 'one-to-many' relationship.
+- The user is not familiar with the concept of foreign keys.
+- The user has at least one table with a (non-composite) primary key constraint set.
 
-#### 3. The user selects a column belonging to the selected table to create the link
-- The primary key column is pre-selected by default
-#### The user sets the new column as a foreign key for a column in the 'artist' table
-- If the column had values, this action would clear those unless they exactly matched contents from the linked column
-#### The user retrieves records from the linked table and adds them to the new column
-- Autocomplete should allow users to complete this action without additional clicks
-- When no results are available, we should show an option to add a new record
-#### 4. The user removes the foreign key constraint from the column
-- The system will assign the column the type of the column that was linked (if the linked column was a duration type, then it should be assigned as such)
+#### Steps for 1a
 
----
+- The user starts the link Table process by clicking on the `Link Table` button in the table toolbar area.
+- The user reads the instructions presented within the [link table](#link-table) component and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
+- The user selects the table they wish to link to from the [table selector](#table-selector).
+  - Only tables that have a primary key constraint will allow selection. Tables without a primary key constraint will still be listed but shown with a warning.
+- A list of questions is displayed once a table is selected. The user can answer 'yes' or 'no' depending on the relationship they want to create.
+- The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
+  - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
+  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column will be added to the table on the 'many' side of the relationship.
+  - Answering 'no' to both questions will set a unique constraint on a new column so that each record can only be linked to another unique record from the other table, creating a one-to-one relationship.
+- Once questions are answered, a summary of the system's changes will be displayed in a section titled 'Under the Hood.' At the same time, a diagram illustrating the structure of the new relationship is displayed next to the questions.
+- Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should prevent saving.
 
-### A user wants to update the lookup field for a table
-A user has a table named 'track' with a lookup field set to 'ISRC' (an alphanumeric code used to identify songs in the music industry). However, the field 'track name' is easier to retrieve and recall, and the user wants to display it when linking records from this table. 
+### Scenario 1b: Manually from the 'Table Constraints' settings
 
-### Steps
-#### 1. The user opens the table options menu
-- The table options menu can be accessed from the table toolbar by clicking on the table name.
-#### 2. The user selects the 'Set Lookup Column' option
-This action will open a dialog with a column selector from which the user can select a column and assign it as a 'lookup column.'
-#### 3. The user sets another column as a 'Lookup Column.'
-This action automatically changes the displayed value in all linked records from this table. The user understands that the display value is not the same as the foreign key value used to create the relationship.
+#### Assumptions for 1b
+
+- The user is not familiar with the concept of foreign keys.
+
+#### Steps for 1b
+
+- A user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
+- The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
+- This opens a dialog from which the user can set all supported constraint types.
+- The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
+- The list panel contains actions at the bottom of the panel. The user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
+- The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
+The user selects single or multiple columns to which they wish to apply the constraint.
+- The user selects a table to be referenced by these columns.
+- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user can select only columns with a `UNIQUE` or `PRIMARY KEY` constraint.
+
+## Scenario 2: User Deletes an Existing Foreign Key Constraint
+
+### Scenario 2a: From table constraint settings
+
+#### Assumptions for 2a
+
+- This scenario assumes that the system will not allow users to update foreign keys. The process to edit a foreign key will be to drop it and replace it.
+
+#### Steps for 2a
+
+- A user wants to edit an existing foreign key constraint to change the referring column or select another referenced table.
+- The user can view the details for an existing foreign key constraint by clicking on the 'Table Constraints' option in the table menu.
+- From the list of constraints, the user selects the constraint for which they want to see details.
+- The user Deletes the selected constraint.
+
+## Scenario 3: User Identifies a Column With a Foreign Key Constraint Applied
+
+### Scenario 3a: The foreign key constraint is set to a single column
+
+#### Steps for 3a
+
+- The user opens a table containing at least one column with a foreign key constraint applied.
+- The user is able to identify the columns in two ways:
+  - The user looks at the column header and sees a foreign key indicator. The indicator shows a key icon and the referenced table and column names.
+  - The cell content is styled as a tag-like element with a colored background. The cell also contains a toggle to open the `record selector` dropdown.
+
+### Scenario 3b: The foreign key constraint is set to multiple columns
+
+#### Steps for 3b
+
+- The user opens a table containing columns with a multi-column foreign key constraint applied.
+  - The indicator, in this case, looks similar to the single-column one. However, the user will understand that the foreign key constraints reference the same table.
+    - The user can tell that a referenced table is the same because they share the same color. The system could use other UI elements instead of color. Still, the idea is to create a visual distinction that users can scan easily.
+
+## Scenario 4: User Sees a Preview of the Linked Record in a Column With a Foreign Key Constraint Applied
+
+In most cases, the values displayed within a foreign key column won't identify the associated record. A preview of the linked record in columns with a foreign key constraint can help the user identify it.
+
+By default, the preview will include columns based on specific criteria, such as constraints applied or data type. However, users can change these by updating the referenced table preferences.
+
+### Scenario 4a: The option for record preview is enabled
+
+#### Steps for 4a
+
+- The user opens a table containing columns with a foreign key constraint applied.
+  - The column contains the referenced values for each cell. Five fields are displayed.
+    - The displayed fields from the reference table are prioritized applying the following criteria:
+      - They have unique values, meaning that either a primary key, foreign key, or unique constraint are applied to the column.
+      - They have a text data type.
+    - If the user wants to show specific fields, these can be selected in the referenced table options under the 'Table Preferences' option.
+
+- The displayed fields are presented as concatenated values. The visual contrast between the field name and its corresponding value increases readability.
+- When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+- The user can disable the record preview by opening the 'Table Link' preferences from the column header menu and unchecking the 'Show Record Preview' option.
+
+### Scenario 4b: The option for record preview is disabled
+
+#### Steps for 4b
+
+- The user opens a table containing columns with a foreign key constraint applied.
+  - The column contains the primary key value for the referenced column only.
+  - When clicked, the field displays the [record selector](#record-selector) component containing a pre-filtered list. A single matching item is displayed.
+- The user can enable the record preview by opening the 'Table Link' preferences from the column header menu and checking the 'Show Record Preview' option.
+
+## Scenario 5: User Edits the Values of a Column With a Foreign Key Constraint Applied
+
+Linked records can be changed or deleted according to the user's preference. Since values are references to records in other tables, users must understand that changes to references don't affect the original records. However, changes to the values of records in the referenced table do.
+
+### Scenario 5a: The field has an existing value
+
+#### Steps for 5a
+
+- The user opens a table containing columns with a foreign key constraint applied.
+  - The column contains the referenced values for each cell.
+  - When clicked, a pre-filtered list is displayed inside the [record selector](#record-selector) component. The dropdown includes a search input that will show other matching records if modified. Clicking on any of those records will close the dropdown and replace the existing one.
+  - Note that in the case of multi-column foreign key constraints, the system could modify additional fields.
+
+### Scenario 5b: The field is empty
+
+#### Steps for 5b
+
+- The user opens a table containing columns with a foreign key constraint applied.
+  - The column contains no values.
+  - When clicked, a list of records is displayed inside the [record selector](#record-selector) component. The list shows the first 50 records.
+  - An text input field is available within the dropdown to filter the records based on partial or complete value matches. The list narrows down the records as the user types in a value. The system can search only the first five fields. Search across all types is supported.
+  - If there's a single match for the entered value, it should become highlighted, allowing the user to confirm the selection.
+  - If there aren't any matches, a suggestion to change the 'Search Columns' table preference is displayed.
+
+## Components
+
+### Record Selector
+
+The record selector component is used to retrieve records from other tables and add them as values to cells. The list of records is shown according to the referenced table set in a foreign key constraint column.
+
+### Table Selector
+
+The table selector allows users to select tables from a schema. This spec doesn't go into details on how this selector would work. It also doesn't consider the scenario for selecting both tables and views.
+
+### Record Preview
+
+The record preview allows users to identify records linked in other tables. It shows the first five field names and values. A specific limit for the value length needs to be defined so that space usage is optimal.
+
+### Table Constraints
+
+The table constraints settings list and provide details for all table-level constraints. Its most basic implementation will allow users to know which constraints exist and see the columns to which they apply. Users will also add or delete constraints but not edit them.
+
+### Table Preferences
+
+Table preferences will contain a group of options that users can set up to change specific properties of tables relevant only in the context of Mathesar, meaning they don't alter any database table properties. An example of this could be setting up a table's default search columns.
+
+## Other Considerations
+
+### Linked Records for Multi-Column Foreign Key Constraints
+
+- The current UI does not consider multi-column foreign key constraints and how those would be retrieved and selected. Record search and selection via the dropdown component will not be supported. Instead, the cells will be limited to input and edit text values. The text values will have to match the primary keys of the referenced records and be unique.
+
+### Usage of Color
+
+- A suggestion to use color as a means to differentiate table references has been included in this spec. However, implementation details need to be discussed before deciding if the user interface will use color elements to create a visual connection between elements.
+
+## Related Discussions
+
+- [Add 'Table Link Preferences' Option to Column Menu](https://github.com/centerofci/mathesar/discussions/854)
+- [Editing values for columns with a foreign key constraint applied](https://github.com/centerofci/mathesar/discussions/796)
+- [Handling duplicate foreign key columns from the 'Link Table' dialog](https://github.com/centerofci/mathesar/discussions/791)
+- [Help users link tables via question-based forms](https://github.com/centerofci/mathesar/discussions/790)
+- [Handling Composite Primary Keys and Junction Tables](https://github.com/centerofci/mathesar/discussions/804)

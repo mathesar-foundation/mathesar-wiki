@@ -2,7 +2,7 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-11-17T23:28:17.454Z
+date: 2021-12-19T23:02:34.048Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
@@ -12,15 +12,7 @@ Every week, one person from the Mathesar [core team](/team) is assigned to be th
 
 ## Current Schedule
 
-| Week | Person |
-|-|-|
-| Nov 15 to Nov 19 | Brent |
-| Nov 22 to Nov 26 | Kriti |
-| Nov 29 to Dec 3 | Pavish |
-| Dec 6 to Dec 10 | Mukesh |
-| Dec 13 to Dec 17 | Sean |
-| Dec 20 to Dec 24 | Dominykas |
-| Dec 27 to Dec 31 | Ghislaine |
+Please check the latest [planning discussion](https://github.com/centerofci/mathesar/discussions/categories/planning) for the current Comms Assignee schedule.
 
 ## Purpose
 
@@ -31,8 +23,8 @@ The idea behind the Comms Assignee is to let the rest of the team ignore GitHub 
 ### Every day
 
 1. Respond to [Matrix](/community) messages from community members in all channels.
-1. Look through [newly created issues](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue) and [triage](/team/guide/issue-triage) them.
-1. Look through [recently updated issues](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc) and [assign](/team/guide/issue-assignment) issues to community members who comment with intent to start work.
+1. Look through [issues that need triage](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3A+triage%22) and [triage](/team/guide/issue-triage) them.
+1. Look through [recently updated issues](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc) and [assign](/team/guide/issue-assignment) issues to community members who have commented with intent to start work.
 1. Look through [new PRs](https://github.com/centerofci/mathesar/pulls?q=is%3Aopen+is%3Apr) for any lacking an assigned [reviewer](/engineering/code-review). Comment on the PR, requesting a review by tagging specific team members who you think would be suited to review it.
 
 Ensure community members receive a response within 1 business day, either from you or someone else. You don't need to resolve everything within one day though. With a new PR for example, you can comment on it, thank the contributor, and let them know when they can expect their PR to be reviewed.

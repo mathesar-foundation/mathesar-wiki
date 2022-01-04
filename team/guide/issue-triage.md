@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-11-05T17:26:30.005Z
+date: 2021-12-17T11:58:58.950Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -46,3 +46,7 @@ Triaging an issue means setting all the appropriate fields on it.
     If you don't know what milestone to put something in, talk to Kriti.
 
     Do not create any new milestones.
+
+## Notes on Labels and Milestones
+
+The list of available labels and milestones should only be changed in the `mathesar` repo. They are synced every day to the other repos related to the project using [this GitHub action](https://github.com/centerofci/mathesar/blob/master/.github/workflows/sync-github-labels-milestones.yml).

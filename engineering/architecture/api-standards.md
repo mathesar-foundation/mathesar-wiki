@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2021-05-28T12:17:42.698Z
+date: 2021-12-12T01:58:31.014Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -58,12 +58,34 @@ We do want to keep our APIs sensible, so pragmatically, we may eventually need t
 - Keys should not contain values, they should always be a string description of the value.
 
 ## Errors
-- Error responses should return the appropriate status code and an error message describing the error.
-- We should follow the default Django REST Framework error conventions.
+- The response status code should be 4xx when the error is handled, with 400 being the default.
+- The response body should always be JSON.
+- The error message should be formatted in one or more sentences, ending with a period and having no trailing spaces.
+- Errors should have a Mathesar-specific integer error code to identify the error.
+- We should strive to make each error message unique to its situation.
+- Untrusted user input _is_ allowed inside error messages. Care should be taken to appropriately escape error messages when printing them in various contexts, as all error messages should be presumed to contain potentially malicious content.
+- API error messages should be written primarily for an audience of Mathesar developers. The front end will typically print user-targeted error messages first, followed by the API error message if appropriate.
+- Error representations should have the following keys:
+   - `message`: The error message, in English.
+   - `error_code`: A Mathesar-specifc integer error code. We will create a separate spec for a list of error codes and what they mean. This page will be updated to link to it when ready.
+   - `field`: The request field that the error is related to. This should be identical to a field name in the originating request. It can be `null`
+   - `details`: Any additional details. This is a JSON object with arbitrary keys with details specific to a given error. It can be an empty object if there are no relevant details.
+```javascript
+{
+    "message": "This is an error message.",
+    "error_code": "2045",
+    "field": "name",
+    "details": {"failed_ids": [1, 2, 3, 4]}
+}
+```
+- To keep responses consistent and easy to parse, API responses should always return a list of errors (a JSON array of objects following the above format), even if there's only a single error.
+  - There are some instances where the API will return multiple errors. For example, the API may receive a `PATCH` request where several fields have invalid input, it will then return a list of errors with each field-specific error specified.
   
 ## Pagination
 - We use limit/offset style pagination for all API endpoints.
 - All list APIs should include pagination information for consistency, even if there is only one page of results.
 
-# Acknowledgements
-Many of these standards were borrowed from the [White House Web API Standards](https://github.com/WhiteHouse/api-standards).
+# Resources
+- Related discussions:
+  - ["Define common error structure" on GitHub](https://github.com/centerofci/mathesar/issues/560)
+- Many of these standards were borrowed from the [White House Web API Standards](https://github.com/WhiteHouse/api-standards).

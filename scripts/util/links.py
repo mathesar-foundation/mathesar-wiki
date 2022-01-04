@@ -8,6 +8,9 @@ def is_url(link):
     """
     Checks if a link is a url or relative link
     """
+    # Don't check for linkrot if link is a fragment
+    if link.startswith('#'):
+        return False
     parse_result = urllib.parse.urlparse(link)
     if parse_result.netloc:
         return True
@@ -67,6 +70,8 @@ def resolve_wiki_link(link, file):
     """
     # Remove styling that might be part of image links
     link = link.split(" ")[0]
+    # Remove fragments if they exist
+    link = link.split("#")[0]
     # Add .md extension is there is no extension
     _, ext = os.path.splitext(link)
     if not ext:
