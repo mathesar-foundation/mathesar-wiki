@@ -20,10 +20,10 @@ Database objects are defined objects in a database that store or reference data.
 
 ### Videos
 
-- Scenario 1: [Video](https://www.loom.com/share/179070149f00419e9125bd8fba675aa4)
-- Scenario 2: [Video](https://www.loom.com/share/e32500bc744246e5b926852231577fd7)
-- Scenario 3: [Video](https://www.loom.com/share/d553e7edbb28481b8aed02b055270154)
-- Scenario 4: [Video](https://www.loom.com/share/91a20c4770ef4439860425a1bcd84db6)
+- Scenario 1: [Video](https://www.loom.com/share/8d064b4c16244927b5135f2a5e4ebf36)
+- Scenario 2: [Video](https://www.loom.com/share/c3b2f63a7f1e4f08bb805d46e713913a)
+- Scenario 3: [Video](https://www.loom.com/share/e1437b383f0b4752b8478efb235a2973)
+- Scenario 4: [Video](https://www.loom.com/share/dea6f03e20f64860a708d1b882a6f20a)
 
 ## User Experience
 
@@ -42,9 +42,9 @@ Initially, users will only be able to search views by name. However, relying on 
 #### Scenario 1a: From the schema details view
 
 - User opens a schema and sees the [schema details page](#schema-details-page).
-- User sees a list of views recently opened in Mathesar for the current schema.
+- User sees a list of views [recently opened](#recently-opened) in Mathesar for the current schema.
 
-#### Scenario 1b: From the schema explorer view's sidebar
+#### Scenario 1b: From the schema explorer sidebar
 
 - User opens a schema and sees the [schema explorer sidebar](#schema-explorer-sidebar).
 - User sees a list of all tables and views for the current schema.
@@ -59,9 +59,16 @@ The list of objects for the schema fails to load.
 - Under the schema name, an error message is displayed indicating to the user that loading of objects failed.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 
+#### Scenario 2b: From the schema explorer sidebar
+
+- User opens a schema and sees the [schema explorer sidebar](#schema-explorer-sidebar).
+The list of objects for the schema fails to load.
+- An error message is displayed indicating to the user that loading of objects failed.
+- The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
+
 ### Scenario 3: User encounters an error while opening a view in a currently open schema
 
-#### Scenario 3a: From the schema explorer view's sidebar
+#### Scenario 3a: From the schema explorer sidebar
 
 - The user opens the schema explorer by navigating to it via the sidebar or by URL pointing to that object.
 - The object fails to load, and the system displays an error notice.
@@ -73,19 +80,12 @@ The list of objects for the schema fails to load.
 
 ### Scenario 4: User searches a view by name
 
-#### Scenario 4a: From the schema details view
-
-- User navigates to the schema details page by navigating directly to a URL that points to this page or by clicking on the schema link at the top navigation bar.
-- The user enters a search term in the search input box located at the top of the list.
-- The list is filtered to show objects whose name matches the search term.
-  - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
-- Users can clear the search by clearing the input box content or clicking on the `Clear Search` link displayed along with the results summary.
-
-#### Scenario 4b: From the schema explorer view's sidebar
+#### Scenario 4a: From the schema explorer view's sidebar
 
 - The user opens the schema explorer by navigating to it via the sidebar or by URL pointing to that object.
 - The user enters a search term in the search input box located at the top of the sidebar list.
 - The list is filtered to show objects whose name matches the search term.
+- The list contains meta data associated with the objects like record and column count.
   - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
 - Users can clear the search by clearing the input box content or clicking on the `Clear Search` link displayed along with the results summary.
 
@@ -109,16 +109,12 @@ The schema explorer sidebar contains the entire list of objects for any schema a
 
 Sidebar filters will allow users to filter the sidebar's contents to show only a particular object type. When set to ' All ', the content will include both tables and views. Setting the filter to `Table` will display only table objects, while `View` will display only view objects.
 
-### Sidebar Sort Control
-
-The sidebar sort control will allow users to select the sorting criteria for the objects displayed in the sidebar.
-
 ## Other Considerations
-
-### Navigation Structure
-
-Users of Mathesar will be able to connect multiple databases containing multiple schemas and navigate between them. This prototype assumes there's a single schema and database. For that reason, the interface presented is limited in functionality.
 
 ### Regular vs. Materialized Views
 
 No differentiation has been introduced for materialized views, as we concluded that the functionality would be similar. A different icon was proposed, which can be added to the UI improvements design work.
+
+### Recently Opened
+
+
