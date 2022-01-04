@@ -117,4 +117,4 @@ No differentiation has been introduced for materialized views, as we concluded t
 
 ### Recently Opened
 
-
+The method to generate a list of recently opened objects is still under discussion. Ideas like using local storage to provide that information has been considered. The idea is providing users with a quick way to access their more recently used tables or views or continue their work.
