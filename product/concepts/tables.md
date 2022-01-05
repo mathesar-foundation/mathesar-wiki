@@ -2,7 +2,7 @@
 title: Tables
 description: About Tables in Mathesar
 published: true
-date: 2022-01-05T19:18:38.255Z
+date: 2022-01-05T19:29:21.977Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:09:13.313Z
@@ -16,6 +16,9 @@ Tables consist of **columns** and **records** (rows).
 - A **column** describes the data stored, including (but not limited to ) its [Data Type](/product/concepts/data-types).
 - A **record** is a single unit of data that can be stored in a table. Each record stores data corresponding to each column defined on the table.
 
+## Tables in Mathesar
+Creating a table is the first step to managing your data within Mathesar.
+
 ## Example
 
 | ID | Name | Country | Age | Birth |
@@ -27,9 +30,6 @@ Tables consist of **columns** and **records** (rows).
 In this table, we have **5 columns** and **3 records** (rows).
 - The columns are: `ID`, `Name`, `Country`, `Age`, and `Birth`.
 - Each record fits the parameters defined by the column. So every record has a number as `ID` and date & time as `Birth`.
-
-## Tables in Mathesar
-Creating a table is the first step to managing your data within Mathesar.
 
 # Usage
 In order to avoid duplicating data and make data entry easier, we encourage users to set up a single table for each category of data and then create links betweeen them as needed.
