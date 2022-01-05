@@ -2,7 +2,7 @@
 title: Data Types
 description: About Data Types in Mathesar
 published: true
-date: 2022-01-05T21:55:15.975Z
+date: 2022-01-05T22:06:32.528Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:05:57.778Z
@@ -24,6 +24,10 @@ All [Table](/product/concepts/tables) columns have a data type in Mathesar. By d
 # Usage
 - We recommend that you take the time to set the correct data type for each of your columns to help ensure data quality.
    - For example, if you're storing dates in a column, setting the column to the `DATE` database type will ensure that everything saved in that column is a real date. You'll be able to spot typos before they get saved. 
+- Columns of different data types supports different filters and groups based on the kind of data stored. For example, you can group columns storing dates by month and filter columns storing emails by the domain of the email address.
+
+# Future Plans
+In the future, users will be able to plug in their own data types into Mathesar.
 
 # Resources
 - [PostgreSQL documentation for the list of all native types](https://www.postgresql.org/docs/current/datatype.html).
