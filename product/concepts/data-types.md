@@ -2,38 +2,28 @@
 title: Data Types
 description: About Data Types in Mathesar
 published: true
-date: 2022-01-05T18:05:57.778Z
+date: 2022-01-05T21:55:15.975Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:05:57.778Z
 ---
 
-## Data Types
-Each column in a table has an associated data type, which defines the type of data that can be stored.
+# About
 
-Mathesar will accurately show the type of data in the user interface to all the native data types that Postgres supports. Users can change the data type of existing columns to any of these types. 
+A **data type** is an attribute of a column in a [Table](/product/concepts/tables). It describes the kind of data that can be stored by a record in that column. Examples of data types include text, number, date, email address, etc.
 
-Mathesar also implements some custom types not available in PostgreSQL, as well as some custom filtering and grouping options for existing types. Only types for which we are implementing something custom are documented below; please consult [PostgreSQL documentation for the list of all native types](https://www.postgresql.org/docs/current/datatype.html).
+## Data Types in Mathesar
+There are two kinds of data types within Mathesar:
+- **Database Types**: These are the data types used under the hood by PostgreSQL (the database management software that Mathesar uses).
+- **Mathesar Data Types**: These are "friendly" data types aimed at simplifying the choices a non-technical user needs to make. A single Mathesar data type might map to several database types or just one.
 
-### Native Types
-These types are available in PostgreSQL, but have custom grouping options that we'll need to implement or create an interface for.
+Some Mathesar data types such as emails and URLs require custom database types to be installed in order to be available for use. This will be covered in installation instructions for Mathesar users once they are written.
 
-**All Text Types**
-*Custom grouping options*: First letter of text
+All [Table](/product/concepts/tables) columns have a data type in Mathesar. By default, we use the text data type since it has the least restrictions.
 
-**All Numeric Types**
-*Custom grouping options*: Range
+# Usage
+- We recommend that you take the time to set the correct data type for each of your columns to help ensure data quality.
+   - For example, if you're storing dates in a column, setting the column to the `DATE` database type will ensure that everything saved in that column is a real date. You'll be able to spot typos before they get saved. 
 
-We would like to calculate options for ranges based on the data stored. For example, if the data ranges from 0-100, we might want to offer grouping by 0-10, 10-20, etc., but if it ranges from 0 to 5,000,000,000, we would offer grouping by a different range.
-
-**All Date & Time Types**
-*Custom grouping options*: Support all grouping options supported by [the PostgreSQL EXTRACT function](https://www.postgresql.org/docs/current/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT).
-
-### Custom Types
-These types are entirely custom. Note that custom types are not available to use on pre-existing databases unless the user installs them separately.
-
-**Email**
-*Custom grouping options*: First letter of email address, email domain
-
-**URL**
-*Custom grouping options*: First letter of URL, domain TLD, protocol
+# Resources
+- [PostgreSQL documentation for the list of all native types](https://www.postgresql.org/docs/current/datatype.html).
