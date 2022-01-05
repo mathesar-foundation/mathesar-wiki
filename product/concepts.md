@@ -2,7 +2,7 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2021-11-16T22:08:29.461Z
+date: 2022-01-05T18:02:31.419Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z
@@ -29,7 +29,7 @@ PostgreSQL tables are a collection of related data, consisting of columns and ro
 To avoid duplicating data, we encourage users to set up many small tables that are related to each other.
 
 ## Views
-Views are the result of a stored SQL query on the data stored in tables. Views can involve combining data from multiple tables, filtering, sorting, aggregating (grouping), and so on.
+Views are virtual tables whose contents are defined by a SQL query. Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
 
 See [Views](/product/concepts/views) for more details.
 
