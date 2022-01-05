@@ -2,31 +2,42 @@
 title: Views
 description: About Views in Mathesar
 published: true
-date: 2022-01-05T18:02:30.046Z
+date: 2022-01-05T19:45:31.880Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T22:07:54.178Z
 ---
 
-## Database Views
+# About
 
-Database views are virtual tables whose contents are defined by a SQL query. Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
+Views are "virtual tables". Data is presented in rows and columns just like a table, but these rows and columns are calculated on the fly by pulling other data from wherever it is stored.
+
+Under the hood, views are defined entirely by a database query.
+
+Views are "virtual tables" whose contents are defined by a SQL query. Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
 
 ## Views in Mathesar
+We expect that [Tables](/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data or entering interrated data easier.
 
-We would like to steer users towards using views rather than tables to work with their data. Fundamentally, Mathesar is aimed to help users use data to answer questions. Tables that are properly [normalized](https://en.wikipedia.org/wiki/Database_normalization) are not the most useful for seeing the most relevant information in a single place.
+You should use Views when you'd like to:
+- see data aggregated across multiple tables in one place.
+- bookmark a subset of data in a table (e.g. filtered, sorted, or grouped data)
+- summarize data (e.g. have a column that shows counts of records in a table)
+- compute data (e.g. subtract the value of one column from another column and show the result in a new column)
 
-In the future, we will use views to also build visualizations (e.g. calendar, map, kanban, etc.).
+
+# Usage
+[Tables](/product/concepts/tables) that are structured to avoid data duplication (i.e. are properly [normalized](https://en.wikipedia.org/wiki/Database_normalization)) are not the most useful for seeing the most relevant information in a single place.
 
 ## Views vs. Tables
-To think about the difference between views and tables, imagine a user who wants to track their movie watches in Mathesar. Questions they might be thinking about are:
+To think about the difference between Views and [Tables](/product/concepts/tables), here's an example. Imagine you want to track your movie watches in Mathesar. Questions you might be thinking about are:
 - On what day of the week do I usually watch movies?
 - When did I last see Brad Pitt in a movie?
 - How many movies did I watch that were released in the 90s vs. the 2000s.
 - What was the last foreign movie I watched?
 
 ### Table Structure
-In order to track the data necessary to answer these questions,  here's a possible structure for the user's tables:
+In order to track the data necessary to answer these questions, here's a possible structure for your tables:
 
 #### Movies
 | ID | Title | Release Year | Primary Language |
@@ -68,7 +79,7 @@ In order to track the data necessary to answer these questions,  here's a possib
 | .. | .. | .. |
 
 ### The Role of Views
-As is obvious, none of these tables answer the user's question by themselves, even when filters, sorts, or aggregations are applied to an individual table. Also, when a user watches a new movie, logging it would involve adding data to four separate tables. The job of views is to simplify that.
+As is obvious, none of these tables answer your questions by themselves, even when filters, sorts, or aggregations are applied to an individual table. Also, when you watch a new movie, logging it would involve adding data to four separate tables. The job of views is to simplify that.
 
 Imagine a view with this structure:
 
@@ -80,4 +91,7 @@ Imagine a view with this structure:
 | 41 | Crazy Rich Asians | Michelle Yeoh | 2021-08-12 | 1 | English | 2018 |
 | .. | .. | .. | .. |
 
-Once they have set up this view, the user could filter and sort to get answers to their questions, or add new movie watches easily by adding all relevant data from one place.
+Once you have set up this view, you could filter and sort to get answers to your questions, or add new movie watches easily by adding all relevant data from one place.
+
+# Future Plans
+In the future, we will offer alternate display modes for Views (e.g. calendar, map, kanban, etc.).
