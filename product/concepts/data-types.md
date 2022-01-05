@@ -2,7 +2,7 @@
 title: Data Types
 description: About Data Types in Mathesar
 published: true
-date: 2022-01-05T22:06:32.528Z
+date: 2022-01-05T22:24:08.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:05:57.778Z
@@ -30,4 +30,5 @@ All [Table](/product/concepts/tables) columns have a data type in Mathesar. By d
 In the future, users will be able to plug in their own data types into Mathesar.
 
 # Resources
-- [PostgreSQL documentation for the list of all native types](https://www.postgresql.org/docs/current/datatype.html).
+- [Code-focused wiki page on Mathesar data types](/engineering/architecture/mathesar-types)
+- [PostgreSQL documentation for data types](https://www.postgresql.org/docs/current/datatype.html).
