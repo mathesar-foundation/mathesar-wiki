@@ -2,7 +2,7 @@
 title: Tables
 description: About Tables in Mathesar
 published: true
-date: 2022-01-05T19:18:12.466Z
+date: 2022-01-05T19:18:38.255Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:09:13.313Z
@@ -38,7 +38,7 @@ In the above example, it would be better to have a separate table for `Country` 
 
 #### People
 | ID | Name | Country ID | Age | Birth |
-|-|-|-|-|
+|-|-|-|-|-|
 | 1 | Jayanta Caoimhe | 21 | 22 | March 26, 1999 (8:01 AM) |
 | 2 | Tatenda Birgitta | 23 | 8 | October 31, 2013 (9:11 PM) |
 | 3 | Barend Reinhild | 25 | 45 | October 2, 1976 (9:36 AM) |
