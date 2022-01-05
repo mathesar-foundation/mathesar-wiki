@@ -2,7 +2,7 @@
 title: Concepts
 description: Glossary of Mathesar terms
 published: true
-date: 2022-01-05T18:10:22.383Z
+date: 2022-01-05T18:10:48.466Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:21:44.337Z
@@ -10,7 +10,7 @@ dateCreated: 2021-05-07T15:21:44.337Z
 
 This page is a reference for concepts related to Mathesar. It is intended to be the primary source of information for how the product is supposed to work.
 
-> This page describes how Mathesar **will** behave. We are still in early development, so most features are not implemented yet.
+> This page describes how Mathesar **will** behave. We are still in early development, so many features are not implemented yet.
 {.is-warning}
 
 ## User-Facing Concepts
