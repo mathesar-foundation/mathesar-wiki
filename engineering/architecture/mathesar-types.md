@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-06T16:36:29.453Z
+date: 2022-01-06T16:50:41.746Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -11,7 +11,7 @@ dateCreated: 2022-01-05T22:22:42.669Z
 Please see the ["Data Types" product concept page](/product/concepts/data-types) for more information about the idea behind Mathesar data types (a.k.a. "Mathesar types" for brevity).
 
 # Goals
-The main goal of the Mathesar type system is to create a better user experience for non-technical users. We aim to do this by:
+The main goal of the Mathesar type system is to create a better user experience for non-technical users on the frontend. We aim to do this by:
 - **Making data types understood in simple, non-technical terms.**
   - e.g. users should not need to know or think about what a `DOUBLE PRECISION` is in order to set their column to accept decimal numbers.
 - **Reducing cognitive load while picking a data type.**
@@ -23,13 +23,17 @@ We'd like to minimize the number of Mathesar Types so that the user can first ma
 # Implementation
 A Mathesar type can be thought of as a set of one or more PostgreSQL data types. Every PostgreSQL type should be mapped to exactly one Mathesar type, but a Mathesar type can be mapped to many PostgreSQL types.
 
+Mathesar types are an abstraction only applicable to frontend clients, they should not be considered in any operations at the backend or database level. For example, filtering, sorting, and grouping options are associated with PostgreSQL types, not Mathesar types.
+
+Mathesar types are defined in the backend instead of the frontend for two reasons:
+- to enable alternate clients that play well with the abstractions we use for the "official" frontend
+- to enable users to extend the type system by installing types in the backend and automatically getting the user experience offered by the frontend without having to write frontend code.
+
 We will need to extend the Mathesar type system over time as we support more data types. When doing so, we should follow these criteria for what PostgreSQL types can be grouped into a single Mathesar type:
 - Grouped PostgreSQL types should be able to be described by a single concept (e.g. **Number**, **Text**, **Email**).
 - There should be a reasonable *default* type that can be picked from the group of PostgreSQL types so that users can only pick a Mathesar type and have the default database type apply. Applying the default database type should not cause any loss of data.
   - e.g. the **Number** Mathesar type's default is `NUMERIC`, since it's general enough to cover most use cases.
   - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP`, since it covers data stored in both `DATE` and `TIME`, which are the other data types in the group.
-
-Please note that filtering, sorting, and grouping options are associated with PostgreSQL types, not Mathesar types. For example, `DATE`, `TIME`, and `TIMESTAMP` support different filtering options, even though they are all associated with the **Date & Time** Mathesar type.
 
 ## Mapping
 Current mapping of Mathesar types to PostgreSQL types.
