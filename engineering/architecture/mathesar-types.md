@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-06T16:50:41.746Z
+date: 2022-01-06T16:53:08.978Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -33,7 +33,7 @@ We will need to extend the Mathesar type system over time as we support more dat
 - Grouped PostgreSQL types should be able to be described by a single concept (e.g. **Number**, **Text**, **Email**).
 - There should be a reasonable *default* type that can be picked from the group of PostgreSQL types so that users can only pick a Mathesar type and have the default database type apply. Applying the default database type should not cause any loss of data.
   - e.g. the **Number** Mathesar type's default is `NUMERIC`, since it's general enough to cover most use cases.
-  - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP`, since it covers data stored in both `DATE` and `TIME`, which are the other data types in the group.
+  - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP WITH TIME ZONE`, since it covers data stored in both `DATE` and `TIME`, which are the other data types in the group.
 
 ## Mapping
 Current mapping of Mathesar types to PostgreSQL types.
