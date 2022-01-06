@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-06T16:54:05.501Z
+date: 2022-01-06T16:54:55.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -29,13 +29,14 @@ Mathesar types are defined in the backend instead of the frontend for two reason
 - to enable alternate clients that play well with the abstractions we use for the "official" frontend
 - to enable users to extend the type system by installing types in the backend and automatically getting the user experience offered by the frontend without having to write frontend code.
 
+## Defining Mathesar Types
 We will need to extend the Mathesar type system over time as we support more data types. When doing so, we should follow these criteria for what PostgreSQL types can be grouped into a single Mathesar type:
 - Grouped PostgreSQL types should be able to be described by a simple concept (e.g. **Number**, **Text**, **Date & Time**, **Email**, etc.).
 - There should be a reasonable *default* type that can be picked from the group of PostgreSQL types so that users can only pick a Mathesar type and have the default database type apply. Applying the default database type should not cause any loss of data.
   - e.g. the **Number** Mathesar type's default is `NUMERIC`, since it's general enough to cover most use cases.
   - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP WITH TIME ZONE`, since it covers data stored in both `DATE` and `TIME`, which are the other data types in the group.
 
-## Mapping
+## List of Mathesar Types
 Current mapping of Mathesar types to PostgreSQL types.
 
 We'll expand these over time as we support advanced functionality for more types in Mathesar.
@@ -56,5 +57,5 @@ We'll expand these over time as we support advanced functionality for more types
 ## Custom Types
 Some common data types used by users (e.g. emails, URLs, etc.) do not have native PostgreSQL equivalents. For these data types, Mathesar ships with custom PostgreSQL types that users can install if they want.
 
-## Resources
+# Resources
 - The [Global Data Type Components design spec](/design/specs/global-data-type-components) shows the user experience of Mathesar Types and PostgreSQL types in the UI.
