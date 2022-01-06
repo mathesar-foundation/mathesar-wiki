@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-06T20:34:59.421Z
+date: 2022-01-06T20:35:33.989Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -44,7 +44,7 @@ We'll expand these over time as we support advanced functionality for more types
 | Mathesar Data Type | PostgreSQL Data Type | Default | Notes |
 |-|-|-|-|
 | **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` | Can be displayed as percentages in the UI via display options. |
-| **Text** | `VARCHAR`, `CHAR`, `TEXT` | 'VARCHAR` | |
+| **Text** | `VARCHAR`, `CHAR`, `TEXT` | `VARCHAR` | |
 | **Date & Time** | `TIMESTAMP WITH TIME ZONE`, `TIMESTAMP WITHOUT TIME ZONE`, `DATE`, `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIMESTAMP WITH TIME ZONE` | |
 | **Duration** | `INTERVAL` | `INTERVAL` | |
 | **Boolean** | `BOOLEAN` | `BOOLEAN` | |
