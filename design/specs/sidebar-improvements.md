@@ -82,3 +82,12 @@ Items listed in the `Explorer` sidebar are styled differently according to their
 - Open/Active
 - Unsaved Changes
 - Error
+- Progress Indicator
+
+## Potential Improvements
+
+### Reveal in Sidebar
+
+-
+
+
