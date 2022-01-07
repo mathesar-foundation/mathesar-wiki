@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2021-09-06T16:48:02.287Z
+date: 2022-01-05T22:27:25.708Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -10,22 +10,25 @@ dateCreated: 2021-04-20T20:34:57.900Z
 
 This page contains technical specs or design documents and other implementation notes. These are intended to be updated as Mathesar evolves.
 
-# Code Standards
+## Architecture Reference
 These documents are kept up to date and serve as a reference.
 
-## API
+### API
 - [API Standards](/engineering/architecture/api-standards)
 
-## Database
+### Database
 - [DDL Operations](/engineering/architecture/ddl)
 - [DML Operations](/engineering/architecture/dml)
 
-# Technical Specs
+### Mathesar Abstractions
+- [Mathesar Data Types](/engineering/architecture/mathesar-types)
+
+## Technical Specs
 These documents are notes about a specific feature written to get feedback before implementation. They are not necessarily kept up-to-date once the feature has been implemented.
 
 - [Import Previewing](/engineering/architecture/import-preview-api)
 - [Syncing Database Objects](/engineering/architecture/syncing)
 
-# Related Resources
+## Related Resources
 - ["Architecture" category on GitHub discussions](https://github.com/centerofci/mathesar/discussions/categories/architecture)
 - [Engineering Decisions](/engineering/decisions) page.
