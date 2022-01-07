@@ -48,7 +48,7 @@ Initially, users will only be able to search views by name. However, relying on 
 
 - User opens a schema and sees the [schema explorer sidebar](#schema-explorer-sidebar).
 - User sees a list of all tables and views for the current schema.
-  - The list shows both object types by default but can be filtered to only show tables or views using the [filter bar](#sidebar-filters) at the top of the sidebar.
+  - The list shows both object types by default but can be filtered to only show tables or views using the [sidebar tabs](#sidebar-tabs) at the top of the sidebar.
 
 ### Scenario 2: User encounters an error in loading a list of views for a currently open schema
 
@@ -56,14 +56,14 @@ Initially, users will only be able to search views by name. However, relying on 
 
 - User opens a schema and sees the [schema details page](#schema-details-page).
 The list of objects for the schema fails to load.
-- Under the schema name, an error message is displayed indicating to the user that loading of objects failed.
+- Under the schema name, an error message is displayed indicating that the loading of objects failed.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 
 #### Scenario 2b: From the schema explorer sidebar
 
 - User opens a schema and sees the [schema explorer sidebar](#schema-explorer-sidebar).
 The list of objects for the schema fails to load.
-- An error message is displayed indicating to the user that loading of objects failed.
+- An error message is displayed indicating to the user that the loading of objects failed.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 
 ### Scenario 3: User encounters an error while opening a view in a currently open schema
@@ -85,7 +85,7 @@ The list of objects for the schema fails to load.
 - The user opens the schema explorer by navigating to it via the sidebar or by URL pointing to that object.
 - The user enters a search term in the search input box located at the top of the sidebar list.
 - The list is filtered to show objects whose name matches the search term.
-- The list contains meta data associated with the objects like record and column count.
+- The list contains metadata associated with the objects like record and column count.
   - If no results are found, the system displays a notice to indicate the lack of results and potential causes.
 - Users can clear the search by clearing the input box content or clicking on the `Clear Search` link displayed along with the results summary.
 
@@ -93,7 +93,7 @@ The list of objects for the schema fails to load.
 
 ### Schema Details Page
 
-The schema details page will be shown when a schema is open, and no tables are selected. It will contain the schema's name, the total number of tables and views, and additional sections that we can use to present the user with relevant information or links. Examples of content that could go into this section are:
+The schema details page will be shown when a schema is open and notables are selected. It will contain the schema's name, the total number of tables and views, and additional sections that we can use to present the user with relevant information or links. Examples of content that could go into this section are:
 
 - Recently opened views or tables
 - Activity summary for recent events
@@ -103,18 +103,18 @@ The schema details page will be shown when a schema is open, and no tables are s
 
 ### Schema Explorer Sidebar
 
-The schema explorer sidebar contains the entire list of objects for any schema available in Mathesar. From the sidebar the user can open any object by clicking on its navigation link. The sidebar also includes an input for searching through the listed objects.
+The schema explorer sidebar contains the entire list of objects for any schema available in Mathesar. The user can open any object from the sidebar by clicking on its navigation link. The sidebar also includes an input for searching through the listed objects.
 
-### Sidebar Filters
+### Sidebar Tabs
 
-Sidebar filters will allow users to filter the sidebar's contents to show only a particular object type. When set to ' All ', the content will include both tables and views. Setting the filter to `Table` will display only table objects, while `View` will display only view objects.
+Sidebar tabs will allow users to filter the sidebar's contents to show only a particular object type. When set to ' All ', the content will include both tables and views. Setting the tabs to `Tables` will display only table objects, while `Views` will display only view objects.
 
 ## Other Considerations
 
 ### Regular vs. Materialized Views
 
-No differentiation has been introduced for materialized views, as we concluded that the functionality would be similar. A different icon was proposed, which can be added to the UI improvements design work.
+Regular views need to be differentiated from materialized views as the use cases might differ. However, we don't want to create a rigid distinction between both as it could confuse users being introduced to the concept of views. For this purpose, an indicator, such as the letter 'M' can be added next to the view icon to show that it is of the type 'Materialized'.
 
 ### Recently Opened
 
-The method to generate a list of recently opened objects is still under discussion. Ideas like using local storage to provide that information has been considered. The idea is providing users with a quick way to access their more recently used tables or views or continue their work.
+The method to generate a list of recently opened objects is still under discussion. Ideas like using local storage to provide that information have been considered. The idea is to provide users with a quick way to access their more recently used tables or views or continue their work.
