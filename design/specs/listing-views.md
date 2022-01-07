@@ -1,11 +1,11 @@
 ---
-title: Listing and Searching Views
+title: Sidebar Improvements Spec
 description: 
 published: true
-date: 2021-09-17T08:38:09.720Z
+date: 2022-01-07T08:38:09.720Z
 tags: 
 editor: markdown
-dateCreated: 2021-09-17T08:28:58.527Z
+dateCreated: 2022-01-07T08:28:58.527Z
 ---
 
 # Context

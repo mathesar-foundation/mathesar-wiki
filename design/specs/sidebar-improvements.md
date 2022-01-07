@@ -1,5 +1,5 @@
 ---
-title: Sidebar Improvements
+title: Sidebar Improvements Spec
 description: 
 published: true
 date: 
@@ -20,7 +20,7 @@ The `Left Sidebar` component's main purpose is to give users access to the list 
 
 ### Videos
 
-- All Scenarios:
+- All Scenarios: [Video](https://www.loom.com/share/322db244b4b44775872c0be8c764195e)
 
 ## User Experience
 
@@ -88,6 +88,8 @@ Items listed in the `Explorer` sidebar are styled differently according to their
 
 ### Reveal in Sidebar
 
--
+The 'Reveal in Sidebar' functionality could be used to locate or scroll to an open item in the sidebar.
 
+### Additional functionality a the list item level
 
+Items listed in the `Explorer` sidebar could offer a contextual menu to perform actions such as renaming, deleting or duplicating, without the need to open the object.
