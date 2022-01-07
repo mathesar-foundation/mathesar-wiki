@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-06T20:35:33.989Z
+date: 2022-01-07T19:09:58.468Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -15,7 +15,7 @@ The main goal of the Mathesar type system is to create a better user experience 
 - **Making data types understood in simple, non-technical terms.**
   - e.g. users should not need to know or think about what a `DOUBLE PRECISION` is in order to set their column to accept decimal numbers.
 - **Reducing cognitive load while picking a data type.**
-  - A user should not need to look through every single data type to figure out how to set up their column.
+  - A user should not need to look through every single data type to figure out how to set up their column. Setting up their column involves both data integrity and a consistent set of database operations.
   - e.g. if a user knows their data is numeric, they shouldn't have to look through every data type to figure out which ones are numeric and how they're different.
 
 We'd like to minimize the number of Mathesar Types so that the user can first make a decision about which Mathesar Type to use and then adjust the parameters within that type to change the underlying PostgreSQL type if needed.
@@ -23,18 +23,21 @@ We'd like to minimize the number of Mathesar Types so that the user can first ma
 # Implementation
 A Mathesar type can be thought of as a set of one or more PostgreSQL data types. Every PostgreSQL type should be mapped to exactly one Mathesar type, but a Mathesar type can be mapped to many PostgreSQL types.
 
-Mathesar types are an abstraction only applicable to frontend clients, they should not be considered in any operations at the backend or database level. For example, filtering, sorting, and grouping options are associated with PostgreSQL types, not Mathesar types.
+Mathesar types are an abstraction only applicable to frontend clients, they should not be considered in any operations at the backend or database level. For example, filtering, sorting, and grouping operations happen using PostgreSQL types, not Mathesar types.
 
 Mathesar types are defined in the backend instead of the frontend for two reasons:
 - to enable alternate clients that play well with the abstractions we use for the "official" frontend
 - to enable users to extend the type system by installing types in the backend and automatically getting the user experience offered by the frontend without having to write frontend code.
 
-## Defining Mathesar Types
-We will need to extend the Mathesar type system over time as we support more data types. When doing so, we should follow these criteria for what PostgreSQL types can be grouped into a single Mathesar type:
-- Grouped PostgreSQL types should be able to be described by a simple concept (e.g. **Number**, **Text**, **Date & Time**, **Email**, etc.).
-- There should be a reasonable *default* type that can be picked from the group of PostgreSQL types so that users can only pick a Mathesar type and have the default database type apply. Applying the default database type should not cause any loss of data.
+## Criteria to Define Mathesar Types
+We will need to extend the Mathesar type system over time as we support more data types. When doing so, we should follow these criteria for what PostgreSQL types can be grouped into a single Mathesar type. These criteria assume that you have selected a set of PostgreSQL types and are now wondering whether they make sense together as a Mathesar type:
+
+- The set of types as a whole should be able to be described by a simple concept (e.g. **Number**, **Text**, **Date & Time**, **Email**)
+- There should be a reasonable *default* type that can be picked from the set so that users can only pick a Mathesar type and have the default database type apply. Applying the default database type should not cause any loss of data.
   - e.g. the **Number** Mathesar type's default is `NUMERIC`, since it's general enough to cover most use cases.
-  - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP WITH TIME ZONE`, since it covers data stored in both `DATE` and `TIME`, which are the other data types in the group.
+  - e.g. the **Date & Time** Mathesar type's default is `TIMESTAMP WITH TIME ZONE`, since it preserves all information.
+- It should be possible to cast data between all PostgreSQL data types in the set.
+- The types in the set should support the exact same filters and groups.
 
 ## List of Mathesar Types
 Current mapping of Mathesar types to PostgreSQL types.
@@ -45,7 +48,9 @@ We'll expand these over time as we support advanced functionality for more types
 |-|-|-|-|
 | **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` | Can be displayed as percentages in the UI via display options. |
 | **Text** | `VARCHAR`, `CHAR`, `TEXT` | `VARCHAR` | |
-| **Date & Time** | `TIMESTAMP WITH TIME ZONE`, `TIMESTAMP WITHOUT TIME ZONE`, `DATE`, `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIMESTAMP WITH TIME ZONE` | |
+| **Date** | `DATE` | `DATE` | |
+| **Time** | `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIME WITH TIME ZONE` | |
+| **Date & Time** | `TIMESTAMP WITH TIME ZONE`, `TIMESTAMP WITHOUT TIME ZONE` | `TIMESTAMP WITH TIME ZONE` | |
 | **Duration** | `INTERVAL` | `INTERVAL` | |
 | **Boolean** | `BOOLEAN` | `BOOLEAN` | |
 | **Money** | `MATHESAR_TYPES.MONEY`, `MONEY` | `MATHESAR_TYPES.MONEY` if installed, else `MONEY` | `MATHESAR_TYPES.MONEY` is a custom type |
