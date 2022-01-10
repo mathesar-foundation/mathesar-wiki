@@ -2,11 +2,12 @@
 title: Usage of Foreign Key Constraints
 description: 
 published: true
-date: 2021-11-09T16:59:23.145Z
+date: 2022-01-10T22:02:11.681Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-19T09:20:55.088Z
 ---
+
 ## Context
 
 This spec describes the design solution for [Usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
@@ -33,7 +34,7 @@ This spec describes the design solution for [Usage of Foreign Key constraints](h
 
 ### Scenario 1: User Adds a Foreign Key Constraint
 
-A user wants to link records from another table into their current table. Both tables belong to the same schema. For this purpose, foreign key constraints can be applied to change the relationship between one table and another based on the values of columns belonging to the linked tables.
+A user wants to link records from another table into their current table. Both tables belong to the same schema. For this purpose, foreign key constraints can change the relationship between one table and another based on the values of columns belonging to the linked tables.
 
 ### Scenario 1a: Automatically adding foreign key constraints from the 'Link Table' dialog
 
@@ -51,9 +52,9 @@ A user wants to link records from another table into their current table. Both t
 - A list of questions is displayed once a table is selected. The user can answer 'yes' or 'no' depending on the relationship they want to create.
 - The user answers all the questions listed. The answers will determine the location of the foreign key or whether a new table needs to be created.
   - Answering 'yes' to both questions will set up a mapping table with foreign key columns for both tables, creating a many-to-many relationship.
-  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The column will be added to the table on the 'many' side of the relationship.
+  - Answering 'yes' to any of the questions and 'no' to the other will set up a foreign key column in the appropriate table, creating a one-to-many relationship. The system will add the column to the table on the 'many' side of the relationship.
   - Answering 'no' to both questions will set a unique constraint on a new column so that each record can only be linked to another unique record from the other table, creating a one-to-one relationship.
-- Once questions are answered, a summary of the system's changes will be displayed in a section titled 'Under the Hood.' At the same time, a diagram illustrating the structure of the new relationship is displayed next to the questions.
+- Once questions are answered, the dialog will display a summary of the system's changes in a section titled 'Under the Hood.' At the same time, a diagram illustrating the structure of the new relationship is displayed next to the questions.
 - Before creating the link, the user will have the chance to rename the new columns or tables. Invalid column or table names should prevent saving.
 
 ### Scenario 1b: Manually from the 'Table Constraints' settings
@@ -65,14 +66,14 @@ A user wants to link records from another table into their current table. Both t
 #### Steps for 1b
 
 - A user wants to set up a foreign key constraint to single or multiple columns to a currently active table.
-- The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints'
+- The user opens the table options by clicking on the table name label in the toolbar area. From the menu, the user selects the option 'Table Constraints.'
 - This opens a dialog from which the user can set all supported constraint types.
 - The user sees a layout with two panels. On one side, all the existing constraints are listed. On the other side, a form with the constraints configuration is displayed. The form corresponds to the currently active list item.
 - The list panel contains actions at the bottom of the panel. The user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
 - The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
 The user selects single or multiple columns to which they wish to apply the constraint.
 - The user selects a table to be referenced by these columns.
-- The user selects a column in the reference table from which the column will match values. By default, this is set to the 'Primary Key' column in the referenced table. When changing this field, the user can select only columns with a `UNIQUE` or `PRIMARY KEY` constraint.
+- The user selects a column in the reference table from which the column will match values. This is set to the 'Primary Key' column in the referenced table by default. When changing this field, the user can select only columns with a `UNIQUE` or `PRIMARY KEY` constraint.
 
 ## Scenario 2: User Deletes an Existing Foreign Key Constraint
 
@@ -96,7 +97,7 @@ The user selects single or multiple columns to which they wish to apply the cons
 #### Steps for 3a
 
 - The user opens a table containing at least one column with a foreign key constraint applied.
-- The user is able to identify the columns in two ways:
+- The user can identify the columns in two ways:
   - The user looks at the column header and sees a foreign key indicator. The indicator shows a key icon and the referenced table and column names.
   - The cell content is styled as a tag-like element with a colored background. The cell also contains a toggle to open the `record selector` dropdown.
 
@@ -149,8 +150,8 @@ Linked records can be changed or deleted according to the user's preference. Sin
 - The user opens a table containing columns with a foreign key constraint applied.
   - The column contains the referenced values for each cell.
   - When clicked, a pre-filtered list is displayed inside the [record selector](#record-selector) component. The dropdown includes a search input that will show other matching records if modified. Clicking on any of those records will close the dropdown and replace the existing one.
-  - Note that in the case of multi-column foreign key constraints, the system could modify additional fields.
-
+  - Note that in the case of multi-column foreign key constraints, there will be no dropdown displayed, and the user can edit the field like a regular text field.
+  
 ### Scenario 5b: The field is empty
 
 #### Steps for 5b
@@ -166,7 +167,7 @@ Linked records can be changed or deleted according to the user's preference. Sin
 
 ### Record Selector
 
-The record selector component is used to retrieve records from other tables and add them as values to cells. The list of records is shown according to the referenced table set in a foreign key constraint column.
+The record selector component retrieves records from other tables and adds them as values to cells. The list of records is shown according to the referenced table set in a foreign key constraint column.
 
 ### Table Selector
 
@@ -178,7 +179,7 @@ The record preview allows users to identify records linked in other tables. It s
 
 ### Table Constraints
 
-The table constraints settings list and provide details for all table-level constraints. Its most basic implementation will allow users to know which constraints exist and see the columns to which they apply. Users will also add or delete constraints but not edit them.
+The table constraints settings list and provide details for all table-level constraints. Its most basic implementation will allow users to know which constraints exist and see the columns they apply. Users will also add or delete constraints but not edit them.
 
 ### Table Preferences
 
