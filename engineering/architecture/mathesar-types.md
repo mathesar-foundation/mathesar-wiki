@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-07T19:09:58.468Z
+date: 2022-01-10T18:46:47.796Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -62,5 +62,6 @@ We'll expand these over time as we support advanced functionality for more types
 ## Custom Types
 Some common data types used by users (e.g. emails, URLs, etc.) do not have native PostgreSQL equivalents. For these data types, Mathesar ships with custom PostgreSQL types that users can install if they want.
 
-# Resources
+# Further Reading
 - The [Global Data Type Components design spec](/design/specs/global-data-type-components) shows the user experience of Mathesar Types and PostgreSQL types in the UI.
+- ["Mathesar Data Types definition" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/959)
