@@ -93,9 +93,11 @@ The list of objects for the schema fails to load.
 
 ### Schema Details Page
 
-The schema details page will be shown when a schema is open and notables are selected. It will contain the schema's name, the total number of tables and views, and additional sections that we can use to present the user with relevant information or links. Examples of content that could go into this section are:
+The schema details page will be shown if a schema is open and there aren't any tables selected. It will contain the schema's name, the total number of tables and views, and additional sections that we can use to present the user with relevant information or links.
+The detail page should also show a list of recently opened views or tables.
 
-- Recently opened views or tables
+In the future additional content could be considered for this section, such as:
+
 - Activity summary for recent events
 - Getting started options for common actions
 
@@ -113,7 +115,7 @@ Sidebar tabs will allow users to filter the sidebar's contents to show only a pa
 
 ### Regular vs. Materialized Views
 
-Regular views need to be differentiated from materialized views as the use cases might differ. However, we don't want to create a rigid distinction between both as it could confuse users being introduced to the concept of views. For this purpose, an indicator, such as the letter 'M' can be added next to the view icon to show that it is of the type 'Materialized'.
+Regular views need to be differentiated from materialized views as the use cases might differ. However, we don't want to create a rigid distinction between both as it could confuse users being introduced to the concept of views. For this purpose, an indicator, such as the letter 'M' should be added next to the view icon to show that it is of the type 'Materialized'.
 
 ### Recently Opened
 
