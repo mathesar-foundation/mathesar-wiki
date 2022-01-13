@@ -28,6 +28,10 @@ The data type options menu contains all of the configurations for a data type. T
 
 [Filter, group and sort prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4612%3A39411&node-id=4612%3A39412&viewport=324%2C48%2C0.23&scaling=contain&starting-point-node-id=4612%3A39412&show-proto-sidebar=1)
 
+### Jan 2022 Update for Date, Time and DateTime Types
+
+[Date, Time and DateTime Data Type Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7250%3A80778&node-id=7251%3A82246&viewport=300%2C48%2C0.41&scaling=min-zoom)
+
 ### Database Options
 
 Database options are those that define how the data is stored in the database. Users cannot always undo changes made to database options once they have applied them. Warnings need to be displayed to users to prevent data from being lost.
