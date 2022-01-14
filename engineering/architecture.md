@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2022-01-05T22:27:25.708Z
+date: 2022-01-14T19:06:11.292Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -13,8 +13,9 @@ This page contains technical specs or design documents and other implementation 
 ## Architecture Reference
 These documents are kept up to date and serve as a reference.
 
-### API
+### Standards
 - [API Standards](/engineering/architecture/api-standards)
+- [Front End Standards](/engineering/architecture/front-end-standards)
 
 ### Database
 - [DDL Operations](/engineering/architecture/ddl)
