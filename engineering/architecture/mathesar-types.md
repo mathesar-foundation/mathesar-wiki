@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-10T18:46:47.796Z
+date: 2022-01-14T22:51:44.975Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -56,6 +56,7 @@ We'll expand these over time as we support advanced functionality for more types
 | **Money** | `MATHESAR_TYPES.MONEY`, `MONEY` | `MATHESAR_TYPES.MONEY` if installed, else `MONEY` | `MATHESAR_TYPES.MONEY` is a custom type |
 | **Email** | `MATHESAR_TYPES.EMAIL` | `MATHESAR_TYPES.EMAIL` | Custom type |
 | **URL** | `MATHESAR_TYPES.URI` | `MATHESAR_TYPES.URI` | Custom type |
+| **List** | [PostgreSQL Arrays](https://www.postgresql.org/docs/13/arrays.html) | `VARCHAR[]` | We should support all database and display options for whatever data type that the array is set to. |
 | **Other** | `SMALLSERIAL`, `SERIAL`, `BIGSERIAL`, `BYTEA`, `POINT`,`LINE`,`LSEG`,`BOX`,`PATH`,`PATH`,`POLYGON`, `CIRCLE`, `CIDR`, `INET`, `MACADDR`, `MACADDR8`, `BIT`, `BIT VARYING`, `TSQUERY`, `TSVECTOR`, `JSON`, `JSONB`, `XML`, `PG_LSN`, `PG_SNAPSHOT`, `TXID_SNAPSHOT`, `INT4RANGE`, `INT8RANGE`, `NUMRANGE`, `TSRANGE`, `TSTZRANGE`, `DATERANGE` | N/A, cannot be set at the moment. | These types are native PostgreSQL data types that we don't support any advanced functionality for yet. |
 | **Custom** | *Any type that's detected in the DB but not on the list above lists.* | N/A, cannot be set at the moment. | |
 
