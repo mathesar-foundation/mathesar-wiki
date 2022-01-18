@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-01-18T19:10:20.240Z
+date: 2022-01-18T19:13:46.967Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -12,7 +12,6 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
-- [Left Sidebar Improvements](/design/specs/sidebar-improvements)
 - [Listing Views](/design/specs/listing-views)
 - [UX for NULL Values](/design/specs/specs-null-values)
 - [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
@@ -44,6 +43,7 @@ These are specs for new features, corresponding to our [development milestones](
 
 These are detailed specs for complex components involved in the features above.
 
+- [Left Sidebar Improvements](/design/specs/sidebar-improvements)
 - [Import Status](/design/specs/import-status)
 - [Table Creation Controls](/design/specs/table-creation-controls)
 - [Pagination Component](/design/specs/pagination)
