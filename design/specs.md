@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
 ---
 
-# Features
+## Features
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
@@ -39,8 +39,8 @@ These are specs for new features, corresponding to our [development milestones](
 - [Add Table from File Import](/design/specs/table-import)
 - [Read Only Table](/design/specs/read-only-table)
 
+## Components
 
-# Components
 These are detailed specs for complex components involved in the features above.
 
 - [Import Status](/design/specs/import-status)
