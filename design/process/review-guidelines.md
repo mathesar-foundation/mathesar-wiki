@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
 ---
 
-The design team creates specs to describe the design solutions related to the Mathesar product. Whether small or large, all design issues need to be accompanied by a spec containing the solution details and information relevant to its implementation. Every spec goes through a review process so that the team can discuss it and ask questions.
+The design team creates specs to describe the design solutions related to the Mathesar product. Whether small or large, all design issues should be accompanied by a spec containing the solution details and information relevant to its implementation. Every spec goes through a review process so that the team can discuss it and ask questions.
 
 The spec creation process begins when a design issue is started and finalizes when the spec is approved and merged. When a design issue is ready for review, a spec is created, and a PR is opened. Finalizing a design spec means, in most cases, that the design issue has also been solved. If this is not the case, the reason and additional requirements must be communicated in the design issue and the spec.
 
@@ -32,9 +32,9 @@ The spec creation process begins when a design issue is started and finalizes wh
 
 ### Reviewers
 
-- Check for outstanding design review requests at least once a day.
+- Check for outstanding [design spec review requests](https://github.com/centerofci/mathesar-wiki/pulls?q=is%3Aopen) at least once a day.
 - Comment on the GitHub PR with feedback. Please follow the general advice above.
-- Once you're done reviewing the document if you don't have any feedback, approve the changes or unassign yourself from the PR.
+Once you're done reviewing the document, approve the changes or unassign yourself from the PR if you don't have any feedback.
 - Request changes explicitly if you want them included in the spec before it is finalized.
 - By sharing feedback, you actively participate in the UX process; make sure you read the context documents and are clear on the user's needs. If needed, ask questions, don't make assumptions.
 
@@ -54,9 +54,10 @@ The spec creation process begins when a design issue is started and finalizes wh
 
 The spec content will depend on the particular design problem being addressed. However, it is a good idea to include the following parts:
 
-- An overview or summary of the problem
-  - Assume the person looking at the spec didn't read the related issue
-- User Scenarios
-  - Go from simplest to complex so that
-- A link to a prototype or wireframes or any artifact used to demonstrate the design solution
-  - Including video walkthroughs for prototypes or wireframes can help the team to better understand the proposed solution
+- An overview or summary of the problem.
+  - Assume the person looking at the spec didn't read the related issue.
+- User Scenarios.
+  - Go from simplest to complex so that new details are added incrementally, for example, 'User opens a table' to 'User opens multiple tables at once.
+- A link to a prototype or wireframes or any artifact used to demonstrate the design solution.
+  - Including video walkthroughs for prototypes or wireframes can help the team better understand the proposed solution.
+  
