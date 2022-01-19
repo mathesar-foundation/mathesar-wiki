@@ -27,7 +27,6 @@ The spec creation process begins when a design issue is started and finalizes wh
   - Always request a review from the Mathesar members with Product or Design roles (see [Team](/team) for handles). If the issue is related to implementation, request a review from members with Engineering roles as well.
 - Please post the GitHub PR link to `#design-review:matrix.mathesar.org`.
 - If the reviewers request changes or have questions, please make the changes and re-request the review.
-  - Make sure to summarize your changes in your comment.
 - Once everyone has had a chance to review (or the timeline expires) and you're satisfied with the feedback, update the spec and ensure that it all fits together nicely.
 
 ### Reviewers
@@ -52,7 +51,7 @@ Once you're done reviewing the document, approve the changes or unassign yoursel
 
 ## Spec Content
 
-The spec content will depend on the particular design problem being addressed. However, it is a good idea to include the following parts:
+The spec content will depend on the particular design problem being addressed. However, it is recommended that you include the following parts:
 
 - An overview or summary of the problem.
   - Assume the person looking at the spec didn't read the related issue.
@@ -60,4 +59,3 @@ The spec content will depend on the particular design problem being addressed. H
   - Go from simplest to complex so that new details are added incrementally, for example, 'User opens a table' to 'User opens multiple tables at once.
 - A link to a prototype or wireframes or any artifact used to demonstrate the design solution.
   - Including video walkthroughs for prototypes or wireframes can help the team better understand the proposed solution.
-  
