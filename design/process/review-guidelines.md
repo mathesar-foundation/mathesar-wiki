@@ -24,7 +24,8 @@ The spec creation process begins when a design issue is started and finalizes wh
   - an expected timeline for the review, if any.
 - Be sure to include the specific feedback you are seeking.
 - Assign the required reviewers by their GitHub username.
-  - Always request a review from the Mathesar members with Product or Design roles (see [Team](/team) for handles). If the issue is related to implementation, request a review from members with Engineering roles as well.
+  - Always request a review from the Mathesar members with Product or Design roles (see [Team](/team) for handles.
+  - If the issue contains technical implementation details, you can request a review from a member with Engineering role as well. Keep in mind that a review from a single Engineering role member should be enough for most design issues. If you are tagging more than one Engineering member, specify the type of feedback that is required from them.
 - Please post the GitHub PR link to `#design-review:matrix.mathesar.org`.
 - If the reviewers request changes or have questions, please make the changes and re-request the review.
 - Once everyone has had a chance to review (or the timeline expires) and you're satisfied with the feedback, update the spec and ensure that it all fits together nicely.
