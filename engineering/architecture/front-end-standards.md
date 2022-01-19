@@ -78,3 +78,218 @@ dateCreated: 2022-01-14T19:02:19.924Z
 * Prefer the term "delete" in code and UI over similar terms like "remove" and "drop".
 
     - [discussion](https://github.com/centerofci/mathesar/discussions/872)
+
+## `null` vs `undefined`
+
+Prefer using `undefined` over `null` where possible.
+
+-  ✅ Good
+
+    ```ts
+    const name = writable<string | undefined>(undefined);
+    ```
+
+- ❌ Bad because it uses `null` when it could use `undefined`
+
+    ```ts
+    const name = writable<string | null>(null);
+    ```
+
+- ❌ Bad because it uses an empty string to represent an empty value when it probably should be using `undefined` for greater code clarity.
+
+    ```ts
+    const name = writable<string>('');
+    ```
+
+- ❌ Bad because it mixes `null` and `undefined` into the same type.
+
+    ```ts
+    const name = writable<string | undefined | null>(null);
+    ```
+
+-  ✅ Acceptable use of `null` because it's necessary for data that will be serialized to JSON. (Using `undefined` here would result in that key/value pair being removed from the JSON string).
+
+    ```ts
+    await patchApi(url, { name: null });
+    ```
+
+-  ✅ Acceptable use of `null` because the `Checkbox` component is designed to accept a `null` value to place the checkbox into an indeterminate state.
+
+    ```svelte
+    <Checkbox value={null} />
+    ```
+
+Considerations:
+
+- In some cases you may need to coalesce a `null` value to `undefined`. For example:
+
+    ```ts
+    function firstCapitalLetter(s: string): string | undefined {
+    return s.match(/[A-Z]/)?.[0] ?? undefined
+    }
+    ```
+
+Additional context:
+
+- [discussion](https://github.com/centerofci/mathesar/discussions/825)
+
+## Minimize Svelte store instances
+
+- ✅ Good because only one `cost` store is created.
+
+    ```ts
+    function getCost(toppings: Readable<string[]>) {
+      return derived(this.toppings, t => 10 + t.length * 2);
+    }
+
+    class PizzaOrder {
+      toppings: string[];
+      cost: Readable<number>;
+
+      constructor() {
+        this.toppings = [];
+        this.cost = getCost(this.toppings);
+      }
+    }
+    ```
+
+- ❌ Bad because separate calls to `cost` will create separate stores which may lead to more subscribe and unsubscribe events in some cases, risking performance problems.
+
+    ```ts
+    class PizzaOrder {
+      toppings: string[];
+
+      constructor() {
+        this.toppings = [];
+      }
+
+      get cost(): Readable<boolean> {
+        return derived(this.toppings, t => 10 + t.length * 2);
+      }
+    }
+    ```
+
+Additional context:
+
+- [Discussion](https://github.com/centerofci/mathesar/pull/776#issuecomment-963831424)
+
+## Build components for valid DOM nesting
+
+When working inside a component that _might_ be placed where [phrasing content](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#phrasing_content) is required, be sure to only use phrasing content elements (like `span`) instead of _not_-phrasing content elements (like `div`).
+
+-  ✅ Good
+
+    `FancyCheckbox.svelte`
+
+    ```ts
+    <span class="make-it-fancy">
+      <input type="checkbox" />
+    </span>
+    ```
+
+- ❌ Bad because it uses `div` instead of `span`
+
+    `FancyCheckbox.svelte`
+
+    ```ts
+    <div class="make-it-fancy">
+      <input type="checkbox" />
+    </div>
+    ```
+
+Rationale:
+
+- For example, let's build on the "Bad" example above and write the following Svelte code:
+
+    ```svelte
+    <label>
+      <FancyCheckbox />
+      Foo
+    </label>
+    ```
+
+    That Svelte code will render:
+
+    ```html
+    <label>
+      <div class="make-it-fancy">
+        <input type="checkbox" />
+      </div>
+      Foo
+    </label>
+    ```
+
+    That markup has invalid DOM nesting because a `label` element can only contain phrasing content -- but a `div` is _not_ phrasing content.
+
+Tips:
+
+- You can make a `span` _act_ like a `div` by setting `display: block` if needed.
+
+Notes:
+
+- Not all of our components adhere to this guideline yet.
+
+
+## `type` vs `interface`
+
+- Prefer `interface` when possible.
+- Use `type` when necessary.
+
+## Usage of `{...$$restProps}`
+
+We use `{...$$restProps}` occasionally in our code despite some drawbacks.
+
+Example:
+
+- `Child.svelte`
+
+    ```svelte
+    <script>
+      export let word;
+    </script>
+
+    <span class="child">{word}</span>
+    ```
+
+    `Child` explicitly accepts a `word` prop.
+
+- `Parent.svelte`
+
+    ```svelte
+    <script>
+      import Child from './Child.svelte`;
+    </script>
+
+    <Child {...$$restProps} />
+    ```
+
+    `Parent` _implicitly_ accepts a `word` prop.
+
+- `Grandparent.svelte`
+
+    ```svelte
+    <script>
+      import Parent from './Parent.svelte`;
+    </script>
+
+    <Parent word="foo" />
+    ```
+
+    This renders `<span class="child">foo</span>`
+
+
+Benefits of using `{...$$restProps}`:
+
+- It reduces code duplication when composing components.
+
+Drawbacks (with commentary added):
+
+- In the example above, `Parent.svelte` gives little indication that it accepts a `word` prop, making its behavior somewhat opaque. Further, the `Parent` component lacks type safety on the `word` prop.
+
+    However, we expect Svelte to eventually address these shortcomings by allowing us to provide more [explicit typing](https://github.com/sveltejs/rfcs/pull/38) for component props in these cases.
+
+- On using `{...$$props}` and `{...$$restProps}`, the [Svelte docs](https://svelte.dev/docs#template-syntax-attributes-and-props) say
+
+    > It is not generally recommended, as it is difficult for Svelte to optimise
+
+    However, thus far we have not identified any performance issues here.
