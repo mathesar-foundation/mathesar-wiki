@@ -15,18 +15,19 @@ See ["7.2 Table Expressions" on the PostgreSQL docs](https://www.postgresql.org/
 
 | Clauses | Mapped To | Notes|
 |-|-|-|
-| `FROM` | "Data Sources" of columns | |
+| `FROM` | "Sources" of columns | |
 | `WHERE` | "Filters" | |
 | `GROUP BY` & `HAVING` | "Aggregations" | |
 | `GROUPING SETS`, `CUBE`, & `ROLLUP` | "Aggregations" | |
-| Window function processing | "Data Formula" of columns | |
+| Window function processing | "Formula" of columns | |
+| Join columns | "Link" of columns | |
 
 ## Select Lists
 See ["7.3 Select Lists" on the PostgreSQL docs](https://www.postgresql.org/docs/14/queries-select-lists.html)
 
 | Clauses | Mapped To | Notes|
 |-|-|-|
-| Select-List Items | Related to "Data Sources" of columns | |
+| Select-List Items | Related to "Sources" of columns | |
 | Column Labels | Used to determine column name in Views | |
 |  `DISTINCT` | "Aggregations" | |
 
@@ -51,7 +52,7 @@ These map to View "Row Limit" and "Row Offset".
 ## VALUES Lists
 See: ["7.7 `VALUES` Lists" on the PostgreSQL docs"](https://www.postgresql.org/docs/14/queries-values.html)
 
-These map to View column "Data Sources". They will show up as a computed source.
+These map to View column "Sources". They will show up as a computed source.
 
 ## WITH Queries
 See ["7.8. `WITH` Queries (Common Table Expressions)" on the PostgreSQL docs](https://www.postgresql.org/docs/14/queries-with.html)

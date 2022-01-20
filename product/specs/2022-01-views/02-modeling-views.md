@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-01-13T19:49:54Z
 ---
 
-Here's how I think we should model views in our API and UI. Each heading represents an attribute of Views.
+Here's how I think we should model views in our backend and API. Each heading represents an attribute of Views.
 
 Before I get into attributes, here's an example table named `Movies` that I'll use to illustrate different types of Views.
 
@@ -40,6 +40,8 @@ Using the example table above, imagine a view created from the query `SELECT ID,
 | 2 | Don't Look Up |
 | 4 | Jason Bourne |
 
+**Note**: This only describes what's stored at the View query level. The UI will allow additional filtering that is not "saved" to the query.
+
 ## Sorting
 Views can have sorting applied. Unlike Tables, view sorting is not necessarily related to the columns that are present in the view.
 
@@ -52,6 +54,8 @@ Using the example table above, imagine a view created from the query `SELECT ID,
 | 4 | Jason Bourne |
 | 2 | Don't Look Up |
 
+**Note**: This only describes what's stored at the View query level. The UI will allow additional sorting that is not "saved" to the query.
+
 ## Aggregations
 These are functions applied to the view as a whole (rather than to individual columns). 
 
@@ -62,6 +66,8 @@ Using the example table above, imagine a view created from the query `SELECT Gen
 | Thriller |
 | Comedy |
 | Action |
+
+**Note**: This only describes what's stored at the View query level. The UI will allow additional aggregations that are not "saved" to the query.
 
 ## Row Limit
 This is the number of rows the View is limited as per its Query.
