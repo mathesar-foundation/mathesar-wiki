@@ -10,13 +10,12 @@ dateCreated: 2021-05-28T21:02:49.613Z
 
 The design team creates specs to describe the design solutions related to the Mathesar product. Whether small or large, all [design issues](#design-issues) should be accompanied by a spec containing the solution details and information relevant to its implementation.
 
-Every spec goes through a review process so that assigned members of the team can discuss it and ask questions. During these discussions, the reviewers' unique perspectives and expertise are captured to ensure the design solution is technically feasible, uncover missing scenarios, and, most importantly, strengthen adherence to the product's vision. A productive review will result in a better design and a smoother implementation.
-
-The spec creation process begins when a design issue is started and finalizes when the spec is approved and merged. When a design issue is ready for review, a spec is created, and a PR is opened. Finalizing a design spec means, in most cases, that the design issue has also been fully solved. If this is not the case, or the problem is solved partially, then the reason and additional requirements must be communicated in the design issue and the spec. Additional issues to address the unresolved parts of the design problem need to be created before the spec is finalized.
+The spec creation process begins when a design issue on GitHub is started and finalizes when the spec is approved and merged. When a design issue is ready for review, a spec is created, and a pull request (PR) is opened. Finalizing a design spec means, in most cases, that the design issue has also been fully solved. If this is not the case, or the problem is solved partially, then the reason and additional requirements must be communicated in the associated GitHub issue and documented in the spec. Additional GitHub issues to track the unresolved parts of the design problem need to be created before the spec is finalized.
 
 # Review Process
+Every spec goes through a review process so that members of the team can discuss it and ask questions. During these discussions, the reviewers' unique perspectives and expertise are captured to ensure the design solution is technically feasible, uncover missing implementation scenarios, and, most importantly, strengthen adherence to the product's vision. A productive review will result in a better design and a smoother implementation.
 
-## Authors
+## Process for Authors
 
 - Clone the [Mathesar Wiki Repo](https://github.com/centerofci/mathesar-wiki) and create a new page under the [Design Specs](/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/design/specs) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
@@ -32,7 +31,6 @@ The spec creation process begins when a design issue is started and finalizes wh
 - Once everyone has had a chance to review (or the timeline expires) and you're satisfied with the feedback, update the spec and ensure that it all fits together nicely.
 
 ### Spec Content
-
 The spec content will depend on the particular design problem being addressed. However, it is recommended that you include the following parts:
 
 - An overview or summary of the problem.
@@ -40,14 +38,13 @@ The spec content will depend on the particular design problem being addressed. H
 - User Scenarios.
   - Go from simplest to complex so that new details are added incrementally, for example, 'User opens a table' to 'User opens multiple tables at once.
 - A link to a prototype or wireframes or any artifact used to demonstrate the design solution.
-  - Including video walkthroughs for prototypes or wireframes can help the team better understand the proposed solution.
+  - Including video walkthroughs for prototypes or wireframes can help the team better understand the proposed solution. A Mathesar [Loom](http://loom.com/) account is available for design team members for this purpose.
 
 ### Design Issues
+We use GitHub issues to track design work. Issues used to track design problems are marked with the `work: design` label.
 
-Design issues are used to track design problems and are marked with the `work: design` label.
-
-## Reviewers
-
+## Process for Reviewers
+- Assignees are required to review specs. Everyone else should feel free to add reviews.
 - Check for outstanding [design spec review requests](https://github.com/centerofci/mathesar-wiki/pulls?q=is%3Aopen) at least once a day.
 - Comment on the GitHub PR with feedback. Please follow the general advice below.
 Once you're done reviewing the document, approve the changes or unassign yourself from the PR if you don't have any feedback.
