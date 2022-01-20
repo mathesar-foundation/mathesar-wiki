@@ -94,8 +94,8 @@ def build_image_paths(img, files):
         path = build_common_path(files)
 
     name = os.path.basename(img)
-    # Remove styling
-    name = name.split(" ")[0]
+    # Remove styling from images with structure like "x.png =240x"
+    name = name.split(" =")[0]
 
     save_path = os.path.join(path, name)
     rel_path = path2rel(save_path)
