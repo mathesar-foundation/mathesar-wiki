@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2022-01-12T19:05:18.917Z
+date: 2022-01-20T16:54:44.918Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -70,3 +70,6 @@ Some ideas we're considering in the future to grow the community:
 - A way for users to vote on [Roadmap](/product/roadmap) items.
 
 Let us know if you have more ideas!
+
+## Resources
+- The [GitLab Community Relations handbook](https://about.gitlab.com/handbook/marketing/community-relations/) might be useful reading for how to approach growing our community.
