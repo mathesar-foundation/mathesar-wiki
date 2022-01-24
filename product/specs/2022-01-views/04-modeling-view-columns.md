@@ -22,7 +22,7 @@ Here's how I think we should model view columns in our API and UI. Each heading 
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how Sources might be represented:
 
-![Sources image](/assets/Screen Shot 2022-01-20 at 4.21.05 PM.png)
+![Sources image](/assets/product/specs/2022-01-views/04-modeling-view-columns/Screen Shot 2022-01-20 at 4.23.21 PM.png Shot 2022-01-20 at 4.21.05 PM.png)
 
 ### Formula
 - **Definition**: This is the formula used to generate data in for this column.
@@ -33,7 +33,7 @@ We should allow users to either use a pre-set set of formulas or (in the future)
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
 
-![Sources image](/assets/Screen Shot 2022-01-20 at 4.23.21 PM.png)
+![Sources image](/assets/product/specs/2022-01-views/04-modeling-view-columns/Screen Shot 2022-01-20 at 4.23.21 PM.png Shot 2022-01-20 at 4.23.21 PM.png)
 
 ### Link
 - **Definition**: This notes whether a column is a join column. This is a column used to match the same values across multiple tables to create the View. These columns have multiple Sources but no Formula.
