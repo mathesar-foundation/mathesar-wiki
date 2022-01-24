@@ -23,6 +23,10 @@ View Setup should allow users to:
 	- When the column added involves a JOIN, the user should be able to change the type of JOIN used.
 - Add or remove [Query attributes](/product/specs/2022-01-views/03-modeling-view-query)
 
+Here are some *very* rough wireframes to illustrate the idea.
+![View Query Setup](/assets/product/specs/2022-01-views/Query Setup.png)
+![View Add Column](/assets/product/specs/2022-01-views/View Setup_ Add Column.png)
+
 # Interacting with View Data
 This covers functionality for Views that have already been created.
 
@@ -40,6 +44,9 @@ This covers functionality for Views that have already been created.
 	- Show virtual columns involved in view creation (via CTEs, subqueries, etc.)
 	- Allow editing formula through UI
 	- Allow using SQL to edit formula
+
+*Very* rough wireframe to illustrate the idea.
+![Views Column Detail](assets/product/specs/2022-01-views/View Column Menu.png)
 
 ## Rows
 - **For alpha release**: 
