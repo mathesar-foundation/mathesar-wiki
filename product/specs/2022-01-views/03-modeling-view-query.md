@@ -1,11 +1,11 @@
 ---
 title: Views: Modeling the View Query
-description:
+description: 
 published: true
-date: 2022-01-13T19:49:54Z
+date: 2022-01-24T22:55:38.596Z
 tags: 
 editor: markdown
-dateCreated: 2022-01-13T19:49:54Z
+dateCreated: 2022-01-24T22:55:38.596Z
 ---
 
 In some cases, we will be able to break down a View's Query into simpler parts that the user can edit. Here's how I think we should model those simpler parts in our API and UI. Each heading represents an attribute of a View Query.
