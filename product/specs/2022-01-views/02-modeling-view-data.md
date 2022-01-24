@@ -2,13 +2,13 @@
 title: Views: Modeling View Data
 description: 
 published: true
-date: 2022-01-24T22:54:40.594Z
+date: 2022-01-24T23:03:03.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
 ---
 
-Here's how I think we should model views in our backend and API. Each heading represents an attribute of Views.
+Here's how to model views in our backend and API. Each heading represents an attribute of Views.
 
 ## Query
 This is the SQL query that defines the view. This is **required**. 
