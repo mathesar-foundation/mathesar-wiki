@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-01-13T19:49:54Z
 ---
 
-Based on the models defined for [views](/product/specs/2022-01-views/02-modeling-views.md) and their [columns](/product/specs/2022-01-views/03-modeling-view-columns.md), the first version of Views should support the following features.
+The first version of Views should support the following features.
 
 I've marked the features we should support as "for alpha release", but I've also listed a few potential future features so that we can think about them while designing code architecture and UI/UX.
 
