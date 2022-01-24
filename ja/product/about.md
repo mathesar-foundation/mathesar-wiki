@@ -2,7 +2,7 @@
 title: About Mathesar
 description: 
 published: true
-date: 2022-01-24T22:39:59.543Z
+date: 2022-01-24T22:40:44.567Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-21T01:34:45.667Z
@@ -53,8 +53,8 @@ Mathesarの目標は、情報を扱うすべての人々のためのインフラ
 
 
 ## さらに詳しい内容は
-- [ツールカテゴリの探索 *Mathesarの適用範囲を定義するための初期調査報告書*](/design/reports/tool-category) 
-- [製品コンセプト *Mathesarのコンセプト*](/product/concepts) 
+- [ツールカテゴリの探索 *Mathesarの適用範囲を定義するための初期調査報告書*](/en/design/reports/tool-category) 
+- [製品コンセプト *Mathesarのコンセプト*](/en/product/concepts) 
 {.links-list}
 
 ## Credits
