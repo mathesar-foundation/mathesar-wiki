@@ -24,8 +24,9 @@ View Setup should allow users to:
 - Add or remove [Query attributes](/product/specs/2022-01-views/03-modeling-view-query)
 
 Here are some *very* rough wireframes to illustrate the idea.
-![View Query Setup](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/Query Setup.png Setup.png)
-![View Add Column](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/View Setup_ Add Column.png Setup_ Add Column.png)
+
+![View Setup image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/Query Setup.png)
+![View Add Column image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/View Setup_ Add Column.png)
 
 # Interacting with View Data
 This covers functionality for Views that have already been created.
@@ -46,8 +47,7 @@ This covers functionality for Views that have already been created.
 	- Allow using SQL to edit formula
 
 *Very* rough wireframe to illustrate the idea.
-![Views Column Detail](assets/product/specs/2022-01-views/View Column Menu.png)
-
+![View Add Column image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/View Column Menu.png)
 ## Rows
 - **For alpha release**: 
 	- Users should be able to see the rows associated with a view.
