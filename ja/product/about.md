@@ -2,7 +2,7 @@
 title: About Mathesar
 description: 
 published: true
-date: 2022-01-22T09:40:18.370Z
+date: 2022-01-24T22:39:20.790Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-21T01:34:45.667Z
@@ -11,6 +11,7 @@ dateCreated: 2022-01-21T01:34:45.667Z
 # Mathesarとは
 
 > Mathesarは現在開発中であり、2022年半ばにアーリーアダプター向けの準備が整う予定です。
+{.is-warning}
 
 Mathesarは、データベースへの直感的なユーザインタフェースを提供するオープンソースツールです。私たちの目的は、技術者でないユーザが、データベースの概念に関する予備知識なしに、データベースを簡単に扱えるようにすることです。私たちは、[Dabble DB](https://wiki.mathesar.org/en/product/concepts) のユーザーエクスペリエンスに大きく触発されています。
 
@@ -52,14 +53,9 @@ Mathesarの目標は、情報を扱うすべての人々のためのインフラ
 
 
 ## さらに詳しい内容は
-***
->[ツールカテゴリの探索](https://wiki.mathesar.org/en/design/reports/tool-category)   
->>Mathesarの適用範囲を定義するための初期調査報告書
-
->[製品コンセプト](https://wiki.mathesar.org/en/product/concepts)   
->>Mathesarのコンセプト
-
+- [ツールカテゴリの探索 *Mathesarの適用範囲を定義するための初期調査報告書*](/design/reports/tool-category) 
+- [製品コンセプト *Mathesarのコンセプト*](https://wiki.mathesar.org/en/product/concepts)   
+{.links-list}
 
 ## Credits
-
-Shinji Matsumoto for his help in translating from english to Japanese
+Thanks to Shinji Matsumoto for translating this page from English to Japanese.
