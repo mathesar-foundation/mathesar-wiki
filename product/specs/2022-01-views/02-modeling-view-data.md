@@ -1,11 +1,11 @@
 ---
 title: Views: Modeling View Data
-description:
+description: 
 published: true
-date: 2022-01-13T19:49:54Z
+date: 2022-01-24T22:54:40.594Z
 tags: 
 editor: markdown
-dateCreated: 2022-01-13T19:49:54Z
+dateCreated: 2022-01-24T22:54:40.594Z
 ---
 
 Here's how I think we should model views in our backend and API. Each heading represents an attribute of Views.
