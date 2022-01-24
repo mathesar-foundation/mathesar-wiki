@@ -1,11 +1,11 @@
 ---
-title: Product Specs
-description: Views: UI Requirements for Views
+title: Views: UI Requirements for Views
+description: 
 published: true
-date: 2022-01-13T19:49:54Z
+date: 2022-01-24T23:01:08.734Z
 tags: 
 editor: markdown
-dateCreated: 2022-01-13T19:49:54Z
+dateCreated: 2022-01-24T23:01:08.734Z
 ---
 
 The first version of Views should support the following features.
@@ -25,8 +25,8 @@ View Setup should allow users to:
 
 Here are some *very* rough wireframes to illustrate the idea.
 
-![View Setup image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/Query Setup.png)
-![View Add Column image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/View Setup_ Add Column.png)
+![query_setup.png](/query_setup.png)
+![view_setup__add_column.png](/view_setup__add_column.png)
 
 # Interacting with View Data
 This covers functionality for Views that have already been created.
@@ -47,7 +47,7 @@ This covers functionality for Views that have already been created.
 	- Allow using SQL to edit formula
 
 *Very* rough wireframe to illustrate the idea.
-![View Add Column image](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/View Column Menu.png)
+![view_column_menu.png](/view_column_menu.png)
 ## Rows
 - **For alpha release**: 
 	- Users should be able to see the rows associated with a view.
