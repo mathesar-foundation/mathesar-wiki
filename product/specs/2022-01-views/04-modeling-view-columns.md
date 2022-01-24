@@ -2,10 +2,10 @@
 title: Views: Modeling View Columns
 description: 
 published: true
-date: 2022-01-13T19:49:54Z
+date: 2022-01-24T22:56:32.776Z
 tags: 
 editor: markdown
-dateCreated: 2022-01-13T19:49:54Z
+dateCreated: 2022-01-24T22:56:32.776Z
 ---
 
 Here's how I think we should model view columns in our API and UI. Each heading represents an attribute of a View Column.
