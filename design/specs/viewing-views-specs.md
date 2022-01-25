@@ -19,7 +19,7 @@ Views are a core part of Mathesar's value. It allows users to analyze data from 
 #### Scenario 1: The view loads successfully
 
 1. The user opens a view.
-2. The view opens and shows the result of the view query in a table format.
+2. The view opens and shows the result of the [view query](#view-query) in a table format.
 
 #### Scenario 2: The view fails to load and displays an error message
 
@@ -30,8 +30,10 @@ Views are a core part of Mathesar's value. It allows users to analyze data from 
 #### Scenario 3: The view fails to load and enters query mode
 
 1. The user opens a view.
-2. The view fails to load.
-3. The view query is displayed along with an error summary and the error location.
+2. The view fails to load in `Table Mode`.
+3. The view loads in `Query Mode` instead.
+    - In `Query Mode` the [view query](#view-query) is displayed.
+    - Error summary and the error location if available is indicated to the user.
 
 ### Operation 2: User inspects the data type of columns
 
@@ -53,14 +55,14 @@ Views are a core part of Mathesar's value. It allows users to analyze data from 
 
 1. The user opens a view.
 2. The view opens and shows the result of the view query in a table format.
-3. The user clicks on the `View Column Properties` button located in the toolbar.
+3. The user clicks on the `Edit View` button in the toolbar.
 4. The table goes into `Design Mode`.
 
 #### Scenario 2: The view column definition properties are not available
 
 1. The user opens a view.
 2. The view opens and shows the result of the view query in a table format.
-3. The `View Column Properties` button located in the toolbar is disabled.
+3. The `Edit View` button in the toolbar is disabled.
 4. The user hovers over the button, and a tooltip indicates that the view properties are not accessible.
 
 ### Operation 4: User inspects the view's query
@@ -91,3 +93,9 @@ Icons for data types
 ## Components
 
 ### Edit and Query Modes
+
+## Definitions
+
+### View Query
+
+The view query is the SQL statement on which the resulting view table is based. It is generated automatically for users when they go through the view creation process within Mathesar.
