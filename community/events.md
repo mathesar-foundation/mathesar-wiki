@@ -2,7 +2,7 @@
 title: Community Events
 description: Notes about community events
 published: true
-date: 2022-01-25T21:41:39.097Z
+date: 2022-01-25T21:42:02.747Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-25T21:41:39.097Z
@@ -31,7 +31,7 @@ dateCreated: 2022-01-25T21:41:39.097Z
 ### Action Items
 - :white_check_mark: Set up a bridge between the new `#proj-mathesar` channel in the Code for Japan Slack and our Matrix server.
 - :white_check_mark: Set up a section in our wiki for notes on events
-- Set up a team email address for people to contac us
+- Set up a team email address for people to contact us
 
 ### Other Notes
 - People found Mathesar really hard to pronounce
