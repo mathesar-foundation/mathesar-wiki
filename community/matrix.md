@@ -8,18 +8,27 @@ editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
 ---
 
-We have a Matrix homeserver at `matrix.mathesar.org`, but you can join our public rooms using any Matrix account. If you haven't used Matrix before, we recommend getting started [using Element](https://element.io/get-started).
+For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Discord, Mattermost, Zulip, etc)*.
 
-A list of our public rooms is below. You can also join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org) which contains all these rooms.
+## Joining
 
-## General discussion
+1. Join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org).
+
+    - If you're new to Matrix, you'll need to create an account. You can choose to host your account on `matrix.org` or on our homeserver `matrix.mathesar.org`.
+
+1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started).
+
+
+### Chat rooms
+
+### General discussion
 
 | Name | Address | Purpose |
 |-|-|-|
 | General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
 | CFJ #proj-mathesar | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
-## Code
+### Code
 | Name | Address | Purpose |
 |-|-|-|
 | Code - General | [`#code:matrix.mathesar.org`](https://matrix.to/#/#code:matrix.mathesar.org) | Technical or code-related discussion. |
@@ -27,14 +36,14 @@ A list of our public rooms is below. You can also join our [Matrix Space](https:
 | Code - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
 | Code - Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
 
-## Design & Product
+### Design & Product
 | Name | Address | Purpose |
 |-|-|-|
 | Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
 | Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
 
-## Other
+### Other
 | Name | Address | Purpose |
 |-|-|-|
 | Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
