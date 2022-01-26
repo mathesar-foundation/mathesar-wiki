@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2022-01-26T01:35:09.431Z
+date: 2022-01-26T01:35:28.191Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -24,11 +24,9 @@ The Mathesar team does most of our work in public communication channels, which 
 
 # Future Plans
 Some ideas we're considering in the future to grow the community:
-- Setting up a developer mailing list.
 - Setting up events, such as office hours, pair programming sessions, or even livestreaming our work.
 - Participating in FOSS internships such as Google Summer of Code, Outreachy, CommunityBridge, etc.
 - An end-user focused Matrix channel
-- An end-user focused mailing list or forum (Discourse?)
 - A way for users to vote on [Roadmap](/product/roadmap) items.
 
 Let us know if you have more ideas!
