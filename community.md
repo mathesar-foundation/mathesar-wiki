@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2022-01-20T16:54:44.918Z
+date: 2022-01-26T00:47:08.009Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -54,11 +54,13 @@ A list of our public rooms is below. You can also join our [Matrix Space](https:
 |-|-|-|
 | GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
 
-
-
 ## GitHub Discussions
 
 We use [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) for asynchronous conversations. Please introduce yourself in our [introductions](https://github.com/centerofci/mathesar/discussions/1) thread and don't hesitate to participate in or start a discussion.
+
+# Events
+
+The Mathesar team sometimes attends events. Please see [Events](/en/community/events) for more information.
 
 # Future Plans
 Some ideas we're considering in the future to grow the community:
