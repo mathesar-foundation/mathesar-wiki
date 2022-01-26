@@ -2,7 +2,7 @@
 title: Filters
 description: About Filters in Mathesar
 published: true
-date: 2022-01-26T23:37:01.162Z
+date: 2022-01-26T23:38:07.461Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T23:37:01.162Z
@@ -46,4 +46,5 @@ Then you might want to see movies released after 1990 that you've watched, so yo
 ## Filters in Mathesar
 You can filter data in a [Table](/en/product/concepts/tables) or a [View](/en/product/concepts/views) in Mathesar using either the "Filters" button or each column's menu.
 
-The order than you apply filters in does not matter.
+The order than you apply filters in does not matter. Since filters only look at the data in a single row, you can apply them in any order and end up with the same result.
+
