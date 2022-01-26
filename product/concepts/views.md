@@ -2,7 +2,7 @@
 title: Views
 description: About Views in Mathesar
 published: true
-date: 2022-01-26T23:27:51.092Z
+date: 2022-01-26T23:28:27.487Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T22:07:54.178Z
@@ -17,7 +17,7 @@ Views can involve combining data from multiple tables or other views, filtering,
 Under the hood, views are defined by a database (SQL) query. 
 
 ## Views in Mathesar
-We expect that [Tables](/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data or entering interrated data easier.
+We expect that [Tables](/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data, creating reports, or entering inter-related data easily.
 
 You should use Views when you'd like to:
 - see data aggregated across multiple tables in one place.
