@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2021-12-09T08:41:38.078Z
+date: 2022-01-26T00:57:56.429Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -46,20 +46,7 @@ In case that's unavoidable:
 
 
 # Resources
-
-- [Mathesar repository](https://github.com/centerofci/mathesar)
-  - [Mathesar GitHub Discussions](https://github.com/centerofci/mathesar/discussions): we discuss designs, code, and check in weekly here.
-  - [Mathesar milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open):  we track our roadmap using GitHub milestones
-  - [Mathesar issues](https://github.com/centerofci/mathesar/issues)
-  - [Mathesar pull requests](https://github.com/centerofci/mathesar/pulls)
-- [Mathesar design prototype repository](https://github.com/centerofci/mathesar-design): The design team prototypes upcoming feature designs for Mathesar in this repository.
-- We have forked [sqlalchemy-filters](https://github.com/centerofci/sqlalchemy-filters) to add some functionality.
-- The [Mathesar Wiki](https://wiki.mathesar.org/) (this wiki) is our main knowledge base.
-  - The [Mathesar wiki repository](https://github.com/centerofci/mathesar-wiki) contains a copy of this wiki's content. Updates to the repo will reflect here.
-
-We try and keep our communication public. See:
-- [Meeting Notes](/meeting-notes)
-- [Community](/community)
+For a list of public repos and other resources, see [GitHub](/en/community/github).
 
 ## Private resources
 
