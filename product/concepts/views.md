@@ -2,7 +2,7 @@
 title: Views
 description: About Views in Mathesar
 published: true
-date: 2022-01-05T19:45:31.880Z
+date: 2022-01-26T23:27:51.092Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T22:07:54.178Z
@@ -12,9 +12,9 @@ dateCreated: 2021-11-16T22:07:54.178Z
 
 Views are "virtual tables". Data is presented in rows and columns just like a table, but these rows and columns are calculated on the fly by pulling other data from wherever it is stored.
 
-Under the hood, views are defined entirely by a database query.
+Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
 
-Views are "virtual tables" whose contents are defined by a SQL query. Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
+Under the hood, views are defined by a database (SQL) query. 
 
 ## Views in Mathesar
 We expect that [Tables](/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data or entering interrated data easier.
