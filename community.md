@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2022-01-26T00:47:08.009Z
+date: 2022-01-26T00:56:39.982Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -14,53 +14,12 @@ Welcome to the Mathesar community! We'd love to have you involved in our project
 {.is-info}
 
 # Community Forums
-The Mathesar team does most of our work in public communication channels, which also serve as the place we interact with our community.
+The Mathesar team does most of our work in public communication channels, which also serve as the place we interact with our community. We also sometimes attend events.
 
-## Matrix
-We have a Matrix homeserver at `matrix.mathesar.org`, but you can join our public rooms using any Matrix account. If you haven't used Matrix before, we recommend getting started [using Element](https://element.io/get-started).
-
-A list of our public rooms is below. You can also join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org) which contains all these rooms.
-
-### General discussion
-
-| Name | Address | Purpose |
-|-|-|-|
-| General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
-| Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
-
-### Code
-| Name | Address | Purpose |
-|-|-|-|
-| Code - General | [`#code:matrix.mathesar.org`](https://matrix.to/#/#code:matrix.mathesar.org) | Technical or code-related discussion. |
-| Code - Backend | [`#backend:matrix.mathesar.org`](https://matrix.to/#/#backend:matrix.mathesar.org) | Discussions related to backend code specifically |
-| Code - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
-| Code - Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
-
-### Design & Product
-| Name | Address | Purpose |
-|-|-|-|
-| Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
-| Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
-| Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
-
-### Other
-| Name | Address | Purpose |
-|-|-|-|
-| Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
-| Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
-
-### Automated Notifications
-| Name | Address | Purpose |
-|-|-|-|
-| GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
-
-## GitHub Discussions
-
-We use [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) for asynchronous conversations. Please introduce yourself in our [introductions](https://github.com/centerofci/mathesar/discussions/1) thread and don't hesitate to participate in or start a discussion.
-
-# Events
-
-The Mathesar team sometimes attends events. Please see [Events](/en/community/events) for more information.
+- [:speech_balloon: Matrix *Real-time chat*](/en/community/matrix)
+- [:computer: GitHub *Code, issue tracking, and asynchronous discussions*](/en/community/github)
+- [:beers: Events *Events attended by the Mathesar team*](/en/community/events)
+{.links-list}
 
 # Future Plans
 Some ideas we're considering in the future to grow the community:
