@@ -48,7 +48,7 @@ This covers functionality for Views that have already been created.
 
 *Very* rough wireframe to illustrate the idea.
 
-![view_column_menu.png](/assets/view_column_menu.png)
+![view_column_menu.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_column_menu.png)
 
 ## Rows
 - **For alpha release**: 
