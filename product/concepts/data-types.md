@@ -27,7 +27,7 @@ Examples of grouping include:
 ## Data Types in Mathesar
 All [Table](/product/concepts/tables) columns have a data type in Mathesar. By default, we use the text data type since it has the least restrictions, but you can change the data type to anything else. Here's an early design of what selecting a data type will look like:
 
-![screen_shot_2022-01-06_at_2.46.23_pm.png](/screen_shot_2022-01-06_at_2.46.23_pm.png)
+![screen_shot_2022-01-06_at_2.46.23_pm.png](/assets/product/concepts/data-types/screen_shot_2022-01-06_at_2.46.23_pm.png)
 
 You can pick from a set of options and depending on what option you pick (in this example, it's **Number**), you can choose additional settings to configure your column correctly. These additional settings are optional. 
 
