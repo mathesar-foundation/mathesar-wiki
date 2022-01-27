@@ -2,7 +2,7 @@
 title: Schemas
 description: About Schemas in Mathesar
 published: true
-date: 2022-01-05T18:44:24.601Z
+date: 2022-01-05T18:44:27.279Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:08:34.584Z

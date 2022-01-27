@@ -2,10 +2,10 @@
 title: Syncing Database Objects
 description: How we sync between the database and the web service
 published: true
-date: 2021-06-01T08:25:56.898Z
+date: 2021-08-18T13:45:43.194Z
 tags: 
 editor: markdown
-dateCreated: 2021-06-01T08:20:27.438Z
+dateCreated: 2021-06-01T10:43:59.890Z
 ---
 
 We synchronize database objects between the database and the web service layers through reflection of those objects. For any object created through the Mathesar web interface, we do this by having the web service create a model instance in its service database corresponding to the created object.  However, for objects created via other means, we reflect these in the Mathesar UI by capturing the state of relevant objects in the database, and propagating that state upwards to the web service's models, and then eventually the UI. For more information about database reflection, see the [SQLAlchemy docs](https://docs.sqlalchemy.org/en/14/core/reflection.html).

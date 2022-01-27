@@ -2,7 +2,7 @@
 title: URL Data Type
 description: 
 published: true
-date: 2021-08-20T09:12:42.695Z
+date: 2021-08-20T09:12:44.877Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-11T09:31:15.881Z

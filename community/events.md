@@ -2,7 +2,7 @@
 title: Community Events
 description: Notes about community events
 published: true
-date: 2022-01-26T00:46:00.289Z
+date: 2022-01-26T00:46:02.845Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-25T21:41:39.097Z

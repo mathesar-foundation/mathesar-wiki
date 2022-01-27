@@ -2,7 +2,7 @@
 title: Weekly Discussion
 description: About the weekly planning discussion
 published: true
-date: 2021-12-04T05:00:57.679Z
+date: 2021-12-04T05:01:00.120Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:53.002Z

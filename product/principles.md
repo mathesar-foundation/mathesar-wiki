@@ -2,7 +2,7 @@
 title: Product Principles
 description: 
 published: true
-date: 2021-06-09T20:10:59.798Z
+date: 2021-08-18T13:52:26.197Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-08T11:00:24.020Z

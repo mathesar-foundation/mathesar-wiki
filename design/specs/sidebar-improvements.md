@@ -2,10 +2,10 @@
 title: Sidebar Improvements Spec
 description: 
 published: true
-date: 
+date: 2022-01-17T20:57:47.405Z
 tags: 
 editor: markdown
-dateCreated: 
+dateCreated: 2022-01-17T20:57:44.123Z
 ---
 
 ## Context

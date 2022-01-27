@@ -2,7 +2,7 @@
 title: Basic Table Operations Spec
 description: 
 published: true
-date: 2021-07-20T07:00:06.652Z
+date: 2021-08-18T13:45:22.782Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-13T12:08:32.516Z

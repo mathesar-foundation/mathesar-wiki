@@ -2,7 +2,7 @@
 title: Views: Modeling the View Query
 description: 
 published: true
-date: 2022-01-24T22:55:38.596Z
+date: 2022-01-24T22:55:41.330Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:55:38.596Z

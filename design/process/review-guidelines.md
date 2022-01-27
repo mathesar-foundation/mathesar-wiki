@@ -2,7 +2,7 @@
 title: Design Review Guidelines
 description: Guidelines for working with design specs
 published: true
-date: 2021-10-23T19:09:21.178Z
+date: 2022-01-20T20:23:17.496Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z

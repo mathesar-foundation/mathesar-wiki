@@ -2,7 +2,7 @@
 title: Boolean Data Type
 description: 
 published: true
-date: 2021-09-13T20:55:08.449Z
+date: 2021-09-13T20:55:10.755Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-12T09:27:03.181Z

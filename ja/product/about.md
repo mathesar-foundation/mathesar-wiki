@@ -2,7 +2,7 @@
 title: About Mathesar
 description: 
 published: true
-date: 2022-01-24T22:40:44.567Z
+date: 2022-01-24T22:40:47.271Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-21T01:34:45.667Z

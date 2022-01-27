@@ -2,7 +2,7 @@
 title: Design Standards
 description: Rules to follow for Mathesar's UI
 published: true
-date: 2021-10-23T17:40:08.613Z
+date: 2021-10-23T17:40:10.846Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-20T21:27:44.224Z

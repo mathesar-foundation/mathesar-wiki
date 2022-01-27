@@ -2,10 +2,10 @@
 title: NULL Value Specs
 description: 
 published: true
-date: 2021-11-25T09:00:00.201Z
+date: 2021-12-22T07:13:33.092Z
 tags: 
 editor: markdown
-dateCreated: 2021-11-25T09:00:00.201Z
+dateCreated: 2021-12-22T07:13:29.836Z
 ---
 
 ## Context

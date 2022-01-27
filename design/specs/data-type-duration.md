@@ -2,7 +2,7 @@
 title: Duration Data Type Specs
 description: 
 published: true
-date: 2021-08-25T08:42:25.689Z
+date: 2021-09-06T07:25:40.905Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T09:42:44.190Z

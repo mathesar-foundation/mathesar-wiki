@@ -2,7 +2,7 @@
 title: October 2021 meeting notes
 description: 
 published: true
-date: 2021-10-26T22:44:57.598Z
+date: 2021-10-26T22:45:03.446Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-05T21:04:00.985Z

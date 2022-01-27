@@ -2,7 +2,7 @@
 title: Viewing a View
 description: 
 published: true
-date: 2021-09-05T08:57:28.838Z
+date: 2021-10-30T04:28:32.574Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-03T09:04:39.016Z

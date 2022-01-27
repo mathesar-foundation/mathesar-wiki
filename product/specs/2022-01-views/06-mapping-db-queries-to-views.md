@@ -2,7 +2,7 @@
 title: Views: Mapping DB Queries to Views
 description: 
 published: true
-date: 2022-01-24T23:01:36.210Z
+date: 2022-01-24T23:01:39.178Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:36.210Z

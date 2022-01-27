@@ -1,11 +1,11 @@
 ---
-title:  Filter, Sort, and Group Tables
+title: Filter, Sort, and Group Tables
 description: 
 published: true
-date: 2021-06-15T22:20:21.119Z
+date: 2021-08-18T13:44:57.669Z
 tags: 
 editor: markdown
-dateCreated: 2021-06-15T09:31:21.592Z
+dateCreated: 2021-07-01T21:03:13.372Z
 ---
 
 # Figma Prototype

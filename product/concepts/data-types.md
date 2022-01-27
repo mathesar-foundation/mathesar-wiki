@@ -2,7 +2,7 @@
 title: Data Types
 description: About Data Types in Mathesar
 published: true
-date: 2022-01-07T18:48:54.731Z
+date: 2022-01-07T18:48:58.347Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T18:05:57.778Z

@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2021-12-20T14:30:39.346Z
+date: 2021-12-20T14:30:42.089Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z

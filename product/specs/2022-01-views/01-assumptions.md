@@ -2,7 +2,7 @@
 title: Views: Assumptions
 description: 
 published: true
-date: 2022-01-24T22:53:50.652Z
+date: 2022-01-24T22:53:53.341Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:53:50.652Z

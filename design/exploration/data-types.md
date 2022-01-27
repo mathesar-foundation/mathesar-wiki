@@ -2,7 +2,7 @@
 title: Data Types Inspiration
 description: 
 published: true
-date: 2021-05-11T20:01:51.471Z
+date: 2021-08-18T13:44:03.955Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-11T19:59:36.712Z

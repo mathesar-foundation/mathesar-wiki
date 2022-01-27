@@ -2,7 +2,7 @@
 title: Non-Mathesar Data Types
 description: 
 published: true
-date: 2021-08-25T20:56:07.644Z
+date: 2021-08-25T20:56:09.786Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-12T13:04:26.580Z

@@ -2,7 +2,7 @@
 title: Mathesar Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-01-14T22:51:44.975Z
+date: 2022-01-14T22:51:48.593Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z

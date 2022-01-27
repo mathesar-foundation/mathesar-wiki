@@ -2,7 +2,7 @@
 title: Issue Assignment
 description: Process of assigning issues
 published: true
-date: 2021-12-22T00:59:28.052Z
+date: 2021-12-22T00:59:31.499Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:48:01.839Z

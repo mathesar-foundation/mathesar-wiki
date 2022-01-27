@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-01-26T00:49:51.001Z
+date: 2022-01-27T21:35:15.179Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -11,19 +11,16 @@ dateCreated: 2022-01-26T00:49:51.001Z
 For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Discord, Mattermost, Zulip, etc)*.
 
 ## Joining
-
-1. Join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org).
-
+1. Join our ["General" Matrix channel](https://matrix.to/#/#mathesar:matrix.mathesar.org).
     - When prompted to "Choose an app to continue", select "Element".
-
     - If you're new to Matrix, you'll need to create an account. If you already have a Matrix account, you can use it here, even if that account is hosted on a different Matrix homeserver.
-
 1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
 
 
 ## Chat rooms
+A list of Mathesar related chat rooms is below. You'll need to individually join whichever chat rooms interest you. Click the link under "Address" to join the room, follow the same instructions as above.
 
-You'll need to individually join whichever chat rooms interest you, even if you have joined our Matrix space per the instructions above.
+You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org) to keep Mathesar related chats organized. If you don't know what a Matrix Space is, [here's an overview](https://element.io/blog/spaces-the-next-frontier/).
 
 ### General discussion
 
