@@ -14,12 +14,16 @@ For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Disc
 
 1. Join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org).
 
-    - If you're new to Matrix, you'll need to create an account. You can choose to host your account on `matrix.org` or on our homeserver `matrix.mathesar.org`.
+    - When prompted to "Choose an app to continue", select "Element".
 
-1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started).
+    - If you're new to Matrix, you'll need to create an account. If you already have a Matrix account, you can use it here, even if that account is hosted on a different Matrix homeserver.
+
+1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
 
 
-### Chat rooms
+## Chat rooms
+
+You'll need to individually join whichever chat rooms interest you, even if you have joined our Matrix space per the instructions above.
 
 ### General discussion
 
