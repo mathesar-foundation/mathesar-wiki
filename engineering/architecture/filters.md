@@ -2,7 +2,7 @@
 title: Filters in Mathesar
 description: 
 published: true
-date: 2022-01-27T20:34:26.513Z
+date: 2022-01-27T20:39:44.084Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-27T20:34:26.513Z
@@ -21,7 +21,7 @@ Consider this table:
 
 As an example, here's a table:
 
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 1 | Dante's Peak | 1997 | FALSE |
 | 2 | Forrest Gump | 1994 | TRUE |
@@ -30,7 +30,7 @@ As an example, here's a table:
 | 5 | The Karate Kid | 1984 | TRUE |
 
 Here are some examples of correct and wrong filters. The emoji indicates whether they are correct.
-- :white_check_mark: `"Release Year" > 1990`
+- :white_check_mark: `"Year" > 1990`
 - :white_check_mark: `"ID" = 5`
 - :white_check_mark: `"Favorite" is TRUE`
 - :x: "Title" is a duplicate
@@ -49,7 +49,7 @@ Imagine the user applies filters in this order:
 
 #### Filter 1: `"Year" > 1993`
 After filtering:
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 1 | Dante's Peak | 1997 | FALSE |
 | 2 | Forrest Gump | 1994 | TRUE |
@@ -57,7 +57,7 @@ After filtering:
 
 ####  Filter 2: `"Favorite" is TRUE`
 After filtering:
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 2 | Forrest Gump | 1994 | TRUE |
 | 4 | Dante's Peak | 1997 | TRUE |
@@ -73,7 +73,7 @@ But instead if the user applies filter in this order
 
 #### Filter 1: `"Year" > 1993`
 After filtering:
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 1 | Dante's Peak | 1997 | FALSE |
 | 2 | Forrest Gump | 1994 | TRUE |
@@ -81,13 +81,13 @@ After filtering:
 
 #### Filter 2:`"Title" is a duplicate`
 After filtering:
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 1 | Dante's Peak | 1997 | FALSE |
 | 4 | Dante's Peak | 1997 | TRUE |
 
 ####  Filter 3: `"Favorite" is TRUE`
 After filtering:
-| ID | Title | Release Year | Favorite |
+| ID | Title | Year | Favorite |
 |-|-|-|-|
 | 4 | Dante's Peak | 1997 | TRUE |
