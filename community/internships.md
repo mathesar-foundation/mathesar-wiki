@@ -1,8 +1,8 @@
 ---
-title: Internships
-description: Internship opportunities at Mathesar
+title: Mentoring
+description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-01-18T19:33:59.302Z
+date: 2022-01-28T23:10:51.895Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
