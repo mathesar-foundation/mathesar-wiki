@@ -2,15 +2,13 @@
 title: Team Members
 description: 
 published: true
-date: 2022-01-28T23:31:10.090Z
+date: 2022-01-28T23:37:21.048Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-28T23:31:10.090Z
 ---
 
 ## Core Team
-The **core team** maintains the project on a day-to-day basis.
-
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
 | Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering (frontend) |
@@ -22,7 +20,6 @@ The **core team** maintains the project on a day-to-day basis.
 | Dominykas Mostauskis | `@dominykas:matrix.mathesar.org` | `@dmos62` | Engineering (backend) |
 
 ## Community Team
-The **community team** contributes to Mathesar's design and development and has write access to the `mathesar` repository and wiki.
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
