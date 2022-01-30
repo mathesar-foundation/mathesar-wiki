@@ -1,14 +1,13 @@
 ---
-title: Views: Assumptions
+title: 01. Views: Assumptions
 description: 
 published: true
-date: 2022-01-24T22:53:53.341Z
+date: 2022-01-30T23:29:07.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:53:50.652Z
 ---
 
-## Assumptions
 I'm making the following assumptions in the rest of the spec about how we want to work with Views in Mathesar.
 
 - We **do not** need to support creating or editing Views based on every conceivable database query in Mathesar. We will be focusing on allowing common use cases.
