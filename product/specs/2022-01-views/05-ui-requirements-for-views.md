@@ -1,8 +1,8 @@
 ---
-title: Views: UI Requirements for Views
+title: 05. Views: UI Requirements for Views
 description: 
 published: true
-date: 2022-01-27T22:33:56.540Z
+date: 2022-01-30T23:30:47.209Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -48,7 +48,7 @@ This covers functionality for Views that have already been created.
 
 *Very* rough wireframe to illustrate the idea.
 
-![view_column_menu.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_column_menu.png)
+![view_column_menu.png](/assets/view_column_menu.png)
 
 ## Rows
 - **For alpha release**: 
