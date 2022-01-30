@@ -1,8 +1,8 @@
 ---
-title: 01. Views: Assumptions
+title: 01. Assumptions
 description: 
 published: true
-date: 2022-01-30T23:29:07.963Z
+date: 2022-01-30T23:32:33.037Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:53:50.652Z
