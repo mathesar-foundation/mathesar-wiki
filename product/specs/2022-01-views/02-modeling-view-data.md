@@ -1,8 +1,8 @@
 ---
-title: Views: Modeling View Data
+title: 02. Views: Modeling View Data
 description: 
 published: true
-date: 2022-01-24T23:03:06.129Z
+date: 2022-01-30T23:30:35.603Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
