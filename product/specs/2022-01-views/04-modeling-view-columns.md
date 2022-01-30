@@ -1,8 +1,8 @@
 ---
-title: 04. Views: Modeling View Columns
+title: 04. View Columns
 description: 
 published: true
-date: 2022-01-30T23:30:26.668Z
+date: 2022-01-30T23:32:59.546Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
