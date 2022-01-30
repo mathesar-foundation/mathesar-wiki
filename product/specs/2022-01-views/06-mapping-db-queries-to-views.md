@@ -1,8 +1,8 @@
 ---
-title: 06. Views: Mapping DB Queries to Views
+title: 06. Breaking Down DB Queries
 description: 
 published: true
-date: 2022-01-30T23:29:43.865Z
+date: 2022-01-30T23:33:26.276Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:36.210Z
