@@ -1,8 +1,8 @@
 ---
-title: Views: Modeling the View Query
+title: 03. Views: Modeling the View Query
 description: 
 published: true
-date: 2022-01-24T22:55:41.330Z
+date: 2022-01-30T23:30:16.854Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:55:38.596Z
