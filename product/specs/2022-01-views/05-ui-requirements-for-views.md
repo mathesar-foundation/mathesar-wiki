@@ -1,8 +1,8 @@
 ---
-title: 05. Views: UI Requirements for Views
+title: 05. UI Requirements
 description: 
 published: true
-date: 2022-01-30T23:30:47.209Z
+date: 2022-01-30T23:33:09.220Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
