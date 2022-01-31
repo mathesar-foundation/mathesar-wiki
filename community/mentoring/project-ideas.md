@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-01-28T23:11:14.923Z
+date: 2022-01-31T18:34:53.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -35,3 +35,30 @@ dateCreated: 2022-01-18T19:32:54.047Z
 
 ### Mentors
 *List of mentors for this project.*
+
+-----------
+
+## Automatic Hint Reflection
+
+### The Problem
+We're currently working on a hint system that would allow us to assign useful information to functions and types. Currently, the hints are compiled by-hand. We've discussed the possibility to reflect function properties automatically, which would allow us to also assign (at least some) hints to functions automatically. The automatic reflection is not essential, but it could be a significant quality-of-life improvement. Its implementation seems too expensive for the core team to take up in the near term. Further, it's fairly isolated from the rest of Mathesar.
+
+### Classification
+- **Difficulty**: High
+- **Skills needed**: PostgreSQL, SQL
+- **Length**: *Long (~350 hours)*
+
+### Tasks
+TBD
+
+### Expected Outcome
+TBD
+
+### Application Tips
+TBD
+
+### Resources
+TBD
+
+### Mentors
+Dominykas
