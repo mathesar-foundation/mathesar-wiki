@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-01-31T19:24:52.200Z
+date: 2022-02-01T09:40:51.232Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -49,13 +49,18 @@ We're currently working on a hint system that would allow us to assign useful in
 - **Length**: *Long (~350 hours)*
 
 ### Tasks
-TBD
+- Research what is the intersection between the things that would be useful for Mathesar to automatically reflect and what *can* be automatically reflected;
+- Create an accurate picture of what cases the automatic reflection will fully cover and in what cases information (hints) will have to be supplemented manually;
+- Figure out when to reflect and how to cache the reflections so as to minimally burden the wider system with more state;
+- Do the implementation.
+
+I would expect the above tasks to be performed at least somewhat asynchroniously.
 
 ### Expected Outcome
-TBD
+An automatic PostgreSQL function (and possibly type) property reflection mechanism tailored to automatically finding useful hints for the hint system.
 
 ### Application Tips
-TBD
+See Tasks.
 
 ### Resources
 TBD
