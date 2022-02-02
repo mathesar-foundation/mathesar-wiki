@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T17:03:41.804Z
+date: 2022-02-02T17:04:14.912Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -80,7 +80,7 @@ The automatic reflection is not essential, but it could be a significant quality
 - Figure out when to reflect and how to cache the reflections so as to minimally burden the wider system with more state;
 - Do the implementation.
 
-I would expect the above tasks to be performed at least somewhat asynchroniously.
+I would expect the above tasks to be performed (at least somewhat) asynchroniously.
 
 ### Expected Outcome
 An automatic PostgreSQL function (and possibly type) property reflection mechanism tailored to automatically finding useful hints for the hint system.
