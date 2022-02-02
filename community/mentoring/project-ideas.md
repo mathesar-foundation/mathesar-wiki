@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T16:47:46.521Z
+date: 2022-02-02T17:03:41.804Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -86,10 +86,16 @@ I would expect the above tasks to be performed at least somewhat asynchroniously
 An automatic PostgreSQL function (and possibly type) property reflection mechanism tailored to automatically finding useful hints for the hint system.
 
 ### Application Tips
-See Tasks.
+I'd say a good candidate would be one that is comfortable taking the time to explore Mathesar needs, as relates to the hint, function and type systems, as well as one that is comfortable investigating the various tid-bits of information that Postgres makes available for reflection. I see this as a very exploratory task that requires the willingness to get to know multiple interesting systems.
 
 ### Resources
 This is the tracking issue: https://github.com/centerofci/mathesar/issues/1038
 
+This is the PR that will merge the hint system in: https://github.com/centerofci/mathesar/pull/1022/
+
+This is the current (rudimentary) state of the hint system: https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/hints.py
+
+This is the current (rudimentary) state of the functions system, that uses hints: https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/base.py
+
 ### Mentors
-Dominykas
+Dominykas (@dominykas:matrix.mathesar.org)
