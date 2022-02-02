@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-01T09:40:51.232Z
+date: 2022-02-02T10:41:38.089Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -50,7 +50,7 @@ We're currently working on a hint system that would allow us to assign useful in
 
 ### Tasks
 - Research what is the intersection between the things that would be useful for Mathesar to automatically reflect and what *can* be automatically reflected;
-- Create an accurate picture of what cases the automatic reflection will fully cover and in what cases information (hints) will have to be supplemented manually;
+- Create an accurate picture of what cases the automatic reflection will fully cover and in what cases information (hints) will have to be overridden or supplemented manually;
 - Figure out when to reflect and how to cache the reflections so as to minimally burden the wider system with more state;
 - Do the implementation.
 
