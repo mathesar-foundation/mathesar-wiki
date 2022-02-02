@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T17:11:17.006Z
+date: 2022-02-02T21:23:49.533Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -49,7 +49,7 @@ For the functions API to not require hardcoding on the client side, and for clie
 
 We use it, for example, to describe the signature of the function `starts_with`: it takes two named arguments, one argument is called `string` and the other `prefix`, both arguments should be string-like, and the function returns a boolean:
 
-```
+```python
     hints = [
         hints.parameter(name='string', hints.string_like),
         hints.parameter(name='prefix', hints.string_like),
