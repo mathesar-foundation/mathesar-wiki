@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T17:04:14.912Z
+date: 2022-02-02T17:11:17.006Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -89,13 +89,13 @@ An automatic PostgreSQL function (and possibly type) property reflection mechani
 I'd say a good candidate would be one that is comfortable taking the time to explore Mathesar needs, as relates to the hint, function and type systems, as well as one that is comfortable investigating the various tid-bits of information that Postgres makes available for reflection. I see this as a very exploratory task that requires the willingness to get to know multiple interesting systems.
 
 ### Resources
-This is the tracking issue: https://github.com/centerofci/mathesar/issues/1038
+[This](https://github.com/centerofci/mathesar/issues/1038)  is the tracking issue.
 
-This is the PR that will merge the hint system in: https://github.com/centerofci/mathesar/pull/1022/
+[This](https://github.com/centerofci/mathesar/pull/1022/) is the PR that will merge the hint system in.
 
-This is the current (rudimentary) state of the hint system: https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/hints.py
+[This](https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/hints.py) is the current (rudimentary) state of the hint system.
 
-This is the current (rudimentary) state of the functions system, that uses hints: https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/base.py
+[This](https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/base.py) is the current (rudimentary) state of the functions system, that uses hints .
 
 ### Mentors
 Dominykas (@dominykas:matrix.mathesar.org)
