@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T10:41:38.089Z
+date: 2022-02-02T15:41:41.217Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -63,7 +63,7 @@ An automatic PostgreSQL function (and possibly type) property reflection mechani
 See Tasks.
 
 ### Resources
-TBD
+This is the tracking issue: https://github.com/centerofci/mathesar/issues/1038
 
 ### Mentors
 Dominykas
