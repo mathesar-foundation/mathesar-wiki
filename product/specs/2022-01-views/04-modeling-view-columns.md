@@ -2,7 +2,7 @@
 title: 04. View Columns
 description: 
 published: true
-date: 2022-01-30T23:32:59.546Z
+date: 2022-02-03T22:47:39.276Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
@@ -26,10 +26,10 @@ Using Element's UI as an example (Matrix channel names stand in for data sources
 
 ### Formula
 - **Definition**: This is the formula used to generate data in for this column.
-- **Allowed values**: SQL function + operators
+- **Allowed values**: List of pre-defined formulas (will be defined later)
 - **Optional**: Columns that are direct copies of other columns from tables or views won't have a formula.
 
-We should allow users to either use a pre-set set of formulas or (in the future) enter a custom formula using whatever functions are installed on their Postgres database.
+We should allow users to use a pre-set set of formulas or (in the future) enter a custom formula using whatever functions are installed on their Postgres database.
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
 ![screen_shot_2022-01-20_at_4.23.21_pm.png](/screen_shot_2022-01-20_at_4.23.21_pm.png)
