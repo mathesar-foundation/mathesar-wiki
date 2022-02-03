@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-02T21:23:49.533Z
+date: 2022-02-03T10:09:55.840Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -84,6 +84,8 @@ I would expect the above tasks to be performed (at least somewhat) asynchronious
 
 ### Expected Outcome
 An automatic PostgreSQL function (and possibly type) property reflection mechanism tailored to automatically finding useful hints for the hint system.
+
+These automatically generated hints will be exposed through the function and type APIs, alongside manually written hints (if necessary), so that frontends can procedurally generate expression builders and provide useful guidance with minimal prior knowledge.
 
 ### Application Tips
 I'd say a good candidate would be one that is comfortable taking the time to explore Mathesar needs, as relates to the hint, function and type systems, as well as one that is comfortable investigating the various tid-bits of information that Postgres makes available for reflection. I see this as a very exploratory task that requires the willingness to get to know multiple interesting systems.
