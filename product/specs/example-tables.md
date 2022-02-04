@@ -1,14 +1,14 @@
 ---
-title: Example Tables
+title: Example Schema
 description: This is an example table structure used in various product specs.
 published: true
-date: 2022-02-04T02:52:01.932Z
+date: 2022-02-04T02:53:13.939Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T02:52:01.932Z
 ---
 
-This table structure is meant to simulate what data looks like in real databases. It's meant as a reference so that it can be used as an example in specs or other sections of the wiki.
+These tables are meant to simulate what data looks like in real databases. This schema is a reference to be used as an example in specs or other sections of the wiki.
 
 ## Table: Movies
 | ID | Title | Release Year | Primary Language |
