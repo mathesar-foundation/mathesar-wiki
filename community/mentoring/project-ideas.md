@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-04T19:11:23.017Z
+date: 2022-02-04T19:13:51.326Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -164,7 +164,7 @@ Brent Moran (@brent:matrix.mathesar.org)
 
 ## Visualization of grouped data
 
-### The problem
+### The Problem
 One of the common needs that arises when analyzing data is to group similar results, aggregate them, and gain insights from them. For eg., Consider the scenario where we have a list of employee records and would like to figure out how many employees reside in a particular country, and further categorize them by age group, gender etc., Databases make these kind of usecases easier by providing powerful grouping behaviours. However, inorder to leverage it users would need to work with SQL which requires technical knowledge.
 
 Mathesar is focused on providing an intuitive interface over databases for non-technical users. They should be able to gain data insights through grouping with as simple interactions as possible. Mathesar currently provides the ability to group records and displays them as linear rows, separated by group headers, further narrowed down by pagination. While this allows users to group data as per their requirements, it would be more helpful to provide a bird's eye view on the entire dataset.
