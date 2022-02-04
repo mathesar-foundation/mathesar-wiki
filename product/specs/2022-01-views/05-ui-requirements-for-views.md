@@ -2,7 +2,7 @@
 title: 05. UI Requirements
 description: 
 published: true
-date: 2022-01-30T23:33:09.220Z
+date: 2022-02-04T00:02:02.840Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -25,8 +25,11 @@ View Setup should allow users to:
 
 Here are some *very* rough wireframes to illustrate the idea.
 
-![query_setup.png](/query_setup.png)
-![view_setup__add_column.png](/view_setup__add_column.png)
+![view_builder_1.png](/view_builder_1.png)
+![view_builder_2.png](/view_builder_2.png)
+![view_builder_3.png](/view_builder_3.png)
+![view_builder_4.png](/view_builder_4.png)
+![view_builder_5.png](/view_builder_5.png)
 
 # Interacting with View Data
 This covers functionality for Views that have already been created.
