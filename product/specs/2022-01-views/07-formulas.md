@@ -1,8 +1,8 @@
 ---
-title: 07. View Formulas
+title: 07. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-04T03:33:53.715Z
+date: 2022-02-04T03:38:23.046Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
