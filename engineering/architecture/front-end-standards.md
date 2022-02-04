@@ -139,6 +139,25 @@ Notes:
 
 - Not all of our components adhere to this guideline yet.
 
+## CSS
+
+### CSS units
+
+- Don't use `px` — use `rem` or `em` instead.
+
+    Exceptional cases where `px` is okay:
+
+    - when setting the root `font-size`
+
+Note: some of our older code still does not conform to this standard.
+
+### Component spacing and layout
+
+Components should not set any space around their outer-most visual edges — instead the consuming component should be responsible for layout and spacing.
+
+- **margin**: The component's root element should not set any margin.
+
+- **padding**: If the component's root element has border, it's fine to set padding because the border will serve as the outer-most visual edge. But if there's no border, then there should be no padding.
 
 ## TypeScript
 
@@ -200,6 +219,12 @@ Considerations:
 Additional context:
 
 - [discussion](https://github.com/centerofci/mathesar/discussions/825)
+
+### API type definitions
+
+TypeScript types (including interfaces) which describe API requests and responses (and properties therein) should be separated from other front end code and placed in the `mathesar_ui/src/api` directory. This structure serves to communicate that, unlike other TypeScript types, the front end does not have control over the API types.
+
+[Discussion](https://github.com/centerofci/mathesar/discussions/875)
 
 ## Svelte
 
