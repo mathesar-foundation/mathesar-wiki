@@ -2,7 +2,7 @@
 title: 04. View Columns
 description: 
 published: true
-date: 2022-02-03T22:47:39.276Z
+date: 2022-02-04T03:53:55.358Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
@@ -33,6 +33,8 @@ We should allow users to use a pre-set set of formulas or (in the future) enter 
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
 ![screen_shot_2022-01-20_at_4.23.21_pm.png](/screen_shot_2022-01-20_at_4.23.21_pm.png)
+
+Details about creating formulas are in [07. Formulas](/en/product/specs/2022-01-views/07-formulas).
 
 ### Link
 - **Definition**: This notes whether a column is a join column. This is a column used to match the same values across multiple tables to create the View. These columns have multiple Sources but no Formula.
