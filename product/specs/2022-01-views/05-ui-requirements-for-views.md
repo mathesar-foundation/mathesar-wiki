@@ -2,7 +2,7 @@
 title: 05. UI Requirements
 description: 
 published: true
-date: 2022-02-04T00:04:28.391Z
+date: 2022-02-04T03:37:53.322Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -56,9 +56,7 @@ This covers functionality for Views that have already been created.
 ## Rows
 - **For alpha release**: 
 	- Users should be able to see the rows associated with a view.
-	- If a cell is a direct representation of a record, users should be able to edit that record via that cell. The entire record should be edited through a form, not just the single item.
-		- "Direct representation" means that the record has only one data source, no formula, and is not a Link.
-	- If a column is a direct representation of a record, users should be able to add a new record of the same type via the View UI.
+	- Cells may be editable, depending on the [Formula](/en/product/specs/2022-01-views/07-formulas) involved.
 - **Potential future features**:
 	- "Smarter" editing of Views
 
