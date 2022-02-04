@@ -2,7 +2,7 @@
 title: 05. UI Requirements
 description: 
 published: true
-date: 2022-02-04T00:02:02.840Z
+date: 2022-02-04T00:04:28.391Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -51,7 +51,7 @@ This covers functionality for Views that have already been created.
 
 *Very* rough wireframe to illustrate the idea.
 
-![view_column_menu.png](/assets/view_column_menu.png)
+![view_column_menu.png](/assets/product/view_column_menu.png)
 
 ## Rows
 - **For alpha release**: 
