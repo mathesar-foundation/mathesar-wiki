@@ -2,7 +2,7 @@
 title: Example Schema
 description: This is an example table structure used in various product specs.
 published: true
-date: 2022-02-04T03:08:14.182Z
+date: 2022-02-04T03:09:49.072Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T02:52:01.932Z
@@ -11,7 +11,7 @@ dateCreated: 2022-02-04T02:52:01.932Z
 This schema is a reference to be used as an example in specs or other sections of the wiki. These tables are meant to simulate what data looks like in real databases.
 
 ## Table: `movie`
-| ID | Title | Release Year | Primary Language |
+| id | title | year | language |
 |-|-|-|-|
 | 13 | Thelma & Louise | 1991 | English |
 | 22 | Meet Joe Black | 1998 | English |
@@ -19,7 +19,7 @@ This schema is a reference to be used as an example in specs or other sections o
 | 41 | Crazy Rich Asians | 2018 | English |
 
 ## Table: `actor`
-| ID | Name |
+| id | name |
 |-|-|
 | 34 | Michelle Yeoh |
 | 45 | Brad Pitt |
@@ -27,7 +27,7 @@ This schema is a reference to be used as an example in specs or other sections o
 | 83 | Zhang Ziyi |
 
 ## Table: `movie_actor_map`
-| ID | Movie ID | Actor ID |
+| id | movie_id | actor_id |
 |-|-|-|
 | 67 | 13 | 45 |
 | 68 | 22 | 45 |
@@ -37,7 +37,7 @@ This schema is a reference to be used as an example in specs or other sections o
 | 97 | 33 | 83 | 
 
 ## Table: `movie_watch`
-| ID | Movie ID | Date |
+| id | movie_id | date |
 |-|-|-|
 | 91 | 13 | 2021-10-13 |
 | 100 | 22 | 2021-10-01 |
