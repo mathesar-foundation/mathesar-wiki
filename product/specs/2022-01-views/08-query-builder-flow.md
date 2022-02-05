@@ -2,7 +2,7 @@
 title: 08. Query Builder Flow
 description: 
 published: true
-date: 2022-02-05T23:56:56.076Z
+date: 2022-02-05T23:58:49.296Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -73,7 +73,7 @@ Once the first column has been selected, the user can then pick a second column 
 > Other cases to handle:
 > - tables with FKs to themselves
 > - tables with multiple FKs to the same table
-
+4. The user should also be able to add a "Formula Column" which involves more than one source column. The flow for that will be different than selecting an existing column.
 
 Once the user has selected a column, we will show them different options based on the type of column they have selected.
 
