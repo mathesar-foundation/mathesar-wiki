@@ -20,7 +20,7 @@ To make the flow easier to understand, we'll use the following example schema. E
 {.is-info}
 
 
-![movie_schema.png](/movie_schema.png)
+![movie_schema.png](/assets/product/specs/2022-01-views/08-query-builder-flow/movie_schema.png)
 
 ## Flow
 
