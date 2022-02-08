@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-08T23:51:00.540Z
+date: 2022-02-08T23:53:39.023Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-18T19:32:54.047Z
 
 ## Ideas
 
-- [Automatic Hint Reflection](/en/community/mentoring/project-ideas/automatic-hint-reflection)
+- [Automatic Hint Reflection ***Skills**: Python, PostgresSQL, **Length**: ~350 hours, **Difficulty**: Hard*](/en/community/mentoring/project-ideas/automatic-hint-reflection)
 {.links-list}
 
 ## Template
