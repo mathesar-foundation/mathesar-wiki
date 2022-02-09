@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-02-09T21:13:18.183Z
+date: 2022-02-09T21:16:49.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -19,8 +19,9 @@ dateCreated: 2022-01-18T19:32:54.047Z
 | [Construct Dependency Graph for Database Objects](/en/community/mentoring/project-ideas/dependency-graph) | Python, Django, PostgreSQL | Long | Medium |
 | [Support for PostGIS Data Types](/en/community/mentoring/project-ideas/postgis-data-types) | Python, PostgreSQL, PostGIS | Long | Medium |
 | [Support for File & Image Data Types](/en/community/mentoring/project-ideas/file-data-types) | Python, Django, PostgreSQL | Long | Medium |
-| Phone Number & Other Data Types | Python, Django, PostgreSQL, JavaScript | Medium | Medium |
-| Support remaining built-in Postgres Types | Python, Django, PostgreSQL, JavaScript | Long | Medium |
+| Support JSON Data Type | Python, Django, JavaScript | Long | Medium |
+| Support XML Data Type | Python, Django, JavaScript | Long | Medium |
+| Better Support for Default PostgreSQL Data Types | Python, Django, PostgreSQL, JavaScript | Medium | Medium |
 | Web SQL Editor | Python, PostgreSQL, JavaScript | Long | Hard |
 | Import Data into Existing Tables | Python, PostgreSQL, JavaScript | Medium | Low |
 | Increase Import Data Sources | Python, PostgreSQL, JavaScript | Long | Medium |
