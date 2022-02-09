@@ -2,12 +2,15 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-02-09T21:20:39.783Z
+date: 2022-02-09T21:54:13.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
 ---
 
+## Ideas
+
+These are ideas that the Mathesar team has come up with.
 
 | Idea | Skills | Length | Difficulty |
 |-|-|-|-|
@@ -20,9 +23,14 @@ dateCreated: 2022-01-18T19:32:54.047Z
 | [Support for PostGIS Data Types](/en/community/mentoring/project-ideas/postgis-data-types) | Python, PostgreSQL, PostGIS | Long | Medium |
 | [Support for File & Image Data Types](/en/community/mentoring/project-ideas/file-data-types) | Python, Django, PostgreSQL | Long | Medium |
 | [Support for JSON Data Type](/en/community/mentoring/project-ideas/json-data-type) |Python, Django, JavaScript, frontend frameworks | Long | Medium |
-| Support XML Data Type | Python, Django, JavaScript | Long | Medium |
-| Better Support for Default PostgreSQL Data Types | Python, Django, PostgreSQL, JavaScript | Medium | Medium |
-| Web SQL Editor | Python, PostgreSQL, JavaScript | Long | Hard |
+| [Better Support for Default PostgreSQL Data Types](/en/community/mentoring/project-ideas/support-default-postgres-types) | Python, Django, PostgreSQL | Medium/Long | Medium |
+| [Implement Advanced SQL Query Builder](/en/community/mentoring/project-ideas/web-sql-editor)| Python, JavaScript, frontend frameworks | Long | Hard |
 | Import Data into Existing Tables | Python, PostgreSQL, JavaScript | Medium | Low |
 | Increase Import Data Sources | Python, PostgreSQL, JavaScript | Long | Medium |
 | Import JSON Data | Python, PostgreSQL, JavaScript | Long | Hard |
+
+## Original Ideas
+
+You are also welcome to propose your own original idea if you have a suggestion for a new feature. Our [Roadmap](/en/product/roadmap) and [Feature Ideas](/en/product/feature-ideas) pages might be helpful in coming up with your idea.
+
+Please talk to us and ensure that someone on the team is willing to mentor your idea before you submit your proposal.
