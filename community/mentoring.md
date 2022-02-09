@@ -2,7 +2,7 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-02-09T22:30:22.526Z
+date: 2022-02-09T22:35:42.732Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
@@ -11,9 +11,15 @@ dateCreated: 2022-01-18T19:23:06.554Z
 The Mathesar team plans to participate in mentoring programs such as **Google Summer of Code 2022** as a mentoring organization. 
 
 ## For Applicants
-- [Project Ideas](/community/mentoring/project-ideas)
-- [Applicant Guide](/en/community/mentoring/applicant-guide)
-- [Mentee Guide](/en/community/mentoring/mentee-guide)
+- [Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
+- [Applicant Guide *Guide for anyone applying to a mentoring program.*](/en/community/mentoring/applicant-guide)
+- [Application Template *Template to use for program applications.*](/en/community/mentoring/application-template)
+- [Community *How to join the Mathesar community*](/en/community)
+- [Contribution Guide *How to contribute to Mathesar code*](/en/community/contributing)
+{.links-list}
+
+## For Mentees
+- [Mentee Guide *Guide for anyone applying to a mentoring program.*](/en/community/mentoring/mentee-guide)
 {.links-list}
 
 ## For Mentors
