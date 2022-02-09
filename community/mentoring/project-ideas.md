@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-02-09T00:27:57.713Z
+date: 2022-02-09T20:54:56.428Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -17,7 +17,7 @@ dateCreated: 2022-01-18T19:32:54.047Z
 | [Visualization of Grouped Data](/en/community/mentoring/project-ideas/visualization-of-grouped-data) | JavaScript, frontend frameworks | Medium | Low |
 | [Sharable Forms to Add Data to Tables](/en/community/mentoring/project-ideas/sharable-forms) | JavaScript, frontend frameworks  | Medium | Low |
 | [Construct Dependency Graph for Database Objects](/en/community/mentoring/project-ideas/dependency-graph) | Python, Django, PostgreSQL | Long | Medium |
-| Location Data Types | Python, PostgreSQL, PostGIS, JavaScript | Long | Medium |
+| [Support for PostGIS Data Types](/en/community/mentoring/project-ideas/postgis-data-types) | Python, PostgreSQL, PostGIS | Long | Medium |
 | File & Image Data Types | Python, Django, PostgreSQL, JavaScript | Medium | Medium |
 | Phone Number & Other Data Types | Python, Django, PostgreSQL, JavaScript | Medium | Medium |
 | Support remaining built-in Postgres Types | Python, Django, PostgreSQL, JavaScript | Long | Medium |
