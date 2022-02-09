@@ -2,7 +2,7 @@
 title: Support for File & Image Data Types
 description: 
 published: true
-date: 2022-02-09T21:12:49.111Z
+date: 2022-02-09T21:24:34.393Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:12:49.111Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-09T21:12:49.111Z
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include custom data types for dealing with files, images, and potentially other file types.
 
 ## Classification
-- **Difficulty**: Medium
+- **Difficulty**: Medium or Long depending on how many types
 - **Skills needed**: Python, PostgreSQL
   - **Bonus skills**: JavaScript, frontend frameworks
 - **Length**: Long (~350 hours)
