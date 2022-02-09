@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-02-09T22:02:00.529Z
+date: 2022-02-09T22:07:53.901Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -26,7 +26,7 @@ These are ideas that the Mathesar team has come up with.
 | [Better Support for Default PostgreSQL Data Types](/en/community/mentoring/project-ideas/support-default-postgres-types) | Python, Django, PostgreSQL | Medium/Long | Medium |
 | [Implement Advanced SQL Query Builder](/en/community/mentoring/project-ideas/web-sql-editor)| Python, JavaScript, frontend frameworks | Long | Hard |
 | [Support Importing Data into Existing Tables](/en/community/mentoring/project-ideas/import-data-into-existing-tables) | Python, Django, PostgreSQL | Long | Medium |
-| Support More Data Import Options | Python, PostgreSQL, JavaScript | Long | Medium |
+| [Support More Data Import Sources](/en/community/mentoring/project-ideas/more-data-import-sources) | Python, Django, PostgreSQL | Long | Medium |
 
 ## Original Ideas
 
