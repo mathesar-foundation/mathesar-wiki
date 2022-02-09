@@ -2,7 +2,7 @@
 title: Project Idea Template
 description: 
 published: true
-date: 2022-02-09T00:08:16.937Z
+date: 2022-02-09T20:37:23.818Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:08:16.937Z
@@ -32,4 +32,5 @@ dateCreated: 2022-02-09T00:08:16.937Z
 *A list of links to documentation/code/wiki pages, etc. relevant to the project idea.*
 
 ## Mentors
-*List of mentors for this project.*
+**Primary Mentor**: *Person*
+**Secondary Mentor(s)**: *List of people*
