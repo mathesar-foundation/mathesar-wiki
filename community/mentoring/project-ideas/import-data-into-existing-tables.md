@@ -2,7 +2,7 @@
 title: Support Importing Data into Existing Tables
 description: 
 published: true
-date: 2022-02-09T21:59:48.300Z
+date: 2022-02-09T22:09:08.005Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:59:48.300Z
@@ -25,6 +25,8 @@ Currently, Mathesar only supports creating a new table when a CSV or TSV file is
 
 ## Expected Outcome
 By the end of this project, we expect that the backend code and APIs will support importing CSV data into an existing table.
+
+If the candidate is interested, they can also implement the feature on the frontend.
 
 ## Application Tips
 - Please provide as much technical detail as you can on how this will integrate into Mathesar's code. API schemas, libraries you plan to use, etc.
