@@ -2,7 +2,7 @@
 title: GSoC 2022 Project Ideas
 description: 
 published: true
-date: 2022-02-08T23:58:14.590Z
+date: 2022-02-09T00:01:32.451Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -10,7 +10,9 @@ dateCreated: 2022-01-18T19:32:54.047Z
 
 ## Ideas
 
-- [Automatic Hint Reflection ***Skills**: Python, PostgresSQL, **Length**: ~350 hours, **Difficulty**: Hard*](/en/community/mentoring/project-ideas/automatic-hint-reflection)
+- [Automatic Hint Reflection ***Skills**: Python, PostgreSQL, **Length**: Long, **Difficulty**: Hard*](/en/community/mentoring/project-ideas/automatic-hint-reflection)
+- [Break Columns out to New Table ***Skills**: Python, Django, PostgreSQL, **Length**: Medium, **Difficulty**: Easy*](/en/community/mentoring/project-ideas/break-out-columns)
+- [Suggest Candidate Columns to Create Separate Table ***Skills**: PostgreSQL, database theory, statistics, **Length**: Long, **Difficulty**: High*](/en/community/mentoring/project-ideas/suggest-candidate-columns)
 {.links-list}
 
 ## Template
