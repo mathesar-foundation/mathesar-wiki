@@ -2,15 +2,17 @@
 title: Project Proposal Template
 description: 
 published: true
-date: 2022-02-10T21:32:28.982Z
+date: 2022-02-10T21:39:45.741Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:32:06.017Z
 ---
 
-*This is the proposal template for applications to any mentorship programs that we participate in. All proposals **must** have all the sections in this template. You can add additional sections if desired.*
+This is the proposal template for applications to any mentorship programs that we participate in. All proposals **must** have all the sections in this template. You can add additional sections if desired.
 
-> Instructions for each section are provided in infoboxes like this one.
+We recommend creating a Google Doc that follows this structure and sharing it with the mentors. Please make sure that all mentors have commenting permissions.
+
+> The template starts below this box. Instructions for each section are provided in infoboxes like this one.
 {.is-info}
 
 # \<Project Title\>
@@ -80,7 +82,7 @@ dateCreated: 2022-02-09T22:32:06.017Z
 {.is-info}
 
 ### About Me
-> A short bio.
+> Please provide a short bio.
 {.is-info}
 
 ### Contact Information
