@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:28:01.353Z
+date: 2022-02-10T12:29:35.165Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -52,7 +52,7 @@ A bonus of a non-strict composition system is that you don't have to strive to c
 
 ## The Problem
 
-Currently, the hints are compiled by hand, as seen in the above code sample. That could become cumbersome if the number of functions or types explodes. Also, user developers might find the hint system's learning curve a barrier to declaring their own functions or types (though we're working minimize that).
+Currently, the hints are compiled by hand, as seen in the above code sample. That could become cumbersome if the number of functions or types explodes. Also, user developers might find the hint system's learning curve a barrier to declaring their own functions or types (though we're working to minimize that).
 
 We've discussed the possibility to reflect function (and possibly type) properties automatically, which would allow us to also assign (at least some) hints automatically.
 
