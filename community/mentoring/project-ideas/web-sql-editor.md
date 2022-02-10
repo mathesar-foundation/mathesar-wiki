@@ -2,7 +2,7 @@
 title: Implement Advanced SQL Query Builder
 description: 
 published: true
-date: 2022-02-09T21:53:46.464Z
+date: 2022-02-10T15:59:01.226Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:52:46.522Z
@@ -14,7 +14,7 @@ We are building a visual query builder into Mathesar to help the user find answe
 To support the full range of queries that can be written using SQL, we should allow advanced users to write SQL queries.
 
 ## Classification
-- **Difficulty**: Hard
+- **Difficulty**: Medium
 - **Skills needed**: Python, JavaScript, frontend frameworks
 - **Length**: Long (~350 hours)
 
@@ -35,6 +35,7 @@ By the end of this project, we expect that the query builder web interface will 
 ## Resources
 - [Views "Concepts" page](/en/product/concepts/views)
 - ["Views in Mathesar" product spec](/en/product/specs/2022-01-views)
+- [Code Mirror text editor library](https://codemirror.net/)
 
 ## Mentors
 **Primary Mentor**: Kriti
