@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:24:44.573Z
+date: 2022-02-10T12:27:40.812Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -28,10 +28,10 @@ Here's some hints assigned to Postgres types:
 
 ```python
 {
-	PostgresType.DECIMAL: [hints.comparable, hints.fractional],
-  PostgresType.TIMESTAMP: [hints.comparable, hints.time_related, hints.time_of_day, hints.date],
-  PostgresType.DATE: [hints.comparable, hints.time_related, hints.date],
-  PostgresType.TIME: [hints.comparable, hints.time_related, hints.time_of_day],
+    PostgresType.DECIMAL: [hints.comparable, hints.fractional],
+    PostgresType.TIMESTAMP: [hints.comparable, hints.time_related, hints.time_of_day, hints.date],
+    PostgresType.DATE: [hints.comparable, hints.time_related, hints.date],
+    PostgresType.TIME: [hints.comparable, hints.time_related, hints.time_of_day],
 }
 ```
 
