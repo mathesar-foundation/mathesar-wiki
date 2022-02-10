@@ -2,13 +2,13 @@
 title: Project Proposal Template
 description: 
 published: true
-date: 2022-02-10T01:16:19.335Z
+date: 2022-02-10T21:32:28.982Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:32:06.017Z
 ---
 
-This is the proposal template for applications to any mentorship programs that we participate in. All proposals **must** have all the sections in this template. 
+*This is the proposal template for applications to any mentorship programs that we participate in. All proposals **must** have all the sections in this template. You can add additional sections if desired.*
 
 > Instructions for each section are provided in infoboxes like this one.
 {.is-info}
@@ -22,47 +22,44 @@ This is the proposal template for applications to any mentorship programs that w
 
 ## Project Plan
 
-> Describe in detail what exactly you plan to do as part of this project. 
+> The **Project Plan** section is for you to describe in detail what exactly you plan to do as part of this project. 
 >
 > Use the sub-sections provided below. You may add more if needed, but do not remove any sections.
 {.is-info}
 
-### The Problem
+### Problem
 
-> Describe the problem you're solving.
+> Describe your understanding of the problem you're solving and potential use cases that solving it would enable.
 {.is-info}
 
-### The Solution 
-> Describe the details of your solution and demonstrate why your solution solves the problem. You should be able to convey your understanding of the problem well and how what you're proposing will be successful by the end of the program.
+### Proposed Solution
+> Describe the details of your solution and demonstrate why your solution solves the problem. Provide as many technical details as possible with references to how your solution will fit into the current code, APIs, and UI.
 >
 > If your solution involves a new or updated user interface, include mockups.
 >
-> If your solution involves making a decision about which technologies to use, provide details about your choices and the reasons behind those choices. 
->
-> If your solution involves making a decision about which technologies to use, provide details about your choices and the reasons behind those choices. 
+> If your solution involves making a decision about external libraries to use, provide details about your choices and the reasons behind those choices. 
 {.is-info}
 
 ### Research & References
-
-> Include any related research or references here.
+> Include any research you've done or references that you've found related to your solution here.
 {.is-info}
 
-
 ### Timeline & Deliverables
-> Include a timeline of what external deliverables you aim to accomplish each week.
+> Include a timeline of the deliverables you aim to accomplish each week. Add one row per week. Deliverables should be as specific as possible.
 > 
-> For example, “Complete API for cancelling orders” is a good external deliverable. If you haven’t shipped the API for cancelling orders that week, you know you’re not on track.
+> For example, “Complete API for cancelling orders” is a good deliverable. If you haven’t shipped the API for cancelling orders that week, you know you’re not on track.
 >
 > An example of a bad deliverable is “Work on code”. You will be working on code throughout your internship, so you cannot use this deliverable to know whether your plan is on track.
 > 
-> [The GSoC timeline](https://developers.google.com/open-source/gsoc/timeline) may be helpful.
+> [The GSoC timeline](https://developers.google.com/open-source/gsoc/timeline) should be helpful in determining dates.
 {.is-info}
 
-| Week | Deliverable |
+| Timeframe | Deliverable |
 |-|-|
-| **Community Bonding period** | |
+| **Community Bonding period** | *Plan for getting up to speed* |
 | **Week 1**: *Dates go here* | *Deliverable details go here* |
 | ... | ... |
+
 
 ## Questionnaire
 > Please answer the following questions.
@@ -73,7 +70,7 @@ This is the proposal template for applications to any mentorship programs that w
 - What about your skills and experience makes you well-suited to take on this project?
 - Do you have any other commitments during the program period? Provide dates, such as holidays, when you will not be available.
 - If your native language is not English, are you comfortable working closely with a mentor in English?
-- Have you worked on a project remotely before?
+- Have you worked on a project remotely and/or with people in other timezones before? If you have, please provide details.
 - Are you interested in contributing to Mathesar after the program is complete?
 
 ## General Information
@@ -87,7 +84,7 @@ This is the proposal template for applications to any mentorship programs that w
 {.is-info}
 
 ### Contact Information
-> please provide the following information.
+> Please provide the following information.
 {.is-info}
 
 - Full name
@@ -118,13 +115,23 @@ This is the proposal template for applications to any mentorship programs that w
 |-|-|-|
 | *Example skill* | *5* | *As part of college coursework* |
 
-### Experience and Contributions
-
-> List your previous experience that’s relevant to this project. This can be previous work or internship experiences, side projects, or open source contributions. Please also list your contributions to Mathesar here – one line per issue/pull request you’ve worked on.
+### Experience
+> List your previous experience that’s relevant to this project. This can be previous work or internship experiences, side projects, or open source contributions.
 > 
 > Feel free to add as many rows as you need.
 {.is-info}
 
 | Brief description | Relevant links | Additional notes |
+|-|-|-|
+| *Example #1 - PR merged to open source project X* | *Link to PR* | - |
+| *Example #2 - Side project* | *Link to project repo and website* | *Worked on this project for X time period* |
+
+### Contributions
+> Please list your contributions to Mathesar here – one line per issue/pull request you’ve worked on.
+> 
+> Feel free to add as many rows as you need.
+{.is-info}
+
+| Issue title | Links to issue and/or PR | Additional notes |
 |-|-|-|
 | *Solved issue #23: "Example issue name"* | *Link to issue, Link to PR* | - |
