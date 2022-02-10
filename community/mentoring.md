@@ -2,13 +2,15 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-02-10T21:15:02.873Z
+date: 2022-02-10T23:30:38.057Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
 ---
 
-The Mathesar team plans to participate in open source mentorship programs such as **Google Summer of Code 2022**. 
+The Mathesar team is applying to be a mentoring organization for **Google Summer of Code 2022**.
+
+In the future, we may participate in other programs such as Outreachy, CommunityBridge, etc.
 
 ## For Applicants
 - [Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
