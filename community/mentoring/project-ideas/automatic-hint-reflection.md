@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:08:05.377Z
+date: 2022-02-10T12:22:18.109Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -23,6 +23,24 @@ We use it, for example, to describe the signature of the function `starts_with`:
         hints.returns(hints.boolean),
     ]
 ```
+
+Here's some hints assigned to Postgres types:
+
+```python
+{
+	PostgresType.DECIMAL: [hints.comparable, hints.fractional],
+  PostgresType.TIMESTAMP: [hints.comparable, hints.time_related, hints.time_of_day, hints.date],
+  PostgresType.DATE: [hints.comparable, hints.time_related, hints.date],
+  PostgresType.TIME: [hints.comparable, hints.time_related, hints.time_of_day],
+}
+```
+
+Above mapping says that:
+  - the `DECIMAL` type is comparable (meaning you might be able to ask whether it's larger or smaller than another comparable type), and that it's fractional (as in can represent fractional numbers);
+  - the `TIMESTAMP`, `DATE` and `TIME` types are all comparable too, and they're all time-related;
+  	- `TIMESTAMP` holds both time-of-day and date information,
+    - while `DATE` only holds date information,
+    - and `TIME` only holds time-of-day information.
 
 Importantly, hints don't obligate the user of the API to follow them. A user should be able to assemble expressions that are in conflict with what is declared by the hints. The purpose of the hint system is to give hints to the user about how to assemble expressions, but the user should be free to assemble any expression he likes.
 
