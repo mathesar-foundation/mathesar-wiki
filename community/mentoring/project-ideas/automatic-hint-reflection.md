@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:27:40.812Z
+date: 2022-02-10T12:28:01.353Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -27,7 +27,7 @@ We use it, for example, to describe the signature of the function `starts_with`:
 Here's some hints assigned to Postgres types:
 
 ```python
-{
+db_types_mapped_to_hints = {
     PostgresType.DECIMAL: [hints.comparable, hints.fractional],
     PostgresType.TIMESTAMP: [hints.comparable, hints.time_related, hints.time_of_day, hints.date],
     PostgresType.DATE: [hints.comparable, hints.time_related, hints.date],
