@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-01-27T21:35:15.179Z
+date: 2022-02-10T22:21:23.554Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -27,6 +27,7 @@ You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwU
 | Name | Address | Purpose |
 |-|-|-|
 | General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
+| Mentoring | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/en/community/mentoring) such as GSoC |
 | CFJ #proj-mathesar | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
 ### Code
