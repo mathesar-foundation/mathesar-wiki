@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:35:17.326Z
+date: 2022-02-10T12:36:11.811Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -14,11 +14,11 @@ Mathesar has an API that describes how a client can assemble Postgres functions 
 
 For the functions API to not require hardcoding on the client side, and for clients to be able to effortlessly adapt to newly added functions, it declares how those functions can be used. The API uses a system for assigning various types of information to individual functions and types. We're calling it the hint system.
 
-We use it, for example, to describe the signature of the function `starts_with`: it takes two named arguments, one argument is called `string` and the other `prefix`, both arguments should be string-like, and the function returns a boolean:
+We use it, for example, to describe the signature of the function `starts_with`: it takes two named arguments, one argument is called `base_string` and the other `prefix`, both arguments should be string-like, and the function returns a boolean:
 
 ```python
-    hints = [
-        hints.parameter(name='string', hints.string_like),
+    starts_with_hints = [
+        hints.parameter(name='base_string', hints.string_like),
         hints.parameter(name='prefix', hints.string_like),
         hints.returns(hints.boolean),
     ]
