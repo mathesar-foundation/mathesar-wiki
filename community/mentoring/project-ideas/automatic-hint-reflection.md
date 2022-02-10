@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-08T23:50:28.434Z
+date: 2022-02-10T12:08:05.377Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-08T23:50:28.434Z
 
 Mathesar has an API that describes how a client can assemble Postgres functions into expressions that can later be used, for example, to filter table rows with. We call it the *functions API*. A basic example of such an expression could be: "does the title of this movie start with the same letter as its director's first-name".
 
-For the functions API to not require hardcoding on the client side, and for clients to be able to effortlessly adapt to newly added functions, the API declares how the functions it exposes can be used. The API uses a system for assigning various types of information to individual functions and types. We're calling it the hint system.
+For the functions API to not require hardcoding on the client side, and for clients to be able to effortlessly adapt to newly added functions, it declares how those functions can be used. The API uses a system for assigning various types of information to individual functions and types. We're calling it the hint system.
 
 We use it, for example, to describe the signature of the function `starts_with`: it takes two named arguments, one argument is called `string` and the other `prefix`, both arguments should be string-like, and the function returns a boolean:
 
@@ -26,11 +26,11 @@ We use it, for example, to describe the signature of the function `starts_with`:
 
 Importantly, hints don't obligate the user of the API to follow them. A user should be able to assemble expressions that are in conflict with what is declared by the hints. The purpose of the hint system is to give hints to the user about how to assemble expressions, but the user should be free to assemble any expression he likes.
 
-We chose for the hint system to be non-authoritative (allow users to ignore it) for two reasons. It empowers power-users that might want to use a function or a type in a way contrary to the declared hints. And, user developers (users that might also want to define their own Postgres functions or types) will not be obliged to master the hint system just to add a function: they'll be able to gradually start adding hints if/when they find that useful, which will cause the UX for using that function to become more streamlined with every hint added. An added bonus is that you don't have to strive to create very precise signature declarations that cover all use cases, which helps keep the way we declare signatures simple for new-comers.
+We chose for the hint system to be non-authoritative (allow users to ignore it) for two reasons. It empowers power-users that might want to use a function or a type in a way contrary to the declared hints. And, user developers (users that might also want to define their own Postgres functions or types) will not be obligated to master the hint system just to add a function: they'll be able to gradually start adding hints if/when they find that useful, which will cause the UX for using that function to become more streamlined with every hint added. A bonus is that you don't have to strive to create very precise signature declarations that cover all use cases, which helps keep the way we declare signatures simple for new-comers.
 
 ## The Problem
 
-Currently, the hints are compiled by hand, as seen in the above code sample. That could become cumbersome if the number of functions or types exploded. Also, user developers might find the hint system a barrier to using their own functions or types (though we're working to make it as accessible as possible).
+Currently, the hints are compiled by hand, as seen in the above code sample. That could become cumbersome if the number of functions or types explodes. Also, user developers might find the hint system's learning curve a barrier to declaring their own functions or types (though we're working minimize that).
 
 We've discussed the possibility to reflect function (and possibly type) properties automatically, which would allow us to also assign (at least some) hints automatically.
 
