@@ -2,7 +2,7 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-02-10T00:49:18.516Z
+date: 2022-02-10T00:49:27.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
@@ -16,7 +16,7 @@ The Mathesar team plans to participate in mentoring programs such as **Google Su
 - [Application Template *Template to use for program applications.*](/en/community/mentoring/application-template)
 - [Community *How to join the Mathesar community*](/en/community)
 - [Contribution Guide *How to contribute to Mathesar code*](/en/community/contributing)
-- [Mathesar Team *Contact information for mentors*](/en/team/members)
+- [Mathesar Team *More information about mentors*](/en/team/members)
 {.links-list}
 
 ## For Mentees
