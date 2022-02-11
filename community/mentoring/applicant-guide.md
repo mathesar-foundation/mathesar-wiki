@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-02-11T05:05:05.685Z
+date: 2022-02-11T05:05:11.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -84,4 +84,4 @@ Here are a few things we consider when selecting which applications to accept:
 - **Communication skills and initiative**: These are essential to completing a successful project. Things we look for (among others): asking specific and detailed questions, following up on conversations, making sure to read available resources before asking questions, being patient and responding to critical feedback well.
 
 ## Number of Applications Accepted
-Please, note that we will not be able to select a mentee for every project idea that we have listed. Our organization will be allocated a limited number of project slots by GSoC and we can only accept the number of mentees that we have slots for.
+Please note that we will not be able to select a mentee for every project idea that we have listed. Our organization will be allocated a limited number of project slots by GSoC and we can only accept the number of mentees that we have slots for.
