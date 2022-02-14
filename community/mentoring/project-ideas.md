@@ -2,11 +2,13 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-02-10T16:01:00.841Z
+date: 2022-02-14T11:52:45.188Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
 ---
+
+These ideas are for **Google Summer of Code 2022**.
 
 ## Ideas
 
