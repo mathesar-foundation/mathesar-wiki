@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2021-11-12T17:05:10.162Z
+date: 2022-02-14T20:48:10.795Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -14,7 +14,7 @@ Please follow these guidelines when reviewing PRs.
 
 # Authors
 - Once you think your code is ready to merge, mark your draft pull request as "ready for review" or create a pull request if you don't have a draft. The required reviewers will automatically be notified when you do this.
-- Please post in [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) and tag the handles of the Mathesar engineering team (see [Team](/team)) when you have a PR ready for review.
+- It is recommended that you post in [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) and tag the handles of the Mathesar engineering team (see [Team](/team)) when you have a PR ready for review.
 - If the reviewer requests changes, please make the changes and **re-request review**.
 - Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
 - If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
@@ -35,12 +35,21 @@ Anyone is welcome to review pull requests!
 - See [Backend Code Review](/engineering/code-review/backend) for guidelines specific to backend code.
 
 ## Maintainers
+
+### Process
 - Check for outstanding PRs at least **once a day**.
-- Review core team PRs within 1 work day, community PRs within 3 work days.
+- We should be aiming to turn around PR reviews within 1-2 working days. This means that there should be movement on the PR every 1-2 days, a new review, code review fixes, repeat if needed, and then merge.
 - If you approve the PR, merge it unless someone else has requested changes.
   - If the person who has requested changes is unavailable, merge the PR anyway.
 - Always merge using merge commits, never squash or rebase (the GitHub interface should disable squash and rebase, but check just in case).
 - If the PR is from a community contributor and it only requires minor changes, feel free to make the changes yourself and merge them.
+
+### Tips
+- We should be aiming to merge PRs in and create new issues for improvements rather than keeping PRs in review until every possible issue is fixed.
+- Code review should be a fairly quick process. Reviewers should be focused on asking the right questions, not on doing research into the answers and suggesting them. 
+    - e.g. if you're wondering if the author considered a particular implication of a change they made, ask them that instead of doing research into all the implications yourself and informing the author of them.
+- If you'd like to reconsider the architecture of a PR, create a draft issue for figuring that out rather than blocking the PR until you figure out the right architecture.
+- When reviewing community contributed PRs, if it's easier to make the changes yourself rather than describe the changes needed as a code review, just make the changes and merge the PR. You can explain what you did and thank the contributor for their work.
 
 ### Modifying PRs before merging
 You can modify an in progress PR before merging, if necessary.  If the PR is from a branch in the official Mathesar repository, just modify that branch.  If it's in a branch of a fork, it's a bit more complicated.  The smoothest way in that case is to
