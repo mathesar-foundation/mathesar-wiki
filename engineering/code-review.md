@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2022-02-14T20:48:10.795Z
+date: 2022-02-14T20:51:05.497Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -14,7 +14,7 @@ Please follow these guidelines when reviewing PRs.
 
 # Authors
 - Once you think your code is ready to merge, mark your draft pull request as "ready for review" or create a pull request if you don't have a draft. The required reviewers will automatically be notified when you do this.
-- It is recommended that you post in [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) and tag the handles of the Mathesar engineering team (see [Team](/team)) when you have a PR ready for review.
+- You can post on the [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) for urgent PRs or to ask for optional review of draft PRs.
 - If the reviewer requests changes, please make the changes and **re-request review**.
 - Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
 - If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
