@@ -2,7 +2,7 @@
 title: Design Review Guidelines
 description: Guidelines for working with design specs
 published: true
-date: 2022-01-20T20:23:17.496Z
+date: 2022-02-14T20:43:30.991Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T21:02:49.613Z
@@ -15,6 +15,17 @@ The spec creation process begins when a design issue on GitHub is started and fi
 # Review Process
 Every spec goes through a review process so that members of the team can discuss it and ask questions. During these discussions, the reviewers' unique perspectives and expertise are captured to ensure the design solution is technically feasible, uncover missing implementation scenarios, and, most importantly, strengthen adherence to the product's vision. A productive review will result in a better design and a smoother implementation.
 
+## Design Review Team
+This is the list of team members who have volunteered to review new designs.
+
+| Name | Role |
+|-|-|
+| Kriti | Product |
+| Ghislaine | Design |
+| Brent | Backend |
+| Pavish | Frontend |
+| Sean | Frontend |
+
 ## Process for Authors
 
 - Clone the [Mathesar Wiki Repo](https://github.com/centerofci/mathesar-wiki) and create a new page under the [Design Specs](/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/design/specs) page.
@@ -25,7 +36,8 @@ Every spec goes through a review process so that members of the team can discuss
   - an expected timeline for the review, if any.
 - Be sure to include the specific feedback you are seeking.
 - Assign the required reviewers by their GitHub username.
-  - Always request a review from the Mathesar members with Product or Design roles (see [Team](/team) for handles. From the engineering roles, assign both a frontend and backend engineer and rotate the person assigned for subsequent reviews.
+  - Choose reviewers from the Design Review Team section above.
+  - Always request a review from all Mathesar members with Product or Design roles (see [Team](/team) for handles. From the engineering roles, assign both a frontend and backend engineer. If there are multiple engineers with a role, rotate the person assigned for subsequent reviews.
 - Please post the GitHub PR link to `#design-review:matrix.mathesar.org`.
 - If the reviewers request changes or have questions, please make the changes and re-request the review.
 - Once everyone has had a chance to review (or the timeline expires) and you're satisfied with the feedback, update the spec and ensure that it all fits together nicely.
