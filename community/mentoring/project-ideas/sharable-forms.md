@@ -2,7 +2,7 @@
 title: Sharable Forms to Add Data to Tables
 description: 
 published: true
-date: 2022-02-09T00:10:07.147Z
+date: 2022-02-17T23:44:30.149Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:10:07.147Z
@@ -33,4 +33,7 @@ We should have an interface for table owners to construct and share forms. The f
 A good candidate should take the time needed to understand the requirements, research and suggest changes or improvements. They should be motivated in providing a good user experience. They will be working full-stack and would either know or be willing to learn the necessary technologies.
 
 ## Mentors
-Pavish Kumar Ramani Gopal
+- **Primary Mentor**: Pavish Kumar Ramani Gopal
+- **Backup Mentor**: Sean Colsen
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
