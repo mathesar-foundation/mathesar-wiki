@@ -2,7 +2,7 @@
 title: Automatic Hint Reflection
 description: 
 published: true
-date: 2022-02-10T12:36:11.811Z
+date: 2022-02-17T23:27:43.481Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:50:28.434Z
@@ -86,4 +86,5 @@ I'd say a good candidate would be one that is comfortable taking the time to exp
 - [This](https://github.com/centerofci/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/base.py) is the current (rudimentary) state of the functions system, that uses hints.
 
 ## Mentors
-Dominykas
+- **Primary Mentor**: Dominykas
+- **Backup Mentor**: Brent
