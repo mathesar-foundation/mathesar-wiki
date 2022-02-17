@@ -2,7 +2,7 @@
 title: Visualization of Grouped Data
 description: 
 published: true
-date: 2022-02-09T00:02:59.297Z
+date: 2022-02-17T23:38:35.454Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:02:59.297Z
@@ -36,4 +36,7 @@ Once a user groups rows, there should be an option on the Mathesar UI to allow t
 A good candidate would be someone who is able to emphathize and think from the perspective of a non-technical user, and align themselves with the goals of Mathesar. They should be willing to do a fair amount of research both in terms of UX and engineering. They will be working full-stack and would either know or be motivated to learn the necessary technologies in order to complete the project.
 
 ## Mentors
-Pavish Kumar Ramani Gopal
+- **Primary Mentor**: Pavish Kumar Ramani Gopal
+- **Backup Mentor**: Sean Colsen
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
