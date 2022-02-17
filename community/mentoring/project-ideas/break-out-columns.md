@@ -2,13 +2,15 @@
 title: Break Columns out to New Table
 description: 
 published: true
-date: 2022-02-08T23:55:59.574Z
+date: 2022-02-17T23:35:45.660Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:55:59.574Z
 ---
 
 ## The Problem
+One of Mathesar's goals is to encourage users to store data in [normalized](https://en.wikipedia.org/wiki/Database_normalization) tables. However, users that are not familiar with relational databases may not set up their data correctly to begin with.
+
 A user may have a column in their table which would be better as a separate table, linked by a foreign key relationship. For example, if they have a `Students` table in a database for a school district with a `School Name` column, it's likely that such a column could be a separate `Schools` table, and the students would be linked to their schools by a foreign key in the `Students` table linking to the primary key in the `Schools` table. Setting this up by hand would be tedious.
 
 ## Classification
@@ -34,4 +36,7 @@ The successful candidate will be able to understand and articulate the usefulnes
 - [relevant tests](https://github.com/centerofci/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tests/tables/operations/test_split.py)
 
 ## Mentors
-Brent Moran
+- **Primary Mentor**: Brent Moran
+- **Backup Mentor**: Kriti Godey
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
