@@ -2,7 +2,7 @@
 title: Support for PostGIS Data Types
 description: 
 published: true
-date: 2022-02-09T20:54:29.287Z
+date: 2022-02-17T23:49:12.963Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T20:54:12.599Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-09T20:54:12.599Z
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include the spatial data types provided by [PostGIS](http://postgis.net/).
 
 ## Classification
-- **Difficulty**: Medium
+- **Difficulty**: Hard
 - **Skills needed**: Python, PostgreSQL, PostGIS
   - **Bonus skills**: JavaScript, frontend frameworks
 - **Length**: Long (~350 hours)
@@ -36,6 +36,7 @@ If the candidate is interested, it would be great to also have the types integra
 ## Application Tips
 - It's helpful to start from the experience that you'd like the end-user to have and work backwards. Think through the use cases for each data type.
 - Backend and database experience is critical for this project, so please emphasize your previous work there.
+- You'll need to do considerable research into PostGIS for this project. Demonstrate that as much as you can in your application.
 
 ## Resources
 - Data Types in Mathesar:
@@ -50,5 +51,7 @@ If the candidate is interested, it would be great to also have the types integra
   - [PostGIS Data Types reference](https://postgis.net/docs/reference.html#PostGIS_Types)
 
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Kriti Godey
+- **Backup Mentor**: Brent Moran
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
