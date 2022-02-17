@@ -25,11 +25,11 @@ View Setup should allow users to:
 
 Here are some *very* rough wireframes to illustrate the idea.
 
-![view_builder_1.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_builder_1.png)
-![view_builder_2.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_builder_2.png)
-![view_builder_3.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_builder_3.png)
-![view_builder_4.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_builder_4.png)
-![view_builder_5.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_builder_5.png)
+![view_builder_1.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_1.png)
+![view_builder_2.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_2.png)
+![view_builder_3.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_3.png)
+![view_builder_4.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_4.png)
+![view_builder_5.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_5.png)
 
 # Interacting with View Data
 This covers functionality for Views that have already been created.
@@ -51,7 +51,7 @@ This covers functionality for Views that have already been created.
 
 *Very* rough wireframe to illustrate the idea.
 
-![view_column_menu.png](/assets/product/specs/2022-01-views/05-ui-requirements-for-views/view_column_menu.png)
+![view_column_menu.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_column_menu.png)
 
 ## Rows
 - **For alpha release**: 
