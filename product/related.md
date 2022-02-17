@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2021-11-12T16:43:18.260Z
+date: 2022-02-17T17:40:41.635Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -12,6 +12,7 @@ This page lists other products that solve similar/related problems to what Mathe
 
 ## Open Source
 - [Baserow](https://baserow.io/)
+- [Grist](https://www.getgrist.com/)
 - [Directus](https://directus.io/)
 - [NocoDB](https://nocodb.com/)
 - [Rowy](https://www.rowy.io/)
