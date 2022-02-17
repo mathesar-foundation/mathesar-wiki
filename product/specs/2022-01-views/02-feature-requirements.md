@@ -2,7 +2,7 @@
 title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-02-17T03:48:30.221Z
+date: 2022-02-17T03:50:54.958Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -39,6 +39,7 @@ We should hook into the query builder from Tables and Views wherever the context
 
 Some examples:
 - Creating a new view from scratch
+- Editing the structure of a view
 - Saving the currently applied filters, sorts, and groups of a table.
 - Finding duplicate rows in a table if they can't apply a unique constraint to a column due to non-unique rows being present.
 - Creating an editable view while creating a new mapping table through the "Link Table" feature.
