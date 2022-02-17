@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-02-17T15:46:35.809Z
+date: 2022-02-17T23:45:37.080Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -15,7 +15,6 @@ This is useful in various situations
 - To show to the user in the frontend before they decide to delete a `Schema` or a `Table`.
 - To show how a `View` was constructed 
 - To get a high level overview of the Data Model
-
 
 ## Classification
 - **Difficulty**: Medium
@@ -43,5 +42,8 @@ A good candidate would be someone who has good understanding of SQL, and align t
 - [Reference code](https://wiki.postgresql.org/wiki/Pg_depend_display)
 - [Relevant discussion](https://github.com/centerofci/mathesar/issues/398)
 
-## Mentors
-Mukesh
+## Mentors## Mentors
+- **Primary Mentor**: Mukesh Murali
+- **Backup Mentor**: Brent Moran
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
