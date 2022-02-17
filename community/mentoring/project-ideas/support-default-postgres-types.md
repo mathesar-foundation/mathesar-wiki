@@ -2,7 +2,7 @@
 title: Better Support for Default PostgreSQL Data Types
 description: 
 published: true
-date: 2022-02-09T21:23:58.352Z
+date: 2022-02-17T23:55:12.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:23:58.352Z
@@ -49,6 +49,9 @@ If the candidate is interested, it would be great to also have the types integra
   - [Filters engineering page](/en/engineering/architecture/filters)
 - [PostgreSQL types documentation](https://www.postgresql.org/docs/current/datatype.html)
 
+
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Kriti Godey
+- **Backup Mentor**: Dominykas Mostauskis 
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
