@@ -2,7 +2,7 @@
 title: Support for File & Image Data Types
 description: 
 published: true
-date: 2022-02-17T23:52:20.883Z
+date: 2022-02-17T23:52:41.765Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:12:49.111Z
@@ -50,5 +50,7 @@ If the candidate is interested, it would be great to also have the types integra
   - [Filters engineering page](/en/engineering/architecture/filters)
 
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Kriti Godey
+- **Backup Mentor**: Mukesh Murali
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
