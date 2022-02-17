@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-02-17T23:45:37.080Z
+date: 2022-02-17T23:45:43.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -42,7 +42,7 @@ A good candidate would be someone who has good understanding of SQL, and align t
 - [Reference code](https://wiki.postgresql.org/wiki/Pg_depend_display)
 - [Relevant discussion](https://github.com/centerofci/mathesar/issues/398)
 
-## Mentors## Mentors
+## Mentors
 - **Primary Mentor**: Mukesh Murali
 - **Backup Mentor**: Brent Moran
 
