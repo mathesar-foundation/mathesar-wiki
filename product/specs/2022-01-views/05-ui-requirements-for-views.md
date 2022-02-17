@@ -1,14 +1,14 @@
 ---
-title: 05. UI Requirements
+title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-02-04T03:37:53.322Z
+date: 2022-02-17T03:31:53.697Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
 ---
 
-The first version of Views should support the following features.
+For the initial proof-of-concept version of Views, we'll need the following features.
 
 I've marked the features we should support as "for alpha release", but I've also listed a few potential future features so that we can think about them while designing code architecture and UI/UX.
 
