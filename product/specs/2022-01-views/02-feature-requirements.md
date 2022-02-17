@@ -2,86 +2,43 @@
 title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-02-17T03:31:53.697Z
+date: 2022-02-17T03:48:30.221Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
 ---
 
-For the initial proof-of-concept version of Views, we'll need the following features.
+For the initial proof-of-concept version of Queries and Views, we'll need the following features:
 
-I've marked the features we should support as "for alpha release", but I've also listed a few potential future features so that we can think about them while designing code architecture and UI/UX.
+## Query Builder
+Mathesar should support a visual query builder to allow users to construct complex SQL`SELECT` queries. The query builder should be accessible from anywhere in Mathesar and should not be tied to a single table or view.
 
-# View Setup
-The View Setup functionality should be invoked when creating Views or adding or removing columns to an existing View. What we are doing here is either creating or editing the underlying [Query](/product/specs/2022-01-views/03-modeling-view-query) that defines a View.
+The query builder should allow users to:
+- Construct a query by selecting:
+    - columns to use
+    - filters to apply to columns used or their tables
+    - formulas to use (translating under the hood to SQL functions)
+    - aggregations to apply
+    - sorting to apply
+    - a limit/offset for the rows returned
+- Select columns to see in the output query
+- Preview the query results live
+- Save a query as a View
 
-View Setup should only be enabled for an existing View if the Query is editable.
+## Interacting with Existing Views
+Views should be a separate category of objects in Mathesar, just like Tables. Users should be able to:
+- See all views in a given schema
+- Find the view they want
+- Open a view
+- See data relevant to views, including the underlying query, column data provenance, etc.
+- Apply filters, sorting, and grouping to views (similar to tables)
+- Edit data in views where possible
 
-View Setup should allow users to:
-- Add or remove [Columns](/product/specs/2022-01-views/04-modeling-view-columns) to the View
-	- If adding, the user should be able to set their Source and Formula
-	- When the column added involves a JOIN, the user should be able to change the type of JOIN used.
-- Add or remove [Query attributes](/product/specs/2022-01-views/03-modeling-view-query)
+## Query Builder Hooks
+We should hook into the query builder from Tables and Views wherever the context makes sense to introduce the user to it. This involves updating the designs for tables and views to pre-create queries and link to the query builder.
 
-Here are some *very* rough wireframes to illustrate the idea.
-
-![view_builder_1.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_1.png)
-![view_builder_2.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_2.png)
-![view_builder_3.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_3.png)
-![view_builder_4.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_4.png)
-![view_builder_5.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_builder_5.png)
-
-# Interacting with View Data
-This covers functionality for Views that have already been created.
-
-## Query
-- **For alpha release**: 
-	- Users should be able to see the query associated with a View after it has been loaded.
-	- If the Query is editable, the user could see the broken down attributes.
-- **Potential future features**:
-	- SQL editor for queries
-	- View creation using SQL.
-
-## Columns
-- **For alpha release**: Users should be able to see all columns associated with a view. Each column should show all the [Column attributes](/product/specs/2022-01-views/04-modeling-view-columns), which are non-editable.
-- **Potential future features**:
-	- Show virtual columns involved in view creation (via CTEs, subqueries, etc.)
-	- Allow editing formula through UI
-	- Allow using SQL to edit formula
-
-*Very* rough wireframe to illustrate the idea.
-
-![view_column_menu.png](/assets/product/specs/2022-01-views/02-feature-requirements/view_column_menu.png)
-
-## Rows
-- **For alpha release**: 
-	- Users should be able to see the rows associated with a view.
-	- Cells may be editable, depending on the [Formula](/en/product/specs/2022-01-views/07-formulas) involved.
-- **Potential future features**:
-	- "Smarter" editing of Views
-
-## Filters
-- **For alpha release**:
-	- Users should be able to see what filters are applied to their View.
-	- Users should be able to apply new filters to the View.
-	- Users should be able to save filters applied to the View in the UI to the View Query.
-		- Under the hood, this will create a new View with an updated query and delete the old View. In the UI, this will appear as if the View has been updated.
-- **Potential future features**:
-	- Improvements to what columns can be used for filters to support more complex use cases.
-
-## Sorting
-- **For alpha release**:
-	- Users should be able to see what sorts are applied to their View.
-	- Users should be able to apply new sorts to the View.
-	- Users should be able to save sorts applied to the View in the UI to the View Query..
-		- Under the hood, this will create a new View with an updated query and delete the old View. In the UI, this will appear as if the View has been updated.
-- **Potential future features**:
-	- Improvements to what columns can be used for sorts to support more complex use cases.
-
-## Groups
-- **For alpha release**:
-	- Views should support the same groupings as tables based on column data types.
-	- Groups cannot be saved to the database.
-- **Potential future features**:
-	- The ability to save groups as part of a view. This will only work within the Mathesar UI, not at the DB level.
-	- Additional grouping features based on data sources or data formula.
+Some examples:
+- Creating a new view from scratch
+- Saving the currently applied filters, sorts, and groups of a table.
+- Finding duplicate rows in a table if they can't apply a unique constraint to a column due to non-unique rows being present.
+- Creating an editable view while creating a new mapping table through the "Link Table" feature.
