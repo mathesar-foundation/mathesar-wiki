@@ -8,9 +8,10 @@ editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
 ---
 
-The Mathesar team is applying to be a mentoring organization for **Google Summer of Code 2022**.
+The Mathesar team is applying to be a mentoring organization for **Google Summer of Code 2022**. We are hoping to work with GSoC interns to create an intuitive user interface to relational databases.
 
 In the future, we may participate in other programs such as Outreachy, CommunityBridge, etc.
+
 
 ## For Applicants
 - [Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
