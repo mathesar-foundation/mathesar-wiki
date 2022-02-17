@@ -2,7 +2,7 @@
 title: Support for File & Image Data Types
 description: 
 published: true
-date: 2022-02-09T21:24:34.393Z
+date: 2022-02-17T23:52:20.883Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:12:49.111Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-09T21:12:49.111Z
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include custom data types for dealing with files, images, and potentially other file types.
 
 ## Classification
-- **Difficulty**: Medium or Long depending on how many types
+- **Difficulty**: High
 - **Skills needed**: Python, PostgreSQL
   - **Bonus skills**: JavaScript, frontend frameworks
 - **Length**: Long (~350 hours)
@@ -26,6 +26,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
   - What grouping options to support for each type
   - What display options to support for each type
 - Implement custom PostgreSQL types in the `db` module (similar to existing email and URI types).
+- Implement storage of files or images in the desired storage backends. Users should be able to configure different storage backends (such as the local disk, AWS S3, etc.)
 - Implement support for all frontend features in the backend `db` module and REST API.
 - Optionally, implement the frontend portion of these features as well.
 
