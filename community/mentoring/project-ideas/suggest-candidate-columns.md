@@ -2,13 +2,17 @@
 title: Suggest Candidate Columns to Create Separate Table
 description: 
 published: true
-date: 2022-02-08T23:58:51.504Z
+date: 2022-02-17T23:37:52.610Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:58:51.504Z
 ---
 
 ## The Problem
+> This is related to [Break Columns out to New Table](/en/community/mentoring/project-ideas/break-out-columns), please read that project idea first.
+{.is-info}
+
+
 In order to normalize a data model, one needs to understand correlations between different rows in the data of a table.  For example, if there is a column `student email` that is dependent on a proper subset of the key `(class id, student id)` in some `class_rosters` table, then a separate `students` table with columns `(student id, student email)` should be created, and `student email` should be dropped from the original `class_rosters` table. This would potentially move the data model closer to achieving the Second Normal Form (2NF). We need to build functions that notice this sort of correlations.  Ideally, we'd start with functions that notice when a relation is not in 2NF (but _is_ in 1NF), and suggest fixes. If that's achieved, we'd then proceed to suggest fixes to achieve 3NF.
 
 ## Classification
@@ -34,4 +38,7 @@ The successful candidate would understand the motivation for normalizing a datab
 - [Database normalization wikipedia page](https://en.wikipedia.org/wiki/Database_normalization)
 
 ## Mentors
-Brent Moran
+- **Primary Mentor**: Brent Moran
+- **Backup Mentor**: Kriti Godey
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
