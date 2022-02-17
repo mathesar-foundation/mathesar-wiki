@@ -2,7 +2,7 @@
 title: Support More Data Import Sources
 description: 
 published: true
-date: 2022-02-09T22:07:34.086Z
+date: 2022-02-17T23:58:38.190Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:07:34.086Z
@@ -15,7 +15,6 @@ Currently, Mathesar only supports importing data from CSV-like files. We'd like 
 - Google Sheets
 - Airtable
 - JSON files
-
 
 ## Classification
 - **Difficulty**: Medium
@@ -44,5 +43,7 @@ If the candidate is interested in working on the frontend, we'd also love to see
 - [Import Preview API technical spec](/en/engineering/architecture/import-preview-api)
 
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Mukesh Murali
+- **Backup Mentor**: Kriti Godey
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
