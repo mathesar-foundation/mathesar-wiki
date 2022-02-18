@@ -1,12 +1,17 @@
 ---
-title: 07. Formulas
+title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-04T03:38:23.046Z
+date: 2022-02-18T21:07:17.916Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
 ---
+
+> Under construction.
+{.is-warning}
+
+# List of Formulas
 
 This is a list of view formulas that we should support in the alpha release of Mathesar. To create this list, I've used the [Inventory Use Case](/en/design/reports/inventory-use-case) as a guideline and limited the list to formulas that would be useful in that case.
 
