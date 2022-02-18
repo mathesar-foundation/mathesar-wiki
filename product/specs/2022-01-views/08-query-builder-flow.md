@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-18T20:51:51.428Z
+date: 2022-02-18T20:54:09.123Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
