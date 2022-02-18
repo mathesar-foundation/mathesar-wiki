@@ -2,7 +2,7 @@
 title: Team Events
 description: 
 published: true
-date: 2022-01-15T00:56:00.421Z
+date: 2022-02-18T15:37:11.863Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T21:03:44.499Z
@@ -19,11 +19,7 @@ Previous events have included:
 - A murder mystery roleplay event.
 - Lightning Talks
 - Playing [CodeNames](https://codenames.game/)
-
-## Ideas for future events
-- Informaal presentations about topics we know well (non-work related) or things we like.
-- Charades.
-- Online games.
+- Playing charades (with a movie theme)
 
 We're particularly interested in events that help us get to know each other better. Also, we're always open to doing activities we've done before.
 
