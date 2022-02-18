@@ -2,13 +2,15 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-02-17T23:26:16.972Z
+date: 2022-02-18T00:26:03.156Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
 ---
 
-The Mathesar team is applying to be a mentoring organization for **Google Summer of Code 2022**. We are hoping to work with GSoC mentees to help us create an intuitive user interface to work with relational databases.
+Welcome! The Mathesar team is applying to be a mentoring organization for **Google Summer of Code 2022**. We are hoping to work with GSoC mentees to help us create an intuitive user interface to work with relational databases.
+
+Please see the pages below for more details.
 
 ## For Applicants
 
