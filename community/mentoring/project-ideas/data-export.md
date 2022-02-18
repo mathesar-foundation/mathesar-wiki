@@ -2,7 +2,7 @@
 title: Support Data Export
 description: 
 published: true
-date: 2022-02-18T00:03:46.048Z
+date: 2022-02-18T00:15:46.616Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-18T00:03:46.048Z
@@ -46,6 +46,6 @@ If the candidate is interested in working on the frontend, we'd also love to see
 
 ## Mentors
 - **Primary Mentor**: Mukesh Murali
-- **Backup Mentor**: Kriti Godey
+- **Backup Mentor**: Dominykas Mostauskis
 
 See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
