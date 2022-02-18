@@ -2,7 +2,7 @@
 title: Implement Textual SQL Query Builder
 description: 
 published: true
-date: 2022-02-17T23:57:00.308Z
+date: 2022-02-18T00:13:36.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:52:46.522Z
@@ -39,7 +39,7 @@ By the end of this project, we expect that the query builder web interface will 
 
 
 ## Mentors
-- **Primary Mentor**: Kriti Godey
+- **Primary Mentor**: Pavish Kumar Ramani Gopal
 - **Backup Mentor**: Dominykas Mostauskis 
 
 See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
