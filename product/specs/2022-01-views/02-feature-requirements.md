@@ -2,16 +2,16 @@
 title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-02-17T03:50:54.958Z
+date: 2022-02-18T19:35:54.562Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
 ---
 
-For the initial proof-of-concept version of Queries and Views, we'll need the following features:
+To work with **Queries** and **Views** in Mathesar, we'll need to support the following functionality:
 
 ## Query Builder
-Mathesar should support a visual query builder to allow users to construct complex SQL`SELECT` queries. The query builder should be accessible from anywhere in Mathesar and should not be tied to a single table or view.
+Mathesar should support a visual query builder to allow users to construct **Queries**. The query builder should be accessible from anywhere in Mathesar and should not be tied to a single table or view.
 
 The query builder should allow users to:
 - Construct a query by selecting:
@@ -23,9 +23,12 @@ The query builder should allow users to:
     - a limit/offset for the rows returned
 - Select columns to see in the output query
 - Preview the query results live
-- Save a query as a View
+- Save a query as a **View**
 
-## Interacting with Existing Views
+## Creating Views
+Mathesar should also support creating **Views**, which are essentially saved **Queries**. View creation should start by using the query builder.
+
+## Interacting with Views
 Views should be a separate category of objects in Mathesar, just like Tables. Users should be able to:
 - See all views in a given schema
 - Find the view they want
