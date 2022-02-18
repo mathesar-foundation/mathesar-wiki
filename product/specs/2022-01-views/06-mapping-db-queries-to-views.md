@@ -2,11 +2,14 @@
 title: 06. Breaking Down DB Queries
 description: 
 published: true
-date: 2022-01-30T23:33:26.276Z
+date: 2022-02-18T21:02:23.794Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:36.210Z
 ---
+
+> This page is out of date.
+{.is-danger}
 
 This page goes through the [PostgreSQL documentation about queries](https://www.postgresql.org/docs/14/queries.html) and maps various concepts listed there to our data model. We'll follow the structure of the PostgreSQL docs.
 
