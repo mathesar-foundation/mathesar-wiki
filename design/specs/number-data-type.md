@@ -9,9 +9,11 @@ dateCreated: 2021-07-23T20:02:57.303Z
 ---
 
 # Context
+
 Number data types allow users to add numeric values in different formats. 
 
-# Prototype
+## Prototype
+
 > This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 {.is-warning}
 
@@ -20,6 +22,7 @@ Number data types allow users to add numeric values in different formats.
 # User Experience
 
 ## Scenarios
+
 ### User sets number data type options
 A user can access the data type configuration of a field through the column menu. Depending on which data type is selected, the content of the configuration panel will change.
 
@@ -48,5 +51,19 @@ A user can set the number of groups or the size for each group. If the parameter
 We want to make sure users of all levels can understand and use the appropriate data types. Because the distinction between database types is sometimes not evident to beginner levels, we want to map them to more familiar categorizations. The design ensures that information will be available but prioritizes the user-friendly types in terms of visibility.
 
 ### Number type alignment
+
 Number types should be aligned to the right for easier reading of numbers with decimals.
 
+## Update
+
+### Currency Format for Number Types
+
+The number type, when set to decimal, can now be formatted to represent currency values. For this, users can add a currency symbol to the number, and set options like showing thousand separators or change the position of the currency symbol.
+
+Additionally, the user must be informed that this is a display option and as such lacks some specialized functionality provided by the currency data type.
+
+#### Format Options
+
+- Select Symbol
+- Symbol position
+- Thousand Separator
