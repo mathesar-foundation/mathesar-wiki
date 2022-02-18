@@ -2,7 +2,7 @@
 title: Support for JSON Data Type
 description: 
 published: true
-date: 2022-02-17T23:54:03.413Z
+date: 2022-02-18T00:12:28.125Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:20:20.298Z
@@ -47,6 +47,6 @@ By the end of this project, we expect that users will be able to seamlessly use 
 
 ## Mentors
 - **Primary Mentor**: Brent Moran
-- **Backup Mentor**: Kriti Godey
+- **Backup Mentor**: Mukesh Murali
 
 See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
