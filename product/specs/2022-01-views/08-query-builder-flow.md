@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-18T20:39:30.609Z
+date: 2022-02-18T20:51:51.428Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -106,8 +106,14 @@ The user can apply the following to the query:
 # Appendix: Implementation Details
 
 ## Available Columns
-> Information about calculating available columns will go here.
-{.is-info}
+When adding query output columns, available columns are calculated as follows:
+
+- If a reference table has not been set, we show all columns from all tables.
+    - We may want to hide columns with foreign key constraints (FKs), since they are duplicates of the source columns.
+- If a reference table has been set, we show:
+    - all columns from the reference table 
+        - If the reference table has no relationships to itself within three levels, then we can hide columns from the reference table that have already been added to the query's output columns
+    - all columns from tables that the reference table has FKs to or with FKs to the reference table, up to three levels of FKs away.
 
 ## Formulas
 > Information about how formulas work will go here.
