@@ -2,11 +2,14 @@
 title: 03. The View Query
 description: 
 published: true
-date: 2022-01-30T23:32:52.662Z
+date: 2022-02-18T21:02:13.129Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:55:38.596Z
 ---
+
+> This page is out of date.
+{.is-danger}
 
 In some cases, we will be able to break down a View's Query into simpler parts that the user can edit. Here's how I think we should model those simpler parts in our API and UI. Each heading represents an attribute of a View Query.
 
