@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-18T21:07:17.916Z
+date: 2022-02-19T16:36:10.207Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -10,6 +10,22 @@ dateCreated: 2022-02-04T03:33:53.715Z
 
 > Under construction.
 {.is-warning}
+
+# Structure
+
+Formulas have the following attributes:
+- **Name**: A unique human-readable name
+- **Description**: A description of what the formula does
+- **Variables Accepted**: This is the list of variables needed for a formula to work. Variables have the following attributes:
+    - **Name**: A unique name (within the formula)
+    - **Description**: A description of how the variable fits into the formula
+    - **Type**: The type of data accepted.
+    - **Value**: The value that this variable is set to.
+
+## Variable Types
+> TBD.
+{.is-warning}
+
 
 # List of Formulas
 
