@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-18T20:54:09.123Z
+date: 2022-02-19T15:26:33.558Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -63,13 +63,15 @@ The user can add filters to filter down the results of the query to a subset of 
 ## Sorting
 The user can sort the query results by one or more of the query's ouput columns. Query sorting should provide a similar experience to table or view sorting.
 
-## Aggregation
-The user should be able to aggregate the query by one of the query's output columns. This involves the following steps:
+## Summarization
+The user should be able to summarize the query by one of the query's output columns. This involves the following steps:
 
-- The user selects a column to aggregate on and a type of aggregation.
-    - The type of aggregation will depend on the column's data type.
-    - The aggregations offered for a given data type will match that data type's grouping options in tables/views.
-- The query results are aggregated, the values in the aggregation's target column are reduced to the group names and the values of rest of the columns are turned into a list of distinct values.
+- The user selects a column to summarize on and the summary type.
+    - The type of summary will depend on the column's data type.
+    - The summarizations offered for a given data type will match that data type's grouping options in tables/views.
+- The summarization is applied to the query results as follows:
+  - the values in the summary's target column are reduced to the group names
+  - the values of rest of the columns are aggregated into a list of distinct values.
 
 For example, consider this query output:
 
@@ -81,7 +83,7 @@ For example, consider this query output:
 | The Count of Monte Cristo | 2 hr 11 min | Adventure |
 | On the Rocks | 1 hr 37 min | Comedy, Drama |
 
-The user applies an aggregation of "Movie Title" by first letter. The resultant output will be:
+The user applies a summary of "Movie Title" by first letter. The resultant output will be:
 
 | Movie Title (First Letter) | Runtime | Genres |
 |-|-|-|
@@ -89,9 +91,9 @@ The user applies an aggregation of "Movie Title" by first letter. The resultant 
 | R | 1 hr 41 min, 1 hr 57 min | Comedy, Crime, Drama, Thriller |
 | T | 2 hr 11 min, 2 hr 32 min | Adventure, Action, Drama, History |
 
-Once an aggregation is applied, then any new columns added will also be aggregated as a list.
+Once an summarization is applied, then any new columns added will also be aggregated as a list.
 
-To keep things simple, only one aggregation can be applied at a time.
+To keep things simple, only one summarization can be applied at a time.
 
 ## Limit & Offset
 The user can apply the following to the query:
