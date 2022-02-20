@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-20T18:48:48.783Z
+date: 2022-02-20T18:49:15.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -53,8 +53,6 @@ When a query is turned into a View, we will allow users to edit data from the Vi
 
 # List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
-
-We will be using the tables in the [Example Schema](/en/product/specs/example-schema) to illustrate different formulas.
 
 ## Aggregations
 These formulas are related to aggregating related items. We will support finding related items up to three levels of FKs deep.
