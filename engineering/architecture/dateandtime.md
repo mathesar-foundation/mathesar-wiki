@@ -28,6 +28,8 @@ If the UI is not able to parse the input, it should still send the raw input str
 
 Another way to input data is through bulk import. In that case, we're completely reliant on the database parsing. This is the reason goal (4) is important.
 
+The PostgreSQL documentation regarding Date and Time types is [here](https://www.postgresql.org/docs/13/datatype-datetime.html). Note especially the input and output of the various types.
+
 #### Regarding relative times
 
 There are some relative dates / times which make sense, e.g. "tomorrow", to store in a date column. These will _not_ be stored in a "relative" way, though. They'll be stored as a static date or time (one day later than the current day in the example). As for durations, there's some weird overlap between intervals "2 days ago" and a specific time "2 days ago". We'll choose whether to store the duration or a static time based on the column type or other context.
