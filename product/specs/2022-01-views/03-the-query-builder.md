@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-19T15:26:33.558Z
+date: 2022-02-21T23:37:10.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -118,5 +118,4 @@ When adding query output columns, available columns are calculated as follows:
     - all columns from tables that the reference table has FKs to or with FKs to the reference table, up to three levels of FKs away.
 
 ## Formulas
-> Information about how formulas work will go here.
-{.is-info}
+Please see the next page, [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
