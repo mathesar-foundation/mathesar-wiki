@@ -62,8 +62,8 @@ Because some units of time (months and days) are inconsistent w.r.t. the number 
 
 - `'1 year 1 month, 1 day 1 hour 1 minute 1.1 seconds'` maps to `P1Y1M1DT1H1M1.1S`
 - `'0 years 13 months 31 days 23 hours 60 minutes 61.1 seconds'` maps to `P1Y1M31DT24H1M1.1S`
-- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds'` maps to `P0Y11M3DT-13H-49M-29.6S`
-- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds ago'` maps to `P0Y-11M-3DT13H49M29.6S`
+- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds'` maps to `P0Y11M3DT13H50M30.4S`
+- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds ago'` maps to `P0Y-11M-3DT-13H-50M-30.4S`
 
 Notes:
 - Commas and pluralization don't matter. 
