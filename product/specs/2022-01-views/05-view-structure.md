@@ -2,14 +2,11 @@
 title: 05. View Structure
 description: 
 published: true
-date: 2022-02-21T23:59:29.150Z
+date: 2022-02-21T23:59:42.220Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
 ---
-
-> This page is out of date.
-{.is-danger}
 
 Once a query is built using the [Query Builder](/en/product/specs/2022-01-views/03-the-query-builder), it can be saved as a View. Users should be able to see and use Views in Mathesar just like [Tables](/en/product/concepts/tables).
 
