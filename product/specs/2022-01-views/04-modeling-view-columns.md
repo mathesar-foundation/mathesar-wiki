@@ -1,8 +1,8 @@
 ---
-title: 04. View Columns
+title: 06. View Columns
 description: 
 published: true
-date: 2022-02-18T21:02:18.425Z
+date: 2022-02-21T23:57:29.753Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
