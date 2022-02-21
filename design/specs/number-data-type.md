@@ -69,7 +69,9 @@ The interface should align number types to the right for easier reading of numbe
 
 Users can now format the number type to represent currency values when set to decimal. For this, users can add a currency symbol to the number and set options like showing a thousand separators or changing the position of the currency symbol.
 
-Additionally, the interface must inform the user that this is a display option and lacks specialized functionality provided by the currency data type.
+Additionally, the interface must inform the user that this is a display option and lacks specialized functionality provided by the `Money` data type.
+
+Changes to the `Money` data type are also required as part of this update. Refer to [Money Data Type Specs](/design/specs/money-data-type) for more information.
 
 #### Updated Prototype
 
