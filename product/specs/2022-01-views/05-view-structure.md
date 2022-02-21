@@ -2,7 +2,7 @@
 title: 05. View Structure
 description: 
 published: true
-date: 2022-02-21T23:57:54.104Z
+date: 2022-02-21T23:59:29.150Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
@@ -39,6 +39,8 @@ The user should be able to see all column information for each view column. Plea
 
 ## Query
 Users should be able to see the underlying SQL query that powers the view. This is read-only, but can be copied and pasted.
+
+We could also potentially show a read-only breakdown of the query into [Query Builder](/en/product/specs/2022-01-views/03-the-query-builder) features, but I'm not sure if this is feasible or would be a good idea.
 
 ## View Structural Updates
 Users should be able to perform the following actions:
