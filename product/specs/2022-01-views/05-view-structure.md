@@ -2,7 +2,7 @@
 title: 05. View Structure
 description: 
 published: true
-date: 2022-02-21T23:38:39.962Z
+date: 2022-02-21T23:57:54.104Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
@@ -11,26 +11,38 @@ dateCreated: 2022-01-24T22:54:40.594Z
 > This page is out of date.
 {.is-danger}
 
-Here's how to model views in our backend and API. Each heading represents an attribute of Views.
+Once a query is built using the [Query Builder](/en/product/specs/2022-01-views/03-the-query-builder), it can be saved as a View. Users should be able to see and use Views in Mathesar just like [Tables](/en/product/concepts/tables).
+
+This page describes how Views should work.
+
+# Navigating to Views
+Users should be able to:
+- See all views in a given schema
+- Find the view they want
+- Open a view
+
+# Interacting with a Single View
+Once the user has opened a view, it should support the following features.
+
+## View Data
+- The user should be able to see the View's columns and rows.
+- Users should be able to apply filters, sorts, and groups to the view data, similar to tables.
+
+## Editing View Data
+- The user should be able to edit data in rows if the column is editable.
+    - Columns that use [Formulas](/en/product/specs/2022-01-views/04-formulas) have different editing behavior depending on the formula.
+    - Columns that are direct representations of data from an underlying table should be editable.
+- The user should be able to open up a form to edit the record underlying any cell (if there's only one record).
+
+## Column Information
+The user should be able to see all column information for each view column. Please see [06. View Columns](/en/product/specs/2022-01-views/06-view-columns) for details.
 
 ## Query
-This is the SQL query that defines the view. This is **required**. 
+Users should be able to see the underlying SQL query that powers the view. This is read-only, but can be copied and pasted.
 
-Query attributes are defined [in a separate page](/product/specs/2022-01-views/03-modeling-view-query).
-
-## Columns
-Output columns of the View's Query, they will be shown in the UI.  At least one column is **required** for a view.
-
-Column attributes are defined [in a separate page](/product/specs/2022-01-views/04-modeling-view-columns).
-
-## Rows
-These are the output rows of the View's Query. Rows are **not required**, Views can contain 0 rows.
-
-## Filters
-Views can have filters applied to the data in the View. This is similar to Table filters.
-
-## Sorting
-Views can have sorting applied to the data that's present in the View. This is similar to Table sorting.
-
-## Groups
-Groups are similar to table grouping, they sort and then visually group rows into sections.
+## View Structural Updates
+Users should be able to perform the following actions:
+- Save filters and sorts applied in the UI to the View query (permanently applying those sorts/filters)
+- Save filters and sorts applied in the UI to a new View
+- Create a new "summarized" view of any groupings applied
+- Open the current view in the query builder to edit its structure
