@@ -71,6 +71,10 @@ Users can now format the number type to represent currency values when set to de
 
 Additionally, the interface must inform the user that this is a display option and lacks specialized functionality provided by the currency data type.
 
+#### Updated Prototype
+
+[Figma Prototype - Updated Number Type Display Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7552%3A83433&viewport=241%2C48%2C0.46&scaling=contain)
+
 #### Scenario: A user sets the number type to be displayed in currency format
 
 - The user sets a column type to `number.`
