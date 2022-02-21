@@ -63,7 +63,7 @@ We want to make sure users of all levels can understand and use the appropriate 
 
 The interface should align number types to the right for easier reading of numbers with decimals.
 
-## Update
+## Update 21 Feb 2022
 
 ### Currency Format for Number Types
 
