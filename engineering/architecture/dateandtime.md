@@ -13,18 +13,24 @@ dateCreated: 2022-02-15T14:58:57.900Z
 1. Users should be able to interact with dates, times, datetimes, and time durations in Mathesar in the most human-friendly way possible
 2. The UI should be extremely forgiving w.r.t. date/time input, and also display dates and times in a human-friendly way.
 3. The API should be extremely forgiving w.r.t. date/time input, but should return dates, times, and time durations in a more programmatic, i.e., consistent way than the UI.
-4. The UI and API should be consistent in the following way:  If the input string is understood by both UI and API, they should always result in the _same date/time_ being stored, regardless of the input method.
-5. The dates/times understood by the API should be a subset of those understood by the UI. That is, there should be no dates/times/time durations that are understood by the API, but which can't be entered through the UI.
+4. The UI and API should be consistent in the following way:  If the input string is accepted by both UI and API, they should always result in the _same date/time_ being stored, regardless of the input method.
+5. The dates/time input strings accepted by the API should be a subset of those accepted by the UI. That is, there should be no dates/times/time durations that are accepted by the API, but which are invalidated by the UI.
 
 ## Overall input flow
 
-If the UI is able to parse a date, time, duration, etc., it should reformat it into the appropriate canonical form described below and send that as the input to be stored to the API. If it's not able to parse the input, it should send the raw input string to the API and let the service layer / database try to parse the string. This helps satisfy goal number 5. If the service layer is able to parse the string, then store it. Otherwise, raise a validation error.
+For the moment, the UI should simply send the input string along to the API to be handled by the data layer, which should use the underlying database to parse input strings into date/time types to avoid inconsistency. 
+
+If we want to extend the set of understandable date/time input strings in the future, then the UI should parse the more exotic input strings into the appropriate canonical form described below and send that as the input to be stored to the API. Care should be taken to ensure that _if the UI parses the string_, then it's either 
+- a string which wouldn't be handled by the database parsing, or
+- the parsing results in an identical value being stored as the one that would have resulted from sending the raw string to the API. 
+
+If the UI is not able to parse the input, it should still send the raw input string to the API and let the data layer try to parse the string. This helps satisfy goal number 5. If the data layer is able to parse the string, then store it. Otherwise, raise a validation error.
 
 Another way to input data is through bulk import. In that case, we're completely reliant on the database parsing. This is the reason goal (4) is important.
 
 #### Regarding relative times
 
-There are some relative dates / times which make sense, e.g. "tomorrow", to store in a date column. These will _not_ be stored in a "relative" way, though. They'll be stored as a static date or time (one day later than the current day in the example). As for durations, there's some weird overlap between intervals "2 days ago" and a specific time "2 days ago". We'll choose whether to store the duration or a static time based on the column type.
+There are some relative dates / times which make sense, e.g. "tomorrow", to store in a date column. These will _not_ be stored in a "relative" way, though. They'll be stored as a static date or time (one day later than the current day in the example). As for durations, there's some weird overlap between intervals "2 days ago" and a specific time "2 days ago". We'll choose whether to store the duration or a static time based on the column type or other context.
 
 ## Overall output flow
 
@@ -56,8 +62,15 @@ Because some units of time (months and days) are inconsistent w.r.t. the number 
 
 - `'1 year 1 month, 1 day 1 hour 1 minute 1.1 seconds'` maps to `P1Y1M1DT1H1M1.1S`
 - `'0 years 13 months 31 days 23 hours 60 minutes 61.1 seconds'` maps to `P1Y1M31DT24H1M1.1S`
+- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds'` maps to `P0Y11M3DT-13H-49M-29.6S`
+- `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds ago'` maps to `P0Y-11M-3DT13H49M29.6S`
 
-Note where the units do and do not aggregate into larger units in the second example.
+Notes:
+- Commas and pluralization don't matter. 
+- We use `T` to separate the date and time portions.
+- Take care of where the units do and do not aggregate into larger units in the second example.
+- Take care of how units are disaggregated in the third and fourth examples (e.g., 1 year - 1 month is 11 months). Negatives can get complicated.
+- In the final example, we see that `'ago'` negates the whole duration, but negative signs `'-'` affect only the single following unit.
 
 ## Canonical Representation of Dates and Times
 
@@ -81,16 +94,16 @@ Here, `year` will have a minimum of 4 digits, using preceding zeroes for years l
 ```python
 f'{hour}:{minute}:{second}{offset}'
 ```
-Here, `hour` and `minute` are both 2-digit integers between `00` and `59`. `second` is an integer or float which is at least `00` and which is strictly less than `60`. Each of these is padded to the tens place with zeroes if needed. The `offset` has a `+` or `-` prefix, and then the form `{hour}:{minute}` to describe the amount of the offset. If the minute value is `00`, we can omit `:{minute}`. In the special case where `offset` is zero, i.e., for UTC, we use `Z`.
+Here, `hour` and `minute` are both 2-digit integers between `00` and `59`. `second` is an integer or float which is at least `00` and which is strictly less than `60`. Each of these is padded to the tens place with zeroes if needed. The `offset` has a `+` or `-` prefix, and then the form `{hour}:{minute}` to describe the amount of the offset. In the special case where `offset` is zero, i.e., for UTC, we use `Z`.
 
 For columns which don't have time zones, we'll (of course) omit the `offset` entirely.
 
 #### Examples of canonical times
 
 - `12:30:15Z`
-- `12:30:15-08`
+- `12:30:15-08:00`
 - `12:30:15+05:30`
-- `12.30:15.5432`
+- `12:30:15.5432`
 
 ### Date/Time combinations
 
@@ -104,4 +117,6 @@ For columns which don't have time zones, we'll (of course) omit the `offset` ent
 
 - `2022-02-15T12:30:15Z AD`
 - `0022-02-15T12:30:15 BC`
-- `2222-02-15T12:30:15.12345-08 AD`
+- `2222-02-15T12:30:15.12345-08:00 AD`
+
+Note the `T` separator between the date and time portions.
