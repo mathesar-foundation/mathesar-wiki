@@ -2,11 +2,14 @@
 title: 04. View Columns
 description: 
 published: true
-date: 2022-02-04T03:53:55.358Z
+date: 2022-02-18T21:02:18.425Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
 ---
+
+> This page is out of date.
+{.is-danger}
 
 Here's how I think we should model view columns in our API and UI. Each heading represents an attribute of a View Column.
 

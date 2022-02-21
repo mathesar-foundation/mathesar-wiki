@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-02-09T00:12:13.312Z
+date: 2022-02-17T23:45:43.592Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -16,7 +16,6 @@ This is useful in various situations
 - To show how a `View` was constructed 
 - To get a high level overview of the Data Model
 
-
 ## Classification
 - **Difficulty**: Medium
 - **Primary Skills needed**: PostgreSQL, Python, Pytest, Django
@@ -28,7 +27,7 @@ This is useful in various situations
 - Extract dependency information from [System Catalog tables](https://www.postgresql.org/docs/8.4/catalogs.html) for the queried object
 - System Catalog Tables does not contain the dependency information of a function as functions are stored as text on the database. So [pglast](https://github.com/lelit/pglast) should be used to extract dependency information from the function body.
 - Build Dependency graph based on the dependency information.
-- Add Django dependency API to resources [listed in this issue](https://github.com/centerofci/mathesar/issues/398), making use of the underlying python dependency api
+- Add Django dependency API to resources [listed in this issue](https://github.com/centerofci/mathesar/issues/398), making use of the underlying python dependency API
 
 ### Bonus Tasks
 - UI Graph View - Using the Dependency API, create a component on the frontend to visualize the dependency graph.
@@ -44,4 +43,7 @@ A good candidate would be someone who has good understanding of SQL, and align t
 - [Relevant discussion](https://github.com/centerofci/mathesar/issues/398)
 
 ## Mentors
-Mukesh
+- **Primary Mentor**: Mukesh Murali
+- **Backup Mentor**: Brent Moran
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.

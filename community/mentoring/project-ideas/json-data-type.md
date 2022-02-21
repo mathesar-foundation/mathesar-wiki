@@ -2,7 +2,7 @@
 title: Support for JSON Data Type
 description: 
 published: true
-date: 2022-02-09T21:20:20.298Z
+date: 2022-02-18T00:12:28.125Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:20:20.298Z
@@ -46,5 +46,7 @@ By the end of this project, we expect that users will be able to seamlessly use 
 - [PostgreSQL JSON types documentation](https://www.postgresql.org/docs/current/datatype-json.html)
 
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Brent Moran
+- **Backup Mentor**: Mukesh Murali
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.

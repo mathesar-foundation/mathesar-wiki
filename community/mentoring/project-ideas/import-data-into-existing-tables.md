@@ -2,7 +2,7 @@
 title: Support Importing Data into Existing Tables
 description: 
 published: true
-date: 2022-02-09T22:09:08.005Z
+date: 2022-02-17T23:58:11.131Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:59:48.300Z
@@ -38,5 +38,7 @@ If the candidate is interested, they can also implement the feature on the front
 - [Import Preview API technical spec](/en/engineering/architecture/import-preview-api)
 
 ## Mentors
-**Primary Mentor**: Kriti
-**Secondary Mentor(s)**: TBD
+- **Primary Mentor**: Mukesh Murali
+- **Backup Mentor**: Brent Moran
+
+See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
