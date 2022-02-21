@@ -1,8 +1,8 @@
 ---
-title: 02. View Data
+title: 05. View Structure
 description: 
 published: true
-date: 2022-02-18T21:01:52.251Z
+date: 2022-02-21T23:38:39.962Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
