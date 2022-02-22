@@ -1,8 +1,8 @@
 ---
-title: Aggregation Formulas
+title: Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-22T00:15:54.731Z
+date: 2022-02-22T04:59:47.868Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
