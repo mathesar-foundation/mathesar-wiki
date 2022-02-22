@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-21T23:37:10.526Z
+date: 2022-02-22T00:11:34.459Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -105,7 +105,7 @@ The user can apply the following to the query:
 - We should allow users to see a temporary view of their query (this won't be saved as a View but they won't see the "query building" part of the screen)
 - We should allow users to save their query as a permanent View.
 
-# Appendix: Implementation Details
+# Implementation Details
 
 ## Available Columns
 When adding query output columns, available columns are calculated as follows:
