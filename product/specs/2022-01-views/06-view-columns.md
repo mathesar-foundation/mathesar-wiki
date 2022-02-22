@@ -2,7 +2,7 @@
 title: 06. View Columns
 description: 
 published: true
-date: 2022-02-22T00:05:40.565Z
+date: 2022-02-22T00:06:00.048Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-24T22:56:32.776Z
 
 Here is the information we should show in View Columns. We don't necessarily have to use the abstractions below, there might be a better way to show the data necessary.
 
-If we end up having a column menu in [the Query Builder](/en/product/specs/2022-01-views/03-the-query-builder)'s data preview feature, we can probably reuse it here.
+If we end up having a column menu in [the Query Builder](/en/product/specs/2022-01-views/03-the-query-builder), we can probably reuse it here.
 
 ## Data Type
 This is the final data type of the content of the column after any computations etc. are applied.
