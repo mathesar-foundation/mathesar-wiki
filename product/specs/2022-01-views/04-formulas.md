@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-20T18:49:15.904Z
+date: 2022-02-22T00:11:20.709Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -90,7 +90,7 @@ Data generated using list formulas are editable in two ways:
     - the tables being used to generate the list (including intermediate tables) have no other required fields other than the one the user is editing.
     - we have enough information in the filters being used to generate the list to fill in any required fields other than the one the user is editing in the tables being used to generate the list (including intermediate tables) 
 
-To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](/en/product/specs/2022-01-views/09-appendix). 
+To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](/en/product/specs/2022-01-views/08-appendix). 
 
 - **Editing existing items**:
     - The user can edit `Brad Pitt` in row 1 to say `William Bradley Pitt` instead.
