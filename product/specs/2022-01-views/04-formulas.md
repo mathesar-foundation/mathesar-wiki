@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-22T05:04:34.890Z
+date: 2022-02-22T05:05:09.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -55,7 +55,7 @@ When a query is turned into a View, we will allow users to edit data from the Vi
 # List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
 
-- [(a) Record Aggregations *Formulas that aggregate multiple related records*](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
+- [Record Aggregations *Formulas that aggregate multiple related records*](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
 {.links-list}
 
 > More formulas will be added soon.
