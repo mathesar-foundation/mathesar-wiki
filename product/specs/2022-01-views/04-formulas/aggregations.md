@@ -2,13 +2,13 @@
 title: Aggregation Formulas
 description: 
 published: true
-date: 2022-02-22T00:15:01.142Z
+date: 2022-02-22T00:15:54.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
 ---
 
-These formulas are related to aggregating related items. We will support finding related items up to three levels of FKs deep.
+These formulas aggregatate records related to a given record. We will support finding related items up to three levels of FKs deep.
 
 All the formulas in this category take the same single variable:
 - **Related Item**
