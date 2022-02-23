@@ -30,6 +30,7 @@ These documents are notes about a specific feature written to get feedback befor
 
 - [Import Previewing](/engineering/architecture/import-preview-api)
 - [Syncing Database Objects](/engineering/architecture/syncing)
+- [Human Readable Dates and Times](/engineering/architecture/dateandtime)
 
 ## Related Resources
 - ["Architecture" category on GitHub discussions](https://github.com/centerofci/mathesar/discussions/categories/architecture)
