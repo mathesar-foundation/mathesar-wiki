@@ -45,12 +45,35 @@ The user might also choose to group the data based on the values of the 'Money' 
 - For the MVP we'll assume the number locale format based on the selected currency. Eventually we can add options so that, for example, US dollars can be displayed with dot separators instead of commas. 
 - All locales will be included whenever there's a locale-related option.
 
-## Update 21 Feb 2022
+## Update 23 Feb 2022
 
-### Remove option to change currency
+### Compatibility with Postgres Money Type
 
-The updated version will remove the option to change the currency from the money type. The data type menu will display only the current system locale. The system will inform the user that the selected currency will be updated if the locale settings are changed.
+Mathesar will allow users to view columns set to Postgres money type as a money type column. However, it will not allow users to set an existing column to Postgres money data type. To change from Postgres money data type to the custom Mathesar money type, the user would have to set the column to Number or other data type and then choose money again.
 
-#### Updated Prototype
+#### Postgres Money Type Prototype
 
-[Figma Prototype - Updated Money Type Display Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7590%3A84021&viewport=241%2C48%2C0.46&scaling=contain)
+[Figma Prototype - Custom Mathesar Money](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7646%3A84762&viewport=241%2C48%2C0.33&scaling=contain)
+
+### Support for Multi-Currency through custom Mathesar Money Type
+
+Mathesar's custom money data type will allow users to set any currency and customize various display options.
+
+#### Custom Mathesar Money Type Prototype
+
+[Figma Prototype - Custom Mathesar Money](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7590%3A84021&viewport=241%2C48%2C0.46&scaling=contain)
+
+#### Scenario: A user sets a field to money data type
+
+- The user sets a column type to `Money.`
+- The user opens the data type menu and goes to the `Display` section.
+- The user sees the default currency selected and [additional options](#currency_format_options) are displayed.
+- The user can change or leave the default options.
+
+#### Currency Format Options
+
+- Select Symbol: Users can set the symbol that will be displayed along with the number.
+- Symbol position: Users can select the position for the currency symbol. The options are start or end.
+- Digit Grouping: Options are '123456789','123,456,789','123456,789' or '12,34,56,789'
+- Digit Grouping Symbol: Options are 'none','thin space','.' or ','
+- Decimal Symbol: Options are '.' or ','

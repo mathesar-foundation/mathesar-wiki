@@ -62,33 +62,3 @@ We want to make sure users of all levels can understand and use the appropriate 
 ### Number type alignment
 
 The interface should align number types to the right for easier reading of numbers with decimals.
-
-## Update 21 Feb 2022
-
-### Currency Format for Number Types
-
-Users can now format the number type to represent currency values when set to decimal. For this, users can add a currency symbol to the number and set options like showing a thousand separators or changing the position of the currency symbol.
-
-Additionally, the interface must inform the user that this is a display option and lacks specialized functionality provided by the `Money` data type.
-
-Changes to the `Money` data type are also required as part of this update. Refer to [Money Data Type Specs](/design/specs/money-data-type) for more information.
-
-#### Updated Prototype
-
-[Figma Prototype - Updated Number Type Display Options](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7552%3A83433&viewport=241%2C48%2C0.46&scaling=contain)
-
-#### Scenario: A user sets the number type to be displayed in currency format
-
-- The user sets a column type to `number.`
-- The user opens the data type menu and opens the `Display` section.
-- The user sets the `Format` option to `Currency` and [additional options](#currency_format_options) are displayed.
-- The user can change or leave the default options.
-- The user saves the data type changes.
-
-#### Currency Format Options
-
-- Select Symbol: Users can select the symbol that will be displayed along with the number. The currency symbol is set to $ (US Dollar) by default.
-- Symbol position: Users can select the position for the currency symbol. The options are start or end.
-- Digit Grouping: Options are '123456789','123,456,789','123456,789' or '12,34,56,789'
-- Digit Grouping Symbol: Options are 'none','thin space','.' or ','
-- Decimal Symbol: Options are '.' or ','
