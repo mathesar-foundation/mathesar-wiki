@@ -2,18 +2,20 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-22T05:04:10.019Z
+date: 2022-02-23T01:22:16.615Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
 ---
 
-These formulas aggregatate records related to a given record. We will support finding related items up to three levels of FKs deep.
+These formulas aggregate the values of a single column across multiple records of the same type. 
+
+While aggregating related records, we will support finding related items up to three levels of FKs deep.
 
 All the formulas in this category take the same single variable:
-- **Related Item**
+- **Column**
      - **Description**: The column (and relationship to use) to aggregate.
-     - **Type** Column reference of type "multiple related records" with any associated filters
+     - **Type** Column reference of type "multiple records" along with any associated filters
 
 # Count
 - **Data Type**: Integer
