@@ -53,7 +53,7 @@ Mathesar will allow users to view columns set to Postgres money type as a money 
 
 #### Postgres Money Type Prototype
 
-[Figma Prototype - Custom Mathesar Money](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7646%3A84762&viewport=241%2C48%2C0.33&scaling=contain)
+[Figma Prototype - Postgres Money Type](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7646%3A84762&viewport=241%2C48%2C0.33&scaling=contain)
 
 ### Support for Multi-Currency through custom Mathesar Money Type
 
@@ -61,7 +61,7 @@ Mathesar's custom money data type will allow users to set any currency and custo
 
 #### Custom Mathesar Money Type Prototype
 
-[Figma Prototype - Custom Mathesar Money](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7590%3A84021&viewport=241%2C48%2C0.46&scaling=contain)
+[Figma Prototype - Custom Mathesar Money Type](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=7552%3A83433&node-id=7590%3A84021&viewport=241%2C48%2C0.46&scaling=contain)
 
 #### Scenario: A user sets a field to money data type
 
