@@ -2,7 +2,7 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-23T01:22:29.386Z
+date: 2022-02-23T01:22:48.113Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
@@ -10,14 +10,12 @@ dateCreated: 2022-02-22T00:15:01.142Z
 
 These formulas aggregate the values of a single column across multiple records of the same type. 
 
-While aggregating related records, we will support finding related items up to three levels of FKs deep.
-
-## Variables
-
 All the formulas in this category take the same single variable:
 - **Column**
      - **Description**: The column (and relationship to use) to aggregate.
      - **Type** Column reference of type "multiple records" along with any associated filters
+
+While aggregating related records, we will support finding related items up to three levels of FKs deep.
 
 # Count
 - **Data Type**: Integer
