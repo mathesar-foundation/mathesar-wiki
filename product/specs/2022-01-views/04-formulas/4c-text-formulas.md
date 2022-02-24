@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-24T01:14:40.566Z
+date: 2022-02-24T18:33:14.188Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -10,14 +10,7 @@ dateCreated: 2022-02-24T00:56:57.446Z
 
 These formulas operate on text and text-like types. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 
-# Variable Types
-To reduce repetition in the formula definitions, variable types are defined here and only the type name is referenced in the list.
 
-| Type Name | Description |
-|-|-|
-| text-like | A column or a literal string. Columns can be of any data type but the data in them will be treated like text. |
-| integer | An integer literal or column with data type integer |
-| choice | A selection from a pre-determined list of choices |
 
 # Formulas
 
@@ -76,7 +69,7 @@ Overlays a string at the specified position with another string
     - **Count**:
         - **Type**: Integer
         - **Description**: Number of characters to replace
-        - **Optional**, If this is not provided, it defaults to the length of the Overlay Text
+        - **Default Value**, Length of the Overlay Text
 - **Editable?**: No
 - **PostgreSQL Mapping**: `overlay` function
 
@@ -91,11 +84,11 @@ Gets a substring of text at the given position
     - **Starting Position**:
         - **Type**: Integer
         - **Description**: Starting position of text to be extracted
-        - **Optional**: Defaults to 1 if not provided.
+        - **Default Value**: 0
     - **Count**:
         - **Type**: Integer
         - **Description**: Number of characters to extract
-        - **Optional**: If this is not provided, the substring will be extracted until the end of the string.
+        - **Default Value**: Length of string - starting position
 - **Editable?**: No
 - **PostgreSQL Mapping**: `substring` function with this signature: `substring ( string text [ FROM start integer ] [ FOR count integer ] ) → text`
 
@@ -111,11 +104,11 @@ Trims characters from the start or end of text (or both).
     - **Trim Location**:
         - **Type**: Choice (Options: "Start", "End", "Both")
         - **Description**: Where the trimming will happen
-        - **Optional**: Defaults to "Both" if not provided.
+        - **Default Value**: Both
     - **Characters to Trim**:
         - **Type**: Text
         - **Description**: Characters to trim. The text provided will be treated as a list of characters; they will not be treated as a single word (e.g. `xyz` will trim any of `x`, `y`, and `z`)
-        - **Optional**: If this is not provided, the default is a space.
+        - **Default Value**: Space (` `)
 - **Editable?**: No
 - **PostgreSQL Mapping**: `trim` function
 
