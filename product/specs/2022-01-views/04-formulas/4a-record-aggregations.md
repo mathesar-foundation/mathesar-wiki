@@ -2,7 +2,7 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-23T01:22:48.113Z
+date: 2022-02-24T01:18:24.627Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
@@ -83,3 +83,6 @@ group by movie.title;
 - **Variables Accepted**: Although this also accepts a **Related Item**, there is a further caveat that the column must be of a Number type.
 - **Description**: Show the maximum value of all related items.
 - **Data Editable?**: No
+
+> TODO: Add Sum, Median
+{.is-warning}
