@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-24T00:56:57.446Z
+date: 2022-02-24T01:09:15.031Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -33,7 +33,7 @@ Returns number of characters in the text
 
 
 ## Concatenate
-Concatenates two texts together.
+Concatenates two strings together.
 
 - **Date Type**: Text
 - **Variables Accepted**:
@@ -46,6 +46,7 @@ Concatenates two texts together.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator 
 
+
 ## Lowercase
 Converts text to lowercase
 
@@ -56,6 +57,46 @@ Converts text to lowercase
         - **Description**: Text to convert
 - **Editable?**: No
 - **PostgreSQL Mapping**: `lower` function
+
+## Overlay
+Overlays a string at the specified position with another string
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Text-like
+        - **Description**: The text that will be processed
+    - **Starting Position**:
+        - **Type**: Integer
+        - **Description**: Starting position of text to be replaced
+    - **Overlay Text**:
+        - **Type**: Text-like
+        - **Description**: Text to overlay on the base text 
+    - **Count**:
+        - **Type**: Integer
+        - **Description**: Number of characters to replace
+        - **Optional**, If this is not provided, it defaults to the length of the Overlay Text
+- **Editable?**: No
+- **PostgreSQL Mapping**: `overlay` function
+
+## Substring
+Gets a substring of text at the given position
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Text-like
+        - **Description**: The text that will be processed
+    - **Starting Position**:
+        - **Type**: Integer
+        - **Description**: Starting position of text to be extracted
+        - **Optional**: Defaults to 1 if not provided.
+    - **Count**:
+        - **Type**: Integer
+        - **Description**: Number of characters to extract
+        - **Optional**: If this is not provided, the substring will be extracted until the end of the string.
+- **Editable?**: No
+- **PostgreSQL Mapping**: `overlay` function
 
 ## Uppercase
 Converts text to uppercase
