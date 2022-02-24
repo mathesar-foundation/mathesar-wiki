@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-24T18:08:21.687Z
+date: 2022-02-24T18:08:55.466Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -12,7 +12,7 @@ dateCreated: 2022-02-05T23:04:47.283Z
 This page describes how the query builder should work.
 
 # Name
-In the UI, the query builder will be called the **Data Explorer** to make it more approachable for non-technical users.
+In the UI, the query builder will be called the **Data Explorer** to make it more approachable for non-technical users. This should also help convey to users that they can explore their data here, they're not necessarily doing anything permanent.
 
 # Navigating to the Query Builder
 - The query builder should be accessible from anywhere in a schema. It should not be tied to a specific table or view.
