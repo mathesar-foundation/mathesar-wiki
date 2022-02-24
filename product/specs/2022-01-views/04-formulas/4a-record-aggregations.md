@@ -2,7 +2,7 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-24T01:18:24.627Z
+date: 2022-02-24T18:14:23.918Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
@@ -12,14 +12,17 @@ These formulas aggregate the values of a single column across multiple records o
 
 All the formulas in this category take the same single variable:
 - **Column**
-     - **Description**: The column (and relationship to use) to aggregate.
-     - **Type** Column reference of type "multiple records" along with any associated filters
+
 
 While aggregating related records, we will support finding related items up to three levels of FKs deep.
 
 # Count
 - **Data Type**: Integer
-- **Description**: Show a count of related items.
+- **Description**: Show a count of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference
 - **Data Editable?**: No
 
 ## Example Query
@@ -33,7 +36,11 @@ group by movie.title;
 
 # List
 - **Data Type**: List (list item data type depends on the data type of the column being summarized.
-- **Description**: Show a list of related items.
+- **Description**: Show a list of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference
 - **Data Editable?**: Yes 
 
 ## Editing behavior
@@ -67,22 +74,55 @@ group by movie.title;
 ```
 
 # Average
-- **Data Type**: Same as the type being averaged
-- **Variables Accepted**: Although this also accepts a **Related Item**, there is a further caveat that the column must be of a Number type.
-- **Description**: Show an average of related items.
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show an average of of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
 - **Data Editable?**: No
 
 # Minimum
-- **Data Type**: Same as the type being averaged
-- **Variables Accepted**: Although this also accepts a **Related Item**, there is a further caveat that the column must be of a Number type.
-- **Description**: Show the minimum value of all related items.
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show the minimum value of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
 - **Data Editable?**: No
 
 # Maximum
-- **Data Type**: Same as the type being averaged
-- **Variables Accepted**: Although this also accepts a **Related Item**, there is a further caveat that the column must be of a Number type.
-- **Description**: Show the maximum value of all related items.
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show the maximum value of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
 - **Data Editable?**: No
 
-> TODO: Add Sum, Median
-{.is-warning}
+# Median
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show the median value of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+- **Data Editable?**: No
+
+# Sum
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show the sum of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+- **Data Editable?**: No
+
+# Product
+- **Data Type**: Same as the type of column accepted
+- **Description**: Show the product of all values in the column.
+- **Variables Accepted**:
+    - **Column**:
+        - **Description**: The column to aggregate.
+        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+- **Data Editable?**: No
