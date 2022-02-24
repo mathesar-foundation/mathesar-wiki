@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-24T01:19:37.485Z
+date: 2022-02-24T01:20:23.250Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -55,6 +55,9 @@ When a query is turned into a View, we will allow users to edit data from the Vi
 # List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
 
+> All formulas have not yet been defined. This notice will be removed when formulas are defined.
+{.is-warning}
+
 - [Record Aggregations *Formulas that aggregate a column across multiple records*](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
 - [Random Generators *Formulas that generate random data*](/en/product/specs/2022-01-views/04-formulas/4b-random-generators)
 - [Text Formulas *Formulas that work on text data*](/en/product/specs/2022-01-views/04-formulas/4c-text-formulas)
@@ -64,5 +67,4 @@ This is a list of view formulas that we should support in the alpha release of M
 - [Custom Formulas *TBD*]()
 {.links-list}
 
-> More formulas will be added soon.
-{.is-warning}
+
