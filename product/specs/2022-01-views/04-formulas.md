@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-24T01:20:23.250Z
+date: 2022-02-24T18:05:49.039Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -32,6 +32,32 @@ Variables can accept the following types of data:
         - Multiple related records
             - Column references to multiple related records also accept filters, in case the column only needs to use a subset of the related records
 - **Regular Expression Pattern**: Some formulas operate on regex patterns.
+
+## Variable Types
+To reduce repetition in the formula definitions, variable types are defined here and only the type name is referenced in the lists of formulas.
+
+### Single Record Column Reference
+A column which has only one record related to the query's reference point. This could be a column in the query, a column from the query's reference table, or a column that the reference table has an FK relationship to (up to three levels deep).
+
+If there are multiple ways to get to the column (i.e. there are multiple relationships between the query's reference table and the column), then the column reference should also include the relationship to use.
+
+### Multiple Record Column Reference
+A column which has multiple records related to the query's reference point, This is generally a column that has a reverse FK relationship (up to three levels deep) to the query's reference table.
+
+If there are multiple ways to get to the column (i.e. there are multiple relationships between the query's reference table and the column), then the column reference should also include the relationship to use.
+
+Column references to multiple related records also accept input filters, in case the query only needs to use a subset of the related records.
+
+### Text-Like
+Either a **Single Record Column Reference** or a literal string.
+
+If using a column reference, it can be of any data type but the data in the column will be treated like text. 
+
+### Integer
+Either a **Single Record Column Reference** of data type integer or a literal integer.
+
+### Choice
+A selection from a pre-determined list of choices.
 
 > More variable types will be added as more formulas are added.
 {.is-warning}
