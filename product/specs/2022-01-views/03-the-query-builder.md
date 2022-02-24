@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-24T00:28:29.290Z
+date: 2022-02-24T18:07:23.844Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -36,7 +36,7 @@ Users should be able to add columns to see in the query's output. Users can add 
     - **Source Relationship**: This is the relationship of the column's table to the reference table. 
         - If there's only one way that the tables are related, there is no need to make a guess.
         - If there are multiple relationships between the table, we will pick one.
-    - **Aggregation**: This sets how the column is aggregated (list, count, average, min, max, etc.). 
+    - **Aggregation**: This sets how the column is aggregated (separate rows per unique pair, list, count, average, min, max, etc.). 
         - This is only applicable to tables which have multiple related records to the reference table. 
         - By default, we will aggregate columns as a list.
 - The user will see the source relationship and aggregations used and can alter them if desired. 
@@ -97,7 +97,7 @@ The user applies a summary of "Movie Title" by first letter. The resultant outpu
 | R | 1 hr 41 min, 1 hr 57 min | Comedy, Crime, Drama, Thriller |
 | T | 2 hr 11 min, 2 hr 32 min | Adventure, Action, Drama, History |
 
-Once an summarization is applied, then any new columns added will also be aggregated as a list.
+Once an summarization is applied, then any new columns added will also be aggregated as a list. The user can change how columns are aggregated on a column-by-column basis.
 
 To keep things simple, only one summarization can be applied at a time.
 
