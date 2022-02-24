@@ -2,19 +2,13 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-24T18:14:23.918Z
+date: 2022-02-24T18:19:25.832Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
 ---
 
-These formulas aggregate the values of a single column across multiple records of the same type. 
-
-All the formulas in this category take the same single variable:
-- **Column**
-
-
-While aggregating related records, we will support finding related items up to three levels of FKs deep.
+These formulas aggregate the values of a single column across multiple records of the same type.
 
 # Count
 - **Data Type**: Integer
@@ -40,7 +34,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference
+        - **Type** Multiple Record Text-Like
 - **Data Editable?**: Yes 
 
 ## Editing behavior
@@ -79,7 +73,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
 # Minimum
@@ -88,7 +82,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
 # Maximum
@@ -97,7 +91,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
 # Median
@@ -106,7 +100,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
 # Sum
@@ -115,7 +109,7 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
 # Product
@@ -124,5 +118,5 @@ group by movie.title;
 - **Variables Accepted**:
     - **Column**:
         - **Description**: The column to aggregate.
-        - **Type** Multiple Record Column Reference (column must be of a Number-Like type)
+        - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
