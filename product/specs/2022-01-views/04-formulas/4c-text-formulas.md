@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-24T01:09:15.031Z
+date: 2022-02-24T01:14:40.566Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -17,6 +17,7 @@ To reduce repetition in the formula definitions, variable types are defined here
 |-|-|
 | text-like | A column or a literal string. Columns can be of any data type but the data in them will be treated like text. |
 | integer | An integer literal or column with data type integer |
+| choice | A selection from a pre-determined list of choices |
 
 # Formulas
 
@@ -96,7 +97,27 @@ Gets a substring of text at the given position
         - **Description**: Number of characters to extract
         - **Optional**: If this is not provided, the substring will be extracted until the end of the string.
 - **Editable?**: No
-- **PostgreSQL Mapping**: `overlay` function
+- **PostgreSQL Mapping**: `substring` function with this signature: `substring ( string text [ FROM start integer ] [ FOR count integer ] ) → text`
+
+
+## Trim
+Trims characters from the start or end of text (or both).
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Text-like
+        - **Description**: The text that will be processed
+    - **Trim Location**:
+        - **Type**: Choice (Options: "Start", "End", "Both")
+        - **Description**: Where the trimming will happen
+        - **Optional**: Defaults to "Both" if not provided.
+    - **Characters to Trim**:
+        - **Type**: Text
+        - **Description**: Characters to trim. The text provided will be treated as a list of characters; they will not be treated as a single word (e.g. `xyz` will trim any of `x`, `y`, and `z`)
+        - **Optional**: If this is not provided, the default is a space.
+- **Editable?**: No
+- **PostgreSQL Mapping**: `trim` function
 
 ## Uppercase
 Converts text to uppercase
