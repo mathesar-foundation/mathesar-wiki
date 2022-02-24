@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-24T18:33:14.188Z
+date: 2022-02-24T18:35:11.870Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -20,7 +20,7 @@ Returns number of characters in the text
 - **Date Type**: Integer
 - **Variables Accepted**:
     - **Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Text to count
 - **Editable?**: No
 - **PostgreSQL Mapping**: `char_length` (`character_length`) function
@@ -32,10 +32,10 @@ Concatenates two strings together.
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Text 1**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: First text
     - **Text 2**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Second text
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator 
@@ -47,7 +47,7 @@ Converts text to lowercase
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Text to convert
 - **Editable?**: No
 - **PostgreSQL Mapping**: `lower` function
@@ -58,13 +58,13 @@ Overlays a string at the specified position with another string
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Base Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: The text that will be processed
     - **Starting Position**:
-        - **Type**: Integer
+        - **Type**: Single Record Text-Like
         - **Description**: Starting position of text to be replaced
     - **Overlay Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Text to overlay on the base text 
     - **Count**:
         - **Type**: Integer
@@ -79,7 +79,7 @@ Gets a substring of text at the given position
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Base Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: The text that will be processed
     - **Starting Position**:
         - **Type**: Integer
@@ -99,14 +99,14 @@ Trims characters from the start or end of text (or both).
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Base Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: The text that will be processed
     - **Trim Location**:
         - **Type**: Choice (Options: "Start", "End", "Both")
         - **Description**: Where the trimming will happen
         - **Default Value**: Both
     - **Characters to Trim**:
-        - **Type**: Text
+        - **Type**: Single Record Text-Like
         - **Description**: Characters to trim. The text provided will be treated as a list of characters; they will not be treated as a single word (e.g. `xyz` will trim any of `x`, `y`, and `z`)
         - **Default Value**: Space (` `)
 - **Editable?**: No
@@ -118,7 +118,7 @@ Converts text to uppercase
 - **Date Type**: Text
 - **Variables Accepted**:
     - **Text**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Text to convert
 - **Editable?**: No
 - **PostgreSQL Mapping**: `upper` function
@@ -131,7 +131,7 @@ Description
 - **Date Type**: Blah
 - **Variables Accepted**:
     - **Foo**:
-        - **Type**: Text-like
+        - **Type**: Single Record Text-Like
         - **Description**: Blah
 - **Editable?**: No
 - **PostgreSQL Mapping**: Blah
