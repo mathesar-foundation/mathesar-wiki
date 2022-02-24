@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-24T18:05:49.039Z
+date: 2022-02-24T18:18:17.365Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -48,13 +48,24 @@ If there are multiple ways to get to the column (i.e. there are multiple relatio
 
 Column references to multiple related records also accept input filters, in case the query only needs to use a subset of the related records.
 
-### Text-Like
+### Singe Record Text-Like
 Either a **Single Record Column Reference** or a literal string.
 
 If using a column reference, it can be of any data type but the data in the column will be treated like text. 
 
+### Single Record Number-Like
+Either a **Single Record Column Reference** or a literal number.
+
+If using a column reference, the data type must be representable as a number (e.g. Number, Money, Duration UI types).
+
+### Multiple Record Text-Like
+A **Multiple Record Column Reference**. The column can be of any data type but the data in the column will be treated like text. 
+
+### Multiple Record Number-Like
+A **Multiple Record Column Reference**. The data type of the column must be representable as a number (e.g. Number, Money, Duration UI types).
+
 ### Integer
-Either a **Single Record Column Reference** of data type integer or a literal integer.
+Either a **Column Reference** of data type integer or a literal integer.
 
 ### Choice
 A selection from a pre-determined list of choices.
