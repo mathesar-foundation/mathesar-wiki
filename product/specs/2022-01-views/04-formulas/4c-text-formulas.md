@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-24T18:35:11.870Z
+date: 2022-02-25T02:07:28.858Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -10,11 +10,7 @@ dateCreated: 2022-02-24T00:56:57.446Z
 
 These formulas operate on text and text-like types. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 
-
-
-# Formulas
-
-## Character Count
+# Character Count
 Returns number of characters in the text
 
 - **Date Type**: Integer
@@ -23,10 +19,10 @@ Returns number of characters in the text
         - **Type**: Single Record Text-Like
         - **Description**: Text to count
 - **Editable?**: No
-- **PostgreSQL Mapping**: `char_length` (`character_length`) function
+- **PostgreSQL Mapping**: `length` function
 
 
-## Concatenate
+# Concatenate
 Concatenates two strings together.
 
 - **Date Type**: Text
@@ -41,7 +37,7 @@ Concatenates two strings together.
 - **PostgreSQL Mapping**: `||` operator 
 
 
-## Lowercase
+# Lowercase
 Converts text to lowercase
 
 - **Date Type**: Text
@@ -52,7 +48,7 @@ Converts text to lowercase
 - **Editable?**: No
 - **PostgreSQL Mapping**: `lower` function
 
-## Overlay
+# Overlay
 Overlays a string at the specified position with another string
 
 - **Date Type**: Text
@@ -61,7 +57,7 @@ Overlays a string at the specified position with another string
         - **Type**: Single Record Text-Like
         - **Description**: The text that will be processed
     - **Starting Position**:
-        - **Type**: Single Record Text-Like
+        - **Type**: Integer
         - **Description**: Starting position of text to be replaced
     - **Overlay Text**:
         - **Type**: Single Record Text-Like
@@ -73,7 +69,50 @@ Overlays a string at the specified position with another string
 - **Editable?**: No
 - **PostgreSQL Mapping**: `overlay` function
 
-## Substring
+# Repeat
+Repeats a string a given number of times.
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Text to repeat
+    - **Number of Repetitions**:
+        - **Type**: Integer
+        - **Description**: Number of times to repeat the text
+- **Editable?**: No
+- **PostgreSQL Mapping**: `repeat` function
+
+# Replace
+Replaces all occurrences of a substring with another string.
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: The text that will be processed
+    - **Text to be Replaced**:
+        - **Type**: Single Record Text-Like
+        - **Description**: The substring to replace
+    - **Replacement Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Text that will be used as the replacement
+- **Editable?**: No
+- **PostgreSQL Mapping**: `replace` function
+
+# Reverse
+Reverses the text
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Text to reverse
+- **Editable?**: No
+- **PostgreSQL Mapping**: `reverse` function
+
+
+# Substring
 Gets a substring of text at the given position
 
 - **Date Type**: Text
@@ -93,7 +132,18 @@ Gets a substring of text at the given position
 - **PostgreSQL Mapping**: `substring` function with this signature: `substring ( string text [ FROM start integer ] [ FOR count integer ] ) → text`
 
 
-## Trim
+# Title Case
+Converts text to title case.
+
+- **Date Type**: Text
+- **Variables Accepted**:
+    - **Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Text to convert
+- **Editable?**: No
+- **PostgreSQL Mapping**: `initcap` function
+
+# Trim
 Trims characters from the start or end of text (or both).
 
 - **Date Type**: Text
@@ -112,7 +162,7 @@ Trims characters from the start or end of text (or both).
 - **Editable?**: No
 - **PostgreSQL Mapping**: `trim` function
 
-## Uppercase
+# Uppercase
 Converts text to uppercase
 
 - **Date Type**: Text
@@ -122,16 +172,3 @@ Converts text to uppercase
         - **Description**: Text to convert
 - **Editable?**: No
 - **PostgreSQL Mapping**: `upper` function
-
----
-
-## Template
-Description
-
-- **Date Type**: Blah
-- **Variables Accepted**:
-    - **Foo**:
-        - **Type**: Single Record Text-Like
-        - **Description**: Blah
-- **Editable?**: No
-- **PostgreSQL Mapping**: Blah
