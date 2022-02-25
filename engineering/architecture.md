@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2022-01-27T20:35:23.307Z
+date: 2022-02-25T02:17:03.334Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -22,7 +22,7 @@ These documents are kept up to date and serve as a reference.
 - [DML Operations](/engineering/architecture/dml)
 
 ### Mathesar Abstractions
-- [Mathesar Data Types](/engineering/architecture/mathesar-types)
+- [UI Data Types](/engineering/architecture/ui-types)
 - [Filters in Mathesar](/en/engineering/architecture/filters)
 
 ## Technical Specs
