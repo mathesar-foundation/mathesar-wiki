@@ -73,8 +73,8 @@ Mathesar's custom money data type will allow users to set any currency and custo
 
 #### Currency Format Options
 
-- Select Symbol: Users can set the symbol that will be displayed along with the number.
-- Symbol position: Users can select the position for the currency symbol. The options are start or end.
+- Select Currency Symbol: Users can set the symbol that will be displayed along with the number.
+- Symbol Location: Users can select the position for the currency symbol. The options are 'Beginning' or 'End'.
+- Decimal Symbol: Options are '.' or ','
 - Digit Grouping: Options are '123456789','123,456,789','123456,789' or '12,34,56,789'
 - Digit Grouping Symbol: Options are 'none','thin space','.' or ','
-- Decimal Symbol: Options are '.' or ','
