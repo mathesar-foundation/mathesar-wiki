@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-25T02:07:28.858Z
+date: 2022-02-25T02:09:59.980Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -111,6 +111,19 @@ Reverses the text
 - **Editable?**: No
 - **PostgreSQL Mapping**: `reverse` function
 
+# Starts With
+Returns a boolean that indicates whether a string starts with another string
+
+- **Date Type**: Boolean
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: The text that will be checked
+    - **Potential Starting Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: The text that is being compared with the beginning of the base text
+- **Editable?**: No
+- **PostgreSQL Mapping**: `starts_with` function
 
 # Substring
 Gets a substring of text at the given position
