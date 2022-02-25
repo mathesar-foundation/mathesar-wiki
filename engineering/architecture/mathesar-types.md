@@ -2,7 +2,7 @@
 title: UI Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-02-25T02:16:33.808Z
+date: 2022-02-25T02:16:46.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
