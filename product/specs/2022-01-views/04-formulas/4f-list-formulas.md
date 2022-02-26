@@ -1,8 +1,8 @@
 ---
-title: List Formulas
+title: (g) List Formulas
 description: 
 published: true
-date: 2022-02-26T00:31:33.448Z
+date: 2022-02-26T00:32:01.544Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:31:33.448Z
