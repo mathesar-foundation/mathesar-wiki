@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-26T00:16:45.270Z
+date: 2022-02-26T00:21:39.664Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -70,6 +70,21 @@ A **Multiple Record Column Reference**. The data type of the column must be repr
 
 ## Single Record Boolean-Like
 Either a **Single Record Column Reference** of data type boolean or a literal boolean.
+
+## Single Record Date-Like
+Either a **Single Record Column Reference** of data type date or a literal date.
+
+## Single Record Datetime-Like
+Either a **Single Record Column Reference** of data type datetime or a literal datetime.
+
+## Single Record Time-Like
+Either a **Single Record Column Reference** of data type time or a literal time.
+
+## Single Record Duration-Like
+Either a **Single Record Column Reference** of data type duration or a literal duration.
+
+## Single Record List-Like
+Either a **Single Record Column Reference** of data type list or a literal list.
 
 ## Integer
 Either a **Single Record Column Reference** of data type integer or a literal integer.
