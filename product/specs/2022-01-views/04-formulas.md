@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-26T00:21:39.664Z
+date: 2022-02-26T00:26:08.068Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -106,7 +106,7 @@ This is a list of view formulas that we should support in the alpha release of M
 - [Text Formulas *Formulas that work on text data*](/en/product/specs/2022-01-views/04-formulas/4c-text-formulas)
 - [Number Formulas *Formulas that work on number data*](/en/product/specs/2022-01-views/04-formulas/4d-number-formulas)
 - [Boolean Formulas *Formulas that work on boolean data*](/en/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
-- [Date and Time Formulas *TBD*]()
+- [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
 - [List Formulas *TBD*]()
 - [Cumulative Formulas *TBD*]()
 - [Regular Expression Formulas *TBD*]()
