@@ -1,8 +1,8 @@
 ---
-title: Date & Time Formulas
+title: Date, Time, and Duration Formulas
 description: 
 published: true
-date: 2022-02-26T00:25:24.180Z
+date: 2022-02-26T00:26:36.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:25:24.180Z
