@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-26T00:05:19.365Z
+date: 2022-02-26T00:09:27.457Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -37,7 +37,6 @@ When a query is turned into a View, we will allow users to edit data from the Vi
    - e.g. if we apply a "List" formula to list the genres related to a given movie, we can add and remove genres to that list, which will create/delete records in the appropriate underlying tables.
        - in the future, we may also support editing the genre names themselves.
 
-
 # Variable Types
 To reduce repetition in the formula definitions, variable types are defined here and only the type name is referenced in the lists of formulas.
 
@@ -68,6 +67,9 @@ If using a column reference, the data type must be representable as a number (e.
 
 ## Multiple Record Number-Like
 A **Multiple Record Column Reference**. The data type of the column must be representable as a number (e.g. Number, Money, Duration UI types).
+
+## Single Record Boolean-Like
+Either a **Single Record Column Reference** of data type boolean or a literal boolean.
 
 ## Integer
 Either a **Single Record Column Reference** of data type integer or a literal integer.
