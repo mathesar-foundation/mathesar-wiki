@@ -49,4 +49,3 @@ We want to make sure users of all levels can understand and use the appropriate 
 
 ### Number type alignment
 Number types should be aligned to the right for easier reading of numbers with decimals.
-
