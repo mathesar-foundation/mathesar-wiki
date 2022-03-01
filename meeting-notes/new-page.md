@@ -2,7 +2,7 @@
 title: March 2022
 description: 
 published: true
-date: 2022-03-01T15:12:30.780Z
+date: 2022-03-01T15:22:47.085Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-01T15:12:30.780Z
@@ -27,6 +27,7 @@ Sync call to discuss about display options validation especially around `datetim
         - We need to make sure frontend and backend validation matches and that's a lot of work - probably unnecessary, will probably lead to inconsistencies in the implementation.
         - The backend will only validate length to make sure random data is not stored.
         - Frontend will enforce additional rules.
+        - Frontend cannot strictly rely on data from the backen
         
 - Format
     - Length = 255
