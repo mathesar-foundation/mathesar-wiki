@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2022-02-14T20:51:05.497Z
+date: 2022-03-01T16:12:08.918Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -13,12 +13,20 @@ dateCreated: 2021-04-29T17:28:01.167Z
 Please follow these guidelines when reviewing PRs.
 
 # Authors
-- Once you think your code is ready to merge, mark your draft pull request as "ready for review" or create a pull request if you don't have a draft. The required reviewers will automatically be notified when you do this.
-- You can post on the [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) for urgent PRs or to ask for optional review of draft PRs.
-- If the reviewer requests changes, please make the changes and **re-request review**.
-- Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
-- If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
-- Please avoid breaking changes to the API.  If they absolutely can't be avoided, please follow the process described [here](/team/guide/workflow#in-case-of-breaking-api-changes).
+- If your code is ready to be reviewed and merged:
+  - Once you think your code is ready to merge, mark your draft pull request as "ready for review" or create a pull request if you don't have a draft. The required reviewers will automatically be notified when you do this.
+  - You can post on the [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) for urgent PRs or to ask for optional review of draft PRs.
+  - If the reviewer requests changes, please make the changes and **re-request review**.
+  - Do not mark comments as resolved in the GitHub UI, let the reviewer do this.
+  - If the reviewer has approved the PR but not merged it, feel free to merge the PR yourself.
+  - Please avoid breaking changes to the API.  If they absolutely can't be avoided, please follow the process described [here](/team/guide/workflow#in-case-of-breaking-api-changes).
+- Else, if your code is ready to be reviewed, but not ready to be merged (for example, when it depends on another PR):
+  - Submit the pull request as draft.
+  - Leave it as draft.
+  - Add label `status:review`.
+  - Assign reviewers manually.
+  - And, post in the Code Review channel.
+  - Otherwise, follow guidelines above.
 
 ## General Advice
 - Commit early, commit often.
