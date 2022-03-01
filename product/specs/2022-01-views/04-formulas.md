@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-02-26T00:36:13.430Z
+date: 2022-03-01T00:01:43.756Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -79,6 +79,9 @@ Either a **Single Record Column Reference** of data type datetime or a literal d
 
 ## Single Record Time-Like
 Either a **Single Record Column Reference** of data type time or a literal time.
+
+## Single Record Date or Time-Like
+Either a **Single Record Column Reference** of data type date/datetime/time or a literal of one of the same types.
 
 ## Single Record Duration-Like
 Either a **Single Record Column Reference** of data type duration or a literal duration.
