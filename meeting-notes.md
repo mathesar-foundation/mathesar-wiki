@@ -2,7 +2,7 @@
 title: Meeting Notes
 description: 
 published: true
-date: 2022-02-10T16:35:23.537Z
+date: 2022-03-01T15:30:58.828Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-23T10:53:59.841Z
@@ -13,6 +13,7 @@ These are the Mathesar core team's meeting notes.
 In addition to meetings, we do daily standups asynchronously on Matrix on [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org). Those are not recorded here, but the channel is public so feel free to join.
 
 ## 2022
+- [March 2022](/meeting-notes/2022-03)
 - [February 2022](/meeting-notes/2022-02)
 - [January 2022](/meeting-notes/2022-01)
 
