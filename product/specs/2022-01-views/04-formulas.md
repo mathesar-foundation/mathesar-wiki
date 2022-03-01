@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-01T00:01:43.756Z
+date: 2022-03-01T00:27:38.257Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
