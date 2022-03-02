@@ -2,7 +2,7 @@
 title: 06. View Columns
 description: 
 published: true
-date: 2022-02-22T00:06:00.048Z
+date: 2022-03-02T01:16:36.044Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
@@ -19,7 +19,7 @@ This is the final data type of the content of the column after any computations 
 
 ## Sources
 This is the set of source columns that are used to generate the data in the current View column.
-- **Allowed values**: References to other Table or View columns, including other columns in the same View.
+- **Allowed values**: References to other Table columns or columns in the same View.
     - We should also depict relationships used to get to the source and any filters applied to the source.
 - **Optional**: This could be empty for purely calculated columns (e.g. using the Postgres `random()` function and putting the output in a column)
 
@@ -37,7 +37,7 @@ We should allow users to use a pre-set set of formulas or (in the future) enter 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
 ![screen_shot_2022-01-20_at_4.23.21_pm.png](/screen_shot_2022-01-20_at_4.23.21_pm.png)
 
-Details about creating formulas are in [07. Formulas](/en/product/specs/2022-01-views/07-formulas).
+Details about creating formulas are in [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
 
 ## Link
 This notes whether a column is a join column. This is a column used to match the same values across multiple tables to create the View. These columns have multiple Sources but no Formula.
