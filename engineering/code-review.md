@@ -2,7 +2,7 @@
 title: Code Review Guidelines
 description: 
 published: true
-date: 2022-03-01T16:13:56.759Z
+date: 2022-03-02T15:30:44.385Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-29T17:28:01.167Z
@@ -42,6 +42,7 @@ Anyone is welcome to review pull requests!
 - See [Backend Code Review](/engineering/code-review/backend) for guidelines specific to backend code.
 
 ## Maintainers
+If your review is requested, it means that you are responsible for reviewing the pull request. If the PR is large or you think someone who is familiar with a specific part of the code would be helpful, feel free to request additional reviewers through the GitHub interface.
 
 ### Process
 - Check for outstanding PRs at least **once a day**.
