@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-02-24T18:08:55.466Z
+date: 2022-03-02T00:49:36.740Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -24,7 +24,7 @@ All queries will start from a single "reference table". This table will determin
 
 We might also want to show the reference table in the query builder UI somehow.
 
-# Selecting Output Columns
+# Selecting Columns
 Users should be able to add columns to see in the query's output. Users can add columns in two ways: from a table or from a formula.
 
 ## From a Table
