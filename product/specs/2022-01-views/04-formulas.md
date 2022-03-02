@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-02T00:40:46.566Z
+date: 2022-03-02T00:41:17.614Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -98,14 +98,8 @@ A selection from a pre-determined list of choices.
 ## Regular Expression
 Literal text expressing a [regular expression](https://www.postgresql.org/docs/current/functions-matching.html#FUNCTIONS-POSIX-REGEXP).
 
-> More variable types will be added as more formulas are added.
-{.is-warning}
-
 # List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
-
-> All formulas have not yet been defined. This notice will be removed when formulas are defined.
-{.is-warning}
 
 - [Record Aggregations *Formulas that aggregate a column across multiple records*](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
 - [Random Generators *Formulas that generate random data*](/en/product/specs/2022-01-views/04-formulas/4b-random-generators)
