@@ -2,7 +2,7 @@
 title: (j) Custom Formulas
 description: 
 published: true
-date: 2022-03-02T00:30:44.664Z
+date: 2022-03-02T00:40:09.290Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T00:30:44.664Z
@@ -17,5 +17,9 @@ Custom formulas provide a more flexible interface to let users build their own f
 - Comparison operators (`>`, `<`, `>=`, `<=`, `=`, `!=`)
 
 ## Interface Requirements
-> TODO
-{.is-warning}
+We should provide a textual interface for users to enter custom formulas. This should support:
+- Autocomplete for column references based on the available columns.
+- Autocomplete for our pre-created formulas.
+    - Once the user has started entering a formula, we should support autocomplete or dropdowns for formula options.
+    - For freeform inputs, we should show placeholders.
+- Some sort of help or autocomplete for operators.
