@@ -2,7 +2,7 @@
 title: 05. View Structure
 description: 
 published: true
-date: 2022-02-21T23:59:42.220Z
+date: 2022-03-02T01:15:07.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z
@@ -29,7 +29,7 @@ Once the user has opened a view, it should support the following features.
 - The user should be able to edit data in rows if the column is editable.
     - Columns that use [Formulas](/en/product/specs/2022-01-views/04-formulas) have different editing behavior depending on the formula.
     - Columns that are direct representations of data from an underlying table should be editable.
-- The user should be able to open up a form to edit the record underlying any cell (if there's only one record).
+- The user should be able to open up a form to edit the record of any cell with a single record as a source.
 
 ## Column Information
 The user should be able to see all column information for each view column. Please see [06. View Columns](/en/product/specs/2022-01-views/06-view-columns) for details.
