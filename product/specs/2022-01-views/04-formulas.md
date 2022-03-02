@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-01T00:48:21.281Z
+date: 2022-03-02T00:18:02.493Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -95,6 +95,9 @@ Either a **Single Record Column Reference** of data type integer or a literal in
 ## Choice
 A selection from a pre-determined list of choices.
 
+## Regular Expression
+Literal text expressing a [regular expression](https://www.postgresql.org/docs/current/functions-matching.html#FUNCTIONS-POSIX-REGEXP).
+
 > More variable types will be added as more formulas are added.
 {.is-warning}
 
@@ -112,7 +115,7 @@ This is a list of view formulas that we should support in the alpha release of M
 - [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
 - [List Formulas *Formulas that work on list data*](/en/product/specs/2022-01-views/04-formulas/4g-list-formulas)
 - [Cumulative Formulas *Formulas building on previous rows in the query*](/en/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
-- [Regular Expression Formulas *TBD*]()
+- [Regular Expression Formulas *Formulas that use regular expressions*](/en/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
 - [Custom Formulas *TBD*]()
 {.links-list}
 
