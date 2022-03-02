@@ -2,7 +2,7 @@
 title: UI Data Types
 description: Mapping Mathesar data types to PostgreSQL types
 published: true
-date: 2022-02-25T02:16:46.445Z
+date: 2022-03-02T17:09:40.497Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-05T22:22:42.669Z
@@ -47,9 +47,9 @@ We'll expand these over time as we support advanced functionality for more types
 | UI Data Type | PostgreSQL Data Type | Default | Notes |
 |-|-|-|-|
 | **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` | Can be displayed as percentages in the UI via display options. |
-| **Text** | `VARCHAR`, `CHAR`, `TEXT` | `VARCHAR` | |
+| **Text** | `VARCHAR`, `CHAR`, `TEXT` | `TEXT` | |
 | **Date** | `DATE` | `DATE` | |
-| **Time** | `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIME WITH TIME ZONE` | |
+| **Time** | `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIME WITHOUT TIME ZONE` | |
 | **Date & Time** | `TIMESTAMP WITH TIME ZONE`, `TIMESTAMP WITHOUT TIME ZONE` | `TIMESTAMP WITH TIME ZONE` | |
 | **Duration** | `INTERVAL` | `INTERVAL` | |
 | **Boolean** | `BOOLEAN` | `BOOLEAN` | |
