@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-03-02T00:49:36.740Z
+date: 2022-03-02T00:56:51.853Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -103,8 +103,11 @@ The user can apply the following to the query:
 - A limit to the number of rows returned
 - An offset for where to start the rows returned
 
-# Preview and Actions
+# Preview
 - We should show users a live preview of their data as they build their query.
+- The preview should support changing display options for output columns based on their data type.
+
+# Other Actions
 - We should allow users to see a temporary view of their query (this won't be saved as a View but they won't see the "query building" part of the screen)
 - We should allow users to save their query as a permanent View.
 
@@ -122,3 +125,16 @@ When adding query output columns, available columns are calculated as follows:
 
 ## Formulas
 Please see the next page, [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
+
+## Filters
+When applying filters to an input column (let's call it `X`), the user selects three things:
+- **Column to apply the filter to**: This could be
+    - any column in the table (`T`) that `X` belongs to
+    - any column in any table that `T` has a FK relationship to (i.e. there's a single related record to every record in `T`), up to three levels deep
+- **Filter operator**: This depends on the data type of the column selected in the first parameter e.g. `contains`
+- **Filter parameter**: This can be either a literal value or another column. Columns available here are:
+    - any column in the table (`T`) that `X` belongs to
+    - any column in any table that `T` has a FK relationship to (i.e. there's a single related record to every record in `T`), up to three levels deep
+    - any column in the reference table (`Q`) of the query
+    - any column in any table that `Q` has a FK relationship to (i.e. there's a single related record to every record in `Q`), up to three levels deep
+    - any column already added to the query
