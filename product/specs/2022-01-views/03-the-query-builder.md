@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-03-02T00:56:51.853Z
+date: 2022-03-02T00:57:11.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -126,7 +126,7 @@ When adding query output columns, available columns are calculated as follows:
 ## Formulas
 Please see the next page, [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
 
-## Filters
+## Column Input Filters
 When applying filters to an input column (let's call it `X`), the user selects three things:
 - **Column to apply the filter to**: This could be
     - any column in the table (`T`) that `X` belongs to
