@@ -2,13 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2022-03-06T18:31:04.098Z
+date: 2022-03-06T18:31:27.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-> Welcome Google Summer of Code 2022 contributors! Please [see our **Mentoring** page](/en/community/mentoring) for more information.
+> Welcome to Google Summer of Code 2022 applicants! Please [see our **Mentoring** page](/en/community/mentoring) for more information.
 {.is-info}
 
 # Welcome!
