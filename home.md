@@ -2,11 +2,14 @@
 title: Home
 description: 
 published: true
-date: 2021-12-23T15:35:57.310Z
+date: 2022-03-06T18:30:36.780Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
+
+> If you're interested in contributing to Mathesar for Google Summer of Code 2022, welcome! Please [see our **Mentoring** page](/en/community/mentoring) for more information.
+{.is-info}
 
 # Welcome!
 
