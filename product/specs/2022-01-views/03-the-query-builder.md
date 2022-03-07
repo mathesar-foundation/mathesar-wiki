@@ -19,10 +19,10 @@ In the UI, the query builder will be called the **Data Explorer** to make it mor
 - The query builder should be able to be pre-populated with a query and linked to.
 	- For example, if a user tries to set a unique constraint for a column that has non-unique values, we may want to open up the query builder with a pre-populated query that shows all duplicate rows.
 
-# Reference Table
-All queries will start from a single "reference table". This table will determine which columns are available to be added to the output of the View. The user should be able to set the reference table at the start of building their query. They might either explicitly set it or we could infer it from the first column they select.
+# Base Table
+All queries will start from a single "base table". This table will determine which columns are available to be added to the output of the View. The user should be able to set the base table at the start of building their query. They might either explicitly set it or we could infer it from the first column they select.
 
-We might also want to show the reference table in the query builder UI somehow.
+We might also want to show the base table in the query builder UI somehow.
 
 # Selecting Columns
 Users should be able to add columns to see in the query's output. Users can add columns in two ways: from a table or from a formula.
@@ -30,11 +30,11 @@ Users should be able to add columns to see in the query's output. Users can add 
 ## From a Table
 - The user will see a list of [available columns](#available-columns).
 - Once the user has added a column, we make a best guess for the following attributes:
-    - **Source Relationship**: This is the relationship of the column's table to the reference table. 
+    - **Source Relationship**: This is the relationship of the column's table to the base table. 
         - If there's only one way that the tables are related, there is no need to make a guess.
         - If there are multiple relationships between the table, we will pick one.
     - **Aggregation**: This sets how the column is aggregated (separate rows per unique pair, list, count, average, min, max, etc.). 
-        - This is only applicable to tables which have multiple related records to the reference table. 
+        - This is only applicable to tables which have multiple related records to the base table. 
         - By default, we will aggregate columns as a list.
 - The user will see the source relationship and aggregations used and can alter them if desired. 
 - The user can also alter the column in the following ways:
@@ -116,12 +116,12 @@ The user can apply the following to the query:
 ## Available Columns
 When adding query output columns, available columns are calculated as follows:
 
-- If a reference table has not been set, we show all columns from all tables.
+- If a base table has not been set, we show all columns from all tables.
     - We may want to hide columns with foreign key constraints (FKs), since they are duplicates of the source columns.
-- If a reference table has been set, we show:
-    - all columns from the reference table 
-        - If the reference table has no relationships to itself within three levels, then we can hide columns from the reference table that have already been added to the query's output columns
-    - all columns from tables that the reference table has FKs to or with FKs to the reference table, up to three levels of FKs away.
+- If a base table has been set, we show:
+    - all columns from the base table 
+        - If the base table has no relationships to itself within three levels, then we can hide columns from the base table that have already been added to the query's output columns
+    - all columns from tables that the base table has FKs to or with FKs to the base table, up to three levels of FKs away.
 
 ## Formulas
 Please see the next page, [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
@@ -135,6 +135,6 @@ When applying filters to an input column (let's call it `X`), the user selects t
 - **Filter parameter**: This can be either a literal value or another column. Columns available here are:
     - any column in the table (`T`) that `X` belongs to
     - any column in any table that `T` has a FK relationship to (i.e. there's a single related record to every record in `T`), up to three levels deep
-    - any column in the reference table (`Q`) of the query
+    - any column in the base table (`Q`) of the query
     - any column in any table that `Q` has a FK relationship to (i.e. there's a single related record to every record in `Q`), up to three levels deep
     - any column already added to the query
