@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-03-07T18:55:20.208Z
+date: 2022-03-07T18:55:40.919Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-18T19:32:54.047Z
 
 These ideas are for **Google Summer of Code 2022**.
 
-> For information on getting started for applying to Google Summer of Code, please see [our Mentoring page](/en/community/mentoring).
+> For information on getting started for applying to Google Summer of Code, please see [**our Mentoring page**](/en/community/mentoring).
 {.is-info}
 
 ## Ideas
