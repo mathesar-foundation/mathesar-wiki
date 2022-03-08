@@ -2,7 +2,7 @@
 title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-02-18T19:35:54.562Z
+date: 2022-03-08T21:49:26.028Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
@@ -17,8 +17,9 @@ The query builder should allow users to:
 - Construct a query by selecting:
     - columns to use
     - filters to apply to columns used or their tables
-    - formulas to use (translating under the hood to SQL functions)
+    - formulas to use
     - aggregations to apply
+    - summaries (group by) to apply
     - sorting to apply
     - a limit/offset for the rows returned
 - Select columns to see in the output query
