@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2022-01-26T00:57:59.122Z
+date: 2022-03-08T22:57:26.613Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -48,13 +48,11 @@ In case that's unavoidable:
 # Resources
 For a list of public repos and other resources, see [GitHub](/en/community/github).
 
+- [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1) that organizes our open issues
+
 ## Private resources
 
 These resources are only available to the Mathesar core or community team at the moment.
-
-- [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1) that organizes our open issues
-  - The project is only accessible to [Team](/team) members, but all relevant information (such as status, priority, and milestone) should be available on individual issues.
-  - We will make this project public as soon as GitHub supports it.
 - The [Mathesar Ansible repository](https://github.com/centerofci/mathesar-ansible) contains a playbook that deploys our staging server.
 - The [Mathesar "staging" server](https://staging.mathesar.org/) is a deployed version of the latest `master`. The username and password to access it are located in 1Password.
 - The [Mathesar private notes repository](https://github.com/centerofci/mathesar-private-notes) contains notes that are private to the core team.
