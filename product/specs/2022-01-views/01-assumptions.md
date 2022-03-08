@@ -2,7 +2,7 @@
 title: 01. Assumptions and Limitations
 description: 
 published: true
-date: 2022-03-08T21:47:02.288Z
+date: 2022-03-08T21:47:59.862Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:53:50.652Z
@@ -21,7 +21,7 @@ If the query powering the view is not something we can break down into the conce
 
 ## Building Queries
 - We **will not** support creating or editing Views based on every conceivable database query in Mathesar.
-- We **will not** support using Views in database queries for the first version of the product. We will only support tables and other columns in the query.
 - We will **only** support building queries using foreign key relationships to join tables. We eventually want to do "best guess" natural joins but this is not planned for the alpha release.
+    - Because we depend on foreign key relationships for joins, we **will not** support using Views in database queries for the first version of the product. We will only support tables and other columns in the same query. 
 - At the moment, we **only** care about the final output of the views. If a view uses a subquery, CTE, union, intersection, etc. internally, we will not be representing those to the user in the UI (unless they look at the underlying SQL query).
 - We will **only** be allowing users to build queries using a guided web interface. We eventually want to allow users to create Views using textual SQL queries, but this is not planned for the alpha release.
