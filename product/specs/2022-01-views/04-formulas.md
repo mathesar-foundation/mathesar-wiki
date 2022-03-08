@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-08T22:13:11.974Z
+date: 2022-03-08T22:17:12.979Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -53,6 +53,9 @@ A column which has multiple records related to the query's reference point, This
 If there are multiple ways to get to the column (i.e. there are multiple relationships between the query's base table and the column), then the column reference should also include the relationship to use.
 
 Column references to multiple related records also accept input filters, in case the query only needs to use a subset of the related records.
+
+## Column Reference
+Either a Single Record Column Reference or a Multiple Record Column Reference
 
 ## Filters
 A set of filters that can be applied to a column.
