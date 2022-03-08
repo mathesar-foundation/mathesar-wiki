@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-08T22:10:05.716Z
+date: 2022-03-08T22:13:11.974Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -54,8 +54,8 @@ If there are multiple ways to get to the column (i.e. there are multiple relatio
 
 Column references to multiple related records also accept input filters, in case the query only needs to use a subset of the related records.
 
-## Column Reference with Filters
-A column reference (of either Single Record or Multiple Record type) with a set of filters associated with it.
+## Filters
+A set of filters that can be applied to a column.
 
 ## Single Record Text-Like
 Either a **Single Record Column Reference** or a literal string.
