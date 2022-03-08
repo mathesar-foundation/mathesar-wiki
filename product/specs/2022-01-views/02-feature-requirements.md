@@ -2,7 +2,7 @@
 title: 02. Feature Requirements
 description: 
 published: true
-date: 2022-03-08T21:49:26.028Z
+date: 2022-03-08T21:50:17.403Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T23:01:08.734Z
