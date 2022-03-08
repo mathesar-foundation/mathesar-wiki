@@ -2,13 +2,13 @@
 title: (e) Boolean Formulas
 description: 
 published: true
-date: 2022-02-26T00:16:22.678Z
+date: 2022-03-08T22:15:28.169Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:16:22.678Z
 ---
 
-These formulas operate on boolean types. They are based on PostgreSQL [logical operators](https://www.postgresql.org/docs/9.1/functions-logical.html).
+These formulas operate on or output boolean types. They are based on PostgreSQL [logical operators](https://www.postgresql.org/docs/9.1/functions-logical.html).
 
 # And
 Compares values to see if both are true. See this table for return values:
@@ -33,6 +33,34 @@ Compares values to see if both are true. See this table for return values:
         - **Description**: Second boolean
 - **Editable?**: No
 - **PostgreSQL Mapping**: `AND` operator
+
+# Is False
+Returns whether a particular set of filters doesn't apply to a column.
+
+- **Date Type**: Boolean
+- **Variables Accepted**:
+    - **Column**:
+        - **Type**: Column Reference
+        - **Description**: Column to apply filters to
+    - **Filters**:
+        - **Type**: Filters
+        - **Description**: Filters to check column values against
+- **Editable?**: No
+- **PostgreSQL Mapping**: Custom
+
+# Is True
+Returns whether a particular set of filters applies to a column.
+
+- **Date Type**: Boolean
+- **Variables Accepted**:
+    - **Column**:
+        - **Type**: Column Reference
+        - **Description**: Column to apply filters to
+    - **Filters**:
+        - **Type**: Filters
+        - **Description**: Filters to check column values against
+- **Editable?**: No
+- **PostgreSQL Mapping**: Custom
 
 # Not
 Returns the opposite boolean value of the input value.
