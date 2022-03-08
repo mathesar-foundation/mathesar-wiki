@@ -2,7 +2,7 @@
 title: (h) Cumulative Formulas
 description: 
 published: true
-date: 2022-03-01T00:47:32.919Z
+date: 2022-03-08T22:21:12.529Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:35:38.877Z
@@ -16,7 +16,7 @@ Shows data from a previous row, in case you want to see it side-by-side with the
 - **Date Type**: Same as Input Column
 - **Variables Accepted**:
     - **Column*:
-        - **Type**: Single Record Column Reference or Multiple Record Column Reference
+        - **Type**: Query Column Reference
         - **Description**: Column to show
     - **Offset**:
         - **Type**: Integer
