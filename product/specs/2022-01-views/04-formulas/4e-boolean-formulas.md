@@ -2,7 +2,7 @@
 title: (e) Boolean Formulas
 description: 
 published: true
-date: 2022-03-08T22:15:28.169Z
+date: 2022-03-08T22:22:54.890Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:16:22.678Z
@@ -40,7 +40,7 @@ Returns whether a particular set of filters doesn't apply to a column.
 - **Date Type**: Boolean
 - **Variables Accepted**:
     - **Column**:
-        - **Type**: Column Reference
+        - **Type**: Single Record Column Reference
         - **Description**: Column to apply filters to
     - **Filters**:
         - **Type**: Filters
@@ -54,7 +54,7 @@ Returns whether a particular set of filters applies to a column.
 - **Date Type**: Boolean
 - **Variables Accepted**:
     - **Column**:
-        - **Type**: Column Reference
+        - **Type**: Single Record Column Reference
         - **Description**: Column to apply filters to
     - **Filters**:
         - **Type**: Filters
