@@ -2,13 +2,11 @@
 title: Home
 description: 
 published: true
-date: 2022-03-09T21:42:46.987Z
+date: 2022-03-09T21:43:48.841Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
-
-![logo@2x_cropped.png](/logo@2x_cropped.png)
 
 # Welcome!
 
