@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-03-09T04:02:59.691Z
+date: 2022-03-09T04:03:23.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -15,7 +15,7 @@ For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Disc
     - When prompted to "Choose an app to continue", select "Element".
     - If you're new to Matrix, you'll need to create an account. If you already have a Matrix account, you can use it here, even if that account is hosted on a different Matrix homeserver.
 1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
-1. The "General" channel is for high-level discussion and announcements about the project. Most of our day to day discussion happens in other channels. Look through the list of rooms below and join the ones for topics you're interested.
+1. The "General" channel that you've just joined is for high-level discussion and announcements about the project. Most of our day to day discussion happens in other channels. Look through the list of rooms below and join the ones for topics you're interested.
 
 ## Chat rooms
 A list of Mathesar related chat rooms is below. You'll need to individually join whichever chat rooms interest you. Click the link under "Address" to join the room, follow the same instructions as above.
