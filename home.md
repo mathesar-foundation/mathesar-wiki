@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-03-09T22:13:33.342Z
+date: 2022-03-09T22:14:09.434Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -13,7 +13,7 @@ dateCreated: 2021-04-16T14:07:42.267Z
 > GSoC 2022 applicants, please [see our **Mentoring** page](/en/community/mentoring).
 {.is-info}
 
-[Mathesar](https://github.com/centerofci/mathesar) is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts. We're heavily inspired by the user experience of [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
+[Mathesar](https://github.com/centerofci/mathesar) is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
 Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
 
