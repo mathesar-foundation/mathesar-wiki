@@ -2,12 +2,11 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-03-02T00:57:11.972Z
+date: 2022-03-09T15:59:57.045Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
 ---
-
 
 This page describes how the query builder should work.
 
@@ -72,11 +71,18 @@ The user should be able to summarize the query by one of the query's output colu
 - The user selects a column to summarize on and the summary type.
     - The type of summary will depend on the column's data type.
     - The summarizations offered for a given data type will match that data type's grouping options in tables/views.
+        - Users can summarize based on multiple columns, just like they can group by multiple columns.
 - The summarization is applied to the query results as follows:
   - the values in the summary's target column are reduced to the group names
   - the values of rest of the columns are aggregated into a list of distinct values.
 
-For example, consider this query output:
+Once an summarization is applied, then any new columns added will also be aggregated as a list. The user can change how columns are aggregated on a column-by-column basis.
+
+To keep things simple, only one summarization can be applied at a time. This means that users are limited to one summarization step at a time, but they can use multiple columns to create that summary.
+
+### Example 1: Summarize single column by "first letter" grouping option
+
+Consider this query output:
 
 | Movie Title | Runtime | Genres |
 |-|-|-|
@@ -94,9 +100,32 @@ The user applies a summary of "Movie Title" by first letter. The resultant outpu
 | R | 1 hr 41 min, 1 hr 57 min | Comedy, Crime, Drama, Thriller |
 | T | 2 hr 11 min, 2 hr 32 min | Adventure, Action, Drama, History |
 
-Once an summarization is applied, then any new columns added will also be aggregated as a list. The user can change how columns are aggregated on a column-by-column basis.
+### Example 2: Summarize multiple columns by distinct values
 
-To keep things simple, only one summarization can be applied at a time.
+Consider this de-normalized input table.
+
+| student_id | student_name | student_email  | professor_name | subject | grade |
+|------------|--------------|----------------|----------------|---------|------:|
+| 1234123412 | Alice        | alice@uni.edu  | Bob            | Math    | 82    |
+| 1234123412 | Alice        | alice@uni.edu  | Carol          | Reading | 97    |
+| 1234123412 | Alice        | alice@uni.edu  | David          | Writing | 92    |
+| 1234123412 | Alice        | alice@uno.edu  | Edith          | Science | 72    |
+| 1234123412 | Alice        | alice@uni.edu  | Frank          | Music   | 46    |
+| 7890789078 | George       | george@uni.edu | Bob            | Math    | 82    |
+| 7890789078 | Georg        | george@uni.edu | Henrietta      | Reading | 54    |
+| 7890789078 | George       | george@uni.com | Igor           | Writing | 71    |
+| 7890789078 | George       | george@uni.edu | Jennifer       | Science | 84    |
+| 7890789078 | George       | george@uni.edu | Kenneth        | Music   | 100   |
+
+The user applies a summary of "Distinct Values" with columns "student_id", "student_name", "student_email". The resultant output will be:
+
+| student_id | student_name | student_email  |
+|------------|--------------|----------------|
+| 1234123412 | Alice        | alice@uni.edu  |
+| 1234123412 | Alice        | alice@uno.edu  |
+| 7890789078 | Georg        | george@uni.edu |
+| 7890789078 | George       | george@uni.com |
+| 7890789078 | George       | george@uni.edu |
 
 ## Limit & Offset
 The user can apply the following to the query:
