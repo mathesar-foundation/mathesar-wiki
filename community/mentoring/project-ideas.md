@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2022-03-07T18:56:06.165Z
+date: 2022-03-09T07:11:51.773Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -15,7 +15,7 @@ These ideas are for **Google Summer of Code 2022**.
 
 ## Ideas
 
-These are ideas that the Mathesar team has come up with.
+These are ideas that the Mathesar team has come up with. All of these involve adding new features to the Mathesar web application.
 
 | Idea | Skills | Length | Difficulty |
 |-|-|-|-|
