@@ -2,16 +2,18 @@
 title: Home
 description: 
 published: true
-date: 2022-03-06T18:31:44.883Z
+date: 2022-03-09T21:42:46.987Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-> Welcome to Google Summer of Code 2022 applicants! Please [see our **Mentoring** page](/en/community/mentoring) for information about getting started.
-{.is-info}
+![logo@2x_cropped.png](/logo@2x_cropped.png)
 
 # Welcome!
+
+> GSoC 2022 applicants, please [see our **Mentoring** page](/en/community/mentoring).
+{.is-info}
 
 Mathesar is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts. We're heavily inspired by the user experience of [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
 
