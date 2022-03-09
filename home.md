@@ -2,11 +2,14 @@
 title: Home
 description: 
 published: true
-date: 2022-03-09T21:43:48.841Z
+date: 2022-03-09T22:11:26.100Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
+
+<p align="center"><img src="/logo@2x_cropped.png" width=400px/>
+<br/><b>Web application providing an intuitive interface to databases.</b></p>
 
 # Welcome!
 
