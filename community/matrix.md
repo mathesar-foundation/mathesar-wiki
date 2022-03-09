@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-02-10T22:21:23.554Z
+date: 2022-03-09T03:59:10.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -16,7 +16,6 @@ For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Disc
     - If you're new to Matrix, you'll need to create an account. If you already have a Matrix account, you can use it here, even if that account is hosted on a different Matrix homeserver.
 1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
 
-
 ## Chat rooms
 A list of Mathesar related chat rooms is below. You'll need to individually join whichever chat rooms interest you. Click the link under "Address" to join the room, follow the same instructions as above.
 
@@ -27,7 +26,7 @@ You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwU
 | Name | Address | Purpose |
 |-|-|-|
 | General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
-| Mentoring | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/en/community/mentoring) such as GSoC |
+| Mentoring (GSoC) | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/en/community/mentoring) such as GSoC |
 | CFJ #proj-mathesar | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
 ### Code
