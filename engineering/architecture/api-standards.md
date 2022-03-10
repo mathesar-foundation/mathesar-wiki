@@ -2,7 +2,7 @@
 title: API Standards
 description: Principles to follow while building our API
 published: true
-date: 2022-01-10T22:25:33.699Z
+date: 2022-03-10T17:52:12.183Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
@@ -14,7 +14,7 @@ All API endpoints should follow the standards below to ensure consistency.
 
 # Standards
 
-Please note that we are assuming that all endpoints are RESTful nd will involve CRUD (create, read, update, or delete) on a resource. This is a deliberate choice so that we try to fit operations into the a RESTful model.
+Please note that we are assuming that all endpoints are RESTful and will involve CRUD (create, read, update, or delete) on a resource. This is a deliberate choice so that we try to fit operations into the a RESTful model.
 
 We do want to keep our APIs sensible, so pragmatically, we may eventually need to implement non-CRUD APIs for some things. We will create standards for those when we encounter them.
 
