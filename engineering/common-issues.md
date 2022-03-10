@@ -35,19 +35,21 @@ If the `audit` check on your pull request fails, here are the steps to fix it:
   - Most often, newer parent packages may not have been released yet. In which case, we can use the 'resolutions' field in package.json to force the version of packages. Make sure to only update it to the closest non-vulnerable minor release, in this case.
   - Force resolving dependencies to a particular version should only be done when the vulnerabilities are not false positives. [This article](https://overreacted.io/npm-audit-broken-by-design/) by Dan Abramov from the React team, gives a good explanation on why most reported vulnerabilities are false positives.
 
-# Error while running docker-compose up
+# Errors while running `docker-compose up`
 
-* On running `docker-compose up` command, gets an Error like:
-> ERROR: for db Cannot start server db: driver failed programming external connectivity on endpoint mathesar_db (70c521f468cf2bd54014f089f0051ba28e2514667): Error starting userland proxy: listen tcp4 0.0.0.0:5432: bind: address already in use.
+## PostgreSQL server is running on your host machine
 
-* The above Error indicates that port usually used by Postgres is already in use.
- 
-* Here are some steps to solve this Error.
- - The Docker container won't start if a Postgres server is already running on your host machine. To stop that run:
-  `sudo service postgresql stop`.
+* If you you see the following error after running `docker-compose up`, then the port used by Postgres is already in use.
+
+    > ERROR: for db Cannot start server db: driver failed programming external connectivity on endpoint mathesar_db (70c521f468cf2bd54014f089f0051ba28e2514667): Error starting userland proxy: listen tcp4 0.0.0.0:5432: bind: address already in use.
+
+* Try stopping Postgres with:
+
+  ```
+  sudo service postgresql stop
+  ```
+
  - Then run `docker-compose up` again.
-
-* This will solve the above Error, If still getting some Error then feel free to ask in IRC channel.
 
 > Note that you'll need to manually start your Postgres server on your host machine again if you want to continue working on other projects which rely on that. And the next time you restart your machine, you'll probably need to stop Postgres again before you can begin working on Mathesar.
 {.is-warning}
