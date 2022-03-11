@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-03-09T04:03:23.410Z
+date: 2022-03-11T22:20:26.690Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -23,14 +23,14 @@ A list of Mathesar related chat rooms is below. You'll need to individually join
 You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwUIfNy:matrix.mathesar.org?via=matrix.mathesar.org&via=matrix.org) to keep Mathesar related chats organized. If you don't know what a Matrix Space is, [here's an overview](https://element.io/blog/spaces-the-next-frontier/).
 
 ### General discussion
-
 | Name | Address | Purpose |
 |-|-|-|
-| General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | General discussion about Mathesar, start here. |
-| Mentoring (GSoC) | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/en/community/mentoring) such as GSoC |
-| CFJ #proj-mathesar | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
+| General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | High-level discussion and announcements about Mathesar. |
+| Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
 
 ### Code
+These channels focus on day-to-day engineering work.
+
 | Name | Address | Purpose |
 |-|-|-|
 | Code - General | [`#code:matrix.mathesar.org`](https://matrix.to/#/#code:matrix.mathesar.org) | Technical or code-related discussion. |
@@ -39,20 +39,28 @@ You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwU
 | Code - Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
 
 ### Design & Product
+These channels focus on day-to-day design and product work.
+
 | Name | Address | Purpose |
 |-|-|-|
 | Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
 | Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
 
-### Other
+### Community 
+These channels focus on community building activities.
+
+| Name | Address | Purpose |
+|-|-|-|
+| Marketing | [`#marketing.mathesar.org`](https://matrix.to/#/#marketing:matrix.mathesar.org) | Discussions related to promoting Mathesar |
+| Mentoring (GSoC) | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/en/community/mentoring) such as GSoC |
+| CFJ #proj-mathesar | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
+
+### Core team workflow
+These channels assist the core team in our workflow.
+
 | Name | Address | Purpose |
 |-|-|-|
 | Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
 | Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
-| Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
-
-### Automated Notifications
-| Name | Address | Purpose |
-|-|-|-|
 | GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
