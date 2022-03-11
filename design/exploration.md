@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2022-03-11T23:19:16.159Z
+date: 2022-03-11T23:19:35.526Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -18,7 +18,7 @@ The Mathesar team participated as a client in UC Berkeley's [Product Design Stud
 ### Data Aggregation
 A single student worked on a design concept for how users could aggregate data within a table. We'll be using the work as inspiration for our Views feature and future visualization features.
 
-- [Design prototype](https://www.figma.com/proto/7M8TejfRMrZmxU9yQXDDzS/MATHESAR-2?page-id=0%3A1&node-id=62%3A10285&viewport=241%2C48%2C0.41&scaling=scale-down-width&starting-point-node-id=62%3A10285)
+- [Design prototype *Figma prototype demonstrating the feature*](https://www.figma.com/proto/7M8TejfRMrZmxU9yQXDDzS/MATHESAR-2?page-id=0%3A1&node-id=62%3A10285&viewport=241%2C48%2C0.41&scaling=scale-down-width&starting-point-node-id=62%3A10285)
 {.links-list}
 
 
