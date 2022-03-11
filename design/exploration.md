@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2021-12-20T14:30:42.089Z
+date: 2022-03-11T23:19:16.159Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -14,6 +14,13 @@ These are documents and presentations exploring various ideas.
 ## Fall 2021
 
 The Mathesar team participated as a client in UC Berkeley's [Product Design Studio](https://www.ischool.berkeley.edu/courses/info/290/pds) class in 2021.
+
+### Data Aggregation
+A single student worked on a design concept for how users could aggregate data within a table. We'll be using the work as inspiration for our Views feature and future visualization features.
+
+- [Design prototype](https://www.figma.com/proto/7M8TejfRMrZmxU9yQXDDzS/MATHESAR-2?page-id=0%3A1&node-id=62%3A10285&viewport=241%2C48%2C0.41&scaling=scale-down-width&starting-point-node-id=62%3A10285)
+{.links-list}
+
 
 ### Media Asset browsing
 A group of four students worked on design concepts for how Mathesar users could work with photos and videos more easily. We hope to use their work as inspiration for future plugins.
