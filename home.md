@@ -2,20 +2,19 @@
 title: Home
 description: 
 published: true
-date: 2022-03-12T16:04:02.513Z
+date: 2022-03-12T16:07:06.507Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-> GSoC 2022 applicants, please [see our **Mentoring** page](/en/community/mentoring).
-{.is-info}
+<p align="center"><img src="/logo@2x_cropped.png" width=300px/></p>
 
 **Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
-Our [code is on GitHub](https://github.com/centerofci/mathesar). <a class="github-button" href="https://github.com/centerofci/mathesar" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star centerofci/mathesar on GitHub">Star</a>
-
 Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
+
+Our [code is on GitHub](https://github.com/centerofci/mathesar). <a class="github-button" href="https://github.com/centerofci/mathesar" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star centerofci/mathesar on GitHub">Star</a>
 
 - [:question: About Mathesar *More about the project*](/product/about)
 - [:busts_in_silhouette: Community *How to participate in our community forums*](/community)
