@@ -2,13 +2,11 @@
 title: Home
 description: 
 published: true
-date: 2022-03-12T16:00:32.627Z
+date: 2022-03-12T16:01:18.909Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
-
-# Welcome!
 
 > GSoC 2022 applicants, please [see our **Mentoring** page](/en/community/mentoring).
 {.is-info}
