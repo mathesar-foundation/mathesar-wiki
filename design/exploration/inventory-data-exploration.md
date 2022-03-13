@@ -2,7 +2,7 @@
 title: Inventory: Data Exploration
 description: 
 published: true
-date: 2021-05-04T18:48:24.084Z
+date: 2022-03-13T17:54:32.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:37:21.882Z
