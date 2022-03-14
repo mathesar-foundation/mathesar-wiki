@@ -125,6 +125,8 @@ Remove
 - A user might apply multiple filters to the same or other columns in the result table.
 - A user can add more than one filter step.
 
+[Wireframe 6](https://share.balsamiq.com/c/t8zJwPzsCvVqsDuAkQSXmk.png)
+
 ## Summarization
 
 ### User adds a summarization step
@@ -134,6 +136,8 @@ Remove
 - The summary column might or might not be a part of the result table—any formula columns created before the summarization step can be set as a summary column.
 - Once a summary column is set, the aggregated columns will be listed, each with a suggested aggregation function. Users can change the suggested functions.
 - A user can add more than one summarization step.
+
+[Wireframe 7](https://share.balsamiq.com/c/2e6TYLVzqf4pssmfpNqacx.png)
 
 ## Results Table and Previewing
 
