@@ -24,6 +24,8 @@ For a list of supported query commands and functions, check the wiki [Add Link](
 
 ## Starting Points
 
+`Data Explorer` is meant to be a part of multiple flows like the creation of new views, the inspection of existing ones, and as a way to explore data from any table for goals other than view creation.
+
 ### User opens the Data Explorer to create a new view
 
 #### From the top navigation
@@ -35,9 +37,11 @@ For a list of supported query commands and functions, check the wiki [Add Link](
 
 - From an open table, a user clicks the `Create View from [Table Name]` button located in the toolbar. This action will open `Data Explorer` and automatically set the table as `Base Table` and select all direct columns.
 
-#### From a sidebar table navigation item
+#### From a table navigation item
 
-- In the `Schema Browser` view, a user opens the contextual menu for a table navigation item and selects `Create view from Table`. This will open `Data Explorer` and automatically set the table as `Base Table` and select all direct columns.
+- In the `Schema Browser` view, a user opens the contextual menu for a table navigation item and selects `Create view from Table`. This action launches `Data Explorer` and automatically sets the selected table as `Base Table` and adds its direct columns to a `Select Column` step.
+- The system will also add link columns if present in the `Base Table`. However, it won't include link columns referencing the `Base Table` from other tables. The system will set the values for link columns to the referenced table's primary key by default.
+- The user can then choose to remove or add additional columns.
 
 ### User opens the Data Explorer to inspect an existing view
 
@@ -46,7 +50,7 @@ For a list of supported query commands and functions, check the wiki [Add Link](
 - From an active view tab, a user can inspect a view by clicking on the `Open in Data Explorer` button in the toolbar area.
 - Views need to use supported query commands and functions to be inspected in `Data Explorer` with full functionality. When queries are not supported, an option to see the underlying query will be available.
 
-#### From a sidebar view navigation item
+#### From a view navigation item
 
 - In the `Schema Browser` view, a user opens the contextual menu for a view navigation item and selects the option `Open in Data Explorer`. This action will open `Data Explorer` and display the properties of the selected view.
 
@@ -173,7 +177,7 @@ We do so by...
 
 We do so by...
 
-### Data Exploration
+## Interactions
 
 ### Workflow
 
