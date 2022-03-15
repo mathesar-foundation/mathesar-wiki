@@ -10,35 +10,26 @@ dateCreated: 2022-03-08 18:02:58
 
 ## Context
 
-## Concepts
+This document specifies the design for a visual query builder named `Data Explorer` within the Mathesar application. Through `Data Explorer`, users will be able to analyze data across one or multiple tables of a schema and save the resulting tables as views.
 
-### Data Explorer
-
-The `Data Explorer` view is a part of all flows that require the creation of queries to create views from tables or other views in a schema.
-
-Users of Mathesar can also use the `Data Explorer` view to inspect views created outside Mathesar, as long as the query's commands and functions are supported.
-
-For a list of supported query commands and functions, check the wiki [Add Link](#link)
+Additionally, users will be able to open existing views in `Data Explorer`, as long as its query commands and functions are supported.
 
 ## Scenarios
 
 ## Starting Points
 
-`Data Explorer` is meant to be a part of multiple flows like the creation of new views, the inspection of existing ones, and as a way to explore data from any table for goals other than view creation.
+`Data Explorer` is meant to be a part of multiple flows like the creation of new views, the inspection of existing ones, and as a way to explore data for goals beyond view creation. For this reason, different starting points are considered from which `Data Explorer` might be accessed.
 
 ### User opens the Data Explorer to create a new view
 
-#### From the top navigation
+#### From Scratch (Top Navigation)
 
 - In the `Schema Browser` view, a user clicks on the `Data Explorer` navigation item located in the top navigation bar.
 - `Data Explorer` opens, and the layout changes. The schema explorer sidebar is hidden, as well as any open table.
 
-#### From an open table
+#### From a Table (Sidebar Navigation or Open Table)
 
 - From an open table, a user clicks the `Create View from [Table Name]` button located in the toolbar. This action will open `Data Explorer` and automatically set the table as `Base Table` and select all direct columns.
-
-#### From a table navigation item
-
 - In the `Schema Browser` view, a user opens the contextual menu for a table navigation item and selects `Create view from Table`. This action launches `Data Explorer` and automatically sets the selected table as `Base Table` and adds its direct columns to a `Select Column` step.
 - The system will also add link columns if present in the `Base Table`. However, it won't include link columns referencing the `Base Table` from other tables. The system will set the values for link columns to the referenced table's primary key by default.
 - The user can then choose to remove or add additional columns.
@@ -55,6 +46,8 @@ For a list of supported query commands and functions, check the wiki [Add Link](
 - In the `Schema Browser` view, a user opens the contextual menu for a view navigation item and selects the option `Open in Data Explorer`. This action will open `Data Explorer` and display the properties of the selected view.
 
 ## Base Table
+
+Views require a base table to be set so that the available columns and links can be listed for selection.
 
 ### User sets the base table for a new view
 
