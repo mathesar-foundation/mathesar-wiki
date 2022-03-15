@@ -71,28 +71,31 @@ Views require a base table to be set so that the available columns and links can
 
 ## Worflow: Column Selection
 
+In the column selection step, users select columns from or linked to the base table of a view.
+
 ### User adds a direct column
 
+- Direct columns will be those with values contained directly in the `Base Table` rather than linked from other tables via foreign key relationships.
 - To add a direct column, the user can click on the `Add` button inside a `Select Column` workflow item and click on any column listed under the `Base Table Columns` section.
-- Direct columns will be those where values are retrieved directly from the `Base Table` rather than linked from other tables via foreign key relationships.
+- Direct columns will always be listed at the top of the column list in the same order as the base table.
 
 [Wireframe 3](https://share.balsamiq.com/c/hNWzHEM9ksGGp5ZcPixLrA.png)
 
 ### User adds a linked column
 
 - To add a linked column, the user can click on any column listed under the `Base Table Links` or `Linked to Base Table` sections. Linked columns are listed under the tables for which a link to or from the `Base Table` exists.
-- Linked columns will have values representing the IDs that match the primary key fields from the linked column record. To map to values of the linked table, the user must add a `Map Values` step.
+- The linked column can then be expanded to show all possible values for that field. The default value points to the primary key of the referenced table, however, the user might choose to display values from any other column.
+
+[Wireframe 4](https://share.balsamiq.com/c/hNWzHEM9ksGGp5ZcPixLrA.png)
 
 ### User adds multiple select column steps
 
 - Users might want to add more than one `Select Columns` step.
 - Take a scenario where formula columns were created for the purpose of using them in other computed columns. The user might want to remove them from the result table. Using an additional select column that follows those `Add Formula Column` steps a user can define the columns to be included.
 
-## Workflow: Value Mapping (Formula)
+## Workflow: Add Formula Column
 
-Remove
-
-## Workflow: Column Generation (Formula)
+In the `Add Formula Column` step, users apply formulas to generate new columns.
 
 ### User adds a formula column
 
@@ -100,7 +103,7 @@ Remove
 
 - To add a formula column, the user can click on the `Add` button located on top of the `Workflow Sidebar` and select the `Generate Column` option.
 
-[Wireframe 4](https://share.balsamiq.com/c/qYNJBmBwdaTDhn7Hdhf9kP.png)
+[Wireframe 5](https://share.balsamiq.com/c/qYNJBmBwdaTDhn7Hdhf9kP.png)
 
 #### From the result table
 
@@ -111,6 +114,8 @@ Remove
 ### User deletes a formula column
 
 ## Filtering
+
+In the `Filter` step, users apply filters to columns in the result table.
 
 ### User adds a filter step
 
@@ -123,6 +128,8 @@ Remove
 [Wireframe 6](https://share.balsamiq.com/c/t8zJwPzsCvVqsDuAkQSXmk.png)
 
 ## Summarization
+
+In the `Summarize` step, users set a summary column and perform aggregations on the result table.
 
 ### User adds a summarization step
 
