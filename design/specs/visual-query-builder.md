@@ -51,22 +51,19 @@ Views require a base table to be set so that the available columns and links can
 
 ### User sets the base table for a new view
 
-- When starting a view from scratch, a user needs to select a `Base Table` to determine the columns and linked tables available for selection.
-- To select the `Base Table`, The system will list all tables from the active schema. See *Wireframe 1* for an example of the base table selection prompt.
-- Once the base table is selected, a list of available columns is displayed.
+- For users starting a new view from scratch, `Base Table` selection will be the first required step.
+- Once `Data Explorer` is launched the user will be prompted to make a selection. The system will list all tables from the active schema. See *Wireframe 1* for an example of the base table selection prompt.
+- Once the `Base Table` is selected, a second step for `Select Columns` is automatically added and the user is prompted to continue with the view creation process.
+- At this point, the result table is empty.
 
 [Wireframe 1](https://share.balsamiq.com/c/jp7WFu663j6sbfKNknuq5Z.png)
 
 ### User inspects the base table for an existing view in Data Explorer
 
-- When inspecting an existing view, a user can find the `Base Table` at the top part of the `Workflow Sidebar`.
-- Base table selection will always be the first required step for building a view in `Data Explorer`.
+- When inspecting an existing view, a user can find the `Base Table` as the first step of the `Workflow Sidebar`.
+- The `Base Table` step cannot be removed, only edited, causing all subsequent steps to be cleared.
 
 [Wireframe 2](https://share.balsamiq.com/c/wTEzQcBamoBBWBSSF5Cmuy.png)
-
-### User changes the base table for an existing view
-
-- Changing the base table for a view is possible; however, the system will clear all existing workflow steps.
 
 ### User opens a view where the base table is missing
 
@@ -85,6 +82,11 @@ Views require a base table to be set so that the available columns and links can
 
 - To add a linked column, the user can click on any column listed under the `Base Table Links` or `Linked to Base Table` sections. Linked columns are listed under the tables for which a link to or from the `Base Table` exists.
 - Linked columns will have values representing the IDs that match the primary key fields from the linked column record. To map to values of the linked table, the user must add a `Map Values` step.
+
+### User adds multiple select column steps
+
+- Users might want to add more than one `Select Columns` step.
+- Take a scenario where formula columns were created for the purpose of using them in other computed columns. The user might want to remove them from the result table. Using an additional select column that follows those `Add Formula Column` steps a user can define the columns to be included.
 
 ## Workflow: Value Mapping (Formula)
 
