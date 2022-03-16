@@ -69,6 +69,18 @@ Throughout our stack, we may want to represent numbers as strings. When doing so
 
 - The front end will **fail** to parse canonical stringified numbers like `"99999999999999.99"` (which cannot be accurately represented by any of JavaScript's built-in data types) because they will fail to be reformatted without loss of precision.
 
+- The front end actually _almost_ doesn't need to parse numbers at all. But it does so for the following reasons.
+
+    1. Because we want to format a cell's numerical value for display. There are a variety of smaller goals here.
+
+        - Likely the most important goal is to format the decimal separator in accordance with the user's locale (dot or comma). That's easy to do with strings, so if that's all we care about, then we can actually stick with strings.
+        - Adding grouping separators is _nice_, but not crucial. Even if the separators are applied after the user finishes typing, I think they offer a significant UX improvement in some situations. If we stick exclusively to strings, it's actually quite hard to add the grouping separators in a locale-aware way. The `Intl` API takes care of it for us, but only if we have a `number` or `BigInt` -- so that requires parsing.
+        - Similar to above, `Intl` offers a bunch of other [formatting options](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat) that we'll likely want to utilize at some point in the future, like `style: 'percent'`, `style: 'currency'`, `minimumFractionDigits`, and `maximumFractionDigits`. That stuff is trivial to implement when using `Intl`, but harder to do with raw strings.
+
+    1. Because we also want to accept user-entered number in other contexts, besides the cell values
+
+        For editing a cell, we'll likely never need access to the _numerical value_ of the cell on the front end (beyond the need to format the number for display). But we will need access to numerical values of user input on the front end in the future. For example, when/if we allow the user to configure the minimum number of fraction digits, I'd want to take that user input and feed it back into `Intl.NumberFormat` to display a formatted preview of a sample number. I think we'd also want client-side validation to ensure that `minimumFractionDigits` is within `0` and `20`, as required by `Intl.NumberFormat`.
+
 ### Formatting
 
 - The front-end formats numbers for display in the browser's locale.
