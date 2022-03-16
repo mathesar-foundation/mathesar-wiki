@@ -53,7 +53,7 @@ Throughout our stack, we may want to represent numbers as strings. When doing so
 
 ### Locale
 
-- To satisfy Goal D, we infer the user's desired locale from their _browser_. The back-end is not aware of the user's locale unless the front end passes data about its in the API request.
+- To satisfy Goal D, Number columns have an optional `locale` display option which is set by the front end and read by the front end. If a column's `display_options` does not have a `locale` value, then the front end infers the locale from the user's browser. The back-end remains locale-agnostic and never uses the `locale` display option for any back-end logic.
 
 - Mathesar is limited to only displaying and accepting entry for numbers using the latin numbering system. This means sacrificing Goal A for the locales  "bn", "fa", and "mr" (Bengali, Persian, Marathi) which use non-latin numbering systems by default.
 
