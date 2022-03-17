@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2022-03-17T19:33:21.151Z
+date: 2022-03-17T21:55:28.432Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -17,10 +17,6 @@ These documents are kept up to date and serve as a reference.
 - [API Standards](/engineering/architecture/api-standards)
 - [Front End Standards](/engineering/architecture/front-end-standards)
 
-### Database
-- [DDL Operations](/engineering/architecture/ddl)
-- [DML Operations](/engineering/architecture/dml)
-
 ### Mathesar Abstractions
 - [UI Data Types](/engineering/architecture/ui-types)
 - [Filters in Mathesar](/en/engineering/architecture/filters)
@@ -28,10 +24,12 @@ These documents are kept up to date and serve as a reference.
 ## Technical Specs
 These documents are notes about a specific feature written to get feedback before implementation. They are not necessarily kept up-to-date once the feature has been implemented.
 
-- [Import Previewing](/engineering/architecture/import-preview-api)
-- [Syncing Database Objects](/engineering/architecture/syncing)
 - [Number Display and Entry](/engineering/architecture/numbers)
 - [Human Readable Dates and Times](/engineering/architecture/dateandtime)
+- [Import Previewing](/engineering/architecture/import-preview-api)
+- [Syncing Database Objects](/engineering/architecture/syncing)
+- [DDL Operations](/engineering/architecture/ddl)
+- [DML Operations](/engineering/architecture/dml)
 
 ## Related Resources
 - [GitHub discussions categorized as "Architecture"](https://github.com/centerofci/mathesar/discussions/categories/architecture)
