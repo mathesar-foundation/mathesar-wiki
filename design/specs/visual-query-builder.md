@@ -118,8 +118,23 @@ To summarize a table, a user selects the `Summarize` option and sets a summary c
 
 ## 4. Previewing the Query Results
 
+WIP
+
 ## 5. Saving the Query as a View
+
+WIP
 
 ## 6. Troubleshooting and Resolving Errors
 
+WIP
+Potential errors and how users might resolve them.
+
 ## 7. Alerts and Error Prevention
+
+WIP
+Describe situations were users will be alerted, for example, a filter that returns no results, a change to an input column that is not compatible with an output filter or summary etc.
+
+## 8. Data Explorer Onboarding Considerations
+
+WIP
+Describe how users will be introduced to the various concepts in data explorer.
