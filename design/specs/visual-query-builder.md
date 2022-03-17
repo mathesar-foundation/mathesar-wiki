@@ -16,177 +16,110 @@ Additionally, users will be able to open existing views in `Data Explorer`, as l
 
 ## Scenarios
 
-## Starting Points
+## 1. Selecting the Base Table
 
-`Data Explorer` is meant to be a part of multiple flows like the creation of new views, the inspection of existing ones, and as a way to explore data for goals beyond view creation. For this reason, different starting points are considered from which `Data Explorer` might be accessed.
+The base table selection is the first step when starting a new query, and it will determine which columns and links are available for selection.
 
-### User opens the Data Explorer to create a new view
+The base table also determines the automatic joins that are performed when the user adds columns from linked tables.
 
-#### From Scratch (Top Navigation)
+### Changing the base table
 
-- In the `Schema Browser` view, a user clicks on the `Data Explorer` navigation item located in the top navigation bar.
-- `Data Explorer` opens, and the layout changes. The schema explorer sidebar is hidden, as well as any open table.
+Once the input table has been created, changing the base table will result in the loss of all progress.
 
-#### From a Table (Sidebar Navigation or Open Table)
+### 1.1 Base Table Options
 
-- From an open table, a user clicks the `Create View from [Table Name]` button located in the toolbar. This action will open `Data Explorer` and automatically set the table as `Base Table` and select all direct columns.
-- In the `Schema Browser` view, a user opens the contextual menu for a table navigation item and selects `Create view from Table`. This action launches `Data Explorer` and automatically sets the selected table as `Base Table` and adds its direct columns to a `Select Column` step.
-- The system will also add link columns if present in the `Base Table`. However, it won't include link columns referencing the `Base Table` from other tables. The system will set the values for link columns to the referenced table's primary key by default.
-- The user can then choose to remove or add additional columns.
+The base table selector will display a list of all available tables in the current schema. Initially, this list will not include views which will be added in later iterations.
 
-### User opens the Data Explorer to inspect an existing view
+To select a table, the user will find it on the list and click on the desired table option.
 
-#### From an open view
+Selecting the base table will enable the interface controls for adding additional steps, which were initially disabled. No action is available before a base table is selected.
 
-- From an active view tab, a user can inspect a view by clicking on the `Open in Data Explorer` button in the toolbar area.
-- Views need to use supported query commands and functions to be inspected in `Data Explorer` with full functionality. When queries are not supported, an option to see the underlying query will be available.
+Once a selection has been made, the user will be prompted to proceed with the input table configuration, starting with column selection.
 
-#### From a view navigation item
+[BASE TABLE SELECT WIREFRAME]
 
-- In the `Schema Browser` view, a user opens the contextual menu for a view navigation item and selects the option `Open in Data Explorer`. This action will open `Data Explorer` and display the properties of the selected view.
+## 2. Creating the Input Table
 
-## Base Table
+The input table is created by selecting columns from the base table or creating new ones via formulas.
 
-Views require a base table to be set so that the available columns and links can be listed for selection.
+Various options are available for input columns, including filters or aggregations that can help users control which data they want to show and how.
 
-### User sets the base table for a new view
+These options can be set for all input columns, including formulas. Some options like aggregations might only be available for columns that link to multiple values. The system will automatically detect this and present the available options to users.
 
-- For users starting a new view from scratch, `Base Table` selection will be the first required step.
-- Once `Data Explorer` is launched the user will be prompted to make a selection. The system will list all tables from the active schema. See *Wireframe 1* for an example of the base table selection prompt.
-- Once the `Base Table` is selected, a second step for `Select Columns` is automatically added and the user is prompted to continue with the view creation process.
-- At this point, the result table is empty.
+### 2.1. Selecting Input Columns
 
-[Wireframe 1](https://share.balsamiq.com/c/jp7WFu663j6sbfKNknuq5Z.png)
+When selecting input columns, the user can add them using the list controls or drop the columns directly into the result table from the column selector.
 
-### User inspects the base table for an existing view in Data Explorer
+The column selector component will display all columns from the base table, as well as columns from any table linked or containing links to the base table.
 
-- When inspecting an existing view, a user can find the `Base Table` as the first step of the `Workflow Sidebar`.
-- The `Base Table` step cannot be removed, only edited, causing all subsequent steps to be cleared.
+#### Direct Columns
 
-[Wireframe 2](https://share.balsamiq.com/c/wTEzQcBamoBBWBSSF5Cmuy.png)
+Direct columns are columns from the base or linked tables that contain the actual stored values, these can be selected directly and added as input columns.
 
-### User opens a view where the base table is missing
+Any non-direct column from the base table that was set as a link in the base table will not be available for selection.
 
-- If a user deletes the base table for a view, they should be able to open the view in `Data Explorer` and either resolve the error by replacing the base table with an identical one or clear the workflow and start over.
+[COLUMN SELECTOR WIREFRAME]
 
-## Worflow: Column Selection
+#### Link Columns
 
-In the column selection step, users select columns from or linked to the base table of a view.
+Link columns have foreign key constraints and hold the primary key values that link to other tables. These columns aren't selectable as direct columns. Instead, the tables that they link to are represented as expandable list groups. Inside each group, users can select the linked table columns. The join will determine the values.
 
-### User adds a direct column
+Link columns can exist in the base table or in other tables as links to the base table. However, the same pattern applies to any link column.
 
-- Direct columns will be those with values contained directly in the `Base Table` rather than linked from other tables via foreign key relationships.
-- To add a direct column, the user can click on the `Add` button inside a `Select Column` workflow item and click on any column listed under the `Base Table Columns` section.
-- Direct columns will always be listed at the top of the column list in the same order as the base table.
+The design should support multiple levels of nesting, depending on how the tables are linked.
 
-[Wireframe 3](https://share.balsamiq.com/c/hNWzHEM9ksGGp5ZcPixLrA.png)
+[COLUMN SELECTOR WIREFRAME]
 
-### User adds a linked column
+### 2.2 Adding Formulas
 
-- To add a linked column, the user can click on any column listed under the `Base Table Links` or `Linked to Base Table` sections. Linked columns are listed under the tables for which a link to or from the `Base Table` exists.
-- The linked column can then be expanded to show all possible values for that field. The default value points to the primary key of the referenced table, however, the user might choose to display values from any other column.
+During column selection, the user can add a new column by using formulas to generate its values. Available formulas will be included as part of the column selector, and dropping them into the result table will prompt users to set the formula settings for the selected formula.
 
-[Wireframe 4](https://share.balsamiq.com/c/hNWzHEM9ksGGp5ZcPixLrA.png)
+Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. However, the system only list those with data types accepted by the formula.
 
-### User adds multiple select column steps
+[WIREFRAME SHOWING FORMULA COLUMN]
 
-- Users might want to add more than one `Select Columns` step.
-- Take a scenario where formula columns were created for the purpose of using them in other computed columns. The user might want to remove them from the result table. Using an additional select column that follows those `Add Formula Column` steps a user can define the columns to be included.
+### 2.3 Filtering Input Column Values
 
-## Workflow: Add Formula Column
+All input columns can have filters applied to them in order to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
 
-In the `Add Formula Column` step, users apply formulas to generate new columns.
+Filter options will be determined by the data type of the input column.
 
-### User adds a formula column
+Filters can be added by clicking on the `Add Filter` option from the input column properties panel or directly from the input table column header menu.
 
-#### From the Worflow Sidebar
+[WIREFRAME SHOWING ACTIVE FILTER ON INPUT COLUMN]
 
-- To add a formula column, the user can click on the `Add` button located on top of the `Workflow Sidebar` and select the `Generate Column` option.
+### 2.4 Aggregating Input Column Values
 
-[Wireframe 5](https://share.balsamiq.com/c/qYNJBmBwdaTDhn7Hdhf9kP.png)
+Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will add an automatic aggregation. Users can change the aggregation type at any moment.
 
-#### From the result table
+[WIREFRAME SHOWING AGGREGATED INPUT COLUMN VALUES]
 
-- To add a formula column
+### 2.5 Applying a Formula to an Input Column
 
-### User adds a formula column from an existing column
+Direct input columns can also be transformed into formulas. The available formulas will depend on the input column type.
 
-### User deletes a formula column
+To transform the input column into a formula, the user will select the `Apply Formula` option in the column header menu.
 
-## Filtering
+[WIREFRAME SHOWING CONTEXTUAL MENU AND OPTIONS]
 
-In the `Filter` step, users apply filters to columns in the result table.
+## 3. Transforming the Output Table
 
-### User adds a filter step
+The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters and summarizations to the result table.
 
-- A user can filter selected columns at any point in the workflow by adding a `Filter` step.
-- The filter step will let users select any columns present in the result table until that point, including formula columns if available.
-- Once a column is selected, the user will have all the filtering conditions available for each data type. See [Filters Protoype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4612%3A39411&node-id=4612%3A39412&viewport=324%2C48%2C0.23&scaling=contain&starting-point-node-id=4612%3A39412&show-proto-sidebar=1).
-- A user might apply multiple filters to the same or other columns in the result table.
-- A user can add more than one filter step.
+### 3.1. Filtering the Output Table
 
-[Wireframe 6](https://share.balsamiq.com/c/t8zJwPzsCvVqsDuAkQSXmk.png)
+Users can filter the output table by selecting any column from the result table and applying filters. The column selector, in this case, will only allow users to select input columns rather than the complete column list from the column selection step.
 
-## Summarization
+### 3.2. Summarizing the Output Table
 
-In the `Summarize` step, users set a summary column and perform aggregations on the result table.
+Users can summarize the output table to get an aggregation of the column values grouped by a summary column.
 
-### User adds a summarization step
+To summarize a table, a user selects the `Summarize` option and sets a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
 
-- A user can summarize the result table at any point in the workflow by adding a `Summarization` step.
-- The summarization step will let users set a column as the summary column. By doing so, The system will aggregate the rest of the columns.
-- The summary column might or might not be a part of the result table—any formula columns created before the summarization step can be set as a summary column.
-- Once a summary column is set, the aggregated columns will be listed, each with a suggested aggregation function. Users can change the suggested functions.
-- A user can add more than one summarization step.
+## 4. Previewing the Query Results
 
-[Wireframe 7](https://share.balsamiq.com/c/2e6TYLVzqf4pssmfpNqacx.png)
+## 5. Saving the Query as a View
 
-## Results Table and Previewing
+## 6. Troubleshooting and Resolving Errors
 
-### User previews the result table for all steps
-
-- The result table (preview) by default contains the output of all steps in the workflow sidebar. Changing any of the steps or adding new ones will automatically affect the table's contents.
-
-### User previews the output of a specific step
-
-- Users can temporarily change the preview to show the workflow's output at a particular point.
-
-[Wireframe 8](https://share.balsamiq.com/c/5zwJEcEV7ob2TTwTU3TBgX.png)
-
-### User creates a view from the output of a step
-
-## Layouts
-
-### Data Explorer Layout
-
-The `Data Explorer` layout is optimized for displaying the different steps and results of a query. It cannot be embedded into a modal or shown alongside components from the `Schema Browser` layout like the list of tables or tabs area.
-
-### The Workflow Sidebar
-
-The workflow sidebar contains a list of all the steps needed to produce the result table for a view.
-
-## User Experience
-
-### Step-based query builder
-
-The step-based nature of the query builder will allow users to explore and preview the result table at various intermediate states.
-
-### Data-type specific options
-
-In all cases, where options like filters or formulas are specific to a particular data type, the interface will hide options that don't apply. Users should be able to select from valid options whenever possible.
-
-We do so by...
-
-### Multiple starting points
-
-`Data Explorer` will be a central part of many flows in Mathesar. For that reason, users should be able to launch it under different contexts and understand how to modify or remove any pre-populated steps or settings.
-
-We do so by...
-
-## Interactions
-
-### Workflow
-
-### Autocomplete
-
-### Drag and drop
+## 7. Alerts and Error Prevention
