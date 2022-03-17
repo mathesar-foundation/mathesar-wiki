@@ -2,7 +2,7 @@
 title: Architecture
 description: Documents describing the technical design of Mathesar
 published: true
-date: 2022-02-25T02:17:03.334Z
+date: 2022-03-17T19:33:21.151Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T20:34:57.900Z
@@ -34,5 +34,5 @@ These documents are notes about a specific feature written to get feedback befor
 - [Human Readable Dates and Times](/engineering/architecture/dateandtime)
 
 ## Related Resources
-- ["Architecture" category on GitHub discussions](https://github.com/centerofci/mathesar/discussions/categories/architecture)
+- [GitHub discussions categorized as "Architecture"](https://github.com/centerofci/mathesar/discussions/categories/architecture)
 - [Engineering Decisions](/engineering/decisions) page.
