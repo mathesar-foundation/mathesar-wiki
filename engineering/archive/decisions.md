@@ -2,11 +2,14 @@
 title: Engineering Decisions
 description: Reference for major engineering decisions
 published: true
-date: 2021-08-18T13:45:56.422Z
+date: 2022-03-18T22:28:06.522Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T19:17:12.011Z
 ---
+
+> This page is archived.
+{.is-danger}
 
 ## June 2021
 - We decided to use limit/offset pagination instead of cursor pagination.
