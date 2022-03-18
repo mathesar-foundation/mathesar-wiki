@@ -20,7 +20,7 @@ dateCreated: 2022-02-15T14:58:57.900Z
 
 For the moment, the UI should simply send the input string along to the API to be handled by the data layer, which should use the underlying database to parse input strings into date/time types to avoid inconsistency. 
 
-If we want to extend the set of understandable date/time input strings in the future, then the UI should parse the more exotic input strings into the appropriate canonical form described below and send that as the input to be stored to the API. Care should be taken to ensure that _if the UI parses the string_, then it's either 
+If we want to extend the set of understandable date/time input strings in the future, then the UI could parse the more exotic input strings into the appropriate canonical form described below and send that as the input to be stored to the API. The canonical form isn't _required_, but it's recommended since it guarantees the known value ending up stored in the database. Care should be taken to ensure that _if the UI parses the string_, then it's either 
 - a string which wouldn't be handled by the database parsing, or
 - the parsing results in an identical value being stored as the one that would have resulted from sending the raw string to the API. 
 
@@ -122,3 +122,15 @@ For columns which don't have time zones, we'll (of course) omit the `offset` ent
 - `2222-02-15T12:30:15.12345-08:00 AD`
 
 Note the `T` separator between the date and time portions.
+
+## Appendix: Mathesar vs. other tools
+
+This appendix should collect (over time) more and more examples of differences between date/time/datetime parsing in Mathesar and other tools.
+
+### Google Sheets
+
+| Data type | User input |  PostgreSQL | Google Sheets |
+| -- | -- | -- | -- |
+| date | `7/8` | error | `2022-07-08` |
+| date | `12/30/69` | `2069-12-30` | `1969-12-30` |
+| time | `6 pm` | error | `18:00:00` |
