@@ -135,16 +135,23 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ## 6. Troubleshooting and Resolving Errors
 
-WIP
-Potential errors and how users might resolve them.
+### The result table has no rows
 
 ## 7. Alerts and Error Prevention
 
-WIP
+### User attemps to delete a base table
 
 ## 8. Data Explorer Onboarding Considerations
 
-WIP
+### Introducing Base Tables
+
+### Introducing Links
+
+### Introducing Formula Columns
+
+### Input vs. Output Steps
+
+### Query vs. View
 
 ## 9. Other
 
