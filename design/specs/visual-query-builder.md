@@ -24,11 +24,11 @@ The base table also determines the automatic joins that are performed when the u
 
 ### Changing the base table
 
-Once the input table has been created, changing the base table will result in the loss of all progress.
+Once the input table has been created, changing the base table will result in the loss of all progress. A warning should be given to users so that they understand the consequences of this change.
 
 ### 1.1 Base Table Options
 
-The base table selector will display a list of all available tables in the current schema. Initially, this list will not include views which will be added in later iterations.
+The base table selector will display a list of all available tables in the current schema (Initially, this list will not include views that will be added in later iterations)
 
 To select a table, the user will find it on the list and click on the desired table option.
 
@@ -36,57 +36,64 @@ Selecting the base table will enable the interface controls for adding additiona
 
 Once a selection has been made, the user will be prompted to proceed with the input table configuration, starting with column selection.
 
-[BASE TABLE SELECT WIREFRAME]
+---
+Wireframes
+
+[Selecting a Base Table](https://share.balsamiq.com/c/esUftomoFsZiRhZDMYdoPP.png)
+
+[Base Table Selected](https://share.balsamiq.com/c/me5CfGGeX3R35x2otLqbpu.png)
 
 ## 2. Creating the Input Table
 
 The input table is created by selecting columns from the base table or creating new ones via formulas.
 
-Various options are available for input columns, including filters or aggregations that can help users control which data they want to show and how.
+These columns are added to the result table based on the selection order. Users can rename columns as they wish.
 
-These options can be set for all input columns, including formulas. Some options like aggregations might only be available for columns that link to multiple values. The system will automatically detect this and present the available options to users.
+By default, the system will name columns to indicate their source table and column according to the following [naming convention](#column-naming-convention).
 
-### 2.1. Selecting Input Columns
+Some options might be available for columns that link to multiple records, like filters and aggregations to help users define which data they want to show and how. The system will automatically detect the type of columns and present the available options to users.
 
-When selecting input columns, the user can add them using the list controls or drop the columns directly into the result table from the column selector.
+### 2.1. Adding Input Columns
 
-The column selector component will display all columns from the base table, as well as columns from any table linked or containing links to the base table.
+To start adding columns, the user clicks on the `Add Column` button located in the `Columns` section on the query configuration panel. This action will display the `Column Selector` component in the inspector panel.
 
-#### Direct Columns
+The `Column Selector` will list all available columns, and those in use, when applicable. Additionally there will be a list of all formulas.
 
-Direct columns are columns from the base or linked tables that contain the actual stored values, these can be selected directly and added as input columns.
+The columns in `Column Selector` are listed in a hierarchical structure based on the links that exist between the base table and other tables, in both directions. Icons indicate whether the linked records are single or multiple.
 
-Any non-direct column from the base table that was set as a link in the base table will not be available for selection.
+Links are presented as expandable sections containing the columns from the linked tables.
 
-[COLUMN SELECTOR WIREFRAME]
+When adding input columns, the user can add them using the list controls or drop the columns directly into the result table.
 
-#### Link Columns
+---
+Wireframes
 
-Link columns have foreign key constraints and hold the primary key values that link to other tables. These columns aren't selectable as direct columns. Instead, the tables that they link to are represented as expandable list groups. Inside each group, users can select the linked table columns. The join will determine the values.
-
-Link columns can exist in the base table or in other tables as links to the base table. However, the same pattern applies to any link column.
-
-The design should support multiple levels of nesting, depending on how the tables are linked.
-
-[COLUMN SELECTOR WIREFRAME]
+[Adding Columns](https://share.balsamiq.com/c/oyxTXxqSh8rLqU3JY71DWY.png)
+[Added Column](https://share.balsamiq.com/c/7U9yahZtYWX2G5obkyivoz.png)
 
 ### 2.2 Adding Formulas
 
-During column selection, the user can add a new column by using formulas to generate its values. Available formulas will be included as part of the column selector, and dropping them into the result table will prompt users to set the formula settings for the selected formula.
+While adding columns, the user can choose to create a new column by using formulas. Available formulas will be included as part of the column selector, and dropping them into the result table will prompt users to set the formula settings for the selected formula.
 
-Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. However, the system only list those with data types accepted by the formula.
+Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. However, the system only lists those with data types accepted by the formula.
 
-[WIREFRAME SHOWING FORMULA COLUMN]
+---
+Wireframes
+
+[Added Formula](https://share.balsamiq.com/c/vWfJ9sUYWJxed5Zo5WtPGi.png)
 
 ### 2.3 Filtering Input Column Values
 
-All input columns can have filters applied to them in order to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
+Columns that link to multiple records can have filters applied to them in order to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
 
 Filter options will be determined by the data type of the input column.
 
-Filters can be added by clicking on the `Add Filter` option from the input column properties panel or directly from the input table column header menu.
+Filters can be added by clicking on the `Add Filter` option from the query configuration panel or directly from the results table column header menu.
 
-[WIREFRAME SHOWING ACTIVE FILTER ON INPUT COLUMN]
+---
+Wireframes
+
+[Added Input Filter](https://share.balsamiq.com/c/tK2hZy6FB4zVYpN56ejpBk.png)
 
 ### 2.4 Aggregating Input Column Values
 
@@ -132,9 +139,21 @@ Potential errors and how users might resolve them.
 ## 7. Alerts and Error Prevention
 
 WIP
-Describe situations were users will be alerted, for example, a filter that returns no results, a change to an input column that is not compatible with an output filter or summary etc.
+Describe situations where users will be alerted, for example, a filter that returns no results, a change to an input column that is not compatible with an output filter or summary, etc.
 
 ## 8. Data Explorer Onboarding Considerations
 
 WIP
-Describe how users will be introduced to the various concepts in data explorer.
+Describe how the system will introduce users to the various concepts in the data explorer.
+
+## 9. Other
+
+### Column Naming Convention
+
+As they are added to the query, columns should include source references as part of their names.
+
+In cases where the column names match the patterns applied in Mathesar, we could detect redundant suffixes like `id` and strip them off for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
+
+Additionally, link hierarchy can be inclided. For example `sequel_prequel_sequel title` for a column named `title` added through Movie's `sequel_id`'s `prequel_id`'s `sequel_id`.
+
+Users can change the default names at any time and still get the source information under the column details.
