@@ -75,7 +75,9 @@ Wireframes
 
 While adding columns, the user can choose to create a new column by using formulas. Available formulas will be included as part of the column selector, and dropping them into the result table will prompt users to set the formula settings for the selected formula.
 
-Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. However, the system only lists those with data types accepted by the formula.
+Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. The list of columns will be populated based on the selected formulas.
+
+However, the system only lists those with data types accepted by the formula.
 
 ---
 Wireframes
@@ -137,9 +139,15 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ### The result table has no rows
 
+### The are duplicate values
+
 ## 7. Alerts and Error Prevention
 
 ### User attemps to delete a base table
+
+### User changes the selected formula of a column to one that is incompatible with the source column's data type
+
+### User attemps to save a new formula column with incomplete settings
 
 ## 8. Data Explorer Onboarding Considerations
 
