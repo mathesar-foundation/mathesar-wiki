@@ -97,17 +97,15 @@ Wireframes
 
 ### 2.4 Aggregating Input Column Values
 
-Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will add an automatic aggregation. Users can change the aggregation type at any moment.
+Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will apply an automatic aggregation. Users can change the aggregation type at any moment.
 
-[WIREFRAME SHOWING AGGREGATED INPUT COLUMN VALUES]
+[Added Input Aggregation](https://share.balsamiq.com/c/fNcbvQ1q5xMyni5JxBg3Rc.png)
 
 ### 2.5 Applying a Formula to an Input Column
 
 Direct input columns can also be transformed into formulas. The available formulas will depend on the input column type.
 
 To transform the input column into a formula, the user will select the `Apply Formula` option in the column header menu.
-
-[WIREFRAME SHOWING CONTEXTUAL MENU AND OPTIONS]
 
 ## 3. Transforming the Output Table
 
@@ -117,19 +115,23 @@ The output table refers to the resulting table from all input columns selected a
 
 Users can filter the output table by selecting any column from the result table and applying filters. The column selector, in this case, will only allow users to select input columns rather than the complete column list from the column selection step.
 
+[Output Filter](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
+
 ### 3.2. Summarizing the Output Table
 
 Users can summarize the output table to get an aggregation of the column values grouped by a summary column.
 
 To summarize a table, a user selects the `Summarize` option and sets a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
 
+[Output Summary](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
+
 ## 4. Previewing the Query Results
 
-WIP
+A preview, or query result table, should be visible at all times while the user is in `Data Explorer`. The result table, will change based on the different configurations, for example, if a user applies a filter, the table should be refreshed to show the output with the filter applied.
 
 ## 5. Saving the Query as a View
 
-WIP
+Under `Save Options`, the user can name the resulting query and choose to save it. This would save the view as a query, that would be run everytime the user opens it.
 
 ## 6. Troubleshooting and Resolving Errors
 
@@ -139,12 +141,10 @@ Potential errors and how users might resolve them.
 ## 7. Alerts and Error Prevention
 
 WIP
-Describe situations where users will be alerted, for example, a filter that returns no results, a change to an input column that is not compatible with an output filter or summary, etc.
 
 ## 8. Data Explorer Onboarding Considerations
 
 WIP
-Describe how the system will introduce users to the various concepts in the data explorer.
 
 ## 9. Other
 
