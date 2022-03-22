@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-03-22T04:54:28.323Z
+date: 2022-03-22T04:55:15.122Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -55,7 +55,6 @@ The project descriptions can be quite short so we expect you to do a significant
 
 We suggest reading some articles on writing good Google Summer of Code proposals. Here are some examples:
 
-* [How to write a kick-ass proposal for Google Summer of Code](http://teom.org/blog/kde/how-to-write-a-kick-ass-proposal-for-google-summer-of-code/)
 * [5 Tips to get your Google Summer of Code proposal accepted](https://people.csail.mit.edu/baghdadi/TXT_blog/5_advices_to_get_your_proposal_accepted.lyx.html)
 * [Writing a solid Google Summer of Code Proposal](https://medium.com/@evenstensberg/writing-a-solid-google-summer-of-code-proposal-a200fc6e785b)
 
