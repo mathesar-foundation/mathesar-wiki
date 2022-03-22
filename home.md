@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-03-20T21:04:13.913Z
+date: 2022-03-22T21:04:46.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -15,7 +15,7 @@ dateCreated: 2021-04-16T14:07:42.267Z
 Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
 
 - [:question: About Mathesar *More about the project*](/product/about)
-- [:computer: Code *Mathesar's source code on GitHub*](https://github.com/centerofci/mathesar)
+- [:computer: Source Code *Mathesar's source code on GitHub*](https://github.com/centerofci/mathesar)
 - [:busts_in_silhouette: Community *How to participate in our community forums*](/community)
 - [:spiral_notepad: About the Wiki *More about this wiki*](/about-the-wiki)
 {.links-list}
