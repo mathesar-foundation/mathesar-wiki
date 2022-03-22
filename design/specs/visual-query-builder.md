@@ -143,7 +143,7 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ## 7. Alerts and Error Prevention
 
-### User attemps to delete a base table
+### User attempts to delete a base table
 
 ### User changes the selected formula of a column to one that is incompatible with the source column's data type
 
