@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-02-11T05:05:11.890Z
+date: 2022-03-22T04:53:47.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -14,7 +14,7 @@ If you're interested in applying to be a GSoC Contributor for the Mathesar proje
 
 ## Step 1: Read the Program Guide
 
-The [Google Summer of Code student guide](https://google.github.io/gsocguides/student/) is a great introduction to what goes into being a GSoC Contributor. The rest of this document assumes you're familiar with its contents.
+The [Google Summer of Code contributor guide](https://google.github.io/gsocguides/student/) is a great introduction to what goes into being a GSoC Contributor. The rest of this document assumes you're familiar with its contents.
 
 ## Step 2: Learn about Mathesar
 You'll need to understand Mathesar well in order to submit a successful application. 
@@ -79,7 +79,7 @@ Remember that the mentors are busy – we've got full-time jobs or other commitm
 Here are a few things we consider when selecting which applications to accept:
 
 - **Quality of the proposal**: This is the most important thing. A good proposal includes attention to detail, externally measurable milestones, consideration for future maintainability and community involvement, and a demonstration of your skills.
-- **Community involvement**: One of our major goals is to build an active development community and attract long-term contributors. We see engaging in the community, whether it's asking questions, helping other students, contributing code, filing bugs, or whatever else, as a sign that you're genuinely interested in our work.
+- **Community involvement**: One of our major goals is to build an active development community and attract long-term contributors. We see engaging in the community, whether it's asking questions, helping other contributors, contributing code, filing bugs, or whatever else, as a sign that you're genuinely interested in our work.
 - **Contributions**: We appreciate seeing your contributions, they help us gauge your ability to orient yourself to a new codebase, or the quality of your writing. Contribution quality is instrumental in giving us the confidence that you have the skills necessary to implement your proposal.
 - **Communication skills and initiative**: These are essential to completing a successful project. Things we look for (among others): asking specific and detailed questions, following up on conversations, making sure to read available resources before asking questions, being patient and responding to critical feedback well.
 
