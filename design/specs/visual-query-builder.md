@@ -28,7 +28,7 @@ Once the input table has been created, changing the base table will result in th
 
 ### 1.1 Base Table Options
 
-The base table selector will display a list of all available tables in the current schema (Initially, this list will not include views that will be added in later iterations)
+The base table selector will display a list of all available tables in the current schema (Initially, this list will not show views. Exploring views will be added in later iterations.)
 
 To select a table, the user will find it on the list and click on the desired table option.
 
