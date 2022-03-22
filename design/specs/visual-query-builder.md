@@ -139,7 +139,7 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ### The result table has no rows
 
-### The are duplicate values
+### There are duplicate values
 
 ## 7. Alerts and Error Prevention
 
