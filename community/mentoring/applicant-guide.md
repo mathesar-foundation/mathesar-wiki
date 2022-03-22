@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-03-22T04:53:47.693Z
+date: 2022-03-22T04:54:28.323Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -72,7 +72,7 @@ All our mentors are on [Matrix](/en/community/matrix). Please use public channel
 
 Please ask mentors specific questions. We don't know how to help you get started unless we know what you have questions about. People come from a variety of experiences and backgrounds and the things you may be confused about may be totally different than the things that someone else has questions about. Please give us as much information as possible, the more you tell us, the better we can help you.
 
-Remember that the mentors are busy – we've got full-time jobs or other commitments. It's good to follow up if you don't get a response, but wait a day or so first.
+Remember that the mentors are busy – we've got full-time jobs. It's good to follow up if you don't get a response, but wait a day or so first.
 
 # Selection Criteria
 
