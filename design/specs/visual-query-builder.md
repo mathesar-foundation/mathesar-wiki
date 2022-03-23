@@ -10,9 +10,9 @@ dateCreated: 2022-03-08 18:02:58
 
 ## Context
 
-This document specifies the design for a visual query builder named `Data Explorer` within the Mathesar application. Through `Data Explorer`, users will be able to analyze data across one or multiple tables of a schema and save the resulting tables as views.
+This document specifies the design for a visual query builder named `Data Explorer` within the Mathesar application. Through using `Data Explorer`, users will be able to analyze data across one or multiple tables of a schema and save the result of those queries as views.
 
-Additionally, users will be able to open existing views in `Data Explorer`, as long as its query commands and functions are supported.
+Additionally, users will be able to open existing views in `Data Explorer`, as long as the query commands and functions used to generate it are supported.
 
 ## Scenarios
 
@@ -32,9 +32,9 @@ The base table selector will display a list of all available tables in the curre
 
 To select a table, the user will find it on the list and click on the desired table option.
 
-Selecting the base table will enable the interface controls for adding additional steps, which were initially disabled. No action is available before a base table is selected.
+Selecting the base table will enable the interface controls of additional steps (e.g. column selection, filters), which were initially disabled. No action is available before a base table is selected.
 
-Once a selection has been made, the user will be prompted to proceed with the input table configuration, starting with column selection.
+Once a selection has been made, the user will be prompted to proceed with the input columns configuration, starting with column selection.
 
 ---
 Wireframes
