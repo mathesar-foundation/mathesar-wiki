@@ -18,17 +18,18 @@ Additionally, users will be able to open existing views in `Data Explorer`, as l
 
 ## 1. Selecting the Base Table
 
-The base table selection is the first step when starting a new query, and it will determine which columns and links are available for selection.
+The base table selection is the first step when starting a new query, and it will determine which columns and links are available as input columns.
 
 The base table also determines the automatic joins that are performed when the user adds columns from linked tables.
 
 ### Changing the base table
 
-Once the input table has been created, changing the base table will result in the loss of all progress. A warning should be given to users so that they understand the consequences of this change.
+Base table selection should be done at the start of the query building progress. Changing it after input columns have been selected will clear all progress.
+A warning should be given to users so that they understand the consequences of making this change.
 
 ### 1.1 Base Table Options
 
-The base table selector will display a list of all available tables in the current schema (Initially, this list will not show views. Exploring views will be added in later iterations.)
+The base table selector will display a list of all available tables in the current schema (Initially, this list will not show views. Exploration of views will be added in later iterations.)
 
 To select a table, the user will find it on the list and click on the desired table option.
 
@@ -73,11 +74,10 @@ Wireframes
 
 ### 2.2 Adding Formulas
 
-While adding columns, the user can choose to create a new column by using formulas. Available formulas will be included as part of the column selector, and dropping them into the result table will prompt users to set the formula settings for the selected formula.
+Formulas are used to generate new columns based on different parameters. A list of formulas is included as part of the column selector. Selecting a formula will open a form that users can fill out to determine the values of the new column.
 
-Depending on the selected formula, different settings will be available. Formulas will use the column selector component for settings that require the selection of columns. The list of columns will be populated based on the selected formulas.
-
-However, the system only lists those with data types accepted by the formula.
+Depending on the selected formula, different settings will be available.
+More on formulas and specific details for each will be covered on a separate issue.
 
 ---
 Wireframes
