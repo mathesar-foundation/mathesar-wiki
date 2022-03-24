@@ -127,19 +127,25 @@ Users can summarize the output table to get an aggregation of the column values 
 
 To summarize the table, the user selects the `Summarize` option from the result transformations menu and chooses a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
 
+[Output Summarization](https://share.balsamiq.com/c/rPMwwETnuQ8a4ut8NfmcDB.png)
+
 ### 3.3 Sorting the Ouput Table
 
 Users can sort the output table by applying a sort to any of the result table columns.
 
 To sort the table, the user selects the `Sort` option from the result transformations menu and adds it to the list. Once added, the user can set a column and a direction for the sort.
 
-[Output Summary](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
+[Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.pngs)
+
+### 3.4 Adding a New Column to a Summarized Table
+
+If the result table has transformations applied, new columns will be added automatically to the summarization steps and an aggregation set by default.
+
+[New Column](https://share.balsamiq.com/c/kWyvRL822BdBubhT4ghzgA.png)
 
 ## 4. Previewing the Query Results
 
 A preview, or query result table, should be visible at all times while the user is in `Data Explorer`. The result table, will change based on the different configurations, for example, if a user applies a filter, the table should be refreshed to show the output with the filter applied.
-
-[Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.png)
 
 ## 5. Saving the Query as a View
 
