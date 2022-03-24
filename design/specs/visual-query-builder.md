@@ -109,9 +109,11 @@ Direct input columns can also be transformed into formulas. The available formul
 
 To transform the input column into a formula, the user will select the `Apply Formula` option in the column header menu.
 
+[Applying a Formula](https://share.balsamiq.com/c/nEzYaNKNTSv9EFwzwtfSof.png)
+
 ## 3. Transforming the Output Table
 
-The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters and summarizations to the result table.
+The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters, sorts and summarizations to the result table.
 
 ### 3.1. Filtering the Output Table
 
@@ -123,13 +125,21 @@ Users can filter the output table by selecting any column from the result table 
 
 Users can summarize the output table to get an aggregation of the column values grouped by a summary column.
 
-To summarize a table, a user selects the `Summarize` option and sets a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
+To summarize the table, the user selects the `Summarize` option from the result transformations menu and chooses a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
+
+### 3.3 Sorting the Ouput Table
+
+Users can sort the output table by applying a sort to any of the result table columns.
+
+To sort the table, the user selects the `Sort` option from the result transformations menu and adds it to the list. Once added, the user can set a column and a direction for the sort.
 
 [Output Summary](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
 
 ## 4. Previewing the Query Results
 
 A preview, or query result table, should be visible at all times while the user is in `Data Explorer`. The result table, will change based on the different configurations, for example, if a user applies a filter, the table should be refreshed to show the output with the filter applied.
+
+[Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.png)
 
 ## 5. Saving the Query as a View
 
@@ -138,6 +148,8 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 ## 6. Troubleshooting and Resolving Errors
 
 ### The result table has no rows
+
+The result table might be empty if a filter returns no values or if the base table was empty as well.
 
 ### There are duplicate values
 
