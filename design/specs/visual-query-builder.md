@@ -155,9 +155,17 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ### The result table has no rows
 
-The result table might be empty if a filter returns no values or if the base table was empty as well.
+The result table might be empty if a filter returns no values or if the base table is empty. Since queries will run every time the user opens a view, it is possible that the data has changed or that the filter criteria returns no matches.
+
+Providing a count of rows and columns from the original base table would eliminate confusion around the data source (the table is not empty).
+
+Additionally, users should be able to identify which input columns are filtered, see the applied criteria for each filter and remove the filters if needed.
 
 ### There are duplicate values
+
+If a user adds a column with multiple records without an aggregation, values from other columns will be duplicated. Adding aggregations by default for columns with multiple records would help users discover this functionality.
+
+The system can determine the aggregation formula based on the column's data type.
 
 ## 7. Alerts and Error Prevention
 
