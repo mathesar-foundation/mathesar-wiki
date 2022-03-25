@@ -2,13 +2,13 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2022-02-24T18:19:25.832Z
+date: 2022-03-25T22:04:58.154Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z
 ---
 
-These formulas aggregate the values of a single column across multiple records of the same type.
+These formulas aggregate the values of a single column across multiple records of the same type. These are used as aggregation types when a multi-record column is added to a query.
 
 # Count
 - **Data Type**: Integer
