@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-03-09T15:59:57.045Z
+date: 2022-03-25T22:02:57.159Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -32,9 +32,10 @@ Users should be able to add columns to see in the query's output. Users can add 
     - **Source Relationship**: This is the relationship of the column's table to the base table. 
         - If there's only one way that the tables are related, there is no need to make a guess.
         - If there are multiple relationships between the table, we will pick one.
-    - **Aggregation**: This sets how the column is aggregated (separate rows per unique pair, list, count, average, min, max, etc.). 
+    - **Aggregation**: This sets how the column is aggregated (none i.e. separate rows per unique pair, list, count, average, min, max, etc.). 
         - This is only applicable to tables which have multiple related records to the base table. 
         - By default, we will aggregate columns as a list.
+        - Please see [Record Aggregations](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations) for a list of all aggregations supported.
 - The user will see the source relationship and aggregations used and can alter them if desired. 
 - The user can also alter the column in the following ways:
   - Adding a **Formula**: This alters the column to use a formula where one of the variables is the column.
