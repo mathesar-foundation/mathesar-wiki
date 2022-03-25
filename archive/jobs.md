@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2021-11-13T19:16:57.611Z
+date: 2022-03-25T22:08:48.123Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -18,8 +18,6 @@ We're looking for a backend engineer to work on [Mathesar](https://wiki.mathesar
 We're currently working hard on our alpha version, which we are aiming to ship by the end of 2021. Our team is based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and we are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
-
-
 We're working on simplifying and automating database operations and data migrations to make them easy to work with for non-technical users without sacrificing flexibility for advanced users. You'll be collaborating closely with the rest of [the Mathesar team](https://wiki.mathesar.org/team) to build the backend for the project using PostgreSQL, Python, SQLAlchemy, and Django.
 
 We're still working on the first version of the product (you can find [our roadmap on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open)) and there's ample opportunity to provide input into the direction of the project from both the technical and usability perspectives. You'll also have opportunities to contribute to frontend and infrastructure work if you desire -- we are an informal team.
@@ -29,7 +27,6 @@ This position also involves ownership in building an active community around the
 We are a fully distributed team and work mostly asynchronously via [Matrix](https://wiki.mathesar.org/en/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
 
 ## Qualifications
-
 Requirements:
 
 - Expertise in Python.
@@ -53,7 +50,6 @@ Nice to have:
 - Experience with working on complex data-driven frontend applications using a modern JavaScript framework.
 
 ## Interview Process
-
 The interview process will consist of four rounds:
 - Round 1: Interview with our project lead
 - Round 2: We'll ask you to contribute a feature to Mathesar to simulate what it would be like to work together day to day.
@@ -61,7 +57,6 @@ The interview process will consist of four rounds:
 - Round 4: Interview with our frontend engineer and designer
 
 ## Salary and Benefits
-
 You will be a salaried employee if you're in the US and an independent contractor otherwise. We offer a competitive salary in the nonprofit sector. We also have a budget for learning material (books, courses, etc.) and conferences.
 
 US employees have the following benefits:
@@ -96,7 +91,6 @@ This position also involves ownership in building an active community around the
 We are a fully distributed team and work mostly asynchronously via [Matrix](https://wiki.mathesar.org/en/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you are can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
 
 ## Qualifications
-
 We expect you to:
 
 - have had production experience with architecting, building, and deploying complex data-driven frontend applications using a modern JavaScript framework such as Svelte, Vue, or React.
