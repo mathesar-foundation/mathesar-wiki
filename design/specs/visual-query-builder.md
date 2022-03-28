@@ -14,6 +14,8 @@ This document specifies the design for a visual query builder named `Data Explor
 
 Additionally, users will be able to open existing views in `Data Explorer`, as long as the query commands and functions used to generate it are supported.
 
+For a more detailed overview of this feature, read [Views Product Spec](https://wiki.mathesar.org/en/product/specs/2022-01-views).
+
 ## Scenarios
 
 ## 1. Selecting the Base Table
@@ -25,6 +27,7 @@ The base table also determines the automatic joins that are performed when the u
 ### Changing the base table
 
 The user should make base table selection at the start of the query building progress. Changing it after input columns have been selected will clear all progress.
+
 A warning should be given to users so that they understand the consequences of making this change.
 
 ### 1.1 Base Table Options
@@ -190,7 +193,7 @@ The system can determine the aggregation formula based on the column's data type
 
 ### Column Naming Convention
 
-Input column names, when created, should have generated names that reference the source of the columns. For example, a column `full_name` from the `Person` table, linked by the column `actor_id` in `Movie` would be named `movie_actor full_name`
+Input column names, when created, should have generated names that reference the source of the columns. For example, a column `full_name` from the `Person` table, linked by the column `actor_id` in `Movie` would be named `movie_actor full_name`.
 
 In cases where the column names match the patterns applied in Mathesar, we could detect redundant suffixes like `id` and strip them off for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
 
