@@ -78,7 +78,7 @@ Wireframes
 
 ### 2.2 Adding Formulas
 
-Formulas are used to generate new columns based on different parameters. A list of formulas is included as part of the column selector. Selecting a formula will open a form that users can fill out to determine the values of the new column.
+Formulas are used to generate new columns based on different parameters. To access the list of formulas, the user start the `Add Column` process and selects the option `From Formula` at the top of the inspector panel. Selecting a formula will open a form that users can fill out to determine the values of the new column.
 
 Depending on the selected formula, different settings will be available.
 More on formulas and specific details for each will be covered on a separate issue.
