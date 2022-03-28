@@ -70,6 +70,7 @@ When adding input columns, the user can add them using the list controls or drop
 Wireframes
 
 [Adding Columns](https://share.balsamiq.com/c/oyxTXxqSh8rLqU3JY71DWY.png)
+
 [Added Column](https://share.balsamiq.com/c/7U9yahZtYWX2G5obkyivoz.png)
 
 ### 2.2 Adding Formulas
@@ -101,6 +102,9 @@ Wireframes
 
 Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will apply an automatic aggregation. Users can change the aggregation type at any moment.
 
+---
+Wireframes
+
 [Added Input Aggregation](https://share.balsamiq.com/c/fNcbvQ1q5xMyni5JxBg3Rc.png)
 
 ### 2.5 Applying a Formula to an Input Column
@@ -108,6 +112,9 @@ Input columns can be aggregated in cases where a link might be referencing multi
 Direct input columns can also be transformed into formulas. The available formulas will depend on the input column type.
 
 To transform the input column into a formula, the user will select the `Apply Formula` option in the column header menu.
+
+---
+Wireframes
 
 [Applying a Formula](https://share.balsamiq.com/c/nEzYaNKNTSv9EFwzwtfSof.png)
 
@@ -119,6 +126,9 @@ The output table refers to the resulting table from all input columns selected a
 
 Users can filter the output table by selecting any column from the result table and applying filters. The column selector, in this case, will only allow users to select input columns rather than the complete column list from the column selection step.
 
+---
+Wireframes
+
 [Output Filter](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
 
 ### 3.2. Summarizing the Output Table
@@ -126,6 +136,9 @@ Users can filter the output table by selecting any column from the result table 
 Users can summarize the output table to get an aggregation of the column values grouped by a summary column.
 
 To summarize the table, the user selects the `Summarize` option from the result transformations menu and chooses a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
+
+---
+Wireframes
 
 [Output Summarization](https://share.balsamiq.com/c/rPMwwETnuQ8a4ut8NfmcDB.png)
 
@@ -135,13 +148,19 @@ Users can sort the output table by applying a sort to any of the result table co
 
 To sort the table, the user selects the `Sort` option from the result transformations menu and adds it to the list. Once added, the user can set a column and a direction for the sort.
 
+---
+Wireframes
+
 [Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.png)
 
 ### 3.4 Adding a New Column to a Summarized Table
 
 If the result table has transformations applied, new columns will be added automatically to the summarization steps and an aggregation set by default.
 
-[New Column](https://share.balsamiq.com/c/kWyvRL822BdBubhT4ghzgA.png)
+---
+Wireframes
+
+[Adding New Column](https://share.balsamiq.com/c/kWyvRL822BdBubhT4ghzgA.png)
 
 ## 4. Previewing the Query Results
 
@@ -167,11 +186,11 @@ If a user adds a column with multiple records without an aggregation, values fro
 
 The system can determine the aggregation formula based on the column's data type.
 
-## 7. Other
+## 7. Other Considerations
 
 ### Column Naming Convention
 
-As they are added to the query, columns should include source references as part of their names.
+Input column names, when created, should have generated names that reference the source of the columns. For example, a column `full_name` from the `Person` table, linked by the column `actor_id` in `Movie` would be named `movie_actor full_name`
 
 In cases where the column names match the patterns applied in Mathesar, we could detect redundant suffixes like `id` and strip them off for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
 
