@@ -135,7 +135,7 @@ Users can sort the output table by applying a sort to any of the result table co
 
 To sort the table, the user selects the `Sort` option from the result transformations menu and adds it to the list. Once added, the user can set a column and a direction for the sort.
 
-[Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.pngs)
+[Output Sorting](https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.png)
 
 ### 3.4 Adding a New Column to a Summarized Table
 
