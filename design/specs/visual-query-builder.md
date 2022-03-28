@@ -24,7 +24,7 @@ The base table also determines the automatic joins that are performed when the u
 
 ### Changing the base table
 
-Base table selection should be done at the start of the query building progress. Changing it after input columns have been selected will clear all progress.
+The user should make base table selection at the start of the query building progress. Changing it after input columns have been selected will clear all progress.
 A warning should be given to users so that they understand the consequences of making this change.
 
 ### 1.1 Base Table Options
@@ -33,7 +33,7 @@ The base table selector will display a list of all available tables in the curre
 
 To select a table, the user will find it on the list and click on the desired table option.
 
-Selecting the base table will enable the interface controls of additional steps (e.g. column selection, filters), which were initially disabled. No action is available before a base table is selected.
+Selecting the base table will enable the interface controls for additional steps (e.g., column selection, filters), which were initially disabled. No action is available before a base table is selected.
 
 Once a selection has been made, the user will be prompted to proceed with the input columns configuration, starting with column selection.
 
@@ -58,9 +58,9 @@ Some options might be available for columns that link to multiple records, like 
 
 To start adding columns, the user clicks on the `Add Column` button located in the `Columns` section on the query configuration panel. This action will display the `Column Selector` component in the inspector panel.
 
-The `Column Selector` will list all available columns, and those in use, when applicable. Additionally there will be a list of all formulas.
+The `Column Selector` will list all available columns and those in use, when applicable. Additionally, there will be a list of all formulas.
 
-The columns in `Column Selector` are listed in a hierarchical structure based on the links that exist between the base table and other tables, in both directions. Icons indicate whether the linked records are single or multiple.
+The columns in `Column Selector` are listed in a hierarchical structure based on the links that exist between the base table and other tables in both directions. Icons indicate whether the linked records are single or multiple.
 
 Links are presented as expandable sections containing the columns from the linked tables.
 
@@ -86,7 +86,7 @@ Wireframes
 
 ### 2.3 Filtering Input Column Values
 
-Columns that link to multiple records can have filters applied to them in order to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
+Columns that link to multiple records can have filters applied to them to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
 
 Filter options will be determined by the data type of the input column.
 
@@ -113,7 +113,7 @@ To transform the input column into a formula, the user will select the `Apply Fo
 
 ## 3. Transforming the Output Table
 
-The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters, sorts and summarizations to the result table.
+The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters, sorts, and summarizations to the result table.
 
 ### 3.1. Filtering the Output Table
 
@@ -129,7 +129,7 @@ To summarize the table, the user selects the `Summarize` option from the result 
 
 [Output Summarization](https://share.balsamiq.com/c/rPMwwETnuQ8a4ut8NfmcDB.png)
 
-### 3.3 Sorting the Ouput Table
+### 3.3 Sorting the Output Table
 
 Users can sort the output table by applying a sort to any of the result table columns.
 
@@ -145,11 +145,11 @@ If the result table has transformations applied, new columns will be added autom
 
 ## 4. Previewing the Query Results
 
-A preview, or query result table, should be visible at all times while the user is in `Data Explorer`. The result table, will change based on the different configurations, for example, if a user applies a filter, the table should be refreshed to show the output with the filter applied.
+A preview, or query result table, should be visible while the user is in `Data Explorer`. The result table will change based on the different configurations, for example, if a user applies a filter, the system should refresh the table to show the output with the filter applied.
 
 ## 5. Saving the Query as a View
 
-Under `Save Options`, the user can name the resulting query and choose to save it. This would save the view as a query, that would be run everytime the user opens it.
+Under `Save Options`, the user can name the resulting query and choose to save it. This would save the view as a query that would be run every time the user opens it.
 
 ## 6. Troubleshooting and Resolving Errors
 
@@ -167,27 +167,7 @@ If a user adds a column with multiple records without an aggregation, values fro
 
 The system can determine the aggregation formula based on the column's data type.
 
-## 7. Alerts and Error Prevention
-
-### User attempts to delete a base table
-
-### User changes the selected formula of a column to one that is incompatible with the source column's data type
-
-### User attemps to save a new formula column with incomplete settings
-
-## 8. Data Explorer Onboarding Considerations
-
-### Introducing Base Tables
-
-### Introducing Links
-
-### Introducing Formula Columns
-
-### Input vs. Output Steps
-
-### Query vs. View
-
-## 9. Other
+## 7. Other
 
 ### Column Naming Convention
 
