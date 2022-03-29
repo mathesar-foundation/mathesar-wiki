@@ -76,19 +76,30 @@ Wireframes
 
 [Added Column](https://share.balsamiq.com/c/7U9yahZtYWX2G5obkyivoz.png)
 
-### 2.2 Adding Formulas
+### 2.2 Input Column Sources
+
+Once added, the user can inspect input columns by selecting them from the result table or the list of columns in the query configuration panel. Details for each column will include a section labeled `Source`. Under this section, the source column, table, and links will be listed. The source will include `Links` only for data sourced via tables connected to or from the base table.
+
+---
+Wireframes
+
+[Column Sources](https://share.balsamiq.com/c/ewCxvkjS8VoScKfgb9hFos.png)
+
+### 2.3 Adding Formulas
 
 Formulas are used to generate new columns based on different parameters. To access the list of formulas, the user start the `Add Column` process and selects the option `From Formula` at the top of the inspector panel. Selecting a formula will open a form that users can fill out to determine the values of the new column.
 
 Depending on the selected formula, different settings will be available.
 More on formulas and specific details for each will be covered on a separate issue.
 
+Columns generated from formulas will display a formula icon indicator in the column header.
+
 ---
 Wireframes
 
 [Added Formula](https://share.balsamiq.com/c/vWfJ9sUYWJxed5Zo5WtPGi.png)
 
-### 2.3 Filtering Input Column Values
+### 2.4 Filtering Input Column Values
 
 Columns that link to multiple records can have filters applied to them to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.
 
@@ -96,21 +107,25 @@ Filter options will be determined by the data type of the input column.
 
 Filters can be added by clicking on the `Add Filter` option from the query configuration panel or directly from the results table column header menu.
 
+Columns with filters applied will display a filter icon indicator in the column header.
+
 ---
 Wireframes
 
 [Added Input Filter](https://share.balsamiq.com/c/tK2hZy6FB4zVYpN56ejpBk.png)
 
-### 2.4 Aggregating Input Column Values
+### 2.5 Aggregating Input Column Values
 
 Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will apply an automatic aggregation. Users can change the aggregation type at any moment.
+
+Columns with aggregations applied, will display an aggregation icon indicator in the column header.
 
 ---
 Wireframes
 
 [Added Input Aggregation](https://share.balsamiq.com/c/fNcbvQ1q5xMyni5JxBg3Rc.png)
 
-### 2.5 Applying a Formula to an Input Column
+### 2.6 Applying a Formula to an Input Column
 
 Direct input columns can also be transformed into formulas. The available formulas will depend on the input column type.
 
@@ -188,6 +203,10 @@ Additionally, users should be able to identify which input columns are filtered,
 If a user adds a column with multiple records without an aggregation, values from other columns will be duplicated. Adding aggregations by default for columns with multiple records would help users discover this functionality.
 
 The system can determine the aggregation formula based on the column's data type.
+
+### An input column used in a formula has been deleted
+
+If a user deletes an input column used in a formula, then that formula column needs to display the error and prompt the user to resolve it. The user can simply change the affected column to another one or delete the formula column.
 
 ## 7. Other Considerations
 
