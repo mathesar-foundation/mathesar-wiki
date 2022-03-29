@@ -14,7 +14,7 @@ This document specifies the design of a visual query builder within the Mathesar
 
 Users will also be able to open existing views in `Data Explorer` if the query commands and functions used to generate them are supported.
 
-For a more detailed overview of this feature, read [Views Product Spec](https://wiki.mathesar.org/en/product/specs/2022-01-views).
+Read the [Views Product Spec](https://wiki.mathesar.org/en/product/specs/2022-01-views) for a more in-depth explanation of this feature.
 
 ## Scenarios
 
@@ -219,16 +219,16 @@ The system can determine the aggregation formula based on the column's data type
 
 ### An input column used in a formula has been deleted
 
-If a user deletes an input column used in a formula, then that formula column needs to display the error and prompt the user to resolve it. The user can simply change the affected column to another one or delete the formula column.
+If a user deletes an input column utilized in a formula, then that formula column needs to display the error and prompt the user to resolve it. The user can simply replace the affected column with another one or delete the formula column.
 
 ## 7. Other Considerations
 
 ### Column Naming Convention
 
-Input column names, when created, should have generated names that reference the source of the columns. For example, a column `full_name` from the `Person` table, linked by the column `actor_id` in `Movie` would be named `movie_actor full_name`.
+Input column names, when constructed, should have generated names that reference the source of the columns. For example, a column `full_name` from the `Person` table, linked by the column `actor_id` in `Movie` would be named `movie_actor full_name`.
 
-In cases where the column names match the patterns applied in Mathesar, we could detect redundant suffixes like `id` and strip them off for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
+In cases when the column names fit the patterns employed in Mathesar, we might detect unnecessary suffixes like `id` and strip them out for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
 
 Additionally, link hierarchy can be inclided. For example `sequel_prequel_sequel title` for a column named `title` added through Movie's `sequel_id`'s `prequel_id`'s `sequel_id`.
 
-Users can change the default names at any time and still get the source information under the column details.
+Users can alter the default names at any time and still see the source information under the column details.
