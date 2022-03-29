@@ -10,9 +10,9 @@ dateCreated: 2022-03-08 18:02:58
 
 ## Context
 
-This document specifies the design for a visual query builder named `Data Explorer` within the Mathesar application. Through using `Data Explorer`, users will be able to analyze data across one or multiple tables of a schema and save the result of those queries as views.
+This document specifies the design of a visual query builder within the Mathesar application called `Data Explorer`. Users will be able to analyze data across one or more schema tables using 'Data Explorer,' and the results of those queries will be saved as views.
 
-Additionally, users will be able to open existing views in `Data Explorer`, as long as the query commands and functions used to generate it are supported.
+Users will also be able to open existing views in `Data Explorer` if the query commands and functions used to generate them are supported.
 
 For a more detailed overview of this feature, read [Views Product Spec](https://wiki.mathesar.org/en/product/specs/2022-01-views).
 
@@ -20,25 +20,25 @@ For a more detailed overview of this feature, read [Views Product Spec](https://
 
 ## 1. Selecting the Base Table
 
-The base table selection is the first step when starting a new query, and it will determine which columns and links are available as input columns.
+When starting a new query, the first step is to select the base table, which determines which columns and links are available as input columns.
 
-The base table also determines the automatic joins that are performed when the user adds columns from linked tables.
+When a user adds columns from linked tables, the base table determines the automatic joins that are performed.
 
 ### Changing the base table
 
-The user should make base table selection at the start of the query building progress. Changing it after input columns have been selected will clear all progress.
+The user should choose a base table at the start of the query building process. Changing it after the input columns have been selected will result in the loss of all progress.
 
-A warning should be given to users so that they understand the consequences of making this change.
+A warning should be issued to users so that they are aware of the implications of making this change.
 
 ### 1.1 Base Table Options
 
-The base table selector will display a list of all available tables in the current schema (Initially, this list will not show views. Exploration of views will be added in later iterations.)
+The base table selector will show a list of all the tables that are currently available in the schema. (At first, this list will not display views. View exploration will be added in later iterations.)
 
-To select a table, the user will find it on the list and click on the desired table option.
+To choose a table, the user must first locate it on the list and then click on the desired table option.
 
-Selecting the base table will enable the interface controls for additional steps (e.g., column selection, filters), which were initially disabled. No action is available before a base table is selected.
+When you select the base table, the interface controls for additional steps (e.g., column selection, filters) that were previously disabled will become available. Before selecting a base table, no action is available.
 
-Once a selection has been made, the user will be prompted to proceed with the input columns configuration, starting with column selection.
+After making a selection, the user will be prompted to continue with the input column configuration, starting with column selection.
 
 ---
 Wireframes
@@ -49,21 +49,21 @@ Wireframes
 
 ## 2. Creating the Input Table
 
-The input table is created by selecting columns from the base table or creating new ones via formulas.
+The input table is built by selecting columns from the base table or by generating new ones using formulas.
 
-These columns are added to the result table based on the selection order. Users can rename columns as they wish.
+Based on the order of selection, these columns are added to the result table. Columns can be renamed by users as they see fit.
 
-By default, the system will name columns to indicate their source table and column according to the following [naming convention](#column-naming-convention).
+The system will name columns by default to indicate their source table and column using the [naming convention](#column-naming-convention).
 
-Some options might be available for columns that link to multiple records, like filters and aggregations to help users define which data they want to show and how. The system will automatically detect the type of columns and present the available options to users.
+Some options, such as filters and aggregations, may be available for columns that link to multiple records to help users define which data they want to show and how. The system will automatically detect the type of column and present users with the available options.
 
 ### 2.1. Adding Input Columns
 
-To start adding columns, the user clicks on the `Add Column` button located in the `Columns` section on the query configuration panel. This action will display the `Column Selector` component in the inspector panel.
+To begin adding columns to a query configuration panel, the user must first select the `Add Column` button situated in the `Columns` portion of the query configuration panel. The `Column Selector` component will be displayed in the inspector panel as a result of this action.
 
-The `Column Selector` will list all available columns and those in use, when applicable. Additionally, there will be a list of all formulas.
+The `Column Selector` will display a list of all available columns as well as those already in use, if available. In addition, a complete list of all formulas will be available.
 
-The columns in `Column Selector` are listed in a hierarchical structure based on the links that exist between the base table and other tables in both directions. Icons indicate whether the linked records are single or multiple.
+The columns in `Column Selector` are listed in a hierarchical structure based on the links that exist in both directions between the base table and other tables. The icons indicate whether the linked records are a single or multiple record collection.
 
 Links are presented as expandable sections containing the columns from the linked tables.
 
@@ -78,7 +78,9 @@ Wireframes
 
 ### 2.2 Input Column Sources
 
-Once added, the user can inspect input columns by selecting them from the result table or the list of columns in the query configuration panel. Details for each column will include a section labeled `Source`. Under this section, the source column, table, and links will be listed. The source will include `Links` only for data sourced via tables connected to or from the base table.
+Once the input columns have been added, the user can inspect them by selecting each from the result table or the list of columns in the query configuration panel, respectively. A section titled 'Source' will be included in the details for each column. The source column, table, and links will all be listed in this portion of the panel.
+
+The source will include `Links` only for data sourced via tables connected to or from the base table.
 
 ---
 Wireframes
@@ -116,9 +118,9 @@ Wireframes
 
 ### 2.5 Aggregating Input Column Values
 
-Input columns can be aggregated in cases where a link might be referencing multiple values. In such cases, and based on the data type of the referenced column, the system will apply an automatic aggregation. Users can change the aggregation type at any moment.
+In cases where a link may refer to multiple values, input columns can be aggregated. In such cases, the system will perform automatic aggregation based on the data type of the referenced column. Users can change the type of aggregation at any time.
 
-Columns with aggregations applied, will display an aggregation icon indicator in the column header.
+Aggregated columns will have an aggregation icon indicator in the column header.
 
 ---
 Wireframes
@@ -136,13 +138,13 @@ Wireframes
 
 [Applying a Formula](https://share.balsamiq.com/c/nEzYaNKNTSv9EFwzwtfSof.png)
 
-## 3. Transforming the Output Table
+## 3. Applying Transformations to the Result Table
 
-The output table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters, sorts, and summarizations to the result table.
+The result table refers to the resulting table from all input columns selected and added, including filters and aggregations. Transforming this output can be done by applying output filters, sorts, and summarizations to the result table.
 
 ### 3.1. Filtering the Output Table
 
-Users can filter the output table by selecting any column from the result table and applying filters. The column selector, in this case, will only allow users to select input columns rather than the complete column list from the column selection step.
+Users can filter the output table by adding a filter step to any column from the result table. The column selector, in this scenario, will only allow users to select input columns rather than the whole column list from the column selection stage.
 
 ---
 Wireframes
@@ -182,9 +184,9 @@ Wireframes
 
 ## 4. Deleting a Result Transformation Step
 
-To delete a result transformation step, the user can click on the `Delete` button located in each step item. Deleting a step means that the system will undo any transformations applied through that step, and the result table will reflect the updated output.
+To delete a result transformation step, the user can click on the `Delete` button present in each step item. Deleting a step means that the system will undo all transformations made through that step, and the result table will reflect the updated output.
 
-In cases where subsequent steps depend on columns resulting from a deleted step, the system will display error warnings for each failed step. The table output will only reflect the output generated by those steps without errors.
+In circumstances where subsequent steps rely on columns resulting from a deleted step, the system will display error warnings for every failed step. The table output will only reflect the output generated by those stages without errors.
 
 ---
 Wireframes
@@ -203,7 +205,7 @@ Under `Save Options`, the user can name the resulting query and choose to save i
 
 ### The result table has no rows
 
-The result table might be empty if a filter returns no values or if the base table is empty. Since queries will run every time the user opens a view, it is possible that the data has changed or that the filter criteria returns no matches.
+The result table could be empty if a filter returns no results or if the base table is empty. Since queries will run every time the user opens a view, it is possible that the data has changed or that the filter condition returns no results.
 
 Providing a count of rows and columns from the original base table would eliminate confusion around the data source (the table is not empty).
 
