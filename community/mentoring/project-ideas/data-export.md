@@ -2,7 +2,7 @@
 title: Support Data Export
 description: 
 published: true
-date: 2022-02-18T00:15:46.616Z
+date: 2022-03-30T18:48:02.816Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-18T00:03:46.048Z
@@ -32,6 +32,8 @@ Currently, Mathesar does not have any functionality that allows users to export 
 
 ## Expected Outcome
 By the end of this project, we expect that the backend code and APIs will support exporting data to one or more of the file formats listed above.
+
+Also, we expect that exporting will transfer as much information as is supported by the target format, which might include column names, column types and table names (and possibly other bits of information).
 
 If the candidate is interested in working on the frontend, we'd also love to see the frontend feature implemented.
 
