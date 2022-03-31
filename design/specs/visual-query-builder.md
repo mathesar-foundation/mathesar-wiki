@@ -151,16 +151,18 @@ Wireframes
 
 [Output Filter](https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png)
 
-### 3.2. Summarizing the Output Table
+### 3.2. Summarizing the Result Table
 
-Users can summarize the output table to get an aggregation of the column values grouped by a summary column.
+The `Summarization` step enables users to generate a summarized version of the result table. When added, the system will group the table values based on a summary column of their choice. The summary can be done using the summary column's exact values or by using the summary column's data type's available grouping options.
 
-To summarize the table, the user selects the `Summarize` option from the result transformations menu and chooses a summary column. The rest of the columns are automatically assigned an aggregation function which users can change at any point. The aggregations are inferred based on the data type of the output column.
+To summarize the table, the user selects the `Summarize` option from the result transformations menu and adds the step. Once added, the remaining columns are automatically assigned an aggregation function, which users can change at any time. The data type of the output column is used to infer aggregates.
 
 ---
 Wireframes
 
 [Output Summarization](https://share.balsamiq.com/c/rPMwwETnuQ8a4ut8NfmcDB.png)
+
+[Summarization Options](https://share.balsamiq.com/c/x2iwVBT3NwzmKyhnxSiJku.png)
 
 ### 3.3 Sorting the Output Table
 
