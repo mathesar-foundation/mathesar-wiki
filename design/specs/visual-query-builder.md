@@ -231,6 +231,6 @@ Input column names, when constructed, should have generated names that reference
 
 In cases when the column names fit the patterns employed in Mathesar, we might detect unnecessary suffixes like `id` and strip them out for shortening the names (e.g. `sequel title` instead of `sequel_id title`).
 
-Additionally, link hierarchy can be inclided. For example `sequel_prequel_sequel title` for a column named `title` added through Movie's `sequel_id`'s `prequel_id`'s `sequel_id`.
+Additionally, link hierarchy can be included. For example `sequel_prequel_sequel title` for a column named `title` added through Movie's `sequel_id`'s `prequel_id`'s `sequel_id`.
 
 Users can alter the default names at any time and still see the source information under the column details.
