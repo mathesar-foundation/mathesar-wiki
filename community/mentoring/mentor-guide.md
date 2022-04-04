@@ -2,7 +2,7 @@
 title: Mentor Guide
 description: 
 published: true
-date: 2022-04-04T22:38:19.620Z
+date: 2022-04-04T22:38:57.678Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:27:25.246Z
@@ -10,7 +10,6 @@ dateCreated: 2022-02-09T22:27:25.246Z
 
 This guide only covers Mathesar-specific processes and guidelines. For a more general overview of what mentorship entails, please read [the Google Summer of Code Mentor Guide](https://google.github.io/gsocguides/mentor/).
 
-# Structure
 Mentoring programs are usually structured into the following stages:
 1. Preparing project ideas
 2. Applying for the mentoring program
@@ -20,7 +19,7 @@ Mentoring programs are usually structured into the following stages:
 6. Planning with mentees
 7. Working with mentees
 
-## Preparing project ideas
+# Preparing project ideas
 We need a list of potential project ideas that applicants can submit a proposal to implement. 
 
 Project ideas should be:
@@ -38,12 +37,12 @@ If you're wondering if your project idea makes sense, discuss it on Matrix with 
 
 > **See also:** The ["Defining a Project (Ideas List)" page of the GSoC mentor guide](https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list)
 
-## Applying for the mentoring program
+# Applying for the mentoring program
 Once we have fleshed our our project ideas, Kriti will submit Mathesar's application to the mentoring program. While we wait to hear back, you should:
 - create a set of `good first issue` tasks suitable for first-time contributors to the codebase.
 - mentally prepare to deal with increased communication work.
 
-## Accepting contributions from applicants
+# Accepting contributions from applicants
 Once the mentoring program (e.g. Google) announces the organizations participating in the program, potential applicants will start communicating with us. This stage of the program is the most intense.
 
 You should:
@@ -54,14 +53,14 @@ You should:
 - review PRs quickly
 - answer questions about the project ideas and the product.
 
-### Communication Tips
+## Communication Tips
 - Point people to public channels and away from email and DMs so that others can answer questions too.
 - You may get low effort questions like "how do I get started?". Don't try to guess what people mean, ask for more specific questions.
 	- In general, the effort involved in helping someone should be proportional to the effort they put in.
 - If you find yourself answering the same questions often, update the relevant documentation so you can point people to it instead.
 - Do not give individual applicants information about competing applications (e.g. how many proposals we got for a particular project idea).
 
-## Reviewing proposals from applicants
+# Reviewing proposals from applicants
 Applicants will start working on draft proposals and sharing them with you a few weeks before the deadline. You are responsible for reviewing all proposals for which you are the primary mentor.
 
 You should:
@@ -70,7 +69,7 @@ You should:
 - review proposals in 1-2 days if possible.
 - ask for review from other team members if you think it would be useful. 
 
-### What does reviewing involve?
+## What does reviewing involve?
 - Reviewing involves leaving comments on the proposal to help the applicant improve the proposal before final submission.
 - Review comments should focus on finding problems with the proposal, not suggesting specific solutions.
 - Comments should mostly be in the form of:
@@ -88,7 +87,7 @@ You should:
 	- Has the applicant thought through design and UX issues?
 	- Are the applicant's code contributions strong enough that you feel confident that they can follow through on their plan?
 
-## Choosing mentees
+# Choosing mentees
 After the final proposals are in, you'll meet with the rest of the Mathesar team and decide which proposals are strong enough to accept. 
 
 This is an internal decision, we do not communicate with applicants about their proposals at this point.
@@ -99,20 +98,19 @@ During this period, you should:
 	1. Will one of you be the primary mentor or will all of you be equally involved? 
 	2. How will checkins and notes be shared?
 
-
-## Working with the mentees
+# Working with the mentees
 At this point,
 1. We've decided which applications to accept
 2. The mentoring program has approved our selection
 3. The accepted mentees have been announced
 
-### Welcoming the mentee
+## Welcoming the mentee
 - Reach out to your mentee ASAP and welcome them to the project.
 - Have an introductory call with the mentee and get to know each other. 
 	- Ask them questions about themselves and talk about yourself too.
 - Ensure that the mentee is added to our [Team Members](/en/team/members) and has the correct GitHub and wiki permissions.
 
-### Finalizing the project plan and workflow
+## Finalizing the project plan and workflow
 Before work on the project gets underway, you should:
 - collaborate with your mentee to finalize the implementation details and weekly deliverables for the project
 - create a document to keep any project information and notes, include:
@@ -131,27 +129,27 @@ Before work on the project gets underway, you should:
   - How often should your mentee give you progress reports?
   - What is the best way for the mentee to get your attention when they are stuck?
 
-### Mentoring Period
+## Mentoring Period
 You're now ready to mentor!
 
-#### Weekly check-ins
+### Weekly check-ins
 - Take good notes so that your backup mentor can pick up where you left off easily if you’re unavailable.
 - Make sure the mentee is on-track with their weekly milestones and if not, work with them to figure out why and come up with a plan.
 - Ask how the mentee is doing generally.
 - Praise things they are doing well and provide constructive criticism on the things they could improve on. Both of these are important.
 
-#### Ongoing work
+### Ongoing work
 - Review all work/code promptly. You should aim to review within 1 business day.
   - If your mentee is blocked on their work for some other reason, help them become unblocked as soon as possible.
 - Check in on Matrix with the mentee once every day or two. 
 	- Remember that mentees are inexperienced and may not know they are stuck, when to ask for help, and/or how to articulate problems well.
 
-#### Feedback
+### Feedback
 - Submit your required program evaluations on time.
 - Ask for feedback on your mentorship every few weeks.
 - Your mentee might like to present their work at a CCI research meeting and get some feedback. It's up to you to facilitate this.
 
-#### Troubleshooting
+### Troubleshooting
 Talk to the program coordinator proactively if you're not sure what to do. Some things to pay attention to:
 - Your mentee is not active and engaged regularly.
 - Your mentee is not communicating enough or misses a check-in.
