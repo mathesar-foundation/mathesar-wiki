@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-03-22T04:55:15.122Z
+date: 2022-04-04T21:17:10.812Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -46,8 +46,8 @@ You'll need to pick a project that you're interested in working on. Please see o
 
 Once you pick a project, make sure you understand what the work entails so that you can plan the work out ahead of time and submit a strong application. The mentors are here to help you. We expect you to have a lot of questions and we're happy to answer them.
 
-## Step 2: Write a Draft Application
-You'll now need to write a draft application proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](/en/community/mentoring/project-proposal-template) for this.
+## Step 2: Write a Draft Proposal
+You'll now need to write a draft proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](/en/community/mentoring/project-proposal-template) for this.
 
 The project descriptions can be quite short so we expect you to do a significant amount of work here on your own taking those descriptions and fleshing them out into a feasible plan and timeline for a complete project that you can ship during the program period.
 
@@ -59,12 +59,14 @@ We suggest reading some articles on writing good Google Summer of Code proposals
 * [Writing a solid Google Summer of Code Proposal](https://medium.com/@evenstensberg/writing-a-solid-google-summer-of-code-proposal-a200fc6e785b)
 
 ## Step 3: Get Feedback from Mentors
-Once you've written your draft, share it with the mentors for your idea and get feedback. Use Google Docs to share and make sure the mentors have permission to comment on your document.
+1. Create a draft proposal in Google Docs.
+2. Make sure that mentors have permission to add comments to the document.
+3. Submit it via the GSoC website to get feedback from the mentors.
 
 **Do not wait until the last minute to work on your application.** You should ideally get at least two rounds of feedback from the mentors before you submit your final application and each round of feedback could take a few days.
 
 ## Step 4: Submit your Final Application
-Once you've received feedback from your mentors and you're happy with your application, submit your final application via the Google Summer of Code website.
+Once you've received feedback from your mentors and you're happy with your proposal, submit your final proposal via the Google Summer of Code website.
 
 # Communication Tips
 All our mentors are on [Matrix](/en/community/matrix). Please use public channels as the primary method of communication rather than DMs. Public channels are better than direct messages because it allows any available mentor (or even another applicant) to answer your questions and interact with you. It also allows other applicants who have the same questions to benefit from the answers the mentor is giving you.
