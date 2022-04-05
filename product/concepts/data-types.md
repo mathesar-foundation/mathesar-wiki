@@ -44,5 +44,5 @@ Unlike [Databases](/product/concepts/databases), [Schemas](/product/concepts/sch
 In the future, users will be able to plug in their own data types into Mathesar.
 
 # Resources
-- [Code-focused wiki page on UI data types](/engineering/architecture/ui-types)
+- [Code-focused wiki page on UI data types](/engineering/glossary/ui-types)
 - [PostgreSQL documentation for data types](https://www.postgresql.org/docs/current/datatype.html).

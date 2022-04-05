@@ -35,7 +35,7 @@ If the candidate is interested, they can also implement the feature on the front
 - Think through different cases for how to reconcile data, e.g. what happens when the field names in a CSV file don't match column names, or what happens when the table has more or fewer columns than the file being imported.
 
 ## Resources
-- [Import Preview API technical spec](/en/engineering/architecture/import-preview-api)
+- [Import Preview API technical spec](/en/engineering/specs/import-preview-api)
 
 ## Mentors
 - **Primary Mentor**: Mukesh Murali
