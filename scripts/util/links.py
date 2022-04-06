@@ -68,7 +68,9 @@ def resolve_wiki_link(link, file):
     """
     Converts wiki.js link to usable local path
     """
-    print('\n\n', link, '\n', file, '\n\n')
+    # Don't check anchor links within the same file
+    if link.startswith("#"):
+        return file
     # Remove styling that might be part of image links (e.g. "x.png =240x")
     link = link.split(" =")[0]
     # Remove fragments if they exist
@@ -84,9 +86,6 @@ def resolve_wiki_link(link, file):
     
     if link.startswith("/"):
         return link.lstrip("/")
-    if link.startswith("#"):
-        print('\n\n', link, '\n', file, '\n\n')
-        return file
     else:
         return resolve_relative_link(link, file)
 
