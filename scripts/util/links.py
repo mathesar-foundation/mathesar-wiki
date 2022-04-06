@@ -72,6 +72,9 @@ def resolve_wiki_link(link, file):
     link = link.split(" =")[0]
     # Remove fragments if they exist
     link = link.split("#")[0]
+    # Remove "/en" from paths if they exist, since English is the default
+    if link.startswith('/en/')
+        link = link[3:]
     # Add .md extension is there is no extension
     _, ext = os.path.splitext(link)
     if not ext:
