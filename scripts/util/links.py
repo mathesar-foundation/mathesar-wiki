@@ -69,6 +69,7 @@ def resolve_wiki_link(link, file):
     Converts wiki.js link to usable local path
     """
     # Don't check anchor links within the same file
+    # TODO: Check anchor links in the future
     if link.startswith("#"):
         return file
     # Remove styling that might be part of image links (e.g. "x.png =240x")
