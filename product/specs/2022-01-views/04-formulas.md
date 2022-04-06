@@ -2,7 +2,7 @@
 title: 04. Formulas
 description: A list of initial formulas supported in Views
 published: true
-date: 2022-03-08T22:20:25.107Z
+date: 2022-04-06T02:08:08.020Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T03:33:53.715Z
@@ -28,7 +28,7 @@ In order to make finding the right formula easier, we should categorize formulas
 
 See below for a _very_ rough representation of the idea.
 
-![view_builder_4.png](/view_builder_4.png)
+![view_builder_4.png](/assets/product/specs/2022-01-views/04-formulas/view_builder_4.png)
 
 ## Editing Formula Data
 When a query is turned into a View, we will allow users to edit data from the View in some cases. Each formula that is editable will define its own editing behavior, but here are some general guidelines:
