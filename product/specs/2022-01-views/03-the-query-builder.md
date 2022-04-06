@@ -2,7 +2,7 @@
 title: 03. The Query Builder
 description: 
 published: true
-date: 2022-03-25T22:02:57.159Z
+date: 2022-04-06T02:16:12.115Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-05T23:04:47.283Z
@@ -55,7 +55,7 @@ Users should be able to add columns to see in the query's output. Users can add 
 ## Flowchart
 Here's a flowchart of decisions that need to be made when adding columns. This is meant to be an illustrative example; we might end up making decisions in a different order or replacing some decisions with assumptions that the user can then change.
 
-![view_flowchart.drawio.png](/view_flowchart.drawio.png)
+![view_flowchart.drawio.png](/assets/product/specs/2022-01-views/03-the-query-builder/view_flowchart.drawio.png)
 
 # Query Refinement
 In addition to selecting output columns, the user should be able to add to the query in the following ways. 
