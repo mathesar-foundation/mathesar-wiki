@@ -68,6 +68,7 @@ def resolve_wiki_link(link, file):
     """
     Converts wiki.js link to usable local path
     """
+    print('\n\n', link, '\n', file, '\n\n')
     # Remove styling that might be part of image links (e.g. "x.png =240x")
     link = link.split(" =")[0]
     # Remove fragments if they exist
