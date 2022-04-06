@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2022-04-06T02:26:47.884Z
+date: 2022-04-06T02:27:43.094Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -13,7 +13,7 @@ dateCreated: 2021-04-20T19:00:06.658Z
 > This job was closed to new applicants in 2021-10
 {.is-danger}
 
-We're looking for a backend engineer to work on [Mathesar](https://wiki.mathesar.org/), a new open source project aimed at making databases more accessible to non-technical users. Our goal is to enable users of all skill levels to store, visualize, and collaborate with others on data.
+We're looking for a backend engineer to work on [Mathesar](http://mathesar.org/), a new open source project aimed at making databases more accessible to non-technical users. Our goal is to enable users of all skill levels to store, visualize, and collaborate with others on data.
 
 We're currently working hard on our alpha version, which we are aiming to ship by the end of 2021. Our team is based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and we are advised by Joi Ito and Reid Hoffman.
 
