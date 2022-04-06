@@ -72,6 +72,7 @@ def resolve_wiki_link(link, file):
     link = link.split(" =")[0]
     # Remove fragments if they exist
     link = link.split("#")[0]
+    
     # Remove "/en" from paths if they exist, since English is the default
     if link.startswith('/en/'):
         link = link[3:]
@@ -79,11 +80,14 @@ def resolve_wiki_link(link, file):
     _, ext = os.path.splitext(link)
     if not ext:
         link += ".md"
-
-    if not link.startswith("/"):
-        return resolve_relative_link(link, file)
-    else:
+    
+    if link.startswith("/"):
         return link.lstrip("/")
+    if link.startswith("#"):
+        print('\n\n', link, '\n', file, '\n\n')
+        return file
+    else:
+        return resolve_relative_link(link, file)
 
 
 def get_files(root, extensions=None):
