@@ -2,13 +2,17 @@
 title: Home
 description: 
 published: true
-date: 2022-03-22T21:04:46.495Z
+date: 2022-04-07T19:37:17.004Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
 <img src="/logo@2x_cropped.png" width=200px alt="Mathesar logo"/>
+
+> We're hiring a **[senior frontend engineer](https://wiki.mathesar.org/en/jobs#senior-frontend-engineer)**!
+{.is-info}
+
 
 **Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
