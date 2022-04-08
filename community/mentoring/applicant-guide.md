@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-04-04T21:17:10.812Z
+date: 2022-04-08T00:30:38.357Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -61,7 +61,7 @@ We suggest reading some articles on writing good Google Summer of Code proposals
 ## Step 3: Get Feedback from Mentors
 1. Create a draft proposal in Google Docs.
 2. Make sure that mentors have permission to add comments to the document.
-3. Submit it via the GSoC website to get feedback from the mentors.
+3. Send it to the mentors via Matrix to get feedback.
 
 **Do not wait until the last minute to work on your application.** You should ideally get at least two rounds of feedback from the mentors before you submit your final application and each round of feedback could take a few days.
 
