@@ -2,7 +2,7 @@
 title: Mentor Guide
 description: 
 published: true
-date: 2022-04-04T22:38:57.678Z
+date: 2022-04-08T00:31:53.092Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:27:25.246Z
@@ -65,7 +65,7 @@ Applicants will start working on draft proposals and sharing them with you a few
 
 You should:
 - track draft proposals and review status in our [our internal spreadsheet](https://docs.google.com/spreadsheets/d/1FSahyG8f6pkWj_hv7oMi6g49ANIpKJWDVtUS-Qwz0ZQ/)
-- ask applicants to submit proposals through the Google Summer of Code website so that we can keep track of them.
+- ask applicants to submit draft proposals directly to you via Matrix and add them to the spreadsheet when you get them.
 - review proposals in 1-2 days if possible.
 - ask for review from other team members if you think it would be useful. 
 
