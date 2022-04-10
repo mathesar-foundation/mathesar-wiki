@@ -16,7 +16,8 @@ The complete guide is given below .
  - Now you have to install any linux distro in your windows system .
   Go to microsorft store and install any linux distro(Ubuntu prefered) and launch .
  - If you do ls -la in ubuntu terminal you can see the linux files structure,
-     * so you have to access  window's files from ubuntu console, use this command to display all the storage drives avilable in windows , it will mount the storage .
+     * so you have to access  window's files from ubuntu console in order to reach your destination folder in windows, use the  command given below to display all the storage drives avilable in windows , it will mount the storage .
+     
      ``
      cd /mnt/
      ``
@@ -24,14 +25,19 @@ The complete guide is given below .
      ```
      cd /mnt/User/your_pc_name/Desktop/folder
      ```
- - Clone the repositories using command ``` git clone [repo-link](https://github.com/centerofci/mathesar)```
+ - Clone the repository using command
+    ``` 
+    git clone https://github.com/centerofci/mathesar.git
+    ```
     * Here you may run into some problems regarding permissions in some .git-config files. It may occur as Ubuntu is not configured properly in your Windows machine. Restart your machine to fix this issue.
+- Note: You have to perform these previous steps for the first time only ! after you have cloned the repo from ubuntu console in linux file sysyem then you can  simple close ubuntu and start working on the project as other django projects in windows.
+- Now no Linux/ubuntu console is needed, just open the project in vs-code(or any ide you prefer) and follow along .
  - Copy the `.env.example` file to `.env` like so:
 ```
 cp .env.example .env
 ```
 
-- From the repository's root directory, run:
+- From the repository's root directory, run this command (powershell prefered*):
 ```
 docker-compose up
 ```
@@ -44,5 +50,7 @@ docker exec mathesar_service sh -c "python manage.py migrate && python install.p
 
 It is recommended that you keep the Docker containers running while you make changes to the code. Any change to the code made locally will sync to the container and the version deployed at `http://localhost:8000` will always be the latest local version of the code.
 ### Troubleshooting
-Please refer to our [Common Issues wiki page](https://wiki.mathesar.org/engineering/common-issues) for instruction on troubleshooting common issues while setting up and running Mathesar.
+ * Running Script in powershell is disabled by default in windows , you have to change permission to run scripts  [Docs](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2) 
+* Please refer to our [Common Issues wiki page](https://wiki.mathesar.org/engineering/common-issues) for instruction on troubleshooting common issues while setting up and running Mathesar.
+
 
