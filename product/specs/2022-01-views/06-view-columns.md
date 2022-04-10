@@ -2,7 +2,7 @@
 title: 06. View Columns
 description: 
 published: true
-date: 2022-03-02T01:16:36.044Z
+date: 2022-04-06T02:13:46.659Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z
@@ -25,7 +25,7 @@ This is the set of source columns that are used to generate the data in the curr
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how Sources might be represented:
 
-![screen_shot_2022-01-20_at_4.21.05_pm.png](/screen_shot_2022-01-20_at_4.21.05_pm.png)
+![screen_shot_2022-01-20_at_4.21.05_pm.png](/assets/product/specs/2022-01-views/06-view-columns/screen_shot_2022-01-20_at_4.21.05_pm.png)
 
 ## Formula
 This is the formula used to generate data in for this column.
@@ -35,7 +35,7 @@ This is the formula used to generate data in for this column.
 We should allow users to use a pre-set set of formulas or (in the future) enter a custom formula using whatever functions are installed on their Postgres database.
 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
-![screen_shot_2022-01-20_at_4.23.21_pm.png](/screen_shot_2022-01-20_at_4.23.21_pm.png)
+![screen_shot_2022-01-20_at_4.23.21_pm.png](/assets/product/specs/2022-01-views/06-view-columns/screen_shot_2022-01-20_at_4.23.21_pm.png)
 
 Details about creating formulas are in [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
 

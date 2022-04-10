@@ -68,19 +68,27 @@ def resolve_wiki_link(link, file):
     """
     Converts wiki.js link to usable local path
     """
+    # Don't check anchor links within the same file
+    # TODO: Check anchor links in the future
+    if link.startswith("#"):
+        return file
     # Remove styling that might be part of image links (e.g. "x.png =240x")
     link = link.split(" =")[0]
     # Remove fragments if they exist
     link = link.split("#")[0]
+    
+    # Remove "/en" from paths if they exist, since English is the default
+    if link.startswith('/en/'):
+        link = link[3:]
     # Add .md extension is there is no extension
     _, ext = os.path.splitext(link)
     if not ext:
         link += ".md"
-
-    if not link.startswith("/"):
-        return resolve_relative_link(link, file)
-    else:
+    
+    if link.startswith("/"):
         return link.lstrip("/")
+    else:
+        return resolve_relative_link(link, file)
 
 
 def get_files(root, extensions=None):

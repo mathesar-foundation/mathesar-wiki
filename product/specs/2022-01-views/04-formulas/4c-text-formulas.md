@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2022-02-25T02:09:59.980Z
+date: 2022-04-07T21:17:57.523Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z
@@ -35,6 +35,24 @@ Concatenates two strings together.
         - **Description**: Second text
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator 
+
+# Contains
+Checks if a text contains another text
+
+- **Date Type**: Boolean
+- **Variables Accepted**:
+    - **Base Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Container text to check
+    - **Text**:
+        - **Type**: Single Record Text-Like
+        - **Description**: Contained text
+    - **Case Sensitive?**:
+        - **Type**: Boolean
+        - **Description**: Whether the checking should be case sensitive
+        - **Default Value**, False
+- **Editable?**: No
+- **PostgreSQL Mapping**: Use `LIKE` operator
 
 
 # Lowercase

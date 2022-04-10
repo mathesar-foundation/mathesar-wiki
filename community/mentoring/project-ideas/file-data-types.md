@@ -21,7 +21,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
 - Work with the Mathesar design team to figure out how end users can interact with file and image data types in the UI, including:
   - How data is displayed
   - How data is entered
-  - What [Mathesar Types](/en/engineering/architecture/mathesar-types) to show
+  - What [Mathesar Types](/en/engineering/glossary/ui-types) to show
   - What filtering options to support for each type
   - What grouping options to support for each type
   - What display options to support for each type
@@ -43,11 +43,11 @@ If the candidate is interested, it would be great to also have the types integra
 ## Resources
 - Data Types in Mathesar:
   - [Data Types "Concepts" page](/en/product/concepts/data-types)
-  - [Mathesar UI Data Types engineering page](/en/engineering/architecture/mathesar-types)
+  - [Mathesar UI Data Types engineering page](/en/engineering/glossary/ui-types)
 - [Existing Data Type components design spec](/en/design/specs/global-data-type-components), to see how current data types work.
 - Filters in Mathesar:
   - [Filters "Concepts" page](/en/product/concepts/filters)
-  - [Filters engineering page](/en/engineering/architecture/filters)
+  - [Filters engineering page](/en/engineering/glossary/filters)
 
 ## Mentors
 - **Primary Mentor**: Kriti Godey

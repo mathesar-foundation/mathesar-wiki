@@ -40,7 +40,7 @@ If the candidate is interested in working on the frontend, we'd also love to see
 - It's helpful to start from the experience that you'd like the end-user to have and work backwards.
 
 ## Resources
-- [Import Preview API technical spec](/en/engineering/architecture/import-preview-api)
+- [Import Preview API technical spec](/en/engineering/specs/import-preview-api)
 
 ## Mentors
 - **Primary Mentor**: Mukesh Murali

@@ -47,5 +47,5 @@ Then you might want to see movies released after 1990 that you've watched, so yo
 You can filter data in a [Table](/en/product/concepts/tables) or a [View](/en/product/concepts/views) in Mathesar using either the "Filters" button or each column's menu.
 
 # Further Reading
-- If you're curious, you can look at our [engineering page about Filters](/en/engineering/architecture/filters).
+- If you're curious, you can look at our [engineering page about Filters](/en/engineering/glossary/filters).
 

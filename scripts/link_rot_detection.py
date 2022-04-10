@@ -56,10 +56,12 @@ def check_external_link(session, link):
     Checks if an external link exists
     """
     try:
-        response = session.get(link,
-                               verify=False,
-                               headers=HEADERS,
-                               timeout=TIMEOUT)
+        response = session.get(
+            link,
+            verify=False,
+            headers=HEADERS,
+            timeout=TIMEOUT
+        )
         return response.status_code
     except requests.exceptions.ReadTimeout:
         return 404

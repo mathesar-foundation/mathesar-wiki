@@ -2,7 +2,7 @@
 title: Resources
 description: Reading and resources that might be of interest.
 published: true
-date: 2021-08-18T13:46:01.128Z
+date: 2022-04-08T16:18:06.490Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:30:35.472Z
@@ -16,6 +16,9 @@ This is a miscellaneous set of reading and resources that may or may not be rele
 # Deployment
 
 - [Best Practices Around Production Ready Web Apps with Docker Compose](https://nickjanetakis.com/blog/best-practices-around-production-ready-web-apps-with-docker-compose)
+
+# Licensing
+- [Maintaining Permissive-Licensed Files in a GPL-Licensed Project: Guidelines for Developers](https://softwarefreedom.org/resources/2007/gpl-non-gpl-collaboration.html)
 
 # Postgres
 Information on Postgres related projects and tools.

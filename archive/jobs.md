@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2022-03-25T22:08:48.123Z
+date: 2022-04-06T02:28:13.425Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z
@@ -13,7 +13,7 @@ dateCreated: 2021-04-20T19:00:06.658Z
 > This job was closed to new applicants in 2021-10
 {.is-danger}
 
-We're looking for a backend engineer to work on [Mathesar](https://wiki.mathesar.org/), a new open source project aimed at making databases more accessible to non-technical users. Our goal is to enable users of all skill levels to store, visualize, and collaborate with others on data.
+We're looking for a backend engineer to work on [Mathesar](http://mathesar.org/), a new open source project aimed at making databases more accessible to non-technical users. Our goal is to enable users of all skill levels to store, visualize, and collaborate with others on data.
 
 We're currently working hard on our alpha version, which we are aiming to ship by the end of 2021. Our team is based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and we are advised by Joi Ito and Reid Hoffman.
 
@@ -79,7 +79,7 @@ The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer
 > This job was closed to new applicants on 2021-09-10
 {.is-danger}
 
-We're looking for a frontend engineer to work on [Mathesar](https://wiki.mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
+We're looking for a frontend engineer to work on [Mathesar](http://mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
 You'll be collaborating closely with everyone on the existing [Mathesar team](https://wiki.mathesar.org/team) to build out the frontend for the project. Our frontend stack is Svelte and TypeScript, and our initial roadmap for the MVP is [on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).

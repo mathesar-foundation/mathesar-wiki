@@ -20,7 +20,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
 - Work with the Mathesar design team to figure out how end users can interact with the JSON data types in the UI, including:
   - How data is displayed
   - How data is entered
-  - What [Mathesar Types](/en/engineering/architecture/mathesar-types) to show
+  - What [Mathesar Types](/en/engineering/glossary/ui-types) to show
   - What filtering options to support
   - What grouping options to support
   - What display options to support
@@ -38,11 +38,11 @@ By the end of this project, we expect that users will be able to seamlessly use 
 ## Resources
 - Data Types in Mathesar:
   - [Data Types "Concepts" page](/en/product/concepts/data-types)
-  - [Mathesar UI Data Types engineering page](/en/engineering/architecture/mathesar-types)
+  - [Mathesar UI Data Types engineering page](/en/engineering/glossary/ui-types)
 - [Existing Data Type components design spec](/en/design/specs/global-data-type-components), to see how current data types work.
 - Filters in Mathesar:
   - [Filters "Concepts" page](/en/product/concepts/filters)
-  - [Filters engineering page](/en/engineering/architecture/filters)
+  - [Filters engineering page](/en/engineering/glossary/filters)
 - [PostgreSQL JSON types documentation](https://www.postgresql.org/docs/current/datatype-json.html)
 
 ## Mentors
