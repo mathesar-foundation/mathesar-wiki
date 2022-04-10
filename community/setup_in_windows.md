@@ -25,7 +25,7 @@ The complete guide is given below .
      cd /mnt/User/your_pc_name/Desktop/folder
      ```
  - Clone the repositories using command ``` git clone [repo-link](https://github.com/centerofci/mathesar)```
-    * Here you can ran into some problem regarding permission(chmod) in some .git-config files , it may occure as ubuntu is not configured properly in your windows machine just a quick restart can fix this issue .
+    * Here you may run into some problems regarding permissions in some .git-config files. It may occur as Ubuntu is not configured properly in your Windows machine. Restart your machine to fix this issue.
  - Copy the `.env.example` file to `.env` like so:
 ```
 cp .env.example .env
