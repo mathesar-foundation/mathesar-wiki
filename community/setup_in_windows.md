@@ -15,7 +15,7 @@ The complete guide is given below .
     
  - Now you have to install any linux distro in your windows system .
   Go to microsorft store and install any linux distro(Ubuntu prefered) and launch .
- - If you do ls-la in ubuntu terminla you can see the linux files structure,
+ - If you do ls -la in ubuntu terminal you can see the linux files structure,
      * so you have to access  window's files from ubuntu console, use this command to display all the storage drives avilable in windows , it will mount the storage .
      ``
      cd /mnt/
