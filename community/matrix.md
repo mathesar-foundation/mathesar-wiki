@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-03-11T22:20:26.690Z
+date: 2022-04-11T11:06:32.692Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -46,6 +46,13 @@ These channels focus on day-to-day design and product work.
 | Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
 | Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
+
+### Projects
+These channels focus on specific projects.
+
+| Name | Address | Purpose |
+|-|-|-|
+| Data Modeling | [`#data-modeling.mathesar.org`](https://matrix.to/#/#data-modeling:matrix.mathesar.org) | Discussions related to data modeling projects |
 
 ### Community 
 These channels focus on community building activities.
