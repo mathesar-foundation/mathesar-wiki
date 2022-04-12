@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-04-12T19:41:49.760Z
+date: 2022-04-12T20:19:56.163Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -43,17 +43,17 @@ These are specs for new features, corresponding to our [development milestones](
 - [Filter, Sort, Group Tables](/design/specs/filter-sort-group)
 - [Add Table from File Import](/design/specs/table-import)
 - [Read Only Table](/design/specs/read-only-table)
+- [Import Status](/design/specs/import-status)
+- [Table Creation Controls](/design/specs/table-creation-controls)
+- [Pagination Component](/design/specs/pagination)
+
 
 ### Database and Schemas
 - [Working with Schemas](/design/specs/schemas)
 - [Multiple Databases](/design/specs/database-switching)
 
-## Components
-
-These are detailed specs for complex components involved in the features above.
-
+### UI Improvements
 - [Left Sidebar Improvements](/design/specs/sidebar-improvements)
-- [Import Status](/design/specs/import-status)
-- [Table Creation Controls](/design/specs/table-creation-controls)
-- [Pagination Component](/design/specs/pagination)
 - [Lookup Field Component](/design/specs/lookup-field-component)
+
+
