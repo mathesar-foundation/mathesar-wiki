@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-02-17T23:45:43.592Z
+date: 2022-04-13T11:21:23.707Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -23,7 +23,7 @@ This is useful in various situations
 - **Length**: Long (~350 hours)
 
 ## Tasks
-- Build a python API to query for a database object dependency.
+- Build a python API(function in `db` module) to query for a database object dependency.
 - Extract dependency information from [System Catalog tables](https://www.postgresql.org/docs/8.4/catalogs.html) for the queried object
 - System Catalog Tables does not contain the dependency information of a function as functions are stored as text on the database. So [pglast](https://github.com/lelit/pglast) should be used to extract dependency information from the function body.
 - Build Dependency graph based on the dependency information.
