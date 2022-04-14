@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-04-13T11:21:23.707Z
+date: 2022-04-14T17:32:10.973Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -30,7 +30,7 @@ This is useful in various situations
 - Add Django dependency API to resources [listed in this issue](https://github.com/centerofci/mathesar/issues/398), making use of the underlying python dependency API
 
 ### Bonus Tasks
-- UI Graph View - Using the Dependency API, create a component on the frontend to visualize the dependency graph.
+- Integrate it into the UI to support features as needed
 
 ## Expected Outcome
 There should an appropriate python api backed by SQL functions which would take in the `oid` or `name` of the database object whose dependency graph has to be constructed along with some filtering parameters to limit the listed dependent objects and return a hierarchical dependency graph which contains information of the dependent object. The dependency query varies based on the type of the database object, so the queries for each type should be split into composable `CTE` for readability.   
