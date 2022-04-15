@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2022-04-15T19:36:19.615Z
+date: 2022-04-15T19:36:46.823Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
