@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2021-08-18T13:43:52.450Z
+date: 2022-04-15T21:21:43.965Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -42,4 +42,7 @@ Once you've found an issue to work on,
 We encourage and appreciate code review by contributors. Feel free to review any open pull requests. Follow our [code review guidelines](/engineering/code-review).
 
 # Design
-Please read through our [Design](/design) section to learn more about our design process. If you're interested in contributing to design, please let us know via our [community channels](/community) and we'll go from there.
+> Due to limited capacity, we are currently unable to accept design volunteers. Please return to this page for updates.
+{.is-warning}
+
+Please read through our [Design](/design) section to learn more about our design process.

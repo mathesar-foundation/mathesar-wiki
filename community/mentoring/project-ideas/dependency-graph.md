@@ -2,7 +2,7 @@
 title: Construct Dependency Graph for Database Objects
 description: 
 published: true
-date: 2022-02-17T23:45:43.592Z
+date: 2022-04-14T17:32:10.973Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:12:13.312Z
@@ -23,14 +23,14 @@ This is useful in various situations
 - **Length**: Long (~350 hours)
 
 ## Tasks
-- Build a python API to query for a database object dependency.
+- Build a python API(function in `db` module) to query for a database object dependency.
 - Extract dependency information from [System Catalog tables](https://www.postgresql.org/docs/8.4/catalogs.html) for the queried object
 - System Catalog Tables does not contain the dependency information of a function as functions are stored as text on the database. So [pglast](https://github.com/lelit/pglast) should be used to extract dependency information from the function body.
 - Build Dependency graph based on the dependency information.
 - Add Django dependency API to resources [listed in this issue](https://github.com/centerofci/mathesar/issues/398), making use of the underlying python dependency API
 
 ### Bonus Tasks
-- UI Graph View - Using the Dependency API, create a component on the frontend to visualize the dependency graph.
+- Integrate it into the UI to support features as needed
 
 ## Expected Outcome
 There should an appropriate python api backed by SQL functions which would take in the `oid` or `name` of the database object whose dependency graph has to be constructed along with some filtering parameters to limit the listed dependent objects and return a hierarchical dependency graph which contains information of the dependent object. The dependency query varies based on the type of the database object, so the queries for each type should be split into composable `CTE` for readability.   
