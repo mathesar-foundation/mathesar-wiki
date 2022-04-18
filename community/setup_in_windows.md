@@ -11,7 +11,7 @@ The complete guide is given below.
 - [Docker](https://docs.docker.com/get-docker/) is up and running properly in your system.
 
 # Solution 
- - First search for "Turn Windows features on or off" , navigate to buttom and click the check-box named "Windows Subsystem For Linux".
+ - First search for "Turn Windows features on or off", navigate to the bottom, and click the check-box named "Windows Subsystem For Linux".
     
  - Now you have to install any linux distro in your windows system .
   Go to microsorft store and install any linux distro(Ubuntu prefered) and launch .
