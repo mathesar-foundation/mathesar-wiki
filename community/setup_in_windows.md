@@ -14,7 +14,7 @@ The complete guide is given below.
  - First search for "Turn Windows features on or off", navigate to the bottom, and click the check-box named "Windows Subsystem For Linux".
     
  - Now you have to install a Linux distro in your Windows system .
-  Go to microsorft store and install any linux distro(Ubuntu prefered) and launch .
+  Go to the Microsoft store and install any Linux distro (Ubuntu preferred) and launch .
  - If you do ls -la in ubuntu terminal you can see the linux files structure,
      * so you have to access  window's files from ubuntu console in order to reach your destination folder in windows, use the  command given below to display all the storage drives avilable in windows , it will mount the storage .
      
