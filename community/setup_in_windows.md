@@ -15,7 +15,7 @@ The complete guide is given below.
     
  - Now you have to install a Linux distro in your Windows system .
   Go to the Microsoft store and install any Linux distro (Ubuntu preferred) and launch .
- - If you do ls -la in ubuntu terminal you can see the linux files structure,
+ - If you do `ls -la` in the Ubuntu terminal you can see the Linux file structure,
      * so you have to access  window's files from ubuntu console in order to reach your destination folder in windows, use the  command given below to display all the storage drives avilable in windows , it will mount the storage .
      
      ``
