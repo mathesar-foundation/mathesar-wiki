@@ -31,7 +31,7 @@ The complete guide is given below.
     ```
     * Here you may run into some problems regarding permissions in some `.git-config` files. It may occur as Ubuntu is not configured properly in your Windows machine. Restart your machine to fix this issue.
 - Note: You have to perform these previous steps for the first time only ! after you have cloned the repo from ubuntu console in linux file sysyem then you can  simple close ubuntu and start working on the project as other django projects in windows.
-- Now no Linux/ubuntu console is needed, just open the project in vs-code(or any ide you prefer) and follow along .
+- Now no Linux/Ubuntu console is needed; just open the project in vs-code(or any (IDE you prefer) and follow along.
  - Copy the `.env.example` file to `.env` like so:
 ```
 cp .env.example .env
