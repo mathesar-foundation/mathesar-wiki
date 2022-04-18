@@ -1,6 +1,6 @@
 # Project Set-Up In Windows Environment
 Windows users who want to run the Mathesar Docker development environment in WSL are advised to clone the repository in a Linux filesystem. 
-If you have tried running the project in windows you many ran into some issues including this 
+If you have tried running the project in Windows you may ran into some issues including this 
 ```
 service_1  | /usr/bin/env: ‘bash\r’: No such file or directory
 service_1  | 2022/03/30 16:20:21 Command exited with error: exit status 127
