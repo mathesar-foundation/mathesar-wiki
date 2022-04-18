@@ -5,7 +5,7 @@ If you have tried running the project in Windows you may ran into some issues in
 service_1  | /usr/bin/env: ‘bash\r’: No such file or directory
 service_1  | 2022/03/30 16:20:21 Command exited with error: exit status 127
 ```
-The complete guide is given below .
+The complete guide is given below.
 ## Pre-requisite
 - We assume you have Windows 10 or higher.
 - [Docker](https://docs.docker.com/get-docker/) is up and running properly in your system.
