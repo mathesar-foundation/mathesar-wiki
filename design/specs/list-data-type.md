@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2022-04-06 18:02:58
 ---
 
-## Context
+# Context
 
 This document specifies the design of List data type within the Mathesar application. List data type can include one or more items that are in the same basic data type (e.g., Number), separated by a comma delimiter if more than one item is present. Mathesar aims to support all basic data types in List format. Users will be able to view data that is currently in Mathesar List data type, edit and filter List data, create new columns in List data type, and convert existing data into List data type. 
 
@@ -20,7 +20,7 @@ Read [Design for List data type](https://github.com/centerofci/mathesar/issues/9
 
 Read [Design for visual query builder](https://github.com/centerofci/mathesar/issues/1065) for mapping table details.
 
-## Scenarios
+# Scenarios
 
 ## 1. Working with Existing List Data
 
@@ -39,6 +39,8 @@ Existing Mathesar List data distinguishes itself from other data type through fo
 Wireframes
 
 [Viewing Existing List Data](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.59&scaling=min-zoom&starting-point-node-id=7379%3A82626&show-proto-sidebar=1)
+
+---
 
 ### 1.2 Filtering Existing List Data
 
@@ -60,6 +62,8 @@ Wireframes
 
 [Filtering Existing List Data](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.19&scaling=min-zoom&starting-point-node-id=7379%3A82944&show-proto-sidebar=1)
 
+---
+
 ### 1.3 Editing Existing List Data
 
 Users can single-click a List data cell or click the `show all` button to expand the selected the data cell and enter editing mode. A background shade is added to each List item, not the delimiters, to highlight the nature of List data type. Under cell editing mode, users can again single-click the item that they wish to edit to finish the edit without compromising the data structure.
@@ -70,6 +74,8 @@ To add a new List item in the cell, users can simply single-click the white spac
 Wireframes
 
 [Editing Existing List Data](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.24&scaling=min-zoom&starting-point-node-id=7809%3A84002&show-proto-sidebar=1)
+
+---
 
 ### 1.4 Editing Existing List Data – Item Type Warning
 
@@ -83,6 +89,8 @@ Wireframes
 [Item Type Warning](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.22&scaling=min-zoom&starting-point-node-id=8268%3A90606&show-proto-sidebar=1)
 
 [All Column Item Change Warning](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.4&scaling=min-zoom&starting-point-node-id=8268%3A90982&show-proto-sidebar=1)
+
+---
 
 ## 2. Converting Existing List Data to a Different Type
 
@@ -102,6 +110,8 @@ Wireframes
 
 [Turning Off `Allow List`](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.34&scaling=min-zoom&starting-point-node-id=8268%3A91375&show-proto-sidebar=1)
 
+---
+
 ### 2.2 Converting List Items to a Different Type
 
 Users can keep the List data structure and convert the List item data type only. As with all data entries, all List items can be converted into Text items. Mathesar will check whether the item format comforms to the destination data type requirement for all other conversions. Users will be warned about potential data loss as required. The conversion between different data types has been explored and will be detailed in a separate spec. The wireframe example is demonstrating changing List items from Number to Text.
@@ -110,6 +120,8 @@ Users can keep the List data structure and convert the List item data type only.
 Wireframes
 
 [Converting List Items](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.26&scaling=min-zoom&starting-point-node-id=8268%3A91011&show-proto-sidebar=1)
+
+---
 
 ## 3. Creating a New Column in List Data Type
 
@@ -124,6 +136,8 @@ Wireframes
 
 [Creating a New List Column](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.82&scaling=min-zoom&starting-point-node-id=7923%3A86825&show-proto-sidebar=1)
 
+---
+
 ### 3.2 Empty List Data Column Options
 
 When a column is empty, Mathesar column data type settings follow basic data type settings. Please refer to basic data type design and menu options. 
@@ -132,6 +146,8 @@ When a column is empty, Mathesar column data type settings follow basic data typ
 Wireframes
 
 [Basic Data Type Menu](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=4260%3A37440&viewport=306%2C48%2C0.06&scaling=min-zoom&starting-point-node-id=4270%3A39549&show-proto-sidebar=1)
+
+---
 
 ## 4. Converting Existing Non-List Data to List Data
 
@@ -146,6 +162,8 @@ Wireframes
 
 [Converting Correctly Formatted Non-List to List](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.28&scaling=min-zoom&starting-point-node-id=8398%3A88843&show-proto-sidebar=1)
 
+---
+
 ### 4.2 Converting Incorrectly Formatted Non-List to List
 
 Incorrectly formatted data cannot be automatically turned into List even when `Allow List` is turned on. However, this scenario will only happen when no comma is detected in one or more cells of the column (see 4.3). Users are informed in the following two ways:
@@ -157,6 +175,8 @@ Incorrectly formatted data cannot be automatically turned into List even when `A
 Wireframes
 
 [Converting Incorrectly Formatted Non-List to List](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?node-id=7317%3A80859&viewport=306%2C48%2C0.37&scaling=min-zoom&starting-point-node-id=8399%3A90654&show-proto-sidebar=1)
+
+---
 
 ### 4.3 Converting Partially Correctly Formatted Non-List to List
 
