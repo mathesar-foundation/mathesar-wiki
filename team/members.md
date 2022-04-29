@@ -2,7 +2,7 @@
 title: Team Members
 description: 
 published: true
-date: 2022-01-28T23:37:21.048Z
+date: 2022-04-29T11:48:17.786Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-28T23:31:10.090Z
@@ -26,6 +26,7 @@ dateCreated: 2022-01-28T23:31:10.090Z
 | Dhruv Bhanushali | `@dhruvkb:matrix.org` | `@dhruvkb` | Engineering (backend, frontend) |
 | Dhruvi Butti | `@dhruvi16:matrix.org` | `@Dhruvi16` | Design |
 | Eamon Ito-Fisher | `@eito-fis:matrix.org` | `@eito-fis` | Engineering (backend) |
+| María Guaranda | `@belengc:matrix.org` | `@soccerdroid` | Engineering (backend) |
 | Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
 | Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
