@@ -122,7 +122,7 @@ The changes to column types and names can be saved by submitting a `PATCH` reque
 Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed).
 
 ```
-PATCH /api/db/db/vX/tables/<table_id>
+PATCH /api/db/vX/tables/<table_id>
 ```
 could submit a JSON like:
 ```json
