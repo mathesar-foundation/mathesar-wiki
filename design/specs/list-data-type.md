@@ -81,7 +81,7 @@ Wireframes
 
 While editing List data items, if Mathesar detected that users were entering a potentially non-conforming item type (e.g., entering a number into a List of Text items), a warning modal would show up to inform users. 
 
-If Mathesar couldn't conform the new item to the existing List item data type, a serious warning would show up before converting all List data item in the column to Text.
+If Mathesar couldn't conform the new item to the existing List item data type, a serious warning would show up.
 
 ---
 Wireframes
