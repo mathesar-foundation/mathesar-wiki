@@ -46,7 +46,8 @@ We'll expand these over time as we support advanced functionality for more types
 
 | UI Data Type | PostgreSQL Data Type | Default | Notes |
 |-|-|-|-|
-| **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` | Can be displayed as percentages in the UI via display options. |
+| **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` |  |
+| **Percent** | `DOUBLE PRECISION` | `DOUBLE PRECISION` |  |
 | **Text** | `VARCHAR`, `CHAR`, `TEXT` | `TEXT` | |
 | **Date** | `DATE` | `DATE` | |
 | **Time** | `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIME WITHOUT TIME ZONE` | |
