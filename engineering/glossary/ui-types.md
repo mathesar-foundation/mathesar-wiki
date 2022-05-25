@@ -47,7 +47,7 @@ We'll expand these over time as we support advanced functionality for more types
 | UI Data Type | PostgreSQL Data Type | Default | Notes |
 |-|-|-|-|
 | **Number** | `NUMERIC`, `SMALLINT`, `INTEGER`, `BIGINT`, `DECIMAL`, `REAL`, `DOUBLE PRECISION` | `NUMERIC` |  |
-| **Percent** | `DOUBLE PRECISION` | `DOUBLE PRECISION` |  |
+| **Percent** | `MATHESAR_TYPES.PERCENT` | `MATHESAR_TYPES.PERCENT` | Custom type implemented as domain around `DOUBLE PRECISION` |
 | **Text** | `VARCHAR`, `CHAR`, `TEXT` | `TEXT` | |
 | **Date** | `DATE` | `DATE` | |
 | **Time** | `TIME WITH TIME ZONE`, `TIME WITHOUT TIME ZONE` | `TIME WITHOUT TIME ZONE` | |
@@ -55,7 +55,7 @@ We'll expand these over time as we support advanced functionality for more types
 | **Duration** | `INTERVAL` | `INTERVAL` | |
 | **Boolean** | `BOOLEAN` | `BOOLEAN` | |
 | **Money** | `MATHESAR_TYPES.MONEY`, `MONEY` | `MATHESAR_TYPES.MONEY` if installed, else `MONEY` | `MATHESAR_TYPES.MONEY` is a custom type |
-| **Email** | `MATHESAR_TYPES.EMAIL` | `MATHESAR_TYPES.EMAIL` | Custom type |
+| **Email** | `MATHESAR_TYPES.EMAIL` | `MATHESAR_TYPES.EMAIL` |  |
 | **URL** | `MATHESAR_TYPES.URI` | `MATHESAR_TYPES.URI` | Custom type |
 | **List** | [PostgreSQL Arrays](https://www.postgresql.org/docs/13/arrays.html) (single dimension only) | `VARCHAR[]` | We should support all database and display options for whatever data type that the array is set to. |
 | **Other** | `SMALLSERIAL`, `SERIAL`, `BIGSERIAL`, `BYTEA`, `POINT`,`LINE`,`LSEG`,`BOX`,`PATH`,`PATH`,`POLYGON`, `CIRCLE`, `CIDR`, `INET`, `MACADDR`, `MACADDR8`, `BIT`, `BIT VARYING`, `TSQUERY`, `TSVECTOR`, `JSON`, `JSONB`, `XML`, `PG_LSN`, `PG_SNAPSHOT`, `TXID_SNAPSHOT`, `INT4RANGE`, `INT8RANGE`, `NUMRANGE`, `TSRANGE`, `TSTZRANGE`, `DATERANGE`, multidimensional arrays, any other type that's detected in the DB | N/A, cannot be set at the moment. | These types are native PostgreSQL data types that we don't support any advanced functionality for yet. |
