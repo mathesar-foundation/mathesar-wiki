@@ -2,7 +2,7 @@
 title: Team Members
 description: 
 published: true
-date: 2022-04-29T11:48:17.786Z
+date: 2022-05-31T19:12:31.985Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-28T23:31:10.090Z
@@ -27,6 +27,13 @@ dateCreated: 2022-01-28T23:31:10.090Z
 | Dhruvi Butti | `@dhruvi16:matrix.org` | `@Dhruvi16` | Design |
 | Eamon Ito-Fisher | `@eito-fis:matrix.org` | `@eito-fis` | Engineering (backend) |
 | María Guaranda | `@belengc:matrix.org` | `@soccerdroid` | Engineering (backend) |
-| Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) |
+| Jinxiao Li | `@jinxiaol:matrix.org` | `@Jinxiao0302` | GSoC '22 contributor |
+| Yurii Palaida | `@jyuart:matrix.org` | `@Jyuart` | GSoC '22 contributor |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
+| Anish Umale | `@anish9901:matrix.org` | `@Anish9901` | GSoC '22 contributor |
 | Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
+
+## Emeritus
+| **Name** | **Matrix** | **GitHub** | **Roles** |
+|-|-|-|-|
+| Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) on the Community Team |
