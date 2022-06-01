@@ -2,7 +2,7 @@
 title: Bilingual Software Engineer (Japanese/English)
 description: 
 published: true
-date: 2022-06-01T15:21:07.383Z
+date: 2022-06-01T19:58:44.176Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T15:21:07.383Z
@@ -23,7 +23,8 @@ The [Chiba Institute of Technology's Henkaku Center](https://henkaku.org/en/CIT-
 In addition, you will be the Mathesar team's primary representative at the Henkaku Center. You'll collaborate with our colleagues at the Center to establish a Japanese community around Mathesar. This will involve participating in the Center's activities, organizing or attending meetups and hackathons, and finding opportunities to collaborate with other projects.
 
 ## Your responsibilities
-- Planning out both backend and frontend technical architecture for the localization infrastructure project- Writing code to implement localization and internationalization related features, using
+- Planning out both backend and frontend technical architecture for the localization infrastructure project
+- Writing code to implement localization and internationalization related features, using
 	- Svelte and TypeScript for the frontend
 	- Python for the backend-
 - Setting up a translation pipeline using a service like Transifex to:
@@ -31,7 +32,8 @@ In addition, you will be the Mathesar team's primary representative at the Henka
 	- automatically include new translated text into new releases of Mathesar
 - Collaborating with our designer to identify and fix design issues with localized UI
 - Creating and implementing a plan to localize product documentation
-- Improving Mathesar by building new features and fixing bugs as needed- Occasionally attending video calls between 12:00-15:30 UTC (21:00-23:30 JST) for:
+- Improving Mathesar by building new features and fixing bugs as needed
+- Occasionally attending video calls between 12:00-15:30 UTC (21:00-23:30 JST) for:
 	- meetings focused on a specific agenda
 	- team events
 - Helping with community building work (especially in Japan), including:
