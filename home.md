@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-04-07T19:37:17.004Z
+date: 2022-06-01T15:27:20.766Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-16T14:07:42.267Z
 
 <img src="/logo@2x_cropped.png" width=200px alt="Mathesar logo"/>
 
-> We're hiring a **[senior frontend engineer](https://wiki.mathesar.org/en/jobs#senior-frontend-engineer)**!
+> We're hiring a **[Bilingual Software Engineer (Japanese/English)](/en/jobs/2022-06-localization-engineer)**!
 {.is-info}
 
 
