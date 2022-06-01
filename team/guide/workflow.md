@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2022-03-08T22:57:26.613Z
+date: 2022-06-01T13:17:19.415Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -12,7 +12,7 @@ Mathesar work happens on GitHub. We create GitHub issues to track everything we'
 
 # Workflow
 
-We track our tasks in the (private) [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1).
+We track our tasks in the [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1).
 - The [Active view](https://github.com/orgs/centerofci/projects/1/views/1) lists everything that is currently in progress grouped by status.
 - The [Backlog view](https://github.com/orgs/centerofci/projects/1/views/3) lists everything that is planned to be worked on by milestone.
 - The [Future view](https://github.com/orgs/centerofci/projects/1/views/17) lists issues that we've created placeholders for to consider in the future. These issues are not actively planned to be worked on.
