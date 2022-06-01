@@ -2,7 +2,7 @@
 title: Mentee Guide
 description: 
 published: true
-date: 2022-06-01T13:19:16.576Z
+date: 2022-06-01T13:19:25.522Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:28:21.224Z
@@ -25,7 +25,6 @@ Once the program starts, here's what we expect of you:
 
 - Work 30-40 hours per week (or agree on a different plan with your mentor ahead of time).
 - Push code to GitHub frequently. Commit early and often.
-- Participate in our [Weekly Discussion](/en/team/guide/weekly-discussion).
 - Be available on Matrix whenever you are working.
 - Attend your weekly check-in with your mentor and any other meetings.
 - Be proactive about asking for help, especially when you're stuck.
