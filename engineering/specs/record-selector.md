@@ -102,64 +102,29 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 1. The query is run as follows:
 
     ```sql
-    -- This table would have a generated name to avoid collisions.
-    drop table if exists "search_points";
-    create temporary table "search_points" (
-      id integer primary key, -- Should have same type as pk of corresponding table
-      points smallint
-    );
-
-    -- For search query on "First Name"
-
-        -- Matching within
-        insert into "search_points" (id, points)
-        select "Id", 2 from "Authors"
-        where "Authors"."First Name" ilike '%Anna%'
-        on conflict (id) do update set points = search_points.points + 2;
-
-        -- Matching start of
-        insert into "search_points" (id, points)
-        select "Id", 3 from "Authors"
-        where "Authors"."First Name" ilike 'Anna%'
-        on conflict (id) do update set points = search_points.points + (3 - 2);
-
-        -- Matching exact
-        insert into "search_points" (id, points)
-        select "Id", 4 from "Authors"
-        where "Authors"."First Name" = 'Anna'
-        on conflict (id) do update set points = search_points.points + (4 - 3);
-
-    -- For search query on "Last Name"
-
-        -- Matching within
-        insert into "search_points" (id, points)
-        select "Id", 2 from "Authors"
-        where "Authors"."Last Name" ilike '%Rich%'
-        on conflict (id) do update set points = search_points.points + 2;
-
-        -- Matching start of
-        insert into "search_points" (id, points)
-        select "Id", 3 from "Authors"
-        where "Authors"."Last Name" ilike 'Rich%'
-        on conflict (id) do update set points = search_points.points + (3 - 2);
-
-        -- Matching exact
-        insert into "search_points" (id, points)
-        select "Id", 4 from "Authors"
-        where "Authors"."Last Name" = 'Rich'
-        on conflict (id) do update set points = search_points.points + (4 - 3);
-
-    create index "search_points_index" on "search_points" (points);
-
-    select "Authors".*, p.points
-    from search_points p
-    join "Authors" on "Authors"."Id" = p.id
-    order by p.points desc
-    limit 10;
+    WITH anon_cte AS (
+        SELECT *,
+            CASE WHEN "First Name" ILIKE 'Anna' THEN 4
+                WHEN "First Name" ILIKE 'Anna%' THEN 3
+                WHEN "First Name" ILIKE '%Anna%' THEN 2
+                ELSE 0
+            END
+            +
+            CASE WHEN "Last Name" ILIKE 'Rich' THEN 4
+                WHEN "Last Name" ILIKE 'Rich%' THEN 3
+                WHEN "Last Name" ILIKE '%Rich%' THEN 2
+                ELSE 0
+            END
+            AS points
+        FROM "Authors"
+    )
+    SELECT * FROM anon_cte
+    WHERE points > 0
+    ORDER BY points DESC
+    LIMIT 10;
     ```
 
-1. That SQL takes Postgres 25ms on my machine, which seems fine to me. It will grow linearly with more query columns, but my hunch is that performance should be acceptable even for tables with many rows and columns. I'll admit that my experience with temporary tables is limited to MySQL so I'm not sure what the best practices are around using them with Postgres.
-
+    The case statements should probably be wrapped into some db-layer function like `search_score(text, text) -> int`, and overloading that would enable scoring other types.
 
 ## Creating a new record
 
@@ -175,7 +140,7 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 
 1. To create a new Publications record, the user needs to supply an Authors record. They use a "nested" record selector to locate or create one Authors record as follows:
 
-    ![image](https://user-images.githubusercontent.com/42411/173132917-ca609e31-e95a-4bcf-b156-53747f9c3c14.png)
+    ![image](https://user-images.githubusercontent.com/42411/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
 
     Note: There are some layout details here that will need to be worked out during implementation, such as horizontal scrolling.
 
