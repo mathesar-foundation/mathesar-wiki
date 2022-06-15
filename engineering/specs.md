@@ -11,6 +11,9 @@ dateCreated: 2022-03-18T22:25:33.876Z
 > Under construction.
 {.is-warning}
 
+## 2022-06
+- [Record Selector](/en/engineering/specs/record-selector)
+
 ## 2022-03
 - [Number display and entry](/en/engineering/specs/numbers)
 - [Human readable dates and times](/en/engineering/specs/dateandtime)
