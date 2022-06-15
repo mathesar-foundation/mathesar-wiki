@@ -9,7 +9,7 @@
 
 Here's a "Publications" record selector, as it looks immediately after opening:
 
-![image](https://user-images.githubusercontent.com/42411/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
+![image](/assets/engineering/specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
 
 ### Layout
 
@@ -130,17 +130,17 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 
 1. When at least one column contains a query, a "ghost row" will appear above the result set, allowing the user to select a record that will be created on-the-fly using all of the data from their search. The ghost row is filled in as the user types.
 
-    ![image](https://user-images.githubusercontent.com/42411/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
+    ![image](/assets/engineering/specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
 
 1. The user can highlight the ghost row by pressing `Up` -- and in this state, validation errors will be displayed for cells as needed using the same UX as when adding a new row to a table.
 
-    ![image](https://user-images.githubusercontent.com/42411/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
+    ![image](/assets/engineering/specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
 
 ## Entering a related record using a nested record selector
 
 1. To create a new Publications record, the user needs to supply an Authors record. They use a "nested" record selector to locate or create one Authors record as follows:
 
-    ![image](https://user-images.githubusercontent.com/42411/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
+    ![image](/assets/engineering/specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
 
     Note: There are some layout details here that will need to be worked out during implementation, such as horizontal scrolling.
 
