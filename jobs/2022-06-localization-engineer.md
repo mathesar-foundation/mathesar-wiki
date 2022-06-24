@@ -2,7 +2,7 @@
 title: Full Stack Software Engineer
 description: 
 published: true
-date: 2022-06-24T21:01:46.841Z
+date: 2022-06-24T21:59:20.646Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T15:21:07.383Z
@@ -64,7 +64,18 @@ The [Chiba Institute of Technology's Henkaku Center](https://henkaku.org/en/CIT-
 - We'll make our final decision and let you know the outcome
 
 ## Compensation and benefits
-This is a 1-year contract position. Our compensation is based on a competitive rate for the US nonprofit sector.
+We offer competitive compensation for the nonprofit sector.
+
+If you're in the U.S., you will be hired as a salaried employee. Employees have the following benefits:
+- Medical, dental, and vision insurance coverage
+	- **Medical**: CCI covers 80% of employee costs and 70% of dependent costs 
+	- **Dental and Vision:** CCI covers 50% of employee costs for dental and vision insurance
+- 401(k), including matching
+- Life insurance coverage
+
+If you're outside the U.S., you will be an independent contractor. 
+
+Both contractors and employees will be reimbursed for job-related learning materials (books, courses, etc.) and conferences.
 
 ## How to Apply
 
