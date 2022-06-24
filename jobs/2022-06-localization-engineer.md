@@ -1,8 +1,8 @@
 ---
-title: Bilingual Software Engineer (Japanese/English)
+title: Full Stack Software Engineer
 description: 
 published: true
-date: 2022-06-01T19:58:44.176Z
+date: 2022-06-24T21:01:46.841Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T15:21:07.383Z
@@ -12,15 +12,13 @@ dateCreated: 2022-06-01T15:21:07.383Z
 
 Mathesar is an open source project to provide an intuitive interface to databases that anyone can host on their own server. We make it easy for non-technical users to create, organize, and analyze data collaboratively, without any prior knowledge of database concepts. 
 
-We started prototyping the project in March 2021 and are working towards our first (alpha) release in summer 2022. Although you can't see Mathesar in action yet, [this video of Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY) will give you an idea of the ease of use we're aiming for.
+We started prototyping the project in March 2021 and are working towards our first (alpha) release in 2022. Although you can't see Mathesar in action yet, [this video of Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY) will give you an idea of the ease of use we're aiming for.
 
 Our core team is small and globally distributed. We work asynchronously, value thoughtfulness and curiosity, and practice work/life balance. Our advisors include Joi Ito and Reid Hoffman. Our work is public - look through[  our code](https://github.com/centerofci/mathesar), read[  our project and team wiki](https://wiki.mathesar.org/en/home), and join[  our communication channels](https://wiki.mathesar.org/en/community).
 
 ## About the position
 
-The [Chiba Institute of Technology's Henkaku Center](https://henkaku.org/en/CIT-henkaku-center/) aims to have Mathesar available to Japanese-speaking users by the end of 2022. This involves planning out and building infrastructure for localizing the Mathesar user interface and documentation. Your primary responsibility will be completing that project. You'll also work closely with the Mathesar core team on building other functionality into the product.
-
-In addition, you will be the Mathesar team's primary representative at the Henkaku Center. You'll collaborate with our colleagues at the Center to establish a Japanese community around Mathesar. This will involve participating in the Center's activities, organizing or attending meetups and hackathons, and finding opportunities to collaborate with other projects.
+The [Chiba Institute of Technology's Henkaku Center](https://henkaku.org/en/CIT-henkaku-center/) aims to have Mathesar available to Japanese-speaking users by the end of 2022. This involves planning out and building infrastructure for localizing the Mathesar user interface and documentation. Your first responsibility will be completing that project. You'll also work closely with the Mathesar core team on building functionality into the product.
 
 ## Your responsibilities
 - Planning out both backend and frontend technical architecture for the localization infrastructure project
@@ -33,18 +31,16 @@ In addition, you will be the Mathesar team's primary representative at the Henka
 - Collaborating with our designer to identify and fix design issues with localized UI
 - Creating and implementing a plan to localize product documentation
 - Improving Mathesar by building new features and fixing bugs as needed
-- Occasionally attending video calls between 12:00-15:30 UTC (21:00-23:30 JST) for:
+- Occasionally attending video calls between 12:00-15:30 UTC for:
 	- meetings focused on a specific agenda
 	- team events
-- Helping with community building work (especially in Japan), including:
-	- participating in CIT Henkaku Center activities
-	- organizing or attending meetups and hackathons
-	- finding opportunities to collaborate with other projects and organizations
-	- writing documentation
-	- working directly with Japanese-speaking users
+- Helping with community building work including:
+	- mentoring new contributors
+  - reviewing pull requests and new issues
+  - writing documentation
 
 ## About you
-- You're an excellent communicator in both Japanese and English,
+- You're an excellent communicator in English,
 	- you can explain ideas quickly, clearly, and comprehensively in writing
 	- you are verbally fluent
 - You have strong JavaScript development skills 
