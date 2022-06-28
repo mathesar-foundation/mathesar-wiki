@@ -155,9 +155,27 @@ If the column is added and the user quits the explorer after adding the column t
 
 ### Modal for warning before qutting the explorer
 
+The modals are for warning the users about the consequences of closing the data explorer. There is no action for saving query in the data explorer view. The modal provides the action of saving the column if there are significant changes that is there a filled preview column. If there are no significant changes there is only warning of closing the data explorer.
+
+![](https://share.balsamiq.com/c/5Y3TjZ551mZdf5Q4cpBCNi.png)
+
 ### Column preview while adding the formula
 
+The column preview is necessary for the user to see the reflected changes when they interact with the formula settings. The different states of the column preview can be seen below. 
+
+1. Active empty column preview (Green highlight) - Users will see the active empty column preview when they are interacting with the formula settings in the inspector.
+
+2. Inactive empty column with a warning (Yellow highlight) - Users will see the inactive column preview with a warning when the user has click outside the inspector. 
+
+3. Erroneous empty column (Red highlight) - Users will see erroneous column when there are errors in formula settings inputs.
+
+![](https://share.balsamiq.com/c/bhzoPkNR4MtQnpb4mB2hws.png)
+
 ### Parameter inputs
+
+The parameters have two kinds of inputs that are values and column names. A parameter can accept both or either. But the parameter that accepts both have a prefix that the user needs to select for distinguishing what type of input they have chosen. There is a painless dropdown to do so as seen below.
+
+![](https://share.balsamiq.com/c/4nmcRjLxr3mHpngZxFDZfx.png)
 
 ### Error messages
 
@@ -167,7 +185,7 @@ If the column is added and the user quits the explorer after adding the column t
 
 ### The formula selection menu
 
-### Add column button
+### Add column to the query button
 
 ### Quit explorer button
 
