@@ -183,9 +183,23 @@ The parameters have two kinds of inputs that are values and column names. A para
 
 ### Add column button
 
+The user can only add formula column through data explorer. But the user can add two types of column through the data explorer so on clicking the `Add column` button the user sees a drop down to select from. The dropdown consists of - 
+1. Add direct column - The column that has direct data.
+2. Add formula column -  The column which is generated using a formula.
+
+![](https://share.balsamiq.com/c/iwXpHctgMSRNcYQjeY7MBe.png)
+
 ### The formula selection menu
+
+The formula selection menu is quite long since there are a lot of formula to choose from. To reduce the strain, the dropdown is divided into categories of formulas that are text, number, random generator and so on. There is search option where user can search the category or the formula name to directly use a formula. There is a recent section where the user can see their last three used formulas to quickly jump on that.
+
+![](https://share.balsamiq.com/c/svLZHynK3NqVkjofBmqgMj.png)
 
 ### Add column to the query button
 
+There are two add column buttons in the view. This button exists in formula settings column. This will add the column to the query. Once the user is satisfied with the column preview, the user can go ahead and add the column to the query and further save it if they want.
+
 ### Quit explorer button
+
+Quit explorer lets the user to quit the data explorer view. The action is followed by a modal and those are explained in the [warning modal section](#modal-for-warning-before-qutting-the-explorer).
 
