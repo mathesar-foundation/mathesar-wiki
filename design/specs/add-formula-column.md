@@ -119,21 +119,7 @@ Once users click outside, they will see a warning on the column so users know th
 
 ![](https://share.balsamiq.com/c/79ZrfbdaMgz8rfuHN3bRDY.png)
 
-#### Scenario 6.c - Clicks outside after successfully adding the formula
-
-If the formula and its parameters are added successfully and the preview column is filled. When the user clicks outside the preview is still visible. The user will get the inspector view of formula back if they click on the column. 
-
-![](https://share.balsamiq.com/c/dS6sAay4Re9f2R39zKDDj8.png)
-
-#### Scenario 6.d - Clicks outside after adding erroneous parameters
-
-If the users have added erroneous parameters then they click outside the inspector, the parameter values will be lost and they will see a similar empty column preview with a warning. 
-
-![](https://share.balsamiq.com/c/p2oHazbJvtdHNADo1nBB4p.png)
-
 ### Scenario 7 - Quit the explorer
-
-#### Scenario 7.a - Quits the explorer before adding the column
 
 Case 1 - The preview column is empty
 If the preview column is empty, there won't be any save changes warning modal. Since there are no significant changes and there is nothing to be saved. The modal would only have a warning about whether to close the explorer or not.
@@ -143,9 +129,6 @@ Case 2 - The preview column is filled
 If the preview column is filled but not yet added to the query, the user will be asked in the modal if they want it to save it to the query directly or just close the explorer without saving anything.
 ![](https://share.balsamiq.com/c/79ZrfbdaMgz8rfuHN3bRDY.png)
 
-#### Scenario 7.b - Quits the explorer after adding the column
-If the column is added and the user quits the explorer after adding the column to the query. The user would see a modal whch asks them to whether save the query or close without saving.
-![](https://share.balsamiq.com/c/79ZrfbdaMgz8rfuHN3bRDY.png)
 
 ## Interactions
 
@@ -169,7 +152,7 @@ The column preview is necessary for the user to see the reflected changes when t
 
 ### Parameter inputs
 
-The parameters have two kinds of inputs that are values and column names. A parameter can accept both or either. But the parameter that accepts both have a prefix that the user needs to select for distinguishing what type of input they have chosen. There is a painless dropdown to do so as seen below.
+The parameters have two kinds of inputs that are values and column names. A parameter can accept both or either. But the parameter that accepts both have a prefix that the user needs to select for distinguishing what type of input they have chosen. The columns list consists of columns with compatible data type only. User wont't be able to select a column that is not compatible. There is a painless dropdown to do so as seen below.
 
 ![](https://share.balsamiq.com/c/4nmcRjLxr3mHpngZxFDZfx.png)
 
