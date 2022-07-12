@@ -20,19 +20,15 @@ The formula columns can only be created with Data explorer. For more details, yo
 
 ![](https://share.balsamiq.com/c/dS6sAay4Re9f2R39zKDDj8.png)
 
-On the left hand side of the explorer view, there is a  `Add Column`  button. When user clicks on it, there are two options visible to them. One is `Add direct column` and the other is `Add formula column`. To add a formula column user will need to click on `Add formula column`. 
+To add a column, the left hand side of the explorer view has an `Add Column` button. Once that is clicked, there are two options visible. Those are - `Add direct column` and `Add formula column`. 
 
-Once the user clicks on `Add formula column` option, the inspector shows formula settings that include `Name` input of the formula and a list of formulas to select from. The list of formulas is described in detail in the [formula selection menu](#components) section. 
+After selecting `Add formula column`, an empty placeholder column is visible. The column also has a default name that is `formulaColumnX`. X indicates serial number of formula column with a default name.
 
-If the name is left empty by user for the next steps, there is a default name given to the column that is FormulaX. X is the number given to the column. For instance if its the first default named column it will be Formula1.
+The inspector on the right hand side shows a name input for the user to give a relevant name to the column. There is a formula selection dropdown for the user to select from. A detailed description of the selection menu can be found in [components section](#components)
 
-Once the user decides on what formula they want, the inspector shows relevant inputs for formula selected. The parameters can be of different data types depending on the selected formula. Parameters of the selected formula are described in scenarios below. 
+Once the formula is selected, the formula settings will then be visible. If the user inputs valid parameters, they will be able to see results in the formula column. Invalid parameters are described in [this scenario](#scenarios-2b---the-formula-is-configured-incorrectly-and-returns-an-invalid-output).
 
-Before adding the parameters (if they are required), user would be able to see a preview of an empty column. 
-
-Once the user adds correct parameter the empty column gets filled with the calculated date and the user is able to preview the filled column. If they are not satisfied by the results, they can change the formula selected as well as the parameters.
-
-Now, user can jump to closing the data explorer. That action will take them to a modal where they are asked to save the query which saved the column to the table permanently. If they do not want to save it they get the option of closing without saving. To cancel the action they get a cross button on the modal.
+If the user is satisfied with the result, they can save the query. 
 
 
 #### Scenario 1.a - Add a random generation type formula column
@@ -83,19 +79,27 @@ The list type formula works on columns with list data type. There can be differe
 
 ![](https://share.balsamiq.com/c/wnDL3cvcR9R3cgPwR3Co2.png)
 
-### Scenario 2 - The column added as a parameter gets deleted 
+### Scenario 2 - The formula column result is empty or erroneous
 
-When the column added to the formula gets deleted by user, the formula column will be retained in the error state. So the data in the formula column with have `Error` as value.
+![](https://share.balsamiq.com/c/j2UsBsrGYshUtfTS6jcEQt.png)
 
-### Scenario 3 - Change in the data type of the column added as a parameter
+#### Scenarios 2.a - The formula is configured correctly but returns no values
 
-When the parameter column data type is changed to an incompatible data type, the formula column will be retained in the error state. So the data in the formula column with have `Error` as value.
+Whenever the user adds valid input there is a temporary feedback message below the input which says `Valid Input`. This is to notify them that there is nothing wrong in the formula configuration if they don't see desired column values.
 
-### Scenario 4 - Add invalid values to the formula parameters
+#### Scenarios 2.b - The formula is configured incorrectly and returns an invalid output
 
-The user cannot add invalid columns as they won't be present in the list but they might add invalid values. If the values are invalid the data in the formula column with have `Error` as value.
+If the formula parameters input are invalid, there is a temporary feedback message below the input which says `Invalid Input`. This is to notify them that the inputs are wrong and hence they might not see the desired column
 
-### Scenario 5 - Edit a formula column 
+#### Scenarios 2.c - The formula is configured correctly but a column referenced in the parameters is missing
+
+When formula is configured correctly at first but if the column or the table which had that column gets deleted, the column data is retained but there is warning with an hoverable info message.
+
+#### Scenario 2.d -  The formula is configured correctly but a column referenced in the parameters has a new invalid data type
+
+When formula is configured correctly at first but if the column data type is changed to an incompatible one, the column data is retained but there is warning with an hoverable info message.
+
+### Scenario 3 - Edit a formula column 
 
 The formula can be edited anytime user wants. So there can be two scenarios on how users goes about changing the formula.
 
@@ -105,58 +109,14 @@ So here, user will be only given options for compatible columns. And if they wan
 Case 2 - The user changes the selected formula.
 Once the user selects a different formula parameter values are not retained and they see empty parameters and an empty column again. To see the value they will have to add compatible params again.
 
-### Scenario 6 - Click outside the inspector
-
-#### Scenario 6.a - Clicks outside before adding name or selecting formula
-
-If the users click outside the inspector before even touching the formula settings that is adding name or selecting formula, there won't be any empty column added. And there would be absolutely no change in the explorer.
-
-#### Scenario 6.b - Clicks outside after adding name or selecting formula
-
-If there is any activity in the formula settings that is if the name of the column is added or the formula is selected, an empty column will be added. 
-
-Once users click outside, they will see a warning on the column so users know there is something left to do with the formula column. 
-
-![](https://share.balsamiq.com/c/79ZrfbdaMgz8rfuHN3bRDY.png)
-
-### Scenario 7 - Quit the explorer
-
-Case 1 - The preview column is empty
-If the preview column is empty, there won't be any save changes warning modal. Since there are no significant changes and there is nothing to be saved. The modal would only have a warning about whether to close the explorer or not.
-![](https://share.balsamiq.com/c/ffSKeCLi8D3DXfkRN8qrV1.png)
-
-Case 2 - The preview column is filled
-If the preview column is filled but not yet added to the query, the user will be asked in the modal if they want it to save it to the query directly or just close the explorer without saving anything.
-![](https://share.balsamiq.com/c/79ZrfbdaMgz8rfuHN3bRDY.png)
-
 
 ## Interactions
-
-### Modal for warning before qutting the explorer
-
-The modals are for warning the users about the consequences of closing the data explorer. There is no action for saving query in the data explorer view. The modal provides the action of saving the column if there are significant changes that is there a filled preview column. If there are no significant changes there is only warning of closing the data explorer.
-
-![](https://share.balsamiq.com/c/5Y3TjZ551mZdf5Q4cpBCNi.png)
-
-### Column preview while adding the formula
-
-The column preview is necessary for the user to see the reflected changes when they interact with the formula settings. The different states of the column preview can be seen below. 
-
-1. Active empty column preview (Green highlight) - Users will see the active empty column preview when they are interacting with the formula settings in the inspector.
-
-2. Inactive empty column with a warning (Yellow highlight) - Users will see the inactive column preview with a warning when the user has click outside the inspector. 
-
-3. Erroneous empty column (Red highlight) - Users will see erroneous column when there are errors in formula settings inputs.
-
-![](https://share.balsamiq.com/c/bhzoPkNR4MtQnpb4mB2hws.png)
 
 ### Parameter inputs
 
 The parameters have two kinds of inputs that are values and column names. A parameter can accept both or either. But the parameter that accepts both have a prefix that the user needs to select for distinguishing what type of input they have chosen. The columns list consists of columns with compatible data type only. User wont't be able to select a column that is not compatible. There is a painless dropdown to do so as seen below.
 
 ![](https://share.balsamiq.com/c/4nmcRjLxr3mHpngZxFDZfx.png)
-
-### Error messages
 
 ## Components
 
@@ -173,8 +133,4 @@ The user can only add formula column through data explorer. But the user can add
 The formula selection menu is quite long since there are a lot of formula to choose from. To reduce the strain, the dropdown is divided into categories of formulas that are text, number, random generator and so on. There is search option where user can search the category or the formula name to directly use a formula. There is a recent section where the user can see their last three used formulas to quickly jump on that.
 
 ![](https://share.balsamiq.com/c/svLZHynK3NqVkjofBmqgMj.png)
-
-### Quit explorer button
-
-Quit explorer lets the user to quit the data explorer view. The action is followed by a modal and those are explained in the [warning modal section](#modal-for-warning-before-qutting-the-explorer).
 
