@@ -109,6 +109,13 @@ So here, user will be only given options for compatible columns. And if they wan
 Case 2 - The user changes the selected formula.
 Once the user selects a different formula parameter values are not retained and they see empty parameters and an empty column again. To see the value they will have to add compatible params again.
 
+### Scenario 4 - User clicks outside the inspector before saving
+
+If the user clicks outside at any point the column is retained as the column is added to the table. The user can jump back to the editing the formula column whenever they want to. 
+
+### Scenario 5 - User closes the explorer without saving the query
+
+If the user closes the data explorer before saving the query, there will be a prompt where they will be asked if they want to save the query or not. 
 
 ## Interactions
 
