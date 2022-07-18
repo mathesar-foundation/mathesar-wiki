@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-07-18T13:42:17.154Z
+date: 2022-07-18T19:11:24.626Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -14,6 +14,7 @@ These are specs for new features, corresponding to our [development milestones](
 
 ### Records
 - [Record Page](/design/specs/record-page)
+- [Record Summary](/design/specs/record-summary)
 
 ### Views
 - [Listing Views](/design/specs/listing-views)
