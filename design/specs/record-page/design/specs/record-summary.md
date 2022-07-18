@@ -18,15 +18,15 @@ The following are some of the most common use cases for record summaries that mu
 
 ### Table Links
 In tables, summaries are used to represent the records that are linked via a foreign key.
-![image](https://user-images.githubusercontent.com/845767/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
+![image](/assets/design/specs/record-page/design/specs/record-summary/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
 
 ### Record Page
 The summary on a record page serves as both a header and a representation of linked records.
-![image](https://user-images.githubusercontent.com/845767/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
+![image](/assets/design/specs/record-page/design/specs/record-summary/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
 
 ### Table Row
 A summary is also shown at the row level to identify the records.
-![image](https://user-images.githubusercontent.com/845767/179571476-4fa60138-3acf-4b69-9c32-cc1468cdf965.png)
+![image](/assets/design/specs/record-page/design/specs/record-summary/179571476-4fa60138-3acf-4b69-9c32-cc1468cdf965.png)
 
 ### The summary expression
 Record summaries are constructed using an expression that takes the value of the record's first non-primary-key field.
