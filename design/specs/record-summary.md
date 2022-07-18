@@ -2,7 +2,7 @@
 title: Record Summary
 description: 
 published: true
-date: 2022-07-18T19:55:03.737Z
+date: 2022-07-18T21:06:26.165Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T17:49:31.605Z
@@ -71,3 +71,8 @@ When a foreign key column is used as a summary column, the value should be taken
     The user can insert a symbol and it will be incorporated into the string. 
 
     <img width="323" alt="image" src="https://user-images.githubusercontent.com/845767/175508152-631812c6-c0fe-4777-a8ff-47f6b76fa531.png">
+
+## Other Considerations
+
+### Using Formulas as Part of Expressions
+When formula functionality is provided in the future, the summary expressions should be compatible and allow users to use formulas to generate more complex expressions. The expression builder's UI should be able to extend to accommodate those additional features.
