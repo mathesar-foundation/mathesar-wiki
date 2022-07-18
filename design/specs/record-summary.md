@@ -2,7 +2,7 @@
 title: Record Summary
 description: 
 published: true
-date: 2022-07-18T19:51:29.904Z
+date: 2022-07-18T19:55:03.737Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T17:49:31.605Z
