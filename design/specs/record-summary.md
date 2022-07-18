@@ -2,7 +2,7 @@
 title: Record Summary
 description: 
 published: true
-date: 2022-07-18T19:10:39.506Z
+date: 2022-07-18T19:48:35.576Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T17:49:31.605Z
@@ -38,6 +38,11 @@ A component that allows users to enter columns, choose them as they type, and co
 The expression input component will enable users to enter in any letters and will verify if the content matches an existing column as they type. For example, if a user starts typing "Check," the menu will automatically filter to any columns that begin with "Check," such as "Checkouts." The best match will be highlighted automatically, and the user may select it by hitting Tab.
 
 Once inserted, the columns will be highlighted in color to differentiate them, whilst the characters will remain in plain text. To remove parts of the expression, the user must hit the backspace key, which will erase a single character or an entire column if applicable. Please note that is not possible to delete a character or column without deleting all the characters or columns after it.
+
+## Special Scenarios
+
+### Inserting Foreign Key Columns
+When a foreign key column is used as a summary column, the value should be taken from the linked record's summary instead of the foreign key value. This is called a transitive summary.
 
 ## User Flow
 
