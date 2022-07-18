@@ -27,7 +27,7 @@ The navigation to and from records is an important factor to consider when desig
 ### From the schema view via record selector
 From the schema view, users may access the record page by selecting the 'record search' option from any of the tables provided. This will launch the record selector, allowing the user to go to a certain record.
 
-![image](https://user-images.githubusercontent.com/845767/179518507-ff971ee7-fc09-4c65-aaf0-df8a73743998.png)
+![image](/assets/design/specs/record-page/179518507-ff971ee7-fc09-4c65-aaf0-df8a73743998.png)
 
 #### Note
 This is contingent on the new design for the listed tables, which will contain buttons for searching and adding entries right from the list item.
@@ -36,14 +36,14 @@ This is contingent on the new design for the listed tables, which will contain b
 
 Clicking on the primary key cell link in the table will take the user to a specific record.
 
-![image](https://user-images.githubusercontent.com/845767/179518645-c6892e7c-91c5-43a3-a940-b1977ad38d84.png)
+![image](/assets/design/specs/record-page/179518645-c6892e7c-91c5-43a3-a940-b1977ad38d84.png)
 
 ### From the record page
 
 The user can access other records from the record page by utilizing the record navigation controls at the top of the page. There is also a 'go to record' option in the record navigation controls, which opens the record selector component.
 
 ## Structure of the record page
-![image](https://user-images.githubusercontent.com/845767/179518163-968faacf-c3c0-4b5f-a011-6335e0ebe922.png)
+![image](/assets/design/specs/record-page/179518163-968faacf-c3c0-4b5f-a011-6335e0ebe922.png)
 
 ### (A) Record-Level Navigation 
 
