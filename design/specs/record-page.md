@@ -2,7 +2,7 @@
 title: Record Page
 description: 
 published: true
-date: 2022-07-18T13:41:06.809Z
+date: 2022-07-18T13:44:01.860Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
@@ -12,7 +12,7 @@ dateCreated: 2022-07-18T13:41:06.809Z
 
 ## Context
 
-The record page is a view that shows a single record from a table and offers functionality to let users read and update data in tables. As an additional feature, the record pages allow users to integrate queries for displaying records in linked tables.
+The record page is a view that shows a single record from a table and offers functionality to let users read and update data in tables. As an additional feature, the record pages allow users to integrate queries for displaying linked records from other tables.
 
 The purpose of the record page is to:
 
