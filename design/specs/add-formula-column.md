@@ -111,11 +111,11 @@ Once the user selects a different formula parameter values are not retained and 
 
 ### Scenario 4 - User clicks outside the inspector before saving
 
-If the user clicks outside at any point the column is retained as the column is added to the table. The user can jump back to the editing the formula column whenever they want to. 
+The outcome of this scenario is dependent on future Navigation so will be updated then.
 
 ### Scenario 5 - User closes the explorer without saving the query
 
-If the user closes the data explorer before saving the query, there will be a prompt where they will be asked if they want to save the query or not. 
+The outcome of this scenario is dependent on future Navigation so will be updated then.
 
 ## Interactions
 
@@ -140,4 +140,8 @@ The user can only add formula column through data explorer. But the user can add
 The formula selection menu is quite long since there are a lot of formula to choose from. To reduce the strain, the dropdown is divided into categories of formulas that are text, number, random generator and so on. There is search option where user can search the category or the formula name to directly use a formula. There is a recent section where the user can see their last three used formulas to quickly jump on that.
 
 ![](https://share.balsamiq.com/c/svLZHynK3NqVkjofBmqgMj.png)
+
+## Future work 
+
+The Data Explorer save and close actions are dependent on other flows that are still being defined. This is likely to be a part of future Navigation updates where there will be a special navigation scenario for abandoning a view when changes are unsaved.
 
