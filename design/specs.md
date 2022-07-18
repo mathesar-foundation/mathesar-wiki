@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-04-12T20:19:56.163Z
+date: 2022-07-18T13:42:17.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -11,6 +11,9 @@ dateCreated: 2021-05-18T21:39:18.962Z
 ## Features
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
+
+### Records
+- [Record Page](/design/specs/record-page)
 
 ### Views
 - [Listing Views](/design/specs/listing-views)
