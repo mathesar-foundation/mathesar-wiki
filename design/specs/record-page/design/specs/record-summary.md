@@ -2,7 +2,7 @@
 title: Record Summary
 description: 
 published: true
-date: 2022-07-18T18:02:22.867Z
+date: 2022-07-18T19:08:46.189Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T17:49:31.605Z
@@ -28,16 +28,16 @@ The summary on a record page serves as both a header and a representation of lin
 A summary is also shown at the row level to identify the records.
 ![image](/assets/design/specs/record-page/design/specs/record-summary/179571476-4fa60138-3acf-4b69-9c32-cc1468cdf965.png)
 
-### The summary expression
-Record summaries are constructed using an expression that takes the value of the record's first non-primary-key field.
-This expression can be customized by the user to add any symbol or column values that they desire.
-The expression is set at the table level, meaning that all records from that table will be represented in the same way across the product.
+## Components
 
-The value of the first non-primary-key field of a record is used as a default for the record summary. It is possible for the user to change this expression to add any symbol or column values that they feel appropriate.
-Using this formula, all records in a particular table will be treated identically. Changes to a record's expression are reflected in all of its occurrences.
+### Summary Expression Builder
+By default, the value of the record's first non-primary-key field is set as the record summary. In most circumstances, however, the user will want to customize the record summary to include a non-default or extra column or characters.
 
-### The expression input component
-An input component is provided in the table settings for creating the expression. The user has the option to type or select columns, and also add additional symbols, in this input. As the user types, the auto-complete pattern of the interaction suggests columns. In order to distinguish them from the text symbols, columns are displayed as tag-like objects with a distinct background color.
+A component that allows users to enter columns, choose them as they type, and combine these columns with other symbols or letters in the correct order is required for this.
+
+The expression input component will enable users to enter in any letters and will verify if the content matches an existing column as they type. For example, if a user starts typing "Check," the menu will automatically filter to any columns that begin with "Check," such as "Checkouts." The best match will be highlighted automatically, and the user may select it by hitting Tab.
+
+Once inserted, the columns will be highlighted in color to differentiate them, whilst the characters will remain in plain text. To remove parts of the expression, the user must hit the backspace key, which will erase a single character or an entire column if applicable. Please note that is not possible to delete a character or column without deleting all the characters or columns after it.
 
 ## User Flow
 
