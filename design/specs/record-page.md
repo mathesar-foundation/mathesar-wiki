@@ -2,7 +2,7 @@
 title: Record Page
 description: 
 published: true
-date: 2022-07-18T13:44:01.860Z
+date: 2022-07-18T16:04:22.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
@@ -44,16 +44,16 @@ The user can access other records from the record page by utilizing the record n
 
 ## Structure of the record page
 ![image](/assets/design/specs/record-page/179518163-968faacf-c3c0-4b5f-a011-6335e0ebe922.png)
-
 ### (A) Record-Level Navigation 
 
 The buttons for navigating to different records in the table will be located in the Record-Level Navigation. Users will also be able to search for a specific one using the record selector feature.
 
 ### (B) Record Toolbar 
 
-The record toolbar displays the summary for the currently active record. The record toolbar label will also toggle a menu with record-related operations such as duplicate, delete, among others. Some action buttons will be located in the toolbar, similar to the toolbar in tables, however there is no definition of which actions will be provided at this time.
+The record toolbar displays the [record summary](#record-summary) for the currently active record. The record toolbar label will also toggle a menu with record-related operations such as duplicate, delete, among others. Some action buttons will be located in the toolbar, similar to the toolbar in tables, however there is no definition of which actions will be provided at this time.
 
 Once the entire flow is specified, this design is likely to change.
+
 
 ### (C) Record Fields 
 
@@ -64,3 +64,9 @@ The record fields will be shown as a collection of input controls. As with table
 The record page will additionally have a section with links to the selected record. In these cases, a foreign key has been used to link a record from another table to the current one.
 
 Under the 'Queries' section, embedded queries to the linked table will return these records in the way of tables or visualizations. Custom embedded queries created by users with Data Explorer will be used to define the tables' fields and options.
+
+## Related Features
+
+### Record Summary
+Record summaries are strings that represent a record's data. They are specified by users and can include variable values from the record's fields, or include symbols and text characters. 
+[Record Summary Spec](design/specs/record-summary)
