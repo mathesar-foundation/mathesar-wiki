@@ -2,7 +2,7 @@
 title: Record Page
 description: 
 published: true
-date: 2022-07-19T17:49:00.642Z
+date: 2022-07-19T17:50:20.851Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
@@ -13,28 +13,6 @@ dateCreated: 2022-07-18T13:41:06.809Z
 ## Context
 
 The record page is a view that shows a single record from a table and offers functionality to let users read and update data in tables. As an additional feature, the record pages allow users to integrate queries for displaying linked records from other tables.
-
-## Navigating to the record page
-
-The navigation to and from records is an important factor to consider when designing the record page as it is intended to be integrated into various user flows.
-
-### From the schema view via record selector
-From the schema view, users may access the record page by selecting the 'record search' option from any of the tables provided. This will launch the record selector, allowing the user to go to a certain record.
-
-![image](/assets/design/specs/record-page/179518507-ff971ee7-fc09-4c65-aaf0-df8a73743998.png)
-
-#### Note
-This is contingent on the new design for the listed tables, which will contain buttons for searching and adding entries right from the list item.
-
-### From the table page
-
-Clicking on the primary key cell link in the table will take the user to a specific record.
-
-![image](/assets/design/specs/record-page/179518645-c6892e7c-91c5-43a3-a940-b1977ad38d84.png)
-
-### From the record page
-
-The user can access other records from the record page by utilizing the record navigation controls at the top of the page. There is also a 'go to record' option in the record navigation controls, which opens the record selector component.
 
 ## Structure of the record page
 > Not the final layout, but just an outline of what will be included on the record page, so take that into consideration when reading.
@@ -52,7 +30,6 @@ The record toolbar displays the [record summary](#record-summary) for the curren
 
 Once the entire flow is specified, this design is likely to change.
 
-
 ### C.Record Fields 
 
 The record fields will be shown as a collection of input controls. As with tables, the input fields may be interacted with by users to modify the data. The fields will be presented in the same format and order as in tables. 
@@ -63,6 +40,28 @@ The record page will also have a section with links to the selected record. This
 
 Custom embedded queries created by users with Data Explorer will be used to define the tables' fields and options.
 
+## Navigating to the record page
+
+The navigation to and from records is an important factor to consider when designing the record page as it is intended to be integrated into various user flows.
+
+### From the schema view via record selector
+From the schema view, users may access the record page by selecting the 'record search' option from any of the tables provided. This will launch the record selector, allowing the user to go to a certain record.
+
+![image](/assets/design/specs/record-page/179518507-ff971ee7-fc09-4c65-aaf0-df8a73743998.png)
+
+> This is contingent on the new design for the listed tables, which will contain buttons for searching and adding entries right from the list item.
+{.is-info}
+
+
+### From the table page
+
+Clicking on the primary key cell link in the table will take the user to a specific record.
+
+![image](/assets/design/specs/record-page/179518645-c6892e7c-91c5-43a3-a940-b1977ad38d84.png)
+
+### From the record page
+
+The user can access other records from the record page by utilizing the record navigation controls at the top of the page. There is also a 'go to record' option in the record navigation controls, which opens the record selector component.
 
 
 ## Related Features
