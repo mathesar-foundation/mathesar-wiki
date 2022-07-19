@@ -18,7 +18,7 @@ The record page is a view that shows a single record from a table and offers fun
 > Not the final layout, but just an outline of what will be included on the record page, so take that into consideration when reading.
 {.is-warning}
 
-![image](https://user-images.githubusercontent.com/845767/179816131-71132b6e-c36d-4265-800a-02f6ae4d42c5.png)
+![image](/assets/design/specs/record-page/179816131-71132b6e-c36d-4265-800a-02f6ae4d42c5.png)
 
 ### A.Record-Level Navigation 
 
