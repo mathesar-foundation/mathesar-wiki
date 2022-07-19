@@ -2,7 +2,7 @@
 title: Tools
 description: Collaboration tools used by the team
 published: true
-date: 2022-07-19T20:39:37.113Z
+date: 2022-07-19T20:44:36.624Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-04T12:29:56.320Z
@@ -31,7 +31,10 @@ We use Slack for chatting with the CCI team and community. Feel free to browse a
 
 # Documents
 ## Figma
-We use Figma to create, share, and comment on design documents.
+We use Figma and FigJam to create, share, and comment on design and brainstorming documents.
+
+## Balsamiq Cloud
+We use Balsamiq Cloud to create and share low-fidelity wireframes.
 
 ## Google Drive
 We have a `Mathesar` Google Drive where we put documents. We don't use this a lot since most of our documents are public.
