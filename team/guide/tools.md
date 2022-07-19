@@ -2,16 +2,13 @@
 title: Tools
 description: Collaboration tools used by the team
 published: true
-date: 2021-11-15T19:33:41.834Z
+date: 2022-07-19T20:39:37.113Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-04T12:29:56.320Z
 ---
 
 # Communication
-
-## 8x8
-We have an `8x8` video conference "room" for impromptu conversations and Mathesar team events.
 
 ## GitHub
 We use GitHub for code, issue tracking, and long form discussions. Please see [Workflow](/team/guide/workflow) for more information.
@@ -59,9 +56,6 @@ Access is controlled via Google Groups.
 
 ## 1Password
 We currently use CCI's 1Password account to share Mathesar-related passwords (e.g. staging server auth, credentials for our GitHub bot account, etc.)
-
-## Airtable
-We currently use CCI's Airtable account to accept incoming job applications. Not everyone has access, we set it up as needed.
 
 ## Calendly
 We use Calendly to schedule meetings with third-parties (e.g. interviews). Not everyone has a Calendly account, we set them up as needed.
