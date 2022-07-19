@@ -2,7 +2,7 @@
 title: Record Page
 description: 
 published: true
-date: 2022-07-19T17:44:40.962Z
+date: 2022-07-19T17:49:00.642Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
@@ -40,7 +40,8 @@ The user can access other records from the record page by utilizing the record n
 > Not the final layout, but just an outline of what will be included on the record page, so take that into consideration when reading.
 {.is-warning}
 
-![image](/assets/design/specs/record-page/179518163-968faacf-c3c0-4b5f-a011-6335e0ebe922.png)
+![image](https://user-images.githubusercontent.com/845767/179816131-71132b6e-c36d-4265-800a-02f6ae4d42c5.png)
+
 ### A.Record-Level Navigation 
 
 The buttons for navigating to different records in the table will be located in the Record-Level Navigation. Users will also be able to search for a specific one using the record selector feature.
