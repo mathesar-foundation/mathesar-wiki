@@ -2,7 +2,7 @@
 title: Meeting Notes
 description: 
 published: true
-date: 2022-06-01T13:18:47.430Z
+date: 2022-07-20T15:19:16.613Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-23T10:53:59.841Z
@@ -11,6 +11,9 @@ dateCreated: 2021-04-23T10:53:59.841Z
 These are the Mathesar core team's meeting notes.
 
 ## 2022
+- [July 2022](/meeting-notes/2022-07)
+- [June 2022](/meeting-notes/2022-06)
+- [May 2022](/meeting-notes/2022-05)
 - [April 2022](/meeting-notes/2022-04)
 - [March 2022](/meeting-notes/2022-03)
 - [February 2022](/meeting-notes/2022-02)
