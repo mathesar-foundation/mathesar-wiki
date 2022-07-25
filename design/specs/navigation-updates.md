@@ -30,7 +30,7 @@ The URL should be used to display the navigation structure to users. It should b
 
 ### Top Navigation Bar
 
-![image](https://user-images.githubusercontent.com/845767/180155893-8e997029-6397-4b56-b4d6-8515668b6f3e.png)
+![image](/assets/design/specs/navigation-updates/180155893-8e997029-6397-4b56-b4d6-8515668b6f3e.png)
 
 Every page has a top-level global navigation bar. Users may add new items or jump to existing ones from the top navigation bar.
 
@@ -72,7 +72,7 @@ The breadcrumbs are shown on all pages and indicate the current location in the 
 
 ### Table Row Links
 
-![image](https://user-images.githubusercontent.com/845767/180157771-7e98353c-544d-4681-bb04-0f0a3efb10d3.png)
+![image](/assets/design/specs/navigation-updates/180157771-7e98353c-544d-4681-bb04-0f0a3efb10d3.png)
 
 Users may use tables to go to a specific record page. Each row's primary key cell has a link to the record that the user may access by clicking on it.
 
@@ -80,19 +80,19 @@ Users may use tables to go to a specific record page. Each row's primary key cel
 
 #### Record Navigation
 
-![image](https://user-images.githubusercontent.com/845767/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
+![image](/assets/design/specs/navigation-updates/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
 
 When on a record page, you may use the record navigation controls to move between records. Included are options for going through the records sequentially or jumping to a specific record.
 
 #### Linked Fields
 
-![image](https://user-images.githubusercontent.com/845767/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
+![image](/assets/design/specs/navigation-updates/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
 
 When fields with foreign keys are shown on the record page, the links to the tables they relate to be clickable by the user.
 
 ### Data Explorer
 
-![image](https://user-images.githubusercontent.com/845767/180244256-3594fb03-21dd-4194-b812-e1f51975f796.png)
+![image](/assets/design/specs/navigation-updates/180244256-3594fb03-21dd-4194-b812-e1f51975f796.png)
 
 Users may access Data Explorer from various locations and as part of the following flows:
 
