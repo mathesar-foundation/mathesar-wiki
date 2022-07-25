@@ -10,17 +10,27 @@ dateCreated: 2022-08-25 18:02:58
 
 ## Context
 
-Users need to be able to quickly browse the data model so that they can complete tasks that involve performing actions in various tables or navigating to related tables. Besides indicating the location, these navigation elements should also be used to show the hierarchical structure and the relationships between the various data model parts.
+Mathesar users must be able to navigate between pages and know where they are at any point while using the system.
 
-## Hierarchical Structure
+### Design Goals
+
+- Users clearly understand which page they're on
+- Users easily navigate to other pages
+- Users may anticipate the result of navigation interactions
+
+### Hierarchical Structure
 
 The navigation design will be based on the following hierarchical structure:
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/845767/179704030-bc694e6a-c0f1-4f1c-9f1f-add32d789643.png">
+- Database
+  - Schema
+    - Table
+      - Record
+    - Query
 
-## Removing Tabs
+### Phasing Out Tab Navigation
 
-Tabs will be phased out as part of the new navigation improvements. The new navigation considers the problems that tabs addressed and incorporates them into the design.
+Tabs will be phased out as part of the new navigation improvements.
 
 ## Navigational Elements
 
@@ -78,17 +88,17 @@ Users may use tables to go to a specific record page. Each row's primary key cel
 
 ### Record Page
 
-#### Record Navigation
+1. Record Navigation
 
-![image](/assets/design/specs/navigation-updates/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
+    ![image](/assets/design/specs/navigation-updates/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
 
-When on a record page, you may use the record navigation controls to move between records. Included are options for going through the records sequentially or jumping to a specific record.
+    When on a record page, you may use the record navigation controls to move between records. Included are options for going through the records sequentially or jumping to a specific record.
 
-#### Linked Fields
+1. Linked Fields
 
-![image](/assets/design/specs/navigation-updates/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
+    ![image](/assets/design/specs/navigation-updates/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
 
-When fields with foreign keys are shown on the record page, the links to the tables they relate to be clickable by the user.
+    When fields with foreign keys are shown on the record page, the links to the tables they relate to be clickable by the user.
 
 ### Data Explorer
 
@@ -96,20 +106,20 @@ When fields with foreign keys are shown on the record page, the links to the tab
 
 Users may access Data Explorer from various locations and as part of the following flows:
 
-#### Creating a query from scratch
+1. Creating a query from scratch
 
-From the schema homepage or top navigation, the user will have the option to create a new object. If they create a query, the system will open the 'Data Explorer.' Once the user is satisfied with the created query, they can choose to leave the 'Data Explorer' and should be redirected to the new query. They may then return to the 'Data Explorer' to edit the query, as described in more detail below.
+    From the schema homepage or top navigation, the user will have the option to create a new object. If they create a query, the system will open the 'Data Explorer.' Once the user is satisfied with the created query, they can choose to leave the 'Data Explorer' and should be redirected to the new query. They may then return to the 'Data Explorer' to edit the query, as described in more detail below.
 
-#### Editing a query
+1. Editing a query
 
-'Edit Mode' may be activated from any active query to inspect the settings that generate a query in the 'Data Explorer.'
+    'Edit Mode' may be activated from any active query to inspect the settings that generate a query in the 'Data Explorer.'
 
-#### Opening a table as a query
+1. Opening a table as a query
 
-'Data Explorer' can open any table in Mathesar. The 'Open in Data Explorer' menu option in the table settings will automatically build a query that contains all of the table columns.
+    'Data Explorer' can open any table in Mathesar. The 'Open in Data Explorer' menu option in the table settings will automatically build a query that contains all of the table columns.
 
-'Data Explorer' should treat any current filters or sorts in the table as steps.
+    'Data Explorer' should treat any current filters or sorts in the table as steps.
 
-#### Configuring an embedded query from the record page (Table Widget)
+1. Configuring an embedded query from the record page (Table Widget)
 
-'Data Explorer' will open if users customize an embedded query from the record page. The user can return to the record page after the query has been set up.
+    'Data Explorer' will open if users customize an embedded query from the record page. The user can return to the record page after the query has been set up.
