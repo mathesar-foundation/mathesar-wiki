@@ -2,7 +2,7 @@
 title: Team Members
 description: 
 published: true
-date: 2022-05-31T19:12:31.985Z
+date: 2022-07-25T21:00:25.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-28T23:31:10.090Z
@@ -18,6 +18,8 @@ dateCreated: 2022-01-28T23:31:10.090Z
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering (backend) |
 | Mukesh Murali | `@mukesh:matrix.mathesar.org` | `@silentninja` | Engineering (backend) |
 | Dominykas Mostauskis | `@dominykas:matrix.mathesar.org` | `@dmos62` | Engineering (backend) |
+| Rajat Vijay | `@rajat:matrix.mathesar.org` | `@rajatvijay` | Engineering (frontend) |
+
 
 ## Community Team
 
