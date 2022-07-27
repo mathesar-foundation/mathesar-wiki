@@ -98,18 +98,18 @@ One "widget" allows the user to see (and potentially modify) other data in the s
 
 - There are two types of widgets:
 
-    - **Auto-generated widgets** (which are described above, to be implemented first)
+    - **Table widgets** (which are described above, to be implemented first)
 
-    - **Manually generated widgets** (which are more complex and will hopefully be implemented later)
+    - **Query widgets** (which are more complex and will hopefully be implemented later)
     
-        Some example use-cases for manually-generated widgets are:
+        Some example use-cases for query widgets are:
 
         - Show a patron's currently-checked out books
         - Show all publications of an author, along with the number of items that the library has for that publication.
 
 - The title is stylized differently for the two types of widgets (perhaps via a lock icon or similar) allowing the user to distinguish them.
 
-- Above all widgets, an "Add Query" button exists to add a new manually-generated widget.
+- Above all widgets, an "Add Query" (or maybe "Add Widget"?) button exists to add a new query widget.
 
     The button is a link (can be opened in a new tab) to create a new query within the Data Explorer. The link contains URL parameters which specify the id of this table and the id of this record. The Data Explorer then allow the user to build a query from scratch, but the choice of base table is limited only to tables which contain FKs to this table.
 
@@ -117,16 +117,16 @@ One "widget" allows the user to see (and potentially modify) other data in the s
     
     We will need to clarify what happens when the user saves the query. Is the query visible within the top level of the schema? Or is it hidden? Perhaps this is configurable.
 
-- Each **manually-generated widget** provides the following options:
+- Each **query widget** provides the following options:
     - "Rename"
     - "Edit"
     - "Delete"
 
-- Each **auto-generated widget** provides the following options:
+- Each **table widget** provides the following options:
     - "Hide"
-    - "Edit a copy of this query" -- This is a link similar to the "Add Query" button which directs the user to the Data Explorer, but it also passes the id of the foreign key used in the auto-generated widget. The Data Explorer then builds a query to match the behavior of the auto-generated widget and allows the user to save it as a new query. The auto-generated widget will remain unmodified and visible, leaving the user with two very similar widgets. At this point the user can choose to distinguish between the two by either hiding the auto-generated one or renaming the manually-generated one.
+    - "Edit a copy of this query" -- This is a link similar to the "Add Query" button which directs the user to the Data Explorer, but it also passes the id of the foreign key used in the table widget. The Data Explorer then builds a query to match the behavior of the table widget and allows the user to save it as a new query. The table widget will remain unmodified and visible, leaving the user with two very similar widgets. At this point the user can choose to distinguish between the two by either hiding the table widget or renaming the query widget.
 
-- Above all widgets, a "Show Hidden Queries" dropdown button exists giving the user the capability to un-hide any auto-generated widgets widgets they have hidden.
+- Above all widgets, a "Show Hidden Queries" dropdown button exists giving the user the capability to un-hide any table widgets widgets they have hidden.
 
 - Each widget is collapsible via a triangle icon to the left of its title. The collapsed/expanded state per-widget is persisted via local storage and will apply to all records within this table.
     
@@ -134,4 +134,4 @@ One "widget" allows the user to see (and potentially modify) other data in the s
 
     The mechanism for re-ordering the widgets is subject to further UX experimentation. Drag and drop would seem to be an obvious choice, though the height of each widget (when expanded) would make dragging cumbersome. It may be possible to collapse all widgets when the user initiates a drag, however the user's cursor might jump around on the page if we do this. Another idea is a drop down menu in which the user can re-order the widgets. This menu could potentially contain UI to show/hide the widgets too!
 
-    The user can intermingle auto-generated widgets with manually-generated widgets. New manually-generated widgets are displayed on top. New auto-generated widgets are displayed on bottom (which allows for a data structure where the auto-generated widgets have optional sorting weights).
+    The user can intermingle table widgets with query widgets. New query widgets are displayed on top. New table widgets are displayed on bottom (which allows for a data structure where the table widgets have optional sorting weights).
