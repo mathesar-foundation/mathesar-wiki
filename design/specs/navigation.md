@@ -24,9 +24,14 @@ The navigation design will be based on the following structure:
 
 | 1st Level         | 2nd Level       | 3rd Level     | 4th Level   |
 |-------------------|-----------------|---------------|-------------|
-| Database Homepage | Schema Homepage | Table Page    | Record Page |
-|                   |                 | Query Page    |             |
-|                   |                 | Data Explorer |             |
+| Database Page     | Schema Page     | Table Page    | Record Page |
+|                   | Data Explorer   | Query Page    |             |
+|                   | Data Import     |               |             |
+
+- 1st level: Database
+- 2nd level: Schema
+- 3rd level: Entities
+- 4th level: Record
 
 [Navigation by Page](https://balsamiq.cloud/sjfrgln/pbe3tnu/r7FA3?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
 
