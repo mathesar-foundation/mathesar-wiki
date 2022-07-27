@@ -28,7 +28,7 @@ The navigation design will be based on the following structure:
 |                   |                 | Query Page    |             |
 |                   |                 | Data Explorer |             |
 
-[Wireframes](https://balsamiq.cloud/sjfrgln/pbe3tnu/r7FA3?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
+[Navigation by Page](https://balsamiq.cloud/sjfrgln/pbe3tnu/r7FA3?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
 
 ## Phasing Out Tab Navigation
 
@@ -52,9 +52,6 @@ Navigation within Mathesar will take place in three different ways:
 - The current page label will be placed underneath the top header component in a sub-header component.
 - An icon will be used to identify each type of page (table, schema, record etc.)
 - When we eventually add support for several databases, we'll need CRUD UI for databases, and we may design some additional UI that stays within the header at that point.
-
-Wireframes:
-[Wireframes](https://share.balsamiq.com/c/gxcTvc7VrSANmndaHABNWC.png)
 
 ### Navigation via links within pages
 
@@ -126,6 +123,6 @@ Pages within a group can be accessed through the top navigation's page selector 
 - Focus the input on opening, allowing the user to begin typing immediately.
 - Allow keyboard navigation to select an item using Up/Down/Enter keys.
 
-Wireframe:
-[Schema Selector](https://share.balsamiq.com/c/ucdy2SPtAMPxErX4wh3fdS.png)
-[Entities Selector](https://share.balsamiq.com/c/qVGHzaycnKF5u8pLBsvrvS.png)
+[Schema Selector Wireframe](https://share.balsamiq.com/c/ucdy2SPtAMPxErX4wh3fdS.png)
+
+[Entities Selector Wireframe](https://share.balsamiq.com/c/qVGHzaycnKF5u8pLBsvrvS.png)
