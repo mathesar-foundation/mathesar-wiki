@@ -121,6 +121,8 @@ Pages within a group can be accessed through the top navigation's page selector 
 - From the page selector a user can scroll through all the listed items.
 - A search input is provided so that users can match the desired item by name.
 - Highlight will be used to indicate the text portion that was matched.
+- Focus the input on opening, allowing the user to begin typing immediately.
+- Allow keyboard navigation to select an item using Up/Down/Enter keys.
 
 Wireframe:
 [Schema Selector](https://share.balsamiq.com/c/ucdy2SPtAMPxErX4wh3fdS.png)
