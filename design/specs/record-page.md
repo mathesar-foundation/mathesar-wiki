@@ -132,6 +132,6 @@ One "widget" allows the user to see (and potentially modify) other data in the s
     
 - The default ordering of widgets is not defined, but users *can* re-order all the widgets as as they so choose.
 
-    The mechanism for re-ordering the widgets is subject to further UX experimentation. Drag and drop would seem to be an obvious choice, though the height of each widget (when expanded) would make dragging cumbersome. It may be possible to collapse all widgets when the user initiates a drag, however the user's cursor might jump around on the page if we do this.
+    The mechanism for re-ordering the widgets is subject to further UX experimentation. Drag and drop would seem to be an obvious choice, though the height of each widget (when expanded) would make dragging cumbersome. It may be possible to collapse all widgets when the user initiates a drag, however the user's cursor might jump around on the page if we do this. Another idea is a drop down menu in which the user can re-order the widgets. This menu could potentially contain UI to show/hide the widgets too!
 
     The user can intermingle auto-generated widgets with manually-generated widgets. New manually-generated widgets are displayed on top. New auto-generated widgets are displayed on bottom (which allows for a data structure where the auto-generated widgets have optional sorting weights).
