@@ -18,7 +18,7 @@ Mathesar users must be able to navigate between pages and know where they are at
 - Users easily navigate to other pages
 - Users may anticipate the result of navigation interactions
 
-### Navigation structure diagram
+## Navigation structure diagram
 
 The navigation design will be based on the following structure:
 
@@ -28,7 +28,9 @@ The navigation design will be based on the following structure:
 |                   |                 | Query Page    |             |
 |                   |                 | Data Explorer |             |
 
-### Phasing Out Tab Navigation
+[Wireframes](https://balsamiq.cloud/sjfrgln/pbe3tnu/r7FA3?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
+
+## Phasing Out Tab Navigation
 
 Tabs will be phased out as part of the new navigation improvements.
 
