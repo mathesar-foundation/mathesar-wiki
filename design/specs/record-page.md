@@ -1,5 +1,5 @@
 ---
-title: Record Page
+title: Record Page Design
 description: 
 published: true
 date: 2022-07-19T17:50:20.851Z
@@ -7,65 +7,131 @@ tags:
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
 ---
+# Record Page Design
 
-# Record Page
+## Design Goals
 
-## Context
+Allow the user to perform focused operations on one record at a time, as well as other records linking to it.
 
-The record page is a view that shows a single record from a table and offers functionality to let users read and update data in tables. As an additional feature, the record pages allow users to integrate queries for displaying linked records from other tables.
+## Terminology
 
-## Structure of the record page
-> Not the final layout, but just an outline of what will be included on the record page, so take that into consideration when reading.
-{.is-warning}
+Within this spec...
 
-![image](/assets/design/specs/record-page/179816131-71132b6e-c36d-4265-800a-02f6ae4d42c5.png)
+- **"this record"** refers to the record being displayed on the page
+- **"this table"** refers to the table containing this record
 
-### A.Record-Level Navigation 
+## Parts of the page
 
-The buttons for navigating to different records in the table will be located in the Record-Level Navigation. Users will also be able to search for a specific one using the record selector feature.
+- The page contains the following parts, all of which are described in greater detail below
+    - Title
+    - Direct fields
+    - Widgets
+- The layout of these parts within the page (and of the content within each part) is subject to improvisation during implementation. Because continued adjustment of layout design is relatively low-cost, we are currently prioritizing the implementation of basic functionality over the perfection of aesthetics within this feature.
 
-### B.Record Toolbar 
+## Title
 
-The record toolbar displays the [record summary](#record-summary) for the currently active record. The record toolbar label will also toggle a menu with record-related operations such as duplicate, delete, among others. Some action buttons will be located in the toolbar, similar to the toolbar in tables, however there is no definition of which actions will be provided at this time.
+- One line in large font size. It contains:
+    - A "record" icon. (E.g. something like [this](https://fontawesome.com/icons/memo-pad?s=solid))
+    - The **Record Summary** string
+    - A dropdown icon that opens a menu to perform the following actions on the record:
+        - Delete
+        - *Potentially other actions in the future, such as "Add field", "Duplicate", etc.*
 
-Once the entire flow is specified, this design is likely to change.
+## Direct Fields
 
-### C.Record Fields 
-
-The record fields will be shown as a collection of input controls. As with tables, the input fields may be interacted with by users to modify the data. The fields will be presented in the same format and order as in tables. 
-
-### D.Links to Record and Queries 
-
-The record page will also have a section with links to the selected record. This work is currently being defined, and it is likely to change. However, the aim is to add a default query for the tables with connected records and present them as tables or visualizations that the user can edit.
-
-Custom embedded queries created by users with Data Explorer will be used to define the tables' fields and options.
-
-## Navigating to the record page
-
-The navigation to and from records is an important factor to consider when designing the record page as it is intended to be integrated into various user flows.
-
-### From the schema view via record selector
-From the schema view, users may access the record page by selecting the 'record search' option from any of the tables provided. This will launch the record selector, allowing the user to go to a certain record.
-
-![image](/assets/design/specs/record-page/179518507-ff971ee7-fc09-4c65-aaf0-df8a73743998.png)
-
-> This is contingent on the new design for the listed tables, which will contain buttons for searching and adding entries right from the list item.
-{.is-info}
+- This is a section of the page which comes after the title.
+- It contains a form-like area which has many labeled input fields. One field exists for each column in this table.
+- The fields are presented in the same order that they occur in the Table Page.
+- Field labels display the column name along with the icon used within the column header on the Table Page.
+- Edits to the field values are saved on blur, with a similar UX to editing cell values in a table. There is no save button.
+- Similar to the Table Page, a persistent but subtle status message appears at the top of all the fields which reads "Saving" or "All changes saved" when appropriate.
+- FK fields display the record summary for the linked record and allow the user to navigate to its Record Page.
+- The layout of fields and their associated labels can be improvised during development (and adjusted during future design iterations).
 
 
-### From the table page
+## Widgets
 
-Clicking on the primary key cell link in the table will take the user to a specific record.
+One "widget" allows the user to see (and potentially modify) other data in the same schema *from the context of this record*.
 
-![image](/assets/design/specs/record-page/179518645-c6892e7c-91c5-43a3-a940-b1977ad38d84.png)
+**Example:** On a Patrons record, we use a widget to see the Checkouts records associated with the patron.
 
-### From the record page
+*Note: The name "widget" may be a bit awkward, we're open to replacements. A widget is kind of like a query or a view -- but "query" and "view" already mean very specific things and a widget may not necessarily be either a Mathesar query or a Postgres view. Also, although these specs describe a limited set of initial functionality, we expect widgets to gradually evolve into a flexible and powerful feature (more details at the end of these specs), so we've coined a unique (and somewhat generic) name for it.*
 
-The user can access other records from the record page by utilizing the record navigation controls at the top of the page. There is also a 'go to record' option in the record navigation controls, which opens the record selector component.
+### Basic widget specs for alpha release
 
+- One widget appears on the Record Page **for each foreign key which references this table**.
 
-## Related Features
+- Each widget has a **title** like:
+    
+    > Related `Checkouts` Records
 
-### Record Summary
-Record summaries are strings that represent a record's data. They are specified by users and can include variable values from the record's fields, or include symbols and text characters. 
-[Record Summary Spec](design/specs/record-summary)
+    If this table is referenced by multiple FKs from the same (other) table, or this table is referenced by an FK within this table itself, then the widget title will be:
+    
+    > Related `Checkouts` Records *(via `Patron Id`)*
+
+- Each widget displays the related records in a sheet UI similar to the sheet within the Table Page.
+
+    Commonalities between the widget and the Table Page:
+
+    - Cell display, selection, and editing
+    - Filtering/sorting/grouping (though any modifications herein will be ephemeral)
+
+    Differences between the widget and the Table Page:
+
+    - Actions which modify the table (e.g. "Rename", "Delete", "Constraints", "Link") are not available within the widget.
+    - Actions which modify columns are not available within the widget.
+    - The Table Inspector is not available within the widget.
+    - The column containing the FK to this table is hidden in the widget. Within this column, any newly-added records will automatically receive a value equal to the PK of this record (ensuring that newly-added records properly linked to this record).
+    - In the widget, the filter criteria has a filter automatically applied which filters the records to display only those related to this record. The user cannot remove this filter condition. The user is free to add other filter conditions, but those conditions will not persist after navigating away from this Record Page.
+
+- Each widget contains a "View All" link to the right of the title. This link navigates to the Table Page for the widget table pre-filtered to show only the records related to this record. Any ephemeral filter conditions applied to the widget by the user will also be applied within the link to that Table Page.
+
+- The sheet has pagination controls at the bottom. To prevent nested vertical scrolling, the pagination-page-size is a scant `10`! The user can increase it within the pagination UI if needed, but their new setting will not persist. The widget will grow taller to accommodate a larger pagination-page-size, but its `max-height` is `0.9vh` (or similar) to prevent it from being taller than the viewport. This means that nested vertical scrolling will occur if the user sets a large pagination-page-size or has an uncommonly short viewport.
+
+    The small pagination-page-size admittedly limits the utility of the widget -- but does so for the sake of improving usability of the Record Page as a whole. If the user wants to see the "full" results from the widget, they can click the "View All" link (even choosing to open that link in a new browser tab if they like).
+
+- The order of widgets within the Record Page is not defined and also not configurable.
+
+### Longer-term goals for widgets, post-alpha
+
+(This section is subject to further design review and task prioritization, but is presented to justify gaps in functionality of the above specs.)
+
+- There are two types of widgets:
+
+    - **Auto-generated widgets** (which are described above, to be implemented first)
+
+    - **Manually generated widgets** (which are more complex and will hopefully be implemented later)
+    
+        Some example use-cases for manually-generated widgets are:
+
+        - Show a patron's currently-checked out books
+        - Show all publications of an author, along with the number of items that the library has for that publication.
+
+- The title is stylized differently for the two types of widgets (perhaps via a lock icon or similar) allowing the user to distinguish them.
+
+- Above all widgets, an "Add Query" button exists to add a new manually-generated widget.
+
+    The button is a link (can be opened in a new tab) to create a new query within the Data Explorer. The link contains URL parameters which specify the id of this table and the id of this record. The Data Explorer then allow the user to build a query from scratch, but the choice of base table is limited only to tables which contain FKs to this table.
+
+    While building the query, the Data Explorer displays the Record Summary of the original record (where the user was before building the query). The user can click on that Record Summary to navigate back to that Record Page. The results of the query the user is building are filtered to show only the items related to that record. That filtering operation is not defined within the query the user is building, but rather performed as part of the `filter` params when fetching the results of the query. The UI which displays the specific Record Summary also allows the user to change the record (using the Record Selector) -- merely for the purpose of previewing their query from the perspective of a different record while building it.
+    
+    We will need to clarify what happens when the user saves the query. Is the query visible within the top level of the schema? Or is it hidden? Perhaps this is configurable.
+
+- Each **manually-generated widget** provides the following options:
+    - "Rename"
+    - "Edit"
+    - "Delete"
+
+- Each **auto-generated widget** provides the following options:
+    - "Hide"
+    - "Edit a copy of this query" -- This is a link similar to the "Add Query" button which directs the user to the Data Explorer, but it also passes the id of the foreign key used in the auto-generated widget. The Data Explorer then builds a query to match the behavior of the auto-generated widget and allows the user to save it as a new query. The auto-generated widget will remain unmodified and visible, leaving the user with two very similar widgets. At this point the user can choose to distinguish between the two by either hiding the auto-generated one or renaming the manually-generated one.
+
+- Above all widgets, a "Show Hidden Queries" dropdown button exists giving the user the capability to un-hide any auto-generated widgets widgets they have hidden.
+
+- Each widget is collapsible via a triangle icon to the left of its title. The collapsed/expanded state per-widget is persisted via local storage and will apply to all records within this table.
+    
+- The default ordering of widgets is not defined, but users *can* re-order all the widgets as as they so choose.
+
+    The mechanism for re-ordering the widgets is subject to further UX experimentation. Drag and drop would seem to be an obvious choice, though the height of each widget (when expanded) would make dragging cumbersome. It may be possible to collapse all widgets when the user initiates a drag, however the user's cursor might jump around on the page if we do this.
+
+    The user can intermingle auto-generated widgets with manually-generated widgets. New manually-generated widgets are displayed on top. New auto-generated widgets are displayed on bottom (which allows for a data structure where the auto-generated widgets have optional sorting weights).
