@@ -18,15 +18,15 @@ Mathesar users must be able to navigate between pages and know where they are at
 - Users easily navigate to other pages
 - Users may anticipate the result of navigation interactions
 
-### Hierarchical Structure
+### Navigation structure diagram
 
-The navigation design will be based on the following navigational structure:
+The navigation design will be based on the following structure:
 
-- Database
-  - Schema
-    - Table
-      - Record
-    - Query
+| 1st Level         | 2nd Level       | 3rd Level     | 4th Level   |
+|-------------------|-----------------|---------------|-------------|
+| Database Homepage | Schema Homepage | Table Page    | Record Page |
+|                   |                 | Query Page    |             |
+|                   |                 | Data Explorer |             |
 
 ### Phasing Out Tab Navigation
 
@@ -42,13 +42,14 @@ Navigation within Mathesar will take place in three different ways:
 
 ### Navigation via site header
 
-- The logo in the site header will link to the site root, in this case the database homepage.
-- As the user navigates across the pages, a breadcrumb-like navigation will be presented in the top part of the site's header.
-- Clicking on a breadcrumb element opens a selector with a list of schemas or entities based on the current page level.
-- The breadcrumb will not include the current page.
-- The current page label will be placed in a sub-header component underneath the top header part.
-- Each type of page will be identified by an icon (table, schema, record etc.)
-- When we finally add support for many databases, we'll require CRUD UI for databases, and at that time we may create some extra UI that stays within the header.
+- The logo in the site header will lead visitors to the site's root, in this case the database homepage.
+- A breadcrumb-like navigation will be displayed at the top part of the site's header as the user navigates through the pages.
+- When users click on a breadcrumb element, a [page-selector](#page-selector) component is displayed with a list of schemas or entities based on the breadcrumb level.
+- Upon reaching the record level, the top navigation will show a 'Go to Record' action, which will open the [Record Selector](/engineering/specs/record-selector) component.
+- The current page will not be included in the breadcrumb path.
+- The current page label will be placed underneath the top header component in a sub-header component.
+- An icon will be used to identify each type of page (table, schema, record etc.)
+- When we eventually add support for several databases, we'll need CRUD UI for databases, and we may design some additional UI that stays within the header at that point.
 
 Wireframes:
 [Wireframes](https://share.balsamiq.com/c/gxcTvc7VrSANmndaHABNWC.png)
@@ -107,3 +108,16 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Route: `/{database_name}/{schema_id}/{table_id}/{record_id}`
   - Favicon: Record
   - `<title>`: `{record_summary} | {table_name} | {schema_name} | Mathesar`
+
+## Components
+
+### Page Selector
+
+Pages within a group can be accessed through the top navigation's page selector component.
+
+- Users can click on a expand icon next to each of the breadcrumb level's items.
+- If the current page is a schema homepage, the user expands the database level item to see a list of all the database schemas.
+- If the user's current page contains a table, the schema level item will expand to show all tables inside that schema.
+- From the page selector a user can scroll through all the listed items.
+- A search input is provided so that users can match the desired item by name.
+- Highlight will be used to indicate the text portion that was matched.
