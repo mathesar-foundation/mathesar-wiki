@@ -104,7 +104,7 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - `<title>`: `{table_name} | {schema_name} | Mathesar`
 
 - **Query Editor Page**:
-  - Route: `/{database_name}/{schema_id}/query/{table_id}/`
+  - Route: `/{database_name}/{schema_id}/query/{query_id}/`
   - Favicon: Query
   - `<title>`: `{query_name} | {schema_name} | Mathesar`
 
