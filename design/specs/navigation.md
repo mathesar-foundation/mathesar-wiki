@@ -49,14 +49,15 @@ Navigation within Mathesar will take place in three different ways:
 
 ### Navigation via site header
 
-- The logo in the site header will lead visitors to the site's root, in this case the database homepage.
-- A breadcrumb-like navigation will be displayed at the top part of the site's header as the user navigates through the pages.
-- When users click on a breadcrumb element, a [page-selector](#page-selector) component is displayed with a list of schemas or entities based on the breadcrumb level.
-- Upon reaching the record level, the top navigation will show a 'Go to Record' action, which will open the [Record Selector](/engineering/specs/record-selector) component.
-- The current page will not be included in the breadcrumb path.
-- The current page label will be placed underneath the top header component in a sub-header component.
-- An icon will be used to identify each type of page (table, schema, record etc.)
-- When we eventually add support for several databases, we'll need CRUD UI for databases, and we may design some additional UI that stays within the header at that point.
+![navigation-by-page](/assets/design/specs/navigation/nav1.png)
+
+- The database page is linked via the logo in the site top (We'll require CRUD UI for databases when we finally add support for many databases, and we may create some extra UI that stays within the header at that point).
+- Next to the logo is a breadcrumb navigation.
+- The breadcrumb navigation content will display the user's trail of pages visited as well as toggles to search inside each navigation level using [page selectors](#page-selector).
+- Upon reaching the record level, the top navigation will show a search records button, which will open the [Record Selector](/engineering/specs/record-selector) component.
+- The current page will be excluded from the breadcrumb trail.
+- The current page label will be displayed in the toolbar component below the top header component.
+- Each type of page will be identified by an icon (table, schema, record etc.)
 
 ### Navigation via links within pages
 
@@ -103,7 +104,7 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Favicon: Table
   - `<title>`: `{table_name} | {schema_name} | Mathesar`
 
-- **Query Editor Page**:
+- **Data Explorer Page**:
   - Route: `/{database_name}/{schema_id}/query/{query_id}/`
   - Favicon: Query
   - `<title>`: `{query_name} | {schema_name} | Mathesar`
