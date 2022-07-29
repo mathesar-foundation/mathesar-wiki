@@ -61,7 +61,7 @@ Navigation within Mathesar will take place in three different ways:
 
 ### Navigation via links within pages
 
-Throughout Mathesar, the following links exist within pages which allow for more targeted navigation to other pages.
+Throughout Mathesar, the following links exist within pages which allow for more targeted navigation to other pages (This list is not comprehensive and may include additional link options when further features are implemented).
 
 - **Database Page**
   - Links to **Schema Pages** in a list of schemas.
