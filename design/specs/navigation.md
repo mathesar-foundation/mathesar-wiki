@@ -54,7 +54,7 @@ Navigation within Mathesar will take place in three different ways:
 - The database page is linked via the logo in the site top (We'll require CRUD UI for databases when we finally add support for many databases, and we may create some extra UI that stays within the header at that point).
 - Next to the logo is a breadcrumb navigation.
 - The breadcrumb navigation content will display the user's trail of pages visited as well as toggles to search inside each navigation level using [page selectors](#page-selector).
-- Upon reaching the record level, the top navigation will show a search records button, which will open the [Record Selector](/engineering/specs/record-selector) component.
+- Upon reaching the record level, the top navigation will show a search records button, which will open the [Record Selector](/design/specs/record-selector.md) component.
 - The current page will be excluded from the breadcrumb trail.
 - The current page label will be displayed in the toolbar component below the top header component.
 - Each type of page will be identified by an icon (table, schema, record etc.)
