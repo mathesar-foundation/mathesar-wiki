@@ -54,7 +54,7 @@ Table properties include:
 - Table Display Options
   - Record Summary
   
-![image](https://user-images.githubusercontent.com/845767/182566720-3622f073-24ee-4aff-8460-64442f271fea.png)
+![image](/assets/design/specs/table_inspector/182566720-3622f073-24ee-4aff-8460-64442f271fea.png)
 
 ### Column Properties
 
