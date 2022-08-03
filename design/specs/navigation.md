@@ -22,11 +22,11 @@ Mathesar users must be able to navigate between pages and know where they are at
 
 The navigation design will be based on the following structure:
 
-| 1st Level         | 2nd Level       | 3rd Level     | 4th Level   |
-|-------------------|-----------------|---------------|-------------|
-| Database Page     | Schema Page     | Table Page    | Record Page |
-|                   | Data Explorer   | Query Page    |             |
-|                   | Data Import     |               |             |
+| 1st Level         | 2nd Level       | 3rd Level       | 4th Level   |
+|-------------------|-----------------|-----------------|-------------|
+| Database Page     | Schema Page     | Table Page      | Record Page |
+|                   | Data Explorer   | Exploration Page|             |
+|                   | Data Import     |                 |             |
 
 - 1st level: Database
 - 2nd level: Schema
@@ -38,6 +38,10 @@ The navigation design will be based on the following structure:
 ## Phasing Out Tab Navigation
 
 Tabs will be phased out as part of the new navigation improvements.
+
+## Changing 'Queries' to 'Explorations'
+
+We've decided to alter the name of "Queries" to "Explorations" based on team input. When used with "Data Explorer," the term "query" becomes problematic. Also, because Mathesar queries are distinct from database queries, using the name "query" for them may cause confusion.
 
 ## Navigation Methods
 
@@ -68,7 +72,7 @@ Throughout Mathesar, the following links exist within pages which allow for more
 
 - **Schema Page**
   - Links to **Table Pages** in a list of tables.
-  - Links to **Query Pages** in a list of queries.
+  - Links to **Exploration Pages** in a list of queries.
 
 - **Table Page**
   - Within the table data:
@@ -104,10 +108,10 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Favicon: Table
   - `<title>`: `{table_name} | {schema_name} | Mathesar`
 
-- **Query Page**:
-  - Route: ``/{database_name}/{schema_id}/query/{query_id}/`
-  - Favicon: Query
-  - `<title>`: `{query_name} | {schema_name} | Mathesar`
+- **Exploration Page**:
+  - Route: ``/{database_name}/{schema_id}/exploration/{exploration_id}/`
+  - Favicon: Exploration
+  - `<title>`: `{exploration_name} | {schema_name} | Mathesar`
 
 - **Record Page**:
   - Route: `/{database_name}/{schema_id}/{table_id}/{record_id}`
