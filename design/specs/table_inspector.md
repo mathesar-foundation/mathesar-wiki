@@ -50,7 +50,7 @@ Table properties include:
 - Table Display Options
   - Record Summary
   
-![image](/assets/design/specs/table_inspector/182350357-b1553f79-ff01-4033-b92c-7eb89865f9f9.png)
+![image](https://user-images.githubusercontent.com/845767/182566720-3622f073-24ee-4aff-8460-64442f271fea.png)
 
 ### Column Properties
 
@@ -121,7 +121,23 @@ In the future I'm thinking the 'Actions' panel could include the data modeling s
 
 Deselect all selected items by clicking on a currently selected item, on an empty space or pressing the escape key.
 
+#### Extending a Selection
+
+We may think about including a "Selection" area in the inspector so that users can make changes to the selection they're currently working with.
+
+This section could contain options such as:
+
+- Extend selection
+- Select all
+  - Select all columns with same data type
+
+## Keyboard Controls and Touch Devices Considerations
+
+Users would be better served if the software could support keyboard controls. In a separate issue, we'll look at how the inspector options are accessed and updated using the keyboard. We'll also look at how multi-object selection works on touch devices.
+
 ## User Interface Considerations and Examples
+
+### Collapsible Sections
 
 To make the table inspector's user interface more flexible, it should have expandable parts that can be collapsed and scrolled to.
 
