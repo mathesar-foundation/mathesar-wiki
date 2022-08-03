@@ -10,11 +10,11 @@ dateCreated: 2022-08-02
 
 ## Context
 
-The table inspector is a tool used to inspect individual components of a table, such as columns, rows, and cells, to retrieve information and configuration options for each component.
+Using the table inspector, users can access information and configuration options for each individual table component, including columns, rows, and cells.
 
 ### Design Goals
 
-- Provide easy access to table configurations.
+- Provide easy access to table component configurations.
 - Make features easier to discover.
 
 ## Enabling the Table Inspector
@@ -38,6 +38,10 @@ To disable the table inspector:
 ## Using the Table Inspector
 
 Whatever is presently selected will determine the content of the table inspector. During non-selection mode, the inspector simply displays properties for the current table.
+
+### Table Inspector Modes
+
+The current selection is what triggers the various inspection modes. The inspector panel's header contains a brief description of what is included in the selection.
 
 ### Table Properties
 
@@ -95,6 +99,7 @@ Multiple column properties:
 ### Actions Panel
 
 Shown at all times, the content might change depending on the selection status.
+
 The actions panel provides users with ready to use actions for quickly manipulating tables, columns or cells. The available actions are dependent on the selection.
 
 #### Future Considerations
