@@ -53,7 +53,7 @@ Navigation within Mathesar will take place in three different ways:
 
 ### Navigation via site header
 
-![navigation-by-page](/assets/design/specs/navigation/nav1.png)
+![image](https://user-images.githubusercontent.com/845767/182923064-c3ad8df1-98a4-47e6-a7a7-5fc8eed8821f.png)
 
 - The database page is linked via the logo in the site top (We'll require CRUD UI for databases when we finally add support for many databases, and we may create some extra UI that stays within the header at that point).
 - Next to the logo is a breadcrumb navigation.
