@@ -102,16 +102,26 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Route: `/{database_name}/{schema_id}`
   - Favicon: Schema
   - `<title>`: `{schema_name} | Mathesar`
+  
+- **Data Import**:
+  - Route:  `/{database_name}/{schema_id}/import/`
+  - Favicon: Mathesar logo
+  - `<title>`: `Data Import | {schema_name} | Mathesar`
+
+- **Data Explorer - New Exploration**:
+  - Route: ``/{database_name}/{schema_id}/data-explorer/`
+  - Favicon: Data Explorer
+  - `<title>`: `Data Explorer | {schema_name} | Mathesar`
+  
+- **Data Explorer - Open Exploration**:
+  - Route: ``/{database_name}/{schema_id}/data-explorer/{exploration_id}/`
+  - Favicon: Data Explorer
+  - `<title>`: `{exploration_name} | {schema_name} | Mathesar`
 
 - **Table Page**:
   - Route:  `/{database_name}/{schema_id}/{table_id}/`
   - Favicon: Table
   - `<title>`: `{table_name} | {schema_name} | Mathesar`
-
-- **Exploration Page**:
-  - Route: ``/{database_name}/{schema_id}/exploration/{exploration_id}/`
-  - Favicon: Exploration
-  - `<title>`: `{exploration_name} | {schema_name} | Mathesar`
 
 - **Record Page**:
   - Route: `/{database_name}/{schema_id}/{table_id}/{record_id}`
