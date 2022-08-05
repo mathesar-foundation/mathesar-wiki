@@ -2,11 +2,14 @@
 title: Full Stack Software Engineer
 description: 
 published: true
-date: 2022-06-24T21:59:20.646Z
+date: 2022-08-05T14:11:41.972Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-01T15:21:07.383Z
 ---
+
+> This position is closed.
+{.is-danger}
 
 ## About us
 
