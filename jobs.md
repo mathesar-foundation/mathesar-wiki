@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2022-06-01T15:22:30.646Z
+date: 2022-08-05T14:10:27.806Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z
@@ -10,7 +10,7 @@ dateCreated: 2021-07-16T16:41:39.528Z
 
 These are job descriptions for open jobs to work on Mathesar.
 
-- [Bilingual Software Engineer (Japanese/English)](/en/jobs/2022-06-localization-engineer)
+- [Full Stack Software Engineer](/en/jobs/2022-06-localization-engineer)
 {.links-list}
 
 # Closed Jobs
