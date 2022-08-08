@@ -10,101 +10,106 @@ dateCreated: 2022-08-02
 
 ## Context
 
-Using the table inspector, users can access information and configuration options for each individual table component, including columns, rows, and cells.
+Users can access information and setting options for each table component using the table inspector, including columns, rows, and cells.
 
 ### Design Goals
 
-- Provide easy access to table component configurations.
+- Provide easy access to table component settings.
 - Make features easier to discover.
 
-## Enabling the Table Inspector
+## Enabling and Disabling the Table Inspector
 
-The table inspector can be enabled or disabled manually or automatically based on triggers.
+The table inspector can be enabled or disabled manually or automatically based on event triggers.
 
-To enable the table inspector:
+To manually enable the table inspector:
 
 - Directly click on the inspector toggle located in the table toolbar to show the table inspector.
-- Open a newly created table, as part of another flow like [data import](#data-import) or [column extraction](#column-extraction).
 
-When users enable the table inspector, a panel will appear on the right side of the screen, sharing the same container as the table and pushing its contents rather than being stacked on top of it.
+Some events will automatically display the table inspector:
 
-- In its default mode, the inspector will provide information and configurations for the current table.
-- The inspector provides additional information and configuration options depending on what's currently selected.
+- Navigating to a newly created table after completing the data import process.
+- Navigating to a newly created table after completing the column extraction process.
 
 To disable the table inspector:
 
 - Directly click on the inspector toggle located in the table toolbar to hide the table inspector.
 
+### Positioning
+
+When users enable the table inspector, a panel will appear on the right side of the screen, sharing the same container as the table and pushing its contents rather than being stacked on top of it.
+
+In some cases, this will cause the table portion of the layout to have a horizontal scroll.
+
+### Inspector Modes
+
+At the top of the inspector panel is a row of tabs. Each tab includes table component-specific attributes and actions.
+
+The tabs are listed in the following order:
+
+- Table (Default)
+- Column
+- Record
+- Cell
+
 ## Using the Table Inspector
 
-Whatever is presently selected will determine the content of the table inspector. During non-selection mode, the inspector simply displays properties for the current table.
+Selecting different inspector modes in the table inspector allows users to examine at the properties, options and settings of table components. Aside from that, various actions can also be initiated through the inspector.
 
-### Table Inspector Modes
+### Table Mode
 
-The current selection is what triggers the various inspection modes. The inspector panel's header contains a brief description of what is included in the selection.
+Shown when inspector mode is set to `Table`.
 
-### Table Properties
+Properties:
 
-Shown during non-selection mode.
+- Table Name
+- Table Descriptions
 
-Table properties include:
+Settings:
 
-- Table Name and Description
-- Table Links
-- Table Display Options
-  - Record Summary
+- Record Summary
+- Table Links (Constraints)
   
-![image](/assets/design/specs/table_inspector/182566720-3622f073-24ee-4aff-8460-64442f271fea.png)
+![image](https://user-images.githubusercontent.com/845767/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
 
-### Column Properties
+![image](https://user-images.githubusercontent.com/845767/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
 
-Shown when a [column](#column-selection) or [cell](#cell-selection) are selected.
+### Column Mode
 
-Column properties include:
+Shown when inspector mode is set to `Column`.
+
+Properties:
 
 - Column Name
-- Column Constraints
-  - Allow NULL
-  - Allow Duplicates
-- Column Data Type
-  - Select Type
+- If Column is Link:
+  - Link Source
+
+Options:
+
+- Allow NULL
+- Allow Duplicates
+- Data Type
   - Database Options
   - Format Options
+
+![image](https://user-images.githubusercontent.com/845767/183432613-ead6315e-3802-4345-9427-820c66094797.png)
   
-![image](/assets/design/specs/table_inspector/182350473-c20ebabb-2a41-4bf7-ad50-dfda965b1081.png)
+![image](https://user-images.githubusercontent.com/845767/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
 
-### Link Column Properties
+### Record Mode
 
-Shown when a foreign key column or cell is selected.
+Shown when inspector mode is set to `Record`.
 
-Link column properties include:
+### Cell Mode
 
-- Column Name
-- Link Information
-  - Table source
-  - Column source
-  
-![image](/assets/design/specs/table_inspector/182350542-a5af060c-16f7-40b5-9a00-b7b6cc32e2a2.png)
-
-### Multiple Columns
-
-Shown when multiple columns are selected.
-
-Multiple column properties:
-
-- Data Type
-
-![image](/assets/design/specs/table_inspector/182350659-10d1b6f7-2cbf-44cb-a728-8241ad9f7335.png)
+Shown when inspector mode is set to `Cell`.
 
 ### Actions Panel
 
-Shown at all times, the content might change depending on the selection status.
-
-The actions panel provides users with ready to use actions for quickly manipulating tables, columns or cells. The available actions are dependent on the selection.
+The actions panel provides users with ready-to-use actions for quickly manipulating tables, columns, or cells. The available actions are dependent on the active inspector mode.
 
 #### Future Considerations
 
-In the future I'm thinking the 'Actions' panel could include the data modeling suggestions. It could also include shortcuts to create queries that include the filters set in a table, or the group options into a summary.
+I think the 'Actions' panel could include the data modeling suggestions in the future. It could also include shortcuts to create queries that include the filters set in a table or the group options into a summary.
 
 ![image](/assets/design/specs/table_inspector/182186186-91449400-5608-42a2-8f05-33506cb2532b.png)
 
@@ -124,21 +129,27 @@ In the future I'm thinking the 'Actions' panel could include the data modeling s
 
 #### To Deselect
 
-Deselect all selected items by clicking on a currently selected item, on an empty space or pressing the escape key.
+Deselect all selected items by clicking on a currently selected item, on an empty space, or pressing the escape key.
+
+#### To Select All
+
+For records, the option to select all is available, which would include all columns and cells in the selection. The column header should include a control for this.
+
+The current page's viewable records would be included in the selection. The user will be given the option to select all records in the table if they want.
 
 #### Extending a Selection
 
-We may think about including a "Selection" area in the inspector so that users can make changes to the selection they're currently working with.
+We may consider including a "Selection" area in the inspector so that users can change the selection they're currently working with.
 
 This section could contain options such as:
 
 - Extend selection
 - Select all
-  - Select all columns with same data type
+  - Select all columns with the same data type
 
 ## Keyboard Controls and Touch Devices Considerations
 
-Users would be better served if the software could support keyboard controls. In a separate issue, we'll look at how the inspector options are accessed and updated using the keyboard. We'll also look at how multi-object selection works on touch devices.
+Users would be better served if the software could support keyboard controls. We'll look at how the inspector options are accessed and updated using the keyboard in a separate issue. We'll also look at how multi-object selection works on touch devices.
 
 ## User Interface Considerations and Examples
 
