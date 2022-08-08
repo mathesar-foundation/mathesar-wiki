@@ -129,6 +129,10 @@ I think the 'Actions' panel could include the data modeling suggestions in the f
 
 ### Selection Modes
 
+The selection will always be cell-based. Based on the range of selected cells, the inspector will display the corresponding properties for the related table components, like columns and records.
+
+This means that selecting a column, triggers the selection of all the cells in the column. The same goes for selecting a record, which triggers the selection of all the cells in the record.
+
 #### Cell Selection
 
 ![image](/assets/design/specs/table_inspector/182121672-eaa8e422-7277-4421-8927-04637c182e6c.png)
@@ -141,15 +145,15 @@ I think the 'Actions' panel could include the data modeling suggestions in the f
 
 ![image](/assets/design/specs/table_inspector/182122068-c08fecea-7d18-48ad-a8de-1cb1992ca8aa.png)
 
-#### To Deselect
-
-Deselect all selected items by clicking on a currently selected item, on an empty space, or pressing the escape key.
-
 #### To Select All
 
 For records, the option to select all is available, which would include all columns and cells in the selection. The column header should include a control for this.
 
 The current page's viewable records would be included in the selection. The user will be given the option to select all records in the table if they want.
+
+#### To Deselect
+
+Deselect all selected items by clicking on a currently selected item, on an empty space, or pressing the escape key.
 
 #### Extending a Selection
 
