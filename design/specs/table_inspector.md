@@ -69,9 +69,9 @@ Settings:
 - Record Summary
 - Table Links (Constraints)
   
-![image](https://user-images.githubusercontent.com/845767/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
+![image](/assets/design/specs/table_inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
 
-![image](https://user-images.githubusercontent.com/845767/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
+![image](/assets/design/specs/table_inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
 
 ### Column Mode
 
@@ -91,9 +91,9 @@ Options:
   - Database Options
   - Format Options
 
-![image](https://user-images.githubusercontent.com/845767/183432613-ead6315e-3802-4345-9427-820c66094797.png)
+![image](/assets/design/specs/table_inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
   
-![image](https://user-images.githubusercontent.com/845767/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
+![image](/assets/design/specs/table_inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
 
 ### Record Mode
 
