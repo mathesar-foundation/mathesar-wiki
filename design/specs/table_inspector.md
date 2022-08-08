@@ -107,9 +107,19 @@ Shown when inspector mode is set to `Cell`.
 
 ![image](https://user-images.githubusercontent.com/845767/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
 
+### Multi-Select Mode
+
+Shown when multiple table components are selected. The table inspector will display the properties according to the current inspector mode and the shared properties between selected components.
+
+When in 'Column' mode, for example, if all chosen table components are columns, the table inspector will reveal the attributes that are shared by all columns.
+
+The number of table components selected will be reflected in the selection status at the top of the panel.
+
 ### Actions Panel
 
 The actions panel provides users with ready-to-use actions for quickly manipulating tables, columns, or cells. The available actions are dependent on the active inspector mode.
+
+The actions, when clicked, should open a modal dialog with the corresponding action options if applicable. They should not include options directly into the table inspector.
 
 #### Future Considerations
 
