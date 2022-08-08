@@ -99,9 +99,13 @@ Options:
 
 Shown when inspector mode is set to `Record`.
 
+![image](https://user-images.githubusercontent.com/845767/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
+
 ### Cell Mode
 
 Shown when inspector mode is set to `Cell`.
+
+![image](https://user-images.githubusercontent.com/845767/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
 
 ### Actions Panel
 
