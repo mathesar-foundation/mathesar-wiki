@@ -2,17 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2022-06-24T21:02:33.679Z
+date: 2022-08-05T14:09:50.498Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
 <img src="/logo@2x_cropped.png" width=200px alt="Mathesar logo"/>
-
-> We're hiring a **[Full Stack Software Engineer](/en/jobs/2022-06-localization-engineer)**!
-{.is-info}
-
 
 **Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
