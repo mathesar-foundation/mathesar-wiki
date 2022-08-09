@@ -32,6 +32,7 @@ These are specs for new features, corresponding to our [development milestones](
 - [Viewing Views](/design/specs/viewing-views-specs)
 
 ### Links between Tables (Foreign Keys, Table Relationships)
+- [Record Selector](/design/specs/record-selector.md)
 - [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
 - [Multiple Records Associated with a Single Record](/design/specs/multiple-records-spec)
 - [One-to-Many Relationships](/design/specs/views-one-to-many-relationships)
