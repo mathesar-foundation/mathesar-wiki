@@ -63,6 +63,10 @@ Navigation within Mathesar will take place in three different ways:
 - The current page label will be displayed in the toolbar component below the top header component.
 - Each type of page will be identified by an icon (table, schema, record etc.)
 
+#### Note on Excluding the Current Page from the Breadcrumb Trail
+
+We choose not to include the current page in the breadcrumb trail because the user can see it in the subheader area of the page. There aren't several ways to go to the same page in our link hierarchy, thus it's more like a `hierarchical navigation` than just a breadcrumb.
+
 ### Navigation via links within pages
 
 Throughout Mathesar, the following links exist within pages which allow for more targeted navigation to other pages (This list is not comprehensive and may include additional link options when further features are implemented).
