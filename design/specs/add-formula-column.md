@@ -1,12 +1,15 @@
 ---
-title: Listing Views Spec
+title: Formula Columns
 description: 
 published: true
-date: 2022-06-20T08:24:04Z
+date: 2022-08-10T15:29:41.659Z
 tags: 
 editor: markdown
-dateCreated: 2022-06-20T08:24:04Z
+dateCreated: 2022-08-10T15:27:06.985Z
 ---
+
+> This spec is a starting point and has not been reviewed from an engineering or product perspective. It will be updated when we are ready to start implementing this.
+{.is-danger}
 
 ## Context
 
