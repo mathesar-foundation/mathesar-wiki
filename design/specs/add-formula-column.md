@@ -18,7 +18,7 @@ The formula columns can only be created with Data explorer. For more details, yo
 
 ### Scenario 1 - Add a formula column without clicking outside of the inspector.
 
-![](https://share.balsamiq.com/c/dS6sAay4Re9f2R39zKDDj8.png)
+![](/assets/design/specs/add-formula-column/dS6sAay4Re9f2R39zKDDj8.png)
 
 To add a column, the left hand side of the explorer view has an `Add Column` button. Once that is clicked, there are two options visible. Those are - `Add direct column` and `Add formula column`. 
 
@@ -35,37 +35,37 @@ If the user is satisfied with the result, they can save the query.
 
 The random generation type formula generates random numbers or UUID. For random number generation, the user just have to provide upper and lower bound with the decimal flag. There is no column input when it comes to random generation type formulas. Hence, the successful generation of the random generation type column is shown below. 
 
-![](https://share.balsamiq.com/c/2ud3EckJJ5TeEX1SMR1D7Y.png)
+![](/assets/design/specs/add-formula-column/2ud3EckJJ5TeEX1SMR1D7Y.png)
 
 #### Scenario 1.b - Add a text type formula column
 
 The text type formula works on columns with text data type. There can be different parameters depending on what the formula is. For instance, there are `starting index` and `count` here in the example below.
 
-![](https://share.balsamiq.com/c/p3ta6G69SiMgL61XYZg24m.png)
+![](/assets/design/specs/add-formula-column/p3ta6G69SiMgL61XYZg24m.png)
 
 #### Scenario 1.c - Add a number type formula column
 
 The number type formula works on columns with number data type. There can be different parameters depending on what the formula is. For instance, there is `comparison sign` here in the example below.
 
-![](https://share.balsamiq.com/c/5si6jjAr1FPZ39bw968N5N.png)
+![](/assets/design/specs/add-formula-column/5si6jjAr1FPZ39bw968N5N.png)
 
 #### Scenario 1.d - Add a date & time type formula column
 
 The date/time type formula works on columns with date/time data type. There can be different parameters depending on what the formula is. For instance, there is `precision` here in the example below.
 
-![](https://share.balsamiq.com/c/bXgh99SMozaUyBNvQHa1g8.png)
+![](/assets/design/specs/add-formula-column/bXgh99SMozaUyBNvQHa1g8.png)
 
 #### Scenario 1.e - Add a cumulative type formula column
 
 The cumulative type formula works on columns with any data type. There can be different parameters depending on what the formula is. It basically shows how data in one column is changing with the help of different mathematical equations.
 
-![](https://share.balsamiq.com/c/sqqrcNeq3CVQaUtZiBG9ov.png)
+![](/assets/design/specs/add-formula-column/sqqrcNeq3CVQaUtZiBG9ov.png)
 
 #### Scenario 1.f - Add a boolean type formula column
 
 The boolean type formula works on columns with boolean data type. There can be different parameters depending on what the formula is. For instance, there is `condition` here in the example below.
 
-![](https://share.balsamiq.com/c/nBHVJCNiZ2PgJMrn1wdGcL.png)
+![](/assets/design/specs/add-formula-column/nBHVJCNiZ2PgJMrn1wdGcL.png)
 
 #### Scenario 1.g - Add a regular expression type formula column
 
@@ -77,11 +77,11 @@ The regular expression type formula works on columns with any data type. There c
 
 The list type formula works on columns with list data type. There can be different parameters depending on what the formula is.
 
-![](https://share.balsamiq.com/c/wnDL3cvcR9R3cgPwR3Co2.png)
+![](/assets/design/specs/add-formula-column/wnDL3cvcR9R3cgPwR3Co2.png)
 
 ### Scenario 2 - The formula column result is empty or erroneous
 
-![](https://share.balsamiq.com/c/j2UsBsrGYshUtfTS6jcEQt.png)
+![](/assets/design/specs/add-formula-column/j2UsBsrGYshUtfTS6jcEQt.png)
 
 #### Scenarios 2.a - The formula is configured correctly but returns no values
 
@@ -123,7 +123,7 @@ The outcome of this scenario is dependent on future Navigation so will be update
 
 The parameters have two kinds of inputs that are values and column names. A parameter can accept both or either. But the parameter that accepts both have a prefix that the user needs to select for distinguishing what type of input they have chosen. The columns list consists of columns with compatible data type only. User wont't be able to select a column that is not compatible. There is a painless dropdown to do so as seen below.
 
-![](https://share.balsamiq.com/c/4nmcRjLxr3mHpngZxFDZfx.png)
+![](/assets/design/specs/add-formula-column/4nmcRjLxr3mHpngZxFDZfx.png)
 
 ## Components
 
@@ -133,13 +133,13 @@ The user can only add formula column through data explorer. But the user can add
 1. Add direct column - The column that has direct data.
 2. Add formula column -  The column which is generated using a formula.
 
-![](https://share.balsamiq.com/c/iwXpHctgMSRNcYQjeY7MBe.png)
+![](/assets/design/specs/add-formula-column/iwXpHctgMSRNcYQjeY7MBe.png)
 
 ### The formula selection menu
 
 The formula selection menu is quite long since there are a lot of formula to choose from. To reduce the strain, the dropdown is divided into categories of formulas that are text, number, random generator and so on. There is search option where user can search the category or the formula name to directly use a formula. There is a recent section where the user can see their last three used formulas to quickly jump on that.
 
-![](https://share.balsamiq.com/c/svLZHynK3NqVkjofBmqgMj.png)
+![](/assets/design/specs/add-formula-column/svLZHynK3NqVkjofBmqgMj.png)
 
 ## Future work 
 
