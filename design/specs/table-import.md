@@ -1,11 +1,11 @@
 ---
-title: Add Table from File Import Specs
+title: Add Table from Import/URI/Data paste Specs
 description: 
 published: true
 date: 2021-08-18T13:45:20.499Z
 tags: 
 editor: markdown
-dateCreated: 2021-07-01T21:03:22.324Z
+dateCreated: 2022-08-10T21:03:22.324Z
 ---
 
 # Context
@@ -14,153 +14,176 @@ Adding a new table from a file import allows users to input data into Mathesar w
 While data file import is a baseline feature for most applications in this category, additional functionality will be implemented in the future to enhance the data import process, such as automatic type detection, data cleansing, error detection, and others.
 
 # User Experience
-## Impact
-This feature will improve the user experience for users who need to input data into Mathesar by reducing the required effort when populating tables.
 
-This feature will also support the experience of first-time users, as it is expected by users of similar applications and would cause dissatisfaction if missing.
+## Navigating to the Data Import page
 
-## User Flow
+![](https://share.balsamiq.com/c/p3dqSXr66qa6EnPyykqpyZ.png)
 
-![](/assets/design/specs/table-import/Z3ngzR9.png)
+Data import navigation link will be found on the active schema page. Since we are only allowing users to import tables for now, positioning it with the existing tables/ active schema view made sense. 
 
+## Importing data into a new table
 
-### User Adds a Table
-The user starts the process of adding a table by clicking on any of the available options. The user can add a table from the sidebar menu(1) or the 'New' menu located on the top navigation bar in the main content area.
+![](https://share.balsamiq.com/c/w2AbsJLMY5Qwt4aGDuozLN.png)
 
-![](/assets/design/specs/table-import/DH3XRuj.png =400x)
+### Defining the New Table
 
-#### Notes
-- We can implement the 'New' menu at a later iteration.
+When the user jumps to the upload view. They see a name input which can be added or not added. If not added by user the table will be given a default name and that can also be changed in the confirmation view.
 
-### User Sets Table Options
-Once the add table process starts, the user is prompted to set a name, confirm, or select the schema that will hold the table.
-Using the lookup field, the user could also add a new schema from this dialog.
+### Uploading the Data File
 
-![](/assets/design/specs/table-import/ByfztC0tu.png =400x)
+#### File Upload Methods
 
-#### Valid and Invalid Table Names
-Based on [PostgreSQL Documentation](https://www.postgresql.org/docs/13/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS), some naming conventions apply to objects, including tables, views, and columns. For most cases, we'll handle any necessary quoting automatically and transparently and generate unique names when required by adding a number as the last character.
+There are three main blocks that specifies three ways to upload the file/data for import. Each block has some important description with it. Each active way is highlighted when in use.
 
-- You can use any character for the valid characters except for a literal `null` character in a name.
-- For starting characters, anything goes (except a literal null) for our use case with the same caveats w.r.t. exotic characters above.
+##### Local File
 
-### User Selects Add Table Method
-After confirming the table name and schema, the user must select one of the methods available for adding a table. 
+The local file on the disk can be uploaded by dragging to the block or clicking on the block. Once the user drag the file to the block or select the file from their local machine, they can see the processing view.
 
-![](/assets/design/specs/table-import/chcPbaV.png =320x)
+##### URI
 
-Implementation Notes:
-- Copy will be revised later with the purpose of supporting best practices while guiding the user during the table creation process. We want to be more explicit in regards to goals for every step. 
+User can paste a URI in this block. If the URI is valid, the user would be able to click on the continue button to move to the processing import view.
 
-#### Implementation Note:
-- Empty table flow will be designed in a future iteration.
+##### Paste
 
-### User Selects Data Import Method
-Once the new table is created, The system will prompt the user to start the import data process. There are various options to import data, whether from a local file, clipboard, or remote location.
-By default, Upload File is the selected option.
-
-![](/assets/design/specs/table-import/zU9Csfe.png)
+User can paste data directly here in this block. If the data pasted here is valid, the user would be able to click on the continue button to move to the processing import view.
 
 
-### User Uploads a File
-The user then proceeds to upload a CSV file, and once it's completed, the system will render the file along with an option to remove it and upload another file.
+#### Import Options
 
-![](/assets/design/specs/table-import/1FZ5Efd.png)
+There are a few flags that user will find helpful for the import process. And they are present on the upload view itself. 
 
-In most cases, when the file is large, processing will take longer. For that reason, a loading UI state is needed.
+##### Data Type Inference
 
-![](/assets/design/specs/table-import/By4JP0CK_.png)
+This is a checkbox input. So when the checkbox is checked, the data type inference will not happen while the import process. This would make the import process faster and in some cases, the process possible too. The user would then have to select the data types in the confirmation stage. 
 
-If any errors prevent the file from being uploaded, an error message will be displayed.
+If not checked, the data type will be detected and this might take a longer time and sometimes the import might not even happen. The user can still change the data types in the confirmation stage.
 
-![](/assets/design/specs/table-import/HJxJY0AY_.png)
+##### Skip Warnings
 
-#### Implementation Notes
-- Paste and From URL methods will be designed in a future iteration. The current use case only uses the file import method. 
+This is again a checkbox, if checked he user would not be notified with any warnings related to the import process. This way when there are situations, the defaults will be considered and the user won't be informed about it.
 
-### User Confirms Data
-If the system successfully processed the file, it will prompt the user to confirm if a preview of their data looks correct. The user can also choose to ignore columns, rename them, and change data types from this view. 
+##### Automatic Delimiter Overwrite
 
-![](/assets/design/specs/table-import/Rpz9ZhV.png)
+This is an input field where user can enter a deliminator used in their file. The default is taken as a comma(,). 
 
-### User Opens the New Table
-![](/assets/design/specs/table-import/JMtTnDZ.png)
+### Processing Uploaded File
+
+This is the stage where the uploaded file is processed. The user sees the progress, warnings and errors related to the file here. 
+
+#### Status Indicators
+
+On the processing screen there is a progress bar which indicates where the upload and import process is. There will also be small messages below the progress bar to keep user informed about the process/status.
+
+#### File Processing Errors and Troubleshooting
+
+![](https://share.balsamiq.com/c/mo3WasYJpME3uCDc9dmuaW.png)
+
+##### Invalid file type 
+
+The user cannot upload files other than CSV/TSV. They will have to reupload it in such case.
+
+##### Invalid header
+
+When there are invalid headers. User will get an option of ignoring the headers.
+
+There might also be a case where they have to reupload the file so then we wont be showing ignore headers modal to them.
+
+##### Missing row data
+
+When the row data is missing, the message consists of row number. The user might get the option of skipping that row and move forward.
+
+In some cases the user might have to upload the file again.
+
+##### File too large
+
+The data inference of some files might take too long so there is an option for users to skip it.
+
+But sometimes the memory just runs out so the user would have to reupload a new file.
+
+##### File is corrupt
+
+No particular insightful messages. User will have to reupload new valid file.
+
+##### Date type error (Format errors)
+
+Q - Not very sure about this.
+
+##### Invalid data paste
+
+##### Invalid input in the confirmation state of a record
+Q - Is there an validation for data input in the table confirmation
+
+As much as I have seen it in staging. The iput validation will be similar as table view. And if the user confirms the table with erroneous records, the values will be set to null.
+
+#### Abandoning the File Processing Step
+
+![](https://share.balsamiq.com/c/m6Ui2naMGZXijJgjcaF15f.png)
+
+Since technically background/parallel imports are difficult, we wont be supporting in the user journey as well. When the user tries to move away there is a warning modal that warns them that they would lose the progress and they would land to the first screen if they land back to the import. 
+
+### Confirming Imported Data
+
+![](https://share.balsamiq.com/c/ds5qgkUM5bhGBWvkucdWnT.png)
+
+When the import is successful, the user lands on the active confirmation view.
+
+#### Go back button
+
+ This will take them to import screen. So before that there will be a warning modal which is listed in [Behavior section]. If the table gets confirmed it is added to the schema or else its discarded.
+
+#### Selected file section
+
+This consists of the file the user uploaded. They can access it from here when they click on it. If the reupload button is selected it has a similar behavior like go back button.
+
+#### Table name
+
+The input has a default name that can be changed by user there itself.
+
+#### Import Summary (Total Records, Columns)
+
+This has a small summary like number of rows, records etc. The missing data link will take them to the first row that has missing data(Not sure that is possible technically TBD). Similarly the duplicate column link takes the user to the first duplicate column(Not sure that is possible technically TBD).
+
+#### Options
+
+- Use headers - This will use the first row as headers if selected or else there will be default column names. This will remove duplicate column scenario.
+- Set missing data as null - This will set missing data as null and remove missing data scenario.
+
+#### Row limit for Preview
 
 
-## Feedback
-- Does the impact and user experience for this functionality help users achieve the goals established in the [Inventory Use Case](/design/exploration/use-cases/inventory-use-case)?
-- Is there an opportunity to allow a different user experience or workflow? Why or why not?
+#### Verifying and Updating Data Types
 
-# Interactions (WIP)
-Interactions for adding a table via file import focus on guiding the users through multiple steps, providing cues to help the user make decisions, and preventing unwanted outcomes by incorporating confirmation steps in error-prone steps.
+This is similar to the data options menu for the table view. But there are small differences to remove Cognitive load on user -
 
-## Wizards
-Wizards are series of screens that guide users through multi-step processes.
-In adding a table via file import, wizards are used to accomplishing some required tasks, such as selecting the data source to use (e.g., upload a file, paste, URL), mapping columns, and confirming field types.
+1. Removal of options like filtering, sorting etc since it might not be that useful to user at this point.
+2. Removal of options which are related to adding new data like set default value. Since we are not allowing user to add data at this stage keeping these options can be avoided. However all the options related to the data type and data format will be intact since this might be a deciding factor. 
 
-![](/assets/design/specs/table-import/ByYAYLmq_.png)
+Q - Are we allowing user to add column or a record at this stage? If not are we gonna do that in future?
 
-The wizard elements should provide users with information regarding the length of the process, i.e., the number of steps. It should also provide controls to cancel the operation.
+##### Allowed Data Type Changes
 
-![](/assets/design/specs/table-import/Bk1x58Q9O.png)
+The data type changes behavior will be similar to that of table data type changes. User will be able to switch to compatible data types so they do not lose the data.
 
+##### Revert Data Type Change
 
-## Pre-Determined Options
-When triggered from a particular context, actions like adding a new table will have pre-determined options, i.e., the target schema for a new table.
+User can change the data types to the other compatible ones at any moment in the confirmation stage. 
 
-For example, if calling the add new table function from the sidebar menu, the context will determine that the system must add the table to that particular schema. 
+#### Exclude Columns from Import
 
-However, a user might choose to add a new table from a different context, where there's no pre-determined option. In this case, a user would have to select the desired option. 
+Each column has a checkmark on the side. If selected the table will have the column or else it will be excluded from the table. 
 
-Making pre-determined options visible and editable in the interface can be helpful for users when confirming outcomes where contextual cues are missing.
+The duplicate columns will be unselected by default. To select them, the user will have to rename them. Until then the checkbox will be grayed out. 
 
-# User Interface (WIP)
-## Components
-### Input Controls
-Input controls allow the user to enter or select different values needed to perform tasks within Mathesar. In file import, they will enable the user to specify column types and parameters required to map columns.
+#### Abandoning the Confirmation Step
 
-#### Text input
-![](/assets/design/specs/table-import/rJoUmDX5_.png =140x)
+![](https://share.balsamiq.com/c/ajPCXuhshEjRMvJXMLb5Xu.png)
 
-#### Select input
-![](/assets/design/specs/table-import/rkavQwXc_.png =140x)
+Handling unconfirmed table in different scenarios might be difficult so the solution I propose for it is blocking the user to navigate away before confirming or dumping the import.
 
-#### Lookup input
-![](/assets/design/specs/table-import/BysumDQqu.png =140x)
-
-#### Radio buttons
-![](/assets/design/specs/table-import/H1P5XPQcu.png =320x)
-
-#### Checkbox input
-![](/assets/design/specs/table-import/HJnhQP7cd.png =200x)
-
-#### States
-- Default
-- On Focus
-- Disabled
-
-### Buttons
-Buttons allow users to perform actions and obtain a result from the system.
-
-#### Types
-There are different types of buttons, and their use depends on several factors, e.g., the type of task they are to perform and their context.
-
-![](/assets/design/specs/table-import/rkEwqImqd.png =200x)
-
-Primary buttons are used for actionable (e.g., submit content, apply a change) and some exceptional navigational purposes (e.g., continue to a next step). However, their use should be restricted to priority or practical actions, with the ideal number of primary buttons being one per view.
-
-Secondary buttons are used alone or in combination with primary controls to complement priority actions.
+## UI Components
 
 
-### Dialogs
-Dialogs are a type of modal window that appears in front of content and is used when the system requires users to make decisions.
-When active, dialogs will prevent other content from being interacted with. In most cases, they are driven by user action, and their unprompted use is discouraged.
-
-![](/assets/design/specs/table-import/Hk02qLQc_.png =280x)
-
-### System Notifications
-
-#### Error Messages
-![](/assets/design/specs/table-import/SJBTzvX9d.png)
+### File Upload Method Selector
 
 
+#### Toggle between methods
