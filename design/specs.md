@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-07-25T11:24:50.846Z
+date: 2022-08-10T15:27:57.581Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -13,10 +13,11 @@ dateCreated: 2021-05-18T21:39:18.962Z
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 ### Navigation
-- [Navigation Updates](/design/specs/navigation-updates)
+- [Navigation Updates](/design/specs/navigation)
 
 ### Queries
 - [Data Explorer](/design/specs/visual-query-builder)
+- [Formula Columns](/design/specs/add-formula-column.md)
 
 ### Data Modeling
 - [Column Extraction](/design/specs/column-extraction)
@@ -32,6 +33,7 @@ These are specs for new features, corresponding to our [development milestones](
 - [Viewing Views](/design/specs/viewing-views-specs)
 
 ### Links between Tables (Foreign Keys, Table Relationships)
+- [Record Selector](/design/specs/record-selector.md)
 - [Usage of Foreign Key Constraints](/design/specs/foreign-key-constraints)
 - [Multiple Records Associated with a Single Record](/design/specs/multiple-records-spec)
 - [One-to-Many Relationships](/design/specs/views-one-to-many-relationships)

@@ -2,14 +2,94 @@
 
 ## Design goals
 
-- When the user wants to enter a value into a FK cell, they use the record selector to select a record from the linked table.
-- If the linked table does not already contain a matching record, then the record selector makes it easy for the the user to create a new record and select it.
+- The Record Selector allows the user to choose one record from a given table.
+- It is used in a variety of contexts throughout Mathesar.
+- If the table does not already contain a matching record, then the record selector makes it easy for the the user to create a new record and select it.
 
-## Basic behavior
+## Launch contexts
+
+The Record Selector can be opened via the following workflows.
+
+- **Cells** in FK columns use the Record Selector for **data entry**.
+- **Inputs** in the following contexts use the Record Selector for **data entry**.
+    - Filter condition values, both in table filters and in queries
+    - Column default values
+    - Search fields for FK columns within the Record Selector itself (recursively)
+- **Icon links** alongside tables listed for a schema use the Record Selector to navigate to a specific [Record Page](/design/specs/record-page.md).
+
+## Behavior of data entry components
+
+Record Selector **cells** and **inputs** have a large amount of behavior in common, but they're not identical.
+
+In both cases, the component needs to allow the following actions:
+
+- (A) **Launch** the Record Selector to set (or update) the value.
+- (B) **Clear** a value already set (making it `NULL`).
+- (C) **Navigate** to the [Record Page](/design/specs/record-page.md) for the selected record using a plain `<a>` element so that users may copy the link or open it in a new tab. *(While this is a strict requirement for cells, it may be okay to forgo navigation from inputs entirely.)*
+
+Additionally for cells, the component needs to allow:
+
+- (D) Open custom context menu. *(Currently the only entry in this menu is "Set to NULL", but there will likely be more entries in the menu in the future.)*
+
+### Mockup of cells and inputs
+
+Cells and inputs can be empty (`NULL`) or full. And they can be focused (selected in the case of cells), or unfocused. These characteristics lead to eight distinct states, each of which has a design specified below.
+
+![Mockup Grid](/assets/design/specs/record-selector/linked-record-data-entry-mockup-grid.png)
+
+### User interactions
+
+- Via keyboard when focused
+
+    - `Enter` opens the record selector.
+    - `Delete` clears any value set.
+    - (Currently there is no way to perform the navigation action from the keyboard.)
+
+- Via pointer on the non-icon area
+
+    | Interaction  | Operation |
+    | --           | -- |
+    | Click        | Focus |
+    | Double click | Launch Record Selector |
+    | Context menu | <ul><li>For cells, opens the custom context menu.</li><li>For inputs, opens the browser context menu.</li></ul> |
+
+- Via pointer on an icon
+
+    - The **"open Record"** icon is an `<a>` element. Single clicks navigate to the Record Page in the current browser tab. Context menu or middle click can be used to open in the Record Page in a new tab -- even within the cell, where thee non-icon area opens a custom context menu.
+    - The **"launch"** and **"clear"** icons are `<button>` elements which trigger via a single (or double) click. A context menu event on these buttons will behave as it does in the non-icon area.
+
+### Cell context menu entries
+
+The custom context menu for cells contains the following entries:
+
+- Select a `{table_name}` Record
+- Open `{record_summary}`
+
+### Design considerations and rationale
+
+- **Navigation via icon instead of text**
+
+    Preliminary designs for this feature had cell which looked more like this:
+
+    ![FK cell with underlined record summary](/assets/design/specs/record-selector/fk-cell-underlined-record-summary.png)
+
+    The idea was that you'd click on the record summary to navigate to the Record Page. The problem with this design is that users may want to open the Record Page in a new tab, but for other functionality we are providing a custom context menu on cells, making that difficult. Using an icon for navigation allows the user to open the browser's context menu on the navigation link and then open the link in a new tab or to copy the link to the clipboard. The user can still open the custom context menu via the non-icon area within the cell, allowing them to set the value to `NULL`, just as they would for any other type of column.
+
+- **Double click mistakes**
+
+    Here's a problem I'd like to avoid. Consider the following UX design from AirTable
+
+    ![AirTable example](/assets/design/specs/record-selector/air-table-fk-cell-data-entry-example.png)
+
+    The `x` button within the record summary (which clears the value) only displays when the cell is selected. That's nice aesthetically, but it can lead to the user unintentionally clearing the value by double clicking the cell in the area where the `x` button will appear after the first click.
+
+    Our design has a similar problem, but the result will be unintentional *navigation* instead of unintentional *deletion*. I think that might be tolerable. But if it's not, we could add a small delay for displaying the "open record" icon link.
+
+## Behavior after launch
 
 Here's a "Publications" record selector, as it looks immediately after opening:
 
-![image](/assets/engineering/specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
+![image](/assets/design/specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
 
 ### Layout
 
@@ -130,17 +210,17 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 
 1. When at least one column contains a query, a "ghost row" will appear above the result set, allowing the user to select a record that will be created on-the-fly using all of the data from their search. The ghost row is filled in as the user types.
 
-    ![image](/assets/engineering/specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
+    ![image](/assets/design/specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
 
 1. The user can highlight the ghost row by pressing `Up` -- and in this state, validation errors will be displayed for cells as needed using the same UX as when adding a new row to a table.
 
-    ![image](/assets/engineering/specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
+    ![image](/assets/design/specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
 
 ## Entering a related record using a nested record selector
 
 1. To create a new Publications record, the user needs to supply an Authors record. They use a "nested" record selector to locate or create one Authors record as follows:
 
-    ![image](/assets/engineering/specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
+    ![image](/assets/design/specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
 
     Note: There are some layout details here that will need to be worked out during implementation, such as horizontal scrolling.
 
