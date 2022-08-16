@@ -148,9 +148,6 @@ This has a small summary like number of rows, records etc. The missing data link
 - Use headers - This will use the first row as headers if selected or else there will be default column names. This will remove duplicate column scenario.
 - Set missing data as null - This will set missing data as null and remove missing data scenario.
 
-#### Row limit for Preview
-
-
 #### Verifying and Updating Data Types
 
 This is similar to the data options menu for the table view. But there are small differences to remove Cognitive load on user -
@@ -182,8 +179,15 @@ Handling unconfirmed table in different scenarios might be difficult so the solu
 
 ## UI Components
 
-
 ### File Upload Method Selector
 
+![](https://share.balsamiq.com/c/jyszUUBfSvoCqd6qWQcz3G.png)
 
-#### Toggle between methods
+To select the method to upload the file there will be vertical tabs to select the method. There will be a rectangular space attached to the tabs. This space will be dedicated to the upload method selected. 
+- For drag and drop, the user would have to drag and drop the file to the rectangular space or click the button to open file browser.
+- For URI, paste the URI in the input box. Once the URI is valid the user can click on continue.
+- For paste data, paste the data into the text area. Once the data is valid the user can click on continue.
+
+### Preview Table height
+
+Since multiple scrolls on the screen is a bad UX. I propose limiting table's height to a certain percentage of the screen height. The percentage might be more clearer when we include styling part here. But as far as I think 25-35% of screen height for the table would suffice. 
