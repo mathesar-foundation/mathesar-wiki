@@ -104,16 +104,21 @@ But sometimes the memory just runs out so the user would have to reupload a new 
 
 No particular insightful messages. User will have to reupload new valid file.
 
-##### Date type error (Format errors)
+##### Format error
 
-Q - Not very sure about this.
+The column number might not match the number of header or there might be other formatting errors and in that case the user will have to reupload the file.
 
 ##### Invalid data paste
 
-##### Invalid input in the confirmation state of a record
-Q - Is there an validation for data input in the table confirmation
+The data format is not correct, hence the user will have to edit or paste the data again
 
-As much as I have seen it in staging. The iput validation will be similar as table view. And if the user confirms the table with erroneous records, the values will be set to null.
+##### Invalid URI
+
+The URI link might be broken or the format of URI is not valid, in that case the user will have to paste the URI again.
+
+##### Invalid input in the confirmation state of a record
+
+The input validation will be similar as table view. And if the user confirms the table with erroneous records, the values will be set to null.
 
 #### Abandoning the File Processing Step
 
@@ -129,7 +134,7 @@ When the import is successful, the user lands on the active confirmation view.
 
 #### Go back button
 
- This will take them to import screen. So before that there will be a warning modal which is listed in [Behavior section]. If the table gets confirmed it is added to the schema or else its discarded.
+This will take them to import screen. So before that there will be a warning modal which is listed in [Behavior section]. If the table gets confirmed it is added to the schema or else its discarded.
 
 #### Selected file section
 
@@ -154,8 +159,6 @@ This is similar to the data options menu for the table view. But there are small
 
 1. Removal of options like filtering, sorting etc since it might not be that useful to user at this point.
 2. Removal of options which are related to adding new data like set default value. Since we are not allowing user to add data at this stage keeping these options can be avoided. However all the options related to the data type and data format will be intact since this might be a deciding factor. 
-
-Q - Are we allowing user to add column or a record at this stage? If not are we gonna do that in future?
 
 ##### Allowed Data Type Changes
 
