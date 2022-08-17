@@ -1,6 +1,6 @@
 ---
 title: Table Inspector
-description:
+**description**:
 published: true
 date: 2022-08-02
 tags:
@@ -79,7 +79,7 @@ Properties:
 
 - Table Name
 - :full_moon: Table Descriptions
-- Record Summary
+- :full_moon: Record Summary
 - Table Links (Constraints)
 
 Actions:
