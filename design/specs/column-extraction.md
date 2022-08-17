@@ -26,13 +26,13 @@ This spec describes the steps a user would take to create a new table from a sub
 
 The user will select one or multiple columns to start with the column extraction process. All columns can be extracted, except for primary key columns. Once selected, the inspector panel will list 'Extract Columns to Table' as an action. Selecting this option will open the 'Extract Columns to Table' dialog.
 
-![image](https://user-images.githubusercontent.com/845767/185139636-9a8a048c-9f87-4e26-aa2c-88f4e8d1648d.png)
+![image](/assets/design/specs/column-extraction/185139636-9a8a048c-9f87-4e26-aa2c-88f4e8d1648d.png)
 
 ## Extract Columns Dialog
 
 The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the foreign key that will be created between the new table and the original table. The user can change the name of the foreign key.
 
-![image](https://user-images.githubusercontent.com/845767/185140900-ea1514c3-2423-42ad-ab98-a4f87848f463.png)
+![image](/assets/design/specs/column-extraction/185140900-ea1514c3-2423-42ad-ab98-a4f87848f463.png)
 
 ### Impact of the Extract Columns Operation
 
@@ -48,7 +48,7 @@ To help users understand the role of the link column, the name of the link colum
 
 `table_name` `+` `Id`
 
-![image](https://user-images.githubusercontent.com/845767/185142290-db3d6fc7-86b6-4a2d-8c23-7ed48104c8cc.png)
+![image](/assets/design/specs/column-extraction/185142290-db3d6fc7-86b6-4a2d-8c23-7ed48104c8cc.png)
 
 ### Allowing the user to modify the original column selection
 
@@ -62,4 +62,4 @@ Additionally, the user can rename the columns that will be extracted in cases wh
 
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
-![image](https://user-images.githubusercontent.com/845767/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
+![image](/assets/design/specs/column-extraction/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
