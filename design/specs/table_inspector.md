@@ -1,16 +1,24 @@
 ---
 title: Table Inspector
-description: 
+description:
 published: true
 date: 2022-08-02
-tags: 
+tags:
 editor: markdown
 dateCreated: 2022-08-02
 ---
 
+## Legends
+
+:fire: - An important note
+
+:full_moon: - Not part of Cycle 3
+
 ## Context
 
 Users can access information and setting options for each table component using the table inspector, including columns, rows, and cells.
+
+> :fire: This is not a replacement for the cells' context menu, it will remain as-is.
 
 ### Design Goals
 
@@ -34,6 +42,10 @@ To disable the table inspector:
 
 - Directly click on the inspector toggle located in the table toolbar to hide the table inspector.
 
+Persisting the visibility state
+
+- The visibility state of the table inspector will not be saved in any persisted storage, whenever the user navigates to a table, it will be opened initially.
+
 ### Positioning
 
 When users enable the table inspector, a panel will appear on the right side of the screen, sharing the same container as the table and pushing its contents rather than being stacked on top of it.
@@ -53,7 +65,11 @@ The tabs are listed in the following order:
 
 ## Using the Table Inspector
 
-Selecting different inspector modes in the table inspector allows users to examine at the properties, options and settings of table components. Aside from that, various actions can also be initiated through the inspector.
+The table inspector can be in exactly one of the following modes, available as tabs on the UI:
+
+> :full_moon: The mockups in the following sections has an "Edit Selection" button. This button will not be a part of the Cycle 3.
+
+> :fire: The mockups in the following sections contains a "Delete \_\_" button. This button will not be fixed at the bottom rather will a part of the normal flow inside the "Actions" section
 
 ### Table Mode
 
@@ -62,18 +78,16 @@ Shown when inspector mode is set to `Table`.
 Properties:
 
 - Table Name
-- Table Descriptions
-
-Settings:
-
+- :full_moon: Table Descriptions
 - Record Summary
 - Table Links (Constraints)
 
 Actions:
 
-- Remove Duplicates
+- :full_moon: Remove Duplicates
 - Create Query from Table
-  
+- Delete Table
+
 ![image](/assets/design/specs/table_inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
 
 ![image](/assets/design/specs/table_inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
@@ -87,9 +101,8 @@ Properties:
 - Column Name
 - If Column is Link:
   - Link Source
-
-Options:
-
+- Sorting
+- Grouping
 - Allow NULL
 - Allow Duplicates
 - Data Type
@@ -99,9 +112,10 @@ Options:
 Actions:
 
 - Extract Columns to Table
+- Delete column
 
 ![image](/assets/design/specs/table_inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
-  
+
 ![image](/assets/design/specs/table_inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
 
 ### Record Mode
@@ -110,15 +124,32 @@ Shown when inspector mode is set to `Record`.
 
 Actions:
 
-- Duplicate Record
+- :full_moon: Duplicate Record
 
 ![image](/assets/design/specs/table_inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
 
-### Cell Mode
+### :full_moon: Cell Mode
 
 Shown when inspector mode is set to `Cell`.
 
 ![image](/assets/design/specs/table_inspector/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
+
+## User interactions inside a mode
+
+The UI inside the modes can be divided into exactly two sections
+
+- **Properties**: All the UI of the interactions in the "Properties" section will be embedded inside the table inspector itself including all "Edit", "Save", and "Cancel" functionalities.
+
+- **Actions**: Interactions inside the "Actions" section will start a new flow by opening a modal/drawer which will require more inputs from the user.
+
+### Edit mode and saving the changes
+
+Ideally any fields that do DDL operation should have an "Edit" button, then "Save" and "Cancel" button to persist or discard the changes. But for the sake speed in this spec, any operation DDL that currently works without a "Save" button should continue to do so.
+
+> :fire: @ghislaineguerin will help with designs of edit / save / cancel flows.
+
+- Any operation that currently has a save button should have a "Save" button and an accompanying "Edit" button.
+- The operations that currently do not support a "Save" button will remain a single-click operation.
 
 ### Multi-Select Mode
 
@@ -126,7 +157,9 @@ Shown when multiple table components are selected. The table inspector will disp
 
 When in 'Column' mode, for example, if all chosen table components are columns, the table inspector will reveal the attributes that are shared by all columns.
 
-The number of table components selected will be reflected in the selection status at the top of the panel.
+- With respect to Cycle 3, the only multi selection "Action" available will be "Column Extraction".
+
+- The number of table components selected will be reflected in the selection status at the top of the panel.
 
 ### Actions Panel
 
@@ -146,29 +179,24 @@ The selection will always be cell-based. Based on the range of selected cells, t
 
 This means that selecting a column, triggers the selection of all the cells in the column. The same goes for selecting a record, which triggers the selection of all the cells in the record.
 
-#### Cell Selection
+- The selected rows and columns are derived from the rows and columns that contain selected cells.
+- Row headers and column headers are styled to visually indicate the selected rows and selected columns.
+- Unselected cells do not receive any special styling, even if they fall within a selected row or selected column.
 
-![image](/assets/design/specs/table_inspector/182121672-eaa8e422-7277-4421-8927-04637c182e6c.png)
+#### Multi-page record selection
 
-#### Column Selection
-
-![image](/assets/design/specs/table_inspector/182121417-8eb51f90-8767-4a01-bc36-a9c55c1614b5.png)
-
-#### Row Selection
-
-![image](/assets/design/specs/table_inspector/182122068-c08fecea-7d18-48ad-a8de-1cb1992ca8aa.png)
+Multi-page record selection in the current state is only used for deleting non-contiguous records across multiple pages. This spec discontinues this functionality which will mean that the user has no way to delete records across multiple pages until we do more design work at some point in the future.
 
 #### To Select All
 
-For records, the option to select all is available, which would include all columns and cells in the selection. The column header should include a control for this.
-
-The current page's viewable records would be included in the selection. The user will be given the option to select all records in the table if they want.
+- Clicking on a row header selects all the cells within that row.
+- Clicking on a column header selects all the cells within that column
 
 #### To Deselect
 
-Deselect all selected items by clicking on a currently selected item, on an empty space, or pressing the escape key.
+Deselect all selected items by clicking on a currently selected item, or on an empty space.
 
-#### Extending a Selection
+#### :full_moon: Extending a Selection
 
 We may consider including a "Selection" area in the inspector so that users can change the selection they're currently working with.
 
@@ -178,7 +206,7 @@ This section could contain options such as:
 - Select all
   - Select all columns with the same data type
 
-## Keyboard Controls and Touch Devices Considerations
+## :full_moon: Keyboard Controls and Touch Devices Considerations
 
 Users would be better served if the software could support keyboard controls. We'll look at how the inspector options are accessed and updated using the keyboard in a separate issue. We'll also look at how multi-object selection works on touch devices.
 
