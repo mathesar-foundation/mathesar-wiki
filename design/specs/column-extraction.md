@@ -10,7 +10,9 @@ dateCreated: 2022-07-22T11:12:59.313Z
 
 ## Context
 
-Column extraction is a common process in data modeling used to create a new table with a subset of columns from an existing table. The new tables are linked to the original table by a foreign key.
+In data modeling, it's usual practice to split data up into related tables. In the context of Mathesar, one way of doing this is by extracting columns from a table into a new table. This process is known as column extraction.
+
+This spec describes the steps a user would take to create a new table from a subset of columns from an existing table.
 
 ## Design Goals
 
