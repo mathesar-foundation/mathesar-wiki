@@ -63,3 +63,4 @@ Additionally, the user can rename the columns that will be extracted in cases wh
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
 ![image](/assets/design/specs/column-extraction/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
+
