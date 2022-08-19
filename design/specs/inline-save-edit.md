@@ -42,11 +42,11 @@ This spec introduces a new pattern to the application that allows users to edit 
 1. The user sees the new name in the input
 1. The save and cancel buttons disappear
 
-![image](https://user-images.githubusercontent.com/845767/185621416-fe829bc5-9016-48e4-8633-647b365857ef.png)
+![image](/assets/design/specs/inline-save-edit/185621416-fe829bc5-9016-48e4-8633-647b365857ef.png)
 
 Alternatively, we might use icon buttons instead of text buttons. This design could save space and make the UI less cluttered.
 
-![image](https://user-images.githubusercontent.com/845767/185630760-1e0360d4-f286-4b99-ab8e-0b22e719ed76.png)
+![image](/assets/design/specs/inline-save-edit/185630760-1e0360d4-f286-4b99-ab8e-0b22e719ed76.png)
 
 ### User discards the changes to the name of a table
 
@@ -84,4 +84,4 @@ We should also block the user from navigating to other inspector tabs while the 
 
 I have considered making the edit action explicit by clicking an edit button. However, we have a mix of controls that require save and some that don't (e.g., the table name input). This would make the UI inconsistent and confusing.
 
-![image](https://user-images.githubusercontent.com/845767/185633330-26a682a5-50b1-4bd0-a4f9-828bed43d0c0.png)
+![image](/assets/design/specs/inline-save-edit/185633330-26a682a5-50b1-4bd0-a4f9-828bed43d0c0.png)
