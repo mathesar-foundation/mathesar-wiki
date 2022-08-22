@@ -23,11 +23,11 @@ Data import navigation link will be found on the active schema page. Since we ar
 
 ## Importing data into a new table
 
-![](https://share.balsamiq.com/c/w2AbsJLMY5Qwt4aGDuozLN.png)
+![](https://share.balsamiq.com/c/jyszUUBfSvoCqd6qWQcz3G.png)
 
 ### Defining the New Table
 
-When the user jumps to the upload view. They see a name input which can be added or not added. If not added by user the table will be given a default name and that can also be changed in the confirmation view.
+When the user jumps to the upload view. They see a name input which can be added or not added. If not added by user the table will be given a default name and that can also be changed after the import is confirmed.
 
 ### Uploading the Data File
 
@@ -82,18 +82,6 @@ On the processing screen there is a progress bar which indicates where the uploa
 
 The user cannot upload files other than CSV/TSV. They will have to reupload it in such case.
 
-##### Invalid header
-
-When there are invalid headers. User will get an option of ignoring the headers.
-
-There might also be a case where they have to reupload the file so then we wont be showing ignore headers modal to them.
-
-##### Missing row data
-
-When the row data is missing, the message consists of row number. The user might get the option of skipping that row and move forward.
-
-In some cases the user might have to upload the file again.
-
 ##### File too large
 
 The data inference of some files might take too long so there is an option for users to skip it.
@@ -124,7 +112,7 @@ The input validation will be similar as table view. And if the user confirms the
 
 ![](https://share.balsamiq.com/c/m6Ui2naMGZXijJgjcaF15f.png)
 
-Since technically background/parallel imports are difficult, we wont be supporting in the user journey as well. When the user tries to move away there is a warning modal that warns them that they would lose the progress and they would land to the first screen if they land back to the import. 
+Since technically background/parallel imports are difficult, we won't be supporting that in the user journey as well. When the user tries to move away there is a warning modal that warns them that they would lose the progress and they would land to the first screen if they land back to the import. 
 
 ### Confirming Imported Data
 
@@ -146,7 +134,7 @@ The input has a default name that can be changed by user there itself.
 
 #### Import Summary (Total Records, Columns)
 
-This has a small summary like number of rows, records etc. The missing data link will take them to the first row that has missing data(Not sure that is possible technically TBD). Similarly the duplicate column link takes the user to the first duplicate column(Not sure that is possible technically TBD).
+This has a small summary like number of rows, records etc. The number of missing data and duplicated columns is present on the confirmation view. Although user can ignore those warnings and table can be confirmed as is.
 
 #### Options
 
@@ -154,6 +142,8 @@ This has a small summary like number of rows, records etc. The missing data link
 - Set missing data as null - This will set missing data as null and remove missing data scenario.
 
 #### Verifying and Updating Data Types
+
+*Note - The UX of changing data types depends on table inspector designs.*
 
 This is similar to the data options menu for the table view. But there are small differences to remove Cognitive load on user -
 
@@ -172,13 +162,15 @@ User can change the data types to the other compatible ones at any moment in the
 
 Each column has a checkmark on the side. If selected the table will have the column or else it will be excluded from the table. 
 
-The duplicate columns will be unselected by default. To select them, the user will have to rename them. Until then the checkbox will be grayed out. 
+All the columns will be selected by default including the duplicated columns. The duplicate columns will be highlighted with a warning though.
 
 #### Abandoning the Confirmation Step
 
 ![](https://share.balsamiq.com/c/ajPCXuhshEjRMvJXMLb5Xu.png)
 
-Handling unconfirmed table in different scenarios might be difficult so the solution I propose for it is blocking the user to navigate away before confirming or dumping the import.
+Handling unconfirmed table in different scenarios might be difficult so the user will no be allowed to navigate away without interacting with a modal. 
+
+In the case of force close, the table listed on the schema page will be highlighted with a warning. Any attempt to use an unconfirmed table will lead user to a modal to either confirm the table as is or go to the confirmation view.
 
 ## UI Components
 
