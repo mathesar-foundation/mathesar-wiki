@@ -32,7 +32,7 @@ The user will select one or multiple columns to start with the column extraction
 
 The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](https://user-images.githubusercontent.com/845767/185901982-f991a6a3-c228-4c94-9d57-55b921e44511.png)
+![image](/assets/design/specs/column-extraction/185901982-f991a6a3-c228-4c94-9d57-55b921e44511.png)
 
 ### Impact of the Extract Columns Operation
 
