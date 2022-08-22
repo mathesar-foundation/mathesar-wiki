@@ -32,7 +32,7 @@ The user will select one or multiple columns to start with the column extraction
 
 The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](/assets/design/specs/column-extraction/185140900-ea1514c3-2423-42ad-ab98-a4f87848f463.png)
+![image](https://user-images.githubusercontent.com/845767/185901982-f991a6a3-c228-4c94-9d57-55b921e44511.png)
 
 ### Impact of the Extract Columns Operation
 
@@ -68,5 +68,6 @@ Additionally, the user can rename the columns that will be extracted in cases wh
 
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
-![image](/assets/design/specs/column-extraction/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
+Additional details regarding 'Link Properties' will be added in a future spec.
 
+![image](/assets/design/specs/column-extraction/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
