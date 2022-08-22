@@ -30,17 +30,17 @@ The user will select one or multiple columns to start with the column extraction
 
 ## Extract Columns Dialog
 
-The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the foreign key that will be created between the new table and the original table. The user can change the name of the foreign key.
+The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
 ![image](/assets/design/specs/column-extraction/185140900-ea1514c3-2423-42ad-ab98-a4f87848f463.png)
 
 ### Impact of the Extract Columns Operation
 
-Since the split operation will affect the original table, the user should be made aware of the operation's impact. The dialog will make the following information clear:
+Since the split operation will affect the original table, the user should be made aware of the operation's impact. The dialog should communicate the following:
 
 - The original table will be updated to remove the extracted columns
 - A new table will be created with the extracted columns
-- A foreign key will be created between the new table and the original table
+- A link will be created between the new table and the original table
 
 ### Link Column Name Convention
 
