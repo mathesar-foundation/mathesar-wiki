@@ -42,13 +42,19 @@ Since the split operation will affect the original table, the user should be mad
 - A new table will be created with the extracted columns
 - A link will be created between the new table and the original table
 
-### Link Column Name Convention
+### Link Column Naming Convention
 
-To help users understand the role of the link column, the name of the link column will follow a convention that will be applied when users name the new table. The convention will be:
+It was decided that the link column naming convention should be as follows:
 
-`table_name` `+` `Id`
+>In the application, where singularization is not straightforward, we don’t suggest column names. Instead we require the user to manually name the FK column.
 
-![image](/assets/design/specs/column-extraction/185142290-db3d6fc7-86b6-4a2d-8c23-7ed48104c8cc.png)
+In this case, since we cannot infer the new table name from the selected columns, then the user must manually enter both, new table name and link column name.
+
+#### Using Rules to Generate Column Names
+
+In the future we might use a pre-defined list of rules to infer the singular form of the table name, but for now we will require the user to enter both names.
+
+Applying these rules would require us to choose a specific column from which to generate the final name. If we select the first column, we'll end up with a table called "First Names" and a link column called "First Name."
 
 ### Allowing the user to modify the original column selection
 
