@@ -52,7 +52,7 @@ Under the `Columns to Extract` section, the user can extend the original column 
 
 This component could be reused for all actions involving column subsets.
 
-![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
+![image](/assets/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
 
 
 
@@ -60,6 +60,6 @@ This component could be reused for all actions involving column subsets.
 
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
-![image](https://share.balsamiq.com/c/99zmoTssPdnh2AYS5tDeWJ.png)
+![image](/assets/design/specs/column-extraction/99zmoTssPdnh2AYS5tDeWJ.png)
 
 This spec does not include the implementation of 'Link Properties' which should be handled in a separate spec.
