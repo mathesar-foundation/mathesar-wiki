@@ -36,25 +36,15 @@ The dialog will list the columns that will be extracted and the table that will 
 
 ### Impact of the Extract Columns Operation
 
-Since the split operation will affect the original table, the user should be made aware of the operation's impact. The dialog should communicate the following:
+Since the split operation will affect the original table, the user should be made aware of the operation's outcome. The dialog should incorporate information regarding the changes that will be done to both the original table and the new table. This includes:
 
-- The original table will be updated to remove the extracted columns
-- A new table will be created with the extracted columns
-- A link will be created between the new table and the original table
+- The original table will lose the selected columns
+- The original table will gain a new link column
+- The new linked table will gain the selected columns
 
 ### Link Column Naming Convention
 
-It was decided that the link column naming convention should be as follows:
-
->In the application, where singularization is not straightforward, we don’t suggest column names. Instead we require the user to manually name the FK column.
-
-In this case, since we cannot infer the new table name from the selected columns, then the user must manually enter both, new table name and link column name.
-
-#### Using Rules to Generate Column Names
-
-In the future we might use a pre-defined list of rules to infer the singular form of the table name, but for now we will require the user to enter both names.
-
-Applying these rules would require us to choose a specific column from which to generate the final name. If we select the first column, we'll end up with a table called "First Names" and a link column called "First Name."
+The link column's name will be based on the table name. So if the user enters Author as a table name, then the link column would also be called Author. If the name is already taken, then the link column will be called Author 1, Author 2, etc.
 
 ### Allowing the user to modify the original column selection
 
@@ -62,12 +52,14 @@ Under the `Columns to Extract` section, the user can extend the original column 
 
 This component could be reused for all actions involving column subsets.
 
-Additionally, the user can rename the columns that will be extracted in cases where the column name is not descriptive enough.
+![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
+
+
 
 ## Finalizing the Extract Column Operation
 
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
-![image](/assets/design/specs/column-extraction/185143860-f2995fc4-c767-4cce-aaa6-319ef27630ff.png)
+![image](https://share.balsamiq.com/c/99zmoTssPdnh2AYS5tDeWJ.png)
 
-Additional details regarding 'Link Properties' will be added in a future spec.
+This spec does not include the implementation of 'Link Properties' which should be handled in a separate spec.
