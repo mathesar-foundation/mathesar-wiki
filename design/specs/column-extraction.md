@@ -26,13 +26,13 @@ This spec describes the steps a user would take to create a new table from a sub
 
 The user will select one or multiple columns to start with the column extraction process. All columns can be extracted, except for primary key columns. Once selected, the inspector panel will list 'New linked table from columns' as an action. Selecting this option will open the 'New linked table from columns' dialog.
 
-![image](https://share.balsamiq.com/c/8p3u9NbBGBr6gqPx7VW9RZ.png)
+![image](/assets/design/specs/column-extraction/8p3u9NbBGBr6gqPx7VW9RZ.png)
 
 ## Extract Columns Dialog
 
 The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](https://share.balsamiq.com/c/7prBiuRUXhPYi6wZxwRcyV.png)
+![image](/assets/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
 
 ### Impact of the Extract Columns Operation
 
