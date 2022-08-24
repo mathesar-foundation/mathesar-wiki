@@ -46,6 +46,8 @@ Since the split operation will affect the original table, the user should be mad
 
 The link column's name will be based on the table name. So if the user enters Author as a table name, then the link column would also be called Author. If the name is already taken, then the link column will be called Author 1, Author 2, etc.
 
+The discussion related to the naming convention can be found in the following [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/yu1dOjV7EC8).
+
 ### Allowing the user to modify the original column selection
 
 Under the `Columns to Extract` section, the user can extend the original column selection by selecting additional columns. The user can also remove columns from the selection.
