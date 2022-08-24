@@ -2,13 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2022-08-24T19:37:26.336Z
+date: 2022-08-24T19:59:33.625Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-<img src="/mathesar_primary_hor_rgb.png" width=300px alt="Mathesar logo"/>
+<img src="/mathesar_primary_shaded_hor_rgb.png" width=300px alt="Mathesar logo"/>
 
 **Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
