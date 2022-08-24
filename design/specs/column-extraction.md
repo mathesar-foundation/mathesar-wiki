@@ -83,4 +83,4 @@ A table might be linked to through more than one column. The user will be able t
 
 No link column is created when moving columns to an existing linked table.
 
-![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
+![image](/assets/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
