@@ -32,7 +32,7 @@ The user will select one or multiple columns to start with the column extraction
 
 The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](/assets/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
+![image](https://share.balsamiq.com/c/7prBiuRUXhPYi6wZxwRcyV.png)
 
 ### Impact of the Extract Columns Operation
 
@@ -51,10 +51,6 @@ The link column's name will be based on the table name. So if the user enters Au
 Under the `Columns to Extract` section, the user can extend the original column selection by selecting additional columns. The user can also remove columns from the selection.
 
 This component could be reused for all actions involving column subsets.
-
-![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
-
-
 
 ## Finalizing the Extract Column Operation
 
