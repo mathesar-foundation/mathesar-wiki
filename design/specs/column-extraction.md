@@ -25,7 +25,7 @@ This spec describes the steps a user would take to create a new table from a sub
 - Help users understand the impact of splitting a table
 - Allow users to move columns from a table to another link table
 
-## Splitting a Table by Extracting Columns
+## Scenario 1: New Linked Table from Columns
 
 ### Selecting columns as a starting point
 
@@ -51,18 +51,6 @@ Since the split operation will affect the original table, the user should be mad
 - The original table will gain a new link column
 - The new linked table will gain the selected columns
 
-## Moving Columns to a Linked Table
-
-In some cases, a user may want to move columns from one table to another table. This can be done by selecting the columns and using the 'Move to existing linked table' action in the inspector panel.
-
-### Selecting a the link column
-
-A table might be linked to through more than one column. The user will be able to select the link column to use for the move operation under the 'Link Column' section. If only one link column exists, it will be selected by default.
-
-No link column is created when moving columns to an existing linked table.
-
-![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
-
 ### Link Column Naming Convention
 
 The link column's name will be based on the table name. So if the user enters Author as a table name, then the link column would also be called Author. If the name is already taken, then the link column will be called Author 1, Author 2, etc.
@@ -84,3 +72,15 @@ Once the user is happy with the changes, they can click on the `Extract Columns`
 ![image](/assets/design/specs/column-extraction/99zmoTssPdnh2AYS5tDeWJ.png)
 
 This spec does not include the implementation of 'Link Properties' which should be handled in a separate spec.
+
+## Scenario 2: Moving Columns to a Linked Table
+
+In some cases, a user may want to move columns from one table to another table. This can be done by selecting the columns and using the 'Move to existing linked table' action in the inspector panel.
+
+### Selecting a the link column
+
+A table might be linked to through more than one column. The user will be able to select the link column to use for the move operation under the 'Link Column' section. If only one link column exists, it will be selected by default.
+
+No link column is created when moving columns to an existing linked table.
+
+![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
