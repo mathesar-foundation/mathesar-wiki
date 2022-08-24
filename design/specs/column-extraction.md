@@ -41,7 +41,7 @@ When a user selects a column that cannot be moved, the move action will be disab
 
 The dialog will list the columns that will be moved and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](https://share.balsamiq.com/c/7prBiuRUXhPYi6wZxwRcyV.png)
+![image](/assets/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
 
 ### Impact of the Extract Columns Operation
 
@@ -61,7 +61,7 @@ A table might be linked to through more than one column. The user will be able t
 
 No link column is created when moving columns to an existing linked table.
 
-![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
+![image](/assets/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
 
 ### Link Column Naming Convention
 
