@@ -81,6 +81,14 @@ In some cases, a user may want to move columns from one table to another table. 
 
 A table might be linked to through more than one column. The user will be able to select the link column to use for the move operation under the 'Link Column' section. If only one link column exists, it will be selected by default.
 
-No link column is created when moving columns to an existing linked table.
-
 ![image](https://share.balsamiq.com/c/gzGpUGi1srtxQ2kwd2TruB.png)
+
+### Impact of the Move Columns Operation
+
+- The original table will lose the selected columns
+- The original table will not gain any new link column
+- The linked table will gain the selected columns
+
+## Finalizing the Move Column Operation
+
+Once the user is happy with the changes, they can click on the `Move Columns` button. The user will be taken back to the original table and the selected columns will be moved to the linked table.
