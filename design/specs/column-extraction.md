@@ -24,17 +24,21 @@ This spec describes the steps a user would take to create a new table from a sub
 
 ### Selecting columns as a starting point
 
-The user will select one or multiple columns to start with the column extraction process. All columns can be extracted, except for primary key columns. Once selected, the inspector panel will list 'New linked table from columns' as an action. Selecting this option will open the 'New linked table from columns' dialog.
+The user will select one or multiple columns to start with the column move process. All columns can be moved, except for primary key columns, unorderable columns like JSON-type columns and referent columns (Columns referenced by other columns).
+
+Once selected, the inspector panel will list 'New linked table from columns' as an action. Selecting this option will open the 'New linked table from columns' dialog.
+
+When a user selects a column that cannot be moved, the move action will not be available in the inspector panel.
 
 ![image](/assets/design/specs/column-extraction/8p3u9NbBGBr6gqPx7VW9RZ.png)
 
 ## Extract Columns Dialog
 
-The dialog will list the columns that will be extracted and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
+The dialog will list the columns that will be moved and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
 ![image](/assets/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
 
-### Impact of the Extract Columns Operation
+### Impact of the Move Columns Operation
 
 Since the split operation will affect the original table, the user should be made aware of the operation's outcome. The dialog should incorporate information regarding the changes that will be done to both the original table and the new table. This includes:
 
@@ -52,7 +56,9 @@ The discussion related to the naming convention can be found in the following [e
 
 Under the `Columns to Extract` section, the user can extend the original column selection by selecting additional columns. The user can also remove columns from the selection.
 
-This component could be reused for all actions involving column subsets.
+Only columns that can be moved will be available for selection. A message inside the dropdown menu will inform users that the columns listed are the only ones that can be moved.
+
+"Only columns that can be moved are listed. Primary key columns, unorderable columns like JSON-type columns and referent columns (Columns referenced by other columns) cannot be moved."
 
 ## Finalizing the Extract Column Operation
 
