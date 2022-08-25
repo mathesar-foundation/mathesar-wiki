@@ -92,3 +92,63 @@ A table might be linked to through more than one column. The user will be able t
 ## Finalizing the Move Column Operation
 
 Once the user is happy with the changes, they can click on the `Move Columns` button. The user will be taken back to the original table and the selected columns will be moved to the linked table.
+
+## Pending Design Problems
+
+### Moving columns in two directions
+
+Some edge cases remain to be explored and addressed in regards to moving columns between tables.
+
+Given the following scenarios:
+
+- Move columns from referrer table(table with foreign key column) to referent table
+- Move columns from referent table to referrer Table
+
+Should we allow moving columns in both directions?
+
+### Moving Column Limitations
+
+Also, there are a few edge cases in addition to the limitations(some columns are not allowed) we have with moving columns to a new Table.
+
+### Other Edge Cases
+
+- Multiple Tables referencing the Linked Table(Table to which the column is moved) -
+- Given there is a Table(let's call it an external Table) other than the original Table that happens to reference the Linked Table.
+- And the Linked table has a normalised record.
+- When a column is moved into the Reference Table.
+- The normalised record might be split into multiple records.
+- This leads to the question of which foreign key value the external Table record should point to.
+
+A real-life example
+
+Before moving
+
+| Author Id | First name |
+|-----------|------------|
+| 1         | Jason      |
+
+| Publication | Title       | Author | Last Name |
+|-------------|-------------|--------|-----------|
+| 1           | Steady Slow | 1      | Smith     |
+| 2           | Think Fast  | 1      | Stone     |
+
+| Award | Title | Author |
+|-------|-------|--------|
+| 1     | Nobel | 1      |
+
+Jason won the Nobel prize
+After moving
+
+| Author Id | First Name | Last Name |
+|-----------|------------|-----------|
+| 1         | Jason      | Smith     |
+| 2         | Jason      | Stone     |
+
+| Publication | Title       | Author |
+|-------------|-------------|--------|
+| 1           | Steady Slow | 1      |
+| 2           | Think Fast  | 2      |
+
+| Award | Title | Author |
+|-------|-------|--------|
+| 1     | Nobel | ?      |
