@@ -8,87 +8,147 @@ editor: markdown
 dateCreated: 2022-07-22T11:12:59.313Z
 ---
 
-# Context
-Tables must be split into smaller tables during the normalization process to ensure data integrity. To make this process easier, the product should include capabilities that allow users to restructure data by splitting, merging, and combining existing tables.
-Initially, just table splitting will be implemented, so that a user can select columns from an existing table and create a new one.
+## Context
 
-# Splitting a Table by Extracting Columns
-To create a new table from an existing one, select the columns to include in the new table. These columns must not be primary keys for the parent table (although they can be foreign keys to another table). Once selected, the inspector panel should display a list of possible 'Selection Actions,' with the 'New Table from Columns' option allowing the user to extract the columns into a new table.
+In data modeling, it's usual practice to split data up into related tables. In the context of Mathesar, one way of doing this is by extracting columns from a table into a new table.
 
-## Selecting Columns
-Columns must be given a new interaction in order to be selected. A column header can be selected by clicking on it, as in spreadsheet applications. Multi-selection is also possible by holding down the shift key and clicking on multiple column headers. Clearing the selection is as simple as clicking anywhere outside of the selection target or on a selected column once more.
+Data is often split up into related tables for the following reasons:
 
-## Selection Actions
-Depending on a particular selection, the inspector panel will display actions that can be performed on the selection, as described above with columns. These selection actions will be determined by the type and number of items chosen.
+- To use one table per type of object
+- To avoid data duplication
 
-# User Flow
+This spec describes the steps a user would take to create a new table from a subset of columns from an existing table. It also describes the steps a user would take to move one or more columns from one table to another linked table.
 
-1. **The user imports a table from a file**
+## Design Goals
 
-    This user flow assumes that the starting point is an imported table containing columns that can be extracted and turned into entities. A column that may be transformed into a table or entity will usually include other columns that are attributes for that entity. If the database is not normalized, the entity to be extracted might include duplicated values. For example, consider a table of publications with multiple entries for the same publisher in the publisher column.
+- Allow users to split a table into multiple new tables by selecting columns
+- Help users understand the impact of splitting a table
+- Allow users to move columns from a table to another link table
 
-2. **The user selects the columns (attributes) for the new entity**
+## Scenario 1: New Linked Table from Columns
 
-    The user chooses all the columns that will be attributes for the new object. For example, in the instance of the publisher, there could be columns for 'Publisher Name' and 'Publisher Id.' Including all the attributes is very important since columns cannot be moved after the fact.
+### Selecting columns as a starting point
 
-     <img width="1512" alt="image" src="https://user-images.githubusercontent.com/845767/177544077-9f074830-ce64-4ed9-80bc-53de53977f9c.png">
+The user will select one or multiple columns to start with the column move process. All columns can be moved, except for primary key columns, unorderable columns like JSON-type columns and referent columns (Columns referenced by other columns).
 
+Once selected, the inspector panel will list 'New linked table from columns' as an action. Selecting this option will open the 'New linked table from columns' dialog.
 
-3. **The user clicks on the 'Extract Columns' option**
+When a user selects a column that cannot be moved, the move action will be disabled and a tooltip will be available explaining why the column cannot be moved.
 
-    The user can choose to keep copies of the columns in the table if needed. By default the extracted columns are deleted.
+![image](/assets/design/specs/column-extraction/8p3u9NbBGBr6gqPx7VW9RZ.png)
 
-4. **The user inspects the new foreign key column (link)**
+## Extract Columns Dialog
 
-    The new foreign key column will contain links to the new records that have been created. Additionally, when selected, the inspector panel will display the link properties.
+The dialog will list the columns that will be moved and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-    <img width="1469" alt="image" src="https://user-images.githubusercontent.com/845767/177546415-23b11ded-8987-4e69-ab1a-1decb9e773d3.png">
+![image](/assets/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
 
+### Impact of the Extract Columns Operation
 
-5. **The user navigates to the new table**
+Since the split operation will affect the original table, the user should be made aware of the operation's outcome. The dialog should incorporate information regarding the changes that will be done to both the original table and the new table. This includes:
 
-    The new table will be listed in the list of tables for the current schema. The user can modify the table, add new columns or rename it if needed.
+- The original table will lose the selected columns
+- The original table will gain a new link column
+- The new linked table will gain the selected columns
 
-    <img width="874" alt="image" src="https://user-images.githubusercontent.com/845767/177550009-30fcae81-2ae9-4539-ad85-5a0d1289790b.png">
+### Link Column Naming Convention
 
-# Unresolved Design Problems
+The link column's name will be based on the table name. So if the user enters Author as a table name, then the link column would also be called Author. If the name is already taken, then the link column will be called Author 1, Author 2, etc.
 
-## Extracting a foreign key column to create a mapping table
-If a user had a foreign key referencing a publisher in a publications table and wanted to link to more than one publisher, could they select both the table's primary key and that foreign key and create a new table from both? Should there be a special action that does this without adding a foreign key in place of the columns?
+The discussion related to the naming convention can be found in the following [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/yu1dOjV7EC8).
 
-## Suggesting columns to be extracted
-Offering suggestions for columns that can be extracted into new tables would improve the feature's discoverability and provide users with a clear path to a better data model.
+### Allowing the user to modify the original column selection
 
-## UI for Inspector Panels
-The inspector's UI is still in its early stages and should not be implemented without additional design work.
+Under the `Columns to Extract` section, the user can extend the original column selection by selecting additional columns. The user can also remove columns from the selection.
 
-## Specify the table's name and foreign key column name
-WIP
-## Multiple column actions
-WIP
-## Allow Duplicates
-WIP
-## Selection
-WIP
-### Column vs. Cell Selection
-WIP
-### Row and Column Selection Consistency
-WIP
-## Inspector Modes
-WIP
-### Column
-WIP
-### Cell
-WIP
-### Row
-WIP
-## Keyboard Modifiers
-WIP
-### Touch-only devices
-WIP
-### Visual Cues
-WIP
-## Reordering Columns
-WIP
-## Cell-Only Selection
-WIP
+Only columns that can be moved will be available for selection. A message inside the dropdown menu will inform users that the columns listed are the only ones that can be moved.
+
+"Only columns that can be moved are listed. Primary key columns, unorderable columns like JSON-type columns and referent columns (columns referenced by other columns) cannot be moved."
+
+## Finalizing the Extract Column Operation
+
+Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
+
+![image](/assets/design/specs/column-extraction/99zmoTssPdnh2AYS5tDeWJ.png)
+
+This spec does not include the implementation of 'Link Properties' which should be handled in a separate spec.
+
+## Scenario 2: Moving Columns to a Linked Table
+
+In some cases, a user may want to move columns from one table to another table. This can be done by selecting the columns and using the 'Move to existing linked table' action in the inspector panel.
+
+### Selecting a the link column
+
+A table might be linked to through more than one column. The user will be able to select the link column to use for the move operation under the 'Link Column' section. If only one link column exists, it will be selected by default.
+
+![image](/assets/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
+
+### Impact of the Move Columns Operation
+
+- The original table will lose the selected columns
+- The original table will not gain any new link column
+- The linked table will gain the selected columns
+
+## Finalizing the Move Column Operation
+
+Once the user is happy with the changes, they can click on the `Move Columns` button. The user will be taken back to the original table and the selected columns will be moved to the linked table.
+
+## Pending Design Problems
+
+### Moving columns in two directions
+
+Some edge cases remain to be explored and addressed in regards to moving columns between tables.
+
+Given the following scenarios:
+
+- Move columns from referrer table(table with foreign key column) to referent table
+- Move columns from referent table to referrer Table
+
+Should we allow moving columns in both directions?
+
+### Moving Column Limitations
+
+Also, there are a few edge cases in addition to the limitations(some columns are not allowed) we have with moving columns to a new Table.
+
+### Other Edge Cases
+
+- Multiple Tables referencing the Linked Table(Table to which the column is moved) -
+- Given there is a Table(let's call it an external Table) other than the original Table that happens to reference the Linked Table.
+- And the Linked table has a normalised record.
+- When a column is moved into the Reference Table.
+- The normalised record might be split into multiple records.
+- This leads to the question of which foreign key value the external Table record should point to.
+
+A real-life example
+
+Before moving
+
+| Author Id | First name |
+|-----------|------------|
+| 1         | Jason      |
+
+| Publication | Title       | Author | Last Name |
+|-------------|-------------|--------|-----------|
+| 1           | Steady Slow | 1      | Smith     |
+| 2           | Think Fast  | 1      | Stone     |
+
+| Award | Title | Author |
+|-------|-------|--------|
+| 1     | Nobel | 1      |
+
+Jason won the Nobel prize
+After moving
+
+| Author Id | First Name | Last Name |
+|-----------|------------|-----------|
+| 1         | Jason      | Smith     |
+| 2         | Jason      | Stone     |
+
+| Publication | Title       | Author |
+|-------------|-------------|--------|
+| 1           | Steady Slow | 1      |
+| 2           | Think Fast  | 2      |
+
+| Award | Title | Author |
+|-------|-------|--------|
+| 1     | Nobel | ?      |
