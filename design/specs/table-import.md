@@ -11,178 +11,88 @@ dateCreated: 2022-08-10T21:03:22.324Z
 # Context
 Adding a new table from a file import allows users to input data into Mathesar without populating tables manually. This feature is also convenient for users who need to import data for testing Mathesar's functionality.
 
-While data file import is a baseline feature for most applications in this category, additional functionality will be implemented in the future to enhance the data import process, such as automatic type detection, data cleansing, error detection, and others.
-
-# User Experience
-
 ## Navigating to the Data Import page
 
-![](https://share.balsamiq.com/c/p3dqSXr66qa6EnPyykqpyZ.png)
-
-Data import navigation link will be found on the active schema page. Since we are only allowing users to import tables for now, positioning it with the existing tables/ active schema view made sense. 
+Data import navigation link will be found on the active schema page. Once clicked the user will be taken to select upload method screen.
 
 ## Importing data into a new table
 
-![](https://share.balsamiq.com/c/jyszUUBfSvoCqd6qWQcz3G.png)
+### Selecting upload method
+![](https://share.balsamiq.com/c/uhmhbecvbb8cji2LVGFRWo.png)
 
-### Defining the New Table
-
-When the user jumps to the upload view. They see a name input which can be added or not added. If not added by user the table will be given a default name and that can also be changed after the import is confirmed.
+First step for the import is selecting the upload method. On the select upload method screen there are three action cards that will take user to a respective method mentioned in the [uploading the data file section](#uploading-the-data-file)
 
 ### Uploading the Data File
+There are three methods for uploading the data file -
 
-#### File Upload Methods
+#### Drag & Drop or Browse
+![](https://share.balsamiq.com/c/Lhu3yxutZVoXivwcKPtT1.png)
 
-There are three main blocks that specifies three ways to upload the file/data for import. Each block has some important description with it. Each active way is highlighted when in use.
+Once the user selects this upload method, the user gets clickable area where the user can drag & drop a local file or click on it for browsing the file locally. The user can go back to the select upload method screen by `Select another upload method` button.
 
-##### Local File
+#### URI
+![](https://share.balsamiq.com/c/r7fmqfwG2hmjTTbwvMRehr.png)
 
-The local file on the disk can be uploaded by dragging to the block or clicking on the block. Once the user drag the file to the block or select the file from their local machine, they can see the processing view.
+Once the user selects this upload method, the user gets an input text block for URI where they can paste valid URI and click on continue to upload the file. The user can go back to the select upload method screen by `Select another upload method` button.
 
-##### URI
+#### Copy & paste data
+![](https://share.balsamiq.com/c/uC1C6dxPCze6oiHHTAkAvt.png)
 
-User can paste a URI in this block. If the URI is valid, the user would be able to click on the continue button to move to the processing import view.
-
-##### Paste
-
-User can paste data directly here in this block. If the data pasted here is valid, the user would be able to click on the continue button to move to the processing import view.
-
-
-#### Import Options
-
-There are a few flags that user will find helpful for the import process. And they are present on the upload view itself. 
-
-##### Data Type Inference
-
-This is a checkbox input. So when the checkbox is checked, the data type inference will not happen while the import process. This would make the import process faster and in some cases, the process possible too. The user would then have to select the data types in the confirmation stage. 
-
-If not checked, the data type will be detected and this might take a longer time and sometimes the import might not even happen. The user can still change the data types in the confirmation stage.
-
-##### Skip Warnings
-
-This is again a checkbox, if checked he user would not be notified with any warnings related to the import process. This way when there are situations, the defaults will be considered and the user won't be informed about it.
-
-##### Automatic Delimiter Overwrite
-
-This is an input field where user can enter a deliminator used in their file. The default is taken as a comma(,). 
+Once the user selects this upload method, the user gets a textarea to paste data for the table. Once the data is valid, the user can upload by clicking on the continue button. The user can go back to the select upload method screen by `Select another upload method` button.
 
 ### Processing Uploaded File
+![](https://share.balsamiq.com/c/9d1wf4y7cgBUawWbdcoThs.png)
 
-This is the stage where the uploaded file is processed. The user sees the progress, warnings and errors related to the file here. 
+This is the stage where the uploaded file is processed. The user sees the progress and updates related to the import here. 
 
 #### Status Indicators
 
 On the processing screen there is a progress bar which indicates where the upload and import process is. There will also be small messages below the progress bar to keep user informed about the process/status.
 
-#### File Processing Errors and Troubleshooting
+The user can also cancel the import by clicking on the cancel button. But the user will have to confirm the cancellation by the modal in [Abandon scenario](#abandoning-the-file-processing-step)
 
-![](https://share.balsamiq.com/c/mo3WasYJpME3uCDc9dmuaW.png)
+### Errors 
+![](https://share.balsamiq.com/c/asGm1LMUCEvjCd1jBdcDEA.png)
 
-##### Invalid file type 
+If there is any error in the import, the user will see the data import screen again. And there will be a error message at the top of the screen.
 
-The user cannot upload files other than CSV/TSV. They will have to reupload it in such case.
+### Confirmating the uploaded table
+![](https://share.balsamiq.com/c/g1YFz8wYRm71tQ5W6skCX7.png)
 
-##### File too large
+#### Components
 
-The data inference of some files might take too long so there is an option for users to skip it.
+##### Table name
+The user can rename the table on the confirmation stage. 
 
-But sometimes the memory just runs out so the user would have to reupload a new file.
+##### Use first row as header
+This is a check box. If checked, the user can use the first row as the header.
 
-##### File is corrupt
+##### Table summary
+There is a small table summary above the table. 
 
-No particular insightful messages. User will have to reupload new valid file.
+##### Table 
+The table's first row are headers. This row has checkbox which is when checked the column is included in the table. The second row has the data type of the column. 
 
-##### Format error
-
-The column number might not match the number of header or there might be other formatting errors and in that case the user will have to reupload the file.
-
-##### Invalid data paste
-
-The data format is not correct, hence the user will have to edit or paste the data again
-
-##### Invalid URI
-
-The URI link might be broken or the format of URI is not valid, in that case the user will have to paste the URI again.
-
-##### Invalid input in the confirmation state of a record
-
-The input validation will be similar as table view. And if the user confirms the table with erroneous records, the values will be set to null.
-
-#### Abandoning the File Processing Step
-
-![](https://share.balsamiq.com/c/m6Ui2naMGZXijJgjcaF15f.png)
-
-Since technically background/parallel imports are difficult, we won't be supporting that in the user journey as well. When the user tries to move away there is a warning modal that warns them that they would lose the progress and they would land to the first screen if they land back to the import. 
-
-### Confirming Imported Data
-
-![](https://share.balsamiq.com/c/ds5qgkUM5bhGBWvkucdWnT.png)
-
-When the import is successful, the user lands on the active confirmation view.
-
-#### Go back button
-
-This will take them to import screen. So before that there will be a warning modal which is listed in [Behavior section]. If the table gets confirmed it is added to the schema or else its discarded.
-
-#### Selected file section
-
-This consists of the file the user uploaded. They can access it from here when they click on it. If the reupload button is selected it has a similar behavior like go back button.
-
-#### Table name
-
-The input has a default name that can be changed by user there itself.
-
-#### Import Summary (Total Records, Columns)
-
-This has a small summary like number of rows, records etc. The number of missing data and duplicated columns is present on the confirmation view. Although user can ignore those warnings and table can be confirmed as is.
-
-#### Options
-
-- Use headers - This will use the first row as headers if selected or else there will be default column names. This will remove duplicate column scenario.
-- Set missing data as null - This will set missing data as null and remove missing data scenario.
-
-#### Verifying and Updating Data Types
-
-*Note - The UX of changing data types depends on table inspector designs.*
-
-This is similar to the data options menu for the table view. But there are small differences to remove Cognitive load on user -
-
-1. Removal of options like filtering, sorting etc since it might not be that useful to user at this point.
-2. Removal of options which are related to adding new data like set default value. Since we are not allowing user to add data at this stage keeping these options can be avoided. However all the options related to the data type and data format will be intact since this might be a deciding factor. 
-
-##### Allowed Data Type Changes
-
-The data type changes behavior will be similar to that of table data type changes. User will be able to switch to compatible data types so they do not lose the data.
-
-##### Revert Data Type Change
-
-User can change the data types to the other compatible ones at any moment in the confirmation stage. 
-
-#### Exclude Columns from Import
-
-Each column has a checkmark on the side. If selected the table will have the column or else it will be excluded from the table. 
-
-All the columns will be selected by default including the duplicated columns. The duplicate columns will be highlighted with a warning though.
-
-#### Abandoning the Confirmation Step
-
-![](https://share.balsamiq.com/c/ajPCXuhshEjRMvJXMLb5Xu.png)
-
-Handling unconfirmed table in different scenarios might be difficult so the user will no be allowed to navigate away without interacting with a modal. 
-
-In the case of force close, the table listed on the schema page will be highlighted with a warning. Any attempt to use an unconfirmed table will lead user to a modal to either confirm the table as is or go to the confirmation view.
-
-## UI Components
-
-### File Upload Method Selector
-
-![](https://share.balsamiq.com/c/jyszUUBfSvoCqd6qWQcz3G.png)
-
-To select the method to upload the file there will be vertical tabs to select the method. There will be a rectangular space attached to the tabs. This space will be dedicated to the upload method selected. 
-- For drag and drop, the user would have to drag and drop the file to the rectangular space or click the button to open file browser.
-- For URI, paste the URI in the input box. Once the URI is valid the user can click on continue.
-- For paste data, paste the data into the text area. Once the data is valid the user can click on continue.
-
-### Preview Table height
-
+##### Table height
 Since multiple scrolls on the screen is a bad UX. I propose limiting table's height to a certain percentage of the screen height. The percentage might be more clearer when we include styling part here. But as far as I think 25-35% of screen height for the table would suffice. 
+
+#### Changing data type
+![](https://share.balsamiq.com/c/agFL3gk3gc7pkgjc2GUcw3.png)
+
+When the settings beside the data types is clicked, the user is presented with a choice of compatible data types. The compatible data types will be similar to the table view. The data options will not be available at this point. 
+
+### Abandoning the import 
+The user can abandon import process at ceratin points in the journey.
+
+#### Abandoning the import at processing stage
+![](https://share.balsamiq.com/c/8WvP45gNpqAm3UYUM1r3m2.png)
+
+If the user abandons the import at the processing stage, the user will be given a warning in form of modal to notify that if they abandon this they will lose the file.
+
+#### Abandoning the import at confirmation stage
+![](https://share.balsamiq.com/c/6XqnBjSAk2FUAK8DyexoU5.png)
+
+If the user abandons the import at the confirmation stage, the user will be given a warning in form of modal to notify that if they want to abandon it or not.
+
+### Uncomfirmed table on the schema page
+![](https://share.balsamiq.com/c/vr3pvTp1cUsMJw7gb8xNKY.png)
