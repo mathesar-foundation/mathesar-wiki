@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2022-08-25T20:44:27.745Z
+date: 2022-08-28T18:44:22.722Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -24,3 +24,4 @@ This page lists other products that solve similar/related problems to what Mathe
 - [TogetherDB](https://togetherdb.com/)
 - [Ultorg](https://www.ultorg.com/)
 - [Teamdesk](https://www.teamdesk.net/)
+- [ApptiveGrid](https://en.apptivegrid.de/)
