@@ -159,6 +159,42 @@ Components should not set any space around their outer-most visual edges — ins
 
 ## JavaScript
 
+### `await` vs `.then`
+
+Prefer `await` over `.then` when possible.
+
+-  ✅ Good
+
+    ```ts
+    async function handleSave() {
+      isLoading = true;
+      try {
+        await save(value);
+      } catch (e: unknown) {
+        error = getErrorMessage(e);
+      } finally {
+        isLoading = false;
+      }
+    }
+    ```
+
+- ❌ Bad
+
+    ```ts
+    function handleSave() {
+      isLoading = true;
+      save(value)
+        .then(() => {
+          isLoading = false;
+          return true;
+        })
+        .catch((e: unknown) => {
+          error = getErrorMessage(e);
+          isLoading = false;
+        });
+    }
+    ```
+
 ### `function` vs `const`
 
 Prefer `function` over `const`
