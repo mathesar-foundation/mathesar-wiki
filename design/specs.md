@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-08-29T20:43:00.152Z
+date: 2022-08-29T20:43:21.563Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -14,7 +14,7 @@ These are specs for new features, corresponding to our [development milestones](
 
 ### Table Inspector
 - [Inline Saving and Editing](/design/specs/inline-save-edit.md)
-- [Table Inspector](/design/specs/table-inspector.md)
+- [Table Inspector](/design/specs/table_inspector.md)
 
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
