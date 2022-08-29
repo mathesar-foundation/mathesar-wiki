@@ -124,6 +124,7 @@ Shown when inspector mode is set to `Record`.
 
 Actions:
 
+- Delete Record
 - :full_moon: Duplicate Record
 
 ![image](/assets/design/specs/table_inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
@@ -146,16 +147,14 @@ The UI inside the modes can be divided into exactly two sections
 
 Ideally any fields that do DDL operation should have an "Edit" button, then "Save" and "Cancel" button to persist or discard the changes. But for the sake speed in this spec, any operation DDL that currently works without a "Save" button should continue to do so.
 
-> :fire: @ghislaineguerin will help with designs of edit / save / cancel flows.
+Inline saving and editing requires the implementation of new UI interactions so that the user can toggle the 'Edit' mode and save or discard the changes. Details on this are provided in the [Inline Saving Spec](design/specs/inline-save-edit.md) spec.
 
 - Any operation that currently has a save button should have a "Save" button and an accompanying "Edit" button.
 - The operations that currently do not support a "Save" button will remain a single-click operation.
 
-### Multi-Select Mode
+### Actions for Multiple Components and Selection Status
 
-Shown when multiple table components are selected. The table inspector will display the properties according to the current inspector mode and the shared properties between selected components.
-
-When in 'Column' mode, for example, if all chosen table components are columns, the table inspector will reveal the attributes that are shared by all columns.
+Some actions can be performed on multiple table components at once.
 
 - With respect to Cycle 3, the only multi selection "Action" available will be "Column Extraction".
 
