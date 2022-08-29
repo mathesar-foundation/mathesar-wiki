@@ -1,11 +1,11 @@
 ---
-title: Table Inspector
-**description**:
+title: table_inspector
+description: 
 published: true
-date: 2022-08-02
-tags:
+date: 2022-08-29T20:44:14.409Z
+tags: 
 editor: markdown
-dateCreated: 2022-08-02
+dateCreated: 2022-08-29T20:35:31.512Z
 ---
 
 ## Legends
