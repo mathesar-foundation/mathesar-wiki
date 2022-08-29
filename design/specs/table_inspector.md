@@ -1,8 +1,8 @@
 ---
-title: table_inspector
+title: Table Inspector
 description: 
 published: true
-date: 2022-08-29T20:44:14.409Z
+date: 2022-08-29T20:44:31.001Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T20:35:31.512Z
