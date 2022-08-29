@@ -12,6 +12,9 @@ dateCreated: 2021-05-18T21:39:18.962Z
 
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
+### Table Inspector
+- [Inline Savign and Editing](/design/specs/inline-save-edit.md)
+
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
 
@@ -62,7 +65,6 @@ These are specs for new features, corresponding to our [development milestones](
 - [Table Creation Controls](/design/specs/table-creation-controls)
 - [Pagination Component](/design/specs/pagination)
 
-
 ### Database and Schemas
 - [Working with Schemas](/design/specs/schemas)
 - [Multiple Databases](/design/specs/database-switching)
@@ -70,5 +72,3 @@ These are specs for new features, corresponding to our [development milestones](
 ### UI Improvements
 - [Left Sidebar Improvements](/design/specs/sidebar-improvements)
 - [Lookup Field Component](/design/specs/lookup-field-component)
-
-
