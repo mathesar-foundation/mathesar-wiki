@@ -11,6 +11,7 @@ dateCreated: 2022-01-24T22:35:01.056Z
 This is a list of product specs for new features in Mathesar.
 
 ## Specs
+- [Users & Permissions](/product/specs/users-permissions)
 - [Product Spec for Views](/product/specs/2022-01-views)
 {.links-list}
 
