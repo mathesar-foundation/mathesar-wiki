@@ -65,16 +65,20 @@ Mathesar administrators should be able to navigate to a user management page and
 - See the user's permissions
 - Add / remove user permissions
 
-*Wireframes are for illlustrative purposes, they are not meant to reflect final design.*![[Users.png]]![[User page.png]]![[User page - custom.png]]
+*Wireframes are for illlustrative purposes, they are not meant to reflect final design.*
+![users.png](/assets/product/specs/users-permissions/users.png)
+![user-page.png](/assets/product/specs/users-permissions/user-page.png)![user-page-custom.png](/assets/product/specs/users-permissions/user-page-custom.png)
 
-### Log in and log out
-Users should be able to log in and log out of Mathesar using their username and password.![[Sign In.png]]
+### Log in and Log out
+Users should be able to log in and log out of Mathesar using their username and password.
+![sign-in.png](/assets/product/specs/users-permissions/sign-in.png)
 
-### User profile and settings page
+### User Profile Page
 Individual users should be able to edit their own information. This is also going to be where they edit their settings for using Mathesar, once we have some.
 
 ### Table sharing
-There should be a way for users to share individual tables with others.![[Sharing.png]]
+There should be a way for users to share individual tables with others.
+![sharing.png](/assets/product/specs/users-permissions/sharing.png)
 
 ### Schema sharing
 There should be a way for users to share individual schemas with others.
@@ -118,8 +122,7 @@ We also need to implement permissions on the API that match user permissions.
 
 ### Bonus goals: User data type & row level permissions
 Here's some ideation on this feature. Further details will be specified if we have time to implement them.
-
-![[RLS.png]]
+![rls.png](/assets/product/specs/users-permissions/rls.png)
 
 ## Implementation Details
 High-level notes on how we should implement these features.
