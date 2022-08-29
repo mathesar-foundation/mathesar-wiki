@@ -88,9 +88,9 @@ Actions:
 - Create Query from Table
 - Delete Table
 
-![image](/assets/design/specs/table_inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
+![image](/assets/design/specs/table-inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
 
-![image](/assets/design/specs/table_inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
+![image](/assets/design/specs/table-inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
 
 ### Column Mode
 
@@ -114,9 +114,9 @@ Actions:
 - Extract Columns to Table
 - Delete column
 
-![image](/assets/design/specs/table_inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
+![image](/assets/design/specs/table-inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
 
-![image](/assets/design/specs/table_inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
+![image](/assets/design/specs/table-inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
 
 ### Record Mode
 
@@ -127,13 +127,13 @@ Actions:
 - Delete Record
 - :full_moon: Duplicate Record
 
-![image](/assets/design/specs/table_inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
+![image](/assets/design/specs/table-inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
 
 ### :full_moon: Cell Mode
 
 Shown when inspector mode is set to `Cell`.
 
-![image](/assets/design/specs/table_inspector/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
+![image](/assets/design/specs/table-inspector/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
 
 ## User interactions inside a mode
 
@@ -170,7 +170,7 @@ The actions, when clicked, should open a modal dialog with the corresponding act
 
 I think the 'Actions' panel could include the data modeling suggestions in the future. It could also include shortcuts to create queries that include the filters set in a table or the group options into a summary.
 
-![image](/assets/design/specs/table_inspector/182186186-91449400-5608-42a2-8f05-33506cb2532b.png)
+![image](/assets/design/specs/table-inspector/182186186-91449400-5608-42a2-8f05-33506cb2532b.png)
 
 ### Selection Modes
 
@@ -215,18 +215,18 @@ Users would be better served if the software could support keyboard controls. We
 
 To make the table inspector's user interface more flexible, it should have expandable parts that can be collapsed and scrolled to.
 
-![image](/assets/design/specs/table_inspector/182355968-c9129949-344a-4e41-a685-90700a816141.png)
+![image](/assets/design/specs/table-inspector/182355968-c9129949-344a-4e41-a685-90700a816141.png)
 
 ### Examples
 
 #### Retool
 
-![d1568b5ad2e1ce13d51ad419e60b8fdb0b7238c8](/assets/design/specs/table_inspector/182356613-1b222a0b-f77f-4a15-a9df-84ed874ce5f3.gif)
+![d1568b5ad2e1ce13d51ad419e60b8fdb0b7238c8](/assets/design/specs/table-inspector/182356613-1b222a0b-f77f-4a15-a9df-84ed874ce5f3.gif)
 
 #### Palantir
 
-![image](/assets/design/specs/table_inspector/182356749-88273bdb-d4c8-4495-9aa8-c10816171059.png)
+![image](/assets/design/specs/table-inspector/182356749-88273bdb-d4c8-4495-9aa8-c10816171059.png)
 
 #### Balsamiq
 
-![image](/assets/design/specs/table_inspector/182357016-aba81b9e-a45a-4466-808a-6e4963a01038.png)
+![image](/assets/design/specs/table-inspector/182357016-aba81b9e-a45a-4466-808a-6e4963a01038.png)
