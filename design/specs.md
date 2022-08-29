@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-08-10T15:27:57.581Z
+date: 2022-08-29T20:42:16.101Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -13,7 +13,7 @@ dateCreated: 2021-05-18T21:39:18.962Z
 These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 ### Table Inspector
-- [Inline Savign and Editing](/design/specs/inline-save-edit.md)
+- [Inline Saving and Editing](/design/specs/inline-save-edit.md)
 
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
