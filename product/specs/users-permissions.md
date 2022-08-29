@@ -40,7 +40,7 @@ Although it would be ideal to reflect Postgres users in Mathesar and vice-versa,
 ### User passwords cannot be reset via email
 To do this, we'll need to implement email infrastructure into Mathesar.  While we need to figure this out at some point, I don't think it's worth doing it now just so that users can reset passwords.
 
-Users should be able to reset their passwords from the UI. Administrators can reset anyone's password.
+Users should be able to reset their passwords from the UI. Administrators can reset anyone's password. We should follow security best practices so that the admin does not ever see the user's permanent password.
 
 ### Privileges will be Mathesar-specific
 Although it would be ideal to support the full range of [Postgres privileges](https://www.postgresql.org/docs/14/sql-grant.html) (e.g. users can give `TRUNCATE` privileges on a table to someone else), this will involve a lot of implementation and design work to get right. It's probably not useful for the vast majority of use cases.
