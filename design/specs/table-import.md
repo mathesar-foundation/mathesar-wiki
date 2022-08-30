@@ -96,3 +96,10 @@ If the user abandons the import at the confirmation stage, the user will be give
 
 ### Uncomfirmed table on the schema page
 ![](https://share.balsamiq.com/c/vr3pvTp1cUsMJw7gb8xNKY.png)
+
+If the table is unconfirmed, there will be a warning icon on the side of table listing which when hovered on will have a confirm warning. When clicked on the table listing the user will be taken to confirmation stage.
+
+### Usage of an unconfirmed table
+![](https://share.balsamiq.com/c/kLkhvgR9Uk1njGbmgh9msB.png)
+
+If the user tries to use an unconfirmed table, there will be a modal for confirming the table where the user can directly confirm the table or go to the confirmation view. They won't be able to use it without confirming it.
