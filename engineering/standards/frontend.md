@@ -157,6 +157,79 @@ Components should not set any space around their outer-most visual edges — ins
 
 - **padding**: If the component's root element has border, it's fine to set padding because the border will serve as the outer-most visual edge. But if there's no border, then there should be no padding.
 
+## JavaScript
+
+### `await` vs `.then`
+
+Prefer `await` over `.then` when possible.
+
+-  ✅ Good
+
+    ```ts
+    async function handleSave() {
+      isLoading = true;
+      try {
+        await save(value);
+      } catch (e: unknown) {
+        error = getErrorMessage(e);
+      } finally {
+        isLoading = false;
+      }
+    }
+    ```
+
+- ❌ Bad
+
+    ```ts
+    function handleSave() {
+      isLoading = true;
+      save(value)
+        .then(() => {
+          isLoading = false;
+          return true;
+        })
+        .catch((e: unknown) => {
+          error = getErrorMessage(e);
+          isLoading = false;
+        });
+    }
+    ```
+
+### `function` vs `const`
+
+Prefer `function` over `const`
+
+-  ✅ Good
+
+    ```ts
+    function withFoo(s: string) {
+      return `${s} foo`;
+    }
+    ```
+
+- ❌ Bad
+
+    ```ts
+    const withFoo = (s: string) => {
+      return `${s} foo`;
+    }
+    ```
+
+Rationale: 
+
+- The `function` syntax is more concise, with less likelihood of line wrapping.
+
+- With TypeScript, adding explicit return type annotations becomes significantly more verbose when using the `const` approach. For example,
+
+    ```ts
+    export const withFoo: (s: string) => string = (s: string) => {
+      return `${s} foo`;
+    }
+    ```
+
+    We don't require explicit return types everywhere, but we do use the [explicit-module-boundary-types](https://github.com/typescript-eslint/typescript-eslint/blob/v4.33.0/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md) linting rule to require them for _exported_ functions. This makes TS errors appear closer to the code that should be fixed and also provides some small performance gains with `tsc`.
+
+
 ## TypeScript
 
 ### `type` vs `interface`
