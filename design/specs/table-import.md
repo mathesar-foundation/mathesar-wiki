@@ -16,29 +16,31 @@ Adding a new table from a file import allows users to input data into Mathesar w
 Data import navigation link will be found on the active schema page. Once clicked the user will be taken to select upload method screen.
 
 ## Importing data into a new table
-
-### Selecting upload method
 ![](https://share.balsamiq.com/c/uhmhbecvbb8cji2LVGFRWo.png)
 
-First step for the import is selecting the upload method. On the select upload method screen there are three action cards that will take user to a respective method mentioned in the [uploading the data file section](#uploading-the-data-file)
-
 ### Uploading the Data File
-There are three methods for uploading the data file -
+The import screen has a detailed description on what file types are allowed and information about processing and next steps.
+
+#### Download sample files
+There is a link for user to download sample files for reference of valid files to be uploaded.
+
+#### Selection of an upload method
+There are three radio buttons for selecting an upload method. Each radio button has a small description for the choice. Once the user select an option, the rectangular area on the right side has that respective upload method view.
 
 #### Drag & Drop or Browse
-![](https://share.balsamiq.com/c/Lhu3yxutZVoXivwcKPtT1.png)
+![](https://share.balsamiq.com/c/uhmhbecvbb8cji2LVGFRWo.png)
 
-Once the user selects this upload method, the user gets clickable area where the user can drag & drop a local file or click on it for browsing the file locally. The user can go back to the select upload method screen by `Select another upload method` button.
+Once the user selects this upload method, the user gets clickable area where the user can drag & drop a local file or click on it for browsing the file locally.
 
 #### URI
 ![](https://share.balsamiq.com/c/r7fmqfwG2hmjTTbwvMRehr.png)
 
-Once the user selects this upload method, the user gets an input text block for URI where they can paste valid URI and click on continue to upload the file. The user can go back to the select upload method screen by `Select another upload method` button.
+Once the user selects this upload method, the user gets an input text block for URI where they can paste valid URI and click on continue to upload the file.
 
 #### Copy & paste data
 ![](https://share.balsamiq.com/c/uC1C6dxPCze6oiHHTAkAvt.png)
 
-Once the user selects this upload method, the user gets a textarea to paste data for the table. Once the data is valid, the user can upload by clicking on the continue button. The user can go back to the select upload method screen by `Select another upload method` button.
+Once the user selects this upload method, the user gets a textarea to paste data for the table. Once the data is valid, the user can upload by clicking on the continue button.
 
 ### Processing Uploaded File
 ![](https://share.balsamiq.com/c/9d1wf4y7cgBUawWbdcoThs.png)
@@ -54,7 +56,7 @@ The user can also cancel the import by clicking on the cancel button. But the us
 ### Errors 
 ![](https://share.balsamiq.com/c/asGm1LMUCEvjCd1jBdcDEA.png)
 
-If there is any error in the import, the user will see the data import screen again. And there will be a error message at the top of the screen.
+If there is any error in the import, the user will see an error message modal with the import screen in background. Cancelling the modal will take users back to import screen.
 
 ### Confirmating the uploaded table
 ![](https://share.balsamiq.com/c/g1YFz8wYRm71tQ5W6skCX7.png)
