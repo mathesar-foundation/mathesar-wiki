@@ -31,13 +31,13 @@ Update Database and Format options to be stacked sections inside the Data Type s
 
 ### Use a dropdown menu for the data type selection instead of the scrollable list
 
-![image](https://share.balsamiq.com/c/gL37Da5Tdp4iTZScWJPGC.png)
+![image](/assets/design/specs/data-type-options/gL37Da5Tdp4iTZScWJPGC.png)
 
 ### Align some of the label and field groups inline
 
 Inline alignment can be used for groups of fields in order to save vertical space.
 
-![image](https://share.balsamiq.com/c/6VPzH8Cd7USbhf6jZpzQvc.png)
+![image](/assets/design/specs/data-type-options/6VPzH8Cd7USbhf6jZpzQvc.png)
 
 ## Alternatives
 
@@ -47,4 +47,4 @@ A warning message can be displayed inline when the user tries to change a databa
 
 Removing sub-sections will make the UI cleaner.
 
-![image](https://share.balsamiq.com/c/fpnLR7JtkJJZXGybZoYL8d.png)
+![image](/assets/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
