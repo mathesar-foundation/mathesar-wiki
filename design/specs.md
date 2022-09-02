@@ -15,6 +15,7 @@ These are specs for new features, corresponding to our [development milestones](
 ### Table Inspector
 - [Inline Saving and Editing](/design/specs/inline-save-edit.md)
 - [Table Inspector](/design/specs/table-inspector.md)
+- [Data Type Options](/design/specs/data-type-options.md)
 
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
