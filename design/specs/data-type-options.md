@@ -27,11 +27,11 @@ The solution should consider the challenges in displaying the options in a small
 
 ### Replace tabs with stacked sections
 
-Update Database and Format options to be stacked sections inside the Data Type section. The user should be able to access the options without the need of tabs. The styling should make the distinction between sections and sub-sections clear.
+Update Database and Format options to be stacked sections inside the Data Type section. The user should be able to access the options without the need of tabs.
 
 ### Use a dropdown menu for the data type selection instead of the scrollable list
 
-![image](/assets/design/specs/data-type-options/gL37Da5Tdp4iTZScWJPGC.png)
+Replace the current scrollable list with a dropdown menu to save vertical space.
 
 ### Align some of the label and field groups inline
 
@@ -39,12 +39,8 @@ Inline alignment can be used for groups of fields in order to save vertical spac
 
 ![image](/assets/design/specs/data-type-options/6VPzH8Cd7USbhf6jZpzQvc.png)
 
-## Alternatives
-
-### Remove the sub-sections and instead use an icon next to database-level options
+### Clearly identify the database-level options
 
 A warning message can be displayed inline when the user tries to change a database-level option. The icon can then be used for other instances where the user needs to be aware of database-level options.
 
-Removing sub-sections will make the UI cleaner.
-
-![image](/assets/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
+![image](https://share.balsamiq.com/c/fpnLR7JtkJJZXGybZoYL8d.png)
