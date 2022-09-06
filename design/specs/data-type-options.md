@@ -43,4 +43,4 @@ Inline alignment can be used for groups of fields in order to save vertical spac
 
 A warning message can be displayed inline when the user tries to change a database-level option. The icon can then be used for other instances where the user needs to be aware of database-level options.
 
-![image](https://share.balsamiq.com/c/fpnLR7JtkJJZXGybZoYL8d.png)
+![image](/assets/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
