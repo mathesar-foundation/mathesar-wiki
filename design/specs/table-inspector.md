@@ -80,12 +80,13 @@ Properties:
 - Table Name
 - :full_moon: Table Descriptions
 - :full_moon: Record Summary
-- Table Links (Constraints)
+- Constraints
 
 Actions:
 
 - :full_moon: Remove Duplicates
-- Create Query from Table
+- Link Table
+- Explore Data
 - Delete Table
 
 ![image](/assets/design/specs/table-inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
