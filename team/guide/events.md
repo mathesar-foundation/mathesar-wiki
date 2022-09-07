@@ -23,3 +23,6 @@ Previous events have included:
 
 We're particularly interested in events that help us get to know each other better. Also, we're always open to doing activities we've done before.
 
+Online games to consider for future events
+- https://github.com/flamableconcrete/awesome-online-board-games
+- https://rocketcrab.com/library
