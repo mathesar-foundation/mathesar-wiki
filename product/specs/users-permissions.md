@@ -6,7 +6,7 @@ This spec describes how the initial version of users & permissions will work in 
 - Allow Mathesar administrators to follow the security best practice of the principle of least privilege 
 - Allow Mathesar administrators to set up user accounts, view or change current users and their privileges, and delete users.
 - Allow users to customize their Mathesar experience, including:
-	- Display settings such as column width on tables, table inspector show/hide, etc.
+	- Display settings such as table inspector show/hide, etc.
 	- Private Explorations.
 
 ### Bonus Goals
@@ -20,8 +20,8 @@ To make these goals more concrete, here's how these features could be used in [t
 - Enable the **IT administrator** to set up Mathesar, invite new users, set up new schemas, etc.
 - Enable the **library manager** to administer the Library management schema, including changing the structure of tables.
 - Enable the **library staff** to input data and add/remove/modify explorations, but not change the underlying structure of data.
-- Enable the **library patrons** to view select explorations (e.g. books available for checkout)
-- **If our bonus goals are met:**:
+- **If our bonus goals are met:**
+	- Enable the **library patrons** to view select explorations (e.g. books available for checkout)
 	- Allow **library staff** to associate **library patrons** with their Mathesar accounts in the Patrons table
 	- Allow **library patrons** to log in and see only their own checkouts with the associated due dates.
 
@@ -76,14 +76,7 @@ Users should be able to log in and log out of Mathesar using their username and 
 ### User Profile Page
 Individual users should be able to edit their own information. This is also going to be where they edit their settings for using Mathesar, once we have some.
 
-### Table sharing
-There should be a way for users to share individual tables with others.
-![sharing.png](/assets/product/specs/users-permissions/sharing.png)
-
 ### Schema sharing
-There should be a way for users to share individual schemas with others.
-
-### Exploration sharing
 There should be a way for users to share individual schemas with others.
 
 #### Table Page changes
@@ -103,8 +96,6 @@ We need different navigation options based on the objects the user has permissio
 
 ### User data to save
 We should have a place to save the following kinds of data per user:
-- Column width settings per-table
-- Column width settings per-exploration
 - Table inspector show/hide settings
 - Last access time per-table
 - Last access time per-exploration
@@ -113,12 +104,17 @@ We should have a place to save the following kinds of data per user:
 - Favorite schemas
 - Favorite explorations
 
-The frontend should save this stuff and respect column-width settings. This will not be exposed to the user via any UI, it's just saved automatically.
+The frontend should save this stuff and respect table inspector show/hide settings. This will not be exposed to the user via any UI, it's just saved automatically.
 
 Last access / favorite will be used on the schema and database homepages, but those designs are out of scope for this spec.
 
 ### API permissions
 We also need to implement permissions on the API that match user permissions. 
+
+### Bonus Goals: Table & Exploration sharing
+There should be a way for users to share individual tables and explorations with others.
+![sharing.png](/assets/product/specs/users-permissions/sharing.png)
+
 
 ### Bonus goals: User data type & row level permissions
 Here's some ideation on this feature. Further details will be specified if we have time to implement them.
@@ -138,12 +134,10 @@ Users should be Django `User` objects with the following attributes:
 ### Users in the database layer
 From a security PoV, it would be ideal if we could create a Postgres role for every user and use that role to access the DB when the user is logged in. That way, we can't even see or use objects the user doesn't have access to.
 
-I'm not sure how technically feasible this is given our timeframe, but I think it's worth investigating.
+We will not do this for the initial version of this feature, but this remains our long term plan.
 
-### Permissions
-We will have four layers of permissions. The implementer needs to figure out how to map these to Postgres privileges.
-
-**Note**: If we implement the bonus features, we will also have additional permissions for subsets of tables and explorations here (only certain rows/records and columns). Those are not specced out here.
+### Permissions: Basic
+We will have the following layers of permissions. The implementer needs to figure out how to map these to Postgres privileges.
 
 #### User
 All users can:
@@ -172,6 +166,9 @@ These permissions apply to a single schema.
 | Add and remove shared explorations | x | - | - |
 | Permissions on all contained tables and explorations  | Manager, Editor, Viewer  | Editor, Viewer | Viewer |
 
+### Permissions: Bonus
+These permissions are planned to be implemented at some point, but are not required for the initial version of this feature.
+
 #### Table permissions
 These permissions apply to a single table.
 | Permission | Table Manager | Table Editor | Table Viewer |
@@ -194,3 +191,6 @@ These permissions apply to a single table.
 | View exploration | x | x | x |
 | Apply filter/sort/group to explorations (not saved) | x | x | x |
 
+---
+
+**Note**: If we implement additional bonus features, we will also have additional permissions for subsets of tables and explorations here (only certain rows/records and columns). Those are not specced out here.
