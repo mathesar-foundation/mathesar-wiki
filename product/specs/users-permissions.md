@@ -166,6 +166,9 @@ These permissions apply to a single schema.
 | Add and remove shared explorations | x | - | - |
 | Permissions on all contained tables and explorations  | Manager, Editor, Viewer  | Editor, Viewer | Viewer |
 
+### Public schema
+All users should have Manager access to the `public` schema by default (to align with Postgres conventions). We should make that clear in the design when we implement these features.
+
 ### Permissions: Bonus
 These permissions are planned to be implemented at some point, but are not required for the initial version of this feature.
 
@@ -190,6 +193,8 @@ These permissions apply to a single table.
 | Edit the exploration | x | x | - |
 | View exploration | x | x | x |
 | Apply filter/sort/group to explorations (not saved) | x | x | x |
+
+- To have `Editor` or `Manager` permission on an Exploration, a user needs to at least have `Viewer` permissions on all dependent tables.
 
 ---
 
