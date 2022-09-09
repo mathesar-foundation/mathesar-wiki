@@ -43,12 +43,12 @@ Inline alignment can be used for groups of fields in order to save vertical spac
 
 A warning message can be displayed inline when the user tries to change a database-level option. The icon can then be used for other instances where the user needs to be aware of database-level options.
 
-![image](https://share.balsamiq.com/c/fpnLR7JtkJJZXGybZoYL8d.png)
+![image](/assets/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
 
-## Visibility of Save and Cancel buttons
+### Visibility of Save and Cancel buttons
 
 In the context of table inspector, the 'Save' and 'Cancel' buttons will be hidden by default. They will be displayed when the user changes any of the options. This is consistent with the current behavior of the 'Save' and 'Cancel' buttons in the table inspector.
 
-## Default Value Section
+### Default Value Section
 
 The default value section will be its own section instead of being part of the Data Type section.
