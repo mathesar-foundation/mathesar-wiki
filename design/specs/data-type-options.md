@@ -49,6 +49,15 @@ A warning message can be displayed inline when the user tries to change a databa
 
 In the context of table inspector, the 'Save' and 'Cancel' buttons will be hidden by default. They will be displayed when the user changes any of the options. This is consistent with the current behavior of the 'Save' and 'Cancel' buttons in the table inspector.
 
+### Confirmation dialog when user tries to save
+
+A confirmation dialog would be displayed based on the user's changes. The warning message in this dialog would be based on the implications of the changes.
+* Changes to Database type:
+  - Confirmation dialog is shown.
+  - Message: This change may lead to data loss since it changes the way the database stores data.
+  - If a default value is present, an additional message would be displayed: The current default value `${Current_Default_Value}` will be cleared.
+* Only formatting changes: Confirmation dialog is not shown.
+
 ### Default Value Section
 
 The default value section will be its own section instead of being part of the Data Type section.
