@@ -2,7 +2,7 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-08-29T20:44:57.883Z
+date: 2022-09-12T21:49:14.594Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
@@ -19,6 +19,8 @@ These are specs for new features, corresponding to our [development milestones](
 
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
+- [Add Table from Import/URI/Data paste Specs](/en/design/specs/table-import)
+	- This is under "Navigation" because we needed to update it after the navigation changed from having tabs for different tables.
 
 ### Queries
 - [Data Explorer](/design/specs/visual-query-builder)
