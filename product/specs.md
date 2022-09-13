@@ -2,7 +2,7 @@
 title: Product Specs
 description: List of product specs
 published: true
-date: 2022-02-04T03:44:24.340Z
+date: 2022-09-13T02:57:18.310Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:35:01.056Z
@@ -12,7 +12,7 @@ This is a list of product specs for new features in Mathesar.
 
 ## Specs
 - [Users & Permissions](/product/specs/users-permissions)
-- [Product Spec for Views](/product/specs/2022-01-views)
+- [Views (now Data Explorer)](/product/specs/2022-01-views)
 {.links-list}
 
 ## Resources
