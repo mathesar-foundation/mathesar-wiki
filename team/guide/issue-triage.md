@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2021-12-17T11:59:01.136Z
+date: 2022-09-14T12:54:06.212Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -35,9 +35,6 @@ Triaging an issue means setting all the appropriate fields on it.
     Set the Project to "Mathesar".
 
     Within the project, ensure that the `status`, `priority`, and `work` fields are set.
-
-    > The project is only accessible to [Team](/team) members, but all relevant information (such as status, priority, and milestone) should be available on individual issues. We will make this project public as soon as GitHub supports it.
-    {.is-warning}
 
 1. **Set milestone**
 
