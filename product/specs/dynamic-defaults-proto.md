@@ -31,7 +31,7 @@ We should consider implementing dynamic defaults using the same formulas that we
 - User toggles the "Default Value" option
 - The user selects from a list of preset options
 
-![upload_ebe944f590f61b67ea9a5646d45668a5.png](/upload_ebe944f590f61b67ea9a5646d45668a5.png)
+![upload_ebe944f590f61b67ea9a5646d45668a5.png](/assets/product/specs/dynamic-defaults-proto/upload_ebe944f590f61b67ea9a5646d45668a5.png)
 
 Formulas to use from [our Formulas](https://wiki.mathesar.org/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
 
