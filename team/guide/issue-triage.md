@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2022-09-14T12:54:06.212Z
+date: 2022-09-19T14:55:46.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -34,15 +34,17 @@ Triaging an issue means setting all the appropriate fields on it.
 
     Set the Project to "Mathesar".
 
-    Within the project, ensure that the `status`, `priority`, and `work` fields are set.
+    Within the project, ensure that the `status`, `priority`, and `work` fields are set. Set the `feature` field to the appropriate feature.
+
+    If you don't know what feature to put something in, talk to Kriti.
 
 1. **Set milestone**
 
-    If an issue is directly associated with a feature, put it in the milestone for that feature. Otherwise, put it in a "General Improvements" milestone according to priority. More urgent issues should go in this month's milestone, otherwise put it in a milestone in the next couple of months.
+    If an issue is directly associated with a milestone, put it in the milestone. Otherwise, put it in the "2023 or later" milestone.
 
     If you don't know what milestone to put something in, talk to Kriti.
 
-    Do not create any new milestones.
+    Do not create any new milestones.  
 
 ## Notes on Labels and Milestones
 
