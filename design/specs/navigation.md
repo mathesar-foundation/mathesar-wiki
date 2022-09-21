@@ -103,14 +103,30 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - `<title>`: `{database_name} | Mathesar`
 
 - **Schema Page**:
-  - Route: `/{database_name}/{schema_id}`
+  - Route: `/{database_name}/{schema_id}/`
   - Favicon: Schema
   - `<title>`: `{schema_name} | Mathesar`
+  - By default, redirects to "Schema Page - Tables tab".
+
+- **Schema Page - Tables tab**:
+  - Route: `/{database_name}/{schema_id}/tables/`
+  - Favicon: Schema
+  - `<title>`: `Tables in {schema_name} | Mathesar`
+
+- **Schema Page - Explorations tab**:
+  - Route: `/{database_name}/{schema_id}/explorations/`
+  - Favicon: Schema
+  - `<title>`: `Explorations in {schema_name} | Mathesar`
   
-- **Data Import**:
+- **Data Import: Upload file/Specify data**:
   - Route:  `/{database_name}/{schema_id}/import/`
   - Favicon: Mathesar logo
-  - `<title>`: `Data Import | {schema_name} | Mathesar`
+  - `<title>`: `Import Data | {schema_name} | Mathesar`
+
+- **Data Import: Preview table - Confirmation page**:
+  - Route:  `/{database_name}/{schema_id}/import/{table_id}/`
+  - Favicon: Mathesar logo
+  - `<title>`: `Confirm {table_name} | {schema_name} | Mathesar`
 
 - **Data Explorer - New Exploration**:
   - Route: ``/{database_name}/{schema_id}/data-explorer/`
@@ -118,17 +134,17 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - `<title>`: `Data Explorer | {schema_name} | Mathesar`
   
 - **Data Explorer - Open Exploration**:
-  - Route: ``/{database_name}/{schema_id}/data-explorer/{exploration_id}/`
+  - Route: ``/{database_name}/{schema_id}/explorations/{exploration_id}/`
   - Favicon: Data Explorer
   - `<title>`: `{exploration_name} | {schema_name} | Mathesar`
 
 - **Table Page**:
-  - Route:  `/{database_name}/{schema_id}/{table_id}/`
+  - Route:  `/{database_name}/{schema_id}/tables/{table_id}/`
   - Favicon: Table
   - `<title>`: `{table_name} | {schema_name} | Mathesar`
 
 - **Record Page**:
-  - Route: `/{database_name}/{schema_id}/{table_id}/{record_id}`
+  - Route: `/{database_name}/{schema_id}/tables/{table_id}/{record_id}`
   - Favicon: Record
   - `<title>`: `{record_summary} | {table_name} | {schema_name} | Mathesar`
 
