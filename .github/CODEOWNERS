@@ -1,3 +1,0 @@
-# Rules lower in the CODEOWNERS files take precedence, so the first line
-# is a catch-all for files that are not specified later.
-* @centerofci/mathesar-maintainers 
