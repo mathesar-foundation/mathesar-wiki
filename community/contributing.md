@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2022-09-25T12:24:33.232Z
+date: 2022-09-25T12:26:07.320Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -29,6 +29,8 @@ If you want to work on something for which there is no GitHub issue open yet, cr
 
 ## Joining the Community
 It would be helpful for you to join the "General" channel on our [Matrix server](/community/matrix) and introduce yourself. You can ask any questions about the project or finding issues here as well.
+
+You may also want to join the [`mathesar-developers` mailing list](/community/mailing-lists). The team uses it to discuss new features and send updates to everyone working on the project.
 
 ## Contributing
 Once you've found an issue to work on, 
