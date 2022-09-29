@@ -2,14 +2,11 @@
 title: Technical Design Documents
 description: 
 published: true
-date: 2022-03-18T22:57:38.653Z
+date: 2022-09-29T17:10:57.947Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-18T22:25:33.876Z
 ---
-
-> Under construction.
-{.is-warning}
 
 ## 2022-03
 - [Number display and entry](/en/engineering/specs/numbers)
