@@ -1,4 +1,13 @@
-# Users & Permissions
+---
+title: Users & Permissions
+description: 
+published: true
+date: 2022-10-04T21:20:57.177Z
+tags: 
+editor: markdown
+dateCreated: 2022-09-09T13:25:30.516Z
+---
+
 This spec describes how the initial version of users & permissions will work in Mathesar.
 
 ## Feature Goals
