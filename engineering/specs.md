@@ -2,11 +2,17 @@
 title: Technical Design Documents
 description: 
 published: true
-date: 2022-09-29T17:10:57.947Z
+date: 2022-10-05T16:47:54.175Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-18T22:25:33.876Z
 ---
+
+## 2022-10
+- [Dependents graph](/en/engineering/specs/dependents-graph)
+
+## 2022-06
+- [Record selector](/en/design/specs/record-selector)
 
 ## 2022-03
 - [Number display and entry](/en/engineering/specs/numbers)
