@@ -109,11 +109,11 @@ An iteration based on a previous mockup which utilizes graph capabilities also:
 
 Option 1:
 
-![schema_del1](/assets/design/specs/dependents-graph/schema_del1.png)
+![schema_del1](/assets/engineering/specs/dependents-graph/schema_del1.png)
 
 Option 2:
 
-![schema_del2](/assets/design/specs/dependents-graph/schema_del2.png)
+![schema_del2](/assets/engineering/specs/dependents-graph/schema_del2.png)
 
 ## Implementation details
 
