@@ -1,3 +1,13 @@
+---
+title: dependents-graph
+description: 
+published: true
+date: 2022-10-05T16:49:43.595Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-05T16:40:35.979Z
+---
+
 This spec describes the goals of the dependents graph feature and the details of its implementation.
 
 ## Overview
@@ -7,7 +17,8 @@ Dependents Graph is a feature for returning a graph of dependent objects for a c
 - Tables
 - Table columns
 
-This can be easily extended and added to other types if their support appears in Mathesar since the entry point for the query is just the object OID ([almost always](https://www.postgresql.org/docs/current/datatype-oid.html) the unique identifier of any object in the database).
+> This can be easily extended and added to other types if their support appears in Mathesar since the entry point for the query is just the object OID ([almost always](https://www.postgresql.org/docs/current/datatype-oid.html) the unique identifier of any object in the database).
+{.is-info}
 
 As possible dependent objects, it returns:
 
@@ -153,5 +164,4 @@ Each dependent-type CTE is a single lateral join between the `pg_depend` table a
 Each object in the `pg_depend` is presented as a separate row, except the table column. Instead, there are maybe multiple entries with the same `refobjid` (the OID of the referenced object) but with different `refobjsubid`. The latter represents the *attnum* of the column. That’s why looking for dependents of a column object is slightly different. To do it properly, the `refobjsubid` column must be used.
 
 ## The `has_dependents` query
-
 There is a separate query that checks whether the specific object has any dependents. It’s a separate one that just looks for dependents of a specific type. If any returns `True`.
