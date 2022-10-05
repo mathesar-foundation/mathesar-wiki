@@ -1,8 +1,8 @@
 ---
-title: dependents-graph
+title: Dependents graph spec
 description: 
 published: true
-date: 2022-10-05T16:49:43.595Z
+date: 2022-10-05T16:53:16.248Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-05T16:40:35.979Z
