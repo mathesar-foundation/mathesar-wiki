@@ -103,7 +103,7 @@ When trying to delete one of the objects, a pop-up window should appear showing 
 
 An example from Kriti:
 
-![Schema deletion.png](/assets/design/specs/dependents-graph/Schema%20deletion.png)
+![Schema deletion.png](/assets/engineering/specs/dependents-graph/Schema%20deletion.png)
 
 An iteration based on a previous mockup which utilizes graph capabilities also:
 
