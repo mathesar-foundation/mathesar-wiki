@@ -59,4 +59,4 @@ Special thanks to Mukesh Murali for constant support and help during our weekly 
 - The initial proposal for the project: [Construct Dependency Graph for Database Objects (GSoC 2022 Proposal by Yurii Palaida) (summerofcode.withgoogle.com)](https://summerofcode.withgoogle.com/media/user/746462d805d7/proposal/gAAAAABjPFsNHDKT8MmRc7wvBWHNqHVhZZa2zdgOwgCAVO1hVouvPx9F8Fem2qViSJH1jZBtN9IC84krrl5sxqew5zkjgGkcqXQBv0wGrexvNZCNX7lB1J0=.pdf)
 - A blog post with impressions on the first part of the project: [How I Spent My [Google] Summer [of Code] Part 1 | by Yurii Palaida | Aug, 2022 | Medium](https://jyuart.medium.com/how-i-spent-my-google-summer-of-code-part-1-d7ab7fdc04d7)
 - All the issues done during the project: https://github.com/centerofci/mathesar/issues/398
-- [The tech spec of the implemented feature](engineering/specs/dependents-graph.md)
+- [The tech spec of the implemented feature](/en/engineering/specs/dependents-graph)
