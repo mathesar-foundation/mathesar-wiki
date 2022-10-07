@@ -2,12 +2,11 @@
 title: Record Page Design
 description: 
 published: true
-date: 2022-07-19T17:50:20.851Z
+date: 2022-10-07T19:50:31.098Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z
 ---
-# Record Page Design
 
 ## Design Goals
 
