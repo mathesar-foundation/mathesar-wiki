@@ -9,70 +9,102 @@ dateCreated: 2022-07-18T17:49:31.605Z
 ---
 
 ## Context 
+
 Record summaries are strings that represent a record's data. They are specified by users and can include variable values from the record's fields, or include symbols and text characters.
 
-## Usage
-There are several views and parts of the application that make use of the record summary. Examples are when records are linked from a table, or when breadcrumb navigation indicates a record location.
+## Usage throughout the product
 
-The following are some of the most common use cases for record summaries that must be taken into account for this design:
+Wherever we want to represent one record, we use the record summary. Here is a non-exhaustive list of some places in the product where record summaries will be used.
 
-### Table Links
-In tables, summaries are used to represent the records that are linked via a foreign key.
-![image](/assets/design/specs/record-summary/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
+- In FK cells, to represent the records that are linked via a foreign key.
 
-### Record Page
-The summary on a record page serves as both a header and a representation of linked records.
-![image](/assets/design/specs/record-summary/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
+    ![image](/assets/design/specs/record-summary/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
 
-### Table Row
-A summary is also shown at the row level to identify the records.
-![image](/assets/design/specs/record-summary/179571476-4fa60138-3acf-4b69-9c32-cc1468cdf965.png)
+- In the Record Page, to serve as both a header and a representation of linked records.
 
-## Components
+    ![image](/assets/design/specs/record-summary/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
 
-### Summary Expression Builder
-By default, the value of the record's first non-primary-key field is set as the record summary. In most circumstances, however, the user will want to customize the record summary to include a non-default or extra column or characters.
+- In group header rows, when the table page is grouped by a FK column.
 
-A component that allows users to enter columns, choose them as they type, and combine these columns with other symbols or letters in the correct order is required for this.
+- In the input within a filter condition that filters on a FK column.
 
-The expression input component will enable users to enter in any letters and will verify if the content matches an existing column as they type. For example, if a user starts typing "Check," the menu will automatically filter to any columns that begin with "Check," such as "Checkouts." The best match will be highlighted automatically, and the user may select it by hitting Tab.
+- In the input when setting a default value for a FK column.
 
-Once inserted, the columns will be highlighted in color to differentiate them, whilst the characters will remain in plain text. To remove parts of the expression, the user must hit the backspace key, which will erase a single character or an entire column if applicable. Please note that is not possible to delete a character or column without deleting all the characters or columns after it.
+## Rendering one record summary
 
-## Special Scenarios
+## Template
 
-### Inserting Foreign Key Columns
-When a foreign key column is used as a summary column, the value should be taken from the linked record's summary instead of the foreign key value. This is called a transitive summary.
+1. The backend provides a record summary **template** for each table from the `tables` API. This is a string such as `{78}` that specifies the ids of the columns to be used to render the record summary.
 
-## User Flow
+1. The template can include multiple columns, and other characters too, such as `{1}-{2}`, which will render two columns separated by a dash.
 
-1. The user opens the settings panel for a table and finds the 'Display Options' section\
+1. By default, the backend dynamically generate the template such that it includes only the first non-PK column and no other characters.
 
-	By default the toggle is set to use a default summary. The default value is set to the first non-primary-key field.
+1. The user may customize the record summary template, in which case the customized template will be stored at the table level (for all users).
 
-	<img width="321" alt="image" src="https://user-images.githubusercontent.com/845767/175492420-77a0f46a-1026-4088-ba00-9061bb7b414e.png">
+## Examples and edge cases
 
-2. The user enables the 'Custom Summary' option
+Say We are rendering a summary for a row having the following data (which maps column ids to cell values):
 
-	As they enable the option, the custom expression contains the default value. The user can delete it or add other columns.
+```json
+{
+    "101": 1,
+    "102": "Foo"
+}
+```
 
-	<img width="320" alt="image" src="https://user-images.githubusercontent.com/845767/175492662-0a675593-d028-44da-8b64-d7a002e28174.png">
+- If table's template is `{102}`, then we render `Foo`
 
-3. The user inserts a column
-    
-    As the user types, values for matching columns are displayed in a list. 
+- If table's template is `{999}`, then we render `{999}` (because there is no column in the table having an id of 999).
 
-    <img width="318" alt="image" src="https://user-images.githubusercontent.com/845767/175507760-af004d5f-99a0-42a8-98cd-701dba3883f5.png">
-    <img width="323" alt="image" src="https://user-images.githubusercontent.com/845767/175508253-4bdb3f1a-f7ce-4c95-ae26-b87f41dcdbbd.png">
-    <img width="318" alt="image" src="https://user-images.githubusercontent.com/845767/175507760-af004d5f-99a0-42a8-98cd-701dba3883f5.png">
+- If table's template is `{101}: {102}`, then we render `1: Foo`
 
-4. The user inserts a symbol
-    
-    The user can insert a symbol and it will be incorporated into the string. 
+- Let's pretend that (for some weird reason), _we'd like to_ render `{101}: Foo` (keeping that `{101}` text static across all rows). In this case we are actually unable to configure the record summary template to render such a value because **the templating system has no escaping mechanism**. This is a design limitation made for the sake of simplicity and ease of implementation.
 
-    <img width="323" alt="image" src="https://user-images.githubusercontent.com/845767/175508152-631812c6-c0fe-4777-a8ff-47f6b76fa531.png">
+## Transitive summaries
 
-## Other Considerations
+When a foreign key column is used within the record summary template, the text used when rendering the record summary is taken from the rendered record summary for that record.
 
-### Using Formulas as Part of Expressions
-When formula functionality is provided in the future, the summary expressions should be compatible and allow users to use formulas to generate more complex expressions. The expression builder's UI should be able to extend to accommodate those additional features.
+## Customizing the record summary template
+
+Here's an example where a user customizes the Authors template to show the author's first name and last name separated by a space.
+
+### From the Authors table
+
+1. The user navigates to the Authors table page.
+
+1. Within the table inspector, the "Table" pane contains a section titled "Record Summary" below the "Properties" section and expanded by default. Below is a mockup of hhe UI in that section:
+
+    ![image](/assets/design/specs/record-summary/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
+
+1. The "Preview" area shows the record summary for the first record from the table as displayed with the current sorting/filtering/grouping/pagination. If the table shows no rows, then the "Preview" area will be absent.
+
+1. When the Template area contains three inputs: (1) a "Customization" radio button fieldset, (2) a "column inserter" select element, and (3) a "template value" text input.
+
+1. The "column inserter" and "template value" fields are only displayed when "Customization" is set to "Default".
+
+1. The Cancel/Save buttons are only displayed when the user has modified the form since its last save. The buttons disappear after saving.
+
+1. As the user customizes the "template value" contents, the preview updates immediately, allowing the user to inspect their changes before applying them.
+
+1. The "template value" input is a plain text input, and offers no special syntax highlighting or means of differentiating a valid column token from an invalid one.
+
+1. The "column inserter" is a select element which displays all columns directly in the table as options. Upon selecting a column, the token for that column (e.g. `{First Name}`) is appended to the existing text within the "template value" input and the "template value" input is programmatically focused, allowing the user to continue typing.
+
+1. To remove a column, the user must edit the "template value" and manually delete all the characters which comprise the column token.
+
+1. When saving, the front end replaces column tokens like `{First Name}` with their corresponding column ids (e.g. `{78}`) before submitting the API request to persist the template value. Likewise, when populating the initial value for the "template value" input, the front end performs the reverse replacement, substituting column ids for their respective names.
+
+    This design introduces an _additional_ limitation with regard to escaping which only applies to the UI -- there is no way to use the UI to configure the template that renders `{First Name}: Stephanie {Last Name}: Davis` because there is no way to to escape the column name (in addition to the column id as described above).
+
+### From the Publications table
+
+1. The user navigates to the Publications table page.
+
+1. The user selects a cell within the "Author" column.
+
+1. Within the table inspector, the "Column" pane contains a section titled "_Authors_ Record Summary" which presents all the same UI described above.
+
+1. The values for the preview are taken from the _distinct_ FK cell values within the "Author" column.
+
+
