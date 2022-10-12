@@ -75,25 +75,25 @@ Here's an example where a user customizes the Authors template to show the autho
 
 1. Within the table inspector, the "Table" pane contains a section titled "Record Summary" below the "Properties" section and expanded by default. Below is a mockup of hhe UI in that section:
 
-    ![image](/assets/design/specs/record-summary/195399035-68ad8ef9-a854-4b5d-a4de-730131867d18.png)
+    ![image](https://user-images.githubusercontent.com/42411/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
 
-1. The "Preview" area pulls data from the table as displayed with the current sorting/filtering/grouping/pagination. The user can toggle through each row in the table using the arrow keys to see a preview of the record summary for that row. If the table shows no rows, then the "Preview" area will be absent.
+1. The "Preview" area shows the record summary for the first record from the table as displayed with the current sorting/filtering/grouping/pagination. If the table shows no rows, then the "Preview" area will be absent.
 
-1. When the Template area contains three inputs: (1) a "Customization" radio button fieldset, (2) a "field inserter" select element, and (3) a "template value" text input.
+1. When the Template area contains three inputs: (1) a "Customization" radio button fieldset, (2) a "column inserter" select element, and (3) a "template value" text input.
 
-1. The "field inserter" and "template value" fields are only displayed when "Customization" is set to "Default".
+1. The "column inserter" and "template value" fields are only displayed when "Customization" is set to "Default".
 
 1. The Cancel/Save buttons are only displayed when the user has modified the form since its last save. The buttons disappear after saving.
 
 1. As the user customizes the "template value" contents, the preview updates immediately, allowing the user to inspect their changes before applying them.
 
-1. The "template value" input is a plain text input, and offers no special syntax highlighting or means of differentiating a valid field token from an invalid one.
+1. The "template value" input is a plain text input, and offers no special syntax highlighting or means of differentiating a valid column token from an invalid one.
 
-1. The "field inserter" is a select element which displays all columns directly in the table as options. Upon selecting a column, the token for that column (e.g. `{First Name}`) is appended to the existing text within the "template value" input and the "template value" input is programmatically focused, allowing the user to continue typing.
+1. The "column inserter" is a select element which displays all columns directly in the table as options. Upon selecting a column, the token for that column (e.g. `{First Name}`) is appended to the existing text within the "template value" input and the "template value" input is programmatically focused, allowing the user to continue typing.
 
-1. To remove a field, the user must edit the "template value" and manually delete all the characters which comprise the field token.
+1. To remove a column, the user must edit the "template value" and manually delete all the characters which comprise the column token.
 
-1. When saving, the front end replaces field tokens like `{First Name}` with their corresponding column ids (e.g. `{78}`) before submitting the API request to persist the template value. Likewise, when populating the initial value for the "template value" input, the front end performs the reverse replacement, substituting column ids for their respective names.
+1. When saving, the front end replaces column tokens like `{First Name}` with their corresponding column ids (e.g. `{78}`) before submitting the API request to persist the template value. Likewise, when populating the initial value for the "template value" input, the front end performs the reverse replacement, substituting column ids for their respective names.
 
     This design introduces an _additional_ limitation with regard to escaping which only applies to the UI -- there is no way to use the UI to configure the template that renders `{First Name}: Stephanie {Last Name}: Davis` because there is no way to to escape the column name (in addition to the column id as described above).
 
