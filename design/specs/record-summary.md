@@ -75,7 +75,7 @@ Here's an example where a user customizes the Authors template to show the autho
 
 1. Within the table inspector, the "Table" pane contains a section titled "Record Summary" below the "Properties" section and expanded by default. Below is a mockup of hhe UI in that section:
 
-    ![image](https://user-images.githubusercontent.com/42411/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
+    ![image](/assets/design/specs/record-summary/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
 
 1. The "Preview" area shows the record summary for the first record from the table as displayed with the current sorting/filtering/grouping/pagination. If the table shows no rows, then the "Preview" area will be absent.
 
