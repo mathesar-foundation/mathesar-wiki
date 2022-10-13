@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-04-08T00:30:38.357Z
+date: 2022-10-13T17:29:32.271Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -29,7 +29,7 @@ Mathesar is a new project and we're still working towards releasing our first ve
 - Contribute to an open issue - see our [contribution guidelines](/en/community/contributing).
 
 ## Step 3: Join Matrix
-Join [the "Mentoring" Matrix channel](/en/community/matrix) as early as possible to introduce yourself and get feedback on your ideas. All our mentors are on Matrix. 
+Join [the "Mentoring Programs" Matrix channel](/en/community/matrix) as early as possible to introduce yourself and get feedback on your ideas. All our mentors are on Matrix. 
 
 Feel free to ask questions about project ideas, Mathesar, or anything else! It is better to post questions in the main channel rather than contacting mentors individually. 
 
