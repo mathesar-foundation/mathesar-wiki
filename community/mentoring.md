@@ -2,7 +2,7 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2022-03-06T18:33:16.658Z
+date: 2022-10-13T17:46:56.445Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
@@ -10,9 +10,11 @@ dateCreated: 2022-01-18T19:23:06.554Z
 
 Welcome and thanks for your interest in contributing to Mathesar! 
 
-The Mathesar team will be participating in **Google Summer of Code 2022**. We are hoping to work with GSoC contributors to help us create an intuitive user interface to work with relational databases.
+The Mathesar team plans to apply to **Google Summer of Code (GSoC)** in 2023. For outcomes from GSoC 2022, please see the [Project Reports](/en/engineering/reports) page.
 
-Please see the pages below for more details on how to get started.
+> The pages below are applicable to GSoC 2022. This notice will be removed when they are updated for 2023.
+{.is-warning}
+
 
 ## For Applicants
 
