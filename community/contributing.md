@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2022-09-25T12:26:07.320Z
+date: 2022-10-13T17:30:28.098Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -28,7 +28,7 @@ You can find an issue to work on from our [issues page](https://github.com/cente
 If you want to work on something for which there is no GitHub issue open yet, create an issue and propose your change there. A Mathesar [team member](/team) will evaluate your issue and decide whether we'll accept a pull request for the issue. If we indicate that we will accept a PR, then go ahead and start work on it.
 
 ## Joining the Community
-It would be helpful for you to join the "General" channel on our [Matrix server](/community/matrix) and introduce yourself. You can ask any questions about the project or finding issues here as well.
+It would be helpful for you to join the "Mathesar - General" channel on our [Matrix server](/community/matrix) and introduce yourself. You can ask any questions about the project or finding issues here as well.
 
 You may also want to join the [`mathesar-developers` mailing list](/community/mailing-lists). The team uses it to discuss new features and send updates to everyone working on the project.
 
