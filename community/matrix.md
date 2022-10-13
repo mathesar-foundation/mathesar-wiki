@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-10-13T17:28:14.217Z
+date: 2022-10-13T17:28:40.873Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -25,8 +25,8 @@ You may also want to join our [Matrix Space](https://matrix.to/#/!KQLkDbtIMsvcwU
 ### General discussion
 | Name | Address | Purpose |
 |-|-|-|
-| General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | High-level discussion and announcements about Mathesar. |
-| Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
+| Mathesar - General | [`#mathesar:matrix.mathesar.org`](https://matrix.to/#/#mathesar:matrix.mathesar.org) | High-level discussion and announcements about Mathesar. |
+| Mathesar - Off Topic | [`#offtopic:matrix.mathesar.org`](https://matrix.to/#/#offtopic:matrix.mathesar.org) | Discussion about random topics, not necessarily related to Mathesar. |
 
 ### Code
 These channels focus on day-to-day engineering work.
