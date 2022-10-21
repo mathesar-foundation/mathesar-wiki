@@ -22,9 +22,9 @@ My project during the Google Summer of Code was to enhance the capability of Mat
 
 ## Import API and record insertion implementation
 
-- Implementation for /existing_import API endpoint: https://github.com/centerofci/mathesar/pull/1442
+- Implementation for `/existing_import` API endpoint: https://github.com/centerofci/mathesar/pull/1442
 - Implementation and tests for temporary table creation: https://github.com/centerofci/mathesar/pull/1457
-- Implementation for INSERT FROM SELECT functionality : https://github.com/centerofci/mathesar/pull/1487
+- Implementation for `INSERT FROM SELECT` functionality : https://github.com/centerofci/mathesar/pull/1487
 
 ## Overcoming challenges caused by CSV imports and real-world data
 
