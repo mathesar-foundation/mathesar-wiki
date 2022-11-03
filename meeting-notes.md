@@ -2,7 +2,7 @@
 title: Meeting Notes
 description: 
 published: true
-date: 2022-11-03T02:36:09.919Z
+date: 2022-11-03T21:02:41.211Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-23T10:53:59.841Z
