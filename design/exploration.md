@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2022-11-11T20:05:58.701Z
+date: 2022-11-11T20:07:30.055Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -14,8 +14,10 @@ The Mathesar team participated again as a client in UC Berkeley's [Product Desig
 ## Sharing data
 A group of four students worked on designing a "sharing" feature i.e. how Mathesar users could invite collaborators, and share data sets via URL or embedding.
 
-- [Figma file](https://www.figma.com/file/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477) 
-- [Figma prototype](https://www.figma.com/proto/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477&scaling=min-zoom&page-id=236%3A24477&starting-point-node-id=236%3A25507&show-proto-sidebar=1) 
+- [Final deliverable - Figma file](https://www.figma.com/file/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477) 
+- [Final deliverable - Figma prototype](https://www.figma.com/proto/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477&scaling=min-zoom&page-id=236%3A24477&starting-point-node-id=236%3A25507&show-proto-sidebar=1) 
+- [Final deliverable - Product spec](https://docs.google.com/document/d/1doB34Fh_tMp5PvfCWCRqT5Jn7AXj_uxXukqlTPCMDxc/)
+- [User Interviews and Competitive Analysis presentatipn](https://docs.google.com/presentation/d/1HQZRmcktwMD8hdYOvkfk0wZxFwF75ZOiTHCNs19ft84/) 
 {.links-list}
 
 # Fall 2021
