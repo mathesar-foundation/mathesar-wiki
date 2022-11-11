@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2022-03-11T23:19:35.526Z
+date: 2022-11-11T19:55:08.865Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -10,6 +10,16 @@ dateCreated: 2021-05-04T18:21:56.074Z
 
 # Documents
 These are documents and presentations exploring various ideas.
+
+## Fall 2022
+The Mathesar team participated again as a client in UC Berkeley's [Product Design Studio](https://www.ischool.berkeley.edu/courses/info/290/pds) class in 2022.
+
+### Sharing data
+A group of four students worked on designing a "sharing" feature i.e. how Mathesar users could invite collaborators, and share data sets via URL or embedding.
+
+- [Figma file](https://www.figma.com/file/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477) 
+- [Figma prototype](https://www.figma.com/proto/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477&scaling=min-zoom&page-id=236%3A24477&starting-point-node-id=236%3A25507&show-proto-sidebar=1) 
+{.links-list}
 
 ## Fall 2021
 
