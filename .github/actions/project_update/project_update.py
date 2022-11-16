@@ -41,9 +41,28 @@ def get_project_data():
               id
               fields(first: 20) {
                 nodes {
-                  id
-                  name
-                  settings
+                  ... on ProjectV2Field {
+                    id
+                    name
+                  }
+                  ... on ProjectV2IterationField {
+                    id
+                    name
+                    configuration {
+                      iterations {
+                        startDate
+                        id
+                      }
+                    }
+                  }
+                  ... on ProjectV2SingleSelectField {
+                    id
+                    name
+                    options {
+                      id
+                      name
+                    }
+                  }
                 }
               }
             }
@@ -61,8 +80,8 @@ def add_item_to_project(content_id, project_data):
     query_template = Template(
         """
           mutation {
-            addProjectV2Item(input: {projectId: "$project_id" contentId: "$content_id"}) {
-              projectV2Item {
+            addProjectV2ItemById(input: {projectId: "$project_id" contentId: "$content_id"}) {
+              item {
                 id
               }
             }
@@ -75,7 +94,7 @@ def add_item_to_project(content_id, project_data):
     )
     result = run_graphql(query)
     try:
-        return result['data']['addProjectV2Item']['projectV2Item']['id']
+        return result['data']['addProjectV2ItemById']['item']['id']
     except KeyError as e:
         print(f'\tAdd item error:\n\t\t{result}')
         raise e
