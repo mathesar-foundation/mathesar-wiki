@@ -1,5 +1,5 @@
 requests==2.20.0
 beautifulsoup4==4.9.3
 lxml==4.6.2
-Markdown==3.3.3
+Markdown==3.4.1
 actions-toolkit==0.0.5
