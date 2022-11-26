@@ -8,7 +8,8 @@ from .links import is_url
 
 def markdown_parse(md_file, extensions):
     with open(md_file, 'r') as f:
-        md = markdown.Markdown(f.read(), extensions=extensions)
+        md = markdown.Markdown(extensions=extensions)
+        md.convert(f.read())
     return md
 
 
