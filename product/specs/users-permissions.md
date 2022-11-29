@@ -2,7 +2,7 @@
 title: Users & Permissions
 description: 
 published: true
-date: 2022-10-04T21:20:57.177Z
+date: 2022-11-29T23:37:17.842Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-09T13:25:30.516Z
@@ -172,7 +172,7 @@ These permissions apply to a single schema.
 |---|---|---|---|
 | Share schema with other users | x | - | - |
 | Add and remove tables | x | - | - |
-| Add and remove shared explorations | x | - | - |
+| Add and remove shared explorations | x | x | - |
 | Permissions on all contained tables and explorations  | Manager, Editor, Viewer  | Editor, Viewer | Viewer |
 
 ### Public schema
