@@ -2,11 +2,15 @@
 title: Design Specs
 description: Handoff documents coming out of the design process
 published: true
-date: 2022-09-12T21:49:14.594Z
+date: 2022-12-05T02:30:37.260Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-18T21:39:18.962Z
 ---
+
+## Pre-Launch Work
+
+See [styling and UX improvements across the entire product in Figma](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34/Styling?node-id=861%3A3243), use the Figma icon on the top left to navigate between different pages.
 
 ## Features
 
