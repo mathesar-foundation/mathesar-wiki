@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2022-06-01T13:17:19.415Z
+date: 2022-12-06T20:54:19.098Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -13,17 +13,8 @@ Mathesar work happens on GitHub. We create GitHub issues to track everything we'
 # Workflow
 
 We track our tasks in the [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1).
-- The [Active view](https://github.com/orgs/centerofci/projects/1/views/1) lists everything that is currently in progress grouped by status.
-- The [Backlog view](https://github.com/orgs/centerofci/projects/1/views/3) lists everything that is planned to be worked on by milestone.
-- The [Future view](https://github.com/orgs/centerofci/projects/1/views/17) lists issues that we've created placeholders for to consider in the future. These issues are not actively planned to be worked on.
 
-## Picking work
-
-We do not pre-plan sprints. Team members are expected to pick up tasks as they have availability.
-
-- Use the [Backlog view](https://github.com/orgs/centerofci/projects/1/views/3) to find tasks. Milestones are ordered and it's expected that we complete a milestone before going on the next one.
-- See [Issue Assignment](/team/guide/issue-assignment) for the processs of picking up an issue.
-- Design work is usually a milestone or two ahead of backend work, which is usually a milestone or two ahead of frontend work.
+We work in 4-6 week cycles. Each cycle is focused on a specific goal, and progress is tracked via a table on the Mathesar staging server.
 
 ## Creating pull requests
 
