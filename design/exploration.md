@@ -2,7 +2,7 @@
 title: Design Explorations
 description: Exploratory design documents for research and discovery
 published: true
-date: 2022-11-11T20:07:30.055Z
+date: 2022-12-08T06:03:06.456Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:21:56.074Z
@@ -10,6 +10,14 @@ dateCreated: 2021-05-04T18:21:56.074Z
 
 # Fall 2022
 The Mathesar team participated again as a client in UC Berkeley's [Product Design Studio](https://www.ischool.berkeley.edu/courses/info/290/pds) class in 2022.
+
+## Attachment data type
+A single student worked on a design concept for an "attachment" data type in Mathesar.
+
+- [Final deliverable - Figma file](https://www.figma.com/file/MW6UQLmekJUQ5fV1LrNbXH/Mathesar---Attachment?node-id=0%3A1)
+- [Final presentation - Figma prototype](https://www.figma.com/proto/6qIIIfaaAbguxoYnCMbA8V/PDS%3A-Mathesar_Solo-presentation?node-id=1%3A80&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A80)
+- [Project kick off and research - FigJam file](https://www.figma.com/file/T20ZNFnGVjImXNdhQFx6cm/Mathesar---Data-Attachment?node-id=0%3A1&t=0gnp1vBt3Q7LbmYM-0)
+{.links-list}
 
 ## Sharing data
 A group of four students worked on designing a "sharing" feature i.e. how Mathesar users could invite collaborators, and share data sets via URL or embedding.
