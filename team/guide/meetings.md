@@ -2,7 +2,7 @@
 title: Meetings
 description: 
 published: true
-date: 2022-12-06T21:31:57.102Z
+date: 2022-12-09T02:55:44.677Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-06T21:31:57.102Z
@@ -52,6 +52,10 @@ Make sure this list is the _minimum_ set of people that actually need to partici
 
 ## Scheduling
 You can now schedule the meeting. Make sure to send the agenda and asynchronous preparation checklist to all attendees.
+
+We have a HackMD template to make this easier, you can use it like so:
+![screen_shot_2022-12-08_at_9.53.42_pm.png](/screen_shot_2022-12-08_at_9.53.42_pm.png)
+![screen_shot_2022-12-08_at_9.53.57_pm.png](/screen_shot_2022-12-08_at_9.53.57_pm.png)
 
 ## At the meeting
 - If the async preparation hasn't been done by attendees, then reschedule the meeting.
