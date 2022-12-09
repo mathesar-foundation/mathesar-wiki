@@ -54,8 +54,8 @@ Make sure this list is the _minimum_ set of people that actually need to partici
 You can now schedule the meeting. Make sure to send the agenda and asynchronous preparation checklist to all attendees.
 
 We have a HackMD template to make this easier, you can use it like so:
-![screen_shot_2022-12-08_at_9.53.42_pm.png](/screen_shot_2022-12-08_at_9.53.42_pm.png)
-![screen_shot_2022-12-08_at_9.53.57_pm.png](/screen_shot_2022-12-08_at_9.53.57_pm.png)
+![screen_shot_2022-12-08_at_9.53.42_pm.png](/assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.42_pm.png)
+![screen_shot_2022-12-08_at_9.53.57_pm.png](/assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.57_pm.png)
 
 ## At the meeting
 - If the async preparation hasn't been done by attendees, then reschedule the meeting.
