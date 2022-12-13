@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-08-24T19:59:33.625Z
+date: 2022-12-13T22:02:41.333Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -12,7 +12,7 @@ dateCreated: 2021-04-16T14:07:42.267Z
 
 **Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
 
-Currently, Mathesar is a work in progress. We aim to release our alpha version in mid-2022.
+Currently, Mathesar is a work in progress. We aim to release our alpha version in early 2023.
 
 - [:question: About Mathesar *More about the project*](/product/about)
 - [:computer: Source Code *Mathesar's source code on GitHub*](https://github.com/centerofci/mathesar)
