@@ -2,13 +2,13 @@
 title: About Mathesar
 description: 
 published: true
-date: 2022-01-21T02:22:29.095Z
+date: 2022-12-15T03:49:14.032Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T00:42:34.804Z
 ---
 
-> Mathesar is a work in progress and will be ready for early adopters in mid-2022.
+> Mathesar is a work in progress and will be ready for early adopters in early 2023.
 {.is-warning}
 
 Mathesar is an open source tool that provides an intuitive user interface to databases. Our aim is to make it easy for non-technical users to be able to work with databases without prior knowledge of database concepts. We're heavily inspired by the user experience of [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
