@@ -158,7 +158,23 @@ To preserve modularity and encapsulation, components should not define their own
 - **z-index**:
     - The component's root element should not set any z-index.
     - It's fine for child elements _within the component_ to set a z-index, but in such cases the component's root element must establish its own [stacking context](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context). It's best to use `isolation: isolate;` to establish the stacking context because it clearly communicates intent and works without setting z-index. Once your component has its own stacking context, then you're free to set the z-index values within the component without thinking about anything outside the component. You can use simple values like `1` and `2` within the component because everything is encapsulated.
-    - If you want to render a child component with a specific z-index, then prefer to nest the child component inside a DOM element, setting the z-index on the DOM element (not the component). Alteratively if you absolutely must pass a z-index value _into_ a component, then do so by setting something like `z-index: var(--component-name-z-index, auto);` within the component, and then setting something like `--component-name-z-index: 2;` in the parent.
+    - If you want to render a child component with a specific z-index, then prefer to nest the child component inside a DOM element, setting the z-index on the DOM element (not the component).
+    - If you absolutely must pass a z-index value _into_ a component, then do so using CSS variables as follows:
+        1. Within the parent component (that establishes a stacking context), define one CSS variable for each "layer" within that stacking context.
+        1. Follow this naming convention to scope your CSS variables:
+
+            ```css
+            .record-selector-window {
+              --z-index__record_selector__row-header: 1;
+              --z-index__record_selector__thead: 2;
+              --z-index__record_selector__thead-row-header: 3;
+              --z-index__record_selector__shadow-inset: 4;
+              --z-index__record_selector__overlay: 5;
+              --z-index__record_selector__above-overlay: 6;
+            }
+            ```
+
+            Here, the name of each variable begins with `z-index`, then has a name to represent the stacking context (in this case `record-selector`), then has a name to represent the layer within that stacking context (e.g. `row-header`). Double underscores delimit those three pieces of the variable.
 
 
 ## JavaScript
