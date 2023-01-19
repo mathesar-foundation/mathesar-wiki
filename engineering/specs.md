@@ -8,6 +8,9 @@ editor: markdown
 dateCreated: 2022-03-18T22:25:33.876Z
 ---
 
+## 2023-01
+- [Users and Permissions frontend RFC](/en/engineering/specs/usersandpermissions)
+
 ## 2022-10
 - [Dependents graph](/en/engineering/specs/dependents-graph)
 
