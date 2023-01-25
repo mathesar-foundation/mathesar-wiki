@@ -2,13 +2,13 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-01-25T16:24:53.533Z
+date: 2023-01-25T16:25:06.595Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
 ---
 
-These ideas are for **Google Summer of Code 2022**.
+These ideas are for **Google Summer of Code 2023**.
 
 > For information about applying to Google Summer of Code, please see [**our Applicant Guide**](/en/community/mentoring/applicant-guide).
 {.is-info}
