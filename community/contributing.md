@@ -8,42 +8,62 @@ editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
 ---
 
-We welcome contributions of all kinds to Mathesar!
+Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesar). We welcome contributions of all kind!
 
-If you have any questions, please don't hesitate to ask. See the [Community](/community) page for how to find us.
+## Contributing code
 
-# Code
-Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesar). If you are not familiar with GitHub or pull requests, please follow [GitHub's "Hello World" guide](https://guides.github.com/activities/hello-world/) first.
+1. Get Mathesar [running locally](https://github.com/centerofci/mathesar/blob/master/README.md#local-development).
 
-You may also want to visit our [Engineering](/engineering) page to learn more about our development process.
+    Make sure to **do this before moving on**. If you need help, ask in [Matrix](/community/matrix.md), taking care to form _specific_ questions that people can answer asynchronously.
 
-## Finding an Issue
-You can find an issue to work on from our [issues page](https://github.com/centerofci/mathesar/issues).
-  - Unassigned issues tagged `good first issue` or `help wanted` are especially tagged for contributors.
-    - [Issues tagged `good first issue`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22good+first+issue%22)
-    - [Issues tagged `help wanted`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22help+wanted%22)
-  - Unassigned issues tagged `status: ready` are also fair game.
-    - [Issues tagged `status: ready`](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22status%3A+ready%22+no%3Aassignee).
+1. Find an [issue](https://github.com/centerofci/mathesar/issues) to work on.
 
-If you want to work on something for which there is no GitHub issue open yet, create an issue and propose your change there. A Mathesar [team member](/team) will evaluate your issue and decide whether we'll accept a pull request for the issue. If we indicate that we will accept a PR, then go ahead and start work on it.
+    - ✅ Our easiest issues are labeled [good first issue](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22good+first+issue%22) and are a great place to start. However keep in mind that we're not always entirely sure of the necessary steps to solve a problem when we open an issue. 
+    - ✅ Slightly more challenging issues are still labeled [help wanted](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee+label%3A%22help+wanted%22). These can be a good place to start if you have some experience coding but are not yet familiar with our codebase.
+    - ❌ Issues are not appropriate if they meet any of the following criteria:
+        - already assigned to someone
+        - labeled with a `restricted: ...` label
+        - labeled with any `status: ...` label other than `status: ready`
+    - ⚠️ Some issues fall into a middle ground, not being labeled "help wanted" or "restricted". These tickets are more challenging and are only appropriate for community contributors who are familiar with our codebase.
 
-## Joining the Community
-It would be helpful for you to join the "Mathesar - General" channel on our [Matrix server](/community/matrix) and introduce yourself. You can ask any questions about the project or finding issues here as well.
+    If you want to work on something for which there is no GitHub issue open yet, create an issue and propose your change there. A Mathesar [team member](/team.md) will evaluate your issue and decide whether we'll accept a pull request for the issue.
 
-You may also want to join the [`mathesar-developers` mailing list](/community/mailing-lists). The team uses it to discuss new features and send updates to everyone working on the project.
+1. Claim the issue.
 
-## Contributing
-Once you've found an issue to work on, 
+    1. Comment on the ticket, saying _"I'd like to work on this"_ or similar.
+    1. A core team member will assign you to the ticket.
+    1. At this point **you have one week to follow up.** If we don't hear from you by then, we will unassign you from the ticket so that others may claim it. If you need more time, you can ask for an extension, explaining the progress you've made and the challenges you've encountered. If you have not begun work at all, then we will need to unassign you.
 
-- Comment on it and say you'd like to work on that issue. This is so we can keep track of who is interested in each issue.
-- Write your code and submit your pull request. Be sure to read and follow our [code review guidelines](/engineering/code-review).
-- Wait for code review and address any issues raised as soon as you can.
+    Please do not claim more than 2 issues concurrently before submitting PRs.
 
-## Code Review
-We encourage and appreciate code review by contributors. Feel free to review any open pull requests. Follow our [code review guidelines](/engineering/code-review).
+1. Begin making your changes
 
-# Design
+    - Make sure to follow our [code standards](/engineering/standards.md).
+
+    - If you are not familiar with GitHub or pull requests, please follow [GitHub's "Hello World" guide](https://guides.github.com/activities/hello-world/) first. Make sure to commit your changes on a new git branch named after the ticket you claimed (instead of on `master`).
+
+    - Commit early, commit often. Write good commit messages. Try to keep pull requests small if possible, since it makes review easier.
+
+    - If you expect your work to last longer than 1 week, open a draft pull request for your in-progress work.
+
+1. Open a PR
+
+    When you are ready for a core team member to review your changes, open a pull request (or mark your draft PR as ready for review). If you have already been corresponding with a core team member about the issue, then you may request a review from that person. Otherwise, you may leave your PR without any review requests and a core team member will assign someone to review it.
+
+1. Wait for code review and address any issues raised as soon as you can.
+
+    - When making changes to address review critique, feel free to reply to threads within the PR (especially to point to specific commits which you think should address the critique), but do not click the "Resolve conversation" button on threads which other people have started.
+    - If you are ready for a subsequent round of review, comment on the PR requesting another review and tagging the original reviewer.
+
+## Contributing PR reviews
+
+We encourage and appreciate code review by contributors. Feel free to review any open pull requests. Follow our [code review guidelines](/engineering/code-review.md).
+
+
+## Contributing to UX and graphic design
+
 > Due to limited capacity, we are currently unable to accept design volunteers. Please return to this page for updates.
 {.is-warning}
 
-Please read through our [Design](/design) section to learn more about our design process.
+Please read through our [Design](/design.md) section to learn more about our design process.
+
