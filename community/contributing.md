@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2022-10-13T17:30:28.098Z
+date: 2023-01-26T17:04:15.558Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -32,7 +32,7 @@ Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesa
 
     If the Mathesar team has already merged one of your PRs, then you may wish to ear-mark the issue for yourself so that other do not work on it concurrently.
     
-    However, **if you are band new to Mathesar, we recommend skipping this step** and making your changes *without* claiming the issue. (A core team member will assign the issue to you *after* you open a PR.) This recommendation is designed to reduce the overhead the core team has experienced from a high volume of contributors failing to follow through with their intent to submit PRs.
+    However, **if you are brand new to Mathesar, we recommend skipping this step** and making your changes *without* claiming the issue. (A core team member will assign the issue to you *after* you open a PR.) This recommendation is designed to reduce the overhead the core team has experienced from a high volume of contributors failing to follow through with their intent to submit PRs.
 
     If you decide to claim the issue:
 
