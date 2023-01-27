@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2022-12-13T22:02:41.333Z
+date: 2023-01-27T21:39:56.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -10,26 +10,22 @@ dateCreated: 2021-04-16T14:07:42.267Z
 
 <img src="/mathesar_primary_shaded_hor_rgb.png" width=300px alt="Mathesar logo"/>
 
-**Mathesar** is an open source project that provides an intuitive user interface to databases. We aim to make it easy for non-technical users to work with both existing and new databases without any pre-existing knowledge of database concepts.
+Mathesar is a straightforward open source tool that provides a **spreadsheet-like interface** to a PostgreSQL **database**. Our web-based interface helps you and your collaborators work with data more independently and comfortably – **no technical skills needed**.
 
-Currently, Mathesar is a work in progress. We aim to release our alpha version in early 2023.
+You can use Mathesar to build **data models**, **enter data**, and even **build reports**. You host your own Mathesar installation, which gives you ownership, privacy, and control of your data.
 
-- [:question: About Mathesar *More about the project*](/product/about)
-- [:computer: Source Code *Mathesar's source code on GitHub*](https://github.com/centerofci/mathesar)
-- [:busts_in_silhouette: Community *How to participate in our community forums*](/community)
-- [:spiral_notepad: About the Wiki *More about this wiki*](/about-the-wiki)
-{.links-list}
+## Current status
+Mathesar is a work in progress. We aim to release our alpha version in February 2023.
 
-## Working on Mathesar
+## About the wiki
+The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please see our [main website](https://mathesar.org) for information about Mathesar aimed at general audiences.
+
+## Quick Links
+- [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
+- [:busts_in_silhouette: Join our Community *How to participate in our community forums*](/community)
 - [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](/community/contributing)
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](/product)
 - [:art: Design *Documentation about Mathesar's visual design and UI*](/design)
 - [:desktop_computer: Engineering *Documentation about Mathesar's code*](/engineering)
-- [:notebook: Team Guide *Guide for Mathesar team members*](/team/guide)
 - [:memo: Meeting Notes *Mathesar team meeting notes*](/meeting-notes)
 {.links-list}
-
-# Support
-Mathesar is based out of the **[Center of Complex Interventions](https://www.centerofci.org/)** (CCI).
-
-We would like to thank the **Reid Hoffman Foundation** for their generous support of the project.
