@@ -2,7 +2,7 @@
 title: About the Wiki
 description: 
 published: true
-date: 2023-01-27T21:31:59.122Z
+date: 2023-01-27T21:32:18.664Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-09T21:29:24.495Z
@@ -10,7 +10,7 @@ dateCreated: 2021-12-09T21:29:24.495Z
 
 The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please see our [main website](https://mathesar.org) for information about Mathesar aimed at general audiences.
 
-The wiki is our primary knowledge base for people building Mathesar. You can use the sidebar to navigate around the wiki. Some quick links:
+The wiki is our primary knowledge base. You can use the sidebar to navigate. Some quick links:
 
 - If you're interested in contributing to Mathesar, please look at:
   - [Joining the Community](/community)
