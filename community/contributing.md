@@ -2,13 +2,16 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2023-01-26T17:04:15.558Z
+date: 2023-01-27T21:43:20.343Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
 ---
 
-Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesar). We welcome contributions of all kind!
+Mathesar's development happens on [GitHub](https://github.com/centerofci/mathesar). We welcome contributions of all kinds!
+
+## Joining the Community
+We highly recommend joining our [Matrix community](/en/community/matrix) and our [developer mailing list](/en/community/mailing-lists) before making contributions. This is where most of the core team's conversations about building Mathesar happen.
 
 ## Contributing code
 
