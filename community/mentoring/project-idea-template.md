@@ -2,7 +2,7 @@
 title: Project Idea Template
 description: 
 published: true
-date: 2022-02-09T20:37:23.818Z
+date: 2023-02-01T15:58:38.606Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:08:16.937Z
@@ -18,6 +18,9 @@ dateCreated: 2022-02-09T00:08:16.937Z
 - **Difficulty**: *Low/Medium/High*
 - **Skills needed**: *List of technologies or other skills needed*
 - **Length**: *Medium (~175 hours) / Long (~350 hours)*
+
+## Feature Description
+*How this feature will work.*
 
 ## Tasks
 *A list of tasks that the intern is expected to complete as part of their work. Be specific about research, code, etc.*
