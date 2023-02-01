@@ -361,61 +361,56 @@ Additional context:
 
 
 
-### Usage of `{...$$restProps}`
+### When using `{...$$restProps}`, define a `$$Props` type
 
-We use `{...$$restProps}` occasionally in our code despite some drawbacks.
+- Example:
 
-Example:
+    - `Child.svelte`
 
-- `Child.svelte`
+        ```svelte
+        <script lang="ts>
+          export let word: string;
+        </script>
 
-    ```svelte
-    <script>
-      export let word;
-    </script>
+        <span class="child">{word}</span>
+        ```
 
-    <span class="child">{word}</span>
+        `Child` explicitly accepts a `word` prop.
+
+    - `Parent.svelte`
+
+        ```svelte
+        <script lang="ts>
+          import type { ComponentProps } from 'svelte';
+
+          import Child from './Child.svelte`;
+
+          type $$Props = ComponentProps<MessageBox>;
+        </script>
+
+        <Child {...$$restProps} />
+        ```
+
+        TypeScript knows that `Parent` accepts a `word` prop too because we have defined `$$Props` as such.
+
+    - `Grandparent.svelte`
+
+        ```svelte
+        <script lang="ts>
+          import Parent from './Parent.svelte`;
+        </script>
+
+        <Parent word="foo" />
+        ```
+
+        Passing `"foo"` to the `word` prop here is type-safe.
+
+- If you want to alter the props, you can define `$$Props` like this:
+
+    ```ts
+    interface $$Props extends Omit<ComponentProps<Child>, 'notThatOne'> {
+      addThisOne: string;
+    }
     ```
 
-    `Child` explicitly accepts a `word` prop.
-
-- `Parent.svelte`
-
-    ```svelte
-    <script>
-      import Child from './Child.svelte`;
-    </script>
-
-    <Child {...$$restProps} />
-    ```
-
-    `Parent` _implicitly_ accepts a `word` prop.
-
-- `Grandparent.svelte`
-
-    ```svelte
-    <script>
-      import Parent from './Parent.svelte`;
-    </script>
-
-    <Parent word="foo" />
-    ```
-
-    This renders `<span class="child">foo</span>`
-
-
-Benefits of using `{...$$restProps}`:
-
-- It reduces code duplication when composing components.
-
-Drawbacks (with commentary added):
-
-- In the example above, `Parent.svelte` gives little indication that it accepts a `word` prop, making its behavior somewhat opaque. Further, the `Parent` component lacks type safety on the `word` prop.
-
-    However, we expect Svelte to eventually address these shortcomings by allowing us to provide more [explicit typing](https://github.com/sveltejs/rfcs/pull/38) for component props in these cases.
-
-- On using `{...$$props}` and `{...$$restProps}`, the [Svelte docs](https://svelte.dev/docs#template-syntax-attributes-and-props) say
-
-    > It is not generally recommended, as it is difficult for Svelte to optimise
-
-    However, thus far we have not identified any performance issues here.
+    You can search our codebase for `$$Props` to see the various ways we're using it.
