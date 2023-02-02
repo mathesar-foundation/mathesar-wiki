@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-01-25T16:25:06.595Z
+date: 2023-02-02T19:47:01.210Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -17,7 +17,7 @@ These ideas are for **Google Summer of Code 2023**.
 
 - [JSON Editor](./project-ideas/json-editor.md)
 
-*More coming soon*.
+*More coming soon. For ideas from previous years, see our [Project Idea Archive](/en/community/mentoring/project-ideas/archive).*
 
 ## Original Ideas
 
