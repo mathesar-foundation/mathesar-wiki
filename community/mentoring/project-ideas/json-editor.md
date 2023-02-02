@@ -10,9 +10,9 @@ dateCreated: 2022-03-02T00:00:00.000Z
 
 ## Classification
 
-- **Difficulty**: *Medium*
+- **Difficulty**: *Medium* or *High*, depending on experience
 - **Skills needed**: HTML, CSS, TypeScript, JavaScript, Svelte, UX design
-- **Length**: *Medium (~175 hours)*
+- **Length**:  *Medium (~175 hours)* or *Long (~350 hours)*, depending on experience
 
 ## The Problem
 
