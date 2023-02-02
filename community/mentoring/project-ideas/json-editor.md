@@ -1,11 +1,11 @@
 ---
-title: JSON Editor project idea
+title: "JSON Editor" project idea
 description: 
 published: true
-date: 2023-03-02T00:00:00.000Z
+date: 2023-02-02T19:59:42.747Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-02T00:00:00.000Z
+dateCreated: 2023-02-02T19:05:44.259Z
 ---
 
 ## Classification
