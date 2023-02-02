@@ -2,7 +2,7 @@
 title: Project Idea Template
 description: 
 published: true
-date: 2023-02-02T20:02:42.377Z
+date: 2023-02-02T20:03:14.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:08:16.937Z
@@ -37,7 +37,7 @@ dateCreated: 2022-02-09T00:08:16.937Z
 *Tips for writing a successful proposal to complete this project. This could include what specific questions to answer or what details could help the application stand out.*
 
 ## Out of Scope
-*Describe any tasks that are out of scope or could be considered stretch goals.*
+*Describe any tasks that are out of scope.*
 
 ## Resources
 *A list of links to documentation/code/wiki pages, etc. relevant to the project idea.*
