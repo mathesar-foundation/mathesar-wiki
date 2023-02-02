@@ -15,7 +15,9 @@ These ideas are for **Google Summer of Code 2023**.
 
 ## Ideas
 
-*Coming soon*.
+- [JSON Editor](./project-ideas/json-editor.md)
+
+*More coming soon*.
 
 ## Original Ideas
 
