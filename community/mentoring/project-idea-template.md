@@ -2,7 +2,7 @@
 title: Project Idea Template
 description: 
 published: true
-date: 2023-02-01T15:58:38.606Z
+date: 2023-02-02T20:02:42.377Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:08:16.937Z
@@ -11,16 +11,21 @@ dateCreated: 2022-02-09T00:08:16.937Z
 > Please use this template while adding new project ideas to [Project Ideas](/en/community/mentoring/project-ideas).
 {.is-info}
 
-## The Problem
-*Describe the problem that the project is expected to solve.*
-
 ## Classification
 - **Difficulty**: *Low/Medium/High*
 - **Skills needed**: *List of technologies or other skills needed*
 - **Length**: *Medium (~175 hours) / Long (~350 hours)*
 
+## The Problem
+*Describe the problem that the project is expected to solve.*
+
 ## Feature Description
 *How this feature will work.*
+
+## UX Design Problems
+*Describe the UX design problems we need to solve as part of implementing this feature.*
+
+*Remove this section if there's no UX design needed. Or replace with another section e.g. Architectural Problems if the problems are best described another label.*
 
 ## Tasks
 *A list of tasks that the intern is expected to complete as part of their work. Be specific about research, code, etc.*
@@ -30,6 +35,9 @@ dateCreated: 2022-02-09T00:08:16.937Z
 
 ## Application Tips
 *Tips for writing a successful proposal to complete this project. This could include what specific questions to answer or what details could help the application stand out.*
+
+## Out of Scope
+*Describe any tasks that are out of scope or could be considered stretch goals.*
 
 ## Resources
 *A list of links to documentation/code/wiki pages, etc. relevant to the project idea.*
