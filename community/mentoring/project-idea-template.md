@@ -2,7 +2,7 @@
 title: Project Idea Template
 description: 
 published: true
-date: 2023-02-02T20:03:14.361Z
+date: 2023-02-02T20:05:00.578Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:08:16.937Z
@@ -25,7 +25,7 @@ dateCreated: 2022-02-09T00:08:16.937Z
 ## UX Design Problems
 *Describe the UX design problems we need to solve as part of implementing this feature.*
 
-*Remove this section if there's no UX design needed. Or replace with another section e.g. Architectural Problems if the problems are best described another label.*
+*Remove this section if there's no UX design needed. Or replace with another section e.g. Architectural Problems if the problems are best described using another label.*
 
 ## Tasks
 *A list of tasks that the intern is expected to complete as part of their work. Be specific about research, code, etc.*
