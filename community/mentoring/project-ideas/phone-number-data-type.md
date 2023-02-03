@@ -2,7 +2,7 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-02-03T15:43:41.904Z
+date: 2023-02-03T16:14:28.554Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z
@@ -27,7 +27,7 @@ dateCreated: 2023-02-02T20:18:17.304Z
 - Phone numbers should be able to be grouped by country code or area code
 
 ## Architectural Problems
-We need to figure out
+We need to figure out:
 - how to structure the Postgres type.
 - how to parse and store country and area codes at the DB level so that they can be used in grouping.
 - the logic for identifying columns with phone number data when data is imported.
