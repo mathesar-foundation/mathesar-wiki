@@ -2,7 +2,7 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-02-02T23:06:49.514Z
+date: 2023-02-03T15:19:53.165Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z
@@ -64,4 +64,4 @@ We shouldn't implement any custom logic for validating phone numbers since phone
 
 ## Mentors
 **Primary Mentor**: TBD
-**Secondary Mentor(s)**: TBD
+**Secondary Mentor(s)**: Rajat
