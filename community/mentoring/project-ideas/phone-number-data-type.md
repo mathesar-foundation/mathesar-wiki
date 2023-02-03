@@ -2,7 +2,7 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-02-03T16:14:28.554Z
+date: 2023-02-03T22:29:10.214Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z
@@ -24,28 +24,23 @@ dateCreated: 2023-02-02T20:18:17.304Z
 - Data with the "Phone Number" data type set should be automatically formatted in a pretty way where possible.
 	 - e.g. 10-digit US/Canada phone numbers should be formatted as (XXX) XXX-XXXX
 - Phone numbers that cannot be automatically formatted should be formatted as text    
-- Phone numbers should be able to be grouped by country code or area code
 
 ## Architectural Problems
 We need to figure out:
 - how to structure the Postgres type.
-- how to parse and store country and area codes at the DB level so that they can be used in grouping.
 - the logic for identifying columns with phone number data when data is imported.
-- how to format phone numbers in the frontend. Using an existing library would be preferable to implementing our own parsing and formatting.
+- how to format phone numbers in the frontend.
 
 ## Tasks
 1. Implement the Phone Number database type
 2. Integrate the Phone Number data type with our data type inference logic.
 3. Integrate the Phone Number data type with our existing APIs.
-4. Build custom grouping functions for area code and country code grouping.
-5. Integrate the grouping functions with our API.
-6. Research available phone number formatting libraries and present your findings to the Mathesar front end team for consideration. Then select the 3rd party library, in collaboration with the front end team.
-7. Implement phone number formatting in the frontend.
+4. Research available phone number formatting libraries and present your findings to the Mathesar front end team for consideration. Then select the 3rd party library, in collaboration with the front end team.
+5. Implement phone number formatting in the frontend.
 
 ## Expected Outcome
 - Users can set columns to the Phone Number data type.
 - Phone numbers should be correctly formatted in table cells, explorations, default value inputs, filter inputs, and record selector inputs.
-- Users can group by country code & area code.
 
 ## Application Tips
 - Demonstrate proficiency with the required skills.
