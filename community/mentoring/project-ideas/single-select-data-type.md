@@ -2,7 +2,7 @@
 title: Single Select "data type"
 description: 
 published: true
-date: 2023-02-03T22:02:24.369Z
+date: 2023-02-03T22:20:11.987Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:50:06.632Z
@@ -68,6 +68,12 @@ The Mathesar UI has the concept of links between tables. Links create a new colu
 
 ## Expected Outcome
 Users should be able to use single select fields as described in "Feature Description"
+
+## Application Tips
+- Demonstrate proficiency with the required skills.
+- Present a preliminary API spec.
+- Present a preliminary UX design document.
+- Demonstrate an understanding of the Mathesar frontend codebase.
 
 ## Resources
 Other tools like Airtable, Baserow, and NocoDB have single select fields. Please explore their UX.
