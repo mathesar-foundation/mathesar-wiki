@@ -28,9 +28,9 @@ dateCreated: 2022-03-02T00:00:00.000Z
 
 - Mathesar should also have a color scheme switcher, allowing the user to override the browser's color scheme preference. For example:
 
-    ![image](https://user-images.githubusercontent.com/42411/216636539-930238bb-309f-4183-889d-7cd672649c79.png)
+    ![image](/assets/community/mentoring/project-ideas/dark-mode/216636539-930238bb-309f-4183-889d-7cd672649c79.png)
 
-    ![image](https://user-images.githubusercontent.com/42411/216637154-22123980-b89e-4f7e-ab43-b5b4f08d7649.png)
+    ![image](/assets/community/mentoring/project-ideas/dark-mode/216637154-22123980-b89e-4f7e-ab43-b5b4f08d7649.png)
 
 - The color scheme switcher should synchronize its state with `localStorage` so that the user's color scheme preference is persisted after page reloads.
 
