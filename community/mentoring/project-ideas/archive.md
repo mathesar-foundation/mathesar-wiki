@@ -2,13 +2,13 @@
 title: Archived Project Ideas
 description: 
 published: true
-date: 2023-01-25T16:24:13.333Z
+date: 2023-02-03T16:30:35.817Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-25T16:24:13.333Z
 ---
 
-# 2022
+# GSoC 2022
 
 | Idea | Skills | Length | Difficulty |
 |-|-|-|-|
