@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-03T16:54:36.312Z
+date: 2023-02-03T22:01:00.886Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -23,7 +23,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 4 | UI for importing data into existing tables |  |  |  | Pavish | Anish |
 | 5 | Persisting common UI configuration |  |  |  | Pavish | ??? |
 | 6 | Location data type(s) |  |  |  | Mukesh | ??? |
-| 7 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | ??? | Pavish |
+| 7 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | ??? |
 | 8 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | ??? | Pavish |
 | 9 | Make casting functions parallelizable |  |  |  | Dom | Brent |
 | 10 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | ??? |
