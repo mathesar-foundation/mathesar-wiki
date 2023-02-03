@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-03T16:36:30.688Z
+date: 2023-02-03T16:41:22.927Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -26,7 +26,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 7 | Single select data type |  |  |  | ??? | Pavish |
 | 8 | List data type |  |  |  | ??? | Pavish |
 | 9 | Make casting functions parallelizable |  |  |  | Dom | Brent |
-| 10 | Kanban view |  |  |  | Rajat | ??? |
+| 10 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | ??? |
 | 11 | UI support for database views |  |  |  | Brent | ??? |
 | 12 | API documentation |  |  |  | Mukesh | Kriti |
 | 13 | Adding more summarization functions |  |  |  | Brent | ??? |
