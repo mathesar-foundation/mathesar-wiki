@@ -1,8 +1,8 @@
 ---
-title: Suggest Candidate Columns to Create Separate Table
+title: Automatically suggest improvements to table normalization
 description: 
 published: true
-date: 2023-02-03T16:34:34.998Z
+date: 2023-02-03T16:35:43.974Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:34:34.998Z
