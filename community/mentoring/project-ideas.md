@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-02T20:18:50.968Z
+date: 2023-02-03T15:33:47.892Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -15,10 +15,26 @@ These ideas are for **Google Summer of Code 2023**.
 
 ## Ideas
 
-- [JSON Editor](./project-ideas/json-editor.md)
-- [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type)
 
-*More coming soon. For ideas from previous years, see our [Project Idea Archive](/en/community/mentoring/project-ideas/archive).*
+| ID | Idea | Skills | Length | Difficulty | Primary mentor | Secondary mentor |
+|-|-|-|-|-|
+| 1 | [JSON Editor](./project-ideas/json-editor.md) | | | | Sean | Pavish |
+| 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) | | | | ??? | Rajat |
+| 3 | Dark mode | | | | Sean | Pavish |
+| 4 | UI for importing data into existing tables | | | | Pavish | ??? |
+| 5 | Persisting common UI configuration | | | | Pavish | ??? |
+| 6 | Location data type(s) | | | | Mukesh | ??? |
+| 7 | Single select data type | | | | ??? | Pavish |
+| 8 | List data type | | | | ??? | Pavish |
+| 9 | Make casting functions parallelizable | | | | Dom | Brent |
+| 10 | Kanban view | | | | Rajat | ??? |
+| 11 | UI support for database views  | | | | Brent | ??? |
+| 12 | API documentation | | | | Mukesh | Kriti |
+| 13 | Adding more summarization functions | | | | Brent | ??? |
+| 14 | Support more data import sources | | | | Dom | ??? |
+| 15 | Suggest candidate columns to create separate table | | | | Brent | Dom |
+
+*For ideas from previous years, see our [Project Idea Archive](/en/community/mentoring/project-ideas/archive).*
 
 ## Original Ideas
 
