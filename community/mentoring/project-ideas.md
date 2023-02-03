@@ -19,7 +19,7 @@ These ideas are for **Google Summer of Code 2023**.
 |---|---|---|---|---|---|---|
 | 1 | [JSON editor](./project-ideas/json-editor.md) |  |  |  | Sean | Pavish |
 | 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) |  |  |  | ??? | Rajat |
-| 3 | Dark mode |  |  |  | Sean | Pavish |
+| 3 | [Dark mode](./project-ideas/dark-mode.md) |  |  |  | Sean | Pavish |
 | 4 | UI for importing data into existing tables |  |  |  | Pavish | ??? |
 | 5 | Persisting common UI configuration |  |  |  | Pavish | ??? |
 | 6 | Location data type(s) |  |  |  | Mukesh | ??? |
