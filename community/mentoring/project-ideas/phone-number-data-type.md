@@ -2,14 +2,11 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-02-03T15:19:53.165Z
+date: 2023-02-03T15:43:41.904Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z
 ---
-
-> This is a draft.
-{.is-warning}
 
 ## Classification
 - **Difficulty**: Medium
