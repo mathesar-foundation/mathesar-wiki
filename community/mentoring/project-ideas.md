@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-03T15:33:47.892Z
+date: 2023-02-03T15:34:06.456Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -17,7 +17,7 @@ These ideas are for **Google Summer of Code 2023**.
 
 
 | ID | Idea | Skills | Length | Difficulty | Primary mentor | Secondary mentor |
-|-|-|-|-|-|
+|-|-|-|-|-|-|
 | 1 | [JSON Editor](./project-ideas/json-editor.md) | | | | Sean | Pavish |
 | 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) | | | | ??? | Rajat |
 | 3 | Dark mode | | | | Sean | Pavish |
