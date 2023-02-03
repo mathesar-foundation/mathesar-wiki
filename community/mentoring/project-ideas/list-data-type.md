@@ -2,14 +2,11 @@
 title: List data type
 description: 
 published: true
-date: 2023-02-03T22:36:45.727Z
+date: 2023-02-03T22:36:58.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:53:57.798Z
 ---
-
-> Draft
-{.is-warning}
 
 ## Classification
 - **Difficulty**: High
