@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-03T16:27:00.508Z
+date: 2023-02-03T16:36:30.688Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -31,7 +31,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 12 | API documentation |  |  |  | Mukesh | Kriti |
 | 13 | Adding more summarization functions |  |  |  | Brent | ??? |
 | 14 | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) |  |  |  | Dom | Anish |
-| 15 | Suggest candidate columns to create separate table |  |  |  | Brent | Dom |
+| 15 | [Automatically suggest improvements to table normalization](/en/community/mentoring/project-ideas/auto-suggest-normalization) |  |  |  | Brent | Dom |
 
 *For ideas from previous years, see our [Project Idea Archive](/en/community/mentoring/project-ideas/archive).*
 
