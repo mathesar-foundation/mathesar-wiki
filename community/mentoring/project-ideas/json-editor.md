@@ -1,8 +1,8 @@
 ---
-title: "JSON Editor" project idea
+title: JSON editor
 description: 
 published: true
-date: 2023-02-02T19:59:42.747Z
+date: 2023-02-03T21:04:58.175Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T19:05:44.259Z
