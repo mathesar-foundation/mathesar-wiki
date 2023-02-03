@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-03T15:35:33.645Z
+date: 2023-02-03T16:26:41.042Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -30,7 +30,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 11 | UI support for database views |  |  |  | Brent | ??? |
 | 12 | API documentation |  |  |  | Mukesh | Kriti |
 | 13 | Adding more summarization functions |  |  |  | Brent | ??? |
-| 14 | Support more data import sources |  |  |  | Dom | ??? |
+| 14 | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) |  |  |  | Dom | Anish |
 | 15 | Suggest candidate columns to create separate table |  |  |  | Brent | Dom |
 
 *For ideas from previous years, see our [Project Idea Archive](/en/community/mentoring/project-ideas/archive).*
