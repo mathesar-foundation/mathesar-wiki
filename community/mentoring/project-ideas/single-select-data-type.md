@@ -2,14 +2,11 @@
 title: Single Select data type
 description: 
 published: true
-date: 2023-02-03T21:59:17.917Z
+date: 2023-02-03T21:59:33.783Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:50:06.632Z
 ---
-
-> Draft
-{.is-warning}
 
 ## Classification
 - **Difficulty**: High
