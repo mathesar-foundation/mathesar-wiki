@@ -2,14 +2,14 @@
 title: Automatically suggest improvements to table normalization
 description: 
 published: true
-date: 2023-02-03T21:16:38.489Z
+date: 2023-02-06T16:37:22.459Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:34:34.998Z
 ---
 
 ## Classification
-- **Difficulty**: *High*
+- **Difficulty**: High
 - **Skills needed**: PostgreSQL, Database theory, a bit of statistics.
 - **Length**: Long (~350 hours)
 
