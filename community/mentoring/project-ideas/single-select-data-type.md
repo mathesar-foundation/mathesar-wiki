@@ -2,7 +2,7 @@
 title: Single Select "data type"
 description: 
 published: true
-date: 2023-02-06T15:44:10.422Z
+date: 2023-02-06T16:31:45.911Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:50:06.632Z
@@ -10,8 +10,8 @@ dateCreated: 2023-02-03T16:50:06.632Z
 
 ## Classification
 - **Difficulty**: Easy
-- **Skills needed**: Python, JavaScript, Svelte
-- **Skills that could be helpful**: Django, SQLAlchemy, TypeScript
+- **Skills needed**: Python, Svelte, JavaScript
+- **Skills that could be helpful**: Django, TypeScript
 - **Length**: Long (~350 hours)
 
 ## The Problem
