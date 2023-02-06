@@ -28,7 +28,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 9 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | Brent |
 | 10 | [Database views](/en/community/mentoring/project-ideas/db-views) |  |  |  | Brent | Rajat |
 | 11 | API documentation |  |  |  | Mukesh | Kriti |
-| 12 | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) |  |  |  | Brent | ??? |
+| 12 | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) |  |  |  | Brent | Sean |
 | 13 | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) |  |  |  | Dom | Anish |
 | 14 | [Automatically suggest improvements to table normalization](/en/community/mentoring/project-ideas/auto-suggest-normalization) |  |  |  | Brent | Dom |
 
