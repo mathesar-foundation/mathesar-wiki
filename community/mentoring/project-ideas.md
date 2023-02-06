@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T16:25:46.898Z
+date: 2023-02-06T16:32:02.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -22,7 +22,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 3 | [UI for importing data into existing tables](./project-ideas/ui-import-data-existing-table) | **Necessary:** HTML, CSS, JavaScript, Svelte. <br/><br/> **Bonus:** TypeScript, UX design | Medium (~175 hours) or Long (~350 hours) depending on experience level | Medium | Pavish | Anish |
 | 4 | [Persist UI configuration](./project-ideas/persist-ui-configuration) | **Necessary:** Python, SQL, JavaScript. <br/><br/> **Bonus:** Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) | Medium | Dom | Pavish |
 | 5 | Location data type(s) |  |  |  | Mukesh | Pavish |
-| 6 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | Mukesh |
+| 6 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) | **Necessary:** Python, Svelte, JavaScript <br/><br/> **Bonus**: Django, TypeScript | Long (~350 hours) | Easy | Pavish | Mukesh |
 | 7 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | Brent | Pavish |
 | 8 | [Make casting functions inlinable](https://wiki.mathesar.org/e/en/community/mentoring/project-ideas/make-casting-functions-inlinable) |  |  |  | Dom | Brent |
 | 9 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | Brent |
