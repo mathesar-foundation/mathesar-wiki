@@ -2,14 +2,14 @@
 title: Add more summarization functions
 description: Extend the summariation function options in the Data Explorer
 published: true
-date: 2023-02-06T16:22:06.142Z
+date: 2023-02-06T16:36:03.404Z
 tags: gsoc
 editor: markdown
 dateCreated: 2023-02-06T05:46:45.937Z
 ---
 
 ## Classification
-- **Difficulty**: Low
+- **Difficulty**: Easy
 - **Skills needed**: Python, SQLAlchemy, JavaScript, Svelte, PostgreSQL
 - **Length**: Medium (~175 hours)
 
