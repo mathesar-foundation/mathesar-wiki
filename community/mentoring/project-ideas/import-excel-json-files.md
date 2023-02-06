@@ -2,7 +2,7 @@
 title: Support importing Excel and JSON files
 description: 
 published: true
-date: 2023-02-06T13:38:05.355Z
+date: 2023-02-06T13:38:23.772Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:25:20.421Z
@@ -53,5 +53,5 @@ As a stretch goal, our APIs for importing data into existing tables should also 
 - [Tutorial on using Pandas to read messy Excel files](https://pbpython.com/pandas-excel-range.html): *this is provided as an example of how messy Excel files can be, not as an implementation suggestion.*
 
 ## Mentors
-**Primary Mentor**: Dominykas Mostauskis
+**Primary Mentor**: Dominykas
 **Secondary Mentor(s)**: Anish
