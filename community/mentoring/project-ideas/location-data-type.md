@@ -2,7 +2,7 @@
 title: Location Data type
 description: Gsoc project idea 
 published: true
-date: 2023-02-06T18:32:49.578Z
+date: 2023-02-06T19:22:59.554Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T17:35:00.632Z
@@ -11,7 +11,7 @@ dateCreated: 2023-02-06T17:35:00.632Z
 
 ## Classification
 - **Difficulty**: High
-- **Skills needed**: SQLAlchemy, SQL, PostGIS
+- **Skills needed**: Python, SQLAlchemy, SQL, PostGIS
 - **Skills that could be helpful**: Django, Svelte, TypeScript
 - **Length**: Long (~350 hours)
 
