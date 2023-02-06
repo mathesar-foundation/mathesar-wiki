@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T15:35:29.795Z
+date: 2023-02-06T15:48:43.670Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -23,7 +23,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 4 | [UI for importing data into existing tables](./project-ideas/ui-import-data-existing-table) | Required: HTML, CSS, JavaScript, Svelte. <br/><br/> Good to have: TypeScript, UX design | Medium (~175 hours) or Long (~350 hours) depending on experience level | Medium | Pavish | Anish |
 | 5 | [Persist UI configuration](./project-ideas/persist-ui-configuration) | Required: Python, SQL, JavaScript. <br/><br/> Good to have: Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) | Medium | Dom | Pavish |
 | 6 | Location data type(s) |  |  |  | Mukesh | Pavish |
-| 7 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | ??? |
+| 7 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | Mukesh |
 | 8 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | ??? | Pavish |
 | 9 | [Make casting functions inlinable](https://wiki.mathesar.org/e/en/community/mentoring/project-ideas/make-casting-functions-inlinable) |  |  |  | Dom | Brent |
 | 10 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | Brent |
