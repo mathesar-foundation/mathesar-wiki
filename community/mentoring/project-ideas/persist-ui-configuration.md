@@ -2,7 +2,7 @@
 title: Persist UI configuration
 description: 
 published: true
-date: 2023-02-06T06:44:31.909Z
+date: 2023-02-06T06:54:29.578Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T06:42:46.408Z
@@ -10,8 +10,8 @@ dateCreated: 2023-02-06T06:42:46.408Z
 
 ## Classification
 - **Difficulty**: Medium
-- **Skills needed**: Python, SQL, JavaScript, Svelte
-- **Skills that could be helpful**: TypeScript, Django
+- **Skills needed**: Python, SQL, JavaScript
+- **Skills that could be helpful**: Django, SQLAlchemy, Svelte, TypeScript
 - **Length**: Medium (~175 hours)
 
 ## The Problem
