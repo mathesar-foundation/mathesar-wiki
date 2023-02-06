@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T18:38:40.028Z
+date: 2023-02-06T19:21:55.007Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -27,7 +27,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 8 | [Make casting functions inlinable](https://wiki.mathesar.org/e/en/community/mentoring/project-ideas/make-casting-functions-inlinable) | Python, PostgreSQL, SQLAlchemy | Long (~350 hours) | Medium | Dom | Brent |
 | 9 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) | JavaScript, frontend frameworks, Python, Django | Long (~350 hours) | High | Rajat | Brent |
 | 10 | [Database views](/en/community/mentoring/project-ideas/db-views) | Python, JavaScript, SQLAlchemy, Svelte.js, PostgreSQL | Long (~350 hours) | Medium | Brent | Rajat |
-| 11 | [API documentation](https://wiki.mathesar.org/en/community/mentoring/project-ideas/api-documentation) | Django | Medium (~175 hours) | Easy | Mukesh | Kriti |
+| 11 | [API documentation](https://wiki.mathesar.org/en/community/mentoring/project-ideas/api-documentation) | Python, Django | Medium (~175 hours) | Easy | Mukesh | Kriti |
 | 12 | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) | Python, SQLAlchemy, PostgreSQL, JavaScript, Svelte | Medium (~175 hours) | Easy | Brent | Sean |
 | 13 | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) | Python, SQL, Django, SQLAlchemy | Long (~350 hours) | Medium | Dom | Anish |
 | 14 | [Automatically suggest improvements to table normalization](/en/community/mentoring/project-ideas/auto-suggest-normalization) | PostgreSQL, Database theory, a bit of statistics | Long (~350 hours)  | High | Brent | Dom |
