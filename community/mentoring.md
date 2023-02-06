@@ -2,7 +2,7 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2023-02-06T20:17:08.114Z
+date: 2023-02-06T21:20:39.405Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
@@ -36,5 +36,6 @@ The Mathesar team has applied **Google Summer of Code (GSoC)** in 2023. Google w
 - [:notebook: Project Idea Template *Template to use when writing up project ideas*](/en/community/mentoring/project-idea-template)
 {.links-list}
 
-## History
+# History
+## GSoC 2022
 For outcomes from GSoC 2022, please see the [Project Reports](/en/engineering/reports) page.
