@@ -2,7 +2,7 @@
 title: API documentation
 description: Gsoc project idea
 published: true
-date: 2023-02-06T18:31:43.191Z
+date: 2023-02-06T19:22:32.626Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T18:31:43.191Z
@@ -11,7 +11,7 @@ dateCreated: 2023-02-06T18:31:43.191Z
 
 ## Classification
 - **Difficulty**: Easy
-- **Skills needed**: Django
+- **Skills needed**: Python, Django
 - **Length**: Medium (~175 hours)
 
 ## The Problem
