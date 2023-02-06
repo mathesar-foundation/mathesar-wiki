@@ -2,14 +2,14 @@
 title: List data type
 description: 
 published: true
-date: 2023-02-03T22:36:58.656Z
+date: 2023-02-06T16:33:50.522Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:53:57.798Z
 ---
 
 ## Classification
-- **Difficulty**: High
+- **Difficulty**: Medium
 - **Skills needed**: Python, SQL, Django
 - **Skills that could be helpful**: Django, SQLAlchemy, Svelte, TypeScript
 - **Length**: Long (~350 hours) for both frontend & backend, Medium (~175 hours) for backend only.
