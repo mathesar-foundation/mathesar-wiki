@@ -2,7 +2,7 @@
 title: Persist UI configuration
 description: 
 published: true
-date: 2023-02-06T12:50:51.543Z
+date: 2023-02-06T13:39:16.867Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T06:42:46.408Z
@@ -38,5 +38,5 @@ dateCreated: 2023-02-06T06:42:46.408Z
 * Demonstrate a good understanding of the Mathesar codebase.
 
 ## Mentors
-**Primary Mentor**: Dom
+**Primary Mentor**: Dominykas
 **Secondary Mentor(s)**: TBA
