@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T06:44:05.610Z
+date: 2023-02-06T08:07:49.070Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -27,7 +27,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 8 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | ??? | Pavish |
 | 9 | Make casting functions parallelizable |  |  |  | Dom | Brent |
 | 10 | [Kanban view](/en/community/mentoring/project-ideas/kanban-view) |  |  |  | Rajat | ??? |
-| 11 | [Database views](/en/community/mentoring/project-ideas/db-views) |  |  |  | Brent | ??? |
+| 11 | [Database views](/en/community/mentoring/project-ideas/db-views) |  |  |  | Brent | Rajat |
 | 12 | API documentation |  |  |  | Mukesh | Kriti |
 | 13 | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) |  |  |  | Brent | ??? |
 | 14 | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) |  |  |  | Dom | Anish |
