@@ -2,7 +2,7 @@
 title: Persist UI configuration
 description: 
 published: true
-date: 2023-02-06T13:39:16.867Z
+date: 2023-02-06T15:31:20.121Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T06:42:46.408Z
@@ -39,4 +39,4 @@ dateCreated: 2023-02-06T06:42:46.408Z
 
 ## Mentors
 **Primary Mentor**: Dominykas
-**Secondary Mentor(s)**: TBA
+**Secondary Mentor(s)**: Pavish Kumar Ramani Gopal
