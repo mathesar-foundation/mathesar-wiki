@@ -2,12 +2,11 @@
 title: Database Views
 description: Support for read-only database views.
 published: true
-date: 2023-02-06T05:41:26.115Z
+date: 2023-02-06T08:10:23.325Z
 tags: gsoc
 editor: markdown
 dateCreated: 2023-02-06T05:41:26.115Z
 ---
-
 
 ## Classification
 - **Difficulty**: Medium
@@ -73,4 +72,4 @@ Views should be integrated into the UI of Mathesar by the end of the project. In
 
 ## Mentors
 **Primary Mentor**: Brent Moran
-**Secondary Mentor(s)**: *TBD*
+**Secondary Mentor(s)**: Rajat Vijay
