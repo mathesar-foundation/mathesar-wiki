@@ -1,8 +1,8 @@
 ---
-title: Make casting functions parallelizable
-description: Use inlining of SQL functions to improve casting's resilience to high row counts
+title: Make casting functions inlinable
+description: Use inlining of SQL functions to improve casting's performance
 published: true
-date: 2023-02-06T13:36:00.141Z
+date: 2023-02-06T13:36:56.357Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T13:36:00.141Z
