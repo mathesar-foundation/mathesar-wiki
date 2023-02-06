@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T16:09:23.002Z
+date: 2023-02-06T16:20:15.724Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -17,8 +17,8 @@ These ideas are for **Google Summer of Code 2023**.
 
 | ID | Idea | Skills | Length | Difficulty | Primary mentor | Secondary mentor |
 |---|---|---|---|---|---|---|
-| 1 | [JSON editor](./project-ideas/json-editor.md) |  |  |  | Sean | Pavish |
-| 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) |  |  |  | Mukesh | Rajat |
+| 1 | [JSON editor](./project-ideas/json-editor.md) | HTML, CSS, TypeScript, JavaScript, Svelte, UX design | Could be Medium (~175 hours) or Long (~350 hours)  | Medium / High | Sean | Pavish |
+| 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) | Python, SQL, JavaScript, Django, SQLAlchemy, Svelte, TypeScript |  |  | Mukesh | Rajat |
 | 3 | [UI for importing data into existing tables](./project-ideas/ui-import-data-existing-table) | Required: HTML, CSS, JavaScript, Svelte. <br/><br/> Good to have: TypeScript, UX design | Medium (~175 hours) or Long (~350 hours) depending on experience level | Medium | Pavish | Anish |
 | 4 | [Persist UI configuration](./project-ideas/persist-ui-configuration) | Required: Python, SQL, JavaScript. <br/><br/> Good to have: Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) | Medium | Dom | Pavish |
 | 5 | Location data type(s) |  |  |  | Mukesh | Pavish |
