@@ -2,7 +2,7 @@
 title: Make casting functions inlinable
 description: Use inlining of SQL functions to improve casting's performance
 published: true
-date: 2023-02-06T13:36:56.357Z
+date: 2023-02-06T13:38:42.172Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T13:36:00.141Z
@@ -41,5 +41,5 @@ When importing a table from a CSV file, we attempt to give reasonable types to t
 - [1] [https://wiki.postgresql.org/wiki/Inlining_of_SQL_functions](https://wiki.postgresql.org/wiki/Inlining_of_SQL_functions)
 
 ## Mentors
-**Primary Mentor**: Dominykas Mostauskis
-**Secondary Mentor(s)**: Brent Moran
+**Primary Mentor**: Dominykas
+**Secondary Mentor(s)**: Brent
