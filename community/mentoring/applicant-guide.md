@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2022-10-13T17:29:32.271Z
+date: 2023-02-06T16:59:33.731Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -21,12 +21,7 @@ You'll need to understand Mathesar well in order to submit a successful applicat
 
 Mathesar is a new project and we're still working towards releasing our first version. The best ways to learn about us is to:
 - Install Mathesar locally, [following the instructions in our README](https://github.com/centerofci/mathesar).
-- Read about Mathesar on this wiki, especially:
-  - [About Mathesar](/en/product/about)
-  - [Concepts in Mathesar](/en/product/concepts)
-  - [Design Specs](/en/design/specs)
-- Look at [the Mathesar design prototype](https://mathesar-prototype.netlify.app/).
-- Contribute to an open issue - see our [contribution guidelines](/en/community/contributing).
+- Read about Mathesar on our [main website](https://mathesar.org).
 
 ## Step 3: Join Matrix
 Join [the "Mentoring Programs" Matrix channel](/en/community/matrix) as early as possible to introduce yourself and get feedback on your ideas. All our mentors are on Matrix. 
@@ -34,7 +29,7 @@ Join [the "Mentoring Programs" Matrix channel](/en/community/matrix) as early as
 Feel free to ask questions about project ideas, Mathesar, or anything else! It is better to post questions in the main channel rather than contacting mentors individually. 
 
 ## Step 4: Contribute to Open Issues
-You will need to make at least one contribution to Mathesar as part of the application process. Your contribution will give us more information about your work/skills and help us evaluate your application. It will also help you learn more about Mathesar and have more information to pick a project idea.
+You **need to make at least one contribution to Mathesar** as part of the application process. Your contribution will give us more information about your work/skills and help us evaluate your application. It will also help you learn more about Mathesar and have more information to pick a project idea.
 
 Please see our [Contribution Guidelines](/en/community/contributing) to learn more about how to contribute.
 
