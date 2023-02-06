@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T16:24:30.919Z
+date: 2023-02-06T16:25:46.898Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -17,10 +17,10 @@ These ideas are for **Google Summer of Code 2023**.
 
 | ID | Idea | Skills | Length | Difficulty | Primary mentor | Secondary mentor |
 |---|---|---|---|---|---|---|
-| 1 | [JSON editor](./project-ideas/json-editor.md) | HTML, CSS, TypeScript, JavaScript, Svelte, UX design | Could be Medium (~175 hours) or Long (~350 hours)  | Medium / High | Sean | Pavish |
-| 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) | **Necessary:** Python, SQL, JavaScript <br/><br/> **Bonus**: Django, SQLAlchemy, Svelte, TypeScript | Could be Medium (~175 hours) or Long (~350 hours) | Medium  | Mukesh | Rajat |
+| 1 | [JSON editor](./project-ideas/json-editor.md) | HTML, CSS, TypeScript, JavaScript, Svelte, UX design | Medium (~175 hours) or Long (~350 hours) depending on experience  | Medium / High | Sean | Pavish |
+| 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) | **Necessary:** Python, SQL, JavaScript <br/><br/> **Bonus**: Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) or Long (~350 hours) depending on experience | Medium  | Mukesh | Rajat |
 | 3 | [UI for importing data into existing tables](./project-ideas/ui-import-data-existing-table) | **Necessary:** HTML, CSS, JavaScript, Svelte. <br/><br/> **Bonus:** TypeScript, UX design | Medium (~175 hours) or Long (~350 hours) depending on experience level | Medium | Pavish | Anish |
-| 4 | [Persist UI configuration](./project-ideas/persist-ui-configuration) | Required: Python, SQL, JavaScript. <br/><br/> Good to have: Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) | Medium | Dom | Pavish |
+| 4 | [Persist UI configuration](./project-ideas/persist-ui-configuration) | **Necessary:** Python, SQL, JavaScript. <br/><br/> **Bonus:** Django, SQLAlchemy, Svelte, TypeScript | Medium (~175 hours) | Medium | Dom | Pavish |
 | 5 | Location data type(s) |  |  |  | Mukesh | Pavish |
 | 6 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | Mukesh |
 | 7 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | Brent | Pavish |
