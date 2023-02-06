@@ -2,12 +2,11 @@
 title: Add more summarization functions
 description: Extend the summariation function options in the Data Explorer
 published: true
-date: 2023-02-06T05:46:45.937Z
+date: 2023-02-06T16:22:06.142Z
 tags: gsoc
 editor: markdown
 dateCreated: 2023-02-06T05:46:45.937Z
 ---
-
 
 ## Classification
 - **Difficulty**: Low
@@ -56,4 +55,4 @@ We should have at least 3 (preferably more) new summarization functions in the D
 
 ## Mentors
 **Primary Mentor**: Brent Moran
-**Secondary Mentor(s)**: *TBD*
+**Secondary Mentor(s)**: Sean Colsen
