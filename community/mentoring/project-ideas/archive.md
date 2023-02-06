@@ -2,7 +2,7 @@
 title: Archived Project Ideas
 description: 
 published: true
-date: 2023-02-03T16:30:35.817Z
+date: 2023-02-06T16:10:43.764Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-25T16:24:13.333Z
@@ -26,3 +26,6 @@ dateCreated: 2023-01-25T16:24:13.333Z
 | [Support Importing Data into Existing Tables](/en/community/mentoring/project-ideas/import-data-into-existing-tables) | Python, Django, PostgreSQL | ~350 hours | Medium |
 | [Support More Data Import Sources](/en/community/mentoring/project-ideas/more-data-import-sources) | Python, Django, PostgreSQL | ~350 hours | Medium |
 | [Support Data Export](/en/community/mentoring/project-ideas/data-export) | Python, Django, PostgreSQL | ~175 hours | Medium |
+
+# Other
+- [Dark Mode](/en/community/mentoring/project-ideas/dark-mode) - written for GSoC 2023, scrapped for scope being too small.
