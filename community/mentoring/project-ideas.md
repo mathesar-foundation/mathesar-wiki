@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-02-06T08:07:49.070Z
+date: 2023-02-06T12:51:23.680Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z
@@ -21,7 +21,7 @@ These ideas are for **Google Summer of Code 2023**.
 | 2 | [Phone Number data type](/en/community/mentoring/project-ideas/phone-number-data-type) |  |  |  | ??? | Rajat |
 | 3 | [Dark mode](./project-ideas/dark-mode.md) |  |  |  | Sean | Pavish |
 | 4 | [UI for importing data into existing tables](./project-ideas/ui-import-data-existing-table) |  |  |  | Pavish | Anish |
-| 5 | [Persist UI configuration](./project-ideas/persist-ui-configuration) |  |  |  | ??? | ??? |
+| 5 | [Persist UI configuration](./project-ideas/persist-ui-configuration) |  |  |  | Dom | ??? |
 | 6 | Location data type(s) |  |  |  | Mukesh | ??? |
 | 7 | [Single select data type](/en/community/mentoring/project-ideas/single-select-data-type) |  |  |  | Pavish | ??? |
 | 8 | [List data type](/en/community/mentoring/project-ideas/list-data-type) |  |  |  | ??? | Pavish |
