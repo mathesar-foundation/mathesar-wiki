@@ -2,7 +2,7 @@
 title: Single Select "data type"
 description: 
 published: true
-date: 2023-02-06T15:39:49.096Z
+date: 2023-02-06T15:44:10.422Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:50:06.632Z
@@ -80,4 +80,4 @@ Other tools like Airtable, Baserow, and NocoDB have single select fields. Please
 
 ## Mentors
 **Primary Mentor**: Pavish
-**Secondary Mentor(s)**: TBD
+**Secondary Mentor(s)**: Mukesh
