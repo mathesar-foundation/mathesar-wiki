@@ -2,7 +2,7 @@
 title: Location Data type
 description: Gsoc project idea 
 published: true
-date: 2023-02-06T18:32:13.607Z
+date: 2023-02-06T18:32:49.578Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T17:35:00.632Z
@@ -17,7 +17,7 @@ dateCreated: 2023-02-06T17:35:00.632Z
 
 ## The Problem
 - The Mathesar UI allows users to configure the column types for their data, choosing between types like "Number", "Date", "Text", and so on. 
-We would like to provide a Spatial data type so that users can
+- We would like to provide a Spatial data type so that users can
   - Store Geometric values like a location coordinate, boundaries of an area etc
   - Process the spatial values like sorting based on nearest location coordinate, filtering for values within a certain boundary.
   - Visualize a spatial value 
