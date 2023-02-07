@@ -77,4 +77,4 @@ Users should be able able to create kanban boards on top of the tabular data. Th
 
 **Primary Mentor**: Rajat Vijay
 
-**Secondary Mentor(s)**: _TBD. PS - Need 1 person from BE_
+**Secondary Mentor(s)**: Brent Moran
