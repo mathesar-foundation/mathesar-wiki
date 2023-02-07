@@ -54,12 +54,15 @@ We highly recommend joining our [Matrix community](/en/community/matrix) and our
 
 1. **Open a PR.**
 
-    When you are ready for a core team member to review your changes, open a pull request (or mark your draft PR as ready for review). If you have already been corresponding with a core team member about the issue, then you may request a review from that person. Otherwise, you may leave your PR without any review requests and a core team member will assign someone to review it.
+    When you are ready for a core team member to review your changes, open a pull request (or mark your draft PR as ready for review) and add the label `status-review`. 
+    
+    If you have already been corresponding with a core team member about the issue, then you may request a review from that person. Otherwise, you may leave your PR without any review requests and a core team member will assign someone to review it.
 
 1. **Address critique from PR review.**
 
+    - Whenever the reviewer requests some changes on the PR, she will remove the label `status:review`, add `status:waiting`. She will also assign it back to the author of the PR. 
     - When making changes to address review critique, feel free to reply to threads within the PR (especially to point to specific commits which you think should address the critique), but do not click the "Resolve conversation" button on threads which other people have started.
-    - If you are ready for a subsequent round of review, comment on the PR requesting another review and tagging the original reviewer.
+    - If you are ready for a subsequent round of review, remove `status:waiting` label and add `status:review`. Assign it back to the reviewer and finally comment on the PR requesting another review tagging the original reviewer.
 
 ## Contributing PR reviews
 
