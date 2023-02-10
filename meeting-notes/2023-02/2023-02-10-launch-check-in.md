@@ -2,14 +2,14 @@
 title: 2023-02-10 launch check-in
 description: 
 published: true
-date: 2023-02-10T15:55:45.786Z
+date: 2023-02-10T17:21:07.843Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-10T15:55:45.786Z
 ---
 
 # General check in
-- **GH project** Kriti updated the GH project, made issues for things we need to do. GH proj should be primary source of truth.
+- **GH project**: Kriti updated the GH project, made issues for things we need to do. GH proj should be primary source of truth.
 - **Users/Perms:** Pavish has assigned out all the rest of the work. It's coming along nicely. Should be completed by the end of next week. No other back-end issues are blocking Users/Perms FE work now. Mukesh is on standby to fix backend issues if needed. We should do some manual QA testing after we're done.
 - **Installation**: Docker setup merged. Install script in draft PR form. We adjusted some tasks within GH during the meeting. We're focusing only on "Deployment type 1". Maybe Dom could work on other deployment types?
 - **Updates** Still working on Watchtower.
