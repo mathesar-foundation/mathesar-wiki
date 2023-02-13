@@ -2,7 +2,7 @@
 title: 2023-02-13 launch check-in
 description: 
 published: true
-date: 2023-02-13T15:52:28.556Z
+date: 2023-02-13T15:55:22.692Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-13T15:52:28.556Z
@@ -68,3 +68,13 @@ dateCreated: 2023-02-13T15:52:28.556Z
 ## Launch milestone updates
 - Kriti will make some issues for new things mentioned above
 - We'll kick out extra users & permissions and deployment types from launch nice-to-haves
+
+# Schema Sharing Modal Design
+**Attendees**: Pavish, Kriti, Rajat
+
+- The schema sharing modal design doesn't show people with DB access, should we show it?
+- Yes, it should be similar to how "Admin" is shown, but it should be "DB Manager", "DB Editor", "DB Viewer"
+- Users cannot edit DB roles.
+- Users can add schema roles for people who already have DB roles. This will just show as "Editor", "Manager", "Viewer".
+- Pavish may improvise some help text.
+- In general it's fine to improvise design work on this feature.
