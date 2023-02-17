@@ -2,7 +2,7 @@
 title: 2023-02-17 launch check in
 description: 
 published: true
-date: 2023-02-17T15:55:23.616Z
+date: 2023-02-17T15:56:27.332Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T15:55:23.616Z
@@ -108,8 +108,11 @@ dateCreated: 2023-02-17T15:55:23.616Z
 
 # Frontend analytics guidance
 - **Added by**: Mukesh
+- **Attendees**: Mukesh, Sean, Pavish, Kriti (partial)
 - **Summary**: Need input from frontend team to decide on architecture to implement custom events for demo server.
 
 ### Notes
 - Decided against implementing analytics in the backend because frontend has a lot of events that are not visible to backend.
 - Kriti: if this is going to be very complicated to implement, we can skip it for launch.
+
+*Further notes coming soon*
