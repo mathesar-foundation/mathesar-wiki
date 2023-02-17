@@ -2,7 +2,7 @@
 title: 2023-02-17 launch check in
 description: 
 published: true
-date: 2023-02-17T16:17:13.193Z
+date: 2023-02-17T16:17:49.974Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T15:55:23.616Z
@@ -121,6 +121,3 @@ dateCreated: 2023-02-17T15:55:23.616Z
 - This global function would send the events to our analytic platform only during the demo build and will be empty for other build types. Sean agrees with the suggested approach
 - Mukesh needs to figure out a way to avoid typescript complaining about the missing global function. 
 - It is better to use a wrapper function called `sendAnalytics` and call any analytics related code within that function, so that any logic related to analytics is encapsulated properly.
-
-
-*Further notes coming soon*
