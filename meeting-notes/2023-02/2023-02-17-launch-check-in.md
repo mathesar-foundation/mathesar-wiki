@@ -2,7 +2,7 @@
 title: 2023-02-17 launch check in
 description: 
 published: true
-date: 2023-02-17T16:16:55.403Z
+date: 2023-02-17T16:17:13.193Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T15:55:23.616Z
@@ -106,10 +106,8 @@ dateCreated: 2023-02-17T15:55:23.616Z
 - First testing release 0.0.1, second testing release: 0.0.2
 - First actual alpha release: 0.1.0
 
-# Frontend analytics guidance
-- **Added by**: Mukesh
 
-## Adding Analytic Events to the frontend
+# Adding Analytic Events to the frontend
 
 - **Added by**: Mukesh
 - **Attendees**: Mukesh, Sean, Pavish, Kriti (partial)
