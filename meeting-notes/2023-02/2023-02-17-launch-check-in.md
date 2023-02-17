@@ -2,7 +2,7 @@
 title: 2023-02-17 launch check in
 description: 
 published: true
-date: 2023-02-17T15:56:27.332Z
+date: 2023-02-17T16:16:55.403Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-17T15:55:23.616Z
@@ -108,11 +108,21 @@ dateCreated: 2023-02-17T15:55:23.616Z
 
 # Frontend analytics guidance
 - **Added by**: Mukesh
+
+## Adding Analytic Events to the frontend
+
+- **Added by**: Mukesh
 - **Attendees**: Mukesh, Sean, Pavish, Kriti (partial)
 - **Summary**: Need input from frontend team to decide on architecture to implement custom events for demo server.
 
 ### Notes
 - Decided against implementing analytics in the backend because frontend has a lot of events that are not visible to backend.
+- Analytics events are better captured on the frontend, as we have a better context of the user actions and can also capture events that don't make any backend API calls. 
 - Kriti: if this is going to be very complicated to implement, we can skip it for launch.
+- Pavish suggested using global function which would be called any time we want to track a custom event. 
+- This global function would send the events to our analytic platform only during the demo build and will be empty for other build types. Sean agrees with the suggested approach
+- Mukesh needs to figure out a way to avoid typescript complaining about the missing global function. 
+- It is better to use a wrapper function called `sendAnalytics` and call any analytics related code within that function, so that any logic related to analytics is encapsulated properly.
+
 
 *Further notes coming soon*
