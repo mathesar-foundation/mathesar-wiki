@@ -41,7 +41,7 @@ _(varies depending on context)_
 
 > `{mission}`
 >
-> As a non-profit project, Mathesar relies on donations to fund development. A small core team of paid engineers guide the direction of project and maintain its underlying architecture. Leveraging open source principles, the core team also amplifies its work by facilitating a broader community of volunteer contributors to help build the product.
+> As a non-profit project, Mathesar relies on philanthropic grants and individual donations to fund development. A small core team of paid engineers guide the direction of project and maintain its underlying architecture. Leveraging open source principles, the core team also amplifies its work by facilitating a broader community of volunteer contributors to help build the product.
 > 
 > Your sponsorship funds the core team, furthering the impact and sustainability of Mathesar.
 
