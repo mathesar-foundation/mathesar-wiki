@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2022-10-13T22:39:50.320Z
+date: 2023-02-24T17:05:29.792Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -17,7 +17,7 @@ For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Disc
 1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
 1. The "General" channel that you've just joined is for high-level discussion and announcements about the project. Most of our day to day discussion happens in other channels. Look through the list of rooms below and join the ones for topics you're interested.
 
-> **Note:** If you are here for GSoC, join our ["Mathesar - Mentoring Programs" Matrix channel](https://matrix.to/#/#mentoring:matrix.mathesar.org) and feel free to introduce yourself there.
+> **Note:** If you are here for GSoC, join our ["Mathesar - Mentoring Programs" Matrix channel](https://matrix.to/#/#mentoring:matrix.mathesar.org) and introduce yourself there instead of in the "General" channel.
 {.is-info}
 
 ## Chat rooms
