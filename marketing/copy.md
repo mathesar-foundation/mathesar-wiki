@@ -26,7 +26,7 @@ dateCreated: 2023-02-23T00:00:00.000Z
 
 > `{tagline_technical}`
 >
-> Features such as foreign keys, data types, and schemas directly reflect the behavior of Postgres, allowing users of all skill levels to collaboratively work with the same normalized relational data that other applications might use too. You can model your data, alter its structure, quickly enter data, and even generate reports. Self-hosting Mathesar, gives you control, ownership, and privacy of your data.
+> Features such as foreign keys, data types, and schemas directly reflect the behavior of Postgres, allowing users of all skill levels to collaboratively work with the same normalized relational data that other applications might use too. You can model your data, alter its structure, quickly enter data, and even generate reports. Self-hosting Mathesar gives you control, ownership, and privacy of your data.
 
 ### Non-technical
 
