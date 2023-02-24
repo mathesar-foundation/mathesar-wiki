@@ -2,7 +2,7 @@
 title: Product
 description: Pages related to the Mathesar product
 published: true
-date: 2022-01-24T22:47:50.742Z
+date: 2023-02-24T12:45:46.230Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-06T18:21:40.836Z
@@ -24,4 +24,5 @@ dateCreated: 2021-05-06T18:21:40.836Z
 - [:bulb: Feature ideas *Long and disorganized list of ideas for the product*](/product/feature-ideas)
 - [:link: Related Products *Products related to Mathesar*](/product/related)
 - [:books: Resources *Links to potentially interesting resources.*](/product/resources)
+- [:rocket: Release Process *Steps we follow when creating a release of Mathesar*](/product/release-process)
 {.links-list}
