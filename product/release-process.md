@@ -2,7 +2,7 @@
 title: Release Process
 description: Steps we follow when creating a release of Mathesar
 published: true
-date: 2023-02-27T21:27:42.867Z
+date: 2023-02-27T21:37:03.383Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-24T12:48:27.636Z
@@ -33,16 +33,18 @@ The release owner is in charge of carrying out the steps to create a release and
 - These should be written in Markdown outside of GitHub
 
 # Release process
-## 1. Create release Docker image
-*TBD*
+## 1. Create, tag, and push release Docker images
+- Clone a fresh version of the repo.
+- `cd` to repository, check out the commit that you've tagged.
+- Make sure you're logged into DockerHub (credentials are in 1Password)
+- Run the following commands:
+  - `docker buildx create --name container --driver=docker-container`
+  - `docker buildx build -t mathesar/mathesar-caddy:<version_number> -t mathesar/mathesar-caddy:latest --builder=container --platform=linux/amd64,linux/arm64 --push -f Dockerfile.caddy .`
+    - - Replace `<version_number>` with new version
+  - `docker buildx build -t mathesar/mathesar-prod:<version_number> -t mathesar/mathesar-prod:latest --builder=container --platform=linux/amd64,linux/arm64 --push . --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt`
+    - Replace `<version_number>` with new version
 
-## 2. Tag Docker image appropriately
-*TBD*
-
-## 3. Push Docker image
-*TBD*
-
-## Create release in GitHub
+## 2. Create release in GitHub
 1. Releases are made here: https://github.com/centerofci/mathesar/releases
 2. The release should be associated with the tag you made in the previous step and use the release notes.
 
