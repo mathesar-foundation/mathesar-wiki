@@ -2,7 +2,7 @@
 title: Release Process
 description: Steps we follow when creating a release of Mathesar
 published: true
-date: 2023-02-27T21:37:03.383Z
+date: 2023-02-27T21:39:17.541Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-24T12:48:27.636Z
@@ -17,6 +17,7 @@ The release owner is in charge of carrying out the steps to create a release and
 ## 2. Ensure product is release-ready
 - In a branch off `master`, update the version number in the repo in  `mathesar/__init__.py`
   - We use semantic versioning. The alpha release of Mathesar will be `0.1.0` and upcoming releases should be `0.1.x` where `x` is incremented.
+- Also update the version in `install.sh` if needed.
 - Run `install.sh` on the commit you've made and make sure everything works.
 - Do a quick smoke test on the product – ensure you can
   - log in
