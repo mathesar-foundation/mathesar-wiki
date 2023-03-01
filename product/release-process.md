@@ -2,7 +2,7 @@
 title: Release Process
 description: Steps we follow when creating a release of Mathesar
 published: true
-date: 2023-03-01T08:55:45.534Z
+date: 2023-03-01T08:58:58.959Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-24T12:48:27.636Z
@@ -46,8 +46,9 @@ The release owner is in charge of carrying out the steps to create a release and
   ```sh
   bash <(curl -sL https://raw.githubusercontent.com/centerofci/mathesar/0.0.3/install.sh)
   ```
-  Note that at this point, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
+  
 - Merge the branch to `master`
+  Note that after pushing the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
 
 ## 3. Create a tag
 - Tag the commit you've just merged with the version number of the release.
