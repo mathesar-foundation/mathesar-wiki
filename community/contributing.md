@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2023-01-27T21:43:20.343Z
+date: 2023-03-01T16:06:45.954Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -15,7 +15,7 @@ We highly recommend joining our [Matrix community](/en/community/matrix) and our
 
 ## Contributing code
 
-1. **Get Mathesar [running locally](https://github.com/centerofci/mathesar/blob/master/README.md#local-development).**
+1. **Get Mathesar [running locally](https://docs.mathesar.org/contributing/local-dev/).**
 
     Make sure to **do this before moving on**. If you need help, ask in [Matrix](/community/matrix.md), taking care to form *specific* questions that people can answer asynchronously.
 
