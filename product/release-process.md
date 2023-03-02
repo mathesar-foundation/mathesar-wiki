@@ -2,7 +2,7 @@
 title: Release Process
 description: Steps we follow when creating a release of Mathesar
 published: true
-date: 2023-03-01T15:18:02.561Z
+date: 2023-03-02T04:53:44.747Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-24T12:48:27.636Z
@@ -49,7 +49,7 @@ The release owner is in charge of carrying out the steps to create a release and
   
 - Merge the branch to `master`
 
-> Note that after pushing the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
+> Note that after merging the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
 {.is-warning}
 
 ## 3. Create a tag
