@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2022-10-13T17:43:49.955Z
+date: 2023-03-03T21:52:10.695Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -17,6 +17,7 @@ Welcome to the Mathesar community! We'd love to have you involved in our project
 The Mathesar team does most of our work in public communication channels, which also serve as the place we interact with our community. We also sometimes attend events.
 
 - [:speech_balloon: Matrix *Real-time chat*](/en/community/matrix)
+- [:speech_balloon: Discord *Alternate chat (limited rooms)*](/en/community/discord)
 - [:computer: GitHub *Code, issue tracking, and asynchronous discussions*](/en/community/github)
 - [:envelope: Mailing Lists *Email lists for users and developers*](/en/community/mailing-lists)
 - [:beers: Events *Events attended by the Mathesar team*](/en/community/events)
