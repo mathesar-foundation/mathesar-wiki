@@ -2,7 +2,7 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-02-03T22:29:10.214Z
+date: 2023-03-06T21:31:28.785Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z
@@ -55,5 +55,5 @@ We shouldn't implement any custom logic for validating phone numbers since phone
 - Airtable has a phone number column data type, feel free to play around with it.
 
 ## Mentors
-**Primary Mentor**: TBD
+**Primary Mentor**: Mukesh
 **Secondary Mentor(s)**: Rajat
