@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2023-03-02T17:28:24.134Z
+date: 2023-03-06T16:59:53.096Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -72,6 +72,7 @@ These channels assist the core team in our workflow.
 
 | Name | Address | Purpose |
 |-|-|-|
+| Mathesar - Internal | [`#internal:matrix.mathesar.org`](https://matrix.to/#/#internal:matrix.mathesar.org) | Used for conversations about day-to-day work. |
 | Mathesar - Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
 | Mathesar - Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
 | Mathesar - GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
