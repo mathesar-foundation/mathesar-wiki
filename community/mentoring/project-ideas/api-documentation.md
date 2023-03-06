@@ -2,7 +2,7 @@
 title: API documentation
 description: Gsoc project idea
 published: true
-date: 2023-02-06T19:22:32.626Z
+date: 2023-03-06T16:29:38.151Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T18:31:43.191Z
@@ -39,6 +39,7 @@ dateCreated: 2023-02-06T18:31:43.191Z
 - Present some preliminary research into available API formats
 
 ## Resources
+- [DRF's "Documenting Your API" page](https://www.django-rest-framework.org/topics/documenting-your-api/)
 - [Open API](https://spec.openapis.org/oas/v3.0.3) is one such format that fits with above requirements.
 - [DRF Spectacular](https://github.com/tfranzel/drf-spectacular) is a library for Django Rest framework to generate Open API spec
 
