@@ -2,16 +2,13 @@
 title: Removing SQLAlchemy meeting 2023-03-08
 description: 
 published: true
-date: 2023-03-08T15:48:16.207Z
+date: 2023-03-08T16:07:53.264Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-08T15:38:12.185Z
 ---
 
-# Removing SQLAlchemy meeting 2023-03-08
-
 Related to the "Removing SQLAlchemy" project, I think it would be good to get the back end team together to look at the 'big picture' w.r.t. performance and cleanliness in the back end of Mathesar. 
-
 
 ## Get buy-in on getting rid of SQLAlchemy
 
