@@ -2,7 +2,7 @@
 title: Removing SQLAlchemy meeting 2023-03-08
 description: 
 published: true
-date: 2023-03-08T15:38:12.185Z
+date: 2023-03-08T15:43:11.633Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-08T15:38:12.185Z
@@ -74,3 +74,4 @@ We should keep these improvements focused on the back end, and take as an assump
     - Maintaining a state can also be done without SQLAlchemy and we might end up needing it based on our alogorithms and usecases(for exmaple, compiling a summary templates). 
 - Maintaining a state has more impact on developer velocity than the performance and Trying to fix both the problems will be a big undertaking and might take a long time.
 - Suggestion: We can have a simple datastructure which would hold only the properties of database object and will contain functions that can abstract away the oid <-> name conversion logic as a replacement.
+- We need to come up with a alternate for the replacing SQLAlchemy. None of the querybuilders fit with our requirement based on Brent's research and Mukesh agreed with it.
