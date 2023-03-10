@@ -2,11 +2,14 @@
 title: Marketing Copy
 description: Text to use on sites which promote Mathesar
 published: true
-date: 2023-02-23T00:00:00.000Z
+date: 2023-03-10T17:09:02.041Z
 tags: 
 editor: markdown
-dateCreated: 2023-02-23T00:00:00.000Z
+dateCreated: 2023-03-10T17:03:27.625Z
 ---
+
+> This copy is still under discussion.
+{.is-danger}
 
 ## Tagline
 
