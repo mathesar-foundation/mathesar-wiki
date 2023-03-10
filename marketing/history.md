@@ -2,7 +2,7 @@
 title: Marketing History
 description: Links to past Mathesar publicity
 published: true
-date: 2023-03-10T20:31:04.804Z
+date: 2023-03-10T20:31:29.895Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:15:08.244Z
@@ -27,12 +27,12 @@ This is a list of links where Mathesar was featured. Only notable links or links
 
 ## Hacker News
 | Link | Poster | Date |
-| - | - |
+| - | - |-|
 | [Show HN: Mathesar – open-source collaborative UI for Postgres databases](https://news.ycombinator.com/item?id=34999774) | Kriti | 2023-03-02 |
 
 ## Discord
 | Server | Link | Poster | Date |
-| - | - |
+| - | - | - | - |
 | Svelte | [Post](https://discord.com/channels/457912077277855764/479653552869081089) | Sean | 2023-03-07 |
 
 # Newsletters & Blogs
