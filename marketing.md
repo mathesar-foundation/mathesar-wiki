@@ -2,11 +2,12 @@
 title: Marketing
 description: Resources and notes for Mathesar developers
 published: true
-date: 2023-02-23T00:00:00.000Z
+date: 2023-03-10T17:15:37.732Z
 tags: 
 editor: markdown
-dateCreated: 2023-02-23T00:00:00.000Z
+dateCreated: 2023-03-10T17:03:23.576Z
 ---
 
 - [Marketing Copy](./marketing/copy.md)
 - [Marketing Sites](./marketing/sites.md)
+- [Marketing History](./marketing/history.md)
