@@ -2,7 +2,7 @@
 title: Marketing History
 description: Links to past Mathesar publicity
 published: true
-date: 2023-03-10T20:26:40.027Z
+date: 2023-03-10T20:31:04.804Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:15:08.244Z
@@ -36,6 +36,11 @@ This is a list of links where Mathesar was featured. Only notable links or links
 | Svelte | [Post](https://discord.com/channels/457912077277855764/479653552869081089) | Sean | 2023-03-07 |
 
 # Newsletters & Blogs
+- [Changelog.com](https://changelog.com/news/mathesar-slaps-a-webbased-spreadsheet-ui-on-your-postgres-database-qMA2)
+- [Python Weekly, issue 591](https://mailchi.mp/pythonweekly/python-weekly-issue-591?e=cbb5a51454)
+- [Postgres Weekly #496](https://postgresweekly.com/issues/496), 2023-03-08
+- Console.dev, 2023-03-09
+
 
 # Launch Announcements
 - [CCI website blog](https://centerofci.org/introducing-mathesar-an-open-source-database-interface-for-everyone/)
