@@ -2,7 +2,7 @@
 title: Mentoring
 description: Mentoring opportunities at Mathesar
 published: true
-date: 2023-02-06T21:20:39.405Z
+date: 2023-03-10T20:50:26.444Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:23:06.554Z
@@ -10,7 +10,7 @@ dateCreated: 2022-01-18T19:23:06.554Z
 
 Welcome and thanks for your interest in contributing to Mathesar! 
 
-The Mathesar team has applied **Google Summer of Code (GSoC)** in 2023. Google will announce whether we have been accepted on Feb 22, 2023.
+We're participating in **Google Summer of Code (GSoC)** in 2023.
 
 # For Applicants
 
