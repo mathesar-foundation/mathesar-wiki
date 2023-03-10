@@ -2,18 +2,13 @@
 title: Marketing History
 description: Links to past Mathesar publicity
 published: true
-date: 2023-03-10T20:26:12.793Z
+date: 2023-03-10T20:26:40.027Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:15:08.244Z
 ---
 
-> Under construction.
-{.is-warning}
-
-This is a list of links where Mathesar was featured. Some of these are our work, some are organic.
-
-Only notable links or links that generated some discussion are featured here.
+This is a list of links where Mathesar was featured. Only notable links or links that generated some discussion are featured here.
 
 # Social media
 
