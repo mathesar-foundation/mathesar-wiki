@@ -2,7 +2,7 @@
 title: Release Process
 description: Steps we follow when creating a release of Mathesar
 published: true
-date: 2023-03-02T04:53:44.747Z
+date: 2023-03-10T20:35:36.147Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-24T12:48:27.636Z
