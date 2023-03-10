@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-02-06T20:45:28.696Z
+date: 2023-03-10T17:05:13.218Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -15,7 +15,9 @@ Mathesar is a straightforward open source tool that provides a **spreadsheet-lik
 You can use Mathesar to build **data models**, **enter data**, and even **build reports**. You host your own Mathesar installation, which gives you ownership, privacy, and control of your data.
 
 ## Current status
-Mathesar is a work in progress. We aim to release our alpha version in February 2023.
+Mathesar's is in public alpha as of March 2023. We are actively looking for users to test and help improve our product.
+
+Please see https://docs.mathesar.org/ for information on how to install Mathesar. Please open an issue on [our GitHub](https://github.com/centerofci/mathesar) for any issues you encounter.
 
 ## About the wiki
 The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please see our [main website](https://mathesar.org) for information about Mathesar aimed at general audiences.
