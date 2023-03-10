@@ -2,10 +2,10 @@
 title: Marketing Sites
 description: Sites that rely on our marketing copy in some form or another
 published: true
-date: 2023-02-23T00:00:00.000Z
+date: 2023-03-10T17:08:02.057Z
 tags: 
 editor: markdown
-dateCreated: 2023-02-23T00:00:00.000Z
+dateCreated: 2023-03-10T17:03:31.734Z
 ---
 
 - [Mathesar.org](https://mathesar.org/)
@@ -21,4 +21,7 @@ dateCreated: 2023-02-23T00:00:00.000Z
 - [OpenCollective](https://opencollective.com/mathesar)
 - [GSoC](https://summerofcode.withgoogle.com/programs/2023/organizations/mathesar)
 - [Twitter](https://twitter.com/mathesar_org)
-
+- [YouTube](https://www.youtube.com/@mathesar_org)
+- [DockerHub](https://hub.docker.com/repositories/mathesar)
+		- Each repository has a description and a README.
+- [Reddit](https://www.reddit.com/r/mathesar_org/)
