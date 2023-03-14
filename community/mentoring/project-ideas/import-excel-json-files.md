@@ -2,7 +2,7 @@
 title: Support importing Excel and JSON files
 description: 
 published: true
-date: 2023-02-06T13:38:23.772Z
+date: 2023-03-14T14:55:57.064Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:25:20.421Z
@@ -33,8 +33,8 @@ JSON and Excel files are more complex than CSV/TSV files. The primary architectu
 - Integrating the new file types into our our existing import process while preserving all our functionality.
 
 ## Tasks
-1. Determine what kinds of JSON files can and cannot be imported easily into a single table.
-1. Determine if other types of JSON files can be easily converted into a format that works.
+1. Determine what kinds of JSON data structures can and cannot be easily mapped to a single table.
+1. Determine if some other JSON data structures can be somehow adapted to map to a single table.
 1. Implement importing JSON files and integrate with current import APIs and UI.
 
 Repeat for Excel files.
