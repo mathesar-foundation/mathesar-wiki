@@ -2,7 +2,7 @@
 title: Applicant Guide
 description: 
 published: true
-date: 2023-03-10T15:43:42.698Z
+date: 2023-03-14T17:33:41.526Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:26:57.584Z
@@ -65,6 +65,9 @@ We suggest reading some articles on writing good Google Summer of Code proposals
 3. Submit it via this form for feedback: https://forms.gle/rZ5eYHwcKdbw2X4H6
 
 **Do not wait until the last minute to work on your application.** You should ideally get at least two rounds of feedback from the mentors before you submit your final application and each round of feedback could take a week or so.
+
+### Re-submitting after feedback
+Once you've received feedback from mentors and made changes to your proposal, you may want to re-submit it for another round of review. You can do that via the same form: https://forms.gle/rZ5eYHwcKdbw2X4H6
 
 ## Step 4: Submit your final application
 Once you've received feedback from your mentors and you're happy with your proposal, submit your final proposal via the Google Summer of Code website.
