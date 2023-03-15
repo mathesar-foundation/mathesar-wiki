@@ -28,7 +28,7 @@ Code related to this can be find inside: `src/utils/preload.ts`.
 
 Our codebase uses two main svelte features in combination for managing the frontend state namely [stores](https://svelte.dev/tutorial/writable-stores) and the [context api](https://svelte.dev/tutorial/context-api)
 
-!!! note - Before moving on to the next part please make sure to familiarise yourself with svelte stores and the context API.
+> **Note:** Before moving on to the next part please make sure to familiarise yourself with svelte stores and the context API.
 
 There are two main patterns used for creating stores
 
