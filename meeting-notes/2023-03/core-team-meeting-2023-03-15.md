@@ -2,27 +2,25 @@
 title: Core team meeting 2023-03-15
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-03-15T18:24:42.845Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T16:30:56.637Z
 ---
 
 **Date**: 2023-03-13
 **Attendees**: All core team members + Anish
 
 
-## bigger-picture plan for Mathesar
-
+## Bigger-picture plan for Mathesar
 General plan: 
-
 - Things are still in flux
 - Figuring out how to grow the project
 - Figuring out what our structure should be
 - Trying to get to a small core of users that really like us over competition
 - Brent:
     - What's the nature of intended (hopeful) user base?
-        - Smithsonian?
+        - Big institutions e.g. Smithsonian?
         - Bunches of home users
         - SaaS
 - Kriti:
@@ -84,7 +82,6 @@ General plan:
     - Wants to make sure we're still innovating; need to leave space for our own imagination, not always chasing user feedback.
 
 ## Selecting projects
-
 - Sean wants to get rid of some rows in projects table
     - Releases
     - Understand Mathesar Users    
