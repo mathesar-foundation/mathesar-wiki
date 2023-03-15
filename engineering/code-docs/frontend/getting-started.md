@@ -105,37 +105,40 @@ One of the most complex store built on the principles of mutable class pattern i
 
 ```
 mathesar-ui
-	src
-	Entry point for all of the application frontend code
+├── src
+		Entry point for the application frontend code
 
-		api
-		Contains all the api calls.
+    ├── 3rd-party-apis
+		Contains all 3rd party api calls
 
-		component-library
-		Custom component library for primitive reusable components. Can be later open-sourced to be used in other applications too.
+    ├── api
+    Contains all the api calls.
 
-		components
-		Mathesar-specific reusable components. These components are being used inside multiple pages.
+		├── component-library
+    Custom component library for primitive reusable components. Can be later open-sourced to be used in other applications too.
 
-		icons
-		All application-specific icons.
+		├── components
+    Mathesar-specific reusable components. These components are being used inside multiple pages.
 
-		layouts
-		Contains layout components.
+		├── icons
+    All application specific icons.
 
-		pages
-		Contains all the components for a particular page that are not being used anywhere else.
+		├── layouts
+    Contains all the components that describe a particular layout.
 
-		routes
-		Contains the root component for all of the routes.
+		├── pages
+    Contains all the components for a particular page that are not being used anywhere else.
 
-		stores
-		Contains all the stores.
+		├── routes
+    Contains the root component for all of the routes.
 
-		systems
-		*??*
+		├── stores
+    Contains all the stores.
 
-		utils
+		├── systems
+    *??*
+
+		└── utils
 		Contains all of the utilities divided into different concerns.
 ```
 
