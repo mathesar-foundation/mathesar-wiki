@@ -26,12 +26,12 @@ The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please 
 > If you're a GSoC aspirant, go to our [Mentoring](/en/community/mentoring) page.
 {.is-info}
 
-- [:busts_in_silhouette: Join our Community *How to participate in our community forums*](/community)
-- [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](/community/contributing)
+- [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
+- [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](./community/contributing.md)
 - [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
-- [:bulb: Product *Documentation about the high level ideas behind Mathesar*](/product)
-- [:art: Design *Documentation about Mathesar's visual design and UI*](/design)
-- [:desktop_computer: Engineering *Documentation about Mathesar's code*](/engineering)
-- [:loudspeaker: Marketing *Material for promoting Mathesar*](/marketing)
-- [:memo: Meeting Notes *Mathesar team meeting notes*](/meeting-notes)
+- [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)
+- [:art: Design *Documentation about Mathesar's visual design and UI*](./design.md)
+- [:desktop_computer: Engineering *Documentation about Mathesar's code*](./engineering.md)
+- [:loudspeaker: Marketing *Material for promoting Mathesar*](./marketing.md)
+- [:memo: Meeting Notes *Mathesar team meeting notes*](./meeting-notes.md)
 {.links-list}
