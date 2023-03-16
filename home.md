@@ -29,7 +29,7 @@ The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please 
 - [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
 - [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](./community/contributing.md)
 - [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
-- [:trophy: Team responsibilities *Who is doing what*](./responsibilities.md)
+- [:trophy: Projects](./projects.md)
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)
 - [:art: Design *Documentation about Mathesar's visual design and UI*](./design.md)
 - [:desktop_computer: Engineering *Documentation about Mathesar's code*](./engineering.md)
