@@ -2,7 +2,7 @@
 title: Responsibilities
 description: 
 published: true
-date: 2023-03-16T17:39:48.623Z
+date: 2023-03-16T17:44:16.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:04.526Z
@@ -23,7 +23,7 @@ dateCreated: 2023-03-15T20:53:04.526Z
 | 🏆 [Improve install][3]   | ❕    | ❕    | ❕   | ❕        | ❕    | ✅    | ♟️     | ❕    | ❕   |
 | 🏆 [Remove SQLAlchemy][4] | ♟️     | ✅    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ❕   |
 | 🏆 [Localization][5]      | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ❕   |
-| 🏆 [Feedback kickoff][6]  | ❕    | ❕    | ❕   | ✅        | ❕    | ❕    | ❕     | ❕    | ❕   |
+| 🏆 [Feedback kickoff][6]  | ❕    | ❕    | ❕   | ✅        | ❕    | ❕    | ❕     | ♟️    | ❕   |
 | 🏆 [Frontend perf][7]     | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ♟️   |
 | 🏆 [File data types][8]   | ❕    | ❕    | ❕   | ♟️        | ❕    | ♟️    | ❕     | ❕    | ✅   |
 
