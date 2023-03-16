@@ -2,7 +2,7 @@
 title: Responsibilities
 description: 
 published: true
-date: 2023-03-15T22:16:24.124Z
+date: 2023-03-16T11:14:15.534Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:04.526Z
@@ -16,16 +16,16 @@ dateCreated: 2023-03-15T20:53:04.526Z
 | ♻️ Repo admin             | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ❕   |
 | ♻️ Release management     | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ❕   |
 | ♻️ User feedback          | ❕    | ♟️    | ❕   | ✅        | ❕    | ❕    | ❕     | ❕    | ❕   |
-| ♻️ Marketing              | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ❕     | ✅    | ♟️   |
+| ♻️ Marketing              | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ♟️   |
 | ♻️ Assisting installs     | ❕    | ♟️    | ❕   | ❕        | ❕    | ✅    | ❕     | ❕    | ❕   |
 | 🏆 [Funding][1]           | ❕    | ❕    | ❕   | ❕        | ✅    | ❕    | ❕     | ❕    | ♟️   |
 | 🏆 [GSoC admin][2]        | ❕    | ❕    | ✅   | ❕        | ❕    | ❕    | ❕     | ❕    | ❕   |
 | 🏆 [Improve install][3]   | ❕    | ❕    | ❕   | ❕        | ❕    | ✅    | ♟️     | ❕    | ❕   |
 | 🏆 [Remove SQLAlchemy][4] | ❕    | ✅    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ❕   |
-| 🏆 [Localization][5]      | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ❕     | ✅    | ❕   |
+| 🏆 [Localization][5]      | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ❕   |
 | 🏆 [Feedback kickoff][6]  | ❕    | ❕    | ❕   | ✅        | ❕    | ❕    | ❕     | ❕    | ❕   |
 | 🏆 [Frontend perf][7]     | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ♟️   |
-| 🏆 [File data types][8]   | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ✅   |
+| 🏆 [File data types][8]   | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ❕    | ✅   |
 
 [1]: ./projects/funding.md
 [2]: ./projects/gsoc-2023-admin.md
