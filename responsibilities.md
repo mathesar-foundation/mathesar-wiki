@@ -2,7 +2,7 @@
 title: Responsibilities
 description: 
 published: true
-date: 2023-03-16T14:56:18.223Z
+date: 2023-03-16T15:22:02.714Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:04.526Z
@@ -15,7 +15,7 @@ dateCreated: 2023-03-15T20:53:04.526Z
 | ♻️ Team management        | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ✅   |
 | ♻️ Repo admin             | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ❕   |
 | ♻️ Release management     | ❕    | ❕    | ❕   | ❕        | ❕    | ♟️    | ✅     | ❕    | ❕   |
-| ♻️ User feedback          | ❕    | ♟️    | ❕   | ✅        | ❕    | ❕    | ❕     | ❕    | ❕   |
+| ♻️ User feedback          | ❕    | ♟️    | ❕   | ✅        | ❕    | ❕    | ♟️     | ❕    | ❕   |
 | ♻️ Marketing              | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ♟️   |
 | ♻️ Assisting installs     | ❕    | ♟️    | ❕   | ❕        | ❕    | ✅    | ❕     | ❕    | ❕   |
 | 🏆 [Funding][1]           | ❕    | ❕    | ❕   | ❕        | ✅    | ♟️    | ❕     | ❕    | ♟️   |
