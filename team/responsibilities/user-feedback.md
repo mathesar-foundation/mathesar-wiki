@@ -2,7 +2,7 @@
 title: User feedback
 description: 
 published: true
-date: 2023-03-17T11:16:09.003Z
+date: 2023-03-17T13:19:51.750Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:45.333Z
@@ -26,6 +26,9 @@ Flag issues opened by users seeking help that might prevent them from fully bene
 
 #### From Social Channels (Hacker News, Reddit, Twitter, etc.)
 Track instances where users express dissatisfaction, satisfaction, or interest in using Mathesar across various social channels.
+
+#### From Mathesar Team Channels (Matrix, Discord, Mailing Lists etc.)
+Ensure to mention the project owner when user feedback arises in discussions within official team channels.
 
 ### Assistance During Feedback Calls
 
