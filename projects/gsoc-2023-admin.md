@@ -2,10 +2,10 @@
 title: GSoC 2023 Admin Project
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-03-17T17:06:43.088Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T20:52:43.321Z
 ---
 
 - **Roles**:
@@ -21,7 +21,11 @@ dateCreated: 2023-03-15T00:00:00.000Z
 - **Themes**: TODO
 - **Wiki pages**: TODO
 
-## How-to
+## Calendar
+
+We use [a public calendar](https://calendar.google.com/calendar/u/1?cid=Y181YTc3OWRlOGY5ZTA1NGE2NDVjMTE5MjYzMDJjMTIyMmU0ZDgxYWE4NWMxMjZjODRlYjIzZWYwNTZkOWI5NDA4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) to track deadlines and related tasks.
+
+## Responsibilities
 
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
