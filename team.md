@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2023-03-16T23:17:38.771Z
+date: 2023-03-17T02:40:42.452Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -16,4 +16,4 @@ Mathesar team members belong either to the **core team** or the **community team
 {.links-list}
 
 ## Joining the Team
-We welcome new members of the community team! If you've contributed to Mathesar and are interested in joining, please let us know.
+For now, joining the team is invite-only.
