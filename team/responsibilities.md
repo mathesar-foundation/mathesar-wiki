@@ -17,12 +17,12 @@ dateCreated: 2023-03-16T23:16:19.560Z
 
 |                         | Anish | Brent | Dom  | Ghislaine | Kriti | Mukesh | Pavish | Rajat | Sean |
 | --                      | :--:  | :--:  | :--: | :--:      |  :--: | :--:   | :--:   | :--:  | :--: |
-| [Team management][1]    | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ✅   |
-| [Repo admin][2]         | ♟️    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ❕   |
+| [Team management][1]    | ❕    | ❕    | ❕   | ❕        | ♟️    | ❕    | ❕     | ❕    | ✅   |
+| [Repo admin][2]         | ♟️    | ❕    | ❕   | ❕        | ❕    | ❕    | ♟️     | ✅    | ❕   |
 | [Release management][3] | ❕    | ❕    | ❕   | ❕        | ❕    | ♟️    | ✅     | ❕    | ❕   |
-| [User feedback][4]      | ❕    | ♟️    | ❕   | ✅        | ❕    | ❕    | ♟️     | ❕    | ❕   |
-| [Marketing][5]          | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ♟️   |
-| [Installation help][6]  | ❕    | ♟️    | ❕   | ❕        | ❕    | ✅    | ❕     | ❕    | ❕   |
+| [User feedback][4]      | ❕    | ♟️    | ❕   | ✅        | ♟️    | ❕    | ♟️     | ❕    | ❕   |
+| [Marketing][5]          | ❕    | ❕    | ❕   | ♟️        | ✅    | ❕    | ❕     | ♟️    | ♟️   |
+| [Installation help][6]  | ❕    | ♟️    | ❕   | ❕        | ❕    | ✅    | ♟️     | ❕    | ❕   |
 
 **See the [Projects](/projects.md) page for time-limited responsibilities.**
 
