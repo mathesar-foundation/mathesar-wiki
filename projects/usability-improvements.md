@@ -1,5 +1,5 @@
 ---
-title: File Data Types Project
+title: Usability Improvements
 description: 
 published: true
 date: 2023-03-15T00:00:00.000Z
@@ -8,6 +8,9 @@ editor: markdown
 dateCreated: 2023-03-15T00:00:00.000Z
 ---
 
+- **Roles**: Sean
+    - **Owner**: Ghislaine, Pavish
+    - **Helpers**: 
 - **Status**: Draft
 - **Problem**: TODO
 - **Outcome**: TODO

@@ -17,33 +17,14 @@ dateCreated: 2023-03-15T00:00:00.000Z
 
 ## Current projects
 
-|                                  | Anish | Brent | Dom  | Ghislaine | Kriti | Mukesh | Pavish | Rajat | Sean |
-| --                               | :--:  | :--:  | :--: | :--:      |  :--: | :--:   | :--:   | :--:  | :--: |
-| [Funding][1]                     | ❕    | ❕    | ❕   | ❕        | ✅    | ❕    | ❕     | ❕    | ♟️   |
-| [GSoC 2023 admin][2]             | ♟️    | ❕    | ✅   | ❕        | ❕    | ❕    | ❕     | ♟️    | ❕   |
-| [Installation improvements][3]   | ❕    | ❕    | ❕   | ❕        | ❕    | ✅    | ♟️     | ❕    | ❕   |
-| [Removing SQLAlchemy][4]         | ♟️    | ✅    | ❕   | ❕        | ❕    | ❕    | ❕     | ❕    | ❕   |
-| [Localization][5]                | ❕    | ❕    | ❕   | ♟️        | ❕    | ❕    | ❕     | ✅    | ❕   |
-| [Feedback kickoff][6]            | ❕    | ❕    | ❕   | ✅        | ❕    | ❕    | ❕     | ♟️    | ❕   |
-| [Frontend tables performance][7] | ❕    | ❕    | ❕   | ❕        | ❕    | ❕    | ✅     | ❕    | ♟️   |
-| [File data types][8]             | ❕    | ❕    | ❕   | ♟️        | ❕    | ♟️    | ❕     | ❕    | ✅   |
-
-**See the [Ongoing Responsibilities](/team/responsibilities.md) page for more assignments.**
-
-[1]: ./projects/funding.md
-[2]: ./projects/gsoc-2023-admin.md
-[3]: ./projects/installation-improvements.md
-[4]: ./projects/removing-sqlalchemy.md
-[5]: ./projects/localization.md
-[6]: ./projects/user-feedback-kickoff.md
-[7]: ./projects/frontend-tables-performance.md
-[8]: ./projects/file-data-types.md
-
-Roles
-
-- ✅ = Leader
-- ♟️ = Helper 
-- ❕ = Not involved *(having an emoji spacer helps the columns line up when editing)*
+- [Funding](./projects/funding.md)
+- [GSoC 2023 admin](./projects/gsoc-2023-admin.md)
+- [Installation improvements](./projects/installation-improvements.md)
+- [Removing SQLAlchemy](./projects/removing-sqlalchemy.md)
+- [Localization](./projects/localization.md)
+- [Feedback kickoff](./projects/user-feedback-kickoff.md)
+- [Frontend tables performance](./projects/frontend-tables-performance.md)
+- [Usability Improvements](./projects/usability-improvements.md)
 
 ## Future project ideas
 
@@ -58,6 +39,9 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 Use this template when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
 
 ```md
+- **Roles**:
+    - **Owner**: One person responsible for the project
+    - **Helpers**: Other people that assist. Elaborate on each person's role as needed.
 - **Status**: "Draft", "In Review", "Approved", "In Progress", "Complete"
 - **Problem**: The problem solved by this project.
 - **Outcome**: The expected outcome of this project.
