@@ -2,11 +2,16 @@
 title: Ongoing responsibilities
 description: 
 published: true
-date: 2023-03-16T17:52:57.454Z
+date: 2023-03-17T02:54:42.316Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T20:53:04.526Z
+dateCreated: 2023-03-16T23:16:19.560Z
 ---
+
+## About
+- These are ongoing tasks involved in maintaining Mathesar.
+- Leaders are accountable for the work associated with each responsibility. They also coordinate with helpers as needed.
+- Ongoing responsibilities should not be the majority of anyone's work. Most work should be specced out into time-limited [projects](/en/projects).
 
 ## Assignments
 
