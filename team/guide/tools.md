@@ -2,7 +2,7 @@
 title: Tools
 description: Collaboration tools used by the team
 published: true
-date: 2022-07-19T20:44:36.624Z
+date: 2023-03-17T02:45:36.399Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-04T12:29:56.320Z
@@ -36,6 +36,8 @@ We use Figma and FigJam to create, share, and comment on design and brainstormin
 ## Balsamiq Cloud
 We use Balsamiq Cloud to create and share low-fidelity wireframes.
 
+*We've suspended this for now.*
+
 ## Google Drive
 We have a `Mathesar` Google Drive where we put documents. We don't use this a lot since most of our documents are public.
 
@@ -60,8 +62,8 @@ Access is controlled via Google Groups.
 ## 1Password
 We currently use CCI's 1Password account to share Mathesar-related passwords (e.g. staging server auth, credentials for our GitHub bot account, etc.)
 
-## Calendly
-We use Calendly to schedule meetings with third-parties (e.g. interviews). Not everyone has a Calendly account, we set them up as needed.
+## SavvyCal
+We use SavvyCal to schedule meetings with third-parties (e.g. interviews). Not everyone has a SavvyCal account, we set them up as needed.
 
 ## Google Calendar
 We use Google Calendar to manage our calendars. 
@@ -71,3 +73,9 @@ It is expected that you keep your calendar up to date so that people can schedul
 We have two shared calendars:
 - The `Mathesar` calendar is used for shared Mathesar-related events.
 - The `CCI Vacation` calendar is used to note when you'll be taking time off. Please update it in advance.
+
+## Syften
+We use Syften to get email alerts of mentions of Mathesar and related topics on social media, forums, and blogs. 
+
+# Related
+- [Marketing sites](/en/marketing/sites).
