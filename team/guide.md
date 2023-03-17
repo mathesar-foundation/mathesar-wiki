@@ -2,7 +2,7 @@
 title: Mathesar Team Guide
 description: A guide to processes, workflows, etc. relevant to Mathesar team members
 published: true
-date: 2023-03-17T02:38:44.229Z
+date: 2023-03-17T02:41:11.597Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T17:39:14.627Z
@@ -18,7 +18,6 @@ These pages relate to Mathesar's development.
 - [:handshake: Meetings *How we should approach meetings*](/team/guide/meetings)
 - [:art: Design Review *Guidelines for reviewing new designs*](/design/process/review-guidelines)
 - [:desktop_computer: Code Review *Guidelines for reviewing new code*](/engineering/code-review)
-- [:speech_balloon: Weekly Discussion *About the weekly planning discussions*](/team/guide/weekly-discussion)
 {.links-list}
 
 ## Community Management
