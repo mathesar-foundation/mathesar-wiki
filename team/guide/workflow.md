@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2022-12-06T20:54:19.098Z
+date: 2023-03-17T02:42:22.005Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z
@@ -14,7 +14,7 @@ Mathesar work happens on GitHub. We create GitHub issues to track everything we'
 
 We track our tasks in the [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1).
 
-We work in 4-6 week cycles. Each cycle is focused on a specific goal, and progress is tracked via a table on the Mathesar staging server.
+We're reorganizing our team workflow into [projects](/en/projects) and [ongoing responsibilities](/en/team/responsibilities).
 
 ## Creating pull requests
 
