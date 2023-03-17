@@ -2,11 +2,14 @@
 title: Comms Assignee
 description: About the Comms Assignee and their duties
 published: true
-date: 2021-12-19T23:02:37.106Z
+date: 2023-03-17T02:37:53.681Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:49:14.482Z
 ---
+
+> This page is archived and does not reflect current team workflow.
+{.is-danger}
 
 Every week, one person from the Mathesar [core team](/team) is assigned to be the "Comms Assignee". This means that they are in charge of communication with the community for that week.
 
