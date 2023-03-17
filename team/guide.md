@@ -2,7 +2,7 @@
 title: Mathesar Team Guide
 description: A guide to processes, workflows, etc. relevant to Mathesar team members
 published: true
-date: 2022-12-06T21:32:28.820Z
+date: 2023-03-17T02:38:44.229Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T17:39:14.627Z
@@ -27,7 +27,6 @@ These pages relate to managing the community of contributors around the project,
 
 - [:balance_scale: Issue Triage *How to triage incoming issues, including ones you make yourself*](/team/guide/issue-triage)
 - [:man_in_tuxedo: Issue Assignment *How to assign issues to interested contributors or yourself*](/team/guide/issue-assignment)
-- [:microphone: Comms Assignee *The Comms Assignee process and attached duties*](/team/guide/comms-assignee)
 {.links-list}
 
 ## Other
