@@ -2,7 +2,7 @@
 title: Installation Improvements Meeting
 description: 
 published: true
-date: 2023-03-17T16:45:08.520Z
+date: 2023-03-17T19:30:29.870Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-17T16:43:57.054Z
@@ -64,10 +64,14 @@ We need to split "installation improvements" into smaller projects:
     - Static files
     - SSL certificate
 
-### Selected ideas and prioritization
+## Selected ideas and prioritization
+*We ran out of time. Mukesh will follow up on using the new projects framework to create and prioritize installation related projects. Once he's done with the write up, we will review.*
+
 1. Document how to run current docker image without docker compose
     a. Document configuration of this setup
 
+## Assisting installs
+- Brent will be taking the lead for now and keeping Mukesh informed.
 
 ## Inspiration
 - https://docs.nocodb.com/getting-started/installation/
@@ -75,6 +79,7 @@ We need to split "installation improvements" into smaller projects:
 - https://matrix-org.github.io/synapse/latest/setup/installation.html
 
 ## Mukesh's email
+*Sent to the core team list prior to the meeting.*
 
 During our Alpha release, we managed to release a one-line bash command for setting up Mathesar. But the installation process is opinionated and cannot be easily configured which is what the users expect based on the feedback we received from various sources.
 
@@ -106,3 +111,4 @@ Here is what is done to fix the above problems
 - Kriti mentioned that she has a lot of thoughts on improving our installation process, so Brent, Kriti, Mukesh, and Pavish will be having a meeting today to get a brain dump from Kriti.
 - I will be creating a list of issues based on the discussion from the meeting and update this email thread with the next set of actions items after the meeting
 - I will be coordinating with Marius de Beer who is currently writing documentation for "Installing Mathesar on various Linux Distro with/without Docker" to make sure the documentation and improvements to the installation process are in sync. 
+
