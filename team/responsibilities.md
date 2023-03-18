@@ -2,7 +2,7 @@
 title: Ongoing responsibilities
 description: 
 published: true
-date: 2023-03-17T02:54:42.316Z
+date: 2023-03-18T15:44:34.881Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:19.560Z
@@ -10,7 +10,7 @@ dateCreated: 2023-03-16T23:16:19.560Z
 
 ## About
 - These are ongoing tasks involved in maintaining Mathesar.
-- Leaders are accountable for the work associated with each responsibility. They also coordinate with helpers as needed.
+- Owners are accountable for the work associated with each responsibility. They also coordinate with helpers as needed.
 - Ongoing responsibilities should not be the majority of anyone's work. Most work should be specced out into time-limited [projects](/en/projects).
 
 ## Assignments
@@ -35,7 +35,7 @@ dateCreated: 2023-03-16T23:16:19.560Z
 
 Roles
 
-- ✅ = Leader
+- ✅ = Owner
 - ♟️ = Helper 
 - ❕ = Not involved *(having an emoji spacer helps the columns line up when editing)*
 
