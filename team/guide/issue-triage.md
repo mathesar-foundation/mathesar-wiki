@@ -2,7 +2,7 @@
 title: Issue Triage
 description: Guidelines for triaging new issues
 published: true
-date: 2022-09-19T14:55:46.227Z
+date: 2023-03-20T15:19:58.234Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T15:44:09.044Z
@@ -13,7 +13,7 @@ Triaging an issue means setting all the appropriate fields on it.
 ## Responsibility
 
 - Everyone creating issues should do their best to triage them at creation time.
-- [Team](/team) members also [rotate](/team/guide/comms-assignee) responsibility for catching issues that were not triaged during creation.
+- Team members who work on the [repo admin](/en/team/responsibilities/repo-admin) responsibility should catch issues opened by non-team members or were not properly triaged during creation.
 
 ## How to triage one issue
 
