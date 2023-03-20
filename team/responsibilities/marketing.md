@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-03-20T16:59:37.576Z
+date: 2023-03-20T17:01:19.852Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -17,11 +17,15 @@ dateCreated: 2023-03-16T23:16:28.309Z
 | **Website helpers** | Ghislaine, Sean |
 | **Aggregation helpers** | Rajat, Ghislaine |
 
-# Tasks
+# Guide
+This section serves as a handbook for people working on these responsibilities.
+
 ## All members
 Everyone should be on the `marketing@mathesar.org` mailing list.
 
 This list receives the “firehose” of Syften notifications, including all mentions of competitors and people looking for “spreadsheet-like” solutions.
+
+Analytics and Twitter credentials are in 1Password.
 
 ## Owner
 - Make progress on our [Mathesar launch publicity checklist](https://github.com/centerofci/mathesar-website/issues/78), delegate tasks as needed.
