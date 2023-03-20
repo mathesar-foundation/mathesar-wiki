@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-03-20T16:57:30.503Z
+date: 2023-03-20T16:59:37.576Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -59,7 +59,7 @@ This list receives the “firehose” of Syften notifications, including all men
 - Implement changes to the website as requested by the owner.
 
 ## Aggregation helpers
-- Add Mathesar to aggregators (tracked [in this issue](https://github.com/centerofci/mathesar-website/issues/84).
+- Add Mathesar to aggregators (tracked [in this issue](https://github.com/centerofci/mathesar-website/issues/84)).
   - Feel free to ask the owner to review any copy written for this.
 - Do research on more relevant aggregators that Mathesar could be added to and add them to the issue.
 
