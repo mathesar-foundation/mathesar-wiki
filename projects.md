@@ -2,10 +2,10 @@
 title: Projects
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-03-21T16:09:21.881Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T20:52:26.598Z
 ---
 
 ## How we use projects
@@ -41,7 +41,8 @@ Use this template when creating a new project page, filling in data as needed. Y
 ```md
 - **Roles**:
     - **Owner**: One person responsible for the project
-    - **Helpers**: Other people that assist. Elaborate on each person's role as needed.
+    - **Approver(s)**: People responsible for approving various parts of the project. Please specify what each approver needs to approve (e.g. product related work, backend spec, etc.)
+    - **Contributors**: Other people that help complete the work. Elaborate on each person's role as needed.
 - **Status**: "Draft", "In Review", "Approved", "In Progress", "Complete"
 - **Problem**: The problem solved by this project.
 - **Outcome**: The expected outcome of this project.
