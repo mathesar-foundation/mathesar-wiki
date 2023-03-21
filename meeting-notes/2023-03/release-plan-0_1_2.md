@@ -1,8 +1,8 @@
 ---
-title: Plan for 0.1.2
+title: 2023-03-21 Plan for 0.1.2
 description: 
 published: true
-date: 2023-03-21T21:49:58.473Z
+date: 2023-03-21T21:50:12.873Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T19:08:22.422Z
