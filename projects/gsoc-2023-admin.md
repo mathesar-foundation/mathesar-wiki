@@ -2,7 +2,7 @@
 title: GSoC 2023 Admin Project
 description: 
 published: true
-date: 2023-03-17T17:12:32.262Z
+date: 2023-03-21T16:52:18.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:43.321Z
@@ -24,6 +24,10 @@ dateCreated: 2023-03-15T20:52:43.321Z
 ## Calendar
 
 [This Google calendar](https://calendar.google.com/calendar/embed?src=c_5a779de8f9e054a645c11926302c1222e4d81aa85c126c84eb23ef056d9b9408%40group.calendar.google.com) is used to track deadlines and related tasks.
+
+## Periodic review of ability to evaluate proposals
+
+Scheduled in the calendar. This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
 
 ## Responsibilities
 
