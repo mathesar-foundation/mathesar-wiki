@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-03-21T16:09:21.881Z
+date: 2023-03-21T16:53:03.689Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -34,24 +34,7 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 
 *(None yet)*
 
-## Project metadata
+## Project template
 
-Use this template when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
-
-```md
-- **Roles**:
-    - **Owner**: One person responsible for the project
-    - **Approver(s)**: People responsible for approving various parts of the project. Please specify what each approver needs to approve (e.g. product related work, backend spec, etc.)
-    - **Contributors**: Other people that help complete the work. Elaborate on each person's role as needed.
-- **Status**: "Draft", "In Review", "Approved", "In Progress", "Complete"
-- **Problem**: The problem solved by this project.
-- **Outcome**: The expected outcome of this project.
-- **Solution**: A spec or description of the solution.
-- **Timeline**: Timeline for shipping this project.
-- **Risks**: Any risks posed by the project, or the specific implementation.
-- **Issues**: Associated GitHub issues
-- **Themes**: e.g. Community growth, User growth, etc
-- **Wiki pages**: Associated wiki pages
-```
-
+[Use this template](/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
 
