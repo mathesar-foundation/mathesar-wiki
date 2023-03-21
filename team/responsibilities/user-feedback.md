@@ -2,11 +2,19 @@
 title: User feedback
 description: 
 published: true
-date: 2023-03-17T13:19:56.595Z
+date: 2023-03-21T15:16:58.044Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:45.333Z
 ---
+
+## Team
+
+| Role | Assignees |
+|-|-|-|
+| **Owner** | Ghislaine |
+| **Monitoring helpers** | Pavish |
+| **Call assistance helpers** | Pavish, Kriti, Brent |
 
 ## Owner Tasks
 
@@ -16,7 +24,7 @@ dateCreated: 2023-03-16T23:16:45.333Z
 - Create surveys and call scripts to improve the feedback collection process.
 - Manage and maintain additional channels for user feedback, such as roadmaps, user guides, and blogs.
 
-## Helpers Contributions
+## Helpers Guide
 
 ### Flagging User Feedback
 Helpers in this project should watch for relevant feedback and flag it accordingly. For example:
