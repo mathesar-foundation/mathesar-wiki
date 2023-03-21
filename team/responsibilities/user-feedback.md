@@ -2,7 +2,7 @@
 title: User feedback
 description: 
 published: true
-date: 2023-03-21T15:16:58.044Z
+date: 2023-03-21T21:24:54.621Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:45.333Z
@@ -16,7 +16,10 @@ dateCreated: 2023-03-16T23:16:45.333Z
 | **Monitoring helpers** | Pavish |
 | **Call assistance helpers** | Pavish, Kriti, Brent |
 
-## Owner Tasks
+## All Team Members
+All team members are encouraged to actively participate in the feedback process, regardless of their assigned roles. This includes flagging or sharing user feedback that they come across during their interactions with Mathesar's users or while monitoring various channels.
+
+## Owner
 
 - Monitor the "hello@mathesar.org" email and the "Request a free install" form, following up with users as needed.
 - Document and organize user feedback from all channels, making it easily accessible.
