@@ -40,7 +40,7 @@ Triaging an issue means setting all the appropriate fields on it.
 
 1. **Set milestone**
 
-    If an issue is directly associated with a milestone, put it in the milestone. Otherwise, put it in the "2023 or later" milestone.
+    If an issue is directly associated with a milestone, put it in the milestone. Otherwise, put it in the "Backlog" milestone.
 
     If you don't know what milestone to put something in, talk to Kriti.
 
