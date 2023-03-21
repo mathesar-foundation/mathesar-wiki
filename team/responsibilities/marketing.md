@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-03-20T17:01:40.778Z
+date: 2023-03-21T16:57:34.586Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -65,5 +65,6 @@ This section serves as a handbook for people working on these responsibilities.
   - Feel free to ask the owner to review any copy written for this.
 - Do research on more relevant aggregators that Mathesar could be added to and add them to the issue.
 
-# Notes
+# Notes & Resources
+- See [Marketing](/en/marketing) section of the wiki.
 - Eventually, the plan is to create an “evangelism guide” ([example](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/social-media/))
