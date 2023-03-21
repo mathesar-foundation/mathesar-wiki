@@ -2,7 +2,7 @@
 title: Contributing to Mathesar
 description: 
 published: true
-date: 2023-03-21T13:06:03.069Z
+date: 2023-03-21T13:07:48.773Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-03T13:18:27.111Z
@@ -39,7 +39,7 @@ We highly recommend joining our [Matrix community](/en/community/matrix) and our
 
     If you decide to claim the issue:
 
-    1. Comment on the ticket, saying *"I'd like to work on this"* or similar. If you mention your PR(s) that we have already merged, that will make it easier for us.
+    1. Comment on the ticket, saying *"I'd like to work on this"* or similar. If you're relatively new to the community, mentioning your PR(s) that we have already merged would be helpful.
     1. A core team member will assign you to the ticket.
     1. At this point **you have one week to follow up.** If we don't hear from you by then, we will unassign you from the ticket so that others may claim it. If you need more time, you can ask for an extension, explaining the progress you've made and the challenges you've encountered. If you have not begun work at all, then we will need to unassign you.
 
