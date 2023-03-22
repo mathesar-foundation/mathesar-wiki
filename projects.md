@@ -20,7 +20,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 - [Funding](./projects/funding.md)
 - [GSoC 2023 admin](./projects/gsoc-2023-admin.md)
 - [Installation improvements](./projects/installation-improvements.md)
-- [Removing SQLAlchemy](./projects/removing-sqlalchemy.md)
+- [Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md)
 - [Localization](./projects/localization.md)
 - [Feedback kickoff](./projects/user-feedback-kickoff.md)
 - [Frontend tables performance](./projects/frontend-tables-performance.md)
