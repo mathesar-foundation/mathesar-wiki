@@ -2,11 +2,13 @@
 title: GSoC 2023 Admin Project
 description: 
 published: true
-date: 2023-03-21T16:52:18.768Z
+date: 2023-03-22T11:29:58.188Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:43.321Z
 ---
+
+Note, document is in draft.
 
 - **Roles**:
     - **Owner**: Dom
@@ -20,6 +22,10 @@ dateCreated: 2023-03-15T20:52:43.321Z
 - **Issues**: TODO
 - **Themes**: TODO
 - **Wiki pages**: TODO
+
+## Competing PRs edge-case
+
+https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/hFU729n8xDE
 
 ## Calendar
 
