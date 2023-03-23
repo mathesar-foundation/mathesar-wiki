@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-23T17:40:32.478Z
+date: 2023-03-23T17:44:53.786Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -42,20 +42,13 @@ This section serves as a handbook for people working on these responsibilities. 
 - Facilitate a process of selecting GSoC students and projects once final applications are in.
 	- e.g. see [this spreadsheet from last year](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8/edit#gid=1794943298).
 - Keep track of comments on new issues and assign issues to people when they ask.
-	- The rest of the team and Pavish should mostly be doing this, but it’s good to keep an eye on it.
+	- The rest of the team should mostly be doing this, but it’s good to keep an eye on it.
 - Keep track of issues that have already been assigned and un-assign them after 7 days of inactivity.
 	- Anish is doing this, but it’s good to keep an eye on this.
 	- https://github.com/orgs/centerofci/projects/1/views/42 may be helpful, it sorts by last activity.
 - Follow up on requests from GSoC (e.g. filling out forms about impact of GSoC on Mathesar), since it builds goodwill
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed.
-
-## Candidate greeting/helping
-
-- Welcome all new community contributors and help them get started.
-    - Help contributors resolve any issues they are having with local setup (on Matrix and GitHub)
-    - Answer other questions from contributors on GitHub and Matrix
-    - Coordinate with Anish, since he’s doing some of this too.
 
 # Notes & Resources
 ## Greet/help instructions
