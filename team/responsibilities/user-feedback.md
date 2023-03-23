@@ -2,7 +2,7 @@
 title: User feedback
 description: 
 published: true
-date: 2023-03-21T21:28:10.399Z
+date: 2023-03-23T18:06:54.725Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:45.333Z
@@ -13,8 +13,9 @@ dateCreated: 2023-03-16T23:16:45.333Z
 | Role | Assignees |
 |-|-|-|
 | **Owner** | Ghislaine |
-| **Monitoring helpers** | Pavish |
-| **Call assistance helpers** | Pavish, Kriti, Brent |
+| **Installation Help** | Brent, Mukesh, Pavish |
+| **Monitoring Helpers** | Marketing, Repo Admin, Install |
+| **Call Assistance Helpers** | Pavish, Kriti, Brent |
 
 ## All Team Members
 All team members are encouraged to actively participate in the feedback process, regardless of their assigned roles. This includes flagging or sharing user feedback that they come across during their interactions with Mathesar's users or while monitoring various channels.
@@ -27,7 +28,11 @@ All team members are encouraged to actively participate in the feedback process,
 - Create surveys and call scripts to improve the feedback collection process.
 - Manage and maintain additional channels for user feedback, such as roadmaps, user guides, and blogs.
 
-## Helpers Guide
+## Installation Helpers
+
+Installation helpers are responsible for monitoring the "Request a free install" form and following up with users as needed. If they come across feedback that they believe warrants a more in-depth exploration, they should communicate with the owner of User Feedback to set up surveys or calls to better understand the issue.
+
+## Monitoring Helpers
 
 ### Flagging User Feedback
 Helpers in this project should watch for relevant feedback and flag it accordingly. For example:
@@ -41,9 +46,13 @@ Track instances where users express dissatisfaction, satisfaction, or interest i
 #### From Mathesar Team Channels (Matrix, Discord, Mailing Lists etc.)
 Ensure to mention the project owner when user feedback arises in discussions within official team channels.
 
-### Assistance During Feedback Calls
+## Call Assistance Helpers
 
 During feedback calls, helpers can play an active role in supporting the conversation by taking detailed notes, asking follow-up questions, and providing input from various perspectives, such as technical or user experience. 
+
+## Release Management
+
+We should have a process to ensure that user feedback is fed into the release management process.
 
 --- 
 
