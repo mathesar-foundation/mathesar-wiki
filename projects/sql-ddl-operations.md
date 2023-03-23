@@ -35,7 +35,7 @@ Our current setup for this is:
 - Complicated (hard to maintain)
 - Prone to bugs (managing state in Python memory is constantly tripping us up)
 
-All of these problems are related to the fact that we're building the SQL queries to run DQL operations in Python.
+All of these problems are related to the fact that we're building the SQL queries to run DDL operations in Python.
 
 ## Solution
 
@@ -55,6 +55,7 @@ Replace the current Python functions performing DDL operations with thin wrapper
 Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
 - Remove any SQLAlchemy objects from DDL function signatures (This may require modifying callers slightly)
 - Remove SQLAlchemy from the entire call stack calling a given function, all the way up to the API (within reason).
+- Modify affected function signatures to avoid using `schema_name`, `(schema_name, table_name)`, or `(schema, table_name, column_name)` identifiers. Instead, prefer `schema_oid`, `table_oid` or `(table_oid, attnum)` identifiers (may require modifying callers slightly, or scaffolding).
 - Delete any unneeded functions.
 
 ## Risks
@@ -65,7 +66,7 @@ Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
 
 ## Resources
 
-TODO
+[Meta-issue tracking the creation of DB functions to perform DDL](https://github.com/centerofci/mathesar/issues/2737)
 
 ## Timeline
 
