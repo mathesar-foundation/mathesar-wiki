@@ -2,7 +2,7 @@
 title: User Feedback Kickoff Project
 description: 
 published: true
-date: 2023-03-23T15:40:23.000Z
+date: 2023-03-23T17:45:46.668Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
@@ -54,7 +54,6 @@ An additional tool might be needed in order to send the surveys and a process to
 ### Categorize survey answers and calls within the "User Feedback" project
 
 We need to determine how the notes and answers from surveys will be incorporated into our "User Feedback" collection.
-
 
 - **Timeline**: TODO
 - **Risks**: TODO
