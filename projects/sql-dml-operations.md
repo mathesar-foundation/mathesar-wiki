@@ -1,5 +1,5 @@
 ---
-title: Move DDL Operations to SQL Functions
+title: Move DML Operations to SQL Functions
 description: 
 published: true
 date: 2023-03-15T00:00:00.000Z
@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-03-15T00:00:00.000Z
 ---
 
-- **Name**: Move DDL operations to SQL functions
+- **Name**: Move DB Info Operations to SQL Functions
 - **Status**: Draft
 - **Theme**: Code quality, maintainability, performance, Removing SQLAlchemy
 
@@ -28,7 +28,8 @@ dateCreated: 2023-03-15T00:00:00.000Z
 
 ## Problem
 
-Data Definition Language (DDL) operations are those that manipulate the actual data model on the database. Some relevant SQL words are `CREATE`, `ALTER`, and `DROP`. These operations require knowledge of the database to do their work. I.e., a function must know the name of a table to `ALTER` it. Our current architecture requires reflecting the state of the database into memory in Python, then manipulating that state's representation in Python, then stamping that representation back down onto the database.
+
+Data Manipulation Language (DML) operations are those that manipulate the data stored in a database. Some relevant SQL words are `UPDATE`, `INSERT`, and `DELETE`. These operations require knowledge of the database to do their work. I.e., a function must know the name of a table to `INSERT` into it. Our current architecture requires reflecting the state of the database into memory in Python and using that state to build `INSERT` queries and the like.
 
 Our current setup for this is:
 - Inefficient (reflection is slow)
@@ -37,20 +38,20 @@ Our current setup for this is:
 
 ## Solution
 
-### Create DDL functions in database
-Create a function for each desired DDL operation on the databse using SQL or PL/pgSQL.
-- Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss.
+### Create DML functions in database
+Create a function for each desired DML operation on the databse using SQL or PL/pgSQL.
+- Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss, as well as the target signature.
 - Each such function should have a main implementation which uses the most reasonable signature for the task at hand.
 
-### Replace Python DDL functions with wrappers of DB functions
-Replace the current Python functions performing DDL operations with thin wrappers for these functions.
+### Replace Python DML functions with wrappers of DB functions
+Replace the current Python functions performing DML operations with thin wrappers for these functions.
 - Be mindful of looking out for functions which may be deleted, rather than replaced, once this is done.
 - Map the original Python function signatures to an appropriate function call of the database functions.
-- After this phase, no SQLAlchemy imports should be used in any module whose functions are modified in this way, i.e., DDL operation modules.
+- After this phase, no SQLAlchemy imports should be used in any module whose functions are modified in this way, i.e., DML operation modules.
 
 ### Refactor and clean up results
-Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
-- Remove any SQLAlchemy objects from DDL function signatures (This may require modifying callers slightly)
+Refactor to remove SQLAlchemy objects from calls using Python DML functions:
+- Remove any SQLAlchemy objects from DML function signatures (This may require modifying callers slightly)
 - Remove SQLAlchemy from the entire call stack calling a given function, all the way up to the API (within reason).
 - Delete any unneeded functions.
 
@@ -66,13 +67,14 @@ TODO
 
 ## Timeline
 
-**Note**: Parts of this timeline are delayed due to Brent's parental leave.
+**Note**: Parts of this timeline are delayed, since they're blocked by the removal of DDL, and Brent's parental leave.
 
 | Date       | Outcome                                      |
 |------------|----------------------------------------------|
-| 2023-03-20 | Work starts                                  |
-| 2023-03-24 | Implementation spec and prototyping complete |
-| 2023-03-31 | Implementation spec approved                 |
-| 2023-04-28 | All needed DDL SQL Functions written         |
-| 2023-05-05 | All thin python wrappers written             |
-| 2023-05-12 | Refactor and clean up complete               |
+| 2023-03-20 | Prototyping work starts                      |
+| 2023-04-28 | Implementation spec and prototyping complete |
+| 2023-05-05 | Implementation spec approved                 |
+| 2023-05-12 | All needed DML SQL Functions written         |
+| 2023-05-19 | All thin python wrappers written             |
+| 2023-05-26 | Refactor and clean up complete               |
+
