@@ -28,12 +28,14 @@ dateCreated: 2023-03-15T00:00:00.000Z
 
 ## Problem
 
-Data Definition Language (DDL) operations are those that manipulate the actual data model on the database. Some relevant SQL words are `CREATE`, `ALTER`, and `DROP`. These operations require knowledge of the database to do their work. I.e., a function must know the name of a table to `ALTER` it. Our current architecture requires reflecting the state of the database into memory in Python, then manipulating that state's representation in Python, then stamping that representation back down onto the database.
+Data Definition Language (DDL) operations are those that manipulate the actual data model on the database. Some relevant SQL words are `CREATE`, `ALTER`, and `DROP`. These operations require knowledge of the database to do their work. E.g., a function must know the name of a table to `ALTER` it. Our current architecture requires reflecting the state of the database into memory in Python, then manipulating that state's representation in Python, then stamping that representation back down onto the database.
 
 Our current setup for this is:
 - Inefficient (reflection is slow)
 - Complicated (hard to maintain)
 - Prone to bugs (managing state in Python memory is constantly tripping us up)
+
+All of these problems are related to the fact that we're building the SQL queries to run DQL operations in Python.
 
 ## Solution
 
@@ -46,6 +48,7 @@ Create a function for each desired DDL operation on the databse using SQL or PL/
 Replace the current Python functions performing DDL operations with thin wrappers for these functions.
 - Be mindful of looking out for functions which may be deleted, rather than replaced, once this is done.
 - Map the original Python function signatures to an appropriate function call of the database functions.
+- It's completely fine to create scaffolding functions at this point to avoid letting changes sprawl.
 - After this phase, no SQLAlchemy imports should be used in any module whose functions are modified in this way, i.e., DDL operation modules.
 
 ### Refactor and clean up results

@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2023-03-15T00:00:00.000Z
 ---
 
-- **Name**: Move DB Info Operations to SQL Functions
+- **Name**: Move DML Operations to SQL Functions
 - **Status**: Draft
 - **Theme**: Code quality, maintainability, performance, Removing SQLAlchemy
 
@@ -28,13 +28,14 @@ dateCreated: 2023-03-15T00:00:00.000Z
 
 ## Problem
 
-
-Data Manipulation Language (DML) operations are those that manipulate the data stored in a database. Some relevant SQL words are `UPDATE`, `INSERT`, and `DELETE`. These operations require knowledge of the database to do their work. I.e., a function must know the name of a table to `INSERT` into it. Our current architecture requires reflecting the state of the database into memory in Python and using that state to build `INSERT` queries and the like.
+Data Manipulation Language (DML) operations are those that manipulate the data stored in a database. Some relevant SQL words are `UPDATE`, `INSERT`, and `DELETE`. These operations require knowledge of the database to do their work. E.g., a function must know the name of a table to `INSERT` into it. Our current architecture requires reflecting the state of the database into memory in Python and using that state to build `INSERT` queries and the like.
 
 Our current setup for this is:
 - Inefficient (reflection is slow)
 - Complicated (hard to maintain)
 - Prone to bugs (managing state in Python memory is constantly tripping us up)
+
+All of these problems are related to the fact that we're building the SQL queries to run DML operations in Python.
 
 ## Solution
 
@@ -47,6 +48,7 @@ Create a function for each desired DML operation on the databse using SQL or PL/
 Replace the current Python functions performing DML operations with thin wrappers for these functions.
 - Be mindful of looking out for functions which may be deleted, rather than replaced, once this is done.
 - Map the original Python function signatures to an appropriate function call of the database functions.
+- It's completely fine to create scaffolding functions at this point to avoid letting changes sprawl.
 - After this phase, no SQLAlchemy imports should be used in any module whose functions are modified in this way, i.e., DML operation modules.
 
 ### Refactor and clean up results
