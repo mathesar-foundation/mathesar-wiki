@@ -2,7 +2,7 @@
 title: User Feedback Kickoff Project
 description: 
 published: true
-date: 2023-03-23T17:45:46.668Z
+date: 2023-03-23T17:51:03.480Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
@@ -55,7 +55,15 @@ An additional tool might be needed in order to send the surveys and a process to
 
 We need to determine how the notes and answers from surveys will be incorporated into our "User Feedback" collection.
 
-- **Timeline**: TODO
+## Timeline
+
+| Task                                          | Start Date | End Date   |
+|-----------------------------------------------|------------|------------|
+| Set up HackMD "User Feedback" team           | 23 Mar 2023     | 24 Mar 2023     |
+| Create feedback capture templates             | 24 Mar 2023     | 25 Mar 2023     |
+| Develop template for calls                    | 25 Mar 2023     | 27 Mar 2023     |
+| Develop surveys for users                      | 27 Mar 2023     | 29 Mar 2023     |
+| Implement process for categorizing survey answers | 29 Mar 2023     | 3 Apr 2023     |
 - **Risks**: TODO
 - **Issues**: TODO
 - **Themes**: TODO
