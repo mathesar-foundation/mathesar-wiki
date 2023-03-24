@@ -2,10 +2,10 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-03-24T09:02:28.804Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-23T08:31:13.306Z
 ---
 
 - **Name**: Move DDL operations to SQL functions
@@ -66,7 +66,7 @@ Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
 
 ## Resources
 
-[Meta-issue tracking the creation of DB functions to perform DDL](https://github.com/centerofci/mathesar/issues/2737)
+[Meta-issue tracking this project](https://github.com/centerofci/mathesar/issues/2737)
 
 ## Timeline
 
