@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-23T17:44:53.786Z
+date: 2023-03-27T11:07:03.168Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -67,7 +67,7 @@ Suggested process:
 
 Example in our Matrix General channel:
 
-> Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!
+>`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!`
 
 ### Helping
 
@@ -78,6 +78,10 @@ A few things to keep in mind
 - Don't be dismissive either
 - Refer them to resources for self-guidance (namely our applicant or contributing guides)
 - Politely remind of our expectation that contributors will be relatively self-sufficient and tolerant of minimal hand-holding
+
+## Office hours
+
+Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
 ## Greet/help schedule
 
