@@ -8,14 +8,12 @@ editor: markdown
 dateCreated: 2023-03-15T00:00:00.000Z
 ---
 
-
 - **Name**: Usability Improvements
 - **Status**: in review 
 
 ## Roles
 
 **Project Owner:**  Sean 
-
 
 |               | Workers | Reviewers         |
 | --            | --      | --                |
@@ -29,22 +27,18 @@ This project is a collection of smaller usability-related tickets that seem to p
 
 ## Work
 
-| Task                                        | Work | Days estimated |
-| --                                          | --   | --: |
-| [Clipboard UX design][2377]                 | 🎨   | 5 |
-| [Copy from Mathesar, paste elsewhere][1688] | 🕶️   | 3 |
-| [Drag to select from active cell][1885]     | 🕶️   | 2 |
-| [Selection stuck in drag mode][1917]        | 🕶️   | 1 |
-| [Filtering via column header][2232]         | 🕶️   | 2 |
-| [Persistent column widths][1421]            | ⚙️   | 3 |
-| [Resizable sidebars][2362]                  | 🕶️   | 3 |
-| [Persistent sidebar widths][2387]           | 🕶️   | 1 |
+| Task                                        | Work       | Days estimated |
+| --                                          | --         | --: |
+| [Clipboard UX design][2377]                 | UX design  | 5 |
+| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3 |
+| [Drag to select from active cell][1885]     | Front end  | 2 |
+| [Selection stuck in drag mode][1917]        | Front end  | 1 |
+| [Filtering via column header][2232]         | Front end  | 2 |
+| [Persistent column widths][1421]            | Back end   | 3 |
+| [Resizable sidebars][2362]                  | Front end  | 3 |
+| [Persistent sidebar widths][2387]           | Front end  | 1 |
 
 **TOTAL TIME:**  20 days (4 weeks)
-
-- 🎨 = design
-- 🕶️ = frontend
-- ⚙️ = backend
 
 ## Risks
 
