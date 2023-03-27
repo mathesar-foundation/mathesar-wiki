@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-03-21T16:53:03.689Z
+date: 2023-03-27T09:24:13.018Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -18,7 +18,6 @@ dateCreated: 2023-03-15T20:52:26.598Z
 ## Current projects
 
 - [Funding](./projects/funding.md)
-- [GSoC 2023 admin](./projects/gsoc-2023-admin.md)
 - [Installation improvements](./projects/installation-improvements.md)
 - [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md)
 - [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md)
