@@ -9,7 +9,7 @@ dateCreated: 2023-03-15T00:00:00.000Z
 ---
 
 - **Name**: 2023-04 Usability Improvements
-- **Status**: in review 
+- **Status**: Approved
 
 ## Team
 
@@ -29,17 +29,17 @@ This project is a collection of smaller usability-related tickets that seem to p
 
 ### Work plan
 
-| Task                                        | Work       | Days | Deadline |
-| --                                          | --         | --   | --       |
-| (Project start date)                        |            | 0    | TBD      |
-| [Clipboard UX design][2377]                 | UX design  | 5    | TBD      |
-| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | TBD      |
-| [Drag to select from active cell][1885]     | Front end  | 2    | TBD      |
-| [Selection stuck in drag mode][1917]        | Front end  | 1    | TBD      |
-| [Filtering via column header][2232]         | Front end  | 2    | TBD      |
-| [Persistent column widths][1421]            | Back end   | 3    | TBD      |
-| [Resizable sidebars][2362]                  | Front end  | 3    | TBD      |
-| [Persistent sidebar widths][2387]           | Front end  | 1    | TBD      |
+| Task                                        | Work       | Days | Deadline   |
+| --                                          | --         | --   | --         |
+| (Project start date)                        |            | 0    | 2023-03-29 |
+| [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 |
+| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 |
+| [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 |
+| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 |
+| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 |
+| [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 |
+| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 |
+| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 |
 
 **TOTAL TIME:**  20 days (4 weeks)
 
