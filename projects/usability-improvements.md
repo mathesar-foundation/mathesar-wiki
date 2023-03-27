@@ -41,6 +41,8 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Resizable sidebars][2362]                  | Front end  | 3    | TBD      |
 | [Persistent sidebar widths][2387]           | Front end  | 1    | TBD      |
 
+**TOTAL TIME:**  20 days (4 weeks)
+
 ### Notes
 
 - Note that [Copy from Mathesar, paste elsewhere][1688] is an implementation task that falls within the broader design covered by [Clipboard UX design][2377]. It's a relatively narrow subset of the total implementation that the design will eventually specify, but it's the most straightforward piece to implement and design, so that's why it's included in this project. This project does _not_ include any other _implementation_ for the copy-paste functionality. The idea here is to take some baby steps toward better clipboard behavior by doing the research and design work we need in order to better specify all the work that we'll _need_ to do later.
