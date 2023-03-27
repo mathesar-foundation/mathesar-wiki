@@ -26,7 +26,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 - [Localization](./projects/localization.md)
 - [Feedback kickoff](./projects/user-feedback-kickoff.md)
 - [Frontend tables performance](./projects/frontend-tables-performance.md)
-- [Usability Improvements](./projects/usability-improvements.md)
+- [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
 
 ## Future project ideas
 
