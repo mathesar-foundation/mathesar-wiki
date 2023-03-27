@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-27T11:07:03.168Z
+date: 2023-03-27T12:32:11.564Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -79,10 +79,6 @@ A few things to keep in mind
 - Refer them to resources for self-guidance (namely our applicant or contributing guides)
 - Politely remind of our expectation that contributors will be relatively self-sufficient and tolerant of minimal hand-holding
 
-## Office hours
-
-Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
-
 ## Greet/help schedule
 
 We aim to greet and help new contributors (mostly GSoC candidates) multiple times per day (between all of us, not each). This schedule should act as *a very rough guide*, in practice we'll often respond whenever we see a new message, but in case that's inconvenient, use this schedule as a guide for when to perform this task.
@@ -94,6 +90,10 @@ We aim to greet and help new contributors (mostly GSoC candidates) multiple time
 | Rajat | UTC 4:30 |
 
 Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/C9ktD96iG_s).
+
+## Office hours
+
+Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
 ## Calendar for deadlines and tasks
 
