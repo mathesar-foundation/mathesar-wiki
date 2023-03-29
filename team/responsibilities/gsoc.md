@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T10:00:35.669Z
+date: 2023-03-29T10:01:34.613Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -15,22 +15,31 @@ dateCreated: 2023-03-23T17:40:32.478Z
 | **Owner** | Dominykas |
 | **Candidate greeter/helper** | Anish, Rajat |
 
+
 # Guide
+
 This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#calendar) with various deadlines and tasks.
 
+
 ## Everyone
+
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
 	- No-early-issue-assigns rule means that a contributor can be assigned to an issue only when he has a PR that reached some kind of completion (merged or killed)
 	- Purpose is to maximize the number of issues candidates have available
   - See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/hFU729n8xDE) for the edge case this opens up where multiple PRs for the same issue compete to be merged
 
+
 ## All members
+
 - Perform greet/help daily
   - Greet, meaning notice new contributors and greet them
   - Help, meaning respond to requests for help
 	- See [greet/help schedule](#greethelp-schedule) section
  	- See [greet/help](#greethelp-instructions) instructions section
+  
+  
 ## Owner
+
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
 	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
@@ -69,6 +78,7 @@ Example in our Matrix General channel:
 
 >`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!`
 
+
 ### Helping
 
 A few things to keep in mind
@@ -78,6 +88,7 @@ A few things to keep in mind
 - Don't be dismissive either
 - Refer them to resources for self-guidance (namely our applicant or contributing guides)
 - Politely remind of our expectation that contributors will be relatively self-sufficient and tolerant of minimal hand-holding
+
 
 ## Greet/help schedule
 
@@ -91,15 +102,18 @@ We aim to greet and help new contributors (mostly GSoC candidates) multiple time
 
 Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/C9ktD96iG_s).
 
+
 ## Office hours
 
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
 We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
 
+
 ## Calendar
 
 [This Google calendar](https://calendar.google.com/calendar/embed?src=c_5a779de8f9e054a645c11926302c1222e4d81aa85c126c84eb23ef056d9b9408%40group.calendar.google.com) is used to track GSoC-related deadlines and related tasks.
+
 
 ## Periodic review of ability to evaluate proposals
 
