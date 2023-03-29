@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T10:01:34.613Z
+date: 2023-03-29T11:43:38.934Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -12,17 +12,24 @@ dateCreated: 2023-03-23T17:40:32.478Z
 
 | Role | Assignees |
 |-|-|
-| **Owner** | Dominykas |
+| **Owner** (aka **Admin**) | Dominykas |
 | **Candidate greeter/helper** | Anish, Rajat |
 
 
-# Guide
+# Responsibilities
 
 This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#calendar) with various deadlines and tasks.
 
 
 ## Everyone
 
+- Review draft proposals
+	- Do so in a timely manner
+  - Keep relevant spreadsheet/s up-to-date with the status of your reviews
+  	- See [Internal draft proposal tracking spreadsheet](#who-is-responsible-for-a-review) section
+  - Make sure that only a single mentor is responsible for a given review at any given time
+  	- See [Who is responsible for a review](#who-is-responsible-for-a-review) section
+  - See [Review instructions](#review-instructions) section
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
 	- No-early-issue-assigns rule means that a contributor can be assigned to an issue only when he has a PR that reached some kind of completion (merged or killed)
 	- Purpose is to maximize the number of issues candidates have available
@@ -59,7 +66,36 @@ This section serves as a handbook for people working on these responsibilities. 
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed.
 
-# Notes & Resources
+# Guides & Resources
+
+## Draft proposal review
+
+### Who is responsible for a review
+
+The primary mentor for a project is responsible for getting the project's draft proposals reviewed. Primary mentors are encouraged to delegate part of their work to the secondary mentors, but, until that's coordinated, the primary mentor is responsible for the proposal getting reviewed. Motivation for this rule is to prevent someone expecting the other mentor to step up without solicitation and thus resulting in delayed reviews.
+
+Who is currently responsible for a review is tracked in the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet).
+
+### Internal draft proposal tracking spreadsheet
+
+[This spreadsheet](https://docs.google.com/spreadsheets/d/1g6uLpyyUWpQna4UCyZ7zJiNuEV7RBnpQ-EblUDTFPws) gets a row added automatically for every draft proposal submitted via our submission form. It also tracks whether a review is pending, who is responsible for a pending review, and who and when reviewed a given proposal. Respective mentors are expected to keep all of this up-to-date.
+
+Do not remove rows from the spreadsheet. You might be tempted to do this for multiple review requests for the same person, but that would impede admin's ability to track the submit-review process: for example, the admin needs to know if certain proposals are waiting for a review for a long time, and if all but the most recent are removed, the admin doesn't know when it was first submitted; if you remove all but the oldest, the admin doesn't know that the candidate is making repeated review requests.
+
+
+### Review instructions
+
+1. Use the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) to tell which reviews you have pending
+2. Read the proposal and provide feedback via Google Doc comments
+3. (Recommended) Place general comments on the title of the proposal (or somewhere thereabouts)
+4. Once done, add a general comment saying that the review is finished, so that the status of the review is not ambiguous to the candidate
+5. (Recommended) Ask that the candidate resubmit via the same draft proposal form he originally used, when/if he wants to request a new review; this way the admin will be able to track and notify of new requests for review, otherwise it's the mentor's responsibility 
+6. Update the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) 
+
+
+### Repeated reviews
+
+
 ## Greet/help instructions
 
 ### Greeting
