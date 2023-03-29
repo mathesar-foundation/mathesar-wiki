@@ -2,21 +2,17 @@
 title: 2023-03-29 Team meeting
 description: 
 published: true
-date: 2023-03-29
+date: 2023-03-29T18:09:48.120Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-29
+dateCreated: 2023-03-29T16:10:56.270Z
 ---
 
 ## Projects & responsibilities check-in
-- **Added by**: Kriti
 - **Summary**: I'd like to check in with everyone on the status of planned projects and ongoing responsibilities
-- **Expected time**: 30 minutes
-- **Priority**: High
-- **Required participants:** everyone
+- **Participants:** everyone
 
 ### Ghislaine
-
 - Ghislaine: for user feedback, I was planning to check in every couple weeks to see what action items we have. Wondering how to turn user feedback into action items.
     - Kriti: Makes sense to do it ad-hoc for now but gradually move towards more of a process.
     - Ghislaine: It's more interesting once we can see patterns, so we'll keep collecting user feedback for now and look for action items once we can see patterns.
@@ -25,14 +21,12 @@ dateCreated: 2023-03-29
 - Project is for establishing the "process". Ongoing responsibility is for _doing_ the process. Project should be done pretty soon.
 
 ### Kriti
-
 - I have marketing. Wrote up notes on process. Didn't get any feedback, so assuming it's approved. Ties into user feeback.
     - Sean: I looked over it. Looked good.
 - Funding: still working to document the funding project. Hoping to have that completed this week.
 - Approved some projects and responsibilities. Waiting to hear back from other people.
 
 ### Dom
-
 - GSoC is now an ongoing responsibility. This is taking up a lot of time/energy
 - I have some items in backlog that are delayed due to GSoC. Ping me with questions/concerns
 - GSoC ongoing responsibility documentation is done. More updates will be made as-needed
@@ -40,7 +34,6 @@ dateCreated: 2023-03-29
 - Kriti: if GSoc is still taking up lots ot time, check in with us later.
 
 ### Pavish
-
 - Most of my time has been reviewing PRs
 - release management
     - Scope of release management seems larger that what I expected
@@ -56,7 +49,6 @@ dateCreated: 2023-03-29
     - Kriti: might make sense to document what you already have while it's fresh in your mind. Fine to document what you already have.
 
 ### Rajat
-
 - Repo admin
     - PR is open for responsibilities documentation. This is reviewed. Need to merge.
     - Work is going okay so far.
@@ -66,7 +58,6 @@ dateCreated: 2023-03-29
     - started working on documentation. Will have draft to propose by the end of this week.
 
 ### Sean
-
 - Usability improvements project
     - Documented and approved by Kriti
     - It's well specified and Sean's starting work on that
@@ -76,7 +67,6 @@ dateCreated: 2023-03-29
         - Kriti: It's fine not to document this
 
 ### Mukesh
-
 - Installation assisting (ongoing)
     - This is Brent's responsibility, but Mukesh is helping while Brent is on leave
     - Had a call with Dan and Dan's friend. Planning to check in with them weekly. Tried out Mathesar locally.
@@ -95,25 +85,21 @@ dateCreated: 2023-03-29
 - Remove SQLAlchemy
     - Working on researching a replacement query builder
     - Kriti: I would recommend deprioritizing this in favor of others
-    - 
 - The last week has mostly been GSoC and PR-review work
 
 
 ### Anish
-
 - Working on [Make Deployment Type 2 work with DBs on localhost](https://github.com/centerofci/mathesar/issues/2571) (connecting Mathesar to local database)
 
 
 ### High level questions
-
 - Ghislaine: If I want to create a new project, how do I do that?
     - Kriti: We don't have a process yet for how to do this. Until we do, talk to me.
 - Pavish: When people work on the same issue, I still don't know how we should handle this.
    - Tabled for async discussion
 
 ## Where to put what kind of docs
-
-- **Added by**: Sean
+- **Participants:** Sean, Kriti
 - **Summary**: 
 
     Since we are working on cleaning up and fleshing out our documentation, I want to seek some clarity on the scope of our different docs sources, attempting to eliminate ambiguity and disagreement.
@@ -141,16 +127,10 @@ dateCreated: 2023-03-29
 
     Putting content into the docs site certainly has its benefits. I have more thoughts about some of the nuance and gray area, and I think it might be best to chat about it so that we can agree on some guidelines as we flesh out our docs.
 
-- **Expected time**: 15 min
-- **Priority**: medium
-- **Required participants:** Sean, Kriti
-- **Additional participants:**: *Please replace this with your name if you're interested in participating*
-
-
 ### Notes
 
 - Sean and Kriti discussed this
-- kriti's points:
+- Kriti's points:
     - Discoverability is very important. We need to make sure that if docs content is outside of mkdocs that readers can still discover it somehow.
     - [Django docs](https://docs.djangoproject.com/en/4.1/) is a good example of versioned docs that has a `dev` version too
     - [NocoDB](https://docs.nocodb.com/engineering/architecture) has docs with dev docs published. They don't appear to have them versioned
