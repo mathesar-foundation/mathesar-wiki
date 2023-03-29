@@ -2,7 +2,7 @@
 title: Community Events
 description: Notes about community events
 published: true
-date: 2022-10-13T17:44:21.295Z
+date: 2023-03-29T09:37:14.369Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-25T21:41:39.097Z
@@ -11,7 +11,9 @@ dateCreated: 2022-01-25T21:41:39.097Z
 A list of events that the Mathesar community has participated in or plans to participate in. Notes from the team about past events are also listed on the event page.
 
 ## Upcoming Events
-*None at the moment.*
+<!--*None at the moment.*-->
+### March 2023
+- [Office Hours (2023-03-27 to 2023-03-29)](/en/community/events/2023-03-27-to-2023-03-29)
 
 ## Past Events
 ### April 2022
