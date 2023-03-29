@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T12:15:55.601Z
+date: 2023-03-29T12:17:35.621Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -46,7 +46,8 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
   - Greet, meaning notice new contributors and greet them
   - Help, meaning respond to requests for help
 	- See [greet/help schedule](#greethelp-schedule) section
- 	- See [greet/help](#greethelp-instructions) instructions section
+ 	- See [greeting instructions](#greeting-instructions) section
+ 	- See [helping guidelines](#helping-guidelines) section
   
   
 ## Owner
@@ -97,12 +98,7 @@ Do not remove rows from the spreadsheet. You might be tempted to do this for mul
 6. Update the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) 
 
 
-### Repeated reviews
-
-
-## Greet/help instructions
-
-### Greeting
+## Greeting instructions
 
 Suggested process:
 
@@ -119,7 +115,7 @@ Example in our Matrix General channel:
 >`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!`
 
 
-### Helping
+## Helping guidelines
 
 A few things to keep in mind
 
