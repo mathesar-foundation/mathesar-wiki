@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-27T12:32:11.564Z
+date: 2023-03-29T09:58:19.742Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -16,7 +16,7 @@ dateCreated: 2023-03-23T17:40:32.478Z
 | **Candidate greeter/helper** | Anish, Rajat |
 
 # Guide
-This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a calendar with various deadlines and tasks.
+This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#Calendar) with various deadlines and tasks.
 
 ## Everyone
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
@@ -95,11 +95,13 @@ Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/cor
 
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
-## Calendar for deadlines and tasks
+We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#Calendar).
 
-[This Google calendar](https://calendar.google.com/calendar/embed?src=c_5a779de8f9e054a645c11926302c1222e4d81aa85c126c84eb23ef056d9b9408%40group.calendar.google.com) is used to track deadlines and related tasks.
+## Calendar
+
+[This Google calendar](https://calendar.google.com/calendar/embed?src=c_5a779de8f9e054a645c11926302c1222e4d81aa85c126c84eb23ef056d9b9408%40group.calendar.google.com) is used to track GSoC-related deadlines and related tasks.
 
 ## Periodic review of ability to evaluate proposals
 
-Scheduled in the calendar. This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
+Scheduled in the [calendar](#Calendar). This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
 
