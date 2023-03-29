@@ -2,11 +2,18 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T11:47:53.288Z
+date: 2023-03-29T12:15:55.601Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
 ---
+
+## Introduction
+
+Document made up of following major sections: [Responsibilities](#responsibilities), [Details](#details). *Responsibilities* should be self-explanatory. The *Details* section, holds a fair amount of guides and resources, including a [calendar](#calendar) with various related deadlines and tasks.
+
+Normally, it should be enough to read what's appropriate for you in the *Responsibilities* section. There you'll probably find links for whatever might concern you in the *Details* section.
+
 
 # Team
 
@@ -17,9 +24,6 @@ dateCreated: 2023-03-23T17:40:32.478Z
 
 
 # Responsibilities
-
-This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#calendar) with various deadlines and tasks.
-
 
 ## Everyone
 
@@ -66,7 +70,7 @@ This section serves as a handbook for people working on these responsibilities. 
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed.
 
-# Guides & Resources
+# Details
 
 ## Draft proposal review
 
@@ -151,7 +155,7 @@ We track community events, including office hours, [on this Wiki page](https://w
 [This Google calendar](https://calendar.google.com/calendar/embed?src=c_5a779de8f9e054a645c11926302c1222e4d81aa85c126c84eb23ef056d9b9408%40group.calendar.google.com) is used to track GSoC-related deadlines and related tasks.
 
 
-## Periodic review of ability to evaluate proposals
+## Periodic process reviews and reports
 
-Scheduled in the [calendar](#calendar). This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
+GSoC administration involves periodic process reviews and reports. They are scheduled in the [calendar](#calendar). This thread tracks resulting updates: https://github.com/centerofci/mathesar/issues/2733
 
