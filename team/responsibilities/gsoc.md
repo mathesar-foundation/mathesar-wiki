@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T09:58:19.742Z
+date: 2023-03-29T09:59:44.099Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -28,8 +28,8 @@ This section serves as a handbook for people working on these responsibilities. 
 - Perform greet/help daily
   - Greet, meaning notice new contributors and greet them
   - Help, meaning respond to requests for help
-	- See greet/help schedule section
- 	- See greet/help instructions section
+	- See [greet/help schedule](#Greethelp-schedule) section
+ 	- See [greet/help](#Greethelp-instructions) instructions section
 ## Owner
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
