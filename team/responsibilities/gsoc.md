@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T09:59:44.099Z
+date: 2023-03-29T10:00:35.669Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -16,7 +16,7 @@ dateCreated: 2023-03-23T17:40:32.478Z
 | **Candidate greeter/helper** | Anish, Rajat |
 
 # Guide
-This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#Calendar) with various deadlines and tasks.
+This section serves as a handbook for people working on these responsibilities. The notes section hold, among other things, a [calendar](#calendar) with various deadlines and tasks.
 
 ## Everyone
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
@@ -28,8 +28,8 @@ This section serves as a handbook for people working on these responsibilities. 
 - Perform greet/help daily
   - Greet, meaning notice new contributors and greet them
   - Help, meaning respond to requests for help
-	- See [greet/help schedule](#Greethelp-schedule) section
- 	- See [greet/help](#Greethelp-instructions) instructions section
+	- See [greet/help schedule](#greethelp-schedule) section
+ 	- See [greet/help](#greethelp-instructions) instructions section
 ## Owner
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
@@ -95,7 +95,7 @@ Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/cor
 
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
-We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#Calendar).
+We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
 
 ## Calendar
 
@@ -103,5 +103,5 @@ We track community events, including office hours, [on this Wiki page](https://w
 
 ## Periodic review of ability to evaluate proposals
 
-Scheduled in the [calendar](#Calendar). This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
+Scheduled in the [calendar](#calendar). This thread tracks results of these reviews: https://github.com/centerofci/mathesar/issues/2733
 
