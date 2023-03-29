@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T12:17:35.621Z
+date: 2023-03-29T12:19:34.365Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -92,7 +92,7 @@ Do not remove rows from the spreadsheet. You might be tempted to do this for mul
 
 1. Use the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) to tell which reviews you have pending
 2. Read the proposal and provide feedback via Google Doc comments
-3. (Recommended) Place general comments on the title of the proposal (or somewhere thereabouts)
+3. (Recommended) Place general comments on the title of the proposal (or somewhere thereabouts); this seems to have become an unwritten rule (until now) amongst some of the mentors
 4. Once done, add a general comment saying that the review is finished, so that the status of the review is not ambiguous to the candidate
 5. (Recommended) Ask that the candidate resubmit via the same draft proposal form he originally used, when/if he wants to request a new review; this way the admin will be able to track and notify of new requests for review, otherwise it's the mentor's responsibility 
 6. Update the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) 
