@@ -47,7 +47,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
 
   Make sure to read the issue description and the recent conversation on it before moving to the next steps.
 
-  - Make sure the issue is triaged properly as per our guide [here](https://wiki.mathesar.org/en/team/guide/issue-triage)
+  - Make sure the issue is triaged properly as per our guide [here](/team/guide/issue-triage)
     - A mental model for labels:
       - "difficulty: easy" => "help wanted" & "good first issues"
       - "difficulty: medium" => "help wanted"
@@ -56,7 +56,9 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - Pay extra attention before marking an issue as ready. Do not mark issues as `status: ready` until they have enough details for someone to work on them.
   - Assignee:
     - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
-    - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://wiki.mathesar.org/en/community/contributing)
+    - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](/community/contributing)
+
+- If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
 
 ### Triage
 
