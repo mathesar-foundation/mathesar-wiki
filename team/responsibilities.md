@@ -2,7 +2,7 @@
 title: Ongoing responsibilities
 description: 
 published: true
-date: 2023-03-18T15:44:34.881Z
+date: 2023-03-27T09:23:21.069Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:19.560Z
@@ -23,6 +23,7 @@ dateCreated: 2023-03-16T23:16:19.560Z
 | [User feedback][4]      | ❕    | ♟️    | ❕   | ✅        | ♟️    | ❕    | ♟️     | ❕    | ❕   |
 | [Marketing][5]          | ❕    | ❕    | ❕   | ♟️        | ✅    | ❕    | ❕     | ♟️    | ♟️   |
 | [Installation help][6]  | ❕    | ♟️    | ❕   | ❕        | ❕    | ✅    | ♟️     | ❕    | ❕   |
+| [GSoC][7]               | ♟️    | ❕    | ✅   | ❕        | ❕    | ❕    | ❕     | ♟️    | ❕   |
 
 **See the [Projects](/projects.md) page for time-limited responsibilities.**
 
@@ -32,6 +33,7 @@ dateCreated: 2023-03-16T23:16:19.560Z
 [4]: ./responsibilities/user-feedback.md
 [5]: ./responsibilities/marketing.md
 [6]: ./responsibilities/installation-help.md
+[7]: ./responsibilities/gsoc.md
 
 Roles
 
