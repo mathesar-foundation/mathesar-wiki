@@ -2,40 +2,30 @@
 title: User Feedback Kickoff Project
 description: 
 published: true
-date: 2023-03-31T18:24:53.151Z
+date: 2023-03-31T18:49:27.200Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
 ---
 
-## Roles
+**Name**: User Feedback Kickoff
+**Status**: Draft
+**Theme**: User Feedback
 
-- **Owner**: Ghislaine
-  - **Helpers**: Brent, Kriti, Pavish
-- **Status**: Draft
-- **Problem**:
+## Team
+
+| Role                          | Assignee  | Notes                           |
+|-------------------------------|-----------|---------------------------------|
+| **Owner**                     | Ghislaine |                                 |
+| **Helper**                    | Brent     |                                 |
+| **Helper**                    | Kriti     |                                 |
+| **Helper**                    | Pavish    |
+
+## Problem
 
 We need a process to manage and categorize user feedback for easy access and reference, which will help the team improve new and existing features.
 
 We must also create templates for various feedback collection methods, identify and engage an initial group of users, and conduct calls and surveys to evaluate their effectiveness and overall impact on our product development.
-
-## Outcome
-
-- **Feedback Management**
-  - Processes and tools are established to manage user feedback.
-  - Feedback is categorized and tagged for easy access and reference.
-  - Feedback is openly available to the team.
-  
-- **Templates and Methods**
-  - Templates for emails are created to invite users to participate in calls and surveys.
-  - Templates for surveys, calls, and other feedback collection methods are created to gather feedback.
-
-- **User Engagement**
-  - An initial group of users is identified, contacted, and engaged in providing feedback through surveys and calls.
-  - Calls and surveys are conducted with users.
-
-- **Evaluation and Improvement**
-  - The effectiveness of calls and surveys is evaluated and improvements are made.
 
 ## Solution
 
@@ -47,9 +37,30 @@ We will establish a HackMD team called "User Feedback" to streamline note creati
 
 We will create templates for managing user feedback, calls, surveys, and email invitations, ensuring consistency and quality when gathering user feedback. These templates will be available within the HackMD "User Feedback" team.
 
+This includes:
+
+- **Feedback Capture Template:** A template for capturing user feedback from various channels, such as emails, calls, and surveys.
+  - **Social Listening Template:** A template for capturing user feedback from social listening. Mentions of Mathesar on Github, HackerNews, Twitter, Reddit, and other social media platforms will be captured here.
+- **Call Template:** A template for conducting calls with users.
+  - **Discovery Call Template:** A template for conducting discovery calls with users.
+  - **Onboarding Call Template:** A template for conducting onboarding calls with users.
+  - **Satisfaction Call Template:** A template for conducting satisfaction calls with users.
+  - **Feedback Follow-Up Call Template:** A template for conducting feedback follow-up calls with users.
+- **Survey Template:** A template for conducting surveys with users.
+  - **Discovery Survey Template:** A template for conducting discovery surveys with users.
+  - **Onboarding Survey Template:** A template for conducting onboarding surveys with users.
+  - **Satisfaction Survey Template:** A template for conducting satisfaction surveys with users.
+  - **Feedback Follow-Up Survey Template:** A template for conducting feedback follow-up surveys with users.
+
 ### 3. Develop Email Templates
 
 We will create templates for emails to invite users to participate in calls and surveys.
+
+This includes:
+
+- **Invitation Email Template:** A template for sending email invitations to users.
+- **Survey Email Template:** A template for sending survey emails to users.
+- **Feedback Follow-Up Email Template:** A template for sending feedback follow-up emails to users.
 
 ### 4. Identify and Engage Users for Feedback Collection
 
@@ -74,17 +85,17 @@ Some questions to consider:
 
 ## Timeline
 
-| Task                                          | Start Date  | End Date    |
-|-----------------------------------------------|-------------|-------------|
-| Set up HackMD "User Feedback" team           | 2023-03-23  | 2023-03-24  |
-| Develop feedback capture templates            | 2023-03-27  | 2023-03-28  |
-| Develop template for calls                    | 2023-03-31  | 2023-04-03  |
-| Develop template for email invitations        | 2023-04-04  | 2023-04-05  |
-| Develop surveys for users                     | 2023-04-06  | 2023-04-06  |
-| Identify and contact users for feedback       | 2023-04-10  | 2023-04-13  |
-| Schedule and conduct calls and surveys        | 2023-04-17  | 2023-04-18  |
-| Analyze and categorize survey answers and calls | 2023-04-19  | 2023-04-19  |
-| Evaluate and improve feedback collection methods | 2023-04-20  | 2023-04-20  |
+| Date       | Outcome                                             |
+|------------|-----------------------------------------------------|
+| 2023-03-23 | HackMD "User Feedback" team set up              |
+| 2023-03-27 | Feedback capture templates developed           |
+| 2023-03-04 | Template for calls developed                    |
+| 2023-04-05 | Template for email invitations developed        |
+| 2023-04-07 | Surveys for users developed                    |
+| 2023-04-10 | Users identified and contacted for feedback    |
+| 2023-04-17 | Calls and surveys scheduled and conducted      |
+| 2023-04-19 | Survey answers and calls analyzed and categorized |
+| 2023-04-20 | Feedback collection methods evaluated and improved |
 
 - **Risks**: TODO
 - **Issues**: TODO
