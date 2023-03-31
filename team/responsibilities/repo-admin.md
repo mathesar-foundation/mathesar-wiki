@@ -1,11 +1,11 @@
 ---
 title: Repo admin
-description:
+description: 
 published: true
-date: 2023-03-22T04:00:00
-tags:
+date: 2023-03-31T15:09:16.504Z
+tags: 
 editor: markdown
-dateCreated: 2023-03-22T04:00:00
+dateCreated: 2023-03-16T23:16:36.850Z
 ---
 
 # Team
@@ -58,7 +58,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
     - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](/community/contributing)
 
-- If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
+- If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
 
 ### Triage
 
