@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-03-29T12:19:34.365Z
+date: 2023-04-03T09:52:41.055Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -35,9 +35,20 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
   	- See [Who is responsible for a review](#who-is-responsible-for-a-review) section
   - See [Review instructions](#review-instructions) section
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
-	- No-early-issue-assigns rule means that a contributor can be assigned to an issue only when he has a PR that reached some kind of completion (merged or killed)
-	- Purpose is to maximize the number of issues candidates have available
-  - See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/hFU729n8xDE) for the edge case this opens up where multiple PRs for the same issue compete to be merged
+  - See [no-early-issue-assigns](#no-early-issue-assigns)
+	
+  
+## No early issue assigns
+
+No-early-issue-assigns rule means that a contributor can be assigned to an issue only when he has a PR that reached some kind of completion (merged or killed).
+
+See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/hFU729n8xDE) for the edge case this opens up where multiple PRs for the same issue compete to be merged
+
+- This rule should not be always applied; its purpose is to maximize the number of issues candidates have available; useful when number of issues available for candidates to prove themselves is low
+- This rule should only be applied when evaluating candidates
+- Note to admin, make sure to evaluate whether number of issues is indeed low
+- Note to admin, consider selecting a subset of issues to which this rule should apply
+	- E.g. in 2023 we had too few backend issues, but sufficient number of frontend issues
 
 
 ## All members
