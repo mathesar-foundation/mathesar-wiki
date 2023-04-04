@@ -2,7 +2,7 @@
 title: Establish User Feedback Tracking Process
 description: 
 published: true
-date: 2023-04-03T16:21:33.682Z
+date: 2023-04-04T20:05:47.803Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
@@ -85,19 +85,16 @@ Some questions to consider:
 
 ## Timeline
 
-| Date       | Outcome                                             |
-|------------|-----------------------------------------------------|
-| 2023-03-23 | HackMD "User Feedback" team set up              |
-| 2023-03-27 | Feedback capture templates developed           |
-| 2023-04-04 | Template for calls developed                    |
-| 2023-04-05 | Template for email invitations developed        |
-| 2023-04-07 | Surveys for users developed                    |
-| 2023-04-10 | Users identified and contacted for feedback    |
-| 2023-04-17 | Calls and surveys scheduled and conducted      |
-| 2023-04-19 | Survey answers and calls analyzed and categorized |
-| 2023-04-20 | Feedback collection methods evaluated and improved |
+| Date       | Outcome                                                  |
+|------------|----------------------------------------------------------|
+| 2023-03-23 | HackMD "User Feedback" team set up                       |
+| 2023-03-27 | Feedback capture templates developed                     |
+| 2023-04-04 | Template for calls developed                             |
+| 2023-04-05 | Template for email invitations developed                 |
+| 2023-04-10 | Surveys for users developed                              |
+| 2023-04-11 | Users identified and contacted for feedback              |
+| 2023-04-12 | Calls and surveys scheduled                              |
+| 2023-04-25 | Calls and surveys conducted                     					|
+| 2023-04-26 | Survey answers and calls analyzed and categorized        |
+| 2023-04-27 | Feedback collection methods evaluated and improved       |
 
-- **Risks**: TODO
-- **Issues**: TODO
-- **Themes**: TODO
-- **Wiki pages**: TODO
