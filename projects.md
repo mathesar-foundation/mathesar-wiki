@@ -17,16 +17,18 @@ dateCreated: 2023-03-15T20:52:26.598Z
 
 ## Current projects
 
-- [Funding](./projects/funding.md)
-- [Installation improvements](./projects/installation-improvements.md)
-- [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md)
-- [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md)
-- [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md)
-- [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md)
-- [Localization](./projects/localization.md)
-- [Feedback kickoff](./projects/user-feedback-kickoff.md)
-- [Frontend tables performance](./projects/frontend-tables-performance.md)
-- [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
+| Owner     | Project |
+| --        | -- |
+| Kriti     | [Funding](./projects/funding.md) |
+| Mukesh    | [Installation improvements](./projects/installation-improvements.md) |
+| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) |
+| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) |
+| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) |
+| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) |
+| Rajat     | [Localization](./projects/localization.md) |
+| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) |
+| Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) |
+| Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) |
 
 ## Future project ideas
 
