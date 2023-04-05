@@ -2,22 +2,37 @@
 title: Funding Project
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-04-05T16:31:52.354Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T20:52:39.192Z
 ---
 
-- **Roles**:
-    - **Owner**: Kriti
-    - **Helpers**: Mukesh, Sean
-- **Status**: Draft
-- **Problem**: TODO
-- **Outcome**: TODO
-- **Solution**: TODO
-- **Timeline**: TODO
-- **Risks**: TODO
-- **Issues**: TODO
-- **Themes**: TODO
-- **Wiki pages**: TODO
+**Name**: Raise additional funding for Mathesar
+**Status**: In progress
 
+## Team
+
+| Role | Assignee | Notes |
+|-|-|-|
+| **Owner** | Kriti | |
+| **Contributors** | Sean, Mukesh | Perform any tasks delegated by Kriti - research, writing, review, etc. |
+
+*This project doesn't have an Approver because Kriti approves most projects.*
+
+## Problem
+Mathesar is currently grant funded. Our plan is to be financially self-sustainable through sponsorships and offering Mathesar-related services, but we need additional grant funding to sustain us until that point.
+
+## Solution
+- Determine budget and financial needs for Mathesar from 2023-2025.
+- Investigate and apply to potential grants.
+- Get advice from relevant people to help with strategy, pitch, and grant applications.
+- Follow ups and additional tasks as needed.
+
+This is pretty high-level, since tasks will vary depending on the grant.
+
+## Risks
+- We have a limited runway, so timing is critical.
+
+## Timeline
+Since this depends on third-parties, we don't have a fixed timeline. This project will be updated when it's completed.
