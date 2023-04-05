@@ -2,7 +2,7 @@
 title: Raise additional funding for Mathesar
 description: 
 published: true
-date: 2023-04-05T16:32:13.093Z
+date: 2023-04-05T16:36:43.406Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:39.192Z
@@ -35,4 +35,4 @@ This is pretty high-level, since tasks will vary depending on the grant.
 - We have a limited runway, so timing is critical.
 
 ## Timeline
-Since this depends on third-parties, we don't have a fixed timeline. This project will be updated when it's completed.
+This project started in **mid-March 2023**. Since completion depends on third-parties, we don't have a fixed timeline. This project will be updated when it's completed.
