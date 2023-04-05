@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T16:15:25.500Z
+date: 2023-04-05T16:16:49.577Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -27,6 +27,7 @@ This document lists the responsibilities, related instructions and guidelines fo
 - Keep an eye on GSoC related deadlines and timelines
 - Follow up on requests from GSoC (e.g. filling out forms about impact of GSoC on Mathesar), since it builds goodwill
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed
+
 
 # Current phase
 
@@ -57,12 +58,14 @@ Starts 2023-04-04, ends 2023-04-27.
 	- During the ranking phase, candidates might still be making contributions, which might be useful when ranking their proposals
   - See [helping guidelines](#helping-guidelines)
 
+
 #### Owner
 
 - Facilitate final proposal ranking
 	- See [final proposal review](#final-proposal-review)
 - Make sure the rankings are submitted in a timely manner
 	- Consider attempting to balance that against doing final reviews late in the phase so that candidates have more time to make contributions
+
 
 # Previous phases
 
@@ -130,6 +133,7 @@ All of this is done in the [final proposal review spreadsheet](#final-proposal-r
 
 The final proposal rankings are derived by sorting the approved proposals on their overall scores.
 
+
 ## Draft proposal review
 
 ### Who is responsible for a review
@@ -137,6 +141,7 @@ The final proposal rankings are derived by sorting the approved proposals on the
 The primary mentor for a project is responsible for getting the project's draft proposals reviewed. Primary mentors are encouraged to delegate part of their work to the secondary mentors, but, until that's coordinated, the primary mentor is responsible for the proposal getting reviewed. Motivation for this rule is to prevent someone expecting the other mentor to step up without solicitation and thus resulting in delayed reviews.
 
 Who is currently responsible for a review is tracked in the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet).
+
 
 ### Internal draft proposal tracking spreadsheet
 
