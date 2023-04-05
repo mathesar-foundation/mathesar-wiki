@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T12:59:59.872Z
+date: 2023-04-05T15:00:01.236Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -14,8 +14,14 @@ Document made up of following major sections: [Responsibilities](#responsibiliti
 
 Normally, it should be enough to read what's appropriate for you in the *Responsibilities* section. There you'll probably find links for whatever might concern you in the *Details* section.
 
+# Phases
 
-# Team
+## Proposal phase
+
+Starts 2023-03-20, ends 2023-04-04.
+
+
+### Team
 
 | Role | Assignees |
 |-|-|
@@ -23,9 +29,10 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
 | **Candidate greeter/helper** | Anish, Rajat |
 
 
-# Responsibilities
+### Responsibilities
 
-## Everyone
+
+#### Everyone
 
 - Review draft proposals
 	- Do so in a timely manner
@@ -33,12 +40,12 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
   	- See [Internal draft proposal tracking spreadsheet](#who-is-responsible-for-a-review) section
   - Make sure that only a single mentor is responsible for a given review at any given time
   	- See [Who is responsible for a review](#who-is-responsible-for-a-review) section
-  - See [Review instructions](#review-instructions) section
+  - See [Review instructions](#draft-review-instructions) section
 - Enforce a no-early-issue-assigns rule during the GSoC proposals phase (ends April 4th)
   - See [no-early-issue-assigns](#no-early-issue-assigns)
 
 
-## All members
+#### All members
 
 - Perform greet/help daily
   - Greet, meaning notice new contributors and greet them
@@ -48,7 +55,7 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
  	- See [helping guidelines](#helping-guidelines) section
   
   
-## Owner
+#### Owner
 
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
@@ -69,6 +76,20 @@ Normally, it should be enough to read what's appropriate for you in the *Respons
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed.
 
+
+## Ranking phase
+
+Starts 2023-04-04, ends 2023-04-27.
+
+
+### Responsibilities
+
+#### Owner
+
+- Facilitate final proposal ranking
+- Facilitate candidates' late contributions
+	- during the ranking phase, candidates might still be making contributions, which might be useful when ranking their proposals
+
 # Details
 
 ## Draft proposal review
@@ -86,7 +107,7 @@ Who is currently responsible for a review is tracked in the [tracking spreadshee
 Do not remove rows from the spreadsheet. You might be tempted to do this for multiple review requests for the same person, but that would impede admin's ability to track the submit-review process: for example, the admin needs to know if certain proposals are waiting for a review for a long time, and if all but the most recent are removed, the admin doesn't know when it was first submitted; if you remove all but the oldest, the admin doesn't know that the candidate is making repeated review requests.
 
 
-### Review instructions
+### Draft review instructions
 
 1. Use the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) to tell which reviews you have pending
 2. Read the proposal and provide feedback via Google Doc comments
@@ -146,11 +167,12 @@ We track community events, including office hours, [on this Wiki page](https://w
   
 ## No early issue assigns
 
+This rule should not be always applied. Its purpose is to maximize the number of issues candidates have available. Useful when number of issues available for candidates to prove themselves is low.
+
 No-early-issue-assigns rule means that a contributor can be assigned to an issue only when he has a PR that reached some kind of completion (merged or killed).
 
 See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/core-team/c/hFU729n8xDE) for the edge case this opens up where multiple PRs for the same issue compete to be merged
 
-- This rule should not be always applied; its purpose is to maximize the number of issues candidates have available; useful when number of issues available for candidates to prove themselves is low
 - This rule should only be applied when evaluating candidates
 - Note to admin, make sure to evaluate whether number of issues is indeed low
 - Note to admin, consider selecting a subset of issues to which this rule should apply
