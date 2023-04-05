@@ -2,14 +2,14 @@
 title: Establish User Feedback Tracking Process
 description: 
 published: true
-date: 2023-04-04T20:05:47.803Z
+date: 2023-04-05T16:38:21.135Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
 ---
 
 **Name**: Establish User Feedback Tracking Process
-**Status**: Draft
+**Status**: In Progress
 **Theme**: User Feedback
 
 ## Team
