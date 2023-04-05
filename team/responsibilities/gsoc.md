@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T16:13:58.610Z
+date: 2023-04-05T16:15:25.500Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -10,9 +10,9 @@ dateCreated: 2023-03-23T17:40:32.478Z
 
 ## Introduction
 
-This document lists the responsibilities and related instructions and guidelines for a GSoC program. GSoC is made up of multiple phases, each of which have widely different responsibilities. This document is structured accordingly. [Phase-independent responsibilities](#phase-independent-responsibilities) are listed, then phase-dependent responsibilities are divided into whether it's the current phase, a previous phase, or an upcoming phase. Between phases, the GSoC team roles, membership and responsibilities are variant. The rest of the document is under the [Details](#details) section, which holds guides, links and instructions, and it's linked as needed from the responsibility lists.
+Quick summary: it should be enough for any reader wanting to know what their responsibilities are (and to read the related notes) to check their role descriptions under [Phase-independent responsibilities](#phase-independent-responsibilities) and [Current phase](#current-phase).
 
-It should be enough for any reader wanting to know what their responsibilities are (and to read the related notes) to check their role descriptions under [Phase-independent responsibilities](#phase-independent-responsibilities) and [Current phase](#current-phase).
+This document lists the responsibilities, related instructions and guidelines for a GSoC program. GSoC is made up of multiple phases, each of which have different responsibilities. This document is structured accordingly. [Phase-independent responsibilities](#phase-independent-responsibilities) are listed, then phase-dependent responsibilities are divided into whether it's the current phase, a previous phase, or an upcoming phase. Between phases, the GSoC team roles, membership and responsibilities are variant. The rest of the document is under the [Details](#details) section, which holds guides, links and instructions, and it's linked as needed from the responsibility lists.
 
 
 # Phase-independent responsibilities
