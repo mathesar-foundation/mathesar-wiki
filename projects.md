@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-03-27T09:24:13.018Z
+date: 2023-04-05T16:34:08.152Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -17,18 +17,19 @@ dateCreated: 2023-03-15T20:52:26.598Z
 
 ## Current projects
 
-| Owner     | Project |
-| --        | -- |
-| Kriti     | [Funding](./projects/funding.md) |
-| Mukesh    | [Installation improvements](./projects/installation-improvements.md) |
-| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) |
-| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) |
-| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) |
-| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) |
-| Rajat     | [Localization](./projects/localization.md) |
-| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) |
-| Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) |
-| Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) |
+| Owner     | Project | Status
+| --        | -- | -- |
+| Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
+| Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
+| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In review |
+| Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
+| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Draft |
+| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
+| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
+| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
+| Rajat     | [Localization](./projects/localization.md) | Draft |
+| Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
+
 
 ## Future project ideas
 
