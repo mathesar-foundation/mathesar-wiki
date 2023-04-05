@@ -1,8 +1,8 @@
 ---
-title: Funding Project
+title: Raise additional funding for Mathesar
 description: 
 published: true
-date: 2023-04-05T16:31:52.354Z
+date: 2023-04-05T16:32:13.093Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:39.192Z
