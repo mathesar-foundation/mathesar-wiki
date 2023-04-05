@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T16:16:49.577Z
+date: 2023-04-05T16:19:12.035Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -25,8 +25,10 @@ This document lists the responsibilities, related instructions and guidelines fo
 	- All our [Mentoring](https://wiki.mathesar.org/en/community/mentoring) documentation and policies
 - Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items
 - Keep an eye on GSoC related deadlines and timelines
+	- See [Calendar](#calendar)
 - Follow up on requests from GSoC (e.g. filling out forms about impact of GSoC on Mathesar), since it builds goodwill
 - Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed
+	- See [Periodic process reviews and reports](#periodic-process-reviews-and-reports)
 
 
 # Current phase
