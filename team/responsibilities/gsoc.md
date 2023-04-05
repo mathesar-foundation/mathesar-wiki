@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T15:00:01.236Z
+date: 2023-04-05T16:13:58.610Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -10,11 +10,61 @@ dateCreated: 2023-03-23T17:40:32.478Z
 
 ## Introduction
 
-Document made up of following major sections: [Responsibilities](#responsibilities), [Details](#details). *Responsibilities* should be self-explanatory. The *Details* section, holds a fair amount of guides and resources, including a [calendar](#calendar) with various related deadlines and tasks.
+This document lists the responsibilities and related instructions and guidelines for a GSoC program. GSoC is made up of multiple phases, each of which have widely different responsibilities. This document is structured accordingly. [Phase-independent responsibilities](#phase-independent-responsibilities) are listed, then phase-dependent responsibilities are divided into whether it's the current phase, a previous phase, or an upcoming phase. Between phases, the GSoC team roles, membership and responsibilities are variant. The rest of the document is under the [Details](#details) section, which holds guides, links and instructions, and it's linked as needed from the responsibility lists.
 
-Normally, it should be enough to read what's appropriate for you in the *Responsibilities* section. There you'll probably find links for whatever might concern you in the *Details* section.
+It should be enough for any reader wanting to know what their responsibilities are (and to read the related notes) to check their role descriptions under [Phase-independent responsibilities](#phase-independent-responsibilities) and [Current phase](#current-phase).
 
-# Phases
+
+# Phase-independent responsibilities
+
+## Owner
+
+- Be an org admin for GSoC
+- Be extremely familiar with the GSoC program, including
+	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
+	- All our [Mentoring](https://wiki.mathesar.org/en/community/mentoring) documentation and policies
+- Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items
+- Keep an eye on GSoC related deadlines and timelines
+- Follow up on requests from GSoC (e.g. filling out forms about impact of GSoC on Mathesar), since it builds goodwill
+- Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed
+
+# Current phase
+
+## Ranking phase
+
+Starts 2023-04-04, ends 2023-04-27.
+
+
+### Team
+
+| Role | Assignees |
+|-|-|
+| **Owner** (aka **Admin**) | Dominykas |
+| **Candidate helper** | Anish, Rajat, Dominykas |
+
+
+### Responsibilities
+
+#### Mentors
+
+- Participate in final proposal review when requested by the owner
+	- See [final proposal review](#final-proposal-review)
+
+
+#### Candidate helper
+
+- Help candidates with their late contributions
+	- During the ranking phase, candidates might still be making contributions, which might be useful when ranking their proposals
+  - See [helping guidelines](#helping-guidelines)
+
+#### Owner
+
+- Facilitate final proposal ranking
+	- See [final proposal review](#final-proposal-review)
+- Make sure the rankings are submitted in a timely manner
+	- Consider attempting to balance that against doing final reviews late in the phase so that candidates have more time to make contributions
+
+# Previous phases
 
 ## Proposal phase
 
@@ -26,7 +76,7 @@ Starts 2023-03-20, ends 2023-04-04.
 | Role | Assignees |
 |-|-|
 | **Owner** (aka **Admin**) | Dominykas |
-| **Candidate greeter/helper** | Anish, Rajat |
+| **Candidate greeter/helper** | Anish, Rajat, Dominykas |
 
 
 ### Responsibilities
@@ -45,11 +95,12 @@ Starts 2023-03-20, ends 2023-04-04.
   - See [no-early-issue-assigns](#no-early-issue-assigns)
 
 
-#### All members
+#### Candidate greeter/helpers
 
 - Perform greet/help daily
   - Greet, meaning notice new contributors and greet them
-  - Help, meaning respond to requests for help
+  - Help, meaning respond to requests for help or guidance
+  	- On Matrix and Github
 	- See [greet/help schedule](#greethelp-schedule) section
  	- See [greeting instructions](#greeting-instructions) section
  	- See [helping guidelines](#helping-guidelines) section
@@ -57,40 +108,27 @@ Starts 2023-03-20, ends 2023-04-04.
   
 #### Owner
 
-- Be an org admin for GSoC
-- Be extremely familiar with the GSoC program, including
-	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
-	- All our [Mentoring](https://wiki.mathesar.org/en/community/mentoring) documentation and policies
-- Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items.
-- Keep an eye on GSoC related deadlines and timelines.
 - Monitor GSoC draft applications and ensure they all get reviewed in a timely manner.
 	- Follow up with other team members as needed.
-- Facilitate a process of selecting GSoC students and projects once final applications are in.
-	- e.g. see [this spreadsheet from last year](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8/edit#gid=1794943298).
-- Keep track of comments on new issues and assign issues to people when they ask.
-	- The rest of the team should mostly be doing this, but it’s good to keep an eye on it.
 - Keep track of issues that have already been assigned and un-assign them after 7 days of inactivity.
 	- Anish is doing this, but it’s good to keep an eye on this.
 	- https://github.com/orgs/centerofci/projects/1/views/42 may be helpful, it sorts by last activity.
-- Follow up on requests from GSoC (e.g. filling out forms about impact of GSoC on Mathesar), since it builds goodwill
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
-- Generally keep an eye on GSoC process efficiency and make improvements to processes or documentation as needed.
 
-
-## Ranking phase
-
-Starts 2023-04-04, ends 2023-04-27.
-
-
-### Responsibilities
-
-#### Owner
-
-- Facilitate final proposal ranking
-- Facilitate candidates' late contributions
-	- during the ranking phase, candidates might still be making contributions, which might be useful when ranking their proposals
 
 # Details
+
+## Final proposal review
+
+Performed in two passes.
+
+First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner.
+
+Second pass is where the mentors evaluate proposals for the projects they are mentoring.
+
+All of this is done in the [final proposal review spreadsheet](#final-proposal-review-spreadsheet).
+
+The final proposal rankings are derived by sorting the approved proposals on their overall scores.
 
 ## Draft proposal review
 
@@ -181,8 +219,8 @@ See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/co
 
 ## Final proposal review spreadsheet
 
-- [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
-- [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
+- Current [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
+- Archived [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
 
 
 ## Calendar
