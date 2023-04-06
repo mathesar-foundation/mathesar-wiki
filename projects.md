@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-04-05T16:34:08.152Z
+date: 2023-04-06T13:51:45.233Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -23,6 +23,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In review |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
+| Pavish    | [Release v0.1.2](./projects/release-0-1-2) | In progress |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Draft |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
 | Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
