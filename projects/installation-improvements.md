@@ -2,7 +2,7 @@
 title: Installation Improvements Project
 description: 
 published: true
-date: 2023-03-21T15:53:03.459Z
+date: 2023-04-06T19:19:09.541Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -15,9 +15,8 @@ dateCreated: 2023-03-15T20:52:47.673Z
     - **Helpers**: Brent, Pavish
 - **Status**: Draft
 - **Problem**: Our users want to install Mathesar on various infrastructures. They find our current installation script `install.sh` to be pretty limiting.
-- **Outcome**: Our installation process will have less number of steps, which will make it easier for Users to install Mathesar without using our `install.sh` script. Users will also have documentation/reference scripts to help them install Mathesar on various infrastructure.
+- **Outcome**: Our installation process will have less number of steps, which will make it easier for Users to install Mathesar without using our `install.sh` script.
 - **Solution**: 
-	- Improve documentation for installing Mathesar on various platforms and infrastructure
 	- Move certain installation steps into the Mathesar UI.
 - **Timeline**: TODO
 - **Issues**: 
