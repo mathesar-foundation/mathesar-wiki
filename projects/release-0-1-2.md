@@ -2,7 +2,7 @@
 title: Release v0.1.2
 description: 
 published: true
-date: 2023-04-06T15:03:50.547Z
+date: 2023-04-06T15:04:15.655Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T13:47:41.302Z
@@ -26,7 +26,7 @@ dateCreated: 2023-04-06T13:47:41.302Z
 | **Owner** | Pavish | |
 | **Approver - Project plan** | Kriti | *Needs to approve project plan* |
 | **Contributor - Design** | Ghislaine | *Creates designs for 'switching user databases'* |
-| **Contributors - Design review** | Kriti, Sean, Pavish | *Reviews UX design* |
+| **Contributors - Design review** | Sean, Pavish, Kriti (final approval) | *Reviews UX design* |
 | **Contributor - Frontend** | Pavish | *Implements frontend for 'switching user databases' and works on any critical frontend issue that might come up during the release cycle* |
 | **Contributor - Frontend review** | Sean | *Reviews frontend code* |
 | **Contributor - Backend** | Dominykas | *Ensures 'switching user databases' works as expected and works on any crticial backend issue that might come up during the release cycle* |
