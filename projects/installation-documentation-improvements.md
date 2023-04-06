@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-06T19:15:47.704Z
+date: 2023-04-06T19:19:50.408Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -10,7 +10,7 @@ dateCreated: 2023-04-06T19:15:47.704Z
 
 **Name**: Improve Mathesar Installation documentation
 **Status**: In review
-**Theme**: Installation Improvements
+**Theme**: User Experience and growth
 
 ## Team
 
