@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-06T23:03:26.180Z
+date: 2023-04-06T23:04:25.141Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -10,19 +10,18 @@ dateCreated: 2023-04-06T19:15:47.704Z
 
 **Name**: Improve Mathesar Installation documentation
 **Status**: In review
-**Theme**: User Experience and growth
 
 ## Team
 
-| Role                                   | Assignee                                 | Notes                                                                      |
-|----------------------------------------|------------------------------------------|----------------------------------------------------------------------------|
-| **Owner**                              | Kriti                                    |                                                                            |
-| **Approver (project plan)**            | Kriti                                    | *Needs to approve project plan*                                            |
-| **Contributor (requirements)**         | Mukesh                                   | *Creates GitHub issues*                                                    |
-| **Contributor (documentation)**        | Mukesh                                   | *Creates Documentation*                                                    |
-| **Contributor (documentation review)** | Dom, Marius                              | *Reviews documentation*                                                    |
-| **Contributor (Testing)**              | Contributors from Upwork(yet to be hired) | *Test out the instructions from the documentation and make sure they work* |
-| **Contributor (Hiring)**               | Kriti                                    | *Hire contributors from Upwork to help with testing*                       |
+| Role                                   | Assignee                                          | Notes                                                                      |
+|----------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------|
+| **Owner**                              | Kriti                                             |                                                                            |
+| **Approver (project plan)**            | Kriti                                             | *Needs to approve project plan*                                            |
+| **Contributor (requirements)**         | Mukesh                                            | *Creates GitHub issues*                                                    |
+| **Contributor (documentation)**        | Mukesh                                            | *Creates Documentation*                                                    |
+| **Contributor (documentation review)** | Pavish, Marius (contractor)                       | *Reviews documentation*                                                    |
+| **Contributor (Testing)**              | Pavish, Contributors from Upwork(yet to be hired) | *Test out the instructions from the documentation and make sure they work* |
+| **Contributor (Hiring)**               | Kriti                                             | *Hire contributors from Upwork to help with testing*                       |
 
 ## Problem
 * Users are trying to use Mathesar with various setups and our installation documentation is lacking information to help them with it
@@ -58,8 +57,7 @@ This project should take **2 weeks** and additionally **2 weeks** for testing, s
 | Date       | Outcome                                                                                                                                                                     |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2023-04-10 | Work starts                                                                                                                                                                 | 
-| 2023-04-10 | Advertisement for testers on Upwork                                                                                                                                         |
 | 2023-04-12 | Testing + Review of the PRs starts in parallel                                                                                                                              |
 | 2023-04-14 | PR ready for all the issues in the meta issue #2789 except [Allow users to install Mathesar without Docker (on Debian)](https://github.com/centerofci/mathesar/issues/2427) |
 | 2023-04-20 | PR for all issues in the meta issue #2789 should be in review state                                                                                                         |
-| 2023-05-05  | Testing, review, addressing review complete                                                                                                                                 |
+| 2023-05-05 | Testing, review, addressing review complete                                                                                                                                 |
