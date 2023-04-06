@@ -1,8 +1,8 @@
 ---
-title: Release 0.1.2
+title: Release v0.1.2
 description: 
 published: true
-date: 2023-04-06T13:47:41.303Z
+date: 2023-04-06T13:50:27.098Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T13:47:41.302Z
@@ -14,10 +14,10 @@ dateCreated: 2023-04-06T13:47:41.302Z
 ## Introduction
 * This project is a collection of items needed for v0.1.2 release.
 * Primary focus of v0.1.2:
-  - [Installation improvements](https://wiki.mathesar.org/en/projects/installation-improvements.md)
+  - [Installation improvements](./installation-improvements.md)
   - Ability to switch user databases
   - Fixes and improvements based on user raised issues/bugs
-* The spec for Installation improvements is [tracked separately](https://wiki.mathesar.org/en/projects/installation-improvements.md) as it is a project of it's own.
+* The spec for Installation improvements is [tracked separately](./installation-improvements.md) as it is a project of it's own.
 * The team should prioritize release items assigned to them until the release is complete.
 
 ## Team
