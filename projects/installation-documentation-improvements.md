@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-06T19:19:50.408Z
+date: 2023-04-06T19:35:49.360Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -36,13 +36,13 @@ dateCreated: 2023-04-06T19:15:47.704Z
 
 
 ## Solution
-- Add Documentation for setting up Mathesar with the Mathesar Service Docker Image. Fixes Problem[a]
-- Add Documentation for installing Mathesar without using install.sh. Fixes Problem[b] and [c]
-- Documenting our config files so user can manually edit them. Fixes Problem[d]
-- Documenting setting up Mathesar without Docker. Fixes Problem[e]
-- Documenting upgrades and changes in UI to add instructions for non-docker-compose environments
-- Document limitations involved with the installation script. Auxiallary fix for Problem[b] and [c]
-- Separate docker-compose file for production[f]
+- [Add Documentation for setting up Mathesar with the Mathesar Service Docker Image](https://github.com/centerofci/mathesar/issues/2783). Fixes Problem[a]
+- [Add Documentation for installing Mathesar without using install.sh](https://github.com/centerofci/mathesar/issues/2761). Fixes Problem[b] and [c]
+- [Documenting our config files so user can manually edit them](/en/projects/installation-documentation-improvements)https://github.com/centerofci/mathesar/issues/2784). Fixes Problem[d]
+- [Documenting setting up Mathesar without Docker](https://github.com/centerofci/mathesar/issues/2427). Fixes Problem[e]
+- [Document upgrade instructions for non-docker-compose environments](https://github.com/centerofci/mathesar/issues/2785)
+- [Document limitations involved with the installation script](https://github.com/centerofci/mathesar/issues/2787). Auxiallary fix for Problem[b] and [c]
+- [Separate docker-compose file for production](https://github.com/centerofci/mathesar/issues/2788). Fixes Problem[f]
 
 ## Risks
 - There are unknowns with testing since we’re hiring external people, which might affect the timeline.
