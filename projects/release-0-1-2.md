@@ -2,7 +2,7 @@
 title: Release v0.1.2
 description: 
 published: true
-date: 2023-04-06T13:50:27.098Z
+date: 2023-04-06T13:51:25.879Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T13:47:41.302Z
@@ -57,6 +57,7 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 - **Milestone**: [v0.1.2](https://github.com/centerofci/mathesar/milestone/68)
 
 ## Timeline
-* The maximum time allocated for the release will be **16 working days**.
-* Based on schedules of everyone involved, the starting date will be **2023-04-10**, which marks the deadline to be **2025-05-01**. This includes a buffer period of 4 working days.
 * The timeline will be updated with more details once the [Installation improvements project](https://wiki.mathesar.org/en/projects/installation-improvements.md) is specced out and approved.
+* Tentative deadline:
+  * The maximum time allocated for the release will be **16 working days**.
+  * Based on schedules of everyone involved, the starting date will be **2023-04-10**, which marks the deadline to be **2025-05-01**. This includes a buffer period of 4 working days.
