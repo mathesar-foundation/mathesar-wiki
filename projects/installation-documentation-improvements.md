@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-06T19:35:49.360Z
+date: 2023-04-06T21:15:51.082Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -62,4 +62,4 @@ This project should take **2 weeks** and additionally **2 weeks** for testing, s
 | 2023-04-12 | Testing + Review of the PRs starts in parallel                                                                                                                              |
 | 2023-04-14 | PR ready for all the issues in the meta issue #2789 except [Allow users to install Mathesar without Docker (on Debian)](https://github.com/centerofci/mathesar/issues/2427) |
 | 2023-04-20 | PR for all issues in the meta issue #2789 should be in review state                                                                                                         |
-| 2023-05-5  | Testing, review, addressing review complete                                                                                                                                 |
+| 2023-05-05  | Testing, review, addressing review complete                                                                                                                                 |
