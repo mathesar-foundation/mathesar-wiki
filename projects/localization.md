@@ -23,15 +23,15 @@ dateCreated: 2023-03-15T00:00:00.000Z
 
 ## Problem
 
-Currently, Mathesar has hardcoded English strings and only works for the English language. It should be enabled to support any language.
+Currently, Mathesar's codebase has hardcoded English strings and only works for the English language. It should be enabled to support any language.
 
 ## Solution
 
-### Language Detection
+### Language Detection & Language Switcher
 
-_TODO_
+The `selected_language` will be stored inside the DB and sent to the front end inside the `common_data`. For a particular user when there is no `selected_language` stored, the backend will detect the language from `Accept-Language` HTTP header with a fallback to `en`.
 
-**Language Switcher**
+The logged-in user will have a language switcher with a list of all of the currently supported languages by Mathesar. This option will be provided on the user profile page available at `/profile` path. Selecting a new language from here will make an API call to the backend to update the `selected_language` in the DB.
 
 ### Translations
 
@@ -41,7 +41,7 @@ We will be using the [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n)
 
 **Translation inside the components**
 
-The [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n) library's [svelte adapter](https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/adapter-svelte) setups stores to store translations strings, locale, etc. The two main stores are:
+The [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n) library's [svelte adapter](https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/adapter-svelte) sets up svelte stores to store the translations strings, locale, etc. The two main stores are:
 
 1. `LL` to translate strings inside a component. `{$LL.HELLO({ name: 'world' })}`.
 2. `locale` to get the current locale. `$locale`
@@ -51,7 +51,7 @@ It also exports a function to update the locale in the store.
 
 **Where will the translation file be stored?**
 
-Translations files will be stored in the frontend repo. The structure will be:
+Translations files will be stored inside `mathesar_ui`. The structure will be:
 
 ```
 i18n
@@ -76,10 +76,10 @@ The [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n) library supports
 
 **Server-side rendered pages**
 
-Our application has a few pages being rendered by the Django templating engine. To support localization in these templates there are two ways
+Our application has a few pages being rendered by the Django templating engine. To support localization in these templates there are two ways:
 
 1. Django already has good support for [translations](https://docs.djangoproject.com/en/4.1/topics/i18n/translation/#compiling-message-files). It also has the utilities for generating message files for new languages and compiling the translated message files back. In this method, we use the same message/compiled files to store the translations for both the server-side rendered pages as well as the client-side rendered pages. In this way, we lose the type-aware capabilities of the typesafe-i18n lib.
-2. Another approach is to separate the translation files for the server and the client. The only reason why this approach could be feasible is that we have very minimal translatable strings on the server(only the non-auth pages). But this approach lets us leverage the type-aware capabilities of the typesafe-i18n lib. We can also have some Github checks using Github actions to warn if we somehow forgot to translate the server string and only translated the client strings.
+2. Another approach is to separate the translation files for the server and the client. The only reason why this approach could be feasible is that we have very minimal translatable strings on the server(only the non-auth pages) and don't plan to have more in the future. But this approach lets us leverage the type-aware capabilities of the typesafe-i18n lib. We can also have some Github checks using Github actions to warn if we somehow forgot to translate the server string and only translated the client strings when adding translations for a new language.
 
 I suggest the second approach. I can write it in more detail once we finalize the approach.
 
@@ -96,7 +96,7 @@ There is one more approach called the "Hybrid approach" where to avoid getting h
 
 ### Localized URLs
 
-Generally seems very rare. There are problems like checking URLs for unsupported symbols, the complexity of the routes and code, broken links, and having the slugs for all supported locales at any particular point in time.
+Generally seems to be used very rarely. There are problems like checking URLs for unsupported symbols, the complexity of the routes and code, broken links, and having the slugs for all supported locales at all times in the codebase.
 Hence, is out of the scope of this project.
 
 ### Other libraries considered & reasons for rejections
@@ -117,7 +117,9 @@ Plugin for VS code: https://github.com/lokalise/i18n-ally
 
 ## Timeline
 
-This project should take 4 weeks.
+This project should take 3 weeks of frontend effort and 1 week of backend effort which can be done in parallel. Hence a total of 3 weeks for completion.
+
+A detailed timeline can be added once the proposal is approved and a start date is finalized.
 
 ## Risks
 
