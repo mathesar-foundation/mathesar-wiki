@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-03-21T16:57:34.586Z
+date: 2023-04-09T15:40:55.603Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -50,6 +50,7 @@ This section serves as a handbook for people working on these responsibilities.
     - This approval requirement will be removed once we have better guidelines for responding to people.
 - **If Mathesar is mentioned on Twitter**: 
   - Re-tweet it from our account and/or thank them for the shoutout.
+  - Only re-tweet if the tweet appears to be from a real person or organization. Do not re-tweet bot accounts (e.g. "First Issues Bot").
 - **If a comment or post can be considered user feedback**:
   - Please flag it to the owner of the [user feedback](/en/team/responsibilities/user-feedback) responsibility.
 
