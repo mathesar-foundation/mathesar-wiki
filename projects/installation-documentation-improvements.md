@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-06T23:04:25.141Z
+date: 2023-04-10T12:28:34.978Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -51,13 +51,16 @@ dateCreated: 2023-04-06T19:15:47.704Z
 - **Issues**: [GitHub meta issue](https://github.com/centerofci/mathesar/issues/2789)
 
 ## Timeline
-This project should take **2 weeks** and additionally **2 weeks** for testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
+This project should take **3 weeks** for the features to be implemented, tested, reviewed and additionally **1 weeks** for final testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
 
 
-| Date       | Outcome                                                                                                                                                                     |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2023-04-10 | Work starts                                                                                                                                                                 | 
-| 2023-04-12 | Testing + Review of the PRs starts in parallel                                                                                                                              |
-| 2023-04-14 | PR ready for all the issues in the meta issue #2789 except [Allow users to install Mathesar without Docker (on Debian)](https://github.com/centerofci/mathesar/issues/2427) |
-| 2023-04-20 | PR for all issues in the meta issue #2789 should be in review state                                                                                                         |
-| 2023-05-05 | Testing, review, addressing review complete                                                                                                                                 |
+| Date       | Outcome                                                                                                                                                                                                                                       |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2023-04-10 | Work starts                                                                                                                                                                                                                                   | 
+| 2023-04-12 | Review of the PRs starts in parallel                                                                                                                                                                                                          |
+| 2023-04-17 | PR ready for all the issues in the meta issue #2789 except [Allow users to install Mathesar without Docker (on Debian)](https://github.com/centerofci/mathesar/issues/2427)                                                                   |
+| 2023-04-17 | Feedback + Testing(both done by the testing team) for merged documentation PRs starts in parallel. This ensures the documentation can be understood and works with various scenarios and user segments(technical users, less technical users) |
+| 2023-04-21 | PR for all issues in the meta issue #2789 should be in review state.                                                                                                                                                                          |
+| 2023-04-28 | All the PRs in #2789 are merged. #2789 will still be open in order to address any issues found during the Final testing done in the next step.                                                                                                |
+| 2023-04-28 | Final Testing starts. The documentation would already been tested to a good extent at this point. The final testing ensures there is no change is needed(very minimal if any)                                                                 |
+| 2023-05-05 | Final Testing, review, addressing review complete                                                                                                                                                                                             |
