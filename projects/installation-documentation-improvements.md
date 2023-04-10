@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-10T20:03:50.068Z
+date: 2023-04-10T21:21:27.106Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -15,11 +15,13 @@ dateCreated: 2023-04-06T19:15:47.704Z
 
 | Role                                   | Assignee                                          | Notes                                                                      |
 |----------------------------------------|---------------------------------------------------|----------------------------------------------------------------------------|
-| **Owner**                              | Kriti                                             |                                                                            |
+| **Owner**                              | Mukesh                                            |                                                                            |
 | **Approver (project plan)**            | Kriti                                             | *Needs to approve project plan*                                            |
+| **Approver (project plan)**            | Brent                                             | *Needs to approve project plan*                                            |
 | **Contributor (requirements)**         | Mukesh                                            | *Creates GitHub issues*                                                    |
 | **Contributor (documentation)**        | Mukesh                                            | *Creates Documentation*                                                    |
-| **Contributor (documentation review)** | Pavish, Marius (contractor)                       | *Reviews documentation*                                                    |
+| **Contributor (documentation review first pass)** | Pavish, Marius (contractor)            | *Reviews documentation and the docker-compose code changes*                |
+| **Contributor (documentation review second pass)** | Kriti                                 | *Reviews documentation after Pavish and Marius have reviewed it*           |  
 | **Contributor (Testing)**              | Pavish, Contributors from Upwork(yet to be hired) | *Test out the instructions from the documentation and make sure they work* |
 | **Contributor (Hiring)**               | Kriti                                             | *Hire contributors from Upwork to help with testing*                       |
 
@@ -51,7 +53,7 @@ dateCreated: 2023-04-06T19:15:47.704Z
 - **Issues**: [GitHub meta issue](https://github.com/centerofci/mathesar/issues/2789)
 
 ## Timeline
-This project should take **3 weeks** for the features to be implemented, tested, reviewed and additionally **1 week** for final testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
+This project should take **3 weeks** for the features to be implemented, tested, reviewed and additionally **1 weeks** for final testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
 
 
 | Date       | Outcome                                                                                                                                                                                                                                                          |
