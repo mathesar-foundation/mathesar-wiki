@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-04-10T19:38:48.102Z
+date: 2023-04-10T19:39:53.393Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -58,9 +58,13 @@ This section serves as a handbook for people working on these responsibilities.
 - Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](./marketing/history.md) page
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 
-### Make announcements
-- Tweet when we publish a new release, with some highlights from release notes
-- **TODO: also figure out where / how to post on Reddit for new releases**
+### Make release announcements
+Release announcements should include highlights from release notes.
+
+- Post a message in the `Mathesar - General` channel on Matrix announcing the release
+- Post a message to the developers and users mailing lists announcing the release
+- Tweet when we publish a new release, with some 
+- *TODO: also figure out where / how to post on Reddit for new releases*
 
 ## Website helpers
 - Implement changes to the website as requested by the owner.
