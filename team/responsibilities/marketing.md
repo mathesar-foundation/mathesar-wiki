@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-04-09T15:40:55.603Z
+date: 2023-04-10T19:35:26.503Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -13,7 +13,7 @@ dateCreated: 2023-03-16T23:16:28.309Z
 | Role | Assignees |
 |-|-|-|
 | **Owner** | Kriti |
-| **Monitoring helpers** | Rajat, Sean |
+| **Social media helpers** | Rajat, Sean |
 | **Website helpers** | Ghislaine, Sean |
 | **Aggregation helpers** | Rajat, Ghislaine |
 
@@ -31,7 +31,7 @@ This section serves as a handbook for people working on these responsibilities.
 - Manage changes to Mathesar.org, delegate tasks as needed.
 - Review all external comms.
 
-## Monitoring helpers
+## Social media helpers
 
 ### Respond to Syften notifications
 - **If Mathesar is mentioned**:
@@ -57,6 +57,9 @@ This section serves as a handbook for people working on these responsibilities.
 ### Document noteworthy publicity
 - Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](./marketing/history.md) page
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
+
+### Make announcements
+- Tweet when we publish a new release, with some highlights from release notes
 
 ## Website helpers
 - Implement changes to the website as requested by the owner.
