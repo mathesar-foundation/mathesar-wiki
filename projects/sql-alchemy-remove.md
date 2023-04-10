@@ -2,10 +2,10 @@
 title: Remove SQLAlchemy from codebase
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-04-10T14:09:20.320Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-23T08:31:09.062Z
 ---
 
 - **Name**: Remove SQLAlchemy from codebase
@@ -18,7 +18,6 @@ dateCreated: 2023-03-15T00:00:00.000Z
 |--------------------------------|----------|-----------------------------------------------------|
 | **Owner**                      | Brent    |                                                     |
 | **Approver (project plan)**    | Kriti    | *Needs to approve project plan*                     |
-| **Approver (backend)**         | Dom      | *Needs to approve back end spec*                    |
 | **Approver (backend)**         | Brent    | *Needs to approve back end spec*                    |
 | **Contributor (requirements)** | Brent    | *Creates product spec, requirements, GitHub issues* |
 | **Contributor (requirements)** | Dom      | *Creates product spec, requirements, GitHub issues* |
