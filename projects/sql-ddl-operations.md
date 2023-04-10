@@ -2,7 +2,7 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-03-24T09:02:28.804Z
+date: 2023-04-10T14:11:43.471Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:13.306Z
@@ -18,7 +18,6 @@ dateCreated: 2023-03-23T08:31:13.306Z
 |--------------------------------|----------|-----------------------------------------------------|
 | **Owner**                      | Brent    |                                                     |
 | **Approver (project plan)**    | Kriti    | *Needs to approve project plan*                     |
-| **Approver (backend)**         | Dom      | *Needs to approve back end spec*                    |
 | **Approver (backend)**         | Brent    | *Needs to approve back end spec*                    |
 | **Contributor (requirements)** | Brent    | *Creates product spec, requirements, GitHub issues* |
 | **Contributor (requirements)** | Dom      | *Creates product spec, requirements, GitHub issues* |
