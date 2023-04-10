@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-04-10T19:39:53.393Z
+date: 2023-04-10T19:40:31.246Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -59,11 +59,11 @@ This section serves as a handbook for people working on these responsibilities.
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 
 ### Make release announcements
-Release announcements should include highlights from release notes.
+Release announcements should include highlights from release notes. We should avoid the announcements following a template because people tend to ignore repetitive things.
 
 - Post a message in the `Mathesar - General` channel on Matrix announcing the release
 - Post a message to the developers and users mailing lists announcing the release
-- Tweet when we publish a new release, with some 
+- Tweet when we publish a new release
 - *TODO: also figure out where / how to post on Reddit for new releases*
 
 ## Website helpers
