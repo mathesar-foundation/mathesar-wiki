@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-04-10T19:35:26.503Z
+date: 2023-04-10T19:38:48.102Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -60,6 +60,7 @@ This section serves as a handbook for people working on these responsibilities.
 
 ### Make announcements
 - Tweet when we publish a new release, with some highlights from release notes
+- **TODO: also figure out where / how to post on Reddit for new releases**
 
 ## Website helpers
 - Implement changes to the website as requested by the owner.
