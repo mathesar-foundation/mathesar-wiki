@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2023-04-03T14:57:30.893Z
+date: 2023-04-10T15:36:00.136Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -23,6 +23,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Airtable](https://airtable.com/)
 - [SeaTable](https://seatable.io/)
 - [Google Tables](https://tables.area120.google.com)
+- [Microsoft Lists](https://www.microsoft.com/en-us/microsoft-365/microsoft-lists)
 - [Rows](https://rows.com/)
 - [TogetherDB](https://togetherdb.com/)
 - [Ultorg](https://www.ultorg.com/)
