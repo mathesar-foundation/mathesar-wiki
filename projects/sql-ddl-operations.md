@@ -2,7 +2,7 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-04-10T14:11:43.471Z
+date: 2023-04-10T19:57:31.157Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:13.306Z
@@ -39,7 +39,7 @@ All of these problems are related to the fact that we're building the SQL querie
 ## Solution
 
 ### Create DDL functions in database
-Create a function for each desired DDL operation on the databse using SQL or PL/pgSQL.
+Create a function for each desired DDL operation on the database using SQL or PL/pgSQL.
 - Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss.
 - Each such function should have a main implementation which uses the most reasonable signature for the task at hand.
 
