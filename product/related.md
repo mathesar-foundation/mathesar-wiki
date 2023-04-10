@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2023-04-10T15:36:00.136Z
+date: 2023-04-10T15:36:15.892Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -26,10 +26,12 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Microsoft Lists](https://www.microsoft.com/en-us/microsoft-365/microsoft-lists)
 - [Rows](https://rows.com/)
 - [TogetherDB](https://togetherdb.com/)
-- [Ultorg](https://www.ultorg.com/)
 - [Teamdesk](https://www.teamdesk.net/)
 - [ApptiveGrid](https://en.apptivegrid.de/)
 - [Plato](https://www.plato.io/)
 - [Outerbase](https://outerbase.com/)
 - [Retable](https://www.retable.io)
 - [Retool Database](https://retool.com/products/database)
+
+## Desktop
+- [Ultorg](https://www.ultorg.com/)
