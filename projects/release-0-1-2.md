@@ -2,7 +2,7 @@
 title: Release v0.1.2
 description: 
 published: true
-date: 2023-04-10T14:27:51.425Z
+date: 2023-04-10T14:29:20.815Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T13:47:41.302Z
@@ -64,9 +64,9 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 | Date | Outcome |
 | - | - |
 | 2023-04-10 | Work starts. | 
-| 2023-04-13 | Design work related to swiching user databases is complete. |
-| 2023-04-18 | Backend work related to swiching user databases is complete. |
-| 2023-04-21 | Frontend work related to swiching user databases is complete. |
+| 2023-04-13 | Design work related to switching user databases is complete. |
+| 2023-04-18 | Backend work related to switching user databases is complete. |
+| 2023-04-21 | Frontend work related to switching user databases is complete. |
 | 2023-04-28 | Work for Installation improvements is merged. See [timeline](./installation-improvements.md) in Installation improvements project. **Release branch is created.** |
 | 2023-05-01 | Testing is continued as mentioned in  [Installation improvements](./installation-improvements.md). Any issue that comes up during testing will be fixed directly on the release branch. |
 | 2023-05-05 | Fixes for issues raised during testing is complete. |
