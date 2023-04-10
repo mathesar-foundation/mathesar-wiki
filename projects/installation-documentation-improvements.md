@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-10T21:21:27.106Z
+date: 2023-04-10T21:24:44.161Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -53,7 +53,7 @@ dateCreated: 2023-04-06T19:15:47.704Z
 - **Issues**: [GitHub meta issue](https://github.com/centerofci/mathesar/issues/2789)
 
 ## Timeline
-This project should take **3 weeks** for the features to be implemented, tested, reviewed and additionally **1 weeks** for final testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
+This project should take **3 weeks** for the features to be implemented, tested, reviewed and additionally **1 week** for final testing, so **4 weeks** in total. Testing will start happening in  parallel as soon as a documentation gets completed.
 
 
 | Date       | Outcome                                                                                                                                                                                                                                                          |
