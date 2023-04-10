@@ -2,7 +2,7 @@
 title: Installation Documentation Improvements
 description: 
 published: true
-date: 2023-04-10T19:40:29.605Z
+date: 2023-04-10T19:49:15.891Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T19:15:47.704Z
@@ -58,7 +58,7 @@ This project should take **3 weeks** for the features to be implemented, tested,
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2023-04-11 | Work starts, we start PRs which make changes to the code and then move to documentation.                                                                                                                                                                                      | 
 | 2023-04-12 | Review of the PRs starts in parallel                                                                                                                                                                                                                             |
-| 2023-04-16 | Instructions(scenarios to test on like Non-root user, OS to test on etc) for the Testing team will be created                                                                                      |
+| 2023-04-16 | Instructions(scenarios to test on like Non-root user, OS etc) for the Testing team will be created                                                                                      |
 | 2023-04-17 | PR ready for all the issues in the meta issue #2789 except [Allow users to install Mathesar without Docker (on Debian)](https://github.com/centerofci/mathesar/issues/2427)                                                                                      |
 | 2023-04-17 | Feedback + Testing(both done by the testing team) for **documentation** PRs starts in parallel. This ensures the documentation can be understood by different user segments(technical users, less technical users) and works with various scenarios |
 | 2023-04-21 | PR for all issues in the meta issue #2789 should be in review state.                                                                                                                                                                                             |
