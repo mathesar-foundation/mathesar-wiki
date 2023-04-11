@@ -2,7 +2,7 @@
 title: Release Management
 description: 
 published: true
-date: 2023-04-11T18:46:45.826Z
+date: 2023-04-11T18:55:12.850Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:32.618Z
@@ -30,6 +30,7 @@ This guide explains the release management process citing the versions 0.1.2 and
 1. Create necessary milestones
     - Create 1 milestone ahead of the next release. When planning for v0.1.3, we'll have the milestone created for v0.1.4.
     - Note that the milestone for v0.1.3 will already exist when v0.1.2 is in progress.
+    -  We use semantic versioning for releases.
 1. Come up with a list of ideas to consider as the main focus of the upcoming release.
     - Each release will be focused around a project or a theme.
     - For eg.,
@@ -60,9 +61,7 @@ This guide explains the release management process citing the versions 0.1.2 and
     - If v0.1.2 is released on `2023-05-08`, the release project spec for v0.1.3 needs to be approved by EOD `2023-05-12`.
 
 ## Making a release
-1. As soon as all the items needed for the release is merged into `develop`, create a release branch with the version of the release.
-    - Eg., `0.1.1`. Note: do not prefix `v` here.
-1. Follow the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) until the release is published.
+1. Once all the items needed for the release is merged into `develop`, follow the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) until the release is published.
 1. Ensure that all private servers running Mathesar are upgraded.
 1. Send a mail to `mathesar-developers` announcing the release.
 
