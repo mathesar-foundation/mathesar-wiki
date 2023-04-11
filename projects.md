@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-04-06T19:20:26.984Z
+date: 2023-04-11T14:29:29.305Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -22,7 +22,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In review |
-| Mukesh    | [Installation Documentation improvements](./projects/installation-documentation-improvements) | In review |
+| Mukesh    | [Installation Documentation improvements](./projects/installation-documentation-improvements) | In progress |
 | Pavish    | [Release v0.1.2](./projects/release-0-1-2) | In progress |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Draft |
