@@ -2,16 +2,14 @@
 title: 2023-04-03 Installation plan finalization
 description: 
 published: true
-date: 2023-04-07T14:52:40.333Z
+date: 2023-04-11T02:23:46.765Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-07T14:52:40.333Z
 ---
 
-# 2023-04-03 Installation plan finalization
-
 ## Mukesh's reply to email:
-* The documenatation plan is same
+* The documentation plan is same
 * The install.py should be moved from startup script to the UI
 * We need swiching databases
 
@@ -43,7 +41,7 @@ UI for switching database needs to be separate from installation.
   * We should probably have profiles for service+DB, and service+DB+watchtower+caddy
 * UI for switching databases
 
-## For 0.1.3
+## For 0.1.3 or later
 * Helm chart
   * Kriti: Atleast we should test the initial version and maintain this, since a few people asked for this explicitly. Can't we automate this?
   * Mukesh: Automating & maintaining this is going to be extra work.
@@ -52,9 +50,10 @@ UI for switching database needs to be separate from installation.
     - Fetching Db credentials from various source.
 * Getting feedback from 0.1.2, and having a quick default way to install Mathesar.
   * We don't have enough information to do this for 0.1.2.
-* DB + webserver?
+* Single Docker image for DB + webserver?
   * Kriti: Why are we deprioritizing this?
   * Mukesh: We could have two docker images, one with DB, one without DB.
+- Create desktop packages / add to repos (.deb, flatpak, etc.)
 * Consider simplifying config file - needs more discussion
 
 ## Testing
