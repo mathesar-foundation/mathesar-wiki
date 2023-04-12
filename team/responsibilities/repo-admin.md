@@ -1,9 +1,9 @@
 ---
 title: Repo admin
-description: 
+description:
 published: true
 date: 2023-03-31T15:09:16.504Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-03-16T23:16:36.850Z
 ---
@@ -15,7 +15,7 @@ dateCreated: 2023-03-16T23:16:36.850Z
 | **Owner**   | Rajat         |
 | **Helpers** | Pavish, Anish |
 
-## Responsibilities at a glance
+## Responsibilities at a Glance
 
 - Receive the firehose of GitHub notifications and take action on items as necessary.
 - Triage new issues and PRs
@@ -24,7 +24,7 @@ dateCreated: 2023-03-16T23:16:36.850Z
 
 ## Owners Tasks
 
-### Acting on GitHub notifications
+### Acting on GitHub notifications for issues and PRs
 
 Make sure your notifications setting for all of the Mathesar repositories is set to **All Activity**.
 
@@ -42,7 +42,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
   - Personally follow up with the assignees if there hasn't been any activity on it from the last 3-4 working days.
     - If it's a core team member, you can reach out via Matrix.
     - If it's a non-core team member, you can tag and ask for an update using the PR comments.
-  - What happens when a non-core team member does not reply for more than a week? _TODO ask Kriti_
+  - When a non-core team member does not reply for more than a week, check with the core team reviewer. If she is comfortable with moving the PR forward and merging it then assign the corresponding issue to her otherwise close the PR.
 - For the rest of the notifications, if it's about an issue
 
   Make sure to read the issue description and the recent conversation on it before moving to the next steps.
@@ -57,8 +57,17 @@ Go through each of your notifications for the Mathesar repositories and follow t
   - Assignee:
     - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
     - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](/community/contributing)
+  - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
 
 - If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
+
+### Acting on notifications from GitHub Discussions
+
+Flag discussion-related notifications to the marketing and user feedback teams for a response. This can be done by sending a notification to the [Marketing](https://matrix.to/#/#marketing:matrix.mathesar.org) channel and tagging the owner of [user feedback](/team/responsibilities/user-feedback) and [marketing](/team/responsibilities/marketing.md) responsibilities.
+
+### Assigning reviewers fairly
+
+Depending if the PR is related to the backend or frontend, assign it to a core team member who has the least no of reviews already assigned.
 
 ### Triage
 
