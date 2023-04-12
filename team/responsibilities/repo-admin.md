@@ -1,9 +1,9 @@
 ---
 title: Repo admin
-description:
+description: 
 published: true
-date: 2023-03-31T15:09:16.504Z
-tags:
+date: 2023-04-12T17:54:47.322Z
+tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:36.850Z
 ---
@@ -15,14 +15,14 @@ dateCreated: 2023-03-16T23:16:36.850Z
 | **Owner**   | Rajat         |
 | **Helpers** | Pavish, Anish |
 
-## Responsibilities at a Glance
+# Responsibilities at a Glance
 
 - Receive the firehose of GitHub notifications and take action on items as necessary.
 - Triage new issues and PRs
 - Actively shepherd PRs toward closing to help prevent them from going stale
 - Troubleshoot GitHub actions and make improvements where necessary
 
-## Owners Tasks
+## Owner's Tasks
 
 ### Acting on GitHub notifications for issues and PRs
 
@@ -34,7 +34,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
   - Closing an issue
   - Merging/Closing a PR
   - Any activity on a draft PR, apart from making it ready for review.
-- For the rest of the notifications, if it's about a PR
+- For the rest of the notifications, **if it's about a PR**
   - Assignee - Make sure it's assigned to someone. You might want to check the recent conversation to validate the assignee.
   - Label - Make sure it has the correct `status:` label.
   - Milestone - Make sure it's in the same milestone as the issue it fixes.
@@ -43,10 +43,8 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - If it's a core team member, you can reach out via Matrix.
     - If it's a non-core team member, you can tag and ask for an update using the PR comments.
   - When a non-core team member does not reply for more than a week, check with the core team reviewer. If she is comfortable with moving the PR forward and merging it then assign the corresponding issue to her otherwise close the PR.
-- For the rest of the notifications, if it's about an issue
-
-  Make sure to read the issue description and the recent conversation on it before moving to the next steps.
-
+- For the rest of the notifications, **if it's about an issue**
+  - Make sure to read the issue description and the recent conversation on it before moving to the next steps.
   - Make sure the issue is triaged properly as per our guide [here](/team/guide/issue-triage)
     - A mental model for labels:
       - "difficulty: easy" => "help wanted" & "good first issues"
@@ -88,6 +86,5 @@ gh -R centerofci/mathesar-wiki pr list --search "is:open no:assignee -is:draft"
 ```
 
 ## Helper's Tasks
-
 - Take action on GitHub notifications every Monday since that's when we have one of the largest influx.
 - Fill in for the owner by doing the tasks mentioned above when he is out of the office.
