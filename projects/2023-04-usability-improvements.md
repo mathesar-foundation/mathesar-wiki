@@ -2,10 +2,10 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-04-12T12:45:24.476Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T20:52:30.876Z
 ---
 
 - **Name**: 2023-04 Usability Improvements
@@ -31,15 +31,15 @@ This project is a collection of smaller usability-related tickets that seem to p
 
 | Task                                        | Work       | Days | Deadline   | Status |
 | --                                          | --         | --   | --         | --     |
-| (Project start date)                        |            | 0    | 2023-03-29 | Done   |
-| [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | [In review](https://github.com/centerofci/mathesar-wiki/pull/90) |
-| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | [In review](https://github.com/centerofci/mathesar/pull/2773) |
-| [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | Assigned to Rajat |
-| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | Waiting for "Drag to select" fix |
-| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | [In review](https://github.com/centerofci/mathesar/pull/2782) |
-| [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | To do |
-| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | Started |
-| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | To do |
+| (Project start date)                        |            | 0    | 2023-03-29 |    |
+| [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | 🔬 [In review](https://github.com/centerofci/mathesar-wiki/pull/90) |
+| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2773) |
+| [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/pull/2792) |
+| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ❌ To do |
+| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2782) |
+| [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | ❌ To do |
+| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ⏳ [In progress](https://github.com/centerofci/mathesar/pull/2808) |
+| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | ❌ To do |
 
 **TOTAL TIME:**  20 days (4 weeks)
 
