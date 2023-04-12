@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-12T18:02:04.478Z
+date: 2023-04-12T18:02:10.935Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -133,7 +133,7 @@ Performed in two passes. First pass is that the spammy or obviously unfitting pr
 
 In the second pass, each proposal for a given project idea has the same three reviewers. Two of them are the project idea's mentors. The third is another member of the team, preferably someone with an outside perspective on the project idea.
 
-Effort is put in so that the workload distribution between the reviewers is equal-ish.
+Effort is put in so that the workload distribution between the reviewers is equal-ish and/or practical.
 
 ### Final proposal review instructions
 
