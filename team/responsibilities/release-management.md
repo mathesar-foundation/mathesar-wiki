@@ -2,7 +2,7 @@
 title: Release Management
 description: 
 published: true
-date: 2023-04-11T19:51:00.725Z
+date: 2023-04-12T18:51:17.357Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:32.618Z
@@ -62,7 +62,7 @@ This guide explains the release management process citing the versions 0.1.2 and
 
 ## Making a release
 1. Once all the items needed for the release is merged into `develop`, follow the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) to publish the release.
-1. Ensure that all private servers running Mathesar are upgraded.
+1. Ensure that all private servers running Mathesar maintained by the core team are upgraded.
 1. Send a mail to `mathesar-developers` announcing the release.
 
 ## After a release
