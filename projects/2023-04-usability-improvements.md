@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-04-12T15:58:51.540Z
+date: 2023-04-12T16:26:28.436Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -35,7 +35,7 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | ✅ Done: [PR](https://github.com/centerofci/mathesar-wiki/pull/90), [Specs](https://wiki.mathesar.org/en/design/specs/clipboard-interactions) |
 | [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2773) |
 | [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/pull/2792) |
-| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ❌ To do |
+| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/issues/1917#issuecomment-1505572348) |
 | [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2782) |
 | [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | ❌ To do |
 | [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ⏳ [In progress](https://github.com/centerofci/mathesar/pull/2808) |
