@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T16:20:27.884Z
+date: 2023-04-12T17:57:10.089Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -47,13 +47,14 @@ Starts 2023-04-04, ends 2023-04-27.
 |-|-|
 | **Owner** (aka **Admin**) | Dominykas |
 | **Candidate helper** | Anish, Rajat, Dominykas |
+| **Mentor** | Anyone that's a mentor in a GSoC project idea |
 
 
 ### Responsibilities
 
 #### Mentors
 
-- Participate in final proposal review when requested by the owner
+- Participate in final proposal review, when requested by the owner
 	- See [final proposal review](#final-proposal-review)
 
 
@@ -128,15 +129,27 @@ Starts 2023-03-20, ends 2023-04-04.
 
 ## Final proposal review
 
-Performed in two passes.
+Performed in two passes. First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner. Second pass is where the mentors evaluate proposals for the projects they are mentoring. All of this is done in the [final proposal review spreadsheet](#final-proposal-review-spreadsheet). The final proposal rankings are derived by sorting the approved proposals on their overall scores.
 
-First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner.
+### Final proposal review instructions
 
-Second pass is where the mentors evaluate proposals for the projects they are mentoring.
+1. Go to the current [final proposal review spreadsheet](#final-proposal-review-spreadsheet)
+2. Go to the sheet titled "Second pass"
+3. Find a proposal that you are a reviewer of, and that you have not yet scored
+4. Familiarize with the proposal's project idea by reading its wiki page
+5. Inspect the proposal's PDF and score the proposal
+       - if you're getting errors when trying to load the PDF, you might have to navigate to https://summerofcode.withgoogle.com/, log out (if you're logged in), and log in
+6. Inspect the candidate's contributions in the issue tracker and score the candidate
+       - notice the links to the candidate's PRs, issues created, and issues assigned
+       - inspect all aspects of the candidate's activity in the issue tracker, not only the code contribution
+7. Repeat from the beginning until you've scored all of the proposals you're a reviewer of
+8. Notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
 
-All of this is done in the [final proposal review spreadsheet](#final-proposal-review-spreadsheet).
 
-The final proposal rankings are derived by sorting the approved proposals on their overall scores.
+## Final proposal review spreadsheet
+
+- Current [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
+- Archived [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
 
 
 ## Draft proposal review
@@ -225,12 +238,6 @@ See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/co
 - Note to admin, make sure to evaluate whether number of issues is indeed low
 - Note to admin, consider selecting a subset of issues to which this rule should apply
 	- E.g. in 2023 we had too few backend issues, but sufficient number of frontend issues
-
-
-## Final proposal review spreadsheet
-
-- Current [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
-- Archived [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
 
 
 ## Calendar
