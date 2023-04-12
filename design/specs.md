@@ -80,3 +80,4 @@ These are specs for new features, corresponding to our [development milestones](
 ### UI Improvements
 - [Left Sidebar Improvements](/design/specs/sidebar-improvements)
 - [Lookup Field Component](/design/specs/lookup-field-component)
+- [Clipboard interactions](/design/specs/clipboard-interactions.md)
