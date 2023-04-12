@@ -43,7 +43,7 @@ dateCreated: 2022-03-18T22:22:43.557Z
     const someConstFn = () => { /* ... */ };
     ```
 
-* All class name should be in kebab-case. Examples:
+* All CSS class names should be in kebab-case. Examples:
 
   ```html
   <div class="cell-fabric"></div>
