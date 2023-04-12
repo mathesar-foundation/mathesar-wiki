@@ -2,11 +2,15 @@
 title: Installation help
 description: 
 published: true
-date: 2023-03-16T17:52:57.454Z
+date: 2023-04-12T18:30:46.562Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T20:53:04.526Z
+dateCreated: 2023-03-16T23:16:23.908Z
 ---
+
+> Draft
+{.is-warning}
+
 
 ## Tasks
 
