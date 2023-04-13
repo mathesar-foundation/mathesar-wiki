@@ -2,7 +2,7 @@
 title: Mathesar T-Shirts
 description: 
 published: true
-date: 2023-04-13T19:14:45.815Z
+date: 2023-04-13T19:16:50.876Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-13T19:14:45.815Z
@@ -20,7 +20,7 @@ dateCreated: 2023-04-13T19:14:45.815Z
 | **Owner** | Ghislaine | |
 | **Approver (design)** | Kriti | *Needs to approve T-shirt designs* |
 | **Design** | Ghislaine | *Creates T-shirt designs* |
-| **Vendor Research** | Ghislaine | *Researches and contacts vendors* |
+| **Vendor Research** | Ghislaine | *Researches vendors* |
 | **Size & Address Collection** | Ghislaine | *Collects team member T-shirt sizes and addresses* |
 | **Order & Delivery** | Kriti | *Places the order* |
 
