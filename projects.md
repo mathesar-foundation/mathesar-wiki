@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-04-13T19:15:55.358Z
+date: 2023-04-14T20:35:50.978Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -31,7 +31,8 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
 | Rajat     | [Localization](./projects/localization.md) | Draft |
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
-| Ghislaine   | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | Draft |
+| Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | Draft |
+| Sean      | Backup and restore | Planned |
 
 
 ## Future project ideas
