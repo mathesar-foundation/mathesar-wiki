@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-04-12T16:26:28.436Z
+date: 2023-04-14T12:39:49.923Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -38,9 +38,8 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/issues/1917#issuecomment-1505572348) |
 | [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2782) |
 | [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | ❌ To do |
-| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ⏳ [In progress](https://github.com/centerofci/mathesar/pull/2808) |
-| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | ❌ To do |
-
+| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2808) |
+| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2808)
 **TOTAL TIME:**  20 days (4 weeks)
 
 ### Notes
