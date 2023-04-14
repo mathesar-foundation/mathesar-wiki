@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-04-14T12:39:49.923Z
+date: 2023-04-14T20:32:09.293Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -32,14 +32,17 @@ This project is a collection of smaller usability-related tickets that seem to p
 | Task                                        | Work       | Days | Deadline   | Status |
 | --                                          | --         | --   | --         | --     |
 | (Project start date)                        |            | 0    | 2023-03-29 |    |
-| [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | ✅ Done: [PR](https://github.com/centerofci/mathesar-wiki/pull/90), [Specs](https://wiki.mathesar.org/en/design/specs/clipboard-interactions) |
-| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2773) |
-| [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/pull/2792) |
-| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done](https://github.com/centerofci/mathesar/issues/1917#issuecomment-1505572348) |
-| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2782) |
+| [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | ✅ Done: [PR][w-90], [Specs][spec] |
+| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | 🔬 [In review][2773] |
+| [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done][2792] |
+| [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done][1917-done] |
+| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review][2782] |
 | [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | ❌ To do |
-| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2808) |
-| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | 🔬 [In review](https://github.com/centerofci/mathesar/pull/2808)
+| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | 🔬 [In review][2808] |
+| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | 🔬 [In review][2808] |
+| [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | ❌ To do |
+| [Paste into cells][2812]                    | Front end  | 9    | 2023-05-10 | ❌ To do |
+
 **TOTAL TIME:**  20 days (4 weeks)
 
 ### Notes
@@ -54,14 +57,23 @@ This project is a collection of smaller usability-related tickets that seem to p
 
 ## Timeline
 
-(See work plan. Deadlines will be filled in once the project begins)
+(See work plan)
 
-
-[2377]: https://github.com/centerofci/mathesar/issues/2377
+[1421]: https://github.com/centerofci/mathesar/issues/1421
 [1688]: https://github.com/centerofci/mathesar/issues/1688
 [1885]: https://github.com/centerofci/mathesar/issues/1885
+[1917-done]: https://github.com/centerofci/mathesar/issues/1917#issuecomment-1505572348
 [1917]: https://github.com/centerofci/mathesar/issues/1917
 [2232]: https://github.com/centerofci/mathesar/issues/2232
-[1421]: https://github.com/centerofci/mathesar/issues/1421
 [2362]: https://github.com/centerofci/mathesar/issues/2362
+[2377]: https://github.com/centerofci/mathesar/issues/2377
 [2387]: https://github.com/centerofci/mathesar/issues/2387
+[2773]: https://github.com/centerofci/mathesar/pull/2773
+[2782]: https://github.com/centerofci/mathesar/pull/2782
+[2792]: https://github.com/centerofci/mathesar/pull/2792
+[2808]: https://github.com/centerofci/mathesar/pull/2808
+[2811]: https://github.com/centerofci/mathesar/issues/2811
+[2812]: https://github.com/centerofci/mathesar/issues/2812
+[spec]: https://wiki.mathesar.org/en/design/specs/clipboard-interactions
+[w-90]: https://github.com/centerofci/mathesar-wiki/pull/90
+
