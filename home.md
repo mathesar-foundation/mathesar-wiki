@@ -33,6 +33,7 @@ The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please 
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)
 - [:art: Design *Documentation about Mathesar's visual design and UI*](./design.md)
 - [:desktop_computer: Engineering *Documentation about Mathesar's code*](./engineering.md)
+- [:book: Documentation Strategy *Meta-docs about our documentation*](./documentation.md)
 - [:loudspeaker: Marketing *Material for promoting Mathesar*](./marketing.md)
 - [:memo: Meeting Notes *Mathesar team meeting notes*](./meeting-notes.md)
 {.links-list}
