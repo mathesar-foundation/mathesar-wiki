@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-04-14T20:32:09.293Z
+date: 2023-04-14T20:40:50.557Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -37,11 +37,11 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done][2792] |
 | [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done][1917-done] |
 | [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review][2782] |
-| [Persistent column widths][1421]            | Back end   | 3    | 2023-04-21 | ❌ To do |
+| [Persistent column widths][1421]            | Full stack | 3    | 2023-04-21 | ❌ To do |
 | [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | 🔬 [In review][2808] |
 | [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | 🔬 [In review][2808] |
 | [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | ❌ To do |
-| [Paste into cells][2812]                    | Front end  | 9    | 2023-05-10 | ❌ To do |
+| [Paste into cells][2812]                    | Full stack | 9    | 2023-05-10 | ❌ To do |
 
 **TOTAL TIME:**  20 days (4 weeks)
 
