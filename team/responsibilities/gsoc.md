@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-12T18:02:10.935Z
+date: 2023-04-17T12:31:00.462Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -129,25 +129,38 @@ Starts 2023-03-20, ends 2023-04-04.
 
 ## Final proposal review
 
-Performed in two passes. First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner. Second pass is where the mentors evaluate proposals for the projects they are mentoring. All of this is done in the [final proposal review spreadsheet](#final-proposal-review-spreadsheet). The final proposal rankings are derived by sorting the approved proposals on their overall scores.
+Performed in two passes. First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner. Second pass is where the mentors evaluate proposals for the projects they are mentoring, and those who interacted with the candidates evaluate the candidates. All of this is done in the [final review spreadsheet](#final-proposal-review-spreadsheet). The final rankings are derived by sorting the approved proposals on their scores and their authors' (candidates') scores.
 
-In the second pass, each proposal for a given project idea has the same three reviewers. Two of them are the project idea's mentors. The third is another member of the team, preferably someone with an outside perspective on the project idea.
+In the second pass, each proposal for a given project idea has the same three reviewers. Two of them are the project idea's mentors. The third is another member of the team, preferably someone with an outside perspective on the project idea. The reviewers for candidates are assigned based on who interacted most with them on the issue tracker.
 
-Effort is put in so that the workload distribution between the reviewers is equal-ish and/or practical.
+Effort is put in so that the workload distribution between the proposal reviewers is equal-ish and/or practical.
 
 ### Final proposal review instructions
 
-1. Go to the current [final proposal review spreadsheet](#final-proposal-review-spreadsheet)
-2. Go to the sheet titled "Second pass"
+The final review consists of reviewing each candidate and each proposal. That is done in two separate sheets within the final review spreadsheet. See detailed instructions below.
+
+#### Candidate review
+
+1. Go to the current [final review spreadsheet](#final-proposal-review-spreadsheet)
+2. Go to the sheet titled "Second pass, candidate"
+3. Find a candidate that you are a reviewer of, and that you have not yet scored
+6. Inspect the candidate's contributions in the issue tracker and score the candidate
+       - notice the links to the candidate's PRs, issues created, and issues assigned
+       - inspect all aspects of the candidate's activity in the issue tracker, not only the code contribution
+       - consider reaching out to teammates that might have had insightful interactions with your candidate, unless these teammates are already assigned to review this candidate
+7. Repeat from the beginning until you've scored all of the candidates you're a reviewer of
+8. If this marks the end of your candidate and proposal reviews, notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
+
+#### Proposal review
+
+1. Go to the current [final review spreadsheet](#final-proposal-review-spreadsheet)
+2. Go to the sheet titled "Second pass, proposal"
 3. Find a proposal that you are a reviewer of, and that you have not yet scored
 4. Familiarize with the proposal's project idea by reading its wiki page
 5. Inspect the proposal's PDF and score the proposal
        - if you're getting errors when trying to load the PDF, you might have to navigate to https://summerofcode.withgoogle.com/, log out (if you're logged in), and log in
-6. Inspect the candidate's contributions in the issue tracker and score the candidate
-       - notice the links to the candidate's PRs, issues created, and issues assigned
-       - inspect all aspects of the candidate's activity in the issue tracker, not only the code contribution
 7. Repeat from the beginning until you've scored all of the proposals you're a reviewer of
-8. Notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
+8. If this marks the end of your candidate and proposal reviews, notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
 
 
 ## Final proposal review spreadsheet
