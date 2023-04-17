@@ -2,7 +2,7 @@
 title: Mathesar T-Shirts
 description: 
 published: true
-date: 2023-04-13T19:16:50.876Z
+date: 2023-04-17T11:30:34.545Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-13T19:14:45.815Z
@@ -42,7 +42,7 @@ This project should take **5 days**.
 | 2023-04-17 | Work starts |
 | 2023-04-18 | T-shirt designs complete and submitted for approval |
 | 2023-04-19 | T-shirt designs approved |
-| 2023-05-20 | Vendor research complete and decision made |
-| 2023-05-21 | T-shirt sizes and addresses collected from team members and other recipients |
-| 2023-05-24 | T-shirts ordered and shipping coordinated |
-| 2023-05-24 | T-shirts delivered to recipients |
+| 2023-04-20 | Vendor research complete and decision made |
+| 2023-04-21 | T-shirt sizes and addresses collected from team members and other recipients |
+| 2023-04-24 | T-shirts ordered and shipping coordinated |
+| 2023-04-24 | T-shirts delivered to recipients |
