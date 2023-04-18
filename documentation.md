@@ -63,7 +63,7 @@ This page describes our various documentation sources and seeks to eliminate gra
 
 - Source:
     - https://hackmd.io/team/mathesar
-    - https://drive.google.com/
+    - https://drive.google.com/drive/u/0/folders/0AJzWWmnmukGHUk9PVA
     - https://github.com/centerofci/mathesar-private-notes
 - Scope:
     - ***Private* team docs**
