@@ -15,9 +15,9 @@ This page describes our various documentation sources and seeks to eliminate gra
 - Source: https://github.com/centerofci/mathesar/tree/master/docs
 - Published: https://docs.mathesar.org/
 - Scope:
-    - **User docs** (we don't have this yet, but we wil eventually)
+    - **User docs**
     - **Administrator docs** (for people installing/upgrading Mathesar)
-- How do edit:
+- How to edit:
     1. Follow instructions within README to preview docs content locally using mkdocs.
     1. Base your edits on the correct branch:
         - Target `master` if you have an important fix which needs to be published for the currently-released version of Mathesar.
@@ -37,7 +37,7 @@ This page describes our various documentation sources and seeks to eliminate gra
     - **Architectural overviews**
     - **Module documentation**
     - (basically, anything about the *code itself*)
-- How do edit:
+- How to edit:
     1. Make a PR against the `develop` branch.
 - Tips:
     - Put documentation close to the code that it documents.
@@ -54,7 +54,7 @@ This page describes our various documentation sources and seeks to eliminate gra
     - **Roles and responsibilities**
     - **Specs**
     - **Meeting notes**
-- How do edit (choose any):
+- How to edit (choose any):
     - Make a PR to the repo if your edits warrant review/approval
     - Edit locally and push to `master` for smaller changes (there is no way to preview locally)
     - Edit through the wiki's web interface by logging in
