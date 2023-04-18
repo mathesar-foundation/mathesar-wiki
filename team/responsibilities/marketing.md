@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-04-10T19:40:31.246Z
+date: 2023-04-18T18:51:13.390Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -34,6 +34,8 @@ This section serves as a handbook for people working on these responsibilities.
 ## Social media helpers
 
 ### Respond to Syften notifications
+Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Please close the ticket in Freshdesk once a notification has been handled or if there is nothing to do.
+
 - **If Mathesar is mentioned**:
 	- Post mentions in the `Mathesar - Marketing` Matrix channel.
   - Decide if a response is needed.
