@@ -43,6 +43,13 @@ dateCreated: 2022-03-18T22:22:43.557Z
     const someConstFn = () => { /* ... */ };
     ```
 
+* All CSS class names should be in kebab-case. Examples:
+
+  ```html
+  <div class="cell-fabric"></div>
+  <span class="editable-cell"></span>
+  ```
+
 * All directory names should be in kebab-case (hyphen-delimited). Examples:
     
     ```txt

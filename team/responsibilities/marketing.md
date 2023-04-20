@@ -2,7 +2,7 @@
 title: Marketing
 description: 
 published: true
-date: 2023-03-21T16:57:34.586Z
+date: 2023-04-18T18:51:13.390Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:28.309Z
@@ -13,7 +13,7 @@ dateCreated: 2023-03-16T23:16:28.309Z
 | Role | Assignees |
 |-|-|-|
 | **Owner** | Kriti |
-| **Monitoring helpers** | Rajat, Sean |
+| **Social media helpers** | Rajat, Sean |
 | **Website helpers** | Ghislaine, Sean |
 | **Aggregation helpers** | Rajat, Ghislaine |
 
@@ -31,9 +31,11 @@ This section serves as a handbook for people working on these responsibilities.
 - Manage changes to Mathesar.org, delegate tasks as needed.
 - Review all external comms.
 
-## Monitoring helpers
+## Social media helpers
 
 ### Respond to Syften notifications
+Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Please close the ticket in Freshdesk once a notification has been handled or if there is nothing to do.
+
 - **If Mathesar is mentioned**:
 	- Post mentions in the `Mathesar - Marketing` Matrix channel.
   - Decide if a response is needed.
@@ -50,12 +52,21 @@ This section serves as a handbook for people working on these responsibilities.
     - This approval requirement will be removed once we have better guidelines for responding to people.
 - **If Mathesar is mentioned on Twitter**: 
   - Re-tweet it from our account and/or thank them for the shoutout.
+  - Only re-tweet if the tweet appears to be from a real person or organization. Do not re-tweet bot accounts (e.g. "First Issues Bot").
 - **If a comment or post can be considered user feedback**:
   - Please flag it to the owner of the [user feedback](/en/team/responsibilities/user-feedback) responsibility.
 
 ### Document noteworthy publicity
 - Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](./marketing/history.md) page
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
+
+### Make release announcements
+Release announcements should include highlights from release notes. We should avoid the announcements following a template because people tend to ignore repetitive things.
+
+- Post a message in the `Mathesar - General` channel on Matrix announcing the release
+- Post a message to the developers and users mailing lists announcing the release
+- Tweet when we publish a new release
+- *TODO: also figure out where / how to post on Reddit for new releases*
 
 ## Website helpers
 - Implement changes to the website as requested by the owner.

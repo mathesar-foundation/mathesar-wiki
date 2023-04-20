@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-05T16:20:27.884Z
+date: 2023-04-17T12:31:00.462Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -47,13 +47,14 @@ Starts 2023-04-04, ends 2023-04-27.
 |-|-|
 | **Owner** (aka **Admin**) | Dominykas |
 | **Candidate helper** | Anish, Rajat, Dominykas |
+| **Mentor** | Anyone that's a mentor in a GSoC project idea |
 
 
 ### Responsibilities
 
 #### Mentors
 
-- Participate in final proposal review when requested by the owner
+- Participate in final proposal review, when requested by the owner
 	- See [final proposal review](#final-proposal-review)
 
 
@@ -128,15 +129,44 @@ Starts 2023-03-20, ends 2023-04-04.
 
 ## Final proposal review
 
-Performed in two passes.
+Performed in two passes. First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner. Second pass is where the mentors evaluate proposals for the projects they are mentoring, and those who interacted with the candidates evaluate the candidates. All of this is done in the [final review spreadsheet](#final-proposal-review-spreadsheet). The final rankings are derived by sorting the approved proposals on their scores and their authors' (candidates') scores.
 
-First pass is that the spammy or obviously unfitting proposals are filtered out. Likely performed by the owner.
+In the second pass, each proposal for a given project idea has the same three reviewers. Two of them are the project idea's mentors. The third is another member of the team, preferably someone with an outside perspective on the project idea. The reviewers for candidates are assigned based on who interacted most with them on the issue tracker.
 
-Second pass is where the mentors evaluate proposals for the projects they are mentoring.
+Effort is put in so that the workload distribution between the proposal reviewers is equal-ish and/or practical.
 
-All of this is done in the [final proposal review spreadsheet](#final-proposal-review-spreadsheet).
+### Final proposal review instructions
 
-The final proposal rankings are derived by sorting the approved proposals on their overall scores.
+The final review consists of reviewing each candidate and each proposal. That is done in two separate sheets within the final review spreadsheet. See detailed instructions below.
+
+#### Candidate review
+
+1. Go to the current [final review spreadsheet](#final-proposal-review-spreadsheet)
+2. Go to the sheet titled "Second pass, candidate"
+3. Find a candidate that you are a reviewer of, and that you have not yet scored
+6. Inspect the candidate's contributions in the issue tracker and score the candidate
+       - notice the links to the candidate's PRs, issues created, and issues assigned
+       - inspect all aspects of the candidate's activity in the issue tracker, not only the code contribution
+       - consider reaching out to teammates that might have had insightful interactions with your candidate, unless these teammates are already assigned to review this candidate
+7. Repeat from the beginning until you've scored all of the candidates you're a reviewer of
+8. If this marks the end of your candidate and proposal reviews, notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
+
+#### Proposal review
+
+1. Go to the current [final review spreadsheet](#final-proposal-review-spreadsheet)
+2. Go to the sheet titled "Second pass, proposal"
+3. Find a proposal that you are a reviewer of, and that you have not yet scored
+4. Familiarize with the proposal's project idea by reading its wiki page
+5. Inspect the proposal's PDF and score the proposal
+       - if you're getting errors when trying to load the PDF, you might have to navigate to https://summerofcode.withgoogle.com/, log out (if you're logged in), and log in
+7. Repeat from the beginning until you've scored all of the proposals you're a reviewer of
+8. If this marks the end of your candidate and proposal reviews, notify the admin of you having completed the scoring, via the same channel through which you were requested to perform it (probably via an email thread)
+
+
+## Final proposal review spreadsheet
+
+- Current [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
+- Archived [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
 
 
 ## Draft proposal review
@@ -225,12 +255,6 @@ See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/co
 - Note to admin, make sure to evaluate whether number of issues is indeed low
 - Note to admin, consider selecting a subset of issues to which this rule should apply
 	- E.g. in 2023 we had too few backend issues, but sufficient number of frontend issues
-
-
-## Final proposal review spreadsheet
-
-- Current [2023 spreadsheet](https://docs.google.com/spreadsheets/d/1tMp8wJJhAnUIyXLdXCIcecYecDHJIb7U84neQQ0i8Fw) (private)
-- Archived [2022 spreadsheet](https://docs.google.com/spreadsheets/d/1SAgETOHvNnVf-MBUqe_WLbOLsl8qDax35DOukaUueO8) (private)
 
 
 ## Calendar

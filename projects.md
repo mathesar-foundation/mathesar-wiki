@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-04-06T13:51:45.233Z
+date: 2023-04-14T20:35:50.978Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -22,14 +22,17 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In review |
-| Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
+| Mukesh    | [Installation Documentation improvements](./projects/installation-documentation-improvements) | In progress |
 | Pavish    | [Release v0.1.2](./projects/release-0-1-2) | In progress |
+| Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Draft |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
 | Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
 | Rajat     | [Localization](./projects/localization.md) | Draft |
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
+| Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | Draft |
+| Sean      | Backup and restore | Planned |
 
 
 ## Future project ideas

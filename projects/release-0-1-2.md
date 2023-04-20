@@ -2,7 +2,7 @@
 title: Release v0.1.2
 description: 
 published: true
-date: 2023-04-06T15:04:15.655Z
+date: 2023-04-13T21:16:21.854Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-06T13:47:41.302Z
@@ -14,10 +14,10 @@ dateCreated: 2023-04-06T13:47:41.302Z
 ## Introduction
 * This project is a collection of items needed for v0.1.2 release.
 * Primary focus of v0.1.2:
-  - [Installation improvements](./installation-improvements.md)
+  - [Installation improvements](./installation-documentation-improvements.md)
   - Ability to switch user databases
   - Fixes and improvements based on user raised issues/bugs
-* The spec for Installation improvements is [tracked separately](./installation-improvements.md) as it is a project of it's own.
+* The spec for Installation improvements is [tracked separately](./installation-documentation-improvements.md) as it is a project of it's own.
 * The team should prioritize release items assigned to them until the release is complete.
 
 ## Team
@@ -57,7 +57,18 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 - **Milestone**: [v0.1.2](https://github.com/centerofci/mathesar/milestone/68)
 
 ## Timeline
-* The timeline will be updated with more details once the [Installation improvements project](https://wiki.mathesar.org/en/projects/installation-improvements.md) is specced out and approved.
-* Tentative deadline:
-  * The maximum time allocated for the release will be **16 working days**.
-  * Based on schedules of everyone involved, the starting date will be **2023-04-10**, which marks the deadline to be **2025-05-01**. This includes a buffer period of 4 working days.
+* Deadline for release will be **2023-05-10**.
+* This is around 30 days from the start date, higher than anticipated, but essential for Installation improvements.
+* The release branch will be frozen by **2023-05-28**. All PRs merged by then will be part of the release. Fixes for issues raised after that will be made on the release branch.
+
+| Date | Outcome |
+| - | - |
+| 2023-04-10 | Work starts. | 
+| 2023-04-18 | Design work related to switching user databases is complete. |
+| 2023-04-18 | Backend work related to switching user databases is complete. |
+| 2023-04-25 | Frontend work related to switching user databases is complete. |
+| 2023-04-28 | Work for Installation improvements is merged. See [timeline](./installation-improvements.md) in Installation improvements project. **Release branch is created.** |
+| 2023-05-01 | Testing is continued as mentioned in  [Installation improvements](./installation-improvements.md). Any issue that comes up during testing will be fixed directly on the release branch. |
+| 2023-05-05 | Fixes for issues raised during testing is complete. |
+| 2023-05-08 | Release process starts. |
+| 2023-05-10 | Release date. |
