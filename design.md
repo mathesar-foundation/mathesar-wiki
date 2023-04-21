@@ -31,7 +31,7 @@ More information:
 {.links-list}
 
 ## Contributing
-You must be a member of our [design team](/team) to contribute to design tasks, but we are open to new members. Please see [Contributing to Mathesar](/community/contributing) for more information.
+You must be a member of our [design team](/team) to contribute to design tasks. Due to limited capacity, we are currently unable to accept design volunteers.
 
 # Philosophy
 High-level information about the philosophy behind our design.

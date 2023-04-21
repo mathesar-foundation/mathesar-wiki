@@ -204,7 +204,7 @@ Suggested process:
 2. Welcome them, whether they're active or engage first or not
 3. Preemptively remind them of our resources for self-guidance:
   - the [applicant guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide)
-  - or, the [contributing guide](https://wiki.mathesar.org/en/community/contributing)
+  - or, the [contributing guide](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 4. Having provided a resource for self-guidance, encourage them to speak up if something is not clear.
 
 Example in our Matrix General channel:

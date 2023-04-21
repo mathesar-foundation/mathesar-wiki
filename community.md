@@ -10,7 +10,7 @@ dateCreated: 2021-04-20T18:46:48.688Z
 
 Welcome to the Mathesar community! We'd love to have you involved in our project, as a contributor, a user or both! Please join our community forums and talk to us there.
 
-> If you're interesting in contributing, see [Contributing](/community/contributing)
+> If you're interesting in contributing, see [Contributing](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 {.is-info}
 
 # Community Forums
