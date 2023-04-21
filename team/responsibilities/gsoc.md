@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-17T12:31:00.462Z
+date: 2023-04-21T08:34:44.015Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -266,3 +266,8 @@ See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/co
 
 GSoC administration involves periodic process reviews and reports. They are scheduled in the [calendar](#calendar). This thread tracks resulting updates: https://github.com/centerofci/mathesar/issues/2733
 
+## Notes for future programs
+
+Here we collect insights gained that might be useful during future programs:
+
+- We might [benefit from checking project coherence earlier](https://groups.google.com/a/mathesar.org/g/core-team/c/IbFrlGXj2Hg/m/tzzAuEbvGAAJ); in 2023 we didn't have an explicit step checking for coherence: in terms of proposal (not candidate) filtering, one step was checking if the proposal is not too short, and the other was the final review.
