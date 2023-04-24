@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-04-14T20:40:50.557Z
+date: 2023-04-24T17:02:22.989Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -33,13 +33,13 @@ This project is a collection of smaller usability-related tickets that seem to p
 | --                                          | --         | --   | --         | --     |
 | (Project start date)                        |            | 0    | 2023-03-29 |    |
 | [Clipboard UX design][2377]                 | UX design  | 5    | 2023-04-07 | ✅ Done: [PR][w-90], [Specs][spec] |
-| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | 🔬 [In review][2773] |
+| [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | ✅ [Done][2773] |
 | [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done][2792] |
 | [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done][1917-done] |
 | [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review][2782] |
 | [Persistent column widths][1421]            | Full stack | 3    | 2023-04-21 | ❌ To do |
-| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | 🔬 [In review][2808] |
-| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | 🔬 [In review][2808] |
+| [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ✅ [Done][2808] |
+| [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | ✅ [Done][2808] |
 | [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | ❌ To do |
 | [Paste into cells][2812]                    | Full stack | 9    | 2023-05-10 | ❌ To do |
 
