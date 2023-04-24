@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-21T08:34:44.015Z
+date: 2023-04-24T17:51:55.712Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z
@@ -271,3 +271,5 @@ GSoC administration involves periodic process reviews and reports. They are sche
 Here we collect insights gained that might be useful during future programs:
 
 - We might [benefit from checking project coherence earlier](https://groups.google.com/a/mathesar.org/g/core-team/c/IbFrlGXj2Hg/m/tzzAuEbvGAAJ); in 2023 we didn't have an explicit step checking for coherence: in terms of proposal (not candidate) filtering, one step was checking if the proposal is not too short, and the other was the final review.
+- In 2023, we had proposals that were known to their mentors to be strong (because their drafts were submitted for early review), but GSoC admin didn't know that; if there were a way to communicate that to GSoC admin early, that would have saved some time;
+- A suggestion has been made that we could have each person, that interacted with a given candidate, give a self-weighted score to that candidate; a single score to compensate for the fact that this would mean people doing more reviews, and self-weighted (weight applied to score by reviewer) to compensate for not every reviewer having as much information about the candidate.
