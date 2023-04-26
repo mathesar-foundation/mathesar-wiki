@@ -2,7 +2,7 @@
 title: Undo and Quick Save Functionality
 description: 
 published: true
-date: 2023-04-26T21:17:36.980Z
+date: 2023-04-26T21:25:06.862Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-26T21:17:36.980Z
@@ -64,8 +64,9 @@ The undo and quick save functionalities should apply to saving and undoing chang
 
 ### Change Tracking and Compatibility
 
-- The system should track changes made within Mathesar. However, it might be impossible to track changes made directly to the database outside Mathesar. If the database changes and the user refreshes, they might not be able to go back to a previous step.
-- The undo and quick save functionalities should be compatible with changes made both within and outside Mathesar. This means that the system should not produce errors when handling external changes and should appropriately inform the user of the status and limitations of the undo and quick save functionalities in such cases.
+- The system should track changes made within Mathesar. However, it might be challenging to track changes made directly to the database outside Mathesar. Two potential approaches can be considered:
+  1. Inform users that changes made outside Mathesar may not be tracked, and they might not be able to go back to a previous step if the database is altered externally.
+  2. Investigate the potential of using database triggers or other mechanisms to capture changes made directly to the database outside Mathesar.
 
 ## Implementation Considerations
 
