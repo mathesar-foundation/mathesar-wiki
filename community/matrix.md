@@ -2,7 +2,7 @@
 title: Mathesar on Matrix
 description: About the Mathesar Matrix Community
 published: true
-date: 2023-03-31T19:06:48.703Z
+date: 2023-04-28T14:21:54.893Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:49:51.001Z
@@ -41,6 +41,7 @@ These channels focus on day-to-day engineering work.
 | Mathesar - Backend | [`#backend:matrix.mathesar.org`](https://matrix.to/#/#backend:matrix.mathesar.org) | Discussions related to backend code specifically |
 | Mathesar - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
 | Mathesar - Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
+| Mathesar - Infrastructure | [`#infrastructure:matrix.mathesar.org`](https://matrix.to/#/#infrastructure:matrix.mathesar.org) | Discussions related to Mathesar Insttallation, setup and other infrastructure  |
 
 ### Design & Product
 These channels focus on day-to-day design and product work.
