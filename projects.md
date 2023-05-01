@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-04-27T08:16:31.432Z
+date: 2023-05-01T17:40:45.465Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -21,7 +21,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | --        | -- | -- |
 | Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
-| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In review |
+| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In Progress |
 | Mukesh    | [Installation Documentation improvements](./projects/installation-documentation-improvements) | In progress |
 | Pavish    | [Release v0.1.2](./projects/release-0-1-2) | In progress |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
@@ -31,8 +31,9 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
 | Rajat     | [Localization](./projects/localization.md) | In review |
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
-| Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | Draft |
+| Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Sean      | Backup and restore | Planned |
+| Ghislaine | [Quick Save Functionality](/en/projects/projects/quick-save) | Draft |
 
 
 ## Future project ideas
