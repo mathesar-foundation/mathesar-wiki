@@ -1,8 +1,8 @@
 ---
-title: Undo and Quick Save Functionality
+title: Quick Save Functionality
 description: 
 published: true
-date: 2023-05-01T17:58:36.712Z
+date: 2023-05-01T19:32:21.456Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-26T21:17:36.980Z
