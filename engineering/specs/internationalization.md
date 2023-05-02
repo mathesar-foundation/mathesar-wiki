@@ -50,11 +50,11 @@ The [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n) supports [export
 
 This section describes the approach to automating the process of sending the strings to be translated to the translator and integrating the response back into the codebase.
 
-We can use [Transifix](https://www.transifex.com/open-source/) for this automation:
+We can use [Transifex](https://www.transifex.com/open-source/) for this automation:
 
-1. The file [exported](https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/exporter) with all the strings can be uploaded to Transifix using its GitHub sync feature.
+1. The file [exported](https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/exporter) with all the strings can be uploaded to Transifex using its GitHub sync feature.
 2. Add the languages that need we need the translations in and invite translators.
-3. Submitted translations can be reviewed and finally integrated back into the codebase automatically using [Transifix's GitHub integration](https://help.transifex.com/en/articles/6265125-github-via-transifex-ui).
+3. Submitted translations can be reviewed and finally integrated back into the codebase automatically using [Transifex's GitHub integration](https://help.transifex.com/en/articles/6265125-github-via-transifex-ui).
 
 **Bundle size impact**
 
