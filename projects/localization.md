@@ -2,7 +2,7 @@
 title: Internationalization Implementation
 description: 
 published: true
-date: 2023-05-03T18:41:58.089Z
+date: 2023-05-03T18:43:09.007Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
