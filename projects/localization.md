@@ -1,8 +1,8 @@
 ---
-title: Localization Project
+title: Internationalization Implementation
 description: 
 published: true
-date: 2023-05-02T02:02:37.690Z
+date: 2023-05-03T18:41:58.089Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
