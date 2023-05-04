@@ -1,9 +1,9 @@
 ---
 title: Internationalization Implementation
-description: 
+description:
 published: true
 date: 2023-05-03T18:43:09.007Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
 ---
@@ -39,17 +39,25 @@ The goal of this project is to enable Frontend and Backend codebase to support t
 8. Publish documentation for volunteer translators, making it possible for community members to contribute to translations without very much technical knowledge.
 
 ## Scope
+
 This project does not concern with translating the product into any particular language. It also does not concern either with translating or creating a translation strategy for the content inside the Mathesar repo in the form of Readmes or docs.
 
-**Frontend**: Enable the frontend codeabse to support translations. 
-**Backend**: Enable backend codebase to support translations for the server side rendered pages and error messages that are shown to the users on UI as it is. 
+**Frontend**: Enable the frontend codeabse to support translations.
+**Backend**: Enable backend codebase to support translations for the server side rendered pages and error messages that are shown to the users on UI as it is.
 **Infrastructure**: Integration of a third party translation automation service like [Transifix](https://www.transifex.com/open-source/)
 
 ## Timeline
 
 This project should take 3 weeks of frontend implementation effort and 1 week of backend implementation effort which can be done in parallel, excluding the time to finalize the technical approach.
 
-_A detailed timeline can be added once the proposal is approved and a start date is finalized._
+|                                              | End Date   | Status |
+| -------------------------------------------- | ---------- | ------ |
+| Get tech spec approved                       | 2023-05-26 |
+| FE implementation                            | 2023-06-16 |
+| BE Infra Work                                | 2023-06-16 |
+| Developer documentation                      | 2023-06-23 |
+| Guide getting strings translated             | 2023-06-23 |
+| Contributing guide for volunteer translators | 2023-06-23 |
 
 ## Risks
 
