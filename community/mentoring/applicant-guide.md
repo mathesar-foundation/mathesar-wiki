@@ -37,7 +37,7 @@ Feel free to ask questions about project ideas, Mathesar, or anything else! Post
 ## Step 4: Contribute to Open Issues
 You **need to make at least one contribution to Mathesar** as part of the application process. Your contribution will give us more information about your work/skills and help us evaluate your application. It will also help you learn more about Mathesar and have more information to pick a project idea.
 
-Please see our [Contribution Guidelines](/en/community/contributing) to learn more about how to contribute.
+Please see our [Contribution Guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md) to learn more about how to contribute.
 
 # The Application Process
 Once you're comfortable with Mathesar and the community, it's time to start the application process.

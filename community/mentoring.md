@@ -23,7 +23,7 @@ We're participating in **Google Summer of Code (GSoC)** in 2023.
 ## General Information
 - [:question: About Mathesar *Main website*](https://mathesar.org/)
 - [:speech_balloon: Community *How to join the Mathesar community*](/en/community)
-- [:computer: Contribution Guide *How to contribute to Mathesar code*](/en/community/contributing)
+- [:computer: Contribution Guide *How to contribute to Mathesar code*](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 - [:busts_in_silhouette: Mathesar Team Members *More information about mentors*](/en/team/members)
 {.links-list}
 

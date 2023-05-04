@@ -8,5 +8,5 @@ editor: markdown
 dateCreated: 2021-05-26T23:46:24.489Z
 ---
 
-> [This page has been moved](/en/engineering/standards/api).
+> [This page has been moved](https://github.com/centerofci/mathesar/blob/develop/mathesar/api/STANDARDS.md).
 {.is-info}
