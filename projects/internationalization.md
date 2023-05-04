@@ -2,7 +2,7 @@
 title: Internationalization Implementation
 description: 
 published: true
-date: 2023-05-04T11:00:38.661Z
+date: 2023-05-04T11:01:13.596Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
@@ -44,7 +44,7 @@ This project does not concern with translating the product into any particular l
 
 **Frontend**: Enable the frontend codeabse to support translations.
 **Backend**: Enable backend codebase to support translations for the server side rendered pages and error messages that are shown to the users on UI as it is.
-**Infrastructure**: Integration of a third party translation automation service like [Transifix](https://www.transifex.com/open-source/)
+**Infrastructure**: Integration of a third party translation automation service like [Transifex](https://www.transifex.com/open-source/)
 
 ## Timeline
 
