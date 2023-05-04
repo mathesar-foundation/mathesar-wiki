@@ -1,9 +1,9 @@
 ---
 title: Internationalization Implementation
-description:
+description: 
 published: true
-date: 2023-05-03T18:43:09.007Z
-tags:
+date: 2023-05-04T11:00:15.207Z
+tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
 ---
@@ -54,7 +54,7 @@ This project should take 3 weeks of frontend implementation effort and 1 week of
 | -------------------------------------------- | ---------- | ------ |
 | Get tech spec approved                       | 2023-05-26 |
 | FE implementation                            | 2023-06-16 |
-| BE Infra Work                                | 2023-06-16 |
+| BE & Infra Work                              | 2023-06-16 |
 | Developer documentation                      | 2023-06-23 |
 | Guide getting strings translated             | 2023-06-23 |
 | Contributing guide for volunteer translators | 2023-06-23 |
