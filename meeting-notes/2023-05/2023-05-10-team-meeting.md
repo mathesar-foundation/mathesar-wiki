@@ -101,7 +101,7 @@ Anish
         
 Mukesh
     - Lack of documentation is a test for contributors
-    - India is very competitive, where a lot of contributors come from
+    - A lot of contributors seem to treat GSoC as competitive
         - GSoC is something you can put on your resume
     - There should be a progression from easy to hard issues
         - For each contributor
