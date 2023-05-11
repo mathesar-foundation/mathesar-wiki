@@ -138,7 +138,6 @@ Survey
 
 - **Added by**: Kriti
 - **Summary**: I'm around to answer questions about what I've been working on if anyone has any.
-- **Expected time**: ??
 - **Priority**: Low
 - **Required participants:** No one
 
