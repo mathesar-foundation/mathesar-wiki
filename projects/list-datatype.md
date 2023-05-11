@@ -41,7 +41,7 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 ### Creating a list column
 #### From the table page
 - `List` should be an available data type in addition to all of the others. Therefore, users should be able to visualize it in the dropdown menu of all the available data types.
-![data_types_dropdown.png](/product/list_datatype_project/data_types_dropdown.png)
+![data_types_dropdown.png](/assets/projects/list-datatype/data_types_dropdown.png)
 - Users should be able to provide a default value, or set it to `null`, as Mathesar supports this for the other data types as well.
 
 #### Importing a file
@@ -52,7 +52,7 @@ We already have support for arrays in explorations (and the Data Explorer), but 
   
 ### Displaying data from lists
 - Items of the “list” type should be shown as pills (as it is currently shown in the data explorer).
-![visualizacion_columna.png](/product/list_datatype_project/visualizacion_columna.png)
+![visualizacion_columna.png](/assets/projects/list-datatype/visualizacion_columna.png)
 
 
 ### Editing and deleting records
@@ -60,11 +60,11 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 
 From the record page:
 
-![input_box.png](/product/list_datatype_project/input_box.png)
+![input_box.png](/assets/projects/list-datatype/input_box.png)
 
 By double clicking a cell from the table page:
 
-![llenar_celda.png](/product/list_datatype_project/llenar_celda.png)
+![llenar_celda.png](/assets/projects/list-datatype/llenar_celda.png)
 
 - Users should be able to edit the text of an existing list item. ***Two possible ways are***: 
 	 - **Clicking a single pill, and so the user will edit the text in that pill.**
