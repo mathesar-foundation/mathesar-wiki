@@ -2,7 +2,7 @@
 title: Single Select "data type"
 description: 
 published: true
-date: 2023-02-06T16:31:45.911Z
+date: 2023-05-11T14:44:55.920Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:50:06.632Z

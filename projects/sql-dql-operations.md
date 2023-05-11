@@ -2,7 +2,7 @@
 title: Remove SQLAlchemy from DQL operations
 description: 
 published: true
-date: 2023-04-10T14:09:47.271Z
+date: 2023-05-11T14:49:31.416Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:21.752Z

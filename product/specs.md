@@ -2,7 +2,7 @@
 title: Product Specs
 description: List of product specs
 published: true
-date: 2022-09-15T16:51:09.103Z
+date: 2023-05-11T14:36:04.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:35:01.056Z

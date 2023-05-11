@@ -2,7 +2,7 @@
 title: August 2021 meeting notes
 description: 
 published: true
-date: 2021-08-31T14:54:25.701Z
+date: 2023-05-11T14:33:38.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-31T14:54:23.454Z

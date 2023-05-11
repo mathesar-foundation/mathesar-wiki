@@ -2,7 +2,7 @@
 title: 2023-01-18 Frontend meeting on RFCs
 description: 
 published: true
-date: 2023-01-17T23:31:25.532Z
+date: 2023-05-11T14:44:07.352Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-17T23:31:25.532Z

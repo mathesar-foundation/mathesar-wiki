@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-05-04T08:02:46.402Z
+date: 2023-05-11T14:47:43.097Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -33,7 +33,10 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Sean      | Backup and restore | Planned |
-| Ghislaine | [Quick Save Functionality](/en/projects/projects/quick-save) | Draft |
+| Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
+| Ghislaine     | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
+
+
 
 
 ## Future project ideas

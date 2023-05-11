@@ -2,7 +2,7 @@
 title: Front end code standards
 description: 
 published: true
-date: 2022-03-18T22:29:31.268Z
+date: 2023-05-11T14:35:44.138Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-14T19:02:19.924Z

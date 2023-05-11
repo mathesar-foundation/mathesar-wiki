@@ -2,7 +2,7 @@
 title: DDL Operations
 description: 
 published: true
-date: 2021-08-18T13:45:36.317Z
+date: 2023-05-11T14:30:17.751Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:15:13.597Z

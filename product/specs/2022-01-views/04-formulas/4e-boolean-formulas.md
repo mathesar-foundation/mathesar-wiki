@@ -2,7 +2,7 @@
 title: (e) Boolean Formulas
 description: 
 published: true
-date: 2022-03-08T22:22:54.890Z
+date: 2023-05-11T14:39:07.131Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:16:22.678Z

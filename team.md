@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2023-03-17T02:47:02.610Z
+date: 2023-05-11T14:31:03.435Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z

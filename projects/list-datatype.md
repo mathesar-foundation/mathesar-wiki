@@ -1,8 +1,8 @@
 ---
 title: List Data Type - Project Draft 
 description: Draft for defining the list data type implementation project. 
-published: false
-date: 2023-05-03T21:47:28.256Z
+published: true
+date: 2023-05-11T14:50:35.585Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-02T21:44:56.744Z
@@ -11,14 +11,6 @@ dateCreated: 2023-05-02T21:44:56.744Z
 **Name**: Adding support for list data type in Mathesar
 **Status**: Draft 
 **Theme**: List data type
-> Options for status:
-> **Draft**: The owner is still writing up the project.
-> **In review**: The project has been written up, but hasn't been approved yet.
-> **Approved**: The project has been approved, but work hasn't started yet.
-> **In progress**: Work on the project has started.
-> **Complete**: The project is over.
-{.is-info}
-
 
 ## Team
 
@@ -28,8 +20,9 @@ dateCreated: 2023-05-02T21:44:56.744Z
 | **Approver (project plan)** | Kriti | *Needs to approve project plan* |
 | **Approver (product)** | Kriti | *Needs to approve product spec and design* |
 | **Approver (frontend)** | Pavish, Sean | *Needs to approve frontend spec* |
+| **Approver (design)** | Ghislaine | *Needs to approve design spec* |
 | **Approver (backend)** | Brent | *Needs to approve backend spec* |
-| **Contributor (requirements)** | Brent, Glenn | *Creates product spec, requirements, GitHub issues* |
+| **Contributor (requirements)** | Brent, Ghislaine | *Creates product spec, requirements, GitHub issues* |
 | **Contributor (design)** | Ghislaine | *Creates designs* |
 | **Contributor (backend)** | Maria | *Creates backend specs and implements backend* |
 | **Contributor (frontend)** | Rajat | *Creates frontend specs and implements frontend* |
@@ -45,44 +38,53 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 
 ## Solution
 
-### Scope of the list data type
-List data could be displayed and edited in the following places: 
-- Table cells
-- Input fields on record pages
-- Inputs to set a default value for a column
-- Inputs for filter conditions
-- Inputs to filter records within the record selector
+### Creating a list column
+#### From the table page
+- `List` should be an available data type in addition to all of the others. Therefore, users should be able to visualize it in the dropdown menu of all the available data types.
+![data_types_dropdown.png](/product/list_datatype_project/data_types_dropdown.png)
+- Users should be able to provide a default value, or set it to `null`, as Mathesar supports this for the other data types as well.
 
-
-### Creating a column
-- `List` should be an available data type in addition to all of the others. Therefore:
-	- Users should be able to visualize it in the dropdown menu of all the available data types.
-	- Users should be able to provide a default value, or set it to `null`, as Mathesar supports this for the other data types as welll.
-- When importing data from a CSV file, *what should be inferred as list*?
+#### Importing a file
+- When importing data from a CSV file, *what should be inferred as list?*
 	- `"{item1,item2,...}"`: this is what Postgresql infers as an array when importing data from a CSV file (note the double quotes).
   - `[item1,item2,...]`: this notation is allowed when inserting values in an array column in Postresql.
   
   
 ### Displaying data from lists
 - Items of the “list” type should be shown as pills (as it is currently shown in the data explorer).
+![visualizacion_columna.png](/product/list_datatype_project/visualizacion_columna.png)
+
 
 ### Editing and deleting records
-- Users should be able to edit the text of an existing list item.
+- Users should be able to create a list; this is, fill an empty cell in a list data type column. A list can be created by separating items with a comma. Example:
+
+From the record page:
+
+![input_box.png](/product/list_datatype_project/input_box.png)
+
+By double clicking a cell from the table page:
+
+![llenar_celda.png](/product/list_datatype_project/llenar_celda.png)
+
+- Users should be able to edit the text of an existing list item. ***Two possible ways are***: 
+	 - **Clicking a single pill, and so the user will edit the text in that pill.**
+   - **Displaying the content of the list as a text with comma-separated items, and so the user would edit the list as if they are editing a text.**
 - Users should be able to delete an item of a list.
-	- Also a *whole list all at once*? This is, setting that field to `null` for a single record of the table.
-- Users should be able to create a list; this is, fill an empty cell in a list data type column. 
+	- Also a *whole list all at once*. This is, setting that field to `null` for a single record of the table.
 
 ### Error handling
 - Errors should be handled and displayed if any of the operations fail.
 
 ### Filters 
-We should support the following filters for List cells:
+We should support the following filters for `List` cells:
 1. is empty
 1. is not empty
 3. contains `<ITEM>`
-4. number of items greater than `<NUMBER>`
-5. number of items greater than or equal to `<NUMBER>`
-6. number of items equal to `<NUMBER>`
+
+Regarding the length of the list in a cell:
+1. number of items greater than `<NUMBER>`
+2. number of items greater than or equal to `<NUMBER>`
+3. number of items equal to `<NUMBER>`
 7. number of items lesser than `<NUMBER>`
 8. number of items lesser than or equal to `<NUMBER>`
     
@@ -92,18 +94,18 @@ We should support the following custom grouping types for List cells:
 
 
 ## Risks
-- Mathesar may be connected to PostgreSQL databases that have columns with arrays of non-supported data types (e.g.: geometric like polygons) or multi-dimensional arrays. We need a way to let the frontend know that those kinds of lists aren't supported. Should we show them as *"other"* in the UI?
-
+- Mathesar may be connected to PostgreSQL databases that have columns with arrays of non-supported data types (e.g.: geometric like polygons) or multi-dimensional arrays. We have to let the frontend know that those kinds of lists aren't supported, and display them as text.
+- CSV files can be bad-formatted; we have to show a message to the user indicating this error or parse the uknown format as a text column (if possible).
+- Lists can be large (e.g. starting from the dozens of items). **Should we truncate the number of pills displayed in a cell?**
 
 ## Resources
-> This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+> This section  will grow over the project's timeframe.
 {.is-info}
 
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:
   - [Project description for GSoC 2023](https://wiki.mathesar.org/en/community/mentoring/project-ideas/list-data-type)
-  - [Backend spec]()
-  - [Frontend spec]()  
+  - [Backend spec (nothing here yet)]()
 
 ## Timeline
 This project should take **13 weeks**.
@@ -111,8 +113,16 @@ This project should take **13 weeks**.
 | Date | Outcome |
 | - | - |
 | 2023-05-01 | Product specification starts | 
-| 2023-05-10 | Implementation spec complete | 
-| 2023-05-15 | Implementation spec approved | 
-| 2023-03-22 | Design work complete |
-| 2023-03-27 | Backend work complete |
-| 2023-04-05 | Frontend work complete |
+| 2023-05-19 | Implementation spec complete | 
+| 2023-05-24 | Implementation spec approved | 
+| 2023-06-22 | Design work complete |
+| 2023-07-03 | Backend work complete |
+| 2023-07-05 | Frontend work complete |
+| 2023-07-20 | Documentation complete |
+
+## Future work
+- Have different designs for item's display appearance, depending on their data type. Consider for example polygons; how should we display them?
+- Convert any column to a list column. E.g user can change the data type `money` of a column, to `list of money`. In [PostgreSQL](https://www.postgresql.org/docs/current/arrays.html), an array can be of any of its built-in data types. 
+- Support operations between `list` columns. E.g.: users can define a new `list` column as the result of concatenating the items of two other `list` columns. This can be extended to a functionality similar to inserting formulas in cells of a spreadsheet (like in Excel, Calc).
+- Sort a `list` column with a custom expression. E.g.: for a numerical list column, sort the column based on the average of the lists.
+

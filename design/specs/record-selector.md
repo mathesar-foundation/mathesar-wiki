@@ -1,3 +1,13 @@
+---
+title: record-selector
+description: 
+published: true
+date: 2023-05-11T14:42:54.254Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-05T16:38:10.477Z
+---
+
 # Record selector UX design specs
 
 ## Design goals

@@ -2,7 +2,7 @@
 title: Make casting functions inlinable
 description: Use inlining of SQL functions to improve casting's performance
 published: true
-date: 2023-02-06T13:38:42.172Z
+date: 2023-05-11T14:45:28.119Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T13:36:00.141Z

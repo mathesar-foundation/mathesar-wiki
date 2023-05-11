@@ -2,7 +2,7 @@
 title: 06. View Columns
 description: 
 published: true
-date: 2022-04-06T02:13:46.659Z
+date: 2023-05-11T14:36:21.035Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:56:32.776Z

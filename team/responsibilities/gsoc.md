@@ -2,7 +2,7 @@
 title: GSoC 2023
 description: Administration of GSoC-related tasks and processes
 published: true
-date: 2023-04-24T17:51:55.712Z
+date: 2023-05-11T14:49:36.559Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T17:40:32.478Z

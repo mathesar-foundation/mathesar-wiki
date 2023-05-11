@@ -2,10 +2,10 @@
 title: Add Table from Import/URI/Data paste Specs
 description: 
 published: true
-date: 2021-08-18T13:45:20.499Z
+date: 2023-05-11T14:31:54.903Z
 tags: 
 editor: markdown
-dateCreated: 2022-08-10T21:03:22.324Z
+dateCreated: 2021-07-01T21:03:22.324Z
 ---
 
 > This spec is a starting point and has been through basic engineering and product reviews. It is not ready for implementation yet. It will have further updates and reviews before we are ready to start implementing this.

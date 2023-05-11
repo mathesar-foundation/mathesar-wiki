@@ -2,10 +2,10 @@
 title: Frontend Tables Performance Project
 description: 
 published: true
-date: 2023-03-15T00:00:00.000Z
+date: 2023-05-11T14:47:52.611Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T00:00:00.000Z
+dateCreated: 2023-03-15T20:52:35.015Z
 ---
 
 - **Roles**:

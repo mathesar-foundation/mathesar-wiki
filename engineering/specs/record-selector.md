@@ -2,7 +2,7 @@
 title: Record Selector spec
 description: 
 published: true
-date: 2022-10-05T16:45:17.216Z
+date: 2023-05-11T14:40:51.910Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-15T11:31:11.927Z

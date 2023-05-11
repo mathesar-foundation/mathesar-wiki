@@ -2,7 +2,7 @@
 title: Example Schema
 description: This is an example table structure used in various product specs.
 published: true
-date: 2022-02-17T02:53:21.409Z
+date: 2023-05-11T14:37:06.152Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-04T02:52:01.932Z

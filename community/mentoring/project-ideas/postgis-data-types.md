@@ -2,7 +2,7 @@
 title: Support for PostGIS Data Types
 description: 
 published: true
-date: 2022-02-17T23:49:12.963Z
+date: 2023-05-11T14:37:46.949Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T20:54:12.599Z

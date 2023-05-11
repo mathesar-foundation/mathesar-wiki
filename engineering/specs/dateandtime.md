@@ -2,10 +2,10 @@
 title: Human Readable Dates and Times
 description: Spec for handling dates and times in a human friendly way.
 published: true
-date: 2022-02-14T12:35:23.307Z
+date: 2023-05-11T14:38:54.063Z
 tags: 
 editor: markdown
-dateCreated: 2022-02-15T14:58:57.900Z
+dateCreated: 2022-02-23T07:55:58.187Z
 ---
 
 ## Goals
