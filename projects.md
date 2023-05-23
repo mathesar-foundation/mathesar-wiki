@@ -32,9 +32,9 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Rajat     | [Internationalization](./projects/internationalization.md) | In review |
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
-| Sean      | Backup and restore | Planned |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine     | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
+| Sean      | [Formulas Research](./projects/formulas-research.md) | In review |
 
 
 
