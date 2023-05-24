@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-05-11T14:47:48.102Z
+date: 2023-05-24T13:44:15.937Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -36,11 +36,11 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Copy from Mathesar, paste elsewhere][1688] | Front end  | 3    | 2023-04-07 | ✅ [Done][2773] |
 | [Drag to select from active cell][1885]     | Front end  | 2    | 2023-04-14 | ✅ [Done][2792] |
 | [Selection stuck in drag mode][1917]        | Front end  | 1    | 2023-04-14 | ✅ [Done][1917-done] |
-| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | 🔬 [In review][2782] |
+| [Filtering via column header][2232]         | Front end  | 2    | 2023-04-14 | ✅ [Done][2782] |
 | [Persistent column widths][1421]            | Full stack | 3    | 2023-04-21 | ❌ To do |
 | [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ✅ [Done][2808] |
 | [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | ✅ [Done][2808] |
-| [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | ❌ To do |
+| [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | 🔬 [In review][2867] |
 | [Paste into cells][2812]                    | Full stack | 9    | 2023-05-10 | 🛑 Blocked by [API work][2844] |
 
 **TOTAL TIME:**  20 days (4 weeks)
@@ -77,4 +77,5 @@ This project is a collection of smaller usability-related tickets that seem to p
 [spec]: https://wiki.mathesar.org/en/design/specs/clipboard-interactions
 [w-90]: https://github.com/centerofci/mathesar-wiki/pull/90
 [2844]: https://github.com/centerofci/mathesar/issues/2844
+[2867]: https://github.com/centerofci/mathesar/pull/2867
 
