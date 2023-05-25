@@ -2,7 +2,7 @@
 title: (g) List Formulas
 description: 
 published: true
-date: 2022-03-01T00:30:14.481Z
+date: 2023-05-11T14:39:15.478Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-26T00:31:33.448Z

@@ -2,7 +2,7 @@
 title: Phone Number data type
 description: 
 published: true
-date: 2023-03-06T21:31:28.785Z
+date: 2023-05-11T14:44:36.154Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-02T20:18:17.304Z

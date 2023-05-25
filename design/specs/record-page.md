@@ -2,7 +2,7 @@
 title: Record Page Design
 description: 
 published: true
-date: 2022-10-07T19:50:31.098Z
+date: 2023-05-11T14:41:07.605Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-18T13:41:06.809Z

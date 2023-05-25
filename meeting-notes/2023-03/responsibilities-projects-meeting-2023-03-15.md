@@ -2,10 +2,10 @@
 title: Core team meeting 2023-03-17
 description: 
 published: true
-date: 2023-03-17T18:24:42.845Z
+date: 2023-05-11T14:48:51.414Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-17T16:30:56.637Z
+dateCreated: 2023-03-17T15:57:10.154Z
 ---
 
 **Attendees**:  Brent, Dom, Ghislaine, Kriti, Mukesh, Pavish, Rajat, Sean

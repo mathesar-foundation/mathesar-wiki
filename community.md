@@ -2,7 +2,7 @@
 title: Community
 description: Introduction to the Mathesar community
 published: true
-date: 2023-03-03T21:52:20.334Z
+date: 2023-05-11T14:28:42.917Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T18:46:48.688Z
@@ -10,7 +10,7 @@ dateCreated: 2021-04-20T18:46:48.688Z
 
 Welcome to the Mathesar community! We'd love to have you involved in our project, as a contributor, a user or both! Please join our community forums and talk to us there.
 
-> If you're interesting in contributing, see [Contributing](/community/contributing)
+> If you're interesting in contributing, see [Contributing](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 {.is-info}
 
 # Community Forums

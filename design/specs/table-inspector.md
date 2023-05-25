@@ -2,7 +2,7 @@
 title: Table Inspector
 description: 
 published: true
-date: 2022-08-29T20:44:31.001Z
+date: 2023-05-11T14:42:03.995Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-29T20:35:31.512Z

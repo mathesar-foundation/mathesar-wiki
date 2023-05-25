@@ -2,7 +2,7 @@
 title: GSoC 2022: JSON data type
 description: 
 published: true
-date: 2022-10-05T16:42:20.208Z
+date: 2023-05-11T14:43:04.118Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-05T16:42:20.208Z

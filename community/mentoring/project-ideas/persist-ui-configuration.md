@@ -2,7 +2,7 @@
 title: Persist UI configuration
 description: 
 published: true
-date: 2023-02-06T15:31:20.121Z
+date: 2023-05-11T14:45:23.346Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T06:42:46.408Z

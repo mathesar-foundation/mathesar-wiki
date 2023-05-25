@@ -2,7 +2,7 @@
 title: Automatically suggest improvements to table normalization
 description: 
 published: true
-date: 2023-02-06T16:37:22.459Z
+date: 2023-05-11T14:44:45.907Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:34:34.998Z

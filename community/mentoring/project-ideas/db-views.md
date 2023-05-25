@@ -2,7 +2,7 @@
 title: Database Views
 description: Support for read-only database views.
 published: true
-date: 2023-02-06T08:10:23.325Z
+date: 2023-05-11T14:45:13.367Z
 tags: gsoc
 editor: markdown
 dateCreated: 2023-02-06T05:41:26.115Z

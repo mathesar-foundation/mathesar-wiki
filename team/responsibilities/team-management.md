@@ -2,10 +2,10 @@
 title: Team management
 description: 
 published: true
-date: 2023-03-16T17:52:57.454Z
+date: 2023-05-11T14:48:41.585Z
 tags: 
 editor: markdown
-dateCreated: 2023-03-15T20:53:04.526Z
+dateCreated: 2023-03-16T23:16:41.224Z
 ---
 
 ## Tasks

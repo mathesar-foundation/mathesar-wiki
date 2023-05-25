@@ -2,7 +2,7 @@
 title: Support for JSON Data Type
 description: 
 published: true
-date: 2022-02-18T00:12:28.125Z
+date: 2023-05-11T14:37:54.973Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:20:20.298Z

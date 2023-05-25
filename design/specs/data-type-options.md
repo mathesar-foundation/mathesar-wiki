@@ -2,10 +2,10 @@
 title: Data Type Options
 description: 
 published: true
-date: 2022-09-01
+date: 2023-05-11T14:42:19.820Z
 tags: 
 editor: markdown
-dateCreated: 2022-09-01
+dateCreated: 2022-09-12T21:08:08.137Z
 ---
 
 ## Context

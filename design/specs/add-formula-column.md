@@ -2,7 +2,7 @@
 title: Formula Columns
 description: 
 published: true
-date: 2022-08-10T15:29:41.659Z
+date: 2023-05-11T14:41:49.003Z
 tags: 
 editor: markdown
 dateCreated: 2022-08-10T15:27:06.985Z

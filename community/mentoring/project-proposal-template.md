@@ -2,7 +2,7 @@
 title: Project Proposal Template
 description: 
 published: true
-date: 2023-02-06T20:43:19.332Z
+date: 2023-05-11T14:38:28.049Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:32:06.017Z

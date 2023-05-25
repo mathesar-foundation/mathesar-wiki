@@ -2,7 +2,7 @@
 title: Listing Views Spec
 description: 
 published: true
-date: 2022-01-11T22:13:30.328Z
+date: 2023-05-11T14:34:04.341Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-17T08:28:58.527Z

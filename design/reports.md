@@ -2,7 +2,7 @@
 title: Design Reports
 description: Conclusions after research and discovery
 published: true
-date: 2021-08-18T13:44:28.658Z
+date: 2023-05-11T14:29:48.678Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:53:20.824Z

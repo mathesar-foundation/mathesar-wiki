@@ -2,7 +2,7 @@
 title: Design
 description: Resources and notes for Mathesar designers
 published: true
-date: 2021-10-23T17:41:29.439Z
+date: 2023-05-11T14:29:02.380Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-21T18:59:51.092Z
@@ -31,7 +31,7 @@ More information:
 {.links-list}
 
 ## Contributing
-You must be a member of our [design team](/team) to contribute to design tasks, but we are open to new members. Please see [Contributing to Mathesar](/community/contributing) for more information.
+You must be a member of our [design team](/team) to contribute to design tasks. Due to limited capacity, we are currently unable to accept design volunteers.
 
 # Philosophy
 High-level information about the philosophy behind our design.

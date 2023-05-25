@@ -2,7 +2,7 @@
 title: Repo admin
 description: 
 published: true
-date: 2023-04-12T17:54:47.322Z
+date: 2023-05-11T14:48:36.672Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:36.850Z
@@ -54,7 +54,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - Pay extra attention before marking an issue as ready. Do not mark issues as `status: ready` until they have enough details for someone to work on them.
   - Assignee:
     - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
-    - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](/community/contributing)
+    - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
   - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
 
 - If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.

@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-03-10T17:05:13.218Z
+date: 2023-05-11T15:26:49.670Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -14,20 +14,28 @@ Mathesar is a straightforward open source tool that provides a **spreadsheet-lik
 
 You can use Mathesar to build **data models**, **enter data**, and even **build reports**. You host your own Mathesar installation, which gives you ownership, privacy, and control of your data.
 
+See https://mathesar.org for more information about the product.
+
 ## Current status
-Mathesar's is in public alpha as of March 2023. We are actively looking for users to test and help improve our product.
+Mathesar's is in public alpha as of March 2023. We are actively looking for users to [install Mathesar](https://docs.mathesar.org/install/) and [open issues](https://github.com/centerofci/mathesar/issues/new/choose) to help us improve the product.
 
-Please see https://docs.mathesar.org/ for information on how to install Mathesar. Please open an issue on [our GitHub](https://github.com/centerofci/mathesar) for any issues you encounter.
+## About this wiki
 
-## About the wiki
-The Mathesar wiki is aimed at **people who are helping build Mathesar**. Please see our [main website](https://mathesar.org) for information about Mathesar aimed at general audiences.
+The Mathesar wiki is a knowledge base for **people who are helping build Mathesar**. We use it to document technical specs, designs, meeting notes, roles, responsibilities, and other workflow-related information.
+
+Anyone can propose edits to this wiki by making a PR against the [wiki repository](https://github.com/centerofci/mathesar-wiki/). If you're making frequent edits, you can ask the [team](./team.md) for access to edits via this web interface.
+
+## See also
+
+- [Contributor guide](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md) with information to get started making code changes
+- [User and administrator documentation](https://docs.mathesar.org/)
+
 
 ## Quick Links
 > If you're a GSoC aspirant, go to our [Mentoring](/en/community/mentoring) page.
 {.is-info}
 
 - [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
-- [:scroll: Contributor Guide *We welcome new contributors, here's how to get started.*](./community/contributing.md)
 - [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
 - [:trophy: Projects](./projects.md)
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)

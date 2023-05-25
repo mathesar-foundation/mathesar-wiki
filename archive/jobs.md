@@ -2,7 +2,7 @@
 title: Job Descriptions
 description: Job descriptions for Mathesar
 published: true
-date: 2022-05-25T20:58:08.301Z
+date: 2023-05-11T14:28:46.286Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:00:06.658Z

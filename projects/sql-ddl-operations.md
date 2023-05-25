@@ -2,7 +2,7 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-04-27T08:15:55.871Z
+date: 2023-05-11T14:49:21.750Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:13.306Z

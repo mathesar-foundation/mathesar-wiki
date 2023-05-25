@@ -2,7 +2,7 @@
 title: Data Management Skills
 description: 
 published: true
-date: 2021-08-18T13:44:01.817Z
+date: 2023-05-11T14:30:01.514Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T19:11:08.621Z

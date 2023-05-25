@@ -2,10 +2,10 @@
 title: Inline Saving and Editing
 description: 
 published: true
-date: 2022-08-19
+date: 2023-05-11T14:41:53.644Z
 tags: 
 editor: markdown
-dateCreated: 2022-08-19
+dateCreated: 2022-08-29T20:15:17.283Z
 ---
 
 ## Context

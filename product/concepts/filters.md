@@ -2,7 +2,7 @@
 title: Filters
 description: About Filters in Mathesar
 published: true
-date: 2022-01-27T20:37:23.424Z
+date: 2023-05-11T14:36:53.482Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T23:37:01.162Z

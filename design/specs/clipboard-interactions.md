@@ -2,10 +2,10 @@
 title: Clipboard Interaction specs
 description: 
 published: true
-date: 2022-03-27T00:00:00.000Z
+date: 2023-05-11T14:50:16.076Z
 tags: 
 editor: markdown
-dateCreated: 2022-03-27T00:00:00.000Z
+dateCreated: 2023-04-12T13:17:05.007Z
 ---
 
 ## Design goals

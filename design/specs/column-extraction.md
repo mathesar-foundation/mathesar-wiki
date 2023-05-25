@@ -2,7 +2,7 @@
 title: Column Extraction
 description: 
 published: true
-date: 2022-07-22T11:12:59.313Z
+date: 2023-05-11T14:41:32.692Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-22T11:12:59.313Z

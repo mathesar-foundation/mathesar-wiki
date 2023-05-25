@@ -2,7 +2,7 @@
 title: Marketing Copy
 description: Text to use on sites which promote Mathesar
 published: true
-date: 2023-03-10T17:09:02.041Z
+date: 2023-05-11T14:47:07.925Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:03:27.625Z

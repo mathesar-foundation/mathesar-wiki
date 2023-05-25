@@ -2,7 +2,7 @@
 title: Mathesar on GitHub
 description: About Mathesar's GitHub usage
 published: true
-date: 2022-12-06T20:56:47.836Z
+date: 2023-05-11T14:36:45.387Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T00:52:58.069Z

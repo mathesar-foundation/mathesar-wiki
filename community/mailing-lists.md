@@ -2,7 +2,7 @@
 title: Mailing Lists
 description: Mathesar community mailing lists
 published: true
-date: 2023-03-10T17:53:20.435Z
+date: 2023-05-11T14:36:49.345Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-26T01:34:16.386Z

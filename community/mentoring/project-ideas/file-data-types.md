@@ -2,7 +2,7 @@
 title: Support for File & Image Data Types
 description: 
 published: true
-date: 2022-02-17T23:52:41.765Z
+date: 2023-05-11T14:37:50.991Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:12:49.111Z
