@@ -1,8 +1,8 @@
 ---
-title: List Data Type - Project Draft 
-description: Draft for defining the list data type implementation project. 
+title: List Data Type - Project Draft
+description: Draft for defining the list data type implementation project.
 published: true
-date: 2023-05-11T14:50:35.585Z
+date: 2023-05-29T22:20:11.247Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-02T21:44:56.744Z
@@ -105,6 +105,7 @@ We should support the following custom grouping types for List cells:
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:
   - [Project description for GSoC 2023](https://wiki.mathesar.org/en/community/mentoring/project-ideas/list-data-type)
+  - [Frontend spec](https://wiki.mathesar.org/en/projects/list-datatype/frontend-specs)
   - [Backend spec (nothing here yet)]()
 
 ## Timeline
