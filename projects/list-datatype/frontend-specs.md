@@ -2,7 +2,7 @@
 title: List data type - Frontend specs
 description: 
 published: true
-date: 2023-05-29T22:19:03.569Z
+date: 2023-05-29T22:26:01.788Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-29T22:19:03.569Z
@@ -30,5 +30,5 @@ From the table's view:
 Example of multi-dimensional arrays:
 ![nested_arrays_pills.png](/product/list_datatype_project/nested_arrays_pills.png)
 
-- For already existing Postgresql databases from the user, which could contain multi-dimensional arrays, we can add an information note on the sidebar that warns about this constraint.
+- For already existing Postgresql databases from the user, which could contain multi-dimensional arrays, we can add an information note on the sidebar that warns about this constraint. The message could be something like: *"Only 1-D lists/arrays are supported. If there exist items with more dimensions, then the entire column will be considered as a list of strings type".*
 ![list_info_box.png](/product/list_datatype_project/list_info_box.png)
