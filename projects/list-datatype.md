@@ -2,7 +2,7 @@
 title: List Data Type - Project Draft
 description: Draft for defining the list data type implementation project.
 published: true
-date: 2023-05-29T22:20:11.247Z
+date: 2023-05-29T22:20:23.485Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-02T21:44:56.744Z
