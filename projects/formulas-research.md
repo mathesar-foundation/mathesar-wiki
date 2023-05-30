@@ -2,14 +2,14 @@
 title: Formulas Research
 description: 
 published: true
-date: 2023-05-23T00:00:00.000Z
+date: 2023-05-30T18:30:19.575Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-23T00:00:00.000Z
+dateCreated: 2023-05-23T17:13:54.841Z
 ---
 
 **Name**: Formulas Research
-**Status**: In review 
+**Status**: Approved 
 
 ## Team
 
