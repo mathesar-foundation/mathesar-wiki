@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-05-11T14:47:43.097Z
+date: 2023-05-30T18:30:04.217Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -34,7 +34,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine     | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
-| Sean      | [Formulas Research](./projects/formulas-research.md) | In review |
+| Sean      | [Formulas Research](./projects/formulas-research.md) | Approved |
 
 
 
