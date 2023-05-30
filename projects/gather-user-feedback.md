@@ -2,13 +2,11 @@
 title: Gathering User Feedback
 description: 
 published: true
-date: 2023-05-11T14:50:50.147Z
+date: 2023-05-30T18:11:27.328Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-10T21:12:43.186Z
 ---
-
-# Project Name: Gathering User Feedback
 
 **Status**: Draft
 **Theme**: User Engagement and Feedback
