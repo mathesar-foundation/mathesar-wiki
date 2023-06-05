@@ -2,7 +2,7 @@
 title: 2023-04 Usability Improvements
 description: 
 published: true
-date: 2023-05-24T13:44:15.937Z
+date: 2023-06-05T20:32:15.185Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:30.876Z
@@ -40,7 +40,7 @@ This project is a collection of smaller usability-related tickets that seem to p
 | [Persistent column widths][1421]            | Full stack | 3    | 2023-04-21 | ❌ To do |
 | [Resizable sidebars][2362]                  | Front end  | 3    | 2023-04-26 | ✅ [Done][2808] |
 | [Persistent sidebar widths][2387]           | Front end  | 1    | 2023-04-26 | ✅ [Done][2808] |
-| [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | 🔬 [In review][2867] |
+| [TSV serialization improvements][2811]      | Front end  | 1    | 2023-05-10 | ✅ [Done][2867] |
 | [Paste into cells][2812]                    | Full stack | 9    | 2023-05-10 | 🛑 Blocked by [API work][2844] |
 
 **TOTAL TIME:**  20 days (4 weeks)
