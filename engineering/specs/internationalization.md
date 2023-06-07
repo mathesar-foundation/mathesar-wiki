@@ -96,7 +96,7 @@ the usage could be simplified to:
 
 `RichText` would only parse the result of the translated string, i.e. it will not perform any translation within it. It would be a general-purpose component that gets a string and replaces placeholders with its slot content.
 
-The RichText component would parse the string, identify placeholders, split it, and render it as an array or arrays, render them with slots passing down the `activeSlot` property. This allows us to use both Components or DOM elements as we see fit.
+The RichText component would parse the string, identify placeholders, split it, and render it as an array or arrays, rendering them with slots passing down the `activeSlot` property. This allows us to use both Components or DOM elements as we see fit.
 
 The `RichText` component would look something like this.
 
@@ -133,6 +133,34 @@ Some components inside the component library that has some strings hard-coded in
 **Plurals/Formatting(date, time, currency, etc...)**
 
 The [typesafe-i18n](https://github.com/ivanhofer/typesafe-i18n) library supports this on the client side using [formatters](https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/formatters)
+
+Ex:
+
+```typescript
+Delete {labeledCount(selectedRowIndices, 'records', {
+  casing: 'title',
+  countWhenSingular: 'hidden',
+})}
+```
+
+Using the message format from the typesafe-i18n lib
+
+```svelte
+<script>
+const translations = {
+  //                                        singular | plural
+  deleteRecords: "Delete {{1 record | ?? record}}"
+
+  // There are other formats possible: {{zero|one|two|few|many|other}}
+  // See the full list here: https://github.com/ivanhofer/typesafe-i18n/tree/main/packages/runtime#plural
+}
+
+console.log(LL.deleteRecords(1)) // Delete record
+console.log(LL.deleteRecords(2)) // Delete 2 records
+</script>
+```
+
+Translations services like Transifex have a very user-friendly UI to show this to the translators: https://help.transifex.com/en/articles/6231958-working-with-plurals-and-genders#h_51e09ec18a
 
 ### Translating server-side rendered pages & API error messages
 
