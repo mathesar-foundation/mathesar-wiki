@@ -2,7 +2,7 @@
 title: Team Events
 description: 
 published: true
-date: 2023-05-11T14:34:51.924Z
+date: 2023-06-09T14:54:14.228Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T21:03:44.499Z
@@ -21,6 +21,8 @@ Previous events have included:
 - Playing [CodeNames](https://codenames.game/)
 - Playing charades (with a movie theme)
 - Playing an online version of [Fishbowl](https://fishbowl-game.com/), a guessing game.
+- Playing [just one!](https://just1.herokuapp.com/)
+- Playing https://really.boring.website
 
 We're particularly interested in events that help us get to know each other better. Also, we're always open to doing activities we've done before.
 
