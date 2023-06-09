@@ -2,7 +2,7 @@
 title: Team Events
 description: 
 published: true
-date: 2023-06-09T14:54:44.765Z
+date: 2023-06-09T15:31:45.668Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T21:03:44.499Z
@@ -23,6 +23,7 @@ Previous events have included:
 - Playing an online version of [Fishbowl](https://fishbowl-game.com/), a guessing game.
 - Playing [just one!](https://just1.herokuapp.com/)
 - Playing https://really.boring.website
+- Playing [Quack Stanley](https://quackstanley.net/)
 
 We're particularly interested in events that help us get to know each other better. Also, we're always open to doing activities we've done before.
 
