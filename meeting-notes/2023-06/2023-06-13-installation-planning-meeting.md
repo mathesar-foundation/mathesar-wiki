@@ -2,13 +2,12 @@
 title: 2023-06-13 Installation Planning Meeting
 description: 
 published: true
-date: 2023-06-15T18:52:57.263Z
+date: 2023-06-15T18:55:09.772Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T18:52:57.263Z
 ---
 
-# 2023-06-13 Installation planning meeting
 
 Attending:
 - Kriti
