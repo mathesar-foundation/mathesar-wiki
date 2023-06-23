@@ -9,7 +9,7 @@ dateCreated: 2023-05-23T17:13:54.841Z
 ---
 
 **Name**: Formulas Research
-**Status**: Approved 
+**Status**: Done (see the [report](../engineering/research/formulas.md))
 
 ## Team
 

@@ -21,6 +21,7 @@ dateCreated: 2021-04-20T16:15:59.765Z
 {.links-list}
 
 ## Other
+- [Research](./engineering/research.md)
 - [:books: Resources *Links to potentially interesting resources.*](/engineering/resources)
 - [:card_file_box: Archive *Inactive pages preserved for historical interest*](/en/engineering/archive)
 {.links-list}

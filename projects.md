@@ -33,11 +33,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
-| Ghislaine     | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
-| Sean      | [Formulas Research](./projects/formulas-research.md) | Approved |
-
-
-
+| Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
 
 ## Future project ideas
 
@@ -45,7 +41,7 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 
 ## Past projects
 
-*(None yet)*
+- [Formulas Research](./projects/formulas-research.md)
 
 ## Project template
 
