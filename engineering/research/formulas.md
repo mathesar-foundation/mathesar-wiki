@@ -260,7 +260,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
 
     - Hovering the column header shows the formula definition
 
-        ![image](https://github.com/centerofci/mathesar/assets/42411/b7a53348-4811-42f6-a562-f6d31b955af6)
+        ![image](/assets/engineering/research/formulas/b7a53348-4811-42f6-a562-f6d31b955af6)
 
     - I kept wanted to double-click the _cell_ to edit the formula. Instead, I need to click the column header, then select "edit" from the menu
 
