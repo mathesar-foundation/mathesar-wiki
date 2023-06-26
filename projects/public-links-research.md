@@ -2,7 +2,7 @@
 title: Research: Publicly shareable links
 description: 
 published: true
-date: 2023-06-26T04:13:57.364Z
+date: 2023-06-26T04:25:55.325Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T04:12:41.348Z
@@ -29,8 +29,6 @@ dateCreated: 2023-06-26T04:12:41.348Z
 * Adjust scope to the minimal useful initial version of these features. 
 * Write up a product spec and go through review, iterations, and approval from the team.
 * Once the product spec is approved, write up a new project for implementating the features.
-
-Note: This project is not expected to produce a technical spec. It would only focus on the product spec with some high level implementation thoughts that might affect 
 
 ## Timeline
 This project should take **5 days**, subject to possible delay due to review feedback and iterations.
