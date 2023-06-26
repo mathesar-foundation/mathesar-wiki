@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-05-30T18:30:04.217Z
+date: 2023-06-26T03:41:57.833Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -23,14 +23,12 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In Progress |
 | Mukesh    | [Installation Documentation improvements](./projects/installation-documentation-improvements) | In progress |
-| Pavish    | [Release v0.1.2](./projects/release-0-1-2) | In progress |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | In Progress |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
 | Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
 | Rajat     | [Internationalization](./projects/internationalization.md) | In review |
-| Pavish    | [Frontend tables performance](./projects/frontend-tables-performance.md) | Draft |
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
@@ -41,6 +39,7 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 
 ## Past projects
 
+- [Release v0.1.2](./projects/release-0-1-2)
 - [Formulas Research](./projects/formulas-research.md)
 
 ## Project template
