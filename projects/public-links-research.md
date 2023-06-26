@@ -2,14 +2,14 @@
 title: Research: Publicly shareable links
 description: 
 published: true
-date: 2023-06-26T04:12:41.348Z
+date: 2023-06-26T04:13:57.364Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T04:12:41.348Z
 ---
 
 **Name**: Research: Publicly shareable links
-**Status**: Draft
+**Status**: In review
 
 ## Team
 | Role | Assignee |
