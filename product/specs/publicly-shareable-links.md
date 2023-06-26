@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-06-26T05:03:37.643Z
+date: 2023-06-26T05:05:35.498Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -19,7 +19,9 @@ This spec describes the working principle of the initial versions of Publicly sh
 
 ## Scope
 
-## UX flow
+## Competitive research
+
+## Suggested UX flow
 
 ## Backend implementation feasibility
 
