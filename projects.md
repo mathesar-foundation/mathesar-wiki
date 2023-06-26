@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-06-26T03:41:57.833Z
+date: 2023-06-26T04:13:29.480Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -32,6 +32,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
+| Pavish    | [Research: Publicly shareable links](./projects/public-links-research) | In review |
 
 ## Future project ideas
 
