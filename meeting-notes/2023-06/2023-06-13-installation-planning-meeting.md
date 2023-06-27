@@ -2,12 +2,11 @@
 title: 2023-06-13 Installation Planning Meeting
 description: 
 published: true
-date: 2023-06-15T18:55:09.772Z
+date: 2023-06-27T16:13:54.008Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T18:52:57.263Z
 ---
-
 
 Attending:
 - Kriti
@@ -15,7 +14,7 @@ Attending:
 - Mukesh
 - Sean
 
-Continued on 2023-06-14, Aritra and Anshuman also attended
+Continued on 2023-06-14, Aritra and Anshuman also attended.
 
 ## Current install process
 
@@ -235,6 +234,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended
 - Docker Compose is a third type of set up, probably not worth supporting since it's midway between "set and forget" and "configure everything", we shouldn't support this unless we have evidence that there's a whole bunch of users who need a middle option.
 
 ### Someone installing server & DB on separate remote systems
+*Will be discussed at the next meeting*
 
 ### Someone installing Mathesar on a PaaS
 - Options that our competitors support:
@@ -250,10 +250,12 @@ Continued on 2023-06-14, Aritra and Anshuman also attended
         - Render
         - Cloudron
 
+*Will be discussed at the next meeting*
+
 ### Next steps and action items (2023-06-14)
 - Should we wait until Kriti's back to have more meetings?
     - Yes
-    - Kriti will 
+    - Kriti will schedule once she's back
 - Next steps (for Mukesh) – in no particular order:
     - Research into shipping Mathesar as an executable
         - Write up summary
