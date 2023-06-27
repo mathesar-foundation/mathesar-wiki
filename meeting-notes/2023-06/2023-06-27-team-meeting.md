@@ -2,7 +2,7 @@
 title: 2023-06-27 team meeting
 description: 
 published: true
-date: 2023-06-27T16:10:26.260Z
+date: 2023-06-27T16:11:15.927Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-27T16:10:26.260Z
@@ -37,3 +37,5 @@ We're going back to fixed length cycles.
 
 ## Project approval process
 Projects for the next cycle will be discussed and approved at core team meetings during breaks.
+
+*We ran out of time and will continue talking on Thursday.*
