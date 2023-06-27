@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-06-27T07:04:48.416Z
+date: 2023-06-27T07:06:20.854Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -56,7 +56,7 @@ This spec describes the working principle of the initial versions of Publicly sh
   - It will not contain the table/exploration inspector for the initial version.
   - Tables will contain the menu bar with options to filter, sort, and group.
 
-## Backend implementation approach
+## High-level Backend implementation approach
 ### Endpoints & DB schema:
 - A django model `public_links`, with fields:
   - "hash": UUID, not null, unique.
@@ -89,7 +89,7 @@ This spec describes the working principle of the initial versions of Publicly sh
   - Since the user is autonomous, we do not have to specify a custom `scope_queryset` since the access to the requested resource is public.
   - If the user is already logged in, we do not have to do any of this and let the existing logic take over.
 
-## Frontend implementation approach
+## High-level Frontend implementation approach
 - Handling routing:
   - Route would be `/public/<hash>`.
   - Upon request, the frontend will call the `public_links` retrieve the entity associated with the link. Based on the entity, it would show a table view or an exploration view.
