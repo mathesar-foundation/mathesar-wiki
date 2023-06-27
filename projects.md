@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-06-27T14:19:49.009Z
+date: 2023-06-27T14:21:08.058Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -22,7 +22,6 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
 | Sean      | [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In Progress |
-| Mukesh    | (./projects/installation-documentation-improvements) | In progress |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | In Progress |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
@@ -42,7 +41,7 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 
 - [Release v0.1.2](./projects/release-0-1-2)
 - [Formulas Research](./projects/formulas-research.md)
-
+- [Installation Documentation improvements](./projects/installation-documentation-improvements)
 ## Project template
 
 [Use this template](/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
