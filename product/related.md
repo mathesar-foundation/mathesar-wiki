@@ -2,7 +2,7 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2023-06-27T10:48:00.231Z
+date: 2023-06-29T13:24:19.100Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
@@ -38,6 +38,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Outerbase](https://outerbase.com/)
 - [Retable](https://www.retable.io)
 - [Retool Database](https://retool.com/products/database)
+- [Stackby](https://stackby.com/)
 
 ## Desktop
 - [Ultorg](https://www.ultorg.com/)
