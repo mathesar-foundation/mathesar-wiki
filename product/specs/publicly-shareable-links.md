@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-03T13:40:52.198Z
+date: 2023-07-03T13:41:16.736Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
