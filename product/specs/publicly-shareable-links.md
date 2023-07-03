@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-03T13:41:16.736Z
+date: 2023-07-03T13:53:02.693Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -17,6 +17,10 @@ This spec describes the working principle of the initial versions of Publicly sh
 * Users should be able to publicly share tables & explorations via links.
 * Users should be able to embed tables and explorations in other sites.
 
+## What this feature is, and what its not
+* This feature is related to publishing an existing table or exploration (and in the future, forms & queries) via public urls, which can be accessed by anybody with the link.
+* This feature is not related to access control between users in a Mathesar instance.
+
 ## Scope for the initial version
 * The links will be generated only for tables and explorations.
 * The links would display a read-only version of tables and explorations, i.e. only 'viewer' access.
@@ -29,32 +33,36 @@ This spec describes the working principle of the initial versions of Publicly sh
 * Embedding is assumed to take less work as the idea is only to provide code for an iframe with the public link. It may be removed from the initial verison as part of scope reduction if the work takes longer than anticipated.
 
 ## Suggested UX flow
-### Sharing a table/exploration:
+### User creating the link
+#### Sharing a table/exploration:
   - User opens table/query.
   - Notices a button saying 'Share' in the table menu bar.
   - This button is also present in the inspector.
-  - Upon clicking, the 'Sharing control modal' opens. Read further of it's UX.
-### When a table/exploration is already shared:
+  - Upon clicking, the 'Sharing control modal' opens. Read further down for it's UX.
+#### When a table/exploration is already shared:
   - User opens table/exploration.
   - The button saying 'Share' in the menu bar & inspector have a different indication.
     - This could be a different background or an icon.
   - This indication would denote that the table/exploration is already publicly shared.
-  - Upon clicking, the 'Sharing control modal' opens. Read further of it's UX.
-### Sharing control modal:
+  - Upon clicking, the 'Sharing control modal' opens. Read further down for it's UX.
+#### Sharing control modal:
   - Modal shows information on whether the table is already shared or not.
   - If shared, it shows the public link.
     - Users can copy the link.
     - Users can clear it.
     - Users can regenerate the link.
     - Users can see code to embed the table/exploration.
+    - Users can click on a hyperlink which opens the public link in a separate tab, so that they can preview it.
   - If not shared, users can generate a new link.
-### The shared content:
+### User viewing shared link
   - When users access the public url, they view the table/exploration in a dedicated page for it.
   - This page will not contain breadcrumbs and profile controls.
   - This page will contain the app header and the name of the table/exploration.
   - It will contain a readonly view of the table/exploration, similar to how a 'viewer' would view it.
   - It will not contain the table/exploration inspector for the initial version.
   - Tables will contain the menu bar with options to filter, sort, and group.
+### Accessibility
+- For the initial version, we will not support smaller screens.
 
 ## High-level Backend implementation approach
 ### Endpoints & DB schema:
@@ -190,3 +198,4 @@ Both the following approaches satisfy all points above.
 
 #### Google sheets
 - Option to share content as viewer, commenter, and editor.
+- Option to publish a public url which does not require users to login to view the content.
