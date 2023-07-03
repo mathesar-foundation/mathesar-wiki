@@ -92,9 +92,9 @@ Both the following approaches satisfy all points above.
 
 ##### 'Sparse table exclusive belongs-to' approach.
   * DB schema:
-    ![public_links_sparse_table.png](/public_links_sparse_table.png)
+    ![public_links_sparse_table.png](/assets/product/specs/publicly-shareable-links/public_links_sparse_table.png)
   * DB schema when we implement (4):
-    ![public_links_sparse_table_metadata.png](/public_links_sparse_table_metadata.png)
+    ![public_links_sparse_table_metadata.png](/assets/product/specs/publicly-shareable-links/public_links_sparse_table_metadata.png)
   * Requires a check condition on the table to ensure that there's exactly 1 of the entities for each link.
   * Pros:
     * API requests and responses would be under a single endpoint `/public_links/`.
@@ -111,7 +111,7 @@ Both the following approaches satisfy all points above.
 
 ##### 'One dedicated table per entity' approach
   * DB schema
-    ![public_links_one_table_per_entity.png](/public_links_one_table_per_entity.png)
+    ![public_links_one_table_per_entity.png](/assets/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
   * Pros:
     * Models are simple.
     * Can be implemented using abstract models, and Django simplifies all implementation logic. 
