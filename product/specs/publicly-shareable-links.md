@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-03T13:35:46.283Z
+date: 2023-07-03T13:40:52.198Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -59,7 +59,7 @@ This spec describes the working principle of the initial versions of Publicly sh
 ## High-level Backend implementation approach
 ### Endpoints & DB schema:
 
-Refer relevant discussions in [mail thread]().
+Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/Cw306oVkx6g/m/z4wmV0jZAQAJ).
 
 #### Requirements:
   - (1) When a table, query, or in future forms, charts etc., get deleted, the corresponding links should get deleted.
@@ -91,10 +91,10 @@ Refer relevant discussions in [mail thread]().
 Both the following approaches satisfy all points above.
 
 ##### 'Sparse table exclusive belongs-to' approach.
-  * DB schema
-    - [schema diagram]
+  * DB schema:
+    ![public_links_sparse_table.png](/public_links_sparse_table.png)
   * DB schema when we implement (4):
-    - [schema diagram]
+    ![public_links_sparse_table_metadata.png](/public_links_sparse_table_metadata.png)
   * Requires a check condition on the table to ensure that there's exactly 1 of the entities for each link.
   * Pros:
     * API requests and responses would be under a single endpoint `/public_links/`.
@@ -111,7 +111,7 @@ Both the following approaches satisfy all points above.
 
 ##### 'One dedicated table per entity' approach
   * DB schema
-    - [schema diagram]
+    ![public_links_one_table_per_entity.png](/public_links_one_table_per_entity.png)
   * Pros:
     * Models are simple.
     * Can be implemented using abstract models, and Django simplifies all implementation logic. 
@@ -121,8 +121,8 @@ Both the following approaches satisfy all points above.
   * Cons:
     * Multiple tables with similar duplicated columns would be required for a feature which is essentially common to all the entities.
     * API requests & responses require multiple endpoints, one for each entity.
-      - Tables would be under `/public_links/tables/'
-      - Queries would be under '/public_links/queries'.
+      - Tables would be under `/public_links/tables/`
+      - Queries would be under `/public_links/queries`.
     * Public links would need to contain the type of entity.
       - Tables would be shared with link `/public/tables/<url_slug>`.
       - Queries: `/public/queries/<url_slug>`.
@@ -131,6 +131,7 @@ Both the following approaches satisfy all points above.
   * Implementation and maintenance wise, the 'One dedicated table per entity' is the simplest, and considering that we might definitely have entity specific metadata, I'm recommending it.
   * I don't see an issue with having the entity in the url (eg., `/public/queries/<url_slug>`).
   * Anything we might want to do with links would require us to do it in all the tables, but Django simplifies that for us, so I don't see complexity there.
+
 
 ### Authentication and Authorization for existing entity API endpoints:
 - Bypassing authentication for APIs needed by frontend:
