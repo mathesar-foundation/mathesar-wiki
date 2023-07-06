@@ -2,7 +2,7 @@
 title: Team
 description: About the Mathesar team
 published: true
-date: 2023-05-11T14:31:03.435Z
+date: 2023-07-06T19:49:40.062Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-28T12:40:44.943Z
@@ -12,6 +12,7 @@ Mathesar team members belong either to the **core team** or the **community team
 
 - [:busts_in_silhouette: Team Members *List of Mathesar core and community team members*](/team/members)
 - [:business_suit_levitating:  Team responsibilities *Who is doing what*](/team/responsibilities.md)
+- [:scroll: Work logs *Work logs for team members*](/team/worklogs)
 - [:book: Team Guide *Handbook for team members*](/team/guide)
 {.links-list}
 
