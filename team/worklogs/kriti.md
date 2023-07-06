@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-06T20:23:05.212Z
+date: 2023-07-06T20:23:16.867Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -13,11 +13,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Catch up with email and GitHub
 - Send email out about worklogs
 - Write up strategy / user research project
-- Ensure wiki projects & responsibilities are up-to-date
 - Review form research
 - Review spec for shareable links
 - Read Aritra's blog post
 - Prioritize issues with Sean and Dom
+- Ensure wiki projects & responsibilities are up-to-date
 
 ## 2023-07-06
 - Prepped for and ran the team planning meeting
