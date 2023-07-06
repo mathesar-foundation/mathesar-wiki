@@ -2,17 +2,18 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-06T19:47:53.037Z
+date: 2023-07-06T19:48:33.030Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
-## Current priorities
+## Actively working on
 - Post meeting notes from today's meeting on the wiki
 - Catch up with email and GitHub
 - Send email out about worklogs
 - Write up strategy / user research project
+- Ensure wiki projects & responsibilities are up-to-date
 
 ## 2023-07-06
 - Prepped for and ran the team planning meeting
