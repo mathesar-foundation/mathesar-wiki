@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-06T19:55:59.006Z
+date: 2023-07-06T20:11:06.402Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -17,6 +17,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Review form research
 - Review spec for shareable links
 - Read Aritra's blog post
+- Prioritize issues with Sean and Dom
 
 ## 2023-07-06
 - Prepped for and ran the team planning meeting
