@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-06T20:11:06.402Z
+date: 2023-07-06T20:23:05.212Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -22,5 +22,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## 2023-07-06
 - Prepped for and ran the team planning meeting
 - Prepped for and ran the installation planning meeting
+- Scheduled next team & installation meetings
 - 1:1s with Sean and Pavish
 - Set up worklog pages on wiki
