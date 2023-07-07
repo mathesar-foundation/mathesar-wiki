@@ -2,7 +2,7 @@
 title: Pavish's work log
 description: 
 published: true
-date: 2023-07-07T17:06:10.400Z
+date: 2023-07-07T17:06:29.534Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T17:01:46.847Z
@@ -16,7 +16,7 @@ dateCreated: 2023-07-07T17:01:46.847Z
 * Core team event
 
 ## 2023-07-06
-###Meetings
+### Meetings
 * Frontend team meeting
 * Weekly meeting
 * 1:1 with Kriti
