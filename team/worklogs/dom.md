@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-07T12:47:08.784Z
+date: 2023-07-07T16:42:51.980Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -10,14 +10,13 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Active
 
-- Review #2993
 - Try doing querydown in lispy syntax for discussion with Sean
+- Finish backend fixes project's timeline
 
 ## Backlog
 
 - Do #2304 (compose order directives)
 - Do #2346 (improve column type inference)
-- Schedule qualitative interviews
 - Submit PR with test case for long identifiers in preexisting database
 - Process selected TODO comments into issues #2181
 
@@ -25,8 +24,11 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ### 2023-07-07
 
+- Write up backend fixes project
+- Review and merge #2993 (remove lazydict)
 - Split reviewing Anshuman's PRs with Anish
 - Open #3007
+- Respond in backend+frontend fixes email thread
 
 ### 2023-07-06
 
