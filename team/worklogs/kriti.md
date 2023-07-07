@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-07T12:57:41.585Z
+date: 2023-07-07T20:13:31.622Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -16,9 +16,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Ensure wiki projects & responsibilities are up-to-date
 
 ## 2023-07-07
+- Caught up with email, Matrix, and GitHub (various responses and follow ups)
+
 ### Meetings
 - Core team social event
 - How to Raise Money workshop session
+- Planning meeting with Ghislaine
 
 ## 2023-07-06
 - Caught up with email and GitHub
