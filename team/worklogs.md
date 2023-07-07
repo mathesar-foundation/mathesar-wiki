@@ -10,9 +10,10 @@ dateCreated: 2023-07-06T19:00:08.762Z
 
 The Mathesar team's daily work logs:
 
-- [Kriti's work log](/en/team/worklogs/kriti)
-- [Ghislaine's work log](/en/team/worklogs/ghislaine)
-- [Brent's work log](/en/team/worklogs/brent)
-- [Dom's work log](/en/team/worklogs/dom)
-- [Mukesh's work log](/en/team/worklogs/mukesh)
-- [Pavish's work log](/en/team/worklogs/pavish)
+- [Brent](./worklogs/brent.md)
+- [Dom](./worklogs/dom.md)
+- [Ghislaine](./worklogs/ghislaine.md)
+- [Kriti](./worklogs/kriti.md)
+- [Mukesh](./worklogs/mukesh.md)
+- [Pavish](./worklogs/pavish.md)
+- [Sean](./worklogs/sean.md)
