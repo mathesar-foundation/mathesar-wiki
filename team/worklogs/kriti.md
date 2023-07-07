@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-07T21:12:12.001Z
+date: 2023-07-07T21:12:31.303Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -29,12 +29,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## 2023-07-06
 - **Management & administration**
   - Caught up with email and GitHub
- 	- Prepped for and ran the team planning meeting
+  - Prepped for and ran the team planning meeting
   - Scheduled next team, installation, and user research planning meetings
   - 1:1s with Sean and Pavish
   - Set up worklog pages on wiki
   - Followed up on async planning emails
-	- Posted a bunch of meeting notes from this week's meetings on the wiki
+  - Posted a bunch of meeting notes from this week's meetings on the wiki
 - **Product**
   - Prepped for and ran the installation planning meeting
   - Prioritized issues for Sean and Dom and sent an email
