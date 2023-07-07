@@ -12,3 +12,4 @@ The Mathesar team's daily work logs.
 
 - [Kriti's work log](/en/team/worklogs/kriti)
 - [Ghislaine's work log](/en/team/worklogs/ghislaine)
+- [Brent's work log](/en/team/worklogs/brent)
