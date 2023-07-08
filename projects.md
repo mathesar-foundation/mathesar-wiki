@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-08T07:57:41.981Z
+date: 2023-07-08T07:57:59.101Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -32,7 +32,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
 | Pavish    | [Research: Publicly shareable links](./projects/public-links-research) | In review |
-| Dom    		| [2023-07 backend-fixes](./projects/2023-07-backend-fixes) | Draft |
+| Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
 
 ## Future project ideas
 
