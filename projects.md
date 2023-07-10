@@ -32,6 +32,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
 | Pavish    | [Research: Publicly shareable links](./projects/public-links-research) | In review |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
+| Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
 
 ## Future project ideas
 
