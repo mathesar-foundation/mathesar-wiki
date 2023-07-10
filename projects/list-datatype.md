@@ -2,7 +2,7 @@
 title: List Data Type - Project Draft
 description: Draft for defining the list data type implementation project.
 published: true
-date: 2023-05-29T22:20:23.485Z
+date: 2023-07-08T19:56:20.084Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-02T21:44:56.744Z
@@ -36,6 +36,14 @@ So far, we've been assuming that users will only store a single point of data in
 
 We already have support for arrays in explorations (and the Data Explorer), but those are read-only. This project is for adding support for lists to tables.
 
+**Note:**
+The implementation of Lists is not trivial, due to the way in which Arrays are implemented in Postgres. Here, there is not really a concept of dimensions or length, as Postgres does not really care about checking or validating those. Back on the hood, even though a user could set the length of an array when creating a column, this is not actually checked or enforced by the engine. All arrays are n-dimensional, with whatever lenght. The only checking that is done is that, within a record, all the elements of an array must have the same number of dimensions. Otherwise the engine will throw an error.
+
+This adds complexity to several of the proposed features of lists. 
+- Aggregations
+- Way of displaying
+- Editing and deleting
+
 ## Solution
 
 ### Creating a list column
@@ -54,6 +62,10 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 - Items of the “list” type should be shown as pills (as it is currently shown in the data explorer).
 ![visualizacion_columna.png](/assets/projects/list-datatype/visualizacion_columna.png)
 
+- Lists can be large (e.g. starting from the dozens of items), so they must be truncated.
+
+The previous points are regarding one dimensional lists. For n-dimensional ones, it's probably a better idea to take another approach, like some JSON renderers.  
+A first approach to this case will be to render the arrays as plain text. 
 
 ### Editing and deleting records
 - Users should be able to create a list; this is, fill an empty cell in a list data type column. A list can be created by separating items with a comma. Example:
@@ -67,10 +79,10 @@ By double clicking a cell from the table page:
 ![llenar_celda.png](/assets/projects/list-datatype/llenar_celda.png)
 
 - Users should be able to edit the text of an existing list item. ***Two possible ways are***: 
-	 - **Clicking a single pill, and so the user will edit the text in that pill.**
-   - **Displaying the content of the list as a text with comma-separated items, and so the user would edit the list as if they are editing a text.**
+	 1. Clicking a single pill, and so the user will edit the text in that pill.
+   2. Displaying the content of the list as a text with comma-separated items, and so the user would edit the list as if they are editing a text.
 - Users should be able to delete an item of a list.
-	- Also a *whole list all at once*. This is, setting that field to `null` for a single record of the table.
+- Also a *whole list all at once*. This is, setting that field to `null` for a single record of the table.
 
 ### Error handling
 - Errors should be handled and displayed if any of the operations fail.
@@ -96,7 +108,6 @@ We should support the following custom grouping types for List cells:
 ## Risks
 - Mathesar may be connected to PostgreSQL databases that have columns with arrays of non-supported data types (e.g.: geometric like polygons) or multi-dimensional arrays. We have to let the frontend know that those kinds of lists aren't supported, and display them as text.
 - CSV files can be bad-formatted; we have to show a message to the user indicating this error or parse the uknown format as a text column (if possible).
-- Lists can be large (e.g. starting from the dozens of items). **Should we truncate the number of pills displayed in a cell?**
 
 ## Resources
 > This section  will grow over the project's timeframe.
