@@ -10,8 +10,9 @@ dateCreated: 2023-07-10T17:01:46.847Z
 
 ## Actively working on
 
-- Internationalization project
-  - Internationalize access control modals.
+### Internationalization project
+
+- Internationalize access control modals.
 
 ## 2023-07-10
 
