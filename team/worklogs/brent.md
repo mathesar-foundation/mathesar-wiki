@@ -10,8 +10,10 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ## Actively working on
 
-### Email
-- Need to catch up on core team mailing list
+### PR reviews:
+- Follow up on [Add `Peak Time` aggregation function. #2981](https://github.com/centerofci/mathesar/pull/2981) (requested changes)
+- Follow up on [Add Peak Day of Week aggregation function. #3004](https://github.com/centerofci/mathesar/pull/3004) (requested changes)
+- Follow up on [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006) (requested changes)
 
 ### Meetings:
 - 1:1 with Dom
@@ -35,6 +37,12 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ### Code:
 - Get PR submitted for the table creation DDL SQL functions.
+
+## 2023-07-10
+
+### Email
+- Caught up on core team mailing list
+
 
 ## 2023-07-07
 
