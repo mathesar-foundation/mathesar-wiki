@@ -8,23 +8,11 @@ editor: markdown
 dateCreated: 2023-07-07T00:00:00.000Z
 ---
 
-
 ## TODO
 
 ### Soon
 
-- Reduce scope of Usability Improvements project so that it can be closed
-- Work on building new project page for this cycle
-    - find tickets for upcoming work
 - Write RFC for SheetSelection refactor
-
-### Community-related
-
-- Review [Add Peak Time aggregation function](https://github.com/centerofci/mathesar/pull/2981)
-- Review [Add Peak Day of Week aggregation function](https://github.com/centerofci/mathesar/pull/3004)
-- Review [Add Peak Month aggregation function](https://github.com/centerofci/mathesar/pull/3006)
-- Respond to comment on [Date input should close date picker when losing focus via Tab or Shift+Tab](https://github.com/centerofci/mathesar/issues/1769) and post clearer steps to reproduce.
-- Review [Updated frontend to send a single bulk delete request instead of one request for each record](https://github.com/centerofci/mathesar/pull/2985)
 - Review Varsha's Sample schema file for API Documentation
 
 ### Backlog
@@ -33,7 +21,20 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
 
----
+--------------------------------------------------------------------------------
+
+## 2023-07-10 Monday
+
+- Mark Usability Improvements project as "cut short" so that it can be closed
+- Add [2023-07 frontend fixes](https://github.com/centerofci/mathesar-wiki/blob/master/projects/2023-07-frontend-fixes.md) project page
+- Respond to comment on [Date input should close date picker when losing focus via Tab or Shift+Tab](https://github.com/centerofci/mathesar/issues/1769), posting clearer steps to reproduce.
+- Review [Added margin between breadcrumb selector and bottom of the veiwport](https://github.com/centerofci/mathesar/pull/3014)
+- Open ticket [Time cell not saved after pressing Tab key](https://github.com/centerofci/mathesar/issues/3018)
+- Open ticket [Confusing timezone issue when editing Time cells](https://github.com/centerofci/mathesar/issues/3019)
+- Review [Add Peak Time aggregation function](https://github.com/centerofci/mathesar/pull/2981)
+- Review [Add Peak Day of Week aggregation function](https://github.com/centerofci/mathesar/pull/3004)
+- Review [Add Peak Month aggregation function](https://github.com/centerofci/mathesar/pull/3006)
+- Review [Updated frontend to send a single bulk delete request instead of one request for each record](https://github.com/centerofci/mathesar/pull/2985)
 
 ## 2023-07-07 Friday
 
