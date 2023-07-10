@@ -53,8 +53,8 @@ This project should take 4 weeks of frontend implementation effort and 1 week of
 |                                              | End Date   | Status      |
 | -------------------------------------------- | ---------- | ----------- |
 | Get tech spec approved                       | 2023-05-26 | Done        |
-| FE implementation                            | 2023-06-27 | In Progress |
-| BE & Infra Work                              | 2023-06-27 |
-| Developer documentation                      | 2023-07-04 |
-| Guide to get the strings translated          | 2023-07-04 |
-| Contributing guide for volunteer translators | 2023-07-04 |
+| FE implementation                            | 2023-07-19 | In Progress |
+| BE & Infra Work                              | 2023-07-19 |
+| Developer documentation                      | 2023-07-20 |
+| Guide to get the strings translated          | 2023-07-21 |
+| Contributing guide for volunteer translators | 2023-07-21 |
