@@ -20,6 +20,8 @@ dateCreated: 2023-07-10T17:01:46.847Z
 - Internationalize Data import page.
 - Internationalize record page.
 - Internationalize profile page.
+- Sent e-mail to Kriti to get Transifex access.
+- Sent invite to Mukesh to chat about specific BE changes - planning to do it myself.
 
 ### Ongoing responsibility
 
