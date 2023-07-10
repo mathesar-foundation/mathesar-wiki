@@ -9,7 +9,7 @@ dateCreated: 2023-03-15T20:52:30.876Z
 ---
 
 - **Name**: 2023-04 Usability Improvements
-- **Status**: In progress
+- **Status**: Cut short to move on to other work
 
 ## Team
 
