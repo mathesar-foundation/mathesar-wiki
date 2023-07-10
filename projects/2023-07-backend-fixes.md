@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-07T14:08:52.280Z
+date: 2023-07-10T14:55:59.600Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -41,7 +41,7 @@ I also created this issue to compliment the one for implementing `citext`, since
 
 ## Solution
 
-Will start with block-prone issues. If or when I am blocked on any of these issues, I will work on the block-proof issues. Once these issues are resolved, I will work on the other issues. If I were to do it the other way around, I'd risk being blocked with nothing to do.
+Will start with block-prone issues. If or when I am blocked on any of these issues, I will work on the block-proof issues. Once block-prone issues are resolved, I will work on the remaining block-proof issues. If I were to do it the other way around, I'd risk being blocked with nothing to do.
 
 
 ### Block-prone issues
@@ -74,7 +74,7 @@ The project budget is 20 days (4 weeks). Current estimate of total time required
 ## Risks
 - Finishing the tasks too early
 	- The prefered risk, since I can then pick up additional work
-- Not finish the tasks in time
+- Not finishing the tasks in time
 	- The worse risk, since not finishing in time will either leave work unfinished or interfere with the break period (and/or next cycle)
 
 ## Resources
@@ -85,9 +85,9 @@ The project budget is 20 days (4 weeks). Current estimate of total time required
 ## Timeline
 This project should take **4 weeks**.
 
-(to be finished; specify when buffer time should start, and whatever else might help with progress estimation)
-
 | Date | Outcome |
 | - | - |
 | 2023-07-10 | Work starts |
+| 2023-07-19 | Half-way mark (50% of work should be done) |
+| 2023-07-31 | Buffer time starts |
 | 2023-08-07 | Work ends |
