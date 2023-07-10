@@ -13,7 +13,6 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 ### Soon
 
-- Organize Friday's team event
 - Reduce scope of Usability Improvements project so that it can be closed
 - Work on building new project page for this cycle
     - find tickets for upcoming work
@@ -26,6 +25,7 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - Review [Add Peak Month aggregation function](https://github.com/centerofci/mathesar/pull/3006)
 - Respond to comment on [Date input should close date picker when losing focus via Tab or Shift+Tab](https://github.com/centerofci/mathesar/issues/1769) and post clearer steps to reproduce.
 - Review [Updated frontend to send a single bulk delete request instead of one request for each record](https://github.com/centerofci/mathesar/pull/2985)
+- Review Varsha's Sample schema file for API Documentation
 
 ### Backlog
 
@@ -35,7 +35,14 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 ---
 
-## 2023-07-06
+## 2023-07-07 Friday
+
+- Team event
+- Catch up with some email discussions from the past week
+- Re-review [Publicly Sharable Links spec](https://wiki.mathesar.org/en/product/specs/publicly-shareable-links)
+- Begin mapping out some thoughts for the SheetSelection refactor RFC
+
+## 2023-07-06 Thursday
 
 - Many meetings:
     - Front end team meeting
