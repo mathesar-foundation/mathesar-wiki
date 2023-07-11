@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-10T14:55:59.600Z
+date: 2023-07-11T09:10:22.038Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -79,7 +79,7 @@ The project budget is 20 days (4 weeks). Current estimate of total time required
 
 ## Resources
 
-- **Issues**: [GitHub meta issue]() (to be created)
+- **Issues**: [GitHub meta issue](https://github.com/centerofci/mathesar/issues/3022)
 
 
 ## Timeline
