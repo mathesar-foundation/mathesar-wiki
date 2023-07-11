@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-11T16:46:10.621Z
+date: 2023-07-11T16:51:29.132Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -18,6 +18,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Email Transifex about open source plan
 - Figure out what to do with 1Password renewal
 - Ensure wiki projects & responsibilities are up-to-date
+- At some point, go through and organize GitHub issues and milestones
 
 ## 2023-07-11
 - **Management & administration**
