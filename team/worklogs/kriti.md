@@ -2,13 +2,13 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-11T16:54:29.828Z
+date: 2023-07-11T19:29:28.045Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
-# Active
+# Working on
 - Fundraising 1:1
 - Discussion with Ghislaine about next steps for strategy / user research project
 - Write up strategy / user research project
