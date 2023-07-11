@@ -2,15 +2,32 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-07T21:12:31.303Z
+date: 2023-07-11T16:46:10.621Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 ## Actively working on
+
+- Fundraising 1:1
+- Discussion with Ghislaine about next steps for strategy / user research project
 - Write up strategy / user research project
+- Plan next installation related meeting
+- Post installation meeting notes
+- Email Transifex about open source plan
+- Figure out what to do with 1Password renewal
 - Ensure wiki projects & responsibilities are up-to-date
+
+## 2023-07-11
+- **Management & administration**
+  - Caught up on email
+- **Product**
+  - Installation related meeting and follow up discussion
+  - Caught up on GitHub issues and followed up on a few of them
+
+## 2023-07-10
+*Day off.*
 
 ## 2023-07-07
 - **Management & administration**
