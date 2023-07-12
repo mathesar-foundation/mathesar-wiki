@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-12T20:50:18.400Z
+date: 2023-07-12T20:51:52.508Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -71,8 +71,8 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 ### Endpoints & DB schema:
 
 > The names and terminologies used here are for the purposes of the spec only. It will differ during implementation.
-> Refer [Appendix #1]() for approaches & discussions on selection of Django model structure.
-> Refer [Appendix #2]() for approaches & discussions on selection of API endpoint structure.
+> Refer [Appendix #1](#h-1-approaches-discussions-on-django-model-and-db-schema) for approaches & discussions on selection of Django model structure.
+> Refer [Appendix #2](#h-2-approaches-on-api-endpoints) for approaches & discussions on selection of API endpoint structure.
 {.is-default}
 
 * Django models
