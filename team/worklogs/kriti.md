@@ -2,13 +2,16 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-12T22:17:42.327Z
+date: 2023-07-12T22:18:21.089Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- Team meeting
+- 1:1 with Rajat
+- Product strategy co-working with Ghislaine
 - Plan next installation related meeting
 - Post installation meeting notes
 - Continue following up on 1Password renewal
