@@ -2,14 +2,11 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-12T20:53:58.934Z
+date: 2023-07-12T21:34:35.479Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
 ---
-
-> This spec is in review.
-{.is-warning}
 
 This spec describes the working principle of the initial versions of Publicly shareable links and ability to embed tables & explorations in other sites.
 
