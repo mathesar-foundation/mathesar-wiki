@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-12T20:51:52.508Z
+date: 2023-07-12T20:53:58.934Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -31,6 +31,11 @@ This spec describes the working principle of the initial versions of Publicly sh
 ## Assumptions
 * Only users with manager access would want to share tables & explorations publicly.
 * Embedding is assumed to take less work as the idea is only to provide code for an iframe with the public link. It may be removed from the initial verison as part of scope reduction if the work takes longer than anticipated.
+
+## Terminologies
+* The names and terminologies used here are for the purposes of the spec only. It will differ during implementation.
+* For implementation, we intend to name the feature '**Shares**'.
+
 
 ## Suggested UX flow
 ### User creating the link
@@ -70,7 +75,6 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 
 ### Endpoints & DB schema:
 
-> The names and terminologies used here are for the purposes of the spec only. It will differ during implementation.
 > Refer [Appendix #1](#h-1-approaches-discussions-on-django-model-and-db-schema) for approaches & discussions on selection of Django model structure.
 > Refer [Appendix #2](#h-2-approaches-on-api-endpoints) for approaches & discussions on selection of API endpoint structure.
 {.is-default}
