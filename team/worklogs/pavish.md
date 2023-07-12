@@ -2,14 +2,27 @@
 title: Pavish's work log
 description: 
 published: true
-date: 2023-07-07T17:06:29.534Z
+date: 2023-07-11T19:28:37.033Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 ## Actively working on
+* Submit draft PR with models and APIs for Shareable links project
 * Write up Shareable links implementation project
+
+## 2023-07-11
+### Meetings & Chats
+* Installation planning meeting
+* Chat with Kriti on shareable links API structure
+
+### Code
+* Work on figuring out API structure needed for shareable links
+
+## 2023-07-10
+### Code
+* Started work on models and APIs needed for shareable links project
 
 ## 2023-07-07
 ### Meetings

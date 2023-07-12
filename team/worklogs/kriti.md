@@ -2,15 +2,43 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-07T21:12:31.303Z
+date: 2023-07-11T21:50:18.493Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
-## Actively working on
+# Working on
+- Prep for external meeting
+- External meetings x 2
 - Write up strategy / user research project
+- Plan next installation related meeting
+- Post installation meeting notes
+- Continue following up on 1Password renewal
+
+## Backlog
+- Set up CRM in Mathesar
+- Research Mathesar product niches for strategy project
 - Ensure wiki projects & responsibilities are up-to-date
+- At some point, go through and organize GitHub issues and milestones
+
+# Complete
+
+## 2023-07-11
+- **Management & administration**
+  - Caught up on email
+  - Reviewed worklogs
+  - Reviewed 1Password options and decided on next steps; followed up with Ondrej
+- **Product**
+  - Installation related meeting and follow up discussion
+  - Caught up on GitHub issues and followed up on a few of them
+  - Discussion with Ghislaine about next steps for strategy / user research project
+  - Contacted Transifex about open source plan
+- **Fundraising**
+  - 1:1 with Geoffrey
+
+## 2023-07-10
+*Day off.*
 
 ## 2023-07-07
 - **Management & administration**
