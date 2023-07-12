@@ -10,14 +10,7 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ## Actively working on
 
-### Meetings:
-- Installation Planning 
-
-### PR reviews
-- [Add `Peak Time` aggregation function. #2981](https://github.com/centerofci/mathesar/pull/2981) (requested changes)
-
 ### RSQLA1 project work:
-- Follow up on my PR [Table create ddl #3016](https://github.com/centerofci/mathesar/pull/3016)
 - Update [project description](/en/projects/sql-ddl-operations)
 - Update and clean [RSQLA1: Move DDL Operations to SQL Functions #2737](https://github.com/centerofci/mathesar/issues/2737)
 
@@ -30,6 +23,25 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 
 ## 2023-07-11
+
+This was a short day for me.
+
+
+### Meetings:
+- Installation Planning
+
+### PR reviews
+- [Add `Peak Time` aggregation function. #2981](https://github.com/centerofci/mathesar/pull/2981) (merged)
+
+
+### RSQLA1
+- Follow up on PR [Table create ddl #3016](https://github.com/centerofci/mathesar/pull/3016) (merged)
+
+### Summarization project work:
+- Back-and-forth async with Aritra about the SQL portion of his time aggregation PR.
+
+### Installation planning:
+- Thought and discussion about what to do regarding DB credential storage.
 
 
 ## 2023-07-10
