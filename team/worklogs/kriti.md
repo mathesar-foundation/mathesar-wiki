@@ -2,16 +2,13 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-11T21:50:18.493Z
+date: 2023-07-12T22:17:42.327Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Prep for external meeting
-- External meetings x 2
-- Write up strategy / user research project
 - Plan next installation related meeting
 - Post installation meeting notes
 - Continue following up on 1Password renewal
@@ -19,10 +16,22 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## Backlog
 - Set up CRM in Mathesar
 - Research Mathesar product niches for strategy project
-- Ensure wiki projects & responsibilities are up-to-date
+- Figure out current status and next steps for various ongoing responsibilities
 - At some point, go through and organize GitHub issues and milestones
+- At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-12
+- **Management & administration**
+  - Caught up on email, GitHub, Matrix
+  - Re-organized [projects](/en/projects) and [responsibilities](/en/team/responsibilities) pages.
+- **Product**
+	- Wrote up [2023-07 product strategy](/en/projects/2023-07-product-strategy) project
+- **Fundraising**
+  - How to Raise Money workshop session
+- **Other**
+	- External meeting for networking/advice + pre-prep
 
 ## 2023-07-11
 - **Management & administration**
