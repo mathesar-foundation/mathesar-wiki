@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-12T20:58:26.874Z
+date: 2023-07-12T20:58:42.816Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -25,6 +25,7 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
 | Pavish | [Shareable links](./projects/shareable-links-implementation) | In review |
+| Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 
 ## 2023 summer interships & work programs
 
@@ -38,7 +39,6 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | --        | -- | -- |
 | Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
 | Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In Progress |
-| Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
 | Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
