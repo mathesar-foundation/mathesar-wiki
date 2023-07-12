@@ -2,7 +2,7 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-12T21:44:07.522Z
+date: 2023-07-12T21:46:01.530Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z
@@ -43,18 +43,10 @@ At the end of this project, we expect to have:
   - This includes a plan for ongoing user research and how it will be integrated into our roadmap planning.
 
 ## Risks
-- Paying for all these pizzas will cost money.
-- Users could be allergic to pizza ingredients.
+The timeline is short, and we'll be prioritizing being decisive. This means we may need to course correct in the future as we get more information.
 
 ## Resources
-> This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
-{.is-info}
-
-- **Issues**: [GitHub meta issue]()
-- **Wiki pages**:
-  - [Product spec]()
-  - [Backend spec]()
-  - [Frontend spec]()  
+- [Project internal notes](https://hackmd.io/Ys9xfGZBTK-OaSCTrKPxNw?view) (private to core team)
 
 ## Timeline
 This project will fit into the 2023-07-10 cycle.
