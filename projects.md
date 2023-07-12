@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-12T20:25:06.097Z
+date: 2023-07-12T20:28:22.320Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -30,7 +30,6 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Draft |
 | Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
-| Pavish    | [Research: Publicly shareable links](./projects/public-links-research) | In review |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
 | Pavish | [Shareable links](./projects/shareable-links-implementation) | In review |
@@ -45,6 +44,7 @@ Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 - [Formulas Research](./projects/formulas-research.md)
 - [Installation Documentation improvements](./projects/installation-documentation-improvements)
 - [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
+- [Research: Publicly shareable links](./projects/public-links-research)
 
 ## Project template
 
