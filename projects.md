@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-12T21:25:39.039Z
+date: 2023-07-12T21:47:24.840Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -26,6 +26,7 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
 | Pavish | [Shareable links](./projects/shareable-links-implementation) | In review |
 | Mukesh    | [Installation improvements](./projects/installation-improvements.md) | Draft |
+| Kriti, Ghislaine | [2023-07 product strategy](/en/projects/2023-07-product-strategy) | In review |
 
 ## 2023 summer interships & work programs
 
