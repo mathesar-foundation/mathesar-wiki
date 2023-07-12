@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-12T20:58:42.816Z
+date: 2023-07-12T21:25:39.039Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -33,31 +33,29 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | --        | -- | -- |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | In progress |
 
-## Current projects
+## Future project ideas
+Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
+
+Here are some other project ideas that have been written up, but need to be reviewed before we move forward with them.
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Kriti     | [Raise additional funding for Mathesar](./projects/funding.md) | In progress |
-| Ghislaine | [Feedback kickoff](./projects/user-feedback-kickoff.md) | In Progress |
 | Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
 | Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
 | Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
-| Ghislaine | [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts) | In Progress |
-
-| Ghislaine | [Gather User Feedback](./projects/gather-user-feedback) | Draft |
-
-## Future project ideas
-
-Tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
 
 ## Past projects
+Projects that are no longer active for a variety of reasons. Please check the individual project pages for more details.
+
 - [Release v0.1.2](./projects/release-0-1-2)
 - [Formulas Research](./projects/formulas-research.md)
 - [Installation Documentation improvements](./projects/installation-documentation-improvements)
 - [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
 - [Research: Publicly shareable links](./projects/public-links-research)
+- [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts)
+- [Raise additional funding for Mathesar](./projects/funding.md)
+- [Feedback kickoff](./projects/user-feedback-kickoff.md)
+- [Gather User Feedback](./projects/gather-user-feedback)
 
 ## Project template
-
 [Use this template](/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
-
