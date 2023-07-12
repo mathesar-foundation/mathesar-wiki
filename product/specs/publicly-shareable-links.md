@@ -2,7 +2,7 @@
 title: Publicly shareable links
 description: 
 published: true
-date: 2023-07-03T13:53:02.693Z
+date: 2023-07-12T20:50:18.400Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-26T05:03:37.643Z
@@ -14,7 +14,7 @@ dateCreated: 2023-06-26T05:03:37.643Z
 This spec describes the working principle of the initial versions of Publicly shareable links and ability to embed tables & explorations in other sites.
 
 ## Goals
-* Users should be able to publicly share tables & explorations via links.
+* Users should be able to publicly share tables & explorations as url links.
 * Users should be able to embed tables and explorations in other sites.
 
 ## What this feature is, and what its not
@@ -65,10 +65,51 @@ This spec describes the working principle of the initial versions of Publicly sh
 - For the initial version, we will not support smaller screens.
 
 ## High-level Backend implementation approach
-### Endpoints & DB schema:
 
 Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/Cw306oVkx6g/m/z4wmV0jZAQAJ).
 
+### Endpoints & DB schema:
+
+> The names and terminologies used here are for the purposes of the spec only. It will differ during implementation.
+> Refer [Appendix #1]() for approaches & discussions on selection of Django model structure.
+> Refer [Appendix #2]() for approaches & discussions on selection of API endpoint structure.
+{.is-default}
+
+* Django models
+	- One abstract model containing common fields
+  - Each entity will have a model inheriting from the abstract model
+* DB schema
+    ![public_links_one_table_per_entity.png](/assets/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
+* API endpoints:
+	- The `shares` endpoints will be placed within each entity. For tables, it would be:
+      - CREATE: `POST /tables/<table_id>/shares/`
+      - LIST: `GET /tables/<table_id>/shares/`
+      - PARTIAL UPDATE: `PATCH /tables/<table_id>/shares/<link_id>/`
+      - REGENERATE SLUG: `POST /tables/<table_id>/shares/<link_id>/regenerate/`
+
+### Authentication and Authorization for existing entity API endpoints:
+- Bypassing authentication for APIs needed by frontend:
+  - For publicly shared content, we should be able to bypass login for the GET requests required to display the table/query in the UI. This includes GET endpoints in tables, queries, columns, records etc.,
+  - The frontend will set an additional request header `public_link_slug` when attempting to access entity endpoints (eg., /tables, /queries etc.,) via a publicly shared url. The value of this request header will be the same as the slug of the public link.
+    - Eg., `public_link_slug`: `f2eea1b0-591f-4414-89ae-87d1688bf1d6` 
+  - This can be done by adding custom permission classes to these specific endpoints, which override the default `rest_framework.permissions.IsAuthenticated` class, and changes the condition to:
+    - If isAuthenticated, provide access.
+    - If not authenticated, Check if the request contains the `public_link_slug` header. If no, reject request.
+      - If `public_link_slug` header is present, Check if the relevant links table contains the slug. If no, reject request.
+        - If the relevant table contains the slug, identify the entity the slug relates to. Check if the requested object (column, record, table etc.,) is either the same entity or a sub-entity of it. Eg., If a column is requested and the slug is linked to a table, check if the column is part of the table. If no, reject request.
+          - If yes, allow request.
+- Bypassing authorization for APIs needed by frontend:
+  - The custom auth mentioned above would only be applied to GET methods of selected endpoints for actions like list, retrieve. Essentially, everything a viewer would have access to.
+  - Since the user is autonomous, we do not have to specify a custom `scope_queryset` since the access to the requested resource is public.
+  - If the user is already logged in, we do not have to do any of this and let the existing logic take over.
+
+## High-level Frontend implementation approach
+- Sending an additional request header:
+  - A request header `public_link_slug` will be sent will all API requests when the current parent route is `/public/`. The value of this header would be the same as the slug.
+
+## Appendix
+
+### 1. Approaches & discussions on Django model and DB schema
 #### Requirements:
   - (1) When a table, query, or in future forms, charts etc., get deleted, the corresponding links should get deleted.
   - (2) A link should contain metadata which is common to all kinds of links. Eg., password, access_levels etc.,
@@ -139,38 +180,65 @@ Both the following approaches satisfy all points above.
   * Implementation and maintenance wise, the 'One dedicated table per entity' is the simplest, and considering that we might definitely have entity specific metadata, I'm recommending it.
   * I don't see an issue with having the entity in the url (eg., `/public/queries/<url_slug>`).
   * Anything we might want to do with links would require us to do it in all the tables, but Django simplifies that for us, so I don't see complexity there.
+  
+#### Result
+* It was discussed and concluded via mail that we'll go ahead with the 'One dedicated table per entity' approach.
 
+### 2. Approaches on API endpoints
 
-### Authentication and Authorization for existing entity API endpoints:
-- Bypassing authentication for APIs needed by frontend:
-  - For publicly shared content, we should be able to bypass login for the GET requests required to display the table/ query in the UI. This includes GET endpoints in tables, queries, columns, records etc.,
-  - The frontend will set an additional request header `public_link_slug` when attempting to access entity endpoints (eg., /tables, /queries etc.,) via a publicly shared url. The value of this request header will be the same as the slug of the public link.
-    - Eg., `public_link_slug`: `f2eea1b0-591f-4414-89ae-87d1688bf1d6` 
-  - This can be done by adding custom permission classes to these specific endpoints, which override the default `rest_framework.permissions.IsAuthenticated` class, and changes the condition to:
-    - If isAuthenticated, provide access.
-    - If not authenticated, Check if the request contains the `public_link_slug` header. If no, reject request.
-      - If `public_link_slug` header is present, Check if the relevant links table contains the slug. If no, reject request.
-        - If the relevant table contains the slug, identify the entity the slug relates to. Check if the requested object (column, record, table etc.,) is either the same entity or a sub-entity of it. Eg., If a column is requested and the slug is linked to a table, check if the column is part of the table. If no, reject request.
-          - If yes, allow request.
-- Bypassing authorization for APIs needed by frontend:
-  - The custom auth mentioned above would only be applied to GET methods of selected endpoints for actions like list, retrieve. Essentially, everything a viewer would have access to.
-  - Since the user is autonomous, we do not have to specify a custom `scope_queryset` since the access to the requested resource is public.
-  - If the user is already logged in, we do not have to do any of this and let the existing logic take over.
+#### Option 1:
 
-## High-level Frontend implementation approach
-- Sending an additional request header:
-  - A request header `public_link_slug` will be sent will all API requests when the current parent route is `/public/`. The value of this header would be the same as the slug.
+CREATE: `POST /shares/table-link/`. Table id will be part of request body.
+LIST: `GET /shares/table-link/`
+LIST & FILTER BY ENTITY: `GET /shares/table-link/?table=<table_id>`
+LIST & FILTER BY SLUG: `GET /shares/table-link/?slug=<slug>`
+PARTIAL UPDATE: `PATCH /shares/table-link/<link_id>/`. Table id should not be allowed to be updated.
+REGENERATE SLUG: `POST /shares/table-link/<link_id>/regenerate/`
 
-## Appendix
+Pros:
+- Shared url need not contain entity id: `http://localhost:8000/shared/tables/<slug>/`
+- Code related to shared links can be within a single place
+- Generic viewsets and serializers can be written reducing possible duplication
 
-### Scheduled for later iterations
+Cons:
+- Entity id needs to specified as part of request body.
+    - Additional logic would be required to disallow update of entity id.
+    - Additional logic required to filter by entity id.
+
+#### Option 2
+
+Endpoints for shares would be placed within each entity. For table, it would be:
+
+CREATE: `POST /tables/<table_id>/shares/`
+LIST: `GET /tables/<table_id>/shares/`
+~~LIST & FILTER BY ENTITY: `GET /tables/<table_id>/shares/`~~ (This is the same as list)
+~~LIST & FILTER BY SLUG: `GET /tables/<table_id>/shares/?slug=<slug>`~~ (Not required by frontend, since shared url already has `table_id`)
+PARTIAL UPDATE: `PATCH /tables/<table_id>/shares/<link_id>/`
+REGENERATE SLUG: `POST /tables/<table_id>/shares/<link_id>/regenerate/`
+
+Pros:
+- Placed within hierarchy of respective entities
+- Entity id is a path param:
+    - Entity need not be specified in the request body additionally
+    - No additional filtering needed by entity
+    - Update requests should not modify entity, and since entity is part of url path, no additional logic is needed for it
+- Option to filter by slug is not required
+
+Cons:
+- Shared url needs to contain entity id: `http://localhost:8000/shared/tables/<table_id>/?token={$slug}`
+- Some code duplication might be needed
+
+#### Result:
+- Pavish and Kriti discussed via private chat and decided to go with Option 2.
+
+### 3. Scheduled for later iterations
 - Shared views with persisted filters, grouping etc.,
 - Option to restrict link access by password
 - Sharing record page & forms
 - Option to share as editor
 - Option to show table/exploration inspector
 
-### Competitive research
+### 4. Competitive research
 
 #### Airtable
 - Option to generate link & embedding view is present in menu bar.
