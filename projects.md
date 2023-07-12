@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-08T07:57:59.101Z
+date: 2023-07-12T20:25:06.097Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -33,6 +33,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Pavish    | [Research: Publicly shareable links](./projects/public-links-research) | In review |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
+| Pavish | [Shareable links](./projects/shareable-links-implementation) | In review |
 
 ## Future project ideas
 
