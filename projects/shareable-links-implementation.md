@@ -2,7 +2,7 @@
 title: Shareable links Implementation
 description: 
 published: true
-date: 2023-07-12T20:24:06.407Z
+date: 2023-07-12T21:13:18.239Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T20:24:06.407Z
@@ -28,6 +28,7 @@ Implement Shareable links for tables & queries.
 ## Solution
 
 * Implement Shareable links feature
+* [GH Meta ticket](https://github.com/centerofci/mathesar/issues/3032)
 
 ## Timeline
 This project should be completed within the cycle.
