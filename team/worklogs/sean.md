@@ -13,7 +13,6 @@ dateCreated: 2023-07-07T00:00:00.000Z
 ### Soon
 
 - Write RFC for SheetSelection refactor
-- Review Varsha's Sample schema file for API Documentation
 
 ### Backlog
 
@@ -22,6 +21,15 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-11 Tuesday
+
+- Re-review [Updated frontend to send a single bulk delete request instead of one request for each record](https://github.com/centerofci/mathesar/pull/2985)
+- Re-review [Added margin between breadcrumb selector and bottom of the veiwport](https://github.com/centerofci/mathesar/pull/3014)
+- Start discussion about [graceful fallback behavior for all unsupported Postgres data types](https://github.com/centerofci/mathesar/issues/3024)
+- Review Varsha's [Sample schema file for API Documentation](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/invt1JTg7hk)
+- Installation planning meeting
+- Some progress writing code for SheetSelection refactor RFC
 
 ## 2023-07-10 Monday
 
