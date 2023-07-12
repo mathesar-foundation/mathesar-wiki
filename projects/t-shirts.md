@@ -2,7 +2,7 @@
 title: Mathesar T-Shirts
 description: 
 published: true
-date: 2023-05-11T14:50:20.925Z
+date: 2023-07-12T21:00:55.599Z
 tags: 
 editor: markdown
 dateCreated: 2023-04-13T19:14:45.815Z
@@ -10,7 +10,7 @@ dateCreated: 2023-04-13T19:14:45.815Z
 
 # Mathesar T-shirt Project
 
-**Status**: In Progress
+**Status**: Complete
 **Theme**: Team engagement
 
 ## Team
