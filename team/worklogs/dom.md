@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-11T12:49:10.212Z
+date: 2023-07-12T16:24:07.192Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -10,14 +10,12 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Active
 
-- Sync with Anshuman
-- Do [#1370](https://github.com/centerofci/mathesar/issues/1370) (improve error messages)
-- Make sure Aritra's midterm evaluation is submitted in time
+- Do [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out)
 - Make reservations for the GSoC mentor summit
-- See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
 
 ## Backlog
 
+- See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
 - Do [#2304](https://github.com/centerofci/mathesar/issues/2304) (compose order directives)
 - Do [#2346](https://github.com/centerofci/mathesar/issues/2346) (improve column type inference)
 - Submit PR with test case for long identifiers in preexisting database
@@ -25,8 +23,23 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Complete
 
+### 2023-07-12
+
+- Update backend fixes project timeline
+- Update backend fixes project to say that [#3024](https://github.com/centerofci/mathesar/issues/3024) is an alternative approach to [#2959](https://github.com/centerofci/mathesar/issues/2959) and [#3007](https://github.com/centerofci/mathesar/issues/3007)
+- Investigate [#3024](https://github.com/centerofci/mathesar/issues/3024) (graceful handling of unsupported types)
+- Reproduce [#2709](https://github.com/centerofci/mathesar/issues/2709) (unknown types breaking Mathesar bug report)
+- Respond in querydown email thread
+- Respond in [#3024](https://github.com/centerofci/mathesar/issues/3024) (graceful handling of unsupported types)
+- Respond in [#2161](https://github.com/centerofci/mathesar/issues/2161)
+- Update backend fixes project
+- Respond in backend fixes email thread
+- Respond in [#2995](https://github.com/centerofci/mathesar/issues/2995) (type inference timeout bug report)
+- Make sure Aritra's midterm evaluation is submitted in time
+
 ### 2023-07-11
 
+- Sync with Anshuman
 - Do [#2245](https://github.com/centerofci/mathesar/issues/2245) (multi-column unique and pk constraints) in [#3025](https://github.com/centerofci/mathesar/issues/3025)
 - Make metaticket for backend fixes project [#3022](https://github.com/centerofci/mathesar/issues/3022)
 - Start work on backend fixes
