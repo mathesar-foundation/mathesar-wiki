@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-10T16:06:27.916Z
+date: 2023-07-11T12:49:10.212Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -10,7 +10,11 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Active
 
-- Start work on backend fixes
+- Sync with Anshuman
+- Do [#1370](https://github.com/centerofci/mathesar/issues/1370) (improve error messages)
+- Make sure Aritra's midterm evaluation is submitted in time
+- Make reservations for the GSoC mentor summit
+- See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
 
 ## Backlog
 
@@ -20,6 +24,13 @@ dateCreated: 2023-07-07T12:47:08.784Z
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-11
+
+- Do [#2245](https://github.com/centerofci/mathesar/issues/2245) (multi-column unique and pk constraints) in [#3025](https://github.com/centerofci/mathesar/issues/3025)
+- Make metaticket for backend fixes project [#3022](https://github.com/centerofci/mathesar/issues/3022)
+- Start work on backend fixes
+- Review and merge [#3016](https://github.com/centerofci/mathesar/issues/3016)
 
 ### 2023-07-10
 
