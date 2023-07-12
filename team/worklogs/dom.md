@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-12T16:24:07.192Z
+date: 2023-07-12T16:24:52.858Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -25,7 +25,7 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ### 2023-07-12
 
-- Update backend fixes project timeline
+- Update backend fixes project
 - Update backend fixes project to say that [#3024](https://github.com/centerofci/mathesar/issues/3024) is an alternative approach to [#2959](https://github.com/centerofci/mathesar/issues/2959) and [#3007](https://github.com/centerofci/mathesar/issues/3007)
 - Investigate [#3024](https://github.com/centerofci/mathesar/issues/3024) (graceful handling of unsupported types)
 - Reproduce [#2709](https://github.com/centerofci/mathesar/issues/2709) (unknown types breaking Mathesar bug report)
