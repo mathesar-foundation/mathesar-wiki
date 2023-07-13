@@ -2,21 +2,21 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:57:12.764Z
+date: 2023-07-13T20:22:12.990Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- How to Raise Money workshop session
 - Follow up as needed for individual projects:
 	- Figure out next steps for installation improvements planning
 	- Organize product strategy work and figure out next steps for myself.
-- Continue following up on 1Password renewal
-- Check in with individual team members to see if everyone has everything they need and if there's anything time sensitive to discuss: 
-	- TODO: Brent, Anish, Rajat, Mukesh, Dom
 
 ## Backlog
+- Continue following up on 1Password renewal
+- Continue following up with Transifex support
 - Follow up on project approvals on Monday or Tuesday.
 - Set up CRM in Mathesar to track contacts
 	- Follow up with various people who've helped me over the last few months
@@ -32,8 +32,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Management & administration**
   - Rescheduled 1:1s to be more manageable
   - Cancelled team meeting
-  - Checked in with: Sean, Ghislaine, Pavish
+  - Checked in on Matrix with: Sean, Ghislaine, Pavish, Brent, Anish, Rajat, Mukesh, Dom
   - Posted [installation meeting notes](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+  - Followed up on some meeting scheduling and accounting stuff.
+  - Followed up with Transifex support re: open source status
+  - Created a new Transifex project and invited Mukesh and Rajat
+  - Followed up on 1Password renewal
 - **Product**
   - Kicked off project approval discussions
   - Reviewed projects:
