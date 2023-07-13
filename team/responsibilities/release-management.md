@@ -2,7 +2,7 @@
 title: Release Management
 description: 
 published: true
-date: 2023-05-11T14:48:31.706Z
+date: 2023-07-13T20:00:12.884Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:32.618Z
@@ -11,11 +11,11 @@ dateCreated: 2023-03-16T23:16:32.618Z
 # Team
 | Role | Assignees |
 |-|-|
-| **Owner** | Pavish |
-| **Helpers** | Mukesh |
-| **Approver** | Kriti |
+| **Overall owner** | Kriti |
+| **0.1.3 owner** | Rajat |
+| **0.1.3 helpers** | *No specific person assigned, but release will be a top priority for everyone during cooldown.* |
 
-Note: Each release will be a separate project and will have additional members working on them, and might have different owners. The team mentioned here oversees the release managemenet process at a higher level.
+Note: Each release will have different owners.
 
 # Guide
 This guide is common for the owner and the helpers of the Release management responsibility. The owner is responsible for ensuring the work gets complete, and the helpers assist the process and cover for the owner when they are not available.
