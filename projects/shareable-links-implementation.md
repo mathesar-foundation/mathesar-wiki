@@ -2,7 +2,7 @@
 title: Shareable links Implementation
 description: 
 published: true
-date: 2023-07-12T21:13:18.239Z
+date: 2023-07-13T19:23:34.940Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T20:24:06.407Z
@@ -15,6 +15,7 @@ dateCreated: 2023-07-12T20:24:06.407Z
 | Role | Assignee |
 |-|-|-|
 | **Owner** | Pavish |
+| **Design review** | Ghislaine, Kriti |
 | **Backend code review** | Dominykas |
 | **Frontend code review** | Sean |
 
