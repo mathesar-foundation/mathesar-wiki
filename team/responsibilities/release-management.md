@@ -2,7 +2,7 @@
 title: Release Management
 description: 
 published: true
-date: 2023-07-13T20:00:12.884Z
+date: 2023-07-13T20:00:39.179Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:32.618Z
@@ -11,9 +11,9 @@ dateCreated: 2023-03-16T23:16:32.618Z
 # Team
 | Role | Assignees |
 |-|-|
-| **Overall owner** | Kriti |
-| **0.1.3 owner** | Rajat |
-| **0.1.3 helpers** | *No specific person assigned, but release will be a top priority for everyone during cooldown.* |
+| **Overall process owner** | Kriti |
+| **Current release owner** | Rajat |
+| **Current release helpers** | *No specific person assigned, but release will be a top priority for everyone during cooldown.* |
 
 Note: Each release will have different owners.
 
