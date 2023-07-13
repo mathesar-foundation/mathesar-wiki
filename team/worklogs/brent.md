@@ -10,16 +10,41 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ## Actively working on
 
-### RSQLA1 project work:
-- Update [project description](/en/projects/sql-ddl-operations)
-- Update and clean [RSQLA1: Move DDL Operations to SQL Functions #2737](https://github.com/centerofci/mathesar/issues/2737)
+### Meetings
+- 1:1 with Anish
+- Summarization project meeting with Aritra and Sean
 
-### User help:
-- Need to catch up briefly with Kriti about how to proceed on that under the new 'User Help' framework. Still have some pending tickets.
-- Respond to form inquiry in [Freshdesk ticket](https://mathesar.freshdesk.com/a/tickets/733)
+### RSQLA1 project work:
+- Work on column alteration DDL functions
 
 ### Summarization project work:
-- Async with Aritra about state of time aggregation PRs
+- Discuss with Sean and Aritra which summarization functions we want to pursue next.
+- Depending on meeting, potentially review/merge PRs for time based summarizations
+
+
+## 2023-07-13
+
+### RSQLA1 project work:
+- Update [project description](/en/projects/sql-ddl-operations)
+
+
+## 2023-07-12
+
+### PR Reviews:
+- [SQL for links creation #2986](https://github.com/centerofci/mathesar/pull/2986) (requested changes)
+- [Add Peak Day of Week aggregation function. #3004](https://github.com/centerofci/mathesar/pull/3004) (commented)
+
+### RSQLA1 project work:
+- Reviewed remaining pieces, cross-referenced with [RSQLA1: Move DDL Operations to SQL Functions #2737](https://github.com/centerofci/mathesar/issues/2737)
+  - only one minor change was required; it's already pretty up-to-date
+- Asynced with Anish about how to divide work
+
+### Summarization project work
+- Completed evaluation for GSoC
+- Discussed compostition and so on w.r.t. summarization in [this PR](https://github.com/centerofci/mathesar/pull/3004)
+
+### User help:
+- Responded to form inquiry in [Freshdesk ticket](https://mathesar.freshdesk.com/a/tickets/733)
 
 
 ## 2023-07-11
