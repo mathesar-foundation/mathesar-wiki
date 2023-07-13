@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:32:22.276Z
+date: 2023-07-13T19:33:09.102Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -21,6 +21,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- TODO: Brent, Anish, Rajat, Mukesh, Dom
 
 ## Backlog
+- Follow up on project approvals on Monday or Tuesday.
 - Set up CRM in Mathesar
 - Research Mathesar product niches for strategy project
 - Figure out current status and next steps for various ongoing responsibilities
