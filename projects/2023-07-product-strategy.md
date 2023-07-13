@@ -2,7 +2,7 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-12T21:46:01.530Z
+date: 2023-07-13T19:07:59.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z
@@ -47,6 +47,7 @@ The timeline is short, and we'll be prioritizing being decisive. This means we m
 
 ## Resources
 - [Project internal notes](https://hackmd.io/Ys9xfGZBTK-OaSCTrKPxNw?view) (private to core team)
+- [Use case research data](https://internal.mathesar.org/db/mathesar_tables/14/) (private to core team)
 
 ## Timeline
 This project will fit into the 2023-07-10 cycle.
