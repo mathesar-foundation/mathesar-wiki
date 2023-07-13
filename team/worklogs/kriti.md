@@ -2,15 +2,13 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-12T22:18:21.089Z
+date: 2023-07-13T17:13:27.335Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Team meeting
-- 1:1 with Rajat
 - Product strategy co-working with Ghislaine
 - Plan next installation related meeting
 - Post installation meeting notes
@@ -25,6 +23,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-13
+*Partial day, sick*
+- **Management & administration**
+  - Rescheduled 1:1s to be more manageable
+  - Cancelled team meeting
+- **Product**
+  - Kicked off project approval discussions
+  
 ## 2023-07-12
 - **Management & administration**
   - Caught up on email, GitHub, Matrix
