@@ -2,10 +2,10 @@
 title: 2023-07 Frontend Fixes
 description: 
 published: true
-date: 2023-07-10T00:00:00.000Z
+date: 2023-07-13T17:20:51.670Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-10T00:00:00.000Z
+dateCreated: 2023-07-10T13:31:46.556Z
 ---
 
 **Name**: 2023-07 Frontend Fixes
@@ -38,8 +38,8 @@ This project is comprised of the following tickets, in roughly the following ord
 (none)
 
 ## Resources
-
-(none)
+- [Introduction thread on dev mailing list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/lUajMP3nxxY/m/kwi8_G2nAAAJ)
+- [Project approval discussion on dev mailing  list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/5FCrWHQDAAAJ)
 
 ## Timeline
 
