@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:54:32.398Z
+date: 2023-07-13T19:57:12.764Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -18,7 +18,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 ## Backlog
 - Follow up on project approvals on Monday or Tuesday.
-- Set up CRM in Mathesar
+- Set up CRM in Mathesar to track contacts
+	- Follow up with various people who've helped me over the last few months
 - Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
