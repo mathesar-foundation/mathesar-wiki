@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:47:09.424Z
+date: 2023-07-13T19:54:32.398Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -10,9 +10,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Follow up as needed for individual projects:
-	- Installation improvements:
-		- Plan next installation related meeting
-		- Post installation meeting notes
+	- Figure out next steps for installation improvements planning
+	- Organize product strategy work and figure out next steps for myself.
 - Continue following up on 1Password renewal
 - Check in with individual team members to see if everyone has everything they need and if there's anything time sensitive to discuss: 
 	- TODO: Brent, Anish, Rajat, Mukesh, Dom
@@ -20,7 +19,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## Backlog
 - Follow up on project approvals on Monday or Tuesday.
 - Set up CRM in Mathesar
-- Organize product strategy work and figure out next steps for myself.
 - Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
@@ -34,6 +32,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Rescheduled 1:1s to be more manageable
   - Cancelled team meeting
   - Checked in with: Sean, Ghislaine, Pavish
+  - Posted [installation meeting notes](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
 - **Product**
   - Kicked off project approval discussions
   - Reviewed projects:
