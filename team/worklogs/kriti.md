@@ -2,17 +2,14 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:33:09.102Z
+date: 2023-07-13T19:47:09.424Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-
-- Review this cycle's projects 
-  - Installation improvements
-- Figure out if any follow up is needed for any projects:
+- Follow up as needed for individual projects:
 	- Installation improvements:
 		- Plan next installation related meeting
 		- Post installation meeting notes
@@ -23,7 +20,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## Backlog
 - Follow up on project approvals on Monday or Tuesday.
 - Set up CRM in Mathesar
-- Research Mathesar product niches for strategy project
+- Organize product strategy work and figure out next steps for myself.
 - Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
@@ -45,6 +42,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
     - Move DDL operations to SQL functions
     - 2023-07 backend fixes
     - Internationalization
+    - Installation improvements
   - Product strategy project check in with Ghislaine
   
 ## 2023-07-12
