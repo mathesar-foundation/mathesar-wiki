@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T19:27:04.690Z
+date: 2023-07-13T19:32:22.276Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -12,7 +12,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 - Review this cycle's projects 
   - Installation improvements
-  - Internationalization
 - Figure out if any follow up is needed for any projects:
 	- Installation improvements:
 		- Plan next installation related meeting
@@ -44,6 +43,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
     - Shareable links
     - Move DDL operations to SQL functions
     - 2023-07 backend fixes
+    - Internationalization
   - Product strategy project check in with Ghislaine
   
 ## 2023-07-12
