@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-12T16:18:25.847Z
+date: 2023-07-13T19:21:46.682Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -13,13 +13,9 @@ dateCreated: 2023-07-07T14:08:52.280Z
 **Theme**: -
 
 ## Team
-> We probably don't need to be this detailed for everything; this is just to show the range of options.
-{.is-info}
-
 | Role | Assignee | Notes |
 |-|-|-|
 | **Owner** | Dom | |
-| **Approver (project plan)** | Kriti | *Needs to approve project plan* |
 | **Contributor (backend review)** | Mukesh | *Reviews backend code* |
 
 ## Problem
