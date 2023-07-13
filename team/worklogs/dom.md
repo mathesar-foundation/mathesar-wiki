@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-12T16:24:52.858Z
+date: 2023-07-13T14:38:03.799Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -10,7 +10,9 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Active
 
-- Do [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out)
+- Do [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
+- Seek advice on matrix backend channel about [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
+  - [Message link](https://matrix.to/#/!UZILDSNKobkelUYwBp:matrix.mathesar.org/$kklKnZZ3_pnpul-xH5lDqGNogKfjZp25ymOhsGm2OVk?via=matrix.mathesar.org&via=matrix.org)
 - Make reservations for the GSoC mentor summit
 
 ## Backlog
@@ -22,6 +24,12 @@ dateCreated: 2023-07-07T12:47:08.784Z
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-13
+
+- Ask Sean to take up [#2346](https://github.com/centerofci/mathesar/issues/2346), which is a mostly-frontend fix for [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out)
+- Review and merge [#3008](https://github.com/centerofci/mathesar/issues/3008)
+- Tidied up comments in [#2346](https://github.com/centerofci/mathesar/issues/2346)
 
 ### 2023-07-12
 
