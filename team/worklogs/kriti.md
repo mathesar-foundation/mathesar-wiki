@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T17:13:27.335Z
+date: 2023-07-13T17:15:31.627Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -10,9 +10,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Product strategy co-working with Ghislaine
-- Plan next installation related meeting
-- Post installation meeting notes
+- Review this cycle's projects 
+- Figure out if any follow up is needed for any projects:
+	- Installation improvements:
+		- Plan next installation related meeting
+		- Post installation meeting notes
 - Continue following up on 1Password renewal
+- Check in with individual team members to see if everyone has everything they need and if there's anything time sensitive to discuss
 
 ## Backlog
 - Set up CRM in Mathesar
