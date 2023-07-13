@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T17:15:31.627Z
+date: 2023-07-13T17:29:18.702Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -22,6 +22,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Set up CRM in Mathesar
 - Research Mathesar product niches for strategy project
 - Figure out current status and next steps for various ongoing responsibilities
+- Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
 - At some point, describe our team workflow on the wiki
 
@@ -34,6 +35,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Cancelled team meeting
 - **Product**
   - Kicked off project approval discussions
+  - Reviewed projects:
+  	- 2023-07 frontend fixes
   
 ## 2023-07-12
 - **Management & administration**
