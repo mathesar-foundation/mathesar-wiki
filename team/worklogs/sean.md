@@ -10,9 +10,9 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 ## TODO
 
-### Soon
+### Active
 
-- Probably will dig into some of the backlog work below if nothing more pressing comes up while I'm waiting on Pavish/Rajat
+- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
 ### Paused
 
@@ -27,6 +27,15 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-14 Friday
+
+- Send [project update email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/GJIzUwk3Zs8)
+- Review [Date Input closes now on tab](https://github.com/centerofci/mathesar/pull/3038)
+- Call with Dom to discuss type inference issues and brainstorm solutions
+- Open PR with [Small clean up to import help text code](https://github.com/centerofci/mathesar/pull/3041)
+- Open PR to [Clean up import docs](https://github.com/centerofci/mathesar/pull/3042)
+- Some progress to [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
 ## 2023-07-13 Thursday
 
