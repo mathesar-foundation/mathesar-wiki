@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-13T19:21:46.682Z
+date: 2023-07-14T10:16:37.184Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -72,7 +72,7 @@ I expect each of these to take roughly 1 day to complete.
 
 I included rough estimates of how much time each issue should take. That will be usable as a guide on whether I'm on track.
 
-The project budget is 20 days (4 weeks). Current estimate of total time required to submit PRs for above issues is 17 days (5 block-prone issues 3 days each, plus 5 block-proof issues 1 day each). No buffer time.
+The project budget is 20 days (4 weeks). Current estimate of total time required to submit PRs for above issues is 20 days (5 block-prone issues 3 days each, plus 5 block-proof issues 1 day each). No buffer time.
 
 ## Risks
 - Finishing the tasks too early
