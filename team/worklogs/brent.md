@@ -11,21 +11,29 @@ dateCreated: 2023-07-07T01:20:50.913Z
 ## Actively working on
 
 ### Meetings
-- 1:1 with Anish
-- Summarization project meeting with Aritra and Sean
+- 1:1 with Mukesh
 
 ### RSQLA1 project work:
 - Work on column alteration DDL functions
 
-### Summarization project work:
-- Discuss with Sean and Aritra which summarization functions we want to pursue next.
-- Depending on meeting, potentially review/merge PRs for time based summarizations
+### Summarization project work
+- Discuss with Aritra which array summarizations we should do
+- Discuss with Aritra which transforms would have good synergy with aggregations
 
 
 ## 2023-07-13
 
+### Meetings
+- 1:1 with Anish
+- Summarization project meeting with Aritra and Sean
+
 ### RSQLA1 project work:
+- Followed up with Anish about plan for splitting work moving forward.
 - Update [project description](/en/projects/sql-ddl-operations)
+- Started on Column altering DDL functions
+
+### Summarization project work:
+- Discuss with Sean and Aritra which summarization functions we want to pursue next.
 
 
 ## 2023-07-12
