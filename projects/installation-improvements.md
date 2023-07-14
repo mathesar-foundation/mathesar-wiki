@@ -208,7 +208,7 @@ It will be created once the project is reviewed
 
 
 ### Expected Steps after this project:
-![mermaid-diagram-2023-07-14-171640.png](/assets/mermaid-diagram-2023-07-14-171640.png)
+![mermaid-diagram-2023-07-14-171640.png](/assets/projects/installation-improvements/mermaid-diagram-2023-07-14-171640.png)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
