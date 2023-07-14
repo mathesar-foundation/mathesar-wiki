@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T15:51:48.171Z
+date: 2023-07-14T16:03:06.061Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -52,14 +52,15 @@ dateCreated: 2023-03-15T20:52:47.673Z
   - Research and have meetings for PaaS to support (Reduces installation steps and benefits someone looking to try Mathesar quickly)
   - Have meetings to figure out a plan for making Installation easier for all the targeted Personas
 
-- **Lower Impact Solutions**: 
+## Lower Impact Solutions: 
 
-  **If there is more time left, we will focus on implementing these solutions**
-    - Build helm charts (Reduces steps for Kubernetes user)
-    - Build zipapps (Reduces steps for non-docker and non-debian installs)
-    - Support SQLite as an additional datasource for the internal database (Makes it easier to start Mathesar for users using a install package without inbuilt Postgres server package)
-    - Build staticfiles and upload it to the release page(This is a low priority because most of the installation methods documented make use of pre-built packages which comes with staticfiles packaged with them and are much easier to use)
-    - Move documentation on auxiliary services(caddy, watchtower) to different docs (will be called as best practice guide). This is a low priority as it does not improve experience instead makes the documentation more cleaner.
+**If there is more time left, we will focus on implementing these solutions**
+
+  - Build helm charts - Reduces steps for Kubernetes user
+  - Build zipapps - Reduces steps for non-docker and non-debian installs
+  - Support SQLite as an additional datasource for the internal database - Makes it easier to start Mathesar for users using a install package without inbuilt Postgres server package
+  - Build staticfiles and upload it to the release page - This is a low priority because most of the installation methods documented make use of pre-built packages which comes with staticfiles packaged with them and are much easier to use)
+  - Move documentation on auxiliary services(caddy, watchtower) to different docs (will be called as best practice guide)- This is a low priority as it does not improve experience instead makes the documentation more cleaner.
 
 ## Timeline:
 Some work is done in parallel by different contributors. So I added the work that deals with multiple contributors (Superuser creation screen, meetings) on the left-hand side and the work done mostly my Mukesh (on the right hand sided). The meeting dates are tentative as it depends on everyone's availability
@@ -80,7 +81,7 @@ Some work is done in parallel by different contributors. So I added the work tha
 | | | **2023-7-27**| Add Mathesar + Postgres docker image install instructions to our documentation|
 | **2023-7-28**| Work on Django templates for superuser creation screen begins|
 | | | **2023-7-31**| Work for Mathesar + Postgres docker image completed |
-| **2023-8-01** | https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting  |
+| **2023-8-01** | Meeting to discuss the location and workflow for storing the configuration details  |
 | **2023-8-03**| Django templates for superuser creation is completed  |
 | | | **2023-8-02**| Time for the implementing lower impact solutions |
 
@@ -209,7 +210,7 @@ It will be created once the project is reviewed
 
 
 ### Expected Steps after this project:
-![mermaid-diagram-2023-07-14-171640.png](/assets/projects/installation-improvements/mermaid-diagram-2023-07-14-171640.png)
+
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
