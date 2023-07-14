@@ -2,7 +2,7 @@
 title: Installation Improvements Project
 description: 
 published: true
-date: 2023-07-14T13:09:58.235Z
+date: 2023-07-14T13:12:08.787Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -96,7 +96,7 @@ Some work is done in parallel by different contributors. So I added the work tha
 - [The requirement of superuser postgresql access is problematic](https://github.com/centerofci/mathesar/issues/2990)
 
 ## User reported Issues which maybe be fixed in this cycle: 
-- [Helm Charts](https://github.com/centerofci/mathesar/issues/2633]
+- [Helm Charts](https://github.com/centerofci/mathesar/issues/2633)
 - [Kubernetes Manifests](https://github.com/centerofci/mathesar/issues/2707#top)
 - [Consider merging `config` into `mathesar` package](https://github.com/centerofci/mathesar/issues/2712#top)
 
@@ -112,16 +112,19 @@ It will be created once the project is reviewed
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
+  
         - Install Docker
     </details>
     <details>
       <summary>Docker Image(3 steps)</summary>
+  
         - Install Docker
         - Setup a database
         - Create a database superuser
     </details>
     <details>
       <summary>Building from source(3 steps)</summary>
+  
         - Install Postgres
         - Setup mathesar database
         - Create a database superuser
@@ -131,6 +134,7 @@ It will be created once the project is reviewed
 1. Downloading and set up Mathesar 
     <details>
       <summary>Docker Compose(2 steps)</summary>
+  
         - Download docker compose script
         - Run docker compose command to download
     </details>
@@ -139,6 +143,7 @@ It will be created once the project is reviewed
     </details>
     <details>
       <summary>Building from source(6 steps)</summary>
+  
         - Clone git repo
         - Install python
         - Create virtualenv for python
@@ -150,6 +155,7 @@ It will be created once the project is reviewed
 1. Configuring Mathesar
     <details>
       <summary>Docker Compose(6 steps)</summary>
+  
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -159,6 +165,7 @@ It will be created once the project is reviewed
     </details>
     <details>
       <summary>Mathesar docker Image(6 steps)</summary>
+  
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -168,6 +175,7 @@ It will be created once the project is reviewed
     </details>
     <details>
       <summary>Building from source(7 steps)</summary>
+  
             - Add internal database credentials to env file
             - Add user database credentials to env file
             - Generate secret key
@@ -181,14 +189,17 @@ It will be created once the project is reviewed
 
     <details>
       <summary>Docker Compose(1 step)</summary>
+  
             - Run docker command
     </details>
     <details>
       <summary>Docker Image(1 step)</summary>
+  
             - Run docker command
     </details>
     <details>
       <summary>Building from source(2 steps)</summary>
+  
             - Create gunicorn systemctl script
             - Run the script
     </details>
@@ -200,20 +211,24 @@ It will be created once the project is reviewed
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
+  
         - Install Docker
     </details>
     <details>
       <summary>Mathesar docker Image(3 steps)</summary>
+  
         - Install Docker
         - Setup a database
         - Create a database superuser
     </details>
    <details>
       <summary>Mathesar + Postgres docker Image(1 step)</summary>
+  
         - Install Docker
     </details>
     <details>
       <summary>Building from source(3 steps)</summary>
+  
         - Install Postgres
         - Setup mathesar database
         - Create a database superuser
