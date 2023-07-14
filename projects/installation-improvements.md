@@ -2,7 +2,7 @@
 title: Installation Improvements Project
 description: 
 published: true
-date: 2023-07-14T13:17:20.605Z
+date: 2023-07-14T13:18:18.660Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -277,8 +277,9 @@ It will be created once the project is reviewed
             - Add user database credentials to env file
             - Run install script(migrations and install database types)
     </details>
+    <details>
          <summary>Mathesar + PG docker Image(5 steps)</summary>
-         
+
             - Generate secret key
             - Add secret key to env file
             - Run install script(migrations and install database types)
