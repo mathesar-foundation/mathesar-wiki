@@ -1,15 +1,14 @@
 ---
-title: Installation Improvements Project
+title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T13:18:18.660Z
+date: 2023-07-14T15:19:47.542Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
 ---
 
-
-**Name**: Simplifying Installation - Part I (2023-17-10)
+**Name**: Simplifying Installation (2023-17-10)
 **Status**: In review
 **Previous Discussion references**: https://hackmd.io/i1hi188ETdq7AKeqD7-OKw
 
@@ -58,6 +57,7 @@ dateCreated: 2023-03-15T20:52:47.673Z
     - Move documentation on auxiliary services(caddy, watchtower) to different docs (will be called as best practice guide)
     - Build zipapps(Reduces steps for non-docker non-linux installs)
     - Support SQLite as an additional datasource for the internal database (Makes it easier to start Mathesar for users without an inbuilt Postgres server package)
+    - Build staticfiles and upload it to the release page(This is a low priority because most of the installation methods documented make use of pre-built packages which comes with staticfiles packaged with them are are much easier to use)
 
 
 ## Timeline:
@@ -65,23 +65,23 @@ Some work is done in parallel by different contributors. So I added the work tha
 
 | Date | Outcome | Parallel work Date | Outcome |
 |-|-|-|-|-|
-| **20203-7-17** | Design work for superuser creation page begins|
-| **20203-7-17** | Backend work for superuser creation page begins |
-| **20203-7-18** | Meeting to discuss the location and workflow for storing  |
-| **20203-7-20**| Superuser creation screen UI handoff |
-| | | **20203-7-19**| Work for Mathesar .deb file begins |
-| **20203-7-24** | Research on Paas solutions to support  |
-| | | **20203-7-25**| Work for adding Mathesar + Postgres docker image begins |
-| **20203-7-25** | Meeting to discuss Paas offering to support  |
-| **20203-7-24** | Backend work for superuser creation page is completed  |
-| | | **20203-7-26**| Script for generating Mathesar .deb file is completed |
-| | | **20203-7-27**| Refactor the "Build from source" documentation to use the debian package instead of compiling Mathesar image|
-| | | **20203-7-27**| Add Mathesar + Postgres docker image install instructions to our documentation|
-| **20203-7-01** | Meeting to discuss Paas offering to support  |
-| **20203-7-28**| Work on Django templates for superuser creation screen begins|
-| | | **20203-7-31**| Work for Mathesar + Postgres docker image completed |
-| **20203-8-03**| Django templates for superuser creation is completed  |
-| | | **20203-7-02**| Time for the implementing lower impact solutions |
+| **2023-7-17** | Design work for superuser creation page begins|
+| **2023-7-17** | Backend work for superuser creation page begins |
+| **2023-7-18** | Meeting to discuss simplifying installation for [Personas](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting) |
+| | | **2023-7-19**| Work for Mathesar .deb file begins |
+| **2023-7-20**| Superuser creation screen UI handoff |
+| **2023-7-24** | Research notes on Paas solutions to support will be sent as an email |
+| **2023-7-24** | Backend work for superuser creation page is completed  |
+| | | **2023-7-25**| Work for adding Mathesar + Postgres docker image begins |
+| **2023-7-25** | Meeting to discuss Paas offering to support  |
+| | | **2023-7-26**| Script for generating Mathesar .deb file is completed |
+| | | **2023-7-27**| Refactor the "Build from source" documentation to use the debian package instead of compiling Mathesar image|
+| | | **2023-7-27**| Add Mathesar + Postgres docker image install instructions to our documentation|
+| **2023-7-28**| Work on Django templates for superuser creation screen begins|
+| | | **2023-7-31**| Work for Mathesar + Postgres docker image completed |
+| **2023-8-01** | https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting  |
+| **2023-8-03**| Django templates for superuser creation is completed  |
+| | | **2023-8-02**| Time for the implementing lower impact solutions |
 
 
 ## High-level view of implementation details:
