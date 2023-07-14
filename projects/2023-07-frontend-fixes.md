@@ -25,7 +25,7 @@ Time for some fixes.
 
 ## Solution
 
-This project is comprised of the following tickets, in roughly the following order:
+This project focuses on the cell selection functionality. It starts by addressing some long-due refactoring of the cell selection code. The front end team recently discussed the need for this refactor because it has been a particularly buggy area of the front end codebase. Improving it will lay groundwork for fixing other bugs related to the cell selection logic and implementing new features.
 
 - [Change the data structure to store selections in the selection store](https://github.com/centerofci/mathesar/issues/1732)
 - [Cell selection partially broken after selecting columns when table is filtered to be empty](https://github.com/centerofci/mathesar/issues/2845)
@@ -39,7 +39,7 @@ This project is comprised of the following tickets, in roughly the following ord
 
 ## Resources
 - [Introduction thread on dev mailing list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/lUajMP3nxxY/m/kwi8_G2nAAAJ)
-- [Project approval discussion on dev mailing  list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/5FCrWHQDAAAJ)
+- [Project approval discussion on dev mailing list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/5FCrWHQDAAAJ)
 
 ## Timeline
 
