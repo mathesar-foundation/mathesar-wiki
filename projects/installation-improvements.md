@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T16:03:06.061Z
+date: 2023-07-14T16:03:55.234Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -210,7 +210,7 @@ It will be created once the project is reviewed
 
 
 ### Expected Steps after this project:
-
+![mermaid-diagram-2023-07-14-171640.png](/assets/mermaid-diagram-2023-07-14-171640.png)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
