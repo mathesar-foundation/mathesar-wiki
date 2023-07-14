@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-13T14:38:03.799Z
+date: 2023-07-14T15:46:24.689Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -11,12 +11,13 @@ dateCreated: 2023-07-07T12:47:08.784Z
 ## Active
 
 - Do [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
-- Seek advice on matrix backend channel about [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
-  - [Message link](https://matrix.to/#/!UZILDSNKobkelUYwBp:matrix.mathesar.org/$kklKnZZ3_pnpul-xH5lDqGNogKfjZp25ymOhsGm2OVk?via=matrix.mathesar.org&via=matrix.org)
+- Make sure GSoC's tax form is filled out
 - Make reservations for the GSoC mentor summit
+- Review [#3039](https://github.com/centerofci/mathesar/issues/3039) (Anshuman's max_level PR)
 
 ## Backlog
 
+- Comment on [#2346](https://github.com/centerofci/mathesar/issues/2346) (make type inference non-obligatory) with conclusions and issues created after sync with Sean
 - See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
 - Do [#2304](https://github.com/centerofci/mathesar/issues/2304) (compose order directives)
 - Do [#2346](https://github.com/centerofci/mathesar/issues/2346) (improve column type inference)
@@ -25,8 +26,23 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Complete
 
+### 2023-07-14
+
+- Offload [#3039](https://github.com/centerofci/mathesar/issues/3039) (Anshuman's max_level PR) to Anish
+- Post friday's backend fixes project update
+- Handover a frontend bandaid-workaround for [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out) to Sean
+  - He said he'll create an issue for it
+  - He also said he'll start a conversation about UX work for a more wholesome solution to [#2995](https://github.com/centerofci/mathesar/issues/2995)
+- Sync with Sean about [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out)
+- Start conversation with Sam and Kriti about the GSoC tax form whose deadline is tomorrow
+- Put all backend fixes project tickets in 0.1.3 milestone
+- Respond in 2023-07 installation improvements project email thread
+- Review projects
+
 ### 2023-07-13
 
+- Seek advice on matrix backend channel about [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
+  - [Message link](https://matrix.to/#/!UZILDSNKobkelUYwBp:matrix.mathesar.org/$kklKnZZ3_pnpul-xH5lDqGNogKfjZp25ymOhsGm2OVk?via=matrix.mathesar.org&via=matrix.org)
 - Ask Sean to take up [#2346](https://github.com/centerofci/mathesar/issues/2346), which is a mostly-frontend fix for [#2995](https://github.com/centerofci/mathesar/issues/2995) (fix big csv imports timing out)
 - Review and merge [#3008](https://github.com/centerofci/mathesar/issues/3008)
 - Tidied up comments in [#2346](https://github.com/centerofci/mathesar/issues/2346)
