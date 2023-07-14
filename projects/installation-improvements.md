@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T16:03:55.234Z
+date: 2023-07-14T16:05:28.604Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -44,12 +44,12 @@ dateCreated: 2023-03-15T20:52:47.673Z
 
 
 ## Solution: 
-  - Prompt the user to create a Superuser creation when starting Mathesar for the first time (Moves a configuration step to the Mathesar UI)
-  - Build Mathesar + Postgres docker image (Reduces installation steps for someone looking to try Mathesar quickly)
-  - Build debian package (Reduces installation steps for non-docker)
-  - Specify the correct permissions to use instead of asking for superuser privileges in our documentation([user reported fix](https://github.com/centerofci/mathesar/issues/2990))
+  - Prompt the user to create a Superuser creation when starting Mathesar for the first time - Moves a configuration step to the Mathesar UI)
+  - Build Mathesar + Postgres docker image - Reduces installation steps for someone looking to try Mathesar quickly
+  - Build debian package - Reduces installation steps for non-docker
+  - Specify the correct permissions to use instead of asking for superuser privileges in our documentation- [user reported issue](https://github.com/centerofci/mathesar/issues/2990)
   - Configuration values like the secret key should be generated automatically. Other configuration options like adding a user database credential should be moved to the Mathesar UI. We are currently blocked by discussions for storing configuration values and we will be having meetings in this cycle to figure out a plan which can be implemented in later cycles (Removes a configuration step needed for starting Mathesar)
-  - Research and have meetings for PaaS to support (Reduces installation steps and benefits someone looking to try Mathesar quickly)
+  - Research and have meetings for PaaS to support - Reduces installation steps and benefits someone looking to try Mathesar quickly)
   - Have meetings to figure out a plan for making Installation easier for all the targeted Personas
 
 ## Lower Impact Solutions: 
