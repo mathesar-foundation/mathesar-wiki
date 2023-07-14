@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-14T14:46:00.638Z
+date: 2023-07-14T14:49:35.014Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -37,7 +37,7 @@ I also created this issue to compliment the one for implementing `citext`, since
 
 Kriti later added two issues to the list, saying they're high-priority:
 
-- [Cannot import large csv tables · Issue #2995 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/2995)
+- ~~[Cannot import large csv tables · Issue #2995 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/2995)~~ (discovered that the bandaid fix is frontend work, and the wholesome fix requires a lot of UX work)
 - [Make permissions requirements clear for gunicorn user · Issue #3013 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3013)
 
 ## Solution
@@ -53,7 +53,6 @@ I expect each of these to take roughly 3 days to complete.
 - [x] [Fix API handling of multi-column UNIQUE and PK columns #2245](https://github.com/centerofci/mathesar/issues/2245)
 - [ ] [Incorporate field name into error messages when relevant · Issue #1370](https://github.com/centerofci/mathesar/issues/1370)
 - [ ] [Keep `today` as `today` in column default value · Issue #2754](https://github.com/centerofci/mathesar/issues/2754)
-- [x] ~~[Cannot import large csv tables · Issue #2995 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/2995)~~ (discovered that the bandaid fix is frontend work, and the wholesome fix requires a lot of UX work)
 - [ ] [Support unknown Postgres types · Issue #3024 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3024)
 
 ### Block-proof issues
@@ -72,7 +71,7 @@ I expect each of these to take roughly 1 day to complete.
 
 I included rough estimates of how much time each issue should take. That will be usable as a guide on whether I'm on track.
 
-The project budget is 20 days (4 weeks). Current estimate of total time required to submit PRs for above issues is 20 days (5 block-prone issues 3 days each, plus 5 block-proof issues 1 day each). No buffer time.
+The project budget is 20 days (4 weeks). Current estimate of total time required to submit PRs for above issues is 17 days (4 block-prone issues 3 days each, plus 5 block-proof issues 1 day each). 3 days buffer time.
 
 ## Risks
 - Finishing the tasks too early
@@ -91,5 +90,6 @@ This project should take **4 weeks**.
 | Date | Outcome |
 | - | - |
 | 2023-07-10 | Work starts |
-| 2023-07-25 | Half-way mark (50% of work should be done) |
+| 2023-07-21 | Half-way mark (50% of work should be done) |
+| 2023-08-02 | Buffer time starts |
 | 2023-08-07 | Work ends |
