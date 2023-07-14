@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-14T10:16:37.184Z
+date: 2023-07-14T14:46:00.638Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -53,7 +53,7 @@ I expect each of these to take roughly 3 days to complete.
 - [x] [Fix API handling of multi-column UNIQUE and PK columns #2245](https://github.com/centerofci/mathesar/issues/2245)
 - [ ] [Incorporate field name into error messages when relevant · Issue #1370](https://github.com/centerofci/mathesar/issues/1370)
 - [ ] [Keep `today` as `today` in column default value · Issue #2754](https://github.com/centerofci/mathesar/issues/2754)
-- [ ] [Cannot import large csv tables · Issue #2995 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/2995)
+- [x] ~~[Cannot import large csv tables · Issue #2995 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/2995)~~ (discovered that the bandaid fix is frontend work, and the wholesome fix requires a lot of UX work)
 - [ ] [Support unknown Postgres types · Issue #3024 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3024)
 
 ### Block-proof issues
