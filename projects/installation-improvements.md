@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T15:19:47.542Z
+date: 2023-07-14T15:51:48.171Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -23,7 +23,8 @@ dateCreated: 2023-03-15T20:52:47.673Z
 | **Frontend Reviewer**| Rajat |
 | **Contributors (ideation)**| Brent, Kriti, Mukesh, Pavish| Anyone else interested can join
 
-## Targeted Persona
+## Targeted Persona for this cycle:
+[Based on our Priority list](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization)
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
 - Someone installing server & DB on same remote system
@@ -38,27 +39,27 @@ dateCreated: 2023-03-15T20:52:47.673Z
 ## Outcome: 
   - The number of steps involved in installing and starting Mathesar will be reduced
   - Some steps involved in setting up Mathesar will be moved to the UI so that they will be the same across all the installation methods. It also has the benefit of reducing the steps involved before starting Mathesar instead of having the user fiddle around with some command.
-  - Configuration Steps which are blocked from being moved to the UI due to pending discussions will have a solution ready to be implemented in the next cycle
-  - [Steps involved after this project](#expected-steps-after-this-project)
+  - Configuration Steps which are blocked from being moved to the UI or automatically being generated due to pending discussions will have a solution which can be implemented in the next cycle
+  - [Steps involved after this project is complete](#expected-steps-after-this-project)
+
 
 ## Solution: 
   - Prompt the user to create a Superuser creation when starting Mathesar for the first time (Moves a configuration step to the Mathesar UI)
-  - Build Mathesar + Postgres docker image (Reduces installation steps)
+  - Build Mathesar + Postgres docker image (Reduces installation steps for someone looking to try Mathesar quickly)
   - Build debian package (Reduces installation steps for non-docker)
   - Specify the correct permissions to use instead of asking for superuser privileges in our documentation([user reported fix](https://github.com/centerofci/mathesar/issues/2990))
-  - Have meetings to figure out a plan for moving configuration to UI (Moves a configuration step to the Mathesar UI)
-  - Research and have meetings for PaaS to support (Reduces installation steps)
+  - Configuration values like the secret key should be generated automatically. Other configuration options like adding a user database credential should be moved to the Mathesar UI. We are currently blocked by discussions for storing configuration values and we will be having meetings in this cycle to figure out a plan which can be implemented in later cycles (Removes a configuration step needed for starting Mathesar)
+  - Research and have meetings for PaaS to support (Reduces installation steps and benefits someone looking to try Mathesar quickly)
   - Have meetings to figure out a plan for making Installation easier for all the targeted Personas
 
 - **Lower Impact Solutions**: 
 
   **If there is more time left, we will focus on implementing these solutions**
-    - Build helm charts (Reduces steps for Kubernetes)
-    - Move documentation on auxiliary services(caddy, watchtower) to different docs (will be called as best practice guide)
-    - Build zipapps(Reduces steps for non-docker non-linux installs)
-    - Support SQLite as an additional datasource for the internal database (Makes it easier to start Mathesar for users without an inbuilt Postgres server package)
-    - Build staticfiles and upload it to the release page(This is a low priority because most of the installation methods documented make use of pre-built packages which comes with staticfiles packaged with them are are much easier to use)
-
+    - Build helm charts (Reduces steps for Kubernetes user)
+    - Build zipapps (Reduces steps for non-docker and non-debian installs)
+    - Support SQLite as an additional datasource for the internal database (Makes it easier to start Mathesar for users using a install package without inbuilt Postgres server package)
+    - Build staticfiles and upload it to the release page(This is a low priority because most of the installation methods documented make use of pre-built packages which comes with staticfiles packaged with them and are much easier to use)
+    - Move documentation on auxiliary services(caddy, watchtower) to different docs (will be called as best practice guide). This is a low priority as it does not improve experience instead makes the documentation more cleaner.
 
 ## Timeline:
 Some work is done in parallel by different contributors. So I added the work that deals with multiple contributors (Superuser creation screen, meetings) on the left-hand side and the work done mostly my Mukesh (on the right hand sided). The meeting dates are tentative as it depends on everyone's availability
@@ -86,7 +87,7 @@ Some work is done in parallel by different contributors. So I added the work tha
 
 ## High-level view of implementation details:
   - Superuser creation page - We will be using middleware to check for the non-existence of a superuser and redirect them to the superuser creation page which will be based on Django templates
-  - Debian package will be created using [dh-virtualenv](https://github.com/spotify/dh-virtualenv). The script will build a python virtual environment for mathesar and will link to the system python. The implementation will closely follow [Synapse deb file build script](https://github.com/matrix-org/synapse/blob/develop/scripts-dev/build_debian_packages.py)
+  - Debian package will be available as a systemmd service and will be created using [dh-virtualenv](https://github.com/spotify/dh-virtualenv). The script will build a python virtual environment for mathesar and will link to the system python. The implementation will closely follow [Synapse deb file build script](https://github.com/matrix-org/synapse/blob/develop/scripts-dev/build_debian_packages.py)
   - Mathesar + Postgres image will use our existing Mathesar docker image as a base and add PostgreSQL to the Mathesar + Postgres docker image
   - Zipapps will be built using [shiv](https://shiv.readthedocs.io/en/latest/)
   - SQLite codebase refactor is quite small as Mathesar uses a Postgres related field in only one place (for storing column order)
