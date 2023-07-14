@@ -2,27 +2,63 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-11T21:50:18.493Z
+date: 2023-07-13T20:22:12.990Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Prep for external meeting
-- External meetings x 2
-- Write up strategy / user research project
-- Plan next installation related meeting
-- Post installation meeting notes
-- Continue following up on 1Password renewal
+- How to Raise Money workshop session
+- Follow up as needed for individual projects:
+	- Figure out next steps for installation improvements planning
+	- Organize product strategy work and figure out next steps for myself.
 
 ## Backlog
-- Set up CRM in Mathesar
-- Research Mathesar product niches for strategy project
-- Ensure wiki projects & responsibilities are up-to-date
+- Continue following up on 1Password renewal
+- Continue following up with Transifex support
+- Follow up on project approvals on Monday or Tuesday.
+- Set up CRM in Mathesar to track contacts
+	- Follow up with various people who've helped me over the last few months
+- Figure out current status and next steps for various ongoing responsibilities
+- Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
+- At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-13
+*Partial day, sick*
+- **Management & administration**
+  - Rescheduled 1:1s to be more manageable
+  - Cancelled team meeting
+  - Checked in on Matrix with: Sean, Ghislaine, Pavish, Brent, Anish, Rajat, Mukesh, Dom
+  - Posted [installation meeting notes](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+  - Followed up on some meeting scheduling and accounting stuff.
+  - Followed up with Transifex support re: open source status
+  - Created a new Transifex project and invited Mukesh and Rajat
+  - Followed up on 1Password renewal
+- **Product**
+  - Kicked off project approval discussions
+  - Reviewed projects:
+  	- 2023-07 frontend fixes
+    - Shareable links
+    - Move DDL operations to SQL functions
+    - 2023-07 backend fixes
+    - Internationalization
+    - Installation improvements
+  - Product strategy project check in with Ghislaine
+  
+## 2023-07-12
+- **Management & administration**
+  - Caught up on email, GitHub, Matrix
+  - Re-organized [projects](/en/projects) and [responsibilities](/en/team/responsibilities) pages.
+- **Product**
+	- Wrote up [2023-07 product strategy](/en/projects/2023-07-product-strategy) project
+- **Fundraising**
+  - How to Raise Money workshop session
+- **Other**
+	- External meeting for networking/advice + pre-prep
 
 ## 2023-07-11
 - **Management & administration**

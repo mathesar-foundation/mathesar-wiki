@@ -12,7 +12,33 @@ dateCreated: 2023-07-10T17:01:46.847Z
 
 ### Internationalization project
 
+- Load the translations file with first FE chunk
+
+## 2023-07-12
+
+### Ongoing responsibility
+
+- Repo admin
+
+### [i18n project](https://wiki.mathesar.org/en/projects/internationalization)
+
 - Internationalize access control modals.
+- Load the translations file with first FE chunk (on-going)
+
+## 2023-07-11
+
+### [i18n project](https://wiki.mathesar.org/en/projects/internationalization)
+
+- Internationalize access control modals. (on-going)
+
+### Ongoing responsibility
+
+- Repo admin
+
+### Meetings
+
+- Installations planning meeting.
+- Meeting with Mukesh to plan BE related work for i18n project.
 
 ## 2023-07-10
 

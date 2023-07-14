@@ -2,7 +2,7 @@
 title: Mukesh Work Log
 description: 
 published: true
-date: 2023-07-11T19:30:14.059Z
+date: 2023-07-13T08:27:54.547Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T16:40:32.972Z
@@ -13,6 +13,19 @@ dateCreated: 2023-07-07T16:40:32.972Z
 - Write up potential solutions for Installation Improvements
 - Write up project for Installation Improvement
 - Send out an email for solutions to simplify install.
+
+
+## 2023-07-13
+
+- Restarted writing the Simplying Installation project details
+
+
+## 2023-07-12
+
+- Some async discussion
+- Started writing the project for Simplying Installation
+- Unproductive day due to health issues
+
 
 ## 2023-07-11
 

@@ -2,7 +2,7 @@
 title: Ongoing responsibilities
 description: 
 published: true
-date: 2023-05-11T14:48:16.607Z
+date: 2023-07-12T21:19:13.945Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-16T23:16:19.560Z
@@ -15,31 +15,15 @@ dateCreated: 2023-03-16T23:16:19.560Z
 
 ## Assignments
 
-|                         | Anish | Brent | Dom  | Ghislaine | Kriti | Mukesh | Pavish | Rajat | Sean |
-| --                      | :--:  | :--:  | :--: | :--:      |  :--: | :--:   | :--:   | :--:  | :--: |
-| [Team management][1]    | ❕    | ❕    | ❕   | ❕        | ♟️    | ❕    | ❕     | ❕    | ✅   |
-| [Repo admin][2]         | ♟️    | ❕    | ❕   | ❕        | ❕    | ❕    | ♟️     | ✅    | ❕   |
-| [Release management][3] | ❕    | ❕    | ❕   | ❕        | ❕    | ♟️    | ✅     | ❕    | ❕   |
-| [User feedback][4]      | ❕    | ♟️    | ❕   | ✅        | ♟️    | ❕    | ♟️     | ❕    | ❕   |
-| [Marketing][5]          | ❕    | ❕    | ❕   | ♟️        | ✅    | ❕    | ❕     | ♟️    | ♟️   |
-| [Installation help][6]  | ❕    | ✅    | ❕   | ❕        | ❕    | ♟️    | ♟️     | ❕    | ❕   |
-| [GSoC][7]               | ♟️    | ❕    | ✅   | ❕        | ❕    | ❕    | ❕     | ♟️    | ❕   |
+| Responsibility | Owner | Helpers |
+|-|-|-|
+| [Team management](./responsibilities/team-management.md) | Kriti | Sean |
+| [Repo admin](/en/team/responsibilities/repo-admin) | Rajat | Pavish, Anish |
+| [Release management](/en/team/responsibilities/release-management) | Kriti | Release owners rotate each cycle | 
+| [User feedback tracking](/en/team/responsibilities/user-feedback) | Ghislaine | Brent, Pavish, Kriti |
+| [Marketing](/en/team/responsibilities/marketing) | Kriti | Ghislaine, Rajat, Sean |
+| [User help](/en/team/responsibilities/installation-help) | Kriti | Brent, Mukesh, Pavish |
+| [GSoC](/en/team/responsibilities/gsoc) | Dom | Anish, Rajat | 
+| [Fundraising](/en/team/responsibilities/fundraising) | Kriti | |
 
 **See the [Projects](/projects.md) page for time-limited responsibilities.**
-
-[1]: ./responsibilities/team-management.md
-[2]: ./responsibilities/repo-admin.md
-[3]: ./responsibilities/release-management.md
-[4]: ./responsibilities/user-feedback.md
-[5]: ./responsibilities/marketing.md
-[6]: ./responsibilities/installation-help.md
-[7]: ./responsibilities/gsoc.md
-
-Roles
-
-- ✅ = Owner
-- ♟️ = Helper 
-- ❕ = Not involved *(having an emoji spacer helps the columns line up when editing)*
-
-
-

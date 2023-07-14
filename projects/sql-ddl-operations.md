@@ -2,7 +2,7 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-05-11T14:49:21.750Z
+date: 2023-07-13T08:47:49.133Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:13.306Z
@@ -76,6 +76,6 @@ Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
 | 2023-03-20 | Work starts                                  |
 | 2023-03-24 | Implementation spec and prototyping complete |
 | 2023-03-31 | Implementation spec approved                 |
-| 2023-04-28 | All needed DDL SQL Functions written         |
-| 2023-05-05 | All thin python wrappers written             |
-| 2023-05-12 | Refactor and clean up complete               |
+| 2023-07-24 | All needed DDL SQL Functions written         |
+| 2023-07-26 | All thin python wrappers written             |
+| 2023-08-02 | Refactor and clean up complete               |

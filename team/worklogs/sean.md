@@ -12,7 +12,13 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 ### Soon
 
-- Write RFC for SheetSelection refactor
+- Probably will dig into some of the backlog work below if nothing more pressing comes up while I'm waiting on Pavish/Rajat
+
+### Paused
+
+- [Frontend-fixes](../../projects/2023-07-frontend-fixes.md)
+    - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+        - Awaiting preliminary review by Pavish and Rajat before I continue further work
 
 ### Backlog
 
@@ -22,6 +28,17 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 --------------------------------------------------------------------------------
 
+## 2023-07-13 Thursday
+
+- GSoC project meeting with Aritra
+- Continued work on cell selection refactor
+- Add some more content to my "Querydown for Mathesar devs" Gist, explaining [why I think "mandatory aggregation" is important](https://gist.github.com/seancolsen/42d5f3873e644e3905eaac0b69f876ac#why-i-think-mandatory-aggregation-is-important), with an example using the Data Explorer
+- Minor [updates](https://github.com/centerofci/mathesar-wiki/commit/11b9cb8266b72d86718953eceb3ce44843e6c1ca) to [frontend fixes](../../projects/2023-07-frontend-fixes.md) project description
+
+## 2023-07-12 Wednesday
+
+- Open draft PR with scaffolding to [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037), and write a summary requesting Pavish and Rajat review the approach.
+
 ## 2023-07-11 Tuesday
 
 - Re-review [Updated frontend to send a single bulk delete request instead of one request for each record](https://github.com/centerofci/mathesar/pull/2985)
@@ -29,7 +46,7 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - Start discussion about [graceful fallback behavior for all unsupported Postgres data types](https://github.com/centerofci/mathesar/issues/3024)
 - Review Varsha's [Sample schema file for API Documentation](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/invt1JTg7hk)
 - Installation planning meeting
-- Some progress writing code for SheetSelection refactor RFC
+- Some progress writing code for [SheetSelection refactor](https://github.com/centerofci/mathesar/issues/1732)
 
 ## 2023-07-10 Monday
 

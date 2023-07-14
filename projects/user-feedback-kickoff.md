@@ -2,14 +2,18 @@
 title: Establish User Feedback Tracking Process
 description: 
 published: true
-date: 2023-05-11T14:48:12.027Z
+date: 2023-07-12T21:22:35.303Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:53:00.352Z
 ---
 
 **Name**: Establish User Feedback Tracking Process
-**Status**: In Progress
+**Status**: Partially complete / considered closed
+- Feedback tracking process was established
+- Templates are ready
+- Actual calls and surveys have not been conducted yet; will be moved to a different project.
+
 **Theme**: User Feedback
 
 ## Team
