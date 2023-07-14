@@ -28,6 +28,13 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 --------------------------------------------------------------------------------
 
+## 2023-07-13 Thursday
+
+- GSoC project meeting with Aritra
+- Continued work on cell selection refactor
+- Add some more content to my "Querydown for Mathesar devs" Gist, explaining [why I think "mandatory aggregation" is important](https://gist.github.com/seancolsen/42d5f3873e644e3905eaac0b69f876ac#why-i-think-mandatory-aggregation-is-important), with an example using the Data Explorer
+- Minor [updates](https://github.com/centerofci/mathesar-wiki/commit/11b9cb8266b72d86718953eceb3ce44843e6c1ca) to [frontend fixes](../../projects/2023-07-frontend-fixes.md) project description
+
 ## 2023-07-12 Wednesday
 
 - Open draft PR with scaffolding to [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037), and write a summary requesting Pavish and Rajat review the approach.
