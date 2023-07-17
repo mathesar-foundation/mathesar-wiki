@@ -30,6 +30,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Followed up with Transifex support
 	- Triaged GitHub and email
 	- Followed up on UCB Product Design Studio collaboration request
+	- Reviewed work logs and sent reminder to team members who haven't been keeping them updated
 - **Product**
 	- Call with Mukesh to iron out details of the installation improvements project.
 	- Product strategy check in with Ghislaine, decided next steps.
