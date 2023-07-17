@@ -2,14 +2,14 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-13T20:22:12.990Z
+date: 2023-07-17T16:48:56.197Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- How to Raise Money workshop session
+- Product strategy check in with Ghislaine
 - Follow up as needed for individual projects:
 	- Figure out next steps for installation improvements planning
 	- Organize product strategy work and figure out next steps for myself.
@@ -26,6 +26,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - At some point, describe our team workflow on the wiki
 
 # Complete
+## 2023-07-14
+*Partial day, sick*
+
+- **Management & administration**
+	- Caught up on email and chat, some follow ups
+	- 1Password cleanup and followup
+- **Fundraising**
+  - How to Raise Money workshop session
 
 ## 2023-07-13
 *Partial day, sick*
