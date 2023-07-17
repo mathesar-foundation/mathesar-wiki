@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-07-17T19:26:28.345Z
+date: 2023-07-17T19:27:07.006Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -32,9 +32,6 @@ Anyone can propose edits to this wiki by making a PR against the [wiki repositor
 
 
 ## Quick Links
-> If you're a GSoC aspirant, go to our [Mentoring](/en/community/mentoring) page.
-{.is-info}
-
 - [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
 - [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
 - [:trophy: Projects *What the Mathesar team is currently working on*](./projects.md)
