@@ -11,6 +11,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Working on
 - Talk to Mukesh about installation discussion next steps.
 - Follow up on project approvals for this cycle.
+- Fundraising 1:1 with Geoffrey
+- Update script and slides for upcoming funder meeting
 
 ## Backlog
 - Keep an eye on Transifex conversation
