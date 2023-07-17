@@ -2,7 +2,7 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-17T19:44:54.280Z
+date: 2023-07-17T19:46:22.602Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z
@@ -17,7 +17,7 @@ dateCreated: 2023-07-12T21:44:07.522Z
 |-|-|-|
 | **Owner** | Kriti | |
 | **Primary contributor** | Ghislaine | Ghislaine will be working on research, ideation, facilitating discussions, and strategy |
-| **Contributors (ideation)** | Core team | The entire team will be involved in discussions |
+| **Contributors (discussions)** | Core team | The entire team will be involved in discussions to ensure we're all on the same page about product strategy |
 
 ## Problem
 We need a strategy to help us decide what Mathesar's product roadmap should be. We should have a clear idea of where we're headed, what features are important for us to build, and how our product work will help us achieve our goals of user growth and sustainability.
