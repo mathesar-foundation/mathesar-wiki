@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-17T13:44:20.321Z
+date: 2023-07-17T13:58:04.948Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -115,9 +115,6 @@ It will be created once the project is reviewed
 
 
 ## References
-
-### Overview diagram:
-[Diagram on diagrams.net](https://app.diagrams.net/#G1B_9b6l19AdRdAworB8iS5NyHCSPX9-kq) gives a overview of current steps(problems), solutions, steps after this cycle(outcome) along with information on how the solutions affect the current steps and the outcome.
 
 
 ### Current steps:
@@ -324,3 +321,8 @@ It will be created once the project is reviewed
   
             - Run the Mathesar executable
     </details>
+    
+### Overview diagram:
+ This diagram gives a overview of current steps(problems), solutions, steps after this cycle(outcome) along with information on how the solutions affect the current steps and the outcome.
+
+![mathesar_installation_flow(2023-07-10).drawio.svg](/assets/mathesar_installation_flow(2023-07-10).drawio.svg)
