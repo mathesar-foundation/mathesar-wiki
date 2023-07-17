@@ -9,13 +9,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- Catching up on GitHub and email notifications and todos
 - Product strategy check in with Ghislaine
 - Follow up as needed for individual projects:
 	- Figure out next steps for installation improvements planning
 	- Organize product strategy work and figure out next steps for myself.
 
 ## Backlog
-- Continue following up on 1Password renewal
 - Continue following up with Transifex support
 - Follow up on project approvals on Monday or Tuesday.
 - Set up CRM in Mathesar to track contacts
@@ -26,12 +26,17 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-17
+- **Management & administration**
+  - Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
+
 ## 2023-07-14
 *Partial day, sick*
 
 - **Management & administration**
-	- Caught up on email and chat, some follow ups
-	- 1Password cleanup and followup
+  - Caught up on email and chat, some follow ups
+  - 1Password cleanup and followup
 - **Fundraising**
   - How to Raise Money workshop session
 
