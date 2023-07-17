@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T17:50:50.146Z
+date: 2023-07-17T18:04:39.196Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -23,19 +23,25 @@ dateCreated: 2023-03-15T20:52:47.673Z
 | **Frontend Reviewer** | Rajat |
 | **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
 
-## Targeted Persona for this cycle:
-[Based on our Priority list](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization)
+## Problem
+The current problems we face in our installation process and documentation are:
+- We're targeting too many different use cases for Mathesar in our current documentation, and we need to simplify things.
+- Installing Mathesar involves many steps, which makes the process brittle and introduces failure points that we can avoid.
+- There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
+- Configuration is done through scripts specific to certain installation mathods, and not in the product itself, which makes some installation methods much more difficult and inconsistent.
+	- This also makes the documentation more fragile since we have to document exceptions and conditionals.
+
+See also: [Diagram of existing steps involved in installation](#current-steps)
+
+Based on [previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
 - Someone installing server & DB on same remote system
 - Someone installing server & DB on separate remote systems
 
+We haven't finished talking about the solutions for these personas, but during the conversations we've had, we've identified some low hanging fruit that can improve our current installation process.
 
-## Problem: 
-  - There are too many steps involved in installing Mathesar
-  - There are too many steps involved before Mathesar can be started
-  - Some steps differ based on the installation method which makes it hard to provide a consistent experience
-  - [Diagram of existing steps involved](#current-steps)
+This project involves fixing those low hanging fruit and prioritizing solutions we want to work on in the future.
 
 ## Outcome: 
   - The number of steps involved in installing and starting Mathesar will be reduced
