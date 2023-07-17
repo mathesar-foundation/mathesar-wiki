@@ -2,13 +2,12 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T17:41:36.406Z
+date: 2023-07-17T17:43:46.948Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
 ---
 
-**Name**: Simplifying Installation 0.1.3
 **Status**: In review
 **Previous Discussion references**: https://hackmd.io/i1hi188ETdq7AKeqD7-OKw
 
