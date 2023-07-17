@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-14T16:05:28.604Z
+date: 2023-07-17T13:44:20.321Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -30,17 +30,20 @@ dateCreated: 2023-03-15T20:52:47.673Z
 - Someone installing server & DB on same remote system
 - Someone installing server & DB on separate remote systems
 
+If you are not completely familar with the installation steps, please refer the  before reading further
+
 ## Problem: 
   - There are too many steps involved in installing Mathesar
   - There are too many steps involved before Mathesar can be started
   - Some steps differ based on the installation method which makes it hard to provide a consistent experience
-  - [Existing steps involved](#current-steps)
+  - [Diagram of existing steps involved](#current-steps)
 
 ## Outcome: 
   - The number of steps involved in installing and starting Mathesar will be reduced
   - Some steps involved in setting up Mathesar will be moved to the UI so that they will be the same across all the installation methods. It also has the benefit of reducing the steps involved before starting Mathesar instead of having the user fiddle around with some command.
   - Configuration Steps which are blocked from being moved to the UI or automatically being generated due to pending discussions will have a solution which can be implemented in the next cycle
-  - [Steps involved after this project is complete](#expected-steps-after-this-project)
+ 
+[Diagram of steps involved after this project is complete](#expected-steps-after-this-project)
 
 
 ## Solution: 
@@ -51,6 +54,9 @@ dateCreated: 2023-03-15T20:52:47.673Z
   - Configuration values like the secret key should be generated automatically. Other configuration options like adding a user database credential should be moved to the Mathesar UI. We are currently blocked by discussions for storing configuration values and we will be having meetings in this cycle to figure out a plan which can be implemented in later cycles (Removes a configuration step needed for starting Mathesar)
   - Research and have meetings for PaaS to support - Reduces installation steps and benefits someone looking to try Mathesar quickly)
   - Have meetings to figure out a plan for making Installation easier for all the targeted Personas
+
+[Overview diagram showcasing the relation between the problems, solutions and the outcome](#overview-diagram)
+
 
 ## Lower Impact Solutions: 
 
@@ -109,6 +115,10 @@ It will be created once the project is reviewed
 
 
 ## References
+
+### Overview diagram:
+[Diagram on diagrams.net](https://app.diagrams.net/#G1B_9b6l19AdRdAworB8iS5NyHCSPX9-kq) gives a overview of current steps(problems), solutions, steps after this cycle(outcome) along with information on how the solutions affect the current steps and the outcome.
+
 
 ### Current steps:
 ![mermaid-diagram-2023-07-14-171331.png](/assets/mermaid-diagram-2023-07-14-171331.png)
