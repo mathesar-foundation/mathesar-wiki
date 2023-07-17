@@ -8,11 +8,34 @@ editor: markdown
 dateCreated: 2023-07-10T17:01:46.847Z
 ---
 
-## Actively working on
+## 2023-07-17
 
-### Internationalization project
+### Completed
 
-- Load the translations file with first FE chunk
+- Enabled i18n for all of the components inside the src/pages directory of the FE codebase
+- Repo admin tasks
+
+### Active
+
+- Reading the release responsibility page figuring out actions items for me.
+
+## 2023-07-14
+
+Worked half day of 2023-07-14 & half day of 2023-07-16
+
+### Completed
+
+- Enabled i18n for all of the components inside the src/routes directory of the FE codebase
+- Repo admin tasks
+
+## 2023-07-13
+
+Updating the format a little bit, going back to _completed & active_ format
+
+### Completed
+
+- RichText component for translating strings that has component embedded inside them
+- Repo admin tasks
 
 ## 2023-07-12
 
