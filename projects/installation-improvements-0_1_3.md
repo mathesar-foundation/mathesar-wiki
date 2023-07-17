@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T18:44:03.697Z
+date: 2023-07-17T18:44:22.206Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -128,6 +128,11 @@ Some work is done in parallel by different contributors. So I added the work tha
 ## Additional issues
 GitHub issues will be created once the project is reviewed.
 
+## Resources
+- [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
+- [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+- [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## References
 
