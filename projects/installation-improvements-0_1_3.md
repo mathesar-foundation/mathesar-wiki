@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T18:04:39.196Z
+date: 2023-07-17T18:05:50.332Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -29,7 +29,7 @@ The current problems we face in our installation process and documentation are:
 - Installing Mathesar involves many steps, which makes the process brittle and introduces failure points that we can avoid.
 - There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
 - Configuration is done through scripts specific to certain installation mathods, and not in the product itself, which makes some installation methods much more difficult and inconsistent.
-	- This also makes the documentation more fragile since we have to document exceptions and conditionals.
+	- This also makes the documentation harder to maintain since each installation method has very different steps.
 
 See also: [Diagram of existing steps involved in installation](#current-steps)
 
