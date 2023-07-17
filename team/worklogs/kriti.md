@@ -9,15 +9,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Catching up on GitHub and email notifications and todos
-- Product strategy check in with Ghislaine
-- Follow up as needed for individual projects:
-	- Figure out next steps for installation improvements planning
-	- Organize product strategy work and figure out next steps for myself.
+- Talk to Mukesh about installation discussion next steps.
+- Follow up on project approvals for this cycle.
 
 ## Backlog
-- Continue following up with Transifex support
-- Follow up on project approvals on Monday or Tuesday.
+- Keep an eye on Transifex conversation
+- Analyze use cases once Ghislaine has more "raw data" in Mathesar
 - Set up CRM in Mathesar to track contacts
 	- Follow up with various people who've helped me over the last few months
 - Figure out current status and next steps for various ongoing responsibilities
@@ -29,7 +26,17 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 ## 2023-07-17
 - **Management & administration**
-  - Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
+	- Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
+	- Followed up with Transifex support
+	- Triaged GitHub and email
+	- Followed up on UCB Product Design Studio collaboration request
+- **Product**
+	- Call with Mukesh to iron out details of the installation improvements project.
+	- Product strategy check in with Ghislaine, decided next steps.
+	- Reviewed skipping inference UI proposal with Ghislaine.
+- **Fundraising**
+	- Scheduled prep call with Geoffrey
+	- Scheduled practice call with Ian
 
 ## 2023-07-14
 *Partial day, sick*
