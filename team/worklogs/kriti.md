@@ -52,6 +52,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 ## 2023-07-13
 *Partial day, sick*
+
 - **Management & administration**
   - Rescheduled 1:1s to be more manageable
   - Cancelled team meeting
