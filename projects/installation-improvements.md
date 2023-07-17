@@ -2,7 +2,7 @@
 title: Installation Improvements Project - Part I
 description: 
 published: true
-date: 2023-07-17T13:58:04.948Z
+date: 2023-07-17T15:08:50.172Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -30,7 +30,6 @@ dateCreated: 2023-03-15T20:52:47.673Z
 - Someone installing server & DB on same remote system
 - Someone installing server & DB on separate remote systems
 
-If you are not completely familar with the installation steps, please refer the  before reading further
 
 ## Problem: 
   - There are too many steps involved in installing Mathesar
