@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T17:49:53.729Z
+date: 2023-07-17T17:50:50.146Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -21,7 +21,7 @@ dateCreated: 2023-03-15T20:52:47.673Z
 | **Design Reviewer** | Kriti |
 | **Backend Reviewer** | Brent |
 | **Frontend Reviewer** | Rajat |
-| **Contributors (ideation)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
+| **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
 
 ## Targeted Persona for this cycle:
 [Based on our Priority list](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization)
