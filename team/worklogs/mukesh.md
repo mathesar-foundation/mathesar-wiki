@@ -2,7 +2,7 @@
 title: Mukesh Work Log
 description: 
 published: true
-date: 2023-07-13T08:27:54.547Z
+date: 2023-07-17T20:02:32.808Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T16:40:32.972Z
@@ -10,10 +10,20 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## Actively working on
 
-- Write up potential solutions for Installation Improvements
-- Write up project for Installation Improvement
-- Send out an email for solutions to simplify install.
+- 
 
+## 2023-07-14
+
+- Write up project for Installation Improvement
+- Sync with varsha
+- Sync with Kriti
+- Created issues for Installation Improvements 0.1.3 project
+
+## 2023-07-14
+
+- Update the Installation Project proposal 
+- Had a sync call with Brent
+- Took a day off 
 
 ## 2023-07-13
 
