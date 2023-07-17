@@ -19,6 +19,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Grist](https://www.getgrist.com/)
 - [Directus](https://directus.io/)
 - [PocketBase](https://pocketbase.io/)
+- [REI3](https://rei3.de/)
 - [NocoBase](https://www.nocobase.com/)
 - [ToolJet](https://www.tooljet.com/)
 - [undb](https://github.com/undb-xyz/undb)

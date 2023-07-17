@@ -12,13 +12,13 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 ### Active
 
-- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+- [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
+    - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 
 ### Paused
 
-- [Frontend-fixes](../../projects/2023-07-frontend-fixes.md)
-    - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-        - Awaiting preliminary review by Pavish and Rajat before I continue further work
+- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+    - Awaiting feedback from several others before proceeding
 
 ### Backlog
 
@@ -27,6 +27,14 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-17 Monday
+
+- Open draft PR to [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050) and begin a discussion soliciting feedback from others
+- Open ticket [Gracefully recover from failed type inference during import](https://github.com/centerofci/mathesar/issues/3051)
+- Discuss [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037) with Pavish
+- Address review feedback in [Clean up import docs](https://github.com/centerofci/mathesar/pull/3042) and merge
+- Review [Scroll sheet all the way down when clicking the New Record button](https://github.com/centerofci/mathesar/pull/3045), adding another commit and merging
 
 ## 2023-07-14 Friday
 
