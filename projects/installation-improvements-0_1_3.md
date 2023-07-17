@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T18:44:22.206Z
+date: 2023-07-17T18:45:20.682Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -136,7 +136,7 @@ GitHub issues will be created once the project is reviewed.
 
 ## References
 
-### Current steps:
+### Current steps
 ![mermaid-diagram-2023-07-14-171331.png](/assets/mermaid-diagram-2023-07-14-171331.png)
 1. Pre-requisites before installing Mathesar
     <details>
@@ -234,8 +234,7 @@ GitHub issues will be created once the project is reviewed.
     </details>
 
 
-
-### Expected Steps after this project:
+### Expected steps after this project
 ![mermaid-diagram-2023-07-14-171640.png](/assets/mermaid-diagram-2023-07-14-171640.png)
 1. Pre-requisites before installing Mathesar
     <details>
