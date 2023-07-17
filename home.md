@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2023-05-11T15:26:49.670Z
+date: 2023-07-17T19:26:28.345Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
@@ -37,7 +37,7 @@ Anyone can propose edits to this wiki by making a PR against the [wiki repositor
 
 - [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
 - [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
-- [:trophy: Projects](./projects.md)
+- [:trophy: Projects *What the Mathesar team is currently working on*](./projects.md)
 - [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)
 - [:art: Design *Documentation about Mathesar's visual design and UI*](./design.md)
 - [:desktop_computer: Engineering *Documentation about Mathesar's code*](./engineering.md)
