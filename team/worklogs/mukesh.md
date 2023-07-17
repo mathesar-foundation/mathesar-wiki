@@ -2,7 +2,7 @@
 title: Mukesh Work Log
 description: 
 published: true
-date: 2023-07-17T21:03:40.217Z
+date: 2023-07-17T21:37:31.944Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T16:40:32.972Z
@@ -12,7 +12,7 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 
 
-## 2023-07-14
+## 2023-07-17
 
 - Write up project for Installation Improvement
 - Sync with varsha
