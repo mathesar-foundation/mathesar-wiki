@@ -2,11 +2,27 @@
 title: Ghislaine's Worklog
 description: 
 published: true
-date: 2023-07-14T10:45:00.791Z
+date: 2023-07-17T21:02:38.545Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+
+## 2023-07-17
+
+Today, I've been working on the use cases. Specifically, I have added a stakeholders column and included new cases. I've conducted additional online research as well.
+
+Kriti and I had a meeting to review the current status of our work. We identified next steps during our discussion.
+
+One of these steps includes a plan to increase our use case data volume (before analysis). This will enable everyone to conduct their own analysis.
+
+Current Focus:
+- Creating the use cases table for the user research project
+
+## 2023-07-14
+
+Current Focus:
+- Creating the use cases table for the user research project
 
 ## 2023-07-13
 
