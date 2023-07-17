@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T18:45:20.682Z
+date: 2023-07-17T19:17:03.932Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -117,7 +117,7 @@ Some work is done in parallel by different contributors. So I added the work tha
 - SQLite codebase refactor is quite small as Mathesar uses a Postgres related field in only one place (for storing column order)
 
 ## User reported issues which will be fixed in this cycle
-- The Need for a debian package was reported on Hackernews
+- Linux packages were requested by users during our launch, see [this page](https://wiki.mathesar.org/en/product/feedback/2023-03#installation)
 - [The requirement of superuser postgresql access is problematic](https://github.com/centerofci/mathesar/issues/2990)
 
 ## User reported issues which may be be fixed in this cycle
