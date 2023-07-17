@@ -2,7 +2,7 @@
 title: Pavish's work log
 description: 
 published: true
-date: 2023-07-17T21:00:27.005Z
+date: 2023-07-17T21:20:46.948Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T17:01:46.847Z
@@ -11,7 +11,7 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ## Actively working on
 * Submit PR with models, APIs, and auth bypass for Shared tables
 
-## 2023-07-18
+## 2023-07-17
 * Continued work on implementing APIs for Shares
 * Work on figuring out auth bypass for tables
 * Reviewed approach in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
