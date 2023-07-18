@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T18:10:07.022Z
+date: 2023-07-18T18:18:55.666Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -37,6 +37,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
     	- Internationalization
 			- Product strategy
   - Updated [projects](/en/projects) page with a bit more detail on our workflow.
+  - Simplified [project template](/en/projects/template) to be more in line with the new workflow.
 - **Regular comms**
 	- Followed up on various GitHub issues
   - Caught up with email
