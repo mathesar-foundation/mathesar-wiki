@@ -60,3 +60,9 @@ This project should take 8 weeks of frontend implementation effort and 1 week of
 | Contributing guide for volunteer translators | 2023-07-28 |
 
 NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort in parallel.
+
+## Relevant links
+
+- [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/dLRJjL5_t28)
+- [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/a5DuC82BFaM)
+- [Tech Specs](https://wiki.mathesar.org/en/engineering/specs/internationalization)
