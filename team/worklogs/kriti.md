@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T18:27:11.361Z
+date: 2023-07-18T19:02:49.152Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -42,6 +42,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Regular comms**
 	- Followed up on various GitHub issues
   - Caught up with email
+- **Team management**
+	- Cleaned up and expanded agenda for tomorrow's weekly meeting.
+  - Updated meeting agenda item template.
 
 ## 2023-07-17
 - **Management & administration**
