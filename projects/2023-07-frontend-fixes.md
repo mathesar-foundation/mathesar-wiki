@@ -44,3 +44,8 @@ This project focuses on the cell selection functionality. It starts by addressin
 ## Timeline
 
 To fit within the cycle
+
+## Email threads
+
+- [project approval](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/Iq1w4lyvAAAJ)
+- [update 2023-07-14](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/GJIzUwk3Zs8/m/2C8TUaI6AAAJ)
