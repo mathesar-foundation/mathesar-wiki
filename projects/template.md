@@ -2,7 +2,7 @@
 title: Project Template
 description: 
 published: true
-date: 2023-05-11T14:49:06.252Z
+date: 2023-07-18T18:11:25.672Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T16:52:17.902Z
@@ -11,19 +11,23 @@ dateCreated: 2023-03-21T16:52:17.902Z
 > This project is ridiculous on purpose. We are not doing this.
 {.is-info}
 
-**Name**: Add pizza ordering capabilities to Mathesar
 **Status**: Draft 
+**Review status**: Draft
 **Theme**: User growth
 
 > Options for status:
 > **Draft**: The owner is still writing up the project.
-> **In review**: The project has been written up, but hasn't been approved yet.
-> **Approved**: The project has been approved, but work hasn't started yet.
 > **In progress**: Work on the project has started.
 > **Complete**: The project is over.
 {.is-info}
 
-> **Theme** is the broader goal or theme associated with the project.
+> Options for review status:
+> **Draft**: The owner is still writing up the project.
+> **In review**: The project has been written up, but hasn't been approved yet.
+> **Approved**: The project has been approved, but work hasn't started yet.
+{.is-info}
+
+> **Theme** is the broader goal or theme associated with the project. This is optional and can be omitted.
 {.is-info}
 
 ## Team
