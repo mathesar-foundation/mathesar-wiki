@@ -2,18 +2,25 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-18T17:42:14.080Z
+date: 2023-07-18T18:03:30.092Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
 ---
 
-## How we use projects
+## About
 
-- We chunk our work into projects to keep it organized.
-- Unlike [ongoing work](/team/responsibilities.md), each project has an end date.
-- Each project has one and only leader.
-- Projects typically have a few helpers too. The project leader can delegate work to the helpers. The helpers can serve as code reviewers too.
+**What are projects for?**
+- The Mathesar team's work is chunked into fixed-length projects to keep it organized.
+- The core team works in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
+  - Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/team/responsibilities.md),
+- Each project has one and only owner, and various helpers. Helpers are assigned specific responsibilities.
+
+**How do we decide what projects work on?**
+- Anyone willing to do the work can propose a project. Please use the [project template](/en/projects/template).
+- Projects are discussed and approved by the core team (either in meetings or via email).
+  - The project manager facilitates these discussions.
+- Project prioritization will be based on our product strategy (currently in development).
 
 ## 2023-07-10 cycle
 These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
