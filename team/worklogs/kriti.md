@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T18:09:54.694Z
+date: 2023-07-18T18:10:07.022Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -28,7 +28,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Complete
 
 ## 2023-07-18
-- **Project management**:
+- **Project management**
 	- Reviewed and marked the following projects as approved:
     	- 2023-07 frontend fixes
     	- Shareable links
