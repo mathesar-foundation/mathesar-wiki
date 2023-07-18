@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-18T18:03:30.092Z
+date: 2023-07-18T20:40:46.108Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -40,6 +40,10 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | Owner     | Project | Status |
 | --        | -- | -- |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | In progress |
+| Anshuman | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
+| Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
+| Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
+
 
 ## Future project ideas
 Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
