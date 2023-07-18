@@ -11,7 +11,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Working on
 - Talk to Mukesh about installation discussion next steps.
 - Follow up on Varsha and Aritra's emails
-- Fundraising 1:1 with Geoffrey
 
 ## Backlog
 - Follow up on installation project approval
@@ -39,12 +38,15 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Reviewed and followed up on installation project
   - Updated [projects](/en/projects) page with a bit more detail on our workflow.
   - Simplified [project template](/en/projects/template) to be more in line with the new workflow.
+  - Followed up on Shrey's project.
 - **Regular comms**
 	- Followed up on various GitHub issues
-  - Caught up with email
+	- Caught up with email
 - **Team management**
 	- Cleaned up and expanded agenda for tomorrow's weekly meeting.
-  - Updated meeting agenda item template.
+	- Updated meeting agenda item template.
+- **Fundraising**
+	- 1:1 with Geoffrey to get advice on the upcoming meeting
 
 ## 2023-07-17
 - **Management & administration**
