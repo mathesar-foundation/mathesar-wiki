@@ -2,13 +2,12 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-18T20:40:46.108Z
+date: 2023-07-18T20:42:32.630Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
 ---
 
-## About
 
 **What are projects for?**
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.
@@ -22,6 +21,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
   - The project manager facilitates these discussions.
 - Project prioritization will be based on our product strategy (currently in development).
 
+# Active projects
 ## 2023-07-10 cycle
 These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
@@ -44,19 +44,7 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
 | Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
 
-
-## Future project ideas
-Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
-
-Here are some other project ideas that have been written up, but need to be reviewed before we move forward with them.
-
-| Owner     | Project | Status |
-| --        | -- | -- |
-| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
-| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
-| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
-
-## Past projects
+# Past projects
 Projects that are no longer active for a variety of reasons. Please check the individual project pages for more details.
 
 - [Release v0.1.2](./projects/release-0-1-2)
@@ -69,5 +57,17 @@ Projects that are no longer active for a variety of reasons. Please check the in
 - [Feedback kickoff](./projects/user-feedback-kickoff.md)
 - [Gather User Feedback](./projects/gather-user-feedback)
 
-## Project template
+# Future project ideas
+Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
+
+Here are some other project ideas that have been written up, but need to be reviewed before we move forward with them.
+
+| Owner     | Project | Status |
+| --        | -- | -- |
+| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
+| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
+| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
+
+
+# Project template
 [Use this template](/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
