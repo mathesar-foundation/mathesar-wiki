@@ -2,11 +2,20 @@
 title: Ghislaine's Worklog
 description: 
 published: true
-date: 2023-07-17T21:02:38.545Z
+date: 2023-07-18T21:17:09.611Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+
+## 2023-07-18
+
+Added new use cases and collected more template examples. 
+I also had discussions regarding new projects that require design support and responded to [Make column type inference optional
+](https://github.com/centerofci/mathesar/pull/3050#issuecomment-1640658689)
+
+Current Focus:
+- Creating the use cases table for the user research project
 
 ## 2023-07-17
 
