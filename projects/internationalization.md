@@ -48,7 +48,7 @@ This project does not concern with translating the product into any particular l
 
 ## Timeline
 
-This project should take 8 weeks of frontend implementation effort and 1 week of backend implementation effort which can be done in parallel, excluding the time to finalize the technical approach.
+This project should take 8 weeks of frontend implementation effort and 1 week of backend implementation effort, excluding the time to finalize the technical approach.
 
 |                                              | End Date   | Status      |
 | -------------------------------------------- | ---------- | ----------- |
@@ -59,4 +59,4 @@ This project should take 8 weeks of frontend implementation effort and 1 week of
 | Guide to get the strings translated          | 2023-07-28 |
 | Contributing guide for volunteer translators | 2023-07-28 |
 
-NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort.
+NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort in parallel.
