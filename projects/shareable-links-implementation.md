@@ -2,14 +2,14 @@
 title: Shareable links Implementation
 description: 
 published: true
-date: 2023-07-13T19:23:34.940Z
+date: 2023-07-18T17:40:40.526Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T20:24:06.407Z
 ---
 
 **Name**: Shareable links implementation
-**Status**: In review
+**Status**: Approved
 
 ## Team
 | Role | Assignee |
