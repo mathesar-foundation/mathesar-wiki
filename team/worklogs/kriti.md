@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T18:19:36.746Z
+date: 2023-07-18T18:27:11.361Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
@@ -10,11 +10,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Talk to Mukesh about installation discussion next steps.
-- Re-review installation project
 - Follow up on Varsha and Aritra's emails
 - Fundraising 1:1 with Geoffrey
 
 ## Backlog
+- Follow up on installation project approval
 - Update script and slides for upcoming funder meeting
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
@@ -36,6 +36,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 		- 2023-07 backend fixes
 		- Internationalization
 		- Product strategy
+  - Reviewed and followed up on installation project
   - Updated [projects](/en/projects) page with a bit more detail on our workflow.
   - Simplified [project template](/en/projects/template) to be more in line with the new workflow.
 - **Regular comms**
