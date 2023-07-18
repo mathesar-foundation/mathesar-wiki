@@ -2,7 +2,7 @@
 title: Move DDL Operations to SQL Functions
 description: 
 published: true
-date: 2023-07-13T08:47:49.133Z
+date: 2023-07-18T17:52:13.623Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:13.306Z
@@ -10,6 +10,7 @@ dateCreated: 2023-03-23T08:31:13.306Z
 
 - **Name**: Move DDL operations to SQL functions
 - **Status**: In Progress
+- **Review status**: Approved
 - **Theme**: Code quality, maintainability, performance, Removing SQLAlchemy
 
 ## Team
