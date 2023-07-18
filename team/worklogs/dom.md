@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-14T15:46:24.689Z
+date: 2023-07-17T16:00:13.173Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -11,9 +11,7 @@ dateCreated: 2023-07-07T12:47:08.784Z
 ## Active
 
 - Do [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
-- Make sure GSoC's tax form is filled out
 - Make reservations for the GSoC mentor summit
-- Review [#3039](https://github.com/centerofci/mathesar/issues/3039) (Anshuman's max_level PR)
 
 ## Backlog
 
@@ -25,6 +23,12 @@ dateCreated: 2023-07-07T12:47:08.784Z
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-17
+
+- Worked on [#3024](https://github.com/centerofci/mathesar/issues/3024) all day
+- Review [#3042](https://github.com/centerofci/mathesar/issues/3042)
+- Make sure GSoC's tax form is filled out
 
 ### 2023-07-14
 
