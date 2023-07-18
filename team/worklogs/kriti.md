@@ -9,11 +9,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Talk to Mukesh about installation discussion next steps.
-- Follow up on Varsha and Aritra's emails
+- Weekly meeting
+- How to Raise Money workshop session.
+- Figure out installation discussion next steps.
+- Follow up on installation project approval
 
 ## Backlog
-- Follow up on installation project approval
 - Update script and slides for upcoming funder meeting
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
@@ -39,6 +40,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Updated [projects](/en/projects) page with a bit more detail on our workflow.
   - Simplified [project template](/en/projects/template) to be more in line with the new workflow.
   - Followed up on Shrey's project.
+  - Reviewed and followed up on Aritra's project idea.
+  - Followed up on Varsha's email.
 - **Regular comms**
 	- Followed up on various GitHub issues
 	- Caught up with email
