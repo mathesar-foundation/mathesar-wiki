@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-18T20:42:32.630Z
+date: 2023-07-18T20:42:59.288Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -12,7 +12,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 **What are projects for?**
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.
 - The core team works in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
-  - Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/team/responsibilities.md),
+  - Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/team/responsibilities.md).
 - Each project has one and only owner, and various helpers. Helpers are assigned specific responsibilities.
 
 **How do we decide what projects work on?**
