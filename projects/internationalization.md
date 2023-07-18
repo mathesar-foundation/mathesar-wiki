@@ -15,11 +15,11 @@ dateCreated: 2023-03-15T20:52:51.896Z
 
 **Project Owner:** Rajat
 
-|               | Workers | Reviewers |
-| ------------- | ------- | --------- |
-| **UX design** | Rajat   | Ghislaine |
-| **Front end** | Rajat   | Sean      |
-| **Back end**  | Mukesh  | _TODO_    |
+|               | Workers | Reviewers        |
+| ------------- | ------- | ---------------- |
+| **UX design** | Rajat   | Ghislaine, Kriti |
+| **Front end** | Rajat   | Sean             |
+| **Back end**  | Rajat   | Mukesh           |
 
 ## Problem
 
@@ -42,19 +42,21 @@ The goal of this project is to enable Frontend and Backend codebase to support t
 
 This project does not concern with translating the product into any particular language. It also does not concern either with translating or creating a translation strategy for the content inside the Mathesar repo in the form of Readmes or docs.
 
-**Frontend**: Enable the frontend codeabse to support translations.
-**Backend**: Enable backend codebase to support translations for the server side rendered pages and error messages that are shown to the users on UI as it is.
-**Infrastructure**: Integration of a third party translation automation service like [Transifex](https://www.transifex.com/open-source/)
+**Frontend**: Enable the frontend codebase to support translations.
+**Backend**: Enable backend codebase to support translations for the server-side rendered pages and error messages that are shown to the users on UI as it is.
+**Infrastructure**: Integration of a third-party translation automation service like [Transifex](https://www.transifex.com/open-source/)
 
 ## Timeline
 
-This project should take 4 weeks of frontend implementation effort and 1 week of backend implementation effort which can be done in parallel, excluding the time to finalize the technical approach.
+This project should take 8 weeks of frontend implementation effort and 1 week of backend implementation effort which can be done in parallel, excluding the time to finalize the technical approach.
 
 |                                              | End Date   | Status      |
 | -------------------------------------------- | ---------- | ----------- |
 | Get tech spec approved                       | 2023-05-26 | Done        |
-| FE implementation                            | 2023-07-19 | In Progress |
-| BE & Infra Work                              | 2023-07-19 |
-| Developer documentation                      | 2023-07-20 |
-| Guide to get the strings translated          | 2023-07-21 |
-| Contributing guide for volunteer translators | 2023-07-21 |
+| FE implementation                            | 2023-07-21 | In Progress |
+| BE & Infra Work                              | 2023-07-21 | In Progress |
+| Developer documentation                      | 2023-07-28 |
+| Guide to get the strings translated          | 2023-07-28 |
+| Contributing guide for volunteer translators | 2023-07-28 |
+
+NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort.
