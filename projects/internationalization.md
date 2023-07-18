@@ -1,9 +1,9 @@
 ---
 title: Internationalization Implementation
-description: 
+description:
 published: true
 date: 2023-07-18T17:44:12.267Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-03-15T20:52:51.896Z
 ---
@@ -62,7 +62,7 @@ This project should take 8 weeks of frontend implementation effort and 1 week of
 
 NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort in parallel.
 
-## Relevant links
+## Resources
 
 - [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/dLRJjL5_t28)
 - [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/a5DuC82BFaM)
