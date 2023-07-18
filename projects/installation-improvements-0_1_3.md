@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T15:34:31.482Z
+date: 2023-07-18T15:55:37.327Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -118,6 +118,8 @@ If there is more time left, we will focus on implementing these solutions. These
 - [Meta issue](https://github.com/centerofci/mathesar/issues/3058)
 
 ## Resources
+- [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/_vJfb_sXdfE)
+- [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/EIP02jkb67o)
 - [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
 - [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
 - [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
