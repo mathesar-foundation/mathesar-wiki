@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T18:20:35.152Z
+date: 2023-07-18T18:21:23.277Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -92,7 +92,7 @@ If there is more time left, we will focus on implementing these solutions. These
 - The meeting topics are not definitive and can change.
 - Some of the topics to discuss
 	- Simplifying installation for [Personas](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
-	- Paas offering to support
+	- PaaS offering to support
 	- The location and workflow for storing the configuration details
 
 
