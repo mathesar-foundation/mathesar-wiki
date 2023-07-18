@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T18:21:23.277Z
+date: 2023-07-18T18:21:59.789Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -100,12 +100,12 @@ If there is more time left, we will focus on implementing these solutions. These
 
 | Date | Outcome |
 |-|-|-|-|-|
-| **2023-7-17** | Work for superuser creation page starts |
-| **2023-7-21**| Script for generating Mathesar .deb file starts |
-| **2023-7-28** | Superuser creation page merged into master |
-| **2023-7-28**| Script for generating Mathesar .deb file is completed |
-| **2023-7-04**| Work for Mathesar + Postgres docker image completed |
-| **2023-7-04**| Few other issues related to stretch goals will be merged into develop |
+| **2023-07-17** | Work for superuser creation page starts |
+| **2023-07-21**| Script for generating Mathesar .deb file starts |
+| **2023-07-28** | Superuser creation page merged into develop |
+| **2023-07-28**| Script for generating Mathesar .deb file is completed |
+| **2023-08-04**| Work for Mathesar + Postgres docker image completed |
+| **2023-08-04**| Few other issues related to stretch goals will be merged into develop |
 
 ## High-level view of implementation details
 - Superuser creation page
