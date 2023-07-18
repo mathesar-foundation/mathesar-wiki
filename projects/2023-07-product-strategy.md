@@ -2,14 +2,15 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-17T19:46:22.602Z
+date: 2023-07-18T17:50:37.164Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z
 ---
 
 **Name**: 2023-07 product strategy
-**Status**: In review 
+**Status**: In progress
+**Review status**: Approved
 
 ## Team
 
