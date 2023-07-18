@@ -2,7 +2,7 @@
 title: Project Template
 description: 
 published: true
-date: 2023-07-18T18:11:25.672Z
+date: 2023-07-18T18:11:39.400Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T16:52:17.902Z
@@ -24,7 +24,7 @@ dateCreated: 2023-03-21T16:52:17.902Z
 > Options for review status:
 > **Draft**: The owner is still writing up the project.
 > **In review**: The project has been written up, but hasn't been approved yet.
-> **Approved**: The project has been approved, but work hasn't started yet.
+> **Approved**: The project has been approved.
 {.is-info}
 
 > **Theme** is the broader goal or theme associated with the project. This is optional and can be omitted.
