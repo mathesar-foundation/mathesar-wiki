@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T15:55:37.327Z
+date: 2023-07-18T16:24:36.400Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -15,11 +15,11 @@ dateCreated: 2023-03-15T20:52:47.673Z
 |-|-|-|
 | **Owner** | Mukesh |
 | **Backend Helpers** | Dominykas |
-| **Frontend Helpers** | Pavish |
+| **Frontend Helpers** | Rajat |
 | **Design Helper** | Ghislaine |
 | **Design Reviewer** | Kriti |
 | **Backend Reviewer** | Brent |
-| **Frontend Reviewer** | Rajat |
+| **Frontend Reviewer** | Pavish |
 | **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
 
 ## Problem
