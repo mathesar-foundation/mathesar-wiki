@@ -2,13 +2,25 @@
 title: Mukesh Work Log
 description: 
 published: true
-date: 2023-07-17T21:37:31.944Z
+date: 2023-07-18T16:47:29.032Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
+
+- Review the PR's opened by Varsha
+- Review PR's opened by Dominkyas
+- Review external contributors PRs
+- Open PR for the Django superuser creation page 
+
+## 2023-07-17
+
+- Contacted helpers for the Installation Improvement 0.1.3 project to get their confirmation
+- Updated the Installation Improvement 0.1.3 project specs and sent out email of the changes made
+- Started working on the backend issues for the super user creation page
+- Intergrate local IDE workspace with the workflow logs to make worklog updates easier
 
 
 
