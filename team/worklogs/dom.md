@@ -2,7 +2,7 @@
 title: Dom's work log
 description: 
 published: true
-date: 2023-07-17T16:00:13.173Z
+date: 2023-07-18T16:27:35.878Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T12:47:08.784Z
@@ -10,19 +10,23 @@ dateCreated: 2023-07-07T12:47:08.784Z
 
 ## Active
 
-- Do [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types)
+- Report being able to sort by unsortable types
+- Report unique constraint failing on point types
 - Make reservations for the GSoC mentor summit
 
 ## Backlog
 
-- Comment on [#2346](https://github.com/centerofci/mathesar/issues/2346) (make type inference non-obligatory) with conclusions and issues created after sync with Sean
 - See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
-- Do [#2304](https://github.com/centerofci/mathesar/issues/2304) (compose order directives)
-- Do [#2346](https://github.com/centerofci/mathesar/issues/2346) (improve column type inference)
 - Submit PR with test case for long identifiers in preexisting database
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-18
+
+- Do [#3024](https://github.com/centerofci/mathesar/issues/3024) (support for unknown types) in [#3040](https://github.com/centerofci/mathesar/issues/3040)
+- Add email thread links to backend fixes project wiki page
+- Respond in [#3050](https://github.com/centerofci/mathesar/issues/3050) (make column type inference optional)
 
 ### 2023-07-17
 

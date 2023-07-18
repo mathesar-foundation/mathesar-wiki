@@ -2,14 +2,15 @@
 title: 2023-07 Frontend Fixes
 description: 
 published: true
-date: 2023-07-13T17:20:51.670Z
+date: 2023-07-18T17:48:07.607Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T13:31:46.556Z
 ---
 
 **Name**: 2023-07 Frontend Fixes
-**Status**: Draft 
+**Status**: In progress
+**Review status**: Approved
 
 ## Team
 

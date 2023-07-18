@@ -2,19 +2,20 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-17T16:48:56.197Z
+date: 2023-07-18T19:02:49.152Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Talk to Mukesh about installation discussion next steps.
-- Follow up on project approvals for this cycle.
-- Fundraising 1:1 with Geoffrey
-- Update script and slides for upcoming funder meeting
+- Weekly meeting
+- How to Raise Money workshop session.
+- Figure out installation discussion next steps.
+- Follow up on installation project approval
 
 ## Backlog
+- Update script and slides for upcoming funder meeting
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
 - Set up CRM in Mathesar to track contacts
@@ -25,6 +26,30 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-18
+- **Project management**
+	- Reviewed and marked the following projects as approved:
+		- 2023-07 frontend fixes
+		- Shareable links
+		- Move DDL operations to SQL functions
+		- 2023-07 backend fixes
+		- Internationalization
+		- Product strategy
+  - Reviewed and followed up on installation project
+  - Updated [projects](/en/projects) page with a bit more detail on our workflow.
+  - Simplified [project template](/en/projects/template) to be more in line with the new workflow.
+  - Followed up on Shrey's project.
+  - Reviewed and followed up on Aritra's project idea.
+  - Followed up on Varsha's email.
+- **Regular comms**
+	- Followed up on various GitHub issues
+	- Caught up with email
+- **Team management**
+	- Cleaned up and expanded agenda for tomorrow's weekly meeting.
+	- Updated meeting agenda item template.
+- **Fundraising**
+	- 1:1 with Geoffrey to get advice on the upcoming meeting
 
 ## 2023-07-17
 - **Management & administration**

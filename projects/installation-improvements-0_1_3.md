@@ -2,24 +2,25 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T15:04:04.660Z
+date: 2023-07-18T18:21:59.789Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
 ---
 
-**Status**: In review
+**Status**: In progress
+**Review status**: In review
 
 ## Team
 | Role | Assignee |
 |-|-|-|
 | **Owner** | Mukesh |
 | **Backend Helpers** | Dominykas |
-| **Frontend Helpers** | Pavish |
+| **Frontend Helpers** | Rajat |
 | **Design Helper** | Ghislaine |
 | **Design Reviewer** | Kriti |
 | **Backend Reviewer** | Brent |
-| **Frontend Reviewer** | Rajat |
+| **Frontend Reviewer** | Pavish |
 | **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
 
 ## Problem
@@ -88,18 +89,23 @@ If there is more time left, we will focus on implementing these solutions. These
 
 - We will be having meeting every week to discuss further improvements to our Installation process.
 - Kriti and Mukesh will meet every week to plan ahead of the meetings.
+- The meeting topics are not definitive and can change.
+- Some of the topics to discuss
+	- Simplifying installation for [Personas](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+	- PaaS offering to support
+	- The location and workflow for storing the configuration details
 
 
 ## Timeline
 
 | Date | Outcome |
 |-|-|-|-|-|
-| **2023-7-17** | Work for superuser creation page starts |
-| **2023-7-21**| Script for generating Mathesar .deb file starts |
-| **2023-7-28** | Superuser creation page merged into master |
-| **2023-7-28**| Script for generating Mathesar .deb file is completed |
-| **2023-7-04**| Work for Mathesar + Postgres docker image completed |
-
+| **2023-07-17** | Work for superuser creation page starts |
+| **2023-07-21**| Script for generating Mathesar .deb file starts |
+| **2023-07-28** | Superuser creation page merged into develop |
+| **2023-07-28**| Script for generating Mathesar .deb file is completed |
+| **2023-08-04**| Work for Mathesar + Postgres docker image completed |
+| **2023-08-04**| Few other issues related to stretch goals will be merged into develop |
 
 ## High-level view of implementation details
 - Superuser creation page
@@ -113,6 +119,8 @@ If there is more time left, we will focus on implementing these solutions. These
 - [Meta issue](https://github.com/centerofci/mathesar/issues/3058)
 
 ## Resources
+- [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/_vJfb_sXdfE)
+- [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/EIP02jkb67o)
 - [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
 - [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
 - [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)

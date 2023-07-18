@@ -2,19 +2,26 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-17T17:45:58.805Z
+date: 2023-07-18T20:42:59.288Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
 ---
 
-## How we use projects
 
-- We chunk our work into projects to keep it organized.
-- Unlike [ongoing work](/team/responsibilities.md), each project has an end date.
-- Each project has one and only leader.
-- Projects typically have a few helpers too. The project leader can delegate work to the helpers. The helpers can serve as code reviewers too.
+**What are projects for?**
+- The Mathesar team's work is chunked into fixed-length projects to keep it organized.
+- The core team works in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
+  - Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/team/responsibilities.md).
+- Each project has one and only owner, and various helpers. Helpers are assigned specific responsibilities.
 
+**How do we decide what projects work on?**
+- Anyone willing to do the work can propose a project. Please use the [project template](/en/projects/template).
+- Projects are discussed and approved by the core team (either in meetings or via email).
+  - The project manager facilitates these discussions.
+- Project prioritization will be based on our product strategy (currently in development).
+
+# Active projects
 ## 2023-07-10 cycle
 These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
@@ -22,30 +29,22 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | --        | -- | -- |
 | Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | In progress |
 | Rajat     | [Internationalization](./projects/internationalization.md) | In progress |
-| Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | Draft |
-| Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | Draft |
-| Pavish | [Shareable links](./projects/shareable-links-implementation) | In review |
-| Mukesh    | [Installation improvements 0.1.3](./projects/installation-improvements-0_1_3.md) | In review |
-| Kriti, Ghislaine | [2023-07 product strategy](/en/projects/2023-07-product-strategy) | In review |
+| Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | In progress |
+| Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | In progress |
+| Pavish | [Shareable links](./projects/shareable-links-implementation) | In progress |
+| Mukesh    | [Installation improvements 0.1.3](./projects/installation-improvements-0_1_3.md) | In progress |
+| Kriti, Ghislaine | [2023-07 product strategy](/en/projects/2023-07-product-strategy) | In progress |
 
 ## 2023 summer interships & work programs
 
 | Owner     | Project | Status |
 | --        | -- | -- |
 | Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | In progress |
+| Anshuman | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
+| Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
+| Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
 
-## Future project ideas
-Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
-
-Here are some other project ideas that have been written up, but need to be reviewed before we move forward with them.
-
-| Owner     | Project | Status |
-| --        | -- | -- |
-| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
-| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
-| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
-
-## Past projects
+# Past projects
 Projects that are no longer active for a variety of reasons. Please check the individual project pages for more details.
 
 - [Release v0.1.2](./projects/release-0-1-2)
@@ -58,5 +57,17 @@ Projects that are no longer active for a variety of reasons. Please check the in
 - [Feedback kickoff](./projects/user-feedback-kickoff.md)
 - [Gather User Feedback](./projects/gather-user-feedback)
 
-## Project template
+# Future project ideas
+Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
+
+Here are some other project ideas that have been written up, but need to be reviewed before we move forward with them.
+
+| Owner     | Project | Status |
+| --        | -- | -- |
+| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
+| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
+| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
+
+
+# Project template
 [Use this template](/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.

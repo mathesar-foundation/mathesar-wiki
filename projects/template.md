@@ -2,7 +2,7 @@
 title: Project Template
 description: 
 published: true
-date: 2023-05-11T14:49:06.252Z
+date: 2023-07-18T18:18:03.392Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T16:52:17.902Z
@@ -11,38 +11,34 @@ dateCreated: 2023-03-21T16:52:17.902Z
 > This project is ridiculous on purpose. We are not doing this.
 {.is-info}
 
-**Name**: Add pizza ordering capabilities to Mathesar
 **Status**: Draft 
+**Review status**: Draft
 **Theme**: User growth
 
 > Options for status:
 > **Draft**: The owner is still writing up the project.
-> **In review**: The project has been written up, but hasn't been approved yet.
-> **Approved**: The project has been approved, but work hasn't started yet.
 > **In progress**: Work on the project has started.
 > **Complete**: The project is over.
 {.is-info}
 
-> **Theme** is the broader goal or theme associated with the project.
+> Options for review status:
+> **Draft**: The owner is still writing up the project.
+> **In review**: The project has been written up, but hasn't been approved yet.
+> **Approved**: The project has been approved.
+{.is-info}
+
+> **Theme** is the broader goal or theme associated with the project. This is optional and can be omitted.
 {.is-info}
 
 ## Team
-> We probably don't need to be this detailed for everything; this is just to show the range of options.
-{.is-info}
+**Project owner**: Kriti
 
-| Role | Assignee | Notes |
-|-|-|-|
-| **Owner** | Kriti | |
-| **Approver (project plan)** | Kriti | *Needs to approve project plan* |
-| **Approver (product)** | Kriti | *Needs to approve product spec and design* |
-| **Approver (frontend)** | Pavish, Sean | *Needs to approve frontend spec* |
-| **Approver (backend)** | Mukesh, Brent | *Needs to approve backend spec* |
-| **Contributor (requirements)** | Kriti | *Creates product spec, requirements, GitHub issues* |
-| **Contributor (design)** | Ghislaine | *Creates designs* |
-| **Contributor (backend)** | Dom | *Creates backend specs and implements backend* |
-| **Contributor (frontend)** | Rajat | *Creates frontend specs and implements frontend* |
-| **Contributor (backend review)** | Mukesh | *Reviews backend code* |
-| **Contributor (frontend review)** | Pavish | *Reviews frontend code* |
+| Role | Assignee | Reviewer | Notes |
+|-|-|-|-|
+| **Requirements** | Kriti | Ghislaine, Dom, Rajat | *Product spec, requirements, GitHub issues* |
+| **Design work** | Ghislaine | Kriti, Dom, Rajat | *UI and UX* |
+| **Backend work** | Dom | Mukesh | *Backend specs and code* |
+| **Frontend work** | Rajat | Pavish |  *Frontend specs and code* |
 
 ## Problem
 Users have reported wanting to order pizza through Mathesar's UI.
@@ -58,12 +54,15 @@ Users have reported wanting to order pizza through Mathesar's UI.
 
 To simplify implementation, we are not going to allow users to customize their pizza yet.
 
+## Outcome
+Mathesar's next release will include the new feature described under "solution".
+
 ## Risks
 - Paying for all these pizzas will cost money.
 - Users could be allergic to pizza ingredients.
 
-## Resources
-> This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+## Links
+> This section collects project related linka. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
 {.is-info}
 
 - **Issues**: [GitHub meta issue]()
@@ -71,18 +70,12 @@ To simplify implementation, we are not going to allow users to customize their p
   - [Product spec]()
   - [Backend spec]()
   - [Frontend spec]()  
+- **Email discussions**:
+	- [Project approval discussion]()
+  - [Weekly updates]()
 
 ## Timeline
-This project should take **5 weeks**.
+This project should fit into the 2023-01-01 cycle.
 
 > Please adjust as needed depending on the steps for the project.
 {.is-info}
-
-| Date | Outcome |
-| - | - |
-| 2023-03-01 | Work starts | 
-| 2023-03-08 | Implementation spec complete | 
-| 2023-03-15 | Implementation spec approved | 
-| 2023-03-22 | Design work complete |
-| 2023-03-27 | Backend work complete |
-| 2023-04-05 | Frontend work complete |
