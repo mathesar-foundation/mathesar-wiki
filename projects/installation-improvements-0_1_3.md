@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T00:51:33.656Z
+date: 2023-07-18T15:04:04.660Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -84,28 +84,21 @@ If there is more time left, we will focus on implementing these solutions. These
   - *Problem solved*: Makes our documentation easier to maintain.
   - This is a low priority as it does not improve experience instead makes the documentation more cleaner.
 
-## Timeline
-Some work is done in parallel by different contributors. So I added the work that deals with multiple contributors (Superuser creation screen, meetings) on the left-hand side and the work done mostly by Mukesh (on the right hand sided). The meeting dates are tentative as it depends on everyone's availability
+## Meetings
 
-| Date | Outcome | Parallel work Date | Outcome |
+- We will be having meeting every week to discuss further improvements to our Installation process.
+- Kriti and Mukesh will meet every week to plan ahead of the meetings.
+
+
+## Timeline
+
+| Date | Outcome |
 |-|-|-|-|-|
-| **2023-7-17** | Design work for superuser creation page begins|
-| **2023-7-17** | Backend work for superuser creation page begins |
-| **2023-7-18** | Meeting to discuss simplifying installation for [Personas](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting) |
-| | | **2023-7-19**| Work for Mathesar .deb file begins |
-| **2023-7-20**| Superuser creation screen UI handoff |
-| **2023-7-24** | Research notes on Paas solutions to support will be sent as an email |
-| **2023-7-24** | Backend work for superuser creation page is completed  |
-| | | **2023-7-25**| Work for adding Mathesar + Postgres docker image begins |
-| **2023-7-25** | Meeting to discuss Paas offering to support  |
-| | | **2023-7-26**| Script for generating Mathesar .deb file is completed |
-| | | **2023-7-27**| Refactor the "Build from source" documentation to use the debian package instead of compiling Mathesar image|
-| | | **2023-7-27**| Add Mathesar + Postgres docker image install instructions to our documentation|
-| **2023-7-28**| Work on Django templates for superuser creation screen begins|
-| | | **2023-7-31**| Work for Mathesar + Postgres docker image completed |
-| **2023-8-01** | Meeting to discuss the location and workflow for storing the configuration details  |
-| **2023-8-03**| Django templates for superuser creation is completed  |
-| | | **2023-8-02**| Time for the implementing lower impact solutions |
+| **2023-7-17** | Work for superuser creation page starts |
+| **2023-7-21**| Script for generating Mathesar .deb file starts |
+| **2023-7-28** | Superuser creation page merged into master |
+| **2023-7-28**| Script for generating Mathesar .deb file is completed |
+| **2023-7-04**| Work for Mathesar + Postgres docker image completed |
 
 
 ## High-level view of implementation details
