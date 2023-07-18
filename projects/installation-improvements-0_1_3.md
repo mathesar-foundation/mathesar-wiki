@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-17T19:17:03.932Z
+date: 2023-07-18T00:51:33.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -116,17 +116,8 @@ Some work is done in parallel by different contributors. So I added the work tha
 - Zipapps will be built using [shiv](https://shiv.readthedocs.io/en/latest/)
 - SQLite codebase refactor is quite small as Mathesar uses a Postgres related field in only one place (for storing column order)
 
-## User reported issues which will be fixed in this cycle
-- Linux packages were requested by users during our launch, see [this page](https://wiki.mathesar.org/en/product/feedback/2023-03#installation)
-- [The requirement of superuser postgresql access is problematic](https://github.com/centerofci/mathesar/issues/2990)
-
-## User reported issues which may be be fixed in this cycle
-- [Helm Charts](https://github.com/centerofci/mathesar/issues/2633)
-- [Kubernetes Manifests](https://github.com/centerofci/mathesar/issues/2707#top)
-- [Consider merging `config` into `mathesar` package](https://github.com/centerofci/mathesar/issues/2712#top)
-
-## Additional issues
-GitHub issues will be created once the project is reviewed.
+## Github issue
+- [Meta issue](https://github.com/centerofci/mathesar/issues/3058)
 
 ## Resources
 - [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
