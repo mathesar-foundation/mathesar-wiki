@@ -14,11 +14,7 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-
-### Paused
-
 - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
-    - Awaiting feedback from several others before proceeding
 
 ### Backlog
 
@@ -27,6 +23,21 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-19 Wednesday
+
+- Team meeting
+- Matrix chat with Kriti about some product design process stuff
+- Help triage [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+- Create ticket [Help users understand the connection between descriptions and PostgreSQL comments](https://github.com/centerofci/mathesar/issues/3071)
+- Several other smaller discussions
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037), beginning to integrate new CellSelection code into TabularData class
+
+## 2023-07-18 Tuesday
+
+- Chat with Rajat about cell selection PR
+- Help answer questions for community contributor working on [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/issues/2345)
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037), filling in logic within the scaffolding
 
 ## 2023-07-17 Monday
 
