@@ -9,23 +9,47 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Weekly meeting
-- How to Raise Money workshop session.
-- Figure out installation discussion next steps.
-- Follow up on installation project approval
+- Product strategy skeleton
+- Set up CRM in Mathesar to track contacts
 
 ## Backlog
 - Update script and slides for upcoming funder meeting
+- Approve the installation project once Mukesh has made updates and Pavish has confirmed approval
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
-- Set up CRM in Mathesar to track contacts
-	- Follow up with various people who've helped me over the last few months
+- Follow up with various people who've helped me over the last few months
 - Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
 - At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-19
+- **Team management**
+	- Ran the weekly meeting
+	- Posted meeting notes on the wiki
+-  **Project management**
+	- Discussion with Mukesh about:
+		- changes to the installation project to address Pavish's feedback
+		- Next steps before scheduling an installation related meeting
+	- Followed up on Aritra's project idea
+	- Discussion about deploying internal server automatically
+- **Release management**
+	- Followed up on Rajat's thread with next steps to managing the release
+	- Responded to and followed up on a few new tickets created by users
+		- [Does not work on windows](https://github.com/centerofci/mathesar/issues/2961) (followed up with Brent)
+		- [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069#top) (commented)
+		- [Not really possible to override settings](https://github.com/centerofci/mathesar/issues/3048) (commented)
+		- [The requirement of superuser postgresql access is problematic #2990](https://github.com/centerofci/mathesar/issues/2990) (followed up with Mukesh)
+	- Put a couple of bugs opened by Dom into the "next release milestone"
+		- [500 when adding unique constraint on point column](https://github.com/centerofci/mathesar/issues/3067)
+		- [Able to order on an unorderable field](https://github.com/centerofci/mathesar/issues/3066)
+- **Fundraising**
+	- How to Raise Money workshop session
+- **Comms**
+	- Various discussions on Matrix
+	- Caught up on email and GitHub
 
 ## 2023-07-18
 - **Project management**
