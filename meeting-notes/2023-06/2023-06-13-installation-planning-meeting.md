@@ -2,7 +2,7 @@
 title: 2023-06-13 Installation Planning Meeting
 description: 
 published: true
-date: 2023-07-19T23:18:46.214Z
+date: 2023-07-19T23:19:14.431Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T18:52:57.263Z
@@ -161,6 +161,17 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - Advantages of plain download (of an executable) over repo distribution 
     - more up-to-date
     - simpler for us in the short term
+- Additional args/flags that the CLI app could have
+    - Option to disable auth, so that user can get to working Mathesar immediately
+    - Option to permit the API/UI to edit the config file
+- OS Dependencies
+    - Minimum version of python
+        - pyinstaller ships Python interpreter
+    - Python dependencies
+        - zipapp ships with dependencies
+    - C build dependencies, unless we use the precompiled versions of psycopg
+    - postgres server (minimum version)
+
 
 ## Ideal Flow
 - Download the binaries from our release page
@@ -172,16 +183,6 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - User proceeds to add the connection string details of the databases to be managed by Mathesar
 - User then installs the necessary Schema based on the features he requires, for example, DML only schema
 
-- Additional args/flags that the CLI app could have
-    - Option to disable auth, so that user can get to working Mathesar immediately
-    - Option to permit the API/UI to edit the config file
-- OS Dependencies
-    - Minimum version of python
-        - pyinstaller ships Python interpreter
-    - Python dependencies
-        - zipapp ships with dependencies
-    - C build dependencies, unless we use the precompiled versions of psycopg
-    - postgres server (minimum version)
 
 ### Someone installing everything on localhost (not just trying it out)
 - If you're using Docker setup:
