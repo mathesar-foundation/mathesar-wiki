@@ -24,6 +24,15 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 --------------------------------------------------------------------------------
 
+## 2023-07-19 Wednesday
+
+- Team meeting
+- Matrix chat with Kriti about some product design process stuff
+- Help triage [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+- Create ticket [Help users understand the connection between descriptions and PostgreSQL comments](https://github.com/centerofci/mathesar/issues/3071)
+- Several other smaller discussions
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037), beginning to integrate new CellSelection code into TabularData class
+
 ## 2023-07-18 Tuesday
 
 - Chat with Rajat about cell selection PR
