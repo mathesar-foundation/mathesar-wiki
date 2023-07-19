@@ -10,14 +10,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Product strategy skeleton
-- Set up CRM in Mathesar to track contacts
 
 ## Backlog
 - Update script and slides for upcoming funder meeting
 - Approve the installation project once Mukesh has made updates and Pavish has confirmed approval
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
-- Follow up with various people who've helped me over the last few months
+- Set up CRM in Mathesar to track contacts
+	- Follow up with various people who've helped me over the last few months
 - Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
 - At some point, go through and organize GitHub issues and milestones
