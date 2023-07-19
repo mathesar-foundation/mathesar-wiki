@@ -10,17 +10,22 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ## Actively working on
 
+### Meetings
+- Team meeting; Will go through notes and prep.
+
 ### PR reviews:
 - [SQL for links creation #2986](https://github.com/centerofci/mathesar/pull/2986)
 - [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006)
 
 ### RSQLA1 project work:
 - Work on column alteration DDL functions
+- Catch up with Anish about next steps.
 
 ### Summarization project work
-- Discuss with Aritra which array summarizations we should do
-- Discuss with Aritra which transforms would have good synergy with aggregations
+- Participate and keep an eye on the progress in the [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/oLPQWtxYXg8/m/YCd_wVm8BQAJ) about preproc functions.
 
+### List project work
+- Async with Maria about report write-up
 
 ## 2023-07-18
 
