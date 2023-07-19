@@ -14,11 +14,7 @@ dateCreated: 2023-07-07T00:00:00.000Z
 
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-
-### Paused
-
 - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
-    - Awaiting feedback from several others before proceeding
 
 ### Backlog
 
@@ -27,6 +23,12 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-18 Tuesday
+
+- Chat with Rajat about cell selection PR
+- Help answer questions for community contributor working on [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/issues/2345)
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037), filling in logic within the scaffolding
 
 ## 2023-07-17 Monday
 
