@@ -22,6 +22,14 @@ dateCreated: 2023-07-07T01:20:50.913Z
 - Discuss with Aritra which transforms would have good synergy with aggregations
 
 
+## 2023-07-18
+
+This day was heads-down coding.
+
+### RSQLA1 project work:
+- Worked on column alteration DDL functions
+
+
 ## 2023-07-17
 
 ### Misc email
