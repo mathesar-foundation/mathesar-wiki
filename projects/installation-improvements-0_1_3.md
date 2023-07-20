@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-18T18:21:59.789Z
+date: 2023-07-20T01:55:55.772Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -70,20 +70,23 @@ Issues we need to resolve through discussions:
 [Overview diagram showcasing the relation between the problems, solutions and the outcome](#overview-diagram)
 
 ### Stretch goals
-If there is more time left, we will focus on implementing these solutions. These are lower impact because they focus more on "medium" priority personas.
+Most of these solutions will be useful for laying the ground work for future work and won't necessarily be complete by the end of the cycle (they might not added to the documentation). These are lower impact because they focus more on "medium" priority personas.
 
-- Build helm charts 
+- Build helm charts
+	- *Limitations*: Just the yaml file for the mathesar app. We won't be adding to the installation documentation or adding it to the helm repo in this cycle
 	- *Problem solved*: Reduces steps for Kubernetes user and also [requested by users](https://github.com/centerofci/mathesar/issues/2633)
-- Build zipapps 
+- Build zipapps
+	- *Limitations*: Just the script to generate the zipapp. It won't be added to the installation documentation in this cycle
 	- *Problem solved*: Reduces steps for non-docker and non-debian installs
-- Support SQLite as an additional datasource for the internal database 
+- Support SQLite as an additional datasource for the internal database
+	- *Limitations*: Only the codebase refactor necessary to support SQLite. Documenting the configuration option will be done in later cycle
 	- *Problem solved*: Makes it easier to start Mathesar for users using a install package without inbuilt Postgres server package
 - Build static files and upload it to the release page
 	- *Problem solved*: Makes it easier to install Mathesar for users not using the Debian package or if they want to serve static files from a different server.
 	- This is a low priority because most of the installation methods documented make use of pre-built packages which comes with static files packaged with them and are much easier to use
 - Move documentation on auxiliary services (Caddy, Watchtower) to different docs (will be called as best practice guide)
   - *Problem solved*: Makes our documentation easier to maintain.
-  - This is a low priority as it does not improve experience instead makes the documentation more cleaner.
+  - This is a low priority as it does not improve experience instead makes the documentation more cleaner and more focused.
 
 ## Meetings
 
@@ -102,10 +105,12 @@ If there is more time left, we will focus on implementing these solutions. These
 |-|-|-|-|-|
 | **2023-07-17** | Work for superuser creation page starts |
 | **2023-07-21**| Script for generating Mathesar .deb file starts |
-| **2023-07-28** | Superuser creation page merged into develop |
+| **2023-07-26** | Superuser creation page design specs will be completed|
 | **2023-07-28**| Script for generating Mathesar .deb file is completed |
+| **2023-08-03** | Superuser creation page frontend work is completed and added to develop|
 | **2023-08-04**| Work for Mathesar + Postgres docker image completed |
-| **2023-08-04**| Few other issues related to stretch goals will be merged into develop |
+| **2023-08-04**| Few other pull requests for issues related to stretch goals will be merged into develop |
+
 
 ## High-level view of implementation details
 - Superuser creation page
@@ -227,7 +232,7 @@ If there is more time left, we will focus on implementing these solutions. These
 
 
 ### Expected steps after this project
-![mermaid-diagram-2023-07-14-171640.png](/assets/mermaid-diagram-2023-07-14-171640.png)
+![expected-install-flow.svg](/assets/expected-install-flow.svg)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
@@ -247,7 +252,7 @@ If there is more time left, we will focus on implementing these solutions. These
         - Install Docker
     </details>
     <details>
-      <summary>Building from source(3 steps)</summary>
+      <summary>Non-Docker install(3 steps)</summary>
   
         - Install Postgres
         - Setup mathesar database
@@ -266,12 +271,12 @@ If there is more time left, we will focus on implementing these solutions. These
       <summary>Both Docker Image(0 steps)</summary>
     </details>
     <details>
-      <summary>Building from source-Debian(1 step)</summary>
+      <summary>Non Docker Install Debian(1 step)</summary>
   
         - Run apt install
     </details>
     <details>
-      <summary>Building from source-Non-debian(1 step)</summary>
+      <summary>Non-Docker Non-debian(1 step)</summary>
   
         - Install Python
         - Download zipapps
@@ -304,7 +309,7 @@ If there is more time left, we will focus on implementing these solutions. These
             - Run install script(migrations and install database types)
     </details>
     <details>
-      <summary>Building from source(6 steps)</summary>
+      <summary>Non-Docker install (6 steps)</summary>
   
             - Add internal database credentials to env file
             - Add user database credentials to env file
@@ -327,7 +332,7 @@ If there is more time left, we will focus on implementing these solutions. These
             - Run docker command
     </details>
     <details>
-      <summary>Building from source(1 step)</summary>
+      <summary>Non-Docker(1 step)</summary>
   
             - Run the Mathesar executable
     </details>
