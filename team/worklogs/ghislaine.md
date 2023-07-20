@@ -2,11 +2,29 @@
 title: Ghislaine's Worklog
 description: 
 published: true
-date: 2023-07-19T23:40:49.174Z
+date: 2023-07-20T22:09:33.687Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+
+## 2023-07-20
+
+I continued working on the table. I also logged usability issues that I found and opened a GitHub issue to address a bug I encountered.
+
+I've been exploring other similar products, gathering more use cases. This work has included redefining categories to ensure we have enough information for creating personas.
+
+Had a meeting with Kriti to discuss the progress of our work.
+
+**Current Focus:**
+- Creating the use cases table for the user research project
+
+## 2023-07-19
+
+Today, I've been gathering more use cases. Had a brief discussion with Mukesh regarding the Installation project.
+
+**Current Focus:**
+- Creating the use cases table for the user research project
 
 ## 2023-07-18
 
