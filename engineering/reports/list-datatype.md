@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-18T21:35:57.429Z
+date: 2023-07-20T14:51:07.382Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -40,10 +40,16 @@ The Array class also uses an optional `dimensions` argument, with a default valu
 
  
 ## Methodology
-### Restricting the dimensions
-#### Type decorator in SA
-
+### Restricting the dimensions to one
 #### Custom Mathesar Type
+Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
+- As any data type can have its Array version, this implies that Mathesar will have to create a Domain column for every possible scalar type. 
+- This can be dangerous for backwards-compatibility in the future; we would have to support both a constrained array version and a possibly unconstrained one.
+- 
+#### Type decorator in SA
+Another option was to implement the Array as a class that inherits from SA's TypeDecorator [2]. The catch here is to access to the dimension's argument handled by SA, and in compiling time, making sure that we pass a value of 1. Again, this workaround also has some disadvantages:
+- Mathesar is currently trying to reduce its dependence on SQLAlchemy.
+- We need to support columns being written to in the database via other clients (i.e., where the enforcement won't happen). That dimension can't be reflected from the database.
 
 #### Custom module (middleware)
 
@@ -74,3 +80,4 @@ request: {"125": [50000,200]}
 
 ## References
 1. [Postgres documentation on Arrays](https://www.postgresql.org/docs/current/arrays.html)
+2. [TypeDecorators](https://docs.sqlalchemy.org/en/20/core/custom_types.html#sqlalchemy.types.TypeDecorator)

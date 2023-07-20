@@ -2,13 +2,13 @@
 title: Home
 description: 
 published: true
-date: 2023-07-17T19:27:07.006Z
+date: 2023-07-20T19:14:09.451Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-16T14:07:42.267Z
 ---
 
-<img src="/mathesar_primary_shaded_hor_rgb.png" width=300px alt="Mathesar logo"/>
+![logo.png](/logo.png)
 
 Mathesar is a straightforward open source tool that provides a **spreadsheet-like interface** to a PostgreSQL **database**. Our web-based interface helps you and your collaborators work with data more independently and comfortably – **no technical skills needed**.
 
