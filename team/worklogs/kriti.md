@@ -13,7 +13,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 ## Backlog
 - Update script and slides for upcoming funder meeting
-- Approve the installation project once Mukesh has made updates and Pavish has confirmed approval
 - Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
 - Set up CRM in Mathesar to track contacts
@@ -25,6 +24,19 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-20
+- **Product**
+	- Call with Ghislaine: product-strategy check in & next steps
+-  **Project management**
+	- Marked installation improvements project as approved
+- **Release management**
+	- Followed up on a few GitHub issues
+- **Tools**
+	- Spent some time trying to debug wiki syncing issues
+	- Did some manual fixes, sent an email to the team with next steps
+- **Comms**
+	- Caught up with email, GitHub, Matrix inboxes
+
 ## 2023-07-19
 - **Team management**
 	- Ran the weekly meeting
@@ -35,6 +47,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 		- Next steps before scheduling an installation related meeting
 	- Followed up on Aritra's project idea
 	- Discussion about deploying internal server automatically
+- **Tools**
+	- Spent some time trying to debug wiki syncing issues
 - **Release management**
 	- Followed up on Rajat's thread with next steps to managing the release
 	- Responded to and followed up on a few new tickets created by users
