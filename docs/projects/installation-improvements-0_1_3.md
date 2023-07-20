@@ -134,7 +134,9 @@ Most of these solutions will be useful for laying the ground work for future wor
 ## References
 
 ### Current steps
+
 ![current_install_flow_0.1.3.png](/assets/projects/installation-improvements-0_1_3/current_install_flow_0.1.3.png)
+
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
@@ -159,16 +161,18 @@ Most of these solutions will be useful for laying the ground work for future wor
 
 1. Downloading and set up Mathesar 
     <details>
-      <summary>Docker Compose(2 steps)</summary>
+      <summary>Docker Compose (2 steps)</summary>
   
         - Download docker compose script
         - Run docker compose command to download
     </details>
     <details>
       <summary>Docker Image(0 steps)</summary>
+
+      (none)
     </details>
     <details>
-      <summary>Building from source(6 steps)</summary>
+      <summary>Building from source (6 steps)</summary>
   
         - Clone git repo
         - Install python
@@ -182,57 +186,56 @@ Most of these solutions will be useful for laying the ground work for future wor
     <details>
       <summary>Docker Compose(6 steps)</summary>
   
-            - Generate secret key
-            - Add secret key to env file
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Create superuser
-            - Run install script(migrations and install database types)
+        - Generate secret key
+        - Add secret key to env file
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Create superuser
+        - Run install script(migrations and install database types)
     </details>
     <details>
       <summary>Mathesar docker Image(6 steps)</summary>
   
-            - Generate secret key
-            - Add secret key to env file
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Create superuser
-            - Run install script(migrations and install database types)
+        - Generate secret key
+        - Add secret key to env file
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Create superuser
+        - Run install script(migrations and install database types)
     </details>
     <details>
       <summary>Building from source(7 steps)</summary>
   
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Generate secret key
-            - Add secret key to env file
-            - Export environment variables
-            - Create superuser
-            - Run install script(migrations and install database types)
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Generate secret key
+        - Add secret key to env file
+        - Export environment variables
+        - Create superuser
+        - Run install script(migrations and install database types)
     </details>
-
 1. Starting Mathesar
-
     <details>
       <summary>Docker Compose(1 step)</summary>
   
-            - Run docker command
+        - Run docker command
     </details>
     <details>
       <summary>Docker Image(1 step)</summary>
   
-            - Run docker command
+        - Run docker command
     </details>
     <details>
       <summary>Building from source(2 steps)</summary>
   
-            - Create gunicorn systemctl script
-            - Run the script
+        - Create gunicorn systemctl script
+        - Run the script
     </details>
 
-
 ### Expected steps after this project
+
 ![expected-install-flow.svg](/assets/expected-install-flow.svg)
+
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
@@ -246,7 +249,7 @@ Most of these solutions will be useful for laying the ground work for future wor
         - Setup a database
         - Create a database superuser
     </details>
-   <details>
+    <details>
       <summary>Mathesar + Postgres docker Image(1 step)</summary>
   
         - Install Docker
@@ -259,7 +262,6 @@ Most of these solutions will be useful for laying the ground work for future wor
         - Create a database superuser
     </details>
 
-
 1. Downloading and set up Mathesar 
     <details>
       <summary>Docker Compose(2 steps)</summary>
@@ -269,6 +271,8 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Both Docker Image(0 steps)</summary>
+
+      (none)
     </details>
     <details>
       <summary>Non Docker Install Debian(1 step)</summary>
@@ -286,58 +290,58 @@ Most of these solutions will be useful for laying the ground work for future wor
     <details>
       <summary>Docker Compose(5 steps)</summary>
   
-            - Generate secret key
-            - Add secret key to env file
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Run install script(migrations and install database types)
+        - Generate secret key
+        - Add secret key to env file
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Run install script(migrations and install database types)
     </details>
     <details>
       <summary>Mathesar docker Image(5 steps)</summary>
   
-            - Generate secret key
-            - Add secret key to env file
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Run install script(migrations and install database types)
+        - Generate secret key
+        - Add secret key to env file
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Run install script(migrations and install database types)
     </details>
     <details>
-         <summary>Mathesar + PG docker Image(5 steps)</summary>
+      <summary>Mathesar + PG docker Image(5 steps)</summary>
 
-            - Generate secret key
-            - Add secret key to env file
-            - Run install script(migrations and install database types)
+        - Generate secret key
+        - Add secret key to env file
+        - Run install script(migrations and install database types)
     </details>
     <details>
       <summary>Non-Docker install (6 steps)</summary>
   
-            - Add internal database credentials to env file
-            - Add user database credentials to env file
-            - Generate secret key
-            - Add secret key to env file
-            - Export environment variables
-            - Run install script(migrations and install database types)
+        - Add internal database credentials to env file
+        - Add user database credentials to env file
+        - Generate secret key
+        - Add secret key to env file
+        - Export environment variables
+        - Run install script(migrations and install database types)
     </details>
    
 1. Starting Mathesar
-
     <details>
       <summary>Docker Compose(1 step)</summary>
   
-            - Run docker command
+        - Run docker command
     </details>
     <details>
       <summary>Docker Image(1 step)</summary>
   
-            - Run docker command
+        - Run docker command
     </details>
     <details>
       <summary>Non-Docker(1 step)</summary>
   
-            - Run the Mathesar executable
+        - Run the Mathesar executable
     </details>
-    
+
 ### Overview diagram
- This diagram gives a overview of current steps (problems), solutions, steps after this cycle (outcome) along with information on how the solutions affect the current steps and the outcome.
+
+This diagram gives a overview of current steps (problems), solutions, steps after this cycle (outcome) along with information on how the solutions affect the current steps and the outcome.
 
 ![mathesar_installation_flow(2023-07-10).drawio.svg](/assets/mathesar_installation_flow(2023-07-10).drawio.svg)
