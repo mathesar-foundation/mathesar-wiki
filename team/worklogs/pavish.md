@@ -2,14 +2,28 @@
 title: Pavish's work log
 description: 
 published: true
-date: 2023-07-17T21:20:46.948Z
+date: 2023-07-20T11:33:19.819Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 ## Actively working on
-* Submit PR with models, APIs, and auth bypass for Shared tables
+* Get [Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) ready
+
+## 2023-07-19
+* Reviewed installation improvements project and raised some questions.
+* Responded to barriers to adoption email
+* Weekly meeting
+* Continued work on Shared tables:
+	- Frontend work on displaying the shared page
+
+## 2023-07-18
+* Raised [draft PR](https://github.com/centerofci/mathesar/pull/3061) with models, APIs, and access control for shares
+* Needed to figure out if I might hit snags while building frontend, so decided to work on a minimal frontend simultaneously:
+	- Added view for page when user views shared entity
+  - Added auth bypass for tables, columns, and constraints
+  - Work on figuring out passing slug in request header
 
 ## 2023-07-17
 * Continued work on implementing APIs for Shares
