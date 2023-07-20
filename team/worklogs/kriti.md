@@ -25,6 +25,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Complete
 
 ## 2023-07-20
+*Partial day, sick*
+
 - **Product**
 	- Call with Ghislaine: product-strategy check in & next steps
 -  **Project management**
