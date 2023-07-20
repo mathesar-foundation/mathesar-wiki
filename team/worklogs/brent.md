@@ -11,11 +11,14 @@ dateCreated: 2023-07-07T01:20:50.913Z
 ## Actively working on
 
 ### Meetings
-- Team meeting; Will go through notes and prep.
+- 1:1 with Anish
+- Summarization project meeting
 
-### PR reviews:
-- [SQL for links creation #2986](https://github.com/centerofci/mathesar/pull/2986)
-- [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006)
+### Github misc.
+- Create issue for automating internal.mathesar.org deployment.
+
+### Infrastructure
+- Figure out where the steps to refresh the demo instances were, and make their location more obvious.
 
 ### RSQLA1 project work:
 - Work on column alteration DDL functions
@@ -26,6 +29,26 @@ dateCreated: 2023-07-07T01:20:50.913Z
 
 ### List project work
 - Async with Maria about report write-up
+
+
+## 2023-07-19
+
+### Meetings
+- Team meeting
+
+### PR reviews
+- [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006) (requested changes)
+- [SQL for links creation #2986](https://github.com/centerofci/mathesar/pull/2986)
+
+### RSQLA1 Project work
+- Tidying up and documenting column alteration DDL SQL functions
+
+### Infrastructure
+- updating internal.mathesar.org to newest `develop` version.
+
+### User help
+- Did a quick look through code using `pglast` and replied to [Does not work on windows #2961](https://github.com/centerofci/mathesar/issues/2961)
+
 
 ## 2023-07-18
 
