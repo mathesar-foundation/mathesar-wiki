@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-20T22:06:16.750Z
+date: 2023-07-20T22:42:11.016Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -53,6 +53,7 @@ Another option was to implement the Array as a class that inherits from SA's Typ
 - We need to support columns being written to in the database via other clients (i.e., where the enforcement won't happen). That dimension can't be reflected from the database.
 
 #### Custom module (middleware)
+It would give us more control if we develop a module that works directly with psycopg2 and fully handles the db-python mapping of arrays.
 
 ## Current state
 
