@@ -62,7 +62,7 @@ Mathesar's next release will include the new feature described under "solution".
 - Users could be allergic to pizza ingredients.
 
 ## Links
-> This section collects project related linka. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+> This section collects project related links. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
 {.is-info}
 
 - **Issues**: [GitHub meta issue]()
