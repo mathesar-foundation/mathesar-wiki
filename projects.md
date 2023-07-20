@@ -2,12 +2,11 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-18T20:42:59.288Z
+date: 2023-07-19T23:00:24.016Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
 ---
-
 
 **What are projects for?**
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.

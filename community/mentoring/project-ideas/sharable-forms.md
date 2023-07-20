@@ -2,7 +2,7 @@
 title: Sharable Forms to Add Data to Tables
 description: 
 published: true
-date: 2023-05-11T14:37:38.895Z
+date: 2023-07-19T23:45:02.410Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T00:10:07.147Z

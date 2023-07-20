@@ -2,7 +2,7 @@
 title: Jobs
 description: Opportunities to join the Mathesar team
 published: true
-date: 2023-05-11T14:32:32.308Z
+date: 2023-07-19T23:00:06.748Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-16T16:41:39.528Z

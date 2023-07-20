@@ -2,7 +2,7 @@
 title: Dynamic Defaults Proto-Spec
 description: 
 published: true
-date: 2023-05-11T14:42:24.432Z
+date: 2023-07-19T23:36:57.408Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-15T16:50:41.358Z

@@ -2,7 +2,7 @@
 title: Email Data Type
 description: 
 published: true
-date: 2023-05-11T14:33:00.523Z
+date: 2023-07-19T23:20:35.726Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-10T16:15:43.563Z

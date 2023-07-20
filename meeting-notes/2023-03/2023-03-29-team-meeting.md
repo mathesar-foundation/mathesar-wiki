@@ -2,7 +2,7 @@
 title: 2023-03-29 Team meeting
 description: 
 published: true
-date: 2023-05-11T14:49:50.913Z
+date: 2023-07-19T23:33:06.936Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-29T16:10:56.270Z

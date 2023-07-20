@@ -2,6 +2,16 @@
 title: GSoC 2022: Importing data into existing tables
 description:  Functionality to allow users to import new data into existing tables using a CSV/TSV file
 published: true
+date: 2023-07-19T23:26:27.418Z
+tags: 
+editor: markdown
+dateCreated: 2022-10-21T15:58:45.623Z
+---
+
+---
+title: GSoC 2022: Importing data into existing tables
+description:  Functionality to allow users to import new data into existing tables using a CSV/TSV file
+published: true
 date: 2023-05-11T14:43:18.853Z
 tags: 
 editor: markdown

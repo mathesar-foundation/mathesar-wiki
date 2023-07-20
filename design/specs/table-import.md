@@ -2,7 +2,7 @@
 title: Add Table from Import/URI/Data paste Specs
 description: 
 published: true
-date: 2023-05-11T14:31:54.903Z
+date: 2023-07-19T23:24:05.189Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:03:22.324Z

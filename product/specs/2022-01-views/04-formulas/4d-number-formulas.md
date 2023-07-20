@@ -2,7 +2,7 @@
 title: (d) Number Formulas
 description: 
 published: true
-date: 2023-05-11T14:39:02.929Z
+date: 2023-07-19T23:47:49.502Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-25T02:36:20.010Z

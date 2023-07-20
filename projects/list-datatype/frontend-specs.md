@@ -2,7 +2,7 @@
 title: List data type - Frontend specs
 description: 
 published: true
-date: 2023-05-29T22:26:01.788Z
+date: 2023-07-19T23:37:43.009Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-29T22:19:03.569Z

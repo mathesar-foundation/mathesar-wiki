@@ -2,7 +2,7 @@
 title: 05. View Structure
 description: 
 published: true
-date: 2023-05-11T14:36:16.949Z
+date: 2023-07-19T23:46:50.203Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-24T22:54:40.594Z

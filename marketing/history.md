@@ -2,7 +2,7 @@
 title: Marketing History
 description: Links to past Mathesar publicity
 published: true
-date: 2023-05-11T14:47:17.689Z
+date: 2023-07-19T23:04:32.656Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:15:08.244Z

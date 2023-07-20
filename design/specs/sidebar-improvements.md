@@ -2,7 +2,7 @@
 title: Sidebar Improvements Spec
 description: 
 published: true
-date: 2023-05-11T14:35:48.296Z
+date: 2023-07-19T23:23:37.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-17T20:57:44.123Z

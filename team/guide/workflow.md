@@ -2,7 +2,7 @@
 title: Mathesar Team Workflow
 description: Description of Mathesar's product development workflow
 published: true
-date: 2023-05-11T14:34:28.975Z
+date: 2023-07-19T23:39:09.497Z
 tags: 
 editor: markdown
 dateCreated: 2021-10-23T18:29:01.610Z

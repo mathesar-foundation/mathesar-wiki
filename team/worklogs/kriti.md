@@ -2,7 +2,7 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T19:02:49.152Z
+date: 2023-07-19T23:40:58.704Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z

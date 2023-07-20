@@ -2,7 +2,7 @@
 title: Project Ideas
 description: 
 published: true
-date: 2023-05-11T14:35:56.481Z
+date: 2023-07-19T23:16:35.432Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-18T19:32:54.047Z

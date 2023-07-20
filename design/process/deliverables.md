@@ -2,7 +2,7 @@
 title: Deliverables
 description: Documents created during the design process
 published: true
-date: 2023-05-11T14:30:46.798Z
+date: 2023-07-19T23:17:38.914Z
 tags: design
 editor: markdown
 dateCreated: 2021-05-12T17:25:39.739Z

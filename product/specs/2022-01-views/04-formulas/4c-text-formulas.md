@@ -2,7 +2,7 @@
 title: (c) Text Formulas
 description: 
 published: true
-date: 2023-05-11T14:38:58.502Z
+date: 2023-07-19T23:47:42.771Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-24T00:56:57.446Z

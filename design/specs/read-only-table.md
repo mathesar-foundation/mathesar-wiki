@@ -2,7 +2,7 @@
 title: Read Only Table Spec
 description: 
 published: true
-date: 2023-05-11T14:31:59.389Z
+date: 2023-07-19T23:22:50.909Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:12:15.231Z

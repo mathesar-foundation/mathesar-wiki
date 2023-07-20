@@ -2,7 +2,7 @@
 title: Data Type Options
 description: 
 published: true
-date: 2023-05-11T14:42:19.820Z
+date: 2023-07-19T23:19:51.198Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-12T21:08:08.137Z

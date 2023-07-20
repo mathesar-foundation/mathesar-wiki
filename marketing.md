@@ -2,7 +2,7 @@
 title: Marketing
 description: Resources and notes for Mathesar developers
 published: true
-date: 2023-05-11T14:47:03.352Z
+date: 2023-07-19T23:00:10.912Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-10T17:03:23.576Z

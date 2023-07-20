@@ -2,7 +2,7 @@
 title: Design Principles
 description: Design principles for Mathesar
 published: true
-date: 2023-05-11T14:31:20.555Z
+date: 2023-07-19T23:01:24.472Z
 tags: 
 editor: markdown
 dateCreated: 2021-06-02T10:16:53.572Z
