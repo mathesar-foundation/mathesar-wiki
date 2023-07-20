@@ -2,7 +2,7 @@
 title: Installation Improvements Project - 0.1.3
 description: 
 published: true
-date: 2023-07-20T01:55:55.772Z
+date: 2023-07-20T01:58:10.849Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:47.673Z
@@ -134,7 +134,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 ## References
 
 ### Current steps
-![mermaid-diagram-2023-07-14-171331.png](/assets/mermaid-diagram-2023-07-14-171331.png)
+![current_install_flow_0.1.3.png](/assets/current_install_flow_0.1.3.png)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
@@ -338,6 +338,6 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     
 ### Overview diagram
- This diagram gives a overview of current steps(problems), solutions, steps after this cycle(outcome) along with information on how the solutions affect the current steps and the outcome.
+ This diagram gives a overview of current steps (problems), solutions, steps after this cycle (outcome) along with information on how the solutions affect the current steps and the outcome.
 
 ![mathesar_installation_flow(2023-07-10).drawio.svg](/assets/mathesar_installation_flow(2023-07-10).drawio.svg)
