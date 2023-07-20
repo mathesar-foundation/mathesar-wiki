@@ -16,6 +16,10 @@ dateCreated: 2023-07-07T00:00:00.000Z
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
+### Soon
+
+- Review [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/pull/3077)
+
 ### Backlog
 
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar-wiki/pull/93)
@@ -23,6 +27,12 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-20 Thursday
+
+- Chat about wiki sync problems
+- Meet with Brent and Aritra about summarization functions
+- Continue working on [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
 ## 2023-07-19 Wednesday
 
