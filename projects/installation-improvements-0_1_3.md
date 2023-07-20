@@ -134,7 +134,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 ## References
 
 ### Current steps
-![current_install_flow_0.1.3.png](/assets/current_install_flow_0.1.3.png)
+![current_install_flow_0.1.3.png](/assets/projects/installation-improvements-0_1_3/current_install_flow_0.1.3.png)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
