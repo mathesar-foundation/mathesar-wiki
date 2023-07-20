@@ -15,6 +15,20 @@ dateCreated: 2023-07-07T16:40:32.972Z
 - Review external contributors PRs
 - Open PR for the Django superuser creation page 
 
+
+## 2023-07-29
+- Review of Varsha's PR
+- Doing some minor touches to the superuser creation PR
+
+
+## 2023-07-29
+
+- Attend Team meeting
+- Confirm the Installation Improvement 0.1.3 timeline with helpers and reviewers
+- Reply to Pavish feedback on the Installation Improvement project
+- Make changes to the Installation Improvement project page
+- Sync with kriti
+
 ## 2023-07-18
 
 - Contacted helpers for the Installation Improvement 0.1.3 project to get their confirmation
