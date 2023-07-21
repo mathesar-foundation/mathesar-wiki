@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-21T10:03:54.099Z
+date: 2023-07-21T10:11:18.241Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -68,10 +68,12 @@ This option will however, require more time both for planning and implementation
 ### Backend
 There is no new data type for arrays; the SA `Array` type, which was previously supported for aggregation transformations, is the one currently supported and used to map an Array column in a table. 
 
-**CRUD operations**
+#### CRUD operations
 Sending a patch request to an array column correctly updates the records in a table.
+Reading is also working well.
+**Creating and deleting an array column calls have to be tested.**
 
-**Filters**
+#### Filters
 Some filters were already supported:
 - ArrayLengthEquals
 - ArrayLengthGreaterThan
@@ -79,10 +81,13 @@ Some filters were already supported:
 - ArrayLengthLessThan
 - ArrayLengthLessOrEqual
 - ArrayNotEmpty
+- ArrayContains
 
 But, some minor modifications have to be done. For computing the **length** of an array, in SQL we have to pass a `dimension` argument. To be able to have these filters working for 1 dimension then, we have to fix this argument to **1** in the meantime. 
 
+In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
 
+**The filters have still to be modified.**
 ### Frontend
 #### Creating an Array column
 Any data type can have its version in Array. Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
@@ -92,7 +97,7 @@ Any data type can have its version in Array. Therefore, it doesn't seem a good i
 A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
 ![ui_create_list_col.png](/product/list_datatype_project/ui_create_list_col.png)
 
-This is not implemented yet.
+**This is not implemented yet.**
 
 #### Rendering an array
 For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
@@ -114,13 +119,13 @@ request: {"125":"50000,200"}
 request: {"125": [50000,200]}
 ```
 
-This is because making both components work in sync is complex. There is probably a mishandling of the TextInput value, and so the Array factory ends up with a string instead of an Array object. More debugging is needed here.
+This is because making both components work in sync is complex. There is probably a mishandling of the TextInput value, and so the Array factory ends up with a string instead of an Array object. **More debugging is needed here.**
 
 Moreover, this approach is not considering the case of N-D arrays. In this case, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first version, it's not worth to wait until figuring out how to design a proper UI for this multidimensional structure.
 
 
 #### Deleting items
-It is currently not possible to delete elements from an array. Also, the UI/UX has to be sorted out for this functionality. 
+**It is currently not possible to delete elements from an array.** Also, the UI/UX has to be sorted out for this functionality. 
 - Will users be able to delete individual items? Consider the added complexity to this task if the array is large; it's very easy for the user to loose sight of the element they want to eliminate.
 - An easier and reasonable first approach is to let the user handle this through plain text edition. Also, we should think about the persona of the target users. It's more natural for a DB maintainer to just edit records through a form, using plain text.
 
