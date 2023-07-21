@@ -25,6 +25,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Complete
 
 ## 2023-07-21
+- **Product**
+	- Brief discussion with Ghislaine (on chat) about product strategy work
 - **Tools**
 	- Responded to Transifex rep – we're all set for the open source plan now.
 - **Community building**
