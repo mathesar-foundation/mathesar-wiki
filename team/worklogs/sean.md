@@ -29,11 +29,14 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
-## 2023-07-20 Friday
+## 2023-07-21 Friday
 
 - Respond to Ghislaine's ticket [Change in Behaviour of Sorting, Filtering, Grouping and Copy-Paste for Linked Records](https://github.com/centerofci/mathesar/issues/3080)
     - Create ticket: [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085)
     - Create ticket: [Behavior when sorting FK columns may be confusing to users](https://github.com/centerofci/mathesar/issues/3084)
+- Send weekly project update emails for frontend fixes project and my work within the backend fixes project
+- Team meeting
+- Continued work on optional inference, pushing some more commits to my [draft PR](https://github.com/centerofci/mathesar/pull/3050)
 
 ## 2023-07-20 Thursday
 
