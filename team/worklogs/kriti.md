@@ -11,8 +11,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Working on
 - Organizing my priorities better
 - Product strategy outline
-- **Fundraising**
-	- How to Raise Money workshop session
 
 ## Backlog
 - Update script and slides for upcoming funder meeting
@@ -33,6 +31,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Attended community team event
 - **Comms**
 	- Caught up on GitHub, Matrix, email
+- **Fundraising**
+	- How to Raise Money workshop session
 
 ## 2023-07-20
 *Partial day, sick*
