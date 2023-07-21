@@ -9,32 +9,26 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Organizing my priorities better
 - Product strategy outline
+- Update script for upcoming funder meeting
 
 ## Backlog
-- Update script and slides for upcoming funder meeting
-- Analyze use cases once Ghislaine has more "raw data" in Mathesar
-- Set up CRM in Mathesar to track contacts
-	- Follow up with various people who've helped me over the last few months
-- Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
-- At some point, go through and organize GitHub issues and milestones
-- At some point, describe our team workflow on the wiki
+- Reorganize and document ongoing responsibilities better
+- Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
+- Ensure our team workflow is up to date on the wiki
+- Set up CRM in Mathesar to track contacts
+- Follow up with various people who've helped me over the last few months
 
 # Complete
 
 ## 2023-07-21
-- **Product**
-	- Brief discussion with Ghislaine (on chat) about product strategy work
-- **Tools**
-	- Responded to Transifex rep – we're all set for the open source plan now.
-- **Community building**
-	- Attended community team event
-- **Comms**
-	- Caught up on GitHub, Matrix, email
-- **Fundraising**
-	- How to Raise Money workshop session
+- Did a big internal reorganization of my work and priorities
+- Brief discussion with Ghislaine (on chat) about product strategy work
+- Responded to Transifex rep – we're all set for the open source plan now.
+- Attended community team event
+- Caught up on GitHub, Matrix, email
+- How to Raise Money workshop session
 
 ## 2023-07-20
 *Partial day, sick*
