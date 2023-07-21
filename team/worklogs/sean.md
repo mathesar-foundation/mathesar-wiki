@@ -19,6 +19,7 @@ dateCreated: 2023-07-07T18:46:25.644Z
 ### Soon
 
 - Review [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/pull/3077)
+- [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085)
 
 ### Backlog
 
@@ -27,6 +28,12 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-20 Friday
+
+- Respond to Ghislaine's ticket [Change in Behaviour of Sorting, Filtering, Grouping and Copy-Paste for Linked Records](https://github.com/centerofci/mathesar/issues/3080)
+    - Create ticket: [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085)
+    - Create ticket: [Behavior when sorting FK columns may be confusing to users](https://github.com/centerofci/mathesar/issues/3084)
 
 ## 2023-07-20 Thursday
 
