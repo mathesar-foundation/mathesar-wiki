@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-21T09:15:49.756Z
+date: 2023-07-21T09:54:31.104Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -63,7 +63,7 @@ It would give us more control if we develop a module that works directly with ps
 
 This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex.
 
-## Current state
+## Current state and considerations
 
 ### Backend
 There is no new data type for arrays; the SA `Array` type, which was previously supported for aggregation transformations, is the one currently supported and used to map an Array column in a table. 
@@ -80,9 +80,16 @@ Any data type can have its version in Array. Therefore, it doesn't seem a good i
 - There will be a lot of options listed.
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
-A cleaner approach suggested by Ghislaine is to have a separate menu for the Array or List type.
+A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
+![ui_create_list_col.png](/product/list_datatype_project/ui_create_list_col.png)
 
-This feature is not implemented.
+This is not implemented yet.
+
+#### Rendering an array
+For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
+
+The `ArrayCell` [component](https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/src/components/cell-fabric/data-types/components/array/ArrayCell.svelte) receives a list object and renders a pill per each value. Currently, it is not handling any length or dimensions property. This is convenient as, for an Array column, we can have any number of elements and dimensions per record. 
+
 
 #### Editing arrays in cells
 Array columns are read-only, and 1-D arrays are rendered with pills (one item in one pill). 
@@ -98,9 +105,9 @@ request: {"125":"50000,200"}
 request: {"125": [50000,200]}
 ```
 
-This is because making both components work in sync is complex. There is probably a mishandling of the TextInput value, and so the Array factory ends up with a string instead of an Array object. This has to be debugged.
+This is because making both components work in sync is complex. There is probably a mishandling of the TextInput value, and so the Array factory ends up with a string instead of an Array object. More debugging is needed here.
 
-Moreover, this approach is not considering the case of N-D arrays. In this case, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first step, it's not worth the effort to figure out how to design a proper UI for this multidimensional structure.
+Moreover, this approach is not considering the case of N-D arrays. In this case, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first version, it's not worth to wait until figuring out how to design a proper UI for this multidimensional structure.
 
 
 #### Deleting items
@@ -108,12 +115,13 @@ It is currently not possible to delete elements from an array. Also, the UI/UX h
 - Will users be able to delete individual items? Consider the added complexity to this task if the array is large; it's very easy for the user to loose sight of the element they want to eliminate.
 - An easier and reasonable first approach is to let the user handle this through plain text edition. Also, we should think about the persona of the target users. It's more natural for a DB maintainer to just edit records through a form, using plain text.
 
-#### Sorting elements
+#### Moving elements
 A drag-and-drop feature does not seem to be very useful to offer.
 - Again, we should consider the complexity of this task for large lists.
 - For sorting, for end users used to calc documents, making use of a formula to achieve this is more intuitive and comfortable. 
+- I suggest to test the demand of this feature first before thinking on implementing it. One idea is through a poll.
 
-****
+
 ## Future work
 - Make a cell of an Array column work correctly, so to be able to update records in an Array column.
 - Support all the filering and sort operations at least in the backend.
@@ -124,3 +132,4 @@ A drag-and-drop feature does not seem to be very useful to offer.
 1. [Postgres documentation on Arrays](https://www.postgresql.org/docs/current/arrays.html)
 2. [TypeDecorators](https://docs.sqlalchemy.org/en/20/core/custom_types.html#sqlalchemy.types.TypeDecorator)
 3. [Custom adapter psycopg2](https://www.psycopg.org/docs/usage.html#infinite-dates-handling)
+4. [Ghislaine feedback on creating a List column](https://hackmd.io/@mathesar/rJ8Iyi7Un)
