@@ -30,8 +30,10 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ## 2023-07-20 Thursday
 
-- Chat about wiki sync problems
 - Meet with Brent and Aritra about summarization functions
+- Chat about wiki sync problems
+- Create PR with [1 hour quick stab at migration to mkdocs](https://github.com/centerofci/mathesar-wiki/pull/99)
+- Create issue [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
 - Continue working on [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
 ## 2023-07-19 Wednesday
