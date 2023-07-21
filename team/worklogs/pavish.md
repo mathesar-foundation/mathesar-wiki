@@ -11,6 +11,12 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ## Actively working on
 * Get [Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) ready
 
+## 2023-07-20
+* Reviewed [Auto-focus input when editing number/money cells](https://github.com/centerofci/mathesar/pull/2975)
+* Reviewed [Improve cell focus behavior](https://github.com/centerofci/mathesar/pull/2989)
+* Got end-to-end flow working for viewing shared tables
+* Comms and discussions
+
 ## 2023-07-19
 * Reviewed installation improvements project and raised some questions.
 * Responded to barriers to adoption email
