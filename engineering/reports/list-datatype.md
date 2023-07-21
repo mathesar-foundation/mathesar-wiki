@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-20T22:42:11.016Z
+date: 2023-07-21T09:15:49.756Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -52,8 +52,16 @@ Another option was to implement the Array as a class that inherits from SA's Typ
 - Mathesar is currently trying to reduce its dependence on SQLAlchemy.
 - We need to support columns being written to in the database via other clients (i.e., where the enforcement won't happen). That dimension can't be reflected from the database.
 
-#### Custom module (middleware)
-It would give us more control if we develop a module that works directly with psycopg2 and fully handles the db-python mapping of arrays.
+Also while trying to integrate this class to the project, I faced difficulties such as:
+- Mapping between this and the results of Array aggregation operations. I managed to solve it by using the kwarg `_default_array_type` of the `arr_agg()` method of SA, and set as its value my TypeDecorator class.
+- Issues with casting that affected other functions, like `get_constraint_record_from_oid()`. This function is used to retrieve attnums of columns that have constraints, and outputs a list. After installing the new decorator, this function casted the array to text, breaking tests like the ones in `test_constraint_api.py`.
+
+The difficulty of introducing this decorator in the codebase and the type of changes required are indicative of the type of problems that could be found porting other pseudo data types.
+
+#### Custom adapter
+It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and viceversa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/centerofci/mathesar/issues/2962), [#2966](https://github.com/centerofci/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
+
+This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex.
 
 ## Current state
 
@@ -115,3 +123,4 @@ A drag-and-drop feature does not seem to be very useful to offer.
 ## References
 1. [Postgres documentation on Arrays](https://www.postgresql.org/docs/current/arrays.html)
 2. [TypeDecorators](https://docs.sqlalchemy.org/en/20/core/custom_types.html#sqlalchemy.types.TypeDecorator)
+3. [Custom adapter psycopg2](https://www.psycopg.org/docs/usage.html#infinite-dates-handling)
