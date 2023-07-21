@@ -9,11 +9,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Product strategy skeleton
+- Organizing my priorities better
+- Product strategy outline
+- **Fundraising**
+	- How to Raise Money workshop session
 
 ## Backlog
 - Update script and slides for upcoming funder meeting
-- Keep an eye on Transifex conversation
 - Analyze use cases once Ghislaine has more "raw data" in Mathesar
 - Set up CRM in Mathesar to track contacts
 	- Follow up with various people who've helped me over the last few months
@@ -23,6 +25,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - At some point, describe our team workflow on the wiki
 
 # Complete
+
+## 2023-07-21
+- **Tools**
+	- Responded to Transifex rep – we're all set for the open source plan now.
+- **Community building**
+	- Attended community team event
+- **Comms**
+	- Caught up on GitHub, Matrix, email
 
 ## 2023-07-20
 *Partial day, sick*
