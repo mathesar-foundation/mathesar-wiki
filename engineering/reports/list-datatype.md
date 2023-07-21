@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-21T09:54:31.104Z
+date: 2023-07-21T10:03:54.099Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -73,6 +73,15 @@ Sending a patch request to an array column correctly updates the records in a ta
 
 **Filters**
 Some filters were already supported:
+- ArrayLengthEquals
+- ArrayLengthGreaterThan
+- ArrayLengthGreaterOrEqual
+- ArrayLengthLessThan
+- ArrayLengthLessOrEqual
+- ArrayNotEmpty
+
+But, some minor modifications have to be done. For computing the **length** of an array, in SQL we have to pass a `dimension` argument. To be able to have these filters working for 1 dimension then, we have to fix this argument to **1** in the meantime. 
+
 
 ### Frontend
 #### Creating an Array column
