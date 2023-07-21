@@ -22,7 +22,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
-## 2023-07-21
+## 2023-07-21 (Fri)
 - Did a big internal reorganization of my work and priorities
 - Brief discussion with Ghislaine (on chat) about product strategy work
 - Responded to Transifex rep – we're all set for the open source plan now.
@@ -30,7 +30,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Caught up on GitHub, Matrix, email
 - How to Raise Money workshop session
 
-## 2023-07-20
+## 2023-07-20 (Thu)
 *Partial day, sick*
 
 - **Product**
@@ -46,7 +46,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Comms**
 	- Caught up with email, GitHub, Matrix inboxes
 
-## 2023-07-19
+## 2023-07-19 (Wed)
 - **Team management**
 	- Ran the weekly meeting
 	- Posted meeting notes on the wiki
@@ -74,7 +74,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Various discussions on Matrix
 	- Caught up on email and GitHub
 
-## 2023-07-18
+## 2023-07-18 (Tue)
 - **Project management**
 	- Reviewed and marked the following projects as approved:
 		- 2023-07 frontend fixes
@@ -98,7 +98,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
 	- 1:1 with Geoffrey to get advice on the upcoming meeting
 
-## 2023-07-17
+## 2023-07-17 (Mon)
 - **Management & administration**
 	- Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
 	- Followed up with Transifex support
@@ -113,7 +113,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Scheduled prep call with Geoffrey
 	- Scheduled practice call with Ian
 
-## 2023-07-14
+## 2023-07-14 (Fri)
 *Partial day, sick*
 
 - **Management & administration**
@@ -122,7 +122,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
   - How to Raise Money workshop session
 
-## 2023-07-13
+## 2023-07-13 (Thu)
 *Partial day, sick*
 
 - **Management & administration**
@@ -145,7 +145,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
     - Installation improvements
   - Product strategy project check in with Ghislaine
   
-## 2023-07-12
+## 2023-07-12 (Wed)
 - **Management & administration**
   - Caught up on email, GitHub, Matrix
   - Re-organized [projects](/en/projects) and [responsibilities](/en/team/responsibilities) pages.
@@ -156,7 +156,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Other**
 	- External meeting for networking/advice + pre-prep
 
-## 2023-07-11
+## 2023-07-11 (Tue)
 - **Management & administration**
   - Caught up on email
   - Reviewed worklogs
@@ -169,10 +169,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
   - 1:1 with Geoffrey
 
-## 2023-07-10
+## 2023-07-10 (Mon)
 *Day off.*
 
-## 2023-07-07
+## 2023-07-07 (Fri)
 - **Management & administration**
   - Caught up with email, Matrix, and GitHub (various responses and follow ups)
 - **Product**
@@ -186,7 +186,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Attended core team event
   - Nominated a couple of people for a GSoC-related leadership program
 
-## 2023-07-06
+## 2023-07-06 (Thu)
 - **Management & administration**
   - Caught up with email and GitHub
   - Prepped for and ran the team planning meeting
