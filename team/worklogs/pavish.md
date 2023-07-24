@@ -11,6 +11,14 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ## Actively working on
 * Get [Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) ready
 
+
+# 2023-07-24
+* Started implementing a workaround for seperating app context of shared routes and normal authenticated routes on the frontend
+
+# 2023-07-21
+* Pondered on how to separate context on frontend for shared routes and normal authenticated routes
+* Community Team event
+
 ## 2023-07-20
 * Reviewed [Auto-focus input when editing number/money cells](https://github.com/centerofci/mathesar/pull/2975)
 * Reviewed [Improve cell focus behavior](https://github.com/centerofci/mathesar/pull/2989)
