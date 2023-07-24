@@ -12,14 +12,10 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Active
 
+- Review [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
-
-### Soon
-
-- Review [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/pull/3077)
-- [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085)
 
 ### Backlog
 
@@ -28,6 +24,14 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-24 Monday
+
+- Open ticket: [Discussion about active cell height design and regression](https://github.com/centerofci/mathesar/issues/3091)
+- Review [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/pull/3077/), pushing some additional commits and merging
+- Begin [discussion](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/45M2ZxoN-Qg) about i18n project workflow
+- Open PR to [Copy formatted cell values to clipboard instead of raw values](https://github.com/centerofci/mathesar/pull/3094)
+- A small amount of work on optional inference
 
 ## 2023-07-21 Friday
 
