@@ -22,6 +22,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-24 (Mon)
+- Caught up on GitHub / email / Matrix correspondence
+- Product strategy discussion and next steps call with Ghislaine
+
 ## 2023-07-21 (Fri)
 - Did a big internal reorganization of my work and priorities
 - Brief discussion with Ghislaine (on chat) about product strategy work
