@@ -2,13 +2,11 @@
 title: 2023-05-10 Team meeting
 description: 
 published: true
-date: 2023-05-10T00:00:00.000Z
+date: 2023-07-19T23:34:20.234Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-10T00:00:00.000Z
+dateCreated: 2023-05-11T16:33:43.328Z
 ---
-
-
 
 ## GSoC proposal phase retrospective
 

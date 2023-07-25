@@ -2,7 +2,7 @@
 title: Formulas Research
 description: 
 published: true
-date: 2023-05-30T18:30:57.997Z
+date: 2023-07-19T23:11:22.494Z
 tags: 
 editor: markdown
 dateCreated: 2023-05-23T17:13:54.841Z

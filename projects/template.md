@@ -2,7 +2,7 @@
 title: Project Template
 description: 
 published: true
-date: 2023-07-18T18:18:03.392Z
+date: 2023-07-20T15:07:52.165Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T16:52:17.902Z

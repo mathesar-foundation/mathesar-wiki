@@ -2,7 +2,7 @@
 title: 2023-07 Frontend Fixes
 description: 
 published: true
-date: 2023-07-18T17:48:07.607Z
+date: 2023-07-19T23:10:55.257Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-10T13:31:46.556Z
@@ -39,14 +39,13 @@ This project focuses on the cell selection functionality. It starts by addressin
 (none)
 
 ## Resources
-- [Introduction thread on dev mailing list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/lUajMP3nxxY/m/kwi8_G2nAAAJ)
-- [Project approval discussion on dev mailing list](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/5FCrWHQDAAAJ)
+
+Email threads:
+
+- [project intro](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/lUajMP3nxxY/m/kwi8_G2nAAAJ)
+- [project approval](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/Iq1w4lyvAAAJ)
+- [weekly updates](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/GJIzUwk3Zs8)
 
 ## Timeline
 
 To fit within the cycle
-
-## Email threads
-
-- [project approval](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/bfGBAIN0M6Y/m/Iq1w4lyvAAAJ)
-- [update 2023-07-14](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/GJIzUwk3Zs8/m/2C8TUaI6AAAJ)

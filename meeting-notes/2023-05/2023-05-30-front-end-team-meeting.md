@@ -2,12 +2,11 @@
 title: 2023-05-30 Front End Team meeting
 description: 
 published: true
-date: 2023-05-30T00:00:00.000Z
+date: 2023-07-19T23:34:28.998Z
 tags: 
 editor: markdown
-dateCreated: 2023-05-30T00:00:00.000Z
+dateCreated: 2023-05-30T16:46:34.205Z
 ---
-
 
 ## At a high level, what should we focus on right now?
 

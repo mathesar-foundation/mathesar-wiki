@@ -2,7 +2,7 @@
 title: Break Columns out to New Table
 description: 
 published: true
-date: 2023-05-11T14:37:22.759Z
+date: 2023-07-19T23:42:18.655Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:55:59.574Z

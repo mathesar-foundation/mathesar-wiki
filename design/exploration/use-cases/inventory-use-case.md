@@ -2,7 +2,7 @@
 title: Inventory Use Case
 description: 
 published: true
-date: 2023-05-11T14:29:35.277Z
+date: 2023-07-19T23:46:04.653Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-04T18:19:10.451Z

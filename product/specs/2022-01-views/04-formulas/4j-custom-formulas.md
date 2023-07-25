@@ -2,7 +2,7 @@
 title: (j) Custom Formulas
 description: 
 published: true
-date: 2023-05-11T14:39:31.880Z
+date: 2023-07-19T23:48:40.672Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-02T00:30:44.664Z

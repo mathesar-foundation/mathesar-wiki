@@ -2,7 +2,7 @@
 title: setup_in_windows
 description: 
 published: true
-date: 2023-05-11T14:40:46.144Z
+date: 2023-07-19T23:01:15.010Z
 tags: 
 editor: markdown
 dateCreated: 2022-06-03T06:58:30.342Z

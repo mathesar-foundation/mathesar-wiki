@@ -2,7 +2,7 @@
 title: Feature Ideas
 description: Ideas for features that aren't in our roadmap yet.
 published: true
-date: 2023-05-11T14:28:54.457Z
+date: 2023-07-19T23:09:33.521Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T19:47:31.098Z

@@ -1,13 +1,12 @@
 ---
 title: Location Data type
-description: Gsoc project idea 
+description: Gsoc project idea
 published: true
-date: 2023-05-11T14:45:33.018Z
+date: 2023-07-19T23:43:59.676Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-06T17:35:00.632Z
 ---
-
 
 ## Classification
 - **Difficulty**: High

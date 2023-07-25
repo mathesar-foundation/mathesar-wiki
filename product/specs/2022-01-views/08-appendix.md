@@ -2,7 +2,7 @@
 title: 08. Appendix
 description: 
 published: true
-date: 2023-05-11T14:38:41.123Z
+date: 2023-07-19T23:47:16.949Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-20T18:31:12.526Z

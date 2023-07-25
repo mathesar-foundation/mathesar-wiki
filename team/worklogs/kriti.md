@@ -2,30 +2,55 @@
 title: Kriti's work log
 description: 
 published: true
-date: 2023-07-18T19:02:49.152Z
+date: 2023-07-19T23:40:58.704Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Product strategy skeleton
+- Product strategy outline
+- Update script for upcoming funder meeting
 
 ## Backlog
-- Update script and slides for upcoming funder meeting
-- Approve the installation project once Mukesh has made updates and Pavish has confirmed approval
-- Keep an eye on Transifex conversation
-- Analyze use cases once Ghislaine has more "raw data" in Mathesar
-- Set up CRM in Mathesar to track contacts
-	- Follow up with various people who've helped me over the last few months
-- Figure out current status and next steps for various ongoing responsibilities
 - Review Sean's Querydown document
-- At some point, go through and organize GitHub issues and milestones
-- At some point, describe our team workflow on the wiki
+- Reorganize and document ongoing responsibilities better
+- Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
+- Ensure our team workflow is up to date on the wiki
+- Set up CRM in Mathesar to track contacts
+- Follow up with various people who've helped me over the last few months
 
 # Complete
 
-## 2023-07-19
+## 2023-07-24 (Mon)
+- Caught up on GitHub / email / Matrix correspondence
+- Product strategy discussion and next steps call with Ghislaine
+
+## 2023-07-21 (Fri)
+- Did a big internal reorganization of my work and priorities
+- Brief discussion with Ghislaine (on chat) about product strategy work
+- Responded to Transifex rep – we're all set for the open source plan now.
+- Attended community team event
+- Caught up on GitHub, Matrix, email
+- How to Raise Money workshop session
+
+## 2023-07-20 (Thu)
+*Partial day, sick*
+
+- **Product**
+	- Call with Ghislaine: product-strategy check in & next steps
+-  **Project management**
+	- Marked installation improvements project as approved
+	- Responded to Aritra's project thread.
+- **Release management**
+	- Followed up on a few GitHub issues
+- **Tools**
+	- Spent some time trying to debug wiki syncing issues
+	- Did some manual fixes, sent an email to the team with next steps
+- **Comms**
+	- Caught up with email, GitHub, Matrix inboxes
+
+## 2023-07-19 (Wed)
 - **Team management**
 	- Ran the weekly meeting
 	- Posted meeting notes on the wiki
@@ -35,6 +60,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 		- Next steps before scheduling an installation related meeting
 	- Followed up on Aritra's project idea
 	- Discussion about deploying internal server automatically
+- **Tools**
+	- Spent some time trying to debug wiki syncing issues
 - **Release management**
 	- Followed up on Rajat's thread with next steps to managing the release
 	- Responded to and followed up on a few new tickets created by users
@@ -51,7 +78,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Various discussions on Matrix
 	- Caught up on email and GitHub
 
-## 2023-07-18
+## 2023-07-18 (Tue)
 - **Project management**
 	- Reviewed and marked the following projects as approved:
 		- 2023-07 frontend fixes
@@ -75,7 +102,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
 	- 1:1 with Geoffrey to get advice on the upcoming meeting
 
-## 2023-07-17
+## 2023-07-17 (Mon)
 - **Management & administration**
 	- Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
 	- Followed up with Transifex support
@@ -90,7 +117,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Scheduled prep call with Geoffrey
 	- Scheduled practice call with Ian
 
-## 2023-07-14
+## 2023-07-14 (Fri)
 *Partial day, sick*
 
 - **Management & administration**
@@ -99,7 +126,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
   - How to Raise Money workshop session
 
-## 2023-07-13
+## 2023-07-13 (Thu)
 *Partial day, sick*
 
 - **Management & administration**
@@ -122,7 +149,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
     - Installation improvements
   - Product strategy project check in with Ghislaine
   
-## 2023-07-12
+## 2023-07-12 (Wed)
 - **Management & administration**
   - Caught up on email, GitHub, Matrix
   - Re-organized [projects](/en/projects) and [responsibilities](/en/team/responsibilities) pages.
@@ -133,7 +160,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Other**
 	- External meeting for networking/advice + pre-prep
 
-## 2023-07-11
+## 2023-07-11 (Tue)
 - **Management & administration**
   - Caught up on email
   - Reviewed worklogs
@@ -146,10 +173,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Fundraising**
   - 1:1 with Geoffrey
 
-## 2023-07-10
+## 2023-07-10 (Mon)
 *Day off.*
 
-## 2023-07-07
+## 2023-07-07 (Fri)
 - **Management & administration**
   - Caught up with email, Matrix, and GitHub (various responses and follow ups)
 - **Product**
@@ -163,7 +190,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
   - Attended core team event
   - Nominated a couple of people for a GSoC-related leadership program
 
-## 2023-07-06
+## 2023-07-06 (Thu)
 - **Management & administration**
   - Caught up with email and GitHub
   - Prepped for and ran the team planning meeting

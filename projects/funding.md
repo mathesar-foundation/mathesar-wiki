@@ -2,7 +2,7 @@
 title: Raise additional funding for Mathesar
 description: 
 published: true
-date: 2023-07-12T21:19:39.252Z
+date: 2023-07-19T23:11:40.007Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:39.192Z

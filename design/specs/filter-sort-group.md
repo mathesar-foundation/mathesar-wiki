@@ -2,7 +2,7 @@
 title: Filter, Sort, and Group Tables
 description: 
 published: true
-date: 2023-05-11T14:31:41.769Z
+date: 2023-07-19T23:20:44.998Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-01T21:03:13.372Z

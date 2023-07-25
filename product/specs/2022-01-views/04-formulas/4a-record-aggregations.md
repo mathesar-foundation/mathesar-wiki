@@ -2,7 +2,7 @@
 title: (a) Record Aggregation Formulas
 description: 
 published: true
-date: 2023-05-11T14:38:45.372Z
+date: 2023-07-19T23:47:30.212Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-22T00:15:01.142Z

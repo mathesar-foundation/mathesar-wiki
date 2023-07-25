@@ -2,7 +2,7 @@
 title: Core team meeting 2023-03-15
 description: 
 published: true
-date: 2023-05-11T14:47:37.977Z
+date: 2023-07-19T23:33:26.208Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T16:30:56.637Z

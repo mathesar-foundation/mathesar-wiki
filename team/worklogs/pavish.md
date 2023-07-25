@@ -2,7 +2,7 @@
 title: Pavish's work log
 description: 
 published: true
-date: 2023-07-20T11:33:19.819Z
+date: 2023-07-20T11:33:23.341Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T17:01:46.847Z
@@ -10,6 +10,20 @@ dateCreated: 2023-07-07T17:01:46.847Z
 
 ## Actively working on
 * Get [Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) ready
+
+
+# 2023-07-24
+* Started implementing a workaround for seperating app context of shared routes and normal authenticated routes on the frontend
+
+# 2023-07-21
+* Pondered on how to separate context on frontend for shared routes and normal authenticated routes
+* Community Team event
+
+## 2023-07-20
+* Reviewed [Auto-focus input when editing number/money cells](https://github.com/centerofci/mathesar/pull/2975)
+* Reviewed [Improve cell focus behavior](https://github.com/centerofci/mathesar/pull/2989)
+* Got end-to-end flow working for viewing shared tables
+* Comms and discussions
 
 ## 2023-07-19
 * Reviewed installation improvements project and raised some questions.

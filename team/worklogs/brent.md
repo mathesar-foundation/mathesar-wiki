@@ -2,34 +2,68 @@
 title: Brent's work log
 description: 
 published: true
-date: 2023-07-07T01:20:50.913Z
+date: 2023-07-20T02:44:18.336Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-07T01:20:50.913Z
+dateCreated: 2023-07-07T01:56:13.743Z
 ---
 
 ## Actively working on
 
 ### Meetings
-- 1:1 with Anish
-- Summarization project meeting
-
-### Github misc.
-- Create issue for automating internal.mathesar.org deployment.
+- possible sync with Maria about her presentation; at her discretion
 
 ### Infrastructure
 - Figure out where the steps to refresh the demo instances were, and make their location more obvious.
 
 ### RSQLA1 project work:
-- Work on column alteration DDL functions
-- Catch up with Anish about next steps.
+- Finish up column alteration DDL PR
 
 ### Summarization project work
 - Participate and keep an eye on the progress in the [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/oLPQWtxYXg8/m/YCd_wVm8BQAJ) about preproc functions.
 
 ### List project work
+- Read through Maria's report for the list project, provide feedback
 - Async with Maria about report write-up
 
+
+## 2023-07-24
+
+### Github admin
+- cleared out GH inbox to make it useful again
+
+### PR reviews
+- [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006) (merged)
+- [Add SQL files to the pytest workflow #3082](https://github.com/centerofci/mathesar/pull/3082) (merged)
+
+
+## 2023-07-21
+
+### Meetings
+- 1:1 with Mukesh
+
+### RSQLA1 project work:
+- Getting python layer for column alteration DDL organized, tested.
+
+### List project work
+- Caught up with Maria about report, and her plans for presenting in team meeting next week
+
+### Summarization work
+- Participated in the [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/oLPQWtxYXg8/m/YCd_wVm8BQAJ) about preproc functions.
+
+
+## 2023-07-20
+
+### Meetings
+- 1:1 with Anish
+- Summarization project meeting
+
+### Infrastructure
+- Create issue for automating internal.mathesar.org deployment.
+
+### Summarization project
+- Meeting about summarizations; will proceed with a couple of list aggregations
+- Discussed how to proceed with Kriti async.
 
 ## 2023-07-19
 
