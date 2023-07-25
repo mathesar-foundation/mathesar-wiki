@@ -9,7 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Continue work on product strategy
 - Update script for upcoming funder meeting
 
 ## Backlog
@@ -24,13 +23,16 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 ## 2023-07-25 (Tue)
 - **Comms**
-  - Caught up on GitHub / email / Matrix correspondence
+	- Caught up on GitHub / email / Matrix correspondence
 - **Team management**
-  - 1:1 with Rajat
-  - Quick Matrix checkins with team members
+	- 1:1 with Rajat
+	- Quick Matrix checkins with team members
+	- Sent out email for tomorrow's meeting
 - **Product**
-  - Followed up with Mukesh about installation work
-  - Call with Mukesh where we worked through the installation outline and plan for the next meeting
+	- Did a bunch more work on product strategy
+	- Followed up with Mukesh about installation work
+	- Call with Mukesh where we worked through the installation outline and plan for the next meeting
+	- Call with Ghislaine to go over product strategy work and discuss tomorrow's call
 
 ## 2023-07-24 (Mon)
 - **Comms**
