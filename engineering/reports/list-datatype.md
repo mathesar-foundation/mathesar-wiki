@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T20:22:17.288Z
+date: 2023-07-25T20:52:54.216Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
