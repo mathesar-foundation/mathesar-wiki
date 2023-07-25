@@ -10,18 +10,27 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## Actively working on
 
+- Check with Ghislaine on the design work for superuser create page
+- Write an outline of the ideal Installation Documentation
 - Review the PR's opened by Varsha
 - Review PR's opened by Dominkyas
 - Review external contributors PRs
 - Open PR for the Django superuser creation page 
 
 
-## 2023-07-29
+## 2023-07-24
+- Sync with Varsha
+- Reviewed, modified and merged some of Dom's and Varsha's PR
+- Read through various resources to come up with ideas for the ideal Installation Documentation draft
+
+
+## 2023-07-20
 - Review of Varsha's PR
 - Doing some minor touches to the superuser creation PR
+- Sync with Brent
+- Team event
 
-
-## 2023-07-29
+## 2023-07-19
 
 - Attend Team meeting
 - Confirm the Installation Improvement 0.1.3 timeline with helpers and reviewers
