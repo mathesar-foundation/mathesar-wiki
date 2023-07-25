@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T18:00:16.309Z
+date: 2023-07-25T20:10:17.292Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -70,6 +70,43 @@ The difficulty of introducing this decorator in the codebase and the type of cha
 It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and viceversa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/centerofci/mathesar/issues/2962), [#2966](https://github.com/centerofci/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
 
 This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex.
+
+### Supporting n-dimensional arrays
+Given that none of the ideas we had to attempt restricting arrays to 1 dimension were sucessful, we now move to consider supporting multidimensional ones.
+
+**Filters**
+As reviewed earlier, opearations over n-dimensional arrays become confusing.
+- Length: it needs to know over what dimension to count. 
+```
+a = ARRAY[1, 1, 3] 
+# a has length=3 and dimensions=1   
+b = ARRAY[[1, 1, 1], [2, 3, 1]] 
+# b has 2 dimensions
+# for dimension 1, length=2
+# for dimension 2, length=3
+```
+- Contains: Postgres will internally store an array as a 1-dimensional one [5], so when comparing if a multidimensional array is contained in another one, it can behave weird.
+```
+SELECT array[[442,2],[443,2]] @> array[443,2] -- returns True
+SELECT array[[442,2],[443,2]] @> array[2,443] -- returns True too
+```
+So, it's like, before comparing, Postgres engine unnests the arrays involved in the comparison, and it will check if each value on the right-hand side array is present in the array to the left.
+
+- Sort: there can be different criteria for sorting records of an Array column, and it becomes less intuitive/clear to compare and sort n-dimensional arrays. In addition, each possible scalar type has its own criteria for sorting. 
+
+**Summarization**
+Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array[6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
+```
+| name  | emails                                   |
+----------------------------------------------------
+| alice | {'alix@gmail.com'}                       |
+| alice | {'alice@hotmail.com', 'bbb@outlook.com'} |
+
+# grouping by name here will  have to aggregate as:
+{{'alix@gmail.com'},  {'alice@hotmail.com', 'bbb@outlook.com'}} 
+
+# but this is not possible in Postgres
+```
 
 ## Current state and considerations
 
@@ -155,3 +192,5 @@ A drag-and-drop feature does not seem to be very useful to offer.
 2. [TypeDecorators](https://docs.sqlalchemy.org/en/20/core/custom_types.html#sqlalchemy.types.TypeDecorator)
 3. [Custom adapter psycopg2](https://www.psycopg.org/docs/usage.html#infinite-dates-handling)
 4. [Ghislaine feedback on creating a List column](https://hackmd.io/@mathesar/rJ8Iyi7Un)
+5. [Contains multidimensional arrays](https://dba.stackexchange.com/questions/192840/how-to-check-multidimensional-array-of-arrays-contains-array)
+6. [SQL Array type in SQLAlchemy](https://docs.sqlalchemy.org/en/20/core/type_basics.html#sqlalchemy.types.ARRAY)
