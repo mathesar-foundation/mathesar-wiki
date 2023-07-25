@@ -10,13 +10,19 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## Actively working on
 
-- Check with Ghislaine on the design work for superuser create page
 - Write an outline of the ideal Installation Documentation
-- Review the PR's opened by Varsha
-- Review PR's opened by Dominkyas
-- Review external contributors PRs
-- Open PR for the Django superuser creation page 
 
+## Backlog
+- Review the PR's opened by Varsha
+- Review external contributors PRs
+
+
+## 2023-07-25
+- Review [Support unknown types (backend)](https://github.com/centerofci/mathesar/pull/3040#top)
+- Review some of Varsha's PR
+- Split tasks in the [Installation Improvement Project](https://github.com/centerofci/mathesar/issues/3058 ) into feature complete and feature incomplete tasks
+- Check with Ghislaine on the design work for superuser create page
+- Open PR for the Django superuser creation page 
 
 ## 2023-07-24
 - Sync with Varsha
