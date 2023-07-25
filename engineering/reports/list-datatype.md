@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T07:19:20.441Z
+date: 2023-07-25T07:23:12.644Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -22,6 +22,20 @@ c = [[[1, 1, 1]]] # c has dimensions=3
 ```
 If you've worked with Python's numpy, you can think of dimensions as the number of available axis. Note that the notion of length becomes blurry if we're not in 1-D; should we count the number of items at the inner dimension? SQL works with the `array_length` function, which needs to be passed the `dimension` as an argument, so it returns the number of items at that dimension.
 
+### SQL Alchemy (SA) support
+This library supports the handling of arrays, and it implements it as a data type class with an `item_type` attribute that specifies the true data type in the DB. 
+The Array class also uses an optional `dimensions` argument, with a default value of 1. This does not actually reflects into an ARRAY column enforced to be 1-dimensional in the DB; it's just a hack of the library to traverse the arrays more efficiently when converting them to Python's lists. 
+> **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays. 
+{.is-warning}
+
+ 
+## Methodology
+### Restricting the dimensions to one
+Our initial goal was to support 1-D arrays. For this, we assumed the following:
+- Having access to a length and dimensions properties
+- An ARRAY[...] column contains records with a maximum number of dimensions and length
+However, this was not true.
+
 ### Arrays in PostgreSQL
 The implementation of Arrays in PostgreSQL is tricky, and for our project, it brought a big overhead. From [1]: *"... the current implementation ignores any supplied array size limits, i.e., the behavior is the same as for arrays of unspecified length. The current implementation does not enforce the declared number of dimensions either. "* 
 
@@ -32,15 +46,6 @@ Problems:
 4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions. 
 4. In general, now Mathesar has to be prepared to support N-dimensional arrays.
 
-### SQL Alchemy (SA) support
-This library supports the handling of arrays, and it implements it as a data type class with an `item_type` attribute that specifies the true data type in the DB. 
-The Array class also uses an optional `dimensions` argument, with a default value of 1. This does not actually reflects into an ARRAY column enforced to be 1-dimensional in the DB; it's just a hack of the library to traverse the arrays more efficiently when converting them to Python's lists. 
-> **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays. 
-{.is-warning}
-
- 
-## Methodology
-### Restricting the dimensions to one
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
 - As any data type can have its Array version, this implies that Mathesar will have to create a Domain column for every possible scalar type. 
