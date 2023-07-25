@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T20:15:15.796Z
+date: 2023-07-25T20:22:17.288Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -108,6 +108,9 @@ Grouping records of a given column is currently supported. In the backend, the S
 # but this is not possible in Postgres
 ```
 In general, grouping arrays can lead to a mismatch in the dimensions of the elements within an array.
+
+**Rendering format**
+Currently, each data type in Mathesar has its own UI component. A list also has its own styling, which is currently rendering pills in the data explorer. What should we display then, for a list of dates? Including a date picker inside a pill does not sound user-friendly. Now, consider a multidimensional array of dates. What's the best way of rendering it? Without overloading the frontend and overwhelming the user who wants to edit one item/element.  
 
 ## Current state and considerations
 
