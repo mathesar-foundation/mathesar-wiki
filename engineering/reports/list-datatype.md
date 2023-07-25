@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T07:23:12.644Z
+date: 2023-07-25T07:25:00.881Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -34,6 +34,7 @@ The Array class also uses an optional `dimensions` argument, with a default valu
 Our initial goal was to support 1-D arrays. For this, we assumed the following:
 - Having access to a length and dimensions properties
 - An ARRAY[...] column contains records with a maximum number of dimensions and length
+
 However, this was not true.
 
 ### Arrays in PostgreSQL
@@ -44,7 +45,8 @@ Problems:
 2. Users can create ARRAY columns with N-dimensions back with Postgres, and Mathesar would have to figure out how to render them.
 3. Any display option that the Frontend usually handles per column would now need to be processed per cell.
 4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions. 
-4. In general, now Mathesar has to be prepared to support N-dimensional arrays.
+
+In general, now Mathesar has to be prepared to support N-dimensional arrays.
 
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
