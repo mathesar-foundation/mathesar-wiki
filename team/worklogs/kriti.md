@@ -9,7 +9,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Product strategy outline
+- Continue work on product strategy
 - Update script for upcoming funder meeting
 
 ## Backlog
@@ -22,9 +22,28 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-25 (Tue)
+- **Comms**
+  - Caught up on GitHub / email / Matrix correspondence
+- **Team management**
+  - 1:1 with Rajat
+  - Quick Matrix checkins with team members
+- **Product**
+  - Followed up with Mukesh about installation work
+  - Call with Mukesh where we worked through the installation outline and plan for the next meeting
+
 ## 2023-07-24 (Mon)
-- Caught up on GitHub / email / Matrix correspondence
-- Product strategy discussion and next steps call with Ghislaine
+- **Comms**
+	- Caught up on GitHub / email / Matrix correspondence
+	- Read project updates
+	- Read through worklogs and followed up with team members about out of date worklogs
+- **Product**
+	- Thought a bunch about product strategy
+	- Product strategy discussion and next steps call with Ghislaine
+	- Worked on product strategy draft
+- **Tooling**
+	- Followed up on 1Password Open Source program approval 
+	- Re-enabled accounts now that our team has more seats
 
 ## 2023-07-21 (Fri)
 - Did a big internal reorganization of my work and priorities
