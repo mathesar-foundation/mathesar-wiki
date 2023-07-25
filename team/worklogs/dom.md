@@ -1,5 +1,7 @@
 ## Active
 
+- Finish reviewing [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
+- Sync with Brent over [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
 - Do Anshuman's midterm evaluation
 - See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests PR) reviewed
 - Respond in [#3078](https://github.com/centerofci/mathesar/issues/3078) (dynamic defaults via function lists)
@@ -10,15 +12,23 @@
 ## Backlog
 
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
-- See [#3040](https://github.com/centerofci/mathesar/issues/3040) reviewed and merged
-  - Once that's done
-    - Edit [#2709](https://github.com/centerofci/mathesar/issues/2709), [#2959](https://github.com/centerofci/mathesar/issues/2959), [#3007](https://github.com/centerofci/mathesar/issues/3007) accordingly
-    - Create issue for displaying type
-- See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
 - Submit PR with test case for long identifiers in preexisting database
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-25
+
+- Review around half of [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
+- Review [#3092](https://github.com/centerofci/mathesar/issues/3092) (pavish's backend pr)
+- Created [#3095](https://github.com/centerofci/mathesar/issues/3095) (improve support for unknown types)
+- Update [#3007](https://github.com/centerofci/mathesar/issues/3007) (support for point type)
+- Update [#2959](https://github.com/centerofci/mathesar/issues/2959) (support for citext type)
+- Close as fixed [#2709](https://github.com/centerofci/mathesar/issues/2709) (unknown types breaking Mathesar bug report)
+- See [#3040](https://github.com/centerofci/mathesar/issues/3040) (rudimentary support for unknown types) reviewed and merged
+- Respond in [#3040](https://github.com/centerofci/mathesar/issues/3040)
+- See [#3025](https://github.com/centerofci/mathesar/issues/3025) reviewed and merged
+- Respond in Varsha's API endpoint uid email thread
 
 ### 2023-07-24
 
