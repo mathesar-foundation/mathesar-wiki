@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T20:14:53.979Z
+date: 2023-07-25T20:15:15.796Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -99,8 +99,8 @@ Grouping records of a given column is currently supported. In the backend, the S
 ```
 | name  | emails                                   |
 ----------------------------------------------------
-| alice | {"alix@gmail.com"}                       |
-| alice | {"alice@hotmail.com', "bbb@outlook.com"} |
+| alice | '{"alix@gmail.com"}'                       |
+| alice | '{"alice@hotmail.com', "bbb@outlook.com"}' |
 
 # grouping by name here will  have to aggregate as:
 '{{"alix@gmail.com"},  {"alice@hotmail.com', "bbb@outlook.com"}}'
