@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T07:25:00.881Z
+date: 2023-07-25T07:26:10.343Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -46,7 +46,7 @@ Problems:
 3. Any display option that the Frontend usually handles per column would now need to be processed per cell.
 4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions. 
 
-In general, now Mathesar has to be prepared to support N-dimensional arrays.
+In general, now Mathesar has to be prepared to support N-dimensional arrays. Compared to our initial goal, we had to change our planning.
 
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
