@@ -11,7 +11,6 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### Meetings
-- possible sync with Maria about her presentation; at her discretion
 
 ### Infrastructure
 - Figure out where the steps to refresh the demo instances were, and make their location more obvious.
@@ -19,11 +18,8 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ### RSQLA1 project work:
 - Finish up column alteration DDL PR
 
-### Summarization project work
-- Participate and keep an eye on the progress in the [email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/oLPQWtxYXg8/m/YCd_wVm8BQAJ) about preproc functions.
 
 ### List project work
-- Read through Maria's report for the list project, provide feedback
 - Async with Maria about report write-up
 
 
@@ -32,9 +28,16 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ### Github admin
 - cleared out GH inbox to make it useful again
 
+### RSQLA1 project work:
+- Discovered and fixed tricky bug in type string builder function.
+
 ### PR reviews
 - [Add Peak Month aggregation function. #3006](https://github.com/centerofci/mathesar/pull/3006) (merged)
 - [Add SQL files to the pytest workflow #3082](https://github.com/centerofci/mathesar/pull/3082) (merged)
+
+### List project work
+- Read through Maria's report for the list project, provide feedback
+- Asynced with Maria about report write-up and presentation
 
 
 ## 2023-07-21
