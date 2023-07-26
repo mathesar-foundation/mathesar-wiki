@@ -9,13 +9,22 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 ## Actively working on
-* Get [Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) ready
+* Get the initial PRs merged.
+  - [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
+	- [Shareable links backend - Models, APIs, bypass auth for table requests](https://github.com/centerofci/mathesar/pull/3092)
+* Implement query sharing
 
+## 2023-07-25
+* Pondered a bit on how to handle related entities in shared pages, mainly filtering linked records and the record selector
+* Discussions
 
-# 2023-07-24
-* Started implementing a workaround for seperating app context of shared routes and normal authenticated routes on the frontend
+## 2023-07-24
+* Started and completed implementing a workaround for seperating app context of shared routes and normal authenticated routes on the frontend
+* Split the [large Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) into two, and requested review for both
+	- [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
+	- [Shareable links backend - Models, APIs, bypass auth for table requests](https://github.com/centerofci/mathesar/pull/3092)
 
-# 2023-07-21
+## 2023-07-21
 * Pondered on how to separate context on frontend for shared routes and normal authenticated routes
 * Community Team event
 

@@ -8,6 +8,42 @@ editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
+## 2023-07-25
+
+- Translate the application when the user changes language from the profile page
+- Load translations file parallel to the FE code's first chunk
+- Repo admin tasks
+
+## 2023-07-24
+
+- Language selector on the profile page
+- Set up a translation management service.
+- i18n PR for initial review
+- Repo admin tasks
+
+## 2023-07-21
+
+- Let anon users choose language from un-auth pages
+- Create a system for exporting translations to the translations management service.
+- Repo admin tasks
+
+## 2023-07-20
+
+- Internationalize templates on the BE.
+- Let authorized users choose the preferred language from the profile page & save it in the DB
+- Repo admin tasks
+
+## 2023-07-19
+
+- Enabled i18n for remaining of the components inside the src/systems directory of the FE codebase
+- Enabling Django and DRF translations
+- Repo admin tasks
+
+## 2023-07-18
+
+- Enabled i18n for half of the components inside the src/systems directory of the FE codebase
+- Repo admin tasks
+
 ## 2023-07-17
 
 ### Completed

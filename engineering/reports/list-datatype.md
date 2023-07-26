@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T07:26:10.343Z
+date: 2023-07-26T14:58:00.721Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -11,7 +11,7 @@ dateCreated: 2023-07-18T19:34:24.849Z
 In this report we will talk about the scope and goals of the project:  List data type. Considerations and difficulties are also discussed, as well as the project's current state. Finally, a future work line is given.
 
 ## Introduction
-The `List` data type project is about adding support to the `Array` Postgres type in Mathesar. One important detail to highlight is that we were only going to consider the **1-dimensional case** of arrays, as this is the most common use case (and it was also going to save us some complexities that we're going to review below). The features originally proposed to be implemented are detailed in the [project's page](/en/projects/list-datatype).
+The `List` data type project is about adding support to the `Array` Postgres type in Mathesar. One important detail to highlight is that we were only going to consider the **1-dimensional case** of arrays, as this is the most common use case (and it was also going to save us dealing with some complexities that we're going to review below). The features originally proposed to be implemented are detailed in the [project's page](/en/projects/list-datatype).
 
 ### Preliminaries
 An `Array` is not a data type per se, but a data structure that holds values of a certain data type. It is not supported by all the SQL databases, but Postgres does. A common array is a structure characterized by having a length and dimension. E.g.
@@ -37,7 +37,7 @@ Our initial goal was to support 1-D arrays. For this, we assumed the following:
 
 However, this was not true.
 
-### Arrays in PostgreSQL
+**Arrays in PostgreSQL**
 The implementation of Arrays in PostgreSQL is tricky, and for our project, it brought a big overhead. From [1]: *"... the current implementation ignores any supplied array size limits, i.e., the behavior is the same as for arrays of unspecified length. The current implementation does not enforce the declared number of dimensions either. "* 
 
 Problems:
@@ -46,13 +46,14 @@ Problems:
 3. Any display option that the Frontend usually handles per column would now need to be processed per cell.
 4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions. 
 
-In general, now Mathesar has to be prepared to support N-dimensional arrays. Compared to our initial goal, we had to change our planning.
+In summary, we don't have control over any dimensions nor length properties, because they are not even considered in the Postgres implementation. Some ideas on how to implement the `Array` type are going to be discussed now.
 
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
-- As any data type can have its Array version, this implies that Mathesar will have to create a Domain column for every possible scalar type. 
+- As any data type can have its Array version, this implies that Mathesar will have to create a Domain for every possible scalar type. 
+- We would not have an Array type for any other scalar type installed on a user's DB (any custom type that Mathesar is not aware of). 
 - Other aspects tied to a data type, such as cast functions, will also be multiplied by this factor. 
-- This can be dangerous for backwards-compatibility in the future; we would have to support both a constrained array version and a possibly unconstrained one.
+- This can be dangerous for backwards-compatibility in the future; we would have to support both a constrained array version and an unconstrained one (for when Mathesar does give full support to n-dimensional arrays).
 
 #### Type decorator in SA
 Another option was to implement the Array as a class that inherits from SA's TypeDecorator [2]. The catch here is to access to the dimension's argument handled by SA, and in compiling time, making sure that we pass a value of 1. Again, this workaround also has some disadvantages:
@@ -70,18 +71,64 @@ It would give us more control if we develop a module that works directly with ps
 
 This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex.
 
+### Supporting n-dimensional arrays
+Given that none of the ideas we had to attempt restricting arrays to 1 dimension were sucessful, we now move to consider supporting multidimensional ones.
+
+**Filters**
+As reviewed earlier, opearations over n-dimensional arrays become confusing.
+- Length: it needs to know over what dimension to count. 
+```
+a = ARRAY[1, 1, 3] 
+# a has length=3 and dimensions=1   
+b = ARRAY[[1, 1, 1], [2, 3, 1]] 
+# b has 2 dimensions
+# for dimension 1, length=2
+# for dimension 2, length=3
+```
+- Contains: Postgres will internally store an array as a 1-dimensional one [5], so when comparing if a multidimensional array is contained in another one, it can behave weird.
+```
+SELECT array[[442,2],[443,2]] @> array[443,2] -- returns True
+SELECT array[[442,2],[443,2]] @> array[2,443] -- returns True too
+```
+So, it's like, before comparing, Postgres engine unnests the arrays involved in the comparison, and it will check if each value on the right-hand side array is present in the array to the left.
+
+- Sort: there can be different criteria for sorting records of an Array column, and it becomes less intuitive/clear to compare and sort n-dimensional arrays. In addition, each possible scalar type has its own criteria for sorting. 
+
+**Summarization**
+Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array [6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
+```
+| name  | emails                                     |
+------------------------------------------------------
+| alice | '{"alix@gmail.com"}'                       |
+| alice | '{"alice@hotmail.com', "bbb@outlook.com"}' |
+
+# grouping by name here will  have to aggregate as:
+'{{"alix@gmail.com"},  {"alice@hotmail.com', "bbb@outlook.com"}}'
+
+# but this is not possible in Postgres
+```
+In general, grouping arrays can lead to a mismatch in the dimensions of the elements within an array.
+
+**Rendering format**
+Currently, each data type in Mathesar has its own UI component. A list also has its own styling, which is currently rendering pills in the data explorer. What should we display then, for a list of dates? Including a date picker inside a pill does not sound user-friendly. Now, consider a multidimensional array of dates. What's the best way of rendering it? Without overloading the frontend and overwhelming the user who wants to edit one item/element.  
+
 ## Current state and considerations
 
 ### Backend
-There is no new data type for arrays; the SA `Array` type, which was previously supported for aggregation transformations, is the one currently supported and used to map an Array column in a table. 
+There is no new data type for arrays; the SA's `Array` type, which was previously supported for aggregation transformations, is the one currently supported.
 
 #### CRUD operations
 Sending a patch request to an array column correctly updates the records in a table.
-Reading is also working well.
-**Creating and deleting an array column calls have to be tested.**
+Reading is also working well.  
+
+**Next steps:**
+- Test through API client: create and delete column.
+- Tests for n-d case, in particular, when reading the data, how does the mapping of SA work (i.e how the formed array look like)?
+- Type options dict properties: length and dimensions, should be discarded. 
+
 
 #### Filters
-Some filters were already supported:
+These filters are already supported, given a dimension value:
 - ArrayLengthEquals
 - ArrayLengthGreaterThan
 - ArrayLengthGreaterOrEqual
@@ -90,21 +137,43 @@ Some filters were already supported:
 - ArrayNotEmpty
 - ArrayContains
 
-But, some minor modifications have to be done. For computing the **length** of an array, in SQL we have to pass a `dimension` argument. To be able to have these filters working for 1 dimension then, we have to fix this argument to **1** in the meantime. 
-
 In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
 
-**The filters have still to be modified.**
+**Next steps:**
+- Fix dimension value to 1 for all the filtering operations.
+- Test output for n-d cases.
+- Test for other scalar types.
+
+#### Summarization
+Status: currently not supported.
+
+Next steps:
+- Disable grouping by an Array column.
+- After: develop custom criteria that avoids dimensions mismatch, for example, a criteria that first computes a single value per row in an Array column. Reducing each record of an Array column to a single value will result in, when grouping, a 1-D array.
+
+#### Other operations
+Not supported:
+- Distinct
+- Sort by
+
+**Next steps:**
+- Disable them for Array columns.
+- After: use a criteria that reduces an array to a single value, and then sort.
+
 ### Frontend
+Here is where most new things to be implemented take place.
+
 #### Creating an Array column
-Any data type can have its version in Array. Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
+Status: currently not supported.
+
+Any data type can have its "array version" . Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
 - There will be a lot of options listed.
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
 A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
 ![ui_create_list_col.png](/product/list_datatype_project/ui_create_list_col.png)
 
-**This is not implemented yet.**
+Also, consider using the term "Array" instead of "list", as this encloses n-dimensional arrays too (which will be supported in the future) and operations that work with them.
 
 #### Rendering an array
 For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
@@ -154,3 +223,6 @@ A drag-and-drop feature does not seem to be very useful to offer.
 2. [TypeDecorators](https://docs.sqlalchemy.org/en/20/core/custom_types.html#sqlalchemy.types.TypeDecorator)
 3. [Custom adapter psycopg2](https://www.psycopg.org/docs/usage.html#infinite-dates-handling)
 4. [Ghislaine feedback on creating a List column](https://hackmd.io/@mathesar/rJ8Iyi7Un)
+5. [Contains multidimensional arrays](https://dba.stackexchange.com/questions/192840/how-to-check-multidimensional-array-of-arrays-contains-array)
+6. [SQL Array type in SQLAlchemy](https://docs.sqlalchemy.org/en/20/core/type_basics.html#sqlalchemy.types.ARRAY)
+7. Slides of project (final presentation): [link](https://drive.google.com/file/d/1DdBoKM7vaPYgWWgjvttF-UTmuYoPVGbe/view?usp=drive_link)

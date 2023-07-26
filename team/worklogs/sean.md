@@ -12,10 +12,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Active
 
-- Review [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
+- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+
+### Paused
+
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+        (Paused while I focus my time on optional inference)
 
 ### Backlog
 
@@ -24,6 +27,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-25 Tuesday
+
+- [Chat](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$f5v5Bd_KRNHHVUN4HF-MK9AeV-qDo4uEeXcyYvHabr4?via=matrix.mathesar.org&via=matrix.org) about next steps for Rajat's [i18n PR](https://github.com/centerofci/mathesar/pull/3087).
+- Review Pavish's [Shareable links frontend PR](https://github.com/centerofci/mathesar/pull/3093#pullrequestreview-1546069582)
+- Push some more commits to my [optional inference PR](https://github.com/centerofci/mathesar/pull/3050)
+- Read and respond to product strategy documents in preparation for Wednesday's meeting
 
 ## 2023-07-24 Monday
 
