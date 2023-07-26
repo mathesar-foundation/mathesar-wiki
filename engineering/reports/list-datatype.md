@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-26T14:40:45.730Z
+date: 2023-07-26T14:58:00.721Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -95,10 +95,10 @@ So, it's like, before comparing, Postgres engine unnests the arrays involved in 
 - Sort: there can be different criteria for sorting records of an Array column, and it becomes less intuitive/clear to compare and sort n-dimensional arrays. In addition, each possible scalar type has its own criteria for sorting. 
 
 **Summarization**
-Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array[6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
+Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array [6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
 ```
-| name  | emails                                   |
-----------------------------------------------------
+| name  | emails                                     |
+------------------------------------------------------
 | alice | '{"alix@gmail.com"}'                       |
 | alice | '{"alice@hotmail.com', "bbb@outlook.com"}' |
 
@@ -115,12 +115,17 @@ Currently, each data type in Mathesar has its own UI component. A list also has 
 ## Current state and considerations
 
 ### Backend
-There is no new data type for arrays; the SA `Array` type, which was previously supported for aggregation transformations, is the one currently supported and used to map an Array column in a table. 
+There is no new data type for arrays; the SA's `Array` type, which was previously supported for aggregation transformations, is the one currently supported.
 
 #### CRUD operations
 Sending a patch request to an array column correctly updates the records in a table.
-Reading is also working well.
-**Creating and deleting an array column calls have to be tested.**
+Reading is also working well.  
+
+**Next steps:**
+- Test through API client: create and delete column.
+- Tests for n-d case, in particular, when reading the data, how does the mapping of SA work (i.e how the formed array look like)?
+- Type options dict properties: length and dimensions, should be discarded. 
+
 
 #### Filters
 These filters are already supported, given a dimension value:
@@ -134,21 +139,41 @@ These filters are already supported, given a dimension value:
 
 In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
 
-**Next steps**
+**Next steps:**
 - Fix dimension value to 1 for all the filtering operations.
 - Test output for n-d cases.
 - Test for other scalar types.
 
+#### Summarization
+Status: currently not supported.
+
+Next steps:
+- Disable grouping by an Array column.
+- After: develop custom criteria that avoids dimensions mismatch, for example, a criteria that first computes a single value per row in an Array column. Reducing each record of an Array column to a single value will result in, when grouping, a 1-D array.
+
+#### Other operations
+Not supported:
+- Distinct
+- Sort by
+
+**Next steps:**
+- Disable them for Array columns.
+- After: use a criteria that reduces an array to a single value, and then sort.
+
 ### Frontend
+Here is where most new things to be implemented take place.
+
 #### Creating an Array column
-Any data type can have its version in Array. Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
+Status: currently not supported.
+
+Any data type can have its "array version" . Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
 - There will be a lot of options listed.
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
 A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
 ![ui_create_list_col.png](/product/list_datatype_project/ui_create_list_col.png)
 
-**This is not implemented yet.**
+Also, consider using the term "Array" instead of "list", as this encloses n-dimensional arrays too (which will be supported in the future) and operations that work with them.
 
 #### Rendering an array
 For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
