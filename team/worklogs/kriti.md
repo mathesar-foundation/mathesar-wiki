@@ -30,6 +30,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- How to Raise Money workshop session
 - **Comms**
 	- Caught up on GitHub / email / Matrix correspondence
+ 	- Followed up on release management & product strategy email threads
 
 ## 2023-07-25 (Tue)
 - **Comms**
