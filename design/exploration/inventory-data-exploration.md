@@ -2,6 +2,16 @@
 title: Inventory: Data Exploration
 description: 
 published: true
+date: 2023-07-19T23:17:21.672Z
+tags: 
+editor: markdown
+dateCreated: 2021-05-04T18:37:21.882Z
+---
+
+---
+title: Inventory: Data Exploration
+description: 
+published: true
 date: 2023-05-11T14:29:44.599Z
 tags: 
 editor: markdown

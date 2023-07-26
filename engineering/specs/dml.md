@@ -2,7 +2,7 @@
 title: DML Operations
 description: 
 published: true
-date: 2023-05-11T14:30:21.936Z
+date: 2023-07-19T23:27:39.932Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-07T15:16:22.341Z

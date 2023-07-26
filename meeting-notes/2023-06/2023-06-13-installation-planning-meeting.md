@@ -2,7 +2,7 @@
 title: 2023-06-13 Installation Planning Meeting
 description: 
 published: true
-date: 2023-06-27T16:13:54.008Z
+date: 2023-07-19T23:34:49.257Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-15T18:52:57.263Z
@@ -161,16 +161,6 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - Advantages of plain download (of an executable) over repo distribution 
     - more up-to-date
     - simpler for us in the short term
-- Ideal flow:
-    - Download the binaries from our release page
-    - Run the downloaded binary file using the cli or as a executable
-    - Mathesar will open in a browser window or an electron app
-    - Configuration dialog is shown inside the Mathesar app
-    - User creates a superuser account using the configuration dialog
-    - User is then shown a list of databases handled by Mathesar
-    - User proceeds to add the connection string details of the databases to be managed by Mathesar
-    - User then installs the necessary Schema based on the features he requires, for example, DML only schema
-
 - Additional args/flags that the CLI app could have
     - Option to disable auth, so that user can get to working Mathesar immediately
     - Option to permit the API/UI to edit the config file
@@ -181,6 +171,18 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
         - zipapp ships with dependencies
     - C build dependencies, unless we use the precompiled versions of psycopg
     - postgres server (minimum version)
+
+
+## Ideal Flow
+- Download the binaries from our release page
+- Run the downloaded binary file using the cli or as a executable
+- Mathesar will open in a browser window or an electron app
+- Configuration dialog is shown inside the Mathesar app
+- User creates a superuser account using the configuration dialog
+- User is then shown a list of databases handled by Mathesar
+- User proceeds to add the connection string details of the databases to be managed by Mathesar
+- User then installs the necessary Schema based on the features he requires, for example, DML only schema
+
 
 ### Someone installing everything on localhost (not just trying it out)
 - If you're using Docker setup:

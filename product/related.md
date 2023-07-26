@@ -2,13 +2,13 @@
 title: Related Products
 description: Other products that are solving similar problems
 published: true
-date: 2023-07-11T09:54:27.511Z
+date: 2023-07-20T01:43:18.042Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T20:44:10.092Z
 ---
 
-This page lists other products that solve similar/related problems to what Mathesar is aiming to solve. We're glad to see a few other open source projects in this area.
+This page lists other products that solve similar/related problems to what Mathesar is aiming to solve. We're glad to see other open source projects in this area.
 
 ## Open Source
 - [NocoDB](https://nocodb.com/)
@@ -22,6 +22,8 @@ This page lists other products that solve similar/related problems to what Mathe
 - [REI3](https://rei3.de/)
 - [NocoBase](https://www.nocobase.com/)
 - [ToolJet](https://www.tooljet.com/)
+- [Corteza](https://github.com/cortezaproject/corteza)
+- [Appsmith](https://www.appsmith.com/)
 - [undb](https://github.com/undb-xyz/undb)
 - [Baastronaut](https://github.com/baastronaut/baastronaut)
 - [Basetool](https://www.basetool.io/) (unmaintained)
@@ -41,6 +43,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Retool Database](https://retool.com/products/database)
 - [Stackby](https://stackby.com/)
 - [Xata](https://xata.io)
+- [Tadabase](https://tadabase.io/)
 
 ## Desktop
 - [Ultorg](https://www.ultorg.com/)

@@ -2,7 +2,7 @@
 title: Project Template
 description: 
 published: true
-date: 2023-07-18T18:18:03.392Z
+date: 2023-07-20T15:07:52.165Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-21T16:52:17.902Z
@@ -62,7 +62,7 @@ Mathesar's next release will include the new feature described under "solution".
 - Users could be allergic to pizza ingredients.
 
 ## Links
-> This section collects project related linka. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+> This section collects project related links. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
 {.is-info}
 
 - **Issues**: [GitHub meta issue]()

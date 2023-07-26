@@ -2,7 +2,7 @@
 title: List data type
 description: 
 published: true
-date: 2023-05-11T14:45:02.323Z
+date: 2023-07-19T23:43:50.460Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-03T16:53:57.798Z

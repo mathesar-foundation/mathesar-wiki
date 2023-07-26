@@ -2,7 +2,7 @@
 title: Suggest Candidate Columns to Create Separate Table
 description: 
 published: true
-date: 2023-05-11T14:37:26.801Z
+date: 2023-07-19T23:45:19.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T23:58:51.504Z

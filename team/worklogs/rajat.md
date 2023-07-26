@@ -1,11 +1,11 @@
 ---
 title: Rajat's work log
-description:
+description: 
 published: true
-date: 2023-07-10T17:06:29.534Z
-tags:
+date: 2023-07-19T23:41:24.495Z
+tags: 
 editor: markdown
-dateCreated: 2023-07-10T17:01:46.847Z
+dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
 ## 2023-07-25

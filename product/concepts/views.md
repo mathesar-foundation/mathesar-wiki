@@ -2,7 +2,7 @@
 title: Views
 description: About Views in Mathesar
 published: true
-date: 2023-05-11T14:35:03.201Z
+date: 2023-07-19T23:36:29.219Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-16T22:07:54.178Z

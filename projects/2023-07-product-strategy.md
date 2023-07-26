@@ -2,7 +2,7 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-18T17:50:37.164Z
+date: 2023-07-19T23:11:04.453Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z

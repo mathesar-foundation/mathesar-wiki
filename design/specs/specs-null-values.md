@@ -2,7 +2,7 @@
 title: NULL Value Specs
 description: 
 published: true
-date: 2023-05-11T14:35:15.603Z
+date: 2023-07-19T23:23:47.399Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-22T07:13:29.836Z

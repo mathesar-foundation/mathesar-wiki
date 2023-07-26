@@ -2,19 +2,23 @@
 title: Sean's work log
 description: 
 published: true
-date: 2023-07-07T00:00:00.000Z
+date: 2023-07-20T16:13:14.279Z
 tags: 
 editor: markdown
-dateCreated: 2023-07-07T00:00:00.000Z
+dateCreated: 2023-07-07T18:46:25.644Z
 ---
 
 ## TODO
 
 ### Active
 
+- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+
+### Paused
+
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+        (Paused while I focus my time on optional inference)
 
 ### Backlog
 
@@ -23,6 +27,47 @@ dateCreated: 2023-07-07T00:00:00.000Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-25 Tuesday
+
+- [Chat](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$f5v5Bd_KRNHHVUN4HF-MK9AeV-qDo4uEeXcyYvHabr4?via=matrix.mathesar.org&via=matrix.org) about next steps for Rajat's [i18n PR](https://github.com/centerofci/mathesar/pull/3087).
+- Review Pavish's [Shareable links frontend PR](https://github.com/centerofci/mathesar/pull/3093#pullrequestreview-1546069582)
+- Push some more commits to my [optional inference PR](https://github.com/centerofci/mathesar/pull/3050)
+- Read product strategy documents in preparation for Wednesday's meeting
+
+## 2023-07-24 Monday
+
+- Open ticket: [Discussion about active cell height design and regression](https://github.com/centerofci/mathesar/issues/3091)
+- Review [Use Truncate component in Record Selector table cells](https://github.com/centerofci/mathesar/pull/3077/), pushing some additional commits and merging
+- Begin [discussion](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/45M2ZxoN-Qg) about i18n project workflow
+- Open PR to [Copy formatted cell values to clipboard instead of raw values](https://github.com/centerofci/mathesar/pull/3094)
+- A small amount of work on optional inference
+
+## 2023-07-21 Friday
+
+- Respond to Ghislaine's ticket [Change in Behaviour of Sorting, Filtering, Grouping and Copy-Paste for Linked Records](https://github.com/centerofci/mathesar/issues/3080)
+    - Create ticket: [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085)
+    - Create ticket: [Behavior when sorting FK columns may be confusing to users](https://github.com/centerofci/mathesar/issues/3084)
+- Send weekly project update emails for frontend fixes project and my work within the backend fixes project
+- Team meeting
+- Continued work on optional inference, pushing some more commits to my [draft PR](https://github.com/centerofci/mathesar/pull/3050)
+
+## 2023-07-20 Thursday
+
+- Meet with Brent and Aritra about summarization functions
+- Chat about wiki sync problems
+- Create PR with [1 hour quick stab at migration to mkdocs](https://github.com/centerofci/mathesar-wiki/pull/99)
+- Create issue [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
+- Continue working on [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+
+## 2023-07-19 Wednesday
+
+- Team meeting
+- Matrix chat with Kriti about some product design process stuff
+- Help triage [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+- Create ticket [Help users understand the connection between descriptions and PostgreSQL comments](https://github.com/centerofci/mathesar/issues/3071)
+- Several other smaller discussions
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037), beginning to integrate new CellSelection code into TabularData class
 
 ## 2023-07-18 Tuesday
 

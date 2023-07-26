@@ -2,7 +2,7 @@
 title: Mentee Guide
 description: 
 published: true
-date: 2023-05-11T14:38:23.764Z
+date: 2023-07-19T23:16:06.158Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T22:28:21.224Z

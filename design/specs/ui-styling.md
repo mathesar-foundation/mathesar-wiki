@@ -2,7 +2,7 @@
 title: User Interface Style
 description: 
 published: true
-date: 2023-05-11T14:34:08.395Z
+date: 2023-07-19T23:24:31.978Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-22T10:25:48.749Z

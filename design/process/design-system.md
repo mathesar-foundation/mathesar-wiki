@@ -2,7 +2,7 @@
 title: Design System
 description: Design System for Mathesar
 published: true
-date: 2023-05-11T14:31:11.579Z
+date: 2023-07-19T23:17:47.715Z
 tags: 
 editor: markdown
 dateCreated: 2021-05-31T12:11:46.738Z

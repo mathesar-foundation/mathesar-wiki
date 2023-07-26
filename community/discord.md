@@ -2,7 +2,7 @@
 title: Mathesar on Discord
 description: 
 published: true
-date: 2023-05-11T14:46:38.523Z
+date: 2023-07-19T23:00:44.478Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-03T21:51:22.236Z

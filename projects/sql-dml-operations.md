@@ -2,7 +2,7 @@
 title: Move DML Operations to SQL Functions
 description: 
 published: true
-date: 2023-05-11T14:49:26.369Z
+date: 2023-07-19T23:13:32.679Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-23T08:31:17.538Z

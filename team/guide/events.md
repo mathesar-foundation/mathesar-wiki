@@ -2,7 +2,7 @@
 title: Team Events
 description: 
 published: true
-date: 2023-06-09T15:31:45.668Z
+date: 2023-07-19T23:38:26.713Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-03T21:03:44.499Z

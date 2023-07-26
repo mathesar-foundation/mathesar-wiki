@@ -2,7 +2,7 @@
 title: Meetings
 description: 
 published: true
-date: 2023-05-11T14:43:52.619Z
+date: 2023-07-19T23:38:52.402Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-06T21:31:57.102Z

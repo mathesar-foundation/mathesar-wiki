@@ -2,7 +2,7 @@
 title: Resources
 description: Reading and resources that might be of interest.
 published: true
-date: 2023-05-11T14:28:39.913Z
+date: 2023-07-19T23:03:39.690Z
 tags: 
 editor: markdown
 dateCreated: 2021-04-20T16:30:35.472Z

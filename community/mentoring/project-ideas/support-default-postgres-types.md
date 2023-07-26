@@ -2,7 +2,7 @@
 title: Better Support for Default PostgreSQL Data Types
 description: 
 published: true
-date: 2023-05-11T14:37:59.050Z
+date: 2023-07-19T23:45:28.414Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T21:23:58.352Z
