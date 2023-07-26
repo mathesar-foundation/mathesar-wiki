@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-25T20:52:54.216Z
+date: 2023-07-26T14:30:10.416Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -198,3 +198,4 @@ A drag-and-drop feature does not seem to be very useful to offer.
 4. [Ghislaine feedback on creating a List column](https://hackmd.io/@mathesar/rJ8Iyi7Un)
 5. [Contains multidimensional arrays](https://dba.stackexchange.com/questions/192840/how-to-check-multidimensional-array-of-arrays-contains-array)
 6. [SQL Array type in SQLAlchemy](https://docs.sqlalchemy.org/en/20/core/type_basics.html#sqlalchemy.types.ARRAY)
+7. Slides of project (final presentation): [link](https://drive.google.com/file/d/1DdBoKM7vaPYgWWgjvttF-UTmuYoPVGbe/view?usp=drive_link)
