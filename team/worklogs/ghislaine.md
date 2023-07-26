@@ -8,6 +8,21 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-07-26
+
+Prepared presentation for the team meeting. 
+Attended team meeting and presented user research.
+Design for Admin User creation.
+
+## 2023-07-24
+
+I've continued work on the use cases table. I've been digging into the different stakeholders and understanding their needs, capturing goals and pain points from various sources. I've also been preparing the data and insights for the upcoming meeting with the team.
+
+**Current Focus:**
+
+- Creating the use cases table for the user research project
+- Preparing for the upcoming meeting with the team
+
 ## 2023-07-20
 
 I continued working on the table. I also logged usability issues that I found and opened a GitHub issue to address a bug I encountered.
@@ -17,6 +32,7 @@ I've been exploring other similar products, gathering more use cases. This work 
 Had a meeting with Kriti to discuss the progress of our work.
 
 **Current Focus:**
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-19
@@ -24,15 +40,17 @@ Had a meeting with Kriti to discuss the progress of our work.
 Today, I've been gathering more use cases. Had a brief discussion with Mukesh regarding the Installation project.
 
 **Current Focus:**
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-18
 
-Added new use cases and collected more template examples. 
+Added new use cases and collected more template examples.
 I also had discussions regarding new projects that require design support and responded to [Make column type inference optional
 ](https://github.com/centerofci/mathesar/pull/3050#issuecomment-1640658689)
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-17
@@ -44,11 +62,13 @@ Kriti and I had a meeting to review the current status of our work. We identifie
 One of these steps includes a plan to increase our use case data volume (before analysis). This will enable everyone to conduct their own analysis.
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-14
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-13
@@ -56,6 +76,7 @@ Current Focus:
 Similar to yesterday, I continued work on the table and had a review with Kriti. We agreed that it is important to identify both the stakeholders and the actors for each use case to ensure we serve the right audience when developing them. Also, I have been noting down usability issues as I experience working with Mathesar.
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-12
@@ -63,6 +84,7 @@ Current Focus:
 I have been working on setting up a Mathesar schema to capture all the different use cases. For each one I review, I am adding the needed features. Additionally, I examined the Freshdesk tickets to identify new use cases.
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-11
@@ -74,22 +96,25 @@ Following this, I reviewed them with Kriti and we collectively decided on our ne
 At this stage, we aren't making any decisions about which use cases to work on. However, the intention is to generate a broad map of what's out there in terms of competing solutions. This will aid us in understanding where we are best suited to fill out those gaps.
 
 Current Focus:
+
 - Creating the use cases table for the user research project
 
 ## 2023-07-10
 
-I've gone through Syften notifications, reading through the different posts extracting user needs. Started categorizing them and will now focus in different use cases. 
+I've gone through Syften notifications, reading through the different posts extracting user needs. Started categorizing them and will now focus in different use cases.
 
 Current Focus:
+
 - Writing the first user research report draft
 
 ## 2023-07-07
 
-I am continuining work with the research project, which basically involves going through freshdesk and capturing any relevant feeedback, categorizing it and finding patterns. 
+I am continuining work with the research project, which basically involves going through freshdesk and capturing any relevant feeedback, categorizing it and finding patterns.
 
 Had a call with Kriti to define the goals and deliverables for the user research project.
 
 Current Focus:
+
 - Writing the first user research report draft
 
 ## 2023-07-06
