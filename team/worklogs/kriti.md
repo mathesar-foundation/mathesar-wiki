@@ -10,6 +10,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Update script for upcoming funder meeting
+- Review Mukesh's installation outline once it's ready
 
 ## Backlog
 - Review Sean's Querydown document
@@ -20,6 +21,15 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Follow up with various people who've helped me over the last few months
 
 # Complete
+
+## 2023-07-25 (Wed)
+- **Team management**
+	- Weekly meeting
+- **Fundraising**
+	- Prep for today's workshop session (podcast) 	
+	- How to Raise Money workshop session
+- **Comms**
+	- Caught up on GitHub / email / Matrix correspondence
 
 ## 2023-07-25 (Tue)
 - **Comms**
