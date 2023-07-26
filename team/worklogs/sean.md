@@ -28,6 +28,12 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-07-26 Wednesday
+
+- Continue work on optional inference
+- Team meeting
+- Some smaller discussions
+
 ## 2023-07-25 Tuesday
 
 - [Chat](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$f5v5Bd_KRNHHVUN4HF-MK9AeV-qDo4uEeXcyYvHabr4?via=matrix.mathesar.org&via=matrix.org) about next steps for Rajat's [i18n PR](https://github.com/centerofci/mathesar/pull/3087).
