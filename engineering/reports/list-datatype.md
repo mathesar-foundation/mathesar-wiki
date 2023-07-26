@@ -2,7 +2,7 @@
 title: List data type report - 2023 internship
 description: 
 published: true
-date: 2023-07-26T14:30:48.798Z
+date: 2023-07-26T14:40:45.730Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-18T19:34:24.849Z
@@ -123,7 +123,7 @@ Reading is also working well.
 **Creating and deleting an array column calls have to be tested.**
 
 #### Filters
-Some filters were already supported:
+These filters are already supported, given a dimension value:
 - ArrayLengthEquals
 - ArrayLengthGreaterThan
 - ArrayLengthGreaterOrEqual
@@ -132,11 +132,13 @@ Some filters were already supported:
 - ArrayNotEmpty
 - ArrayContains
 
-But, some minor modifications have to be done. For computing the **length** of an array, in SQL we have to pass a `dimension` argument. To be able to have these filters working for 1 dimension then, we have to fix this argument to **1** in the meantime. 
-
 In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
 
-**The filters have still to be modified.**
+**Next steps**
+- Fix dimension value to 1 for all the filtering operations.
+- Test output for n-d cases.
+- Test for other scalar types.
+
 ### Frontend
 #### Creating an Array column
 Any data type can have its version in Array. Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
