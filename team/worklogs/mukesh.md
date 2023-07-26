@@ -10,12 +10,18 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## Actively working on
 
-- Write an outline of the ideal Installation Documentation
+- Update the outline of the ideal Installation Documentation
+- Review Rajat's Internationalization PR
+- Review Pavish's Shareable links PR
 
 ## Backlog
 - Review the PR's opened by Varsha
 - Review external contributors PRs
 
+
+## 2023-07-26
+- Team Meeting
+- Reply to some async discussions
 
 ## 2023-07-25
 - Review [Support unknown types (backend)](https://github.com/centerofci/mathesar/pull/3040#top)
@@ -23,12 +29,12 @@ dateCreated: 2023-07-07T16:40:32.972Z
 - Split tasks in the [Installation Improvement Project](https://github.com/centerofci/mathesar/issues/3058 ) into feature complete and feature incomplete tasks
 - Check with Ghislaine on the design work for superuser create page
 - Open PR for the Django superuser creation page 
+- Sync with Kriti
 
 ## 2023-07-24
 - Sync with Varsha
 - Reviewed, modified and merged some of Dom's and Varsha's PR
 - Read through various resources to come up with ideas for the ideal Installation Documentation draft
-
 
 ## 2023-07-20
 - Review of Varsha's PR
