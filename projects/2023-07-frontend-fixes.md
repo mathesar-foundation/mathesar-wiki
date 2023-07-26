@@ -34,6 +34,10 @@ This project focuses on the cell selection functionality. It starts by addressin
 - [Weird cell selection behavior when dragging from cell to header](https://github.com/centerofci/mathesar/issues/2122)
 - [Cell Context menu event should maintain the cell selection when triggered within the selection](https://github.com/centerofci/mathesar/issues/1771)
 
+Unrelated frontend issues we'd also like to work on during this cycle
+
+- [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085) (because it's a regression with a quick fix)
+
 ## Risks
 
 (none)
