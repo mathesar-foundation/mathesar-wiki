@@ -11,16 +11,49 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### Meetings
+- 1:1 with Anish
+- Summarization project meeting with Aritra and Sean
+
+### Summarization project work
+- Catch up with Aritra in preparation for meeting
+- Meeting
 
 ### Infrastructure
 - Figure out where the steps to refresh the demo instances were, and make their location more obvious.
 
 ### RSQLA1 project work:
-- Finish up column alteration DDL PR
+- Moving table splitting work to SQL
 
+### User help
+- Conduct a round of follow-up with various users.
+
+
+### 2023-07-26
+
+This was a short day; I got trapped in town for awhile.
+
+### Meetings
+- 1:1 with Dom
+- Team meeting
+
+### Comms
+- Caught up on email and messaging
+
+### GH admin:
+- commented on and read through relevant issues
+
+### RSQLA1 project work:
+- Discussed PR with Dom.
+- Merged PR: [Add DDL functions for altering columns #3097](https://github.com/centerofci/mathesar/pull/3097).
 
 ### List project work
-- Async with Maria about report write-up
+- Read through Maria's slides and report; offered feedback
+
+## 2023-07-25
+
+### RSQLA1 project work:
+- Submitted PR: [Add DDL functions for altering columns #3097](https://github.com/centerofci/mathesar/pull/3097)
+- Caught up with Anish about his progress.
 
 
 ## 2023-07-24
