@@ -1,21 +1,31 @@
 ## Active
 
-- Finish reviewing [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
-- Sync with Brent over [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
-- Do Anshuman's midterm evaluation
-- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests PR) reviewed
-- Respond in [#3078](https://github.com/centerofci/mathesar/issues/3078) (dynamic defaults via function lists)
-- Do [#1370](https://github.com/centerofci/mathesar/issues/1370) (improve backend error messages)
 - Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3078](https://github.com/centerofci/mathesar/issues/3078)
 - Make reservations for the GSoC mentor summit
+- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests PR) reviewed
+  - Once [#3059](https://github.com/centerofci/mathesar/issues/3059) is merged
 
 ## Backlog
 
+- Do [#1370](https://github.com/centerofci/mathesar/issues/1370) (improve backend error messages)
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Submit PR with test case for long identifiers in preexisting database
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-07-27
+
+- Notify of my break this week starting one day later than planned (and ending as planned)
+
+### 2023-07-26
+
+- Sync with Brent over [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
+- Respond in [#3078](https://github.com/centerofci/mathesar/issues/3078) (dynamic defaults via function lists)
+- Update [#3095](https://github.com/centerofci/mathesar/issues/3095) (improve support for unknown types) based on Brent's comment
+- Prepare for team meeting
+- Do Anshuman's midterm evaluation
+- Finish reviewing [#3097](https://github.com/centerofci/mathesar/issues/3097) (brent's pr)
 
 ### 2023-07-25
 
