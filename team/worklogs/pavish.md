@@ -9,10 +9,15 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 ## Actively working on
-* Get the initial PRs merged.
+* Implement backend work for query sharing
+* Implement UI for viewing shared query
+
+## 2023-07-26
+* Team meeting
+* Long call with Mukesh on permissions
+* Updated PRs based on review comments and got the initial PRs for Shareable links merged.
   - [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
 	- [Shareable links backend - Models, APIs, bypass auth for table requests](https://github.com/centerofci/mathesar/pull/3092)
-* Implement query sharing
 
 ## 2023-07-25
 * Pondered a bit on how to handle related entities in shared pages, mainly filtering linked records and the record selector
