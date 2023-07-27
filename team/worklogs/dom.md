@@ -16,6 +16,7 @@
 
 ### 2023-07-27
 
+- Sync with Mukesh
 - Notify of my break this week starting one day later than planned (and ending as planned)
 
 ### 2023-07-26
