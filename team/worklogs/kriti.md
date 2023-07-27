@@ -10,7 +10,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Update script for upcoming funder meeting
-- Review Mukesh's installation outline once it's ready
 
 ## Backlog
 - Review Sean's Querydown document
@@ -22,6 +21,16 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-27 (Thu)
+- **Team management**
+	- 1:1 with Mukesh 
+- **Comms**
+	- Caught up on GitHub / Matrix / email 
+- **User help**
+	- Followed up on user's request for a `develop` build in 	 
+- **Product**
+	- Worked through installation docs outline and meeting agenda with Mukesh
+
 ## 2023-07-26 (Wed)
 - **Team management**
 	- Weekly meeting
@@ -31,6 +40,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Comms**
 	- Caught up on GitHub / email / Matrix correspondence
  	- Followed up on release management & product strategy email threads
+	- Call with Sam
 
 ## 2023-07-25 (Tue)
 - **Comms**
