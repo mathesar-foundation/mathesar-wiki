@@ -10,7 +10,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Continue work on script for upcoming funder meeting
-- Follow up on various user threads on GitHub
+- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 
 ## Backlog
 - Review Sean's Querydown document
@@ -34,6 +34,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Reviewed work logs, sent reminder about missing logs
 - **Fundraising**
 	- How to Raise Money workshop session (longer session today)
+- **User help**
+	- Responded to [installation feedback discussion](https://github.com/centerofci/mathesar/discussions/3108)
+ 	- Added `user reported` label to [#3076](https://github.com/centerofci/mathesar/issues/3076)
+ 	- Triaged a bunch of new user reported issues
 
 ## 2023-07-27 (Thu)
 - **Team management**
