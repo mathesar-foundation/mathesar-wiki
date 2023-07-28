@@ -36,6 +36,7 @@ This project focuses on the cell selection functionality. It starts by addressin
 
 Unrelated frontend issues we'd also like to work on during this cycle
 
+- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 - [Copying FK cells should copy the record summary instead of the PK value](https://github.com/centerofci/mathesar/issues/3085) (because it's a regression with a quick fix)
 
 ## Risks
