@@ -10,7 +10,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Continue work on script for upcoming funder meeting
-- How to Raise Money workshop session
 - Follow up on various user threads on GitHub
 
 ## Backlog
@@ -33,6 +32,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Responded to Sean's email about user reported issues workflow
 - **Team management**
 	- Reviewed work logs, sent reminder about missing logs
+- **Fundraising**
+	- How to Raise Money workshop session (longer session today)
 
 ## 2023-07-27 (Thu)
 - **Team management**
