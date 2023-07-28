@@ -10,18 +10,28 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## Actively working on
 
-- Update the outline of the ideal Installation Documentation
 - Review Rajat's Internationalization PR
-- Review Pavish's Shareable links PR
+- Removing the mandatory DB superuser requirement 
+- Review local settings PR
 
 ## Backlog
 - Review the PR's opened by Varsha
 - Review external contributors PRs
 
 
+## 2023-07-27
+- Sync with Dominkyas
+- Reply to some async discussions
+- Sync with Kriti
+- Review some of Rajat's PR
+
 ## 2023-07-26
 - Team Meeting
 - Reply to some async discussions
+- Sync with Pavish
+- Review Shareable links PR
+- Make changes to Installation Documentation Outline and add V3 outline
+- Start working on removing DB superuser permissions
 
 ## 2023-07-25
 - Review [Support unknown types (backend)](https://github.com/centerofci/mathesar/pull/3040#top)
