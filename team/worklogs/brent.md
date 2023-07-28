@@ -11,12 +11,12 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### Meetings
+- 1:1 with Mukesh
+- Installation planning meeting V
 - 1:1 with Anish
-- Summarization project meeting with Aritra and Sean
 
-### Summarization project work
-- Catch up with Aritra in preparation for meeting
-- Meeting
+### PR reviews
+- [Fix the error when list aggregation on mathesar custom array #3106](https://github.com/centerofci/mathesar/pull/3106)
 
 ### Infrastructure
 - Figure out where the steps to refresh the demo instances were, and make their location more obvious.
@@ -26,6 +26,19 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ### User help
 - Conduct a round of follow-up with various users.
+
+
+## 2023-07-27
+
+### Meetings
+- Summarization project meeting
+
+### Summarization project work
+- Meeting with Aritra and Sean
+- Helped Aritra sort out weird bug when aggregating custom types to arrays.
+
+### RSQLA1 Project work:
+- Started on table splitting functions
 
 
 ### 2023-07-26
