@@ -10,6 +10,7 @@ dateCreated: 2023-07-06T19:00:08.762Z
 
 The Mathesar team's daily work logs:
 
+- [Anish](./worklogs/anish.md)
 - [Brent](./worklogs/brent.md)
 - [Dom](./worklogs/dom.md)
 - [Ghislaine](./worklogs/ghislaine.md)
