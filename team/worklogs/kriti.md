@@ -10,9 +10,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Continue work on script for upcoming funder meeting
-- External call for fundraising prep
 - How to Raise Money workshop session
-- Installation meeting
+- Follow up on various user threads on GitHub
 
 ## Backlog
 - Review Sean's Querydown document
@@ -24,12 +23,21 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-07-28 (Fri)
+- **Product**
+	- Installation planning meeting
+	- Reviewed i18n UI
+	- Reviewed superuser creation design question
+- **Comms**
+	- Caught up on GitHub / Matrix / email
+	- Responded to Sean's email about user reported issues workflow
+
 ## 2023-07-27 (Thu)
 - **Team management**
 	- 1:1 with Mukesh 
 - **Comms**
 	- Caught up on GitHub / Matrix / email
- 	- Responded to Sean's email about user reported issues 
+	- Responded to Sean's email about user reported issues 
 - **User help**
 	- Followed up on user's request for a `develop` build in 	 
 - **Product**
