@@ -12,11 +12,12 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Active
 
-- [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+- [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
+    - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
+- Review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099)
 
 ### Soon
 
-- Review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099)
 - Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100)
 - Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 - Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
@@ -25,9 +26,8 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Paused
 
-- [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
-    - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-        (Paused while I focus my time on optional inference)
+- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+    (Paused while I focus my time on optional inference)
 
 ### Backlog
 
@@ -36,6 +36,17 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-28 Friday
+
+*(half day)*
+
+- Continue email discussion about user-reported tickets
+- Help troubleshoot [Type suggestions broken](https://github.com/centerofci/mathesar/issues/3105)
+- Send frontend fixes weekly project update email
+- Continue troubleshooting [docker/npm problem](https://github.com/centerofci/mathesar/pull/3099#issuecomment-1655756340)
+- Some progress continuing to review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099)
+
 
 ## 2023-07-27 Thursday
 
