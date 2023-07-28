@@ -18,12 +18,19 @@ dateCreated: 2023-07-07T16:40:32.972Z
 - Review the PR's opened by Varsha
 - Review external contributors PRs
 
+## 2023-07-28
+- Work on removing DB superuser permissions
+  - Update documentation to remove the superuser requirement
+- Sync with brent
+- Attend installation planning meeting
 
 ## 2023-07-27
 - Sync with Dominkyas
 - Reply to some async discussions
 - Sync with Kriti
 - Review some of Rajat's PR
+- Work on removing DB superuser permissions
+  - Update documentation to remove the superuser requirement
 
 ## 2023-07-26
 - Team Meeting
