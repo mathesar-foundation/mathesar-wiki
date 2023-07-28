@@ -14,6 +14,15 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
 
+### Soon
+
+- Review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099)
+- Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100)
+- Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
+- Review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
+- Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
+
 ### Paused
 
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
@@ -27,6 +36,14 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-27 Thursday
+
+- Open ticket [Type suggestions broken](https://github.com/centerofci/mathesar/issues/3105)
+- Spend some time partially reviewing [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099#pullrequestreview-1550390792)
+- Open email discussion about [Criteria for closing use-reported tickets](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/w9CskyV9r3s)
+- Resolve merge conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Push some more commits to my [optional inference PR](https://github.com/centerofci/mathesar/pull/3050)
 
 ## 2023-07-26 Wednesday
 
