@@ -8,6 +8,20 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-07-28
+
+I am reviewing user feedback for the user research project, going through the feedback that we gathered months ago in HackMD, identifying additional use cases, and integrating this information into our new user research collection in Mathesar.
+
+I've made a minor adjustment to the design of the installation admin user creation flow.
+
+Based on my personal experience using Mathesar for the user research project, I'm compiling a set of recommendations to enhance its functionality and usability. Once complete, I plan to share this with the rest of the team.
+
+**Current Focus:**
+
+- Identifying potential niches, associated use cases, and stakeholders.
+- Conducting research into these niches.
+- Continually refining and developing user personas.
+
 ## 2023-07-26
 
 Prepared presentation for the team meeting. 
