@@ -1,18 +1,81 @@
 ---
 title: Rajat's work log
-description: 
+description:
 published: true
 date: 2023-07-19T23:41:24.495Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
+
+## 2023-07-28
+
+**TODO**
+
+- PR for import/export
+- AIs from "Next Release" milestone email.
+- Replacing more translations strings in the FE codebase.
+
+**Active**
+
+- v0.1.3 milestone health check
+- Follow up with i18n PRs review
+
+**Completed**
+
+- Repo admin
+- Updated pending worklogs
+- Email for initiating discussion about storing transifex keys
+- Weekly Project update email
+
+## 2023-07-28
+
+**Active**
+
+- PR for pushing translations from FE and BE to transifex. (Stuck on missing GNU's gettext issue).
+- Replacing more translations strings in the FE codebase.
+
+**Completed**
+
+- Repo admin work
+- Tackling Sean's review on [[i18n] Install typesafe-i18n & translates one component #3099](https://github.com/centerofci/mathesar/pull/3099)
+
+## 2023-07-27
+
+**Active Work**
+
+- More PRs for i18n work
+
+**Completed**
+
+- Created 5 separate PRs for i18n work
+  - [[i18n] Install typesafe-i18n & translates one component #3099](https://github.com/centerofci/mathesar/pull/3099)
+  - [[i18n] RichText component #3100](https://github.com/centerofci/mathesar/pull/3100)
+  - [[i18n] Django templates translatable #3101](https://github.com/centerofci/mathesar/pull/3101)
+  - [[i18n] Load "en" translations parallely #3102](https://github.com/centerofci/mathesar/pull/3102)
+  - [[i18n] Save preferred_language for auth user in db #3103](https://github.com/centerofci/mathesar/pull/3103)
+  - [[i18n] Language switcher for anon users #3104 ](https://github.com/centerofci/mathesar/pull/3104)
+- Repo Admin work
+
+## 2023-07-26
+
+**Active**
+
+- Breaking PR for i18n into smaller chunks
+
+**Completed**
+
+- ESLint rule for finding un-translated strings in svelte template.
+- Repo admin work
+- Release e-mail
+- Team meeting
 
 ## 2023-07-25
 
 - Translate the application when the user changes language from the profile page
 - Load translations file parallel to the FE code's first chunk
 - Repo admin tasks
+- 1-on-1 with Kriti
 
 ## 2023-07-24
 
