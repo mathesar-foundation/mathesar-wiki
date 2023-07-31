@@ -9,10 +9,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Continue work on script for upcoming funder meeting
-- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
+- Continue work on script for upcoming fundraising meeting
+- Prep meeting for fundraising meeting
 
 ## Backlog
+- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Review Sean's Querydown document
 - Reorganize and document ongoing responsibilities better
 - Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
@@ -21,6 +22,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Follow up with various people who've helped me over the last few months
 
 # Complete
+
+## 2023-07-31 (Mon)
+*Partial day, sick*
+
+- **Comms**
+	- Caught up on GitHub / Matrix / email + related action items
+	- Rescheduled / scheduled a couple of meetings
 
 ## 2023-07-28 (Fri)
 - **Product**
@@ -36,8 +44,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- How to Raise Money workshop session (longer session today)
 - **User help**
 	- Responded to [installation feedback discussion](https://github.com/centerofci/mathesar/discussions/3108)
- 	- Added `user reported` label to [#3076](https://github.com/centerofci/mathesar/issues/3076)
- 	- Triaged a bunch of new user reported issues
+	- Added `user reported` label to [#3076](https://github.com/centerofci/mathesar/issues/3076)
+	- Triaged a bunch of new user reported issues
 
 ## 2023-07-27 (Thu)
 - **Team management**
