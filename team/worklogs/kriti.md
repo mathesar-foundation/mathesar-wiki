@@ -9,7 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Continue work on script for upcoming fundraising meeting
 - Prep meeting for fundraising meeting
 
 ## Backlog
@@ -29,6 +28,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Comms**
 	- Caught up on GitHub / Matrix / email + related action items
 	- Rescheduled / scheduled a couple of meetings
+- **Fundraising**
+	- Completed new version of script + associated slides for this week's meeting
 
 ## 2023-07-28 (Fri)
 - **Product**
