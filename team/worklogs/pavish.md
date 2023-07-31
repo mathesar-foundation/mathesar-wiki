@@ -9,8 +9,21 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 ## Actively working on
-* Implement backend work for query sharing
-* Implement UI for viewing shared query
+* UI for sharing an entity
+
+## 2023-07-31
+* Raised PR for viewing shared queries: [#3133](https://github.com/centerofci/mathesar/pull/3113)
+* Started figuring out UX for 'user sharing an entity' flow. 
+
+## 2023-07-28
+* Took a sick day off
+* Pondered a bit on users who do not want to install Mathesar schemas on their DB
+
+## 2023-07-27
+* Built and pushed an one-off docker build for a [user request](https://github.com/centerofci/mathesar/issues/2709#issuecomment-1654096799)
+* Continued backend work on query sharing
+* Started implementing frontend for viewing shared query
+* Had a partial work day, as I was sick
 
 ## 2023-07-26
 * Team meeting
@@ -18,6 +31,7 @@ dateCreated: 2023-07-07T17:01:46.847Z
 * Updated PRs based on review comments and got the initial PRs for Shareable links merged.
   - [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
 	- [Shareable links backend - Models, APIs, bypass auth for table requests](https://github.com/centerofci/mathesar/pull/3092)
+* Started work on query sharing
 
 ## 2023-07-25
 * Pondered a bit on how to handle related entities in shared pages, mainly filtering linked records and the record selector
