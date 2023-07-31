@@ -9,7 +9,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Prep meeting for fundraising meeting
+- 1:1 with Brent
+- Product strategy with Ghislaine
+- Another prep meeting for fundraising meeting
+- Make adjustments to fundraising script based on feedback
+- Practice fundraising script
 
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
@@ -28,8 +32,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Comms**
 	- Caught up on GitHub / Matrix / email + related action items
 	- Rescheduled / scheduled a couple of meetings
+	- Matrix discussion about Foreign Data Wrappers and people who don't want to install our schemas
 - **Fundraising**
 	- Completed new version of script + associated slides for this week's meeting
+	- Preparatory call for Friday's fundraising meeting
 
 ## 2023-07-28 (Fri)
 - **Product**
