@@ -11,22 +11,53 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### Meetings
-- 1:1 with Mukesh
-- Installation planning meeting V
-- 1:1 with Anish
-
-### PR reviews
-- [Fix the error when list aggregation on mathesar custom array #3106](https://github.com/centerofci/mathesar/pull/3106)
+- 1:1 with Kriti
 
 ### Infrastructure
 - Figure out where the steps to refresh the demo instances were, and make their location more obvious.
 
 ### RSQLA1 project work:
 - Moving table splitting work to SQL
+  - Writing tests, documentation
 
 ### User help
 - Conduct a round of follow-up with various users.
 
+
+## 2023-08-01
+
+### Bugfixes
+- Started PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) to sort out intermittent test failures
+
+### PR Reviews
+- [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117)
+
+### RSQLA1
+- 
+
+
+## 2023-07-31
+
+### Bugfixes
+- Made a quick PR [New linting rule #3116](https://github.com/centerofci/mathesar/pull/3116#event-9965300582) to fix an issue arising from an update in `flake8`.
+
+### PR Reviews
+- [SQL tests for schema ddl #3098](https://github.com/centerofci/mathesar/pull/3098) (merged)
+- [Fix the error when list aggregation on mathesar custom array #3106](https://github.com/centerofci/mathesar/pull/3106)
+
+### 2023-07-28
+
+### Meetings
+- Caught up with Anish
+- 1:1 with Mukesh
+- Installation planning meeting V
+
+### RSQLA1 project work:
+- Got table splitting working, but exposed a bug in how defaults are reflected.
+- Organized next week's work with Anish
+
+### User help
+- Submitted PR [Remove pglast, use SQL function instead #3107](https://github.com/centerofci/mathesar/pull/3107), fixing [Does not work on windows #2961](https://github.com/centerofci/mathesar/issues/2961)
 
 ## 2023-07-27
 
