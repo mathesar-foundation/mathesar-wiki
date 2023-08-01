@@ -9,9 +9,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Agenda for tomorrow's weekly meeting
-- Product strategy with Ghislaine
-- Another prep meeting for fundraising meeting
+- Weekly meeting
 - Make adjustments to fundraising script based on feedback
 - Practice fundraising script
 
@@ -29,8 +27,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## 2023-08-01 (Tue)
 - **Comms**
 	- Caught up on GitHub / Matrix / email + related action items
+	- Set up agenda for tomorrow's weekly meeting, sent email
 - **Team management**
-	- Long 1:1 with Brent
+	- (Long) 1:1 with Brent
+- **Product**
+	- Product strategy discussion with Ghislaine
+- **Fundraising**
+	- (Long) fundraising prep + practice meeting
 
 # Archive
  - [July 2023 work logs](/team/worklogs/kriti/2023-07.md)
