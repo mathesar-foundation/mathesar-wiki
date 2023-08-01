@@ -9,7 +9,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- 1:1 with Brent
+- Agenda for tomorrow's weekly meeting
 - Product strategy with Ghislaine
 - Another prep meeting for fundraising meeting
 - Make adjustments to fundraising script based on feedback
@@ -25,6 +25,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Follow up with various people who've helped me over the last few months
 
 # Complete
+
+## 2023-08-01 (Tue)
+- **Comms**
+	- Caught up on GitHub / Matrix / email + related action items
+- **Team management**
+	- Long 1:1 with Brent
+
 
 ## 2023-07-31 (Mon)
 *Partial day, sick*
