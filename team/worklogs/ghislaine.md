@@ -7,6 +7,17 @@ tags:
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+## 2023-08-01
+
+Today, I kept working on understanding the various niches we've identified. The goal is to find use cases that match our project's goals and consider the needs of different user personas. I also added new data to our user research database and have been looking at products that already exist in each category. This helps us identify new use cases and get a better understanding of each category.
+
+I had a chat with Kriti today about how the research is going. We talked about what I've found so far, how I'm doing the research, and how we might improve. We're also planning to talk to other team members to get their thoughts on the user research and the use cases we've found.
+
+**Current Focus:**
+
+- Digging deeper into the niches and their use cases.
+- Adding more data to our user research database.
+- Getting feedback from the team on our research and use cases.
 
 ## 2023-07-28
 
