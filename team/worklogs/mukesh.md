@@ -9,14 +9,24 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-
-- Review Rajat's Internationalization PR
-- Removing the mandatory DB superuser requirement 
+- Create PR for Postgres included docker image
 - Review local settings PR
 
 ## Backlog
 - Review the PR's opened by Varsha
 - Review external contributors PRs
+
+## 2023-08-01
+
+- Discussions related to failing test cases due to max db clients error
+- Clean up the mathesar docker image
+
+
+## 2023-07-31
+- PR for removing superuser requirement
+- Review Rajat's Internationalization PR
+- Some async discussions
+- Add postgres to mathesar docker image
 
 ## 2023-07-28
 - Work on removing DB superuser permissions
