@@ -8,7 +8,23 @@ editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
-## 2023-07-28
+## 2023-08-01
+
+**TODO**
+
+- PR for import/export
+- AIs from "Next Release" milestone email.
+
+**Active**
+
+- Replacing more translations strings in the FE codebase.
+- Follow up with i18n PRs review
+
+**Completed**
+
+- v0.1.3 milestone health check
+
+## 2023-07-31
 
 **TODO**
 
