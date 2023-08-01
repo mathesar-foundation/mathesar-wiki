@@ -14,10 +14,10 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
     - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
-- Review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099)
 
 ### Soon
 
+- Review [Shared queries - Auth handling for query requests, frontend consumer view, API tests](https://github.com/centerofci/mathesar/pull/3113)
 - Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100)
 - Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 - Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
@@ -36,6 +36,15 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-07-31 Monday
+
+*(Half day)*
+
+- [Discuss](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$ElSJKdD-NZu-FTThS51fThj5eSYsGYq5gypqp_ilbLU?via=matrix.mathesar.org&via=matrix.org) front end issue with installing packages
+- Review [[i18n] Install typesafe-i18n & translates one component](https://github.com/centerofci/mathesar/pull/3099) and email dev list about package issue
+- Some work on optional inference
+- Some smaller discussions
 
 ## 2023-07-30 Sunday
 
