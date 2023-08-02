@@ -37,6 +37,12 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-01 Tuesday
+
+*(Only able to work a couple hr due to failed kid nap)*
+
+- Some work on optional inference
+
 ## 2023-07-31 Monday
 
 *(Half day)*
