@@ -1,8 +1,22 @@
 ## Active
 
-- Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3078](https://github.com/centerofci/mathesar/issues/3078)
+- Finish [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo mode)
+- Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
+- Sync with Brent over [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
+- Reread yesterday's weekly meeting notes
+  - https://hackmd.io/gthFkJDUTli5llXCgcYjEg
+- Respond in discussions-we-need-to-have email thread
+  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwVzsNfDsvzfLJPHMQvlXGJvc
+- Respond in project idea brainstorming for next cycle
+  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwVzsNfFDDwrsFHhRpnXpGTMM
+- Respond in product strategy email thread
+  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMcKCtBFnkMwPZHXZSnSqDfq
+- Respond in closing user tickets email thread
+  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMfZrMpGkfSMvJsTMTfrZGSK
+- Review [#3127](https://github.com/centerofci/mathesar/issues/3127) (pavish's pr)
+- Prepare/organize Friday's core team event
 - Make reservations for the GSoC mentor summit
-- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests PR) reviewed
+- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
   - Once [#3059](https://github.com/centerofci/mathesar/issues/3059) is merged
 
 ## Backlog
@@ -13,6 +27,27 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-08-03
+
+- Review [#3113](https://github.com/centerofci/mathesar/issues/3113) (pavish's pr)
+- Pushed draft pr [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo mode)
+- Review and merge [#3059](https://github.com/centerofci/mathesar/issues/3059) (anshuman's pr)
+- Create and update [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
+- Respond in the release email thread
+- Respond in Varsha's API endpoint email thread
+
+### 2023-08-02
+
+- Sync with Anshuman
+- Review [#3059](https://github.com/centerofci/mathesar/issues/3059) (anshuman's pr)
+- Read conversation about fdws in backend channel
+- Read conversation with plan2 in general channel
+
+### 2023-07-27
+
+- Review [#3107](https://github.com/centerofci/mathesar/issues/3107) (brent's PR)
+- Made part of reservations for the GSoC summit
 
 ### 2023-07-27
 
