@@ -10,30 +10,52 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## Actively working on
 
-### Meetings
-- 1:1 with Kriti
-
-### Infrastructure
-- Figure out where the steps to refresh the demo instances were, and make their location more obvious.
-
 ### RSQLA1 project work:
-- Moving table splitting work to SQL
-  - Writing tests, documentation
+- Moving column moving work to SQL.
 
 ### User help
 - Conduct a round of follow-up with various users.
 
 
-## 2023-08-01
+## 2023-08-03
+
+### PR reviews
+- [Add pldebugger to dev db #3126](https://github.com/centerofci/mathesar/pull/3126)
+
+
+## 2023-08-02
+
+### Meetings
+- ad-hoc catch up with Mukesh to discuss data losing bug in column merging logic
+- Team meeting
+
+### PR reviews
+- [Tests for links & constraints ddl #3120](https://github.com/centerofci/mathesar/pull/3120) (merged)
+
+### RSQLA1 project work
+- Found bug in column moving logic, discussed with Mukesh, made plan for proceeding
+- Fixed another bug with PR: [Properly detect identity columns #3125](https://github.com/centerofci/mathesar/pull/3125)
 
 ### Bugfixes
+- PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) is merged after some chnages
+  
+### Ad-hoc
+- Helped Rajat with how to install `gettext` in containers for his translations project.
+
+
+## 2023-08-01
+
+### Meetings
+- 1:1 with Kriti
+
+### Misc. Bugfixes
 - Started PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) to sort out intermittent test failures
 
 ### PR Reviews
 - [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117)
 
 ### RSQLA1
-- 
+- Submitted PR [Move table splitting logic to SQL #3119](https://github.com/centerofci/mathesar/pull/3119)
 
 
 ## 2023-07-31
