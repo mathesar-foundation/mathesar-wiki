@@ -37,6 +37,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-02 Wednesday
+
+*(Another short day)*
+
+- Some work on optional inference
+- Team meeting
+
 ## 2023-08-01 Tuesday
 
 *(Only able to work a couple hr due to failed kid nap)*
