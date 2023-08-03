@@ -9,7 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Weekly meeting
 - Make adjustments to fundraising script based on feedback
 - Practice fundraising script
 
@@ -23,6 +22,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Follow up with various people who've helped me over the last few months
 
 # Complete
+
+## 2023-08-02 (Wed)
+*Out sick for most of the day*
+
+- Weekly meeting
+- Followed up on weekly meeting with async discussion emails
+- Caught up on GitHub / Matrix / email + related action items
 
 ## 2023-08-01 (Tue)
 - **Comms**
