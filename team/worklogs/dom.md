@@ -1,9 +1,8 @@
 ## Active
 
-- Finish [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo mode)
+- Post weekly project update
 - Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
-- Sync with Brent over [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
-- Reread yesterday's weekly meeting notes
+- Reread Wednesday's weekly meeting notes
   - https://hackmd.io/gthFkJDUTli5llXCgcYjEg
 - Respond in discussions-we-need-to-have email thread
   - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwVzsNfDsvzfLJPHMQvlXGJvc
@@ -14,10 +13,8 @@
 - Respond in closing user tickets email thread
   - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMfZrMpGkfSMvJsTMTfrZGSK
 - Review [#3127](https://github.com/centerofci/mathesar/issues/3127) (pavish's pr)
-- Prepare/organize Friday's core team event
 - Make reservations for the GSoC mentor summit
 - See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
-  - Once [#3059](https://github.com/centerofci/mathesar/issues/3059) is merged
 
 ## Backlog
 
@@ -27,6 +24,16 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-08-03
+
+- Prepare/organize Friday's core team event
+- Finish [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo mode)
+- Fix demo README.md instructions to include `python manage.py setup_demo_template_db`
+- Update [#3128](https://github.com/centerofci/mathesar/issues/3128) with meeting notes
+- Review [#3113](https://github.com/centerofci/mathesar/issues/3113) (pavish's pr)
+- Sync with Brent over [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
+- Notify developer email list of breaking changes in dev db container
 
 ### 2023-08-03
 
