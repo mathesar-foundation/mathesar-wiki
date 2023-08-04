@@ -13,16 +13,19 @@ dateCreated: 2023-07-07T18:46:25.644Z
 ### Active
 
 - [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
-    - [Make column type inference optional](https://github.com/centerofci/mathesar/issues/2358)
-
-### Soon
+    - [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
 
 - Review [Shared queries - Auth handling for query requests, frontend consumer view, API tests](https://github.com/centerofci/mathesar/pull/3113)
 - Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100)
+
+### Soon
+
 - Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 - Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
 - Review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
+- Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
+- Review [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
 
 ### Paused
 
@@ -36,6 +39,14 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-03 Thursday
+
+- Some thinking about "niche" conversations and email thread
+- Call with Ghislaine about use cases
+- Some [discussion](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$ZBG79ELY4prXkTqki5zKqZ68NQAXk_GscW0fG-V8Snc?via=matrix.mathesar.org&via=matrix.org) about how to prioritize front end work this cycle
+- [Resolve](https://github.com/centerofci/mathesar/pull/3050/commits/b9177583a9699c2cf439ec8e47bb9e594df31075) tricky git conflicts in my optional inference PR due to i18n work
+- Some work on optional inference
 
 ## 2023-08-02 Wednesday
 
