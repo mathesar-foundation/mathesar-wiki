@@ -22,6 +22,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Ensure our team workflow is up to date on the wiki
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
+- Competitor research
 
 # Complete
 
