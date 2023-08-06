@@ -9,9 +9,19 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 # Actively working on
-* Final PR to address smaller issues and finish 'Shares' project
+* Resolving reviews and getting PRs for the 'Shares' project merged.
+* Raising a number issues based on previous chats on Matrix
+* Coming up with discussions needed during cooldown
 
 # Daily logs
+## 2023-08-07
+* Raised PR to finish up 'Shares' project.
+  - [#3133 Shares - regenerate link, general fixes](https://github.com/centerofci/mathesar/pull/3133)
+
+## 2023-08-04
+* Core team event
+* Continued work on finishing up 'Shares' project.
+
 ## 2023-08-03
 * Usecase feedback meeting with Ghislaine
 * Started work on addressing smaller issues in 'Shares'
