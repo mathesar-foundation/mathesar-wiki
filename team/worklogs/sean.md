@@ -40,6 +40,12 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-04 Friday
+
+- Team event
+- Some work on optional inference
+- Some smaller discussions
+
 ## 2023-08-03 Thursday
 
 - Some thinking about "niche" conversations and email thread
