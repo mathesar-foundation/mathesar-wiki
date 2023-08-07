@@ -10,18 +10,56 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## Actively working on
 
-### RSQLA1 project work:
-- Moving column moving work to SQL.
+### PR reviews
+- [Wiring sql functions for links and tables #3130](https://github.com/centerofci/mathesar/pull/3130)
+- [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
+
+### Comms
+- Going through email inbox, catching up on current state of relevant projects
+- Going through GH inbox
+- Write up update for RSQLA1
+- Write up project proposal drafts for a number of things that came up over the cycle to spur discussion
+  - [ ] Finish column moving feature, improve logic
+  - [ ] Finish table merging feature (could potentially be added to above)
+  - [ ] Improve back end tests, determine and implement actual testing strategy
+  - [ ] First-pass support for DB views
+  - [ ] Mathesar update capability analysis, determine plan
+
+### RSQLA1
+- Go through [meta issue](https://github.com/centerofci/mathesar/issues/2737), determine what's done, what doesn't make sense anymore
 
 ### User help
 - Conduct a round of follow-up with various users.
 
 
+## 2023-08-07
+
+### PR reviews
+- [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117) (approved; awating product approval)
+
+## 2023-08-04
+
+### Meetings
+- 1:1 with Dom w.r.t. dynamic defaults
+- 1:1 with Mukesh
+- Core team event
+
+### RSQLA1
+- Fixed an issue with column altering for Anish's PR
+- Added comments and merged [Move table splitting logic to SQL #3119](https://github.com/centerofci/mathesar/pull/3119)
+- Did a deep dive into column merging logic; determined that moving it to SQL is a bad idea at this juncture.
+
+
 ## 2023-08-03
+
+This was a short day for me
 
 ### PR reviews
 - [Add pldebugger to dev db #3126](https://github.com/centerofci/mathesar/pull/3126)
+- [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
 
+### Meetings
+- 1:1 with Anish
 
 ## 2023-08-02
 
