@@ -10,7 +10,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Working on
 - Catch up on GitHub PR review
-- Figure out current state of projects and next steps for release
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
 
@@ -30,9 +29,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Triaged email and GitHub
 	- Rescheduled some meetings
 	- Call with Zack from Openverse
-- **Project management**
-	- Followed up on project update threads
 - **Release management**
+	- Caught up on current state of projects and next steps for release
+	- Followed up on various project threads
 	- Made decisions on release cut off date and issue prioritization
 - **Product**
 	- Reviewed i18n switcher PR
