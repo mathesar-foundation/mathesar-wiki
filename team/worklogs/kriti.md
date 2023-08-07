@@ -37,6 +37,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Made decisions on release cut off date and issue prioritization
 - **Product**
 	- Reviewed i18n switcher PR
+	- Updated superuser creation copy in [this PR](https://github.com/centerofci/mathesar/pull/3131)
 
 ## 2023-08-04 (Fri)
 - **Fundraising**
