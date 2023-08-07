@@ -1,6 +1,7 @@
 ## Active
 
-- Post weekly project update
+- Create issue for the performance issues discovered by Sean related to columns and tables endpoints
+- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
 - Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
 - Reread Wednesday's weekly meeting notes
   - https://hackmd.io/gthFkJDUTli5llXCgcYjEg
@@ -12,9 +13,9 @@
   - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMcKCtBFnkMwPZHXZSnSqDfq
 - Respond in closing user tickets email thread
   - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMfZrMpGkfSMvJsTMTfrZGSK
+- Review [#3133](https://github.com/centerofci/mathesar/issues/3133) (pavish's pr)
 - Review [#3127](https://github.com/centerofci/mathesar/issues/3127) (pavish's pr)
 - Make reservations for the GSoC mentor summit
-- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
 
 ## Backlog
 
@@ -25,7 +26,17 @@
 
 ## Complete
 
-### 2023-08-03
+### 2023-08-07
+
+- Post weekly project update
+- Got a database dump from Sean to see if I can reproduce
+- Sync with Sean about imports and weird HTTP/reflection problems he's facing
+- Push changes to [#3113](https://github.com/centerofci/mathesar/issues/3113) to fix connection leak
+- Organize keeping more detailed meeting notes for Anshuman's project
+- Push changes to [#3113](https://github.com/centerofci/mathesar/issues/3113) to make it clearer
+- Sync with Pavish over [#3113](https://github.com/centerofci/mathesar/issues/3113)
+
+### 2023-08-04
 
 - Prepare/organize Friday's core team event
 - Finish [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo mode)
