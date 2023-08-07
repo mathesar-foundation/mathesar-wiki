@@ -11,7 +11,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Working on
 - Catch up on GitHub PR review
 - Figure out current state of projects and next steps for release
-- 1:1 with Sean
 - Call with Zack from Openverse
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
@@ -38,6 +37,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Product**
 	- Reviewed i18n switcher PR
 	- Updated superuser creation copy in [this PR](https://github.com/centerofci/mathesar/pull/3131)
+- **Team**
+	- 1:1 with Sean
 
 ## 2023-08-04 (Fri)
 - **Fundraising**
