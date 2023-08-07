@@ -9,11 +9,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- Catch up on GitHub PR review
+- Figure out current state of projects and next steps for release
+- 1:1 with Sean
+- Call with Zack from Openverse
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
-- Figure out current state of projects and next steps for release
-- Product strategy discussion with Ghislaine
-- Call with Zack from Openverse
 
 ## Backlog
 - Review Sean's Querydown document
@@ -25,6 +26,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Competitor research
 
 # Complete
+
+## 2023-08-07 (Mon)
+- **Comms**
+	- Triaged email and GitHub
+	- Rescheduled some meetings
 
 ## 2023-08-04 (Fri)
 - **Fundraising**
