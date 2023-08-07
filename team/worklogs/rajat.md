@@ -8,6 +8,39 @@ editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
+## 2023-08-04
+
+**TODO**
+
+- AIs from "Next Release" milestone email.
+- Check v0.1.3 release progress
+
+**Active**
+
+- Replacing more translations strings in the FE codebase.
+- Follow up with i18n PRs review
+
+**Completed**
+
+- [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/pull/3131)
+- Repo admin work
+
+## 2023-08-03
+
+**TODO**
+
+- AIs from "Next Release" milestone email.
+
+**Active**
+
+- [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/issues/3056)
+- Replacing more translations strings in the FE codebase.
+- Follow up with i18n PRs review
+
+**Completed**
+
+- Repo admin work
+
 ## 2023-08-02
 
 **TODO**
