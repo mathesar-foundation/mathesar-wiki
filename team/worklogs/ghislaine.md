@@ -7,6 +7,24 @@ tags:
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+## 2023-08-07
+
+Today, I had further conversations with several team members to gather their thoughts and perspectives. Following these discussions, I spent time organizing the notes. I aim to review these with Kriti to validate the findings and ensure we're moving in the right direction.
+
+**Current Focus:**
+
+- Finalizing notes from team discussions for review.
+- Finalizing the updates to the survey based on team feedback and insights.
+
+## 2023-08-04
+
+Today was a slower-paced day. I reviewed the notes taken from team discussions during the week. I also continued adjusting the survey based on the current goals.
+
+**Current Focus:**
+
+- Reviewing and adjusting the survey to learn more about niches.
+- Continuing to research and understand our identified niches.
+
 ## 2023-08-03
 
 Today, I engaged in multiple conversations with team members about the use cases we've identified, the data we're capturing, and the insights we've gathered so far.
@@ -17,7 +35,7 @@ Aditionally, I worked on updating the design for creating the admin user.
 
 **Current Focus:**
 
-- Finalizing and distributing the surveys for niche research.
+- Updating the surveys for niche research.
 - Continuing discussions with team members for feedback and insights.
 
 ## 2023-08-02
