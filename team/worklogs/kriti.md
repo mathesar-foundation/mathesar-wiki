@@ -9,20 +9,38 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Weekly meeting
-- Make adjustments to fundraising script based on feedback
-- Practice fundraising script
+- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
+- Also go through General channel feedback and create issues or other follow ups
+- Figure out current state of projects and next steps for release
+- Product strategy discussion with Ghislaine
+- Call with Zack from Openverse
 
 ## Backlog
-- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Review Sean's Querydown document
 - Reorganize and document ongoing responsibilities better
 - Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
 - Ensure our team workflow is up to date on the wiki
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
+- Competitor research
 
 # Complete
+
+## 2023-08-04 (Fri)
+- **Fundraising**
+	- Made adjustments to fundraising script and slides based on feedback from practice sessions
+	- Practiced fundraising presentation
+ 	- Meeting with funder 
+
+## 2023-08-03 (Thu)
+*Day off*
+
+## 2023-08-02 (Wed)
+*Out sick for most of the day*
+
+- Weekly meeting
+- Followed up on weekly meeting with async discussion emails
+- Caught up on GitHub / Matrix / email + related action items
 
 ## 2023-08-01 (Tue)
 - **Comms**

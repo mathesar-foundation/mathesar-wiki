@@ -10,30 +10,90 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## Actively working on
 
-### Meetings
-- 1:1 with Kriti
+### PR reviews
+- [Wiring sql functions for links and tables #3130](https://github.com/centerofci/mathesar/pull/3130)
+- [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
 
-### Infrastructure
-- Figure out where the steps to refresh the demo instances were, and make their location more obvious.
+### Comms
+- Going through email inbox, catching up on current state of relevant projects
+- Going through GH inbox
+- Write up update for RSQLA1
+- Write up project proposal drafts for a number of things that came up over the cycle to spur discussion
+  - [ ] Finish column moving feature, improve logic
+  - [ ] Finish table merging feature (could potentially be added to above)
+  - [ ] Improve back end tests, determine and implement actual testing strategy
+  - [ ] First-pass support for DB views
+  - [ ] Mathesar update capability analysis, determine plan
 
-### RSQLA1 project work:
-- Moving table splitting work to SQL
-  - Writing tests, documentation
+### RSQLA1
+- Go through [meta issue](https://github.com/centerofci/mathesar/issues/2737), determine what's done, what doesn't make sense anymore
 
 ### User help
 - Conduct a round of follow-up with various users.
 
 
-## 2023-08-01
+## 2023-08-07
+
+### PR reviews
+- [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117) (approved; awating product approval)
+
+## 2023-08-04
+
+### Meetings
+- 1:1 with Dom w.r.t. dynamic defaults
+- 1:1 with Mukesh
+- Core team event
+
+### RSQLA1
+- Fixed an issue with column altering for Anish's PR
+- Added comments and merged [Move table splitting logic to SQL #3119](https://github.com/centerofci/mathesar/pull/3119)
+- Did a deep dive into column merging logic; determined that moving it to SQL is a bad idea at this juncture.
+
+
+## 2023-08-03
+
+This was a short day for me
+
+### PR reviews
+- [Add pldebugger to dev db #3126](https://github.com/centerofci/mathesar/pull/3126)
+- [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
+
+### Meetings
+- 1:1 with Anish
+
+## 2023-08-02
+
+### Meetings
+- ad-hoc catch up with Mukesh to discuss data losing bug in column merging logic
+- Team meeting
+
+### PR reviews
+- [Tests for links & constraints ddl #3120](https://github.com/centerofci/mathesar/pull/3120) (merged)
+
+### RSQLA1 project work
+- Found bug in column moving logic, discussed with Mukesh, made plan for proceeding
+- Fixed another bug with PR: [Properly detect identity columns #3125](https://github.com/centerofci/mathesar/pull/3125)
 
 ### Bugfixes
+- PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) is merged after some chnages
+  
+### Ad-hoc
+- Helped Rajat with how to install `gettext` in containers for his translations project.
+
+
+## 2023-08-01
+
+### Meetings
+- 1:1 with Kriti
+
+### Misc. Bugfixes
 - Started PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) to sort out intermittent test failures
 
 ### PR Reviews
 - [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117)
 
 ### RSQLA1
-- 
+- Submitted PR [Move table splitting logic to SQL #3119](https://github.com/centerofci/mathesar/pull/3119)
 
 
 ## 2023-07-31

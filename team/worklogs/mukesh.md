@@ -9,15 +9,31 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- Create PR for Postgres included docker image
+- Raise a PR for creating Mathesar debian package
+- Review and clean up any PR's for the current cycle
 - Review local settings PR
 
 ## Backlog
 - Review the PR's opened by Varsha
 - Review external contributors PRs
 
-## 2023-08-01
 
+## 2023-08-03
+
+- Make requested changes to [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
+- Review Column splitting PR
+- Add documentation changes to the Superuser create PR 
+- Check in with Rajat on the superuser create PR
+
+## 2023-08-02
+
+- Sync with Brent
+- Create PR for Postgres included docker image
+- Reply to the feedback for the [Remove db superuser requirement PR](https://github.com/centerofci/mathesar/pull/3117#top)
+- Team meeting
+- Review Rajat's Internalization PR
+
+## 2023-08-01
 - Discussions related to failing test cases due to max db clients error
 - Clean up the mathesar docker image
 

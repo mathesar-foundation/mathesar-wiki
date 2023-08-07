@@ -9,11 +9,31 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 # Actively working on
-* UI for sharing an entity
+* Resolving reviews and getting PRs for the 'Shares' project merged.
+* Raising a number issues based on previous chats on Matrix
+* Coming up with discussions needed during cooldown
 
 # Daily logs
+## 2023-08-07
+* Raised PR to finish up 'Shares' project.
+  - [#3133 Shares - regenerate link, general fixes](https://github.com/centerofci/mathesar/pull/3133)
+
+## 2023-08-04
+* Core team event
+* Continued work on finishing up 'Shares' project.
+
+## 2023-08-03
+* Usecase feedback meeting with Ghislaine
+* Started work on addressing smaller issues in 'Shares'
+  - Endpoint to regenerate link
+  - Hiding linked entities in shared table consumer page
+
+## 2023-08-02
+* Raised PR for [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
+* Team meeting
+
 ## 2023-08-01
-* Continued working on FE implementation of 'user sharing an entity' flow
+* Continued working on UI for creating & managing shares for tables and explorations
 * Got PR for [viewing shared queries](https://github.com/centerofci/mathesar/pull/3113) ready
 * Helped fix pipeline for intermittent failing tests
 
