@@ -31,6 +31,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Comms**
 	- Triaged email and GitHub
 	- Rescheduled some meetings
+- **Project management**
+	- Followed up on project update threads
+- **Release management**
+	- Made decisions on release cut off date and issue prioritization
+- **Product**
+	- Reviewed i18n switcher PR
 
 ## 2023-08-04 (Fri)
 - **Fundraising**
