@@ -9,19 +9,18 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Catch up on email
-- Agenda for tomorrow's weekly meeting
+- Weekly meeting
+- How to Raise Money workshop session
+- Reorganize and document ongoing responsibilities better
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
 - Review Sean's Querydown document
-- Reorganize and document ongoing responsibilities better
 - Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
 - Ensure our team workflow is up to date on the wiki
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
 - Competitor research
-
 # Complete
 
 ## 2023-08-08 (Tue)
@@ -34,10 +33,11 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Reviewed the [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
 - **Team**
 	- (Long) 1:1 with Dom
+	- Wrote up and sent out agenda for tomorrow's weekly meeting
 - **Fundraising**
 	- 1:1 with Geoffrey to do funder call post-mortem
 - **Comms**
-	- Triaged GitHub
+	- Triaged GitHub and email
 
 ## 2023-08-07 (Mon)
 - **Comms**
