@@ -29,6 +29,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Product**
 	- Product strategy discussion & next steps with Ghislaine
 	- Commented on copy changes in [optional inference PR](https://github.com/centerofci/mathesar/pull/3050)
+	- Reviewed product question in [DB privilege update PR](https://github.com/centerofci/mathesar/pull/3117)
+	- Made some updates to the docs in the [superuser creation docs update PR](https://github.com/centerofci/mathesar/pull/3134)
+	- Made some updates to the docs and reviewed the [Postgres Docker image PR](https://github.com/centerofci/mathesar/pull/3121)
 - **Team**
 	- (Long) 1:1 with Dom
 - **Fundraising**
