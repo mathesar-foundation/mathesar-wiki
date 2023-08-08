@@ -9,8 +9,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Catch up on email and GitHub
-- Catch up on GitHub PR review
+- Catch up on email
 - Agenda for tomorrow's weekly meeting
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
@@ -32,10 +31,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Reviewed product question in [DB privilege update PR](https://github.com/centerofci/mathesar/pull/3117)
 	- Made some updates to the docs in the [superuser creation docs update PR](https://github.com/centerofci/mathesar/pull/3134)
 	- Made some updates to the docs and reviewed the [Postgres Docker image PR](https://github.com/centerofci/mathesar/pull/3121)
+	- Reviewed the [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
 - **Team**
 	- (Long) 1:1 with Dom
 - **Fundraising**
 	- 1:1 with Geoffrey to do funder call post-mortem
+- **Comms**
+	- Triaged GitHub
 
 ## 2023-08-07 (Mon)
 - **Comms**
