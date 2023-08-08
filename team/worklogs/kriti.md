@@ -9,11 +9,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- Catch up on email and GitHub
 - Catch up on GitHub PR review
+- Agenda for tomorrow's weekly meeting
+## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
-
-## Backlog
 - Review Sean's Querydown document
 - Reorganize and document ongoing responsibilities better
 - Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
@@ -23,6 +24,15 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Competitor research
 
 # Complete
+
+## 2023-08-08 (Tue)
+- **Product**
+	- Product strategy discussion & next steps with Ghislaine
+	- Commented on copy changes in [optional inference PR](https://github.com/centerofci/mathesar/pull/3050)
+- **Team**
+	- (Long) 1:1 with Dom
+- **Fundraising**
+	- 1:1 with Geoffrey to do funder call post-mortem
 
 ## 2023-08-07 (Mon)
 - **Comms**
