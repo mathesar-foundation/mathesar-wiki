@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-07-19T23:10:46.401Z
+date: 2023-08-08T12:34:20.978Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -50,10 +50,14 @@ Issues that likely need coordination with others.
 
 I expect each of these to take roughly 3 days to complete.
 
-- [x] [Fix API handling of multi-column UNIQUE and PK columns #2245](https://github.com/centerofci/mathesar/issues/2245)
-- [ ] [Incorporate field name into error messages when relevant · Issue #1370](https://github.com/centerofci/mathesar/issues/1370)
-- [ ] [Keep `today` as `today` in column default value · Issue #2754](https://github.com/centerofci/mathesar/issues/2754)
-- [ ] [Support unknown Postgres types · Issue #3024 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3024)
+- [Fix API handling of multi-column UNIQUE and PK columns #2245](https://github.com/centerofci/mathesar/issues/2245)
+- [Incorporate field name into error messages when relevant · Issue #1370](https://github.com/centerofci/mathesar/issues/1370)
+- [Keep `today` as `today` in column default value · Issue #2754](https://github.com/centerofci/mathesar/issues/2754)
+- [Support unknown Postgres types · Issue #3024 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3024)
+
+### Note on progress tracking
+
+This document is not meant to track progress or updates to the plan. See the [meta issue](https://github.com/centerofci/mathesar/issues/3022) for that.
 
 ### Block-proof issues
 
@@ -61,11 +65,11 @@ Issues that likely *do not* need coordination with others.
 
 I expect each of these to take roughly 1 day to complete.
 
-- [ ] [Add support for `citext` column type #2959](https://github.com/centerofci/mathesar/issues/2959) (might be superseded by [#3024](https://github.com/centerofci/mathesar/issues/3024))
-- [ ] [Add support for `point` column type #3007](https://github.com/centerofci/mathesar/issues/3007) (might be superseded by [#3024](https://github.com/centerofci/mathesar/issues/3024))
-- [ ] [Demo users should only see their own database #2983](https://github.com/centerofci/mathesar/issues/2983)
-- [ ] [StatementError when using the Record Selector to search by a partially-entered UUID #2724](https://github.com/centerofci/mathesar/issues/2724)
-- [ ] [Make permissions requirements clear for gunicorn user · Issue #3013 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3013)
+- [Add support for `citext` column type #2959](https://github.com/centerofci/mathesar/issues/2959) (might be superseded by [#3024](https://github.com/centerofci/mathesar/issues/3024))
+- [Add support for `point` column type #3007](https://github.com/centerofci/mathesar/issues/3007) (might be superseded by [#3024](https://github.com/centerofci/mathesar/issues/3024))
+- [Demo users should only see their own database #2983](https://github.com/centerofci/mathesar/issues/2983)
+- [StatementError when using the Record Selector to search by a partially-entered UUID #2724](https://github.com/centerofci/mathesar/issues/2724)
+- [Make permissions requirements clear for gunicorn user · Issue #3013 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3013)
 
 ### Time budgeting and progress estimation
 
