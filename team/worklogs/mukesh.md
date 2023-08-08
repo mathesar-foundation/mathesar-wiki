@@ -21,6 +21,11 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## 2023-08-07
 
+- Sync with Brent on the PR for adding Postgres to our docker image
+
+
+## 2023-08-07
+
 - Sync with Ghislaine on Postgis use-case
 - Address review feedback
 - Review Rajat's PR
