@@ -11,7 +11,6 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### PR reviews
-- [Wiring sql functions for links and tables #3130](https://github.com/centerofci/mathesar/pull/3130)
 - [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
 
 ### Comms
@@ -34,8 +33,13 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## 2023-08-07
 
+
+### Meetings
+- Met with Ghislaine about use cases
+
 ### PR reviews
 - [Remove db superuser requirement #3117](https://github.com/centerofci/mathesar/pull/3117) (approved; awating product approval)
+- [Wiring sql functions for links and tables #3130](https://github.com/centerofci/mathesar/pull/3130) (merged)
 
 ## 2023-08-04
 
