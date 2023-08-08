@@ -10,35 +10,26 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ## TODO
 
-### Active
-
-- [Frontend-fixes project](../../projects/2023-07-frontend-fixes.md)
-    - [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
-
-- Review [Shared queries - Auth handling for query requests, frontend consumer view, API tests](https://github.com/centerofci/mathesar/pull/3113)
-- Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100)
-
 ### Soon
 
-- Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
-- Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
-- Review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
-- Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
-- Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
-- Review [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
-
-### Paused
-
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-    (Paused while I focus my time on optional inference)
+- Review a whole lot of PRs assigned to me
 
 ### Backlog
 
+- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar-wiki/pull/93)
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-07 Monday
+
+- Call with Dom re troubleshooting API weirdness
+- Continue troubleshooting issues with weird errors. Try unsuccessfully to wipe out all my Docker state
+- 1/1 with Kriti
+- Bring optional [inference PR](https://github.com/centerofci/mathesar/pull/3050) out of draft state
 
 ## 2023-08-04 Friday
 
