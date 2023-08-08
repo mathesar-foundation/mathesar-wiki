@@ -9,13 +9,35 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- Raise a PR for creating Mathesar debian package
-- Review and clean up any PR's for the current cycle
+- Clean up the pending work from the previous cycle and push to remote branch. So that the work can be continued in later cycle
+- PR review for this cycle
+- Reply to the brainstorming email
 - Review local settings PR
 
 ## Backlog
 - Review the PR's opened by Varsha
 - Review external contributors PRs
+
+
+## 2023-08-07
+
+- Sync with Ghislaine on Postgis use-case
+- Address review feedback
+- Review Rajat's PR
+
+## 2023-08-04
+
+- Sync with Brent
+- Team Event
+- Debug issues with the debian package 
+
+
+## 2023-08-03
+
+- Make requested changes to [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
+- Review Column splitting PR
+- Add documentation changes to the Superuser create PR 
+- Check in with Rajat on the superuser create PR
 
 
 ## 2023-08-03
@@ -27,7 +49,7 @@ dateCreated: 2023-07-07T16:40:32.972Z
 
 ## 2023-08-02
 
-- Sync with Brent
+- Sync with Brent to discuss issues with column moving logic
 - Create PR for Postgres included docker image
 - Reply to the feedback for the [Remove db superuser requirement PR](https://github.com/centerofci/mathesar/pull/3117#top)
 - Team meeting
