@@ -24,6 +24,11 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-09 Wednesday
+
+- Team meeting
+- Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100#pullrequestreview-1570307778), adding some commits
+
 ## 2023-08-08 Tuesday
 
 *(Partial day due to sick kid)*
