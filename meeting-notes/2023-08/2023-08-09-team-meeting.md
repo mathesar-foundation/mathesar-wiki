@@ -1,3 +1,13 @@
+---
+title: 2023-08-09 team meeting
+description: 
+published: true
+date: 2023-08-09T17:55:19.887Z
+tags: 
+editor: markdown
+dateCreated: 2023-08-09T17:52:50.774Z
+---
+
 **Attendees**: Anish, Brent, Dom, Ghislaine, Kriti, Mukesh, Pavish, Rajat, Sean
 
 ## Product strategy & niche discussion
