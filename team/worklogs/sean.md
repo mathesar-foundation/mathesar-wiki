@@ -24,6 +24,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-08 Tuesday
+
+*(Partial day due to sick kid)*
+
+- Continue troubleshooting Docker issue
+- Review [Shared queries - Auth handling for query requests, frontend consumer view, API tests](https://github.com/centerofci/mathesar/pull/3113)
+
 ## 2023-08-07 Monday
 
 - Call with Dom re troubleshooting API weirdness
