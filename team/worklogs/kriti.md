@@ -9,7 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Plan out tomorrow's meeting
 - Reorganize and document ongoing responsibilities better
 - Complete product strategy document and update project page on wiki
 ## Backlog
@@ -26,6 +25,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ## 2023-08-09 (Wed)
 - **Team & project management**
 	- Ran today's team meeting
+	- Added more notes after the meeting and posted notes to the wiki
+	- Planned out tomorrow's weekly meeting
 - **Comms**
 	- Triaged GitHub and email
 	- Some responses
