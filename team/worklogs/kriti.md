@@ -9,9 +9,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Weekly meeting
-- How to Raise Money workshop session
+- Plan out tomorrow's meeting
 - Reorganize and document ongoing responsibilities better
+- Complete product strategy document and update project page on wiki
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
@@ -23,6 +23,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Competitor research
 # Complete
 
+## 2023-08-09 (Wed)
+- **Team & project management**
+	- Ran today's team meeting
+- **Comms**
+	- Triaged GitHub and email
+	- Some responses
+* **Fundraising**
+	* How to Raise Money workshop session (9/11)
 ## 2023-08-08 (Tue)
 - **Product**
 	- Product strategy discussion & next steps with Ghislaine
