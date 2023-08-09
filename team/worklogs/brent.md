@@ -10,19 +10,12 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## Actively working on
 
-### PR reviews
-- [Add Postgres to Mathesar docker image #3121](https://github.com/centerofci/mathesar/pull/3121)
+### Projects
+- Writing up project proposal draft for finishing and improving column extraction/moving and table merging logic
+- Going back through RSQLA 2, 3, 4 writeups and updating them
 
-### Comms
-- Going through email inbox, catching up on current state of relevant projects
-- Going through GH inbox
-- Write up update for RSQLA1
-- Write up project proposal drafts for a number of things that came up over the cycle to spur discussion
-  - [ ] Finish column moving feature, improve logic
-  - [ ] Finish table merging feature (could potentially be added to above)
-  - [ ] Improve back end tests, determine and implement actual testing strategy
-  - [ ] First-pass support for DB views
-  - [ ] Mathesar update capability analysis, determine plan
+### SQL code update functionality
+- Testing to make sure there are no problems updating from v0.1.2 to current develop w.r.t. SQL code changes.
 
 ### RSQLA1
 - Go through [meta issue](https://github.com/centerofci/mathesar/issues/2737), determine what's done, what doesn't make sense anymore
@@ -30,9 +23,19 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ### User help
 - Conduct a round of follow-up with various users.
 
+## 2023-08-08
+
+### Meetings
+- Long catch up with Mukesh about his open PRs, and column moving logic
+
+### Comms
+- Cleared out email inbox
+- Cleared out GH inbox
+- Wrote/sent update for RSQLA1
+- Wrote long email about project ideas
+- Async discussion with Anish about what he could work on during the cool down
 
 ## 2023-08-07
-
 
 ### Meetings
 - Met with Ghislaine about use cases
