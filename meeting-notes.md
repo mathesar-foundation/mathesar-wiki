@@ -11,6 +11,7 @@ dateCreated: 2021-04-23T10:53:59.841Z
 These are the Mathesar core team's meeting notes.
 
 ## 2023
+- [August 2023](./meeting-notes/2023-08.md)
 - [July 2023](./meeting-notes/2023-07.md)
 - [June 2023](./meeting-notes/2023-06.md)
 - [May 2023](./meeting-notes/2023-05.md)
