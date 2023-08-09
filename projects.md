@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-07-19T23:00:24.016Z
+date: 2023-08-09T05:29:31.671Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -26,7 +26,7 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | In progress |
+| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Complete |
 | Rajat     | [Internationalization](./projects/internationalization.md) | In progress |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | In progress |
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | In progress |
@@ -38,7 +38,7 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | In progress |
+| Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Complete |
 | Anshuman | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
 | Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
 | Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
