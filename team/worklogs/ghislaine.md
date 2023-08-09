@@ -7,6 +7,24 @@ tags:
 editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
+
+## 2023-08-09
+
+Worked on the initial draft for our Niche Research project. Began exploring methods to shape our personas. We also had our weekly team catch-up.
+
+**Current Focus**:
+- Organize meetings with team members who missed the initial one-on-ones.
+- Get feedback on the Niche Research project draft.
+- Start the groundwork for the project.
+
+## 2023-08-08
+
+Wrapped up my notes on use cases feedback from team members. Also made necessary updates to our survey to make it more goal oriented. Kriti and I discussed upcoming tasks and I put together a simple plan for Niche Research.
+
+**Current Focus**:
+
+- Start draft for Niche Research project.
+
 ## 2023-08-07
 
 Today, I had further conversations with several team members to gather their thoughts and perspectives. Following these discussions, I spent time organizing the notes. I aim to review these with Kriti to validate the findings and ensure we're moving in the right direction.
