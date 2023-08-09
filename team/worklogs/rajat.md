@@ -8,16 +8,61 @@ editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
+## 2023-08-09
+
+**TODO**
+
+- AIs from the "Next Release" milestone email.
+
+**Active**
+
+- Review Pavish's PR for shareable links
+- Follow up with i18n PRs review
+
+**Completed**
+
+- Replacing more translation strings in the FE codebase. (Might need a little more work depending on the current open PRs review feedback)
+
+## 2023-08-08
+
+**TODO**
+
+- AIs from the "Next Release" milestone email.
+
+**Active**
+
+- Replacing more translation strings in the FE codebase.
+- Follow up with i18n PRs review
+
+## 2023-08-07
+
+**TODO**
+
+- AIs from the "Next Release" milestone email.
+
+**Active**
+
+- Replacing more translation strings in the FE codebase.
+- Follow up with i18n PRs review
+
+**Completed**
+
+- Check-in for v0.1.3 release progress
+- Progress report for the i18n project.
+- Update pending worklogs
+- Send e-mail for i18n ESlint rule current state
+- Repo admin work
+
 ## 2023-08-04
 
 **TODO**
 
-- AIs from "Next Release" milestone email.
-- Check v0.1.3 release progress
+- AIs from the "Next Release" milestone email.
+- Check-in for the v0.1.3 release progress
 
 **Active**
 
-- Replacing more translations strings in the FE codebase.
+- Replacing more translation strings in the FE codebase.
 - Follow up with i18n PRs review
 
 **Completed**
@@ -29,12 +74,12 @@ dateCreated: 2023-07-10T13:57:01.782Z
 
 **TODO**
 
-- AIs from "Next Release" milestone email.
+- AIs from the "Next Release" milestone email.
 
 **Active**
 
 - [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/issues/3056)
-- Replacing more translations strings in the FE codebase.
+- Replacing more translation strings in the FE codebase.
 - Follow up with i18n PRs review
 
 **Completed**
@@ -46,11 +91,11 @@ dateCreated: 2023-07-10T13:57:01.782Z
 **TODO**
 
 - [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/issues/3056)
-- AIs from "Next Release" milestone email.
+- AIs from the "Next Release" milestone email.
 
 **Active**
 
-- Replacing more translations strings in the FE codebase.
+- Replacing more translation strings in the FE codebase.
 - Follow up with i18n PRs review
 
 **Completed**
@@ -63,11 +108,11 @@ dateCreated: 2023-07-10T13:57:01.782Z
 **TODO**
 
 - PR for import/export
-- AIs from "Next Release" milestone email.
+- AIs from the "Next Release" milestone email.
 
 **Active**
 
-- Replacing more translations strings in the FE codebase.
+- Replacing more translation strings in the FE codebase.
 - Follow up with i18n PRs review
 
 **Completed**
