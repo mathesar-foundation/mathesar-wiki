@@ -1,30 +1,44 @@
 ## Active
 
-- Create issue for the performance issues discovered by Sean related to columns and tables endpoints
-- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
-- Do [#2754](https://github.com/centerofci/mathesar/issues/2754) (dynamic defaults) via [#3128](https://github.com/centerofci/mathesar/issues/3128) (allow whitelisted dynamic defaults)
-- Reread Wednesday's weekly meeting notes
-  - https://hackmd.io/gthFkJDUTli5llXCgcYjEg
-- Respond in discussions-we-need-to-have email thread
-  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwVzsNfDsvzfLJPHMQvlXGJvc
-- Respond in project idea brainstorming for next cycle
-  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwVzsNfFDDwrsFHhRpnXpGTMM
-- Respond in product strategy email thread
-  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMcKCtBFnkMwPZHXZSnSqDfq
-- Respond in closing user tickets email thread
-  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtwMfZrMpGkfSMvJsTMTfrZGSK
-- Review [#3133](https://github.com/centerofci/mathesar/issues/3133) (pavish's pr)
-- Review [#3127](https://github.com/centerofci/mathesar/issues/3127) (pavish's pr)
+- Sift and prioritize issues
+  - Sync with Sean on it early next week
+- See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
+- See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
+- Review [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's pr)
+- Review [#3132](https://github.com/centerofci/mathesar/issues/3132) (anshuman's pr)
+- Submit PR with test case for long identifiers in preexisting database
 - Make reservations for the GSoC mentor summit
 
 ## Backlog
 
-- Do [#1370](https://github.com/centerofci/mathesar/issues/1370) (improve backend error messages)
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
-- Submit PR with test case for long identifiers in preexisting database
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-08-10
+
+- Sync with Sean and Kriti over backlog prioritization
+- Respond in Criteria for closing user-reported tickets email thread
+- Team sync
+- Submit PR with test case for long identifiers in preexisting database [#3140](https://github.com/centerofci/mathesar/issues/3140)
+
+### 2023-08-09
+
+- Review [#3133](https://github.com/centerofci/mathesar/issues/3133) (pavish's pr)
+- Review [#3127](https://github.com/centerofci/mathesar/issues/3127) (pavish's pr)
+- Attend weekly meeting
+- Prepare for weekly meeting
+- Reread last Wednesday's weekly meeting notes
+- Sync with Brent
+
+### 2023-08-08
+
+- Report [#3135](https://github.com/centerofci/mathesar/issues/3135) (column endpoint is slow when columns are many)
+- Review [#3050](https://github.com/centerofci/mathesar/issues/3050) (sean's column inference pr)
+- Sync with Anshuman
+- See [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's excel tests pr) reviewed
+- Respond in backend fixes weekly update email thread
 
 ### 2023-08-07
 
