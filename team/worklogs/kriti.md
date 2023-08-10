@@ -9,6 +9,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
+- Post team meeting notes and get a summary with action items sent out to the team
 - Reorganize and document ongoing responsibilities better
 - Complete product strategy document and update project page on wiki
 ## Backlog
@@ -22,6 +23,15 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Competitor research
 # Complete
 
+## 2023-08-10 (Thu)
+- **Team & project management**
+	- Ran today's team meeting
+	- 1:1 with Pavish
+- **Comms**
+	- Triaged GitHub and email
+	- Follow up conversation about backlog organization with Sean and Dom (on Matrix)
+- **Product**
+	- Figured out next steps for [remove DB superuser requirement PR](https://github.com/centerofci/mathesar/pull/3117)
 ## 2023-08-09 (Wed)
 - **Team & project management**
 	- Ran today's team meeting
