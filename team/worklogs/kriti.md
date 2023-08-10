@@ -29,6 +29,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- 1:1 with Pavish
 - **Comms**
 	- Triaged GitHub and email
+	- Responded to pending emails
+	- Cleared out GitHub inbox and sent some follow ups about user reported issues
 	- Follow up conversation about backlog organization with Sean and Dom (on Matrix)
 - **Product**
 	- Figured out next steps for [remove DB superuser requirement PR](https://github.com/centerofci/mathesar/pull/3117)
