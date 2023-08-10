@@ -9,9 +9,7 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- Clean up the pending work from the previous cycle and push to remote branch. So that the work can be continued in later cycle
 - PR review for this cycle
-- Reply to the brainstorming email
 - Review local settings PR
 
 ## Backlog
@@ -19,10 +17,25 @@ dateCreated: 2023-07-07T16:40:32.972Z
 - Review external contributors PRs
 
 
+## 2023-08-10
+
+- Read through pre-meeting notes, come up with thoughts
+- Team meeting
+- More investigation into the Postgres docker image PR
+- Reply to superuser requirement PR
+- Fix superuser requirement PR
+
+## 2023-08-09
+
+- Read through pre-meeting notes
+- Team meeting
+- Fix the Postgres docker image PR
+- Review Rajat's PR
+
 ## 2023-08-08
 
 - Sync with Brent on the PR for adding Postgres to our docker image
-
+- Fix the Postgres docker image PR
 
 ## 2023-08-07
 
