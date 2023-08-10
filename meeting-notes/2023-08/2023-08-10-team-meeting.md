@@ -133,7 +133,10 @@ Are there projects that we need to continue?
     - Pavish (full-time)
     - Ghislaine (part-time)
     - Sean (part-time)
-
+## Remove SQLAlchemy project update
+- We're pausing work on this.
+- Brent wants to "let it simmer" for this cycle. Much of the work is done, but we need to validate the tactic we're using "in the field". There is still more work to do to fully remove SQLA, but we'll pause work on it for a while.
+- Brent was originally fearful that the refactoring would be disruptive. He's not as worried about that now, which is why he's okay with deferring it for a while.
 ## Future meetings
 
 ### Pre-meeting prep
