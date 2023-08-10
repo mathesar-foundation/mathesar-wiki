@@ -9,7 +9,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Post team meeting notes and get a summary with action items sent out to the team
+*Note: I am out on Friday and Monday, will be back Aug 15*
+
 - Reorganize and document ongoing responsibilities better
 - Complete product strategy document and update project page on wiki
 ## Backlog
@@ -27,6 +28,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - **Team & project management**
 	- Ran today's team meeting
 	- 1:1 with Pavish
+	- Augmented and posted team meeting notes on the wiki 
+	- Sent a summary with action items out to the team
 - **Comms**
 	- Triaged GitHub and email
 	- Responded to pending emails
