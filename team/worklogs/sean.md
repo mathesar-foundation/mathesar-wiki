@@ -28,6 +28,9 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 - Team meeting
 - Review [[i18n] RichText component](https://github.com/centerofci/mathesar/pull/3100#pullrequestreview-1570307778), adding some commits
+- Open ticket [Flatten BaseTranslation object](https://github.com/centerofci/mathesar/issues/3137)
+- Partially review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
 ## 2023-08-08 Tuesday
 
