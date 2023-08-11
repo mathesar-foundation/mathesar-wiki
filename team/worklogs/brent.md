@@ -11,8 +11,13 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ## Actively working on
 
 ### Projects
-- Writing up project proposal draft for finishing and improving column extraction/moving and table merging logic
 - Going back through RSQLA 2, 3, 4 writeups and updating them
+- Sync with Pavish, Ghislaine, Sean, and write up “Postgres DB compatibility investigation” project on the wiki
+- Sync with Ghislaine about niche research project
+
+### Comms
+- Start email thread on dev mailing list for “Should we install things on the DB?” discussion
+- Start email thread on dev mailing list for RSQLA1 retrospective
 
 ### SQL code update functionality
 - Testing to make sure there are no problems updating from v0.1.2 to current develop w.r.t. SQL code changes.
@@ -22,6 +27,33 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ### User help
 - Conduct a round of follow-up with various users.
+
+
+## 2023-08-10
+
+### Meetings
+- 1:1 with Anish
+- Team meeting
+- Summarization project meeting with Aritra
+
+
+### Comms
+- Wrote up thoughts about whether we should install things on the DB
+- Wrote up thoughts about Column moving project
+- Other meeting prep
+
+## 2023-08-09
+
+### Meetings
+- 1:1 with Dom
+- Weekly meeting
+
+### Projects
+- Wrote up project proposal draft for finishing and improving column extraction/moving and table merging logic
+
+### SQL updating
+- Made a prototype to experiment with dropping old SQL functions with manual cascade for safety
+
 
 ## 2023-08-08
 
