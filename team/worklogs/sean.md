@@ -24,6 +24,14 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-10 Thursday
+
+- Team meeting
+- Review [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103#pullrequestreview-1571895592)
+- Write a response to Brent's "Should we install things on the DB" notes (not sent yet, since Brent hasn't begun the email thread).
+- Poke my head into some of the SQL work going on the backend to take a look at it, as it relates to Brent's "Should we install things on the DB" thoughts
+
+
 ## 2023-08-09 Wednesday
 
 - Team meeting
