@@ -4,9 +4,6 @@
   - Sync with Sean on it early next week
 - See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
 - See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
-- Review [#3083](https://github.com/centerofci/mathesar/issues/3083) (anshuman's pr)
-- Review [#3132](https://github.com/centerofci/mathesar/issues/3132) (anshuman's pr)
-- Submit PR with test case for long identifiers in preexisting database
 - Make reservations for the GSoC mentor summit
 
 ## Backlog
@@ -15,6 +12,12 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-08-11
+
+Home life interfered, had to push most of today's work to Monday.
+
+- Create issue [#3141](https://github.com/centerofci/mathesar/issues/3141) (investigate supabase integration)
 
 ### 2023-08-10
 
