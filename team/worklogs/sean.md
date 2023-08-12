@@ -12,17 +12,28 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Soon
 
-- Review a whole lot of PRs assigned to me
+- Create meta issue for cycle tickets
+- Sync with Rajat about work for the cycle
+- Sync with Dom about work for the cycle
+- Sync with Brent about Postgres compatibility project
+- Update project page from previous cycle
 
 ### Backlog
 
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar-wiki/pull/93)
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-11 Friday
+
+- Review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104#pullrequestreview-1573587295)
+- Continue [Discussion about active cell height design and regression](https://github.com/centerofci/mathesar/issues/3091)
+- Read and mull over Brent's "install things" email. I have a lot to say about this, and I've already written a lot, but I'm not really sure how to respond in the thread, given how entrenched in our current approach the backend team already seems to be.
+- Open ticket [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+- Identify high-priority issues for the cycle
 
 ## 2023-08-10 Thursday
 
