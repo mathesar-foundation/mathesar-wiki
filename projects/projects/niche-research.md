@@ -2,7 +2,7 @@
 title: Niche Research
 description: 
 published: true
-date: 2023-08-13T18:27:15.590Z
+date: 2023-08-13T18:27:58.713Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-09T19:18:19.339Z
@@ -30,9 +30,9 @@ dateCreated: 2023-08-09T19:18:19.339Z
 
 ## Problem
 
-In order to understand the features and use cases of Mathesar, it's essential to understand our target audience. We have identified small businesses using PostgreSQL as a potential niche for Mathesar and would like to conduct research to understand the market and its needs better.
+In order to understand the features and use cases of Mathesar, it's essential to comprehend our target audience. We have identified small businesses using PostgreSQL as a potential niche for Mathesar and would like to conduct research to better understand the market and its needs.
 
-We believe that small business using PostgreSQL are a good fit for Mathesar because they are already using PostgreSQL and are likely to have a need for a database tool that is easy to use and has a low barrier to entry.
+We believe that small businesses using PostgreSQL are a good fit for Mathesar. They are already utilizing PostgreSQL and likely have a need for a database tool that is both easy to use and offers a low barrier to entry.
 
 ---
 
