@@ -8,6 +8,25 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-08-14
+
+I spent a significant portion of the day scheduling calls with various team members. Also organizing additional time to discuss installation design requirements. I also planned specific times to discuss niche research with both Brent and Pavish. 
+
+To make the upcoming feedback meetings more structured, I prepared a set of questions focusing on discussing the use cases feedback, especially targeting those team members who missed the first round of calls. I've updated the call plan to integrate our niche research focus, given that we have already narrowed down to a particular niche.
+
+**Current Focus:**
+- Request feedback on the form survey.
+- Conducting feedback sessions.
+- Preparing an update for my scheduled call with Kriti tomorrow.
+
+## 2023-08-11
+
+Today and yesterday were slow days due to some personal matters I had to attend to. However, I did manage to initiate some research on potential niche sources. Additionally, I started to simplify our survey, aiming to make it concise enough for adding a link on our website. 
+
+**Current Focus:**
+- Building out the survey form using tools like Google Forms or similar platforms.
+- Continuing with niche research project research.
+
 ## 2023-08-09
 
 Worked on the initial draft for our Niche Research project. Began exploring methods to shape our personas. We also had our weekly team catch-up.
