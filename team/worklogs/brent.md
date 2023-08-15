@@ -13,20 +13,51 @@ dateCreated: 2023-07-07T01:56:13.743Z
 ### Projects
 - Going back through RSQLA 2, 3, 4 writeups and updating them
 - Sync with Pavish, Ghislaine, Sean, and write up “Postgres DB compatibility investigation” project on the wiki
-- Sync with Ghislaine about niche research project
 
 ### Comms
-- Start email thread on dev mailing list for “Should we install things on the DB?” discussion
 - Start email thread on dev mailing list for RSQLA1 retrospective
-
-### SQL code update functionality
-- Testing to make sure there are no problems updating from v0.1.2 to current develop w.r.t. SQL code changes.
 
 ### RSQLA1
 - Go through [meta issue](https://github.com/centerofci/mathesar/issues/2737), determine what's done, what doesn't make sense anymore
 
 ### User help
 - Conduct a round of follow-up with various users.
+
+
+
+## 2023-08-15
+
+### Projects
+- Finished first draft of DB compatibility investigation project.
+
+### PR reviews
+- [Fix NaN:NaN error while aggregating duration column #3136](https://github.com/centerofci/mathesar/pull/3136) (merged)
+- [Tests for alter table #3139](https://github.com/centerofci/mathesar/pull/3139)
+
+### SQL code update functionality
+- Tested to make sure there are no problems updating from v0.1.2 to current develop w.r.t. SQL code changes.
+
+### Comms
+- Wrote email about managing package versions
+
+
+## 2023-08-14
+
+### Meetings
+- (very long) 1:1 with Dom
+
+### Projects
+- asynced with Ghislaine to set up meeting for niche research project
+- Started draft of "Postgres DB compatibility investigation" project
+
+
+## 2023-08-11
+
+### Misc research
+- Deep dive into ramifications of installing things on the DB, or avoiding it.
+
+### Comms
+- Start email thread on dev mailing list for “Should we install things on the DB?” discussion
 
 
 ## 2023-08-10
