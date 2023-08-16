@@ -9,11 +9,22 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 # Actively working on
-* Resolving reviews and getting PRs for the 'Shares' project merged.
-* Raising a number issues based on previous chats on Matrix
-* Coming up with discussions needed during cooldown
+* Respond to cooldown discussions
+* Start email threads for:
+  - handling user feedback
+  - Product level permissions discussion to account for related entities
+* Sync with Ghislaine and Brent on niche research project
+* Postgres compatibility project
 
 # Daily logs
+## 2023-08-14 to 2023-08-15
+* I was away on both days
+
+## 2023-08-08 to 2023-08-11
+* Resolved reviews and got all 3 PRs for the 'Shares' project merged.
+* Team meetings and discussions.
+* 1/1s and catch ups.
+
 ## 2023-08-07
 * Raised PR to finish up 'Shares' project.
   - [#3133 Shares - regenerate link, general fixes](https://github.com/centerofci/mathesar/pull/3133)
