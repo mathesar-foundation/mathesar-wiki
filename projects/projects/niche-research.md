@@ -70,6 +70,7 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
    #### b. Classification of Use Cases:
       - **Database Beginners**: Capture use cases where users are transitioning from spreadsheets to databases or when they are venturing into the database world for the first time.
       - **Technical & Non-Technical Mix**: Identify scenarios where teams or businesses with a mix of technical and non-technical members are looking for a versatile database tool. Prioritize those cases where Mathesar can bridge the complexity gap.
+      - **OLAP vs. OLTP**: Identify use cases that focus on OLAP (producing reports from maintained data) or OLTP (daily transactional data like sales).
 
 5. **Persona Development**:
    - Design user personas that represent the target audience.
