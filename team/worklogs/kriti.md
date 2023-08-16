@@ -9,13 +9,13 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Respond to email
-- Follow up on release
+- Respond to "criteria for closing user opened tickets" thread
+- Respond to "should we install things on the Postgres DBs" thread
+- Respond to thread about Aritra's GSoC project
 - Follow up on email discussions which haven't been started yet
-- Follow up on existing email discussions
-- Follow up on i18n project state
 - Complete product strategy document and update project page on wiki
 - Reorganize and document ongoing responsibilities better
+
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
@@ -25,6 +25,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
 - Competitor research
+
 # Complete
 
 ## 2023-08-16
@@ -32,9 +33,12 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- 1:1 with Ghislaine
 	- Followed up on installation project
 	- Followed up on ad-hoc issues
+ 	- Followed up on release thread with questions and next steps
+  	- Followed up on next steps with projects from 0.1.3 that aren't part of the release
+  	- Reviewed Postgres compatibility project
 - **Comms**
 	- Triaged email & GitHub
- 	- Responded to GitHub issues as needed 
+ 	- Responded to email and GitHub issues as needed 
 	- Handled Matrix comms
 - **Fundraising**
 	- Followed up with funder
@@ -57,6 +61,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Follow up conversation about backlog organization with Sean and Dom (on Matrix)
 - **Product**
 	- Figured out next steps for [remove DB superuser requirement PR](https://github.com/centerofci/mathesar/pull/3117)
+
 ## 2023-08-09 (Wed)
 - **Team & project management**
 	- Ran today's team meeting
@@ -67,6 +72,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Some responses
 * **Fundraising**
 	* How to Raise Money workshop session (9/11)
+
 ## 2023-08-08 (Tue)
 - **Product**
 	- Product strategy discussion & next steps with Ghislaine
