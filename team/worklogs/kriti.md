@@ -9,10 +9,16 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-*Note: I am out on Friday and Monday, will be back Aug 15*
-
-- Reorganize and document ongoing responsibilities better
+- Follow up on funding
+- Follow up on fundraising workshop
+- Triage GitHub
+- Respond to email and GitHub issues
+- Follow up on release
+- Follow up on email discussions which haven't been started yet
+- Follow up on existing email discussions
+- Follow up on i18n project state
 - Complete product strategy document and update project page on wiki
+- Reorganize and document ongoing responsibilities better
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
@@ -24,6 +30,16 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Competitor research
 # Complete
 
+## 2023-08-16
+- **Team & project management**
+	- 1:1 with Ghislaine
+	- Followed up on installation project
+	- Followed up on ad-hoc issues
+- **Comms**
+	- Triaged email
+	- Handled Matrix comms
+## 2023-08-11 to 2023-08-15 (Fri - Tue)
+*Out of office for various reasons*
 ## 2023-08-10 (Thu)
 - **Team & project management**
 	- Ran today's team meeting
