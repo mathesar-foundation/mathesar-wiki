@@ -12,7 +12,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Respond to "criteria for closing user opened tickets" thread
 - Respond to "should we install things on the Postgres DBs" thread
 - Respond to thread about Aritra's GSoC project
-- Follow up on email discussions which haven't been started yet
 - Complete product strategy document and update project page on wiki
 - Reorganize and document ongoing responsibilities better
 
@@ -21,6 +20,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 - Also go through General channel feedback and create issues or other follow ups
 - Review Sean's Querydown document
 - Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
+- Figure out a "PR review" template that includes product considerations, etc. - maybe also a checklist for who "owns" different parts of the codebase / product.
+- Figure out guidelines to write better issues.
+- Figure out how to write up and communicate a better public product roadmap.
 - Ensure our team workflow is up to date on the wiki
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
@@ -36,6 +38,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
  	- Followed up on release thread with questions and next steps
   	- Followed up on next steps with projects from 0.1.3 that aren't part of the release
   	- Reviewed Postgres compatibility project
+  	- Followed up on email discussions which haven't been started yet
 - **Comms**
 	- Triaged email & GitHub
  	- Responded to email and GitHub issues as needed 
