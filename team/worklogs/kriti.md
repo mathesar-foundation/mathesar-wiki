@@ -9,8 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Follow up on funding
-- Follow up on fundraising workshop
 - Respond to email
 - Follow up on release
 - Follow up on email discussions which haven't been started yet
@@ -38,8 +36,14 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Triaged email & GitHub
  	- Responded to GitHub issues as needed 
 	- Handled Matrix comms
+- **Fundraising**
+	- Followed up with funder
+ 	- Followed up on fundraising workshop scheduling
+  	- Other fundraising related correspondence
+ 
 ## 2023-08-11 to 2023-08-15 (Fri - Tue)
 *Out of office for various reasons*
+
 ## 2023-08-10 (Thu)
 - **Team & project management**
 	- Ran today's team meeting
