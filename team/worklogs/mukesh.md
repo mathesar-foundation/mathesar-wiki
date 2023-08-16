@@ -9,13 +9,34 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- PR review for this cycle
-- Review local settings PR
+- Writing the Installation Project proposal for the upcoming cycle
 
 ## Backlog
+- Review Rajat's final Internalization PR
 - Review the PR's opened by Varsha
-- Review external contributors PRs
 
+## 2023-08-16
+- Reply to the "Installing on user db" email
+- Review superuser creation templates update PR
+- Wrote the project for laying the groundwork for installation improvement.
+
+## 2023-08-15
+- Review the PR's opened by Varsha to unblock some of her work
+- Wrote the guidelines for the Installation project spec 
+  - Split the project into two, one for laying the groundwork and the other for documentation
+- Read through "Installing on user db email"
+
+## 2023-08-14
+- Sync with Varsha
+
+
+## 2023-08-11
+
+- Sync with Brent
+- Set meetings with Ghislaine, Anish and Rajat
+- Fix superuser requirement PR
+- Start writing the Installation project spec
+- Review local settings PR
 
 ## 2023-08-10
 
