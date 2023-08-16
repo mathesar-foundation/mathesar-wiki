@@ -11,8 +11,7 @@ dateCreated: 2023-07-06T18:59:51.770Z
 # Working on
 - Follow up on funding
 - Follow up on fundraising workshop
-- Triage GitHub
-- Respond to email and GitHub issues
+- Respond to email
 - Follow up on release
 - Follow up on email discussions which haven't been started yet
 - Follow up on existing email discussions
@@ -36,7 +35,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Followed up on installation project
 	- Followed up on ad-hoc issues
 - **Comms**
-	- Triaged email
+	- Triaged email & GitHub
+ 	- Responded to GitHub issues as needed 
 	- Handled Matrix comms
 ## 2023-08-11 to 2023-08-15 (Fri - Tue)
 *Out of office for various reasons*
