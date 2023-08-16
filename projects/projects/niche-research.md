@@ -37,28 +37,44 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
 
 ## Solution
 
-1. **Niche Analysis**:
-   - Look into current tools for PostgreSQL databases.
-   - Identify problems and gaps in the market.
-   - Understand small business landscape and their database needs.
-     - How do they feel about self-hosted vs. cloud-hosted solutions?
-     - Does open source matter to them?
-   - Broaden the feedback sources beyond Reddit, Hacker News, and GitHub to capture a wider range of perspectives.
+1. **Niche Research**:
+   #### a. Market Analysis:
+      - **Existing Tools Assessment**: Examine tools currently available for managing PostgreSQL databases, especially those popular among small businesses. Understand their strengths, weaknesses, and unique features.
+      - **Market Gaps**: Based on public feedback and user reviews, identify unmet needs or problems that users face with these tools.
+   
+   #### b. Small Business Landscape:
+      - **Database Needs**: Seek to understand the specific database requirements of small businesses.
+        - Are they seeking flexibility, scalability, or some specific functionalities?
+        - What is their typical use of data, and how do they envision their database needs evolving?
+      - **Deployment Preferences**:
+        - **Self-hosted vs. Cloud-hosted**: Understand the trade-offs small businesses are willing to make in terms of cost, control, and convenience.
+        - **Open Source Perception**: Evaluate the importance of open-source solutions in their choice of database management tools. Are they inclined towards open-source because of trust, customization possibilities, or cost factors?
 
-2. **Community Surveys and Engagement**:
+   #### c. Broadening Research Sources:
+      - Go beyond conventional platforms like Reddit, Hacker News.
+
+3. **Community Surveys and Engagement**:
 
    - Engage with the Mathesar community to understand their needs and pain points.
    - Craft and publish a user survey on Mathesar's website.
    - Evaluate survey outcomes, taking into account the feedback and insights about users' experiences and pain points with Mathesar.
    - Identify representative users within the niche of small businesses using PostgreSQL.
 
-3. **Use Case Capture**:
-   - Capture and classify potential Mathesar applications from posts in social media, industry forums, and other relevant sources.
+4. **Use Case Capture**:
 
-4. **Persona Development**:
+   #### a. Source of Information:
+      - **Social Media**: Analyze mentions and discussions related to PostgreSQL database management, especially those expressing challenges with existing tools or seeking new solutions.
+      - **Industry Forums**: Look for information in forums specific to industries that can benefit from Mathesar, and note real-world scenarios and challenges posed by users.
+      - **Online Communities**: Track discussions related to Mathesar or database management on platforms like Reddit and Hacker News where users might discuss their database management needs or share their experiences with other tools.
+   
+   #### b. Classification of Use Cases:
+      - **Database Beginners**: Capture use cases where users are transitioning from spreadsheets to databases or when they are venturing into the database world for the first time.
+      - **Technical & Non-Technical Mix**: Identify scenarios where teams or businesses with a mix of technical and non-technical members are looking for a versatile database tool. Prioritize those cases where Mathesar can bridge the complexity gap.
+
+5. **Persona Development**:
    - Design user personas that represent the target audience.
 
-5. **Data Analysis and Report**:
+6. **Data Analysis and Report**:
    - Aggregate research data and analyze it to identify trends and patterns.
    - Prepare a final report highlighting all findings.
 
