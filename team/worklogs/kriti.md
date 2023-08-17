@@ -9,8 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Set up agenda for tomorrow's meeting
-- Complete product strategy document and update project page on wiki
 - Reorganize and document ongoing responsibilities better
 
 ## Backlog
@@ -39,6 +37,8 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Responded to Pavish's feedback discussion with some thoughts.
 	- Reviewed installation project and sent email.
 	- Reviewed niche research project and sent email.
+	- Updated product strategy project and projects page on wiki
+	- Set up agenda for tomorrow's meeting
 - **Comms**
 	- Triaged email & GitHub
 	- Handled Matrix comms
