@@ -25,7 +25,7 @@ dateCreated: 2023-08-17T09:41:23.712Z
 
 ## Problem
 
-Our current documentation includes a lot of unnecessary information and does not align with the proposed Installation flow
+Our current documentation includes a lot of unnecessary information and does not align with the [proposed Installation plan](/en/projects/installation-documentation-improvement-2)
 
 
 ## Solution
