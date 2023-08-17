@@ -2,13 +2,15 @@
 title: Installation Improvement Part 2
 description: 
 published: true
-date: 2023-08-17T10:24:43.707Z
+date: 2023-08-17T11:38:13.549Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:23.712Z
 ---
 
-**Status**: Draft
+**Status**: Draft (WIP)
+
+[installation-improvements 0.1.4](/en/projects/installation-improvements-0_1_4) project needs to be completed before we can start working on this project. 
 
 ## Team
 | Role | Assignee |
