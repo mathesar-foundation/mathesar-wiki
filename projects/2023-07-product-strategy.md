@@ -2,7 +2,7 @@
 title: 2023-07 product strategy
 description: 
 published: true
-date: 2023-07-19T23:11:04.453Z
+date: 2023-08-17T20:24:00.465Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-12T21:44:07.522Z
@@ -54,3 +54,16 @@ The timeline is short, and we'll be prioritizing being decisive. This means we m
 
 ## Timeline
 This project will fit into the 2023-07-10 cycle.
+
+## Results
+We did not get everything planned for this project done by the end of the cycle. We do have:
+- Drafts of the following documents (all private to core team):
+	-	[Product strategy](https://docs.google.com/document/d/1RDd-HGTANfzFmKiTQArb3N26Y4o7R8md3iHTOlxVygI/edit) 
+  - [List of use cases](https://hackmd.io/wC38kFL-Q6mR2TJR2_ZCEw)
+  - [Persona needs analysis](https://hackmd.io/TeTCKnX4QUCik3iwDBhtkQ)
+  - [Feedback from strategy discussions](https://hackmd.io/zYChtLI2RSiSs8-61zN3Yw)
+  - [User research survey](https://hackmd.io/NI4LU3GrQ62vl5_nyOa2LA)
+- A database to collect user research (private to core team):
+	- [User research schema](https://internal.mathesar.org/db/mathesar_tables/14/)
+  
+Next steps are to finalize the strategy and personas and develop a product roadmap once the [niche research](/en/projects/niche-research) project is complete in Cycle 2.
