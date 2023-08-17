@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-08-09T05:29:31.671Z
+date: 2023-08-17T20:27:42.130Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -21,24 +21,30 @@ dateCreated: 2023-03-15T20:52:26.598Z
 - Project prioritization will be based on our product strategy (currently in development).
 
 # Active projects
-## 2023-07-10 cycle
+## 2023 Cycle 0.1.4
+| Owner     | Project | Status |
+| --        | -- | -- |
+| Brent | | |
+| Ghislaine | | |
+| Mukesh | | | 
+
+Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with projects as needed. That work is tracked on GitHub in the 0.1.4 milestone on GitHub.
+
+## 2023 Cycle 0.1.3
 These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Brent     | [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md) | Complete |
 | Rajat     | [Internationalization](./projects/internationalization.md) | In progress |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | In progress |
 | Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | In progress |
 | Pavish | [Shareable links](./projects/shareable-links-implementation) | In progress |
 | Mukesh    | [Installation improvements 0.1.3](./projects/installation-improvements-0_1_3.md) | In progress |
-| Kriti, Ghislaine | [2023-07 product strategy](/en/projects/2023-07-product-strategy) | In progress |
 
 ## 2023 summer interships & work programs
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Maria     | [List data type](https://wiki.mathesar.org/en/projects/list-datatype) | Complete |
 | Anshuman | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
 | Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
 | Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
@@ -46,15 +52,20 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 # Past projects
 Projects that are no longer active for a variety of reasons. Please check the individual project pages for more details.
 
-- [Release v0.1.2](./projects/release-0-1-2)
-- [Formulas Research](./projects/formulas-research.md)
-- [Installation Documentation improvements](./projects/installation-documentation-improvements)
-- [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
-- [Research: Publicly shareable links](./projects/public-links-research)
-- [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts)
-- [Raise additional funding for Mathesar](./projects/funding.md)
-- [Feedback kickoff](./projects/user-feedback-kickoff.md)
-- [Gather User Feedback](./projects/gather-user-feedback)
+- 2023 Cycle 1:
+	- [RSQLA1: Move DDL Operations to SQL Functions](./projects/sql-ddl-operations.md)
+	- [2023-07 product strategy](./projects/2023-07-product-strategy)
+	- [List data type](./projects/list-datatype) 
+- Prior to Cycle 1:
+	- [Release v0.1.2](./projects/release-0-1-2)
+	- [Formulas Research](./projects/formulas-research.md)
+	- [Installation Documentation improvements](./projects/installation-documentation-improvements)
+	- [2023-04 Usability Improvements](./projects/2023-04-usability-improvements.md)
+	- [Research: Publicly shareable links](./projects/public-links-research)
+	- [Mathesar T-Shirts](https://wiki.mathesar.org/en/projects/t-shirts)
+	- [Raise additional funding for Mathesar](./projects/funding.md)
+	- [Feedback kickoff](./projects/user-feedback-kickoff.md)
+	- [Gather User Feedback](./projects/gather-user-feedback)
 
 # Future project ideas
 Some future project ideas are tracked at https://staging.mathesar.org/mathesar_tables/8/tables/9179/
