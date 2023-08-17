@@ -2,7 +2,7 @@
 title: Installation Improvement Plan 
 description: 
 published: true
-date: 2023-08-17T10:23:14.431Z
+date: 2023-08-17T10:25:19.018Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:30.671Z
@@ -86,7 +86,7 @@ The installation steps are grouped into three categories
      - Passing in the credentials of the database to be used as the internal database.
 3. Setup
    - Once Mathesar is installed and running, the user needs to set up few things before Mathesar can be used.
-   - These will be done using the Mathesar UI-
+   - These will be done using the Mathesar UI
    - The following configuration steps fall into this category
      - Setting up a Mathesar admin user
 
