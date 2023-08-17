@@ -2,7 +2,7 @@
 title: Installation Improvement Plan 
 description: 
 published: true
-date: 2023-08-17T11:39:43.061Z
+date: 2023-08-17T11:43:46.769Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:30.671Z
@@ -78,7 +78,7 @@ Discourage
 Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The documentation outline will provide detailed information of the steps involved with a particular installation type 
 
 #### Installing Mathesar
-The installation steps are grouped into three categories
+The installation steps are grouped into three categories (ordered sequentially)
 1. Install
    - This category includes steps for setting up the download source, fetching the necessary files (docker image, binary) and commands for installing and starting Mathesar.
    - Once these steps are complete, Mathesar will be running locally, and the user can open Mathesar by visiting a particular URL (defaults to http://localhost:8000)
