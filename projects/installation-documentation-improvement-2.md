@@ -2,7 +2,7 @@
 title: Installation Improvement Part 2
 description: 
 published: true
-date: 2023-08-17T09:46:04.548Z
+date: 2023-08-17T09:58:34.997Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:23.712Z
@@ -187,3 +187,19 @@ We will follow the below pattern to keep the documentation consistent and easier
     - Platform specific configuration instructions
     - Point to "Environment variables" page
   - Uninstall process
+  
+  
+### Environment Variables
+List of environment variables and descriptions
+
+### Connecting to DBs on localhost
+This will explain how to connect to localhost DBs if you're using Docker (content is already on docs.mathesar.org)
+
+### Stuff we're removing from current docs (not part of outline)
+- Guided script installation
+    - plus appendices
+- Docker compose installation
+    - plus "customizing docker compose" page
+- Install from scratch
+- Administration section (uninstall & upgrade Mathesar)
+    - Will be folded into individual installation types
