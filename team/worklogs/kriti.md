@@ -9,9 +9,9 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Respond to "criteria for closing user opened tickets" thread
 - Respond to "should we install things on the Postgres DBs" thread
-- Respond to thread about Aritra's GSoC project
+- Respond to a bunch more emails
+- Set up agenda for tomorrow's meeting
 - Complete product strategy document and update project page on wiki
 - Reorganize and document ongoing responsibilities better
 
@@ -30,23 +30,36 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
-## 2023-08-16
+## 2023-08-17 (Thu)
+- **Team & project management**
+	- Responded to thread about Aritra's GSoC project
+	- Responded to release thread with some thoughts
+	- Responded to email discussions thread with decision
+	- Responded to Postgres compatibility project discussion with some ideas
+	- Followed up on the "criteria for closing user opened tickets" thread
+- **Comms**
+	- Triaged email & GitHub
+	- Handled Matrix comms
+- **Self organization**
+	- Intro consultation with a work coach
+
+## 2023-08-16 (Wed)
 - **Team & project management**
 	- 1:1 with Ghislaine
 	- Followed up on installation project
 	- Followed up on ad-hoc issues
- 	- Followed up on release thread with questions and next steps
-  	- Followed up on next steps with projects from 0.1.3 that aren't part of the release
-  	- Reviewed Postgres compatibility project
-  	- Followed up on email discussions which haven't been started yet
+	- Followed up on release thread with questions and next steps
+	- Followed up on next steps with projects from 0.1.3 that aren't part of the release
+	- Reviewed Postgres compatibility project
+	- Followed up on email discussions which haven't been started yet
 - **Comms**
 	- Triaged email & GitHub
- 	- Responded to email and GitHub issues as needed 
+	- Responded to email and GitHub issues as needed 
 	- Handled Matrix comms
 - **Fundraising**
 	- Followed up with funder
- 	- Followed up on fundraising workshop scheduling
-  	- Other fundraising related correspondence
+	- Followed up on fundraising workshop scheduling
+	- Other fundraising related correspondence
  
 ## 2023-08-11 to 2023-08-15 (Fri - Tue)
 *Out of office for various reasons*
