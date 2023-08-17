@@ -2,7 +2,7 @@
 title: Installation Improvement Plan 
 description: 
 published: true
-date: 2023-08-17T10:25:19.018Z
+date: 2023-08-17T11:36:19.483Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:30.671Z
@@ -20,11 +20,13 @@ dateCreated: 2023-08-17T09:41:30.671Z
 1. Users are finding our Installation complicated
 
 ### Reasons
-1. We are targeting too many different use cases for Mathesar in our current documentation, and we need to simplify things.
+1. We are targeting too many different use cases for Mathesar in our current documentation which makes the documentation overwhelming for the user, and we need to simplify things.
 2. Installing Mathesar involves many steps without any feedback or preventive checks in place, which makes the process brittle and introduces failure points that we can avoid. Moreover the user might miss out some steps and will be able to only notice it after completing all the installation steps.
 3. There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
 4. Configuration is done through scripts specific to certain installation methods, and not in the product itself, which makes some installation methods much more difficult, hard to give a feedback and inconsistent.
 5. This also makes the documentation harder to maintain since each installation method has very different steps.
+
+
 
 ### Targeted Personas
 
@@ -55,14 +57,22 @@ Not prioritizing at all - until more than one person asks
 Discourage
 - Someone installing everything on localhost (not just trying it out)
 
+### Terminology
+- Internal database - Mathesar stores its metadata like `Exploration`, `Admin user` registration details in this database. 
+- User database - These databases contain the data which the user wants to manage using Mathesar. Mathesar can manage more than one database at a time.
+- Installing Mathesar Schema - Mathesar needs to install some SQL functions in the user database for it to function correctly. When the user does some operation using the Mathesar UI these functions are called by Mathesar to perform operations on the database. Additionally Mathesar offers custom types that don't exists on Postgres like `EMAIL` which can be used by the user.
 
 
 ### Possible lifecycle of Mathesar
-These are the possible lifecycle
-1. Installing and setting up Mathesar App - User installs and sets up Mathesar as a functionally incomplete app (like hardware without software). It has no uses as of now as there won't be any databases managed by Mathesar at this point. We expect the user to perform these steps only once in the installation lifecycle
+1. Installing and setting up Mathesar App - User installs and sets up Mathesar as a functionally incomplete app (like hardware without software). It has no uses as of now as there won't be any databases managed by Mathesar at this point. We expect the user to perform these steps only once in the installation lifecycle. This happens only **once**
 2. Configuring Mathesar - The user might want to make some additional configuration like connecting to an additional database, pointing a domain at the Mathesar server. The user might want to configure more than once and might not do it right after installation
 3. Updating Mathesar - When we make a new release, the user will need to update Mathesar to use the new features. This can happen more than once
-4. Uninstalling Mathesar - In some unfortunate circumstances, the user might uninstall Mathesar. This happens only once
+4. Uninstalling Mathesar - In some unfortunate circumstances, the user might uninstall Mathesar. This happens only **once**
+
+
+
+
+***The installation plan is based on the assumption above. So please comment if you are not okay with the above assumption***
 
 ### Outline of the steps after the installation overhaul project
 Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The documentation outline will provide detailed information of the steps involved with a particular installation type 
@@ -75,11 +85,10 @@ The installation steps are grouped into three categories
    - The following defaults apply to all the installation type
      - A `SECRET_KEY` will be automatically generated and stored in the config file
      - An SQLite database file will be created and will be used as the internal database for storing the Mathesar metadata
-   - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](https://wiki.mathesar.org/e/en/projects/installation-documentation-improvement-2)
-   
+   - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](https://wiki.mathesar.org/en/projects/installation-documentation-improvement-2)
 2. Pre-install config
    - The defaults Mathesar come with might not suit every use-case. These are the **optional** steps that the user may need to perform to adapt Mathesar to their environment.
-   - These settings are targeted towards technical users, and it is assumed the user knows what he is doing
+   - These settings are targeted towards technical users, mostly done using the command line and it is assumed the user knows what he is doing
    - Note: They need to be **performed before starting and using** Mathesar. Revisiting this step after using Mathesar for some time will lead to some unexpected state. For example, if the internal database URL is changed, the new database won't contain the old metadata information like `Column order` or `Explorations`.
    - The following configuration steps fall into this category
      - Passing in their own secret key as an environment variable. 
@@ -103,13 +112,12 @@ The installation steps are grouped into two
    - Unlike the "Pre-install config" these are optional and can be configured even after using Mathesar after sometime
    - Unlike the "Post-install non-mathesar config", they cannot be configured on the fly instead the user will need to restart the Mathesar server for the effect to take place
    - The following configuration steps fall into this category
-     - Whitelisting domains from which Mathesar can accept API requests. Needed if Mathesar is exposed to the internet
+     - Whitelisting domains from which Mathesar can accept API requests.
 
 #### Update process
 - Update will most likely be a one or two-step process and will be quite similar to the steps in "Installing Mathesar". For example, if you had used `apt install mathesar` when installing, you would do `apt update mathesar`
 - For certain installation types, optionally, we will offer a convenient way UI to let the user update from within the Mathesar app.
 - We will automatically run the necessary database migrations, update Mathesar schema for the user databases managed by Mathesar without any user intervention
-
 
 #### Uninstall process
 - Remove the installed schema from a specific database - Removing the database from Mathesar will uninstall all the installed types from the user database
