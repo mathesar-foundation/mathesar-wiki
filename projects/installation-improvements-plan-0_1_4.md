@@ -2,7 +2,7 @@
 title: Installation Improvement Plan 
 description: 
 published: true
-date: 2023-08-17T09:41:30.671Z
+date: 2023-08-17T09:45:14.740Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:30.671Z
@@ -121,21 +121,7 @@ The installation steps are grouped into two
 
 
 In order to make the following changes, we will be making some changes to the codebase and updating our documentation. I have created two projects to track the necessary work
-1. Laying the groundwork for improving our installation process - This project involves all the code related changes. We won't be overhauling the documentation in this project, instead we will make enough changes just to keep the documentation updated based on the new features.
-2. Overhaul of the Installation documentation - We will be removing deprecated installation types, removing unnecessary information and reorganizing documentation in this project.
-
-
-
-How we will be solving it:
-Installing mathesar:
-All users will be able to start using Mathesar right after they install it
-1. The primary installation section will contain only instructions for installing and starting Mathesar. We will aim to keep required steps for installation and starting Mathesar to just 2-3 steps.
-
-
-
-Limitations
-
-We won't do a complete overhaul of the documentation as per the proposed outline in this cycle. Instead, we will be laying the groundwork necessary for the 
- We won't be removing any installation type in this cycle
+1. [Laying the groundwork for improving our installation process](/en/projects/installation-improvements-0_1_4) - This project involves all the code related changes. We won't be overhauling the documentation in this project, instead we will make enough changes just to keep the documentation updated based on the new features.
+2. [Overhaul of the Installation documentation](/en/projects/installation-documentation-improvement-2) - We will be removing deprecated installation types, removing unnecessary information and reorganizing documentation in this project.
 
 
