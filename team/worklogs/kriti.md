@@ -9,8 +9,6 @@ dateCreated: 2023-07-06T18:59:51.770Z
 ---
 
 # Working on
-- Respond to "should we install things on the Postgres DBs" thread
-- Respond to a bunch more emails
 - Set up agenda for tomorrow's meeting
 - Complete product strategy document and update project page on wiki
 - Reorganize and document ongoing responsibilities better
@@ -37,6 +35,10 @@ dateCreated: 2023-07-06T18:59:51.770Z
 	- Responded to email discussions thread with decision
 	- Responded to Postgres compatibility project discussion with some ideas
 	- Followed up on the "criteria for closing user opened tickets" thread
+	- Responded to "should we install things on the Postgres DBs" thread with some thoughts
+	- Responded to Pavish's feedback discussion with some thoughts.
+	- Reviewed installation project and sent email.
+	- Reviewed niche research project and sent email.
 - **Comms**
 	- Triaged email & GitHub
 	- Handled Matrix comms
