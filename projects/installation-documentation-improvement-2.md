@@ -2,7 +2,7 @@
 title: Installation Improvement Part 2
 description: 
 published: true
-date: 2023-08-17T09:58:34.997Z
+date: 2023-08-17T10:24:43.707Z
 tags: 
 editor: markdown
 dateCreated: 2023-08-17T09:41:23.712Z
@@ -30,6 +30,7 @@ Our current documentation includes a lot of unnecessary information and does not
 
 Reorganise our current documentation based on [agreed outline](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting.md#table-of-contents) targeting [these](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting.md#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification) personas
 
+## Proposed Outline
 ### Homepage
 - Introduction & Overview 
     - Content: homepage of docs.mathesar.org
@@ -60,7 +61,8 @@ Reorganise our current documentation based on [agreed outline](https://wiki.math
     - Connecting to DBs on localhost
 
 ##### Pattern for the content page (for the reader; not part of outline)
-We will follow the below pattern to keep the documentation consistent and easier to maintain. We will be using the terminology introduced in 
+We will follow the below pattern to keep the documentation consistent and easier to maintain. We will be using the terminology introduced in the [Installation Plan](https://wiki.mathesar.org/en/projects/installation-improvements-plan-0_1_4#outline-of-the-steps-after-the-installation-overhaul-project)
+
 - Pre-requisites
 - Installation
   - Install steps 
