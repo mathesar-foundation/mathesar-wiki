@@ -2,7 +2,7 @@
 title: Projects
 description: 
 published: true
-date: 2023-08-17T20:27:42.130Z
+date: 2023-08-17T20:27:58.127Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-15T20:52:26.598Z
@@ -21,7 +21,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 - Project prioritization will be based on our product strategy (currently in development).
 
 # Active projects
-## 2023 Cycle 0.1.4
+## 2023 Cycle 2 (v0.1.4)
 | Owner     | Project | Status |
 | --        | -- | -- |
 | Brent | | |
@@ -30,7 +30,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 
 Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with projects as needed. That work is tracked on GitHub in the 0.1.4 milestone on GitHub.
 
-## 2023 Cycle 0.1.3
+## 2023 Cycle 1 (v0.1.3)
 These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 
 | Owner     | Project | Status |
