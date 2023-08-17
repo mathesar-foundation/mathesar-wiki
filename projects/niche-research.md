@@ -46,12 +46,18 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
       - **Database Needs**: Seek to understand the specific database requirements of small businesses.
         - Are they seeking flexibility, scalability, or some specific functionalities?
         - What is their typical use of data, and how do they envision their database needs evolving?
+      - **Transitioning from Simpler Tools**: Small businesses may struggle to figure out their exact database needs, especially if they're transitioning from simpler tools like spreadsheets. Understand the challenges they face in this transition.
+      - **Balancing Power with Simplicity**: There's a challenge in finding the right equilibrium between ease of use for non-tech users and leveraging the power of a tool like PostgreSQL.
+      - **Recognizing Database Value**: It might take some time for small businesses to appreciate the value of a database tool like Mathesar, especially if they're unfamiliar with the advantages of databases. Understand how to communicate the value of Mathesar to them.
       - **Deployment Preferences**:
         - **Self-hosted vs. Cloud-hosted**: Understand the trade-offs small businesses are willing to make in terms of cost, control, and convenience.
         - **Open Source Perception**: Evaluate the importance of open-source solutions in their choice of database management tools. Are they inclined towards open-source because of trust, customization possibilities, or cost factors?
+      - **Integration with Existing Systems**: Understand how Mathesar would integrate with or replace the existing systems that small businesses might have already set in place.
 
    #### c. Broadening Research Sources:
-      - Go beyond conventional platforms like Reddit, Hacker News.
+      - The current sources, such as Reddit and Hacker News, might not be representative of the target audience. Explore other platforms where small businesses might be discussing their database needs.
+      - Consultancy firms publishing their use cases, especially around databases, could provide valuable insights.
+      - Platforms like Upwork, where companies outline their requirements, might also provide practical insights.
 
 3. **Community Surveys and Engagement**:
 
@@ -74,12 +80,11 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
 
 5. **Persona Development**:
    - Design user personas that represent the target audience.
+   - Develop personas based on job roles within small businesses (e.g., a small business owner, a data analyst, an office manager).
 
 6. **Data Analysis and Report**:
    - Aggregate research data and analyze it to identify trends and patterns.
    - Prepare a final report highlighting all findings.
-
----
 
 ## Outcome
 
@@ -94,8 +99,7 @@ A report that provides:
 ## Risks
 
 - Research might extend beyond anticipated timeframes.
-- Risk of neglecting the broader user audience.
-- Selecting use cases or features might pose challenges that go beyond what this research can understand.
+- Selecting use cases or features might pose challenges that go beyond what this research can cover.
 
 ---
 
@@ -105,7 +109,3 @@ A report that provides:
 - [Use Cases Database](https://internal.mathesar.org/db/mathesar_tables/14/)
 - [Team Discussions on Use Cases](https://hackmd.io/zYChtLI2RSiSs8-61zN3Yw)
 - [User Survey Draft](https://hackmd.io/NI4LU3GrQ62vl5_nyOa2LA)
-
----
-
-## Timeline
