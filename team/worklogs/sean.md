@@ -12,15 +12,16 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Soon
 
-- Respond to Varsha's TS email
+- Update project page from previous cycle
+- Sync with Rajat about work for the cycle
 - Resolve conflicts in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
 - Address Kriti's feedback in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
-- Review [Investigating compatibility with pre-existing databases](https://wiki.mathesar.org/en/projects/preexisting-postgres) project page and respond in "Compatibility with Preexisting DBs project feedback" email thread
+- Resolve conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
+
+### Later in this cycle
+
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
-- Sync with Rajat about work for the cycle
-- Sync with Brent about Postgres compatibility project
-- Update project page from previous cycle
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 
 ### Backlog
@@ -31,6 +32,11 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-17 Thursday
+
+- Catch up on several email and Matrix discussions
+- Some cleanup of GitHub tickets
 
 ## 2023-08-16 Wednesday
 
