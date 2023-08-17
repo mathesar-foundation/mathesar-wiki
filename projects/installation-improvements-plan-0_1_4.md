@@ -17,10 +17,10 @@ dateCreated: 2023-08-17T09:41:30.671Z
 | **Helpers** | Kriti |
 
 ### Problems
-1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot pain points.
+1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot of pain points.
 
 ### Reasons
-1. We are targeting too many different use cases for Mathesar in our current documentation which makes the documentation overwhelming for the user, and we need to simplify things.
+1. We are targeting too many different use cases for Mathesar in our current documentation, which makes the documentation overwhelming for the user, and we need to simplify things.
 2. Installing Mathesar involves many steps without any feedback or preventive checks in place, which makes the process brittle and introduces failure points that we can avoid. Moreover the user might miss out some steps and will be able to only notice it after completing all the installation steps.
 3. There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
 4. Configuration is done through scripts specific to certain installation methods, and not in the product itself, which makes some installation methods much more difficult, hard to give a feedback and inconsistent. This also makes it hard to explain in the documentation in an intutive manner.

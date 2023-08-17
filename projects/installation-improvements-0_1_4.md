@@ -15,20 +15,22 @@ dateCreated: 2023-08-17T09:42:41.660Z
 | Role | Assignee |
 |-|-|-|
 | **Owner** | Mukesh |
-| **Backend Helpers** | Anish |
+| **Backend** | Anish |
+| **Backend Helper** | Mukesh |
+| **Infrastructure Work** | Mukesh |
 | **Frontend Helpers** | Rajat |
 | **Design Helper** | Ghislaine |
 | **Design Reviewer** | Kriti |
-| **Backend Reviewer** | Brent |
+| **Infrastructure Reviewer** | Brent |
 | **Frontend Reviewer** | Pavish |
 
 
 ## Problem
-Our current installation process is vastly aligned with the proposed plan for improving our installation flow.
+Our current installation process is vastly aligned with the proposed [Installation Plan](https://wiki.mathesar.org/en/projects/installation-improvements-plan-0_1_4) for improving our installation flow. Please read through the [Installation Plan](https://wiki.mathesar.org/en/projects/installation-improvements-plan-0_1_4) to get a better idea of the installation flow before continuing further
 
 ## Solution
-
 We need to make the following changes to our current installation process to keep it aligned with the proposed installation flow
+
 ### Backend Work
 - Create API to store the user database credentials in the internal Django database
   - The database credentials should be encrypted using the `SECRET_KEY`
@@ -37,6 +39,7 @@ We need to make the following changes to our current installation process to kee
   - Optionally, accept boolean to remove Mathesar Schema when the user database credential is removed from Mathesar
   - If the boolean to remove Mathesar schema is `True`, we should remove Mathesar schema first before removing the credentials from Mathesar
 - Remove the usage of `django.contrib.postgres.fields.ArrayField` so that we can use `SQLite` for the internal Mathesar database.
+- Remove type annotations to get Mathesar working with a wide band of Python
 
 ### Design and Frontend Work
 - UI for getting the user database credentials from the user
@@ -67,17 +70,39 @@ We need to make the following changes to our current installation process to kee
 
 
 ### Infrastructure Work
-- Get Mathesar working with a wide band of Python
-- Create a Debian package (Partially complete)
+- Add Postgres to our docker image (Carried over from the previous cycle, needs testing before it can be merged)
+- Create a Debian package (Partially complete, carried over from the previous cycle)
 - Create a PyPI package
 - Create a helm chart
-- Host the Debian package on a server or consider using a Package repository like [Gitlab's repository](https://docs.gitlab.com/ee/user/packages/debian_repository/)
 - Github Action to build static files during release
+- Host the Debian package on a server or consider using a Package repository like [Gitlab's repository](https://docs.gitlab.com/ee/user/packages/debian_repository/)
 
 
-### Research work
-- Figure out as a team how we want to manage our DockerHub repo and tags
-    - There are a bunch of different strategies
+### Discussion work
+- Figure out as a team how we want to manage our DockerHub repo and tags - Some users want to use our features as soon as they are pushed into develop branch. Maybe we could set up a nightly build for such users
 - Reassess Docker version requirements once we do a single Docker image
-    - We only have a stringent version requirement because of Docker Compose, which we don't plan to use 
-- Come up with a list of PaaS to support
+- Figure out where to host the Debian package on a server 
+  - Consider using a Package repository like [Gitlab's repository](https://docs.gitlab.com/ee/user/packages/debian_repository/)
+
+### Research Work
+- Come up with a list of PaaS to support and get approval from the team
+
+
+## Timeline
+
+| Date | Outcome |
+|-|-|-|-|-|
+| **2023-08-21** | Backend and Design work for adding user database credentials using the UI starts |
+| **2023-08-21** | Infrastructure work starts |
+| **2023-08-25** | Debian package and Postgres docker image review starts |
+| **2023-08-31** | Backend and Design work for adding user database credentials using the UI will be completed |
+| **2023-09-01** | Frontend work for adding user database credentials using the UI starts |
+| **2023-09-01** | Helm chart and PyPI package review starts |
+| **2023-09-08** | Github Action to build static files and hosting the debian package is complete |
+| **2023-09-15** | Frontend work for adding user database credentials is complete |
+| **2023-09-15** | Buffer of 1 week for fixing any infrastructure or backend related work |
+
+## Resources
+
+- [Previous cycle project](https://wiki.mathesar.org/en/projects/installation-improvements-0_1_3.md)
+- [Installation Plan](https://wiki.mathesar.org/en/projects/installation-improvements-plan-0_1_4)
