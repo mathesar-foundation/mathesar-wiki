@@ -2,7 +2,7 @@
 title: 2023-07 backend fixes
 description: 
 published: true
-date: 2023-08-08T12:34:20.978Z
+date: 2023-08-18T12:17:41.250Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-07T14:08:52.280Z
@@ -99,3 +99,7 @@ This project should take **4 weeks**.
 | 2023-07-21 | Half-way mark (50% of work should be done) |
 | 2023-08-02 | Buffer time starts |
 | 2023-08-07 | Work ends |
+
+## Outcome
+
+See the [last post in the project update email thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/LBYHUZp_E8E/m/JERlsWG-AQAJ).
