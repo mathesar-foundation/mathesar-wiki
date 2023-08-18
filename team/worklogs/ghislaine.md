@@ -8,6 +8,26 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-08-17
+- Reviewed the installation plan.
+- Had a feedback call with Mukesh.
+- Updated the niche research document based on talks with Brent and Pavish.
+
+**Current Focus**
+- Update the survey and request feedback.
+
+## 2023-08-16
+- Had calls discussing use cases with team members.
+- Talked with Brent and Pavish about niche research.
+- Checked in with Kriti on team use cases feedback.
+
+**Current Focus**
+Update the niche research document.
+
+## 2023-08-15
+- Niche research document
+- Had calls discussing use cases with team members.
+
 ## 2023-08-14
 
 I spent a significant portion of the day scheduling calls with various team members. Also organizing additional time to discuss installation design requirements. I also planned specific times to discuss niche research with both Brent and Pavish. 
