@@ -9,7 +9,7 @@ dateCreated: 2023-07-10T13:31:46.556Z
 ---
 
 **Name**: 2023-07 Frontend Fixes
-**Status**: In progress
+**Status**: Cut short
 **Review status**: Approved
 
 ## Team
@@ -42,6 +42,10 @@ Unrelated frontend issues we'd also like to work on during this cycle
 ## Risks
 
 (none)
+
+## Outcome
+
+This project was not fully completed but was cut short with the remaining tasks rolled into the [ad-hoc work for 2023 cycle 2](https://github.com/centerofci/mathesar/issues/3150).
 
 ## Resources
 

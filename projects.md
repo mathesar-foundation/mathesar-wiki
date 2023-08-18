@@ -37,7 +37,6 @@ These projects are for a 4-week cycle running from 2023-07-10 to 2023-08-04.
 | --        | -- | -- |
 | Rajat     | [Internationalization](./projects/internationalization.md) | In progress |
 | Dom    		| [2023-07 backend fixes](./projects/2023-07-backend-fixes) | In progress |
-| Sean      | [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md) | In progress |
 | Mukesh    | [Installation improvements 0.1.3](./projects/installation-improvements-0_1_3.md) | In progress |
 
 ## 2023 summer interships & work programs
@@ -56,6 +55,7 @@ Projects that are no longer active for a variety of reasons. Please check the in
 	- [2023-07 product strategy](./projects/2023-07-product-strategy)
 	- [List data type](./projects/list-datatype) 
 	- [Shareable links](./projects/shareable-links-implementation)
+	- [2023-07 frontend fixes](./projects/2023-07-frontend-fixes.md)
 - Prior to Cycle 1:
 	- [Release v0.1.2](./projects/release-0-1-2)
 	- [Formulas Research](./projects/formulas-research.md)
