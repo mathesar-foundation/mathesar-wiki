@@ -9,7 +9,7 @@ dateCreated: 2023-07-12T20:24:06.407Z
 ---
 
 **Name**: Shareable links implementation
-**Status**: In progress
+**Status**: Complete
 **Review status**: Approved
 
 ## Team
