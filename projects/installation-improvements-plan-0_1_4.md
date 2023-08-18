@@ -89,7 +89,7 @@ The installation steps are grouped into three categories (ordered sequentially)
    - The following defaults apply to all the installation type
      - A `SECRET_KEY` will be automatically generated and stored in the config file
      - An SQLite database file will be created and will be used as the internal database for storing the Mathesar metadata
-   - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](https://wiki.mathesar.org/en/projects/installation-documentation-improvement-2)
+   - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](#outline-of-the-documentation)
 2. Pre-install config
    - The defaults Mathesar come with might not suit every use-case. These are the **optional** steps that the user may need to perform to adapt Mathesar to their environment.
    - These settings are targeted towards technical users, mostly done using the command line, and it is assumed the user knows what he is doing

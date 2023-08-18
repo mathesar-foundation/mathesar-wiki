@@ -44,7 +44,9 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Add Install on Debian to our documentation
 
 ## Outcome
-- 
+- Database credentials for user database can be managed using the UI instead of using env variables. This provides better feedback, decouples from Mathesar installation and lets the user configure without restarting the server
+- Simplified installation which lets the user install Mathesar in a few steps. This also makes the installation documentation easier to parse for the user.
+- We won't be bombarding the user with addon services or unnecessary configuration options
 
 ### Tasks
 
