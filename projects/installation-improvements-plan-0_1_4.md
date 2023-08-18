@@ -302,9 +302,6 @@ This will explain how to connect to localhost DBs if you're using Docker (conten
 - Administration section (uninstall & upgrade Mathesar)
     - It Will be folded into individual installation types
 
-### 
-In order to make the following changes, we will be making some changes to the codebase and updating our documentation. I have created two projects to track the necessary work
-1. [Laying the groundwork for improving our installation process](/en/projects/installation-improvements-0_1_4) - This project involves all the code related changes. We won't be overhauling the documentation in this project, instead we will make enough changes just to keep the documentation updated based on the new features. However to understand the reason behind the proposed changes please take a look at the [Overhaul of the Installation documentation](/en/projects/installation-documentation-improvement-2) project
-2. [Overhaul of the Installation documentation](/en/projects/installation-documentation-improvement-2) - We will be removing deprecated installation types, removing unnecessary information and reorganizing documentation in this project.
-
-
+### What after this
+I have created a project to work needed to make it easier for high-priority persona
+1. [Installation Improvement targeted at top priority personas](/en/projects/installation-improvements-0_1_4)
