@@ -16,10 +16,14 @@ dateCreated: 2023-08-17T09:42:41.660Z
 |-|-|-|
 | **Owner** | Mukesh |
 | **Backend** | Anish |
-| **Infrastructure Work** | Anish, Mukesh |
+| **Backend Helper** | Mukesh |
+| **Infrastructure Work** | Mukesh |
+| **Infrastructure Helper** | Anish |
 | **Frontend** | Rajat |
 | **Design Helper** | Ghislaine |
-| **Design Reviewer** | Kriti |
+| **Design Reviewer** | Pavish |
+| **Documentation** | Mukesh |
+| **Documentation Helper & Reviewer** | Sean |
 | **Infrastructure Reviewer** | Brent |
 | **Frontend Reviewer** | Pavish |
 
@@ -38,6 +42,9 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Remove the docker compose installation section and the related scripts
 - Remove Build from the source installation section
 - Add Install on Debian to our documentation
+
+## Outcome
+- 
 
 ### Tasks
 
@@ -115,21 +122,22 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Update the Docker Installation section to not require Postgres server as a pre-requisite
 - Remove Guided script installation
     - plus appendices
-- Remove Docker compose installation
+- Deprecate Docker compose installation
     - plus "customizing docker compose" page
-- Remove Install from scratch
+- Deprecate Install from scratch. Add a note to redirect the user to use debian package (which is similar without information on compiling or setting up a reverse proxy, database, etc)
 - Remove Administration section (uninstall & upgrade Mathesar)
+- Add instructions for installing on Debian
 
 ### Discussion work
 - Figure out where to host the Debian package on a server until we can get into the Debian official package repo. Possible options
-  - [LaunchpadPPA](https://launchpad.net/ubuntu/+ppas) - Even though targeted at Ubuntu installations, it can be used for Debian too. Needs to be thoroughly tested though
+  - [LaunchpadPPA](https://launchpad.net/ubuntu/+ppas) - Familiar to most linux uses. Dependencies are prioritized to use the same launchpad PPA and ubuntu repository, so there could be compatibility issues with Debian. We would need to test it on multiple distro
+  - [Open Build Service](https://openbuildservice.org/) - Supports building for multiple distro (we don't need this because we are using docker to build our packages).
   - [Gitlab's repository](https://docs.gitlab.com/ee/user/packages/debian_repository/)
 - Figure out as a team how we want to manage our DockerHub repo and tags - Some users want to use our features as soon as they are pushed into develop branch. Maybe we could set up a nightly build for such users
 - Reassess Docker version requirements once we do a single Docker image
 
 ### Research Work
 - Come up with a list of PaaS to support and get approval from the team
-
 
 ## Timeline
 
@@ -139,9 +147,9 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 | **2023-08-21** | Infrastructure work starts |
 | **2023-08-21** | Send email for all the discussion work |
 | **2023-08-25** | Debian package and Postgres docker image review starts |
+| **2023-08-28** | Documentation work starts |
 | **2023-08-31** | Backend and Design work for adding user database credentials using the UI will be completed |
 | **2023-09-01** | Frontend work for adding user database credentials using the UI starts |
-| **2023-09-01** | Helm chart and PyPI package review starts |
 | **2023-09-08** | Github Action to build static files and hosting the debian package is complete |
 | **2023-09-15** | Frontend work for adding user database credentials is complete |
 | **2023-09-15** | Buffer of 1 week for fixing any infrastructure or backend related work |

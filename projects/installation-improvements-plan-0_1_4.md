@@ -16,6 +16,11 @@ dateCreated: 2023-08-17T09:41:30.671Z
 | **Owner** | Mukesh |
 | **Helpers** | Kriti |
 
+
+This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting).
+Implementing the planned changes will be done in separate projects
+- [Installation Improvement 0.1.4](/en/projects/installation-improvements-0_1_4)
+
 ### Problems
 1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot of pain points.
 
@@ -55,6 +60,9 @@ Not prioritizing at all - until more than one person asks
 Discourage
 - Someone installing everything on localhost (not just trying it out)
 
+### Limitations of the Project
+- We won't be making any changes to other areas of the product like database permissions, updating packages. We will only be organizing our existing Installation process. The user need to be a `SUPERUSER` or be the `OWNER` of the database if they wish Mathesar to manage that database
+
 ### Terminology
 - Internal database - Mathesar stores its metadata like `Exploration`, `Admin user` registration details in this database. 
 - User database - These databases contain the data which the user wants to manage using Mathesar. Mathesar can manage more than one database at a time.
@@ -66,8 +74,6 @@ Discourage
 2. Configuring Mathesar - The user might want to make some additional configuration like connecting to an additional database, pointing a domain at the Mathesar server. The user might want to configure **more than once** and might not do it right after installation
 3. Updating Mathesar - When we make a new release, the user will need to update Mathesar to use the new features. This can happen **more than once**
 4. Uninstalling Mathesar - In some unfortunate circumstances, the user might uninstall Mathesar. This happens only **once**
-
-
 
 
 ***The installation plan is based on the assumption above. So please comment if you are not okay with the above assumption***
@@ -301,7 +307,3 @@ This will explain how to connect to localhost DBs if you're using Docker (conten
 - Install from scratch
 - Administration section (uninstall & upgrade Mathesar)
     - It Will be folded into individual installation types
-
-### What after this
-I have created a project to work needed to make it easier for high-priority persona
-1. [Installation Improvement targeted at top priority personas](/en/projects/installation-improvements-0_1_4)
