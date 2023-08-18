@@ -9,7 +9,7 @@ dateCreated: 2023-08-17T09:42:41.660Z
 ---
 
 **Status**: Draft
-**Review status**: Review
+**Review status**: In Review
 
 ## Team
 | Role | Assignee |
@@ -122,8 +122,10 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Update the Docker Installation section to not require Postgres server as a pre-requisite
 - Remove Guided script installation
     - plus appendices
+    - Point the user to use the deprecated docker-compose commands
 - Deprecate Docker compose installation
     - plus "customizing docker compose" page
+    - We will work on adding a migration script in later cycles to migrate the users to a different installation (most likely docker), for now the focus is not to have a new user look at this documentation.
 - Deprecate Install from scratch. Add a note to redirect the user to use debian package (which is similar without information on compiling or setting up a reverse proxy, database, etc)
 - Remove Administration section (uninstall & upgrade Mathesar)
 - Add instructions for installing on Debian
@@ -151,8 +153,9 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 | **2023-08-31** | Backend and Design work for adding user database credentials using the UI will be completed |
 | **2023-09-01** | Frontend work for adding user database credentials using the UI starts |
 | **2023-09-08** | Github Action to build static files and hosting the debian package is complete |
+| **2023-09-015** | Documentation is up for review |
 | **2023-09-15** | Frontend work for adding user database credentials is complete |
-| **2023-09-15** | Buffer of 1 week for fixing any infrastructure or backend related work |
+| **2023-09-15** | Buffer of 1 week |
 
 ## Resources
 
