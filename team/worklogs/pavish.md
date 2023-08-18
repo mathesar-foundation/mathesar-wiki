@@ -10,13 +10,20 @@ dateCreated: 2023-07-07T17:01:46.847Z
 
 # Actively working on
 * Respond to cooldown discussions
-* Start email threads for:
-  - handling user feedback
+* Start email thread for:
   - Product level permissions discussion to account for related entities
-* Sync with Ghislaine and Brent on niche research project
-* Postgres compatibility project
 
 # Daily logs
+## 2023-08-17
+* Started email thread on handling user feedback (XY problem)
+* Responded to Brent's mail on compatibility with preexisting DBs
+
+## 2023-08-16
+* Responded to 'users who do not want anything installed on the DB' mail
+* Niche meeting with Ghislaine and Brent
+* Reviewed [Create superuser page's stylings](https://github.com/centerofci/mathesar/pull/3131)
+* Responded to a number of smaller discussions
+
 ## 2023-08-14 to 2023-08-15
 * I was away on both days
 
