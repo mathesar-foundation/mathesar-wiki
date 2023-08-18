@@ -32,6 +32,9 @@ The bare minimum would be to show the views that already exist on a DB in the UI
 - Where should they be shown?
 - Can we get away without enabling editing of the view definition, or editing data in the underlying tables at this time?
 - Most difficult work here is UI/UX.
+- This potentially overlaps with data explorer (or at least it will seem to for users). 
+  - How should we deal with this?
+  - We either need a distinct representation from saved explorations or an integrated approach.
 
 ### Permissions
 
@@ -63,6 +66,8 @@ We may not act correctly for multicolumn foreign keys, or foreign keys that don'
 ### Constraints
 
 We currently break and don't even return the constraints we _do_ know if we stumble across a constraint type we don't support. Thus, we at least need to fix that. We also need to verify that the behavior when trying to update a value that would violate some unsupported constraint is reasonable.
+- How do we determine which database configurations to show in the UI?
+- We should find a balance to avoid overwhelming users if we opt to display all database configurations in the UI.
 
 ### Column moving dangerous in some preexisting DBs
 
@@ -71,16 +76,26 @@ I think we should really try to do the project to fix up the column moving, or r
 
 ## Solution
 
-We need to 
+For this project, we need to 
 - Go through commentary and issues from users to ensure nothing has been forgotten in the problems listed above.
 - Find realistic sample PostgreSQL databases and try connecting Mathesar to see if we've forgotten anything else.
+  - [This thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/H532ebtiLb0/m/vs87RhyGBQAJ) from the dev mailing list has some suggestions.
+- Work through UX problems associated with connecting to preexisting databases
+  - Brainstorm what UX problems may occur
+  - Determine which problems could cause data loss or actual breakage of the front end
 - Have product-level discussions to determine what we want to prioritize.
+  - Top of the list should be any problems that we believe could cause data loss, or which break the front end experience.
   - Some features may be more useful for target user groups.
   - Some features may have implications for other parts of the product.
 - Write issues and meta-issues based on those discussions describing the work to be done.
-- Implement solutions to the issues.
+  - Issues should be grouped by category above, and should cover design as well as implementation; multiple issues per category will generally be needed.
+  - We should have complete, ready-to-implement issues for at least data losing or breaking problems found by the end of the cycle. This may imply doing some of the design work during the cycle so that we can spec and write implementation issues.
 
-This project only covers the first 4 bullet points. If we get to any implementation, it would be a bonus.
+It may be that we end up prototyping or even implementing some features during this project, but any implementation work should be done _solely_ to help us understand the UI/UX concerns better so we can more clearly spec out said UX and any related issues. Design should be done insofar as it's needed to write implementation-related issues.
+
+### Prioritization of implementation
+
+ When we get to implementation, we want to prioritize solutions to problems that break Mathesar's ability to work with existing databases over adding new functionality. E.g., we should make sure that our column moving features don't cause data loss, no matter what types of foreign and primary key arrangements might exist on the connected database before we add features to let users see views. We want to reflect this in the issues and meta-issues we create.
 
 ## Outcome
 
@@ -95,4 +110,4 @@ Users should be able to connect Mathesar to a preexisting database
 
 ## Timeline
 
-I think we should be able to accomplish everything up to writing issues within a single cycle, barring the discovery of some as-yet uncontemplated problem with connecting to a preexisting database.
+Within the coming cycle, we should at least get as far as writing up (meta)issues for any problems we discover that will result in either data loss, or breakage of the front end experience while they remain unsolved. As a bonus, we'd like to have issues for other categories of problems, prioritized and triaged. 
