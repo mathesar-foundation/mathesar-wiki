@@ -1,10 +1,9 @@
 ## Active
 
-- Sift and prioritize issues
-  - Sync with Sean on it early next week
+- Consider volunteering for user-feedback improvement in xy email thread
+- Start work on backend fixes
 - See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
 - See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
-- Make reservations for the GSoC mentor summit
 
 ## Backlog
 
@@ -12,6 +11,38 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-08-17
+
+- Prepare for team meeting
+- Respond in criteria for closing user issues email thread
+- Update backend fixes project with outcome
+- Read the newly posted and newly updated project documents
+- Respond in investigate interop with preexisting dbs email thread
+- Respond in appetite email thread
+- Respond in release email thread
+
+### 2023-08-17
+
+- Make reservations for the GSoC mentor summit
+- Catch up on email
+- Respond in release email thread
+- Respond in xy problem email thread
+- Respond in package version management email thread
+- Respond in should we install on user db email thread
+- Respond in summarizations for json email thread
+
+### 2023-08-16
+
+- Make progress in cleaning up a backend issues created during last few months
+- Prioritize tasks for backend fixes of next cycle [#3144](https://github.com/centerofci/mathesar/issues/3144)
+- Figure out when and who will do Supabase research [#3144](https://github.com/centerofci/mathesar/issues/3144)
+- Sync with Sean on prioritization of issues
+
+### 2023-08-14
+
+- Respond in should we install on user db email thread
+- Respond in todo list for cooldown email thread
 
 ### 2023-08-11
 
