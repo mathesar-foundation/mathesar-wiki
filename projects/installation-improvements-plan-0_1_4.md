@@ -21,11 +21,9 @@ dateCreated: 2023-08-17T09:41:30.671Z
 
 ### Reasons
 1. We are targeting too many different use cases for Mathesar in our current documentation, which makes the documentation overwhelming for the user, and we need to simplify things.
-2. Installing Mathesar involves many steps without any feedback or preventive checks in place, which makes the process brittle and introduces failure points that we can avoid. Moreover the user might miss out some steps and will be able to only notice it after completing all the installation steps.
+2. Installing Mathesar involves many steps without any feedback or preventive checks in place, which makes the process brittle and introduces failure points that we can avoid. he user might miss out some steps and will be able to only notice it after completing all the installation steps.
 3. There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
-4. Configuration is done through scripts specific to certain installation methods, and not in the product itself, which makes some installation methods much more difficult, hard to give a feedback and inconsistent. This also makes it hard to explain in the documentation in an intutive manner.
-5. This also makes the documentation harder to maintain since each installation method has very different steps.
-
+4. Configuration is done through scripts specific to certain installation methods, and not in the product itself, which makes some installation methods much more difficult, hard to give feedback. This also makes it hard to explain in the documentation in an intuitive manner.
 
 
 ### Targeted Personas
@@ -65,8 +63,8 @@ Discourage
 
 ### Possible lifecycle of Mathesar
 1. Installing and setting up Mathesar App - User installs and sets up Mathesar as a functionally incomplete app (like hardware without software). It has no uses as of now as there won't be any databases managed by Mathesar at this point. We expect the user to perform these steps only once in the installation lifecycle. This happens only **once**
-2. Configuring Mathesar - The user might want to make some additional configuration like connecting to an additional database, pointing a domain at the Mathesar server. The user might want to configure more than once and might not do it right after installation
-3. Updating Mathesar - When we make a new release, the user will need to update Mathesar to use the new features. This can happen more than once
+2. Configuring Mathesar - The user might want to make some additional configuration like connecting to an additional database, pointing a domain at the Mathesar server. The user might want to configure **more than once** and might not do it right after installation
+3. Updating Mathesar - When we make a new release, the user will need to update Mathesar to use the new features. This can happen **more than once**
 4. Uninstalling Mathesar - In some unfortunate circumstances, the user might uninstall Mathesar. This happens only **once**
 
 
@@ -88,8 +86,9 @@ The installation steps are grouped into three categories (ordered sequentially)
    - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](https://wiki.mathesar.org/en/projects/installation-documentation-improvement-2)
 2. Pre-install config
    - The defaults Mathesar come with might not suit every use-case. These are the **optional** steps that the user may need to perform to adapt Mathesar to their environment.
-   - These settings are targeted towards technical users, mostly done using the command line and it is assumed the user knows what he is doing
-   - Note: They need to be **performed before starting and using** Mathesar. Revisiting this step after using Mathesar for some time will lead to some unexpected state. For example, if the internal database URL is changed, the new database won't contain the old metadata information like `Column order` or `Explorations`.
+   - These settings are targeted towards technical users, mostly done using the command line, and it is assumed the user knows what he is doing
+   - Note: They need to be **performed before starting and using** Mathesar.
+   - Mathesar related is tightly tied to configurations in this step. The user should not expect to retain Mathesar data magically if he is pointing the internal database URL to a different database.
    - The following configuration steps fall into this category
      - Passing in their own secret key as an environment variable. 
      - Passing in the credentials of the database to be used as the internal database.
@@ -125,7 +124,185 @@ The installation steps are grouped into two
 
 
 
+### Outline of the documentation
 
+## Proposed Outline
+### Homepage
+- Introduction & Overview 
+    - Content: homepage of docs.mathesar.org
+    - Remains the same
+- Installation 
+    - We will be replacing the current Installation section in the homepage of docs.mathesar.org and the related navigation section with the following installation options. Each installation option will point to the content page
+    - Install with Docker
+        - Content: [Single image Docker](#install-with-docker)
+        - Note: We will provide a single Docker image which comes in-built with Postgres server. The Postgres server won't be started if the user configures Mathesar to use an existing database as its internal database
+        - Persona: Try it out quickly locally [TOP]
+        - Persona: Someone installing on a remote system [TOP]
+    - Install on [PaaS name]
+        - Content: [Instructions for specific PaaS](#install-with-paas)
+        - Note: By default, configured to be production ready.
+        - Persona: Try it out quickly on a PaaS [TOP]
+    - Install on Debian
+        - Content: [Non-Docker install](#install-on-debian)
+        - Persona: Someone installing on a remote system (Debian) [TOP]
+    - Install as Python module from PyPI
+        - Content: [Instructions for installing from PyPI](#install-as-python-module-from-pypi)
+        - Persona: Someone installing on a remote system (non-Debian Linux) [TOP]
+        - Persona: Someone installing server on localhost, but connecting to a remote DB [MEDIUM]
+    - Install with Helm
+        - Content: [Instructions for using Helm Chart](#install-with-helm)
+        - Persona: Install on existing infrastructure [MEDIUM]
+- Configuration
+    - Environment (common for all installation options)
+    - Connecting to DBs on localhost
+
+##### Pattern for the content page (for the reader; not part of outline)
+We will follow the below pattern to keep the documentation consistent and easier to maintain.
+
+- Pre-requisites
+- Installation
+  - Install steps 
+  - Pre-install config options will be shown as a tip or a warning.
+    - As these steps should be done before starting Mathesar, we need to make sure the user knows about these steps and takes an informed decision before proceeding further.
+    - The description is meant to be brief and will point to the actual content which will be under the "Next steps to take" Mathesar section
+  - Setup steps
+- Next steps to take
+    - Post install non-mathesar config options
+      - Only the information on why and how to configure using the UI
+    - Use case based configurations
+      - Groups multiple configurations to fit into a use case which helps the user take an informed decision
+        - Use case (ex: Setting up for production, automatic updates)
+          - Description on why it is needed
+          - Points to the relevant section in the Configuring Mathesar. Can point to multiple configuration options (use env variables, access Mathesar using a domain name)
+- Administration
+  - Update process
+  - Configuring Mathesar
+    - Post install Mathesar config options
+      - Inform users to restart Mathesar after making changes
+    - Pre-install config options
+      - Warn users of data loss or unexpected state if these configurations are changed after using Mathesar
+  - Uninstall process
+
+### Content Page
+##### Install with Docker
+- Pre-requisites:
+    - Install Docker
+    - Root access if you're on Linux
+- Steps:
+    - Single docker run command (Install)
+        - Mount a volume to store information in the default location used by Docker
+        - Tip where we explain how to configure for production use (Pre-install config)
+            - Set secret key as environment variable 
+            - Use a separate database for storing mathesar metadata etc
+    - Set up superuser through UI (Setup)
+- Next steps to take (Post install config)
+  - Set up additional DBs through UI
+  - Set up a update server
+  - Set up for production server
+    - Use environment variables. Point to "Configuring Mathesar" section
+- Administration
+  - Configuring Mathesar
+    - Platform specific configuration instructions
+    - Point to "Environment variables" page
+  - Uninstall process
+- Implementation details (for the reader; not part of outline)
+  - The docker image will come with an in-built Postgres server, where the internal and user database will be created by default unless the user configures Mathesar to use a remote database
+  - The in-built Postgres server won't be started to save resources if the user has configured Mathesar to use a remote database
+
+
+##### Install with PaaS
+- Pre-requisites:
+    - Have an account on the PaaS platform (Depends on the platform, some platforms **might** allow you to set up without an account)
+- Steps:
+    - Click the one click deploy button or click on the Mathesar app on the app store which will install Postgres server along with Mathesar server (Varies based on the platform)
+    - Set up superuser through UI
+- Next steps to take
+  - Set up an automatic update process
+- Administration
+  - Configuring Mathesar
+    - Platform specific configuration instructions
+    - Point to "Environment variables" page
+  - Uninstall process
+
+##### Install on Debian
+- Pre-requisites:
+    - Postgres server
+- Steps:
+    - Add Mathesar repo to apt
+    - Run `apt install` to install Mathesar
+    - Run command to start the Mathesar executable
+    - Set up superuser through UI
+    - Set up user DBs through UI
+- Next steps to take
+  - Set up for production server
+    - Use environment variables. Point to "Configuring Mathesar" section
+    - Use Postgres server as the internal database
+- Administration
+  - Steps for updating
+  - Configuring Mathesar
+    - Platform specific configuration instructions
+    - Point to "Environment variables" page
+  - Uninstall process
+
+##### Install as Python module from PyPI
+- Pre-requisites:
+    - Python Interpreter
+    - Postgres server
+- Steps:
+    - Set up a virtualenv
+    - Install using pip
+    - Run command to start the Mathesar executable
+    - Set up superuser through UI
+    - Set up user DBs through UI
+- Next steps to take
+  - Set up for production server
+    - Use environment variables. Point to "Configuring Mathesar" section
+    - Use Postgres server as internal database
+- Administration
+  - Steps for updating
+  - Configuring Mathesar
+    - Platform specific configuration instructions
+    - Point to "Environment variables" page
+  - Uninstall process
+
+##### Install with Helm
+- Pre-requisites:
+    - Kubernetes
+    - Helm
+    - Postgres server
+- Steps:
+    - Add Mathesar repo to helm repo
+    - Run `helm install` to install Mathesar
+    - Set up superuser through UI
+    - Set up user DBs through UI
+- Next steps to take
+  - Set up for production server
+    - Use environment variables
+    - Enable ingress
+- Administration
+  - Steps for updating
+  - Configuring Mathesar
+    - Platform specific configuration instructions
+    - Point to "Environment variables" page
+  - Uninstall process
+  
+  
+### Environment Variables
+List of environment variables and descriptions
+
+### Connecting to DBs on localhost
+This will explain how to connect to localhost DBs if you're using Docker (content is already on docs.mathesar.org)
+
+### Stuff we're removing from current docs (not part of outline)
+- Guided script installation
+    - plus appendices
+- Docker compose installation
+    - plus "customizing docker compose" page
+- Install from scratch
+- Administration section (uninstall & upgrade Mathesar)
+    - It Will be folded into individual installation types
+
+### 
 In order to make the following changes, we will be making some changes to the codebase and updating our documentation. I have created two projects to track the necessary work
 1. [Laying the groundwork for improving our installation process](/en/projects/installation-improvements-0_1_4) - This project involves all the code related changes. We won't be overhauling the documentation in this project, instead we will make enough changes just to keep the documentation updated based on the new features. However to understand the reason behind the proposed changes please take a look at the [Overhaul of the Installation documentation](/en/projects/installation-documentation-improvement-2) project
 2. [Overhaul of the Installation documentation](/en/projects/installation-documentation-improvement-2) - We will be removing deprecated installation types, removing unnecessary information and reorganizing documentation in this project.
