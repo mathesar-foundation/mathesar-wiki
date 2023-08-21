@@ -12,7 +12,6 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Soon
 
-- Update project page from previous cycle
 - Sync with Rajat about work for the cycle
 - Resolve conflicts in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
 - Address Kriti's feedback in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
@@ -21,6 +20,7 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Later in this cycle
 
+- Begin "User Communication Guide", as a wiki page
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 
@@ -32,6 +32,15 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-18 Friday
+
+*(shorter day due to some kid stuff)*
+
+- Update project page from previous cycle
+- Team meeting
+- Team event
+- Some smaller discussions
 
 ## 2023-08-17 Thursday
 
