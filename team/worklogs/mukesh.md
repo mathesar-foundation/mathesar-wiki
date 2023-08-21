@@ -9,12 +9,18 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- 
+- Reply to Closing user reported issues email
+- Start working fixing the [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
 
-## Backlog
-- Review Rajat's final Internalization PR
+## 2023-08-21
+- Sync with Varsha
+- Moved all pending issues from 0.1.3 milestone to 0.1.4
+- Commented on [Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Reviewed Varsha's [datafiles error schema](https://github.com/centerofci/mathesar/pull/3062) and tables endpoint PR
+- Reply to feedback for the Installation Improvement email
 
-## 2023-08-17
+
+## 2023-08-18
 - Update the Installation Improvement project based on feedback from Ghislaine and Kriti
 - Sync with Anish
 - Team meeting
