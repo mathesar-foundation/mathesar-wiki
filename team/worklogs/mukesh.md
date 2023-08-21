@@ -9,11 +9,22 @@ dateCreated: 2023-07-07T16:40:32.972Z
 ---
 
 ## Actively working on
-- Writing the Installation Project proposal for the upcoming cycle
+- 
 
 ## Backlog
 - Review Rajat's final Internalization PR
-- Review the PR's opened by Varsha
+
+## 2023-08-17
+- Update the Installation Improvement project based on feedback from Ghislaine and Kriti
+- Sync with Anish
+- Team meeting
+- Community event
+
+
+## 2023-08-17
+- Write up the Installation Improvement project
+- Sync with Ghislaine
+
 
 ## 2023-08-16
 - Reply to the "Installing on user db" email
