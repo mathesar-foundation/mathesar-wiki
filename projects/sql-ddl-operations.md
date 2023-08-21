@@ -9,7 +9,7 @@ dateCreated: 2023-03-23T08:31:13.306Z
 ---
 
 - **Name**: Move DDL operations to SQL functions
-- **Status**: In Progress
+- **Status**: Complete
 - **Review status**: Approved
 - **Theme**: Code quality, maintainability, performance, Removing SQLAlchemy
 
