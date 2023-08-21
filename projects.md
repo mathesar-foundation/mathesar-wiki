@@ -25,7 +25,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 | Owner     | Project | Status |
 | --        | -- | -- |
 | Brent | | |
-| Ghislaine | | |
+| Ghislaine | [Niche Research](./projects/niche-research.md) | In Progress |
 | Mukesh | | | 
 
 Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with projects as needed. That work is tracked on GitHub in the 0.1.4 milestone on GitHub.
