@@ -86,11 +86,24 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
 
 ## Outcome
 
-A report that provides:
+The result of this research will be a report that includes:
 
-- Key user personas for Mathesar.
-- Potential use cases derived from niche analysis and user needs.
-- Product development recommendations based on research insights.
+### Key User Personas for Mathesar
+
+- **User Profiles**: Descriptions of likely users and their needs within small businesses using PostgreSQL.
+- **How to Reach Users**: Ideas on how to get our product in front of these users.
+
+### Use Cases for Mathesar
+
+- **List of Use Cases**: Ways small businesses might use Mathesar.
+- **Types of Use Cases**: Grouping the use cases by different user needs.
+
+### Product Changes and Niche Focus
+
+- **Define the Niche**: Pin down which part of the small business PostgreSQL market we should focus on.
+- **Update the Roadmap**: Changes we should make to our plans based on what we learned.
+- **Key Features**: Pointing out the main features or changes that users in the focused niche might want.
+- **Making it Easier to Use**: Ideas on how to improve the product's user experience for the niche.
 
 ---
 
