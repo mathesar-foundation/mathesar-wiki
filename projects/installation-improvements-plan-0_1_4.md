@@ -61,7 +61,8 @@ Discourage
 - Someone installing everything on localhost (not just trying it out)
 
 ### Limitations of the Project
-- We won't be making any changes to other areas of the product like database permissions, updating packages. We will only be organizing our existing Installation process. The user need to be a `SUPERUSER` or be the `OWNER` of the database if they wish Mathesar to manage that database
+- We won't be making any changes to other areas of the product like database permissions, updating packages. We will only be organizing our existing Installation process.
+- The user need to be a `SUPERUSER` or be the `OWNER` of the database if they want Mathesar to manage that database
 
 ### Terminology
 - Internal database - Mathesar stores its metadata like `Exploration`, `Admin user` registration details in this database. 
@@ -79,7 +80,7 @@ Discourage
 ***The installation plan is based on the assumption above. So please comment if you are not okay with the above assumption***
 
 ### Outline of the steps after the installation overhaul project
-Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The documentation outline will provide detailed information of the steps involved with a particular installation type 
+Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The [documentation outline](#outline-of-the-documentation) will provide detailed information of the steps involved with a particular installation type 
 
 #### Installing Mathesar
 The installation steps are grouped into three categories (ordered sequentially)

@@ -73,8 +73,8 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Database credentials in the environment variable `MATHESAR_DATABASES` should be read and created when mathesar is started
   - These databases should be marked as readonly and cannot be edited using the UI
 - Redirect the user to the database create page if no user database exists
-- Remove the usage of `django.contrib.postgres.fields.ArrayField` so that we can use `SQLite` for the internal Mathesar database.
-- Remove type annotations to get Mathesar working with a wide band of Python
+- Remove the usage of `django.contrib.postgres.fields.ArrayField` so that we can use `SQLite` for the internal Mathesar database. We need this for quickstarting Mathesar on installation options that don't come with a database.
+- Remove type annotations to get Mathesar working with wide-band of Python. We need this to support various versions of Debian distro
 
 
 ### Design and Frontend Work (Ghislaine & Rajat)
