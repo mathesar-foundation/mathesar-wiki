@@ -8,6 +8,19 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-08-21
+- Started organizing for research, finding different sources.
+- Made changes to the survey for publishing.
+- Caught up on emails and discussions.
+
+**Current Focus:**
+- Publishing the survey.
+- Listing out all the sources for the Niche research and organizing them.
+
+## 2023-08-18
+- Prepared and updated the Niche Research project document.
+- Prepared for the team weekly meeting.
+
 ## 2023-08-17
 - Reviewed the installation plan.
 - Had a feedback call with Mukesh.
