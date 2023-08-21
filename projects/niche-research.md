@@ -1,5 +1,3 @@
-# Research of the Niche: Small Businesses Using PostgreSQL
-
 **Status**: Draft  
 **Review Status**: Draft  
 **Theme**: Niche Research and Persona Development for Mathesar
@@ -10,13 +8,13 @@
 
 **Project Owner**: Ghislaine
 
-| Role                        | Assignee     | Reviewer | Notes                                                        |
-| --------------------------- | ------------ | -------- | ------------------------------------------------------------ |
-| Niche Research             | Ghislaine    | Kriti    | Understanding potential use cases, pain points, and market gaps |
-| User Persona Development    | Ghislaine    | Kriti    | Detailed breakdown of potential users, their behaviors, and needs |
-| Data Analysis & Reporting   | Ghislaine    | Kriti    | Synthesizing research findings and preparing the final report |
+| Role                              | Assignee     | Reviewer                                 | Notes                                                        |
+| --------------------------------- | ------------ | ---------------------------------------- | ------------------------------------------------------------ |
+| Technical & Scope Advice        | Brent, Pavish| -                                        | Advice on the project scope and provide technical perspectives |
+| Niche Research                    | Ghislaine    | Kriti                                    | Understanding potential use cases, pain points, and market gaps |
+| User Persona Development          | Ghislaine    | Kriti                                    | Detailed breakdown of potential users, their behaviors, and needs |
+| Data Analysis & Reporting         | Ghislaine    | Kriti                                    | Synthesizing research findings and preparing the final report |
 
----
 
 ## Problem
 
