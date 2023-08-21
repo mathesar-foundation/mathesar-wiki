@@ -33,6 +33,11 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 --------------------------------------------------------------------------------
 
+## 2023-08-21 Monday
+
+- Troubleshoot some computer issues
+- Discussions
+
 ## 2023-08-18 Friday
 
 *(shorter day due to some kid stuff)*
