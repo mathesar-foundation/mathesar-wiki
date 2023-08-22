@@ -246,7 +246,7 @@ Most of these solutions will be useful for laying the ground work for future wor
         - Setup a database
         - Create a database superuser
     </details>
-   <details>
+    <details>
       <summary>Mathesar + Postgres docker Image(1 step)</summary>
   
         - Install Docker
