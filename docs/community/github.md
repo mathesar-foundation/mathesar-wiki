@@ -1,16 +1,9 @@
----
-title: Mathesar on GitHub
-description: About Mathesar's GitHub usage
-published: true
-date: 2023-07-19T23:00:52.877Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-26T00:52:58.069Z
----
+# Mathesar on GitHub
 
 The Mathesar team uses GitHub for code, issue tracking, and long form (asynchronous) discussions. We also have our roadmap here.
 
 ## Repositories
+
 - The [Mathesar code](https://github.com/centerofci/mathesar) is our main repository.
 - The [Mathesar wiki repository](https://github.com/centerofci/mathesar-wiki) is the content for this wiki. Content can either be edited directly in the repository or through the wiki's web interface.
 - The [Mathesar website repository](https://github.com/centerofci/mathesar-website) is the repository for `mathesar.org`. It uses Jekyll and is deployed on GitHub Pages.
@@ -19,6 +12,7 @@ The Mathesar team uses GitHub for code, issue tracking, and long form (asynchron
 - We have forked [sqlalchemy-filters](https://github.com/centerofci/sqlalchemy-filters) to add some functionality.
 
 ## Issue Tracking & Roadmap
+
 - [Mathesar repo milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open):  we track our roadmap using GitHub milestones
 - We use GitHub issues across all our repositories to track work. Most of our issues are located [on our main repo](https://github.com/centerofci/mathesar/issues).
 

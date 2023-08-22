@@ -1,41 +1,35 @@
----
-title: Mentoring
-description: Mentoring opportunities at Mathesar
-published: true
-date: 2023-07-19T23:01:06.717Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-18T19:23:06.554Z
----
+# Mentoring
 
 Welcome and thanks for your interest in contributing to Mathesar! 
 
 We're participating in **Google Summer of Code (GSoC)** in 2023.
 
-# For Applicants
+## For Applicants
 
-## GSoC Information
+### GSoC Information
+
 - [Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
 - [Applicant Guide *Guide for anyone applying to a mentorship program.*](/en/community/mentoring/applicant-guide)
 - [Project Proposal Template *Template to use for program applications.*](/en/community/mentoring/project-proposal-template)
-{.links-list}
 
-## General Information
+### General Information
+
 - [About Mathesar *Main website*](https://mathesar.org/)
 - [Community *How to join the Mathesar community*](/en/community)
 - [Contribution Guide *How to contribute to Mathesar code*](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 - [Mathesar Team Members *More information about mentors*](/en/team/members)
-{.links-list}
 
-# For Mentees
+## For Mentees
+
 - [Mentee Guide *Guide for accepted mentees.*](/en/community/mentoring/mentee-guide)
-{.links-list}
 
-## For Mentors
+### For Mentors
+
 - [Mentor Guide *Instructions for mentors*](/en/community/mentoring/mentor-guide)
 - [Project Idea Template *Template to use when writing up project ideas*](/en/community/mentoring/project-idea-template)
-{.links-list}
 
-# History
-## GSoC 2022
+## History
+
+### GSoC 2022
+
 For outcomes from GSoC 2022, please see the [Project Reports](/en/engineering/reports) page.
