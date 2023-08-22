@@ -6,25 +6,22 @@ A guide for Mathesar core and community team members.
 
 These pages relate to Mathesar's development.
 
-- [Workflow *How the workflow of the team is organized*.](/team/guide/workflow)
-- [Meetings *How we should approach meetings*](/team/guide/meetings)
-- [Design Review *Guidelines for reviewing new designs*](/design/process/review-guidelines)
-- [Code Review *Guidelines for reviewing new code*](/engineering/code-review)
-{.links-list}
+- [Workflow](/team/guide/workflow) - *How the workflow of the team is organized*
+- [Meetings](/team/guide/meetings) - *How we should approach meetings*
+- [Design Review](/design/process/review-guidelines) - *Guidelines for reviewing new designs*
+- [Code Review](/engineering/code-review) - *Guidelines for reviewing new code*
 
 ## Community Management
 
 These pages relate to managing the community of contributors around the project, but are also applicable to the product development workflow.
 
-- [Issue Triage *How to triage incoming issues, including ones you make yourself*](/team/guide/issue-triage)
-- [Issue Assignment *How to assign issues to interested contributors or yourself*](/team/guide/issue-assignment)
-{.links-list}
+- [Issue Triage](/team/guide/issue-triage) - *How to triage incoming issues, including ones you make yourself*
+- [Issue Assignment](/team/guide/issue-assignment) - *How to assign issues to interested contributors or yourself*
 
 ## Other
 
 Other pages that don't fit into the above two categories.
 
-- [Tools *Collaboration tools used by the Mathesar team*](/team/guide/tools)
-- [Team Events *About Mathesar core team events*](/team/guide/events)
-- [Communication Tips *Communication tips for Mathesar team members*](/team/guide/comm-tips)
-{.links-list}
+- [Tools](/team/guide/tools) - *Collaboration tools used by the Mathesar team*
+- [Team Events](/team/guide/events) - *About Mathesar core team events*
+- [Communication Tips](/team/guide/comm-tips) - *Communication tips for Mathesar team members*

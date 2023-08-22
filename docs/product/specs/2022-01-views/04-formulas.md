@@ -111,6 +111,5 @@ This is a list of view formulas that we should support in the alpha release of M
 - [Cumulative Formulas *Formulas building on previous rows in the query*](/en/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
 - [Regular Expression Formulas *Formulas that use regular expressions*](/en/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
 - [Custom Formulas *An interface to support more complicated formulas*](/en/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
-{.links-list}
 
 
