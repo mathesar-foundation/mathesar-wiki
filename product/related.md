@@ -44,6 +44,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Stackby](https://stackby.com/)
 - [Xata](https://xata.io)
 - [Tadabase](https://tadabase.io/)
+- [Visual DB](https://visualdb.com/)
 
 ## Desktop
 - [Ultorg](https://www.ultorg.com/)
