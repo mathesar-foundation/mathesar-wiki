@@ -1,12 +1,4 @@
----
-title: Internationalization Implementation
-description: 
-published: true
-date: 2023-07-19T23:12:22.705Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-15T20:52:51.896Z
----
+# Internationalization Implementation
 
 - **Name**: Internationaliztion
 - **Status**: In progress

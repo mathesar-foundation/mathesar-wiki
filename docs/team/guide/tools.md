@@ -1,12 +1,4 @@
----
-title: Tools
-description: Collaboration tools used by the team
-published: true
-date: 2023-07-19T23:39:00.967Z
-tags: 
-editor: markdown
-dateCreated: 2021-11-04T12:29:56.320Z
----
+# Tools
 
 # Communication
 

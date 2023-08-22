@@ -1,12 +1,4 @@
----
-title: (f) Date, Time, and Duration Formulas
-description: 
-published: true
-date: 2023-07-19T23:48:06.191Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-26T00:25:24.180Z
----
+# (f) Date, Time, and Duration Formulas
 
 These formulas operate on date & time types. They are based on PostgreSQL [date/time functions and operators](https://www.postgresql.org/docs/9.1/functions-datetime.html).
 

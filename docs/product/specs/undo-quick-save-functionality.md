@@ -1,12 +1,4 @@
----
-title: Quick Save Functionality
-description: 
-published: true
-date: 2023-07-19T23:37:24.445Z
-tags: 
-editor: markdown
-dateCreated: 2023-04-26T21:17:36.980Z
----
+# Quick Save Functionality
 
 # Quick Save Functionality
 

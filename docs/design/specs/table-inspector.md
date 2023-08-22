@@ -1,12 +1,4 @@
----
-title: Table Inspector
-description: 
-published: true
-date: 2023-07-19T23:24:14.664Z
-tags: 
-editor: markdown
-dateCreated: 2022-08-29T20:35:31.512Z
----
+# Table Inspector
 
 ## Legends
 

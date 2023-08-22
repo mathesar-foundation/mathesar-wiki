@@ -1,12 +1,4 @@
----
-title: Support for JSON Data Type
-description: 
-published: true
-date: 2023-07-19T23:43:22.470Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T21:20:20.298Z
----
+# Support for JSON Data Type
 
 ## The Problem
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include better support for [PostgreSQL JSON types](https://www.postgresql.org/docs/current/datatype-json.html).

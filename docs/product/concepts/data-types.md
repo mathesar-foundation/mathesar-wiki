@@ -1,12 +1,4 @@
----
-title: Data Types
-description: About Data Types in Mathesar
-published: true
-date: 2023-07-19T23:35:45.180Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-05T18:05:57.778Z
----
+# Data Types
 
 # About
 

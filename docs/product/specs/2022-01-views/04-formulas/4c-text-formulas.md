@@ -1,12 +1,4 @@
----
-title: (c) Text Formulas
-description: 
-published: true
-date: 2023-07-19T23:47:42.771Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-24T00:56:57.446Z
----
+# (c) Text Formulas
 
 These formulas operate on text and text-like types. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 

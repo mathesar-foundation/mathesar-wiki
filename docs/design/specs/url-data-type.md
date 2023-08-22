@@ -1,12 +1,4 @@
----
-title: URL Data Type
-description: 
-published: true
-date: 2023-07-19T23:24:40.651Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-11T09:31:15.881Z
----
+# URL Data Type
 
 # Context
 URL data types are custom Mathesar data types used to store URLs.

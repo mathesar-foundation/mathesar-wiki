@@ -1,12 +1,4 @@
----
-title: Data Type Options
-description: 
-published: true
-date: 2023-07-19T23:19:51.198Z
-tags: 
-editor: markdown
-dateCreated: 2022-09-12T21:08:08.137Z
----
+# Data Type Options
 
 ## Context
 

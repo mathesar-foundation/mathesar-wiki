@@ -1,12 +1,4 @@
----
-title: Design Review Guidelines
-description: Guidelines for working with design specs
-published: true
-date: 2023-07-19T23:17:56.969Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-28T21:02:49.613Z
----
+# Design Review Guidelines
 
 The design team creates specs to describe the design solutions related to the Mathesar product. Whether small or large, all [design issues](#design-issues) should be accompanied by a spec containing the solution details and information relevant to its implementation.
 

@@ -1,12 +1,4 @@
----
-title: Filters in Mathesar
-description: 
-published: true
-date: 2023-07-19T23:26:00.425Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-27T20:34:26.513Z
----
+# Filters in Mathesar
 
 This page covers filters from an engineering/architecture perspective. Please see the ["Filters" product concepts page](/en/product/concepts/filters) for a user-facing looking at filters.
 

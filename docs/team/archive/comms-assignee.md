@@ -1,12 +1,4 @@
----
-title: Comms Assignee
-description: About the Comms Assignee and their duties
-published: true
-date: 2023-07-19T23:38:01.238Z
-tags: 
-editor: markdown
-dateCreated: 2021-10-23T18:49:14.482Z
----
+# Comms Assignee
 
 > This page is archived and does not reflect current team workflow.
 {.is-danger}

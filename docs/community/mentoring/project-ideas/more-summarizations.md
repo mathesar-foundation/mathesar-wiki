@@ -1,12 +1,4 @@
----
-title: Add more summarization functions
-description: Extend the summariation function options in the Data Explorer
-published: true
-date: 2023-07-19T23:44:26.988Z
-tags: gsoc
-editor: markdown
-dateCreated: 2023-02-06T05:46:45.937Z
----
+# Add more summarization functions
 
 ## Classification
 - **Difficulty**: Easy

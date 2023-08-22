@@ -1,12 +1,4 @@
----
-title: 2023-02-27 deployment check-in
-description: 
-published: true
-date: 2023-07-19T23:32:12.485Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-27T16:36:15.992Z
----
+# 2023-02-27 deployment check-in
 
 **Participants**: Kriti, Mukesh, Brent
 

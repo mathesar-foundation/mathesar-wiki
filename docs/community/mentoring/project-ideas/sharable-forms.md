@@ -1,12 +1,4 @@
----
-title: Sharable Forms to Add Data to Tables
-description: 
-published: true
-date: 2023-07-19T23:45:02.410Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T00:10:07.147Z
----
+# Sharable Forms to Add Data to Tables
 
 ## The Problem
 Mathesar currently offers a spreadsheet-like interface for data entry into tables. One of Mathesar's potential usecases is to allow data entry through surverys from a large group of individuals. Sharing the spreadsheet-like interface for such data entry is unfeasible and also comes with privacy and access-level implications.

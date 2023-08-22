@@ -1,12 +1,4 @@
----
-title: 2023-03-02 launch check-in
-description: 
-published: true
-date: 2023-07-19T23:32:21.457Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-06T16:37:26.083Z
----
+# 2023-03-02 launch check-in
 
 # Publicity Plan
 - [Draft document](https://docs.google.com/document/d/1s8WL0Uc9ak4jjHpOP6Mg0r2xsYN-SjbW5pcthF8ejLY/edit#) (not publicly accessible)

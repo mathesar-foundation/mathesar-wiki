@@ -1,12 +1,4 @@
----
-title: User Interface Style
-description: 
-published: true
-date: 2023-07-19T23:24:31.978Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-22T10:25:48.749Z
----
+# User Interface Style
 
 # Context
 Mathesar's user interface design encompasses its visual elements and interactions' aesthetic, responsiveness, efficiency, and accessibility. Essentially what the user sees when they interact with the product.

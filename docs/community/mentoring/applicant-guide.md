@@ -1,12 +1,4 @@
----
-title: Applicant Guide
-description: 
-published: true
-date: 2023-07-19T23:15:57.194Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T22:26:57.584Z
----
+# Applicant Guide
 
 # Getting Started
 

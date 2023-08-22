@@ -1,12 +1,4 @@
----
-title: Issue Triage
-description: Guidelines for triaging new issues
-published: true
-date: 2023-07-19T23:38:43.521Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-31T15:44:09.044Z
----
+# Issue Triage
 
 Triaging an issue means setting all the appropriate fields on it.
 

@@ -1,12 +1,4 @@
----
-title: List Data Type - Project Draft
-description: Draft for defining the list data type implementation project.
-published: true
-date: 2023-07-19T23:12:32.747Z
-tags: 
-editor: markdown
-dateCreated: 2023-05-02T21:44:56.744Z
----
+# List Data Type - Project Draft
 
 **Name**: Adding support for list data type in Mathesar
 **Status**: Draft 

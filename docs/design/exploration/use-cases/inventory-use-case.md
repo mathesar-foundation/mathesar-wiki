@@ -1,12 +1,4 @@
----
-title: Inventory Use Case
-description: 
-published: true
-date: 2023-07-19T23:46:04.653Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:19:10.451Z
----
+# Inventory Use Case
 
 # Inventory Use Case
 People usually need inventories to keep track of things they own or manage. Creating and using these inventories within Mathesar shouldn't be too different from creating any other spreadsheet. Most of the steps in this process aren't new to users, making inventory an ideal use case to build first.

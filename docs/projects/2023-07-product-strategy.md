@@ -1,12 +1,4 @@
----
-title: 2023-07 product strategy
-description: 
-published: true
-date: 2023-08-17T20:24:00.465Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-12T21:44:07.522Z
----
+# 2023-07 product strategy
 
 **Name**: 2023-07 product strategy
 **Status**: In progress

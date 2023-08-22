@@ -1,12 +1,4 @@
----
-title: Record Summary
-description: 
-published: true
-date: 2023-07-19T23:23:19.749Z
-tags: 
-editor: markdown
-dateCreated: 2022-07-18T17:49:31.605Z
----
+# Record Summary
 
 ## Context 
 

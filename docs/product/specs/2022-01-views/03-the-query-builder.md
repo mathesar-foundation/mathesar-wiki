@@ -1,12 +1,4 @@
----
-title: 03. The Query Builder
-description: 
-published: true
-date: 2023-07-19T23:46:32.246Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-05T23:04:47.283Z
----
+# 03. The Query Builder
 
 This page describes how the query builder should work.
 

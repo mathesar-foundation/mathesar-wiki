@@ -1,12 +1,4 @@
----
-title: Installation Improvement Plan 
-description: 
-published: true
-date: 2023-08-17T11:50:00.303Z
-tags: 
-editor: markdown
-dateCreated: 2023-08-17T09:41:30.671Z
----
+# Installation Improvement Plan 
 
 **Status**: In review
 

@@ -1,12 +1,4 @@
----
-title: Automatic Hint Reflection
-description: 
-published: true
-date: 2023-07-19T23:42:09.730Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-08T23:50:28.434Z
----
+# Automatic Hint Reflection
 
 ## Functions API
 

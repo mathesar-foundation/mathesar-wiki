@@ -1,12 +1,4 @@
----
-title: Formula Columns
-description: 
-published: true
-date: 2023-07-19T23:18:33.989Z
-tags: 
-editor: markdown
-dateCreated: 2022-08-10T15:27:06.985Z
----
+# Formula Columns
 
 > This spec is a starting point and has not been reviewed from an engineering or product perspective. It will be updated when we are ready to start implementing this.
 {.is-danger}

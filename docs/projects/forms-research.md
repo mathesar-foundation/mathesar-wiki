@@ -1,12 +1,4 @@
----
-title: Forms Research
-description: Doing product research on what our initial implementation of forms could be
-published: true
-date: 2023-07-19T23:11:13.929Z
-tags: 
-editor: markdown
-dateCreated: 2023-05-29T13:59:24.702Z
----
+# Forms Research
 
 **Name**: Forms Research
 **Status**: In progress 

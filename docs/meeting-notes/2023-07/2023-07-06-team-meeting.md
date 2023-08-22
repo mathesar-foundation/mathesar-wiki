@@ -1,12 +1,4 @@
----
-title: 2023-07-06 team meeting
-description: 
-published: true
-date: 2023-07-19T23:35:26.490Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-06T21:08:36.425Z
----
+# 2023-07-06 team meeting
 
 ## Project finalization
 List of projects from last time:

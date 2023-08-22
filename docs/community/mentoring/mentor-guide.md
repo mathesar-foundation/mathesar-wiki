@@ -1,12 +1,4 @@
----
-title: Mentor Guide
-description: 
-published: true
-date: 2023-07-19T23:16:16.265Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T22:27:25.246Z
----
+# Mentor Guide
 
 This guide only covers Mathesar-specific processes and guidelines. For a more general overview of what mentorship entails, please read [the Google Summer of Code Mentor Guide](https://google.github.io/gsocguides/mentor/).
 

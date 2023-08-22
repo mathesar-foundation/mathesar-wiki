@@ -1,12 +1,4 @@
----
-title: Installation improvements planned for 0.1.2
-description: 
-published: true
-date: 2023-07-19T23:33:35.183Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-27T15:25:03.541Z
----
+# Installation improvements planned for 0.1.2
 
 Date: 2023-03-27
 Attendees: Mukesh, Pavish

@@ -1,12 +1,4 @@
----
-title: 2023-06-27 team meeting
-description: 
-published: true
-date: 2023-07-19T23:34:58.213Z
-tags: 
-editor: markdown
-dateCreated: 2023-06-27T16:10:26.260Z
----
+# 2023-06-27 team meeting
 
 **Attendees**: Core team, Anish, Anshuman
 

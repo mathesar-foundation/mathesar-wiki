@@ -1,12 +1,4 @@
----
-title: formulas
-description: 
-published: true
-date: 2023-07-19T23:26:54.708Z
-tags: 
-editor: markdown
-dateCreated: 2023-06-23T19:27:08.066Z
----
+# formulas
 
 # Formulas research
 

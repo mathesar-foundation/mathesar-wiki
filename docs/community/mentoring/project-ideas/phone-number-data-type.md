@@ -1,12 +1,4 @@
----
-title: Phone Number data type
-description: 
-published: true
-date: 2023-07-19T23:44:45.170Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-02T20:18:17.304Z
----
+# Phone Number data type
 
 ## Classification
 - **Difficulty**: Medium

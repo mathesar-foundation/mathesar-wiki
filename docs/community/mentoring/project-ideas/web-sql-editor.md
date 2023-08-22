@@ -1,12 +1,4 @@
----
-title: Implement Textual SQL Query Builder
-description: 
-published: true
-date: 2023-07-19T23:45:55.498Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T21:52:46.522Z
----
+# Implement Textual SQL Query Builder
 
 ## The Problem
 We are building a visual query builder into Mathesar to help the user find answers to questions using their data and to create [Views](/en/product/concepts/views). To make the visual query builder easy to use, we needed to make a bunch of assumptions that limits the types of queries that can be produced. 

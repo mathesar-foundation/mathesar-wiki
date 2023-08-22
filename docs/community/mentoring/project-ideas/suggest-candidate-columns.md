@@ -1,12 +1,4 @@
----
-title: Suggest Candidate Columns to Create Separate Table
-description: 
-published: true
-date: 2023-07-19T23:45:19.902Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-08T23:58:51.504Z
----
+# Suggest Candidate Columns to Create Separate Table
 
 ## The Problem
 > This is related to [Break Columns out to New Table](/en/community/mentoring/project-ideas/break-out-columns), please read that project idea first.

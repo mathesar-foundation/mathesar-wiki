@@ -1,12 +1,4 @@
----
-title: 08. Appendix
-description: 
-published: true
-date: 2023-07-19T23:47:16.949Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-20T18:31:12.526Z
----
+# 08. Appendix
 
 # Appendix A: Movie Tables & Views
 

@@ -1,12 +1,4 @@
----
-title: Installation help
-description: 
-published: true
-date: 2023-07-19T23:39:36.426Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-16T23:16:23.908Z
----
+# Installation help
 
 > Draft
 {.is-warning}

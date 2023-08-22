@@ -1,12 +1,4 @@
----
-title: Support More Data Import Sources
-description: 
-published: true
-date: 2023-07-19T23:44:17.939Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T22:07:34.086Z
----
+# Support More Data Import Sources
 
 ## The Problem
 Currently, Mathesar only supports importing data from CSV-like files. We'd like to expand the types of data we can import, including support for:

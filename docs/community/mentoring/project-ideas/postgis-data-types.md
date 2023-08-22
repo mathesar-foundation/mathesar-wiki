@@ -1,12 +1,4 @@
----
-title: Support for PostGIS Data Types
-description: 
-published: true
-date: 2023-07-19T23:44:53.906Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T20:54:12.599Z
----
+# Support for PostGIS Data Types
 
 ## The Problem
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include the spatial data types provided by [PostGIS](http://postgis.net/).

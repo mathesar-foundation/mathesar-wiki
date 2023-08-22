@@ -1,12 +1,4 @@
----
-title: Ghislaine's Worklog
-description: 
-published: true
-date: 2023-07-20T22:09:33.687Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-06T20:00:15.650Z
----
+# Ghislaine's Worklog
 
 ## 2023-08-23
 

@@ -1,12 +1,4 @@
----
-title: Formulas
-description: 
-published: true
-date: 2023-07-19T23:18:24.443Z
-tags: 
-editor: markdown
-dateCreated: 2022-06-15T11:50:16.652Z
----
+# Formulas
 
 > This spec is a work in progress and should not be used to inform any decisions.
 {.is-warning}

@@ -1,12 +1,4 @@
----
-title: Design
-description: Resources and notes for Mathesar designers
-published: true
-date: 2023-07-19T22:59:53.701Z
-tags: 
-editor: markdown
-dateCreated: 2021-04-21T18:59:51.092Z
----
+# Design
 
 This is the homepage for Mathesar design work, closely related to [Product](/product) and [Engineering](/engineering).
 

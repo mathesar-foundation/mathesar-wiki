@@ -1,12 +1,4 @@
----
-title: Adding, Update and Deleting Records
-description: 
-published: true
-date: 2023-07-19T23:18:43.664Z
-tags: 
-editor: markdown
-dateCreated: 2021-06-28T17:47:57.446Z
----
+# Adding, Update and Deleting Records
 
 # Figma Prototype
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D1064%253A0%26node-id%3D1066%253A0%26scaling%3Dscale-down-width" allowfullscreen></iframe>

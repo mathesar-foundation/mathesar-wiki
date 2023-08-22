@@ -1,12 +1,4 @@
----
-title: Support importing Excel and JSON files
-description: 
-published: true
-date: 2023-07-19T23:43:12.929Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-03T16:25:20.421Z
----
+# Support importing Excel and JSON files
 
 ## Classification
 - **Difficulty**: Medium

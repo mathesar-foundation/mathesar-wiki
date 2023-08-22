@@ -1,12 +1,4 @@
----
-title: Automatically suggest improvements to table normalization
-description: 
-published: true
-date: 2023-07-19T23:42:00.726Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-03T16:34:34.998Z
----
+# Automatically suggest improvements to table normalization
 
 ## Classification
 - **Difficulty**: High

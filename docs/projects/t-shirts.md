@@ -1,12 +1,4 @@
----
-title: Mathesar T-Shirts
-description: 
-published: true
-date: 2023-07-19T23:13:51.957Z
-tags: 
-editor: markdown
-dateCreated: 2023-04-13T19:14:45.815Z
----
+# Mathesar T-Shirts
 
 # Mathesar T-shirt Project
 

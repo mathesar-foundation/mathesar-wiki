@@ -1,12 +1,4 @@
----
-title: 2023-03-07 priorities & workflow meeting
-description: 
-published: true
-date: 2023-07-19T23:32:30.942Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-07T15:50:27.105Z
----
+# 2023-03-07 priorities & workflow meeting
 
 # Current top goal: user growth
 **Goal** Get people using Mathesar!

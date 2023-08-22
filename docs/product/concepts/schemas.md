@@ -1,12 +1,4 @@
----
-title: Schemas
-description: About Schemas in Mathesar
-published: true
-date: 2023-07-19T23:36:11.217Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-05T18:08:34.584Z
----
+# Schemas
 
 # About
 

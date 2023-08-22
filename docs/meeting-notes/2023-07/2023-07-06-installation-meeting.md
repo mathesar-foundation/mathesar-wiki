@@ -1,12 +1,4 @@
----
-title: 2023-07-06 installation planning meeting
-description: 
-published: true
-date: 2023-07-19T23:35:17.431Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-06T21:13:03.711Z
----
+# 2023-07-06 installation planning meeting
 
 > See [this page](/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md) for notes on parts I and II of this meeting. 
 {.is-info}

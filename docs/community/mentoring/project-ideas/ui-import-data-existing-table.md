@@ -1,12 +1,4 @@
----
-title: UI for Importing data into existing table
-description: 
-published: true
-date: 2023-07-19T23:45:37.472Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-06T00:49:25.264Z
----
+# UI for Importing data into existing table
 
 ## Classification
 - **Difficulty**: Medium

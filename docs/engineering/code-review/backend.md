@@ -1,12 +1,4 @@
----
-title: Backend Code Review
-description: Guidelines for reviewing backend code
-published: true
-date: 2023-07-19T23:25:51.207Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-20T11:58:11.271Z
----
+# Backend Code Review
 
 These are general guidelines to follow when reviewing backend code. Please feel free to add to them.
 

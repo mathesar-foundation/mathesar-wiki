@@ -1,12 +1,4 @@
----
-title: Inline Saving and Editing
-description: 
-published: true
-date: 2023-07-19T23:21:21.669Z
-tags: 
-editor: markdown
-dateCreated: 2022-08-29T20:15:17.283Z
----
+# Inline Saving and Editing
 
 ## Context
 

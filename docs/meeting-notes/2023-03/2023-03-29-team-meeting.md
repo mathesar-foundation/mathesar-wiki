@@ -1,12 +1,4 @@
----
-title: 2023-03-29 Team meeting
-description: 
-published: true
-date: 2023-07-19T23:33:06.936Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-29T16:10:56.270Z
----
+# 2023-03-29 Team meeting
 
 ## Projects & responsibilities check-in
 - **Summary**: I'd like to check in with everyone on the status of planned projects and ongoing responsibilities

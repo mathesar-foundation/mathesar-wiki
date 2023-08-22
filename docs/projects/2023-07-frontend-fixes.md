@@ -1,12 +1,4 @@
----
-title: 2023-07 Frontend Fixes
-description: 
-published: true
-date: 2023-07-19T23:10:55.257Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-10T13:31:46.556Z
----
+# 2023-07 Frontend Fixes
 
 **Name**: 2023-07 Frontend Fixes
 **Status**: Cut short

@@ -1,12 +1,4 @@
----
-title: Viewing a View
-description: 
-published: true
-date: 2023-07-19T23:24:49.496Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-03T09:04:39.016Z
----
+# Viewing a View
 
 > This spec is outdated and should not be followed.
 {.is-danger}

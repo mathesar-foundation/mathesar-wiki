@@ -1,12 +1,4 @@
----
-title: Communication Tips
-description: 
-published: true
-date: 2023-07-19T23:38:18.405Z
-tags: 
-editor: markdown
-dateCreated: 2021-11-03T21:13:33.336Z
----
+# Communication Tips
 
 The Mathesar team works remotely and asynchronously across many different timezones. Here are some things that we've discovered for communicating well in this environment, in no particular order:
 

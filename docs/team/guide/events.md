@@ -1,12 +1,4 @@
----
-title: Team Events
-description: 
-published: true
-date: 2023-07-19T23:38:26.713Z
-tags: 
-editor: markdown
-dateCreated: 2021-11-03T21:03:44.499Z
----
+# Team Events
 
 The Mathesar core team has a virtual team event around every two weeks to have some fun and get to know each other better. Team members take turns organizing events on a volunteer basis.
 

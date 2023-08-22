@@ -1,12 +1,4 @@
----
-title: Record Selector spec
-description: 
-published: true
-date: 2023-07-19T23:28:17.994Z
-tags: 
-editor: markdown
-dateCreated: 2022-06-15T11:31:11.927Z
----
+# Record Selector spec
 
 ## Design goals
 

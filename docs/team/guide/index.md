@@ -1,12 +1,4 @@
----
-title: Mathesar Team Guide
-description: A guide to processes, workflows, etc. relevant to Mathesar team members
-published: true
-date: 2023-07-19T23:14:20.415Z
-tags: 
-editor: markdown
-dateCreated: 2021-10-23T17:39:14.627Z
----
+# Mathesar Team Guide
 
 A guide for Mathesar core and community team members.
 

@@ -1,12 +1,4 @@
----
-title: Project Ideas
-description: 
-published: true
-date: 2023-07-19T23:16:35.432Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-18T19:32:54.047Z
----
+# Project Ideas
 
 These ideas are for **Google Summer of Code 2023**.
 

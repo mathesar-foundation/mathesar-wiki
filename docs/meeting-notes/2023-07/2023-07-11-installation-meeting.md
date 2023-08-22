@@ -1,12 +1,4 @@
----
-title: 2023-07-11 installation meeting
-description: 
-published: true
-date: 2023-07-19T23:35:35.721Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-13T19:51:02.486Z
----
+# 2023-07-11 installation meeting
 
 ## Links
 - [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)

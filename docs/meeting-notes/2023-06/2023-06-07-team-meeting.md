@@ -1,12 +1,4 @@
----
-title: 2023-06-07 team meeting
-description: 
-published: true
-date: 2023-07-19T23:34:38.737Z
-tags: 
-editor: markdown
-dateCreated: 2023-06-12T18:50:07.670Z
----
+# 2023-06-07 team meeting
 
 ## New contributor introductions
 We set aside some time for our new summer 2023 contributors - Anshuman, Aritra, Maria, Shrey, and Varsha - to meet each other and the rest of the team.

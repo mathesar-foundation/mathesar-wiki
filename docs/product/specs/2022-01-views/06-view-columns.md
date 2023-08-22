@@ -1,12 +1,4 @@
----
-title: 06. View Columns
-description: 
-published: true
-date: 2023-07-19T23:46:59.168Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-24T22:56:32.776Z
----
+# 06. View Columns
 
 Here is the information we should show in View Columns. We don't necessarily have to use the abstractions below, there might be a better way to show the data necessary.
 

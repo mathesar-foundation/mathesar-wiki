@@ -1,32 +1,8 @@
----
-title: Inventory: Data Exploration
-description: 
-published: true
-date: 2023-07-19T23:17:21.672Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:37:21.882Z
----
+# Inventory: Data Exploration
 
----
-title: Inventory: Data Exploration
-description: 
-published: true
-date: 2023-05-11T14:29:44.599Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:37:21.882Z
----
+# Inventory: Data Exploration
 
----
-title: Inventory: Data Exploration
-description: 
-published: true
-date: 2022-03-13T17:55:19.927Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:37:21.882Z
----
+# Inventory: Data Exploration
 
 > Refer to [Inventory Use Case](/en/design/exploration/use-cases/inventory-use-case) for additional context.
 {.is-info}

@@ -1,12 +1,4 @@
----
-title: Date, Time, and DateTime Data Types
-description: 
-published: true
-date: 2023-07-19T23:20:17.514Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-06T16:29:46.474Z
----
+# Date, Time, and DateTime Data Types
 
 ## Context
 

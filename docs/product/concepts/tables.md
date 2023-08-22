@@ -1,12 +1,4 @@
----
-title: Tables
-description: About Tables in Mathesar
-published: true
-date: 2023-07-19T23:36:20.251Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-05T18:09:13.313Z
----
+# Tables
 
 # About
 

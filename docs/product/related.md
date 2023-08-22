@@ -1,12 +1,4 @@
----
-title: Related Products
-description: Other products that are solving similar problems
-published: true
-date: 2023-07-20T01:43:18.042Z
-tags: 
-editor: markdown
-dateCreated: 2021-11-03T20:44:10.092Z
----
+# Related Products
 
 This page lists other products that solve similar/related problems to what Mathesar is aiming to solve. We're glad to see other open source projects in this area.
 

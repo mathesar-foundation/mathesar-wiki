@@ -1,12 +1,4 @@
----
-title: Lookup Field Component Specs
-description: 
-published: true
-date: 2023-07-19T23:21:39.927Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-01T21:03:16.461Z
----
+# Lookup Field Component Specs
 
 # Context
 The lookup field component was specified as part of the design for ['Add Table from Import'](/design/specs/table-import). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:

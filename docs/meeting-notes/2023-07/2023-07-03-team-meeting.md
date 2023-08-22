@@ -1,12 +1,4 @@
----
-title: 2023-07-03 team meeting
-description: 
-published: true
-date: 2023-07-19T23:35:07.698Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-06T21:06:43.580Z
----
+# 2023-07-03 team meeting
 
 ## Brent's update about Mathesar users
 Brent did an update on what he's learned from the Mathesar users he's been talking to.

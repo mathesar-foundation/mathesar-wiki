@@ -1,12 +1,4 @@
----
-title: Backend meeting 2023-03-13
-description: 
-published: true
-date: 2023-07-19T23:33:15.912Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-13T17:00:56.033Z
----
+# Backend meeting 2023-03-13
 
 **Date**: 2023-03-13
 **Attendees**: Anish, Brent, Dominkyas, Mukesh, Sean

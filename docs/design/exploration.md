@@ -1,12 +1,4 @@
----
-title: Design Explorations
-description: Exploratory design documents for research and discovery
-published: true
-date: 2023-07-19T23:01:33.430Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:21:56.074Z
----
+# Design Explorations
 
 # Fall 2022
 The Mathesar team participated again as a client in UC Berkeley's [Product Design Studio](https://www.ischool.berkeley.edu/courses/info/290/pds) class in 2022.

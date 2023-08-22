@@ -1,12 +1,4 @@
----
-title: Technical Design Documents
-description: 
-published: true
-date: 2023-07-19T23:03:56.941Z
-tags: 
-editor: markdown
-dateCreated: 2022-03-18T22:25:33.876Z
----
+# Technical Design Documents
 
 ## 2022-10
 - [Dependents graph](/en/engineering/specs/dependents-graph)

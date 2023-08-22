@@ -1,12 +1,4 @@
----
-title: Projects
-description: 
-published: true
-date: 2023-08-17T20:27:58.127Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-15T20:52:26.598Z
----
+# Projects
 
 **What are projects for?**
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.

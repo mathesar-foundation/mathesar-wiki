@@ -1,12 +1,4 @@
----
-title: Filter, Sort, and Group Tables
-description: 
-published: true
-date: 2023-07-19T23:20:44.998Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-01T21:03:13.372Z
----
+# Filter, Sort, and Group Tables
 
 # Figma Prototype
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUaf1ntcldzK2U41Jhw6vS2%2FMathesar-MVP%3Fpage-id%3D593%253A0%26node-id%3D792%253A28%26viewport%3D2168%252C368%252C0.16661275923252106%26scaling%3Dscale-down-width" allowfullscreen></iframe>

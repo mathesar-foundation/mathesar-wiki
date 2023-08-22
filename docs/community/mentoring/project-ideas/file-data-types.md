@@ -1,12 +1,4 @@
----
-title: Support for File & Image Data Types
-description: 
-published: true
-date: 2023-07-19T23:42:54.738Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T21:12:49.111Z
----
+# Support for File & Image Data Types
 
 ## The Problem
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include custom data types for dealing with files, images, and potentially other file types.

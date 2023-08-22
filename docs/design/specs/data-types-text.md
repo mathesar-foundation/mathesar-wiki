@@ -1,12 +1,4 @@
----
-title: Text Data Type
-description: 
-published: true
-date: 2023-07-19T23:19:59.954Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-21T10:04:10.817Z
----
+# Text Data Type
 
 # Context
 Text data types allow users to add letters, symbols, or numbers as field values. The text data type is also the default type for new columns within Mathesar. 

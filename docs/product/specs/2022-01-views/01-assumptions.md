@@ -1,12 +1,4 @@
----
-title: 01. Assumptions and Limitations
-description: 
-published: true
-date: 2023-07-19T23:46:13.259Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-24T22:53:50.652Z
----
+# 01. Assumptions and Limitations
 
 Although Queries and Views represent underlying database concepts, we will only be supporting building a subset of possible database queries in the first version of Mathesar. Our goal is to ship a proof of concept that demonstrates common use cases that might be used for an [Inventory Use Case](/en/design/exploration/use-cases/inventory-use-case).
 

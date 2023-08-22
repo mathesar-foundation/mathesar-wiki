@@ -1,12 +1,4 @@
----
-title: Views in Mathesar
-description: Spec for Views in Mathesar
-published: true
-date: 2023-07-19T23:36:48.485Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-24T22:35:06.280Z
----
+# Views in Mathesar
 
 ## Overview
 All data in Mathesar is stored in **[Tables](/en/product/concepts/tables)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.

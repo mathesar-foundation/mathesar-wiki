@@ -1,12 +1,4 @@
----
-title: Architecture
-description: Documents describing the technical design of Mathesar
-published: true
-date: 2023-07-19T23:02:26.658Z
-tags: 
-editor: markdown
-dateCreated: 2021-04-20T20:34:57.900Z
----
+# Architecture
 
 This page has been deprecated in favor of these sections:
 

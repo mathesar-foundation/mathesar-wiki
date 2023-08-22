@@ -1,12 +1,4 @@
----
-title: Import Preview API
-description: Spec for API to preview an imported CSV as a typed table
-published: true
-date: 2023-07-19T23:27:48.940Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-02T15:26:50.560Z
----
+# Import Preview API
 
 > This spec is accurate as of 2021-09-06, but we will not be updating it in the future.
 {.is-warning}

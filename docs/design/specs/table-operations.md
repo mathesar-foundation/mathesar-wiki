@@ -1,12 +1,4 @@
----
-title: Basic Table Operations Spec
-description: 
-published: true
-date: 2023-07-19T23:24:23.251Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-13T12:08:32.516Z
----
+# Basic Table Operations Spec
 
 # Context
 

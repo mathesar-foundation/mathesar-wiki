@@ -1,12 +1,4 @@
----
-title: Internationalization of Mathesar Codebase
-description: 
-published: true
-date: 2023-07-19T23:27:58.240Z
-tags: 
-editor: markdown
-dateCreated: 2023-06-07T13:09:51.735Z
----
+# Internationalization of Mathesar Codebase
 
 ## Language Detection & Language Switcher
 

@@ -1,12 +1,4 @@
----
-title: Weekly Discussion
-description: About the weekly planning discussion
-published: true
-date: 2023-07-19T23:38:09.685Z
-tags: 
-editor: markdown
-dateCreated: 2021-10-23T18:49:53.002Z
----
+# Weekly Discussion
 
 > We're no longer doing these.
 {.is-danger}

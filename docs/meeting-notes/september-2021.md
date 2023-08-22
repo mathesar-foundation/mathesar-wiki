@@ -1,12 +1,4 @@
----
-title: September 2021 meeting notes
-description: 
-published: true
-date: 2023-07-19T23:09:06.006Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-01T12:10:46.346Z
----
+# September 2021 meeting notes
 
 # 2021-09-28
 

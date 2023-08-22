@@ -1,12 +1,4 @@
----
-title: August 2021 meeting notes
-description: 
-published: true
-date: 2023-07-19T23:08:12.161Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-31T14:54:23.454Z
----
+# August 2021 meeting notes
 
 # 2021-08-31
 Please see [2021-08-31 planning discussion](https://github.com/centerofci/mathesar/discussions/614) on GitHub Discussions.

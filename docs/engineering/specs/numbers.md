@@ -1,12 +1,4 @@
----
-title: Number display and entry
-description: Goals and strategies for the display and entry of numerical data
-published: true
-date: 2023-07-19T23:28:08.005Z
-tags: 
-editor: markdown
-dateCreated: 2022-03-17T17:35:25.376Z
----
+# Number display and entry
 
 ## Product goals
 

@@ -1,12 +1,4 @@
----
-title: 2023-07 backend fixes
-description: 
-published: true
-date: 2023-08-18T12:17:41.250Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-07T14:08:52.280Z
----
+# 2023-07 backend fixes
 
 **Name**: 2023-07 backend fixes
 **Status**: In progress 

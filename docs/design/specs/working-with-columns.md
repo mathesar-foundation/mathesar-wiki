@@ -1,12 +1,4 @@
----
-title: Working with Columns
-description: 
-published: true
-date: 2023-07-19T23:25:16.989Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-19T17:34:31.394Z
----
+# Working with Columns
 
 > This spec is in the review process, and its contents are subject to change. 
 {.is-warning}

@@ -1,12 +1,4 @@
----
-title: 02. Feature Requirements
-description: 
-published: true
-date: 2023-07-19T23:46:22.404Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-24T23:01:08.734Z
----
+# 02. Feature Requirements
 
 To work with **Queries** and **Views** in Mathesar, we'll need to support the following functionality:
 

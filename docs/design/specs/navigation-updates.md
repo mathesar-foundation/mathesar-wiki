@@ -1,12 +1,4 @@
----
-title: Navigation Updates
-description: 
-published: true
-date: 2023-07-19T23:22:06.425Z
-tags: 
-editor: markdown
-dateCreated: 2022-08-29T20:35:27.318Z
----
+# Navigation Updates
 
 ## Context
 

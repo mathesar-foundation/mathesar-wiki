@@ -1,12 +1,4 @@
----
-title: 2023-03-21 Plan for 0.1.2
-description: 
-published: true
-date: 2023-07-19T23:33:43.900Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-21T19:08:22.422Z
----
+# 2023-03-21 Plan for 0.1.2
 
 **Attendees**: Pavish, Kriti
 

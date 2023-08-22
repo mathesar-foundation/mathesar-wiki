@@ -1,12 +1,4 @@
----
-title: Column Moving Improvements
-description: 
-published: true
-date: 2023-08-09T15:07:52.165Z
-tags: 
-editor: markdown
-dateCreated: 2023-08-09T15:07:52.165Z
----
+# Column Moving Improvements
 
 **Status**: Draft 
 **Review status**: Draft

@@ -1,12 +1,4 @@
----
-title: 2023-02-08 launch planning meeting
-description: 
-published: true
-date: 2023-07-19T23:30:50.756Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-08T15:57:18.507Z
----
+# 2023-02-08 launch planning meeting
 
 # General update and Q&A
 Kriti gave an update on

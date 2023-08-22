@@ -1,12 +1,4 @@
----
-title: Email Data Type
-description: 
-published: true
-date: 2023-07-19T23:20:35.726Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-10T16:15:43.563Z
----
+# Email Data Type
 
 # Context
 Email data types are custom Mathesar data types used to store email addresses. 

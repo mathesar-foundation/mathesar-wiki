@@ -1,12 +1,4 @@
----
-title: Handling regressions in 0.1.1
-description: 
-published: true
-date: 2023-07-19T23:32:57.442Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-20T14:36:11.229Z
----
+# Handling regressions in 0.1.1
 
 # 2023-03-20 Handling regressions in 0.1.1
 

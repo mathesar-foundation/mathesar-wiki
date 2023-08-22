@@ -1,12 +1,4 @@
----
-title: (a) Record Aggregation Formulas
-description: 
-published: true
-date: 2023-07-19T23:47:30.212Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-22T00:15:01.142Z
----
+# (a) Record Aggregation Formulas
 
 These formulas aggregate the values of a single column across multiple records of the same type. These are used as aggregation types when a multi-record column is added to a query.
 

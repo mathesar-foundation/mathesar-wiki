@@ -1,22 +1,6 @@
----
-title: GSoC 2022: Dependents graph
-description: 
-published: true
-date: 2023-07-19T23:26:18.493Z
-tags: 
-editor: markdown
-dateCreated: 2022-10-05T16:36:06.811Z
----
+# GSoC 2022: Dependents graph
 
----
-title: GSoC 2022: Dependents graph
-description: 
-published: true
-date: 2023-05-11T14:42:48.109Z
-tags: 
-editor: markdown
-dateCreated: 2022-10-05T16:36:06.811Z
----
+# GSoC 2022: Dependents graph
 
 **Author**: [Yurii Palaida](https://github.com/Jyuart)
 

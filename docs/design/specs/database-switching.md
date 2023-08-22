@@ -1,12 +1,4 @@
----
-title: Multiple Database Switching
-description: 
-published: true
-date: 2023-07-19T23:20:08.766Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-01T21:19:29.919Z
----
+# Multiple Database Switching
 
 > This spec is outdated and should not be followed.
 {.is-danger}

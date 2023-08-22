@@ -1,12 +1,4 @@
----
-title: 2023-01-18 Frontend meeting on RFCs
-description: 
-published: true
-date: 2023-07-19T23:30:23.519Z
-tags: 
-editor: markdown
-dateCreated: 2023-01-17T23:31:25.532Z
----
+# 2023-01-18 Frontend meeting on RFCs
 
 Attendees: Core frontend team
 

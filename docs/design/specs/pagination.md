@@ -1,12 +1,4 @@
----
-title: Pagination Specs
-description: 
-published: true
-date: 2023-07-19T23:22:41.910Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-01T21:03:19.432Z
----
+# Pagination Specs
 
 # Context
 The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](/design/specs/read-only-table). The team decided to add pagination to read-only tables during the [May 19th team meeting](/meeting-notes/may-2021). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.

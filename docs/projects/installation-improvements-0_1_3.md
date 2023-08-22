@@ -1,12 +1,4 @@
----
-title: Installation Improvements Project - 0.1.3
-description: 
-published: true
-date: 2023-07-20T19:23:56.221Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-15T20:52:47.673Z
----
+# Installation Improvements Project - 0.1.3
 
 **Status**: In progress
 **Review status**: Approved

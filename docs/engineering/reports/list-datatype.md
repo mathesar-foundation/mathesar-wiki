@@ -1,12 +1,4 @@
----
-title: List data type report - 2023 internship
-description: 
-published: true
-date: 2023-07-26T14:58:00.721Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-18T19:34:24.849Z
----
+# List data type report - 2023 internship
 
 In this report we will talk about the scope and goals of the project:  List data type. Considerations and difficulties are also discussed, as well as the project's current state. Finally, a future work line is given.
 

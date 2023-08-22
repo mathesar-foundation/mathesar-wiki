@@ -1,12 +1,4 @@
----
-title: Example Schema
-description: This is an example table structure used in various product specs.
-published: true
-date: 2023-07-19T23:37:05.682Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-04T02:52:01.932Z
----
+# Example Schema
 
 This schema is a reference to be used as an example in specs or other sections of the wiki. These tables are meant to simulate what data looks like in real databases.
 

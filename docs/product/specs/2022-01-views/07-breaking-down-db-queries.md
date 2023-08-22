@@ -1,12 +1,4 @@
----
-title: 07. Breaking Down DB Queries
-description: 
-published: true
-date: 2023-07-19T23:47:08.202Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-24T23:01:36.210Z
----
+# 07. Breaking Down DB Queries
 
 This page goes through the [PostgreSQL documentation about queries](https://www.postgresql.org/docs/14/queries.html) and maps various concepts listed there to the concepts in this spec. We'll follow the structure of the PostgreSQL docs.
 

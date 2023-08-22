@@ -1,12 +1,4 @@
----
-title: Construct Dependency Graph for Database Objects
-description: 
-published: true
-date: 2023-07-19T23:42:45.728Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T00:12:13.312Z
----
+# Construct Dependency Graph for Database Objects
 
 ## The Problem
 We'd like to be able to know what other database objects depend on a database object like a Schema or a Table.

@@ -1,12 +1,4 @@
----
-title: Move DDL Operations to SQL Functions
-description: 
-published: true
-date: 2023-07-19T23:13:22.511Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-23T08:31:13.306Z
----
+# Move DDL Operations to SQL Functions
 
 - **Name**: Move DDL operations to SQL functions
 - **Status**: Complete

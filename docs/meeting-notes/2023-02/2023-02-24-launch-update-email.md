@@ -1,12 +1,4 @@
----
-title: 2023-02-24 launch update email
-description: 
-published: true
-date: 2023-07-19T23:32:03.758Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-27T16:41:59.751Z
----
+# 2023-02-24 launch update email
 
 *We discussed launch in an internal email instead of having a meeting. Highlights:*
 

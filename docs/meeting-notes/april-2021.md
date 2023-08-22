@@ -1,12 +1,4 @@
----
-title: April 2021 meeting notes
-description: 
-published: true
-date: 2023-07-19T23:08:03.231Z
-tags: 
-editor: markdown
-dateCreated: 2021-04-23T11:36:19.054Z
----
+# April 2021 meeting notes
 
 # 2021-04-26
 ## Welcome Pavish!

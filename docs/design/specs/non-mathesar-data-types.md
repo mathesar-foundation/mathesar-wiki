@@ -1,12 +1,4 @@
----
-title: Non-Mathesar Data Types
-description: 
-published: true
-date: 2023-07-19T23:22:24.409Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-12T13:04:26.580Z
----
+# Non-Mathesar Data Types
 
 # Context
 Non-Mathesar types are database types that don't have any special functionality within Mathesar. This could be because that functionality is not implemented, yet it's a standard Postgres type (Other), or because it's a custom data type and not included in standard Postgres data types (Custom).

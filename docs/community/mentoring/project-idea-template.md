@@ -1,12 +1,4 @@
----
-title: Project Idea Template
-description: 
-published: true
-date: 2023-07-19T23:16:26.185Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T00:08:16.937Z
----
+# Project Idea Template
 
 > Please use this template while adding new project ideas to [Project Ideas](/en/community/mentoring/project-ideas).
 {.is-info}

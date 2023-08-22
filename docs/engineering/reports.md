@@ -1,12 +1,4 @@
----
-title: Project reports
-description: 
-published: true
-date: 2023-07-26T13:25:16.850Z
-tags: 
-editor: markdown
-dateCreated: 2022-10-04T16:45:41.157Z
----
+# Project reports
 
 # GSoC 2022
 

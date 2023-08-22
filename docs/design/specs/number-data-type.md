@@ -1,12 +1,4 @@
----
-title: Number Data Type
-description: 
-published: true
-date: 2023-07-19T23:22:33.199Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-23T20:02:57.303Z
----
+# Number Data Type
 
 # Context
 Number data types allow users to add numeric values in different formats. 

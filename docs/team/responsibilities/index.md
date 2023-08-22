@@ -1,12 +1,4 @@
----
-title: Ongoing responsibilities
-description: 
-published: true
-date: 2023-07-19T23:14:38.512Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-16T23:16:19.560Z
----
+# Ongoing responsibilities
 
 ## About
 - These are ongoing tasks involved in maintaining Mathesar.

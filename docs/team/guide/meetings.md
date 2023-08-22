@@ -1,12 +1,4 @@
----
-title: Meetings
-description: 
-published: true
-date: 2023-07-19T23:38:52.402Z
-tags: 
-editor: markdown
-dateCreated: 2022-12-06T21:31:57.102Z
----
+# Meetings
 
 By default, we are an asynchronous team and communicate via our [mailing lists](/en/community/mailing-lists) or [GitHub](/en/community/github) issues for anything that involves discussion. We also do ephemeral communication on [Matrix](/en/community/matrix).
 

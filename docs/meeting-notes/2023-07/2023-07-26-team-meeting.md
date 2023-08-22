@@ -1,12 +1,4 @@
----
-title: 2023-07-26 team meeting
-description: 
-published: true
-date: 2023-07-26T00:00:00.000Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-26T00:00:00.000Z
----
+# 2023-07-26 team meeting
 
 
 ## List data type update

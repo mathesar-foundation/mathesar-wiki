@@ -1,12 +1,4 @@
----
-title: Investigating compatibility with pre-existing databases 
-description: 
-published: true
-date: 2023-08-09T15:07:52.165Z
-tags: 
-editor: markdown
-dateCreated: 2023-08-09T15:07:52.165Z
----
+# Investigating compatibility with pre-existing databases 
 
 **Status**: In Progress
 **Review status**: Approved

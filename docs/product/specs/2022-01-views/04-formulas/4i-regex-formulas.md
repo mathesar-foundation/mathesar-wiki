@@ -1,12 +1,4 @@
----
-title: (i) Regular Expression Formulas
-description: 
-published: true
-date: 2023-07-19T23:48:34.463Z
-tags: 
-editor: markdown
-dateCreated: 2022-03-02T00:17:37.590Z
----
+# (i) Regular Expression Formulas
 
 These formulas use regular expressions. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 

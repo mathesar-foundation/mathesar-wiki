@@ -1,12 +1,4 @@
----
-title: 2023-08-10 team meeting
-description: 
-published: true
-date: 2023-08-10T21:28:54.970Z
-tags: 
-editor: markdown
-dateCreated: 2023-08-10T21:26:07.055Z
----
+# 2023-08-10 team meeting
 
 **Attendees**: Anish, Brent, Dom, Ghislaine, Kriti, Mukesh, Pavish, Rajat, Sean
 ## Morning "hello"

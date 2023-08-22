@@ -1,12 +1,4 @@
----
-title: Mentee Guide
-description: 
-published: true
-date: 2023-07-19T23:16:06.158Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T22:28:21.224Z
----
+# Mentee Guide
 
 This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/en/community/mentoring/applicant-guide).
 

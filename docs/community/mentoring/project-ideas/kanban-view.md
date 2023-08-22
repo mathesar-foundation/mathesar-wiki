@@ -1,12 +1,4 @@
----
-title: Kanban View
-description: 
-published: true
-date: 2023-07-19T23:43:40.998Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-03T16:41:01.516Z
----
+# Kanban View
 
 ## Classification
 

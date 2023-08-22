@@ -1,12 +1,4 @@
----
-title: Inventory Use Case
-description: 
-published: true
-date: 2023-07-19T23:18:06.236Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T18:59:23.930Z
----
+# Inventory Use Case
 
 The inventory use case presented many opportunities to understand how the design of the Mathesar application could influence user goals. 
 We selected the inventory use case because it combined simple data storage with minimal analysis needs.

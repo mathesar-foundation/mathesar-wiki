@@ -1,12 +1,4 @@
----
-title: Release v0.1.2
-description: 
-published: true
-date: 2023-07-19T23:12:52.655Z
-tags: 
-editor: markdown
-dateCreated: 2023-04-06T13:47:41.302Z
----
+# Release v0.1.2
 
 **Name**: Release v0.1.2
 **Status**: In review 

@@ -1,12 +1,4 @@
----
-title: Sean's work log
-description: 
-published: true
-date: 2023-07-20T16:13:14.279Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-07T18:46:25.644Z
----
+# Sean's work log
 
 ## TODO
 

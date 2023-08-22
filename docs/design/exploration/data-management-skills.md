@@ -1,12 +1,4 @@
----
-title: Data Management Skills
-description: 
-published: true
-date: 2023-07-19T23:16:54.684Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-04T19:11:08.621Z
----
+# Data Management Skills
 
 This research project explores the factors that influence the adoption and acquisition of data management skills and how Mathesar can minimize the negative impact of skill gaps in this area.
 

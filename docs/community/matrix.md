@@ -1,12 +1,4 @@
----
-title: Mathesar on Matrix
-description: About the Mathesar Matrix Community
-published: true
-date: 2023-07-19T23:01:01.992Z
-tags: 
-editor: markdown
-dateCreated: 2022-01-26T00:49:51.001Z
----
+# Mathesar on Matrix
 
 For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Discord, Mattermost, Zulip, etc)*.
 

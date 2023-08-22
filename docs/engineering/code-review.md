@@ -1,12 +1,4 @@
----
-title: Code Review Guidelines
-description: 
-published: true
-date: 2023-07-19T23:02:44.495Z
-tags: 
-editor: markdown
-dateCreated: 2021-04-29T17:28:01.167Z
----
+# Code Review Guidelines
 
 Anyone is welcome to review pull requests!
 

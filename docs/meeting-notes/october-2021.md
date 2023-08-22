@@ -1,12 +1,4 @@
----
-title: October 2021 meeting notes
-description: 
-published: true
-date: 2023-07-19T23:08:55.455Z
-tags: 
-editor: markdown
-dateCreated: 2021-10-05T21:04:00.985Z
----
+# October 2021 meeting notes
 
 # 2021-10-26
 

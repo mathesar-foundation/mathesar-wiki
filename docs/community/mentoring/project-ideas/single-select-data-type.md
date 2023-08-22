@@ -1,12 +1,4 @@
----
-title: Single Select "data type"
-description: 
-published: true
-date: 2023-07-19T23:45:11.153Z
-tags: 
-editor: markdown
-dateCreated: 2023-02-03T16:50:06.632Z
----
+# Single Select "data type"
 
 ## Classification
 - **Difficulty**: Easy

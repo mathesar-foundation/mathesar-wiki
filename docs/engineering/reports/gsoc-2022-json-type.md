@@ -1,22 +1,6 @@
----
-title: GSoC 2022: JSON data type
-description: 
-published: true
-date: 2023-07-19T23:26:36.022Z
-tags: 
-editor: markdown
-dateCreated: 2022-10-05T16:42:20.208Z
----
+# GSoC 2022: JSON data type
 
----
-title: GSoC 2022: JSON data type
-description: 
-published: true
-date: 2023-05-11T14:43:04.118Z
-tags: 
-editor: markdown
-dateCreated: 2022-10-05T16:42:20.208Z
----
+# GSoC 2022: JSON data type
 
 **Author**: [Jinxiao Li](https://github.com/Jinxiao0302)
 

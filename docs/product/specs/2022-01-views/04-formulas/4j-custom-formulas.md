@@ -1,12 +1,4 @@
----
-title: (j) Custom Formulas
-description: 
-published: true
-date: 2023-07-19T23:48:40.672Z
-tags: 
-editor: markdown
-dateCreated: 2022-03-02T00:30:44.664Z
----
+# (j) Custom Formulas
 
 Custom formulas provide a more flexible interface to let users build their own formulas. Users can use:
 

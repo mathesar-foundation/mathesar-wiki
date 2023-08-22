@@ -1,12 +1,4 @@
----
-title: Engineering Decisions
-description: Reference for major engineering decisions
-published: true
-date: 2023-07-19T23:25:42.696Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-06T19:17:12.011Z
----
+# Engineering Decisions
 
 > This page is archived.
 {.is-danger}

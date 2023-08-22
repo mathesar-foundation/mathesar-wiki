@@ -1,12 +1,4 @@
----
-title: (h) Cumulative Formulas
-description: 
-published: true
-date: 2023-07-19T23:48:28.245Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-26T00:35:38.877Z
----
+# (h) Cumulative Formulas
 
 These formulas show cumulative values that build on previous rows.
 

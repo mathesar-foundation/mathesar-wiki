@@ -1,12 +1,4 @@
----
-title: Better Support for Default PostgreSQL Data Types
-description: 
-published: true
-date: 2023-07-19T23:45:28.414Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T21:23:58.352Z
----
+# Better Support for Default PostgreSQL Data Types
 
 ## The Problem
 Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include [more default PostgreSQL types](https://www.postgresql.org/docs/current/datatype.html) such as Network Address types, Geometric Types, UUID Types, and Range Types. 

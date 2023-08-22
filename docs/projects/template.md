@@ -1,12 +1,4 @@
----
-title: Project Template
-description: 
-published: true
-date: 2023-07-20T15:07:52.165Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-21T16:52:17.902Z
----
+# Project Template
 
 > This project is ridiculous on purpose. We are not doing this.
 {.is-info}

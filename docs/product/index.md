@@ -1,12 +1,4 @@
----
-title: About Mathesar
-description: 
-published: true
-date: 2023-07-19T23:09:15.197Z
-tags: 
-editor: markdown
-dateCreated: 2021-11-03T00:42:34.804Z
----
+# About Mathesar
 
 > This page is no longer being updated as of 2023-01-27. Please see our **[main website](https://mathesar.org/)** for more up-to-date information about Mathesar.
 {.is-warning}

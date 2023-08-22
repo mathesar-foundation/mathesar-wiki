@@ -1,12 +1,4 @@
----
-title: Editing Records Within a View
-description: 
-published: true
-date: 2023-07-19T23:20:26.912Z
-tags: 
-editor: markdown
-dateCreated: 2021-09-09T08:03:57.235Z
----
+# Editing Records Within a View
 
 > This spec is outdated and should not be followed.
 {.is-danger}

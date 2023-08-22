@@ -1,12 +1,4 @@
----
-title: Visualization of Grouped Data
-description: 
-published: true
-date: 2023-07-19T23:45:46.742Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-09T00:02:59.297Z
----
+# Visualization of Grouped Data
 
 ## The Problem
 One of the common needs that arises when analyzing data is to group similar results, aggregate them, and gain insights from them. For eg., Consider the scenario where we have a list of employee records and would like to figure out how many employees reside in a particular country, and further categorize them by age group, gender etc., Databases make these kind of usecases easier by providing powerful grouping behaviours. However, inorder to leverage it users would need to work with SQL which requires technical knowledge.

@@ -1,12 +1,4 @@
----
-title: Break Columns out to New Table
-description: 
-published: true
-date: 2023-07-19T23:42:18.655Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-08T23:55:59.574Z
----
+# Break Columns out to New Table
 
 ## The Problem
 One of Mathesar's goals is to encourage users to store data in [normalized](https://en.wikipedia.org/wiki/Database_normalization) tables. However, users that are not familiar with relational databases may not set up their data correctly to begin with.

@@ -1,12 +1,4 @@
----
-title: (e) Boolean Formulas
-description: 
-published: true
-date: 2023-07-19T23:47:55.732Z
-tags: 
-editor: markdown
-dateCreated: 2022-02-26T00:16:22.678Z
----
+# (e) Boolean Formulas
 
 These formulas operate on or output boolean types. They are based on PostgreSQL [logical operators](https://www.postgresql.org/docs/9.1/functions-logical.html).
 

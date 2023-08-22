@@ -1,12 +1,4 @@
----
-title: Boolean Data Type
-description: 
-published: true
-date: 2023-07-19T23:18:56.970Z
-tags: 
-editor: markdown
-dateCreated: 2021-08-12T09:27:03.181Z
----
+# Boolean Data Type
 
 # Context
 Boolean data types are used to store TRUE or FALSE values. 

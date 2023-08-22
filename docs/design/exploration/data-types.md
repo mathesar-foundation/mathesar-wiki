@@ -1,12 +1,4 @@
----
-title: Data Types Inspiration
-description: 
-published: true
-date: 2023-07-19T23:17:03.436Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-11T19:59:36.712Z
----
+# Data Types Inspiration
 
 # Dates & Times
 Here's how Calendly communicates "dates with timezones" and "dates agnostic of timezones" to their users. 

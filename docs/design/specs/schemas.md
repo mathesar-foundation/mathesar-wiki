@@ -1,12 +1,4 @@
----
-title: Working with Schemas
-description: 
-published: true
-date: 2023-07-19T23:23:28.912Z
-tags: 
-editor: markdown
-dateCreated: 2021-07-07T10:57:41.105Z
----
+# Working with Schemas
 
 # Context
 Users within Mathesar will have multiple data tables that they want to organize and manage. Schemas can be a helpful mechanism to segregate their data for different purposes. Users with more experience with databases will want to incorporate these for reasons that might go beyond just organizing their database objects. However, this organizational aspect will be a primary feature of the design solution.

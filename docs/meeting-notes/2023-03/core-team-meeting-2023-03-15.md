@@ -1,12 +1,4 @@
----
-title: Core team meeting 2023-03-15
-description: 
-published: true
-date: 2023-07-19T23:33:26.208Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-15T16:30:56.637Z
----
+# Core team meeting 2023-03-15
 
 **Date**: 2023-03-13
 **Attendees**: All core team members + Anish

@@ -1,12 +1,4 @@
----
-title: Anish's work log
-description: 
-published: true
-date: 2023-08-01T18:49:09.331Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-28T01:56:13.743Z
----
+# Anish's work log
 
 ## Actively working on
 

@@ -1,12 +1,4 @@
----
-title: 2023-04-03 Installation plan finalization
-description: 
-published: true
-date: 2023-07-19T23:34:01.963Z
-tags: 
-editor: markdown
-dateCreated: 2023-04-07T14:52:40.333Z
----
+# 2023-04-03 Installation plan finalization
 
 ## Mukesh's reply to email:
 * The documentation plan is same

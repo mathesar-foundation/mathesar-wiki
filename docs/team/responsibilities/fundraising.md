@@ -1,12 +1,4 @@
----
-title: Fundraising
-description: 
-published: true
-date: 2023-07-19T23:39:17.915Z
-tags: 
-editor: markdown
-dateCreated: 2023-07-12T21:06:39.609Z
----
+# Fundraising
 
 This involves fundraising to sustain Mathesar's development and maintenance.
 

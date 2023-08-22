@@ -1,12 +1,4 @@
----
-title: Design System
-description: Design System for Mathesar
-published: true
-date: 2023-07-19T23:17:47.715Z
-tags: 
-editor: markdown
-dateCreated: 2021-05-31T12:11:46.738Z
----
+# Design System
 
 # Design System
 - Documented elements, components, including both design and front-end guidelines

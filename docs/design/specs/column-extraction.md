@@ -1,12 +1,4 @@
----
-title: Column Extraction
-description: 
-published: true
-date: 2023-07-19T23:19:20.160Z
-tags: 
-editor: markdown
-dateCreated: 2022-07-22T11:12:59.313Z
----
+# Column Extraction
 
 ## Context
 

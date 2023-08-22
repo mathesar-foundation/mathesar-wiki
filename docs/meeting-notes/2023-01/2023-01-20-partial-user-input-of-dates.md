@@ -1,12 +1,4 @@
----
-title: 2023-01-20-partial-user-input-of-dates
-description: 
-published: true
-date: 2023-07-19T23:30:32.431Z
-tags: 
-editor: markdown
-dateCreated: 2023-01-20T17:51:21.985Z
----
+# 2023-01-20-partial-user-input-of-dates
 
 # 2023-01-20 Meeting about how to handle partial user input of dates
 

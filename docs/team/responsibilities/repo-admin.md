@@ -1,12 +1,4 @@
----
-title: Repo admin
-description: 
-published: true
-date: 2023-07-19T23:40:03.763Z
-tags: 
-editor: markdown
-dateCreated: 2023-03-16T23:16:36.850Z
----
+# Repo admin
 
 # Team
 
