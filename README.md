@@ -36,6 +36,8 @@ https://wiki.mathesar.org/
 
 - For page redirects, we use [`mkdocs-redirects`](https://github.com/mkdocs/mkdocs-redirects).
 
+- We use the [awesome-pages plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin) for some additional control over the navigation system.
+
 ## See also
 
 - The [source content for Mathesar's _documentation_](https://github.com/centerofci/mathesar/tree/develop/docs), which also utilizes MkDocs.

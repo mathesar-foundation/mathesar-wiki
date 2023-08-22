@@ -8,7 +8,6 @@ plugins:
   - search:
       lang: en
   - awesome-pages
-  - section-index
 
 theme:
   name: material
@@ -16,6 +15,7 @@ theme:
   favicon: assets/images/favicon.ico
   features:
       - content.code.copy
+      - navigation.indexes
   font:
     text: Nunito Sans
     code: Fira Code
