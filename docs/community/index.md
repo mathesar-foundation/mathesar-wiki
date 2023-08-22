@@ -16,15 +16,15 @@ Welcome to the Mathesar community! We'd love to have you involved in our project
 # Community Forums
 The Mathesar team does most of our work in public communication channels, which also serve as the place we interact with our community. We also sometimes attend events.
 
-- [:speech_balloon: Matrix *Primary real-time chat*](/en/community/matrix)
-- [:speech_balloon: Discord *Alternate chat (limited rooms)*](/en/community/discord)
-- [:computer: GitHub *Code, issue tracking, and asynchronous discussions*](/en/community/github)
-- [:envelope: Mailing Lists *Email lists for users and developers*](/en/community/mailing-lists)
-- [:beers: Events *Events attended by the Mathesar team*](/en/community/events)
+- [Matrix *Primary real-time chat*](/en/community/matrix)
+- [Discord *Alternate chat (limited rooms)*](/en/community/discord)
+- [GitHub *Code, issue tracking, and asynchronous discussions*](/en/community/github)
+- [Mailing Lists *Email lists for users and developers*](/en/community/mailing-lists)
+- [Events *Events attended by the Mathesar team*](/en/community/events)
 {.links-list}
 
 # Mentoring
-- [:woman_teacher: Mentoring *Information about mentoring programs like GSoC*](/en/community/mentoring)
+- [Mentoring *Information about mentoring programs like GSoC*](/en/community/mentoring)
 {.links-list}
 
 # Future Plans

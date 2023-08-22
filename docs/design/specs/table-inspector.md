@@ -10,15 +10,15 @@ dateCreated: 2022-08-29T20:35:31.512Z
 
 ## Legends
 
-:fire: - An important note
+- An important note
 
-:full_moon: - Not part of Cycle 3
+- Not part of Cycle 3
 
 ## Context
 
 Users can access information and setting options for each table component using the table inspector, including columns, rows, and cells.
 
-> :fire: This is not a replacement for the cells' context menu, it will remain as-is.
+> This is not a replacement for the cells' context menu, it will remain as-is.
 
 ### Design Goals
 
@@ -67,9 +67,9 @@ The tabs are listed in the following order:
 
 The table inspector can be in exactly one of the following modes, available as tabs on the UI:
 
-> :full_moon: The mockups in the following sections has an "Edit Selection" button. This button will not be a part of the Cycle 3.
+> The mockups in the following sections has an "Edit Selection" button. This button will not be a part of the Cycle 3.
 
-> :fire: The mockups in the following sections contains a "Delete \_\_" button. This button will not be fixed at the bottom rather will a part of the normal flow inside the "Actions" section
+> The mockups in the following sections contains a "Delete \_\_" button. This button will not be fixed at the bottom rather will a part of the normal flow inside the "Actions" section
 
 ### Table Mode
 
@@ -78,13 +78,13 @@ Shown when inspector mode is set to `Table`.
 Properties:
 
 - Table Name
-- :full_moon: Table Descriptions
-- :full_moon: Record Summary
+- Table Descriptions
+- Record Summary
 - Constraints
 
 Actions:
 
-- :full_moon: Remove Duplicates
+- Remove Duplicates
 - Link Table
 - Explore Data
 - Delete Table
@@ -126,11 +126,11 @@ Shown when inspector mode is set to `Record`.
 Actions:
 
 - Delete Record
-- :full_moon: Duplicate Record
+- Duplicate Record
 
 ![image](/assets/design/specs/table-inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
 
-### :full_moon: Cell Mode
+### Cell Mode
 
 Shown when inspector mode is set to `Cell`.
 
@@ -196,7 +196,7 @@ Multi-page record selection in the current state is only used for deleting non-c
 
 Deselect all selected items by clicking on a currently selected item, or on an empty space.
 
-#### :full_moon: Extending a Selection
+#### Extending a Selection
 
 We may consider including a "Selection" area in the inspector so that users can change the selection they're currently working with.
 
@@ -206,7 +206,7 @@ This section could contain options such as:
 - Select all
   - Select all columns with the same data type
 
-## :full_moon: Keyboard Controls and Touch Devices Considerations
+## Keyboard Controls and Touch Devices Considerations
 
 Users would be better served if the software could support keyboard controls. We'll look at how the inspector options are accessed and updated using the keyboard in a separate issue. We'll also look at how multi-object selection works on touch devices.
 

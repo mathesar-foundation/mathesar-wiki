@@ -15,25 +15,25 @@ We're participating in **Google Summer of Code (GSoC)** in 2023.
 # For Applicants
 
 ## GSoC Information
-- [:bulb: Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
-- [:blue_book: Applicant Guide *Guide for anyone applying to a mentorship program.*](/en/community/mentoring/applicant-guide)
-- [:notebook: Project Proposal Template *Template to use for program applications.*](/en/community/mentoring/project-proposal-template)
+- [Project Ideas *Current list of project ideas for our mentorship programs.*](/community/mentoring/project-ideas)
+- [Applicant Guide *Guide for anyone applying to a mentorship program.*](/en/community/mentoring/applicant-guide)
+- [Project Proposal Template *Template to use for program applications.*](/en/community/mentoring/project-proposal-template)
 {.links-list}
 
 ## General Information
-- [:question: About Mathesar *Main website*](https://mathesar.org/)
-- [:speech_balloon: Community *How to join the Mathesar community*](/en/community)
-- [:computer: Contribution Guide *How to contribute to Mathesar code*](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
-- [:busts_in_silhouette: Mathesar Team Members *More information about mentors*](/en/team/members)
+- [About Mathesar *Main website*](https://mathesar.org/)
+- [Community *How to join the Mathesar community*](/en/community)
+- [Contribution Guide *How to contribute to Mathesar code*](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
+- [Mathesar Team Members *More information about mentors*](/en/team/members)
 {.links-list}
 
 # For Mentees
-- [:green_book: Mentee Guide *Guide for accepted mentees.*](/en/community/mentoring/mentee-guide)
+- [Mentee Guide *Guide for accepted mentees.*](/en/community/mentoring/mentee-guide)
 {.links-list}
 
 ## For Mentors
-- [:closed_book: Mentor Guide *Instructions for mentors*](/en/community/mentoring/mentor-guide)
-- [:notebook: Project Idea Template *Template to use when writing up project ideas*](/en/community/mentoring/project-idea-template)
+- [Mentor Guide *Instructions for mentors*](/en/community/mentoring/mentor-guide)
+- [Project Idea Template *Template to use when writing up project ideas*](/en/community/mentoring/project-idea-template)
 {.links-list}
 
 # History

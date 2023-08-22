@@ -30,11 +30,11 @@ As an example, here's a table:
 | 5 | The Karate Kid | 1984 | TRUE |
 
 Here are some examples of correct and wrong filters. The emoji indicates whether they are correct.
-- :white_check_mark: `"Year" > 1990`
-- :white_check_mark: `"ID" = 5`
-- :white_check_mark: `"Favorite" is TRUE`
-- :x: "Title" is a duplicate
-- :x: Latest "Year"
+- `"Year" > 1990`
+- `"ID" = 5`
+- `"Favorite" is TRUE`
+- "Title" is a duplicate
+- Latest "Year"
 
 ## Reasoning
 You might be wondering why filter scope is limited to a single row. This is to allow filters to be applied in any order (to ensure filters are commutative). Otherwise, we will need to introduce users to the concept of a pipeline of operations and that seems more complicated to design. We plan to have a separate user-facing concept for operations that will have different results depending on the ordering.

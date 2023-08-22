@@ -32,12 +32,12 @@ Anyone can propose edits to this wiki by making a PR against the [wiki repositor
 
 
 ## Quick Links
-- [:busts_in_silhouette: Join our Community *How to participate in our community forums*](./community.md)
-- [:computer: Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
-- [:trophy: Projects *What the Mathesar team is currently working on*](./projects.md)
-- [:bulb: Product *Documentation about the high level ideas behind Mathesar*](./product.md)
-- [:art: Design *Documentation about Mathesar's visual design and UI*](./design.md)
-- [:desktop_computer: Engineering *Documentation about Mathesar's code*](./engineering.md)
-- [:loudspeaker: Marketing *Material for promoting Mathesar*](./marketing.md)
-- [:memo: Meeting Notes *Mathesar team meeting notes*](./meeting-notes.md)
+- [Join our Community *How to participate in our community forums*](./community.md)
+- [Mathesar on GitHub *Mathesar's source code*](https://github.com/centerofci/mathesar)
+- [Projects *What the Mathesar team is currently working on*](./projects.md)
+- [Product *Documentation about the high level ideas behind Mathesar*](./product.md)
+- [Design *Documentation about Mathesar's visual design and UI*](./design.md)
+- [Engineering *Documentation about Mathesar's code*](./engineering.md)
+- [Marketing *Material for promoting Mathesar*](./marketing.md)
+- [Meeting Notes *Mathesar team meeting notes*](./meeting-notes.md)
 {.links-list}

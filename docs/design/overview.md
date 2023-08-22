@@ -13,9 +13,9 @@ This is the homepage for Mathesar design work, closely related to [Product](/pro
 # Documents
 Outputs of our design process.
 
-- [:page_facing_up: Specs *List of design specs*](/design/specs)
-- [:sailboat: Exploration *Rough notes for initial research and discovery*](/design/exploration)
-- [:spiral_notepad: Reports *Conclusions drawn after research*](/design/reports)
+- [Specs *List of design specs*](/design/specs)
+- [Exploration *Rough notes for initial research and discovery*](/design/exploration)
+- [Reports *Conclusions drawn after research*](/design/reports)
 {.links-list}
 
 # Workflow
@@ -25,9 +25,9 @@ We aim to complete design work for a milestone at least 2-3 weeks before the dea
 
 More information:
 
-- [:white_check_mark: Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
-- [:gear: Design System *Description of Mathesar's design system*](/design/process/design-system)
-- [:straight_ruler: Design Standards *Rules to follow for Mathesar's UI*](/design/standards)
+- [Spec Guidelines *Guidelines for creating and reviewing design specs.*](/design/process/review-guidelines)
+- [Design System *Description of Mathesar's design system*](/design/process/design-system)
+- [Design Standards *Rules to follow for Mathesar's UI*](/design/standards)
 {.links-list}
 
 ## Contributing
@@ -36,8 +36,8 @@ You must be a member of our [design team](/team) to contribute to design tasks. 
 # Philosophy
 High-level information about the philosophy behind our design.
 
-- [:balance_scale: Design Principles *Principles that guide our design*.](/design/design-principles)
-- [:memo: Design Process *High-level overview of our approach to solving design problems.*](/design/process)
-- [:package: Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
-- [:books: Resources *Reading and external resources*](/design/resources)
+- [Design Principles *Principles that guide our design*.](/design/design-principles)
+- [Design Process *High-level overview of our approach to solving design problems.*](/design/process)
+- [Deliverables *Format of deliverables from the design process.*](/design/process/deliverables)
+- [Resources *Reading and external resources*](/design/resources)
 {.links-list}
