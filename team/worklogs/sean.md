@@ -12,16 +12,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 ### Soon
 
-- Sync with Rajat about work for the cycle
-- Resolve conflicts in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
-- Address Kriti's feedback in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
-- Resolve conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
+- Sync with Rajat about work for the cycle
 
 ### Later in this cycle
 
-- Begin "User Communication Guide", as a wiki page
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
+- Begin "User Communication Guide", as a wiki page
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 
 ### Backlog
@@ -32,6 +29,13 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-22 Tuesday
+
+- Resolve conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Resolve conflicts in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
+- Address Kriti's feedback in [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
+- Begin work to [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
 
 ## 2023-08-21 Monday
 
