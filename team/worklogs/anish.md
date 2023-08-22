@@ -10,9 +10,59 @@ dateCreated: 2023-07-28T01:56:13.743Z
 
 ## Actively working on
 
-### RSQLA1 project work:
+### Installation improvements(0.1.4):
 
-- Currently working on porting python layer db tests to sql layer and removing redundant ones
+- Currently working on backend requirements of installation improvements project for v0.1.4
+
+## 2023-08-22
+
+- Worked on API to store user credentials in internal database.
+
+## 2023-08-21
+
+- Worked on API to store user credentials in internal database.
+
+## 2023-08-18
+
+- Sync with Mukesh about installation improvements
+- Sync with Anshuman(GSoC)
+- Weekly meet
+- Re-reviewed [#3132](https://github.com/centerofci/mathesar/pull/3132) & [#3083](https://github.com/centerofci/mathesar/pull/3083)
+- Caught up on emails
+
+## 2023-08-17
+
+*Did nothing*
+
+## 2023-08-16
+
+- Sync with Brent
+
+## 2023-08-15
+
+- Sync with Ghislaine
+
+## 2023-08-14
+
+*Did nothing*
+
+## 2023-08-11
+
+- Sync with Anshuman
+- Reviewed PRs [#3132](https://github.com/centerofci/mathesar/pull/3132) & [#3083](https://github.com/centerofci/mathesar/pull/3083)
+
+## 2023-08-10
+- SQL tests for alter table [#3139](https://github.com/centerofci/mathesar/pull/3139)
+- Sync with Brent
+- Team meeting
+
+## 2023-08-09
+
+- Weekly meet
+
+## 2023-08-08
+
+*Did nothing*
 
 ## 2023-08-07
 
