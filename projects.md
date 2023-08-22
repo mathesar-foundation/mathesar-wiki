@@ -26,7 +26,7 @@ dateCreated: 2023-03-15T20:52:26.598Z
 |-----------|-----------------------------------------------------------------------------------------------|-------------|
 | Brent     | [Investigating compatibility with pre-existing databases](./projects/preexisting-postgres.md) | In Progress |
 | Ghislaine | [Niche Research](./projects/niche-research.md)                                                | In Progress |
-| Mukesh    |                                                                                               |             |
+| Mukesh    | [Installation Improvement 0.1.4](./projects/installation-improvements-0_1_4.md)               | In Progress |
 
 Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with projects as needed. That work is tracked on GitHub in the 0.1.4 milestone on GitHub.
 
