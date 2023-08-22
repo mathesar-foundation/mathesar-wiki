@@ -1,0 +1,12 @@
+nav:
+  - Home: index.md
+  - community
+  - team
+  - projects
+  - meeting-notes
+  - product
+  - design
+  - engineering
+  - marketing
+  - jobs
+  - ...
