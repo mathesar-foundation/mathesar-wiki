@@ -1,8 +1,10 @@
 # Mathesar Wiki
 
-This wiki is a knowledge base for **people who are helping build [Mathesar](https://mathesar.org)**, a straightforward open source tool that provides a spreadsheet-like interface to a PostgreSQL database.
+## Overview
 
-We use the wiki to document technical specs, designs, meeting notes, roles, responsibilities, and other workflow-related information.
+This wiki is a knowledge base for **people who are helping build [Mathesar](https://mathesar.org)**. We use it to document technical specs, designs, meeting notes, roles, responsibilities, and other workflow-related information.
+
+## Editing
 
 Anyone can propose edits to this wiki by making a PR against the [wiki repository](https://github.com/centerofci/mathesar-wiki/).
 
