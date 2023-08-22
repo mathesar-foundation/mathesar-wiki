@@ -2,8 +2,6 @@
 
 Mathesar work happens on GitHub. We create GitHub issues to track everything we're working on for both design and code.
 
-# Workflow
-
 We track our tasks in the [Mathesar GitHub project](https://github.com/orgs/centerofci/projects/1).
 
 We're reorganizing our team workflow into [projects](/en/projects) and [ongoing responsibilities](/en/team/responsibilities).

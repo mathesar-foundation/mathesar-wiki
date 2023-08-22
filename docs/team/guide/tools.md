@@ -1,6 +1,4 @@
-# Tools
-
-# Communication
+# Team Communication Tool
 
 ## GitHub
 We use GitHub for code, issue tracking, and long form discussions. Please see [Workflow](/team/guide/workflow) for more information.

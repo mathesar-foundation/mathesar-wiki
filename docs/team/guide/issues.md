@@ -1,13 +1,27 @@
-# Issue Triage
+# Managing GitHub Issues
+
+## Assigning issues
+
+Issues should only be assigned to core and community team members who have committed to completing the issue.
+
+If an outside contributor wants to work on the issue, they should still comment on it to indicate interest, but there's no need to assign it to them.
+
+If you are assigning an issue:
+
+1. Ensure that the issue has sufficient detail and can be worked on. If not, update the issue so that it does.
+2. Assign the issue to the desired person.
+3. Remove the existing `status: ready` label and change the label to `status: started`. This will automatically update the "Status" in the project as well, you do not need to do this manually.
+
+## Issue Triage
 
 Triaging an issue means setting all the appropriate fields on it.
 
-## Responsibility
+### Responsibility
 
 - Everyone creating issues should do their best to triage them at creation time.
 - Team members who work on the [repo admin](/en/team/responsibilities/repo-admin) responsibility should catch issues opened by non-team members or were not properly triaged during creation.
 
-## How to triage one issue
+### How to triage one issue
 
 1. **Set required labels**
 
