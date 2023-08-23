@@ -12,18 +12,73 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ### Projects
 - Going back through RSQLA 2, 3, 4 writeups and updating them
-- Sync with Pavish, Ghislaine, Sean, and write up “Postgres DB compatibility investigation” project on the wiki
-
-### Comms
-- Start email thread on dev mailing list for RSQLA1 retrospective
 
 ### RSQLA1
-- Go through [meta issue](https://github.com/centerofci/mathesar/issues/2737), determine what's done, what doesn't make sense anymore
+- finishing retrospective email
+
+### Preexisting DB compatibility
+- Start organizing some basic meta issues around known problems (we can add more)
 
 ### User help
 - Conduct a round of follow-up with various users.
 
+## 2023-08-23
 
+### Email
+- *yet another* round of communication on various threads
+
+### RSQLA1
+
+
+## 2023-08-22
+
+### Email
+- Another round of discussion participation
+
+### RSQLA1
+- Worked on composing retrospective email
+
+### Preexisting DB compatibility
+- Minor change to project organization
+- Going through Sean's feedback email w.r.t. realistic DB examples, trying to find others
+
+## 2023-08-22
+
+### Email
+- More participation in massive email threads
+
+### Bugfixes
+- Fixed bug occurring due to upstream testing suite change.
+
+## 2023-08-21
+
+### Meetings
+- 1:1 with Dom
+- make-up meeting with Aritra
+
+### Preexisting DB compatibility 
+- Planning/looking through GH issues
+
+### Email
+- went through email, thinking and contributing to massive email threads
+
+## 2023-08-18
+
+### RSQLA1
+- Finished clean up of meta issue
+
+### Preexisting DB compatibility
+- incorporated feedback from discussion into project
+- started basic going through GH looking for related issues
+
+## 2023-08-16
+
+### RSQLA1
+- Partial clean up of RSQLA1 meta issue
+
+### Meetings
+- Niche research discussion
+- 1:1 with Anish
 
 ## 2023-08-15
 
