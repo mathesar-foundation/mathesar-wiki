@@ -26,6 +26,33 @@ dateCreated: 2023-07-06T18:59:51.770Z
 
 # Complete
 
+## 2023-08-23 (Wed)
+- **Team management**
+	- Ran weekly meeting
+	- Posted meeting notes on wiki
+	- Made calendar events for next cycle, break, and release
+- **Comms**
+	- Caught up on email, responded to a bunch of threads
+- **Administrative**
+	- Meeting with Sam & Adam about next steps for Mathesar organization
+- **Code**
+	- Reviewed wiki PR, updated admonition markup
+
+## 2023-08-22 (Tue)
+*Partial day (sick)*
+
+- Some comms & emails
+- Prepped for weekly meeting
+
+## 2023-08-21 (Mon)
+*Out sick*
+
+## 2023-08-18 (Fri)
+*Partial day (sick)*
+
+- Ran weekly team meeting.
+- Attended team event.
+
 ## 2023-08-17 (Thu)
 - **Team & project management**
 	- Responded to thread about Aritra's GSoC project
