@@ -140,7 +140,7 @@ The UI inside the modes can be divided into exactly two sections
 
 Ideally any fields that do DDL operation should have an "Edit" button, then "Save" and "Cancel" button to persist or discard the changes. But for the sake speed in this spec, any operation DDL that currently works without a "Save" button should continue to do so.
 
-Inline saving and editing requires the implementation of new UI interactions so that the user can toggle the 'Edit' mode and save or discard the changes. Details on this are provided in the [Inline Saving Spec](design/specs/inline-save-edit.md) spec.
+Inline saving and editing requires the implementation of new UI interactions so that the user can toggle the 'Edit' mode and save or discard the changes. Details on this are provided in the [Inline Saving Spec](/design/specs/inline-save-edit.md) spec.
 
 - Any operation that currently has a save button should have a "Save" button and an accompanying "Edit" button.
 - The operations that currently do not support a "Save" button will remain a single-click operation.
