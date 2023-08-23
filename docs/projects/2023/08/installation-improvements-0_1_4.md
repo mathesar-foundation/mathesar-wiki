@@ -15,6 +15,7 @@
 | **Design Helper** | Ghislaine |
 | **Design Reviewer** | Pavish |
 | **Documentation** | Mukesh |
+| **Discussion** | Mukesh |
 | **Documentation Helper & Reviewer** | Sean |
 | **Infrastructure Reviewer** | Brent |
 | **Frontend Reviewer** | Pavish |
@@ -132,8 +133,6 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - Figure out as a team how we want to manage our DockerHub repo and tags - Some users want to use our features as soon as they are pushed into develop branch. Maybe we could set up a nightly build for such users
 - Reassess Docker version requirements once we do a single Docker image
 
-### Research Work
-- Come up with a list of PaaS to support and get approval from the team
 
 ## Timeline
 
@@ -141,13 +140,13 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 |-|-|-|-|-|
 | **2023-08-21** | Backend and Design work for adding user database credentials using the UI starts |
 | **2023-08-21** | Infrastructure work starts |
-| **2023-08-21** | Send email for all the discussion work |
+| **2023-08-21** | Start sending discussion related emails |
 | **2023-08-25** | Debian package and Postgres docker image review starts |
 | **2023-08-28** | Documentation work starts |
 | **2023-08-31** | Backend and Design work for adding user database credentials using the UI will be completed |
 | **2023-09-01** | Frontend work for adding user database credentials using the UI starts |
 | **2023-09-08** | Github Action to build static files and hosting the debian package is complete |
-| **2023-09-015** | Documentation is up for review |
+| **2023-09-15** | Documentation is up for review |
 | **2023-09-15** | Frontend work for adding user database credentials is complete |
 | **2023-09-15** | Buffer of 1 week |
 
