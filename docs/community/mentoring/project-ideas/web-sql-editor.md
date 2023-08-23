@@ -1,7 +1,7 @@
 # Implement Textual SQL Query Builder
 
 ## The Problem
-We are building a visual query builder into Mathesar to help the user find answers to questions using their data and to create [Views](/en/product/concepts/views). To make the visual query builder easy to use, we needed to make a bunch of assumptions that limits the types of queries that can be produced. 
+We are building a visual query builder into Mathesar to help the user find answers to questions using their data and to create [Views](/product/concepts/views). To make the visual query builder easy to use, we needed to make a bunch of assumptions that limits the types of queries that can be produced. 
 
 To support the full range of queries that can be written using SQL, we should allow advanced users to write SQL queries.
 
@@ -25,8 +25,8 @@ By the end of this project, we expect that the query builder web interface will 
 - It's helpful to start from the experience that you'd like the end-user to have and work backwards.
 
 ## Resources
-- [Views "Concepts" page](/en/product/concepts/views)
-- ["Views in Mathesar" product spec](/en/product/specs/2022-01-views)
+- [Views "Concepts" page](/product/concepts/views)
+- ["Views in Mathesar" product spec](/product/specs/2022-01-views)
 - [Code Mirror text editor library](https://codemirror.net/)
 
 
@@ -34,4 +34,4 @@ By the end of this project, we expect that the query builder web interface will 
 - **Primary Mentor**: Pavish Kumar Ramani Gopal
 - **Backup Mentor**: Dominykas Mostauskis 
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

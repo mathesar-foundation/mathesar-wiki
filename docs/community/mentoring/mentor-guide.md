@@ -22,8 +22,8 @@ Project ideas should be:
 - compatible with our existing product roadmap
 
 Once you've come up with a project idea, please:
-1. Flesh it out using our [Project Idea Template](/en/community/mentoring/project-idea-template).
-2. Add it to the [Project Ideas](/en/community/mentoring/project-ideas) page.
+1. Flesh it out using our [Project Idea Template](/community/mentoring/project-idea-template).
+2. Add it to the [Project Ideas](/community/mentoring/project-ideas) page.
 
 If you're wondering if your project idea makes sense, discuss it on Matrix with other team members first before writing it down.
 
@@ -100,7 +100,7 @@ At this point,
 - Reach out to your mentee ASAP and welcome them to the project.
 - Have an introductory call with the mentee and get to know each other. 
 	- Ask them questions about themselves and talk about yourself too.
-- Ensure that the mentee is added to our [Team Members](/en/team/members) and has the correct GitHub and wiki permissions.
+- Ensure that the mentee is added to our [Team Members](/team/members) and has the correct GitHub and wiki permissions.
 
 ## Finalizing the project plan and workflow
 Before work on the project gets underway, you should:

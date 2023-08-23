@@ -1,6 +1,6 @@
 # Filters in Mathesar
 
-This page covers filters from an engineering/architecture perspective. Please see the ["Filters" product concepts page](/en/product/concepts/filters) for a user-facing looking at filters.
+This page covers filters from an engineering/architecture perspective. Please see the ["Filters" product concepts page](/product/concepts/filters) for a user-facing looking at filters.
 
 ## Criteria for Filters in Mathesar
 In Mathesar, filters are a subset of functions that take in a set of row or a relation as input and return only the rows that satisfy some condition.

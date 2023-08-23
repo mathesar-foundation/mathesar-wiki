@@ -101,15 +101,15 @@ Literal text expressing a [regular expression](https://www.postgresql.org/docs/c
 # List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
 
-- [Record Aggregations *Formulas that aggregate a column across multiple records*](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
-- [Random Generators *Formulas that generate random data*](/en/product/specs/2022-01-views/04-formulas/4b-random-generators)
-- [Text Formulas *Formulas that work on text data*](/en/product/specs/2022-01-views/04-formulas/4c-text-formulas)
-- [Number Formulas *Formulas that work on number data*](/en/product/specs/2022-01-views/04-formulas/4d-number-formulas)
-- [Boolean Formulas *Formulas that work on boolean data*](/en/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
-- [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
-- [List Formulas *Formulas that work on list data*](/en/product/specs/2022-01-views/04-formulas/4g-list-formulas)
-- [Cumulative Formulas *Formulas building on previous rows in the query*](/en/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
-- [Regular Expression Formulas *Formulas that use regular expressions*](/en/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
-- [Custom Formulas *An interface to support more complicated formulas*](/en/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
+- [Record Aggregations *Formulas that aggregate a column across multiple records*](/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
+- [Random Generators *Formulas that generate random data*](/product/specs/2022-01-views/04-formulas/4b-random-generators)
+- [Text Formulas *Formulas that work on text data*](/product/specs/2022-01-views/04-formulas/4c-text-formulas)
+- [Number Formulas *Formulas that work on number data*](/product/specs/2022-01-views/04-formulas/4d-number-formulas)
+- [Boolean Formulas *Formulas that work on boolean data*](/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
+- [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
+- [List Formulas *Formulas that work on list data*](/product/specs/2022-01-views/04-formulas/4g-list-formulas)
+- [Cumulative Formulas *Formulas building on previous rows in the query*](/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
+- [Regular Expression Formulas *Formulas that use regular expressions*](/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
+- [Custom Formulas *An interface to support more complicated formulas*](/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
 
 

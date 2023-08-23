@@ -38,4 +38,4 @@ A good candidate would be someone who has good understanding of SQL, and align t
 - **Primary Mentor**: Mukesh Murali
 - **Backup Mentor**: Brent Moran
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

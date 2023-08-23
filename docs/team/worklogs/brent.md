@@ -402,7 +402,7 @@ This day was heads-down coding.
 
 ### RSQLA1 project work:
 - Followed up with Anish about plan for splitting work moving forward.
-- Update [project description](/en/projects/sql-ddl-operations)
+- Update [project description](/projects/sql-ddl-operations)
 - Started on Column altering DDL functions
 
 ### Summarization project work:

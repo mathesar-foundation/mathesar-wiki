@@ -2,7 +2,7 @@
 
 Here is the information we should show in View Columns. We don't necessarily have to use the abstractions below, there might be a better way to show the data necessary.
 
-If we end up having a column menu in [the Query Builder](/en/product/specs/2022-01-views/03-the-query-builder), we can probably reuse it here.
+If we end up having a column menu in [the Query Builder](/product/specs/2022-01-views/03-the-query-builder), we can probably reuse it here.
 
 ## Data Type
 This is the final data type of the content of the column after any computations etc. are applied.
@@ -21,7 +21,7 @@ Using Element's UI as an example (Matrix channel names stand in for data sources
 
 ## Formula
 This is the formula used to generate data in for this column.
-- **Allowed values**: List of pre-defined formulas, see [04. Formulas](/en/product/specs/2022-01-views/04-formulas)
+- **Allowed values**: List of pre-defined formulas, see [04. Formulas](/product/specs/2022-01-views/04-formulas)
 - **Optional**: Columns that are direct copies of other columns from tables or views won't have a formula.
 
 We should allow users to use a pre-set set of formulas or (in the future) enter a custom formula using whatever functions are installed on their Postgres database.
@@ -29,7 +29,7 @@ We should allow users to use a pre-set set of formulas or (in the future) enter 
 Using Element's UI as an example (Matrix channel names stand in for data sources here), here's how a Formula might be represented. Note that Sources are used within the Formula.
 ![screen_shot_2022-01-20_at_4.23.21_pm.png](/assets/product/specs/2022-01-views/06-view-columns/screen_shot_2022-01-20_at_4.23.21_pm.png)
 
-Details about creating formulas are in [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
+Details about creating formulas are in [04. Formulas](/product/specs/2022-01-views/04-formulas).
 
 ## Link
 This notes whether a column is a join column. This is a column used to match the same values across multiple tables to create the View. These columns have multiple Sources but no Formula.

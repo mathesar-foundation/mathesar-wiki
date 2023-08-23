@@ -42,4 +42,4 @@ If the candidate is interested in working on the frontend, we'd also love to see
 - **Primary Mentor**: Mukesh Murali
 - **Backup Mentor**: Dominykas Mostauskis
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

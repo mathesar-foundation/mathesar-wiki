@@ -4,7 +4,7 @@
 
 **Name**: Research: Publicly shareable links
 **Status**: Complete
-**Follow up**: [Shareable links implementation project](/en/projects/shareable-links-implementation)
+**Follow up**: [Shareable links implementation project](/projects/shareable-links-implementation)
 
 ## Team
 | Role | Assignee |

@@ -68,4 +68,4 @@ We have two shared calendars:
 We use Syften to get email alerts of mentions of Mathesar and related topics on social media, forums, and blogs. 
 
 # Related
-- [Marketing sites](/en/marketing/sites).
+- [Marketing sites](/marketing/sites).

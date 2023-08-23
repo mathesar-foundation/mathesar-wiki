@@ -38,7 +38,7 @@ Data generated using list formulas are editable in two ways:
     - the tables being used to generate the list (including intermediate tables) have no other required fields other than the one the user is editing.
     - we have enough information in the filters being used to generate the list to fill in any required fields other than the one the user is editing in the tables being used to generate the list (including intermediate tables) 
 
-To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](/en/product/specs/2022-01-views/08-appendix). 
+To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](/product/specs/2022-01-views/08-appendix). 
 
 - **Editing existing items**:
     - The user can edit `Brad Pitt` in row 1 to say `William Bradley Pitt` instead.

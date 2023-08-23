@@ -1,6 +1,6 @@
 # Mentee Guide
 
-This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/en/community/mentoring/applicant-guide).
+This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/community/mentoring/applicant-guide).
 
 ## Post-Announcement
 
@@ -8,8 +8,8 @@ Program acceptance announcements have been made and you've been selected! Congra
 - Continue to refine your project plan and timeline with your mentors.
 - Define communication channels and set up a weekly check-in with your mentor.
 - Set up your computer and development environment.
-- Read through our [Team Guide](/en/team/guide) and familiarize yourself with our workflow and development process.
-- Introduce yourself to [core team](/en/team/members).
+- Read through our [Team Guide](/team/guide) and familiarize yourself with our workflow and development process.
+- Introduce yourself to [core team](/team/members).
 
 ## Program Period
 

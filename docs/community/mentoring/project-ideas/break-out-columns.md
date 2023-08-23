@@ -31,4 +31,4 @@ The successful candidate will be able to understand and articulate the usefulnes
 - **Primary Mentor**: Brent Moran
 - **Backup Mentor**: Kriti Godey
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

@@ -1,7 +1,7 @@
 # Views in Mathesar
 
 ## Overview
-All data in Mathesar is stored in **[Tables](/en/product/concepts/tables)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.
+All data in Mathesar is stored in **[Tables](/product/concepts/tables)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.
 - For example, tables are often optimized for reducing redundancy in data storage. It's hard to work with interrelated data and perform data analysis tasks using tables alone. On a day to day basis, users may want to work with data spread across different tables. 
 - Tables for data analysis are often stored in a denormalized format. Users may want to work with it by reducing the redundancies.
 
@@ -33,22 +33,22 @@ We're introducing a number of new product concepts and features in this specific
 
 - [01. Assumptions and Limitations](/product/specs/2022-01-views/01-assumptions)
 - [02. Feature Requirements](/product/specs/2022-01-views/02-feature-requirements)
-- [03. The Query Builder](/en/product/specs/2022-01-views/03-the-query-builder)
-- [04. Formulas](/en/product/specs/2022-01-views/04-formulas)
-    - [(a) Record Aggregations](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
-    - [(b) Random Generators](/en/product/specs/2022-01-views/04-formulas/4b-random-generators)
-    - [(c) Text Formulas](/en/product/specs/2022-01-views/04-formulas/4c-text-formulas)
-    - [(d) Number Formulas](/en/product/specs/2022-01-views/04-formulas/4d-number-formulas)
-    - [(e) Boolean Formulas](/en/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
-    - [(f) Date. Time, and Duration Formulas](/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
-    - [(g) List Formulas](/en/product/specs/2022-01-views/04-formulas/4g-list-formulas)
-    - [(h) Cumulative Formulas](/en/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
-    - [(i) Regular Expression Formulas](/en/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
-    - [(j) Custom Formulas](/en/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
-- [05. View Structure](/en/product/specs/2022-01-views/05-view-structure)
-- [06. View Columns](/en/product/specs/2022-01-views/06-view-columns)
-- [07. Breaking Down DB Queries](/en/product/specs/2022-01-views/07-breaking-down-db-queries)
-- [08. Appendix](/en/product/specs/2022-01-views/08-appendix)
+- [03. The Query Builder](/product/specs/2022-01-views/03-the-query-builder)
+- [04. Formulas](/product/specs/2022-01-views/04-formulas)
+    - [(a) Record Aggregations](/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
+    - [(b) Random Generators](/product/specs/2022-01-views/04-formulas/4b-random-generators)
+    - [(c) Text Formulas](/product/specs/2022-01-views/04-formulas/4c-text-formulas)
+    - [(d) Number Formulas](/product/specs/2022-01-views/04-formulas/4d-number-formulas)
+    - [(e) Boolean Formulas](/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
+    - [(f) Date. Time, and Duration Formulas](/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
+    - [(g) List Formulas](/product/specs/2022-01-views/04-formulas/4g-list-formulas)
+    - [(h) Cumulative Formulas](/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
+    - [(i) Regular Expression Formulas](/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
+    - [(j) Custom Formulas](/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
+- [05. View Structure](/product/specs/2022-01-views/05-view-structure)
+- [06. View Columns](/product/specs/2022-01-views/06-view-columns)
+- [07. Breaking Down DB Queries](/product/specs/2022-01-views/07-breaking-down-db-queries)
+- [08. Appendix](/product/specs/2022-01-views/08-appendix)
 
 ## See also
-- ["Views" Concepts page](/en/product/concepts/views)
+- ["Views" Concepts page](/product/concepts/views)

@@ -1,6 +1,6 @@
 # Running Effective Team Meetings
 
-By default, we are an asynchronous team and communicate via our [mailing lists](/en/community/mailing-lists) or [GitHub](/en/community/github) issues for anything that involves discussion. We also do ephemeral communication on [Matrix](/en/community/matrix).
+By default, we are an asynchronous team and communicate via our [mailing lists](/community/mailing-lists) or [GitHub](/community/github) issues for anything that involves discussion. We also do ephemeral communication on [Matrix](/community/matrix).
 
 But sometimes, meeting synchronously is the fastest way to get something done. Here's how you should approach meetings.
 
@@ -67,7 +67,7 @@ We have a HackMD template to make this easier, you can use it like so:
 
 ## After the meeting
 
-- Clean up the notes and publish them on the wiki, see [Meeting Notes](/en/meeting-notes).
+- Clean up the notes and publish them on the wiki, see [Meeting Notes](/meeting-notes).
 - Follow up with participants and other interested parties with decisions and action items.
 
 # Additional resources

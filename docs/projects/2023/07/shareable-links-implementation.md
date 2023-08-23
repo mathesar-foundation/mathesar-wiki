@@ -16,8 +16,8 @@
 
 Implement Shareable links for tables & queries.
 
-* [Research project](/en/projects/public-links-research).
-* [Product spec](/en/product/specs/publicly-shareable-links).
+* [Research project](/projects/public-links-research).
+* [Product spec](/product/specs/publicly-shareable-links).
 
 ## Solution
 

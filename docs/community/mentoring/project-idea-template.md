@@ -1,6 +1,6 @@
 # Project Idea Template
 
-> Please use this template while adding new project ideas to [Project Ideas](/en/community/mentoring/project-ideas).
+> Please use this template while adding new project ideas to [Project Ideas](/community/mentoring/project-ideas).
 {.is-info}
 
 ## Classification

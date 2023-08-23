@@ -31,7 +31,7 @@
 ## Solution
 - [Add Documentation for setting up Mathesar with the Mathesar Service Docker Image](https://github.com/centerofci/mathesar/issues/2783). Fixes Problem[a]
 - [Add Documentation for installing Mathesar without using install.sh](https://github.com/centerofci/mathesar/issues/2761). Fixes Problem[b] and [c]
-- [Documenting our config files so user can manually edit them](/en/projects/installation-documentation-improvements)https://github.com/centerofci/mathesar/issues/2784). Fixes Problem[d]
+- [Documenting our config files so user can manually edit them](/projects/installation-documentation-improvements)https://github.com/centerofci/mathesar/issues/2784). Fixes Problem[d]
 - [Documenting setting up Mathesar without Docker](https://github.com/centerofci/mathesar/issues/2427). Fixes Problem[e]
 - [Document upgrade instructions for non-docker-compose environments](https://github.com/centerofci/mathesar/issues/2785)
 - [Document limitations involved with the installation script](https://github.com/centerofci/mathesar/issues/2787). Auxiallary fix for Problem[b] and [c]

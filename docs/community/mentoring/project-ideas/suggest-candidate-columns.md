@@ -1,7 +1,7 @@
 # Suggest Candidate Columns to Create Separate Table
 
 ## The Problem
-> This is related to [Break Columns out to New Table](/en/community/mentoring/project-ideas/break-out-columns), please read that project idea first.
+> This is related to [Break Columns out to New Table](/community/mentoring/project-ideas/break-out-columns), please read that project idea first.
 {.is-info}
 
 
@@ -33,4 +33,4 @@ The successful candidate would understand the motivation for normalizing a datab
 - **Primary Mentor**: Brent Moran
 - **Backup Mentor**: Kriti Godey
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

@@ -1,7 +1,7 @@
 # Raise additional funding for Mathesar
 
 **Name**: Raise additional funding for Mathesar
-**Status**: Moved to [ongoing responsibilities](/en/team/responsibilities) in July 2023.
+**Status**: Moved to [ongoing responsibilities](/team/responsibilities) in July 2023.
 
 ## Team
 

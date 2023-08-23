@@ -11,7 +11,7 @@
 
 This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting).
 Implementing the planned changes will be done in separate projects
-- [Installation Improvement 0.1.4](/en/projects/installation-improvements-0_1_4)
+- [Installation Improvement 0.1.4](/projects/installation-improvements-0_1_4)
 
 ### Problems
 1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot of pain points.

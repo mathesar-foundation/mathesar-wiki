@@ -28,4 +28,4 @@ A good candidate should take the time needed to understand the requirements, res
 - **Primary Mentor**: Pavish Kumar Ramani Gopal
 - **Backup Mentor**: Sean Colsen
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

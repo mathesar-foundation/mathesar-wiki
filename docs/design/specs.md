@@ -15,7 +15,7 @@ These are specs for new features, corresponding to our [development milestones](
 
 ### Navigation
 - [Navigation Updates](/design/specs/navigation)
-- [Add Table from Import/URI/Data paste Specs](/en/design/specs/table-import)
+- [Add Table from Import/URI/Data paste Specs](/design/specs/table-import)
 	- This is under "Navigation" because we needed to update it after the navigation changed from having tabs for different tables.
 
 ### Queries

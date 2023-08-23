@@ -81,4 +81,4 @@ I'd say a good candidate would be one that is comfortable taking the time to exp
 - **Primary Mentor**: Dominykas Mostauskis 
 - **Backup Mentor**: Brent Moran
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.

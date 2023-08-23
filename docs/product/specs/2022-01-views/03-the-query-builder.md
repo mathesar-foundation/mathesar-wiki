@@ -27,7 +27,7 @@ Users should be able to add columns to see in the query's output. Users can add 
     - **Aggregation**: This sets how the column is aggregated (none i.e. separate rows per unique pair, list, count, average, min, max, etc.). 
         - This is only applicable to tables which have multiple related records to the base table. 
         - By default, we will aggregate columns as a list.
-        - Please see [Record Aggregations](/en/product/specs/2022-01-views/04-formulas/4a-record-aggregations) for a list of all aggregations supported.
+        - Please see [Record Aggregations](/product/specs/2022-01-views/04-formulas/4a-record-aggregations) for a list of all aggregations supported.
 - The user will see the source relationship and aggregations used and can alter them if desired. 
 - The user can also alter the column in the following ways:
   - Adding a **Formula**: This alters the column to use a formula where one of the variables is the column.
@@ -146,7 +146,7 @@ When adding query output columns, available columns are calculated as follows:
     - all columns from tables that the base table has FKs to or with FKs to the base table, up to three levels of FKs away.
 
 ## Formulas
-Please see the next page, [04. Formulas](/en/product/specs/2022-01-views/04-formulas).
+Please see the next page, [04. Formulas](/product/specs/2022-01-views/04-formulas).
 
 ## Column Input Filters
 When applying filters to an input column (let's call it `X`), the user selects three things:

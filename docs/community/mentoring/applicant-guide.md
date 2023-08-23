@@ -22,7 +22,7 @@ Mathesar is a new project and we're still working towards releasing our first ve
 - Read about Mathesar on our [main website](https://mathesar.org).
 
 ## Step 3: Join Matrix and the developer mailing list
-Join [the "Mentoring Programs" Matrix channel](/en/community/matrix) or the [developer mailing list](/en/community/mailing-lists) as early as possible to introduce yourself and get feedback on your ideas.
+Join [the "Mentoring Programs" Matrix channel](/community/matrix) or the [developer mailing list](/community/mailing-lists) as early as possible to introduce yourself and get feedback on your ideas.
 
 Feel free to ask questions about project ideas, Mathesar, or anything else! Post questions in the main channel - **do not** contact mentors individually. 
 
@@ -35,12 +35,12 @@ Please see our [Contribution Guidelines](https://github.com/centerofci/mathesar/
 Once you're comfortable with Mathesar and the community, it's time to start the application process.
 
 ## Step 1: Pick a project idea
-You'll need to pick a project that you're interested in working on. Please see our [Project Ideas](/en/community/mentoring/project-ideas) page for a list of ideas we've come up with.
+You'll need to pick a project that you're interested in working on. Please see our [Project Ideas](/community/mentoring/project-ideas) page for a list of ideas we've come up with.
 
 Once you pick a project, make sure you understand what the work entails so that you can plan the work out ahead of time and submit a strong application. The mentors are here to help you. We expect you to have a lot of questions and we're happy to answer them.
 
 ## Step 2: Write a draft proposal
-You'll now need to write a draft proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](/en/community/mentoring/project-proposal-template) for this.
+You'll now need to write a draft proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](/community/mentoring/project-proposal-template) for this.
 
 We expect you to do **a significant amount of work** on creating your proposal. You'll need to demonstrate that you understand exactly how to make the changes you're proposing to the codebase and that you can split the project into smaller deliverables that keep you on track.
 

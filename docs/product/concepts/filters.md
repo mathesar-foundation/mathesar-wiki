@@ -2,7 +2,7 @@
 
 # About
 
-A **Filter** allows you to reduce the amount of data displayed in a [Table](/en/product/concepts/tables) or a [View](/en/product/concepts/views) based on specified criteria.
+A **Filter** allows you to reduce the amount of data displayed in a [Table](/product/concepts/tables) or a [View](/product/concepts/views) based on specified criteria.
 
 ## Example
 Imagine this table containing movies.
@@ -36,8 +36,8 @@ Then you might want to see movies released after 1990 that you've watched, so yo
 | 7 | Big Trouble | 2002 | TRUE |
 
 ## Filters in Mathesar
-You can filter data in a [Table](/en/product/concepts/tables) or a [View](/en/product/concepts/views) in Mathesar using either the "Filters" button or each column's menu.
+You can filter data in a [Table](/product/concepts/tables) or a [View](/product/concepts/views) in Mathesar using either the "Filters" button or each column's menu.
 
 # Further Reading
-- If you're curious, you can look at our [engineering page about Filters](/en/engineering/glossary/filters).
+- If you're curious, you can look at our [engineering page about Filters](/engineering/glossary/filters).
 

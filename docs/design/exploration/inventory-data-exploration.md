@@ -4,7 +4,7 @@
 
 # Inventory: Data Exploration
 
-> Refer to [Inventory Use Case](/en/design/exploration/use-cases/inventory-use-case) for additional context.
+> Refer to [Inventory Use Case](/design/exploration/use-cases/inventory-use-case) for additional context.
 {.is-info}
 
 # Context

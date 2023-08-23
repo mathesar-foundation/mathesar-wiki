@@ -46,7 +46,7 @@ Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Pl
   - Re-tweet it from our account and/or thank them for the shoutout.
   - Only re-tweet if the tweet appears to be from a real person or organization. Do not re-tweet bot accounts (e.g. "First Issues Bot").
 - **If a comment or post can be considered user feedback**:
-  - Please flag it to the owner of the [user feedback](/en/team/responsibilities/user-feedback) responsibility.
+  - Please flag it to the owner of the [user feedback](/team/responsibilities/user-feedback) responsibility.
 
 ### Document noteworthy publicity
 - Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](./marketing/history.md) page
@@ -69,5 +69,5 @@ Release announcements should include highlights from release notes. We should av
 - Do research on more relevant aggregators that Mathesar could be added to and add them to the issue.
 
 # Notes & Resources
-- See [Marketing](/en/marketing) section of the wiki.
+- See [Marketing](/marketing) section of the wiki.
 - Eventually, the plan is to create an “evangelism guide” ([example](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/social-media/))

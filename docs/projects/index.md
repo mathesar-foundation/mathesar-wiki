@@ -11,7 +11,7 @@
 
 ### Process
 
-- Anyone willing to do the work can propose a project. Please use the [project template](/en/projects/template).
+- Anyone willing to do the work can propose a project. Please use the [project template](/projects/template).
 - Projects are discussed and approved by the core team (either in meetings or via email).
 		- The project manager facilitates these discussions.
 - Project prioritization will be based on our product strategy (currently in development).
@@ -32,9 +32,9 @@ Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with pr
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Anshuman | [Support importing Excel and JSON files](/en/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
-| Aritra | [Add more summarization functions](/en/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
-| Varsha | [API documentation](/en/community/mentoring/project-ideas/api-documentation) project idea | In progress |
+| Anshuman | [Support importing Excel and JSON files](/community/mentoring/project-ideas/import-excel-json-files) project idea | In progress |
+| Aritra | [Add more summarization functions](/community/mentoring/project-ideas/more-summarizations) project idea | In progress |
+| Varsha | [API documentation](/community/mentoring/project-ideas/api-documentation) project idea | In progress |
 
 
 ## Future project ideas

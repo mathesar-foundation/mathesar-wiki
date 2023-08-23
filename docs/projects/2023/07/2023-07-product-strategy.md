@@ -58,4 +58,4 @@ We did not get everything planned for this project done by the end of the cycle.
 - A database to collect user research (private to core team):
 	- [User research schema](https://internal.mathesar.org/db/mathesar_tables/14/)
   
-Next steps are to finalize the strategy and personas and develop a product roadmap once the [niche research](/en/projects/niche-research) project is complete in Cycle 2.
+Next steps are to finalize the strategy and personas and develop a product roadmap once the [niche research](/projects/niche-research) project is complete in Cycle 2.

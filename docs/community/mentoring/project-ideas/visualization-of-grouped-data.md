@@ -31,4 +31,4 @@ A good candidate would be someone who is able to empathize and think from the pe
 - **Primary Mentor**: Pavish Kumar Ramani Gopal
 - **Backup Mentor**: Sean Colsen
 
-See our [Team Members](/en/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.
