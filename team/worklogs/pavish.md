@@ -9,11 +9,22 @@ dateCreated: 2023-07-07T17:01:46.847Z
 ---
 
 # Actively working on
-* Respond to cooldown discussions
-* Start email thread for:
-  - Product level permissions discussion to account for related entities
+* Helping with Pre-existing Postgres DB compatibility project
+* Helping with Niche research project
 
 # Daily logs
+## 2023-08-22
+* Thought more about Product level permissions to account for related entities
+
+## 2023-08-21
+* Skimmed through [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
+  - Placed it in to-do for more thorough review
+* Responded to some discussions
+
+## 2023-08-18
+* Weekly meeting
+* Community event
+
 ## 2023-08-17
 * Started email thread on handling user feedback (XY problem)
 * Responded to Brent's mail on compatibility with preexisting DBs
