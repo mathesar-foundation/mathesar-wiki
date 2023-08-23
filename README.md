@@ -38,6 +38,8 @@ https://wiki.mathesar.org/
 
 - We use the [awesome-pages plugin](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin) for some additional control over the navigation system.
 
+- We use the [mkdocs-htmlproofer-plugin](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) to validate internal hyperlinks.
+
 ## See also
 
 - The [source content for Mathesar's _documentation_](https://github.com/centerofci/mathesar/tree/develop/docs), which also utilizes MkDocs.

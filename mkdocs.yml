@@ -8,6 +8,8 @@ plugins:
   - search:
       lang: en
   - awesome-pages
+  - htmlproofer:
+      validate_external_urls: False
   - redirects:
       redirect_maps:
         'community/setup_in_windows.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
