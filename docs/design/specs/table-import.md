@@ -46,7 +46,7 @@ This is the stage where the uploaded file is processed. The user sees the progre
 
 On the processing screen there is a progress bar which indicates where the upload and import process is. There will also be small messages below the progress bar to keep user informed about the process/status.
 
-The user can also cancel the import by clicking on the cancel button. But the user will have to confirm the cancellation by the modal in [Abandon scenario](#abandoning-the-file-processing-step)
+The user can also cancel the import by clicking on the cancel button. But the user will have to confirm the cancellation by the modal in the appropriate "Abandon scenario" below.
 
 ### Errors 
 ![](/assets/design/specs/table-import/asGm1LMUCEvjCd1jBdcDEA.png)

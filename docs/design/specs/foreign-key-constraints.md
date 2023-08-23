@@ -38,7 +38,7 @@ A user wants to link records from another table into their current table. Both t
 #### Steps for 1a
 
 - The user starts the link Table process by clicking on the `Link Table` button in the table toolbar area.
-- The user reads the instructions presented within the [link table](#link-table) component and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
+- The user reads the instructions presented within the link table component and understands that the tables will be linked by setting up a foreign key constraint. They also understand that manual configuration is available.
 - The user selects the table they wish to link to from the [table selector](#table-selector).
   - Only tables that have a primary key constraint will allow selection. Tables without a primary key constraint will still be listed but shown with a warning.
 - A list of questions is displayed once a table is selected. The user can answer 'yes' or 'no' depending on the relationship they want to create.

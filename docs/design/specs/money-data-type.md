@@ -59,7 +59,7 @@ Mathesar's custom money data type will allow users to set any currency and custo
 
 - The user sets a column type to `Money.`
 - The user opens the data type menu and goes to the `Display` section.
-- The user sees the default currency selected and [additional options](#currency_format_options) are displayed.
+- The user sees the default currency selected and [additional options](#currency-format-options) are displayed.
 - Changing any of the default options for a currency will set the currency to custom. For example, changing the symbol for US dollar from `$` to `USD`.
 - Changing to any other currency will update the values of the formatting options to those corresponding to the currency.
 

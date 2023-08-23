@@ -1,7 +1,7 @@
 # Formulas Research
 
 **Name**: Formulas Research
-**Status**: Done (see the [report](../engineering/research/formulas.md))
+**Status**: Done (see the [report](/engineering/research/formulas.md))
 
 ## Team
 

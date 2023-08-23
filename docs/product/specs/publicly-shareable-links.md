@@ -64,9 +64,8 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 
 ### Endpoints & DB schema:
 
-> Refer [Appendix #1](#h-1-approaches-discussions-on-django-model-and-db-schema) for approaches & discussions on selection of Django model structure.
-> Refer [Appendix #2](#h-2-approaches-on-api-endpoints) for approaches & discussions on selection of API endpoint structure.
-{.is-default}
+> Refer to **Appendix #1** for approaches & discussions on selection of Django model structure.
+> Refer to **Appendix #2** for approaches & discussions on selection of API endpoint structure.
 
 * Django models
 	- One abstract model containing common fields

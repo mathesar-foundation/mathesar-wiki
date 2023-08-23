@@ -9,13 +9,13 @@
 
 | Responsibility | Owner | Helpers |
 |-|-|-|
-| [Team management](./responsibilities/team-management.md) | Kriti | Sean |
-| [Repo admin](/team/responsibilities/repo-admin) | Rajat | Pavish, Anish |
-| [Release management](/team/responsibilities/release-management) | Kriti | Release owners rotate each cycle | 
-| [User feedback tracking](/team/responsibilities/user-feedback) | Ghislaine | Brent, Pavish, Kriti |
-| [Marketing](/team/responsibilities/marketing) | Kriti | Ghislaine, Rajat, Sean |
-| [User help](/team/responsibilities/installation-help) | Kriti | Brent, Mukesh, Pavish |
-| [GSoC](/team/responsibilities/gsoc) | Dom | Anish, Rajat | 
-| [Fundraising](/team/responsibilities/fundraising) | Kriti | |
+| [Team management](./team-management.md) | Kriti | Sean |
+| [Repo admin](./repo-admin.md) | Rajat | Pavish, Anish |
+| [Release management](./release-management.md) | Kriti | Release owners rotate each cycle | 
+| [User feedback tracking](./user-feedback.md) | Ghislaine | Brent, Pavish, Kriti |
+| [Marketing](./marketing.md) | Kriti | Ghislaine, Rajat, Sean |
+| [User help](./installation-help.md) | Kriti | Brent, Mukesh, Pavish |
+| [GSoC](./gsoc.md) | Dom | Anish, Rajat | 
+| [Fundraising](./fundraising.md) | Kriti | |
 
 **See the [Projects](/projects.md) page for time-limited responsibilities.**

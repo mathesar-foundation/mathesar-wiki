@@ -45,9 +45,9 @@ Here are some other project ideas that have been written up, but need to be revi
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./projects/sql-dml-operations.md) | Draft |
-| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./projects/sql-dql-operations.md) | Draft |
-| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./projects/sql-alchemy-remove.md) | Draft |
+| Brent     | [RSQLA2: Move DML Operations to SQL Functions](./future/sql-dml-operations.md) | Draft |
+| Brent     | [RSQLA3: Remove SQLAlchemy from DQL operations](./future/sql-dql-operations.md) | Draft |
+| Brent     | [RSQLA4: Remove SQLAlchemy from codebase](./future/sql-alchemy-remove.md) | Draft |
 
 
 ## Project template

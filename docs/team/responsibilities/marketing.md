@@ -49,7 +49,7 @@ Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Pl
   - Please flag it to the owner of the [user feedback](/team/responsibilities/user-feedback) responsibility.
 
 ### Document noteworthy publicity
-- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](./marketing/history.md) page
+- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](/marketing/history.md) page
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 
 ### Make release announcements

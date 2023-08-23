@@ -21,7 +21,7 @@ After selecting `Add formula column`, an empty placeholder column is visible. Th
 
 The inspector on the right hand side shows a name input for the user to give a relevant name to the column. There is a formula selection dropdown for the user to select from. A detailed description of the selection menu can be found in [components section](#components)
 
-Once the formula is selected, the formula settings will then be visible. If the user inputs valid parameters, they will be able to see results in the formula column. Invalid parameters are described in [this scenario](#scenarios-2b---the-formula-is-configured-incorrectly-and-returns-an-invalid-output).
+Once the formula is selected, the formula settings will then be visible. If the user inputs valid parameters, they will be able to see results in the formula column. Invalid parameters are described in **scenario 2.b** below.
 
 If the user is satisfied with the result, they can save the query. 
 
@@ -82,7 +82,7 @@ The list type formula works on columns with list data type. There can be differe
 
 Whenever the user adds valid input there is a temporary feedback message below the input which says `Valid Input`. This is to notify them that there is nothing wrong in the formula configuration if they don't see desired column values.
 
-#### Scenarios 2.b - The formula is configured incorrectly and returns an invalid output
+#### Scenarios 2.b - The formula is configured incorrectly and returns an invalid output {#scenario-2b}
 
 If the formula parameters input are invalid, there is a temporary feedback message below the input which says `Invalid Input`. This is to notify them that the inputs are wrong and hence they might not see the desired column
 

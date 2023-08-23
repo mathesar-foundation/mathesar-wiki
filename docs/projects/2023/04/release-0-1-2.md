@@ -59,8 +59,8 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 | 2023-04-18 | Design work related to switching user databases is complete. |
 | 2023-04-18 | Backend work related to switching user databases is complete. |
 | 2023-04-25 | Frontend work related to switching user databases is complete. |
-| 2023-04-28 | Work for Installation improvements is merged. See [timeline](./installation-improvements.md) in Installation improvements project. **Release branch is created.** |
-| 2023-05-01 | Testing is continued as mentioned in  [Installation improvements](./installation-improvements.md). Any issue that comes up during testing will be fixed directly on the release branch. |
+| 2023-04-28 | Work for Installation improvements is merged. See [timeline](./installation-documentation-improvements.md) in Installation improvements project. **Release branch is created.** |
+| 2023-05-01 | Testing is continued as mentioned in  [Installation improvements](./installation-documentation-improvements.md). Any issue that comes up during testing will be fixed directly on the release branch. |
 | 2023-05-05 | Fixes for issues raised during testing is complete. |
 | 2023-05-08 | Release process starts. |
 | 2023-05-10 | Release date. |

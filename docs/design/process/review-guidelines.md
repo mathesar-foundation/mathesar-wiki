@@ -22,7 +22,7 @@ This is the list of team members who have volunteered to review new designs.
 
 - Clone the [Mathesar Wiki Repo](https://github.com/centerofci/mathesar-wiki) and create a new page under the [Design Specs](/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/design/specs) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
-- Add the [spec content](##spec-content) to the page. Make sure the page date is updated as well.
+- Add the [spec content](#spec-content) to the page. Make sure the page date is updated as well.
 - Once you think the spec is ready for review, create a PR that includes in its description:
   - a link to the referenced design issue from the [Mathesar Repo](https://github.com/centerofci/mathesar) formatted as "Fixes `<link to the issue>`."
   - an expected timeline for the review, if any.
