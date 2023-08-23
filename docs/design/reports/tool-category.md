@@ -10,6 +10,7 @@ One of Mathesar's primary purposes is data storage, with the addition of robust 
 
 ### Most valued features for Data Analysis Tools
 Data analysis tools are focused on data manipulation and statistical analysis to aid in decision-making processes. Most commercial tools offer out-of-the-box pre-built data transformations and visualizations to accommodate users of all data-literacy levels.
+
 * Easily connect to multiple data sources.
 * Create actionable dashboards automatically.
 * Manage data permissions
@@ -23,6 +24,7 @@ Data analysis tools are focused on data manipulation and statistical analysis to
 
 ### Most valued features for Database GUI Tools
 Database GUI tools help database users to manage, manipulate and visualize their data. Compared to the traditional command-line interface methods, GUI tools have a lower learning curve, making it easy to browse databases and tables. One of the top reasons to use a GUI tool is increased productivity reported by the users of such applications.
+
 * Easy to install
 * Handy administration tools
 * Great user management
@@ -32,6 +34,7 @@ Database GUI tools help database users to manage, manipulate and visualize their
 
 ### Most valued features for Visualization Tools
 Data visualization tools deal with the graphic representation of data. They are primarily focused on the creation of dashboards and real-time monitoring of data. Performance is essential for these tools as they require running many complex queries to generate the visualizations.
+
 * Pre-built data connectors
 * Natural language querying
 * Custom infographics

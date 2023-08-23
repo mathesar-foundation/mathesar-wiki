@@ -44,6 +44,7 @@ In the context of table inspector, the 'Save' and 'Cancel' buttons will be hidde
 ### Confirmation dialog when user tries to save
 
 A confirmation dialog would be displayed based on the user's changes. The warning message in this dialog would be based on the implications of the changes.
+
 * Changes to Database type:
   - Confirmation dialog is shown.
   - Message: This change may lead to data loss since it changes the way the database stores data.
