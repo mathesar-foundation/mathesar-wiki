@@ -8,6 +8,26 @@ editor: markdown
 dateCreated: 2023-07-06T20:00:15.650Z
 ---
 
+## 2023-08-23
+
+- Niche research into Small Businesses using PostgreSQL.
+- Team meeting.
+
+**Current Focus:**
+- Survey Banner
+- Niche Research (Market and Needs of Small Businesses using PostgreSQL)
+
+## 2023-08-22
+
+- Added the survey banner to the website and opened a draft PR.
+- Making some final changes to the survey and getting ready to publish it.
+- Niche research into Small Businesses using PostgreSQL.
+- Collecting more data and preparing the different sections of the report.
+
+**Current Focus:**
+- Survey Banner
+- Niche Research (Market and Needs of Small Businesses using PostgreSQL)
+
 ## 2023-08-21
 - Started organizing for research, finding different sources.
 - Made changes to the survey for publishing.
