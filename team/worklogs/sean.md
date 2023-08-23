@@ -19,6 +19,7 @@ dateCreated: 2023-07-07T18:46:25.644Z
 
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
+- Write "Markdown style guide" wiki page
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 
 ### Backlog
@@ -29,6 +30,11 @@ dateCreated: 2023-07-07T18:46:25.644Z
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-23 Wednesday
+
+- Team meeting
+- Bring PR to [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar-wiki/pull/102) out of draft state
 
 ## 2023-08-22 Tuesday
 
