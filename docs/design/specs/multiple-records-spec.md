@@ -1,7 +1,8 @@
 # Multiple Records Associated with a Single Record
 
-> This spec is outdated and should not be followed.
-{.is-danger}
+!!! danger "Danger"
+    This spec is outdated and should not be followed.
+
 
 ## Context
 When setting up a relational database, users will want to organize their data to avoid duplication and maintain the integrity of their data. Therefore relationships need to be created between tables, for example, to relate 'tracks' to 'albums' or 'albums' to 'artists.' In cases where records are multiple, users will rely on features to help them summarize or quantify those relationships.

@@ -4,8 +4,9 @@ This is the proposal template for applications to any mentorship programs that w
 
 We recommend creating a Google Doc that follows this structure and sharing it with the mentors. Please make sure that all mentors have commenting permissions.
 
-> The template starts below this box. Instructions for each section are provided in infoboxes like this one.
-{.is-info}
+!!! info "Information"
+    The template starts below this box. Instructions for each section are provided in infoboxes like this one.
+
 
 # Project Title
 
@@ -48,8 +49,9 @@ We recommend creating a Google Doc that follows this structure and sharing it wi
 | ... | ... |
 
 ## Questionnaire
-> Please answer the following questions.
-{.is-info}
+!!! info "Information"
+    Please answer the following questions.
+
 
 - Why are you interested in working on Mathesar?
 - Why are you interested in working on this project idea?

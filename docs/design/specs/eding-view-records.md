@@ -1,7 +1,8 @@
 # Editing Records Within a View
 
-> This spec is outdated and should not be followed.
-{.is-danger}
+!!! danger "Danger"
+    This spec is outdated and should not be followed.
+
 
 ## Context
 Users working within views may want to add new records to one or more source tables without dealing with multiple objects, following the spreadsheet-like experience that Mathesar aims to offer. This design problem presents some challenges in avoiding conflicts between objects, especially if there are dependencies. A proposed solution for this is described in this spec, taking into account two potential scenarios for views that can and cannot be updated.

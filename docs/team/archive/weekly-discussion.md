@@ -1,7 +1,8 @@
 # Weekly Discussion
 
-> We're no longer doing these.
-{.is-danger}
+!!! danger "Danger"
+    We're no longer doing these.
+
 
 
 At the beginning of each week, we start a discussion on [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) to review Mathesar's progress, provide updates to the community, and to check in about our process and workload. Everyone is welcome to add a new topic to discuss or to comment on existing topics.

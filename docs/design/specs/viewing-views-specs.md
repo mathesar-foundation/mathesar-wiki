@@ -1,7 +1,8 @@
 # Viewing a View
 
-> This spec is outdated and should not be followed.
-{.is-danger}
+!!! danger "Danger"
+    This spec is outdated and should not be followed.
+
 
 ## Context
 Views can help users make sense of the data they have in tables and the references between them. However, when coming from the context of spreadsheet-like interfaces, a user might experience some difficulties incorporating views into their process.
@@ -15,8 +16,9 @@ An optimal design solution would make table associations in the context of views
 #### A user understands that columns in a view are referenced
 Because views look exactly like tables, users who are new to views might have difficulty understanding why they can't edit something or why some fields might be missing from the referenced table or present from other tables.
 
-> Note that at this point, users can only select other columns and add them to the view without performing aggregations or data transformations. The design, as it is currently described, does not contemplate those scenarios.  
-{.is-warning}
+!!! warning "Warning"
+    Note that at this point, users can only select other columns and add them to the view without performing aggregations or data transformations. The design, as it is currently described, does not contemplate those scenarios.  
+
 
 
 ##### Using Color

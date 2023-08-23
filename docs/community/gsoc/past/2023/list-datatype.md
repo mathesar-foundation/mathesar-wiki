@@ -17,8 +17,9 @@ If you've worked with Python's numpy, you can think of dimensions as the number 
 ### SQL Alchemy (SA) support
 This library supports the handling of arrays, and it implements it as a data type class with an `item_type` attribute that specifies the true data type in the DB. 
 The Array class also uses an optional `dimensions` argument, with a default value of 1. This does not actually reflects into an ARRAY column enforced to be 1-dimensional in the DB; it's just a hack of the library to traverse the arrays more efficiently when converting them to Python's lists. 
-> **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays. 
-{.is-warning}
+!!! warning "Warning"
+    **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays. 
+
 
  
 ## Methodology

@@ -113,8 +113,9 @@ For details on the Release management process, refer the [Release management ong
 ### 1. Merge into master
 - Merge the release branch into `master`.
 - Ensure the release branch is deleted after merge. This should happen automatically after merging.
- > Note that after merging the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
-{.is-warning}
+ !!! warning "Warning"
+    Note that after merging the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
+
 
 ### 2. Create a tag
 - Tag the commit you've just merged with the version number of the release.

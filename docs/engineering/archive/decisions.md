@@ -1,7 +1,8 @@
 # Engineering Decisions
 
-> This page is archived.
-{.is-danger}
+!!! danger "Danger"
+    This page is archived.
+
 
 ## June 2021
 - We decided to use limit/offset pagination instead of cursor pagination.

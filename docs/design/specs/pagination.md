@@ -45,5 +45,6 @@ Some of the following points were discussed and shall be reconsidered later when
 - Cursor-based pagination is not affected by the addition or removal of items.
 - Cursor-based pagination requires users to traverse through the entire result set page by page.
 
-> Please see ["Pagination options" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/177) for more detail.
-{.is-info}
+!!! info "Information"
+    Please see ["Pagination options" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/177) for more detail.
+

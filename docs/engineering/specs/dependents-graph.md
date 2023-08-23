@@ -9,8 +9,9 @@ Dependents Graph is a feature for returning a graph of dependent objects for a c
 - Tables
 - Table columns
 
-> This can be easily extended and added to other types if their support appears in Mathesar since the entry point for the query is just the object OID ([almost always](https://www.postgresql.org/docs/current/datatype-oid.html) the unique identifier of any object in the database).
-{.is-info}
+!!! info "Information"
+    This can be easily extended and added to other types if their support appears in Mathesar since the entry point for the query is just the object OID ([almost always](https://www.postgresql.org/docs/current/datatype-oid.html) the unique identifier of any object in the database).
+
 
 As possible dependent objects, it returns:
 

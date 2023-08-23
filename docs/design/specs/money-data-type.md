@@ -6,8 +6,9 @@ Money Data Types allow users to manage monetary values, preceded by a currency s
 
 ## Prototype
 
-> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
-{.is-warning}
+!!! warning "Warning"
+    This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+
 
 [Figma Prototype for Money Data Type](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3380%3A23047&node-id=3380%3A23048&viewport=-1070%2C505%2C0.4795173108577728&scaling=contain&starting-point-node-id=3380%3A23048)
 

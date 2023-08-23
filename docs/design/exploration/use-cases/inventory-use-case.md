@@ -27,8 +27,9 @@ A use case describes the interaction between a user and a system to achieve a go
 Visit the [Design Process](/design/process) section to read an overview of the product design process that the team will follow to build the inventory prototype. This design will include the user experience, user interface and interactions, and the underlying features and patterns.
 
 # Inventory Use Case Basic Flow
-> These wireframes are meant to work as abstract representations of the user journey. Content and layout will most likely change as we add more definitions to each step.
-{.is-info}
+!!! info "Information"
+    These wireframes are meant to work as abstract representations of the user journey. Content and layout will most likely change as we add more definitions to each step.
+
 
 - User visits Mathesar's website or documentation, reads about the features and finds the documentation quickly.
     - User locates a list of features and confirms Mathesar will solve their problem.

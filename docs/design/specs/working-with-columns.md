@@ -1,7 +1,8 @@
 # Working with Columns
 
-> This spec is in the review process, and its contents are subject to change. 
-{.is-warning}
+!!! warning "Warning"
+    This spec is in the review process, and its contents are subject to change. 
+
 
 ## Context
 Working with columns is a central part of a user's database structuring experience, mainly when tables aren't imported, instead created within Mathesar. It is then on the user to add them, set the data types and other properties according to their needs.

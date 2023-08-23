@@ -1,7 +1,8 @@
 # Inventory: Data Exploration
 
-> Refer to [Inventory Use Case](/design/exploration/use-cases/inventory-use-case) for additional context.
-{.is-info}
+!!! info "Information"
+    Refer to [Inventory Use Case](/design/exploration/use-cases/inventory-use-case) for additional context.
+
 
 ## Context
 The user has created a new table in Mathesar via file import. The table is used to organize their music album collection.

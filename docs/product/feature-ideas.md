@@ -2,8 +2,9 @@
 
 These are potential feature ideas for Mathesar. Each section represents a conceptual grouping of features.
 
-> Please note that this list is long and disorganized. Some are slated to be built in our roadmap, and others we might not build at all. Features ideas that are already specced out in our roadmap are not listed here.
-{.is-warning}
+!!! warning "Warning"
+    Please note that this list is long and disorganized. Some are slated to be built in our roadmap, and others we might not build at all. Features ideas that are already specced out in our roadmap are not listed here.
+
 
 
 ## Views

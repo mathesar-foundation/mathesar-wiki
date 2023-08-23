@@ -105,8 +105,9 @@ We should support the following custom grouping types for List cells:
 - CSV files can be bad-formatted; we have to show a message to the user indicating this error or parse the uknown format as a text column (if possible).
 
 ## Resources
-> This section  will grow over the project's timeframe.
-{.is-info}
+!!! info "Information"
+    This section  will grow over the project's timeframe.
+
 
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:

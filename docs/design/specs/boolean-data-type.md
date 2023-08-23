@@ -4,8 +4,9 @@
 Boolean data types are used to store TRUE or FALSE values. 
 
 ## Prototype
-> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
-{.is-warning}
+!!! warning "Warning"
+    This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+
 
 [Boolean Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=4260%3A37440&node-id=4270%3A40031&viewport=324%2C48%2C0.35&scaling=min-zoom&starting-point-node-id=4270%3A40031&show-proto-sidebar=1)
 

@@ -1,7 +1,8 @@
 # Project Template
 
-> This project is ridiculous on purpose. We are not doing this.
-{.is-info}
+!!! info "Information"
+    This project is ridiculous on purpose. We are not doing this.
+
 
 **Status**: Draft 
 **Review status**: Draft
@@ -10,17 +11,20 @@
 > Options for status:
 > **Draft**: The owner is still writing up the project.
 > **In progress**: Work on the project has started.
-> **Complete**: The project is over.
-{.is-info}
+!!! info "Information"
+    **Complete**: The project is over.
+
 
 > Options for review status:
 > **Draft**: The owner is still writing up the project.
 > **In review**: The project has been written up, but hasn't been approved yet.
-> **Approved**: The project has been approved.
-{.is-info}
+!!! info "Information"
+    **Approved**: The project has been approved.
 
-> **Theme** is the broader goal or theme associated with the project. This is optional and can be omitted.
-{.is-info}
+
+!!! info "Information"
+    **Theme** is the broader goal or theme associated with the project. This is optional and can be omitted.
+
 
 ## Team
 **Project owner**: Kriti
@@ -54,8 +58,9 @@ Mathesar's next release will include the new feature described under "solution".
 - Users could be allergic to pizza ingredients.
 
 ## Links
-> This section collects project related links. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
-{.is-info}
+!!! info "Information"
+    This section collects project related links. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+
 
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:
@@ -69,5 +74,6 @@ Mathesar's next release will include the new feature described under "solution".
 ## Timeline
 This project should fit into the 2023-01-01 cycle.
 
-> Please adjust as needed depending on the steps for the project.
-{.is-info}
+!!! info "Information"
+    Please adjust as needed depending on the steps for the project.
+

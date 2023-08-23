@@ -2,8 +2,9 @@
 
 These ideas are for **Google Summer of Code 2023**.
 
-> For information about applying to Google Summer of Code, please see [**our Applicant Guide**](/community/mentoring/applicant-guide).
-{.is-info}
+!!! info "Information"
+    For information about applying to Google Summer of Code, please see [**our Applicant Guide**](/community/mentoring/applicant-guide).
+
 
 ## Ideas
 

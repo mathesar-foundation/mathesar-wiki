@@ -5,8 +5,9 @@
 **Theme**: Product research
 
 ## Team
-> We probably don't need to be this detailed for everything; this is just to show the range of options.
-{.is-info}
+!!! info "Information"
+    We probably don't need to be this detailed for everything; this is just to show the range of options.
+
 
 | Role | Assignee | Notes |
 |-|-|-|
@@ -37,14 +38,16 @@ It is not obvious that copying competing solutions would be a useful strategy, s
   - Setting deadlines might help
 
 ## Resources
-> This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
-{.is-info} 
+!!! info "Information"
+    This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
+ 
 
 ## Timeline
 This project should take **5 weeks**.
 
-> Please adjust as needed depending on the steps for the project.
-{.is-info}
+!!! info "Information"
+    Please adjust as needed depending on the steps for the project.
+
 
 | Date | Outcome |
 | - | - |

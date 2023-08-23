@@ -2,8 +2,9 @@
 
 There are five phases in our design process.
 
-> See [Specs](/design/specs) for deliverables from this process.
-{.is-info}
+!!! info "Information"
+    See [Specs](/design/specs) for deliverables from this process.
+
 
 
 ## Design Problem Framing

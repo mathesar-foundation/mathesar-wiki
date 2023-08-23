@@ -1,7 +1,8 @@
 # Project Idea Template
 
-> Please use this template while adding new project ideas to [Project Ideas](/community/mentoring/project-ideas).
-{.is-info}
+!!! info "Information"
+    Please use this template while adding new project ideas to [Project Ideas](/community/mentoring/project-ideas).
+
 
 ## Classification
 - **Difficulty**: *Low/Medium/High*

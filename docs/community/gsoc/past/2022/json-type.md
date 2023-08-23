@@ -2,8 +2,9 @@
 
 **Author**: [Jinxiao Li](https://github.com/Jinxiao0302)
 
-> Jinxiao originally sent this project report to the developer mailing list, [see here](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7iHlVobzW08)
-{.is-info}
+!!! info "Information"
+    Jinxiao originally sent this project report to the developer mailing list, [see here](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7iHlVobzW08)
+
 
 
 ---

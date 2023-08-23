@@ -2,8 +2,9 @@
 
 Although Queries and Views represent underlying database concepts, we will only be supporting building a subset of possible database queries in the first version of Mathesar. Our goal is to ship a proof of concept that demonstrates common use cases that might be used for an [Inventory Use Case](/design/exploration/use-cases/inventory-use-case).
 
-> Please note that the assumptions and limitations outlined in this page are **only for the alpha release** of Mathesar. We will reevaluate these assumptions after our first release.
-{.is-info}
+!!! info "Information"
+    Please note that the assumptions and limitations outlined in this page are **only for the alpha release** of Mathesar. We will reevaluate these assumptions after our first release.
+
 
 
 ## Viewing Views

@@ -1,7 +1,8 @@
 # One-to-Many Relationships
 
-> This spec is outdated and should not be followed.
-{.is-danger}
+!!! danger "Danger"
+    This spec is outdated and should not be followed.
+
 
 ## Context
 Users within Mathesar will want to create relationships between tables for different purposes. For example, they might have an 'artist_id' column in an artist's table, and they want to relate that with the artist's releases on another table. For that, each 'releases' table record is linked to an artist on the 'artist' table with the same 'artist_id.'

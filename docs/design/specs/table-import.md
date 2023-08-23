@@ -1,7 +1,8 @@
 # Add Table from Import/URI/Data paste Specs
 
-> This spec is a starting point and has been through basic engineering and product reviews. It is not ready for implementation yet. It will have further updates and reviews before we are ready to start implementing this.
-{.is-danger}
+!!! danger "Danger"
+    This spec is a starting point and has been through basic engineering and product reviews. It is not ready for implementation yet. It will have further updates and reviews before we are ready to start implementing this.
+
 
 ## Context
 Adding a new table from a file import allows users to input data into Mathesar without populating tables manually. This feature is also convenient for users who need to import data for testing Mathesar's functionality.

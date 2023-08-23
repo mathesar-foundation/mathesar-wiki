@@ -1,7 +1,8 @@
 # Installation help
 
-> Draft
-{.is-warning}
+!!! warning "Warning"
+    Draft
+
 
 
 ## Tasks

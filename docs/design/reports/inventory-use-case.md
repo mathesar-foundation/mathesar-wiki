@@ -3,8 +3,9 @@
 The inventory use case presented many opportunities to understand how the design of the Mathesar application could influence user goals. 
 We selected the inventory use case because it combined simple data storage with minimal analysis needs.
 
-> **See also**: [Mathesar Tool Category Exploration](/design/reports/tool-category)
-{.is-info}
+!!! info "Information"
+    **See also**: [Mathesar Tool Category Exploration](/design/reports/tool-category)
+
 
 To learn from this use case, [wireframes that depicted the various user steps needed to build an inventory](/design/exploration/use-cases/inventory-use-case) were created and shared for feedback. An additional wireframe round was conducted to dig deeper into the [data exploration process](/design/exploration/inventory-data-exploration).
 

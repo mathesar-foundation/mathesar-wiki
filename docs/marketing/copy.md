@@ -1,7 +1,8 @@
 # Marketing Copy
 
-> This copy is still under discussion.
-{.is-danger}
+!!! danger "Danger"
+    This copy is still under discussion.
+
 
 ## Tagline
 

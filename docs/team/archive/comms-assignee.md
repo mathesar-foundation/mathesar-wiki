@@ -1,7 +1,8 @@
 # Comms Assignee
 
-> This page is archived and does not reflect current team workflow.
-{.is-danger}
+!!! danger "Danger"
+    This page is archived and does not reflect current team workflow.
+
 
 Every week, one person from the Mathesar [core team](/team) is assigned to be the "Comms Assignee". This means that they are in charge of communication with the community for that week.
 

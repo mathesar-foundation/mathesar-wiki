@@ -6,5 +6,6 @@ Moved from:
 
 - Project: [Raise additional funding for Mathesar](/projects/funding)
 
-> TODO: add more detail.
-{.is-warning}
+!!! warning "Warning"
+    TODO: add more detail.
+

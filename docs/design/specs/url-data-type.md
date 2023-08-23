@@ -4,8 +4,9 @@
 URL data types are custom Mathesar data types used to store URLs.
 
 ## Prototype 
-> This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
-{.is-warning}
+!!! warning "Warning"
+    This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
+
 
 [URL Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3750%3A28604&node-id=3763%3A30987&viewport=1049%2C-592%2C0.2776779234409332&scaling=contain&starting-point-node-id=3763%3A30987)
 

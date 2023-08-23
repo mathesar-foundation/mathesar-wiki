@@ -1,7 +1,8 @@
 # Formula Columns
 
-> This spec is a starting point and has not been reviewed from an engineering or product perspective. It will be updated when we are ready to start implementing this.
-{.is-danger}
+!!! danger "Danger"
+    This spec is a starting point and has not been reviewed from an engineering or product perspective. It will be updated when we are ready to start implementing this.
+
 
 ## Context
 

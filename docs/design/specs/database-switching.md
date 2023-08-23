@@ -1,7 +1,8 @@
 # Multiple Database Switching
 
-> This spec is outdated and should not be followed.
-{.is-danger}
+!!! danger "Danger"
+    This spec is outdated and should not be followed.
+
 
 ## Context
 Users might have multiple databases, and they need to switch between them as necessary, in a seamless manner, without worrying about the current status of open tables or views.

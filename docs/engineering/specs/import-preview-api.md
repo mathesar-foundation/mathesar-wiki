@@ -1,7 +1,8 @@
 # Import Preview API
 
-> This spec is accurate as of 2021-09-06, but we will not be updating it in the future.
-{.is-warning}
+!!! warning "Warning"
+    This spec is accurate as of 2021-09-06, but we will not be updating it in the future.
+
 
 Relevant issues are:
 

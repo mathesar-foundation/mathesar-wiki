@@ -9,8 +9,9 @@ For realtime chat, we use [Matrix](https://matrix.org/) *(similar to Slack, Disc
 1. If you want to use a desktop or mobile app, we recommend installing [Element](https://element.io/get-started). There are [other clients](https://matrix.org/clients/) too.
 1. The "General" channel that you've just joined is for high-level discussion and announcements about the project. Most of our day to day discussion happens in other channels. Look through the list of rooms below and join the ones for topics you're interested.
 
-> **Note:** If you're a GSoC aspirant, join our ["Mathesar - Mentoring Programs" Matrix channel](https://matrix.to/#/#mentoring:matrix.mathesar.org) and introduce yourself there instead of in the "General" channel.
-{.is-info}
+!!! info "Information"
+    **Note:** If you're a GSoC aspirant, join our ["Mathesar - Mentoring Programs" Matrix channel](https://matrix.to/#/#mentoring:matrix.mathesar.org) and introduce yourself there instead of in the "General" channel.
+
 
 ## Chat rooms
 A list of Mathesar related chat rooms is below. You'll need to individually join whichever chat rooms interest you. Click the link under "Address" to join the room, follow the same instructions as above.

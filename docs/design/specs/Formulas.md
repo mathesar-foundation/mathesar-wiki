@@ -1,7 +1,8 @@
 # Formulas
 
-> This spec is a work in progress and should not be used to inform any decisions.
-{.is-warning}
+!!! warning "Warning"
+    This spec is a work in progress and should not be used to inform any decisions.
+
 
 
 ## Context

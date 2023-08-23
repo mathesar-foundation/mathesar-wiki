@@ -1,7 +1,8 @@
 # Product Principles
 
-> See also [Design Principles](/design/design-principles)
-{.is-info}
+!!! info "Information"
+    See also [Design Principles](/design/design-principles)
+
 
 ## Product
 

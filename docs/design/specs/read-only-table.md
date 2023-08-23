@@ -1,7 +1,8 @@
 # Read Only Table Spec
 
-> See the related [Figma prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=0%3A1&node-id=1%3A2&viewport=604%2C346%2C0.19209809601306915&scaling=scale-down-width)
-{.is-info}
+!!! info "Information"
+    See the related [Figma prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=0%3A1&node-id=1%3A2&viewport=604%2C346%2C0.19209809601306915&scaling=scale-down-width)
+
 
 ## User Experience
 ### Impact
