@@ -15,12 +15,12 @@ dateCreated: 2023-08-09T15:07:52.165Z
 ## Team
 **Project owner**: Brent
 
-| Role              | Assignee         | Reviewer      | Notes                                       |
-|-------------------|------------------|---------------|---------------------------------------------|
-| **Requirements**  | Brent, Ghislaine | Kriti, Pavish | *Product spec, requirements, GitHub issues* |
-| **Design work**   | Ghislaine        | Pavish, Brent | *UI and UX*                                 |
-| **Backend work**  | Brent            | ???           | *Backend specs and code*                    |
-| **Frontend work** | Pavish, Sean     | ???           | *Frontend specs and code*                   |
+| Role              | Assignee                 | Reviewer      | Notes                                       |
+|-------------------|--------------------------|---------------|---------------------------------------------|
+| **Requirements**  | Brent, Ghislaine, Pavish | Kriti         | *Product spec, requirements, GitHub issues* |
+| **Design work**   | Ghislaine                | Pavish, Brent | *UI and UX*                                 |
+| **Backend work**  | Brent                    | ???           | *Backend specs and code*                    |
+| **Frontend work** | Pavish, Sean             | ???           | *Frontend specs and code*                   |
 
 ## Problem
 
