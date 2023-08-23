@@ -1,12 +1,12 @@
 # 2023-02-08 launch planning meeting
 
-# General update and Q&A
+## General update and Q&A
 Kriti gave an update on
 - Launch goals
 - Funding plan
 - Usability testing strategy
 
-## Launch goals
+### Launch goals
 - Get early adopters that are really excited about Mathesar and can help us alpha-test it
 - Post Mathesar on HN, Reddit
 - Get people to install and use it
@@ -18,7 +18,7 @@ Kriti gave an update on
     - Reducing target audience size
     - Only aiming now for HN-user types, engineers (since they are the ones deciding whether to install Mathesar)
 
-## Funding
+### Funding
 - For Non-profit projects, the important thing is impact
     - Theory of change
 - Can't do anything until we launch
@@ -26,7 +26,7 @@ Kriti gave an update on
 - Need to show people are interested in it.
 - Kriti wants to do pitches in March/April
 
-## Usability testing
+### Usability testing
 - Using tool: Playbook UX
 - We provide tasks. People record themselves doing it.
 - We also ask questions via the tool.
@@ -47,12 +47,12 @@ Kriti gave an update on
     - Creating an exploration at prompt
 - Each test is giving us a 20-minute video of someone using Mathesar
 
-# Launch plan
+## Launch plan
 We're going to launch on **Feb 27**.
 
 Blockers NEED to get done before launch.
 
-## Blockers
+### Blockers
 - Users & Permissions (Pavish, Rajat, Sean)
     - Pavish & Kriti met Tue to cut scope a bit
 - Deployment (Brent, Dom, Mukesh)
@@ -72,31 +72,31 @@ Blockers NEED to get done before launch.
     - Think about versioning (semantic versioning may not be appopriate for applications)
 - Document upgrade process (Brent)
 
-## Nice to have
+### Nice to have
 - Upgrades in UI (Sean)
 - Additional deployment types (Brent, Dom, Mukesh)
 - "High" items in Backlog milestone (Pavish, Rajat, Sean, Ghislaine)
 - Pre-launch publicity (Kriti)
 - Process for publishing releases on DockerHub 
 
-## Process
+### Process
 - Currently ad-hoc process for launch
 - We'll discuss improving velocity in a more permanent way after launch
 - Considering meetings 2-3 times a week to stay focused.
     - Everyone agrees, we'll set these up.
 
-## GSoC / community work
+### GSoC / community work
 - We'll stop reviewing community work until launch.
 - Anish will handle community communication until launch.
     - Kriti will support as needed.
     - Everyone else should ignore community work until we launch.
 - If we get into GSoC, we'll review and update project ideas after launch.
 
-## Next steps
+### Next steps
 - Update launch milestone in GitHub to be accurate.
 - Kriti will set up meetings
 
-# Current status
+## Current status
 - Users and permissions
     - Try to get this done before any other frontend work, it's in blockers
     - Rajat's PR is open for styling

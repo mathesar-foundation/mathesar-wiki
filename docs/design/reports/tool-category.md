@@ -1,7 +1,5 @@
 # Tool Category Exploration
 
-# Mathesar Tool Category
-
 ## Is Mathesar a Database GUI tool?
 Based on discussions with the team, the answer is no. While Mathesar shares many of the core features found on database GUI tools, it is not intended to support advanced database administration and operations. 
 
@@ -42,11 +40,11 @@ Data visualization tools deal with the graphic representation of data. They are 
 * Dashboard builder
 * Sharing or embedding outside of the organization (social media, cloud, websites)
 
-# Conclusions
+## Conclusions
 * We don't want to over-specialize in solving a particular problem as we still haven't learned enough from target users and how they might apply Mathesar to meet their needs.
 * The roadmap should first focus on the core functionality required to transform various sources of data into normalized databases with minimum effort from users and only then move to the application of those databases into solving more specific problems.
 * We want to make sure that we solve the needs of a single app user before we introduce collaboration features.
 
-# Proposed Next Steps
+## Proposed Next Steps
 * Define UX principles based on our current knowledge of potential target users and their needs.
 * Consider how and when we might interact with potential target users during the design process.

@@ -1,10 +1,10 @@
 # Filters
 
-# About
+## About
 
 A **Filter** allows you to reduce the amount of data displayed in a [Table](/product/concepts/tables) or a [View](/product/concepts/views) based on specified criteria.
 
-## Example
+### Example
 Imagine this table containing movies.
 
 | ID | Title | Release Year | Watched? |
@@ -35,9 +35,9 @@ Then you might want to see movies released after 1990 that you've watched, so yo
 | 2 | The Bourne Identity | 2002 | TRUE |
 | 7 | Big Trouble | 2002 | TRUE |
 
-## Filters in Mathesar
+### Filters in Mathesar
 You can filter data in a [Table](/product/concepts/tables) or a [View](/product/concepts/views) in Mathesar using either the "Filters" button or each column's menu.
 
-# Further Reading
+## Further Reading
 - If you're curious, you can look at our [engineering page about Filters](/engineering/glossary/filters).
 

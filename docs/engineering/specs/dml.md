@@ -2,7 +2,7 @@
 
 DML (Data Manipulation Language) operations involve adding (inserting), deleting, and modifying (updating) data in a database. This section deals with details about importing data, adding it to tables, and modifying/deleting records from tables.
 
-# Goals
+## Goals
 - User should be able to insert arbitrary data into tables.
 - Given a table with an appropriate column set, a user should be able to import more data to that table.
 - Given a table derived from a data import (say, of a CSV), and tables derived from that table through improved data modeling, a user should be able to modify any of the views of the data (i.e., one of the normalized tables, or the original non-normalized format), and maintain consistency.
@@ -11,7 +11,7 @@ DML (Data Manipulation Language) operations involve adding (inserting), deleting
   - They might want to also add data manually using the improved model.
 - Undo. The user should be able to undo inserts (easy), deletes (kinda easy) and updates (a little more difficult).
 
-# DML Function signatures
+## DML Function signatures
 - These (as opposed to DDL functions) are allowed mutable types (e.g., an SQLAlchemy `Table` object as input and output)
 - We'll prioritize speed and efficiency over safety and accuracy for these.
   - We expect these functions to be run quite often, and for reactivity to be essential.

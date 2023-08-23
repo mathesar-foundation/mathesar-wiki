@@ -2,7 +2,7 @@
 
 These formulas use regular expressions. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 
-# Match
+## Match
 Returns the first text that matches a given regular expression.
 
 - **Date Type**: Text
@@ -16,7 +16,7 @@ Returns the first text that matches a given regular expression.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `regexp_match` function
 
-# Matches
+## Matches
 Returns all matches in a text that matches a given regular expression.
 
 - **Date Type**: List
@@ -30,7 +30,7 @@ Returns all matches in a text that matches a given regular expression.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `regexp_matches` function
 
-# Replace
+## Replace
 Replaces matches of a given pattern with the replacement text.
 
 - **Date Type**: Text
@@ -51,7 +51,7 @@ Replaces matches of a given pattern with the replacement text.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `regexp_replace` function
 
-# Split
+## Split
 Splits text into a list using a regular expression as the delimiter
 
 - **Date Type**: List

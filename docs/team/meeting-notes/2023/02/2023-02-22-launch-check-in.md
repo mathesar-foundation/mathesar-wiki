@@ -1,8 +1,8 @@
 # 2023-02-22 launch check-in
 
-# General check in
+## General check in
 
-### Users & Permissions
+#### Users & Permissions
 - Frontend work mostly merged
 - PR is open for UX change
     - Should be merged soon, pending review
@@ -11,7 +11,7 @@
 - Should have the documentation before tomorrow's meeting
 - Pavish wants to add some tootips to help users understand what permissions do
 
-## Installation & Deployment
+### Installation & Deployment
 - Everything is working for Type 1
 - SSL is working, tested on GCP. Turned off in localhost.
 - Brent's working on Type 2
@@ -19,86 +19,86 @@
 - Kriti talked with Mukesh about deployment type 3
     - We havea temp working on documenting the steps Ansible goes through for type 3
 
-## Live demo
+### Live demo
 - We narrowed the problems down to reflection being very inefficient.
 - Demo analytics has been merged
     - If time, add more analytics events
 
-## Website
+### Website
 - Kriti posted new 404 in matrix yesterday
 - PR is submitted (draft) for integrating docs into the website.
     - Should be merged after the docs look nicer
 - Draft PR for social proof section.
 
-## Documentation
+### Documentation
 - Wiki is now styled with our colors, etc.
 
-## Usability improvements
+### Usability improvements
 - "Use 404 page in app" is in progress
 
-## Upgrades
+### Upgrades
 - Sean is addressing review feedback
 - Kriti will figure out QA plan once merged.
 
-## Release
+### Release
 - Document release process
 
-## Publicity
+### Publicity
 - No update
 
-## Priorities per person
+### Priorities per person
 
-### Anish
+#### Anish
 - Completing QA spreadsheet
 - Getting #2520 merged in
 - Community work
 
-### Brent
+#### Brent
 - Deployment type 2
 - Propose/document release process
 - Deployment usability test fixes
 - Website bio
 
-### Dom
+#### Dom
 - Find and fix demo server bottlenecks
 - Figure out how to make demo server unlikely to break (reliable)
 
-### Ghislaine
+#### Ghislaine
 - Update docs styling
 - Alternative CTA design
 
-### Kriti
+#### Kriti
 - Keep people unblocked
 - Deployment usability testing
 - Deployment Type 3
 - Testing upgrades
 - Update README, HN post, etc.
 
-### Mukesh
+#### Mukesh
 - Help Dom with live demo throughput issue
 - Deployment Type 3 
     - install.sh improvements
 
-### Pavish
+#### Pavish
 - Make changes based on outcome of permissions agenda item
 - Re-review and merge Upgrades PR
 - Ensure schema access control modal UX PR is merged (address review feedback if any)
 - Add more analytics events
 - Add in-app help tooltips for permissions, if time permits
 
-### Rajat
+#### Rajat
  - Get consistent 404 page PR merged - Usability testing.
  - Documentation for users and permissions.
  - QA user and permissions.
  - QA the platform in general. 
 
-### Sean
+#### Sean
 - Review [Update schema access control modal UX](https://github.com/centerofci/mathesar/pull/2540)
 - Live demo UX improvements
 - Review [Consistent 404 pages across client and server](https://github.com/centerofci/mathesar/pull/2529)
 - Review [Add Deployment docs](https://github.com/centerofci/mathesar/pull/2497)
 
-# Permissions - clarifications
+## Permissions - clarifications
 - **Summary**: 
     1. Can a schema manager edit schema name & description?
         - We have options to do this at both the schema page & db page.
@@ -110,11 +110,11 @@
 
 We also discussed https://github.com/centerofci/mathesar/issues/2537 - conclusion was that the backend behavior/product spec makes sense but we need a better UX. We won't worry about it for launch - users and permissions just needs to be working; not necessarily really smooth.
 
-# Demo server readiness
+## Demo server readiness
 - **Summary**: What steps do we need to take to make demo work during launch?
 - **Participants:** Dom, Brent, Kriti, Mukesh, Pavish, Sean (partial)
 
-## Problems
+### Problems
 - Performance is a problem:
     - Request timeouts due to reflection
     - bogging down on reflection
@@ -127,15 +127,15 @@ We also discussed https://github.com/centerofci/mathesar/issues/2537 - conclusio
 - Figure out how to set up load balancer if we need it.
 - Note: ensure the ArXiv data loader doesn't write to the template
 
-## Load tests
+### Load tests
 - https://github.com/centerofci/mathesar-scripts/tree/master/demo-loadtest
 
-## Process
+### Process
 - Getting the demo server 100% reliable before Monday is not a reasonable goal.
 - We shouldn't be trying to identify all issues at once.
 - We need to rapidly iterate on fixes and load testing.
 
-## Tasks
+### Tasks
 1. Figure out setting up (sticky sessions) load balancer and additional servers in GCP - Mukesh
 2. Optimize Postgres settings - session timeout, connection limit, etc. - Dom
     - Connections may be memory intensive, pay attention to that.

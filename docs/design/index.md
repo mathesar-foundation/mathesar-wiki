@@ -2,14 +2,14 @@
 
 This is the homepage for Mathesar design work, closely related to [Product](/product) and [Engineering](/engineering).
 
-# Documents
+## Documents
 Outputs of our design process.
 
 - [Specs](/design/specs) - *List of design specs*
 - [Exploration](/design/exploration) - *Rough notes for initial research and discovery*
 - [Reports](/design/reports) - *Conclusions drawn after research*
 
-# Workflow
+## Workflow
 Design tasks are [tracked on GitHub](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22work%3A+design%22) and are closely tied to our [Roadmap](/product/roadmap). 
 
 We aim to complete design work for a milestone at least 2-3 weeks before the deadline to allow sufficient time for implementation. Design is usually at a couple of milestones ahead of backend work.
@@ -20,10 +20,10 @@ More information:
 - [Design System](/design/process/design-system) - *Description of Mathesar's design system*
 - [Design Standards](/design/standards) - *Rules to follow for Mathesar's UI*
 
-## Contributing
+### Contributing
 You must be a member of our [design team](/team) to contribute to design tasks. Due to limited capacity, we are currently unable to accept design volunteers.
 
-# Philosophy
+## Philosophy
 High-level information about the philosophy behind our design.
 
 - [Design Principles.](/design/design-principles) - *Principles that guide our design*

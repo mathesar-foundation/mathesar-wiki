@@ -2,7 +2,7 @@
 
 These formulas generate random data.
 
-# Random Number
+## Random Number
 
 - **Data Type**: Integer or Decimal, depending on variable.
 - **Description**: Generates a random number based on supplied parameters.
@@ -21,19 +21,19 @@ These formulas generate random data.
         - **Default Value**: TRUE
 - **Date Editable?**: No
 
-## Implementation
+### Implementation
 We should build a custom function using the `random()` PostgreSQL function. 
 
 [Docs are here](https://www.postgresql.org/docs/current/functions-math.html), see Table 9.6.
 
-# Random UUID
+## Random UUID
 
 - **Data Type**: UUID
 - **Description**: Generates a random UUID
 - **Variables Accepted**: None
 - **Date Editable?**: No
 
-## Implementation
+### Implementation
 The `gen_random_uuid()` PostgreSQL function. 
 
 [Docs are here](https://www.postgresql.org/docs/current/functions-uuid.html).

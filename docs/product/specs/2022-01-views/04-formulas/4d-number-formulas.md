@@ -2,7 +2,7 @@
 
 These formulas operate on text and text-like types. They are based on PostgreSQL [mathematical functions and operators](https://www.postgresql.org/docs/9.1/functions-math.html) and [comparison operators](https://www.postgresql.org/docs/9.1/functions-comparison.html).
 
-# Absolute Value
+## Absolute Value
 Returns the absolute value of the provided number.
 
 - **Date Type**: Number
@@ -13,7 +13,7 @@ Returns the absolute value of the provided number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `abs()` function or `@` operator
 
-# Add
+## Add
 Adds two numbers together.
 
 - **Date Type**: Number
@@ -28,7 +28,7 @@ Adds two numbers together.
 - **PostgreSQL Mapping**: `+` operator 
 
 
-# Ceiling
+## Ceiling
 Returns the ceiling (nearest integer greater than or equal to) of the provided number.
 
 - **Date Type**: Number
@@ -39,7 +39,7 @@ Returns the ceiling (nearest integer greater than or equal to) of the provided n
 - **Editable?**: No
 - **PostgreSQL Mapping**: `ceil` or `ceiling` function.
 
-# Comparison
+## Comparison
 Compares two numbers and returns the result
 
 - **Date Type**: Boolean
@@ -56,7 +56,7 @@ Compares two numbers and returns the result
 - **Editable?**: No
 - **PostgreSQL Mapping**: `>`, `>=`, `=` `!=`, `<=`, `<` operators
 
-# Cube Root
+## Cube Root
 Returns the cube root of the provided number.
 
 - **Date Type**: Number
@@ -67,7 +67,7 @@ Returns the cube root of the provided number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `cbrt()` function or `||/` operator
 
-# Divide
+## Divide
 Divides a number by another number.
 
 - **Date Type**: Number
@@ -81,7 +81,7 @@ Divides a number by another number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `/` operator. Note that we should convert integers to decimals before dividing.
 
-# Factorial
+## Factorial
 Returns the factorial of the provided number.
 
 - **Date Type**: Number
@@ -92,7 +92,7 @@ Returns the factorial of the provided number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `!` or `!!` operator
 
-# Floor
+## Floor
 Returns the floor (nearest integer less than or equal to) of the provided number.
 
 - **Date Type**: Number
@@ -103,7 +103,7 @@ Returns the floor (nearest integer less than or equal to) of the provided number
 - **Editable?**: No
 - **PostgreSQL Mapping**: `floor` function.
 
-# Logarithm
+## Logarithm
 Calculate the logarithm of a number.
 
 - **Date Type**: Number
@@ -118,7 +118,7 @@ Calculate the logarithm of a number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `log` function
 
-# Logarithm (Natural)
+## Logarithm (Natural)
 Calculate the natural logarithm of a number.
 
 - **Date Type**: Number
@@ -129,7 +129,7 @@ Calculate the natural logarithm of a number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `ln` function
 
-# Modulo
+## Modulo
 Divides a number by another number and returns the remainder
 
 - **Date Type**: Number
@@ -143,7 +143,7 @@ Divides a number by another number and returns the remainder
 - **Editable?**: No
 - **PostgreSQL Mapping**: `%` operator or `mod` function.
 
-# Multiply
+## Multiply
 Multiplies two numbers together.
 
 - **Date Type**: Number
@@ -157,7 +157,7 @@ Multiplies two numbers together.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `*` operator 
 
-# Power
+## Power
 Calculate the exponent of a number.
 
 - **Date Type**: Number
@@ -171,7 +171,7 @@ Calculate the exponent of a number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `power` function or `^` operator
 
-# Round
+## Round
 Round to a given decimal place.
 
 - **Date Type**: Number
@@ -187,7 +187,7 @@ Round to a given decimal place.
 - **PostgreSQL Mapping**: `round` function 
 
 
-# Square Root
+## Square Root
 Returns the square root of the provided number.
 
 - **Date Type**: Number
@@ -198,7 +198,7 @@ Returns the square root of the provided number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `sqrt()` function or `|/` operator
 
-# Subtract
+## Subtract
 Subtracts a number from another number.
 
 - **Date Type**: Number
@@ -212,7 +212,7 @@ Subtracts a number from another number.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `-` operator 
 
-# Truncate
+## Truncate
 Truncate to a given decimal place.
 
 - **Date Type**: Number

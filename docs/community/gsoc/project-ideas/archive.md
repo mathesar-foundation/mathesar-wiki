@@ -1,6 +1,4 @@
-# Archived Project Ideas
-
-# GSoC 2022
+# Archived Project Ideas from GSoC 2022
 
 | Idea | Skills | Length | Difficulty |
 |-|-|-|-|
@@ -19,5 +17,6 @@
 | [Support More Data Import Sources](/community/mentoring/project-ideas/more-data-import-sources) | Python, Django, PostgreSQL | ~350 hours | Medium |
 | [Support Data Export](/community/mentoring/project-ideas/data-export) | Python, Django, PostgreSQL | ~175 hours | Medium |
 
-# Other
+## Other
+
 - [Dark Mode](/community/mentoring/project-ideas/dark-mode) - written for GSoC 2023, scrapped for scope being too small.

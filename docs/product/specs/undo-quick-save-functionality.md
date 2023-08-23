@@ -1,7 +1,5 @@
 # Quick Save Functionality
 
-# Quick Save Functionality
-
 ## Objective
 
 Implement a quick save functionality to protect users from unintended actions and allow them to recover their work to a specific point in time.

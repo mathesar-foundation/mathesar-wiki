@@ -1,8 +1,8 @@
 # 2023-02-13 launch check-in
 
-# General check-in
+## General check-in
 
-## Users & Permissions
+### Users & Permissions
 
 - Pavish: looking pretty good, PRs are awaiting review
 - Rajat: Working on Table Inspector permissions – hasn't started, has been reviewing designs
@@ -10,26 +10,26 @@
     - Other permissions issues shouldn't be started until 2443 is merged
 - Rajat should prioritize PR review
 
-## Deployment and Installation
+### Deployment and Installation
 - Brent: Working through `install.sh`, reviewing PR #2444, relevant to documentation
 - Moved some tickets from 'blockers' to 'nice to have'
 - There's a PR for compressing static assets
 
-## Load testing live demo
+### Load testing live demo
 - Dom's getting started with that.
 
-## Upgrade
+### Upgrade
 - Sean's getting started
 - Final say on user flow will live in #277
 
-## Product Usability testing
+### Product Usability testing
 - Done for now
 - People were having real trouble renaming a table, wanted to put a table name in when creating from scratch.
     - Had trouble changing the table name later.
 - Ghislaine will create an issue for setting table name when creating a table
 - Will be launch nice to have
 
-## Website
+### Website
 - Waiting on docs and demo video to be done for integrating
 - Some issues with OpenGraph tags
 - Some issues reported by Google search console
@@ -45,23 +45,23 @@
     - How to get back to the site from the demo?
     - Maybe even for general installations of the app.
     
-## Analytics
+### Analytics
 - Nice to put some on live demo website
 - Mukesh will work on this after Kriti creates an issue
 
-## Error logging and reporting
+### Error logging and reporting
 - Might be useful for tracking down bugs, etc.
 - Only useful for demo at the moment, need to think about self-hosted
 
-## Users & Permissions QA
+### Users & Permissions QA
 - Anish will document what needs to be tested 
 - Kriti will provide feedback
 
-## Launch milestone updates
+### Launch milestone updates
 - Kriti will make some issues for new things mentioned above
 - We'll kick out extra users & permissions and deployment types from launch nice-to-haves
 
-# Schema Sharing Modal Design
+## Schema Sharing Modal Design
 **Attendees**: Pavish, Kriti, Rajat
 
 - The schema sharing modal design doesn't show people with DB access, should we show it?

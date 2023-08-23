@@ -2,7 +2,7 @@
 
 Our feature roadmap is tracked via [GitHub milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open). You can find out more about each feature in our [Concepts](/product/concepts) page.
 
-# About the Roadmap
+## About the Roadmap
 
 Our initial roadmap is aimed at creating a very basic version of Mathesar that demonstrates our value proposition. To help us pick which features to build for the initial release, we are using three criteria:
 - Users should have the features needed to manage a basic collaborative media inventory using Mathesar. We do not have a specific set of features, but keeping a simple use case in mind helps us cut features that may be too advanced.
@@ -17,10 +17,10 @@ Our initial roadmap is aimed at creating a very basic version of Mathesar that d
 
 Once we've released our alpha release, we will then expand the roadmap based on user feedback and enabling more complex use cases.
 
-## Target users
+### Target users
 We're initially targeting users of differing technical skill levels who want to collaborate on the same data. We assume that the person who sets up Mathesar for a group of users will be a developer or sysadmin, but the remaining users may have no pre-existing knowledge of database or database concepts.
 
 Mathesar will be designed so that developers can use the Mathesar API or SQL to work with the database instead of the GUI (or build an entirely new GUI).
 
-# Future Features
+## Future Features
 Please see [Feature Ideas](/product/feature-ideas) for a long and disorganized list of feature ideas that we're drawing from to create this roadmap.

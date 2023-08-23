@@ -1,6 +1,6 @@
 # 2023-03-07 priorities & workflow meeting
 
-# Current top goal: user growth
+## Current top goal: user growth
 **Goal** Get people using Mathesar!
 
 This will help with sustainability (funding & future revenue).
@@ -14,7 +14,7 @@ How we do this:
 - Do usability testing with existing users, feed any improvements into our release cycle
 - Improving our community
 
-## Questions & notes
+### Questions & notes
 - How do we know how many users we have?
     - We still need to figure out how to measure this.
     - We have analytics for the website, but this doesn't tell us how many people are using Mathesar
@@ -43,12 +43,12 @@ How we do this:
     - Maybe we can prioritise features that people have been asking for a long time but it hasn't yet been implemented.
     - Right now we'll prioritize feedback from people actually using Mathesar. But later we'll try to branch out and get more feedback from other users too.
 
-# Project-based workflow
+## Project-based workflow
 This is a new proposed structure for all new work in Mathesar.
 
 Each new feature, or other initiative is a "project". Even funding can be a project!
 
-## Attributes
+### Attributes
 Projects have the following attributes:
 - **Responsibilities**
     - **Owner**: Person that's directly responsible for the project.
@@ -62,7 +62,7 @@ Projects have the following attributes:
 - **Issues**: Associated GitHub issues
 - **Wiki pages**: Associated wiki pages
 
-## Process
+### Process
 - We set up a place on the wiki to document projects.
 - We have regular meetings/emails to decide on what projects we're going to work on, and who will own them. 
 - The owner writes up a document following the project template. The detail in the document should match the timeline of the project
@@ -70,7 +70,7 @@ Projects have the following attributes:
 - Contributors and approvers review & approve the project.
 - We work on the project, cutting scope as needed to ship it within the timeline.
 
-## Questions & notes
+### Questions & notes
 - Kriti wants to not be involved in everything. She can be involved in prioritization. Projects will be more autonomous.
 - Pavish:
     - How do we decide on the timeline on writing up the document?
@@ -94,7 +94,7 @@ Projects have the following attributes:
     - No ongoing project
 - Kriti: We should try to scope projects to take 3 - 4 weeks to complete
 
-# Release strategy
+## Release strategy
 - When should we do releases?
 - Options:
     - Specific cadence
@@ -113,7 +113,7 @@ Projects have the following attributes:
 - Kriti will take responsibility for the next release. She will delegate heavily
 - Pavish: minor versions would be better suited for a regular schedule. Major releases could be done without a regular schedule
 
-# Specific project ideas
+## Specific project ideas
 I'm not suggesting we prioritize all of these right now. This is just to give an idea of what projects could be, and pick priorities from them. We could even add others.
 
 - Funding - high priority
@@ -137,7 +137,7 @@ I'm not suggesting we prioritize all of these right now. This is just to give an
     - e.g. establish process for issue & PR triage
 - Individual features on our roadmap
 
-## Questions & notes
+### Questions & notes
 - Kriti will start an email thread about project ideas to help us plan
 - Pavish:
     - I think we should prioritize ironing out issues when connecting with existing DBs. Based on the comments, a number of users were primarily interested in using Mathesar for their existing DBs (we have to take into account that these users are primarily developers).
@@ -145,7 +145,7 @@ I'm not suggesting we prioritize all of these right now. This is just to give an
             - I saw somewhere a contributor is attempting to fix an issue related to this, but that just disables editing tables which has multi-column PKs. This might be fine for a while.
         - We need to improve the reflection & metadata mechanism, a button to manually reload may not be feasible for the first stable release.
 
-## Git workflow
+### Git workflow
 We need to decide on our permanent Git workflow for releases.
 
 Options:
@@ -155,7 +155,7 @@ Options:
 
 *Not discussed at the meeting, will be discussed via email.*
 
-## Release testing strategy
+### Release testing strategy
 - **Added by**: Brent
 - **Summary**: Given the current release debacle, I think we should have a testing of the release strategy.
 - **Expected time**: 10-20 minutes

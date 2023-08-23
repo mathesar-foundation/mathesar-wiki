@@ -1,7 +1,5 @@
 # Research: Publicly shareable links
 
-# Research: Publicly shareable links
-
 **Name**: Research: Publicly shareable links
 **Status**: Complete
 **Follow up**: [Shareable links implementation project](/projects/shareable-links-implementation)

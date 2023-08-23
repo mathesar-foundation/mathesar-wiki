@@ -1,21 +1,21 @@
 # 2023-07-28 installation meeting
 
-# Links
+## Links
 - [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
 - [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
 - [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
 - [2023-07 installation improvements project page](https://wiki.mathesar.org/en/projects/installation-improvements-0_1_3.md)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
-# Pre-meeting prep
+## Pre-meeting prep
 Please read the following proposed outline for the documentation
 
-## Assumptions (for the reader; not part of outline)
+### Assumptions (for the reader; not part of outline)
 - Users are comfortable with self-hosting, we do not need to educate them on self-hosting basics
 - For PaaS
   - Considered to be used for production, so all best practices like using Postgres as internal db, env variables are used by default
 
-## Table of contents
+### Table of contents
 - Introduction & Overview 
     - Content: homepage of docs.mathesar.org
 - Installation
@@ -43,7 +43,7 @@ Please read the following proposed outline for the documentation
     - Environment variables
     - Connecting to DBs on localhost
 
-## Install with Docker
+### Install with Docker
 - Pre-requisites:
     - Install Docker
     - Root access if you're on Linux
@@ -64,7 +64,7 @@ Please read the following proposed outline for the documentation
     - Point to "Environment variables" page
   - Uninstall process
 
-## Install with PaaS
+### Install with PaaS
 - Pre-requisites:
     - Have an account on the PaaS platform (Depends on the platform, some platforms **might** allow you to set up without an account)
 - Steps:
@@ -80,7 +80,7 @@ Please read the following proposed outline for the documentation
     - Point to "Environment variables" page
   - Uninstall process
 
-## Install on Debian
+### Install on Debian
 - Pre-requisites:
     - Postgres server
 - Steps:
@@ -100,7 +100,7 @@ Please read the following proposed outline for the documentation
     - Point to "Environment variables" page
   - Uninstall process
 
-## Install using Python binary
+### Install using Python binary
 - Pre-requisites:
     - Python Interpreter
     - Postgres server
@@ -120,7 +120,7 @@ Please read the following proposed outline for the documentation
     - Point to "Environment variables" page
   - Uninstall process
 
-## Install with Helm
+### Install with Helm
 - Pre-requisites:
     - Kubernetes
     - Helm
@@ -141,13 +141,13 @@ Please read the following proposed outline for the documentation
     - Point to "Environment variables" page
   - Uninstall process
 
-## Environment Variables
+### Environment Variables
 List of environment variables and descriptions
 
-## Connecting to DBs on localhost
+### Connecting to DBs on localhost
 This will explain how to connect to localhost DBs if you're using Docker (content is already on docs.mathesar.org)
 
-## Stuff we're removing from current docs (not part of outline)
+### Stuff we're removing from current docs (not part of outline)
 - Guided script installation
     - plus appendices
 - Docker compose installation
@@ -156,9 +156,9 @@ This will explain how to connect to localhost DBs if you're using Docker (conten
 - Administration section (uninstall & upgrade Mathesar)
     - Will be folded into individual installation types
 
-# Agenda
+## Agenda
 
-## Do the personas make sense? Do we need any additional narrowing down or clarification?
+### Do the personas make sense? Do we need any additional narrowing down or clarification?
 
 Top
 - Someone trying Mathesar out quickly (and can use Docker)
@@ -184,17 +184,17 @@ Not prioritizing at all - until more than one person asks
 Discourage
 - Someone installing everything on localhost (not just trying it out)
 
-### Additional discussion
+#### Additional discussion
 - What about people using load balancers?
     - This is outside Mathesar's purview, doesn't matter
     - PaaS probably covers load balancers anyway
 
-### Conclusion
+#### Conclusion
 Personas are fine, see additional detail added above.
 
-## Does the proposed outline make sense?
+### Does the proposed outline make sense?
 
-### Discussion
+#### Discussion
 - "Install with Python binary" is a confusing header.
     - Maybe use "Install from binary"?
     - Maybe replace with PyPI installation?
@@ -214,7 +214,7 @@ Personas are fine, see additional detail added above.
         - We'll keep the uninstall and update pages
 
 
-## What work do we need to do to enable this outline?
+### What work do we need to do to enable this outline?
 - Get Mathesar working with a wide band of Python
 - Create a Debian package
 - Create a PyPI package

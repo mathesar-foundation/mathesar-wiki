@@ -1,19 +1,19 @@
 # Handling regressions in 0.1.1
 
-# 2023-03-20 Handling regressions in 0.1.1
+## 2023-03-20 Handling regressions in 0.1.1
 
 Meeting attendees: Pavish, Sean, Rajat
 
-## Brainstorm: Best strategy to revert the column_reorder changes
+### Brainstorm: Best strategy to revert the column_reorder changes
 - If there aren't merge conflicts, we'll try to revert entirely
 - If there are, we can comment it out
 - When picking the feature, we'll open a new PR
 - Sean will be commenting on the contributor's PR mentioning why we had to revert. We'll also ask them if they're interested in continuing it.
 
-## Brainstorm: Best strategy to review full changesets for releases
+### Brainstorm: Best strategy to review full changesets for releases
 - All of us will look at the full changeset ([PR](https://github.com/centerofci/mathesar/pull/2723/files)) and comment if we notice any red flags or have questions
 
-## Brainstorm: Frontend testing strategy - E2E tests
+### Brainstorm: Frontend testing strategy - E2E tests
 - We're scratching everything clean and starting from point zero
 - We'll rethink the entire testing strategy from the beginning
     - Do we need E2E test or do we come up with integ tests?
@@ -23,7 +23,7 @@ Meeting attendees: Pavish, Sean, Rajat
 - We'll think on this individually and have another call before `0.1.2`
     - It won't be possible to introduce a new testing strategy by then, but we can still decide on what it needs to be
 
-## Brainstorm: Release process updates to prevent issues like these
+### Brainstorm: Release process updates to prevent issues like these
 - Staging should on develop (check if it is)
 - A buffer period makes sense, but only if we're dog-fooding Mathesar more
     - The core team should be using Mathesar for something (the `develop` branch)

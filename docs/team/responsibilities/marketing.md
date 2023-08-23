@@ -1,6 +1,6 @@
 # Marketing
 
-# Team
+## Team
 
 | Role | Assignees |
 |-|-|-|
@@ -9,23 +9,23 @@
 | **Website helpers** | Ghislaine, Sean |
 | **Aggregation helpers** | Rajat, Ghislaine |
 
-# Guide
+## Guide
 This section serves as a handbook for people working on these responsibilities.
 
-## All members
+### All members
 - Everyone should be on the `marketing@mathesar.org` mailing list.
   - This list receives the “firehose” of Syften notifications, including all mentions of competitors and people looking for “spreadsheet-like” solutions.
 - Analytics and Twitter credentials are in 1Password.
 
-## Owner
+### Owner
 - Make progress on our [Mathesar launch publicity checklist](https://github.com/centerofci/mathesar-website/issues/78), delegate tasks as needed.
     - We’ll hold off on making new announcements until our installation process is improved
 - Manage changes to Mathesar.org, delegate tasks as needed.
 - Review all external comms.
 
-## Social media helpers
+### Social media helpers
 
-### Respond to Syften notifications
+#### Respond to Syften notifications
 Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Please close the ticket in Freshdesk once a notification has been handled or if there is nothing to do.
 
 - **If Mathesar is mentioned**:
@@ -48,11 +48,11 @@ Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Pl
 - **If a comment or post can be considered user feedback**:
   - Please flag it to the owner of the [user feedback](/team/responsibilities/user-feedback) responsibility.
 
-### Document noteworthy publicity
+#### Document noteworthy publicity
 - Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](/marketing/history.md) page
 - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 
-### Make release announcements
+#### Make release announcements
 Release announcements should include highlights from release notes. We should avoid the announcements following a template because people tend to ignore repetitive things.
 
 - Post a message in the `Mathesar - General` channel on Matrix announcing the release
@@ -60,14 +60,14 @@ Release announcements should include highlights from release notes. We should av
 - Tweet when we publish a new release
 - *TODO: also figure out where / how to post on Reddit for new releases*
 
-## Website helpers
+### Website helpers
 - Implement changes to the website as requested by the owner.
 
-## Aggregation helpers
+### Aggregation helpers
 - Add Mathesar to aggregators (tracked [in this issue](https://github.com/centerofci/mathesar-website/issues/84)).
   - Feel free to ask the owner to review any copy written for this.
 - Do research on more relevant aggregators that Mathesar could be added to and add them to the issue.
 
-# Notes & Resources
+## Notes & Resources
 - See [Marketing](/marketing) section of the wiki.
 - Eventually, the plan is to create an “evangelism guide” ([example](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/social-media/))

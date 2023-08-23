@@ -1,6 +1,6 @@
 # Resources
 
-# From Matrix
+## From Matrix
 
 These links were shared on the `Design` channel on Matrix.
 

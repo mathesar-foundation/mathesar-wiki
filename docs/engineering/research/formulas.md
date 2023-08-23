@@ -1,5 +1,3 @@
-# formulas
-
 # Formulas research
 
 This is a report which details some research that Sean did in 2023-06 to vet the feasibility of implementing Mathesar formulas using PostgreSQL generated columns.

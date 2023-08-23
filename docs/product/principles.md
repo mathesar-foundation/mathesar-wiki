@@ -3,7 +3,7 @@
 > See also [Design Principles](/design/design-principles)
 {.is-info}
 
-# Product
+## Product
 
 These principles apply to _what_ Mathesar is.
 
@@ -20,7 +20,7 @@ These principles apply to _what_ Mathesar is.
   - We aim to actively guide non-technical users into using Mathesar (and databases in general) optimally.
   - We aim to create a standard PostgreSQL database that technical users can use with other PostgreSQL tooling.
 
-# Process
+## Process
 
 These principles apply to _how_ we build Mathesar.
 

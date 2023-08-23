@@ -1,6 +1,6 @@
 # 2023-01-20-partial-user-input-of-dates
 
-# 2023-01-20 Meeting about how to handle partial user input of dates
+A meeting about how to handle partial user input of dates
 
 ## Meeting details
 

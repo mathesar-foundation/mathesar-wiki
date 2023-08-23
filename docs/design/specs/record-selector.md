@@ -1,5 +1,3 @@
-# record-selector
-
 # Record selector UX design specs
 
 ## Design goals

@@ -1,22 +1,22 @@
 # Repo admin
 
-# Team
+## Team
 
 | Role        | Assignees     |
 | ----------- | ------------- |
 | **Owner**   | Rajat         |
 | **Helpers** | Pavish, Anish |
 
-# Responsibilities at a Glance
+## Responsibilities at a Glance
 
 - Receive the firehose of GitHub notifications and take action on items as necessary.
 - Triage new issues and PRs
 - Actively shepherd PRs toward closing to help prevent them from going stale
 - Troubleshoot GitHub actions and make improvements where necessary
 
-## Owner's Tasks
+### Owner's Tasks
 
-### Acting on GitHub notifications for issues and PRs
+#### Acting on GitHub notifications for issues and PRs
 
 Make sure your notifications setting for all of the Mathesar repositories is set to **All Activity**.
 
@@ -51,15 +51,15 @@ Go through each of your notifications for the Mathesar repositories and follow t
 
 - If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
 
-### Acting on notifications from GitHub Discussions
+#### Acting on notifications from GitHub Discussions
 
 Flag discussion-related notifications to the marketing and user feedback teams for a response. This can be done by sending a notification to the [Marketing](https://matrix.to/#/#marketing:matrix.mathesar.org) channel and tagging the owner of [user feedback](/team/responsibilities/user-feedback) and [marketing](/team/responsibilities/marketing.md) responsibilities.
 
-### Assigning reviewers fairly
+#### Assigning reviewers fairly
 
 Depending if the PR is related to the backend or frontend, assign it to a core team member who has the least no of reviews already assigned.
 
-### Triage
+#### Triage
 
 Use the following script to list issues/PR that need triage.
 
@@ -77,6 +77,6 @@ gh -R centerofci/mathesar-wiki issue list --search 'is:open label:"status: triag
 gh -R centerofci/mathesar-wiki pr list --search "is:open no:assignee -is:draft"
 ```
 
-## Helper's Tasks
+### Helper's Tasks
 - Take action on GitHub notifications every Monday since that's when we have one of the largest influx.
 - Fill in for the owner by doing the tasks mentioned above when he is out of the office.

@@ -1,6 +1,6 @@
 # Design Standards
 
-# Casing
+## Casing
 
 - Use **Title Case** for:
     - Page titles
@@ -22,7 +22,7 @@
     - Pagination
     - Image alt text
 
-# Placement and positioning
+## Placement and positioning
 
 - Buttons which move the user "forward" should be placed to the right of buttons which move the user "backwards". For example, if a modal dialog has buttons for "Cancel" and "Submit", "Cancel" should be on the left and "Submit" should be on the right.
 

@@ -4,7 +4,6 @@ The design team creates specs to describe the design solutions related to the Ma
 
 The spec creation process begins when a design issue on GitHub is started and finalizes when the spec is approved and merged. When a design issue is ready for review, a spec is created, and a pull request (PR) is opened. Finalizing a design spec means, in most cases, that the design issue has also been fully solved. If this is not the case, or the problem is solved partially, then the reason and additional requirements must be communicated in the associated GitHub issue and documented in the spec. Additional GitHub issues to track the unresolved parts of the design problem need to be created before the spec is finalized.
 
-# Review Process
 Every spec goes through a review process so that members of the team can discuss it and ask questions. During these discussions, the reviewers' unique perspectives and expertise are captured to ensure the design solution is technically feasible, uncover missing implementation scenarios, and, most importantly, strengthen adherence to the product's vision. A productive review will result in a better design and a smoother implementation.
 
 ## Design Review Team

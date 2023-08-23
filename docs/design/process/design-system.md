@@ -1,6 +1,5 @@
 # Design System
 
-# Design System
 - Documented elements, components, including both design and front-end guidelines
 - Includes underlying design principles
 ## Styles

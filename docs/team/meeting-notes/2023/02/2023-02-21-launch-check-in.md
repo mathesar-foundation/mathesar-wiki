@@ -1,8 +1,8 @@
 # 2023-02-21 launch check in
 
-# General check in
+## General check in
 
-## Users & Permissions
+### Users & Permissions
 - There's a open PR with rest of pending items
 - If we want to change UX as per Kriti's comments, won't take long
     - pending confirmation
@@ -13,7 +13,7 @@
     - There's a PR -- pending review;
     - nice-to-have
 
-## Installation & Deployment
+### Installation & Deployment
 - SSL wasn't working, but it's fixed
     - PR is in, not quite working, but it'll be sorted by tomorrow
     - Mukesh's approach is better
@@ -29,27 +29,27 @@
 - Deployment type 3:
     - Mostly should work, needs either documentation on environment variables, or convenience scripts to wrap commands in proper environment (e.g., read from .env file)
 
-## Live demo
+### Live demo
 - Load testing has multiple issues
 - When initializing multiple users at once, demo server doesn't return requests
 - Front end issues are further out in the queue
 
-## Website
+### Website
 - 404 page PR is submitted
 - Integrating documentation is happening today
 
-## Documentation
+### Documentation
 - Integrating into website
 - Documenting type 2 and 3 deployments
 - Update `README.md` (issue #2495)
 - Ghislaine working on styling 
     - could integrate feedback from usability testers
 
-## Usability improvements
+### Usability improvements
 - PRs are in for all blocking issues
 - People should be reviewing today or tomorrow
 
-## Upgrades
+### Upgrades
 - Sean opened a PR over the weekend.
 - The releases exist, but 
     - We should delete them
@@ -58,63 +58,63 @@
     - Make some new releases,
     - Make sure it works through manual QA.
 
-## Release
+### Release
 - Migrations are reset
 - Create and publish first release
 
-## Publicity
+### Publicity
 - The HN post is in the works
 
-## Priorities per person
+### Priorities per person
 
-### Anish
+#### Anish
 - Reviewing #2520
 - Community work
 - QA for Users and Permissions
 
-### Brent
+#### Brent
 - Testing deployment type 1 with SSL
 - Deployment type 2
 - Propose release process
 - Implement deployment usability testing fixes as needed
 - Website bio double-check
 
-### Dom
+#### Dom
 - Rewrite upgrade endpoint from GET to POST in caddyfile 
 - Demo bottleneck hunting
 
-### Ghislaine
+#### Ghislaine
 - Style Wiki and Documentation
 - Update bios on website
 - Alternative design for CTA
 - Table rename prompt design
 
-### Kriti
+#### Kriti
 - Keep people unblocked
 - Plan for QA and docs
 - Write README, HN post, etc.
 
-### Mukesh
+#### Mukesh
 - Get the analytics PR #2513 merged into the frontend codebase
 - Start working on Deployment Type 3 work
 - Log more analytic events
 
-### Pavish
+#### Pavish
 - Review and merge upgrades PR
 - Get users & permissions PR merged - fix review comments if any
 - Review other launch PRs
 - Avoid merging / worrying about PRs not involved with launch
 
-### Rajat
+#### Rajat
 - General usability testing
 - Docs for users and permissions
 - QA for users and permissions
 
-### Sean
+#### Sean
 1. PR review for Pavish/Rajat
 1. Live demo usability improvements
 
-# Testing Docker images, Github Releases
+## Testing Docker images, Github Releases
 **Summary**: Follow up on [Brent's email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/-AALJgNGxjQ/m/6DQ2QAWZEgAJ), decide on next steps
 
 - Process proposed in email seems very bureaucratic

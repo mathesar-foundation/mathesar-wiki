@@ -2,7 +2,7 @@
 
 These formulas operate on list types. They are based on PostgreSQL [array functions and operators](https://www.postgresql.org/docs/9.1/functions-array.html) and [row and array comparisons](https://www.postgresql.org/docs/9.1/functions-comparisons.html).
 
-# Append
+## Append
 Adds a list item to a list
 
 - **Date Type**: List
@@ -16,7 +16,7 @@ Adds a list item to a list
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator or `array_append` function
 
-# Concatenate
+## Concatenate
 Turns two lists into one big list.
 
 - **Date Type**: List
@@ -30,7 +30,7 @@ Turns two lists into one big list.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator 
 
-# Contains List
+## Contains List
 Checks if all items in a list are also in another list.
 
 - **Date Type**: Boolean
@@ -44,7 +44,7 @@ Checks if all items in a list are also in another list.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `@>` operator 
 
-# Contains Item
+## Contains Item
 Checks if a specific item is in a list.
 
 - **Date Type**: Boolean
@@ -58,7 +58,7 @@ Checks if a specific item is in a list.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `IN` construct 
 
-# Overlap
+## Overlap
 Checks if two lists have any items in common.
 
 - **Date Type**: Boolean
@@ -72,7 +72,7 @@ Checks if two lists have any items in common.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `&&` operator 
 
-# Convert to Text
+## Convert to Text
 Converts a list into text.
 
 - **Date Type**: Text
@@ -91,7 +91,7 @@ Converts a list into text.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `array_length` function 
 
-# Length
+## Length
 Returns the count of a list
 
 - **Date Type**: Integer

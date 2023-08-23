@@ -1,9 +1,9 @@
 # Pagination Specs
 
-# Context
+## Context
 The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](/design/specs/read-only-table). The team decided to add pagination to read-only tables during the [May 19th team meeting](/meeting-notes/may-2021). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
 
-# Pagination Component Details
+## Pagination Component Details
 ![](/assets/design/specs/pagination/HyZR_lN9d.png)
 
 
@@ -11,7 +11,7 @@ The pagination component contains the controls for navigating across the parts (
 
 The pagination component is always visible, even if the table does not reach the number of records required to be split into parts.
 
-## Controls
+### Controls
 The pagination component controls are:
 - Records per page selector
 - Link to first and last pages
@@ -20,21 +20,21 @@ The pagination component controls are:
 - Page range and total records indicator
 - Logarithmic Page Navigation
 
-## Scrolling Area
+### Scrolling Area
 The scrolling settings of the table should allow the pagination component to be fixed at the bottom.
 
 ![](/assets/design/specs/pagination/1oghfOu.png)
 In this figure, the two red horizontal lines delineate the scrolling area.
 
-## Page Size
+### Page Size
 The ideal number of records per page will depend on the desired user experience. For real-time data, the minimum may be several thousand. For most tables, pagination won't be required as most data will fit on a single page.
 
-### Questions
+#### Questions
 What are reasonable max and minimum page sizes?
 
-# UX Considerations
+## UX Considerations
 
-## Offset-Based Pagination vs. Cursor-Based
+### Offset-Based Pagination vs. Cursor-Based
 Based on discussion with the team, the first version of the read-only table will use offset-based pagination. This is the preferred choice as it is already implemented and does not prevent the roadmap from being built and allow other methods to be used later.
 
 Some of the following points were discussed and shall be reconsidered later when we have more evidence of limitations imposed by our current pagination method:

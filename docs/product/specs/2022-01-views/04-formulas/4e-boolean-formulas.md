@@ -2,7 +2,7 @@
 
 These formulas operate on or output boolean types. They are based on PostgreSQL [logical operators](https://www.postgresql.org/docs/9.1/functions-logical.html).
 
-# And
+## And
 Compares values to see if both are true. See this table for return values:
 
 | a | b | a AND b |
@@ -26,7 +26,7 @@ Compares values to see if both are true. See this table for return values:
 - **Editable?**: No
 - **PostgreSQL Mapping**: `AND` operator
 
-# Is False
+## Is False
 Returns whether a particular set of filters doesn't apply to a column.
 
 - **Date Type**: Boolean
@@ -40,7 +40,7 @@ Returns whether a particular set of filters doesn't apply to a column.
 - **Editable?**: No
 - **PostgreSQL Mapping**: Custom
 
-# Is True
+## Is True
 Returns whether a particular set of filters applies to a column.
 
 - **Date Type**: Boolean
@@ -54,7 +54,7 @@ Returns whether a particular set of filters applies to a column.
 - **Editable?**: No
 - **PostgreSQL Mapping**: Custom
 
-# Not
+## Not
 Returns the opposite boolean value of the input value.
 
 - **Date Type**: Boolean
@@ -65,7 +65,7 @@ Returns the opposite boolean value of the input value.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `NOT` operator
 
-# Or
+## Or
 Compares values to see if either one is true. See this table for return values:
 
 | a | b | a OR b |

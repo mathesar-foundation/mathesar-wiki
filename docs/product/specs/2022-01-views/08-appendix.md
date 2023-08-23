@@ -1,11 +1,11 @@
 # 08. Appendix
 
-# Appendix A: Movie Tables & Views
+## Appendix A: Movie Tables & Views
 
 These tables and views are used to illustrate concepts in other parts of this spec.
 
-## Tables
-### Movie
+### Tables
+#### Movie
 | ID | Title | Release Year | Primary Language |
 |-|-|-|-|
 | 13 | Thelma & Louise | 1991 | English |
@@ -13,7 +13,7 @@ These tables and views are used to illustrate concepts in other parts of this sp
 | 33 | Crouching Tiger, Hidden Dragon | 2000 | Mandarin |
 | 41 | Crazy Rich Asians | 2018 | English |
 
-### Person
+#### Person
 | ID | Name | Role |
 |-|-|-|
 | 34 | Michelle Yeoh | Actor |
@@ -22,7 +22,7 @@ These tables and views are used to illustrate concepts in other parts of this sp
 | 83 | Zhang Ziyi | Actor |
 | 84 | Ang Lee | Director |
 
-### Movie Person Map
+#### Movie Person Map
 | ID | Movie ID | Person ID |
 |-|-|-|
 | 67 | 13 | 45 |
@@ -33,8 +33,8 @@ These tables and views are used to illustrate concepts in other parts of this sp
 | 97 | 33 | 83 | 
 | 99 | 33 | 84 |
 
-## Views
-### Movie Actors
+### Views
+#### Movie Actors
 | Title | Release Year | Primary Language | Actors |
 |-|-|-|-|
 | Thelma & Louise | 1991 | English | Brad Pitt, Geena Davis |

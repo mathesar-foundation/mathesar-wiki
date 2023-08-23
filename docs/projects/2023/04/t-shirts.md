@@ -1,5 +1,3 @@
-# Mathesar T-Shirts
-
 # Mathesar T-shirt Project
 
 **Status**: Complete

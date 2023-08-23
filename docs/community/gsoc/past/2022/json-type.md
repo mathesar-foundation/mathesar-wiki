@@ -1,7 +1,5 @@
 # GSoC 2022: JSON data type
 
-# GSoC 2022: JSON data type
-
 **Author**: [Jinxiao Li](https://github.com/Jinxiao0302)
 
 > Jinxiao originally sent this project report to the developer mailing list, [see here](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7iHlVobzW08)

@@ -2,23 +2,23 @@
 
 This page describes how the query builder should work.
 
-# Name
+## Name
 In the UI, the query builder will be called the **Data Explorer** to make it more approachable for non-technical users. This should also help convey to users that they can explore their data here, they're not necessarily doing anything permanent.
 
-# Navigating to the Query Builder
+## Navigating to the Query Builder
 - The query builder should be accessible from anywhere in a schema. It should not be tied to a specific table or view.
 - The query builder should be able to be pre-populated with a query and linked to.
 	- For example, if a user tries to set a unique constraint for a column that has non-unique values, we may want to open up the query builder with a pre-populated query that shows all duplicate rows.
 
-# Base Table
+## Base Table
 All queries will start from a single "base table". This table will determine which columns are available to be added to the output of the View. The user should be able to set the base table at the start of building their query. They might either explicitly set it or we could infer it from the first column they select.
 
 We might also want to show the base table in the query builder UI somehow.
 
-# Selecting Columns
+## Selecting Columns
 Users should be able to add columns to see in the query's output. Users can add columns in two ways: from a table or from a formula.
 
-## From a Table
+### From a Table
 - The user will see a list of [available columns](#available-columns).
 - Once the user has added a column, we make a best guess for the following attributes:
     - **Source Relationship**: This is the relationship of the column's table to the base table. 
@@ -35,7 +35,7 @@ Users should be able to add columns to see in the query's output. Users can add 
 - Once added, the user can also edit formulas and filters.
 - The user can delete the column if they choose.
 
-## From a Formula
+### From a Formula
 - The user will see a list of available formulas organized by type of formula.
 - The user can select a formula. They will then be prompted for the variables to use in that formula.
     - The number of variables and the types of data they accept depend on the formula chosen.
@@ -44,21 +44,21 @@ Users should be able to add columns to see in the query's output. Users can add 
 - The user can also apply a filter to the column and edit a filter once applied.
 - The user can delete the column if they choose.
 
-## Flowchart
+### Flowchart
 Here's a flowchart of decisions that need to be made when adding columns. This is meant to be an illustrative example; we might end up making decisions in a different order or replacing some decisions with assumptions that the user can then change.
 
 ![view_flowchart.drawio.png](/assets/product/specs/2022-01-views/03-the-query-builder/view_flowchart.drawio.png)
 
-# Query Refinement
+## Query Refinement
 In addition to selecting output columns, the user should be able to add to the query in the following ways. 
 
-## Filtering
+### Filtering
 The user can add filters to filter down the results of the query to a subset of rows. They can use any of the query's ouput columns in filters. The filters available for the column will depend its data type and will offer a similar experience to table or view filters.
 
-## Sorting
+### Sorting
 The user can sort the query results by one or more of the query's ouput columns. Query sorting should provide a similar experience to table or view sorting.
 
-## Summarization
+### Summarization
 The user should be able to summarize the query by one of the query's output columns. This involves the following steps:
 
 - The user selects a column to summarize on and the summary type.
@@ -73,7 +73,7 @@ Once an summarization is applied, then any new columns added will also be aggreg
 
 To keep things simple, only one summarization can be applied at a time. This means that users are limited to one summarization step at a time, but they can use multiple columns to create that summary.
 
-### Example 1: Summarize single column by "first letter" grouping option
+#### Example 1: Summarize single column by "first letter" grouping option
 
 Consider this query output:
 
@@ -93,7 +93,7 @@ The user applies a summary of "Movie Title" by first letter. The resultant outpu
 | R | 1 hr 41 min, 1 hr 57 min | Comedy, Crime, Drama, Thriller |
 | T | 2 hr 11 min, 2 hr 32 min | Adventure, Action, Drama, History |
 
-### Example 2: Summarize multiple columns by distinct values
+#### Example 2: Summarize multiple columns by distinct values
 
 Consider this de-normalized input table.
 
@@ -120,22 +120,22 @@ The user applies a summary of "Distinct Values" with columns "student_id", "stud
 | 7890789078 | George       | george@uni.com |
 | 7890789078 | George       | george@uni.edu |
 
-## Limit & Offset
+### Limit & Offset
 The user can apply the following to the query:
 - A limit to the number of rows returned
 - An offset for where to start the rows returned
 
-# Preview
+## Preview
 - We should show users a live preview of their data as they build their query.
 - The preview should support changing display options for output columns based on their data type.
 
-# Other Actions
+## Other Actions
 - We should allow users to see a temporary view of their query (this won't be saved as a View but they won't see the "query building" part of the screen)
 - We should allow users to save their query as a permanent View.
 
-# Implementation Details
+## Implementation Details
 
-## Available Columns
+### Available Columns
 When adding query output columns, available columns are calculated as follows:
 
 - If a base table has not been set, we show all columns from all tables.
@@ -145,10 +145,10 @@ When adding query output columns, available columns are calculated as follows:
         - If the base table has no relationships to itself within three levels, then we can hide columns from the base table that have already been added to the query's output columns
     - all columns from tables that the base table has FKs to or with FKs to the base table, up to three levels of FKs away.
 
-## Formulas
+### Formulas
 Please see the next page, [04. Formulas](/product/specs/2022-01-views/04-formulas).
 
-## Column Input Filters
+### Column Input Filters
 When applying filters to an input column (let's call it `X`), the user selects three things:
 - **Column to apply the filter to**: This could be
     - any column in the table (`T`) that `X` belongs to

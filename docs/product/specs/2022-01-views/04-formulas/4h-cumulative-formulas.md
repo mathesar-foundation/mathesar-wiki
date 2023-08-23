@@ -2,7 +2,7 @@
 
 These formulas show cumulative values that build on previous rows.
 
-# Previous Row
+## Previous Row
 Shows data from a previous row, in case you want to see it side-by-side with the current row.
 
 - **Date Type**: Same as Input Column
@@ -17,7 +17,7 @@ Shows data from a previous row, in case you want to see it side-by-side with the
 - **Editable?**: No
 - **PostgreSQL Mapping**: We need to write a custom function.
 
-# Rolling Average
+## Rolling Average
 Shows an average of the data in a given column over the past X rows.
 
 - **Date Type**: Decimal
@@ -31,7 +31,7 @@ Shows an average of the data in a given column over the past X rows.
 - **Editable?**: No
 - **PostgreSQL Mapping**: We need to write a custom function.
 
-# Percentage Change
+## Percentage Change
 Shows the percentage changed from the previous value in the row.
 
 - **Date Type**: Decimal
@@ -42,7 +42,7 @@ Shows the percentage changed from the previous value in the row.
 - **Editable?**: No
 - **PostgreSQL Mapping**: We need to write a custom function.
 
-# Percentile
+## Percentile
 Shows the percentile of the current value compared to all values in the column.
 
 - **Date Type**: Decimal
@@ -53,7 +53,7 @@ Shows the percentile of the current value compared to all values in the column.
 - **Editable?**: No
 - **PostgreSQL Mapping**: We need to write a custom function.
 
-# Running Total
+## Running Total
 Shows the running total of all values in the column so far.
 
 - **Date Type**: Same as input column

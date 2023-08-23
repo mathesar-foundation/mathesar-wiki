@@ -2,7 +2,7 @@
 
 These formulas aggregate the values of a single column across multiple records of the same type. These are used as aggregation types when a multi-record column is added to a query.
 
-# Count
+## Count
 - **Data Type**: Integer
 - **Description**: Show a count of all values in the column.
 - **Variables Accepted**:
@@ -11,7 +11,7 @@ These formulas aggregate the values of a single column across multiple records o
         - **Type** Multiple Record Column Reference
 - **Data Editable?**: No
 
-## Example Query
+### Example Query
 ```sql
 select movie.title as title, count(actor.name) as num_actors
 from movie 
@@ -20,7 +20,7 @@ inner join actor on movie_actor_map.actor_id = actor.id
 group by movie.title;
 ```
 
-# List
+## List
 - **Data Type**: List (list item data type depends on the data type of the column being summarized.
 - **Description**: Show a list of all values in the column.
 - **Variables Accepted**:
@@ -29,7 +29,7 @@ group by movie.title;
         - **Type** Multiple Record Text-Like
 - **Data Editable?**: Yes 
 
-## Editing behavior
+### Editing behavior
 Data generated using list formulas are editable in two ways:
 - **Editing existing items** The user can always edit the contents of an existing item.
     - We are just editing the relevant record in the underlying table.
@@ -50,7 +50,7 @@ To illustrate editing behavior, let's consider the **Movie Actor** view in [Appe
     
 Although the illustration above uses a mapping table, it also applies to other forms of relationships.
     
-## Example Query
+### Example Query
 ```sql
 select movie.title as title, array_agg(actor.name) as actors
 from movie 
@@ -59,7 +59,7 @@ inner join actor on movie_actor_map.actor_id = actor.id
 group by movie.title;
 ```
 
-# Average
+## Average
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show an average of of all values in the column.
 - **Variables Accepted**:
@@ -68,7 +68,7 @@ group by movie.title;
         - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
-# Minimum
+## Minimum
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show the minimum value of all values in the column.
 - **Variables Accepted**:
@@ -77,7 +77,7 @@ group by movie.title;
         - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
-# Maximum
+## Maximum
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show the maximum value of all values in the column.
 - **Variables Accepted**:
@@ -86,7 +86,7 @@ group by movie.title;
         - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
-# Median
+## Median
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show the median value of all values in the column.
 - **Variables Accepted**:
@@ -95,7 +95,7 @@ group by movie.title;
         - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
-# Sum
+## Sum
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show the sum of all values in the column.
 - **Variables Accepted**:
@@ -104,7 +104,7 @@ group by movie.title;
         - **Type** Multiple Record Number-Like
 - **Data Editable?**: No
 
-# Product
+## Product
 - **Data Type**: Same as the type of column accepted
 - **Description**: Show the product of all values in the column.
 - **Variables Accepted**:

@@ -1,6 +1,5 @@
 # List data type - Frontend specs
 
-# List data type
 ## Creating a column
 From the table's view:
 1. The user clicks on the "+" button.

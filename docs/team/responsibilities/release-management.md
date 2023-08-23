@@ -1,6 +1,6 @@
 # Release Management
 
-# Team
+## Team
 | Role | Assignees |
 |-|-|
 | **Overall process owner** | Kriti |
@@ -9,7 +9,7 @@
 
 **Note**: Each release will have different owners. No specific person has been assigned as a helper, but the release will be a top priority for everyone during cooldown.
 
-# Guide
+## Guide
 This guide is common for the owner and the helpers of the Release management responsibility. The owner is responsible for ensuring the work gets complete, and the helpers assist the process and cover for the owner when they are not available.
 
 **Examples used in the guide**
@@ -18,7 +18,7 @@ This guide explains the release management process citing the versions 0.1.2 and
    > v0.1.2 is the current ongoing project which hasn't been released yet.
    > v0.1.3 is the next release project.
 
-## Planning a release
+### Planning a release
 1. Create necessary milestones
     - Create 1 milestone ahead of the next release. When planning for v0.1.3, we'll have the milestone created for v0.1.4.
     - Note that the milestone for v0.1.3 will already exist when v0.1.2 is in progress.
@@ -44,7 +44,7 @@ This guide explains the release management process citing the versions 0.1.2 and
     - Move issues not planned for the release out of the milestone.
     - All other issues people are working on, which may end up with the release, should go in the ["Next release" milestone](https://github.com/centerofci/mathesar/milestone/71). The release will not be blocked by items present in this milestone.
 
-### Timeline for the plan
+#### Timeline for the plan
 1. When to start planning for the next release?
     - The release plan needs to begin when the current release is still underway, preferably during the last week.
     - The process for v0.1.3 should begin during the last week of the deadline for the release of v0.1.2.
@@ -52,18 +52,18 @@ This guide explains the release management process citing the versions 0.1.2 and
     - The plan for the upcoming release should be finalized and release spec should get approved before 4 working days from the date of the current release.
     - If v0.1.2 is released on `2023-05-08`, the release project spec for v0.1.3 needs to be approved by EOD `2023-05-12`.
 
-## Making a release
+### Making a release
 1. Once all the items needed for the release is merged into `develop`, follow the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) to publish the release.
 1. Ensure that all private servers running Mathesar maintained by the core team are upgraded.
 1. Coordinate with Marketing team to [make release announcements](https://wiki.mathesar.org/en/team/responsibilities/marketing#make-release-announcements).
 
-## After a release
+### After a release
 1. Keep an eye out for user reported issues with the new version for the next week.
 1. Pay extra attention towards:
 	 - Installation and upgrade related issues
    - Regressions
 
-## Handling hotfix releases
+### Handling hotfix releases
 1. In case we encounter critical issues in a published release, we'll make emergency hotfix releases.
     - This will depend on the severity of the issues and the user impact.
 1. Hotfix releases should be the next minor version. The ongoing release version will become the next release after that.
@@ -74,8 +74,8 @@ This guide explains the release management process citing the versions 0.1.2 and
     - `develop` will not be involved for hotfix releases.
 1. All other processes from the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) will remain the same as a regular release.
 
-## Incorporating user feedback into release plan
+### Incorporating user feedback into release plan
 Yet to be planned
 
-## Deciding on major/minor releases
+### Deciding on major/minor releases
 Yet to be planned

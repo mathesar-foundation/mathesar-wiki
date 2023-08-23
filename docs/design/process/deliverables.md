@@ -1,6 +1,5 @@
 # Deliverables
 
-# Deliverables
 ## Design Hand-Off
 The Design Hand-Off document contains the necessary information, links to assets, supporting documentation, and a high-level overview of the functionality to be delivered for implementing a design. The design hand-off is created as a throwaway document, to be used only during the implementation phase. Once the design is implemented, it should lead to subsequent updates to permanent design documents such as component libraries.
 

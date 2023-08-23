@@ -2,7 +2,7 @@
 
 These formulas operate on text and text-like types. They are based on [PostgreSQL string functions](https://www.postgresql.org/docs/current/functions-string.html).
 
-# Character Count
+## Character Count
 Returns number of characters in the text
 
 - **Date Type**: Integer
@@ -14,7 +14,7 @@ Returns number of characters in the text
 - **PostgreSQL Mapping**: `length` function
 
 
-# Concatenate
+## Concatenate
 Concatenates two strings together.
 
 - **Date Type**: Text
@@ -28,7 +28,7 @@ Concatenates two strings together.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `||` operator 
 
-# Contains
+## Contains
 Checks if a text contains another text
 
 - **Date Type**: Boolean
@@ -47,7 +47,7 @@ Checks if a text contains another text
 - **PostgreSQL Mapping**: Use `LIKE` operator
 
 
-# Lowercase
+## Lowercase
 Converts text to lowercase
 
 - **Date Type**: Text
@@ -58,7 +58,7 @@ Converts text to lowercase
 - **Editable?**: No
 - **PostgreSQL Mapping**: `lower` function
 
-# Overlay
+## Overlay
 Overlays a string at the specified position with another string
 
 - **Date Type**: Text
@@ -79,7 +79,7 @@ Overlays a string at the specified position with another string
 - **Editable?**: No
 - **PostgreSQL Mapping**: `overlay` function
 
-# Repeat
+## Repeat
 Repeats a string a given number of times.
 
 - **Date Type**: Text
@@ -93,7 +93,7 @@ Repeats a string a given number of times.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `repeat` function
 
-# Replace
+## Replace
 Replaces all occurrences of a substring with another string.
 
 - **Date Type**: Text
@@ -110,7 +110,7 @@ Replaces all occurrences of a substring with another string.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `replace` function
 
-# Reverse
+## Reverse
 Reverses the text
 
 - **Date Type**: Text
@@ -121,7 +121,7 @@ Reverses the text
 - **Editable?**: No
 - **PostgreSQL Mapping**: `reverse` function
 
-# Starts With
+## Starts With
 Returns a boolean that indicates whether a string starts with another string
 
 - **Date Type**: Boolean
@@ -135,7 +135,7 @@ Returns a boolean that indicates whether a string starts with another string
 - **Editable?**: No
 - **PostgreSQL Mapping**: `starts_with` function
 
-# Substring
+## Substring
 Gets a substring of text at the given position
 
 - **Date Type**: Text
@@ -155,7 +155,7 @@ Gets a substring of text at the given position
 - **PostgreSQL Mapping**: `substring` function with this signature: `substring ( string text [ FROM start integer ] [ FOR count integer ] ) → text`
 
 
-# Title Case
+## Title Case
 Converts text to title case.
 
 - **Date Type**: Text
@@ -166,7 +166,7 @@ Converts text to title case.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `initcap` function
 
-# Trim
+## Trim
 Trims characters from the start or end of text (or both).
 
 - **Date Type**: Text
@@ -185,7 +185,7 @@ Trims characters from the start or end of text (or both).
 - **Editable?**: No
 - **PostgreSQL Mapping**: `trim` function
 
-# Uppercase
+## Uppercase
 Converts text to uppercase
 
 - **Date Type**: Text

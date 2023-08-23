@@ -2,7 +2,7 @@
 
 These formulas operate on date & time types. They are based on PostgreSQL [date/time functions and operators](https://www.postgresql.org/docs/9.1/functions-datetime.html).
 
-# Add Duration to Date
+## Add Duration to Date
 Adds a duration to a date or datetime.
 
 - **Date Type**: Datetime or Time (depends on input) 
@@ -16,7 +16,7 @@ Adds a duration to a date or datetime.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `+` operator 
 
-# Subtract Duration from Date
+## Subtract Duration from Date
 Subtracts a duration from a date or datetime.
 
 - **Date Type**: Datetime or Time (depends on input)
@@ -30,7 +30,7 @@ Subtracts a duration from a date or datetime.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `-` operator 
 
-# Date Difference (Age)
+## Date Difference (Age)
 Subtracts a datetime type from a datetime type and returns the resulting duration
 
 - **Date Type**: Duration 
@@ -44,7 +44,7 @@ Subtracts a datetime type from a datetime type and returns the resulting duratio
 - **Editable?**: No
 - **PostgreSQL Mapping**: `-` operator 
 
-# Current Date
+## Current Date
 Always shows current date.
 
 - **Date Type**: Date 
@@ -52,7 +52,7 @@ Always shows current date.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_date` function
 
-# Current Time
+## Current Time
 Always shows current time.
 
 - **Date Type**: Time 
@@ -60,7 +60,7 @@ Always shows current time.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_time` function
 
-# Current Date & Time
+## Current Date & Time
 Always shows current date and time.
 
 - **Date Type**: Datetime 
@@ -68,7 +68,7 @@ Always shows current date and time.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_timestamp` function
 
-# Truncate
+## Truncate
 Truncates date to specified precision.
 
 - **Date Type**: Datetime 
@@ -95,7 +95,7 @@ Truncates date to specified precision.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `date_trunc` function 
 
-# Extract
+## Extract
 Extracts a specific part of a date from a datetime.
 
 - **Date Type**: Text 
@@ -130,7 +130,7 @@ Extracts a specific part of a date from a datetime.
 - **Editable?**: No
 - **PostgreSQL Mapping**: `extract` function. This then needs to be processed if needed into a friendly representation based on the display options of the column (e.g. `1` for month might become `January`)
 
-# Convert Timezone
+## Convert Timezone
 Converts a datetime into a specified timezone.
 
 - **Date Type**: Datetime 

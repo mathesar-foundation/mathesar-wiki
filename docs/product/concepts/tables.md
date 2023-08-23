@@ -1,6 +1,6 @@
 # Tables
 
-# About
+## About
 
 A **table** is where data in a [Database](/product/concepts/databases) is actually stored.
 
@@ -8,10 +8,10 @@ Tables consist of **columns** and **records** (rows).
 - A **column** describes the data stored, including (but not limited to ) its [Data Type](/product/concepts/data-types).
 - A **record** is a single unit of data that can be stored in a table. Each record stores data corresponding to each column defined on the table.
 
-## Tables in Mathesar
+### Tables in Mathesar
 Creating a table is the first step to managing your data within Mathesar.
 
-## Example
+### Example
 
 | ID | Name | Country | Age | Birth |
 |-|-|-|-|-|
@@ -23,19 +23,19 @@ In this table, we have **5 columns** and **3 records** (rows).
 - The columns are: `ID`, `Name`, `Country`, `Age`, and `Birth`.
 - Each record fits the parameters defined by the column. So every record has a number as `ID` and date & time as `Birth`.
 
-# Usage
+## Usage
 In order to avoid duplicating data and make data entry easier, we encourage users to set up a single table for each category of data and then create links betweeen them as needed.
 
 In the above example, it would be better to have a separate table for `Country` as follows.
 
-#### People
+##### People
 | ID | Name | Country ID | Age | Birth |
 |-|-|-|-|-|
 | 1 | Jayanta Caoimhe | 21 | 22 | March 26, 1999 (8:01 AM) |
 | 2 | Tatenda Birgitta | 23 | 8 | October 31, 2013 (9:11 PM) |
 | 3 | Barend Reinhild | 25 | 45 | October 2, 1976 (9:36 AM) |
 
-#### Countries
+##### Countries
 | ID | Country |
 |-|-|
 | 21 | Papua New Guinea |
