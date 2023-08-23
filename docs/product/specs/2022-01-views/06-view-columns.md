@@ -6,11 +6,13 @@ If we end up having a column menu in [the Query Builder](/product/specs/2022-01-
 
 ## Data Type
 This is the final data type of the content of the column after any computations etc. are applied.
+
 - **Allowed values**: same as Table data types.
 - **Required**. Data type should always be set, at the very least, we can treat unknown data types as text.
 
 ## Sources
 This is the set of source columns that are used to generate the data in the current View column.
+
 - **Allowed values**: References to other Table columns or columns in the same View.
     - We should also depict relationships used to get to the source and any filters applied to the source.
 - **Optional**: This could be empty for purely calculated columns (e.g. using the Postgres `random()` function and putting the output in a column)
@@ -21,6 +23,7 @@ Using Element's UI as an example (Matrix channel names stand in for data sources
 
 ## Formula
 This is the formula used to generate data in for this column.
+
 - **Allowed values**: List of pre-defined formulas, see [04. Formulas](/product/specs/2022-01-views/04-formulas)
 - **Optional**: Columns that are direct copies of other columns from tables or views won't have a formula.
 
@@ -33,6 +36,7 @@ Details about creating formulas are in [04. Formulas](/product/specs/2022-01-vie
 
 ## Link
 This notes whether a column is a join column. This is a column used to match the same values across multiple tables to create the View. These columns have multiple Sources but no Formula.
+
 - **Allowed values**: True or False.
 - **Required**: This must be set for all columns.
 

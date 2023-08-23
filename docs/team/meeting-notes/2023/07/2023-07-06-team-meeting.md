@@ -2,6 +2,7 @@
 
 ## Project finalization
 List of projects from last time:
+
 - Kriti & Ghislaine: Strategy / user research
     - Kriti will write up the project
     - Everyone will help
@@ -44,13 +45,16 @@ We should do an updated round of project writeups specific to this cycle and clo
 ## Ongoing responsibility finalization
 
 Kriti will own:
+
 - Team management
 - Marketing (overall)
 
 We need to designate:
+
 - Release owner: Rajat
 
 Consider rotating:
+
 - Repo admin
 - Installation help
     - Now User help
@@ -62,6 +66,7 @@ Consider rotating:
 Not rotating anything except installation help (see below)
 
 Should we have a responsibility for:
+
 - Helping users who ask for help?
 - Renaming installation help to user help
 - Need a standard process for dealing with users, whether it's info@ or install request form or Matrix/GitHub requests
@@ -74,6 +79,7 @@ Should we have a responsibility for:
 Standup isn't really working - let's talk about alternatives.
 
 Goals are visibility for:
+
 - Other team members
     - Project owners should make weekly updates to developer mailing list (Fridays; start next week!)
         - One thread per project

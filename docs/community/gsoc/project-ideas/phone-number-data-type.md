@@ -19,6 +19,7 @@
 
 ## Architectural Problems
 We need to figure out:
+
 - how to structure the Postgres type.
 - the logic for identifying columns with phone number data when data is imported.
 - how to format phone numbers in the frontend.

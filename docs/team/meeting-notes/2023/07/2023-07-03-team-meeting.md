@@ -81,6 +81,7 @@ Brent's notes (private): https://hackmd.io/4DId5uYKR1icDXZs8Bq9oQ
 - After this cycle, we should aim to have enough information to select the next round of projects.
 
 Projects
+
 - Kriti & Ghislaine: Strategy / user research
 - Rajat: Localization
 - Brent and Anish: RSQLA1

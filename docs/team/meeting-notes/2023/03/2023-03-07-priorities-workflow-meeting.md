@@ -6,6 +6,7 @@
 This will help with sustainability (funding & future revenue).
 
 How we do this:
+
 - Find a way to track user growth
 - Spread the word about Mathesar
 - Help people set up Mathesar if they ask
@@ -28,6 +29,7 @@ How we do this:
 - Rajat
     - "Do usability testing with existing users, feed any improvements into our release cycle" - I am curious how do we do this with a real user?
     Kriti: the way we've done it in the past... incentivise users with a gift card or similar. Then invite them to join a scheduled discussion session. "Rocket Surgery Made Easy", a short, easy-to-read book has some good advise here.
+
 - Mukesh
     > "Fix issues people report and make releases quickly"
   -  Prioritizing features to build
@@ -50,6 +52,7 @@ Each new feature, or other initiative is a "project". Even funding can be a proj
 
 ### Attributes
 Projects have the following attributes:
+
 - **Responsibilities**
     - **Owner**: Person that's directly responsible for the project.
     - **Approver(s)**: People responsible for approving the project.
@@ -149,6 +152,7 @@ I'm not suggesting we prioritize all of these right now. This is just to give an
 We need to decide on our permanent Git workflow for releases.
 
 Options:
+
 - [git flow](https://nvie.com/posts/a-successful-git-branching-model/)
     - This is our current workflow with our `develop` branch
 - [GitLab release flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html#release-branches-with-gitlab-flow)

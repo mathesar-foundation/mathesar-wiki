@@ -6,6 +6,7 @@
 
 ## Bigger-picture plan for Mathesar
 General plan: 
+
 - Things are still in flux
 - Figuring out how to grow the project
 - Figuring out what our structure should be

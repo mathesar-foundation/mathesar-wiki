@@ -20,6 +20,7 @@
 
 ## Architectural Problems
 JSON and Excel files are more complex than CSV/TSV files. The primary architectural challenges for this project are:
+
 - Figuring out a good algorithm for importing a single JSON file into a single table.
 - Figuring out a good algorithm for importing a single Excel file into a single table.
 - Integrating the new file types into our our existing import process while preserving all our functionality.

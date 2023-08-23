@@ -22,6 +22,7 @@ As an example, here's a table:
 | 5 | The Karate Kid | 1984 | TRUE |
 
 Here are some examples of correct and wrong filters. The emoji indicates whether they are correct.
+
 - `"Year" > 1990`
 - `"ID" = 5`
 - `"Favorite" is TRUE`

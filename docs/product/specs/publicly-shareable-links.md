@@ -188,11 +188,13 @@ PARTIAL UPDATE: `PATCH /shares/table-link/<link_id>/`. Table id should not be al
 REGENERATE SLUG: `POST /shares/table-link/<link_id>/regenerate/`
 
 Pros:
+
 - Shared url need not contain entity id: `http://localhost:8000/shared/tables/<slug>/`
 - Code related to shared links can be within a single place
 - Generic viewsets and serializers can be written reducing possible duplication
 
 Cons:
+
 - Entity id needs to specified as part of request body.
     - Additional logic would be required to disallow update of entity id.
     - Additional logic required to filter by entity id.
@@ -209,6 +211,7 @@ PARTIAL UPDATE: `PATCH /tables/<table_id>/shares/<link_id>/`
 REGENERATE SLUG: `POST /tables/<table_id>/shares/<link_id>/regenerate/`
 
 Pros:
+
 - Placed within hierarchy of respective entities
 - Entity id is a path param:
     - Entity need not be specified in the request body additionally
@@ -217,6 +220,7 @@ Pros:
 - Option to filter by slug is not required
 
 Cons:
+
 - Shared url needs to contain entity id: `http://localhost:8000/shared/tables/<table_id>/?token={$slug}`
 - Some code duplication might be needed
 

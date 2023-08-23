@@ -41,6 +41,7 @@ This wiki. We use it as a team knowledge base. We will use it for public documen
 
 ## Google Cloud Platform
 We use Google Cloud Platform to host our servers, specifically:
+
 - The Mathesar Matrix homeserver
 - The Mathesar wiki
 - The Mathesar staging server
@@ -61,6 +62,7 @@ We use Google Calendar to manage our calendars.
 It is expected that you keep your calendar up to date so that people can schedule meetings without having to check with you about availability. The [working hours](https://support.google.com/a/users/answer/9308669?hl=en) feature is especially useful. You should set your working hours to when you're available for meetings; you're not necessarily expected to be working during all of those hours.
 
 We have two shared calendars:
+
 - The `Mathesar` calendar is used for shared Mathesar-related events.
 - The `CCI Vacation` calendar is used to note when you'll be taking time off. Please update it in advance.
 

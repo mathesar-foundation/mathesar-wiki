@@ -16,6 +16,7 @@
 - We are learning the features to implement based user feedback. So the solution should be flexible. 
 
 Action Items
+
 - Figure out the functions that can be moved to postgres and write issues - Anish & Brent
 - Figure out how we want to write SQL in python - Mukesh
 - Figure out how to introduce `oid, names, attnum` data structure - Brent

@@ -43,5 +43,6 @@ These tables and views are used to illustrate concepts in other parts of this sp
 | Crazy Rich Asians | 2018 | English | Michelle Yeoh |
 
 This view is defined as follows:
+
 - `Title`, `Release Year`, `Primary Language` are directly from **Movie**
 - `Actors` is a List aggregation formula applied to **Person**'s `Name` with a filter applied so that only **Person** records with `Role = "Actor"` will show up.

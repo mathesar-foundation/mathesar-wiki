@@ -11,6 +11,7 @@
 - **Discussion goal**: Have a final list of projects and their owners, so the owners can start writing them up.
 
 Project ideas from previous meeting and follow up discussion on Matrix:
+
 - Installation improvements
     - This is still a major barrier to Mathesar adoption
     - Implement the plan we've already decided on [here](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting.md)
@@ -37,6 +38,7 @@ Project ideas from previous meeting and follow up discussion on Matrix:
 - Ideas from prior async brainstorming are [here](https://wiki.mathesar.org/en/meeting-notes/2023-08/2023-08-09-team-meeting.md#pre-meeting-notes-1)
 ### Pre-meeting notes
 Additional thoughts from Kriti:
+
 - Firefighting + backlog clearing team
     - Including stuff like moving wiki to MkDocs, automating internal deployment / `develop` Docker builds
 - Do we also want to consider work that will let release more frequently? 
@@ -67,6 +69,7 @@ Additional thoughts from Kriti:
 
 ### Discussion
 Are there projects that we need to continue?
+
 - "Backend fixes"
 - "Frontend fixes"
 - Kriti: What is the status of i18n project?
@@ -145,9 +148,11 @@ Are there projects that we need to continue?
 - **Discussion goal**: Figure out when we're having the remaining discussions we need to have
 
 Already covered at this meeting:
+
 - Project planning for August 21 cycle
 
 Things we need to discuss:
+
 - How to prioritize the backlog
 - RSQLA retrospective
 - “Should we install things on the DB?” discussion

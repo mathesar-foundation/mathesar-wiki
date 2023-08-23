@@ -11,6 +11,7 @@ Mathesar is designed to be self-hosted on your own server.
 
 ## Use cases
 Mathesar can be used to:
+
 - Publish or explore public datasets
 - Run business processes such as:
   - inventory management

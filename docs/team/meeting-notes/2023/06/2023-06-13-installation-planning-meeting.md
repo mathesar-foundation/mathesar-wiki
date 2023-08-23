@@ -1,6 +1,7 @@
 # 2023-06-13 Installation Planning Meeting
 
 Attending:
+
 - Kriti
 - Brent
 - Mukesh
@@ -47,10 +48,12 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 ## Ideas
 
 [Sean]
+
 - Maybe Mathesar should not concern itself with supplying a Postgres server
 - I'd really like to have a single-file executable someday
 
 [Brent]
+
 - All localhost, DB managed by Mathesar should be improved most (imo)
     - No config needed.
     - Should start things (maybe even in one container including DB) easily
@@ -63,6 +66,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - Segregate installation paths by use-case
 
 [Kriti]
+
 - Build static files before release
 - Have a human readable config file that we do the work to convert (e.g. replace database url string with several different variables, we can convert it into a database URL)
 - We need a single Docker command that just brings up a fully functioning Mathesar instance on localhost
@@ -71,6 +75,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - Helm charts / Kubernetes - make it easier to install Mathesar
 
 [Mukesh]
+
 - Build static files during release
 - move config to UI
 - move installing schemas to UI

@@ -105,6 +105,7 @@
         - Currently, the UI allows schema managers to do this at the schema page, but not at the DB page. We need to make this consistent.
         - The product spec does not provide clarification into names and descriptions. This is a DDL operation on the schema itself, and based on the spec it should only be allowed if the user has manager access on the DB. However, the backend allows this.
     2. If we allow editing, should we allow delete? The backend allows this, the frontend doesn't. The spec says we shouldn't allow this.
+
 - It's okay if the schema manager can edit/delete the schema.
     - Requires a quick change on frontend work
 

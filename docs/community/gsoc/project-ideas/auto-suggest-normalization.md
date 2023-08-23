@@ -28,6 +28,7 @@ In order to normalize a data model, one needs to understand correlations between
 Repeat with 3NF as the goal.
 
 If time permits, you can also:
+
 - Create an API that exposes this functionality. Given a table, the API should provide normalization suggestions for that table.
 - Create the UI that displays these suggestions in the product.
 

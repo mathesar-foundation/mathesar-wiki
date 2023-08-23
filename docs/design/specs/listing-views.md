@@ -48,6 +48,7 @@ Initially, users will only be able to search views by name. However, relying on 
 
 - User opens a schema and sees the [schema details page](#schema-details-page).
 The list of objects for the schema fails to load.
+
 - Under the schema name, an error message is displayed indicating that the loading of objects failed.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 
@@ -55,6 +56,7 @@ The list of objects for the schema fails to load.
 
 - User opens a schema and sees the [schema explorer sidebar](#schema-explorer-sidebar).
 The list of objects for the schema fails to load.
+
 - An error message is displayed indicating to the user that the loading of objects failed.
 - The error notice contains details about the error and actions, if available, that the user can perform to correct the problem.
 

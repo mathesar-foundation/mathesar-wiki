@@ -45,6 +45,7 @@ UI for switching database needs to be separate from installation.
 * Single Docker image for DB + webserver?
   * Kriti: Why are we deprioritizing this?
   * Mukesh: We could have two docker images, one with DB, one without DB.
+
 - Create desktop packages / add to repos (.deb, flatpak, etc.)
 * Consider simplifying config file - needs more discussion
 

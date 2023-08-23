@@ -32,6 +32,7 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 The implementation of Lists is not trivial, due to the way in which Arrays are implemented in Postgres. Here, there is not really a concept of dimensions or length, as Postgres does not really care about checking or validating those. Back on the hood, even though a user could set the length of an array when creating a column, this is not actually checked or enforced by the engine. All arrays are n-dimensional, with whatever lenght. The only checking that is done is that, within a record, all the elements of an array must have the same number of dimensions. Otherwise the engine will throw an error.
 
 This adds complexity to several of the proposed features of lists. 
+
 - Aggregations
 - Way of displaying
 - Editing and deleting
@@ -42,6 +43,7 @@ This adds complexity to several of the proposed features of lists.
 #### From the table page
 - `List` should be an available data type in addition to all of the others. Therefore, users should be able to visualize it in the dropdown menu of all the available data types.
 ![data_types_dropdown.png](/assets/projects/list-datatype/data_types_dropdown.png)
+
 - Users should be able to provide a default value, or set it to `null`, as Mathesar supports this for the other data types as well.
 
 #### Importing a file
@@ -73,6 +75,7 @@ By double clicking a cell from the table page:
 - Users should be able to edit the text of an existing list item. ***Two possible ways are***: 
 	 1. Clicking a single pill, and so the user will edit the text in that pill.
    2. Displaying the content of the list as a text with comma-separated items, and so the user would edit the list as if they are editing a text.
+
 - Users should be able to delete an item of a list.
 - Also a *whole list all at once*. This is, setting that field to `null` for a single record of the table.
 

@@ -2,6 +2,7 @@
 
 ## The Problem
 Currently, Mathesar does not have any functionality that allows users to export data. We'd like to allow users to export data from tables or views. We should support exporting to the following formats
+
 - CSV/TSV files
 - SQL files
 - Excel files

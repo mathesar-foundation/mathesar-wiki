@@ -6,6 +6,7 @@ To work with **Queries** and **Views** in Mathesar, we'll need to support the fo
 Mathesar should support a visual query builder to allow users to construct **Queries**. The query builder should be accessible from anywhere in Mathesar and should not be tied to a single table or view.
 
 The query builder should allow users to:
+
 - Construct a query by selecting:
     - columns to use
     - filters to apply to columns used or their tables
@@ -23,6 +24,7 @@ Mathesar should also support creating **Views**, which are essentially saved **Q
 
 ## Interacting with Views
 Views should be a separate category of objects in Mathesar, just like Tables. Users should be able to:
+
 - See all views in a given schema
 - Find the view they want
 - Open a view
@@ -34,6 +36,7 @@ Views should be a separate category of objects in Mathesar, just like Tables. Us
 We should hook into the query builder from Tables and Views wherever the context makes sense to introduce the user to it. This involves updating the designs for tables and views to pre-create queries and link to the query builder.
 
 Some examples:
+
 - Creating a new view from scratch
 - Editing the structure of a view
 - Saving the currently applied filters, sorts, and groups of a table.

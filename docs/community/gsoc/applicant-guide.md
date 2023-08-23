@@ -6,6 +6,7 @@ If you're interested in applying to be a GSoC Contributor for the Mathesar proje
 
 ### Step 0: Figure out if Mathesar is the right organization for you
 Some things you should know about Mathesar:
+
 - Mathesar is a fairly new project and we **don't have documentation** aimed at helping new contributors understand our codebase.
 - The core team **doesn't have time** to help each individual contributor understand our codebase or how to solve a particular issue **during the GSoC application process**. We get a lot of applicants, and it would be infeasible to answer everyone's questions in detail.
 
@@ -18,6 +19,7 @@ The [Google Summer of Code contributor guide](https://google.github.io/gsocguide
 You'll need to understand Mathesar well in order to submit a successful application. 
 
 Mathesar is a new project and we're still working towards releasing our first version. The best ways to learn about us is to:
+
 - Install Mathesar locally, [following the instructions in our README](https://github.com/centerofci/mathesar).
 - Read about Mathesar on our [main website](https://mathesar.org).
 
@@ -73,6 +75,7 @@ Once you've received feedback from your mentors and you're happy with your propo
 
 ## Selection Criteria
 Here are a few things we consider when selecting which applications to accept:
+
 - **Quality of the proposal**: This is the most important thing. A good proposal includes attention to detail, externally measurable milestones, consideration for future maintainability and community involvement, and a demonstration of your skills.
 - **Community involvement**: One of our major goals is to build an active development community and attract long-term contributors. We see engaging in the community, whether it's asking questions, helping other contributors, contributing code, filing bugs, or whatever else, as a sign that you're genuinely interested in our work.
 - **Contributions**: We appreciate seeing your contributions, they help us gauge your ability to orient yourself to a new codebase, or the quality of your writing. Contribution quality is instrumental in giving us the confidence that you have the skills necessary to implement your proposal.

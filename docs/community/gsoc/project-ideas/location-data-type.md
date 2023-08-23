@@ -24,6 +24,7 @@
 
 ## Architectural Problems
 We need to figure out
+
 - the logic for identifying columns with spatial data value when the data is imported
 - how to format the geometric data types when sending it to or receiving it from the frontend
 - Figure out the logic for casting between various compatible spatial data types.

@@ -8,6 +8,7 @@ These are potential feature ideas for Mathesar. Each section represents a concep
 
 ## Views
 Users should be able to:
+
 - Save filtered/sorted/grouped tables as views.
 - Create a calendar view based on date and time fields in their data
 - Create a histogram chart view based on their data
@@ -21,6 +22,7 @@ Users should be able to:
 
 ## Computed Data
 Users should be able to:
+
 - Create a new column that computes data from other columns using forumulas.
 - Create "subtotals" for grouped views
 	- Support different types of subtotals: SUM, AVG, MIN, MAX, MED
@@ -30,6 +32,7 @@ Users should be able to:
 
 ## Installation and Configuration
 Users should be able to:
+
 - Follow provided instructions to install Mathesar on a server.
 	- The installation process should only install PostgreSQL if needed.
 - Access existing PostgreSQL databases via Mathesar using existing PostgreSQL user credentials.
@@ -41,6 +44,7 @@ Users should be able to:
 
 ## User Management
 Users should be able to:
+
 - Log in
 - Log out
 - Create a new user with permissions: admin, editor, viewer
@@ -59,6 +63,7 @@ Users should be able to:
 
 ## Data Workflow Improvements
 Users should be able to:
+
 - Search for data across various tables and schemas
 - Bulk edit data
 - Bulk import new data into an existing collection
@@ -74,6 +79,7 @@ Users should be able to:
 
 ## Additional Imports
 Users should be able to import data in the following additional formats:
+
 - SQL
 - JSON
 - XML
@@ -132,6 +138,7 @@ The attributes of the location column type are based on results returned by the 
 
 ## Data Syncing
 Users should be able to sync data both ways from:
+
 - Google Sheets
 - Airtable
 - Excel (web)
@@ -139,29 +146,34 @@ Users should be able to sync data both ways from:
 
 ## Data Suggestions
 Users should get suggestions about:
+
 - Visualizations they can apply to their data
 - Aggregations they can apply to their data
 - Schema imporovements they can make to their data
 
 ## Versioning
 Users should be able to:
+
 - Save a snapshot of their database, schema, or table.
 - Revert to a previous version of their database, schema, or table.
 - Undo and redo recent actions.
 
 ## Events
 Events in the system should be exposed via an API. e.g.
+
 - New table created
 - Table schema changed
 - New data added
 
 ## Notifications
 Users should be able to:
+
 - Get email notifications of various events.
 - Get web notifications of various events.
 
 ## Templates
 Users should be able to:
+
 - Save databases, schemas, applications as templates.
 - Use a template to create a new database, schema, or application.
 - Edit template attributes.
@@ -171,6 +183,7 @@ Users should be able to:
 
 ## Improved User Management
 Users should be able to:
+
 - Create teams of users, teams can have similar permissions to users.
 
 ## API

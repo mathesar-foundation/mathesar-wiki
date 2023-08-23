@@ -5,6 +5,7 @@
 A **table** is where data in a [Database](/product/concepts/databases) is actually stored.
 
 Tables consist of **columns** and **records** (rows).
+
 - A **column** describes the data stored, including (but not limited to ) its [Data Type](/product/concepts/data-types).
 - A **record** is a single unit of data that can be stored in a table. Each record stores data corresponding to each column defined on the table.
 
@@ -20,6 +21,7 @@ Creating a table is the first step to managing your data within Mathesar.
 | 3 | Barend Reinhild | Belgium | 45 | October 2, 1976 (9:36 AM) |
 
 In this table, we have **5 columns** and **3 records** (rows).
+
 - The columns are: `ID`, `Name`, `Country`, `Age`, and `Birth`.
 - Each record fits the parameters defined by the column. So every record has a number as `ID` and date & time as `Birth`.
 

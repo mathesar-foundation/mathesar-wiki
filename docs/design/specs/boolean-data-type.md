@@ -25,6 +25,7 @@ The following is an interactive representation of the various options that users
 
 #### User enters a new 'Boolean' data type value
 Depending on the configuration, the user will enter a 'Boolean' value with two different controls.
+
 - Default Dropdown (TRUE, FALSE)
 - Custom Dropdown (TRUE Custom Value, FALSE Custom Value)
 - Checkbox (Checked, Unchecked)

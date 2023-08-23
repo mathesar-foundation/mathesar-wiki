@@ -12,6 +12,7 @@ Under the hood, views are defined by a database (SQL) query.
 We expect that [Tables](/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data, creating reports, or editing inter-related data easily.
 
 You should use Views when you'd like to:
+
 - see data aggregated across multiple tables in one place.
 - bookmark a subset of data in a table (e.g. filtered, sorted, or grouped data)
 - summarize data (e.g. have a column that shows counts of records in a table)
@@ -23,6 +24,7 @@ You should use Views when you'd like to:
 
 ### Views vs. Tables
 To think about the difference between Views and [Tables](/product/concepts/tables), here's an example. Imagine you want to track your movie watches in Mathesar. Questions you might be thinking about are:
+
 - On what day of the week do I usually watch movies?
 - When did I last see Brad Pitt in a movie?
 - How many movies did I watch that were released in the 90s vs. the 2000s.

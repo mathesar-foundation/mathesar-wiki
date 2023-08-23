@@ -21,6 +21,7 @@ Formula columns are used to ... in the context of data explorer. This spec will 
 
 #### User adds a formula
 Formula requires a specific data type column
+
 - If table has no columns for that data type
 	- The [formula selector](#formula-selector) menu displays a message to inform users that a specific data type column is required.
 

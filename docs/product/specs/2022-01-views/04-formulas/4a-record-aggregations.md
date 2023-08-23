@@ -31,6 +31,7 @@ group by movie.title;
 
 ### Editing behavior
 Data generated using list formulas are editable in two ways:
+
 - **Editing existing items** The user can always edit the contents of an existing item.
     - We are just editing the relevant record in the underlying table.
     - We should make it clear to the user that all instances of the data will be changed, not just in this record.

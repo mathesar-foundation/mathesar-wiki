@@ -22,6 +22,7 @@
 Data Query Language (DQL) operations are those that query the data stored in a database. The relevant SQL word is `SELECT`. These operations require knowledge of the database to work. E.g., a function needs a table's name to `SELECT` from it. Currently, we write most `SELECT` statements in Python using SQLAlchemy, necessitating the reflection of the database state into memory in Python and using that state to build queries.
 
 Our current setup for this is:
+
 - Inefficient (reflection is slow)
 - Complicated (hard to maintain)
 - Prone to bugs (managing state in Python memory is constantly tripping us up)
@@ -35,12 +36,14 @@ Create a framework that sets up a view for each table in the database with an al
 
 ### Create DQL functions in database
 Create a function for each desired DQL operation on the databse using SQL or PL/pgSQL.
+
 - Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss, as well as the target signature.
 - Each such function should have a main implementation which uses the most reasonable signature for the task at hand.
 - This should rely heavily on the OID labeled views.
 
 ### Replace Python DQL functions with wrappers of DB functions, and custom query building.
 Replace the current Python functions performing DQL operations with thin wrappers for these functions. Use an as-yet unknown query builder to compose complete queries when (if) needed.
+
 - Be mindful of looking out for functions which may be deleted, rather than replaced, once this is done.
 - Map the original Python function signatures to an appropriate function call of the database functions.
 - Again, these should rely heavily on the OID labeled views.
@@ -51,6 +54,7 @@ Note that this section may take more lateral thinking than for the DDL and DML p
 
 ### Refactor and clean up results
 Refactor to remove SQLAlchemy objects from calls using Python DQL functions:
+
 - Remove any SQLAlchemy objects from DQL function signatures (This may require modifying callers slightly)
 - Remove SQLAlchemy from the entire call stack calling a given function, all the way up to the API (within reason).
 - Modify affected function signatures to avoid using `schema_name`, `(schema_name, table_name)`, or `(schema, table_name, column_name)` identifiers. Instead, prefer `schema_oid`, `table_oid` or `(table_oid, attnum)` identifiers (may require modifying callers slightly, or scaffolding).

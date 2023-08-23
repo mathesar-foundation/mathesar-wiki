@@ -20,6 +20,7 @@ We're looking for an experienced engineer that has architected, built, and deplo
 Excellent communication skills in English (both written and verbal) are essential, since this position is fully remote. You should be able to work indpendently, build good working relationships remotely, and be a proactive communicator. You should also enjoy writing documentation, helping others, and building a community. You're probably also curious and enjoy learning new things.
 
 Some nice-to-haves:
+
 - solid understanding of SQL and databases
 - experience as a contributor or maintainer of open source software
 - experience with usability testing
@@ -30,6 +31,7 @@ Some nice-to-haves:
 You will be a salaried employee if you're in the US and an independent contractor otherwise. We offer a competitive salary in the nonprofit sector. We also have a budget for learning material (books, courses, etc.) and conferences.
 
 US employees have the following benefits:
+
 - Medical, dental, and vision insurance coverage (CCI covers 80% of employee costs and 70% of dependent costs for medical insurance and 50% of employee costs for dental and vision insurance).
 - Life insurance coverage
 - 401(k) forthcoming

@@ -24,6 +24,7 @@ The Array class also uses an optional `dimensions` argument, with a default valu
 ## Methodology
 ### Restricting the dimensions to one
 Our initial goal was to support 1-D arrays. For this, we assumed the following:
+
 - Having access to a length and dimensions properties
 - An ARRAY[...] column contains records with a maximum number of dimensions and length
 
@@ -42,6 +43,7 @@ In summary, we don't have control over any dimensions nor length properties, bec
 
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
+
 - As any data type can have its Array version, this implies that Mathesar will have to create a Domain for every possible scalar type. 
 - We would not have an Array type for any other scalar type installed on a user's DB (any custom type that Mathesar is not aware of). 
 - Other aspects tied to a data type, such as cast functions, will also be multiplied by this factor. 
@@ -49,10 +51,12 @@ Similar data types like JSON and JSON Arrays have been implemented as custom dat
 
 #### Type decorator in SA
 Another option was to implement the Array as a class that inherits from SA's TypeDecorator [2]. The catch here is to access to the dimension's argument handled by SA, and in compiling time, making sure that we pass a value of 1. Again, this workaround also has some disadvantages:
+
 - Mathesar is currently trying to reduce its dependence on SQLAlchemy.
 - We need to support columns being written to in the database via other clients (i.e., where the enforcement won't happen). That dimension can't be reflected from the database.
 
 Also while trying to integrate this class to the project, I faced difficulties such as:
+
 - Mapping between this and the results of Array aggregation operations. I managed to solve it by using the kwarg `_default_array_type` of the `arr_agg()` method of SA, and set as its value my TypeDecorator class.
 - Issues with casting that affected other functions, like `get_constraint_record_from_oid()`. This function is used to retrieve attnums of columns that have constraints, and outputs a list. After installing the new decorator, this function casted the array to text, breaking tests like the ones in `test_constraint_api.py`.
 
@@ -68,6 +72,7 @@ Given that none of the ideas we had to attempt restricting arrays to 1 dimension
 
 **Filters**
 As reviewed earlier, opearations over n-dimensional arrays become confusing.
+
 - Length: it needs to know over what dimension to count. 
 ```
 a = ARRAY[1, 1, 3] 
@@ -77,6 +82,7 @@ b = ARRAY[[1, 1, 1], [2, 3, 1]]
 # for dimension 1, length=2
 # for dimension 2, length=3
 ```
+
 - Contains: Postgres will internally store an array as a 1-dimensional one [5], so when comparing if a multidimensional array is contained in another one, it can behave weird.
 ```
 SELECT array[[442,2],[443,2]] @> array[443,2] -- returns True
@@ -90,7 +96,7 @@ So, it's like, before comparing, Postgres engine unnests the arrays involved in 
 Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array [6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
 ```
 | name  | emails                                     |
-------------------------------------------------------
+|-------|--------------------------------------------|
 | alice | '{"alix@gmail.com"}'                       |
 | alice | '{"alice@hotmail.com', "bbb@outlook.com"}' |
 
@@ -120,6 +126,7 @@ where 125 is the id of the column to be updated, and the value is an array.
 Reading is also working well for 1-D arrays.  
 
 **Next steps:**
+
 - Test through API client: create and delete column.
 - Tests for n-d case, in particular, when reading the data, how does the mapping of SA work (i.e how the formed array look like)?
 - Type options dict properties: length and dimensions, should be discarded. 
@@ -127,6 +134,7 @@ Reading is also working well for 1-D arrays.
 
 #### Filters
 These filters are supported:
+
 - ArrayLengthEquals
 - ArrayLengthGreaterThan
 - ArrayLengthGreaterOrEqual
@@ -140,6 +148,7 @@ The filters are implemented with sql functions, which need to be passed a dimens
 In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
 
 **Next steps:**
+
 - Fix dimension value to 1 for all the filtering operations.
 - Test output for n-d cases.
 - Test for other scalar types.
@@ -148,15 +157,18 @@ In the case of `ArrayContains`, we have to make sure it uses the correct operato
 Status: currently not supported.
 
 Next steps:
+
 - Disable grouping by an Array column.
 - After: develop custom criteria that avoids dimensions mismatch, for example, a criteria that first computes a single value per row in an Array column. Reducing each record of an Array column to a single value will result in, when grouping, a 1-D array.
 
 #### Other operations
 Not supported:
+
 - Distinct
 - Sort by
 
 **Next steps:**
+
 - Disable them for Array columns.
 - After: use a criteria that reduces an array to a single value, and then sort.
 
@@ -167,6 +179,7 @@ Here is where most new things to be implemented take place.
 Status: currently not supported.
 
 Any data type can have its "array version" . Therefore, it doesn't seem a good idea to list each possible Array type in the data types dropdown list:
+
 - There will be a lot of options listed.
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
@@ -183,6 +196,7 @@ The `ArrayCell` [component](https://github.com/centerofci/mathesar/blob/develop/
 Also, this approach is not considering the case of N-D arrays. Here, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first version, it's not worth to delay supporting it until figuring out how to design a proper UI for this multidimensional structure.
 
 **Next steps:**
+
 - Keep disabled the edition of pills.
 - Detect and display n-dimensional arrays as plain text.
 
@@ -203,16 +217,19 @@ request: {"125": [50000,200]}
 This is because making both components work in sync is complex. There is probably a mishandling of the TextInput value, and so the Array factory ends up with a string instead of an Array object. **More debugging is needed here.**
 
 **Next steps:**
+
 - Enable edition from the record view. The user will have to type the array in the correct format. 
 - Same for the table view, the user can click over a cell and edit the array as plain text.
 
 #### Deleting items
 **It is currently not possible to delete elements from an array.** Also, the UI/UX has to be sorted out for this functionality. 
+
 - Will users be able to delete individual items? Consider the added complexity to this task if the array is large; it's very easy for the user to loose sight of the element they want to eliminate.
 - An easier and reasonable first approach is to let the user handle this through plain text edition. Also, we should think about the persona of the target users. It's more natural for a DB maintainer to just edit records through a form, using plain text.
 
 #### Moving elements
 A drag-and-drop feature does not seem to be very useful to offer.
+
 - Again, we should consider the complexity of this task for large lists.
 - For sorting, for end users used to calc documents, making use of a formula to achieve this is more intuitive and comfortable. 
 - I suggest to test the demand of this feature first before thinking on implementing it. One idea is through a poll.
@@ -220,6 +237,7 @@ A drag-and-drop feature does not seem to be very useful to offer.
 ### Documentation
 **User documentation**
 Currently, there is no documentation for the List data type. It would be nice to have a page that explains:
+
 - How to create an Array or List column
 - How to edit it
 - How transformations and summarization work

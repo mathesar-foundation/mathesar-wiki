@@ -51,6 +51,7 @@ We use GitHub issues to track design work. Issues used to track design problems 
 - Check for outstanding [design spec review requests](https://github.com/centerofci/mathesar-wiki/pulls?q=is%3Aopen) at least once a day.
 - Comment on the GitHub PR with feedback. Please follow the general advice below.
 Once you're done reviewing the document, approve the changes or unassign yourself from the PR if you don't have any feedback.
+
 - Request changes explicitly if you want them included in the spec before it is finalized.
 - By sharing feedback, you actively participate in the UX process; make sure you read the context documents and are clear on the user's needs. If needed, ask questions, don't make assumptions.
 

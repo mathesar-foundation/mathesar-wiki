@@ -1,6 +1,7 @@
 # DDL Operations
 
 Data Definition Language (DDL) operations are those involving creating, altering, or dropping (deleting) database objects like:
+
 - Tables
 - Views
 

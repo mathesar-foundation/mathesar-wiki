@@ -5,6 +5,7 @@ Our feature roadmap is tracked via [GitHub milestones](https://github.com/center
 ## About the Roadmap
 
 Our initial roadmap is aimed at creating a very basic version of Mathesar that demonstrates our value proposition. To help us pick which features to build for the initial release, we are using three criteria:
+
 - Users should have the features needed to manage a basic collaborative media inventory using Mathesar. We do not have a specific set of features, but keeping a simple use case in mind helps us cut features that may be too advanced.
   - Please see the following design documents for our initial exploration on this topic:
     - [Inventory Use Case exploratory document](/design/exploration/use-cases/inventory-use-case)

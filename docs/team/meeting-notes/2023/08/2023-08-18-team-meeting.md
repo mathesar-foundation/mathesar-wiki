@@ -10,6 +10,7 @@
 #### Ad-hoc work
 
 Sean:
+
 - needs to get Rajat assigned to some tasks
 - three meta-tickets
     - full-stack
@@ -19,9 +20,11 @@ Sean:
 - Remaining i18n work would go into Rajat's ad-hoc queue.
 
 Brent:
+
 - Couple backend tickets seem related to existing PG support. Brent will reach out to Dom to make sure we're not duplicating work.
 
 Dom:
+
 - Mostly would be focusing on backend bugs and unblocking frontend work.
 - Identified issues that seem more important than Supabase integration.
     - Start the Supabase integration research in the middle of the cycle, when those tasks are finished, currently not assigned to a specific person.
@@ -61,11 +64,13 @@ Dom:
 - **Discussion goal**: Figure out if we want to rotate ongoing responsibilities.
 
 Responsibilities to potentially rotate:
+
 - Repo admin
 - Release ownership
 - User feedback tracking
 
 Kriti's responsibilties, will delegate when out:
+
 - Marketing
 - User help
 - Team management

@@ -50,6 +50,7 @@ The final candidate will also have a conversation with CCI's Executive Director 
 You will be a salaried employee if you're in the US and an independent contractor otherwise. We offer a competitive salary in the nonprofit sector. We also have a budget for learning material (books, courses, etc.) and conferences.
 
 US employees have the following benefits:
+
 - Medical, dental, and vision insurance coverage (CCI covers 80% of employee costs and 70% of dependent costs for medical insurance and 50% of employee costs for dental and vision insurance).
 - Life insurance coverage
 - 401(k)

@@ -18,6 +18,7 @@ The contrast of the design should be based on Web Content Accessibility Guidelin
 
 ### Colors
 The design should support both light and dark modes and apply colors in a way that emphasizes important elements that assist users in:
+
 - Identifying type of objects (table, views)
 - Differentiating states of objects (active, default, disabled)
 - Cell, row, and column positioning

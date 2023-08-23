@@ -14,6 +14,7 @@ We're reorganizing our team workflow into [projects](/projects) and [ongoing res
 
 ## In case of breaking API changes
 This process is only valid until we have a first user.  Then, it should be reviewed.
+
 - Try to implement API changes in ways that do not cause breakage.
 
 In case that's unavoidable:
@@ -34,6 +35,7 @@ For a list of public repos and other resources, see [GitHub](/community/github).
 ## Private resources
 
 These resources are only available to the Mathesar core or community team at the moment.
+
 - The [Mathesar Ansible repository](https://github.com/centerofci/mathesar-ansible) contains a playbook that deploys our staging server.
 - The [Mathesar "staging" server](https://staging.mathesar.org/) is a deployed version of the latest `master`. The username and password to access it are located in 1Password.
 - The [Mathesar private notes repository](https://github.com/centerofci/mathesar-private-notes) contains notes that are private to the core team.

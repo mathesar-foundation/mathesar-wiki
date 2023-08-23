@@ -7,11 +7,13 @@ A **data type** is an attribute of a column in a [Table](/product/concepts/table
 Different data types have their own filters, groups, and other functionality available to help you work better with information of that type.
 
 Examples of filtering include:
+
 - numbers based on whether they're greater than `2000`
 - dates based on whether they're before or after `today`
 - URLs based on whether they're `.com` or `.net`.
 
 Examples of grouping include: 
+
 - text based on first letter (`A`, `B`, `C`, etc.)
 - numbers based on ranges (e.g. `1-100`, `101-200`, etc.)
 - emails based on domain names (e.g. `gmail.com`, `outlook.com`, etc.)

@@ -15,11 +15,13 @@
 ### 1st Persona: Someone Trying out Mathesar quickly, with Docker
 
 Assumptions:
+
 - They have docker
 - Want to try things out locally
 - Won't keep this installation long-term
 
 Solutions:
+
 - Single Docker image
     - Postgres inside
     - Secret key generated with no interaction

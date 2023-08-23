@@ -6,6 +6,7 @@ This page describes how Views should work.
 
 ## Navigating to Views
 Users should be able to:
+
 - See all views in a given schema
 - Find the view they want
 - Open a view
@@ -33,6 +34,7 @@ We could also potentially show a read-only breakdown of the query into [Query Bu
 
 ### View Structural Updates
 Users should be able to perform the following actions:
+
 - Save filters and sorts applied in the UI to the View query (permanently applying those sorts/filters)
 - Save filters and sorts applied in the UI to a new View
 - Create a new "summarized" view of any groupings applied

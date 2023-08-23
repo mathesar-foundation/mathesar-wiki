@@ -169,6 +169,7 @@ Mathesar update capability analysis, determine plan
 - Improved UX for viewing all tables, e.g. hiding tables, showing ER diagram
 #### Brent side-notes preexisting Posgres
 Major things we don't support that people have in their DBs
+
 - Views
 - Users/permissions
 - Types

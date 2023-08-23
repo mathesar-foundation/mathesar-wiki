@@ -9,6 +9,7 @@ You'll be joining our small, globally distributed team at the Center of Complex 
 
 ## What you will do
 You'll be our third frontend engineer. Your day-to-day work will involve:
+
 - Primarily, writing code using Svelte and TypeScript
 - Collaborating with other team members, including:
 	- providing written feedback on product and design specs for new features
@@ -56,6 +57,7 @@ You'll be our third frontend engineer. Your day-to-day work will involve:
 We offer competitive compensation for the nonprofit sector.
 
 If you're in the U.S., you will be hired as a salaried employee. Employees have the following benefits:
+
 - Medical, dental, and vision insurance coverage
 	- **Medical**: CCI covers 80% of employee costs and 70% of dependent costs 
 	- **Dental and Vision:** CCI covers 50% of employee costs for dental and vision insurance

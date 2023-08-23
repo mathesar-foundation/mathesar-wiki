@@ -2,6 +2,7 @@
 
 ## Overview
 All data in Mathesar is stored in **[Tables](/product/concepts/tables)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.
+
 - For example, tables are often optimized for reducing redundancy in data storage. It's hard to work with interrelated data and perform data analysis tasks using tables alone. On a day to day basis, users may want to work with data spread across different tables. 
 - Tables for data analysis are often stored in a denormalized format. Users may want to work with it by reducing the redundancies.
 
@@ -13,6 +14,7 @@ This is where **Queries** and **Views** come in – to help the user see the dat
 
 ### User Goals
 The user goals for **Queries** are:
+
 - To enable users to perform more complex lookups of data in a single table than can be achieved by filtering or sorting (e.g. finding all duplicate rows in a table)
 - To enable users to perform lookups of data across multiple tables
 - To enable users to work with subsets of data (e.g. fewer columns, rows, or both)
@@ -20,6 +22,7 @@ The user goals for **Queries** are:
 - To help users answer questions about their data and perform basic data analysis
 
 The user goals for **Views** are:
+
 - To help users save commonly used queries
 - To provide a better editing experience for related data (especially many-to-many relationships)
 

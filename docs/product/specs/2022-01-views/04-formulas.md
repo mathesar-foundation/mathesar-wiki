@@ -3,6 +3,7 @@
 ## Structure
 
 Formulas have the following attributes:
+
 - **Name**: A unique human-readable name
 - **Description**: A description of what the formula does
 - **Variables Accepted**: This is the list of variables needed for a formula to work. Variables have the following attributes:
@@ -15,6 +16,7 @@ Formulas have the following attributes:
 
 ### Finding Formulas
 In order to make finding the right formula easier, we should categorize formulas by the type of variable they accept.
+
 - For example, if the user is trying to add a formula to a `DATE` column, we would only show them the formulas that accept the `DATE` data type.
 - When the user starts by adding a formula column, we should provide an interface that helps users find the formula they want easier. We could provide an autocomplete interface based on formula name, categorize formulas based on type, and/or consider other options.
 
@@ -24,6 +26,7 @@ See below for a _very_ rough representation of the idea.
 
 ### Editing Formula Data
 When a query is turned into a View, we will allow users to edit data from the View in some cases. Each formula that is editable will define its own editing behavior, but here are some general guidelines:
+
 - Formulas that transform the original data don't result in editable data.
     - e.g. if we apply a "Extract Year" formula to a `DATE` column to transform, say, `2020-01-03` into `2020`, then the `2020` will not be editable.
     - e.g. if we apply a "Count" formula to count the number of genres a movie has, we will not be able to edit the count.

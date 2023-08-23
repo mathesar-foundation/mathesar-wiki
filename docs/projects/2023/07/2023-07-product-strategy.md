@@ -17,12 +17,14 @@ We need a strategy to help us decide what Mathesar's product roadmap should be. 
 
 ## Solution
 We need to understand:
+
 - The kinds of problems that Mathesar is best suited to solve.
 - What our users are missing or struggling with and how to improve our product to meet their needs.
 - What kinds of features will expand the use cases that Mathesar can be used for.
 
 ### Tasks
 As part of the project, we'll be doing some of the following:
+
 - Research and categorization of user feedback and problems
 - Ideation (forming hypotheses) and discussion with the team
 - Talking to users or potential users if we can
@@ -30,6 +32,7 @@ As part of the project, we'll be doing some of the following:
 
 ## Outcome
 At the end of this project, we expect to have:
+
 - A set of user personas / use cases that we're targeting.
 - A strategy document that outlines user needs and product priorities.
 - A framework that can help us make feature development decisions quickly.
@@ -49,6 +52,7 @@ This project will fit into the 2023-07-10 cycle.
 
 ## Results
 We did not get everything planned for this project done by the end of the cycle. We do have:
+
 - Drafts of the following documents (all private to core team):
 	-	[Product strategy](https://docs.google.com/document/d/1RDd-HGTANfzFmKiTQArb3N26Y4o7R8md3iHTOlxVygI/edit) 
   - [List of use cases](https://hackmd.io/wC38kFL-Q6mR2TJR2_ZCEw)

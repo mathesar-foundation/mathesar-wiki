@@ -127,6 +127,7 @@ https://github.com/centerofci/mathesar/issues/2534 has been updated accordingly
 **Participants**: Sean, Kriti, Ghislaine
 
 Sean, Kriti, and Ghislaine looked at in-progress work and finalized UX for changes to the live demo banner. Related issues:
+
 - https://github.com/centerofci/mathesar/issues/2468
 - https://github.com/centerofci/mathesar/issues/2494
 

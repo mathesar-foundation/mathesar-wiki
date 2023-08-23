@@ -76,6 +76,7 @@ We need to split "installation improvements" into smaller projects:
 During our Alpha release, we managed to release a one-line bash command for setting up Mathesar. But the installation process is opinionated and cannot be easily configured which is what the users expect based on the feedback we received from various sources.
 
 Our Users want to:
+
 - Install Mathesar on a Kubernetes or similar infrastructure
 - Run Mathesar without administrative access which is required by our installation script.
 - Install only the Mathesar web server without any additional services like Caddy, and Watchtower which are currently installed alongside the Mathesar webserver by our installation script.
@@ -83,6 +84,7 @@ Our Users want to:
 - Directly modify the configuration variables/files instead of having to use the installation script.
 
 Problems that are stopping the user from their goals:
+
 - Our installation Documentation is incomplete
   - Only Docker-based installation is listed in our docs
   - There isn't much information about Mathesar services or about the configuration files
@@ -91,15 +93,18 @@ Problems that are stopping the user from their goals:
 - The installation script is tightly coupled, preventing them from using it with their own setup. It sets up the configuration file, downloads the docker-compose file, sets up the Mathesar database, and so on. The user cannot use the script to do only certain tasks, for example, they cannot use the script to only create a configuration file and skip other steps.
 
 Other problems:
+
 - Our installation script does not allow for edits. Making the user start fresh if they made a mistake.
 - Our upgrades are tightly coupled with the Watchtower upgrade service(?), so Mathesar might not work(?) if they install only certain services.
 
 Based on the above feedback, we can understand that
+
 - The users are technical enough and would like to tinker with the configuration
 - They want to use Mathesar with their own setup
 - Security conscious
 
 Here is what is done to fix the above problems
+
 - Kriti mentioned that she has a lot of thoughts on improving our installation process, so Brent, Kriti, Mukesh, and Pavish will be having a meeting today to get a brain dump from Kriti.
 - I will be creating a list of issues based on the discussion from the meeting and update this email thread with the next set of actions items after the meeting
 - I will be coordinating with Marius de Beer who is currently writing documentation for "Installing Mathesar on various Linux Distro with/without Docker" to make sure the documentation and improvements to the installation process are in sync. 

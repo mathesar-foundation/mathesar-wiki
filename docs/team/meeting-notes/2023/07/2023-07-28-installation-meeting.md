@@ -161,6 +161,7 @@ This will explain how to connect to localhost DBs if you're using Docker (conten
 ### Do the personas make sense? Do we need any additional narrowing down or clarification?
 
 Top
+
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
 - Someone installing server & DB on same remote system
@@ -171,17 +172,20 @@ Top
     - same as above
 
 Medium
+
 - Someone installing server on localhost, but connecting to a remote DB
 - Someone installing Mathesar on existing DevOps infrastructure
     - Helm, Kubernetes goes here
 
 Not prioritizing at all - until more than one person asks
+
 - Ansible / other automation guides
 - Someone installing Mathesar on a remote system that's not Linux
 - Someone who wants to build Mathesar from source
 - Someone trying Mathesar out quickly locally (and cannot use Docker)
 
 Discourage
+
 - Someone installing everything on localhost (not just trying it out)
 
 #### Additional discussion
@@ -244,6 +248,7 @@ Personas are fine, see additional detail added above.
     - No time to discuss now
 
 Mukesh will start separate email threads to discuss:
+
 - Configuration
 - Permissions
 

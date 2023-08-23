@@ -12,6 +12,7 @@ If a user has [views](https://www.postgresql.org/docs/13/sql-createview.html) in
 ## Feature Description
 
 Mathesar should support _read-only_ views. A user should be able to:
+
 - Look at a view similarly to a table.
 - Manipulate a view by sorting, filtering, and grouping on the view page (similarly to the table page)
 - Explore the columns of a view in Data Explorer.
@@ -43,6 +44,7 @@ Overall, we expect a significant portion of this project to involve dealing with
 ## Expected Outcome
 
 Views should be integrated into the UI of Mathesar by the end of the project. In particular, there should be:
+
 - A View page
 - A way to query a view in the Data Explorer
 - Some list of views in the Schema Page

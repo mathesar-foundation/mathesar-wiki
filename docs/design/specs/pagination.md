@@ -13,6 +13,7 @@ The pagination component is always visible, even if the table does not reach the
 
 ### Controls
 The pagination component controls are:
+
 - Records per page selector
 - Link to first and last pages
     - Helpful when applying filters or sorting criteria (i.e., What is the oldest/newest item?)
@@ -38,6 +39,7 @@ What are reasonable max and minimum page sizes?
 Based on discussion with the team, the first version of the read-only table will use offset-based pagination. This is the preferred choice as it is already implemented and does not prevent the roadmap from being built and allow other methods to be used later.
 
 Some of the following points were discussed and shall be reconsidered later when we have more evidence of limitations imposed by our current pagination method:
+
 - Offset-based allows users to jump into any arbitrary page instead of forcing them to scroll through the entire content.
 - Offset-based is unreliable when the list of items frequently changes, causing problems when records are added or deleted.
 - Cursor-based pagination is not affected by the addition or removal of items.

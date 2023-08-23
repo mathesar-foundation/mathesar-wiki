@@ -122,6 +122,7 @@ The user applies a summary of "Distinct Values" with columns "student_id", "stud
 
 ### Limit & Offset
 The user can apply the following to the query:
+
 - A limit to the number of rows returned
 - An offset for where to start the rows returned
 
@@ -150,6 +151,7 @@ Please see the next page, [04. Formulas](/product/specs/2022-01-views/04-formula
 
 ### Column Input Filters
 When applying filters to an input column (let's call it `X`), the user selects three things:
+
 - **Column to apply the filter to**: This could be
     - any column in the table (`T`) that `X` belongs to
     - any column in any table that `T` has a FK relationship to (i.e. there's a single related record to every record in `T`), up to three levels deep

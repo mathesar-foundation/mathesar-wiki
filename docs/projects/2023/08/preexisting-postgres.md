@@ -21,6 +21,7 @@ We've decided to focus on getting Mathesar working on preexisting live databases
 ### Views
 
 The bare minimum would be to show the views that already exist on a DB in the UI.
+
 - Where should they be shown?
 - Can we get away without enabling editing of the view definition, or editing data in the underlying tables at this time?
 - Most difficult work here is UI/UX.
@@ -31,6 +32,7 @@ The bare minimum would be to show the views that already exist on a DB in the UI
 ### Permissions
 
 Mathesar may not be allowed to run as a super user or highly-privileged user. We need to be able to use Mathesar in those cases without throwing errors everywhere (at a minimum).
+
 - Do we need to have more sophisticated permissions handling?
 - We probably need some way to show a user what privileges they have without trial-and-error on their part.
 
@@ -48,6 +50,7 @@ We could also trivially show the generating expression (in fact this might alrea
 ### Supporting different pkey setups
 
 This may be the thing we need the most work on overall
+
 - Currently, we will fail pretty badly if we get a table with a multicolumn primary key, or any non-sequential primary key.
 - We may have to start by making any such table read-only.
 
@@ -58,6 +61,7 @@ We may not act correctly for multicolumn foreign keys, or foreign keys that don'
 ### Constraints
 
 We currently break and don't even return the constraints we _do_ know if we stumble across a constraint type we don't support. Thus, we at least need to fix that. We also need to verify that the behavior when trying to update a value that would violate some unsupported constraint is reasonable.
+
 - How do we determine which database configurations to show in the UI?
 - We should find a balance to avoid overwhelming users if we opt to display all database configurations in the UI.
 
@@ -69,6 +73,7 @@ I think we should really try to do the project to fix up the column moving, or r
 ## Solution
 
 For this project, we need to 
+
 - Go through commentary and issues from users to ensure nothing has been forgotten in the problems listed above.
 - Find realistic sample PostgreSQL databases and try connecting Mathesar to see if we've forgotten anything else.
   - [This thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/H532ebtiLb0/m/vs87RhyGBQAJ) from the dev mailing list has some suggestions.
@@ -92,6 +97,7 @@ It may be that we end up prototyping or even implementing some features during t
 ## Outcome
 
 Users should be able to connect Mathesar to a preexisting database
+
 - Without any risk of corrupting their data in confusing ways
 - With the ability to see all their data in Mathesar in some fashion
 - With the ability to use the Mathesar interface safely, and without crashing into unhandled errors due to unsupported PostgreSQL features.

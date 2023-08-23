@@ -5,6 +5,7 @@
 ### Users and permissions
 - Pavish is out sick. From matrix:  
  *There’s a bit of a delay. I’m working on a PR containing the items assigned to me, I’m not confident that they’ll be merged by end of this week. I should have the PR open by this weekend.*
+
 - Sean's work went swimmingly. So well, he's out of work and plans to take on tasks from Pavish/Rajat as needed
 - Rajat has a PR in for documentation of access control, other PR for Table pages' access control(s) coming tomorrow
 - Anish: Users and permissions PR is ready for review by Pavish

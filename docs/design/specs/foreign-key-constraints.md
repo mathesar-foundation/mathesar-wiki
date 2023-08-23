@@ -64,6 +64,7 @@ A user wants to link records from another table into their current table. Both t
 - The list panel contains actions at the bottom of the panel. The user can choose to add or delete an item from the list. The user clicks on 'Add' to create a new constraint.
 - The user is presented with a form. From there, they select the type of constraint to be added. The user selects the 'Foreign Key' constraint option from the list.
 The user selects single or multiple columns to which they wish to apply the constraint.
+
 - The user selects a table to be referenced by these columns.
 - The user selects a column in the reference table from which the column will match values. This is set to the 'Primary Key' column in the referenced table by default. When changing this field, the user can select only columns with a `UNIQUE` or `PRIMARY KEY` constraint.
 

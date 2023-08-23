@@ -5,6 +5,7 @@ This guide is for accepted mentees. If you are an applicant, read our [Applicant
 ## Post-Announcement
 
 Program acceptance announcements have been made and you've been selected! Congratulations! Here's what we expect you to do before the program period officially starts:
+
 - Continue to refine your project plan and timeline with your mentors.
 - Define communication channels and set up a weekly check-in with your mentor.
 - Set up your computer and development environment.

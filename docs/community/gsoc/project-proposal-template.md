@@ -34,6 +34,7 @@ We recommend creating a Google Doc that follows this structure and sharing it wi
 *Include a timeline of the deliverables you aim to accomplish each week. Add one row per 1-2 weeks. We use this section to determine whether you can plan your project out properly, so please choose your deliverables well.*
 
 *Deliverables should be **measurable** and as specific as possible.*
+
 - *“Complete API for cancelling orders” is a good deliverable. It's easy to tell whether it's been completed.*
 - *“Work on APIs” is a bad deliverable. It's not measurable.*
 

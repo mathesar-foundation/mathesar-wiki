@@ -17,6 +17,7 @@
 
 ## Problem
 The current problems we face in our installation process and documentation are:
+
 - We're targeting too many different use cases for Mathesar in our current documentation, and we need to simplify things.
 - Installing Mathesar involves many steps, which makes the process brittle and introduces failure points that we can avoid.
 - There is too much configuration needed before Mathesar can be started, which makes it difficult to try Mathesar out quickly.
@@ -26,6 +27,7 @@ The current problems we face in our installation process and documentation are:
 See also: [Diagram of existing steps involved in installation](#current-steps)
 
 Based on [previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
+
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
 - Someone installing server & DB on same remote system
@@ -43,6 +45,7 @@ This project involves fixing those low hanging fruit and finishing the discussio
 
 ## Solution
 The low hanging fruit we plan to tackle in this cycle:
+
 - Move superuser creation to the UI
 	- *Problem solved*: configuration moved to product instead of outside scripting
 - Build single Docker image containing both Mathesar and Postgres
@@ -53,6 +56,7 @@ The low hanging fruit we plan to tackle in this cycle:
 	- We're prioritizing this because it's a [user reported issue](https://github.com/centerofci/mathesar/issues/2990) and has been brought up in launch user feedback.
 
 Issues we need to resolve through discussions:
+
 - Configuration values like the secret key should be generated automatically. Other configuration options like adding a user database credential should be moved to the Mathesar UI. We are currently blocked by discussions for storing configuration values and we will be having meetings in this cycle to figure out a plan which can be implemented in later cycles
 	- *Problem solved*: Removes configuration steps needed for starting Mathesar
 - Research and decide on which PaaS to support

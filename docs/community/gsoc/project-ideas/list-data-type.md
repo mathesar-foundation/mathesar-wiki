@@ -22,6 +22,7 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 
 ### Viewing and editing list data
 List data could be displayed and edited in the following places. All of these need to be updated to view and edit lists correctly.
+
 - Table cells
 - Input fields on record pages
 - Inputs to set a default value for a column
@@ -29,10 +30,12 @@ List data could be displayed and edited in the following places. All of these ne
 - Inputs to filter records within the record selector
 
 **Viewing lists**
+
 - Data of the "list" type should be shown as pills. 
 - Please look at the way lists are shown in the Data Explorer as a reference.
 
 **Editing lists**
+
 - Users should be able to add and remove list items.
 - Users should be able to edit the text of an existing list item.
 - Errors should be handled and displayed if any of the operations fail.

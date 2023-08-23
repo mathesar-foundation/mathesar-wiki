@@ -27,6 +27,7 @@ The table component uses columns and rows to display data in a grid.
 A read-only table only serves to display data but has no other interactions. Users can read or select the data that is displayed in the table rows but they can't modify or delete data.
 
 Other uses:
+
 - For data preview during import
 - For a tble with no permission to edit
 
@@ -44,6 +45,7 @@ The tabs component allows navigation between related groups of content. The tabs
 Tabs allow only one instance of a table to be open at the same time. If the user navigates to a table that is already open, the corresponding tab will be activated.
 
 To consider:
+
 - AWS Athena and how they handle multiple instances of a table.
 - Working on views without saving them so that user can discard them easily.
 ##### States
@@ -62,6 +64,7 @@ Based on the type of content represented by the tab, there will be a different i
  ![](/assets/design/specs/read-only-table/BJJCkI5O_.png =240x)
 
 Notes:
+
 - In future iteration maybe tabs can be reordered by drag-and-drop interaction. 
 
 
@@ -92,10 +95,12 @@ On reload, the navigation level states should persist.
 What is expanded or collapsed should also persist if a higher level state changes. 
 
 Questions:
+
 - Can a schema contain no tables?
 - What's the sorting criteria for the sidebar navigation groups?
 
 Future Idea:
+
 - Additional list group to show recently updated tables
 
 ### Views

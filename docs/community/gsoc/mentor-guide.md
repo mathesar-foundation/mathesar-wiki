@@ -15,6 +15,7 @@ Mentoring programs are usually structured into the following stages:
 We need a list of potential project ideas that applicants can submit a proposal to implement. 
 
 Project ideas should be:
+
 - a self-contained feature or improvement for Mathesar
 - scoped so that a single person can reasonably implement it in the timeframe of the mentoring program
 	- For GSoC, this is either 350 hours or 175 hours
@@ -31,6 +32,7 @@ If you're wondering if your project idea makes sense, discuss it on Matrix with 
 
 ## Applying for the mentoring program
 Once we have fleshed our our project ideas, Kriti will submit Mathesar's application to the mentoring program. While we wait to hear back, you should:
+
 - create a set of `good first issue` tasks suitable for first-time contributors to the codebase.
 - mentally prepare to deal with increased communication work.
 
@@ -38,6 +40,7 @@ Once we have fleshed our our project ideas, Kriti will submit Mathesar's applica
 Once the mentoring program (e.g. Google) announces the organizations participating in the program, potential applicants will start communicating with us. This stage of the program is the most intense.
 
 You should:
+
 - welcome new contributors and help them get started with:
 	- applicant information
 	- local project setup
@@ -56,6 +59,7 @@ You should:
 Applicants will start working on draft proposals and sharing them with you a few weeks before the deadline. You are responsible for reviewing all proposals for which you are the primary mentor.
 
 You should:
+
 - track draft proposals and review status in our [our internal spreadsheet](https://docs.google.com/spreadsheets/d/1FSahyG8f6pkWj_hv7oMi6g49ANIpKJWDVtUS-Qwz0ZQ/)
 - ask applicants to submit draft proposals directly to you via Matrix and add them to the spreadsheet when you get them.
 - review proposals in 1-2 days if possible.
@@ -104,6 +108,7 @@ At this point,
 
 ### Finalizing the project plan and workflow
 Before work on the project gets underway, you should:
+
 - collaborate with your mentee to finalize the implementation details and weekly deliverables for the project
 - create a document to keep any project information and notes, include:
   - an up-to-date implementation plan and weekly milestones
@@ -143,6 +148,7 @@ You're now ready to mentor!
 
 #### Troubleshooting
 Talk to the program coordinator proactively if you're not sure what to do. Some things to pay attention to:
+
 - Your mentee is not active and engaged regularly.
 - Your mentee is not communicating enough or misses a check-in.
 - You have concerns or even just a bad feeling about something.

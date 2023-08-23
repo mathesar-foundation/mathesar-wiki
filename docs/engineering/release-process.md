@@ -20,6 +20,7 @@ For details on the Release management process, refer the [Release management ong
     ```sh
     github_tag=${1-"0.1.3"}
     ```
+
 - Update the version number in the documentation for the Installation instructions.
 
 ### 3. Make images from the branch and push to Dockerhub - *Do not tag as `latest`*.
@@ -31,6 +32,7 @@ For details on the Release management process, refer the [Release management ong
   docker buildx build -t mathesar/mathesar-caddy:<version_number> --builder=container --platform=linux/amd64,linux/arm64 --push -f Dockerfile.caddy .
   docker buildx build -t mathesar/mathesar-prod:<version_number> --builder=container --platform=linux/amd64,linux/arm64 --push --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
   ```
+
 - These images are not tagged as latest will not affect installation flow for users.
 - Log out of Dockerhub to avoid accidental pushes during testing.
 
@@ -42,6 +44,7 @@ For details on the Release management process, refer the [Release management ong
   docker volume rm $(docker volume ls | awk '{print $2}')
   ```
   This is just to ensure that the below validation starts from a known state.
+
 - Clear out remains of prevoius installations if any.
 	- Eg., Delete `.env` file and `docker-compose.yml` file within `/etc/mathesar`.
 - Locally tag the new version as `latest`:
@@ -52,6 +55,7 @@ For details on the Release management process, refer the [Release management ong
   docker image pull mathesar/mathesar-prod:<version_number>
   docker image tag mathesar/mathesar-prod:<version_number> mathesar/mathesar-prod:latest
   ```
+
 - Install the new version:
   ```sh
   bash <(curl -sL https://raw.githubusercontent.com/centerofci/mathesar/<version_number>/install.sh)
@@ -126,6 +130,7 @@ For details on the Release management process, refer the [Release management ong
   docker buildx build -t mathesar/mathesar-caddy:<version_number> -t mathesar/mathesar-caddy:latest --builder=container --platform=linux/amd64,linux/arm64 --push -f Dockerfile.caddy .
   docker buildx build -t mathesar/mathesar-prod:<version_number> -t mathesar/mathesar-prod:latest --builder=container --platform=linux/amd64,linux/arm64 --push --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
   ```
+
 - Note that the release needs to be tagged as `latest`.
 
 ### 4. Create release in GitHub

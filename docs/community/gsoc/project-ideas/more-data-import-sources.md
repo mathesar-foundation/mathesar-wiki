@@ -2,6 +2,7 @@
 
 ## The Problem
 Currently, Mathesar only supports importing data from CSV-like files. We'd like to expand the types of data we can import, including support for:
+
 - SQL files
 - Excel files
 - Google Sheets

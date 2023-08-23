@@ -31,6 +31,7 @@ Requirements:
 - Curiosity and enjoyment of learning new things.
 
 Nice to have:
+
 - Experience with build/infrastructure tools like Docker and Ansible.
 - Experience maintaining Linux servers.
 - Experience with building self-hosted products.
@@ -40,6 +41,7 @@ Nice to have:
 
 ## Interview Process
 The interview process will consist of four rounds:
+
 - Round 1: Interview with our project lead
 - Round 2: We'll ask you to contribute a feature to Mathesar to simulate what it would be like to work together day to day.
 - Round 3: Interview with our backend engineer
@@ -49,6 +51,7 @@ The interview process will consist of four rounds:
 You will be a salaried employee if you're in the US and an independent contractor otherwise. We offer a competitive salary in the nonprofit sector. We also have a budget for learning material (books, courses, etc.) and conferences.
 
 US employees have the following benefits:
+
 - Medical, dental, and vision insurance coverage (CCI covers 80% of employee costs and 70% of dependent costs for medical insurance and 50% of employee costs for dental and vision insurance).
 - Life insurance coverage
 - 401(k)

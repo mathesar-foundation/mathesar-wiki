@@ -88,12 +88,14 @@ $$ LANGUAGE plpgsql RETURNS NULL ON NULL INPUT;
 The result of `\df`
 ```
 Schema |     Name     | Result data type |                 Argument data types                 | Type
+
 --------+--------------+------------------+-----------------------------------------------------+------
  msar   | rename_table | text             | sch_name text, old_tab_name text, new_tab_name text | func
 ```
 The result of `\df+`
 ```
  Schema |     Name     | Result data type |                 Argument data types                 | Type | Volatility | Parallel |  Owner   | Security | Access privileges | Language |                                        Source code                                         | Description
+
 --------+--------------+------------------+-----------------------------------------------------+------+------------+----------+----------+----------+-------------------+----------+--------------------------------------------------------------------------------------------+-------------
  msar   | rename_table | text             | sch_name text, old_tab_name text, new_tab_name text | func | volatile   | unsafe   | mathesar | invoker  |                   | plpgsql  | /*                                                                                        +|
         |              |                  |                                                     |      |            |          |          |          |                   |          | Change a table's name, returning the command executed.                                    +|
@@ -120,10 +122,12 @@ msar.rename_table(text, text, text) RETURNS text AS $$/*
 Change a table's name, returning the command executed.
 */
 DECLARE
+
 -- Args:
   sch_name TEXT := $1;  -- unquoted schema name where the table lives
   old_tab_name TEXT := $2;  -- unquoted, unqualified original table name
   new_tab_name TEXT := $3;  -- unquoted, unqualified new table name
+
 -- internal variables
 fullname text;
 BEGIN
@@ -135,6 +139,7 @@ $$ LANGUAGE plpgsql RETURNS NULL ON NULL INPUT;
 The result of `\df`:
 ```
  Schema |     Name     | Result data type |      Argument data types      | Type
+
 --------+--------------+------------------+-------------------------------+------
  msar   | rename_table | text             | text, text, text              | func
 ```
@@ -143,6 +148,7 @@ The result of `\df+`:
 ```
                                                                                                                             List of functions
  Schema |     Name     | Result data type |      Argument data types      | Type | Volatility | Parallel |  Owner   | Security | Access privileges | Language |                                        Source code                                         | Description
+
 --------+--------------+------------------+-------------------------------+------+------------+----------+----------+----------+-------------------+----------+--------------------------------------------------------------------------------------------+-------------
  msar   | rename_table | text             | text, text, text              | func | volatile   | unsafe   | mathesar | invoker  |                   | plpgsql  | /*                                                                                        +|
         |              |                  |                               |      |            |          |          |          |                   |          | Change a table's name, returning the command executed.                                    +|
@@ -162,6 +168,7 @@ The result of `\df+`:
 
 ```
 This avoids the problem above. However, it has some major downsides
+
 - It means the output of `\df` is much less informational
 - It makes the function's signature harder to parse in code.
 - It adds boilerplate (the `DECLARE` block; this is optional, but recommended)

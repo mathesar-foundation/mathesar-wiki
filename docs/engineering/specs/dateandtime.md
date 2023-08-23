@@ -13,6 +13,7 @@
 For the moment, the UI should simply send the input string along to the API to be handled by the data layer, which should use the underlying database to parse input strings into date/time types to avoid inconsistency. 
 
 If we want to extend the set of understandable date/time input strings in the future, then the UI could parse the more exotic input strings into the appropriate canonical form described below and send that as the input to be stored to the API. The canonical form isn't _required_, but it's recommended since it guarantees the known value ending up stored in the database. Care should be taken to ensure that _if the UI parses the string_, then it's either 
+
 - a string which wouldn't be handled by the database parsing, or
 - the parsing results in an identical value being stored as the one that would have resulted from sending the raw string to the API. 
 
@@ -60,6 +61,7 @@ Because some units of time (months and days) are inconsistent w.r.t. the number 
 - `'1 year -1 month 3 days 14 hours -10 minutes 30.4 seconds ago'` maps to `P0Y-11M-3DT-13H-50M-30.4S`
 
 Notes:
+
 - Commas and pluralization don't matter. 
 - We use `T` to separate the date and time portions.
 - Take care of where the units do and do not aggregate into larger units in the second example.

@@ -85,9 +85,11 @@ Typing the name of the schema to retrieve matching options:
 Some concerns exist around the need for confirmation steps and system feedback requirements to prevent errors during schema creation. Contemplating these aspects of the user experience in a narrow context is likely to result in a less than optimal design for the use cases we are discussing.
 
 **Concerns mentioned during the review:**
+
 - Risk of typos failing to find schema and inadvertently create a new schema
 
 **Ideas to improve the experience:**
+
 - Allowing users to extend current schema names to create new ones 
 
 

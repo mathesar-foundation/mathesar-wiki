@@ -4,6 +4,7 @@
 We'd like to be able to know what other database objects depend on a database object like a Schema or a Table.
 
 This is useful in various situations
+
 - To show to the user in the frontend before they decide to delete a `Schema` or a `Table`.
 - To show how a `View` was constructed 
 - To get a high level overview of the Data Model

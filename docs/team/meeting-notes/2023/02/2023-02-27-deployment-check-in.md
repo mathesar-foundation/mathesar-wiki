@@ -6,6 +6,7 @@
 We plan to get these done by Tuesday AM (US Easttern)
 
 Brent:
+
 - https://github.com/centerofci/mathesar/issues/2576
 - https://github.com/centerofci/mathesar/issues/2572
 - https://github.com/centerofci/mathesar/issues/2582
@@ -14,10 +15,12 @@ Brent:
     - Have a target list of supported platforms
 
 Mukesh:
+
 - https://github.com/centerofci/mathesar/issues/2585
 - https://github.com/centerofci/mathesar/issues/2570, after Kriti triages
 
 Kriti:
+
 - Triage Wolfgang's feedback and add to https://github.com/centerofci/mathesar/issues/2570
 - Release process
 - Update docs
@@ -30,10 +33,12 @@ Kriti:
 
 ## Low priority
 We are not working on these yet, we'll discuss tomorrow.
+
 - https://github.com/centerofci/mathesar/issues/2427
 - https://github.com/centerofci/mathesar/issues/2571 
     - Solve using documentation (easy to do for Mac)
 
 Kicked out of launch or closed:
+
 - https://github.com/centerofci/mathesar/issues/2565
 - https://github.com/centerofci/mathesar/issues/2511

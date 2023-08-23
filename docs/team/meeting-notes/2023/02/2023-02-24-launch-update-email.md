@@ -12,6 +12,7 @@ The only remaining launch blockers are:
 However, we're going to need an extra day or two to get the installation working smoothly before we cut the release. Installation isn't something we can quickly fix on-the-fly after we launch. So [Kriti is] going to move our target launch date to **Wednesday or Thursday next week**.
 
 Here is the plan for next week:
+
 - Monday's launch check in cancelled because I don't think there's much for the entire team to discuss.
 - Brent, Mukesh, and Kriti will work on installation and release. I don't think these tasks can be parallelized further.
 - Dom will continue work on increasing live demo throughput and support testing upgrades.

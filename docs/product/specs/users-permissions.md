@@ -12,6 +12,7 @@ This spec describes how the initial version of users & permissions will work in 
 
 ### Bonus Goals
 *We may not get to implementing these in 2022.*
+
 - Allow users to be represented in Mathesar data and workflows through a User data type
 - Allow restricting access to subsets of tables, schemas, or explorations based on user attributes
 
@@ -33,6 +34,7 @@ We're making the following assumptions for this spec to reduce implementation co
 
 ### Users will be Mathesar-specific.
 This means:
+
 - Users created using the Mathesar UI will not be able to log in to the PostgreSQL DB using the same credentials. 
 - Existing Postgres DB users will not be able to log in to Mathesar using their credentials.
 
@@ -59,6 +61,7 @@ When Mathesar is first installed, we'll create a default "Administrator" user. T
 
 ### User management page
 Mathesar administrators should be able to navigate to a user management page and take the following actions:
+
 - Add a user
 - Delete a user
 - Edit user details
@@ -97,6 +100,7 @@ We need different navigation options based on the objects the user has permissio
 
 ### User data to save
 We should have a place to save the following kinds of data per user:
+
 - Table inspector show/hide settings
 - Last access time per-table
 - Last access time per-exploration
@@ -126,6 +130,7 @@ High-level notes on how we should implement these features.
 
 ### Users in the service layer
 Users should be Django `User` objects with the following attributes:
+
 - Username (required)
 - Password (required)
 - Full name (required)
@@ -142,6 +147,7 @@ We will have the following layers of permissions. The implementer needs to figur
 
 #### User
 All users can:
+
 - Edit their own user's attributes, including reset their own password
 - Create private explorations based on data they have access to.
 

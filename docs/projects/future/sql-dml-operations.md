@@ -22,6 +22,7 @@
 Data Manipulation Language (DML) operations are those that manipulate the data stored in a database. Some relevant SQL words are `UPDATE`, `INSERT`, and `DELETE`. These operations require knowledge of the database to do their work. E.g., a function must know the name of a table to `INSERT` into it. Our current architecture requires reflecting the state of the database into memory in Python and using that state to build `INSERT` queries and the like.
 
 Our current setup for this is:
+
 - Inefficient (reflection is slow)
 - Complicated (hard to maintain)
 - Prone to bugs (managing state in Python memory is constantly tripping us up)
@@ -32,11 +33,13 @@ All of these problems are related to the fact that we're building the SQL querie
 
 ### Create DML functions in database
 Create a function for each desired DML operation on the databse using SQL or PL/pgSQL.
+
 - Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss, as well as the target signature.
 - Each such function should have a main implementation which uses the most reasonable signature for the task at hand.
 
 ### Replace Python DML functions with wrappers of DB functions
 Replace the current Python functions performing DML operations with thin wrappers for these functions.
+
 - Be mindful of looking out for functions which may be deleted, rather than replaced, once this is done.
 - Map the original Python function signatures to an appropriate function call of the database functions.
 - It's completely fine to create scaffolding functions at this point to avoid letting changes sprawl.
@@ -44,6 +47,7 @@ Replace the current Python functions performing DML operations with thin wrapper
 
 ### Refactor and clean up results
 Refactor to remove SQLAlchemy objects from calls using Python DML functions:
+
 - Remove any SQLAlchemy objects from DML function signatures (This may require modifying callers slightly)
 - Remove SQLAlchemy from the entire call stack calling a given function, all the way up to the API (within reason).
 - Modify affected function signatures to avoid using `schema_name`, `(schema_name, table_name)`, or `(schema, table_name, column_name)` identifiers. Instead, prefer `schema_oid`, `table_oid` or `(table_oid, attnum)` identifiers (may require modifying callers slightly, or scaffolding).

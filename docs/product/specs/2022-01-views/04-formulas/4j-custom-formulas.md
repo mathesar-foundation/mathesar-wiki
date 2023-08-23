@@ -10,6 +10,7 @@ Custom formulas provide a more flexible interface to let users build their own f
 
 ## Interface Requirements
 We should provide a textual interface for users to enter custom formulas. This should support:
+
 - Autocomplete for column references based on the available columns.
 - Autocomplete for our pre-created formulas.
     - Once the user has started entering a formula, we should support autocomplete or dropdowns for formula options.

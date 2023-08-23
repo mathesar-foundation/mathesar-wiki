@@ -11,6 +11,7 @@
 
 This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting).
 Implementing the planned changes will be done in separate projects
+
 - [Installation Improvement 0.1.4](/projects/installation-improvements-0_1_4)
 
 ### Problems
@@ -28,6 +29,7 @@ Implementing the planned changes will be done in separate projects
 We discussed and agreed upon a [set of personas to target initially](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification)
 
 Top
+
 - Someone trying Mathesar out quickly (and can use Docker)
   - We assume this user is just evaluating Mathesar and will move to a different installation setup after evaluating.
 - Someone installing Mathesar on a PaaS
@@ -39,17 +41,20 @@ Top
     - same as above
 
 Medium
+
 - Someone installing server on localhost, but connecting to a remote DB
 - Someone installing Mathesar on existing DevOps infrastructure
     - Helm, Kubernetes goes here
 
 Not prioritizing at all - until more than one person asks
+
 - Ansible / other automation guides
 - Someone installing Mathesar on a remote system that's not Linux
 - Someone who wants to build Mathesar from source
 - Someone trying Mathesar out quickly locally (and cannot use Docker)
 
 Discourage
+
 - Someone installing everything on localhost (not just trying it out)
 
 ### Limitations of the Project

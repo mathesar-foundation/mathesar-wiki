@@ -2,6 +2,7 @@
 
 ## General update and Q&A
 Kriti gave an update on
+
 - Launch goals
 - Funding plan
 - Usability testing strategy

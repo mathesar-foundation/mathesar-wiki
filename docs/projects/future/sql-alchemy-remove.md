@@ -29,11 +29,13 @@ We'll remove SQLAlchemy from our codebase. Note that at the point we undertake t
 
 ### Create D3L functions in database
 Many of these will already have been created during previous phases. This should just amount to batting cleanup. But, I expect some will still need to be created.
+
 - Each such function should be overloaded to have the signature needed for calling from Python with minimal fuss, as well as the target signature.
 - Each such function should have a main implementation which uses the most reasonable signature for the task at hand.
 
 ### Replace Python D3L functions with wrappers of DB functions.
 Do _not_ replace or create functions that are no longer needed. Some common sense will be required here.
+
 - Map the original Python function signatures to an appropriate function call of the database functions.
 - It's completely fine to create scaffolding functions at this point to avoid letting changes sprawl.
 - After this phase, no SQLAlchemy imports should be used in any module whose functions are modified in this way, i.e., D3L operation modules.
@@ -45,6 +47,7 @@ Note that this section may take more lateral thinking than for the DDL, DML, or 
 Refactor to remove SQLAlchemy from the codebase wherever it remains, and delete any unneeded functions (e.g., scaffolding).
 
 After this part, the following should be true:
+
 - No SQLAlchemy anywhere
 - No getting a table name in Python unless returning it via the API to the front end.
 - No getting a schema name in Python unless returning it via the API to the front end.

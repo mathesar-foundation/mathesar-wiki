@@ -74,11 +74,11 @@ When adding input columns, the user can add them using the list controls or drop
 
 Depending on the interaction, columns may be selected in a variety of ways:
 
-Selection Mode | Interaction
---- | ---
-Single Selection| Click a list item
-Drop Single Column| Click and drag list item to drop area
-Multiple Selection| Click + Shift Key to select first and all items in between. For non-contiguous items, Click + Control Key.
+| Selection Mode | Interaction |
+| --- | --- |
+| Single Selection | Click a list item |
+| Drop Single Column | Click and drag list item to drop area |
+| Multiple Selection | Click + Shift Key to select first and all items in between. For non-contiguous items, Click + Control Key. |
 
 #### Naming Convention
 
@@ -88,13 +88,13 @@ The system will default name columns to indicate their source table and column u
 
 Depending on how tables are linked, some columns might contain multiple records associated with a record in the base table. Specific functionality to manage those records should be available to users.
 
-Functionality | User Goals
---- | ---
-Filter| Show only a subset of the linked records
-Aggregate| Display the multiple records as a combined record
-Display Formats| Change the way each record item is displayed
-Sort| Change the order in which the linked records are displayed
-Limit| Limit the number of linked records
+| Functionality | User Goals |
+| --- | --- |
+| Filter | Show only a subset of the linked records |
+| Aggregate | Display the multiple records as a combined record |
+| Display Formats | Change the way each record item is displayed |
+| Sort | Change the order in which the linked records are displayed |
+| Limit | Limit the number of linked records |
 
 #### Data Type Changes
 

@@ -187,6 +187,7 @@ The full table blob will be returned, so a return for the above request could be
 
 
 This would set the columns in the preview to have the specified names and types. Any column which is unaltered would have and empty JSON object (as in the 0th column above), otherwise, only attributes of a column which are to be altered would be submitted in the request. So, in the example:
+
 - we alter nothing about the 0th column,
 - we alter the name of the 1st column, 
 - we alter the type of the 2nd column,

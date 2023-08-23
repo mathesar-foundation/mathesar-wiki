@@ -26,6 +26,7 @@
 - Caught up on emails and discussions.
 
 **Current Focus:**
+
 - Publishing the survey.
 - Listing out all the sources for the Niche research and organizing them.
 
@@ -39,6 +40,7 @@
 - Updated the niche research document based on talks with Brent and Pavish.
 
 **Current Focus**
+
 - Update the survey and request feedback.
 
 ## 2023-08-16
@@ -60,6 +62,7 @@ I spent a significant portion of the day scheduling calls with various team memb
 To make the upcoming feedback meetings more structured, I prepared a set of questions focusing on discussing the use cases feedback, especially targeting those team members who missed the first round of calls. I've updated the call plan to integrate our niche research focus, given that we have already narrowed down to a particular niche.
 
 **Current Focus:**
+
 - Request feedback on the form survey.
 - Conducting feedback sessions.
 - Preparing an update for my scheduled call with Kriti tomorrow.
@@ -69,6 +72,7 @@ To make the upcoming feedback meetings more structured, I prepared a set of ques
 Today and yesterday were slow days due to some personal matters I had to attend to. However, I did manage to initiate some research on potential niche sources. Additionally, I started to simplify our survey, aiming to make it concise enough for adding a link on our website. 
 
 **Current Focus:**
+
 - Building out the survey form using tools like Google Forms or similar platforms.
 - Continuing with niche research project research.
 
@@ -77,6 +81,7 @@ Today and yesterday were slow days due to some personal matters I had to attend 
 Worked on the initial draft for our Niche Research project. Began exploring methods to shape our personas. We also had our weekly team catch-up.
 
 **Current Focus**:
+
 - Organize meetings with team members who missed the initial one-on-ones.
 - Get feedback on the Niche Research project draft.
 - Start the groundwork for the project.

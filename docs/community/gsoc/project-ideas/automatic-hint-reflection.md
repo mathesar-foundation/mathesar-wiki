@@ -37,6 +37,7 @@ Above mapping says that:
 Importantly, hints don't obligate the user of the API to follow them. A user should be able to assemble expressions that are in conflict with what is declared by the hints. The purpose of the hint system is to give hints to the user about how to assemble expressions, but the user should be free to assemble any expression he likes.
 
 We chose for the hint system to be non-authoritative (allow users to ignore it) for two reasons:
+
 - it empowers power-users that might want to use a function or a type in a way contrary to the declared hints;
 - and, user developers (users that might also want to define their own Postgres functions or types) will not be obligated to master the hint system just to add a function: they'll be able to gradually start adding hints if/when they find that useful, which will cause the UX for using that function to become more streamlined with every hint added.
 

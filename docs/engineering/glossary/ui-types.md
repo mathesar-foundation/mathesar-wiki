@@ -4,6 +4,7 @@ Please see the ["Data Types" product concept page](/product/concepts/data-types)
 
 ## Goals
 The main goal of the UI Data Type system is to create a better user experience for non-technical users on the frontend. We aim to do this by:
+
 - **Making data types understood in simple, non-technical terms.**
   - e.g. users should not need to know or think about what a `DOUBLE PRECISION` is in order to set their column to accept decimal numbers.
 - **Reducing cognitive load while picking a data type.**
@@ -18,6 +19,7 @@ A Mathesar type can be thought of as a set of one or more PostgreSQL data types.
 Mathesar types are an abstraction only applicable to frontend clients, they should not be considered in any operations at the backend or database level. For example, filtering, sorting, and grouping operations happen using PostgreSQL types, not UI types.
 
 UI types are defined in the backend instead of the frontend for two reasons:
+
 - to enable alternate clients that play well with the abstractions we use for the "official" frontend
 - to enable users to extend the type system by installing types in the backend and automatically getting the user experience offered by the frontend without having to write frontend code.
 

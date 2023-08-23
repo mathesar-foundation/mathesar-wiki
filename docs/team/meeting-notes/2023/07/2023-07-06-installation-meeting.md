@@ -152,11 +152,13 @@
 ## Prioritization
 
 General strategy:
+
 - Until we get to 1.0, we are going to assume installation will be done by technical users.
 - UI should be friendly to non-technical users
 - You need to be technical to install Mathesar, or learn something
 
 Discussion:
+
 - But what about users who have contacted us who are running on localhost?
     - SaaS could serve their need
     - Or a detailed server setup guide (e.g. "how to set up on GCP" that includes all their settings)
