@@ -88,7 +88,7 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
 
 The result of this research will be a report that includes:
 
-### Reference Use Cases for Mathesar
+### Reference Use Cases for Small Businesses Using PostgreSQL
 The collected use cases will be compiled and analyzed to inform both the definition of personas and product functionality for Mathesar, specifically within the context of small businesses utilizing PostgreSQL.
 
 ### Key User Personas for Mathesar
