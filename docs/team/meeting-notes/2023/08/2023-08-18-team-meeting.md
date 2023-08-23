@@ -1,3 +1,5 @@
+# 2023-08-18 Team meeting
+
 **Attendees**: Core team, Anish, Varsha
 
 ## Projects approval
