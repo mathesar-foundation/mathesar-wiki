@@ -10,11 +10,16 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## Actively working on
 
+### Meetings
+- 1:1 with Anish
+- 1:1 with Aritra
+
+### Release 0.1.3
+- Making images
+- Testing release
+
 ### Projects
 - Going back through RSQLA 2, 3, 4 writeups and updating them
-
-### RSQLA1
-- finishing retrospective email
 
 ### Preexisting DB compatibility
 - Start organizing some basic meta issues around known problems (we can add more)
@@ -24,11 +29,18 @@ dateCreated: 2023-07-07T01:56:13.743Z
 
 ## 2023-08-23
 
+### Meetings
+- Team meeting
+
 ### Email
 - *yet another* round of communication on various threads
 
 ### RSQLA1
+- Started RSQLA1 email thread
 
+### Preexisting DB compatibility
+- followed leads from Sean, also found other sample DBs to test against
+- Chatted with Kriti about hosting test DBs
 
 ## 2023-08-22
 
