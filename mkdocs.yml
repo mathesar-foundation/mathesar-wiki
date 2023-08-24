@@ -94,6 +94,20 @@ plugins:
         'team/guide/issue-assignment.md': 'team/guide/issues.md'
         'team/guide/issue-triage.md': 'team/guide/issues.md'
         'team/members.md': 'team/index.md'
+        'en.md': 'index.md'
+        'en/community.md': 'community/index.md'
+        'en/community/mailing-lists.md': 'community/mailing-lists.md'
+        'en/community/matrix.md': 'community/matrix.md'
+        'en/design.md': 'design/index.md'
+        'en/engineering/code-review.md': 'engineering/code-review/index.md'
+        'en/engineering/reports.md': 'community/gsoc/index.md'
+        'en/engineering/reports/gsoc-2022-dependents-graph.md': 'community/gsoc/past/2022/dependents-graph.md'
+        'en/engineering/reports/gsoc-2022-importing-data-into-existing-tables.md': 'community/gsoc/past/2022/importing-data-into-existing-tables.md'
+        'en/engineering/reports/gsoc-2022-json-type.md': 'community/gsoc/past/2022/json-type.md'
+        'en/engineering/reports/list-datatype.md': 'community/gsoc/past/2023/list-datatype.md'
+        'en/home.md': 'index.md'
+        'en/product/specs/users-permissions.md': 'product/specs/users-permissions.md'
+        'en/team.md': 'team/index.md'
 
 theme:
   name: material
