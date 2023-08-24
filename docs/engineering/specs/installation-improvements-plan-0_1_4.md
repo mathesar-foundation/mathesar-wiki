@@ -1,13 +1,4 @@
-# Installation Improvement Plan 
-
-**Status**: In review
-
-## Team
-| Role | Assignee |
-|-|-|-|
-| **Owner** | Mukesh |
-| **Helpers** | Kriti |
-
+# Installation Improvement Plan
 
 This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting).
 Implementing the planned changes will be done in separate projects
