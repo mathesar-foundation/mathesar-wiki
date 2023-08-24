@@ -23,6 +23,7 @@
 
 - Address Review feedback in [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar-wiki/pull/102)
 - Handle deployment of new mkdocs wiki site
+- Troubleshoot changes with CNAME file on wiki deployment
 
 ## 2023-08-23 Wednesday
 
