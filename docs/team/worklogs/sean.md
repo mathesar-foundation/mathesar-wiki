@@ -4,11 +4,7 @@
 
 ### Soon
 
-- [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar/issues/3079)
 - Sync with Rajat about work for the cycle
-
-### Later in this cycle
-
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
 - Write "Markdown style guide" wiki page
@@ -22,6 +18,11 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-24 Thursday
+
+- Address Review feedback in [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar-wiki/pull/102)
+- Handle deployment of new mkdocs wiki site
 
 ## 2023-08-23 Wednesday
 
