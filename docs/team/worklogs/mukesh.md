@@ -1,8 +1,31 @@
 # Mukesh work log
 
 ## Actively working on
-- Reply to Closing user reported issues email
-- Start working fixing the [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
+- Create PR for the Postgres docker image
+
+## Backlog
+- Add compatibility table for comparing various personas with our features
+
+
+
+## 2023-08-24
+- Created various issues to track the Installation Improvement Project 0.1.4
+- Async discussions with Anish
+- Update the Installation Improvement Project 0.1.4 based on the feedback
+- Async discussion with Varsha
+
+
+## 2023-08-23
+- Review and merge [Add tests for third party table with long identifiers](https://github.com/centerofci/mathesar/pull/3140#top)
+- Team meeting
+- Update the Installation Improvement Project 0.1.4
+
+## 2023-08-22
+- Review Niche Research Project Feedback
+- Review Compatibility with the preexisting DB project
+- Reply to XY problem email
+- Tested the Postgres Mathesar docker image
+
 
 ## 2023-08-21
 - Sync with Varsha
