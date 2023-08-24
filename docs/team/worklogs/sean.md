@@ -4,6 +4,7 @@
 
 ### Soon
 
+- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Sync with Rajat about work for the cycle
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
@@ -24,6 +25,9 @@
 - Address Review feedback in [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar-wiki/pull/102)
 - Handle deployment of new mkdocs wiki site
 - Troubleshoot changes with CNAME file on wiki deployment
+- 1/1 with Kriti
+- Create ticket [Decommission Wiki.js server](https://github.com/centerofci/mathesar/issues/3173)
+- Resume work on [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 
 ## 2023-08-23 Wednesday
 
