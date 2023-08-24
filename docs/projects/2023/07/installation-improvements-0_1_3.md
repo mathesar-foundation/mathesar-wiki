@@ -4,16 +4,16 @@
 **Review status**: Approved
 
 ## Team
-| Role | Assignee |
-|-|-|-|
-| **Owner** | Mukesh |
-| **Backend Helpers** | Dominykas |
-| **Frontend Helpers** | Rajat |
-| **Design Helper** | Ghislaine |
-| **Design Reviewer** | Kriti |
-| **Backend Reviewer** | Brent |
-| **Frontend Reviewer** | Pavish |
-| **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join
+| Role                                       | Assignee                     | Notes                           |
+|--------------------------------------------|------------------------------|---------------------------------|
+| **Owner**                                  | Mukesh                       |                                 |
+| **Backend Helpers**                        | Dominykas                    |                                 |
+| **Frontend Helpers**                       | Rajat                        |                                 |
+| **Design Helper**                          | Ghislaine                    |                                 |
+| **Design Reviewer**                        | Kriti                        |                                 |
+| **Backend Reviewer**                       | Brent                        |                                 |
+| **Frontend Reviewer**                      | Pavish                       |                                 |
+| **Contributors (future work discussions)** | Brent, Kriti, Mukesh, Pavish | Anyone else interested can join |
 
 ## Problem
 The current problems we face in our installation process and documentation are:

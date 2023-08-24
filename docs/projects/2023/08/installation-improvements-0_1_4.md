@@ -12,21 +12,22 @@ dateCreated: 2023-08-17T09:42:41.660Z
 **Review status**: In Review
 
 ## Team
-| Role | Assignee |
-|-|-|-|
-| **Owner** | Mukesh |
-| **Backend** | Anish |
-| **Backend Helper** | Mukesh |
-| **Infrastructure Work** | Mukesh |
-| **Infrastructure Helper** | Anish |
-| **Frontend** | Rajat |
-| **Design Helper** | Ghislaine |
-| **Design Reviewer** | Pavish |
-| **Documentation** | Mukesh |
-| **Discussion** | Mukesh |
-| **Documentation Helper & Reviewer** | Sean |
-| **Infrastructure Reviewer** | Brent |
-| **Frontend Reviewer** | Pavish |
+| Role                                | Assignee  |
+|-------------------------------------|-----------|
+| **Owner**                           | Kriti     |
+| **Owner**                           | Mukesh    |
+| **Backend**                         | Anish     |
+| **Backend Helper**                  | Mukesh    |
+| **Infrastructure Work**             | Mukesh    |
+| **Infrastructure Helper**           | Anish     |
+| **Frontend**                        | Rajat     |
+| **Design Helper**                   | Ghislaine |
+| **Design Reviewer**                 | Pavish    |
+| **Documentation**                   | Mukesh    |
+| **Discussion**                      | Mukesh    |
+| **Documentation Helper & Reviewer** | Sean      |
+| **Infrastructure Reviewer**         | Brent     |
+| **Frontend Reviewer**               | Pavish    |
 
 
 ## Problem
