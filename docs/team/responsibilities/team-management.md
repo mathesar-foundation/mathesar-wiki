@@ -1,5 +1,8 @@
 # Team management
 
+**Owner**: Kriti  
+**Helper**: Sean
+
 ## Maintenance tasks
 These tasks will need be delegated if the team manager is unavailable for more than a few days.
 
