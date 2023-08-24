@@ -1,4 +1,4 @@
-# Ghislaine's Worklog
+# Ghislaine's work log
 
 ## 2023-08-23
 
