@@ -3,8 +3,6 @@
 # Working on
 - Reorganize and document ongoing responsibilities better
 - Prep for time off
-- Follow up on funding logistics
-- Call with Sean about vacation handoff and benefits.
 
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
@@ -25,9 +23,11 @@
 - **Comms**
 	- Caught up on email and GitHub
 	- Followed up on demo fix deployment / release discussion
+	- Call with Sean about vacation handoff and benefits
 - **Administrative**
 	- Meeting with Ian about funding logistics
 	- Meeting with Sam & Adam about funding logistics and administrative next steps
+	- Followed up on funding logistics
 - **Code**
 	- Re-reviewed wiki PR
 	- Helped with wiki deployment issues
