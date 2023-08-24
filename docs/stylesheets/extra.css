@@ -38,6 +38,14 @@
   --md-typeset-a-color: #fff;
 }
 
+.md-nav--primary > label.md-nav__title {
+  /**
+   * Without this, the "Mathesar Wiki" label has a shadow that partially
+   * obscures the "Home" link below it.
+   */
+  box-shadow: none;
+}
+
 .md-nav--primary > .md-nav__list .md-nav__link--active {
   background-color: var(--md-code-bg-color);
   border-radius: 4px;
