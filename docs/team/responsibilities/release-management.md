@@ -1,4 +1,4 @@
-# Release Management
+# Release management
 
 !!! note "Note"
 	Each release will have different owners.
