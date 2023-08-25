@@ -30,7 +30,7 @@ dateCreated: 2023-08-17T09:42:41.660Z
 
 
 ## Problem
-Our current installation process is vastly aligned with the proposed [Installation Plan](/engineering/specs/installation-improvements-plan-0_1_4) for improving our installation flow. 
+Our current installation process is not aligned with the proposed [Installation Plan](/engineering/specs/installation-improvements-plan-0_1_4) for improving our installation flow. 
 
 ## Solution
 We will be focusing on Top Priority Personas in this project. Please read through the [Installation Plan](/engineering/specs/installation-improvements-plan-0_1_4) and [this discussion](/team/meeting-notes/2023/07/2023-07-28-installation-meeting/#what-work-do-we-need-to-do-to-enable-this-outline) to get a better idea of the proposed solutions
