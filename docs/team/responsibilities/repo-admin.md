@@ -1,11 +1,7 @@
-# Repo admin
+# Repo administration
 
-## Team
-
-| Role        | Assignees     |
-| ----------- | ------------- |
-| **Owner**   | Rajat         |
-| **Helpers** | Pavish, Anish |
+**Owner**: Rajat  
+**Helper**: Sean
 
 ## Responsibilities at a Glance
 

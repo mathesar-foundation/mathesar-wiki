@@ -1,13 +1,9 @@
 # Release Management
 
-## Team
-| Role | Assignees |
-|-|-|
-| **Overall process owner** | Kriti |
-| **Current release owner** | Rajat |
+!!! note "Note"
+	Each release will have different owners.
 
-
-**Note**: Each release will have different owners. No specific person has been assigned as a helper, but the release will be a top priority for everyone during cooldown.
+**Current release owner**: Rajat
 
 ## Guide
 This guide is common for the owner and the helpers of the Release management responsibility. The owner is responsible for ensuring the work gets complete, and the helpers assist the process and cover for the owner when they are not available.

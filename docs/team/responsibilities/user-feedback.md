@@ -1,11 +1,7 @@
-# User feedback
+# User feedback tracking
 
-## Team
-
-| Role | Assignees |
-|-|-|
-| **Owner** | Ghislaine |
-| **Call Assistance Helpers** | Pavish, Kriti, Brent |
+**Owner**: Ghislaine  
+**Call Assistance Helpers**: Pavish, Kriti, Brent
 
 ## All Team Members
 

@@ -1,5 +1,8 @@
 # GSoC 2023
 
+**Owner**: Dom  
+**Helpers**: Anish, Rajat
+
 ## Introduction
 
 Quick summary: it should be enough for any reader wanting to know what their responsibilities are (and to read the related notes) to check their role descriptions under [Phase-independent responsibilities](#phase-independent-responsibilities) and [Current phase](#current-phase).
