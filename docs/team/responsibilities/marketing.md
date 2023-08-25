@@ -1,13 +1,8 @@
 # Marketing
 
 ## Team
-
-| Role | Assignees |
-|-|-|-|
-| **Owner** | Kriti |
-| **Social media helpers** | Rajat, Sean |
-| **Website helpers** | Ghislaine, Sean |
-| **Aggregation helpers** | Rajat, Ghislaine |
+**Owner**: Kriti  
+**Helpers**: Brent, Sean, Ghislaine, Anish
 
 ## Guide
 This section serves as a handbook for people working on these responsibilities.
