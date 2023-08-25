@@ -1,8 +1,7 @@
 # Kriti's work log
 
 # Working on
-- Reorganize and document ongoing responsibilities better
-- Prep for time off
+*Offline until Sep 25*
 
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
@@ -16,8 +15,37 @@
 - Set up CRM in Mathesar to track contacts
 - Follow up with various people who've helped me over the last few months
 - Competitor research
+- Reorganize and document ongoing responsibilities better
 
 # Complete
+
+## 2023-08-25 (Fri)
+
+- **Prepped for time off**
+	- Documented my responsibilities that I'm handing off on the wiki
+	- Hand off calls with Brent & Pavish
+	- 1:1 with Ghislaine + niche research project discussion
+	- 1:1 with Mukesh + installation project discussion
+	- Pre-approved invoices
+	- Set Brent up with admin access to a whole bunch of things
+	- Set up vacation status on:
+		- GitHub
+		- Slack
+		- calendar
+		- Matrix
+		- email
+	- Sent vacation FYI email to team
+- **Administrative**
+	- Kicked off email thread for contract renewal
+	- Gusto benefits survey
+	- Followed up on some benefits stuff
+- **Project management**	
+	- Reviewed installation project
+- **Fundraising**
+	- Sent internal funding update
+	- Sent a couple thank you emails
+- **Comms**
+	- GitHub, email, Matrix triage and responses
 
 ## 2023-08-24 (Thu)
 - **Comms**
