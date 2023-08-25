@@ -16,7 +16,7 @@
 
 ## Higher-level tasks
 - User research.
-- Maintain the product roadmap.
+- Maintain the product strategy and roadmap.
 - Coordinate speccing out upcoming / new features.
 	- Includes research and writing up.
 	- Ensure the right team members are consulted during the process.

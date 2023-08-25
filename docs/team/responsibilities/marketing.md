@@ -1,53 +1,41 @@
 # Marketing
 
-## Team
+!!! info "Current status"
+	Brent will be taking over day-to-day maintenance tasks while Kriti is out (until Sep 25, 2023).
+
 **Owner**: Kriti  
 **Helpers**: Brent, Sean, Ghislaine, Anish
 
-## Guide
-This section serves as a handbook for people working on these responsibilities.
+## Day-to-day maintenance tasks
 
-### All members
-- Everyone should be on the `marketing@mathesar.org` mailing list.
-  - This list receives the “firehose” of Syften notifications, including all mentions of competitors and people looking for “spreadsheet-like” solutions.
-- Analytics and Twitter credentials are in 1Password.
+### Respond to Syften notifications
+Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. They cover Hacker News and Reddit.
 
-### Owner
-- Make progress on our [Mathesar launch publicity checklist](https://github.com/centerofci/mathesar-website/issues/78), delegate tasks as needed.
-    - We’ll hold off on making new announcements until our installation process is improved
-- Manage changes to Mathesar.org, delegate tasks as needed.
-- Review all external comms.
+**If a comment or post can be considered user feedback**, please flag it to the owner of the [user feedback](/team/responsibilities/user-feedback) responsibility.
 
-### Social media helpers
+#### Process for responding:
+- Share the post in the `Mathesar - Marketing` Matrix channel.
+- Decide if a response is needed and who will respond.
+- Compose a response.
+	- Share in the channel if you want feedback before posting.
+- Post the response.
 
-#### Respond to Syften notifications
-Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. Please close the ticket in Freshdesk once a notification has been handled or if there is nothing to do.
-
+#### Guidelines for responding
 - **If Mathesar is mentioned**:
-	- Post mentions in the `Mathesar - Marketing` Matrix channel.
-  - Decide if a response is needed.
-  - Compose a response (or if needed, ask the owner to compose a response).
-  	- Responses should be aimed at thanking people, addressing people's concerns, and/or answering questions.
-    - Responses should people to existing conversations, issues, and discussions as much as possible.
-  - Get approval from the owner before posting the response.
-    - This approval requirement will be removed once we have better guidelines for responding to people.
+	- Responses should be aimed at thanking people, addressing people's concerns, and/or answering questions.
+	- Responses should people to existing conversations, issues, and discussions as much as possible.
 - **If someone mentions a problem that Mathesar could be used to solve**:
-  - Compose a response (or if needed, ask the owner to compose a response).
     - Responses should suggest using Mathesar in a tactful way.
     - Our goal here should not be to shoehorn Mathesar into all sorts of use cases. Instead, we should be on the lookout only for cases that Mathesar is a good solution for.
-  - Get approval from the owner before posting the response.
-    - This approval requirement will be removed once we have better guidelines for responding to people.
-- **If Mathesar is mentioned on Twitter**: 
-  - Re-tweet it from our account and/or thank them for the shoutout.
-  - Only re-tweet if the tweet appears to be from a real person or organization. Do not re-tweet bot accounts (e.g. "First Issues Bot").
-- **If a comment or post can be considered user feedback**:
-  - Please flag it to the owner of the [user feedback](/team/responsibilities/user-feedback) responsibility.
 
-#### Document noteworthy publicity
-- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](/marketing/history.md) page
-- Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
+### Respond to Mathesar mentions on Twitter (X?)
+Twitter needs to be monitored manually. Sign in to Twitter (credentials in 1Password) and click on the "Notifications" tab.
 
-#### Make release announcements
+- Re-tweet it from our account and/or thank them for the shoutout.
+- Only re-tweet if the tweet appears to be from a real person or organization. Do not re-tweet bot accounts (e.g. "First Issues Bot").
+- Also respond to questions, etc. as outlined in the Syften section.
+
+### Make release announcements
 Release announcements should include highlights from release notes. We should avoid the announcements following a template because people tend to ignore repetitive things.
 
 - Post a message in the `Mathesar - General` channel on Matrix announcing the release
@@ -55,13 +43,21 @@ Release announcements should include highlights from release notes. We should av
 - Tweet when we publish a new release
 - *TODO: also figure out where / how to post on Reddit for new releases*
 
-### Website helpers
-- Implement changes to the website as requested by the owner.
-
-### Aggregation helpers
+## Sporadic maintenance tasks
+- Clean up marketing Freshdesk tickets and close the ones with no action items.
+- Evaluate Syften keywords and update them if needed.
+- Make progress on our [Mathesar launch publicity checklist](https://github.com/centerofci/mathesar-website/issues/78), delegate tasks as needed.
+	- We’ll hold off on making new announcements until our installation process is improved
+- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](/marketing/history) page
+	- Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 - Add Mathesar to aggregators (tracked [in this issue](https://github.com/centerofci/mathesar-website/issues/84)).
   - Feel free to ask the owner to review any copy written for this.
 - Do research on more relevant aggregators that Mathesar could be added to and add them to the issue.
+
+## Higher-level tasks
+- Maintain and execute go-to-market strategy
+- Maintain the marketing website, and decide what changes are needed when.
+	- Create issues and ensure the work is tracked and delegated appropriately.
 
 ## Notes & Resources
 - See [Marketing](/marketing) section of the wiki.
