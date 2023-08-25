@@ -14,7 +14,6 @@ dateCreated: 2023-08-17T09:42:41.660Z
 ## Team
 | Role                                | Assignee  |
 |-------------------------------------|-----------|
-| **Owner**                           | Kriti     |
 | **Owner**                           | Mukesh    |
 | **Backend**                         | Anish     |
 | **Backend Helper**                  | Mukesh    |
