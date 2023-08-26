@@ -20,6 +20,12 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-08-25 Friday
+
+- Review [Move UserProfile to the App level context from Route level context](https://github.com/centerofci/mathesar/pull/3175)
+- Some prep work for team management while Kriti is away
+- Push more commits to my draft [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037)
+
 ## 2023-08-24 Thursday
 
 - Address Review feedback in [Migrate wiki to MkDocs](https://github.com/centerofci/mathesar-wiki/pull/102)
