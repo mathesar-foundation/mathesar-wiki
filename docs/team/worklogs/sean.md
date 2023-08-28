@@ -5,11 +5,15 @@
 ### Soon
 
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- Sync with Rajat about work for the cycle
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
 - Write "Markdown style guide" wiki page
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
+
+### Community PR review
+
+- [fix: cell loses focus when clicking on its outline](https://github.com/centerofci/mathesar/pull/3185)
+- [Dont show "Go to Record Page" for error rows](https://github.com/centerofci/mathesar/pull/3114)
 
 ### Backlog
 
@@ -19,6 +23,13 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-28 Monday
+
+- Chat with Rajat about upcoming tasks
+- Work on Markdown style guide
+- Work on Sheet selection refactor
+- Review QA tickets opened by Brent, adding some comments
 
 ## 2023-08-25 Friday
 
