@@ -3,8 +3,22 @@
 # Actively working on
 * Helping with Pre-existing Postgres DB compatibility project
 * Helping with Niche research project
+* Upgrading Node version and FE packages
 
 # Daily logs
+## 2023-08-25
+* Fixed regression and raised PR: [Move UserProfile to the App level context from Route level context](https://github.com/centerofci/mathesar/pull/3175)
+* 1-1 with Kriti
+
+## 2023-08-24
+* Assiting manual QA for release
+* Added [DB list demo mode PR in the release](https://github.com/centerofci/mathesar/pull/3171)
+
+## 2023-08-23
+* Sent mail on Product level permissions to account for related entities
+* Reviewed and merged [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
+* Weekly meeting
+
 ## 2023-08-22
 * Thought more about Product level permissions to account for related entities
 
