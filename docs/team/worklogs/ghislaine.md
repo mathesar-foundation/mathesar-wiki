@@ -1,5 +1,20 @@
 # Ghislaine's work log
 
+## 2023-08-28
+
+- Setting up meetings to discuss niche research.
+- Niche research.
+- Preparing notes to share during calls with team.
+
+**Current Focus:**
+- Prepare my notes for sharing with the team and getting feedback.
+
+## 2023-08-25
+
+- Check-in with Kriti.
+- Updated the survey.
+- Worked on the niche research.
+
 ## 2023-08-23
 
 - Niche research into Small Businesses using PostgreSQL.
