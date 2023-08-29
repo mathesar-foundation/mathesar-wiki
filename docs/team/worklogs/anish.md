@@ -6,13 +6,35 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
+## 2023-08-29
+
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170) & made it ready for reveiw
+
+## 2023-08-28
+
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+
+## 2023-08-25
+
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+- Sync with Anshuman(GSoC)
+
+## 2023-08-24
+
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+
+## 2023-08-23
+
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+- Weekly meet
+
 ## 2023-08-22
 
-- Worked on API to store user credentials in internal database.
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
 
 ## 2023-08-21
 
-- Worked on API to store user credentials in internal database.
+- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
 
 ## 2023-08-18
 
