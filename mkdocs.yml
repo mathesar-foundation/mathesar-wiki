@@ -1,0 +1,158 @@
+site_name: Mathesar Wiki
+site_url: https://wiki.mathesar.org/
+repo_url: https://github.com/centerofci/mathesar-wiki/
+repo_name: centerofci/mathesar-wiki
+
+
+plugins:
+  - search:
+      lang: en
+  - awesome-pages
+  - htmlproofer:
+      validate_external_urls: False
+  - redirects:
+      redirect_maps:
+        'community/setup_in_windows.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'community/contributing.md': 'https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md'
+        'engineering/common-issues.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/setup.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/architecture/api-standards.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar/api/STANDARDS.md'
+        'engineering/architecture/front-end-standards.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
+        'engineering/setup/common-issues.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/standards/api.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar/api/STANDARDS.md'
+        'engineering/standards/frontend.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
+        'community/mentoring.md': 'community/gsoc/index.md'
+        'community/mentoring/applicant-guide.md': 'community/gsoc/applicant-guide.md'
+        'community/mentoring/mentee-guide.md': 'community/gsoc/mentee-guide.md'
+        'community/mentoring/mentor-guide.md': 'community/gsoc/mentor-guide.md'
+        'community/mentoring/project-idea-template.md': 'community/gsoc/project-idea-template.md'
+        'community/mentoring/project-ideas/api-documentation.md': 'community/gsoc/project-ideas/api-documentation.md'
+        'community/mentoring/project-ideas/archive.md': 'community/gsoc/project-ideas/index.md'
+        'community/mentoring/project-ideas/auto-suggest-normalization.md': 'community/gsoc/project-ideas/auto-suggest-normalization.md'
+        'community/mentoring/project-ideas/automatic-hint-reflection.md': 'community/gsoc/project-ideas/automatic-hint-reflection.md'
+        'community/mentoring/project-ideas/break-out-columns.md': 'community/gsoc/project-ideas/break-out-columns.md'
+        'community/mentoring/project-ideas/data-export.md': 'community/gsoc/project-ideas/data-export.md'
+        'community/mentoring/project-ideas/db-views.md': 'community/gsoc/project-ideas/db-views.md'
+        'community/mentoring/project-ideas/dependency-graph.md': 'community/gsoc/project-ideas/dependency-graph.md'
+        'community/mentoring/project-ideas/file-data-types.md': 'community/gsoc/project-ideas/file-data-types.md'
+        'community/mentoring/project-ideas/import-data-into-existing-tables.md': 'community/gsoc/project-ideas/import-data-into-existing-tables.md'
+        'community/mentoring/project-ideas/import-excel-json-files.md': 'community/gsoc/project-ideas/import-excel-json-files.md'
+        'community/mentoring/project-ideas/json-data-type.md': 'community/gsoc/project-ideas/json-data-type.md'
+        'community/mentoring/project-ideas/json-editor.md': 'community/gsoc/project-ideas/json-editor.md'
+        'community/mentoring/project-ideas/kanban-view.md': 'community/gsoc/project-ideas/kanban-view.md'
+        'community/mentoring/project-ideas/list-data-type.md': 'community/gsoc/project-ideas/list-data-type.md'
+        'community/mentoring/project-ideas/location-data-type.md': 'community/gsoc/project-ideas/location-data-type.md'
+        'community/mentoring/project-ideas/make-casting-functions-inlinable.md': 'community/gsoc/project-ideas/make-casting-functions-inlinable.md'
+        'community/mentoring/project-ideas/more-data-import-sources.md': 'community/gsoc/project-ideas/more-data-import-sources.md'
+        'community/mentoring/project-ideas/more-summarizations.md': 'community/gsoc/project-ideas/more-summarizations.md'
+        'community/mentoring/project-ideas/persist-ui-configuration.md': 'community/gsoc/project-ideas/persist-ui-configuration.md'
+        'community/mentoring/project-ideas/phone-number-data-type.md': 'community/gsoc/project-ideas/phone-number-data-type.md'
+        'community/mentoring/project-ideas/postgis-data-types.md': 'community/gsoc/project-ideas/postgis-data-types.md'
+        'community/mentoring/project-ideas/sharable-forms.md': 'community/gsoc/project-ideas/sharable-forms.md'
+        'community/mentoring/project-ideas/single-select-data-type.md': 'community/gsoc/project-ideas/single-select-data-type.md'
+        'community/mentoring/project-ideas/suggest-candidate-columns.md': 'community/gsoc/project-ideas/suggest-candidate-columns.md'
+        'community/mentoring/project-ideas/support-default-postgres-types.md': 'community/gsoc/project-ideas/support-default-postgres-types.md'
+        'community/mentoring/project-ideas/ui-import-data-existing-table.md': 'community/gsoc/project-ideas/ui-import-data-existing-table.md'
+        'community/mentoring/project-ideas/visualization-of-grouped-data.md': 'community/gsoc/project-ideas/visualization-of-grouped-data.md'
+        'community/mentoring/project-ideas/web-sql-editor.md': 'community/gsoc/project-ideas/web-sql-editor.md'
+        'community/mentoring/project-proposal-template.md': 'community/gsoc/project-proposal-template.md'
+        'design/design-principles.md': 'design/principles.md'
+        'engineering/reports.md': 'community/gsoc/index.md'
+        'engineering/reports/gsoc-2022-dependents-graph.md': 'community/gsoc/past/2022/dependents-graph.md'
+        'engineering/reports/gsoc-2022-importing-data-into-existing-tables.md': 'community/gsoc/past/2022/importing-data-into-existing-tables.md'
+        'engineering/reports/gsoc-2022-json-type.md': 'community/gsoc/past/2022/json-type.md'
+        'engineering/reports/list-datatype.md': 'community/gsoc/past/2023/list-datatype.md'
+        'home.md': 'index.md'
+        'product/about.md': 'product/index.md'
+        'projects/2023-04-usability-improvements.md': 'projects/2023/04/2023-04-usability-improvements.md'
+        'projects/2023-07-backend-fixes.md': 'projects/2023/07/2023-07-backend-fixes.md'
+        'projects/2023-07-frontend-fixes.md': 'projects/2023/07/2023-07-frontend-fixes.md'
+        'projects/2023-07-product-strategy.md': 'projects/2023/07/2023-07-product-strategy.md'
+        'projects/column-moving.md': 'projects/future/column-moving.md'
+        'projects/forms-research.md': 'projects/future/forms-research.md'
+        'projects/formulas-research.md': 'projects/2023/04/formulas-research.md'
+        'projects/funding.md': 'projects/2023/04/funding.md'
+        'projects/gather-user-feedback.md': 'projects/2023/04/gather-user-feedback.md'
+        'projects/installation-documentation-improvements.md': 'projects/2023/04/installation-documentation-improvements.md'
+        'projects/installation-improvements-0_1_3.md': 'projects/2023/07/installation-improvements-0_1_3.md'
+        'projects/installation-improvements-0_1_4.md': 'projects/2023/08/installation-improvements-0_1_4.md'
+        'projects/installation-improvements-plan-0_1_4.md': 'engineering/specs/installation-improvements-plan-0_1_4.md'
+        'projects/internationalization.md': 'projects/2023/07/internationalization.md'
+        'projects/list-datatype.md': 'projects/2023/07/list-datatype.md'
+        'projects/list-datatype/frontend-specs.md': 'engineering/specs/list-data-type-frontend-specs.md'
+        'projects/niche-research.md': 'projects/2023/08/niche-research.md'
+        'projects/preexisting-postgres.md': 'projects/2023/08/preexisting-postgres.md'
+        'projects/public-links-research.md': 'projects/2023/04/public-links-research.md'
+        'projects/release-0-1-2.md': 'projects/2023/04/release-0-1-2.md'
+        'projects/shareable-links-implementation.md': 'projects/2023/07/shareable-links-implementation.md'
+        'projects/sql-alchemy-remove.md': 'projects/future/sql-alchemy-remove.md'
+        'projects/sql-ddl-operations.md': 'projects/2023/07/sql-ddl-operations.md'
+        'projects/sql-dml-operations.md': 'projects/future/sql-dml-operations.md'
+        'projects/sql-dql-operations.md': 'projects/future/sql-dql-operations.md'
+        'projects/t-shirts.md': 'projects/2023/04/t-shirts.md'
+        'projects/user-feedback-kickoff.md': 'projects/2023/04/user-feedback-kickoff.md'
+        'team/guide/issue-assignment.md': 'team/guide/issues.md'
+        'team/guide/issue-triage.md': 'team/guide/issues.md'
+        'team/members.md': 'team/index.md'
+        'en.md': 'index.md'
+        'en/community.md': 'community/index.md'
+        'en/community/mailing-lists.md': 'community/mailing-lists.md'
+        'en/community/matrix.md': 'community/matrix.md'
+        'en/design.md': 'design/index.md'
+        'en/engineering/code-review.md': 'engineering/code-review/index.md'
+        'en/engineering/reports.md': 'community/gsoc/index.md'
+        'en/engineering/reports/gsoc-2022-dependents-graph.md': 'community/gsoc/past/2022/dependents-graph.md'
+        'en/engineering/reports/gsoc-2022-importing-data-into-existing-tables.md': 'community/gsoc/past/2022/importing-data-into-existing-tables.md'
+        'en/engineering/reports/gsoc-2022-json-type.md': 'community/gsoc/past/2022/json-type.md'
+        'en/engineering/reports/list-datatype.md': 'community/gsoc/past/2023/list-datatype.md'
+        'en/home.md': 'index.md'
+        'en/product/specs/users-permissions.md': 'product/specs/users-permissions.md'
+        'en/team.md': 'team/index.md'
+
+theme:
+  name: material
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.ico
+  features:
+      - content.code.copy
+      - navigation.indexes
+  font:
+    text: Nunito Sans
+    code: Fira Code
+  icon:
+    repo: fontawesome/brands/github
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+extra_css:
+  - stylesheets/extra.css
+  
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - codehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - smarty
+  - tables
+  - toc:
+      title: On this page
+      permalink: true

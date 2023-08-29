@@ -1,0 +1,7 @@
+nav:
+  - GitHub: github.md
+  - Mailing lists: mailing-lists.md
+  - Matrix: matrix.md
+  - Discord: discord.md
+  - GSoC: gsoc
+  - ...
