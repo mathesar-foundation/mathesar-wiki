@@ -13,7 +13,11 @@
 
 ### 23-08-29
 
-Unavailable due to family trouble
+Largely unavailable due to family trouble
+
+- Setup a bi-weekly sync with Sean until the end of cycle
+- Cancelled sync with Anshuman
+- Started drafting a developer guide for working with our Postgres library
 
 ### 23-08-28
 
