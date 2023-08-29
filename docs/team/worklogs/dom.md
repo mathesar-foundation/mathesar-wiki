@@ -1,11 +1,8 @@
-# Dom's work log
-
 ## Active
 
-- Consider volunteering for user-feedback improvement in xy email thread
-- Start work on backend fixes
-- See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
-- See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
+- Respond in permissions and related entities email thread
+- Respond in rsqla1 retrospective email thread
+- See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
 
 ## Backlog
 
@@ -14,8 +11,48 @@
 
 ## Complete
 
-### 2023-08-17
+### 23-08-29
 
+Unavailable due to family trouble
+
+### 23-08-28
+
+- Sync with Brent
+- Review and merge [#3155](https://github.com/centerofci/mathesar/issues/3155) (anshuman's pr)
+- Add support for column comments in backend in [#3186](https://github.com/centerofci/mathesar/issues/3186)
+
+### 2023-08-24
+
+- Spent all day debugging support for column comments
+
+### 2023-08-24
+
+- See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
+- See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
+- Respond in release email thread
+
+### 2023-08-23
+
+- Review and merge [#3156](https://github.com/centerofci/mathesar/issues/3156) (brent's test bug workaround pr)
+- Respond in installation email thread
+- Respond in appetite email thread
+
+### 2023-08-22
+
+- Sync with Anshuman
+- Respond in stale bot issue thread
+- Respond in niche research thread
+- Respond in should we install on user db email thread
+
+### 2023-08-21
+
+- Start work on backend fixes
+- Respond in installation email thread
+- Respond in xy problem email thread
+
+### 2023-08-18
+
+- Published worklog
 - Prepare for team meeting
 - Respond in criteria for closing user issues email thread
 - Update backend fixes project with outcome
