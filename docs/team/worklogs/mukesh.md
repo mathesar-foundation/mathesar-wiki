@@ -1,19 +1,32 @@
 # Mukesh work log
 
 ## Actively working on
-- Create PR for the Postgres docker image
+- Open up the [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top) for a review
 
 ## Backlog
+- Send email on the Installation project update
 - Add compatibility table for comparing various personas with our features
 
 
+## 2023-08-29
+- Based on the feedback updated [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top) and asked for a review
+- Async check in with anish
+- Create a draft PR for [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top)
+
+
+## 2023-08-28
+- Continue work on debian package for Mathesar
+- Took a day off due to migraine
+
+## 2023-08-25
+- Sync with Kriti
+- Work on adding a debian package 
 
 ## 2023-08-24
 - Created various issues to track the Installation Improvement Project 0.1.4
 - Async discussions with Anish
 - Update the Installation Improvement Project 0.1.4 based on the feedback
 - Async discussion with Varsha
-
 
 ## 2023-08-23
 - Review and merge [Add tests for third party table with long identifiers](https://github.com/centerofci/mathesar/pull/3140#top)
