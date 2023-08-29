@@ -8,6 +8,58 @@ editor: markdown
 dateCreated: 2023-07-10T13:57:01.782Z
 ---
 
+**TODO**
+
+- Start an email thread on the dev mailing list for the i18n retrospective
+- Address review feedback in [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Address review feedback in [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
+- Address review feedback in [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
+- i18n Other documentation-related tasks
+- i18n PR for making all strings in the FE codebase translatable. The work here is done, just need to update as per the review comments on other PRs.
+- ESLint rule for i18n
+- i18n testing
+- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+- Sync with Mukesh about the next cycle's installation work. (Mukesh will be sending out an invite for Friday once he has the project write-up ready.)
+- Update the i18n project's wiki page.
+- Send out project updates e-mail for i18n.
+- type:notes for https://github.com/centerofci/mathesar/issues/3028?
+
+## 2023-08-28
+
+**Active**
+
+- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+
+**Completed**
+
+- Chat with Sean about adhoc issues in the cycle that needs to be assigned to me
+- Repo admin
+
+## 2023-08-25
+
+_On leave from 2023-08-21 half day to 2023-08-25 half day_
+
+**Active**
+
+- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+
+## 2023-08-21
+
+_Half day_
+
+**Completed**
+
+- Repo-admin
+
+## 2023-08-17
+
+**Completed**
+
+- Repo-admin
+- Prepare & do use-cases meetings with Ghislaine.
+- Get v0.1.3 out
+  - Including super user creation page items from the Installations improvements project.
+
 ## 2023-08-16
 
 - _2023-08-11 - Planned leave_
