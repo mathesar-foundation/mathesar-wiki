@@ -27,9 +27,9 @@
 ## 2023-08-28 Monday
 
 - Chat with Rajat about upcoming tasks
+- Review QA tickets opened by Brent, adding some comments
 - Work on Markdown style guide
 - Work on Sheet selection refactor
-- Review QA tickets opened by Brent, adding some comments
 
 ## 2023-08-25 Friday
 
