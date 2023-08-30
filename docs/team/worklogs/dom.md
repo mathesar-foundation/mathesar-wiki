@@ -12,7 +12,7 @@
 
 ## Complete
 
-### 23-08-29
+### 2023-08-29
 
 Largely unavailable due to family trouble
 
@@ -20,13 +20,13 @@ Largely unavailable due to family trouble
 - Cancelled sync with Anshuman
 - Started drafting a developer guide for working with our Postgres library
 
-### 23-08-28
+### 2023-08-28
 
 - Sync with Brent
 - Review and merge [#3155](https://github.com/centerofci/mathesar/issues/3155) (anshuman's pr)
 - Add support for column comments in backend in [#3186](https://github.com/centerofci/mathesar/issues/3186)
 
-### 2023-08-24
+### 2023-08-25
 
 - Spent all day debugging support for column comments
 
