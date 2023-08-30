@@ -24,6 +24,17 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-08-29 Tuesday
+
+*(Shorter day due to some intermittent family demands throughout the day)*
+
+- 1/1 with Mukesh
+- Work on Sheet selection refactor
+- 1/1 with Ghislaine
+- Some smaller conversations
+- Begin drafting response to "Avoiding regressions" thread
+
+
 ## 2023-08-28 Monday
 
 - Chat with Rajat about upcoming tasks
