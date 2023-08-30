@@ -1,5 +1,19 @@
 # Ghislaine's work log
 
+## 2023-08-30
+
+- Write down notes from meeting w Sean
+- Database credentials design
+
+## 2023-08-29
+
+- Niche research
+- Niche discussion w Sean
+- Review github mentions / other discussions
+
+**Current Focus**
+- Niche research
+
 ## 2023-08-28
 
 - Setting up meetings to discuss niche research.
