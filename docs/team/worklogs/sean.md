@@ -35,6 +35,7 @@
 - 1/1 with Brent
 - Write [script to identify stale work logs](https://github.com/centerofci/mathesar-wiki/commit/74a5d48f7e27d6ad2e1d3188742c999dc1465675)
 - Review "Quick User Check-in" survey, emailing critique
+- Clean up [FE code standard PR](https://github.com/centerofci/mathesar-wiki/pull/93), moving it to a [draft PR](https://github.com/centerofci/mathesar/pull/3191) on the main repo.
 
 ## 2023-08-29 Tuesday
 
