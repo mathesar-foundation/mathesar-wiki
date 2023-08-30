@@ -4,6 +4,10 @@
 
 ### Soon
 
+- Move Tuesday meetings
+- Schedule next meeting with Brent
+- Schedule meeting with Pavish
+- Schedule meeting with Anish
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
@@ -24,6 +28,14 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-08-30 Wednesday
+
+- Respond to "Avoiding regressions" email thread
+- Respond to "Product level permissions to account for related entities" thread
+- 1/1 with Brent
+- Write [script to identify stale work logs](https://github.com/centerofci/mathesar-wiki/commit/74a5d48f7e27d6ad2e1d3188742c999dc1465675)
+- Review "Quick User Check-in" survey, emailing critique
+
 ## 2023-08-29 Tuesday
 
 *(Shorter day due to some intermittent family demands throughout the day)*
@@ -33,7 +45,6 @@
 - 1/1 with Ghislaine
 - Some smaller conversations
 - Begin drafting response to "Avoiding regressions" thread
-
 
 ## 2023-08-28 Monday
 
