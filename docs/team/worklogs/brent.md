@@ -2,22 +2,34 @@
 
 ## Actively working on
 
-### Meetings
-- 1:1 with Anish
-- 1:1 with Aritra
-
 ### Release 0.1.3
-- Making images
-- Testing release
-
-### Projects
-- Going back through RSQLA 2, 3, 4 writeups and updating them
+- Deploying to demo setup
 
 ### Preexisting DB compatibility
 - Start organizing some basic meta issues around known problems (we can add more)
 
 ### User help
 - Conduct a round of follow-up with various users.
+
+
+## 2023-08-31
+
+I've been lax about filling these in for a few days. My work has involved 
+
+- the release, 
+- hunting related bugs, and 
+- deployment of the release. 
+
+I'm resetting to get back on track.
+
+### Meetings
+- Met with Ghislaine to discuss user niche
+
+### Deployment
+- Deployed new version to mathesar.ito.com
+- Deployed new version to cci.mathesar.org
+- Double-checked staging.mathesar.org
+- Worked on demo deployment
 
 ## 2023-08-23
 
