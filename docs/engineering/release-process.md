@@ -141,3 +141,6 @@ For details on the Release management process, refer the [Release management ong
 
 ### 5. Merge master into develop
 - After the release is made successfully, merge the `master` branch into `develop`.
+
+
+Update the servers once the release is complete. [This is the process](server-update-process.md) to update the servers
