@@ -6,6 +6,19 @@
 * Upgrading Node version and FE packages
 
 # Daily logs
+## 2023-08-31
+* Started reviewing [Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102) 
+* Spent time finding issues/features to work on, when I'm not actively assiting on the projects
+* Chat with Brent and Ghislaine on further tasks for Postgres DB compatibility and Niche research projects
+
+## 2023-08-28 to 2023-08-30
+* Assisted with the release
+* Spent time thinking/researching/taking-notes on:
+  - improvements to our permissions system
+  - performance improvements by simplifying the cell component
+  - an approach towards e2e tests
+  - steps to improve our routing approach
+
 ## 2023-08-25
 * Fixed regression and raised PR: [Move UserProfile to the App level context from Route level context](https://github.com/centerofci/mathesar/pull/3175)
 * 1-1 with Kriti
