@@ -4,14 +4,11 @@
 
 ### Soon
 
-- Move Tuesday meetings
-- Schedule next meeting with Brent
-- Schedule meeting with Pavish
-- Schedule meeting with Anish
+- Reschedule Tuesday's meeting with Mukesh
+- Review docs changes in [Remove db superuser requirement](https://github.com/centerofci/mathesar/pull/3117)
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Begin "User Communication Guide", as a wiki page
-- Write "Markdown style guide" wiki page
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 
 ### Community PR review
@@ -27,6 +24,15 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-08-31 Thursday
+
+- Brief team-management-related check-ins with Brent, Pavish, Ghislaine, Anish, Rajat
+- Open ticket [Configure code formatting for Markdown within docs and wiki sites](https://github.com/centerofci/mathesar/issues/3194)
+- Raise [mdformat bug](https://github.com/executablebooks/mdformat/issues/413) preventing us from using it
+- Publish [Markdown Style Guide](https://wiki.mathesar.org/engineering/markdown/)
+- Send [Markdown syntax](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7hAgMsWgMZw/m/xayJFNtvAgAJ) email
+- Some continued work on Cell Selection refactor
 
 ## 2023-08-30 Wednesday
 
