@@ -25,6 +25,12 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-09-01 Friday
+
+- Team event
+- Discuss scheduling of niche research meeting with Pavish and Ghislaine
+- Push more commits to my Cell Selection refactor PR
+
 ## 2023-08-31 Thursday
 
 - Brief team-management-related check-ins with Brent, Pavish, Ghislaine, Anish, Rajat
