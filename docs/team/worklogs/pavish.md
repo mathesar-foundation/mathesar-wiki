@@ -6,6 +6,16 @@
 * Upgrading Node version and FE packages
 
 # Daily logs
+## 2023-09-04
+* Reviewed, added commits, and merged [Fix URL cell focus loss when clicking on its contained hyperlink](https://github.com/centerofci/mathesar/pull/3012)
+* Call with Brent on Preexisting DB compatibility project
+* Responded to mails
+* Started work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+
+## 2023-09-01
+* Core team event
+* Spent time testing to find breaking features with preexisting postgres DB
+
 ## 2023-08-31
 * Started reviewing [Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102) 
 * Spent time finding issues/features to work on, when I'm not actively assiting on the projects
