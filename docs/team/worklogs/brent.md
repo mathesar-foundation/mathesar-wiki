@@ -2,15 +2,38 @@
 
 ## Actively working on
 
-### Release 0.1.3
-- Deploying to demo setup
+### Meetings
+
+- 1:1 with Pavish about preexisting DB project
+- 1:1 with Dom
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186
+- https://github.com/centerofci/mathesar-ansible/pull/42
+- https://github.com/centerofci/mathesar-wiki/pull/105
 
 ### Preexisting DB compatibility
+
 - Start organizing some basic meta issues around known problems (we can add more)
+- Exploring test data set hosting options
 
 ### User help
+
 - Conduct a round of follow-up with various users.
 
+## 2023-09-01
+
+### Meetings
+
+- meeting with Mukesh about demo deployment
+- 1:1 with Mukesh
+- Core team event
+
+### Release 0.1.3
+
+- Successfully got the prod deployments deployed
+- Spent most of the day fighting with demo setup
 
 ## 2023-08-31
 
