@@ -1,5 +1,12 @@
 # Ghislaine's work log
 
+## 2023-08-31
+
+- Niche Research
+- Database credentials design
+- Survey edits
+- Niche discussion w Brent
+
 ## 2023-08-30
 
 - Write down notes from meeting w Sean
