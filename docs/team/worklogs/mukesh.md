@@ -7,6 +7,26 @@
 - Send email on the Installation project update
 - Add compatibility table for comparing various personas with our features
 
+## 2023-09-01
+- Partial day off due to travel
+- Debugging issues with the demo server
+- Sync with brent
+- Team event
+
+## 2023-08-31
+- Open PR which documents [Demo server version upgrade process](https://github.com/centerofci/mathesar-wiki/pull/105)
+- Day off due to travel
+
+## 2023-08-30
+- Debug problems with the demo server
+- Sync with brent to discuss the problem the problems with the demo server
+- Open PR which contains [Demo server fixes](https://github.com/centerofci/mathesar-ansible/pull/42)
+
+## 2023-08-29
+- Based on the feedback updated [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top) and asked for a review
+- Async check in with anish
+- Create a draft PR for [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top)
+- Sync with Sean
 
 ## 2023-08-29
 - Based on the feedback updated [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top) and asked for a review
