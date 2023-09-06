@@ -6,102 +6,18 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
-## 2023-08-29
+## 2023-09-05
 
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170) & made it ready for reveiw
+- Worked on [#3198](https://github.com/centerofci/mathesar/pull/3198) and testing it
 
-## 2023-08-28
+## 2023-09-04
 
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+- Worked on github action for uploading static assets to release [#3198](https://github.com/centerofci/mathesar/pull/3198)
 
-## 2023-08-25
+## 2023-09-01
 
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
+- Reviewed [#3195](https://github.com/centerofci/mathesar/pull/3195)
 - Sync with Anshuman(GSoC)
-
-## 2023-08-24
-
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-08-23
-
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
-- Weekly meet
-
-## 2023-08-22
-
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-08-21
-
-- Worked on [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-08-18
-
-- Sync with Mukesh about installation improvements
-- Sync with Anshuman(GSoC)
-- Weekly meet
-- Re-reviewed [#3132](https://github.com/centerofci/mathesar/pull/3132) & [#3083](https://github.com/centerofci/mathesar/pull/3083)
-- Caught up on emails
-
-## 2023-08-17
-
-*Did nothing*
-
-## 2023-08-16
-
-- Sync with Brent
-
-## 2023-08-15
-
-- Sync with Ghislaine
-
-## 2023-08-14
-
-*Did nothing*
-
-## 2023-08-11
-
-- Sync with Anshuman
-- Reviewed PRs [#3132](https://github.com/centerofci/mathesar/pull/3132) & [#3083](https://github.com/centerofci/mathesar/pull/3083)
-
-## 2023-08-10
-- SQL tests for alter table [#3139](https://github.com/centerofci/mathesar/pull/3139)
-- Sync with Brent
-- Team meeting
-
-## 2023-08-09
-
-- Weekly meet
-
-## 2023-08-08
-
-*Did nothing*
-
-## 2023-08-07
-
-- Minor requested changes for [#3130](https://github.com/centerofci/mathesar/pull/3130)
-
-## 2023-08-04
-
-- Fixed failing tests in [#3130](https://github.com/centerofci/mathesar/pull/3130)
-- Sync with Anshuman
-
-## 2023-08-03
-
-- Sync with Brent
-- Wiring of SQL funcs for links & tables [#3130](https://github.com/centerofci/mathesar/pull/3130)
-
-## 2023-08-02
-
-- Added SQL and python tests for constraints DDL [#3120](https://github.com/centerofci/mathesar/pull/3120)
-- Mathesar weekly meet
-- Opened [#3124](https://github.com/centerofci/mathesar/issues/3124) & discussed with Brent
-
-
-## 2023-08-01
-
-- Added SQL and python tests for links DDL [#3120](https://github.com/centerofci/mathesar/pull/3120)
 
 # Archive
- - [July 2023 work logs](/team/worklogs/anish/2023-07.md)
+ - [August 2023 work logs](/team/worklogs/archive/2023-08/anish/)
