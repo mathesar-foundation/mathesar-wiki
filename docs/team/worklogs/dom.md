@@ -1,8 +1,8 @@
 # Dom's work log
 ## Active
 
+- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
-- Make requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
 - Respond in rsqla1 retrospective email thread
   - by Sept 15th
 - See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
@@ -16,6 +16,7 @@
 
 ### 2023-09-07
 
+- Make most of requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
 - Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195)
 
 ### 2023-09-06
