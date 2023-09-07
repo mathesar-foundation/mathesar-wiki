@@ -4,7 +4,6 @@
 
 ### Soon
 
-- Finish re-review of user survey
 - Review docs changes in [Remove db superuser requirement](https://github.com/centerofci/mathesar/pull/3117)
 - Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
 - Re-review [[i18n] Save preferred\_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
@@ -27,6 +26,15 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-07 Thursday
+
+- A number of smaller team management tasks
+- 1/1 with Anish
+- 1/1 with Mukesh
+- Review copy in [DB config UI](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34/Styling?type=design&node-id=6075-18452&mode=design&t=kz3pGsUL09ZqMmdS-0#549330977), commenting in Figma, and starting a [discussion](https://matrix.to/#/!UZILDSNKobkelUYwBp:matrix.mathesar.org/$jEGirwFlqkfARDdA1GvJ3eQTwqa38fSKWuonv31_JFA?via=matrix.mathesar.org&via=matrix.org) on Matrix.
+- Finish and send critique of user survey
+- Some minor clean up in some tickets and PRs
 
 ## 2023-09-06 Wednesday
 
