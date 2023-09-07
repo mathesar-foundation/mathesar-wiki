@@ -7,8 +7,7 @@
 - Team meeting
 
 ### PR reviews
-
-- https://github.com/centerofci/mathesar/pull/3186
+- https://github.com/centerofci/mathesar/pull/3121
 - https://github.com/centerofci/mathesar-ansible/pull/42
 - https://github.com/centerofci/mathesar-wiki/pull/105
 
@@ -18,11 +17,21 @@
 - Exploring test data set hosting options
 
 ### User help
+
 - Respond to form response from FreshDesk
+
+## 2023-09-07
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186
 
 ## 2023-09-06
 
 Short day due to sick family
+
+### Meetings
+- Team meeting
 
 ### Email / messaging
 
