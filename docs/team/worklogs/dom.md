@@ -14,11 +14,11 @@
 
 ## Complete
 
-### 23-09-07
+### 2023-09-07
 
 - Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195)
 
-### 23-09-06
+### 2023-09-06
 
 - Start [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - Team sync
@@ -26,11 +26,11 @@
 - Sync with Anshuman
 - Review [#3195](https://github.com/centerofci/mathesar/issues/3195)
 
-### 23-??-??
+### 2023-??-??
 
 Unavailable due to family reasons
 
-### 23-08-29
+### 2023-08-29
 
 Largely unavailable due to family trouble
 
@@ -38,7 +38,7 @@ Largely unavailable due to family trouble
 - Cancelled sync with Anshuman
 - Started drafting a developer guide for working with our Postgres library
 
-### 23-08-28
+### 2023-08-28
 
 - Sync with Brent
 - Review and merge [#3155](https://github.com/centerofci/mathesar/issues/3155) (anshuman's pr)
