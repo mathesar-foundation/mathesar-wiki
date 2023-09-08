@@ -1,7 +1,6 @@
 # Dom's work log
 ## Active
 
-- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - Respond in rsqla1 retrospective email thread
   - by Sept 15th
@@ -13,6 +12,14 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-09-08
+
+I've been taking a long time to get into our SQL code; the learning curve is
+somewhat steep, I find. I do feel like I'm making good progress though.
+
+- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
+- Sync with Brent
 
 ### 2023-09-07
 
