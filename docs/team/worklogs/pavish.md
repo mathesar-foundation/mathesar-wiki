@@ -7,6 +7,20 @@
 * Work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
 
 # Daily logs
+## 2023-09-08
+* Continued testing PG versions for compatibility
+* Started looking through PG permissions to test effect of different permission levels on Mathesar
+
+## 2023-09-07
+* Call with Mukesh on static file location
+* Reviewed [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Reviewed [Design spec for adding user database credentials using the UI](https://github.com/centerofci/mathesar/issues/3159)
+
+## 2023-09-06
+* Weekly meeting
+* 1:1 with Sean
+* Took a look at the form for survey
+
 ## 2023-09-05
 * Started testing PG versions to test compatibility
 * Had a partial work day
