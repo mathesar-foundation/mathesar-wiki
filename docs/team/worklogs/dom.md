@@ -18,13 +18,14 @@
 I've been taking a long time to get into our SQL code; the learning curve is
 somewhat steep, I find. I do feel like I'm making good progress though.
 
-- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
+- Review and merge [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
+- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
 - Sync with Brent
 
 ### 2023-09-07
 
-- Make most of requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
-- Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195)
+- Make most of requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
+- Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
 
 ### 2023-09-06
 
@@ -32,7 +33,7 @@ somewhat steep, I find. I do feel like I'm making good progress though.
 - Team sync
 - Catch up on emails
 - Sync with Anshuman
-- Review [#3195](https://github.com/centerofci/mathesar/issues/3195)
+- Review [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
 
 ### 2023-??-??
 
