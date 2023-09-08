@@ -2,6 +2,7 @@
 
 **TODO**
 
+- Finish i18n documentation for developers.
 - Start an email thread on the dev mailing list for the i18n retrospective
 - i18n Other documentation-related tasks
 - i18n PR for making all strings in the FE codebase translatable. The work here is done, just need to update as per the review comments on other PRs.
@@ -15,25 +16,17 @@
 
 ## 2023-09-07
 
-**Active**
-
-- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Worked on i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 
 ## 2023-09-06
-
-**Completed**
 
 - Address review feedback in [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
 
 ## 2023-09-05
 
-**Completed**
-
 - Address review feedback in [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
 
 ## 2023-09-04
-
-**Completed**
 
 - Address review feedback in [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
