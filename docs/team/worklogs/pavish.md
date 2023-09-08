@@ -8,7 +8,7 @@
 
 # Daily logs
 ## 2023-09-08
-* Continued testing PG versions for compatibility
+* Finished testing PG versions 9 and 10 for compatibility
 * Started looking through PG permissions to test effect of different permission levels on Mathesar
 
 ## 2023-09-07
