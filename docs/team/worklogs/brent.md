@@ -4,23 +4,64 @@
 
 ### Meetings
 
-- 1:1 with Pavish about preexisting DB project
-- 1:1 with Dom
+- Team meeting
 
 ### PR reviews
-
-- https://github.com/centerofci/mathesar/pull/3186
+- https://github.com/centerofci/mathesar/pull/3121
 - https://github.com/centerofci/mathesar-ansible/pull/42
 - https://github.com/centerofci/mathesar-wiki/pull/105
 
 ### Preexisting DB compatibility
 
-- Start organizing some basic meta issues around known problems (we can add more)
+- Continue organizing some basic meta issues around known problems (we can add more)
 - Exploring test data set hosting options
 
 ### User help
 
-- Conduct a round of follow-up with various users.
+- Respond to form response from FreshDesk
+
+## 2023-09-07
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186
+
+## 2023-09-06
+
+Short day due to sick family
+
+### Meetings
+- Team meeting
+
+### Email / messaging
+
+- Replied to DB access email thread
+  - First, I re-read the PostgreSQL docs about permissions, roles and `GRANT`
+- Replied to E2E testing thread
+
+## 2023-09-05
+
+Short day due to sick family
+
+### Marketing
+
+- Cleared out inbox of Syften notifications, flagged interesting ones
+
+### Preexisting DB compatibility
+- Worked on organizing thinking for known problems
+- Started Meta issue, tested DB versions
+
+## 2023-09-04
+
+Short day due to sick family.
+
+### Meetings
+
+- 1:1 with Pavish about preexisting DB project
+
+### Preexisting DB compatibility
+
+- Worked on organizing thinking for known problems
 
 ## 2023-09-01
 

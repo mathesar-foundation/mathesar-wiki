@@ -1,5 +1,12 @@
 # Ghislaine's work log
 
+## 2023-09-07
+- Niche Research: Collect Use Cases
+- Review Round: Database Credentials
+
+## 2023-09-06
+- Niche Research
+
 ## 2023-09-05
 - Niche research
 - Work on presentation of niche research for team meeting

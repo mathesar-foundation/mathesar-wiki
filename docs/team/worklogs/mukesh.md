@@ -2,11 +2,54 @@
 
 ## Actively working on
 - Open up the [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top) for a review
+- Review "Database credentials page" design spec
 
 ## Backlog
-- Send email on the Installation project update
 - Add compatibility table for comparing various personas with our features
 
+
+## 2023-09-07
+- Check in with Brent to discuss Postgres 15 compatiblity issues, debian package review
+- Check in with Pavish to discuss manifest.json location
+- Review backend PR for adding database credential API
+
+## 2023-09-06
+- Weekly meeting
+- Fix issues with the postgres docker image PR based on the review
+- Final testing and fixes with the debian package PR
+- Assign anish to work on adding support for SQLite as internal database
+
+## 2023-09-05
+- Check in with Varsha
+- Check in with Anish, did a review of github action to generate static files
+- Test out the debian package on various debian distro and fix issues that came up with it
+
+## 2023-09-04
+- Fixed the permission issue with the demo db setup script
+- Async discussion with Anish to check in on the progress
+- Make fixes to the debian package PR
+- Reorganize the work to be done for the installation project as I got sidetracked with the deployment
+
+## 2023-09-01
+- Partial day off due to travel
+- Debugging issues with the demo server
+- Sync with brent
+- Team event
+
+## 2023-08-31
+- Open PR which documents [Demo server version upgrade process](https://github.com/centerofci/mathesar-wiki/pull/105)
+- Day off due to travel
+
+## 2023-08-30
+- Debug problems with the demo server
+- Sync with brent to discuss the problem the problems with the demo server
+- Open PR which contains [Demo server fixes](https://github.com/centerofci/mathesar-ansible/pull/42)
+
+## 2023-08-29
+- Based on the feedback updated [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top) and asked for a review
+- Async check in with anish
+- Create a draft PR for [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top)
+- Sync with Sean
 
 ## 2023-08-29
 - Based on the feedback updated [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top) and asked for a review

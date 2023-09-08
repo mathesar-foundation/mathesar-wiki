@@ -1,8 +1,10 @@
 # Dom's work log
 ## Active
 
-- Respond in permissions and related entities email thread
+- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
+- Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - Respond in rsqla1 retrospective email thread
+  - by Sept 15th
 - See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
 
 ## Backlog
@@ -11,6 +13,23 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-09-07
+
+- Make most of requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186)
+- Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195)
+
+### 2023-09-06
+
+- Start [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+- Team sync
+- Catch up on emails
+- Sync with Anshuman
+- Review [#3195](https://github.com/centerofci/mathesar/issues/3195)
+
+### 2023-??-??
+
+Unavailable due to family reasons
 
 ### 2023-08-29
 
@@ -26,7 +45,7 @@ Largely unavailable due to family trouble
 - Review and merge [#3155](https://github.com/centerofci/mathesar/issues/3155) (anshuman's pr)
 - Add support for column comments in backend in [#3186](https://github.com/centerofci/mathesar/issues/3186)
 
-### 2023-08-25
+### 2023-08-24
 
 - Spent all day debugging support for column comments
 
