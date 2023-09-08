@@ -4,16 +4,9 @@
 
 ### Soon
 
-- Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
-- Re-review [[i18n] Save preferred\_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
-- Re-review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
-
-### Community PR review
-
-- [fix: cell loses focus when clicking on its outline](https://github.com/centerofci/mathesar/pull/3185)
-- [Dont show "Go to Record Page" for error rows](https://github.com/centerofci/mathesar/pull/3114)
+- Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
 
 ### Backlog
 
@@ -25,6 +18,17 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-08 Friday
+
+- Some smaller team management check-ins and follow-ups
+- Several small discussions
+- Partial 1/1 with Rajat
+- Re-review [[i18n] Save preferred\_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
+- Re-review [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
+- Review community PR [fix: cell loses focus when clicking on its outline](https://github.com/centerofci/mathesar/pull/3185)
+- 1/1 with Ghislaine
+- Review [Dont show "Go to Record Page" for error rows](https://github.com/centerofci/mathesar/pull/3114)
 
 ## 2023-09-07 Thursday
 
