@@ -6,6 +6,18 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
+## 2023-09-07
+
+- Sync with Mukesh
+- Sync with Brent
+- Sync with Sean
+- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055)
+
+## 2023-09-06
+
+- Weekly meet
+- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055)
+
 ## 2023-09-05
 
 - Worked on [#3198](https://github.com/centerofci/mathesar/pull/3198) and testing it
