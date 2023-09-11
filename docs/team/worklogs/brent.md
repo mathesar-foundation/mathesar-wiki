@@ -10,21 +10,50 @@
 - https://github.com/centerofci/mathesar/pull/3121
 - https://github.com/centerofci/mathesar-ansible/pull/42
 - https://github.com/centerofci/mathesar-wiki/pull/105
+- https://github.com/centerofci/mathesar/pull/3186
 
 ### Preexisting DB compatibility
 
 - Continue organizing some basic meta issues around known problems (we can add more)
-- Exploring test data set hosting options
+
+### Marketing
+
+- Go through notifications from weekend, triage
 
 ### User help
 
 - Respond to form response from FreshDesk
 
-## 2023-09-07
+## 2023-09-08
+
+### Meetings
+
+- 1:1 with Mukesh
+- Catch up with Dom w.r.t. his PR #3186
 
 ### PR reviews
 
-- https://github.com/centerofci/mathesar/pull/3186
+- Follow up on https://github.com/centerofci/mathesar/pull/3186
+
+### Preexisting DB compatibility
+
+- Continued testing of problems, added to [the meta issue](https://github.com/centerofci/mathesar/issues/3199)
+
+## 2023-09-07
+
+### Meetings
+
+- 1:1 with Anish
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (requested changes)
+- https://github.com/centerofci/mathesar/pull/3121 (requested changes)
+
+### Preexisting DB compatibility
+
+- Continued testing of problems, added to [the meta issue](https://github.com/centerofci/mathesar/issues/3199)
+- Decided _not_ to host test data; we determined it's not useful at the moment.
 
 ## 2023-09-06
 
