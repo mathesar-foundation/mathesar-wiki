@@ -1,10 +1,12 @@
 # Dom's work log
 ## Active
 
-- Post Monday's weekly project update
-- Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+- Make requested changes in [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
 - Respond in rsqla1 retrospective email thread
-  - by Sept 15th
+  - hard deadline is Sept 15th
+  - but I said I'll do it Sept 12th (Tuesday)
+    - so we can do more rounds of conversation
+- Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
 
 ## Backlog
@@ -13,6 +15,12 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-09-11
+
+- Sync with Brent
+- Post Monday's weekly project update
+- Review [#3200](https://github.com/centerofci/mathesar/issues/3200) (contributor's pr)
 
 ### 2023-09-08
 
