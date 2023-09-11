@@ -7,6 +7,7 @@
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
+- Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 
 ### Backlog
 
@@ -18,6 +19,13 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-11 Monday
+
+- Push some more commits to my [CellSelection PR](https://github.com/centerofci/mathesar/pull/3037)
+- Open ticket [Reactivity problem with cell value in Data Explorer table inspector](https://github.com/centerofci/mathesar/issues/3205)
+- 1/1 with Rajat
+- Some time exploring MotherDuck product
 
 ## 2023-09-08 Friday
 
