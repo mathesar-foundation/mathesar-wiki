@@ -1,6 +1,7 @@
 # Dom's work log
 ## Active
 
+- Post Monday's weekly project update
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - Respond in rsqla1 retrospective email thread
   - by Sept 15th
