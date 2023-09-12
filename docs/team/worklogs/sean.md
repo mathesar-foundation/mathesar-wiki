@@ -4,6 +4,8 @@
 
 ### Soon
 
+- Review [Added documentation for importing Excel data](https://github.com/centerofci/mathesar/pull/3204)
+- Check in with Anish to see if he's running out of tasks
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
@@ -19,6 +21,15 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-12 Tuesday
+
+*(Half day due to sick kid)*
+
+- Spend a little time profiling JS perf with table page rendering to get a rough sense of where our bottle necks are.
+- 1/1 with Mukesh
+- Survey work meeting
+- Wordsmith [options](https://hackmd.io/MCqmgnH9TymhKfj3L0fYJg?both) for survey
 
 ## 2023-09-11 Monday
 
