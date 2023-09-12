@@ -2,10 +2,6 @@
 ## Active
 
 - Make requested changes in [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
-- Respond in rsqla1 retrospective email thread
-  - hard deadline is Sept 15th
-  - but I said I'll do it Sept 12th (Tuesday)
-    - so we can do more rounds of conversation
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 - See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
 
@@ -15,6 +11,17 @@
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
 ## Complete
+
+### 2023-09-12
+
+Had technical difficulties with the internet today, cut workday short.
+
+- Respond in rsqla1 retrospective email thread
+  - hard deadline is Sept 15th
+  - but I said I'll do it Sept 12th (Tuesday)
+    - so we can do more rounds of conversation
+- Sync with Anshuman
+- Did final RSVP for GSoC summit
 
 ### 2023-09-11
 
