@@ -1,12 +1,24 @@
 # Mukesh work log
 
 ## Actively working on
-- Open up the [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top) for a review
-- Review "Database credentials page" design spec
 
 ## Backlog
 - Add compatibility table for comparing various personas with our features
 
+
+
+## 2023-09-11
+
+- Write up Installation project update
+- Check in with Installation project helpers
+- Starting writing documentation
+
+
+## 2023-09-08
+
+- Sync with Brent
+- Open up the [Add script for creating debian package](https://github.com/centerofci/mathesar/pull/3189#top) for a review
+- Review "Database credentials page" design spec
 
 ## 2023-09-07
 - Check in with Brent to discuss Postgres 15 compatiblity issues, debian package review
