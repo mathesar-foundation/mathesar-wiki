@@ -7,6 +7,14 @@
 * Work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
 
 # Daily logs
+## 2023-09-12
+* Survey work session with Ghislaine and Sean
+* Continued testing effect of varying PG permissions in Mathesar
+* Continued working on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+
+## 2023-09-11
+* I had a day off work
+
 ## 2023-09-08
 * Finished testing PG versions 9 and 10 for compatibility
 * Started looking through PG permissions to test effect of different permission levels on Mathesar
