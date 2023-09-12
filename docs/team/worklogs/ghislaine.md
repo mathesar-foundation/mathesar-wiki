@@ -1,5 +1,17 @@
 # Ghislaine's work log
 
+## 2023-09-12
+- Niche research: Product vision for Mathesar
+- Database credentials update
+- Survey updates
+
+## 2023-09-11
+- Niche research: Collect data
+
+## 2023-09-08
+- Niche research: Collect data
+- Review niche research with Sean
+
 ## 2023-09-07
 - Niche Research: Collect Use Cases
 - Review Round: Database Credentials
