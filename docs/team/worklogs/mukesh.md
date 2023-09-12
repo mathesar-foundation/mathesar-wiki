@@ -1,17 +1,19 @@
 # Mukesh work log
 
 ## Actively working on
+- Update documentation for docker installation
+- Review Github action for generating static assets
+- Write email on build platform
 
 ## Backlog
 - Add compatibility table for comparing various personas with our features
-
 
 
 ## 2023-09-11
 
 - Write up Installation project update
 - Check in with Installation project helpers
-- Starting writing documentation
+- Start writing documentation
 
 
 ## 2023-09-08
