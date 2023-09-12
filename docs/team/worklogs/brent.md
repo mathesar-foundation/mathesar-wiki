@@ -2,27 +2,51 @@
 
 ## Actively working on
 
-### Meetings
-
-- Team meeting
-
 ### PR reviews
+
 - https://github.com/centerofci/mathesar/pull/3121
 - https://github.com/centerofci/mathesar-ansible/pull/42
 - https://github.com/centerofci/mathesar-wiki/pull/105
-- https://github.com/centerofci/mathesar/pull/3186
 
 ### Preexisting DB compatibility
 
 - Continue organizing some basic meta issues around known problems (we can add more)
+  - Looking into composite types
+  - Looking into unsupported constraints (what goes wrong)
 
 ### Marketing
 
-- Go through notifications from weekend, triage
+- Keeping an eye on Syften notifications
 
 ### User help
 
 - Respond to form response from FreshDesk
+
+## Queued (not working on, but want to track)
+
+
+## 2023-09-11
+
+### Meetings
+
+- 1:1 with Dom
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (requested changs)
+
+### Bug hunt
+
+- Found problem with FE, raised in FE channel, determined it's already known.
+
+### Marketing
+
+- Looked through Syften notifications, nothing interesting this round
+
+### Preexisting DB compatibility
+
+- Sent update email
+- Started looking into composite type support (or lack of it)
 
 ## 2023-09-08
 
