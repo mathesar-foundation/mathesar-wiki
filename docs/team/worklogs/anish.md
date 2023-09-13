@@ -6,9 +6,18 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
+## 2023-09-13
+
+- Sync with Mukesh
+- Adressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170) & [#3055](https://github.com/centerofci/mathesar/issues/3055)
+
+## 2023-09-12
+
+- Worked on [#3203](https://github.com/centerofci/mathesar/pull/3203)
+
 ## 2023-09-11
 
-- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055) & opened [#3203](https://github.com/centerofci/mathesar/pull/3203) for fixing the same.
+- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055) & opened [#3203](https://github.com/centerofci/mathesar/pull/3203) for fixing the same
 - Addressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
 
 ## 2023-09-08
