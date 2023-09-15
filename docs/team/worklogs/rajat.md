@@ -2,17 +2,42 @@
 
 **TODO**
 
-- Finish i18n documentation for developers.
-- Start an email thread on the dev mailing list for the i18n retrospective
-- i18n Other documentation-related tasks
-- i18n PR for making all strings in the FE codebase translatable. The work here is done, just need to update as per the review comments on other PRs.
-- ESLint rule for i18n
+- Review pending community PRs _(currently reviewing)_
+- Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
+- Review feedback for [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Push & pull translations PR update. [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- ESlint plugin PR for i18n
+- Pending i18n Documentations
+- Wrapping raw strings whole codebase PR update. The work here is done, just need to update as per the review comments on other PRs.
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
-- Installation work - https://github.com/centerofci/mathesar/issues/3161
-- Update the i18n project's wiki page.
-- Send out project updates e-mail for i18n.
-- type:notes for https://github.com/centerofci/mathesar/issues/3028?
+
+## 2023-09-14
+
+_Partially out, was not able to get much done_
+
+- Review Installation project designs
+- Repo admin work
+
+## 2023-09-13
+
+- Addressing review feedback of [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Repo admin work
+
+## 2023-09-12
+
+- Addressing review feedback of [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Repo admin work
+
+## 2023-09-11
+
+- 1-on-1 with Sean
+- Repo admin work
+
+## 2023-09-08
+
+- Worked on i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Repo admin work
 
 ## 2023-09-07
 
