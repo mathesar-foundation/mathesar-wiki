@@ -7,6 +7,17 @@
 * Work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
 
 # Daily logs
+## 2023-09-15
+* Call with Brent to discuss results of effects of different PG permissions in Mathesar
+
+## 2023-09-14
+* Continued testing effects of varying PG permissions in Mathesar
+  - Identified one critical issue and some potential issues
+
+## 2023-09-13
+* Had review call and approved [Design spec for adding user database credentials using the UI](https://github.com/centerofci/mathesar/issues/3159)
+* Continued testing effects of varying PG permissions in Mathesar
+
 ## 2023-09-12
 * Survey work session with Ghislaine and Sean
 * Continued testing effect of varying PG permissions in Mathesar
