@@ -4,6 +4,7 @@
 
 ### Soon
 
+- Respond to modal conversation [thread](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$Tlts3aCa-53t6YBOYF3iOuoYl1dPvekwIMhbD1lh7yw?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 - Review [Added documentation for importing Excel data](https://github.com/centerofci/mathesar/pull/3204)
 - Check in with Anish to see if he's running out of tasks
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
@@ -21,6 +22,25 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-15 Friday
+
+- Attend community event
+- Some chat with community members in Matrix General
+- Some tinkering with baby steps towards building an internal Mathesar [CRM instance](https://internal.mathesar.org/db/mathesar_tables/522/tables/2194/)
+- Briefly look into [Handle API errors on schema page](https://github.com/centerofci/mathesar/pull/2829) to help answer [question](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$p6PuoNBhBjZHicNXnVgP9A-4YXLNYlW6ISnOKWo50gY?via=matrix.mathesar.org&via=matrix.org) from Rajat
+- Some continued work on JS table rendering performance research
+- Some continued work on CellSelection
+- Some smaller discussions
+
+## 2023-09-14 Thursday
+
+*(Shorter due to headache)*
+
+- Review Ghislaine's niche research report
+- 1/1 with Ghislaine re: niche research project
+- Some continued work on JS table rendering performance research
+- Cleanup of some tickets
 
 ## 2023-09-13 Wednesday
 
