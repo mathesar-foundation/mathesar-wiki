@@ -5,14 +5,13 @@
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3121
-- https://github.com/centerofci/mathesar-ansible/pull/42
-- https://github.com/centerofci/mathesar-wiki/pull/105
+- https://github.com/centerofci/mathesar/pull/3189
 
 ### Preexisting DB compatibility
 
-- Continue organizing some basic meta issues around known problems (we can add more)
-  - Looking into composite types
+- Continue working on meta issue around known problems
   - Looking into unsupported constraints (what goes wrong)
+- Composing email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
 
 ### Marketing
 
@@ -22,8 +21,59 @@
 
 - Respond to form response from FreshDesk
 
-## Queued (not working on, but want to track)
+## Queued
 
+- Bring Kriti's attention to domain renewal notice when she returns.
+
+## 2023-09-15
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (approved, merged)
+
+### Preexisting DB compatibility
+
+- Submitted PR to test compatibility with PG versions 13, 14, 15
+  https://github.com/centerofci/mathesar/pull/3206
+
+## 2023-09-14
+
+### PR reviews
+
+- Initial look through https://github.com/centerofci/mathesar/pull/3121
+- Initial look through https://github.com/centerofci/mathesar/pull/3189
+
+### Preexisting DB compatibility
+
+- Completed scale testing, recorded results
+- Verified composite type support, recorded results
+
+## 2023-09-13
+
+### Preexisting DB compatibility
+
+- Asynced with Pavish about status
+- Worked on scale testing
+
+### Marketing
+
+- Cleared out inbox of Syften notifications
+
+### Infrastructure
+
+- Investigated domain renewal notice
+
+## 2023-09-12
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar-wiki/pull/105 (approved)
+- https://github.com/centerofci/mathesar-ansible/pull/42 (approved)
+
+### Email/messaging
+
+- Went through Dom's helpful feedback w.r.t. the SQL codebase from his project update
+- Cleared out other notifications from social media
 
 ## 2023-09-11
 
@@ -33,7 +83,9 @@
 
 ### PR reviews
 
-- https://github.com/centerofci/mathesar/pull/3186 (requested changs)
+- https://github.com/centerofci/mathesar/pull/3186 (requested changes)
+
+
 
 ### Bug hunt
 
