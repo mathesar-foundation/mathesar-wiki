@@ -2,12 +2,37 @@
 
 ## Actively working on
 - Update documentation for docker installation
-- Review Github action for generating static assets
 - Write email on build platform
 
 ## Backlog
 - Add compatibility table for comparing various personas with our features
 
+
+## 2023-09-14
+- Write up the glossary section
+- Final review and approve backend credentials PR
+- Check on the build platforms used for building debian package
+- Async check in with Brent
+
+## 2023-09-13
+- Review Anish backend credentials API PR 
+- Sync with Pavish and Ghislaine
+- Sync with Anish on the backend credentials PR
+- Async check in Rajat
+
+
+
+## 2023-09-12
+- Check in with Sean
+- Reply to the Design spec feedback
+- Review Github actions for generating static assets
+- Made some progress on updating the docker documentation
+
+## 2023-09-11
+
+- Write up Installation project update
+- Check in with Installation project helpers
+- Start writing documentation
 
 ## 2023-09-11
 
