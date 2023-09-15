@@ -72,6 +72,7 @@ Please note, these steps don't directly correlate 1:1 with our installation docu
 
 #### Installing Mathesar
 The installation steps are grouped into three categories (ordered sequentially)
+
 1. Install
    - This category includes steps for setting up the download source, fetching the necessary files (docker image, binary) and commands for installing and starting Mathesar.
    - Once these steps are complete, Mathesar will be running locally, and the user can open Mathesar by visiting a particular URL (defaults to http://localhost:8000)
@@ -79,6 +80,7 @@ The installation steps are grouped into three categories (ordered sequentially)
      - A `SECRET_KEY` will be automatically generated and stored in the config file
      - An SQLite database file will be created and will be used as the internal database for storing the Mathesar metadata
    - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](#outline-of-the-documentation)
+   
 2. Pre-install config
    - The defaults Mathesar come with might not suit every use-case. These are the **optional** steps that the user may need to perform to adapt Mathesar to their environment.
    - These settings are targeted towards technical users, mostly done using the command line, and it is assumed the user knows what he is doing
@@ -87,6 +89,7 @@ The installation steps are grouped into three categories (ordered sequentially)
    - The following configuration steps fall into this category
      - Passing in their own secret key as an environment variable. 
      - Passing in the credentials of the database to be used as the internal database.
+     
 3. Setup
    - Once Mathesar is installed and running, the user needs to set up few things before Mathesar can be used.
    - These will be done using the Mathesar UI
@@ -95,6 +98,7 @@ The installation steps are grouped into three categories (ordered sequentially)
 
 #### Post Install Configuring Mathesar
 The installation steps are grouped into two
+
 1. Post-install non-mathesar config 
    - These are optional steps that the user may need to perform to actually make Mathesar functionally complete.
    - These steps will be done using the Mathesar UI
