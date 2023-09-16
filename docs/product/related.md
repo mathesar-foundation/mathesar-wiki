@@ -36,6 +36,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Retool Database](https://retool.com/products/database)
 - [Stackby](https://stackby.com/)
 - [Xata](https://xata.io)
+- [Xano](https://www.xano.com/)
 - [Tadabase](https://tadabase.io/)
 - [Visual DB](https://visualdb.com/)
 
