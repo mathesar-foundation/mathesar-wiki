@@ -6,10 +6,26 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
+
+## 2023-09-18
+
+- *Did nothing* (Cause I ran out of work to do)
+- Waiting on the review for [#3055](https://github.com/centerofci/mathesar/pull/3055)
+- Asked Dom if I can be of help with his ongoing project.
+- Will start working on the documentaion for Debian install [#3165](https://github.com/centerofci/mathesar/issues/3165) once a PR for docker installation is created as #3165 should follow the same template.
+
+## 2023-09-15
+
+- Sync with Anshuman(GSoC)
+
+## 2023-09-14
+
+- Adressed requested changes for [#3055](https://github.com/centerofci/mathesar/pull/3055)
+
 ## 2023-09-13
 
 - Sync with Mukesh
-- Adressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170) & [#3055](https://github.com/centerofci/mathesar/issues/3055)
+- Adressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
 
 ## 2023-09-12
 
