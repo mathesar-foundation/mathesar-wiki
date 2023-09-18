@@ -8,6 +8,11 @@
 - Add compatibility table for comparing various personas with our features
 
 
+## 2023-09-15
+- Sync with Brent
+- Organize the community event
+- Progress on documentation for Docker images
+
 ## 2023-09-14
 - Write up the glossary section
 - Final review and approve backend credentials PR
@@ -19,7 +24,6 @@
 - Sync with Pavish and Ghislaine
 - Sync with Anish on the backend credentials PR
 - Async check in Rajat
-
 
 
 ## 2023-09-12
