@@ -3,10 +3,17 @@
 # Actively working on
 * Helping with Pre-existing Postgres DB compatibility project
 * Helping with Niche research project
-* Upgrading Node version and FE packages
 * Work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
 
 # Daily logs
+## 2023-09-19
+* Raised [PR to upgrade Node](https://github.com/centerofci/mathesar/pull/3214)
+
+## 2023-09-18
+* Call with Rajat to discuss approach in (Load "en" translations parallely)[https://github.com/centerofci/mathesar/pull/3102]
+  - Pondered about various possible ways to split i18n files cleanly, after the call
+* Started upgrading Node version
+
 ## 2023-09-15
 * Call with Brent to discuss results of effects of different PG permissions in Mathesar
 
