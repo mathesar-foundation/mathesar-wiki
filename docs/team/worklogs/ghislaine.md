@@ -1,5 +1,20 @@
 # Ghislaine's work log
 
+## 2023-09-18
+- Review issue for Grouped columns
+- Niche research
+
+## 2023-09-14
+- Day off
+
+## 2023-09-14
+- Niche research
+- Review session w/ Sean
+
+## 2023-09-13
+- Niche research
+- Quick work session w Pavish and Mukesh for Database Credentials
+
 ## 2023-09-12
 - Niche research: Product vision for Mathesar
 - Database credentials update

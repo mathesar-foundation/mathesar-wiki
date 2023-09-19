@@ -25,6 +25,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [SeaTable](https://seatable.io/)
 - [Google Tables](https://tables.area120.google.com)
 - [Microsoft Lists](https://www.microsoft.com/en-us/microsoft-365/microsoft-lists)
+- [spreadsheet.com](https://www.spreadsheet.com/)
 - [Rows](https://rows.com/)
 - [TogetherDB](https://togetherdb.com/)
 - [Teamdesk](https://www.teamdesk.net/)
@@ -35,6 +36,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Retool Database](https://retool.com/products/database)
 - [Stackby](https://stackby.com/)
 - [Xata](https://xata.io)
+- [Xano](https://www.xano.com/)
 - [Tadabase](https://tadabase.io/)
 - [Visual DB](https://visualdb.com/)
 

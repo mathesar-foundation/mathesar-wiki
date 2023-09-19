@@ -1,12 +1,27 @@
 # Mukesh work log
 
 ## Actively working on
-- Update documentation for docker installation
 - Write email on build platform
+- Final testing and review of PR for adding SQLite
+- Documentation for Debian build documentation
 
 ## Backlog
 - Add compatibility table for comparing various personas with our features
 
+## 2023-09-19
+- Create PR to [Update Docker installation instructions based on the updated installation plan ](https://github.com/centerofci/mathesar/pull/3212)
+- Check in with Anish on the SQlite PR tests  
+- Check in with Rajat
+
+## 2023-09-18
+- Review [Postgres basic compatibility versions 13, 14, 15](https://github.com/centerofci/mathesar/pull/3206) and merge
+- Test out the Postgres Docker image PR for compatability issues
+- Progress on documentation for Docker images
+
+## 2023-09-15
+- Sync with Brent
+- Organize the community event
+- Progress on documentation for Docker images
 
 ## 2023-09-14
 - Write up the glossary section
@@ -19,7 +34,6 @@
 - Sync with Pavish and Ghislaine
 - Sync with Anish on the backend credentials PR
 - Async check in Rajat
-
 
 
 ## 2023-09-12
