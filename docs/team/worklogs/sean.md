@@ -23,6 +23,16 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-09-18 Monday
+
+*(Partial day due to two sick kids)*
+
+- 1/1 with Rajat
+- Sync with Brent and Dom about API for pasting data into cells
+- 1/1 with Dom
+- Several smaller discussions on Matrix
+- Review [docs: Add troubleshooting guide link](https://github.com/centerofci/mathesar/pull/3210#pullrequestreview-1631836244)
+
 ## 2023-09-15 Friday
 
 - Attend community event
