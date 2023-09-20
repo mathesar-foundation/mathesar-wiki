@@ -2,23 +2,27 @@
 
 ## Actively working on
 
+### Meetings
+
+- Mathesar team meeting
+
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3121
 
+### Infrastructure
+
+- Update internal Mathesar installation
+
 ### Preexisting DB compatibility
 
-- Continue working on meta issue around known problems
-  - Performance testing
+- Splitting findings into projects with 'themes' so we can prioritize.
 - Composing email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
+- Composing project update email
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
-
-### User help
-
-- Respond to form response from FreshDesk
 
 ## Queued
 
