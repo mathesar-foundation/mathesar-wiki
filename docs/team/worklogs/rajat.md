@@ -2,14 +2,18 @@
 
 **TODO**
 
-- FE work for installations project.
-- Review pending community PRs _(currently reviewing)_
-- Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
-- ESlint plugin PR for i18n
-- Pending i18n Documentations
+- [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
 - Wrapping raw strings whole codebase PR update. The work here is done, just need to update as per the review comments on other PRs.
+- Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
+- Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+- Pending i18n Documentations. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+
+## 2023-09-20
+
+- Made progress on the UI states for [UI for adding/modifying user database credentials in Mathesar](https://github.com/centerofci/mathesar/issues/3161)
+- Repo admin work
 
 ## 2023-09-19
 
