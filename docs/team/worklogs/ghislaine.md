@@ -1,5 +1,14 @@
 # Ghislaine's work log
 
+## 2023-09-21
+- Niche Research: Review current status w Sean and Pavish
+
+## 2023-09-20
+- Niche research: Prepare presentation
+
+## 2023-09-19
+- Niche research: Look into competitors and personas
+
 ## 2023-09-18
 - Review issue for Grouped columns
 - Niche research
