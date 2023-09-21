@@ -2,21 +2,24 @@
 
 ## TODO
 
+### Review
+
+- Review [Pavish: column descriptions](https://github.com/centerofci/mathesar/pull/3219)
+- Review [Pavish: Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
+- Review [Rajat: Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Review [Anshuman: Excel import docs](https://github.com/centerofci/mathesar/pull/3204)
+- Review [Fidal: Close record selector on overlay](https://github.com/centerofci/mathesar/pull/3220)
+
 ### Soon
 
-- Review [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214)
-- Review [Update Docker installation instructions based on the updated installation plan](https://github.com/centerofci/mathesar/pull/3212)
 - Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
-- Respond to modal conversation [thread](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$Tlts3aCa-53t6YBOYF3iOuoYl1dPvekwIMhbD1lh7yw?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
-- Review [Added documentation for importing Excel data](https://github.com/centerofci/mathesar/pull/3204)
-- Check in with Anish to see if he's running out of tasks
+- Help find work for Anish
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
-- Review [RSQLA1 Retrospective](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nX6e-JhJPi8/m/kcQ9GvdVAAAJ) thread by 2023-09-15
-- Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 
 ### Backlog
 
+- Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 - Begin "User Communication Guide", as a wiki page
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
@@ -25,6 +28,18 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-21 Thursday
+
+*(Partial day due to one sick kid)*
+
+- 1/1 with Brent
+- Sync with Ghislaine and Pavish re: niche
+- Review [Mukesh: installation docs](https://github.com/centerofci/mathesar/pull/3212)
+
+## 2023-09-20 Wednesday
+
+*(Out due to two sick kids)*
 
 ## 2023-09-19 Tuesday
 

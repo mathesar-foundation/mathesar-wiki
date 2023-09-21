@@ -1,17 +1,30 @@
 # Mukesh work log
 
 ## Actively working on
-- Write email on build platform
-- Final testing and review of PR for adding SQLite
-- Documentation for Debian build documentation
+- Deprecating docker compose docs
 
 ## Backlog
+- Write email on build platform
 - Add compatibility table for comparing various personas with our features
+
+
+## 2023-09-21
+- Fix issues with the Postgres docker image PR
+- Async discussion with Anish to discuss Debian installation docs
+- Progress on deprecating docker compose and build from scratch docs
+
+## 2023-09-20
+- Use the Postgres docker image in Github CI test suite
+- Async discussion with Anish to help with fixing the SQLite migration issue
+- Merge [SQLite support for internal database](https://github.com/centerofci/mathesar/pull/3203) 
+- Merge [Debian package script](https://github.com/centerofci/mathesar/pull/3189)
+
 
 ## 2023-09-19
 - Create PR to [Update Docker installation instructions based on the updated installation plan ](https://github.com/centerofci/mathesar/pull/3212)
 - Check in with Anish on the SQlite PR tests  
 - Check in with Rajat
+- Check in with Sean
 
 ## 2023-09-18
 - Review [Postgres basic compatibility versions 13, 14, 15](https://github.com/centerofci/mathesar/pull/3206) and merge
