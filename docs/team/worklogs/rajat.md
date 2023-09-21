@@ -10,6 +10,11 @@
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
+## 2023-09-21
+
+- Integrated add db connection post api. [UI for adding/modifying user database credentials in Mathesar](https://github.com/centerofci/mathesar/issues/3161)
+- Repo admin work
+
 ## 2023-09-20
 
 - Made progress on the UI states for [UI for adding/modifying user database credentials in Mathesar](https://github.com/centerofci/mathesar/issues/3161)
