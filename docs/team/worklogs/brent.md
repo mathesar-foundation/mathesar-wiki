@@ -4,7 +4,8 @@
 
 ### Meetings
 
-- Mathesar team meeting
+- 1:1 with Anish
+- 1:1 with Sean
 
 ### PR reviews
 
@@ -17,8 +18,6 @@
 ### Preexisting DB compatibility
 
 - Splitting findings into projects with 'themes' so we can prioritize.
-- Composing email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
-- Composing project update email
 
 ### Marketing
 
@@ -27,6 +26,23 @@
 ## Queued
 
 - Bring Kriti's attention to domain renewal notice when she returns.
+
+## 2023-09-20
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Preexisting DB compatibility
+
+- Sent email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
+- Sent project update email
+- Worked on performance testing, 
+- Worked on splitting findings into themed projects
+
+### Marketing
+
+- Cleared out Syften notifications, noted a pattern on the marketing channel
 
 ## 2023-09-19
 
