@@ -4,6 +4,9 @@
 
 ### Soon
 
+- Review [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214)
+- Review [Update Docker installation instructions based on the updated installation plan](https://github.com/centerofci/mathesar/pull/3212)
+- Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
 - Respond to modal conversation [thread](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$Tlts3aCa-53t6YBOYF3iOuoYl1dPvekwIMhbD1lh7yw?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 - Review [Added documentation for importing Excel data](https://github.com/centerofci/mathesar/pull/3204)
 - Check in with Anish to see if he's running out of tasks
@@ -22,6 +25,15 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-19 Tuesday
+
+*(Partial day due to two sick kids)*
+
+- 1/1 with Mukesh
+- Try removing all event listeners from cell-related components to see if it improves performance.
+- Troubleshooting running the front end in prod mode
+- Some smaller discussions
 
 ## 2023-09-18 Monday
 

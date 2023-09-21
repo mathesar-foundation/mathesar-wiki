@@ -2,28 +2,58 @@
 
 ## Actively working on
 
+### Meetings
+
+- Mathesar team meeting
+
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3121
-- https://github.com/centerofci/mathesar/pull/3189
+
+### Infrastructure
+
+- Update internal Mathesar installation
 
 ### Preexisting DB compatibility
 
-- Continue working on meta issue around known problems
-  - Looking into unsupported constraints (what goes wrong)
+- Splitting findings into projects with 'themes' so we can prioritize.
 - Composing email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
+- Composing project update email
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
 
-### User help
-
-- Respond to form response from FreshDesk
-
 ## Queued
 
 - Bring Kriti's attention to domain renewal notice when she returns.
+
+## 2023-09-19
+
+### Marketing
+
+- Kept an eye on Syften notifications, cleared out inbox
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Preexisting DB compatibility
+
+- Looked into performance when Mathesar's web service is not colocated with the DB
+  - Terribly slow progress, because performance testing on the slow app took time
+
+## 2023-09-18
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+- Reset demo load balancer
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3189 (approved)
+  - This was extremely laborious, and took most of the day.
 
 ## 2023-09-15
 
