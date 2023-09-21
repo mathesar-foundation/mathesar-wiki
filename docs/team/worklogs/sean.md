@@ -4,7 +4,6 @@
 
 ### Review
 
-- Review [Mukesh: installation docs](https://github.com/centerofci/mathesar/pull/3212)
 - Review [Pavish: column descriptions](https://github.com/centerofci/mathesar/pull/3219)
 - Review [Pavish: Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
 - Review [Rajat: Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
@@ -29,6 +28,14 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-21 Thursday
+
+*(Partial day due to one sick kid)*
+
+- 1/1 with Brent
+- Sync with Ghislaine and Pavish re: niche
+- Review [Mukesh: installation docs](https://github.com/centerofci/mathesar/pull/3212)
 
 ## 2023-09-20 Wednesday
 
