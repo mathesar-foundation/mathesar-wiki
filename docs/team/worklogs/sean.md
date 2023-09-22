@@ -29,6 +29,10 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-09-22 Friday
+
+*(Out due to two sick kids)*
+
 ## 2023-09-21 Thursday
 
 *(Partial day due to one sick kid)*
