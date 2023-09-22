@@ -2,13 +2,23 @@
 
 **TODO**
 
-- [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
+- Review feedback on [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102).
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
 - Wrapping raw strings whole codebase PR update. The work here is done, just need to update as per the review comments on other PRs.
 - Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
 - Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - Pending i18n Documentations. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+
+## 2023-09-22
+
+- Draft PR for [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) which fixes [UI for adding/modifying user database credentials in Mathesar](https://github.com/centerofci/mathesar/issues/3161).
+  - [x] Add DB connection
+  - [x] Edit DB connection
+  - [x] Delete DB connection
+  - [ ] Update designs as per [this comment in figma](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34?node-id=6055:60&mode=dev#564187787)
+- Repo admin work
 
 ## 2023-09-21
 
