@@ -16,6 +16,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [ToolJet](https://www.tooljet.com/)
 - [Corteza](https://github.com/cortezaproject/corteza)
 - [Appsmith](https://www.appsmith.com/)
+- [Leaptable](https://leaptable.us/)
 - [undb](https://github.com/undb-xyz/undb)
 - [Baastronaut](https://github.com/baastronaut/baastronaut)
 - [Basetool](https://www.basetool.io/) (unmaintained)
