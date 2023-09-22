@@ -4,8 +4,7 @@
 
 ### Meetings
 
-- 1:1 with Anish
-- 1:1 with Sean
+- 1:1 with Mukesh
 
 ### PR reviews
 
@@ -26,6 +25,29 @@
 ## Queued
 
 - Bring Kriti's attention to domain renewal notice when she returns.
+
+## 2023-09-21
+
+### Meetings
+
+- 1:1 with Sean
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3121 (requested changes)
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Marketing
+
+- Looked through Syften notifications
+
+### Preexisting DB compatibility
+
+- Worked on themed projects.
+- Created local method for testing Mathesar performance under different network latency assumptions.
 
 ## 2023-09-20
 
