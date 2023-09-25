@@ -1,5 +1,13 @@
 # Ghislaine's work log
 
+## 2023-09-25
+- Design session with Rajat
+- Modify Database Credentials design
+- Rewrite Niche Research conclussions based on review with Sean and Pavish
+
+## 2023-09-22
+- Additional research for the conclussion
+
 ## 2023-09-21
 - Niche Research: Review current status w Sean and Pavish
 
