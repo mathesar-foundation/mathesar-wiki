@@ -1,13 +1,14 @@
 # Kriti's work log
 
-# Working on
+## Upcoming
 - 1:1 with Brent
 - Catch up with Ghislaine re: niche research
 - Organizing / planning upcoming priorities & work
 - 0.1.4 release follow ups as needed
 
-## Backlog
+### Backlog
 *Out of date, will re-organize soon*
+
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
 - Also go through General channel feedback and create issues or other follow ups
 - Review Sean's Querydown document
@@ -21,8 +22,6 @@
 - Competitor research
 - Reorganize and document ongoing responsibilities better
 
-# Complete
-
 ## 2023-09-25
 - Call with Sean about current state of projects and how the cycle went
 - Caught up on (LOTS OF) email and responses
@@ -32,5 +31,5 @@
 *Out of office*
 
 # Archive
-- [August 2023 work logs](/team/worklogs/kriti/2023-08.md)
-- [July 2023 work logs](/team/worklogs/kriti/2023-07.md)
+- [August 2023 work logs](./archive/2023-08/kriti.md)
+- [July 2023 work logs](./archive/2023-07/kriti.md)

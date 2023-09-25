@@ -1,6 +1,6 @@
 # Kriti's work log archive: 2023-08
 
-## 2023-08-26 to 2023-09-24
+## 2023-08-26 to 2023-08-31
 *Out of office*
 
 ## 2023-08-25 (Fri)
