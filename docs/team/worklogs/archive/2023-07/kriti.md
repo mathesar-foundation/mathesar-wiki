@@ -4,79 +4,79 @@
 *Partial day, sick*
 
 - **Comms**
-	- Caught up on GitHub / Matrix / email + related action items
-	- Rescheduled / scheduled a couple of meetings
-	- Matrix discussion about Foreign Data Wrappers and people who don't want to install our schemas
+    - Caught up on GitHub / Matrix / email + related action items
+    - Rescheduled / scheduled a couple of meetings
+    - Matrix discussion about Foreign Data Wrappers and people who don't want to install our schemas
 - **Fundraising**
-	- Completed new version of script + associated slides for this week's meeting
-	- Preparatory call for Friday's fundraising meeting
+    - Completed new version of script + associated slides for this week's meeting
+    - Preparatory call for Friday's fundraising meeting
 
 ## 2023-07-28 (Fri)
 - **Product**
-	- Installation planning meeting
-	- Reviewed i18n UI
-	- Reviewed superuser creation design question
+    - Installation planning meeting
+    - Reviewed i18n UI
+    - Reviewed superuser creation design question
 - **Comms**
-	- Caught up on GitHub / Matrix / email
-	- Responded to Sean's email about user reported issues workflow
+    - Caught up on GitHub / Matrix / email
+    - Responded to Sean's email about user reported issues workflow
 - **Team management**
-	- Reviewed work logs, sent reminder about missing logs
+    - Reviewed work logs, sent reminder about missing logs
 - **Fundraising**
-	- How to Raise Money workshop session (8/11, 90 min)
+    - How to Raise Money workshop session (8/11, 90 min)
 - **User help**
-	- Responded to [installation feedback discussion](https://github.com/centerofci/mathesar/discussions/3108)
-	- Added `user reported` label to [#3076](https://github.com/centerofci/mathesar/issues/3076)
-	- Triaged a bunch of new user reported issues
+    - Responded to [installation feedback discussion](https://github.com/centerofci/mathesar/discussions/3108)
+    - Added `user reported` label to [#3076](https://github.com/centerofci/mathesar/issues/3076)
+    - Triaged a bunch of new user reported issues
 
 ## 2023-07-27 (Thu)
 - **Team management**
-	- 1:1 with Mukesh 
+    - 1:1 with Mukesh 
 - **Comms**
-	- Caught up on GitHub / Matrix / email
-	- Responded to Sean's email about user reported issues 
+    - Caught up on GitHub / Matrix / email
+    - Responded to Sean's email about user reported issues 
 - **User help**
-	- Followed up on user's request for a `develop` build in 	 
+    - Followed up on user's request for a `develop` build in      
 - **Product**
-	- Worked through installation docs outline and meeting agenda with Mukesh
+    - Worked through installation docs outline and meeting agenda with Mukesh
 - **Fundraising**
-	- Did some work on the script for the upcoming meeting 
+    - Did some work on the script for the upcoming meeting 
 
 ## 2023-07-26 (Wed)
 - **Team management**
-	- Weekly meeting
+    - Weekly meeting
 - **Fundraising**
-	- Prep for today's workshop session (podcast) 	
-	- How to Raise Money workshop session (7/11)
+    - Prep for today's workshop session (podcast)     
+    - How to Raise Money workshop session (7/11)
 - **Comms**
-	- Caught up on GitHub / email / Matrix correspondence
- 	- Followed up on release management & product strategy email threads
-	- Call with Sam
+    - Caught up on GitHub / email / Matrix correspondence
+     - Followed up on release management & product strategy email threads
+    - Call with Sam
 
 ## 2023-07-25 (Tue)
 - **Comms**
-	- Caught up on GitHub / email / Matrix correspondence
+    - Caught up on GitHub / email / Matrix correspondence
 - **Team management**
-	- 1:1 with Rajat
-	- Quick Matrix checkins with team members
-	- Sent out email for tomorrow's meeting
+    - 1:1 with Rajat
+    - Quick Matrix checkins with team members
+    - Sent out email for tomorrow's meeting
 - **Product**
-	- Did a bunch more work on product strategy
-	- Followed up with Mukesh about installation work
-	- Call with Mukesh where we worked through the installation outline and plan for the next meeting
-	- Call with Ghislaine to go over product strategy work and discuss tomorrow's call
+    - Did a bunch more work on product strategy
+    - Followed up with Mukesh about installation work
+    - Call with Mukesh where we worked through the installation outline and plan for the next meeting
+    - Call with Ghislaine to go over product strategy work and discuss tomorrow's call
 
 ## 2023-07-24 (Mon)
 - **Comms**
-	- Caught up on GitHub / email / Matrix correspondence
-	- Read project updates
-	- Read through worklogs and followed up with team members about out of date worklogs
+    - Caught up on GitHub / email / Matrix correspondence
+    - Read project updates
+    - Read through worklogs and followed up with team members about out of date worklogs
 - **Product**
-	- Thought a bunch about product strategy
-	- Product strategy discussion and next steps call with Ghislaine
-	- Worked on product strategy draft
+    - Thought a bunch about product strategy
+    - Product strategy discussion and next steps call with Ghislaine
+    - Worked on product strategy draft
 - **Tooling**
-	- Followed up on 1Password Open Source program approval 
-	- Re-enabled accounts now that our team has more seats
+    - Followed up on 1Password Open Source program approval 
+    - Re-enabled accounts now that our team has more seats
 
 ## 2023-07-21 (Fri)
 - Did a big internal reorganization of my work and priorities
@@ -90,55 +90,55 @@
 *Partial day, sick*
 
 - **Product**
-	- Call with Ghislaine: product-strategy check in & next steps
+    - Call with Ghislaine: product-strategy check in & next steps
 -  **Project management**
-	- Marked installation improvements project as approved
-	- Responded to Aritra's project thread.
+    - Marked installation improvements project as approved
+    - Responded to Aritra's project thread.
 - **Release management**
-	- Followed up on a few GitHub issues
+    - Followed up on a few GitHub issues
 - **Tools**
-	- Spent some time trying to debug wiki syncing issues
-	- Did some manual fixes, sent an email to the team with next steps
+    - Spent some time trying to debug wiki syncing issues
+    - Did some manual fixes, sent an email to the team with next steps
 - **Comms**
-	- Caught up with email, GitHub, Matrix inboxes
+    - Caught up with email, GitHub, Matrix inboxes
 
 ## 2023-07-19 (Wed)
 - **Team management**
-	- Ran the weekly meeting
-	- Posted meeting notes on the wiki
+    - Ran the weekly meeting
+    - Posted meeting notes on the wiki
 -  **Project management**
-	- Discussion with Mukesh about:
-		- changes to the installation project to address Pavish's feedback
-		- Next steps before scheduling an installation related meeting
-	- Followed up on Aritra's project idea
-	- Discussion about deploying internal server automatically
+    - Discussion with Mukesh about:
+        - changes to the installation project to address Pavish's feedback
+        - Next steps before scheduling an installation related meeting
+    - Followed up on Aritra's project idea
+    - Discussion about deploying internal server automatically
 - **Tools**
-	- Spent some time trying to debug wiki syncing issues
+    - Spent some time trying to debug wiki syncing issues
 - **Release management**
-	- Followed up on Rajat's thread with next steps to managing the release
-	- Responded to and followed up on a few new tickets created by users
-		- [Does not work on windows](https://github.com/centerofci/mathesar/issues/2961) (followed up with Brent)
-		- [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069#top) (commented)
-		- [Not really possible to override settings](https://github.com/centerofci/mathesar/issues/3048) (commented)
-		- [The requirement of superuser postgresql access is problematic #2990](https://github.com/centerofci/mathesar/issues/2990) (followed up with Mukesh)
-	- Put a couple of bugs opened by Dom into the "next release milestone"
-		- [500 when adding unique constraint on point column](https://github.com/centerofci/mathesar/issues/3067)
-		- [Able to order on an unorderable field](https://github.com/centerofci/mathesar/issues/3066)
+    - Followed up on Rajat's thread with next steps to managing the release
+    - Responded to and followed up on a few new tickets created by users
+        - [Does not work on windows](https://github.com/centerofci/mathesar/issues/2961) (followed up with Brent)
+        - [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069#top) (commented)
+        - [Not really possible to override settings](https://github.com/centerofci/mathesar/issues/3048) (commented)
+        - [The requirement of superuser postgresql access is problematic #2990](https://github.com/centerofci/mathesar/issues/2990) (followed up with Mukesh)
+    - Put a couple of bugs opened by Dom into the "next release milestone"
+        - [500 when adding unique constraint on point column](https://github.com/centerofci/mathesar/issues/3067)
+        - [Able to order on an unorderable field](https://github.com/centerofci/mathesar/issues/3066)
 - **Fundraising**
-	- How to Raise Money workshop session (5/11)
+    - How to Raise Money workshop session (5/11)
 - **Comms**
-	- Various discussions on Matrix
-	- Caught up on email and GitHub
+    - Various discussions on Matrix
+    - Caught up on email and GitHub
 
 ## 2023-07-18 (Tue)
 - **Project management**
-	- Reviewed and marked the following projects as approved:
-		- 2023-07 frontend fixes
-		- Shareable links
-		- Move DDL operations to SQL functions
-		- 2023-07 backend fixes
-		- Internationalization
-		- Product strategy
+    - Reviewed and marked the following projects as approved:
+        - 2023-07 frontend fixes
+        - Shareable links
+        - Move DDL operations to SQL functions
+        - 2023-07 backend fixes
+        - Internationalization
+        - Product strategy
   - Reviewed and followed up on installation project
   - Updated [projects](/projects) page with a bit more detail on our workflow.
   - Simplified [project template](/projects/template) to be more in line with the new workflow.
@@ -146,28 +146,28 @@
   - Reviewed and followed up on Aritra's project idea.
   - Followed up on Varsha's email.
 - **Regular comms**
-	- Followed up on various GitHub issues
-	- Caught up with email
+    - Followed up on various GitHub issues
+    - Caught up with email
 - **Team management**
-	- Cleaned up and expanded agenda for tomorrow's weekly meeting.
-	- Updated meeting agenda item template.
+    - Cleaned up and expanded agenda for tomorrow's weekly meeting.
+    - Updated meeting agenda item template.
 - **Fundraising**
-	- 1:1 with Geoffrey to get advice on the upcoming meeting
+    - 1:1 with Geoffrey to get advice on the upcoming meeting
 
 ## 2023-07-17 (Mon)
 - **Management & administration**
-	- Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
-	- Followed up with Transifex support
-	- Triaged GitHub and email
-	- Followed up on UCB Product Design Studio collaboration request
-	- Reviewed work logs and sent reminder to team members who haven't been keeping them updated
+    - Confirmed 1Password renewal, signed up for [open source program](https://github.com/1Password/1password-teams-open-source/pull/789)
+    - Followed up with Transifex support
+    - Triaged GitHub and email
+    - Followed up on UCB Product Design Studio collaboration request
+    - Reviewed work logs and sent reminder to team members who haven't been keeping them updated
 - **Product**
-	- Call with Mukesh to iron out details of the installation improvements project.
-	- Product strategy check in with Ghislaine, decided next steps.
-	- Reviewed skipping inference UI proposal with Ghislaine.
+    - Call with Mukesh to iron out details of the installation improvements project.
+    - Product strategy check in with Ghislaine, decided next steps.
+    - Reviewed skipping inference UI proposal with Ghislaine.
 - **Fundraising**
-	- Scheduled prep call with Geoffrey
-	- Scheduled practice call with Ian
+    - Scheduled prep call with Geoffrey
+    - Scheduled practice call with Ian
 
 ## 2023-07-14 (Fri)
 *Partial day, sick*
@@ -193,7 +193,7 @@
 - **Product**
   - Kicked off project approval discussions
   - Reviewed projects:
-  	- 2023-07 frontend fixes
+      - 2023-07 frontend fixes
     - Shareable links
     - Move DDL operations to SQL functions
     - 2023-07 backend fixes
@@ -206,11 +206,11 @@
   - Caught up on email, GitHub, Matrix
   - Re-organized [projects](/projects) and [responsibilities](/team/responsibilities) pages.
 - **Product**
-	- Wrote up [2023-07 product strategy](/projects/2023-07-product-strategy) project
+    - Wrote up [2023-07 product strategy](/projects/2023-07-product-strategy) project
 - **Fundraising**
   - How to Raise Money workshop session (3/11)
 - **Other**
-	- External meeting for networking/advice + pre-prep
+    - External meeting for networking/advice + pre-prep
 
 ## 2023-07-11 (Tue)
 - **Management & administration**
