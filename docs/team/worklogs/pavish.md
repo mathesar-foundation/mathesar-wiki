@@ -1,11 +1,20 @@
 # Pavish's work log
 
-# Actively working on
-* Helping with Pre-existing Postgres DB compatibility project
-* Helping with Niche research project
-* Work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
-
 # Daily logs
+## 2023-09-22
+* Pondered on Niche research outcome and product level questions to raise
+* Collected some more thoughts on Permission handling in Mathesar
+
+## 2023-09-21
+* Re-reviewed (Load "en" translations parallely)[https://github.com/centerofci/mathesar/pull/3102]
+  - Thought about ways to deal with workarounds
+* Call with Rajat to discuss approaches and finalize all changes in this review round
+* Reviewed and merged [Survey banner PR](https://github.com/centerofci/mathesar-website/pull/93)
+* Niche research meeting with Ghislaine and Sean
+
+## 2023-09-20
+* Raised [PR to Add description to column properties, frontend impl](https://github.com/centerofci/mathesar/pull/3219)
+
 ## 2023-09-19
 * Raised [PR to upgrade Node](https://github.com/centerofci/mathesar/pull/3214)
 
