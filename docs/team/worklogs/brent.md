@@ -14,6 +14,10 @@
 
 - Splitting findings into projects with 'themes' so we can prioritize.
 
+### Email/messages
+
+- composing email about need for coherent team-wide view of technical architecture.
+
 ### Marketing
 
 - Keeping an eye on Syften notifications
