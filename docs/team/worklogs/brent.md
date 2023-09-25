@@ -4,11 +4,7 @@
 
 ### Meetings
 
-- 1:1 with Mukesh
-
-### PR reviews
-
-- https://github.com/centerofci/mathesar/pull/3121
+- 1:1 with Dom
 
 ### Infrastructure
 
@@ -25,6 +21,31 @@
 ## Queued
 
 - Bring Kriti's attention to domain renewal notice when she returns.
+
+## 203-09-25
+
+### Email/messages
+
+- Started conversation about handling permissions issues
+
+## 2023-09-22
+
+### Infrastructure
+
+- updated internal Mathesar installation
+
+### Meetings
+
+- 1:1 with Mukesh
+
+### Preexisting DB compatibility
+
+- Worked on splitting into themed projects
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3121 (approved; merged)
+
 
 ## 2023-09-21
 
