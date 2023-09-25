@@ -1,7 +1,7 @@
 # Kriti's work log
 
 # Working on
-*Offline until Sep 25*
+- Catching up with email / GitHub / Matrix backlog from time off.
 
 ## Backlog
 - Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
