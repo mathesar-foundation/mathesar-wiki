@@ -1,10 +1,7 @@
 # Kriti's work log
 
 ## Upcoming
-- 1:1 with Brent
-- Catch up with Ghislaine re: niche research
 - Organizing / planning upcoming priorities & work
-- 0.1.4 release follow ups as needed
 
 ### Backlog
 *Out of date, will re-organize soon*
@@ -21,6 +18,13 @@
 - Follow up with various people who've helped me over the last few months
 - Competitor research
 - Reorganize and document ongoing responsibilities better
+
+## 2023-09-26
+- Enail + GitHub + Matrix catch up
+- 1:1 with Brent
+- 1:1 with Pavish
+- 1:1 with Ghislaine + catch up about niche research
+- Updated weekly meeting agenda
 
 ## 2023-09-25
 - Call with Sean about current state of projects and how the cycle went
