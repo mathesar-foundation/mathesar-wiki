@@ -11,6 +11,10 @@
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
+### 2023-09-26
+
+- Last sync with Anshuman
+
 ### 2023-09-25
 
 - Do Supabase integration tests [#3141](https://github.com/centerofci/mathesar/issues/3141)
