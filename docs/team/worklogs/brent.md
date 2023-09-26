@@ -5,6 +5,9 @@
 ### Meetings
 
 - 1:1 with Kriti
+  - Catch up on avoiding regressions situation
+  - Catch up on architecture and our need for it
+  - Catch up on preexisting PostgreSQL (performance!11)
 
 ### Marketing
 
