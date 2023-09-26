@@ -4,7 +4,6 @@
 
 ### Review
 
-- Review [Pavish: column descriptions](https://github.com/centerofci/mathesar/pull/3219)
 - Review [Pavish: Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
 - Review [Rajat: Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 - Review [Anshuman: Excel import docs](https://github.com/centerofci/mathesar/pull/3204)
@@ -14,11 +13,13 @@
 
 - Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
 - Help find work for Anish
+- Start email thread about internal CRM
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 
 ### Backlog
 
+- Figure out what to do with [wiki sync PR](https://github.com/centerofci/mathesar-wiki/pull/103)
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 - Begin "User Communication Guide", as a wiki page
@@ -28,6 +29,14 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-25 Monday
+
+- 1/1 with Pavish
+- Some thinking on product direction
+- Review [Mukesh: install docs](https://github.com/centerofci/mathesar/pull/3212)
+- Review [Pavish: column descriptions](https://github.com/centerofci/mathesar/pull/3219)
+- 1/1 with Kriti
 
 ## 2023-09-22 Friday
 
