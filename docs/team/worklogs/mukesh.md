@@ -1,12 +1,28 @@
 # Mukesh work log
 
 ## Actively working on
-- Deprecating docker compose docs
+- Creating PR for debian docs, deprecating docker-compose
+- Fixing the install.py issue
 
 ## Backlog
-- Write email on build platform
+- Write email on architecture incompatibility with debian build platforms
 - Add compatibility table for comparing various personas with our features
 
+
+# 2023-09-26
+- Hit a lot of roadblocks with building debian package on a build service
+- Check in with Sean
+- Decided to build the debian package manually
+- Create PR to revert back the missing database credential env variable
+
+# 2023-09-25
+- Try building the debian package on a build platform
+- Coordinate with Anish and Rajat on the Database credentials work
+- Read through the emails
+
+## 2023-09-22
+- Sync with Brent
+- Finish documenting deprecation information to the docker compose and build from scratch
 
 ## 2023-09-21
 - Fix issues with the Postgres docker image PR
