@@ -1,7 +1,6 @@
 # Kriti's work log
 
 ## Upcoming
-- Post weekly meeting notes
 - Organizing / planning upcoming priorities & work
 - Call with Sam and Adam
 
@@ -23,6 +22,7 @@
 
 ## 2023-09-27
 - Weekly meeting
+- Cleaned up and posted weekly meeting notes
 - Email + GitHub + Matrix catch up
 
 ## 2023-09-26
