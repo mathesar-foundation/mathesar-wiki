@@ -6,6 +6,21 @@
 
 - Currently working on backend requirements of installation improvements project for v0.1.4
 
+## 2023-09-27
+
+- Weekly meet
+- Sync with Mukesh
+- Discussions with Rajat & Mukesh about [#3170](https://github.com/centerofci/mathesar/pull/3170)
+
+## 2023-09-26
+
+- Didn't find any bugs for [#3170](https://github.com/centerofci/mathesar/pull/3170), so a light day
+- Did some profiling on mathesar
+
+## 2023-09-25
+
+- Bug fixes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
+
 ## 2023-09-22
 
 - Got to know some more preexisting & new bugs with the current setup of [#3170](https://github.com/centerofci/mathesar/pull/3170)
