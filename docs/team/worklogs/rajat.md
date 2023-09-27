@@ -11,13 +11,31 @@
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
+## 2023-09-27
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+  - No database found component
+  - Errors section when not able to connect to the DB (Needs some more testing.)
+- Repo-admin work
+
+## 2023-09-26
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+  - Created a new listing page with search [designs](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34?node-id=6055:60&mode=dev#564187787)
+- Repo-admin work
+
+## 2023-09-25
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+  - Update routing as per the [designs](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34?node-id=6055:60&mode=dev#564187787) & code cleanup
+- Repo-admin work
+
 ## 2023-09-22
 
 - Draft PR for [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) which fixes [UI for adding/modifying user database credentials in Mathesar](https://github.com/centerofci/mathesar/issues/3161).
-  - [x] Add DB connection
-  - [x] Edit DB connection
+  - [x] Add DB connection Form
+  - [x] Edit DB connection Form
   - [x] Delete DB connection
-  - [ ] Update designs as per [this comment in figma](https://www.figma.com/file/xHb5oIqye3fnXtb2heRH34?node-id=6055:60&mode=dev#564187787)
 - Repo admin work
 
 ## 2023-09-21
