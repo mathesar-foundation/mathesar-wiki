@@ -4,7 +4,14 @@
 
 ### Meetings
 
-- 1:1 with Dom
+- 1:1 with Kriti
+  - Catch up on avoiding regressions situation
+  - Catch up on architecture and our need for it
+  - Catch up on preexisting PostgreSQL (performance!11)
+
+### Marketing
+
+- Respond to user requesting installation
 
 ### Infrastructure
 
@@ -17,20 +24,38 @@
 ### Email/messages
 
 - composing email about need for coherent team-wide view of technical architecture.
+- Composing preexisting DB project update
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
 
-## Queued
 
-- Bring Kriti's attention to domain renewal notice when she returns.
+## 2023-09-26
 
-## 203-09-25
+### Messaging, admin
+
+- Brought Kriti's attention to domain renewal notice when she returns (probable phishing attempt).
+- Participated in email threads
+
+## 2023-09-25
+
+### Misc. projects
+
+- Wrote up stub project for avoiding regressions
 
 ### Email/messages
 
 - Started conversation about handling permissions issues
+
+### Marketing
+
+- Went through Syften notifications
+
+### Infrastructure
+
+- Updated internal.mathesar.org
+- Wrote meeting agenda item about setting up an infrastructure ongoing responsibility
 
 ## 2023-09-22
 

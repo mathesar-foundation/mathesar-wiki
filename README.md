@@ -4,6 +4,17 @@ This repository holds the source content for Mathesar's wiki, as published to:
 
 https://wiki.mathesar.org/
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Preview your edits locally](#preview-your-edits-locally)
+- [Contribution process](#contribution-process)
+- [Reference](#reference)
+- [See also](#see-also)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Preview your edits locally
 
 1. Install requirements

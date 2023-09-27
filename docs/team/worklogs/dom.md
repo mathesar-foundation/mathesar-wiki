@@ -1,7 +1,7 @@
 # Dom's work log
 ## Active
 
-- Respond to Anshuman in group chat
+- Perform Anshumna's final evaluation
 - Do weekly project update
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
 
@@ -11,9 +11,24 @@
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 
+### 2023-09-25
+
+- Do Supabase integration tests [#3141](https://github.com/centerofci/mathesar/issues/3141)
+
+### 2023-09-22
+
+- Submited draft PR for Paste API
+- Fix GSoC summit travel arrangements, broken due to a cancellation
+
 ### 2023-09-21
 
-Feeling burnt out, trying to get work in, but starting late and energy levels are low.
+Feeling burnt out, trying to get work in, but starting late and energy levels
+are low.
+
+- Respond to Anshuman in group chat
+
+Ended up working mostly on my dev setup and other minimally-productive things
+that were easy to focus on.
 
 ### 2023-09-20
 
