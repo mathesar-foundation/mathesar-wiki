@@ -1,6 +1,21 @@
 # Pavish's work log
 
+# Working on:
+* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+* [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+* Make sure [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214) gets merged
+* Review [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
+* Review [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
+
 # Daily logs
+## 2023-09-26
+* Debugged setup issue in PR and resolved conflict in [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214)
+* 1-1 with Kriti
+
+## 2023-09-25
+* Read through breaking changes in Svelte 4 and started figuring out approach to migrate
+* 1-1 with Sean
+
 ## 2023-09-22
 * Pondered on Niche research outcome and product level questions to raise
 * Collected some more thoughts on Permission handling in Mathesar
