@@ -1,7 +1,9 @@
 # Kriti's work log
 
 ## Upcoming
+- Post weekly meeting notes
 - Organizing / planning upcoming priorities & work
+- Call with Sam and Adam
 
 ### Backlog
 *Out of date, will re-organize soon*
@@ -19,8 +21,12 @@
 - Competitor research
 - Reorganize and document ongoing responsibilities better
 
+## 2023-09-27
+- Weekly meeting
+- Email + GitHub + Matrix catch up
+
 ## 2023-09-26
-- Enail + GitHub + Matrix catch up
+- Email + GitHub + Matrix catch up
 - 1:1 with Brent
 - 1:1 with Pavish
 - 1:1 with Ghislaine + catch up about niche research
