@@ -2,13 +2,6 @@
 
 ## TODO
 
-### Review
-
-- Review [Pavish: Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
-- Review [Rajat: Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
-- Review [Anshuman: Excel import docs](https://github.com/centerofci/mathesar/pull/3204)
-- Review [Fidal: Close record selector on overlay](https://github.com/centerofci/mathesar/pull/3220)
-
 ### Soon
 
 - Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
@@ -29,6 +22,15 @@
 - PR to add docs on loading sample data
 
 --------------------------------------------------------------------------------
+
+## 2023-09-26 Tuesday
+
+- Troubleshoot Docker issues with Pavish preventing me from reviewing his PR
+- 1/1 with Mukesh
+- Follow up with user about [column comments](https://github.com/centerofci/mathesar/issues/3069#issuecomment-1735799507)
+- Review [Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
+- Raise [discussion](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nMsigWCsAMc) about UX design for Excel/JSON import project
+- Review [Fidal: Close record selector on overlay](https://github.com/centerofci/mathesar/pull/3220)
 
 ## 2023-09-25 Monday
 
