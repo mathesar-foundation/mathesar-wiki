@@ -1,14 +1,15 @@
 # Kriti's work log
 
 ## Upcoming
-- 1:1 with Sean
-- Follow up on release and user research
 - Continue organizing / planning upcoming priorities & work
-- Set up a bunch of meetings re: new org structure
 - Read through organization by-laws
 
-### Backlog
-*Coming soon*
+## 2023-09-28
+- Created large Google Doc to organize and track org transition tasks with Sam and Adam
+- 1:1 with Sean
+- Read through user research meeting notes and followed up with feedback
+- Set up / followed up on 7 different meetings
+- Email + GitHub + Matrix catch up
 
 ## 2023-09-27
 - Spent a bunch of time organizing / planning upcoming priorities & work
