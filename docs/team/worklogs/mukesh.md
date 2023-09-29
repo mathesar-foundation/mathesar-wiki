@@ -1,16 +1,24 @@
 # Mukesh work log
 
 ## Actively working on
-- Creating PR for debian docs, deprecating docker-compose
 - Fixing the install.py issue
-
-## Backlog
 - Write email on architecture incompatibility with debian build platforms
+  
+## Backlog
 - Add compatibility table for comparing various personas with our features
 
+# 2023-09-28
+- Finally fixed the issues with building on a Debian build platform
+- Started writing email summarising Debian build platform options.
+
+# 2023-09-27
+- Create draft PR for Debian install docs
+- Reply to [install.py issue](https://github.com/centerofci/mathesar/issues/3224)
+- Weekly meeting
+- Fixed some of the issues with building the Debian package on Open build service
 
 # 2023-09-26
-- Hit a lot of roadblocks with building debian package on a build service
+- Hit a lot of roadblocks with building Debian package on a build service
 - Check in with Sean
 - Decided to build the debian package manually
 - Create PR to revert back the missing database credential env variable
