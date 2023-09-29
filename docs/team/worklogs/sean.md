@@ -9,11 +9,11 @@
 
 ### Backlog
 
+- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
 - Figure out who is helping Anshuman with with design and UI
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
-- [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 - Begin "User Communication Guide", as a wiki page
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
@@ -26,6 +26,9 @@
 ## 2023-09-29 Friday
 
 - Send email about GitHub repository analytics
+- Team event
+- Comment within email thread about user feedback process
+- Prepare [GitHub user outreach data](https://docs.google.com/spreadsheets/d/1pFuZXPMomj4o00o7nEAjrIG0kQ-x9bilhkv_i4AzJ3g/edit#gid=0)
 
 ## 2023-09-28 Thursday
 
