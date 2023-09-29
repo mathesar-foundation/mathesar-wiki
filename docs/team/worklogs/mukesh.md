@@ -2,7 +2,8 @@
 
 ## Actively working on
 - Fixing the install.py issue
-- Write email on architecture incompatibility with debian build platforms
+- Write email on architecture incompatibility with Debian build platforms
+- Add tooltips referencing glossary articles in the installation documentation
   
 ## Backlog
 - Add compatibility table for comparing various personas with our features
