@@ -2,17 +2,6 @@
 
 ## Actively working on
 
-### Meetings
-
-- 1:1 with Kriti
-  - Catch up on avoiding regressions situation
-  - Catch up on architecture and our need for it
-  - Catch up on preexisting PostgreSQL (performance!11)
-
-### Marketing
-
-- Respond to user requesting installation
-
 ### Infrastructure
 
 - Update internal Mathesar installation
@@ -24,12 +13,24 @@
 ### Email/messages
 
 - composing email about need for coherent team-wide view of technical architecture.
-- Composing preexisting DB project update
+- Composing preexisting DB project tie-off email
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
 
+## 2023-09-28
+
+Still moving boxes around; not much desk time. 
+
+### Meetings
+
+- 1:1 with Anish; discussed architecture plans
+- 1:1 with Pavish; talked about E2E testing project.
+
+## 2023-09-27
+
+Today was moving day. Attended meetings and did some thinking while carrying boxes.
 
 ## 2023-09-26
 
@@ -37,6 +38,10 @@
 
 - Brought Kriti's attention to domain renewal notice when she returns (probable phishing attempt).
 - Participated in email threads
+
+### Architecture
+
+- Worked out more details of new architecture proposal
 
 ## 2023-09-25
 
