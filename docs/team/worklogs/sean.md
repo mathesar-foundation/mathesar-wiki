@@ -4,15 +4,14 @@
 
 ### Soon
 
-- Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
-- Help find work for Anish
-- Start email thread about internal CRM
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
+- Write first draft of user outreach email
+- Begin work to facilitate release process
 
 ### Backlog
 
-- Figure out what to do with [wiki sync PR](https://github.com/centerofci/mathesar-wiki/pull/103)
+- Figure out who is helping Anshuman with with design and UI
+- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 - Begin "User Communication Guide", as a wiki page
@@ -20,8 +19,28 @@
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
+- re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-09-29 Friday
+
+- Send email about GitHub repository analytics
+
+## 2023-09-28 Thursday
+
+- Finish categorizing users from our GitHub repo
+- 1/1 with Rajat
+- User feedback meeting
+- 1/1 with Kriti
+- Polish and publish [github_to_duckdb](https://github.com/seancolsen/github_to_duckdb) code
+
+## 2023-09-27 Wednesday
+
+- Team meeting
+- Investigate and close [Continue looking for available names when an auto-generated constraint name is unavailable](https://github.com/centerofci/mathesar/issues/1014)
+- Some small discussions
+- Some time playing with scraping issue/comment/user data from our GitHub repo into a database
 
 ## 2023-09-26 Tuesday
 
