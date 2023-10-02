@@ -2,12 +2,23 @@
 
 ## Actively working on
 - Fixing the install.py issue
-- Write email on architecture incompatibility with Debian build platforms
 - Add tooltips referencing glossary articles in the installation documentation
   
 ## Backlog
-- Add compatibility table for comparing various personas with our features
+- Add a compatibility table for comparing various personas with our features
 
+
+# 2023-10-02
+- Send email on choosing the Debian build platform 
+- Reply to the "Best installation method for helping people install Mathesar" email
+- Fix the Build from source documentation
+
+# 2023-09-29
+- Write email on architecture incompatibility with Debian build platforms
+- Reply to the install.py issue
+- Took the day off as I wasn't well
+- Partially attended the core team event
+  
 # 2023-09-28
 - Finally fixed the issues with building on a Debian build platform
 - Started writing email summarising Debian build platform options.
