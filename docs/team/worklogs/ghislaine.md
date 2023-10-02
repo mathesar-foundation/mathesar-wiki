@@ -1,5 +1,17 @@
 # Ghislaine's work log
 
+## 2023-09-28
+- Research userbase in Github
+- Planning meeting with Sean and Pavish
+
+## 2023-09-27
+- Weekly Meeting
+- General research on how to use the user CRM and planning
+
+## 2023-09-26
+**Didn't had much work to do after closing up the research**
+- Check-in with Kriti
+
 ## 2023-09-25
 - Design session with Rajat
 - Modify Database Credentials design

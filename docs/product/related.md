@@ -41,6 +41,10 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Xano](https://www.xano.com/)
 - [Tadabase](https://tadabase.io/)
 - [Visual DB](https://visualdb.com/)
+- [Smartsheet](https://www.smartsheet.com/)
+- [Fusioo](https://www.fusioo.com/)
+- [Quip](https://quip.com/)
+- [ClickUp](https://clickup.com/)
 
 ## Desktop
 - [Ultorg](https://www.ultorg.com/)

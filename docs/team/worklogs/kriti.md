@@ -1,26 +1,26 @@
 # Kriti's work log
 
 ## Upcoming
-- Organizing / planning upcoming priorities & work
+- Continue organizing / planning upcoming priorities & work
+- Read through organization by-laws
 
-### Backlog
-*Out of date, will re-organize soon*
+## 2023-09-28
+- Created large Google Doc to organize and track org transition tasks with Sam and Adam
+- 1:1 with Sean
+- Read through user research meeting notes and followed up with feedback
+- Set up / followed up on 7 different meetings
+- Email + GitHub + Matrix catch up
 
-- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
-- Also go through General channel feedback and create issues or other follow ups
-- Review Sean's Querydown document
-- Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
-- Figure out a "PR review" template that includes product considerations, etc. - maybe also a checklist for who "owns" different parts of the codebase / product.
-- Figure out guidelines to write better issues.
-- Figure out how to write up and communicate a better public product roadmap.
-- Ensure our team workflow is up to date on the wiki
-- Set up CRM in Mathesar to track contacts
-- Follow up with various people who've helped me over the last few months
-- Competitor research
-- Reorganize and document ongoing responsibilities better
+## 2023-09-27
+- Spent a bunch of time organizing / planning upcoming priorities & work
+- Call with Sam and Adam
+- Weekly meeting
+    - Also cleaned up and posted weekly meeting notes
+- Email + GitHub + Matrix catch up
+- Some administrative related follow ups
 
 ## 2023-09-26
-- Enail + GitHub + Matrix catch up
+- Email + GitHub + Matrix catch up
 - 1:1 with Brent
 - 1:1 with Pavish
 - 1:1 with Ghislaine + catch up about niche research
