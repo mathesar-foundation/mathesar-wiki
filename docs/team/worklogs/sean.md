@@ -4,15 +4,12 @@
 
 ### Soon
 
-- Write first draft of user outreach email
-- Begin work to facilitate release process
+- Give team a heads up about next week
 
 ### Backlog
 
 - Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
-- Figure out who is helping Anshuman with with design and UI
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - Begin "User Communication Guide", as a wiki page
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
@@ -22,6 +19,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-02 Monday
+
+- Open [PR](https://github.com/centerofci/mathesar_internal_crm/pull/1) for first draft of user outreach email
+- Spend some time trying to figure out how to use Freshdesk
+- Spend some time skimming through Matrix to identify prospects for user outreach
+- Ping Dom about email thread regarding Anshuman's GSoC project.
+- Repo work, cleaning up tickets and PRs in preparation for 0.1.4 release
 
 ## 2023-09-29 Friday
 
