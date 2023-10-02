@@ -11,11 +11,26 @@
 - i18n testing
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
+## 2023-10-02
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) ready for review
+- Repo-admin work
+
+## 2023-09-29
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+  - Errors section when not able to connect to the DB (_active_)
+
+## 2023-09-28
+
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+  - Errors section when not able to connect to the DB (_active_)
+
 ## 2023-09-27
 
 - [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
   - No database found component
-  - Errors section when not able to connect to the DB (Needs some more testing.)
+  - Errors section when not able to connect to the DB (_active_)
 - Repo-admin work
 
 ## 2023-09-26
