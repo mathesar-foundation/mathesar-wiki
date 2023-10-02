@@ -2,12 +2,26 @@
 
 # Working on:
 * Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+* Helping with User interviews and CRM
+* E2E testing strategy and user flows
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
-* Make sure [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214) gets merged
 * Review [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
 * Review [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
 
 # Daily logs
+## 2023-09-29
+* Pondered more on user flows for E2E tests
+* Responded to user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Core team event
+
+## 2023-09-28
+* Call with Brent on E2E testing and dealing with regressions
+* Call with Sean and Ghislaine on User interviews and CRM
+
+## 2023-09-27
+* Weekly meeting
+* Researched more on E2E testing strategy
+
 ## 2023-09-26
 * Debugged setup issue in PR and resolved conflict in [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214)
 * 1-1 with Kriti
