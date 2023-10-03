@@ -19,6 +19,44 @@
 
 - Keeping an eye on Syften notifications
 
+## 2023-10-02
+
+Still dealing with tail end of moving disruption. Should be more productive, but still not 100%.
+
+### Meetings
+
+- 1:1 with Dom
+- Asyced (a bit) with Mukesh
+
+### Email/messages
+
+- Responded to cycle retrospective
+- Responded to question about installation
+
+### User help
+
+- Looked at installation request submission, messaged Kriti with recommendations
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-09-29
+
+Still moving boxes around; not much desk time. 
+
+### Infrastructure
+
+- Checked status of internal Mathesar installation; no update required
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Architecture
+
+- Did some thinking about a "dream architecture" for Mathesar while moving boxes
+
 ## 2023-09-28
 
 Still moving boxes around; not much desk time. 
