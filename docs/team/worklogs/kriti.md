@@ -1,16 +1,32 @@
 # Kriti's work log
 
 ## Upcoming
-- Catch up with GitHub inbox
-- Continue organizing / planning upcoming priorities & work
-- Read through organization by-laws
-- Read through and research new benefits options
-- 1:1 with Brent
-- Call with organizational insurance provider
-- Figure out how to get into touch with Gusto rep
+- Mathesar-related:
+    - Set up for new GitHub repo
+    - Continue organizing / planning upcoming priorities & work
+- Administrative and org-related:
+    - Read through organization by-laws
+    - Call with accountant
+    - Write up blurb about Mathesar and planned activities for insurance
+    - Follow up with Gusto about offering another alternative package
+    - Look through all Gusto benefits to see if I have more questions
 
 ### Backlog
 - Assimilate Sean's Querydown doc
+
+## 2023-10-03 (Tue)
+- (Long) 1:1 with Brent
+- Call with Gusto re: next year's benefits
+    - Read through and researched benefits options to prep
+- Check in with Sam & Adam about various transition-related issues
+- Email + GitHub + Matrix catch up
+- Call with organizational insurance provider
+- Various follow ups with companies, lawyers etc.
+- Initial review of DB setup UI pull request
+- Initial review of user contact email + some suggested changes
+- Set up SavvyCal team
+- Moved weekly meeting
+- Followed up on a bunch of other emails
 
 ## 2023-10-02 (Mon)
 *Partial day, migraine*
