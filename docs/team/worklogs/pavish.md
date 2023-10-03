@@ -1,14 +1,28 @@
 # Pavish's work log
 
-# Working on:
-* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
-* Helping with User interviews and CRM
-* E2E testing strategy and user flows
-* [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+# Working on (Ordered based on priority):
+* Review [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
 * Review [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
 * Review [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
+* Helping with User interviews and CRM
+* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+* E2E testing strategy and user flows
+* [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-03
+* Reviewed [Add user outreach email template](https://github.com/centerofci/mathesar_internal_crm/pull/1)
+* Call with Sean and Ghislaine on User interviews and CRM
+* Replied to cycle retrospective mail
+* Started reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-02
+* Checked out Calendly and SavvyCal features for team wide round-robin meetings
+* Responded to Kriti's mail on User interviews
+* Conversations in user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Took a look at [Fix visual regression of input appreaing disabled #3196](https://github.com/centerofci/mathesar/pull/3196) and [fix: read-only css for input #3197](https://github.com/centerofci/mathesar/pull/3197)
+  - #3197 is better but it needs additional changes before merging. I'll be making the changes myself and merge it in.
+
 ## 2023-09-29
 * Pondered more on user flows for E2E tests
 * Responded to user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
