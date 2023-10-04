@@ -2,17 +2,26 @@
 
 ## Upcoming
 - Mathesar-related:
-    - Set up for new GitHub repo
     - Continue organizing / planning upcoming priorities & work
 - Administrative and org-related:
     - Read through organization by-laws
-    - Call with accountant
     - Write up blurb about Mathesar and planned activities for insurance
     - Follow up with Gusto about offering another alternative package
     - Look through all Gusto benefits to see if I have more questions
 
 ### Backlog
 - Assimilate Sean's Querydown doc
+
+## 2023-10-04 (Wed)
+- Mathesar-related:
+    - Set up for new GitHub repo
+        - Also documented the process
+    - Discussed agenda for tomorrow's meeting with Sean
+- Administrative and org-related:
+    - Call with accountant
+- Email + GitHub + Matrix catch up
+    - Lots of related follow-ups
+    - Scheduled some calls
 
 ## 2023-10-03 (Tue)
 - (Long) 1:1 with Brent
