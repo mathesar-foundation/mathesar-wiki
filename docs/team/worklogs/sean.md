@@ -4,8 +4,11 @@
 
 ### Soon
 
+- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
 - Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
+- Review [Db connection UI by rajatvijay · Pull Request #3223 · centerofci/mathesar](https://github.com/centerofci/mathesar/pull/3223)
 - Give team a heads up about next week
+- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
 
 ### Backlog
 
@@ -20,6 +23,13 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-04 Wednesday
+
+- Spend some time helping new devs in Matrix General
+- Spend some time conversing with new user on Reddit
+- 1/1 with Dom
+- More work getting the CRM up and running and preparing data for user outreach project
 
 ## 2023-10-03 Tuesday
 
