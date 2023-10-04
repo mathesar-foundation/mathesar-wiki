@@ -4,6 +4,7 @@
 
 ### Soon
 
+- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
 - Give team a heads up about next week
 
 ### Backlog
@@ -19,6 +20,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-03 Tuesday
+
+- User feedback meeting with Ghislaine and Pavish
+- 1/1 with Mukesh
+- Some release management work, communicating with people to ensure tasks are delegated and documented optimally
+- Lots of work getting data into the CRM
+- Respond to [Reddit thread](https://www.reddit.com/r/NocoDB/comments/16z7yh0/might_i_have_the_wrong_idea_of_what_this_app_is/)
 
 ## 2023-10-02 Monday
 
