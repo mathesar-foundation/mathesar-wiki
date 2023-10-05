@@ -1,15 +1,58 @@
 # Dom's work log
 ## Active
 
-- Perform Anshumna's final evaluation
-- Do weekly project update
+- Do [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+  - Underlying code problematic
+    - Important, because we're baking some features that lean on database reflection being reliable
+  - Preparing a PR with multiple related bugfixes
+  - Might need another PR to address the reported bug directly
+- Respond in cycle 0.1.4 retrospective email thread
+  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtxSqJjvnWxVFHmvCLFBfhxCpg
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+  - on pause; >75% done, but seems low priority, don't expect to fit it into release
 
 ## Backlog
 
 - Consider automating finding 404 in our wiki
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
+
+### 2023-10-05
+
+- 
+- Conversation in frontend channel
+- Team sync
+
+### 2023-10-04
+
+Had a very hard time being productive, effectively took most of day off.
+
+- Sync with Sean
+
+### 2023-10-03
+
+- Respond in [#3223](https://github.com/centerofci/mathesar/issues/3223) (db connection ui reflection bug)
+- Review [#3201](https://github.com/centerofci/mathesar/issues/3201) and merge
+- Review [#3200](https://github.com/centerofci/mathesar/issues/3200)
+
+### 2023-10-02
+
+- Respond in rsqla1 retrospective
+- Sync with Brent
+- Respond in ux design process for importing excel/json email thread
+- See Anshumna's final evaluation performed
+
+### 2023-09-29
+
+Away on sick leave.
+
+### 2023-09-28
+
+Away on sick leave.
+
+### 2023-09-27
+
+Away on sick leave.
 
 ### 2023-09-26
 
