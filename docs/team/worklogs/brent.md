@@ -10,14 +10,47 @@
 
 - Splitting findings into projects with 'themes' so we can prioritize.
 
+### Architecture
+
+- Breaking down current state of code base, working out details of architecture proposal.
+
 ### Email/messages
 
 - composing email about need for coherent team-wide view of technical architecture.
-- Composing preexisting DB project tie-off email
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
+
+## 2023-10-04
+
+### Infrastructure
+
+- Quick one-off work to let Sean access the matrix DB
+
+### Architecture
+
+- Looked through serializers and viewsets, determining how we can simplify
+- Async conversations to clarify my understanding of some complex software design choices.
+
+### Email/messages
+
+- Caught up on some developer conversations
+
+## 2023-10-03
+
+### Architecture
+
+- Spent most of the day going through models, noting what we store vs. get from DB
+- Took a "big picture" look at how requests move from the API down to the user DB(s) and back
+
+### Meetings
+
+- 1:1 with Kriti
+
+### Marketing
+
+- Cleared out Syften notifications
 
 ## 2023-10-02
 
