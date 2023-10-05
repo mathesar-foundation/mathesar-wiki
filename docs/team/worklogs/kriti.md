@@ -1,22 +1,32 @@
 # Kriti's work log
 
 ## Upcoming
-- Mathesar-related:
-    - Continue organizing / planning upcoming priorities & work
-- Administrative and org-related:
-    - Read through organization by-laws
-    - Write up blurb about Mathesar and planned activities for insurance
-    - Follow up with Gusto about offering another alternative package
-    - Look through all Gusto benefits to see if I have more questions
+- Write script for user call tomorrow
+- Write up questions about org by-laws for the lawyer
+- Call with user
 
 ### Backlog
 - Assimilate Sean's Querydown doc
+
+## 2023-10-05 (Thu)
+- Team meeting
+    - Posted weekly meeting notes
+- 1:1 with Ghislaine
+- Reviewed new draft of user email
+- Email + GitHub + Matrix catch up
+    - Lots of related follow-ups & responses
+- Read through and took notes on organization by-laws
+- Reviewed all of Gusto benefits renewal options
+- Called Gusto to ask them for new packages
+- Wrote up blurb about Mathesar and planned activities for insurance
+- Read through and followed up on team work logs
 
 ## 2023-10-04 (Wed)
 - Mathesar-related:
     - Set up for new GitHub repo
         - Also documented the process
     - Discussed agenda for tomorrow's meeting with Sean
+    - Continued organizing / planning upcoming priorities & work
 - Administrative and org-related:
     - Call with accountant
 - Email + GitHub + Matrix catch up
@@ -44,44 +54,7 @@
 - Caught up with email, some responses
 - Some small administrative tasks and follow ups
 
-## 2023-09-29 (Fri)
-*Partial day, migraine*
-
-- Team event
-- Conversations and follow ups related to the "talking to users" project
-- A bunch of small administrative tasks and comms
-- Email + GitHub + Matrix catch up
-
-## 2023-09-28 (Thu)
-- Created large Google Doc to organize and track org transition tasks with Sam and Adam
-- 1:1 with Sean
-- Read through user research meeting notes and followed up with feedback
-- Set up / followed up on 7 different meetings
-- Email + GitHub + Matrix catch up
-
-## 2023-09-27 (Wed)
-- Spent a bunch of time organizing / planning upcoming priorities & work
-- Call with Sam and Adam
-- Weekly meeting
-    - Also cleaned up and posted weekly meeting notes
-- Email + GitHub + Matrix catch up
-- Some administrative related follow ups
-
-## 2023-09-26 (Tue)
-- Email + GitHub + Matrix catch up
-- 1:1 with Brent
-- 1:1 with Pavish
-- 1:1 with Ghislaine + catch up about niche research
-- Updated weekly meeting agenda
-
-## 2023-09-25 (Mon)
-- Call with Sean about current state of projects and how the cycle went
-- Caught up on (LOTS OF) email and responses
-- Skimmed through Matrix and GitHub, responded to some things, marked everything as read
-
-## 2023-09-01 to 2023-09-24
-*Out of office*
-
 # Archive
+- [September 2023 work logs](./archive/2023-09/kriti.md)
 - [August 2023 work logs](./archive/2023-08/kriti.md)
 - [July 2023 work logs](./archive/2023-07/kriti.md)
