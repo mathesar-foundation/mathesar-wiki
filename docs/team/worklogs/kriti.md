@@ -1,28 +1,80 @@
 # Kriti's work log
 
 ## Upcoming
-- 1:1 with Brent
-- Catch up with Ghislaine re: niche research
-- Organizing / planning upcoming priorities & work
-- 0.1.4 release follow ups as needed
+- Mathesar-related:
+    - Continue organizing / planning upcoming priorities & work
+- Administrative and org-related:
+    - Read through organization by-laws
+    - Write up blurb about Mathesar and planned activities for insurance
+    - Follow up with Gusto about offering another alternative package
+    - Look through all Gusto benefits to see if I have more questions
 
 ### Backlog
-*Out of date, will re-organize soon*
+- Assimilate Sean's Querydown doc
 
-- Go through [installation feedback](https://github.com/centerofci/mathesar/discussions/3108) and create GitHub issues for action items.
-- Also go through General channel feedback and create issues or other follow ups
-- Review Sean's Querydown document
-- Figure out a "backlog grooming" process and go through and organize GitHub issues and milestones
-- Figure out a "PR review" template that includes product considerations, etc. - maybe also a checklist for who "owns" different parts of the codebase / product.
-- Figure out guidelines to write better issues.
-- Figure out how to write up and communicate a better public product roadmap.
-- Ensure our team workflow is up to date on the wiki
-- Set up CRM in Mathesar to track contacts
-- Follow up with various people who've helped me over the last few months
-- Competitor research
-- Reorganize and document ongoing responsibilities better
+## 2023-10-04 (Wed)
+- Mathesar-related:
+    - Set up for new GitHub repo
+        - Also documented the process
+    - Discussed agenda for tomorrow's meeting with Sean
+- Administrative and org-related:
+    - Call with accountant
+- Email + GitHub + Matrix catch up
+    - Lots of related follow-ups
+    - Scheduled some calls
 
-## 2023-09-25
+## 2023-10-03 (Tue)
+- (Long) 1:1 with Brent
+- Call with Gusto re: next year's benefits
+    - Read through and researched benefits options to prep
+- Check in with Sam & Adam about various transition-related issues
+- Email + GitHub + Matrix catch up
+- Call with organizational insurance provider
+- Various follow ups with companies, lawyers etc.
+- Initial review of DB setup UI pull request
+- Initial review of user contact email + some suggested changes
+- Set up SavvyCal team
+- Moved weekly meeting
+- Followed up on a bunch of other emails
+
+## 2023-10-02 (Mon)
+*Partial day, migraine*
+
+- Call with new lawyer abount various legal issues and next steps
+- Caught up with email, some responses
+- Some small administrative tasks and follow ups
+
+## 2023-09-29 (Fri)
+*Partial day, migraine*
+
+- Team event
+- Conversations and follow ups related to the "talking to users" project
+- A bunch of small administrative tasks and comms
+- Email + GitHub + Matrix catch up
+
+## 2023-09-28 (Thu)
+- Created large Google Doc to organize and track org transition tasks with Sam and Adam
+- 1:1 with Sean
+- Read through user research meeting notes and followed up with feedback
+- Set up / followed up on 7 different meetings
+- Email + GitHub + Matrix catch up
+
+## 2023-09-27 (Wed)
+- Spent a bunch of time organizing / planning upcoming priorities & work
+- Call with Sam and Adam
+- Weekly meeting
+    - Also cleaned up and posted weekly meeting notes
+- Email + GitHub + Matrix catch up
+- Some administrative related follow ups
+
+## 2023-09-26 (Tue)
+- Email + GitHub + Matrix catch up
+- 1:1 with Brent
+- 1:1 with Pavish
+- 1:1 with Ghislaine + catch up about niche research
+- Updated weekly meeting agenda
+
+## 2023-09-25 (Mon)
 - Call with Sean about current state of projects and how the cycle went
 - Caught up on (LOTS OF) email and responses
 - Skimmed through Matrix and GitHub, responded to some things, marked everything as read

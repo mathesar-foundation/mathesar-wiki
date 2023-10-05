@@ -1,12 +1,48 @@
 # Mukesh work log
 
 ## Actively working on
-- Deprecating docker compose docs
-
+- Fixing the install.py issue
+- Add tooltips referencing glossary articles in the installation documentation
+  
 ## Backlog
-- Write email on build platform
-- Add compatibility table for comparing various personas with our features
+- Add a compatibility table for comparing various personas with our features
 
+
+# 2023-10-02
+- Send email on choosing the Debian build platform 
+- Reply to the "Best installation method for helping people install Mathesar" email
+- Fix the Build from source documentation
+
+# 2023-09-29
+- Write email on architecture incompatibility with Debian build platforms
+- Reply to the install.py issue
+- Took the day off as I wasn't well
+- Partially attended the core team event
+  
+# 2023-09-28
+- Finally fixed the issues with building on a Debian build platform
+- Started writing email summarising Debian build platform options.
+
+# 2023-09-27
+- Create draft PR for Debian install docs
+- Reply to [install.py issue](https://github.com/centerofci/mathesar/issues/3224)
+- Weekly meeting
+- Fixed some of the issues with building the Debian package on Open build service
+
+# 2023-09-26
+- Hit a lot of roadblocks with building Debian package on a build service
+- Check in with Sean
+- Decided to build the debian package manually
+- Create PR to revert back the missing database credential env variable
+
+# 2023-09-25
+- Try building the debian package on a build platform
+- Coordinate with Anish and Rajat on the Database credentials work
+- Read through the emails
+
+## 2023-09-22
+- Sync with Brent
+- Finish documenting deprecation information to the docker compose and build from scratch
 
 ## 2023-09-21
 - Fix issues with the Postgres docker image PR

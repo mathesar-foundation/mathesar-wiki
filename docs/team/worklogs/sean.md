@@ -2,33 +2,81 @@
 
 ## TODO
 
-### Review
-
-- Review [Pavish: Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
-- Review [Rajat: Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
-- Review [Anshuman: Excel import docs](https://github.com/centerofci/mathesar/pull/3204)
-- Review [Fidal: Close record selector on overlay](https://github.com/centerofci/mathesar/pull/3220)
-
 ### Soon
 
-- Set up 1/1 with Anshuman and figure out who is going to help with with design and UI
-- Help find work for Anish
-- Start email thread about internal CRM
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- [2023-08 Front end work](https://github.com/centerofci/mathesar/issues/3150)
+- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
+- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
+- Review [Db connection UI by rajatvijay · Pull Request #3223 · centerofci/mathesar](https://github.com/centerofci/mathesar/pull/3223)
+- Give team a heads up about next week
+- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
 
 ### Backlog
 
-- Figure out what to do with [wiki sync PR](https://github.com/centerofci/mathesar-wiki/pull/103)
+- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
+- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
-- [Investigate Supabase integration](https://github.com/centerofci/mathesar/issues/3141)
 - Begin "User Communication Guide", as a wiki page
 - Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
+- re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-04 Wednesday
+
+- Spend some time helping new devs in Matrix General
+- Spend some time conversing with new user on Reddit
+- 1/1 with Dom
+- More work getting the CRM up and running and preparing data for user outreach project
+
+## 2023-10-03 Tuesday
+
+- User feedback meeting with Ghislaine and Pavish
+- 1/1 with Mukesh
+- Some release management work, communicating with people to ensure tasks are delegated and documented optimally
+- Lots of work getting data into the CRM
+- Respond to [Reddit thread](https://www.reddit.com/r/NocoDB/comments/16z7yh0/might_i_have_the_wrong_idea_of_what_this_app_is/)
+
+## 2023-10-02 Monday
+
+- Open [PR](https://github.com/centerofci/mathesar_internal_crm/pull/1) for first draft of user outreach email
+- Spend some time trying to figure out how to use Freshdesk
+- Spend some time skimming through Matrix to identify prospects for user outreach
+- Ping Dom about email thread regarding Anshuman's GSoC project.
+- Repo work, cleaning up tickets and PRs in preparation for 0.1.4 release
+
+## 2023-09-29 Friday
+
+- Send email about GitHub repository analytics
+- Team event
+- Comment within email thread about user feedback process
+- Prepare [GitHub user outreach data](https://docs.google.com/spreadsheets/d/1pFuZXPMomj4o00o7nEAjrIG0kQ-x9bilhkv_i4AzJ3g/edit#gid=0)
+
+## 2023-09-28 Thursday
+
+- Finish categorizing users from our GitHub repo
+- 1/1 with Rajat
+- User feedback meeting
+- 1/1 with Kriti
+- Polish and publish [github_to_duckdb](https://github.com/seancolsen/github_to_duckdb) code
+
+## 2023-09-27 Wednesday
+
+- Team meeting
+- Investigate and close [Continue looking for available names when an auto-generated constraint name is unavailable](https://github.com/centerofci/mathesar/issues/1014)
+- Some small discussions
+- Some time playing with scraping issue/comment/user data from our GitHub repo into a database
+
+## 2023-09-26 Tuesday
+
+- Troubleshoot Docker issues with Pavish preventing me from reviewing his PR
+- 1/1 with Mukesh
+- Follow up with user about [column comments](https://github.com/centerofci/mathesar/issues/3069#issuecomment-1735799507)
+- Review [Upgrade node](https://github.com/centerofci/mathesar/pull/3214)
+- Raise [discussion](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/nMsigWCsAMc) about UX design for Excel/JSON import project
+- Review [Fidal: Close record selector on overlay](https://github.com/centerofci/mathesar/pull/3220)
 
 ## 2023-09-25 Monday
 

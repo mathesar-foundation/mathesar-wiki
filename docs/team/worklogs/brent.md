@@ -2,17 +2,6 @@
 
 ## Actively working on
 
-### Meetings
-
-- 1:1 with Kriti
-  - Catch up on avoiding regressions situation
-  - Catch up on architecture and our need for it
-  - Catch up on preexisting PostgreSQL (performance!11)
-
-### Marketing
-
-- Respond to user requesting installation
-
 ### Infrastructure
 
 - Update internal Mathesar installation
@@ -21,15 +10,98 @@
 
 - Splitting findings into projects with 'themes' so we can prioritize.
 
+### Architecture
+
+- Breaking down current state of code base, working out details of architecture proposal.
+
 ### Email/messages
 
 - composing email about need for coherent team-wide view of technical architecture.
-- Composing preexisting DB project update
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
 
+## 2023-10-04
+
+### Infrastructure
+
+- Quick one-off work to let Sean access the matrix DB
+
+### Architecture
+
+- Looked through serializers and viewsets, determining how we can simplify
+- Async conversations to clarify my understanding of some complex software design choices.
+
+### Email/messages
+
+- Caught up on some developer conversations
+
+## 2023-10-03
+
+### Architecture
+
+- Spent most of the day going through models, noting what we store vs. get from DB
+- Took a "big picture" look at how requests move from the API down to the user DB(s) and back
+
+### Meetings
+
+- 1:1 with Kriti
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-10-02
+
+Still dealing with tail end of moving disruption. Should be more productive, but still not 100%.
+
+### Meetings
+
+- 1:1 with Dom
+- Asyced (a bit) with Mukesh
+
+### Email/messages
+
+- Responded to cycle retrospective
+- Responded to question about installation
+
+### User help
+
+- Looked at installation request submission, messaged Kriti with recommendations
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-09-29
+
+Still moving boxes around; not much desk time. 
+
+### Infrastructure
+
+- Checked status of internal Mathesar installation; no update required
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Architecture
+
+- Did some thinking about a "dream architecture" for Mathesar while moving boxes
+
+## 2023-09-28
+
+Still moving boxes around; not much desk time. 
+
+### Meetings
+
+- 1:1 with Anish; discussed architecture plans
+- 1:1 with Pavish; talked about E2E testing project.
+
+## 2023-09-27
+
+Today was moving day. Attended meetings and did some thinking while carrying boxes.
 
 ## 2023-09-26
 
@@ -37,6 +109,10 @@
 
 - Brought Kriti's attention to domain renewal notice when she returns (probable phishing attempt).
 - Participated in email threads
+
+### Architecture
+
+- Worked out more details of new architecture proposal
 
 ## 2023-09-25
 
