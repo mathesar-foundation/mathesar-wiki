@@ -19,7 +19,6 @@
 
 ### 2023-10-05
 
-- 
 - Conversation in frontend channel
 - Team sync
 
@@ -31,7 +30,8 @@ Had a very hard time being productive, effectively took most of day off.
 
 ### 2023-10-03
 
-- Respond in [#3223](https://github.com/centerofci/mathesar/issues/3223) (db connection ui reflection bug)
+- Started working on [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+- Respond in [#3223](https://github.com/centerofci/mathesar/issues/3223) (Rajat's db connection pr)
 - Review [#3201](https://github.com/centerofci/mathesar/issues/3201) and merge
 - Review [#3200](https://github.com/centerofci/mathesar/issues/3200)
 
