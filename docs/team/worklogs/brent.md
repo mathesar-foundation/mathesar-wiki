@@ -2,6 +2,13 @@
 
 ## Actively working on
 
+### Meetings
+
+- 1:1 with Pavish
+- DB connection meeting
+- 1:1 with Mukesh
+- user call with Kriti
+
 ### Infrastructure
 
 - Update internal Mathesar installation
@@ -13,6 +20,7 @@
 ### Architecture
 
 - Breaking down current state of code base, working out details of architecture proposal.
+- Cataloging all info stored in models, taking notes on modifications
 
 ### Email/messages
 
@@ -21,6 +29,26 @@
 ### Marketing
 
 - Keeping an eye on Syften notifications
+
+## 2023-10-05
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Architecture
+
+- Started comprehensive catalog of all metadata stored in models, notes on simplifications and modifications.
+- Minor async discussions with team members to clarify my understanding of some parts of code base.
+
+### Meetings
+
+- 1:1 with Anish
+- Team meeting
 
 ## 2023-10-04
 
