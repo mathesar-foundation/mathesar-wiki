@@ -1,15 +1,24 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
-* Review [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
-* Review [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
-* Review [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
 * Helping with User interviews and CRM
 * Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 * E2E testing strategy and user flows
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-05
+* Reviewed and suggested changes in [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Multiple calls with Rajat
+* Reviewed and merged [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
+* Reviewed and closed [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
+* Mathesar weekly meeting
+
+## 2023-10-04
+* Continued reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Sync with Mukesh
+* Tried to find more options in SavvyCal for scheduling calls under a team email
+
 ## 2023-10-03
 * Reviewed [Add user outreach email template](https://github.com/centerofci/mathesar_internal_crm/pull/1)
 * Call with Sean and Ghislaine on User interviews and CRM
