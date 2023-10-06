@@ -1,12 +1,29 @@
 # Mukesh work log
 
 ## Actively working on
-- Fixing the install.py issue
 - Add tooltips referencing glossary articles in the installation documentation
   
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
 
+# 2023-10-06
+- Sync with Brent on various backend architecture related discussion
+- Sync meeting to discuss UX for Database connection string
+
+# 2023-10-05
+Had a day off due to sickness
+- Weekly meeting
+- Make some minor fixes to the installation documentation pull requests
+- Check in Pavish
+
+# 2023-10-04
+Had a day off due to sickness
+
+# 2023-10-03
+- Check-in with Sean
+- Add install.py fixes to the ["Build from scratch" docs deprecation PR](https://github.com/centerofci/mathesar/pull/3227)
+- Build Debian package based on Rajat's PR
+- Merge Anish Database connection API PR
 
 # 2023-10-02
 - Send email on choosing the Debian build platform 
