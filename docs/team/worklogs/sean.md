@@ -4,10 +4,8 @@
 
 ### Soon
 
-- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
-- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
-- Review [Db connection UI by rajatvijay · Pull Request #3223 · centerofci/mathesar](https://github.com/centerofci/mathesar/pull/3223)
-- Give team a heads up about next week
+- Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
+- Review [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
 
 ### Backlog
@@ -23,6 +21,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-05 Thursday
+
+- Team meeting
+- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
+- Give team a heads up about next week
+- Some discussion around [Allow Typing Into Cells Once Highlighted](https://github.com/centerofci/mathesar/issues/3236)
+- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
 
 ## 2023-10-04 Wednesday
 
