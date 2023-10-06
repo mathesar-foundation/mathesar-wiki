@@ -1,6 +1,7 @@
 # Mukesh work log
 
 ## Actively working on
+- Pair with Sean to clean up the docs and get it up for review
 - Add tooltips referencing glossary articles in the installation documentation
   
 ## Backlog
