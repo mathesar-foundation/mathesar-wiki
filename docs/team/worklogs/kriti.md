@@ -1,12 +1,36 @@
 # Kriti's work log
 
-## Upcoming
-- Write script for user call tomorrow
-- Write up questions about org by-laws for the lawyer
-- Call with user
+## TODO
+*Please note that I am out on Monday, Oct 9 for a US holiday.*
+
+### Active
+- Work on GTM / product strategy
+- Call with Adam
+- Call with Adam & Sam re: org transition
+- Plan team event
+
+### Ongoing
+
+I'm keeping an eye on these things:
+
+- Release 0.1.4
+- User research project
+- General team management & work logs
+- Various comms and follow ups
 
 ### Backlog
+- Pick benefits (deadline Oct 12)
+- Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
+
+## 2023-10-06 (Fri)
+- (Very long) call with potential Mathesar user, helped with installation
+    - Cleaned up and posted notes in our user CRM
+- Wrote up questions about org by-laws and sent to lawyer
+- Email + GitHub + Matrix catch up
+    - Lots of related follow-ups & responses
+- Followed up on and updated CCI org transition / admin tasks document
+- Figured out next team event organizer (me)
 
 ## 2023-10-05 (Thu)
 - Team meeting
@@ -20,6 +44,7 @@
 - Called Gusto to ask them for new packages
 - Wrote up blurb about Mathesar and planned activities for insurance
 - Read through and followed up on team work logs
+- Wrote script for user call tomorrow
 
 ## 2023-10-04 (Wed)
 - Mathesar-related:
