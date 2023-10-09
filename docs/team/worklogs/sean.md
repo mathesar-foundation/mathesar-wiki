@@ -4,24 +4,31 @@
 
 ### Soon
 
-- Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
 - Review [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
-- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
-- Move [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995) out of release milestone, with comment pointing towards https://github.com/centerofci/mathesar/issues/2358 and https://github.com/centerofci/mathesar/pull/3050
+- Begin work on 0.1.4 release notes
 
 ### Backlog
 
 - Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - Begin "User Communication Guide", as a wiki page
-- Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
 - PR to add docs on running front end in prod mode
 - PR to add docs on loading sample data
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-09 Monday
+
+- Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
+- Some repo analytics as follow-up thoughts to [Repo management](https://turbot.com/blog/2023/10/repo-management) link [posted](https://matrix.to/#/!OBFOMvPciDqjqcoSUO:matrix.mathesar.org/$tvDnEx9l0lm2363dE-rv52Ym9ctQ5C-Mg_4DL76E970?via=matrix.mathesar.org&via=matrix.org) by Kriti
+- Move [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995) out of release milestone, with comment pointing user towards other issues
+- Read Installation Improvements [project](https://wiki.mathesar.org/projects/2023/08/installation-improvements-0_1_4/) and [plan](https://wiki.mathesar.org/engineering/specs/installation-improvements-plan-0_1_4/) to become more familiar with it for the release
+- Read [Release management](https://wiki.mathesar.org/team/responsibilities/release-management/) docs
+- [Cleanup](https://github.com/centerofci/mathesar-wiki/commit/0acfc0ba358a2e846448e3ecec45102ec0659605) some wiki docs content on release management and process
 
 ## 2023-10-06 Friday
 
