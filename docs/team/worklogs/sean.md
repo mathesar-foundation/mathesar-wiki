@@ -7,6 +7,7 @@
 - Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
 - Review [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
+- Move [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995) out of release milestone, with comment pointing towards https://github.com/centerofci/mathesar/issues/2358 and https://github.com/centerofci/mathesar/pull/3050
 
 ### Backlog
 
@@ -21,6 +22,13 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-06 Friday
+
+- DB connection UX meeting
+- Docs pairing session with Mukesh
+- Email "product vision follow-up thoughts"
+- Begin reviewing [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
 
 ## 2023-10-05 Thursday
 
