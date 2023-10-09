@@ -1,12 +1,23 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
-* Helping with User interviews and CRM
+* Re-review [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Help with User interviews and CRM
 * Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
-* E2E testing strategy and user flows
+* Figure out E2E testing strategy and user flows
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-09
+* (Had a partial workday due to family commitments)
+* Started writing up project for E2E testing strategy
+* Started re-reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-06
+* Architecture call with Brent
+* Figured out steps to schedule calls in SavvyCal with common account
+* Call to discuss UX for database connections
+
 ## 2023-10-05
 * Reviewed and suggested changes in [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
 * Multiple calls with Rajat
