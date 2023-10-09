@@ -1,7 +1,6 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
-* Re-review [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
 * Help with User interviews and CRM
 * Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 * Figure out E2E testing strategy and user flows
@@ -11,7 +10,7 @@
 ## 2023-10-09
 * (Had a partial workday due to family commitments)
 * Started writing up project for E2E testing strategy
-* Started re-reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Re-reviewed and approved [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
 
 ## 2023-10-06
 * Architecture call with Brent
