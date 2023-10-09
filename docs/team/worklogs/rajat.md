@@ -2,14 +2,23 @@
 
 **TODO**
 
-- Review feedback on [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102).
 - Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
 - Wrapping raw strings with translation function in the whole codebase's PR update.
 - Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
 - Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - Pending i18n Documentations. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - i18n testing
-- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+
+## 2023-10-09
+
+- Repo-admin work
+- Synced with Mukesh regarding missing links in database ui PR.
+- Replied to retro e-mail for the last cycle.
+- Tackled review feedback & made ready for review - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+
+## 2023-10-06
+
+- Worked on review feedback for - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
 ## 2023-10-05
 
