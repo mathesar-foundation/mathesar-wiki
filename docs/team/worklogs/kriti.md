@@ -25,7 +25,7 @@ I'm keeping an eye on these things:
 - Assimilate Sean's Querydown doc
 
 
-## 2023-10-09 (Tue)
+## 2023-10-10 (Tue)
 *Partial day due to doctor appointment.*
 
 - Call with Ghislaine, Pavish, Sean re: user research next steps
