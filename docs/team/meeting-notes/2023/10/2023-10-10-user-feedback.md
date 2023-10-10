@@ -26,7 +26,7 @@ Pavish:
 
 - Buffer period: We should plan for at least 1hr between calls and at least 1 day between scheduling and call time
 
-## Future Actions
+## Future actions
 
 - CRM
     - We should add people to the CRM who filled out the "Installation request" form on our website
