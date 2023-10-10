@@ -21,14 +21,46 @@
 
 - Breaking down current state of code base, working out details of architecture proposal.
 - Cataloging all info stored in models, taking notes on modifications
-
-### Email/messages
-
-- composing email about need for coherent team-wide view of technical architecture.
+- Looking into whether we can easily/simply support a few async operations
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
+- Need to coordinate with Sean on posts responding to AWS setup
+
+## 2023-10-09
+
+### Marketing
+
+- Looked through posts about setting Mathesar up on AWS
+- cleared out Syften notifications
+
+### Architecture
+
+- I'm confident at this point that the team supports having a tech architecture, minimizing state
+- Talked with Dom about Connections, storing them, caching engines
+  - SQLAlchemy engines are overcomplicated
+  - Psycopg3 ones are simpler
+- Incorporated ideas from other backend devs into architecture designs somewhat (ongoing)
+
+## 2023-10-06
+
+### Meetings
+
+- 1:1 with Pavish
+- 1:1 with Mukesh
+- user call with Kriti
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Architecture
+
+- Modified architecture ideas according to conversations with Mukesh and Pavish
+- Took notes on
+  - Ideas for more RPC-style setup for some endpoints
+  - Ideas for DB connection handling
 
 ## 2023-10-05
 
