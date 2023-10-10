@@ -1,13 +1,12 @@
 # Kriti's work log
 
 ## TODO
-*Please note that I am out on Monday, Oct 9 for a US holiday.*
 
 ### Active
-- Work on GTM / product strategy
-- Call with Adam
+- Figure out next steps for org transition now that lawyer has followed up
 - Call with Adam & Sam re: org transition
-- Plan team event
+- Call with Ian re: funding
+- Comms and follow ups
 
 ### Ongoing
 
@@ -19,9 +18,21 @@ I'm keeping an eye on these things:
 - Various comms and follow ups
 
 ### Backlog
+- Plan team event
 - Pick benefits (deadline Oct 12)
+- Work on GTM / product strategy
 - Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
+
+
+## 2023-10-09 (Tue)
+*Partial day due to doctor appointment.*
+
+- Call with Ghislaine, Pavish, Sean re: user research next steps
+- Email + GitHub + Matrix catch up
+
+## 2023-10-09 (Mon)
+*Out of office for US holiday.*
 
 ## 2023-10-06 (Fri)
 - (Very long) call with potential Mathesar user, helped with installation
