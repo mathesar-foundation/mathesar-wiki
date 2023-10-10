@@ -1,18 +1,23 @@
 # Mukesh work log
 
 ## Actively working on
-- Pair with Sean to clean up the docs and get it up for review
-- Add tooltips referencing glossary articles in the installation documentation
-  
+- Send email asking Kriti to decide on the UX to go with for the Database connection string
+
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
+
+# 2023-10-09
+- Sync with Rajat to discuss the documentation content needed for "Database connection UI"
+- Send message to Sean to ask for help with organising Mathesar concepts like Mathesar schema
+- Compose email for the Database connection string UX
 
 # 2023-10-06
 - Sync with Brent on various backend architecture related discussion
 - Sync meeting to discuss UX for Database connection string
+- Sync with Sean for organizing the installation documentation
 
 # 2023-10-05
-Had a day off due to sickness
+Had a partial day off due to sickness
 - Weekly meeting
 - Make some minor fixes to the installation documentation pull requests
 - Check in Pavish
