@@ -4,6 +4,13 @@
 
 - Backlog/High priority issues:
 
+## 2023-10-10
+- Sync with pavish about walkthrough of the frontend codebase
+- Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232) & opened [#3239](https://github.com/centerofci/mathesar/pull/3239) for the same
+
+## 2023-10-09
+- Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232)
+
 ## 2023-10-06
 
 - UX for db connections sync 
@@ -13,7 +20,7 @@
 
 - Sync with Brent
 - Weekly team meet
-- Respond on [3230](https://github.com/centerofci/mathesar/issues/3230)
+- Respond on [#3230](https://github.com/centerofci/mathesar/issues/3230)
 
 ## 2023-10-04
 
