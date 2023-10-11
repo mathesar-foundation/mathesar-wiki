@@ -3,6 +3,9 @@
 ## TODO
 
 ### Active
+- Call with Sean
+- Call with SJ
+- Call with potential new payroll provider
 - Read new by-law templates
 - Some funding related follow ups
 - Figure out some more legal stuff
