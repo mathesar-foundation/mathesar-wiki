@@ -3,10 +3,10 @@
 ## TODO
 
 ### Active
-- Figure out next steps for org transition now that lawyer has followed up
-- Call with Adam & Sam re: org transition
-- Call with Ian re: funding
-- Comms and follow ups
+- Read new by-law templates
+- Some funding related follow ups
+- Figure out some more legal stuff
+- Plan team event
 
 ### Ongoing
 
@@ -18,17 +18,29 @@ I'm keeping an eye on these things:
 - Various comms and follow ups
 
 ### Backlog
-- Plan team event
-- Pick benefits (deadline Oct 12)
+
+- Pick benefits (deadline Oct 18)
 - Work on GTM / product strategy
 - Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
 
 
+## 2023-10-11 (Wed)
+*Partial day due to some medical stuff.*
+
+- Call with Adam & Sam re: org transition
+- Call with just Sam about org transiiton
+- Picked medical benefits
+- A whole bunch of legal follow ups
+- Email + GitHub + Matrix catch up
+    - Bunch of replies
+
 ## 2023-10-10 (Tue)
 *Partial day due to doctor appointment.*
 
 - Call with Ghislaine, Pavish, Sean re: user research next steps
+- Call with Adam & Sam re: org transition
+- Call with Ian re: funding and board
 - Email + GitHub + Matrix catch up
 
 ## 2023-10-09 (Mon)
