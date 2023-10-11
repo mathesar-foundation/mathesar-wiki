@@ -4,8 +4,11 @@
 
 ### Soon
 
+- Test email sending through FreshDesk. See [instructions](https://groups.google.com/a/mathesar.org/g/core-team/c/jBo1aAc6j5k/m/y8pYksPjAAAJ) if necessary.
+- Make more [repo analytics](https://matrix.to/#/!kpLRqiyQwsndKhBIvd:matrix.mathesar.org/$1DRKsdbAPmVMY-ntmQWb342V4YVP4QTXlTILFBzSa2U?via=matrix.mathesar.org&via=matrix.org) for Kriti
 - Review [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
 - Begin work on 0.1.4 release notes
+- Add my usability issues to GitHub for Ghislaine
 
 ### Backlog
 
@@ -20,6 +23,16 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-10 Tuesday
+
+- Call with Ghislaine and Pavish about about user outreach and feedback
+- Call with Ghislaine, Pavish, and Kriti about user outreach and feedback
+- Review Ghislaine's usability issues email and HackMD document
+- Call with Ghislaine about usability issues
+- Call with Mukesh about installation documentation questions
+- Update user outreach email template, removing "Amazon" and linking to calendar
+- Review SavvyCal functionality from user perspective
 
 ## 2023-10-09 Monday
 
