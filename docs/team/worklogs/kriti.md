@@ -3,13 +3,13 @@
 ## TODO
 
 ### Active
-- Call with Sean
-- Call with SJ
-- Call with potential new payroll provider
+- Team event
+- 1:1 with Ghislaine
+- Call with Adam
 - Read new by-law templates
 - Some funding related follow ups
-- Figure out some more legal stuff
-- Plan team event
+- A whole bunch of legal follow ups
+- Follow up with Insperity
 
 ### Ongoing
 
@@ -27,6 +27,14 @@ I'm keeping an eye on these things:
 - Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
 
+## 2023-10-12 (Thu)
+- Call with Sean re: user research & installation work for release 0.1.4
+- Call with SJ & Pavish re: Mathesar use cases for WMF ecosystem and next steps
+- Call with Insperity about their services
+- Call with Mukesh about installation work for release 0.1.4
+- Did some research into team event activities
+- Email + GitHub + Matrix catch up
+    - Bunch of replies
 
 ## 2023-10-11 (Wed)
 *Partial day due to some medical stuff.*
