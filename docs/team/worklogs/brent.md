@@ -4,10 +4,7 @@
 
 ### Meetings
 
-- 1:1 with Pavish
-- DB connection meeting
-- 1:1 with Mukesh
-- user call with Kriti
+- 1:1 with Anish
 
 ### Infrastructure
 
@@ -19,14 +16,46 @@
 
 ### Architecture
 
-- Breaking down current state of code base, working out details of architecture proposal.
-- Cataloging all info stored in models, taking notes on modifications
-- Looking into whether we can easily/simply support a few async operations
+- Putting notes together into something coherent and consumable by others
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
-- Need to coordinate with Sean on posts responding to AWS setup
+
+## 2023-10-12
+
+### Infrastructure
+
+- Helped user with questions about AWS setup
+- Updated internal Mathesar installation
+
+## 2023-10-11
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Self-improvement
+
+- Read CRM docs
+
+### Architecture
+
+- Asynced with Mukesh about Serializers and access control in our app
+- Did some more investiation and note-taking about current status of code base, changes
+
+## 2023-10-10
+
+### Architecture
+
+- Asynced with Mukesh about python versions we need to support, and the implications of that
+- Experimented with async options, looked at where it would be useful; ultimately decided it's not needed/useful (yet)
+- Finished cataloging model data, redesigning model setup
+- Looked into whether serializers will remain useful (a bit, in some cases)
+
+### Infrastructure
+
+- Checked internal installation; no update needed
 
 ## 2023-10-09
 
