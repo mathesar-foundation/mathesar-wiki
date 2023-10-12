@@ -5,8 +5,7 @@
 ### Soon
 
 - Test email sending through FreshDesk. See [instructions](https://groups.google.com/a/mathesar.org/g/core-team/c/jBo1aAc6j5k/m/y8pYksPjAAAJ) if necessary.
-- Make more [repo analytics](https://matrix.to/#/!kpLRqiyQwsndKhBIvd:matrix.mathesar.org/$1DRKsdbAPmVMY-ntmQWb342V4YVP4QTXlTILFBzSa2U?via=matrix.mathesar.org&via=matrix.org) for Kriti
-- Review [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
+- Review [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
 
@@ -23,6 +22,12 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-11 Wednesday
+
+- Produce more [PR age report metrics](https://matrix.to/#/!kpLRqiyQwsndKhBIvd:matrix.mathesar.org/$XcXRbSouPuLVWjlIFYpOrmx-CyDcekz6balJX0gRiWQ?via=matrix.mathesar.org&via=matrix.org)
+- Struggle with figuring out how to use Freshdesk to suit our needs for the user outreach. (I tried a bunch of things but couldn't get Feshdesk to do exactly what we wanted.)
+- Some work reviewing [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
 
 ## 2023-10-10 Tuesday
 
