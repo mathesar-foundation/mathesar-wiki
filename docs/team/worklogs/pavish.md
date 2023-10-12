@@ -2,11 +2,25 @@
 
 # Working on (Ordered based on priority):
 * Help with User interviews and CRM
-* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 * Figure out E2E testing strategy and user flows
+* Review [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+* Re-review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-12
+* Looked into Cypress as a potential E2E testing solution
+* User interview call with SJ and Kriti
+
+## 2023-10-11
+* (Had a day off due to family emergency)
+
+## 2023-10-10
+* Frontend walk through call with Anish
+* User feedback meeting call
+* Call for User Interview Phase 1 plan finalization
+
 ## 2023-10-09
 * (Had a partial workday due to family commitments)
 * Started writing up project for E2E testing strategy
