@@ -6,6 +6,17 @@
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
 
+# 2023-10-11
+- Send out the email for Database connection string UX
+- Added content to the Mathesar docs homepage
+- Added content to uninstall section based on the discussion with Sean
+- Looked at the PR review backlogs to make sure if PR review went under the radar
+
+# 2023-10-10
+- Write email for the Database connection string
+- Took partial day off as I was not feeling well
+- Check in with sean
+
 # 2023-10-09
 - Sync with Rajat to discuss the documentation content needed for "Database connection UI"
 - Send message to Sean to ask for help with organising Mathesar concepts like Mathesar schema
