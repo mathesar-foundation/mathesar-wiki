@@ -3,13 +3,13 @@
 ## TODO
 
 ### Active
-- Team event
-- 1:1 with Ghislaine
-- Call with Adam
+- Call with another potential payroll provider
 - Read new by-law templates
-- Some funding related follow ups
-- A whole bunch of legal follow ups
-- Follow up with Insperity
+- More board / legal follow ups
+- Reach out to AJP
+- Update some CRM entries
+- Pick remaining benefits (deadline Oct 18)
+- Think through org structure
 
 ### Ongoing
 
@@ -21,11 +21,18 @@ I'm keeping an eye on these things:
 - Various comms and follow ups
 
 ### Backlog
-
-- Pick benefits (deadline Oct 18)
 - Work on GTM / product strategy
 - Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
+
+## 2023-10-13 (Fri)
+- Team event
+- 1:1 with Ghislaine
+- Call with Adam about operations / finance stuff
+- Bunch of follow ups and comms related to: funding, legal, operations
+- Email + GitHub + Matrix catch up
+    - Bunch of replies
+    - Scheduled meetings
 
 ## 2023-10-12 (Thu)
 - Call with Sean re: user research & installation work for release 0.1.4
