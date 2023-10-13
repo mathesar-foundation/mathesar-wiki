@@ -4,7 +4,7 @@
 
 ### Soon
 
-- Test email sending through FreshDesk. See [instructions](https://groups.google.com/a/mathesar.org/g/core-team/c/jBo1aAc6j5k/m/y8pYksPjAAAJ) if necessary.
+- Send email to team, updating everyone on the status of the DB connection situation. Link to [ticket that Ghislaine created](https://github.com/centerofci/mathesar/issues/3244)
 - Review [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
@@ -22,6 +22,15 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-13 Friday
+
+- Call with Ghislaine about DB connection UI
+- Team event
+- Some continued thinking about DB connection architecture problems
+- Spend some time wrestling with Freshdesk, especially, trying to figure out how to reply to a user using markdown.
+- Discuss abandoning Freshdesk for the user outreach project
+- Some continued conversation with Serafeim Papastefanos over email ([Logged](https://github.com/centerofci/mathesar-internal-crm/blob/266f02bdaf40caa83a00db78134dd9f325790eeb/contacts/serafeim_papastefanos.md#L66))
 
 ## 2023-10-12 Thursday
 
