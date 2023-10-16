@@ -4,8 +4,8 @@
 
 ### Soon
 
-- Send email to team, updating everyone on the status of the DB connection situation. Link to [ticket that Ghislaine created](https://github.com/centerofci/mathesar/issues/3244)
-- Review [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+- Send email to team about release notes improvements
+- Figure out what needs to happen in order to merge Rajat's [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) PR
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
 
@@ -22,6 +22,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-16 Monday
+
+*(1/2 day due to kid stuff)*
+
+- 1/1 with Kriti
+- Email about [DB connections work](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/jscJ4hXIlEA)
+- Catch up on some smaller email conversations
 
 ## 2023-10-13 Friday
 
