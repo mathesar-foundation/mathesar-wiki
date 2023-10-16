@@ -6,6 +6,16 @@
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
 
+# 2023-10-13
+- Check in with Brent
+- Attend community event
+- Compose Reply to the Database connection string UX email
+
+# 2023-10-12
+- Check in with Sean on the Database connection string UX and few documentation related issues
+- Sync with Kriti
+- Fixed all the todo items in [debian docs](https://github.com/centerofci/mathesar/pull/3227)
+
 # 2023-10-11
 - Send out the email for Database connection string UX
 - Added content to the Mathesar docs homepage
