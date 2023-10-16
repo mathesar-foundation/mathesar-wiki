@@ -3,13 +3,12 @@
 ## TODO
 
 ### Active
-- Call with another potential payroll provider
-- Read new by-law templates
-- More board / legal follow ups
-- Reach out to AJP
-- Update some CRM entries
+- Call with Trinet
 - Pick remaining benefits (deadline Oct 18)
-- Think through org structure
+- Meeting with fundraising mentor
+- Permissions UX meeting
+- Work on GTM / product strategy
+- Check in with GSoC contributors / interns about their experience
 
 ### Ongoing
 
@@ -21,9 +20,25 @@ I'm keeping an eye on these things:
 - Various comms and follow ups
 
 ### Backlog
-- Work on GTM / product strategy
-- Check in with GSoC contributors / interns about their experience
 - Assimilate Sean's Querydown doc
+
+## 2023-10-16 (Mon)
+- **Administrative**
+    - Read through new by-law templates and sent comments to lawyer
+    - Followed up with lawyer re: board roster
+    - Followed up with lawyer re: org structure stuff
+    - Checked on benefits updates (none yet)
+- **User research**
+    - Reached out to AJP
+    - Updated CRM entries
+    - SavvyCal account clean up
+- **Community**
+    - Signed up for GitHub Open Source Friday event
+    - Looked through backend issues for new contributor
+- **Internal meetings**
+    - 1:1 with Brent
+    - 1:1 with Sean
+- Email + GitHub + Matrix catch up + responses
 
 ## 2023-10-13 (Fri)
 - Team event
