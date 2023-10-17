@@ -3,12 +3,10 @@
 ## TODO
 
 ### Active
-- Call with Trinet
-- Pick remaining benefits (deadline Oct 18)
 - Meeting with fundraising mentor
-- Permissions UX meeting
 - Work on GTM / product strategy
-- Check in with GSoC contributors / interns about their experience
+- Weekly meeting prep
+- DB & permissions UX meeting part 2
 
 ### Ongoing
 
@@ -20,7 +18,15 @@ I'm keeping an eye on these things:
 - Various comms and follow ups
 
 ### Backlog
+- Pick remaining benefits (deadline Oct 20)
 - Assimilate Sean's Querydown doc
+
+## 2023-10-16 (Tue)
+- Email + GitHub + Matrix catch up + responses
+- Meeting re: databases & permission UX brainstorming
+- Checked in on benefits
+- Checked in with GSoC contributors / interns about their experience
+- Lots of admin / comms / follow ups
 
 ## 2023-10-16 (Mon)
 - **Administrative**
@@ -28,6 +34,7 @@ I'm keeping an eye on these things:
     - Followed up with lawyer re: board roster
     - Followed up with lawyer re: org structure stuff
     - Checked on benefits updates (none yet)
+    - Call with Trinet (potential payroll provider)
 - **User research**
     - Reached out to AJP
     - Updated CRM entries
