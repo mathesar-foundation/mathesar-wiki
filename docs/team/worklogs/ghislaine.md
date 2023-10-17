@@ -1,5 +1,21 @@
 # Ghislaine's work log
 
+## 2023-10-16
+- Database Users Discussion
+- Test Mathesar installation to uncover usability issues and for a better understanding of the problem
+- Design exploration for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
+
+## 2023-10-13
+- Discussion with Sean regarding database page
+- Create Github issue for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
+
+## 2023-10-12
+Day off
+
+## 2023-10-11
+- Usability Issues: Add more detail and create Github Issues
+- Exploratory design for record selector and inline record editing 
+
 ## 2023-10-10
 - Usability issues discussion and collaboration request
 - User feedback meeting
