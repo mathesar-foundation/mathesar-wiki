@@ -4,7 +4,8 @@
 
 ### Meetings
 
-- 1:1 with Anish
+- 1:1 with Sean about connections UI
+- Meeting with Pavish, Ghislaine, et al. about permissions concepts and related UX.
 
 ### Infrastructure
 
@@ -22,7 +23,55 @@
 
 - Keeping an eye on Syften notifications
 
+## 2023-10-17
+
+### Architecture
+
+- Wrote wiki page about new vision for permissions architecture.
+
+### Preexisting DB compatibility
+
+- Put together a quick issue in this space for a GSoC hopeful
+
+## 2023-10-16
+
+More architecture writing!
+
+### Architecture
+
+- Worked through model exposition cleanup
+- Some messaging and emailing about various details
+  - Started email chain about permissions concepts
+  - Scheduled meetings for next day
+  
+### Marketing
+
+- Cleared out Syften notifications
+
+### Meetings
+
+- Synced with Kriti
+
+## 2023-10-13
+
+Most of this day was heads-down working on architecture write-up.
+
+### Architecture
+
+- Initial pages of architecture write-up done, published in branch on wiki
+
+### Meetings
+
+- 1:1 with Mukesh
+- Mathesar community event
+
 ## 2023-10-12
+
+Most of this day was heads-down working on architecture write-up and reading `psycopg` docs.
+
+### Architecture
+
+- Worked on compiling various notes into something coherent and publishable.
 
 ### Infrastructure
 
