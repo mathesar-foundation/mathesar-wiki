@@ -4,11 +4,20 @@
 * Help with User interviews and CRM
 * Figure out E2E testing strategy and user flows
 * Review [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
-* Re-review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
-* Review [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-16 Monday
+* Re-reviewed and approved [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Reviewed and suggested changes [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+* Took initial look at [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+* Continued testing Cypress
+
+## 2023-10-13
+* Started re-reviewing [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Started testing Cypress
+* Community team meeting
+
 ## 2023-10-12
 * Looked into Cypress as a potential E2E testing solution
 * User interview call with SJ and Kriti
