@@ -1,10 +1,27 @@
 # Mukesh work log
 
 ## Actively working on
-- Send email asking Kriti to decide on the UX to go with for the Database connection string
+- Review and merge [Github action for uploading static assets to release](https://github.com/centerofci/mathesar/pull/3198)
+- Reply to DB connections work email
+- Attend Users & Permission meeting
 
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
+
+# 2023-10-17
+- Check in with Varsha
+- Sync with Brent and Sean over the Database connection string UX
+- Attend the Users & Permission discussion
+- Reviewed [Fixed incomplete error responses in OpenAPI documentation for /datafiles/ endpoint](https://github.com/centerofci/mathesar/pull/3062)
+- Reviewed [Implemeted extend schema decorator to document the error response for /databases/ endpoint](https://github.com/centerofci/mathesar/pull/3070)
+- Partially review [Github action for uploading static assets to release](https://github.com/centerofci/mathesar/pull/3198)
+
+
+# 2023-10-16
+- Did some minor improvements to the Installation Docs
+- Added tooltip for previewing Glossary items in the installation docs
+- Send an email to OpenSuse requesting access to rename the home directory to Mathesar, which would enable us to use the `https://build.opensuse.org/mathesar/Debian11` as the apt repository URL instead of `https://build.opensuse.org/home:mathesar/Debian11`
+
 
 # 2023-10-13
 - Check in with Brent
