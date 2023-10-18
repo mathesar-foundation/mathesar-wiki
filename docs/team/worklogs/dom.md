@@ -1,21 +1,73 @@
 # Dom's work log
 ## Active
 
+- Finish preparing GSoC note page in wiki
+  - What's left is making sure that the new pages are linked to
+  - https://github.com/centerofci/mathesar-wiki/pull/106
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Discuss using Zulip
+- Respond in Sean's product vision follow-up email thread
 - Do [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
   - Underlying code problematic
     - Important, because we're baking some features that lean on database reflection being reliable
   - Preparing a PR with multiple related bugfixes
   - Might need another PR to address the reported bug directly
-- Respond in cycle 0.1.4 retrospective email thread
-  - https://mail.google.com/mail/u/1/#inbox/FMfcgzGtxSqJjvnWxVFHmvCLFBfhxCpg
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
-  - on pause; >75% done, but seems low priority, don't expect to fit it into release
+  - on pause; >75% done, but seems low priority
+    - frontend aspect can't fit into 0.1.4
 
 ## Backlog
 
 - Consider automating finding 404 in our wiki
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
+- Consider adding a make-like tool to main repo for common tasks
+
+### 2023-10-17
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Respond in UX question about DB connections email thread
+- Process notes from GSoC summit on proposal phase into a document
+  - https://github.com/centerofci/mathesar-wiki/pull/106
+
+### 2023-10-16
+
+- Traveling from Sunnyvale to Dominican Republic
+
+### 2023-10-13
+
+- Submit PR related to [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+
+### 2023-10-12
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-11
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-10
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-09
+
+- Read GSoC summit updates
+- Respond in CRM intro email thread
+
+### 2023-10-06
+
+- Respond in cycle 0.1.4 retrospective email thread
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Continued working through the connection leak
+    - Significant progress, but there's still a major leak somewhere
+      - Can't yet merge
+
+### 2023-10-05
+
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Changes to reflection caused the connection leak bug to creep up again
+    - Have to fix that in order to merge
 
 ### 2023-10-05
 
