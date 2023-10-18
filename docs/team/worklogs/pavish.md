@@ -7,6 +7,18 @@
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-18 Wednesday
+* Call on Permissions UX
+* Added leads from survey to CRM
+* Drafted email template for survey leads
+* Sent out emails to two survey leads
+
+## 2023-10-17 Tuesday
+* Responded to Sean's mail on DB connections
+* Responded to Brent's mail on Permissions UX
+* User interview feedback project meeting
+* Call on Permissions UX
+
 ## 2023-10-16 Monday
 * Re-reviewed and approved [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 * Reviewed and suggested changes [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
