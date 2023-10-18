@@ -3,8 +3,11 @@
 ## TODO
 
 ### Active
-- Think through more org structure stuff
-- Work on GTM / product strategy
+- Write up strategy document
+- Write up org structure and outstanding questions for team
+- 1:1 with Adam
+- Meeting with potential work coach
+- Pick remaining benefits (deadline Oct 20)
 - Read through Sean's Querydown doc
 
 ### Ongoing
@@ -15,12 +18,18 @@ I'm keeping an eye on these things:
 - General team management & work logs
 
 ### Backlog
-- Pick remaining benefits (deadline Oct 20)
-- Start planning out fundraising
+- Start planning out fundraising conversations
 
 ## 2023-10-18 (Wed)
 - DB & permissions UX meeting part 2
 - Email + GitHub + Matrix catch up + responses
+- Various administrative follow ups (legal, accounting, meeting scheduling, etc.)
+- A bunch of thinking / brainstorming about
+    - org structure
+    - product strategy
+    - fundraising
+    - hiring
+- Quick call with Pavish to finalize email template for survey respondent outreach
 
 ## 2023-10-17 (Tue)
 - Email + GitHub + Matrix catch up + responses
