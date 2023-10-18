@@ -8,7 +8,7 @@ As described in [the models section](./models.md), This will store the informati
 
 ## Adding Connections (backend perspective)
 
-Regardless of UI, the backend should receive a `POST` request defining a new connection. It should store this in the `DatabaseConnection` model, and initially no users should have access to that. Then, the backend should receive `PATCH` requests to modify various users, giving them access to use that connection. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables). I don't think our "Manager", "Editor", "Viewer" framework makes sense here. You have two levels: "Admin" (this should be a proper Mathesar superuser), and "Connecter" (a user who's allowed to use a given connection). Thus, we don't actually need most power of the access policy framework. A simple many-to-many map between connections and users suffices to control usage privileges, and the ability to modify that mapping (or indeed to look at the mapping) should be locked behind a superuser login.
+Regardless of UI, the backend should receive a `POST` request defining a new connection. It should store this in the `DatabaseConnection` model, and initially no users should have access to that. Then, the backend should receive `PATCH` requests to modify various users, giving them access to use that connection. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables). I don't think our "Manager", "Editor", "Viewer" framework makes sense here. You have two levels: "Admin" (a proper Mathesar superuser), and "Connecter" (a user who's allowed to use a given connection). Thus, we don't actually need most power of the access policy framework. A simple many-to-many map between connections and users suffices to control usage privileges, and the ability to modify that mapping (or indeed to look at the mapping) should be locked behind a superuser login.
 
 ## Granting database object privileges
 
@@ -43,3 +43,15 @@ An example of this would be an Exploration. The privileges needed to actually _r
 
 !!! question "UX Question"
     How should viewing others' objects work for these? Should they be namespaced under some "workspace" concept (currently we're using database/schema)?
+
+## Note on hierarchical permissions
+
+We can allow an "admin" DB user by automatically granting the role associated with each Mathesar-managed connection to to a given admin DB user. So, if we have a user `mathesaradmin`, and a regular user `joe`, we can run `GRANT joe TO mathesaradmin` (as a role with sufficient privileges; At least `ADMIN` is needed on `joe` to run this). This would let `mathesaradmin` act as a Manager on anything created by `joe`.
+
+Our `Manager` concept implies (co-)ownership of all managed sub-objects. I.e., a Database Manager owns all objects in that database (using the description in our docs)
+
+Our `Editor` concept implies `SELECT`, `INSERT`, `UPDATE`, `DELETE`, `TRUNCATE`, `REFERENCES` (sort of; with the way Mathesar currently treats fkeys)
+
+Our `Viewer` concept implies `SELECT` on objects (obviously)
+
+Thus, _if_ we want to recreate our current conceptual framework, it's possible (and not too difficult).
