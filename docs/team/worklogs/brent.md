@@ -4,8 +4,11 @@
 
 ### Meetings
 
-- 1:1 with Sean about connections UI
-- Meeting with Pavish, Ghislaine, et al. about permissions concepts and related UX.
+- Users and Permissions II
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3245
 
 ### Infrastructure
 
@@ -18,12 +21,18 @@
 ### Architecture
 
 - Putting notes together into something coherent and consumable by others
+- Prepping for users and permissions meeting
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
 
 ## 2023-10-17
+
+### Meetings
+
+- 1:1 with Sean about connections UI
+- Meeting about permissions concepts and UX
 
 ### Architecture
 
@@ -32,6 +41,10 @@
 ### Preexisting DB compatibility
 
 - Put together a quick issue in this space for a GSoC hopeful
+
+### Marketing
+
+- Cleared Syften notificatoins
 
 ## 2023-10-16
 
