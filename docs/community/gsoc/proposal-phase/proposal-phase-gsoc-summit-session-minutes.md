@@ -8,19 +8,19 @@ mailed to Stephanie as copy and link 11:55, 2023-10-24,
 
 Participants:
 
-Arman Bilge (Scala Center) (AB)
-Dominyjas Mosauskis (Mathesar) (DM)
-Reimar Bauer (Python Software Foundation) (RB)
-Eugene Sandulenko (ScummVM) (ES)
-Alya Allen (Zulip) (AA)
-Time Allen (Zulip) (TA)
-Nir Krakauer (GNU Octave) (NK)
-William Allen (Submitty) (WA)
-Razvan Deaconescu (Unikraft) (RD)
-Gabriel Henrique () (GH)
-Wilhelm (CCExtractor Development) (W)
-Punit Lodha (CCExtractor Development) (PL)
-Benjamin Pross (52°North) (GE)
+- Arman Bilge (Scala Center) (AB)
+- Dominyjas Mosauskis (Mathesar) (DM)
+- Reimar Bauer (Python Software Foundation) (RB)
+- Eugene Sandulenko (ScummVM) (ES)
+- Alya Allen (Zulip) (AA)
+- Time Allen (Zulip) (TA)
+- Nir Krakauer (GNU Octave) (NK)
+- William Allen (Submitty) (WA)
+- Razvan Deaconescu (Unikraft) (RD)
+- Gabriel Henrique () (GH)
+- Wilhelm (CCExtractor Development) (W)
+- Punit Lodha (CCExtractor Development) (PL)
+- Benjamin Pross (52°North) (GE)
 
 DM: Proposal phase was a lot of work for us (Mathesar).
 At the end, we were asking: is it worth it?
