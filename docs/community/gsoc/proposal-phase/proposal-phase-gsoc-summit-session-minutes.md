@@ -1,6 +1,6 @@
 # GSoC proposal phase session minutes
 
-Note, fidelity of these notes is low. Copy-pasted from [another attendee's notes](https://iffmd.fz-juelich.de/oLcPHGrzQASxln4QJAsZZQ?view#).
+Note, fidelity of these notes is low. Copy-pasted from [another attendee's notes](https://iffmd.fz-juelich.de/oLcPHGrzQASxln4QJAsZZQ?view#). Written collaboratively by multiple attendee's during the session.
 
 mailed to Stephanie as copy and link 11:55, 2023-10-24,
 
