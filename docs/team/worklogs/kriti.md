@@ -3,30 +3,32 @@
 ## TODO
 
 ### Active
-- Meeting with fundraising mentor
+- Think through more org structure stuff
 - Work on GTM / product strategy
-- Weekly meeting prep
-- DB & permissions UX meeting part 2
+- Read through Sean's Querydown doc
 
 ### Ongoing
-
 I'm keeping an eye on these things:
 
 - Release 0.1.4
 - User research project
 - General team management & work logs
-- Various comms and follow ups
 
 ### Backlog
 - Pick remaining benefits (deadline Oct 20)
-- Assimilate Sean's Querydown doc
+- Start planning out fundraising
 
-## 2023-10-16 (Tue)
+## 2023-10-18 (Wed)
+- DB & permissions UX meeting part 2
+- Email + GitHub + Matrix catch up + responses
+
+## 2023-10-17 (Tue)
 - Email + GitHub + Matrix catch up + responses
 - Meeting re: databases & permission UX brainstorming
 - Checked in on benefits
 - Checked in with GSoC contributors / interns about their experience
 - Lots of admin / comms / follow ups
+- Meeting with mentor to figure out next steps for fundraising
 
 ## 2023-10-16 (Mon)
 - **Administrative**
