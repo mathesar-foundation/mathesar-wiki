@@ -2,10 +2,6 @@
 
 ## Actively working on
 
-### Meetings
-
-- Users and Permissions II
-
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3245
@@ -21,11 +17,23 @@
 ### Architecture
 
 - Putting notes together into something coherent and consumable by others
-- Prepping for users and permissions meeting
+- Working on expanding layer-perspective documents
 
 ### Marketing
 
 - Keeping an eye on Syften notifications
+- Following up with James Smith
+
+## 2023-10-18
+
+### Meetings
+
+- Users and Permissions II
+
+### Architecture
+
+- Continued working on putting notes together into something coherent and consumable by others
+- Prepped for users and permissions meeting
 
 ## 2023-10-17
 
