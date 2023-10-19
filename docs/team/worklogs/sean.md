@@ -4,10 +4,14 @@
 
 ### Soon
 
+- Send next batch of user outreach emails and sync up with outstanding threads
 - Send email to team about release notes improvements
+- Propose next steps for DB connection design
+- Sync with Pavish about his DB connections concerns
 - Figure out what needs to happen in order to merge Rajat's [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) PR
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
+- Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
 ### Backlog
 
@@ -22,6 +26,18 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-18 Wednesday
+
+*(out due to sick kid)*
+
+## 2023-10-17 Tuesday
+
+*(1/2 day due to sick kid)*
+
+- User feedback meeting with Pavish and Ghislaine
+- Sync with Brent regarding DB connections
+- Partially attend permissions UX meeting
 
 ## 2023-10-16 Monday
 
