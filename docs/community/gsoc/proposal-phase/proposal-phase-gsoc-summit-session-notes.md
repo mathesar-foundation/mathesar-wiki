@@ -17,6 +17,8 @@
 
 ## Notes
 
+### Miscellaneous
+
 - start early
     - best students start interacting very early
     - same goes for organizations
@@ -39,6 +41,8 @@
             - when there aren't a lot of things to be done
             - or when the possible projects are highly difficult and require great insight
     - nonetheless, vagueness of project idea can be a useful parameter to tweak
+
+### Communication
 
 - public, clear, fair comms
     - some orgs keep proposals private
@@ -66,6 +70,24 @@
             - it turned out weak, because was done at the last moment
             - but we knew candidate to be strong
 
+- encourage threading of conversations
+    - and make those threads accessible to other candidates
+    - that way candidates can review discussions around a given project idea
+        - reducing redundant communication,
+        - and encouraging communication between candidates
+    - and also let's them evaluate their competition
+        - which helps distribute candidates between project ideas
+        - and let's candidates self-filter
+        - reducing work for the org
+    - zulip was introduced in this context
+        - superior threading features to matrix/element
+
+- have contributor prepare documents for future contributors
+    - documents that help figure things out
+    - and/or take first steps
+
+### Candidate selection and community
+
 - high standards
     - having high standards can save on work
     - be clear (with yourself and others) about what kind of
@@ -85,36 +107,35 @@
         - compared to someone who's fairly self-relient and skilled
     - which is better for community?
 
-- project ideas
-    - tooling project ideas
-        - projects that improve things which are often neglected
-            - tests, linters, docs, dev scripts
-    - a project idea needs to be easy to review
-        - otherwise mentors will be taxed more
-        - this applies to proposal review and to code review
-        - useful criteria when evaluating project ideas
-    - some projects (e.g. scala) draw in very skilled candidates
-        - such projects need challenging projects to satisfy those candidates
-        - having project ideas that are all similarly challenging might not be desirable
-
-- have contributor prepare documents for future contributors
-    - documents that help figure things out
-    - and/or take first steps
-
 - proposal/project is a start
     - ultimate goal is to get contributor involved in community
     - community building might be
         - more than just getting projects done
 
-- outreach and drawing in good candidates
-    - seo optimization in and via gsoc
-        - look at how gsoc project search works for candidates
-            - optimize our relevant documents based on that
-        - ask contributors to maintain blogs on our subdomains
-            - helps future contributors
-            - gives us seo benefits
-            - ask them to use a lot of screenshots
-                - helps newcomers
-    - doing a video
-        - a video to advertise org to potential candidates
-        - helps reach more candidates
+### Project ideas
+
+- tooling project ideas
+    - projects that improve things which are often neglected
+        - tests, linters, docs, dev scripts
+- a project idea needs to be easy to review
+    - otherwise mentors will be taxed more
+    - this applies to proposal review and to code review
+    - useful criteria when evaluating project ideas
+- some projects (e.g. scala) draw in very skilled candidates
+    - such projects need challenging projects to satisfy those candidates
+    - having project ideas that are all similarly challenging might not be desirable
+
+### Outreach
+
+- outreach can help draw in more or better candidates
+- seo optimization in and via gsoc
+    - look at how gsoc project search works for candidates
+        - optimize our relevant documents based on that
+    - ask contributors to maintain blogs on our subdomains
+        - helps future contributors
+        - gives us seo benefits
+        - ask them to use a lot of screenshots
+            - helps newcomers
+- doing a video
+    - a video to advertise org to potential candidates
+    - helps reach more candidates
