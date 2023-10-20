@@ -3,11 +3,10 @@
 ## TODO
 
 ### Active
-- Write up strategy document
-- Write up org structure and outstanding questions for team
-- 1:1 with Adam
-- Meeting with potential work coach
-- Pick remaining benefits (deadline Oct 20)
+- Continue writing up strategy and org structure to discuss with team
+- Move AJP call notes to CRM
+- Onboarding tasks for Adam
+- Call with Pavish
 - Read through Sean's Querydown doc
 
 ### Ongoing
@@ -19,6 +18,29 @@ I'm keeping an eye on these things:
 
 ### Backlog
 - Start planning out fundraising conversations
+
+## 2023-10-20 (Fri)
+- Call with AJP re: Mathesar use cases etc.
+- External call re: funding and board logistics
+- External call re: some admin stuff and board logistics
+- A couple of calls with Adam and Sam to talk through some admin stuff
+- Email + GitHub + Matrix catch up + responses
+    - Various admin follow ups
+    - Followed up on Matrix issues
+- Worked on some admin related comms
+
+
+## 2023-10-19 (Thu)
+- Call with Ghislaine to work through user research comms
+- Brainstorming discussion with Brent
+- 1:1 with Adam
+- Meeting with potential work coach
+- Worked on strategy and org structure writeups
+- Picked remaining benefits
+- Matrix homeserver debugging
+- Email + GitHub + Matrix catch up + responses
+    - Various admin follow ups
+- Research into Technology Errors & Omissions insurance
 
 ## 2023-10-18 (Wed)
 - DB & permissions UX meeting part 2
