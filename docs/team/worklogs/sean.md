@@ -26,6 +26,15 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-10-20 Friday
+
+*(1/2 day due to household stuff and kids doctors appointment)*
+
+- Call with Pavish about DB connections
+- Email discussion about Matrix problems
+- Try (and fail) to set up sean@mathesar.org as an email address I can send from
+- Send another batch of user outreach email messages
+
 ## 2023-10-19 Thursday
 
 *(1/2 day in order to take a nap)*
