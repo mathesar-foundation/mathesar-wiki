@@ -8,7 +8,6 @@
 - Send email to team about release notes improvements
 - Propose next steps for DB connection design
 - Sync with Pavish about his DB connections concerns
-- Figure out what needs to happen in order to merge Rajat's [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) PR
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
 - Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
@@ -26,6 +25,13 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-19 Thursday
+
+*(1/2 day in order to take a nap)*
+
+- Call with Mukesh about DB connections and documentation
+- Some CRM updates from user communication
 
 ## 2023-10-18 Wednesday
 
