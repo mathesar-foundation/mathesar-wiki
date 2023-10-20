@@ -29,7 +29,6 @@ I'm keeping an eye on these things:
     - Followed up on Matrix issues
 - Worked on some admin related comms
 
-
 ## 2023-10-19 (Thu)
 - Call with Ghislaine to work through user research comms
 - Brainstorming discussion with Brent
