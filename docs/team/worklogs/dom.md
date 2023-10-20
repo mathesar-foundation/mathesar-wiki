@@ -1,17 +1,12 @@
 # Dom's work log
 ## Active
 
-- Finish preparing GSoC note page in wiki
-  - What's left is making sure that the new pages are linked to
-  - https://github.com/centerofci/mathesar-wiki/pull/106
 - Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
-- Discuss using Zulip
-- Respond in Sean's product vision follow-up email thread
+- See [#3245](https://github.com/centerofci/mathesar/issues/3245) (db bug fixes) reviewed and merged
+- Open some good first issues
+  - Got a few ideas
 - Do [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
-  - Underlying code problematic
-    - Important, because we're baking some features that lean on database reflection being reliable
-  - Preparing a PR with multiple related bugfixes
-  - Might need another PR to address the reported bug directly
+  - Once [#3245](https://github.com/centerofci/mathesar/issues/3245) is filed away
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
   - on pause; >75% done, but seems low priority
     - frontend aspect can't fit into 0.1.4
@@ -22,6 +17,22 @@
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 - Consider adding a make-like tool to main repo for common tasks
+
+### 2023-10-20
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found one of the problems, but ran into another
+
+### 2023-10-19
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Discuss using Zulip
+
+### 2023-10-18
+
+- Present GSoC proposal phase notes to team
+- Finish preparing GSoC proposal phase note page in wiki
+- Respond in Sean's product vision follow-up email thread
 
 ### 2023-10-17
 
