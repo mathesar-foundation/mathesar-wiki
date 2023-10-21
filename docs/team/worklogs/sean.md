@@ -32,8 +32,8 @@
 
 - Call with Pavish about DB connections
 - Email discussion about Matrix problems
-- Try (and fail) to set up sean@mathesar.org as an email address I can send from
 - Send another batch of user outreach email messages
+- Set up sean@mathesar.org as an email address that I can send from
 
 ## 2023-10-19 Thursday
 
