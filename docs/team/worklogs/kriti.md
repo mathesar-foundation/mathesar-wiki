@@ -6,7 +6,6 @@
 - Continue writing up strategy and org structure to discuss with team
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
-- Call with Pavish
 - Read through Sean's Querydown doc
 
 ### Ongoing
@@ -18,6 +17,15 @@ I'm keeping an eye on these things:
 
 ### Backlog
 - Start planning out fundraising conversations
+
+## 2023-10-23 (Mon)
+- Call with Pavish
+- Call with Brent
+- Call with Sean
+- Call with Sam
+- Agenda for upcoming lawyer call
+- A bunch of other administrative work
+- Email + GitHub + Matrix catch up + responses
 
 ## 2023-10-20 (Fri)
 - Call with AJP re: Mathesar use cases etc.
