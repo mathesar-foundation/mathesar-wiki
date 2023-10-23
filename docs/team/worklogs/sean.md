@@ -4,7 +4,7 @@
 
 ### Soon
 
-- Send next batch of user outreach emails and sync up with outstanding threads
+- Fill out a new W4 form
 - Send email to team about release notes improvements
 - Propose next steps for DB connection design
 - Sync with Pavish about his DB connections concerns
@@ -25,6 +25,12 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-23 Monday
+
+- Some user outreach and CRM work
+- Quick 1/1 with Kriti
+- Some UX design, thinking, and prototype work for the DB connections UI
 
 ## 2023-10-20 Friday
 
