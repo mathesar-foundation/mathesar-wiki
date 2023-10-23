@@ -3,10 +3,23 @@
 # Working on (Ordered based on priority):
 * Help with User interviews and CRM
 * Figure out E2E testing strategy and user flows
+  - Test Cypress as a possible tool to use (Playwright is still my choice at the moment)
+  - Come up with a docker setup for E2E tests
+  - Come up with user flows
+* Learn more about Wikibase and Wikidata before call with SJ on Thursday
 * Review [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-20 Friday
+* Debugged Matrix, call with Brent
+* Call with Sean on DB connections
+* Took an initial look at Wikibase for upcoming call with SJ
+
+## 2023-10-19 Thursday
+* Started writing a initial set of E2E tests with Cypress as a POC
+  - This is to test speed of writing tests vs Playwright
+
 ## 2023-10-18 Wednesday
 * Call on Permissions UX
 * Added leads from survey to CRM
