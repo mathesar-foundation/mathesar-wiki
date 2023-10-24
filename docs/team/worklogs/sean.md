@@ -6,8 +6,6 @@
 
 - Fill out a new W4 form
 - Send email to team about release notes improvements
-- Propose next steps for DB connection design
-- Sync with Pavish about his DB connections concerns
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
 - Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
@@ -25,6 +23,12 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-10-24 Tuesday
+
+- DB connections UI prototyping and design
+- Call with Brent about DB connections UI
+- Finish first draft of DB connection UI [specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/) and send an [email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/fcRG1Yb3d68) requesting that others review it.
 
 ## 2023-10-23 Monday
 
