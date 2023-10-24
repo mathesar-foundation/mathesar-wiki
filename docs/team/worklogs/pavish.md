@@ -7,10 +7,18 @@
   - Come up with a docker setup for E2E tests
   - Come up with user flows
 * Learn more about Wikibase and Wikidata before call with SJ on Thursday
-* Review [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-24 Tuesday
+* Spent time filling out CRM by finding user details
+* Prepared drafts to send out to some of the users, got it reviewed, and sent the mails
+* Reviewed, added a commit to fix types, and merged [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+
+## 2023-10-23 Monday
+* Continued reading more about Wikidata, Wikimedia Commons:Structured Data and tested OpenRefine
+* Call with Kriti
+
 ## 2023-10-20 Friday
 * Debugged Matrix, call with Brent
 * Call with Sean on DB connections
