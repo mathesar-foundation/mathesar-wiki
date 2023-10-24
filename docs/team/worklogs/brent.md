@@ -9,6 +9,7 @@
 ### Infrastructure
 
 - Update internal Mathesar installation
+- Working to fix pipeline bug.
 
 ### Preexisting DB compatibility
 
@@ -22,7 +23,42 @@
 ### Marketing
 
 - Keeping an eye on Syften notifications
-- Following up with James Smith
+
+## 2023-10-23
+
+### Meetings
+
+- 1:1 with Dom
+- Ad-hoc catch-up with Kriti about pipeline situation
+
+### Infrastructure
+
+- Finished fixing Matrix server
+- Monitored the same Matrix server to make sure it was behaving
+- Checked on internal.mathesar.org ; no action needed
+- Noticed and started work on fixing major problem preventing some backend PRs from merging, and others from being properly tested.
+
+## 2023-10-20
+
+### Meetings
+
+- 1:1 with Mukesh
+- call with Kriti and AJP about Mathesar use cases
+
+### Infrastructure
+
+The entire day was consumed by trying to figure out what was broken with our Matrix server, and working on a fix.
+
+## 2023-10-19
+
+### Marketing
+
+- Cleared out Syften notifications
+- Sent follow up email to potential user via Freshdesk
+
+### Architecture
+
+- Compiling notes, thoughts, and results from Users and permissions II
 
 ## 2023-10-18
 
