@@ -3,7 +3,6 @@
 ## TODO
 
 ### Active
-- 2x calls with lawyers
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
 - Figure out offboarding tasks for Dom, Rajat, Mukesh
@@ -28,6 +27,8 @@ I'm keeping an eye on these things:
 - Short call with Sean to discuss priorities
 - Reviewed DB connections spec from Sean
 - Call with Pavish (and briefly Brent) to discuss how Mathesar could help with WMF ecosystem
+- Call with IP lawyer about org / project name
+- Call with lawyer about next steps for org transition
 - Email + GitHub + Matrix catch up
     - + responses + small action items
 
