@@ -3,9 +3,11 @@
 ## TODO
 
 ### Active
-- Continue writing up strategy and org structure to discuss with team
+- 2x calls with lawyers
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
+- Figure out offboarding tasks for Dom, Rajat, Mukesh
+- Continue writing up strategy and org structure to discuss with team
 - Read through Sean's Querydown doc
 
 ### Ongoing
@@ -13,10 +15,26 @@ I'm keeping an eye on these things:
 
 - Release 0.1.4
 - User research project
+- DB connections work
 - General team management & work logs
 
 ### Backlog
 - Start planning out fundraising conversations
+- Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+
+## 2023-10-25 (Wed)
+*Partial day, doctor's appointment*
+
+- Short call with Sean to discuss priorities
+- Reviewed DB connections spec from Sean
+- Call with Pavish (and briefly Brent) to discuss how Mathesar could help with WMF ecosystem
+- Email + GitHub + Matrix catch up
+    - + responses + small action items
+
+## 2023-10-24 (Tue)
+- Calls with most people on the team
+- "How to Raise Money" final workshop session
+- Email + GitHub + Matrix catch up + responses
 
 ## 2023-10-23 (Mon)
 - Call with Pavish
