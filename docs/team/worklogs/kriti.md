@@ -3,6 +3,10 @@
 ## TODO
 
 ### Active
+- Prep for user call on Friday w/ Pavish and Brent
+- 2 x catch-up calls with past colleagues
+- Call with SJ re: WMF use case
+- Call with Ian
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
 - Figure out offboarding tasks for Dom, Rajat, Mukesh
