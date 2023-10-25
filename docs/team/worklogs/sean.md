@@ -24,6 +24,16 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-10-25 Wednesday
+
+- Quick call with Ghislaine about user outreach
+- Investigate user reported issue [FK Column Is Not Given Dropdown / Selector -- Only Raw Text Input · Issue #3255 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3255)
+- Help move some older PRs along by making comments
+- Resolve git merge conflicts in [Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103) and troubleshoot issue with conflicting Django migrations in order to prepare the PR for merge
+- Resolve git merge conflicts in [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) and merge
+- Some smaller discussions
+
 ## 2023-10-24 Tuesday
 
 - DB connections UI prototyping and design
