@@ -1,12 +1,13 @@
 # Dom's work log
 ## Active
 
-- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Create and prioritize issue for writing tests for db creation/update/removal via API
+  - Discovered that there are no tests for this when trying to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Associated code is messy, fix it up as well
+- Make sure [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) is not reproducible anymore
 - See [#3245](https://github.com/centerofci/mathesar/issues/3245) (db bug fixes) reviewed and merged
 - Open some good first issues
   - Got a few ideas
-- Do [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
-  - Once [#3245](https://github.com/centerofci/mathesar/issues/3245) is filed away
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
   - on pause; >75% done, but seems low priority
     - frontend aspect can't fit into 0.1.4
@@ -17,6 +18,15 @@
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
 - Consider adding a make-like tool to main repo for common tasks
+
+### 2023-10-23
+
+- Sync with Brent
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found the (seemingly) last bug that kept tests from passing in CI
+- Attempt to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) with [#3245](https://github.com/centerofci/mathesar/issues/3245) merged
+  - Can't, but I found the bug elusive to reproduce before
+  - Asked Rajat to try as well
 
 ### 2023-10-20
 
