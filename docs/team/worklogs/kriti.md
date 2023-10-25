@@ -35,6 +35,7 @@ I'm keeping an eye on these things:
 - Call with lawyer about next steps for org transition
 - Email + GitHub + Matrix catch up
     - + responses + small action items
+- Debugged Maubot failure, turned GitHub bot back on.
 
 ## 2023-10-24 (Tue)
 - Calls with most people on the team
