@@ -3,6 +3,9 @@
 ## 2023-10-26
 - Design for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
 
+**Current Focus:**
+- My current focus is on coordinating with Sean to discuss the proposed design and prepare the final design for a round of feedback.
+
 ## 2023-10-25
 - Send user feedback emails
 - Design for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
