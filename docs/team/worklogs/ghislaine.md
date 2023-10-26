@@ -1,5 +1,12 @@
 # Ghislaine's work log
 
+## 2023-10-26
+- Design for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
+
+## 2023-10-25
+- Send user feedback emails
+- Design for [database page updates](https://github.com/centerofci/mathesar/issues/3244)
+
 ## 2023-10-16
 - Database Users Discussion
 - Test Mathesar installation to uncover usability issues and for a better understanding of the problem
