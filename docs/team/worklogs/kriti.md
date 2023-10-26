@@ -3,13 +3,11 @@
 ## TODO
 
 ### Active
-- Prep for user call on Friday w/ Pavish and Brent
-- 2 x catch-up calls with past colleagues
-- Call with SJ re: WMF use case
+- Team event
+- Call with Ghislaine
 - Call with Ian
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
-- Figure out offboarding tasks for Dom, Rajat, Mukesh
 - Continue writing up strategy and org structure to discuss with team
 - Read through Sean's Querydown doc
 
@@ -24,6 +22,17 @@ I'm keeping an eye on these things:
 ### Backlog
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+
+## 2023-10-26 (Thu)
+- Prep for user call on Friday w/ Pavish and Brent
+- Call with Brent to walk through new GitHub Actions job strategy + general prioritization
+- 2 x catch-up calls with past colleagues
+- 1:1 with Pavish (originally supposed to be call with SJ)
+- Email + GitHub + Matrix catch up
+    - + responses + small action items
+- Figured out offboarding tasks for Dom, Rajat, Mukesh
+    - Sent some emails
+- Merged website PR https://github.com/centerofci/mathesar-website/pull/95
 
 ## 2023-10-25 (Wed)
 *Partial day, doctor's appointment*
