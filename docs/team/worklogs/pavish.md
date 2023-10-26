@@ -10,10 +10,18 @@
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-25 Wednesday
+* Continued testing Wikibase, Wikidata, and Commons:Structured_Data
+* Prepared a set of questions to ask SJ for WMF integration
+* Call with Kriti on WMF questions
+* Call with Dom
+* Call with Mukesh
+
 ## 2023-10-24 Tuesday
 * Spent time filling out CRM by finding user details
 * Prepared drafts to send out to some of the users, got it reviewed, and sent the mails
 * Reviewed, added a commit to fix types, and merged [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+* Installed Wikibase locally to test it out
 
 ## 2023-10-23 Monday
 * Continued reading more about Wikidata, Wikimedia Commons:Structured Data and tested OpenRefine
