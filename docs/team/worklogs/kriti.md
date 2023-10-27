@@ -3,8 +3,6 @@
 ## TODO
 
 ### Active
-- Team event
-- Call with Ghislaine
 - Call with Ian
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
@@ -22,6 +20,15 @@ I'm keeping an eye on these things:
 ### Backlog
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+
+## 2023-10-27 (Fri)
+- Team event
+- 1:1 with Ghislaine
+- Discussion with Pavish & Sean about following up after user research call
+- Figured out a platform for sending rewards to international users (took WAY too much time)
+- Email + GitHub + Matrix catch up
+    - + responses + small action items
+    - caught up on some overdue replies
 
 ## 2023-10-26 (Thu)
 - Prep for user call on Friday w/ Pavish and Brent
