@@ -27,7 +27,7 @@ I'm keeping an eye on these things:
 - Discussion with Pavish & Sean about following up after user research call
 - Figured out a platform for sending rewards to international users (took WAY too much time)
 - Email + GitHub + Matrix catch up
-    - + responses + small action items
+    - plus responses + small action items
     - caught up on some overdue replies
 
 ## 2023-10-26 (Thu)
@@ -36,7 +36,7 @@ I'm keeping an eye on these things:
 - 2 x catch-up calls with past colleagues
 - 1:1 with Pavish (originally supposed to be call with SJ)
 - Email + GitHub + Matrix catch up
-    - + responses + small action items
+    - plus responses + small action items
 - Figured out offboarding tasks for Dom, Rajat, Mukesh
     - Sent some emails
 - Merged website PR https://github.com/centerofci/mathesar-website/pull/95
@@ -50,7 +50,7 @@ I'm keeping an eye on these things:
 - Call with IP lawyer about org / project name
 - Call with lawyer about next steps for org transition
 - Email + GitHub + Matrix catch up
-    - + responses + small action items
+    - plus responses + small action items
 - Debugged Maubot failure, turned GitHub bot back on.
 
 ## 2023-10-24 (Tue)
