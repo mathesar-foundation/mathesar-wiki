@@ -2,14 +2,32 @@
 
 ## Actively working on
 
+### Meetings
+
+ - Mukesh
+   - Catch up about Varsha
+   - installation status
+   - Other hand off
+- User help call
+    - https://mathesar.freshdesk.com/a/tickets/1492
+- Core team event
+
+### User help / marketing
+
+NOTE: I'm going to stop using users' names in this log
+
+- https://mathesar.freshdesk.com/a/tickets/1279 (follow up)
+- https://mathesar.freshdesk.com/a/tickets/1503 (initial contact)
+- https://mathesar.freshdesk.com/a/tickets/1492 (call Friday)
+
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3245
+- https://github.com/centerofci/mathesar/pull/3243 (needs to merge)
 
 ### Infrastructure
 
 - Update internal Mathesar installation
-- Working to fix pipeline bug.
 
 ### Preexisting DB compatibility
 
@@ -23,6 +41,60 @@
 ### Marketing
 
 - Keeping an eye on Syften notifications
+
+## 2023-10-27
+
+### Infrastructure
+
+- Keeping an eye on new pipeline setup
+
+## 2023-10-26
+
+### Meetings
+
+- 1:1 with Anish
+- User call prep meeting with Pavish and Kriti
+- 1:1 with Kriti
+
+### Infrastructure
+
+- Finished pipeline fix
+- Set up completely new branch protection rules
+- Emailed dev list about necessary steps to get everyone's PRs passing the CI pipeline.
+- ad-hoc syncing with Pavish about front end concerns w.r.t. the fix
+
+### Marketing
+
+- Caught up on various user help threads
+- Cleared out Syften notifications
+
+## 2023-10-25
+
+### Infrastructure
+
+- Continued work on pipeline issue.
+- Checked on internal server
+
+### Meetings
+
+- Handoff meeting with Dom
+- 1:1 with Kriti
+- User call with AJP about setup of Mathesar on AWS
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-10-24
+
+### Infrastructure
+
+- Worked on solution to pipeline breakage,
+- Monitored matrix server
+- Checked on internal server (no action needed)
+
+## Meetings
+- 1:1 with Kriti
 
 ## 2023-10-23
 
