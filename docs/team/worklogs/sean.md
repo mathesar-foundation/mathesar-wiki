@@ -4,15 +4,15 @@
 
 ### Soon
 
-- Fill out a new W4 form
+- Enroll in new healthcare benefits
+- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
+- [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Send email to team about release notes improvements
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
-- Review [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
 ### Backlog
 
-- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
 - Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
@@ -24,6 +24,22 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-10-27 Friday
+
+- Team event
+- Quick call with Pavish and Kriti to handle some user comms tasks
+- Call with Ghislaine to discuss DB connection UI
+- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220), including some troubleshooting and additional work in order to merge.
+
+## 2023-10-26 Thursday
+
+*(Short day due to headache)*
+
+- Open PR on marketing website to [Make timeline for cloud version less specific](https://github.com/centerofci/mathesar-website/pull/95)
+- Chat with Dom
+- Quick call with Kriti to go over some health insurance stuff
+- Some comments and clean up in various GitHub tickets and PRs
 
 ## 2023-10-25 Wednesday
 
