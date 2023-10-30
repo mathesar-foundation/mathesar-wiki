@@ -41,6 +41,12 @@ NOTE: I'm going to stop using users' names in this log
 
 - Keeping an eye on Syften notifications
 
+## 2023-10-30
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
 ## 2023-10-27
 
 ### Meetings
