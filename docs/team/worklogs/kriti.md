@@ -3,11 +3,12 @@
 ## TODO
 
 ### Active
-- Call with Ian
+- Call with user
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
 - Continue writing up strategy and org structure to discuss with team
-- Read through Sean's Querydown doc
+- Figure out new name for organization
+- Get an email abount a grant sent out
 
 ### Ongoing
 I'm keeping an eye on these things:
@@ -18,8 +19,23 @@ I'm keeping an eye on these things:
 - General team management & work logs
 
 ### Backlog
+- Offboarding tasks for Dom, Mukesh, Rajat
+- Prep for call with Ian (Wednesday)
+- Report for CIT (due Friday)
+- Read through Sean's Querydown doc
+- Set up AWS account
+- Reach out to sponsors for user interviews
+- Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+
+## 2023-10-28 (Mon)
+- Long call with Dom about feedback etc.
+- Call with Adam and Sam to figure out next steps for org transition
+- Email + Matrix catch up
+- A bunch of minor tasks
+    - Reviewed Pavish's user email
+    - Wrote a draft of another email
 
 ## 2023-10-27 (Fri)
 - Team event
@@ -29,6 +45,7 @@ I'm keeping an eye on these things:
 - Email + GitHub + Matrix catch up
     - plus responses + small action items
     - caught up on some overdue replies
+- Call with Ian
 
 ## 2023-10-26 (Thu)
 - Prep for user call on Friday w/ Pavish and Brent
