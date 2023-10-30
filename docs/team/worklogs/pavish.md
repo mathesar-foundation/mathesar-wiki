@@ -10,6 +10,19 @@
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-27 Friday
+* User call with Alexander and Brent
+* Team event
+* Call with Kriti & Sean for user interview followup
+* Call with Rajat
+
+## 2023-10-26 Thursday
+* Chat with Brent on GH actions & workflows
+* Respond to the DB connection UI mail
+* User call preparation meeting with Kriti & Brent
+* WMF call with Kriti & SJ
+  - SJ wasn't able to join, Kriti and I had a 1:1
+
 ## 2023-10-25 Wednesday
 * Continued testing Wikibase, Wikidata, and Commons:Structured_Data
 * Prepared a set of questions to ask SJ for WMF integration
