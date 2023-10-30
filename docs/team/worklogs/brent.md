@@ -2,15 +2,13 @@
 
 ## Actively working on
 
-### Meetings
+### Hand-off
 
- - Mukesh
-   - Catch up about Varsha
-   - installation status
-   - Other hand off
-- User help call
-    - https://mathesar.freshdesk.com/a/tickets/1492
-- Core team event
+- Catching up on Varsha's project
+- Reviewing current state of installation project
+- https://github.com/centerofci/mathesar/pull/3245
+- Looking through OpenSuse's OBS docs (for building / hosting `.deb` releases)
+- Figuring out where/how to build static files for releases
 
 ### User help / marketing
 
@@ -18,12 +16,13 @@ NOTE: I'm going to stop using users' names in this log
 
 - https://mathesar.freshdesk.com/a/tickets/1279 (follow up)
 - https://mathesar.freshdesk.com/a/tickets/1503 (initial contact)
-- https://mathesar.freshdesk.com/a/tickets/1492 (call Friday)
+- Filling in details of call with AJP in CRM
+- Follow up with AJP
 
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3245
-- https://github.com/centerofci/mathesar/pull/3243 (needs to merge)
+- https://github.com/centerofci/mathesar/pull/3198
 
 ### Infrastructure
 
@@ -44,9 +43,23 @@ NOTE: I'm going to stop using users' names in this log
 
 ## 2023-10-27
 
+### Meetings
+
+- 1:1 with Mukesh
+- User call: https://mathesar.freshdesk.com/a/tickets/1492
+- Core team event
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3243 (merged)
+
+
 ### Infrastructure
 
 - Keeping an eye on new pipeline setup
+- Updated internal Mathesar installation
+
+
 
 ## 2023-10-26
 
