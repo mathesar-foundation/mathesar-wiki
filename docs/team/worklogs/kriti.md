@@ -3,7 +3,6 @@
 ## TODO
 
 ### Active
-- Call with user
 - Move AJP call notes to CRM
 - Onboarding tasks for Adam
 - Continue writing up strategy and org structure to discuss with team
@@ -23,7 +22,6 @@ I'm keeping an eye on these things:
 - Prep for call with Ian (Wednesday)
 - Report for CIT (due Friday)
 - Read through Sean's Querydown doc
-- Set up AWS account
 - Reach out to sponsors for user interviews
 - Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
@@ -36,6 +34,8 @@ I'm keeping an eye on these things:
 - A bunch of minor tasks
     - Reviewed Pavish's user email
     - Wrote a draft of another email
+- Call with user (with Brent)
+- Set up AWS account so Brent can help a couple of users
 
 ## 2023-10-27 (Fri)
 - Team event
