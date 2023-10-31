@@ -10,6 +10,11 @@
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-10-30 Monday
+* Call with Sean on Database connections UX
+* Sent mail on workspaces
+* Responded to Dave from Kubeworkz
+
 ## 2023-10-27 Friday
 * User call with Alexander and Brent
 * Team event
