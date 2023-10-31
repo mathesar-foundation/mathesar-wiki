@@ -4,10 +4,8 @@
 
 ### Soon
 
-- Enroll in new healthcare benefits
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
-- Send email to team about release notes improvements
 - Begin work on 0.1.4 release notes
 - Add my usability issues to GitHub for Ghislaine
 
@@ -24,6 +22,16 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-10-30 Monday
+
+- Enroll in new healthcare benefits
+- Call with Pavish to discuss DB connection UI
+- Brief call with Brent to discuss DB connection UI
+- Send email to team about release notes improvements
+- Send feedback email to Rajat
+- Begin adjusting "New DB Connection" specs to suit changes discussed with Pavish and Brent
+- Research and respond to "Deleting a Database Connection" thread
 
 ## 2023-10-27 Friday
 
