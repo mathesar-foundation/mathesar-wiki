@@ -76,6 +76,8 @@ Notes:
         
 - `db` is pre-filled as a suggested database name only if no user database connections exist. If at least one connection exists to a user database, then the input is empty.
 
+- Under the "Create this database..." checkbox field, the help text includes a postgres user name in quotes. That user name is dynamic so as to match the user name of the chosen connection.
+
 - The "Connection nickname" field auto-updates as the user enters the database name, but the user can modify the "Connection nickname" value independently of "Database name". (This behavior of auto-generating a nickname is the reason for putting the field last.) 
 
 
