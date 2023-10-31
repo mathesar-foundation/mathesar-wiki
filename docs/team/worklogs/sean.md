@@ -4,6 +4,7 @@
 
 ### Soon
 
+- Create tickets for remaining DB connections work
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Begin work on 0.1.4 release notes
@@ -22,6 +23,17 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-10-31 Tuesday
+
+- Finish updating "New DB connection" specs, and alert reviewers of changes
+- Review "workspaces" email from Pavish
+- Quick call with Pavish regarding user feedback
+- Quick call with Kriti regarding user feedback
+- 1:1 with Mukesh
+- Do some more user outreach via email and Matrix
+- Begin mapping out changes necessary to implement modified DB connections designs
+- Spend some time writing up tickets to flush out my local queue of tickets to write
 
 ## 2023-10-30 Monday
 
