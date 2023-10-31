@@ -7,7 +7,6 @@
 - Onboarding tasks for Adam
 - Continue writing up strategy and org structure to discuss with team
 - Figure out new name for organization
-- Get an email abount a grant sent out
 
 ### Ongoing
 I'm keeping an eye on these things:
@@ -19,13 +18,24 @@ I'm keeping an eye on these things:
 
 ### Backlog
 - Offboarding tasks for Dom, Mukesh, Rajat
-- Prep for call with Ian (Wednesday)
+
 - Report for CIT (due Friday)
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
 - Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+
+## 2023-10-29 (Tue)
+*Partial day due to various medical issues*
+
+- 1:1 with Sean
+- 1:1 with Mukesh
+- 1:1 with Adam
+- Sent out email about grant
+- Prepped for call with Ian (Wednesday)
+- Prepped for tomorrow's weekly meeting
+- Email + Matrix catch up
 
 ## 2023-10-28 (Mon)
 - Long call with Dom about feedback etc.
