@@ -18,7 +18,6 @@ I'm keeping an eye on these things:
 
 ### Backlog
 - Offboarding tasks for Dom, Mukesh, Rajat
-
 - Report for CIT (due Friday)
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
@@ -26,7 +25,7 @@ I'm keeping an eye on these things:
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
 
-## 2023-10-29 (Tue)
+## 2023-10-31 (Tue)
 *Partial day due to various medical issues*
 
 - 1:1 with Sean
@@ -37,7 +36,7 @@ I'm keeping an eye on these things:
 - Prepped for tomorrow's weekly meeting
 - Email + Matrix catch up
 
-## 2023-10-28 (Mon)
+## 2023-10-30 (Mon)
 - Long call with Dom about feedback etc.
 - Call with Adam and Sam to figure out next steps for org transition
 - Email + Matrix catch up
