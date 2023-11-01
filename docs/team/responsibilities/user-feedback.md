@@ -1,7 +1,7 @@
 # User feedback tracking
 
-**Owner**: Ghislaine  
-**Call Assistance Helpers**: Pavish, Kriti, Brent
+**Owner**: Kriti  
+**Call Assistance Helpers**: Pavish, Kriti, Brent, Ghislaine
 
 ## All Team Members
 
@@ -15,13 +15,13 @@ The owner of the User Feedback responsibility is responsible for the following t
 - Document and organize user feedback from all channels, making it easily accessible on the [User Feedback HackMD page](https://hackmd.io/team/user-feedback).
 - Categorize collected feedback using appropriate tags and attributes.
 - Create surveys and call scripts for the various stages of the feedback process:
-  - **Feedback Follow-Up:** Reach out to users that have provided feedback to learn more about their experiences and needs.
-  - **Discovery:** Gather information about existing or potential users' needs and goals, and understand the problem space.
-  - **Onboarding:** Identify opportunities for improvement in the onboarding experience, particularly for new users.
-  - **Satisfaction:** Understand how users feel about Mathesar and their overall experience, particularly for long-term users.
+    - **Feedback Follow-Up:** Reach out to users that have provided feedback to learn more about their experiences and needs.
+    - **Discovery:** Gather information about existing or potential users' needs and goals, and understand the problem space.
+    - **Onboarding:** Identify opportunities for improvement in the onboarding experience, particularly for new users.
+    - **Satisfaction:** Understand how users feel about Mathesar and their overall experience, particularly for long-term users.
 - Create email templates for the various stages of the feedback process:
-  - **Call Invitation:** Invite users to participate in a feedback call.
-  - **Survey Invitation:** Invite users to participate in a survey.
+    - **Call Invitation:** Invite users to participate in a feedback call.
+    - **Survey Invitation:** Invite users to participate in a survey.
 - Send out emails, surveys, and call invitations to users.
 - Schedule and conduct feedback calls with users.
 - Manage and maintain additional channels for user feedback, such as roadmaps, user guides, and blogs.

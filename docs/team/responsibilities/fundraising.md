@@ -7,5 +7,6 @@
 
 This involves fundraising to sustain Mathesar's development and maintenance.
 
-Moved from:  
+Moved from:
+
 - Project: [Raise additional funding for Mathesar](/projects/funding)
