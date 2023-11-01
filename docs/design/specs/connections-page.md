@@ -72,3 +72,11 @@ Before deletion, prompt users with a confirmation dialog.
 **Interactions:**
 
 - The modal should be opened by clicking on the "Delete" button in the Connections List table.
+
+## Database Page Modifications
+As part of this design, the current database page must be modified to remove the sidebar database navigation. 
+
+<img width="1511" alt="image" src="https://github.com/centerofci/mathesar-wiki/assets/845767/6d6c97f8-a9c1-4d5e-9be3-7571bcdff284">
+
+
+
