@@ -1,76 +1,219 @@
 # Pavish's work log
 
-# Actively working on
-* Helping with Pre-existing Postgres DB compatibility project
-* Helping with Niche research project
-* Upgrading Node version and FE packages
+# Working on (Ordered based on priority):
+* Help with User interviews and CRM
+* Figure out E2E testing strategy and user flows
+  - Test Cypress as a possible tool to use (Playwright is still my choice at the moment)
+  - Come up with a docker setup for E2E tests
+  - Come up with user flows
+* Learn more about Wikibase and Wikidata before call with SJ on Thursday
+* [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
-## 2023-08-25
-* Fixed regression and raised PR: [Move UserProfile to the App level context from Route level context](https://github.com/centerofci/mathesar/pull/3175)
+## 2023-10-30 Monday
+* Call with Sean on Database connections UX
+* Sent mail on workspaces
+* Responded to Dave from Kubeworkz
+
+## 2023-10-27 Friday
+* User call with Alexander and Brent
+* Team event
+* Call with Kriti & Sean for user interview followup
+* Call with Rajat
+
+## 2023-10-26 Thursday
+* Chat with Brent on GH actions & workflows
+* Respond to the DB connection UI mail
+* User call preparation meeting with Kriti & Brent
+* WMF call with Kriti & SJ
+  - SJ wasn't able to join, Kriti and I had a 1:1
+
+## 2023-10-25 Wednesday
+* Continued testing Wikibase, Wikidata, and Commons:Structured_Data
+* Prepared a set of questions to ask SJ for WMF integration
+* Call with Kriti on WMF questions
+* Call with Dom
+* Call with Mukesh
+
+## 2023-10-24 Tuesday
+* Spent time filling out CRM by finding user details
+* Prepared drafts to send out to some of the users, got it reviewed, and sent the mails
+* Reviewed, added a commit to fix types, and merged [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+* Installed Wikibase locally to test it out
+
+## 2023-10-23 Monday
+* Continued reading more about Wikidata, Wikimedia Commons:Structured Data and tested OpenRefine
+* Call with Kriti
+
+## 2023-10-20 Friday
+* Debugged Matrix, call with Brent
+* Call with Sean on DB connections
+* Took an initial look at Wikibase for upcoming call with SJ
+
+## 2023-10-19 Thursday
+* Started writing a initial set of E2E tests with Cypress as a POC
+  - This is to test speed of writing tests vs Playwright
+
+## 2023-10-18 Wednesday
+* Call on Permissions UX
+* Added leads from survey to CRM
+* Drafted email template for survey leads
+* Sent out emails to two survey leads
+
+## 2023-10-17 Tuesday
+* Responded to Sean's mail on DB connections
+* Responded to Brent's mail on Permissions UX
+* User interview feedback project meeting
+* Call on Permissions UX
+
+## 2023-10-16 Monday
+* Re-reviewed and approved [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Reviewed and suggested changes [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+* Took initial look at [Use cell value for fk referenced columns](https://github.com/centerofci/mathesar/pull/3239)
+* Continued testing Cypress
+
+## 2023-10-13
+* Started re-reviewing [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Started testing Cypress
+* Community team meeting
+
+## 2023-10-12
+* Looked into Cypress as a potential E2E testing solution
+* User interview call with SJ and Kriti
+
+## 2023-10-11
+* (Had a day off due to family emergency)
+
+## 2023-10-10
+* Frontend walk through call with Anish
+* User feedback meeting call
+* Call for User Interview Phase 1 plan finalization
+
+## 2023-10-09
+* (Had a partial workday due to family commitments)
+* Started writing up project for E2E testing strategy
+* Re-reviewed and approved [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-06
+* Architecture call with Brent
+* Figured out steps to schedule calls in SavvyCal with common account
+* Call to discuss UX for database connections
+
+## 2023-10-05
+* Reviewed and suggested changes in [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Multiple calls with Rajat
+* Reviewed and merged [fix: read-only css for input](https://github.com/centerofci/mathesar/pull/3197)
+* Reviewed and closed [Fix visual regression of input appreaing disabled](https://github.com/centerofci/mathesar/pull/3196)
+* Mathesar weekly meeting
+
+## 2023-10-04
+* Continued reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+* Sync with Mukesh
+* Tried to find more options in SavvyCal for scheduling calls under a team email
+
+## 2023-10-03
+* Reviewed [Add user outreach email template](https://github.com/centerofci/mathesar_internal_crm/pull/1)
+* Call with Sean and Ghislaine on User interviews and CRM
+* Replied to cycle retrospective mail
+* Started reviewing [Db connection UI #3223](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-02
+* Checked out Calendly and SavvyCal features for team wide round-robin meetings
+* Responded to Kriti's mail on User interviews
+* Conversations in user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Took a look at [Fix visual regression of input appreaing disabled #3196](https://github.com/centerofci/mathesar/pull/3196) and [fix: read-only css for input #3197](https://github.com/centerofci/mathesar/pull/3197)
+  - #3197 is better but it needs additional changes before merging. I'll be making the changes myself and merge it in.
+
+## 2023-09-29
+* Pondered more on user flows for E2E tests
+* Responded to user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Core team event
+
+## 2023-09-28
+* Call with Brent on E2E testing and dealing with regressions
+* Call with Sean and Ghislaine on User interviews and CRM
+
+## 2023-09-27
+* Weekly meeting
+* Researched more on E2E testing strategy
+
+## 2023-09-26
+* Debugged setup issue in PR and resolved conflict in [Upgrade node version, remove Storybook](https://github.com/centerofci/mathesar/pull/3214)
 * 1-1 with Kriti
 
-## 2023-08-24
-* Assiting manual QA for release
-* Added [DB list demo mode PR in the release](https://github.com/centerofci/mathesar/pull/3171)
+## 2023-09-25
+* Read through breaking changes in Svelte 4 and started figuring out approach to migrate
+* 1-1 with Sean
 
-## 2023-08-23
-* Sent mail on Product level permissions to account for related entities
-* Reviewed and merged [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
+## 2023-09-22
+* Pondered on Niche research outcome and product level questions to raise
+* Collected some more thoughts on Permission handling in Mathesar
+
+## 2023-09-21
+* Re-reviewed (Load "en" translations parallely)[https://github.com/centerofci/mathesar/pull/3102]
+  - Thought about ways to deal with workarounds
+* Call with Rajat to discuss approaches and finalize all changes in this review round
+* Reviewed and merged [Survey banner PR](https://github.com/centerofci/mathesar-website/pull/93)
+* Niche research meeting with Ghislaine and Sean
+
+## 2023-09-20
+* Raised [PR to Add description to column properties, frontend impl](https://github.com/centerofci/mathesar/pull/3219)
+
+## 2023-09-19
+* Raised [PR to upgrade Node](https://github.com/centerofci/mathesar/pull/3214)
+
+## 2023-09-18
+* Call with Rajat to discuss approach in (Load "en" translations parallely)[https://github.com/centerofci/mathesar/pull/3102]
+  - Pondered about various possible ways to split i18n files cleanly, after the call
+* Started upgrading Node version
+
+## 2023-09-15
+* Call with Brent to discuss results of effects of different PG permissions in Mathesar
+
+## 2023-09-14
+* Continued testing effects of varying PG permissions in Mathesar
+  - Identified one critical issue and some potential issues
+
+## 2023-09-13
+* Had review call and approved [Design spec for adding user database credentials using the UI](https://github.com/centerofci/mathesar/issues/3159)
+* Continued testing effects of varying PG permissions in Mathesar
+
+## 2023-09-12
+* Survey work session with Ghislaine and Sean
+* Continued testing effect of varying PG permissions in Mathesar
+* Continued working on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
+
+## 2023-09-11
+* I had a day off work
+
+## 2023-09-08
+* Finished testing PG versions 9 and 10 for compatibility
+* Started looking through PG permissions to test effect of different permission levels on Mathesar
+
+## 2023-09-07
+* Call with Mukesh on static file location
+* Reviewed [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+* Reviewed [Design spec for adding user database credentials using the UI](https://github.com/centerofci/mathesar/issues/3159)
+
+## 2023-09-06
 * Weekly meeting
+* 1:1 with Sean
+* Took a look at the form for survey
 
-## 2023-08-22
-* Thought more about Product level permissions to account for related entities
+## 2023-09-05
+* Started testing PG versions to test compatibility
+* Had a partial work day
 
-## 2023-08-21
-* Skimmed through [Make column type inference optional](https://github.com/centerofci/mathesar/pull/3050)
-  - Placed it in to-do for more thorough review
-* Responded to some discussions
+## 2023-09-04
+* Reviewed, added commits, and merged [Fix URL cell focus loss when clicking on its contained hyperlink](https://github.com/centerofci/mathesar/pull/3012)
+* Call with Brent on Preexisting DB compatibility project
+* Responded to mails
+* Started work on [Support for column descriptions/comments](https://github.com/centerofci/mathesar/issues/3069)
 
-## 2023-08-18
-* Weekly meeting
-* Community event
-
-## 2023-08-17
-* Started email thread on handling user feedback (XY problem)
-* Responded to Brent's mail on compatibility with preexisting DBs
-
-## 2023-08-16
-* Responded to 'users who do not want anything installed on the DB' mail
-* Niche meeting with Ghislaine and Brent
-* Reviewed [Create superuser page's stylings](https://github.com/centerofci/mathesar/pull/3131)
-* Responded to a number of smaller discussions
-
-## 2023-08-14 to 2023-08-15
-* I was away on both days
-
-## 2023-08-08 to 2023-08-11
-* Resolved reviews and got all 3 PRs for the 'Shares' project merged.
-* Team meetings and discussions.
-* 1/1s and catch ups.
-
-## 2023-08-07
-* Raised PR to finish up 'Shares' project.
-  - [#3133 Shares - regenerate link, general fixes](https://github.com/centerofci/mathesar/pull/3133)
-
-## 2023-08-04
+## 2023-09-01
 * Core team event
-* Continued work on finishing up 'Shares' project.
-
-## 2023-08-03
-* Usecase feedback meeting with Ghislaine
-* Started work on addressing smaller issues in 'Shares'
-  - Endpoint to regenerate link
-  - Hiding linked entities in shared table consumer page
-
-## 2023-08-02
-* Raised PR for [UI for creating & managing shares for tables and explorations](https://github.com/centerofci/mathesar/pull/3127)
-* Team meeting
-
-## 2023-08-01
-* Continued working on UI for creating & managing shares for tables and explorations
-* Got PR for [viewing shared queries](https://github.com/centerofci/mathesar/pull/3113) ready
-* Helped fix pipeline for intermittent failing tests
+* Spent time testing to find breaking features with preexisting postgres DB
 
 # Archive
- - [July 2023 work logs](/team/worklogs/pavish/2023-07.md)
+ - [August 2023 work logs](/team/worklogs/archive/2023-08/pavish.md)
+ - [July 2023 work logs](/team/worklogs/archive/2023-07/pavish.md)

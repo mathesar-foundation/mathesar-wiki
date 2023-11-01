@@ -2,22 +2,683 @@
 
 ## Actively working on
 
-### Meetings
-- 1:1 with Anish
-- 1:1 with Aritra
+### Hand-off
 
-### Release 0.1.3
-- Making images
-- Testing release
+- Catching up on Varsha's project
+- Reviewing current state of installation project
+- https://github.com/centerofci/mathesar/pull/3245
+- Looking through OpenSuse's OBS docs (for building / hosting `.deb` releases)
+- Figuring out where/how to build static files for releases
 
-### Projects
-- Going back through RSQLA 2, 3, 4 writeups and updating them
+### User help / marketing
+
+NOTE: I'm going to stop using users' names in this log
+
+- https://mathesar.freshdesk.com/a/tickets/1279 (follow up)
+- https://mathesar.freshdesk.com/a/tickets/1503 (initial contact)
+- Filling in details of call with AJP in CRM
+- Follow up with AJP
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3245
+- https://github.com/centerofci/mathesar/pull/3198
+
+### Infrastructure
+
+- Update internal Mathesar installation
 
 ### Preexisting DB compatibility
-- Start organizing some basic meta issues around known problems (we can add more)
+
+- Splitting findings into projects with 'themes' so we can prioritize.
+
+### Architecture
+
+- Putting notes together into something coherent and consumable by others
+- Working on expanding layer-perspective documents
+
+### Marketing
+
+- Keeping an eye on Syften notifications
+
+## 2023-10-30
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+## 2023-10-27
+
+### Meetings
+
+- 1:1 with Mukesh
+- User call: https://mathesar.freshdesk.com/a/tickets/1492
+- Core team event
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3243 (merged)
+
+
+### Infrastructure
+
+- Keeping an eye on new pipeline setup
+- Updated internal Mathesar installation
+
+
+
+## 2023-10-26
+
+### Meetings
+
+- 1:1 with Anish
+- User call prep meeting with Pavish and Kriti
+- 1:1 with Kriti
+
+### Infrastructure
+
+- Finished pipeline fix
+- Set up completely new branch protection rules
+- Emailed dev list about necessary steps to get everyone's PRs passing the CI pipeline.
+- ad-hoc syncing with Pavish about front end concerns w.r.t. the fix
+
+### Marketing
+
+- Caught up on various user help threads
+- Cleared out Syften notifications
+
+## 2023-10-25
+
+### Infrastructure
+
+- Continued work on pipeline issue.
+- Checked on internal server
+
+### Meetings
+
+- Handoff meeting with Dom
+- 1:1 with Kriti
+- User call with AJP about setup of Mathesar on AWS
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-10-24
+
+### Infrastructure
+
+- Worked on solution to pipeline breakage,
+- Monitored matrix server
+- Checked on internal server (no action needed)
+
+## Meetings
+- 1:1 with Kriti
+
+## 2023-10-23
+
+### Meetings
+
+- 1:1 with Dom
+- Ad-hoc catch-up with Kriti about pipeline situation
+
+### Infrastructure
+
+- Finished fixing Matrix server
+- Monitored the same Matrix server to make sure it was behaving
+- Checked on internal.mathesar.org ; no action needed
+- Noticed and started work on fixing major problem preventing some backend PRs from merging, and others from being properly tested.
+
+## 2023-10-20
+
+### Meetings
+
+- 1:1 with Mukesh
+- call with Kriti and AJP about Mathesar use cases
+
+### Infrastructure
+
+The entire day was consumed by trying to figure out what was broken with our Matrix server, and working on a fix.
+
+## 2023-10-19
+
+### Marketing
+
+- Cleared out Syften notifications
+- Sent follow up email to potential user via Freshdesk
+
+### Architecture
+
+- Compiling notes, thoughts, and results from Users and permissions II
+
+## 2023-10-18
+
+### Meetings
+
+- Users and Permissions II
+
+### Architecture
+
+- Continued working on putting notes together into something coherent and consumable by others
+- Prepped for users and permissions meeting
+
+## 2023-10-17
+
+### Meetings
+
+- 1:1 with Sean about connections UI
+- Meeting about permissions concepts and UX
+
+### Architecture
+
+- Wrote wiki page about new vision for permissions architecture.
+
+### Preexisting DB compatibility
+
+- Put together a quick issue in this space for a GSoC hopeful
+
+### Marketing
+
+- Cleared Syften notificatoins
+
+## 2023-10-16
+
+More architecture writing!
+
+### Architecture
+
+- Worked through model exposition cleanup
+- Some messaging and emailing about various details
+  - Started email chain about permissions concepts
+  - Scheduled meetings for next day
+  
+### Marketing
+
+- Cleared out Syften notifications
+
+### Meetings
+
+- Synced with Kriti
+
+## 2023-10-13
+
+Most of this day was heads-down working on architecture write-up.
+
+### Architecture
+
+- Initial pages of architecture write-up done, published in branch on wiki
+
+### Meetings
+
+- 1:1 with Mukesh
+- Mathesar community event
+
+## 2023-10-12
+
+Most of this day was heads-down working on architecture write-up and reading `psycopg` docs.
+
+### Architecture
+
+- Worked on compiling various notes into something coherent and publishable.
+
+### Infrastructure
+
+- Helped user with questions about AWS setup
+- Updated internal Mathesar installation
+
+## 2023-10-11
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Self-improvement
+
+- Read CRM docs
+
+### Architecture
+
+- Asynced with Mukesh about Serializers and access control in our app
+- Did some more investiation and note-taking about current status of code base, changes
+
+## 2023-10-10
+
+### Architecture
+
+- Asynced with Mukesh about python versions we need to support, and the implications of that
+- Experimented with async options, looked at where it would be useful; ultimately decided it's not needed/useful (yet)
+- Finished cataloging model data, redesigning model setup
+- Looked into whether serializers will remain useful (a bit, in some cases)
+
+### Infrastructure
+
+- Checked internal installation; no update needed
+
+## 2023-10-09
+
+### Marketing
+
+- Looked through posts about setting Mathesar up on AWS
+- cleared out Syften notifications
+
+### Architecture
+
+- I'm confident at this point that the team supports having a tech architecture, minimizing state
+- Talked with Dom about Connections, storing them, caching engines
+  - SQLAlchemy engines are overcomplicated
+  - Psycopg3 ones are simpler
+- Incorporated ideas from other backend devs into architecture designs somewhat (ongoing)
+
+## 2023-10-06
+
+### Meetings
+
+- 1:1 with Pavish
+- 1:1 with Mukesh
+- user call with Kriti
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Architecture
+
+- Modified architecture ideas according to conversations with Mukesh and Pavish
+- Took notes on
+  - Ideas for more RPC-style setup for some endpoints
+  - Ideas for DB connection handling
+
+## 2023-10-05
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Architecture
+
+- Started comprehensive catalog of all metadata stored in models, notes on simplifications and modifications.
+- Minor async discussions with team members to clarify my understanding of some parts of code base.
+
+### Meetings
+
+- 1:1 with Anish
+- Team meeting
+
+## 2023-10-04
+
+### Infrastructure
+
+- Quick one-off work to let Sean access the matrix DB
+
+### Architecture
+
+- Looked through serializers and viewsets, determining how we can simplify
+- Async conversations to clarify my understanding of some complex software design choices.
+
+### Email/messages
+
+- Caught up on some developer conversations
+
+## 2023-10-03
+
+### Architecture
+
+- Spent most of the day going through models, noting what we store vs. get from DB
+- Took a "big picture" look at how requests move from the API down to the user DB(s) and back
+
+### Meetings
+
+- 1:1 with Kriti
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-10-02
+
+Still dealing with tail end of moving disruption. Should be more productive, but still not 100%.
+
+### Meetings
+
+- 1:1 with Dom
+- Asyced (a bit) with Mukesh
+
+### Email/messages
+
+- Responded to cycle retrospective
+- Responded to question about installation
 
 ### User help
-- Conduct a round of follow-up with various users.
+
+- Looked at installation request submission, messaged Kriti with recommendations
+
+### Marketing
+
+- Cleared out Syften notifications
+
+## 2023-09-29
+
+Still moving boxes around; not much desk time. 
+
+### Infrastructure
+
+- Checked status of internal Mathesar installation; no update required
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Architecture
+
+- Did some thinking about a "dream architecture" for Mathesar while moving boxes
+
+## 2023-09-28
+
+Still moving boxes around; not much desk time. 
+
+### Meetings
+
+- 1:1 with Anish; discussed architecture plans
+- 1:1 with Pavish; talked about E2E testing project.
+
+## 2023-09-27
+
+Today was moving day. Attended meetings and did some thinking while carrying boxes.
+
+## 2023-09-26
+
+### Messaging, admin
+
+- Brought Kriti's attention to domain renewal notice when she returns (probable phishing attempt).
+- Participated in email threads
+
+### Architecture
+
+- Worked out more details of new architecture proposal
+
+## 2023-09-25
+
+### Misc. projects
+
+- Wrote up stub project for avoiding regressions
+
+### Email/messages
+
+- Started conversation about handling permissions issues
+
+### Marketing
+
+- Went through Syften notifications
+
+### Infrastructure
+
+- Updated internal.mathesar.org
+- Wrote meeting agenda item about setting up an infrastructure ongoing responsibility
+
+## 2023-09-22
+
+### Infrastructure
+
+- updated internal Mathesar installation
+
+### Meetings
+
+- 1:1 with Mukesh
+
+### Preexisting DB compatibility
+
+- Worked on splitting into themed projects
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3121 (approved; merged)
+
+
+## 2023-09-21
+
+### Meetings
+
+- 1:1 with Sean
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3121 (requested changes)
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Marketing
+
+- Looked through Syften notifications
+
+### Preexisting DB compatibility
+
+- Worked on themed projects.
+- Created local method for testing Mathesar performance under different network latency assumptions.
+
+## 2023-09-20
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Preexisting DB compatibility
+
+- Sent email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
+- Sent project update email
+- Worked on performance testing, 
+- Worked on splitting findings into themed projects
+
+### Marketing
+
+- Cleared out Syften notifications, noted a pattern on the marketing channel
+
+## 2023-09-19
+
+### Marketing
+
+- Kept an eye on Syften notifications, cleared out inbox
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+
+### Preexisting DB compatibility
+
+- Looked into performance when Mathesar's web service is not colocated with the DB
+  - Terribly slow progress, because performance testing on the slow app took time
+
+## 2023-09-18
+
+### Infrastructure
+
+- Updated internal Mathesar installation
+- Reset demo load balancer
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3189 (approved)
+  - This was extremely laborious, and took most of the day.
+
+## 2023-09-15
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (approved, merged)
+
+### Preexisting DB compatibility
+
+- Submitted PR to test compatibility with PG versions 13, 14, 15
+  https://github.com/centerofci/mathesar/pull/3206
+
+## 2023-09-14
+
+### PR reviews
+
+- Initial look through https://github.com/centerofci/mathesar/pull/3121
+- Initial look through https://github.com/centerofci/mathesar/pull/3189
+
+### Preexisting DB compatibility
+
+- Completed scale testing, recorded results
+- Verified composite type support, recorded results
+
+## 2023-09-13
+
+### Preexisting DB compatibility
+
+- Asynced with Pavish about status
+- Worked on scale testing
+
+### Marketing
+
+- Cleared out inbox of Syften notifications
+
+### Infrastructure
+
+- Investigated domain renewal notice
+
+## 2023-09-12
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar-wiki/pull/105 (approved)
+- https://github.com/centerofci/mathesar-ansible/pull/42 (approved)
+
+### Email/messaging
+
+- Went through Dom's helpful feedback w.r.t. the SQL codebase from his project update
+- Cleared out other notifications from social media
+
+## 2023-09-11
+
+### Meetings
+
+- 1:1 with Dom
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (requested changes)
+
+
+
+### Bug hunt
+
+- Found problem with FE, raised in FE channel, determined it's already known.
+
+### Marketing
+
+- Looked through Syften notifications, nothing interesting this round
+
+### Preexisting DB compatibility
+
+- Sent update email
+- Started looking into composite type support (or lack of it)
+
+## 2023-09-08
+
+### Meetings
+
+- 1:1 with Mukesh
+- Catch up with Dom w.r.t. his PR #3186
+
+### PR reviews
+
+- Follow up on https://github.com/centerofci/mathesar/pull/3186
+
+### Preexisting DB compatibility
+
+- Continued testing of problems, added to [the meta issue](https://github.com/centerofci/mathesar/issues/3199)
+
+## 2023-09-07
+
+### Meetings
+
+- 1:1 with Anish
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3186 (requested changes)
+- https://github.com/centerofci/mathesar/pull/3121 (requested changes)
+
+### Preexisting DB compatibility
+
+- Continued testing of problems, added to [the meta issue](https://github.com/centerofci/mathesar/issues/3199)
+- Decided _not_ to host test data; we determined it's not useful at the moment.
+
+## 2023-09-06
+
+Short day due to sick family
+
+### Meetings
+- Team meeting
+
+### Email / messaging
+
+- Replied to DB access email thread
+  - First, I re-read the PostgreSQL docs about permissions, roles and `GRANT`
+- Replied to E2E testing thread
+
+## 2023-09-05
+
+Short day due to sick family
+
+### Marketing
+
+- Cleared out inbox of Syften notifications, flagged interesting ones
+
+### Preexisting DB compatibility
+- Worked on organizing thinking for known problems
+- Started Meta issue, tested DB versions
+
+## 2023-09-04
+
+Short day due to sick family.
+
+### Meetings
+
+- 1:1 with Pavish about preexisting DB project
+
+### Preexisting DB compatibility
+
+- Worked on organizing thinking for known problems
+
+## 2023-09-01
+
+### Meetings
+
+- meeting with Mukesh about demo deployment
+- 1:1 with Mukesh
+- Core team event
+
+### Release 0.1.3
+
+- Successfully got the prod deployments deployed
+- Spent most of the day fighting with demo setup
+
+## 2023-08-31
+
+I've been lax about filling these in for a few days. My work has involved 
+
+- the release, 
+- hunting related bugs, and 
+- deployment of the release. 
+
+I'm resetting to get back on track.
+
+### Meetings
+- Met with Ghislaine to discuss user niche
+
+### Deployment
+- Deployed new version to mathesar.ito.com
+- Deployed new version to cci.mathesar.org
+- Double-checked staging.mathesar.org
+- Worked on demo deployment
 
 ## 2023-08-23
 

@@ -2,218 +2,102 @@
 
 **TODO**
 
-- Start an email thread on the dev mailing list for the i18n retrospective
-- Address review feedback in [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
-- Address review feedback in [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
-- Address review feedback in [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
-- i18n Other documentation-related tasks
-- i18n PR for making all strings in the FE codebase translatable. The work here is done, just need to update as per the review comments on other PRs.
-- ESLint rule for i18n
+- Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
+- Wrapping raw strings with translation function in the whole codebase's PR update.
+- Start an email thread on the dev mailing list for the i18n retrospective _(actively writing)_
+- Pending i18n Documentations. [i18n](https://github.com/centerofci/mathesar/issues/2927)
 - i18n testing
-- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
-- Sync with Mukesh about the next cycle's installation work. (Mukesh will be sending out an invite for Friday once he has the project write-up ready.)
-- Update the i18n project's wiki page.
-- Send out project updates e-mail for i18n.
-- type:notes for https://github.com/centerofci/mathesar/issues/3028?
 
-## 2023-08-28
+## 2023-10-23
 
-**Active**
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Rewriting rules from [no-literal-string](https://github.com/edvardchen/eslint-plugin-i18next/blob/main/lib/rules/no-literal-string.js) to be able to run on `svelte-eslint-parse`
 
-- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+## 2023-10-20
 
-**Completed**
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Rewriting rules from [no-literal-string](https://github.com/edvardchen/eslint-plugin-i18next/blob/main/lib/rules/no-literal-string.js) to be able to run on `svelte-eslint-parse`
 
-- Chat with Sean about adhoc issues in the cycle that needs to be assigned to me
-- Repo admin
+## 2023-10-19
 
-## 2023-08-25
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Finally able to run [no-raw-text](https://github.com/intlify/eslint-plugin-svelte/blob/main/lib/rules/no-raw-text.ts) rule from the local
+  - Started reading about `svelte-eslint-parser` to understand how it works and how to make it work with new rules.
 
-_On leave from 2023-08-21 half day to 2023-08-25 half day_
+## 2023-10-18
 
-**Active**
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Struggling to run [no-raw-text](https://github.com/intlify/eslint-plugin-svelte/blob/main/lib/rules/no-raw-text.ts) rule from the local
 
-- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+## 2023-10-17
 
-## 2023-08-21
+- Partially available
+- Repo-admin work
 
-_Half day_
+## 2023-10-16
 
-**Completed**
+- Out sick
 
-- Repo-admin
+## 2023-10-13 (Running svelte plugin on the local)
 
-## 2023-08-17
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Trying to run [no-raw-text](https://github.com/intlify/eslint-plugin-svelte/blob/main/lib/rules/no-raw-text.ts) rule from the local so that its easier to make edits and test it.
 
-**Completed**
+## 2023-10-12
 
-- Repo-admin
-- Prepare & do use-cases meetings with Ghislaine.
-- Get v0.1.3 out
-  - Including super user creation page items from the Installations improvements project.
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Finding an existing plugin that does anything close to the requirement.
+  - The closest one that I could find - [no-literal-string](https://github.com/edvardchen/eslint-plugin-i18next/blob/main/lib/rules/no-literal-string.js)
+  - The plan is to extend the [existing svelte plugin](https://github.com/intlify/eslint-plugin-svelte/blob/main/lib/rules/no-raw-text.ts) to accommodate rules from [no-literal-string](https://github.com/edvardchen/eslint-plugin-i18next/blob/main/lib/rules/no-literal-string.js)
 
-## 2023-08-16
+## 2023-10-11
 
-- _2023-08-11 - Planned leave_
-- _2023-08-14 - Sick leave_
-- _2023-08-15 - Sick leave_
+- Repo-admin work
+- Made some progress on: Create an ESLint rule to catch all untranslated strings & fix all the current errors. [i18n](https://github.com/centerofci/mathesar/issues/2927)
+  - Started researching on how to write ESLint plugin
 
-**TODO**
+## 2023-10-10
 
-- Prepare & do use-cases meetings with Ghislaine.
-- Start an email thread on the dev mailing list for the i18n retrospective
-- Address review feedback in [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
-- Address review feedback in [[i18n] Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103)
-- Address review feedback in [[i18n] Language switcher for anon users](https://github.com/centerofci/mathesar/pull/3104)
-- i18n Other documentation-related tasks
-- i18n PR for making all strings in the FE codebase translatable. The work here is done, just need to update as per the review comments on other PRs.
-- ESLint rule for i18n
-- i18n testing
-- AIs from the "Next Release" milestone email.
-- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
-- Check-in for next cycle's FE ad-hoc tasks.
-- Sync with Mukesh about the next cycle's installation work. (Mukesh will be sending out an invite for Friday once he has the project write-up ready.)
-- Update the i18n project's wiki page.
+- Repo-admin work
+- Minor [fixes](https://github.com/centerofci/mathesar/pull/3223/commits/cb0857297a5189130a1ee7b0806bf17b76fe35a9) in [Db connection UI](https://github.com/centerofci/mathesar/pull/3223). The PR is approved but blocked on missing doc links.
 
-**Active**
+## 2023-10-09
 
-- Get v0.1.3 out
-- Send out project updates e-mail for i18n.
-- i18n documentation for developers. This is blocking the review of [[i18n] Export & import translations](https://github.com/centerofci/mathesar/pull/3123)
+- Repo-admin work
+- Synced with Mukesh regarding missing links in database ui PR.
+- Replied to retro e-mail for the last cycle.
+- Tackled review feedback & made ready for review - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
-**Completed**
+## 2023-10-06
 
-- Check e-mails.
-- Repo admin (pending items from the last 3 days)
-- Update work-logs
+- Worked on review feedback for - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
 
-## 2023-08-10
+## 2023-10-05
 
-**TODO**
+- Tackle Review feedback for [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) & made ready for review again
 
-- AIs from the "Next Release" milestone email.
+## 2023-10-04
 
-**Active**
+- Made some progress on: Wrapping raw strings with translation function in the whole codebase's PR update. This needs some more work due to more development after last changes on this PR.
 
-- i18n documentation for developers
+## 2023-10-03
 
-**Completed**
+- Made some progress on: Wrapping raw strings with translation function in the whole codebase's PR update. This needs some more work due to more development after last changes on this PR.
 
-- Review Pavish's PR for shareable links
-- Follow up with i18n PRs review (all of the PRs are now reviewed at least once)
+## 2023-10-02
 
-## 2023-08-09
-
-**TODO**
-
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- Review Pavish's PR for shareable links
-- Follow up with i18n PRs review
-
-**Completed**
-
-- Replacing more translation strings in the FE codebase. (Might need a little more work depending on the current open PRs review feedback)
-
-## 2023-08-08
-
-**TODO**
-
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-## 2023-08-07
-
-**TODO**
-
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-**Completed**
-
-- Check-in for v0.1.3 release progress
-- Progress report for the i18n project.
-- Update pending worklogs
-- Send e-mail for i18n ESlint rule current state
-- Repo admin work
-
-## 2023-08-04
-
-**TODO**
-
-- AIs from the "Next Release" milestone email.
-- Check-in for the v0.1.3 release progress
-
-**Active**
-
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-**Completed**
-
-- [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/pull/3131)
-- Repo admin work
-
-## 2023-08-03
-
-**TODO**
-
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/issues/3056)
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-**Completed**
-
-- Repo admin work
-
-## 2023-08-02
-
-**TODO**
-
-- [Update the Mathesar superuser creation screen Django templates](https://github.com/centerofci/mathesar/issues/3056)
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-**Completed**
-
-- [PR for import/export](https://github.com/centerofci/mathesar/pull/3123)
-- Repo admin work
-
-## 2023-08-01
-
-**TODO**
-
-- PR for import/export
-- AIs from the "Next Release" milestone email.
-
-**Active**
-
-- Replacing more translation strings in the FE codebase.
-- Follow up with i18n PRs review
-
-**Completed**
-
-- v0.1.3 milestone health check
-- Repo admin work
+- [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) ready for review
+- Repo-admin work
 
 ## Archive
 
-- [July 2023 work logs](/team/worklogs/rajat/2023-07.md)
+- [September 2023 work logs](./archive/2023-09/rajat.md)
+- [August 2023 work logs](./archive/2023-08/rajat.md)
+- [July 2023 work logs](./archive/2023-07/rajat.md)

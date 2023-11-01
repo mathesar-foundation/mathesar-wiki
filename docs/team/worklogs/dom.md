@@ -1,21 +1,287 @@
 # Dom's work log
-
 ## Active
 
-- Consider volunteering for user-feedback improvement in xy email thread
-- Start work on backend fixes
-- See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
-- See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
+- Create and prioritize issue for writing tests for db creation/update/removal via API
+  - Discovered that there are no tests for this when trying to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Associated code is messy, fix it up as well
+- Make sure [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) is not reproducible anymore
+- See [#3245](https://github.com/centerofci/mathesar/issues/3245) (db bug fixes) reviewed and merged
+- Open some good first issues
+  - Got a few ideas
+- Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+  - on pause; >75% done, but seems low priority
+    - frontend aspect can't fit into 0.1.4
 
 ## Backlog
 
+- Consider automating finding 404 in our wiki
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
+- Consider adding a make-like tool to main repo for common tasks
+
+### 2023-10-23
+
+- Sync with Brent
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found the (seemingly) last bug that kept tests from passing in CI
+- Attempt to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) with [#3245](https://github.com/centerofci/mathesar/issues/3245) merged
+  - Can't, but I found the bug elusive to reproduce before
+  - Asked Rajat to try as well
+
+### 2023-10-20
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found one of the problems, but ran into another
+
+### 2023-10-19
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Discuss using Zulip
+
+### 2023-10-18
+
+- Present GSoC proposal phase notes to team
+- Finish preparing GSoC proposal phase note page in wiki
+- Respond in Sean's product vision follow-up email thread
+
+### 2023-10-17
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Respond in UX question about DB connections email thread
+- Process notes from GSoC summit on proposal phase into a document
+  - https://github.com/centerofci/mathesar-wiki/pull/106
+
+### 2023-10-16
+
+- Traveling from Sunnyvale to Dominican Republic
+
+### 2023-10-13
+
+- Submit PR related to [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+
+### 2023-10-12
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-11
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-10
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-09
+
+- Read GSoC summit updates
+- Respond in CRM intro email thread
+
+### 2023-10-06
+
+- Respond in cycle 0.1.4 retrospective email thread
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Continued working through the connection leak
+    - Significant progress, but there's still a major leak somewhere
+      - Can't yet merge
+
+### 2023-10-05
+
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Changes to reflection caused the connection leak bug to creep up again
+    - Have to fix that in order to merge
+
+### 2023-10-05
+
+- Conversation in frontend channel
+- Team sync
+
+### 2023-10-04
+
+Had a very hard time being productive, effectively took most of day off.
+
+- Sync with Sean
+
+### 2023-10-03
+
+- Started working on [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+- Respond in [#3223](https://github.com/centerofci/mathesar/issues/3223) (Rajat's db connection pr)
+- Review [#3201](https://github.com/centerofci/mathesar/issues/3201) and merge
+- Review [#3200](https://github.com/centerofci/mathesar/issues/3200)
+
+### 2023-10-02
+
+- Respond in rsqla1 retrospective
+- Sync with Brent
+- Respond in ux design process for importing excel/json email thread
+- See Anshumna's final evaluation performed
+
+### 2023-09-29
+
+Away on sick leave.
+
+### 2023-09-28
+
+Away on sick leave.
+
+### 2023-09-27
+
+Away on sick leave.
+
+### 2023-09-26
+
+- Last sync with Anshuman
+
+### 2023-09-25
+
+- Do Supabase integration tests [#3141](https://github.com/centerofci/mathesar/issues/3141)
+
+### 2023-09-22
+
+- Submited draft PR for Paste API
+- Fix GSoC summit travel arrangements, broken due to a cancellation
+
+### 2023-09-21
+
+Feeling burnt out, trying to get work in, but starting late and energy levels
+are low.
+
+- Respond to Anshuman in group chat
+
+Ended up working mostly on my dev setup and other minimally-productive things
+that were easy to focus on.
+
+### 2023-09-20
+
+- Respond to Anish in Matrix
+- Respond in GSoC group chat
+
+### 2023-09-19
+
+- Sync with Anshuman
+- Sync with Anish
+
+### 2023-09-18
+
+- See [#3186](https://github.com/centerofci/mathesar/issues/3186) reviewed and merged
+- Sync with Brent
+- Sync with Sean
 
 ## Complete
 
-### 2023-08-17
+### 2023-09-16 (Saturday)
 
+Resumed work.
+
+### 2023-09-15
+
+Spent the day getting a VPS and setting it up for work; ended up being more
+work than I expected; important part of my configs didn't survive the death of
+my previous dev box; but, by the end of the day I have a working development
+environment.
+
+Decided that I'll make this Saturday (09-16) a workday to make up for some of
+the lost time.
+
+### 2023-09-14
+
+Had technical difficulties with my development machine today: I bricked my
+motherboard during a component upgrade; was not able to work; spent the day
+troubleshooting my hardware and concluded that I cannot repair it within a
+practical timeframe: will look for alternatives;
+
+### 2023-09-13
+
+- Make requested changes in [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
+
+### 2023-09-12
+
+Had technical difficulties with the internet today, cut workday short.
+
+- Respond in rsqla1 retrospective email thread
+  - hard deadline is Sept 15th
+  - but I said I'll do it Sept 12th (Tuesday)
+    - so we can do more rounds of conversation
+- Sync with Anshuman
+- Did final RSVP for GSoC summit
+
+### 2023-09-11
+
+- Sync with Brent
+- Post Monday's weekly project update
+- Review [#3200](https://github.com/centerofci/mathesar/issues/3200) (contributor's pr)
+
+### 2023-09-08
+
+I've been taking a long time to get into our SQL code; the learning curve is
+somewhat steep, I find. I do feel like I'm making good progress though.
+
+- Review and merge [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
+- Finish making requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
+- Sync with Brent
+
+### 2023-09-07
+
+- Make most of requested changes to [#3186](https://github.com/centerofci/mathesar/issues/3186) (support for column comments in backend)
+- Respond in [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
+
+### 2023-09-06
+
+- Start [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+- Team sync
+- Catch up on emails
+- Sync with Anshuman
+- Review [#3195](https://github.com/centerofci/mathesar/issues/3195) (anshuman's pr)
+
+### 2023-??-??
+
+Unavailable due to family reasons
+
+### 2023-08-29
+
+Largely unavailable due to family trouble
+
+- Setup a bi-weekly sync with Sean until the end of cycle
+- Cancelled sync with Anshuman
+- Started drafting a developer guide for working with our Postgres library
+
+### 2023-08-28
+
+- Sync with Brent
+- Review and merge [#3155](https://github.com/centerofci/mathesar/issues/3155) (anshuman's pr)
+- Add support for column comments in backend in [#3186](https://github.com/centerofci/mathesar/issues/3186)
+
+### 2023-08-24
+
+- Spent all day debugging support for column comments
+
+### 2023-08-24
+
+- See [#3140](https://github.com/centerofci/mathesar/issues/3140) (test third party table with long identifiers) reviewed and merged
+- See [#3129](https://github.com/centerofci/mathesar/issues/3129) (fix db list in demo) reviewed and merged
+- Respond in release email thread
+
+### 2023-08-23
+
+- Review and merge [#3156](https://github.com/centerofci/mathesar/issues/3156) (brent's test bug workaround pr)
+- Respond in installation email thread
+- Respond in appetite email thread
+
+### 2023-08-22
+
+- Sync with Anshuman
+- Respond in stale bot issue thread
+- Respond in niche research thread
+- Respond in should we install on user db email thread
+
+### 2023-08-21
+
+- Start work on backend fixes
+- Respond in installation email thread
+- Respond in xy problem email thread
+
+### 2023-08-18
+
+- Published worklog
 - Prepare for team meeting
 - Respond in criteria for closing user issues email thread
 - Update backend fixes project with outcome

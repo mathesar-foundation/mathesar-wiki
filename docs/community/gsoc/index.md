@@ -27,4 +27,4 @@ We're participating in **Google Summer of Code (GSoC)** in 2023.
 
 - [Mentor Guide](./mentor-guide) - *Instructions for mentors*
 - [Project Idea Template](./project-idea-template) - *Template to use when writing up project ideas*
-
+- [Notes on the proposal phase from '23 GSoC summit](./proposal-phase/proposal-phase-gsoc-summit-session-notes) - *Insights that might help improve the proposal phase*
