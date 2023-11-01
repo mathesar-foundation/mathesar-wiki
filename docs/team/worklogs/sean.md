@@ -4,7 +4,10 @@
 
 ### Soon
 
+- Delete the [mathesar-update-companion](https://github.com/centerofci/mathesar-update-companion/settings) repo once this [PR](https://github.com/centerofci/mathesar/pull/3280) is merged.
 - Create tickets for remaining DB connections work
+- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Begin work on 0.1.4 release notes
@@ -23,6 +26,22 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-01 Wednesday
+
+- Review DB Connections Home Page
+- Call with Brent about DB connections UI
+- Re-assign issues and PRs assigned to Rajat
+- Team meeting
+- User interview meeting
+- Some user outreach follow-up work
+- Unassign Dom, Mukesh, and Rajat from all tickets and PRs by manually reviewing each
+- Whittle down queue of [all assigned tickets](https://github.com/orgs/centerofci/projects/1/views/3?groupedBy%5BcolumnId%5D=Assignees) by closing, commenting, and unassigning people
+- Lots of clean up in GitHub issues
+- Open [PR](https://github.com/centerofci/mathesar/pull/3280) to remove mentions of `mathesar-update-companion` from the `.github` directory within the mathesar repo.
+- Open website PR [Update core team](https://github.com/centerofci/mathesar-website/pull/96)
+- Document [repo setup tasks](https://github.com/centerofci/mathesar-internal-crm/issues/2) in [wiki page](https://wiki.mathesar.org/engineering/how-tos/set-up-new-repo/) and add section on removing a repo.
+- Update wiki to document ongoing responsibilities post team-restructuring
 
 ## 2023-10-31 Tuesday
 
