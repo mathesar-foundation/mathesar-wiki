@@ -175,3 +175,8 @@ Create a meta issue to track progress of the release process with the label `wor
 ### 5. Merge master into develop
 
 - After the release is made successfully, merge the `master` branch into `develop`.
+
+
+### 6. Update the servers once the release is complete
+
+- The process to update the server is [noted here](server-update-process.md)
