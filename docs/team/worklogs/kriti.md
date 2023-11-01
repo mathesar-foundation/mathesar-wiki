@@ -3,27 +3,44 @@
 ## TODO
 
 ### Active
-- Move AJP call notes to CRM
-- Onboarding tasks for Adam
-- Continue writing up strategy and org structure to discuss with team
+- Call with Brent for installation
+    - Respond to issue 3277 afterwards
+- Call with Adam
+    - Mathesar overview, etc.
+- Review and add to CRM entries for 2 users
 - Figure out new name for organization
-
-### Ongoing
-I'm keeping an eye on these things:
-
-- Release 0.1.4
-- User research project
-- DB connections work
-- General team management & work logs
+- Redo 1:1 schedule
+- A whole bunch of follow ups:
+    - Ryan
+    - CIT visiting researcher
+    - Ian (next call)
+- Set up MFA for AWS account
+- Next steps for Anish
+- Set up mathesar.org email aliases for team
+- Report for CIT (due Friday)
+- Catch up on GitHub
 
 ### Backlog
-- Offboarding tasks for Dom, Mukesh, Rajat
-- Report for CIT (due Friday)
+- Get a handle on user research / help and set up processes / meeting
+- Figure out next conversations to have with the team
+- Analyze existing data for product strategy
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
 - Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
+- Replace Ondrej's accounts as IT admin
+- General cleanup of GSuite accounts and groups
+- 2024 budget
+
+## 2023-11-01 (Wed)
+- 2 x team meetings
+- Call with Anish
+- Call with Ian re: funding and board
+- Onboarding tasks for Adam
+- Offboarding tasks for Dom, Mukesh, Rajat
+    - This took a long time
+- Email + Matrix + Slack catch up
 
 ## 2023-10-31 (Tue)
 *Partial day due to various medical issues*
