@@ -1,15 +1,26 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
+* I18n work
 * Help with User interviews and CRM
 * Figure out E2E testing strategy and user flows
   - Test Cypress as a possible tool to use (Playwright is still my choice at the moment)
   - Come up with a docker setup for E2E tests
   - Come up with user flows
-* Learn more about Wikibase and Wikidata before call with SJ on Thursday
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-11-1 Wednesday
+* Core team meeting
+* User call retrospective meeting
+* Started looking at i18n work to assess what's pending
+
+## 2023-10-31 Tuesday
+* Continued testing Cypress
+  - Attempted a basic setup with our dev environment
+* User interviews check-in
+* Responded to Dave from Kubeworkz
+
 ## 2023-10-30 Monday
 * Call with Sean on Database connections UX
 * Sent mail on workspaces
