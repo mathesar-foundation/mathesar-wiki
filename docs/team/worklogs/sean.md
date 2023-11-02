@@ -4,7 +4,6 @@
 
 ### Soon
 
-- Delete the [mathesar-update-companion](https://github.com/centerofci/mathesar-update-companion/settings) repo once this [PR](https://github.com/centerofci/mathesar/pull/3280) is merged.
 - Create tickets for remaining DB connections work
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 - Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
@@ -26,6 +25,24 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-02 Thursday
+
+- Delete the [mathesar-update-companion](https://github.com/centerofci/mathesar-update-companion/settings)
+- Call with Brent about DB connections UI
+- Add tickets:
+    - [Provide bidirectional navigation between explorations and base tables](https://github.com/centerofci/mathesar/issues/3282)
+    - [Create FK column from new column dialog](https://github.com/centerofci/mathesar/issues/3283)
+    - [Configure search strategy within record selector](https://github.com/centerofci/mathesar/issues/3284)
+    - [Implement the "Add Record" page](https://github.com/centerofci/mathesar/issues/3285)
+    - [Improvements for working with large text fields](https://github.com/centerofci/mathesar/issues/3286)
+    - [Make navigation header behave more consistently](https://github.com/centerofci/mathesar/issues/3287)
+    - [Remove "Records will be repositioned on refresh" message](https://github.com/centerofci/mathesar/issues/3288)
+    - [Record page widget causing overflow](https://github.com/centerofci/mathesar/issues/3289)
+    - [Unable to open nested Record selector for self-referential FK](https://github.com/centerofci/mathesar/issues/3290)
+- Some small repo admin tasks
+- Begin making adjustments to specs in response to meeting with Brent
+- Begin writing up new GitHub tickets for DB connections work
 
 ## 2023-11-01 Wednesday
 
