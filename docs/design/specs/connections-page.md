@@ -56,7 +56,6 @@ When no database connections are present:
 - The modal should be titled "Edit Database Connection".
 Provide an inline form (or modal) similar to the addition form but pre-filled with the existing details.
 - The modal is pre-filled with the existing details except for the 'Password' field.
-- Users should be able to update all the fields except the 'Connection Name'.
 
 ## Deleting Database Connection
 
