@@ -3,22 +3,11 @@
 ## TODO
 
 ### Active
-- Call with Brent for installation
-    - Respond to issue 3277 afterwards
-- Call with Adam
-    - Mathesar overview, etc.
+- Feedback call with Rajat
+- 1:1 with Pavish
+- Report for CIT (due Friday)
 - Review and add to CRM entries for 2 users
 - Figure out new name for organization
-- Redo 1:1 schedule
-- A whole bunch of follow ups:
-    - Ryan
-    - CIT visiting researcher
-    - Ian (next call)
-- Set up MFA for AWS account
-- Next steps for Anish
-- Set up mathesar.org email aliases for team
-- Report for CIT (due Friday)
-- Catch up on GitHub
 
 ### Backlog
 - Get a handle on user research / help and set up processes / meeting
@@ -26,12 +15,31 @@
 - Analyze existing data for product strategy
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
+- Follow ups:
+    - Ryan
+    - Ian (next call)
+- Set up MFA for AWS account
 - Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-02 (Thu)
+- Call with Brent re: Freshdesk and installation
+- 1:1 with Adam
+    - Mathesar overview, etc.
+- Set up Adam with Matrix
+- Redid 1:1 schedule
+- Set up mathesar.org email aliases for team
+- Set up Transifex accounts for the team
+- Some marketing discussion / comments
+- Email + Matrix + Slack + GitHub catch up
+    - Some overdue responses 
+- Progress on next steps for Anish
+- Some more offboarding tasks for Dom, Mukesh, Rajat
+- CIT visiting researcher followup
 
 ## 2023-11-01 (Wed)
 - 2 x team meetings
