@@ -4,6 +4,7 @@
 
 ### Soon
 
+- Resolve design questions around "Connections" page
 - Create tickets for remaining DB connections work
 - [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 - Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
@@ -25,6 +26,19 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-03 Friday
+
+- Update ["New DB Connection" UI specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/)
+- Send email informing others of those specs updates
+- Design discussion about [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Design discussion about DB Connections home page, including writing a "mini spec" for new proposed behavior
+- Create tickets for:
+    - [Connections work addendum](https://github.com/centerofci/mathesar/issues/3294)
+    - [Implement new "connections" model and API](https://github.com/centerofci/mathesar/issues/3291)
+    - [Pass data about the internal DB connection to the front end via common_data](https://github.com/centerofci/mathesar/issues/3292)
+    - [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
+- Send "DB Connections backend work" email
 
 ## 2023-11-02 Thursday
 
