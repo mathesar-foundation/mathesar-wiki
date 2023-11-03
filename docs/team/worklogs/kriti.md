@@ -3,10 +3,8 @@
 ## TODO
 
 ### Active
-- Feedback call with Rajat
-- 1:1 with Pavish
-- Report for CIT (due Friday)
-- Review and add to CRM entries for 2 users
+- 1:1 with Ghislaine
+- Call with Insperity
 - Figure out new name for organization
 
 ### Backlog
@@ -15,9 +13,7 @@
 - Analyze existing data for product strategy
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
-- Follow ups:
-    - Ryan
-    - Ian (next call)
+- Follow up with Ryan
 - Set up MFA for AWS account
 - Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
@@ -25,6 +21,18 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-03 (Fri)
+- Feedback call with Rajat
+- 1:1 with Pavish
+- Short call with Sean to discuss DB connections / homepage
+- Wrote up 2023 activities report for CIT
+- Updated CRM entries for a few different people
+- Email + Matrix + Slack + GitHub catch up
+    - Various responses
+    - Set up next call with Ian
+    - Some follow ups on invoices and admin stuff
+    - Various other admin follow ups
 
 ## 2023-11-02 (Thu)
 - Call with Brent re: Freshdesk and installation
