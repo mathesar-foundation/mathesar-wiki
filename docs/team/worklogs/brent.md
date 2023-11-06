@@ -5,24 +5,20 @@
 ### Hand-off
 
 - Catching up on Varsha's project
-- Reviewing current state of installation project
 - https://github.com/centerofci/mathesar/pull/3245
-- Looking through OpenSuse's OBS docs (for building / hosting `.deb` releases)
-- Figuring out where/how to build static files for releases
 
 ### User help / marketing
 
 NOTE: I'm going to stop using users' names in this log
 
 - https://mathesar.freshdesk.com/a/tickets/1279 (follow up)
-- https://mathesar.freshdesk.com/a/tickets/1503 (initial contact)
-- Filling in details of call with AJP in CRM
-- Follow up with AJP
+- working on AWS setups:
+  - Fargate
+  - EC2 + RDS behind a VPN
 
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3245
-- https://github.com/centerofci/mathesar/pull/3198
 
 ### Infrastructure
 
@@ -41,11 +37,102 @@ NOTE: I'm going to stop using users' names in this log
 
 - Keeping an eye on Syften notifications
 
+### DB connections
+
+- work out who's doing what for https://github.com/centerofci/mathesar/issues/3294
+
+## 2023-11-06
+
+### DB connections
+
+- Initial read-through and planning for implementation of https://github.com/centerofci/mathesar/issues/3294
+
+### Installation
+
+- Worked through some details about new installation plan
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3198 (closed; not needed)
+
+## 2023-11-03
+
+- This was a short day; sleep deprivation forced me to end a bit early.
+
+### User help / Marketing
+
+- filled a number of details in the CRM about some user calls
+
+### Documentation
+
+- I got a bit tangled up in a pipeline issue preventing docs from building properly
+- Fixed that issue, merged relevant PR
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3279 (fixed minor issue, merged)
+
+## 2023-11-02
+
+### Meetings
+
+- 1:1 with Anish
+- sync with Kriti
+- DB connections, round 2 with Sean
+
+### DB connections
+
+- prep for meeting with Sean
+- reread the docs about connection types, authentication, etc.
+
+## 2023-11-01
+
+### Meetings
+
+- DB connections meeting with Sean
+- Mathesar weekly meeting
+- retro about user call
+
+### Infrastructure
+
+- Continued work on AWS set up
+
+### User help / marketing
+
+- Experimented with VPN setup and Mathesar, relevant to AJP
+
+### DB connections
+
+- composed and sent massive email about DB connection setup
+
+### Installation
+
+- read through installation docs (old and new versions)
+- read through OpenSuse's OBS docs
+
+## 2023-10-31
+
+### Meetings
+
+- 1:1 with Kriti about AWS setup and other things
+
+### User help / marketing
+
+- worked on AWS setups for Mathesar
+  - set up root account
+  - read docs for account management
+  - set up non-root developer account for myself
+- Caught up a bit in Freshdesk
+
 ## 2023-10-30
 
 ### Infrastructure
 
 - Updated internal Mathesar installation
+
+### Hand off
+
+- catching up on various last-minute info and organization from Dom and Mukesh
 
 ## 2023-10-27
 
