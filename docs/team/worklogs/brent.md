@@ -41,6 +41,12 @@ NOTE: I'm going to stop using users' names in this log
 
 - work out who's doing what for https://github.com/centerofci/mathesar/issues/3294
 
+## 2023-11-07
+
+### PR reviews
+
+- https://github.com/centerofci/mathesar/pull/3295 (merged)
+
 ## 2023-11-06
 
 ### DB connections
@@ -54,6 +60,7 @@ NOTE: I'm going to stop using users' names in this log
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3198 (closed; not needed)
+- https://github.com/centerofci/mathesar/pull/3295 (requested changes)
 
 ## 2023-11-03
 
