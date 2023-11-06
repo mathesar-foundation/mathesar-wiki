@@ -98,6 +98,6 @@
 
 ## Archive
 
-- [September 2023 work logs](./archive/2023-09/rajat.md)
-- [August 2023 work logs](./archive/2023-08/rajat.md)
-- [July 2023 work logs](./archive/2023-07/rajat.md)
+- [September 2023 work logs](./2023-09/rajat.md)
+- [August 2023 work logs](./2023-08/rajat.md)
+- [July 2023 work logs](./2023-07/rajat.md)

@@ -1,7 +1,7 @@
 # Repo administration
 
-**Owner**: Rajat  
-**Helper**: Sean
+**Owner**: Sean  
+**Helper**: _(nobody)_
 
 ## Responsibilities at a Glance
 
@@ -19,31 +19,31 @@ Make sure your notifications setting for all of the Mathesar repositories is set
 Go through each of your notifications for the Mathesar repositories and follow the approach documented below:
 
 - If the notification is about the following, ignore it
-  - Closing an issue
-  - Merging/Closing a PR
-  - Any activity on a draft PR, apart from making it ready for review.
+    - Closing an issue
+    - Merging/Closing a PR
+    - Any activity on a draft PR, apart from making it ready for review.
 - For the rest of the notifications, **if it's about a PR**
-  - Assignee - Make sure it's assigned to someone. You might want to check the recent conversation to validate the assignee.
-  - Label - Make sure it has the correct `status:` label.
-  - Milestone - Make sure it's in the same milestone as the issue it fixes.
-  - Description: Make sure it follows our [PR template](https://github.com/centerofci/mathesar/blob/develop/.github/PULL_REQUEST_TEMPLATE).
-  - Personally follow up with the assignees if there hasn't been any activity on it from the last 3-4 working days.
-    - If it's a core team member, you can reach out via Matrix.
-    - If it's a non-core team member, you can tag and ask for an update using the PR comments.
-  - When a non-core team member does not reply for more than a week, check with the core team reviewer. If she is comfortable with moving the PR forward and merging it then assign the corresponding issue to her otherwise close the PR.
+    - Assignee - Make sure it's assigned to someone. You might want to check the recent conversation to validate the assignee.
+    - Label - Make sure it has the correct `status:` label.
+    - Milestone - Make sure it's in the same milestone as the issue it fixes.
+    - Description: Make sure it follows our [PR template](https://github.com/centerofci/mathesar/blob/develop/.github/PULL_REQUEST_TEMPLATE).
+    - Personally follow up with the assignees if there hasn't been any activity on it from the last 3-4 working days.
+        - If it's a core team member, you can reach out via Matrix.
+        - If it's a non-core team member, you can tag and ask for an update using the PR comments.
+    - When a non-core team member does not reply for more than a week, check with the core team reviewer. If she is comfortable with moving the PR forward and merging it then assign the corresponding issue to her otherwise close the PR.
 - For the rest of the notifications, **if it's about an issue**
-  - Make sure to read the issue description and the recent conversation on it before moving to the next steps.
-  - Make sure the issue is triaged properly as per our guide [here](/team/guide/issue-triage)
+    - Make sure to read the issue description and the recent conversation on it before moving to the next steps.
+    - Make sure the issue is triaged properly as per our guide [here](/team/guide/issue-triage)
     - A mental model for labels:
-      - "difficulty: easy" => "help wanted" & "good first issues"
-      - "difficulty: medium" => "help wanted"
-      - "difficulty: hard" => _no extra labels_
-      - "difficulty: extra hard" => "restricted: maintainers"
+        - "difficulty: easy" => "help wanted" & "good first issues"
+        - "difficulty: medium" => "help wanted"
+        - "difficulty: hard" => _no extra labels_
+        - "difficulty: extra hard" => "restricted: maintainers"
     - Pay extra attention before marking an issue as ready. Do not mark issues as `status: ready` until they have enough details for someone to work on them.
-  - Assignee:
-    - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
-    - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
-  - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
+    - Assignee:
+        - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
+        - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
+    - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
 
 - If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
 

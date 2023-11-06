@@ -4,7 +4,10 @@
 
 ### Soon
 
+- Resolve design questions around "Connections" page
 - Create tickets for remaining DB connections work
+- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Begin work on 0.1.4 release notes
@@ -23,6 +26,53 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-03 Friday
+
+- Update ["New DB Connection" UI specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/)
+- Send email informing others of those specs updates
+- Design discussion about [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Design discussion about DB Connections home page, including writing a "mini spec" for new proposed behavior
+- Create tickets for:
+    - [Connections work addendum](https://github.com/centerofci/mathesar/issues/3294)
+    - [Implement new "connections" model and API](https://github.com/centerofci/mathesar/issues/3291)
+    - [Pass data about the internal DB connection to the front end via common_data](https://github.com/centerofci/mathesar/issues/3292)
+    - [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
+- Send "DB Connections backend work" email
+
+## 2023-11-02 Thursday
+
+- Delete the [mathesar-update-companion](https://github.com/centerofci/mathesar-update-companion/settings)
+- Call with Brent about DB connections UI
+- Add tickets:
+    - [Provide bidirectional navigation between explorations and base tables](https://github.com/centerofci/mathesar/issues/3282)
+    - [Create FK column from new column dialog](https://github.com/centerofci/mathesar/issues/3283)
+    - [Configure search strategy within record selector](https://github.com/centerofci/mathesar/issues/3284)
+    - [Implement the "Add Record" page](https://github.com/centerofci/mathesar/issues/3285)
+    - [Improvements for working with large text fields](https://github.com/centerofci/mathesar/issues/3286)
+    - [Make navigation header behave more consistently](https://github.com/centerofci/mathesar/issues/3287)
+    - [Remove "Records will be repositioned on refresh" message](https://github.com/centerofci/mathesar/issues/3288)
+    - [Record page widget causing overflow](https://github.com/centerofci/mathesar/issues/3289)
+    - [Unable to open nested Record selector for self-referential FK](https://github.com/centerofci/mathesar/issues/3290)
+- Some small repo admin tasks
+- Begin making adjustments to specs in response to meeting with Brent
+- Begin writing up new GitHub tickets for DB connections work
+
+## 2023-11-01 Wednesday
+
+- Review DB Connections Home Page
+- Call with Brent about DB connections UI
+- Re-assign issues and PRs assigned to Rajat
+- Team meeting
+- User interview meeting
+- Some user outreach follow-up work
+- Unassign Dom, Mukesh, and Rajat from all tickets and PRs by manually reviewing each
+- Whittle down queue of [all assigned tickets](https://github.com/orgs/centerofci/projects/1/views/3?groupedBy%5BcolumnId%5D=Assignees) by closing, commenting, and unassigning people
+- Lots of clean up in GitHub issues
+- Open [PR](https://github.com/centerofci/mathesar/pull/3280) to remove mentions of `mathesar-update-companion` from the `.github` directory within the mathesar repo.
+- Open website PR [Update core team](https://github.com/centerofci/mathesar-website/pull/96)
+- Document [repo setup tasks](https://github.com/centerofci/mathesar-internal-crm/issues/2) in [wiki page](https://wiki.mathesar.org/engineering/how-tos/set-up-new-repo/) and add section on removing a repo.
+- Update wiki to document ongoing responsibilities post team-restructuring
 
 ## 2023-10-31 Tuesday
 
