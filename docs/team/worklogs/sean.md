@@ -4,14 +4,10 @@
 
 ### Soon
 
-- Resolve design questions around "Connections" page
-- Create tickets for remaining DB connections work
-- [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
-- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778)
+- Chat with Ghislaine to resolve questions in [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Begin work on 0.1.4 release notes
-- Add my usability issues to GitHub for Ghislaine
 
 ### Backlog
 
@@ -26,6 +22,15 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-06 Monday
+
+- Review and discussion around DB connections page design
+- Discussion about CRM scope
+- Create ticket to spec out [Front end work for new DB connections functionality](https://github.com/centerofci/mathesar/issues/3297)
+- Fix merge conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Open PR to [Disable the stale issues bot](https://github.com/centerofci/mathesar/pull/3298)
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778), adding some commits
 
 ## 2023-11-03 Friday
 
