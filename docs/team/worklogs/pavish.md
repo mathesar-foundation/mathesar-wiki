@@ -10,7 +10,19 @@
 * [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
-## 2023-11-1 Wednesday
+## 2023-11-03 Friday
+* I18n work
+  - Continued figuring out approach to integrate with GH actions
+  - Chat with Brent on separate dev Dockerfile
+  - Chat on cleaning up backend migrations
+* 1-1 with Kriti
+
+## 2023-11-02 Thursday
+* Reviewed UX for DB connections page, responded to Ghislaine's email
+* Continued looking through pending i18n work
+  - Started figuring out ways to make existing approach cleaner
+
+## 2023-11-01 Wednesday
 * Core team meeting
 * User call retrospective meeting
 * Started looking at i18n work to assess what's pending
