@@ -4,7 +4,11 @@
 
 ### Soon
 
-- Chat with Ghislaine to resolve questions in [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Review "Installation improvements 0.1.4" email
+- Reply to [word-wrap discussion](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$kyA5Aq-K1GMsP0B9KFD6J_7ywbw73j-locxmlKf34lw?via=matrix.mathesar.org&via=matrix.org)
+- Reply to [plan2](https://matrix.to/#/!tAbmsVddMiorTltZeX:matrix.mathesar.org/$skkWJEeZxmC4W70-m88NawclIucSsBQNW55zrvDdeIY?via=matrix.mathesar.org&via=matrix.org)
+- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
+- Respond to discussion in [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 - Begin work on 0.1.4 release notes
@@ -22,6 +26,18 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-07 Tuesday
+
+- Some repo admin work, shepherding PRs along
+- Investigate and reply to contributor's comments in [Record page widget causing overflow](https://github.com/centerofci/mathesar/issues/3289)
+- Review [Add metadata about internal db connection in common\_data](https://github.com/centerofci/mathesar/pull/3299)
+- Discussion about docs navigation within [Add resource links to user guide intro page](https://github.com/centerofci/mathesar/pull/3301)
+- Some thinking and planning for "GitHub issues workflow" discussion tomorrow
+- Review planned agenda items for tomorrow's meeting
+- Send thoughts to team on "Product process" for tomorrow's discussion
+- Call with Pavish about i18n work
+- Call with Adam
 
 ## 2023-11-06 Monday
 
