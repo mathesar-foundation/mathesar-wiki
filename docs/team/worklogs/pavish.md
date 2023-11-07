@@ -1,15 +1,24 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
-* I18n work
+* I18n project
 * Help with User interviews and CRM
+* Clean up django migration scripts
+
+# Scheduled for later
 * Figure out E2E testing strategy and user flows
   - Test Cypress as a possible tool to use (Playwright is still my choice at the moment)
   - Come up with a docker setup for E2E tests
   - Come up with user flows
-* [Turn off the Stale Issues Bot](https://github.com/centerofci/mathesar/issues/3142)
 
 # Daily logs
+## 2023-11-06 Monday
+* Raised [PR to simply Dockerfile and dev compose file](https://github.com/centerofci/mathesar/pull/3295)
+* Continued i18n work
+  - Continued figuring out automation workflow 
+  - Chat with Kriti on ordering translations
+* Created an issue to track [cleaning up migration scripts](https://github.com/centerofci/mathesar/issues/3296)
+
 ## 2023-11-03 Friday
 * I18n work
   - Continued figuring out approach to integrate with GH actions
