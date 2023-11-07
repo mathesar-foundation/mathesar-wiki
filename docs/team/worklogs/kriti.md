@@ -33,6 +33,7 @@
 - Follow ups on some administrative stuff
     - Insperity
     - New contract
+- Upgraded work computer OS, some related fixes
 
 ## 2023-11-06 (Mon)
 - Call with Pavish to go over translation workflow
