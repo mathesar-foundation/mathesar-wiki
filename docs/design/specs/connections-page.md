@@ -9,6 +9,12 @@
 - This page should be accessible from the main navigation menu when clicking on the Mathesar logo.
 - Post-installation, this will be the initial onboarding step for users.
 
+## Navigating to the "Database Connections" Page
+
+- Users with a single database connection will be automatically redirected to the "Database Page" for that specific connection upon clicking the Mathesar logo.
+- Users with multiple database connections will be navigated to the "Database Connections" page when selecting the Mathesar logo or the "Database Connections" menu item, allowing them to choose from their available connections.
+- This redirection behavior avoids unnecessary navigation steps for users with only one connection.
+
 ## List of Connections
 
 The list of connections is the main content of the page. It should be a table with the following columns:
