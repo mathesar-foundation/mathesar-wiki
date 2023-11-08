@@ -62,8 +62,8 @@ These channels focus on community building activities.
 | Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/community/mentoring) such as GSoC |
 | Mathesar - Code for Japan | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
-### Core team workflow
-These channels assist the core team in our workflow.
+### Maintainers workflow
+These channels assist the Mathesar maintainers in our workflow.
 
 | Name | Address | Purpose |
 |-|-|-|

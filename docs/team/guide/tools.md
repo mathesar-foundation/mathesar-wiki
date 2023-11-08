@@ -6,7 +6,7 @@ We use GitHub for code, issue tracking, and long form discussions. Please see [W
 ## Gmail
 Everyone has an `@centerofci.org` email address that we use for everything work-related. We don't generally use much email.
 
-`admins [at] mathesar [dot] org` is a Google Group that the core team is on. We use it for shared accounts (e.g. DockerHub). Emails sent to it forward to all of us.
+`admins [at] mathesar [dot] org` is a Google Group that some Mathesar staff members are on. We use it for shared accounts (e.g. DockerHub). Emails sent to it forward to all of us.
 
 ## Loom
 We use Loom to record and store narrated screen recordings for asynchronous communication. It's useful to walk through a feature in a pull request, walk through a new design, or just ask questions.
