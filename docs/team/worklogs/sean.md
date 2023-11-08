@@ -4,20 +4,18 @@
 
 ### Soon
 
-- Review "Installation improvements 0.1.4" email
-- Reply to [word-wrap discussion](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$kyA5Aq-K1GMsP0B9KFD6J_7ywbw73j-locxmlKf34lw?via=matrix.mathesar.org&via=matrix.org)
-- Reply to [plan2](https://matrix.to/#/!tAbmsVddMiorTltZeX:matrix.mathesar.org/$skkWJEeZxmC4W70-m88NawclIucSsBQNW55zrvDdeIY?via=matrix.mathesar.org&via=matrix.org)
-- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 - Respond to discussion in [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Review [Added overflow condition for TableView](https://github.com/centerofci/mathesar/pull/3303)
+- Reply to [word-wrap discussion](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$kyA5Aq-K1GMsP0B9KFD6J_7ywbw73j-locxmlKf34lw?via=matrix.mathesar.org&via=matrix.org)
+- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
-- Begin work on 0.1.4 release notes
 
 ### Backlog
 
+- Begin work on 0.1.4 release notes
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
-- Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
 - Begin "User Communication Guide", as a wiki page
 - Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
 - PR to add docs on running front end in prod mode
@@ -26,6 +24,15 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-08 Wednesday
+
+- Review "Installation improvements 0.1.4" email thread
+- Some user feedback work
+- Team meeting + add notes to wiki
+- Small dead end rabbit hole trying to find a way to query my local Matrix Element in order to get data out of chats
+- Larger dead end rabbit hole trying to configure xremap to do some keyboard shortcut things for personal workflows
+- User call + prep + debrief + notes
 
 ## 2023-11-07 Tuesday
 
