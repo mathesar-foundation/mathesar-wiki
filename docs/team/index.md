@@ -33,7 +33,6 @@ The community team contributes to Mathesar's design and development fairly regul
 | Jinxiao Li | `@jinxiaol:matrix.org` | `@Jinxiao0302` | GSoC '22 contributor |
 | Yurii Palaida | `@jyuart:matrix.org` | `@Jyuart` | GSoC '22 contributor |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
-
 | Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
 | Anshuman Maurya | `@iamezio:matrix.org` | `@IamEzio` | GSoC '23 contributor |
 | Aritra Majumder | `@arima_kun:matrix.org` | `@@Aritra8438` | GSoC '23 contributor |
