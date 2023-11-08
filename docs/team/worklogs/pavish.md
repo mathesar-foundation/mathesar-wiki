@@ -12,6 +12,12 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-07 Tuesday
+* Continued i18n work
+  - Decided to replace typesafe-i18n with a library that supports the [ICU format](https://unicode-org.github.io/icu/userguide/icu/i18n.html)
+    - Raised [a draft PR with svelte-i18n](https://github.com/centerofci/mathesar/pull/3123) and added utilities to handle our existing customizations
+    - Long call with Sean to see if he had any objections as he involved in the i18n project spec
+
 ## 2023-11-06 Monday
 * Raised [PR to simply Dockerfile and dev compose file](https://github.com/centerofci/mathesar/pull/3295)
 * Continued i18n work
