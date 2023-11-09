@@ -3,12 +3,12 @@
 ## TODO
 
 ### Active
-- Team meeting
-- External call
+- 1:1 with Brent
+- 1:1 with Adam
 - Figure out new name for organization
+- Get a handle on user research / help and set up processes / meeting
 
 ### Backlog
-- Get a handle on user research / help and set up processes / meeting
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
 - Read through Sean's Querydown doc
@@ -21,6 +21,23 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-08 (Wed)
+- 6 meetings
+    - Team meeting
+    - Meeting with Brent, Sean, Anish re: DB connections backend work
+    - 2 x meetings with Anish about logistics / feedback
+    - External / user research call
+    - Meeting with Sean to prep for above call
+- Email + Matrix + Slack + GitHub catch up
+    - Various responses + administrative follow ups
+- Logistics for Anish
+    - Contract
+    - New Matrix account
+- Core team / maintainers verbiage updates
+    - Wiki
+    - GitHub team
+    - Email list
 
 ## 2023-11-07 (Tue)
 *Partial day, medical stuff*

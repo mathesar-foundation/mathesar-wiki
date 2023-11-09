@@ -5,14 +5,14 @@
 ### Purpose
 
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.
-- The core team works in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
+- The Mathesar maintainers work in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
 		- Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/team/responsibilities.md).
 - Each project has one and only owner, and various helpers. Helpers are assigned specific responsibilities.
 
 ### Process
 
 - Anyone willing to do the work can propose a project. Please use the [project template](/projects/template).
-- Projects are discussed and approved by the core team (either in meetings or via email).
+- Projects are discussed and approved by the Mathesar maintainers (either in meetings or via email).
 		- The project manager facilitates these discussions.
 - Project prioritization will be based on our product strategy (currently in development).
 

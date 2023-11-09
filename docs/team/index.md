@@ -1,16 +1,24 @@
 # Team
 
-## Core Team
+## Maintainers
 
-The core team maintains the project on a day-to-day basis. 
+The maintainers maintain the project on a day-to-day basis. We previously called this group the "core team".
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
-| Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering (backend) |
+| Anish Umale | `@anish:matrix.mathesar.org` | `@Anish9901` | Engineering |
+| Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
 | Ghislaine Guerin | `@ghislaine:matrix.mathesar.org` | `@ghislaineguerin` | Product, Design |
-| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project lead, Product, Engineering (backend) |
-| Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering (frontend) |
-| Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering (frontend) |
+| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project lead, Product, Engineering |
+| Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
+| Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering |
+
+## Staff members
+These team members also work on Mathesar, but do not maintain the open source project.
+
+| **Name** | **Matrix** | **GitHub** | **Roles** |
+|-|-|-|-|
+| Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Operations, finance, strategy |
 
 ## Community Team
 
@@ -25,7 +33,6 @@ The community team contributes to Mathesar's design and development fairly regul
 | Jinxiao Li | `@jinxiaol:matrix.org` | `@Jinxiao0302` | GSoC '22 contributor |
 | Yurii Palaida | `@jyuart:matrix.org` | `@Jyuart` | GSoC '22 contributor |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
-| Anish Umale | `@anish9901:matrix.org` | `@Anish9901` | GSoC '22 contributor |
 | Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
 | Anshuman Maurya | `@iamezio:matrix.org` | `@IamEzio` | GSoC '23 contributor |
 | Aritra Majumder | `@arima_kun:matrix.org` | `@@Aritra8438` | GSoC '23 contributor |
@@ -40,3 +47,4 @@ The community team contributes to Mathesar's design and development fairly regul
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
 | Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) on the Community Team |
+

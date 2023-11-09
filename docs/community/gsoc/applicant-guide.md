@@ -8,7 +8,7 @@ If you're interested in applying to be a GSoC Contributor for the Mathesar proje
 Some things you should know about Mathesar:
 
 - Mathesar is a fairly new project and we **don't have documentation** aimed at helping new contributors understand our codebase.
-- The core team **doesn't have time** to help each individual contributor understand our codebase or how to solve a particular issue **during the GSoC application process**. We get a lot of applicants, and it would be infeasible to answer everyone's questions in detail.
+- The Mathesar maintainer team **doesn't have time** to help each individual contributor understand our codebase or how to solve a particular issue **during the GSoC application process**. We get a lot of applicants, and it would be infeasible to answer everyone's questions in detail.
 
 Successful applicants will read all available information about Mathesar, be able to understand our codebase without much help, and [ask good questions](https://www.mikeash.com/getting_answers.html) when they do need help. If this doesn't sound like you, Mathesar may not be the right organization for you.
 

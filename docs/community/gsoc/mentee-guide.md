@@ -10,7 +10,7 @@ Program acceptance announcements have been made and you've been selected! Congra
 - Define communication channels and set up a weekly check-in with your mentor.
 - Set up your computer and development environment.
 - Read through our [Team Guide](/team/guide) and familiarize yourself with our workflow and development process.
-- Introduce yourself to [core team](/team/members).
+- Introduce yourself to [the maintainers](/team/members).
 
 ## Program Period
 

@@ -35,7 +35,7 @@ https://wiki.mathesar.org/
 
 ## Contribution process
 
-- Core team members are encouraged to push small commits directly to `master`.
+- Mathesar maintainers are encouraged to push small commits directly to `master`.
 
 - Community contributors may suggest changes by opening PRs.
 
