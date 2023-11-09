@@ -3,9 +3,8 @@
 ## TODO
 
 ### Active
-- 1:1 with Brent
-- 1:1 with Adam
-- Figure out new name for organization
+- Call with Adam and Sam to prep for board meeting
+- Call with Pavish about translation workflow
 - Get a handle on user research / help and set up processes / meeting
 
 ### Backlog
@@ -21,6 +20,17 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-09 (Thu)
+- 1:1 with Brent
+- 1:1 with Adam
+- Decided on name for organization
+- Coordination with Sean and Pavish on next steps for their work
+- Some cleanup of the CCI GitHub account
+- Email + Matrix + Slack + GitHub catch up
+    - Various responses + administrative follow ups
+    - Reviewed the bidirectional navigation design spec + process questions
+    - Follow ups for organizational insurance and fundraising next steps
 
 ## 2023-11-08 (Wed)
 - 6 meetings
