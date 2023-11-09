@@ -12,6 +12,12 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-08 Wednesday
+* Responded to Brent's email on installations
+* Core team meeting
+* Call with Adam
+* Continued i18n work
+
 ## 2023-11-07 Tuesday
 * Continued i18n work
   - Decided to replace typesafe-i18n with a library that supports the [ICU format](https://unicode-org.github.io/icu/userguide/icu/i18n.html)
