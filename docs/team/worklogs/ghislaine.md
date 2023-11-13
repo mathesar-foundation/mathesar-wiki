@@ -1,5 +1,23 @@
 # Ghislaine's work log
 
+## 2023-11-13
+- Design for Bidirectional Navigation
+- Email Discussions
+
+Current Focus:
+- Update list of usability design priorities
+
+## 2023-11-10
+- Team Event
+- Meeting with Adam
+- Prioritize Usability Issues
+- Design for Bidirectional Navigation
+
+## 2023-11-09
+- Design for Bidirectional Navigation
+- Discuss editing record links
+- Meeting with Pavish
+
 ## 2023-11-08
 
 - Usability issues: Bidirectional Navigation
