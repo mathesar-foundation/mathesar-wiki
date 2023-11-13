@@ -3,23 +3,40 @@
 ## TODO
 
 ### Active
-- Call with Adam and Sam to prep for board meeting
-- Call with Pavish about translation workflow
 - Get a handle on user research / help and set up processes / meeting
+- Follow up on installation request
+- Respond to Ghislaine's two emails
+- Follow up with SJ re: next call (after Nov 10)
+- Follow up with Ryan
 
 ### Backlog
+- Lots of administrative and IT stuff for the org transition
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
-- Follow up with Ryan
 - Set up MFA for AWS account
-- Follow up with SJ re: next call (after Nov 10)
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-13 (Mon)
+- Call with Adam and Sam to prep for upcoming board meeting
+- Call with Pavish about translation workflow
+- Updated team about new org name, registered domains
+- Reviewed our 2022 Form 990 (org tax form)
+- Email + Matrix + Slack + GitHub catch up
+    - Scheduled call with Adam / Sam for transition items
+    - Weighed in on [Editing Linked Records · Issue #3242](https://github.com/centerofci/mathesar/issues/3242)
+    - Follow up re: grant we might process
+    - Conference related follow ups with Brent and Pavish
+
+## 2023-11-10 (Fri)
+*Out for Veterans Day*
+
+- Attended team event
 
 ## 2023-11-09 (Thu)
 - 1:1 with Brent
