@@ -12,6 +12,17 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-10 Friday
+* Thought more about processes around translation
+* Researched other open-source products using transifex
+* Community team event
+
+## 2023-11-09 Thursday
+* Cleaned up en & jp svelte translation files, added some more translations
+* Linked GH repo in Transifex and point to the en & jp json files to test it out
+* Responded to review email for 'Bidirectional Navigation Between Table and Explorations'
+* Call with Ghislaine
+
 ## 2023-11-08 Wednesday
 * Responded to Brent's email on installations
 * Core team meeting
