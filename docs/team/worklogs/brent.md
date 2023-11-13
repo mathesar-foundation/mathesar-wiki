@@ -9,8 +9,6 @@
 
 ### User help / marketing
 
-NOTE: I'm going to stop using users' names in this log
-
 - https://mathesar.freshdesk.com/a/tickets/1279 (follow up)
 - working on AWS setups:
   - Fargate
@@ -39,13 +37,74 @@ NOTE: I'm going to stop using users' names in this log
 
 ### DB connections
 
-- work out who's doing what for https://github.com/centerofci/mathesar/issues/3294
+- implementing https://github.com/centerofci/mathesar/issues/3291
+
+
+
+## 2023-11-10
+
+Short day; kids and exhaustion intervened.
+
+### DB connections
+
+- continued work on 3291
+
+### Installation improvements
+
+- continued discussion with Anish
+
+## 2023-11-09
+
+### Meetings
+
+- 1:1 with Anish
+- 1:1 with Kriti
+
+### Installation improvements
+
+- worked out details of plan with Anish
+
+### DB connections
+
+- Started work on https://github.com/centerofci/mathesar/issues/3291
+
+## 2023-11-08
+
+### Meetings
+
+- 1:1 with Ghislaine
+- Team meeting
+
+### Installation improvements
+
+- Working through some details, getting prod docker setup running, noting some rough edges
+
+### DB connections
+
+- Trying to figure out the depth of the problem of doing this the "right way" (lots of dependencies)
 
 ## 2023-11-07
+
+### Meetings
+
+- 1:1 with Adam
 
 ### PR reviews
 
 - https://github.com/centerofci/mathesar/pull/3295 (merged)
+
+### Installation improvements
+
+- Emailed about new plan for this project
+
+### Mentoring
+
+- helped new contributor with a problem, found issue in our docs
+- Submitted https://github.com/centerofci/mathesar/pull/3300/files to fix the issue.
+
+### User help
+
+- Spent more time reading AWS docs related to desired setup
 
 ## 2023-11-06
 
