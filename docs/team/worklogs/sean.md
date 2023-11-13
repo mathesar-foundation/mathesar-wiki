@@ -4,11 +4,8 @@
 
 ### Soon
 
-- Respond to discussion in [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
-- Review [Added overflow condition for TableView](https://github.com/centerofci/mathesar/pull/3303)
-- Reply to [word-wrap discussion](https://matrix.to/#/!UnujZDUxGuMrYdvgTU:matrix.mathesar.org/$kyA5Aq-K1GMsP0B9KFD6J_7ywbw73j-locxmlKf34lw?via=matrix.mathesar.org&via=matrix.org)
-- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
+- Coordinate first monthly meeting of ticket review
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 
 ### Backlog
@@ -24,6 +21,15 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-09 Thursday
+
+- Review Ghislaine's [Bidirectional Navigation Design Spec](https://hackmd.io/@mathesar/ry32xX9ma)
+- Some work on user comms
+- Design discussion within [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Review [Added overflow condition for TableView](https://github.com/centerofci/mathesar/pull/3303)
+- Call with Pavish to go over some small questions
+- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
 
 ## 2023-11-08 Wednesday
 
