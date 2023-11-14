@@ -4,6 +4,8 @@
 
 ### Soon
 
+- Review private feedback from user
+- Discuss design decision process with Kriti
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - Coordinate first monthly meeting of ticket review
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
@@ -21,6 +23,16 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-13 Monday
+
+- Some repo admin work
+- Review Ghislaine's "Prioritized List of Usability Issues"
+- Spend some time researching and learning about Grist
+
+## 2023-11-10 Friday
+
+*(Out for holiday)*
 
 ## 2023-11-09 Thursday
 
