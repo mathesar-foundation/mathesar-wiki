@@ -2,68 +2,48 @@
 
 ## Actively working on
 
-- Backlog/High priority issues:
+- Installation docs.
 
-## 2023-10-19
+## 2023-11-13
 
-- Fixed failing pytest GH action for backend PRs
+- Started working on the compose file ([#3306](https://github.com/centerofci/mathesar/issues/3306))
 
-## 2023-10-18
+## 2023-11-10
 
-- Async product related discussions with Kriti
+- Async with Brent about installation
 
-## 2023-10-17
-
-- Found some bugs and opened issues for the same [#3247](https://github.com/centerofci/mathesar/issues/3247), [#3248](https://github.com/centerofci/mathesar/issues/3232) 
-
-## 2023-10-16
-
-- *Did Nothing*
-
-## 2023-10-13
-
-- *Did Nothing*
-
-## 2023-10-12
-
-- Worked on fixing [#3109](https://github.com/centerofci/mathesar/issues/3109) & opened [#3243](https://github.com/centerofci/mathesar/issues/3243) for the same
-
-## 2023-10-11
-
-- *Did Nothing*
-
-## 2023-10-10
-
-- Sync with pavish about walkthrough of the frontend codebase
-- Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232) & opened [#3239](https://github.com/centerofci/mathesar/pull/3239) for the same
-
-## 2023-10-09
-
-- Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232)
-
-## 2023-10-06
-
-- UX for db connections sync 
-- Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232)
-
-## 2023-10-05
+## 2023-11-09
 
 - Sync with Brent
+- Read our current installation docs
+
+## 2023-11-08
+
+- Setup new Matrix account
 - Weekly team meet
-- Respond on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+- Short sync with Kriti
 
-## 2023-10-04
+## 2023-11-07
 
-- got [#3232](https://github.com/centerofci/mathesar/issues/3232) assigned
+- Installation improvement: Add metadata about internal db connection in common_data ([#3299](https://github.com/centerofci/mathesar/pull/3299))
 
-## 2023-10-03
+## 2023-11-06
 
-- *Sick Day*
+- More reading about psycopg and postgres permissions
 
-## 2023-10-02
+## 2023-11-03
 
-- *Sick Day*
+- Read psycopg docs about connection pooling
 
+## 2023-11-02
+
+- Sync with Brent
+
+## 2023-11-01
+
+- Weekly team meet
+- Sync with Kriti
+- Fixed install commands in docs ([#3279](https://github.com/centerofci/mathesar/pull/3279))
 
 # Archive
- - [September 2023 work logs](/team/worklogs/archive/2023-09/anish/)
+ - [October 2023 work logs](/team/worklogs/archive/2023-10/anish/)
