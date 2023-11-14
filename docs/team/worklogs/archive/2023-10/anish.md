@@ -1,5 +1,39 @@
 # Anish's work log archive: 2023-10
 
+## 2023-10-31
+
+- Reviewed [#3252](https://github.com/centerofci/mathesar/pull/3252)
+
+## 2023-10-30
+
+- Wrote a reply for [#3109](https://github.com/centerofci/mathesar/issues/3109)
+
+## 2023-10-27
+
+- Async discussion with Brent
+- Core team event
+
+## 2023-10-26
+
+- Sync with Brent
+- Discussed about what to work on next
+
+## 2023-10-25
+
+- *Did Nothing*
+
+## 2023-10-24
+
+- *Did Nothing*
+
+## 2023-10-23
+
+- *Did Nothing*
+
+## 2023-10-20
+
+- Follow up with Brent about [#3243](https://github.com/centerofci/mathesar/pull/3243) not getting merged due to the CI pipeline.
+
 ## 2023-10-19
 
 - Fixed failing pytest GH action for backend PRs
