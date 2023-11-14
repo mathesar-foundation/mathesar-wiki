@@ -23,7 +23,8 @@
 - Reviewed Pavish's pgconf talk proposal
 - Call with Sean re: team workflow & briefly benefits
 - Email + Matrix + Slack + GitHub catch up
-    - Lots of follow ups and conversation
+    - Discussed vacation policies with Anish
+    - Lots of other follow ups and conversation
 - Board meeting prep
     - Followed up with lawyer
     - Created detailed agenda and minutes
