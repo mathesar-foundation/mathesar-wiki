@@ -3,8 +3,6 @@
 ## TODO
 
 ### Active
-- Prep for Wednesday's board meeting
-- Call with Sean re: GitHub workflow
 - Get a handle on user research / help and set up processes / meeting
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
@@ -20,6 +18,20 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-14 (Tue)
+- Reviewed Pavish's pgconf talk proposal
+- Call with Sean re: team workflow & briefly benefits
+- Email + Matrix + Slack + GitHub catch up
+    - Lots of follow ups and conversation
+- Board meeting prep
+    - Followed up with lawyer
+    - Created detailed agenda and minutes
+        - Shared with other board members
+    - Incorporated new updates from lawyer into agenda
+- Weekly meeting prep
+    - Cancelled meeting
+    - Sent email for async check-in
 
 ## 2023-11-13 (Mon)
 - Call with Adam and Sam to prep for upcoming board meeting
