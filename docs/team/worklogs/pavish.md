@@ -12,6 +12,17 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-14 Tuesday
+* Prepared proposal for PGConf India 2024
+  - Got it reviewed from Kriti
+  - Submitted proposal
+* Spent some time thinking about permissions and workspaces
+
+## 2023-11-13 Monday
+* Call with Kriti on end-to-end workflow for translations
+* Continued work on cleaning up [Replace typesafe-i18n with svelte-i18n PR](https://github.com/centerofci/mathesar/pull/3302)
+* Did some searches for conferences we could attend
+
 ## 2023-11-10 Friday
 * Thought more about processes around translation
 * Researched other open-source products using transifex
