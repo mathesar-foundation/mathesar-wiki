@@ -19,6 +19,15 @@
 - General cleanup of GSuite accounts and groups
 - 2024 budget
 
+## 2023-11-15 (Wed)
+- Email + Matrix + Slack + GitHub catch up
+    - Followed up on design thread
+    - Reviewed email from Ghislaine to user
+    - Followed up on weekly check-in
+    - Read through new CRM entries
+- CCI board meeting
+- Followed up with lawyer about name change issues
+
 ## 2023-11-14 (Tue)
 - Cancelled Loom account
 - Reviewed Pavish's pgconf talk proposal
