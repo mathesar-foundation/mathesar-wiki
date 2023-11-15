@@ -27,6 +27,7 @@
     - Read through new CRM entries
 - CCI board meeting
 - Followed up with lawyer about name change issues
+- Call with Sean about GitHub workflow
 
 ## 2023-11-14 (Tue)
 - Cancelled Loom account
