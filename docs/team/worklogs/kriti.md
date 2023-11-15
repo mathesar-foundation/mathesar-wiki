@@ -3,23 +3,59 @@
 ## TODO
 
 ### Active
-- Call with Adam and Sam to prep for board meeting
-- Call with Pavish about translation workflow
 - Get a handle on user research / help and set up processes / meeting
-
-### Backlog
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
+
+### Backlog
+- Lots of administrative and IT stuff for the org transition
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
-- Follow up with Ryan
 - Set up MFA for AWS account
-- Follow up with SJ re: next call (after Nov 10)
+- Follow up with Ryan
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-14 (Tue)
+- Cancelled Loom account
+- Reviewed Pavish's pgconf talk proposal
+- Call with Sean re: team workflow & briefly benefits
+- Email + Matrix + Slack + GitHub catch up
+    - Discussed vacation policies with Anish
+    - Lots of other follow ups and conversation
+    - Sorted out SavvyCal billing issue
+- Board meeting prep
+    - Followed up with lawyer
+    - Created detailed agenda and minutes
+        - Shared with other board members
+    - Incorporated new updates from lawyer into agenda
+- Weekly meeting prep
+    - Cancelled meeting
+    - Sent email for async check-in
+
+## 2023-11-13 (Mon)
+- Call with Adam and Sam to prep for upcoming board meeting
+- Call with Pavish about translation workflow
+- Updated team about new org name, registered domains
+- Reviewed our 2022 Form 990 (org tax form)
+- Email + Matrix + Slack + GitHub catch up
+    - Scheduled call with Adam / Sam for transition items
+    - Weighed in on [Editing Linked Records · Issue #3242](https://github.com/centerofci/mathesar/issues/3242)
+    - Follow up re: grant we might process
+    - Conference related follow ups with Brent and Pavish
+- Responded to Ghislaine's two emails re: design work
+- Followed up on new installation request
+- Followed up with SJ re: next call
+- Reviewed team work logs
+- Lots of async back and forth about board meeting prep and upcoming tax deadline
+
+## 2023-11-10 (Fri)
+*Out for Veterans Day*
+
+- Attended team event
 
 ## 2023-11-09 (Thu)
 - 1:1 with Brent

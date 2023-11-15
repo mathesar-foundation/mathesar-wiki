@@ -4,8 +4,10 @@
 
 ### Soon
 
-- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
+- Review private feedback from user
+- Continue planning GitHub issues process improvements
 - Coordinate first monthly meeting of ticket review
+- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
 
 ### Backlog
@@ -21,6 +23,25 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-14 Tuesday
+
+_(Shorter day due to some kid issues)_
+
+- Install adjustable monitor arm on my desk
+- Research and triage [Linked record removal not being reflected after save](https://github.com/centerofci/mathesar/issues/3308)
+- Research and weigh in on [Able to order on an unorderable field](https://github.com/centerofci/mathesar/issues/3066)
+- Call with Kriti to discuss GitHub issues process
+
+## 2023-11-13 Monday
+
+- Some repo admin work
+- Review Ghislaine's "Prioritized List of Usability Issues"
+- Spend some time researching and learning about Grist
+
+## 2023-11-10 Friday
+
+*(Out for holiday)*
 
 ## 2023-11-09 Thursday
 
