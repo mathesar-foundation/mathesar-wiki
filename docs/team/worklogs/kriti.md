@@ -3,12 +3,13 @@
 ## TODO
 
 ### Active
+- Call with Adam and Sam about administrative stuff
+- Lots of administrative and IT stuff for the org transition
+
+### Backlog
 - Get a handle on user research / help and set up processes / meeting
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
-
-### Backlog
-- Lots of administrative and IT stuff for the org transition
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
 - Set up MFA for AWS account
@@ -18,6 +19,14 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-16 (Thu)
+- Email + Matrix + Slack + GitHub catch up
+    - Followed up on some pending GitHub issues
+    - Followed up on org insurance todo
+- Design call to talk through bidirectional navigation issue
+- 1:1 with Sean
+- Organized todos related to administrative / org transition stuff
 
 ## 2023-11-15 (Wed)
 - Email + Matrix + Slack + GitHub catch up
