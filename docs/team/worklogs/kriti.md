@@ -27,6 +27,7 @@
 - Design call to talk through bidirectional navigation issue
 - 1:1 with Sean
 - Organized todos related to administrative / org transition stuff
+- Reviewed everyone's work logs and talked to a couple people about updating the work log format
 
 ## 2023-11-15 (Wed)
 - Email + Matrix + Slack + GitHub catch up
