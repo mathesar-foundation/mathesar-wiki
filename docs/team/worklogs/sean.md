@@ -4,7 +4,10 @@
 
 ### Soon
 
-- Review private feedback from user
+- Give team a heads up about travel plans
+- Add front end changes to [Connections API](https://github.com/centerofci/mathesar/pull/3309)
+- Review [Replace typesafe-i18n with svelte-i18n](https://github.com/centerofci/mathesar/pull/3302)
+- Review [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
 - Continue planning GitHub issues process improvements
 - Coordinate first monthly meeting of ticket review
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
@@ -23,6 +26,14 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-15 Wednesday
+
+_(Shorter day due to some health issues)_
+
+- Some user comms work
+- Some work on GH ticket process, including a call with Kriti
+- Start work on DB Connection changes
 
 ## 2023-11-14 Tuesday
 
