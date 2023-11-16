@@ -3,7 +3,7 @@
 ## TODO
 
 ### Active
-- Call with Adam and Sam about administrative stuff
+
 - Lots of administrative and IT stuff for the org transition
 
 ### Backlog
@@ -24,10 +24,16 @@
 - Email + Matrix + Slack + GitHub catch up
     - Followed up on some pending GitHub issues
     - Followed up on org insurance todo
+    - Reached out to publicist
+    - Other responses and conversations
 - Design call to talk through bidirectional navigation issue
 - 1:1 with Sean
-- Organized todos related to administrative / org transition stuff
 - Reviewed everyone's work logs and talked to a couple people about updating the work log format
+- Prepped a list of open questions for administrative / org transition stuff
+- Call with Adam and Sam about administrative stuff
+- Organized todos related to administrative / org transition stuff
+- Signed new org insurance
+- Sent out email about new invoicing process
 
 ## 2023-11-15 (Wed)
 - Email + Matrix + Slack + GitHub catch up
