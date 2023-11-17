@@ -12,6 +12,15 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-16 Thursday
+* Pondered a bit more on permissions and workspaces
+* Design sessions call
+
+## 2023-11-15 Wednesday
+* Call with Brent
+* Responded to work check-in email
+* Got [Replace typesafe-i18n with svelte-i18n PR](https://github.com/centerofci/mathesar/pull/3302) ready for review
+
 ## 2023-11-14 Tuesday
 * Prepared proposal for PGConf India 2024
   - Got it reviewed from Kriti
