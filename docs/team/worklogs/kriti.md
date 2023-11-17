@@ -3,12 +3,13 @@
 ## TODO
 
 ### Active
+
+- Lots of administrative and IT stuff for the org transition
+
+### Backlog
 - Get a handle on user research / help and set up processes / meeting
 - Figure out next conversations to have with the team
 - Analyze existing data for product strategy
-
-### Backlog
-- Lots of administrative and IT stuff for the org transition
 - Read through Sean's Querydown doc
 - Reach out to sponsors for user interviews
 - Set up MFA for AWS account
@@ -18,6 +19,31 @@
 - Replace Ondrej's accounts as IT admin
 - General cleanup of GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-16 (Thu)
+- Email + Matrix + Slack + GitHub catch up
+    - Followed up on some pending GitHub issues
+    - Followed up on org insurance todo
+    - Reached out to publicist
+    - Other responses and conversations
+- Design call to talk through bidirectional navigation issue
+- 1:1 with Sean
+- Reviewed everyone's work logs and talked to a couple people about updating the work log format
+- Prepped a list of open questions for administrative / org transition stuff
+- Call with Adam and Sam about administrative stuff
+- Organized todos related to administrative / org transition stuff
+- Signed new org insurance
+- Sent out email about new invoicing process
+
+## 2023-11-15 (Wed)
+- Email + Matrix + Slack + GitHub catch up
+    - Followed up on design thread
+    - Reviewed email from Ghislaine to user
+    - Followed up on weekly check-in
+    - Read through new CRM entries
+- CCI board meeting
+- Followed up with lawyer about name change issues
+- Call with Sean about GitHub workflow
 
 ## 2023-11-14 (Tue)
 - Cancelled Loom account

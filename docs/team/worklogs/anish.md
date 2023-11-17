@@ -4,6 +4,15 @@
 
 - Installation docs.
 
+## 2023-11-15
+
+- Reviewed ([#3200](https://github.com/centerofci/mathesar/pull/3200)).
+- Working on ([#3306](https://github.com/centerofci/mathesar/issues/3306))
+
+## 2023-11-14
+
+- Working on ([#3306](https://github.com/centerofci/mathesar/issues/3306))
+
 ## 2023-11-13
 
 - Started working on the compose file ([#3306](https://github.com/centerofci/mathesar/issues/3306))

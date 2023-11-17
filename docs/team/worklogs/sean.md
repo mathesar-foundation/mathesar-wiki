@@ -4,11 +4,21 @@
 
 ### Soon
 
-- Review private feedback from user
-- Continue planning GitHub issues process improvements
+- Ask team about whisper idea
+- Add front end changes to [Connections API](https://github.com/centerofci/mathesar/pull/3309)
+- Review [Replace typesafe-i18n with svelte-i18n](https://github.com/centerofci/mathesar/pull/3302)
+- Review [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
 - Coordinate first monthly meeting of ticket review
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
+- Label these tickets as "non-code task":
+    - [Appear on Supabase's integration website](https://github.com/centerofci/mathesar/issues/3141)
+    - [Host installation related files on our own domain](https://github.com/centerofci/mathesar/issues/2613)
+    - [Configure code formatting for Markdown within docs and wiki sites](https://github.com/centerofci/mathesar/issues/3194)
+    - [Automate deploying internal Mathesar](https://github.com/centerofci/mathesar/issues/3076)
+    - [Set up load balancer and additional servers in GCP](https://github.com/centerofci/mathesar/issues/2543)
+    - [Demo load-balancer breaks sessions by moving users between servers](https://github.com/centerofci/mathesar/issues/2595)
+    - [Automate and document Mathesar release process](https://github.com/centerofci/mathesar/issues/228)
 
 ### Backlog
 
@@ -23,6 +33,22 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-16 Thursday
+
+- 1:1 with Brent
+- Give team a heads up about travel plans
+- Design meeting
+- 1:1 with Kriti
+- [Propose](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/JXMBCsOmKao) changes to GitHub tickets workflow
+
+## 2023-11-15 Wednesday
+
+_(Shorter day due to some health issues)_
+
+- Some user comms work
+- Some work on GH ticket process, including a call with Kriti
+- Start work on DB Connection changes
 
 ## 2023-11-14 Tuesday
 

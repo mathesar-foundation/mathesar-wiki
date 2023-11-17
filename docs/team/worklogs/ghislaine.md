@@ -1,5 +1,20 @@
 # Ghislaine's work log
 
+## 2023-11-16
+
+- Design Session
+- Design work
+- CRM Updates and setting up meeting
+- Research and design for Bulk Association of records
+
+Currently working on:
+- Design for Bidirectional Navigation
+- Design for Bulk Association: I've already explored alternatives, now writing a short description of each to share for feedback.
+
+## 2023-11-14
+
+## 2023-11-15
+
 ## 2023-11-13
 - Design for Bidirectional Navigation
 - Email Discussions
