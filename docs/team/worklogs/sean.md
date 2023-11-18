@@ -4,13 +4,14 @@
 
 ### Soon
 
-- Ask team about whisper idea
-- Add front end changes to [Connections API](https://github.com/centerofci/mathesar/pull/3309)
-- Review [Replace typesafe-i18n with svelte-i18n](https://github.com/centerofci/mathesar/pull/3302)
+- Flesh out [queue of approval tickets](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow) to discuss
+
 - Review [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
 - Coordinate first monthly meeting of ticket review
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
-- [Fill out a new W4 form](https://support.gusto.com/article/106622106100000/View-and-update-Form-W-4-withholding-elections)
+
+### Backlog
+
 - Label these tickets as "non-code task":
     - [Appear on Supabase's integration website](https://github.com/centerofci/mathesar/issues/3141)
     - [Host installation related files on our own domain](https://github.com/centerofci/mathesar/issues/2613)
@@ -19,9 +20,9 @@
     - [Set up load balancer and additional servers in GCP](https://github.com/centerofci/mathesar/issues/2543)
     - [Demo load-balancer breaks sessions by moving users between servers](https://github.com/centerofci/mathesar/issues/2595)
     - [Automate and document Mathesar release process](https://github.com/centerofci/mathesar/issues/228)
-
-### Backlog
-
+- Research [auto-adding items to GH project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically)
+- Fill out a new W4 form
+- Ask team about whisper idea
 - Begin work on 0.1.4 release notes
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
@@ -33,6 +34,16 @@
 
 --------------------------------------------------------------------------------
 
+
+## 2023-11-17 Friday
+
+- Add more design specs to [Provide bidirectional navigation between explorations and base tables](https://github.com/centerofci/mathesar/issues/3282) in order to describe behavior
+- Respond to a number of community contributor comments in GitHub
+- Quick chat with Pavish about handoff of DB connections
+- Improve clarity of specs within [Front end work to re-organize DB connections](https://github.com/centerofci/mathesar/issues/3297) and splinter some work off into a [separate ticket](https://github.com/centerofci/mathesar/issues/3311), for easier hand-off to Pavish
+- Review/merge [Replace typesafe-i18n with svelte-i18n](https://github.com/centerofci/mathesar/pull/3302)
+- Set up recurring monthly "ticket approval meetings"
+- Comb through lots of "draft" tickets to categorize them in preparation for December's monthly product approval meeting. Also comment and close a number of tickets along the way.
 
 ## 2023-11-16 Thursday
 
