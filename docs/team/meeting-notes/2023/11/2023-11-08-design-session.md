@@ -1,6 +1,13 @@
 # 2023-11-17 Design Session
 
-## Bidirectional Navigation Design and the Shortcut Menu
+## Attendees
+
+- Pavish
+- Kriti
+- Ghislaine
+- Sean
+
+## Topic: Bidirectional Navigation Design & Shortcut Menu
 
 ### Design Question
 
