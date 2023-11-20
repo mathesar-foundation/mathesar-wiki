@@ -1,5 +1,20 @@
 # Ghislaine's work log
 
+## 2023-11-18
+- One-on-one with Kriti
+- Setup new email account 
+
+Currently working on:
+- Bulk association of records
+
+## 2023-11-17
+Short day since I wasn't feeling great.
+- Bulk association research: Looked at how other products handle many-to-many mapping
+- Add designs for for Bidirectional Navigation to the Github issue / finalize meeting notes
+
+Currently working on:
+- Bulk association of records
+
 ## 2023-11-16
 
 - Design Session
