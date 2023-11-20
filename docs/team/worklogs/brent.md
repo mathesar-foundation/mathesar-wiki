@@ -16,11 +16,17 @@
 
 ### PR reviews
 
-- https://github.com/centerofci/mathesar/pull/3245
+- https://github.com/mathesar-foundation/mathesar/pull/3245
+- https://github.com/mathesar-foundation/mathesar/pull/3062
+- 7 other API docs PR reviews (getting big picture)
 
 ### Infrastructure
 
 - Update internal Mathesar installation
+
+### Installation
+
+- Working through big-picture reorg of docs so we can parallelize
 
 ### Preexisting DB compatibility
 
@@ -37,9 +43,73 @@
 
 ### DB connections
 
-- implementing https://github.com/centerofci/mathesar/issues/3291
+- working on [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
 
+## 2023-11-17
 
+### Meetings
+
+- 1:1 with Varsha
+
+### API documentation
+
+- Went through copious PRs from Varsha
+- Read through DRF Spectacular documentation
+
+### DB Connections
+
+- Read through some RPC framework docs to see if they're worth getting into for 
+
+## 2023-11-16
+
+### Meetings
+
+- 1:1 with Anish
+- 1:1 with Sean
+
+### DB Connections
+
+- Touch ups on PR:  [Connections API](https://github.com/mathesar-foundation/mathesar/pull/3309)
+- Started on issue:  [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
+
+### Infrastructure
+
+- Checked on internal Mathesar installation
+
+### Installation
+
+- Caught up on current state of changes with Anish
+
+## 2023-11-15
+
+### Meetings
+
+- 1:1 with Pavish
+
+### DB Connections
+
+- Submitted PR: [Connections API](https://github.com/mathesar-foundation/mathesar/pull/3309), fixes [Implement new "connections" model and API](https://github.com/mathesar-foundation/mathesar/issues/3291).
+
+### Marketing
+
+- Cleared out Syften notifications
+
+### Infrastructure
+
+- Checked on status of internal Mathesar installation; no update needed.
+- Read some AWS docs while tests were running.
+
+## 2023-11-14
+
+Avoided anything but coding and reading docs today.
+
+### DB Connections
+
+- Continued work on [Implement new "connections" model and API](https://github.com/mathesar-foundation/mathesar/issues/3291).
+  - Coding (obviously)
+  - Tried a number of different ways to make the changes clearer, while keeping them superficial.
+
+## 2023-11-13
 
 ## 2023-11-10
 
