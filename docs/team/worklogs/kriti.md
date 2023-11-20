@@ -20,6 +20,30 @@
 - General cleanup of GSuite accounts and groups
 - 2024 budget
 
+## 2023-11-17 (Fri) & 2023-11-20 (Mon)
+- Mostly a blur of administrative and IT changes for the organization
+    - Updated GitHub organization URL + related changes
+    - Updated Google Workspace domain, logo, name, etc. + related changes
+    - Updated a LOT of other sites
+    - Updated my email on a lot of sites
+    - Took over Sam's accounts on a LOT of sites
+    - Lots of chatting with support, etc.
+    - Cleaned up older CCI accounts
+    - Talked to a bunch of different people about their Slack accounts, etc.
+    - Transferred CCI Slack ownership to Sam
+    - Lots more small things
+- 1:1 with Pavish
+- 1:1 with Brent
+- 1:1 with Ghislaine
+- Call with Ian
+- Call with Sam
+- Email + Matrix + Slack + GitHub catch up + various follow ups
+    - Grant acknowledgement letter
+    - CCI website changes discussion
+    - Design discussion for bidirectional navigation
+
+I'm sure there's a bunch of stuff I'm not remembering, but I don't think it's worth putting all that into the work log.
+
 ## 2023-11-16 (Thu)
 - Email + Matrix + Slack + GitHub catch up
     - Followed up on some pending GitHub issues
