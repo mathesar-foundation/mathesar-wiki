@@ -4,10 +4,7 @@
 
 ### Soon
 
-- Flesh out [queue of approval tickets](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow) to discuss
-
 - Review [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
-- Coordinate first monthly meeting of ticket review
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 
 ### Backlog
@@ -33,6 +30,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+
+## 2023-11-19 Sunday
+
+_(A small amount of work to offset expected gaps in the coming week)_
+
+- Finish combing through draft tickets and categorizing them
+- Prepare [queue of tickets to discuss at December's product approval meeting](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow)
 
 
 ## 2023-11-17 Friday
