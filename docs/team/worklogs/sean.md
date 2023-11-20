@@ -4,19 +4,11 @@
 
 ### Soon
 
-- Review [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
-- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
+- [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 
 ### Backlog
 
-- Label these tickets as "non-code task":
-    - [Appear on Supabase's integration website](https://github.com/centerofci/mathesar/issues/3141)
-    - [Host installation related files on our own domain](https://github.com/centerofci/mathesar/issues/2613)
-    - [Configure code formatting for Markdown within docs and wiki sites](https://github.com/centerofci/mathesar/issues/3194)
-    - [Automate deploying internal Mathesar](https://github.com/centerofci/mathesar/issues/3076)
-    - [Set up load balancer and additional servers in GCP](https://github.com/centerofci/mathesar/issues/2543)
-    - [Demo load-balancer breaks sessions by moving users between servers](https://github.com/centerofci/mathesar/issues/2595)
-    - [Automate and document Mathesar release process](https://github.com/centerofci/mathesar/issues/228)
+- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - Research [auto-adding items to GH project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically)
 - Fill out a new W4 form
 - Ask team about whisper idea
@@ -31,6 +23,14 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-11-20 Monday
+
+_(Slightly shorter day due to kid stuff)_
+
+- Review/merge [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
+- A small amount of user comms
+- Re-review "Usability Issues" email thread and HackMD doc
+- Begin scaffolding [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 
 ## 2023-11-19 Sunday
 
@@ -38,7 +38,6 @@ _(A small amount of work to offset expected gaps in the coming week)_
 
 - Finish combing through draft tickets and categorizing them
 - Prepare [queue of tickets to discuss at December's product approval meeting](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow)
-
 
 ## 2023-11-17 Friday
 
