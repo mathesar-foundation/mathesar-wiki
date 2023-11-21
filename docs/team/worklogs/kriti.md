@@ -3,8 +3,10 @@
 ## TODO
 
 ### Active
-
-- Lots of administrative and IT stuff for the org transition
+- Prep for user call
+- Call with user
+- Prep for tomorrow's weekly meeting
+- Ongoing: lots of administrative and IT stuff for the org transition
 
 ### Backlog
 - Get a handle on user research / help and set up processes / meeting
@@ -17,8 +19,26 @@
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
 - Replace Ondrej's accounts as IT admin
-- General cleanup of GSuite accounts and groups
+- General cleanup of GCP projects / GSuite accounts and groups
 - 2024 budget
+
+## 2023-11-21 (Tue)
+
+- More administrative and IT changes for org transition
+    - Follow ups for email changes
+    - MassTax account issues
+    - Updated Freshdesk account and emails
+    - Renamed Twitter account name
+    - Followed up on a broken CCI website
+    - Updated GCP IAM group names
+    - Followed up with documentation for bank account access
+    - Accountant follow up
+    - Domain name WHOIS / contact info updates
+- Call with Adam to catch up on ongoing admin stuff
+- Scheduled 2024 board meetings
+- Email + Matrix + Slack + GitHub catch up + responses
+    - Reviewed new design update
+    - Responded to chat email
 
 ## 2023-11-17 (Fri) & 2023-11-20 (Mon)
 - Mostly a blur of administrative and IT changes for the organization
