@@ -3,9 +3,9 @@
 ## TODO
 
 ### Active
-- Prep for user call
-- Call with user
-- Prep for tomorrow's weekly meeting
+- Weekly meeting
+- Orientation / onboarding meeting with Insperity
+- 1:1 with Adam
 - Ongoing: lots of administrative and IT stuff for the org transition
 
 ### Backlog
@@ -23,7 +23,6 @@
 - 2024 budget
 
 ## 2023-11-21 (Tue)
-
 - More administrative and IT changes for org transition
     - Follow ups for email changes
     - MassTax account issues
@@ -34,11 +33,18 @@
     - Followed up with documentation for bank account access
     - Accountant follow up
     - Domain name WHOIS / contact info updates
+    - Signed and sent a whole bunch of documents for bank / brokerage account
 - Call with Adam to catch up on ongoing admin stuff
 - Scheduled 2024 board meetings
-- Email + Matrix + Slack + GitHub catch up + responses
+- Email + Matrix + Slack + GitHub catch up
     - Reviewed new design update
     - Responded to chat email
+    - Reviewed and responded to design issue prioritization email
+    - plus a lot more emails and responses
+- Re-verified GitHub Pages domain
+- Prep call with Sean for user call
+- Call with user
+- Prepped agenda for tomorrow's weekly meeting
 
 ## 2023-11-17 (Fri) & 2023-11-20 (Mon)
 - Mostly a blur of administrative and IT changes for the organization
