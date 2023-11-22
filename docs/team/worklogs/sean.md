@@ -4,6 +4,7 @@
 
 ### Soon
 
+- Clean up notes from Tuesday's user call, and add to CRM
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 
 ### Backlog
@@ -22,6 +23,13 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-11-21 Tuesday
+
+- Weigh in on chat system email thread
+- Continued progress on New DB connection form, including a [draft PR](https://github.com/mathesar-foundation/mathesar/pull/3319)
+- User call
+- Preliminary review of [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316#pullrequestreview-1743475745)
 
 ## 2023-11-20 Monday
 
