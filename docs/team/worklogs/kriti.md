@@ -11,6 +11,7 @@
 - Team event
 - Call with PR person about announcing transition
 - Send gift card to user who we talked to last week
+- Consolidate to-do lists across work log / various Google Docs / personal tools / notebook
 
 ### Soon
 - Set up product strategy call with team
