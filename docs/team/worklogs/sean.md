@@ -4,8 +4,9 @@
 
 ### Soon
 
-- Clean up notes from Tuesday's user call, and add to CRM
+- Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
+- Finish reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
 
 ### Backlog
 
@@ -23,6 +24,12 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-11-22 Wednesday
+
+_(Very short day due to trip prep and lack of childcare)_
+
+- Team meeting
 
 ## 2023-11-21 Tuesday
 
