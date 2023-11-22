@@ -1,9 +1,10 @@
 # Pavish's work log
 
 # Working on (Ordered based on priority):
+* DB connections work
 * I18n project
-* Help with User interviews and CRM
 * Clean up django migration scripts
+* Help with User interviews and CRM
 
 # Scheduled for later
 * Figure out E2E testing strategy and user flows
@@ -12,6 +13,18 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-20 Monday & 2023-11-21 Tuesday
+* I was out sick
+
+## 2023-11-17 Friday
+* Responded to [orderable field issue](https://github.com/centerofci/mathesar/issues/3066)
+* Responded to [Add focus indications issue](https://github.com/centerofci/mathesar/issues/2837)
+* Renewed certificate for staging.mathesar.org
+* Added commits to update roles in [website update PR](https://github.com/mathesar-foundation/mathesar-website/pull/97)
+* Responded to mail for visiting researchers from Henkaku center
+* Chat & call with Sean on me picking up some of the DB Connections work
+* 1:1 with Kriti
+
 ## 2023-11-16 Thursday
 * Pondered a bit more on permissions and workspaces
 * Design sessions call
