@@ -2,25 +2,42 @@
 
 ## TODO
 
-### Active
-- Weekly meeting
-- Orientation / onboarding meeting with Insperity
-- 1:1 with Adam
-- Ongoing: lots of administrative and IT stuff for the org transition
+*Note: I'm off until Monday, Nov 27*
 
-### Backlog
-- Get a handle on user research / help and set up processes / meeting
-- Figure out next conversations to have with the team
-- Analyze existing data for product strategy
-- Read through Sean's Querydown doc
-- Reach out to sponsors for user interviews
+### Active
+- Post weekly meeting notees on wiki
+- Continue working through administrative and IT stuff for the org transition
+- Insperity onboarding
+- Team event
+- Call with PR person about announcing transition
+- Send gift card to user who we talked to last week
+
+### Soon
+- Set up product strategy call with team
+- Set up community growth call with team
 - Set up MFA for AWS account
 - Follow up with Ryan
+- Read through Sean's Querydown doc
+
+### Deferred
+- Reach out to sponsors for user interviews
 - Start planning out fundraising conversations
 - Consider reaching out to How to Raise Money cohort for fundraising brainstorming
-- Replace Ondrej's accounts as IT admin
-- General cleanup of GCP projects / GSuite accounts and groups
-- 2024 budget
+- General cleanup of GCP projects / Google Workspace accounts and groups
+
+## 2023-11-22 (Wed)
+- Weekly team meeting
+- Orientation / onboarding meeting with Insperity
+- 1:1 with Adam
+- Lots of administrative and IT stuff for the org transition, including (but not limited to)
+    - Signed up for corporate bank account 
+    - Reconciled invoices and receipts across multiple folders
+        - Google Drive permissions are awful
+    - Various wire transfer related issues
+    - Quick call with Sean to go over payroll and benefits next steps
+    - Back and forth with Sam on various permissions things
+    - Changing more account emails
+- Email + Matrix + Slack + GitHub catch up
 
 ## 2023-11-21 (Tue)
 - More administrative and IT changes for org transition
