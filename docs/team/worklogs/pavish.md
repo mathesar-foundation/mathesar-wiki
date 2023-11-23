@@ -1,18 +1,26 @@
 # Pavish's work log
 
-# Working on (Ordered based on priority):
+# Working on:
 * DB connections work
 * I18n project
-* Clean up django migration scripts
-* Help with User interviews and CRM
 
-# Scheduled for later
+# Soon
+* Set up calls for Product "big picture" meetings
+* Clean up django migration scripts
+
+# Later
 * Figure out E2E testing strategy and user flows
   - Test Cypress as a possible tool to use (Playwright is still my choice at the moment)
   - Come up with a docker setup for E2E tests
   - Come up with user flows
 
 # Daily logs
+## 2023-11-22 Wednesday
+* Caught up on emails and chats, updated email address to mathesar.org domain
+* Raised [PR for django translations and instructions for maintainers](https://github.com/mathesar-foundation/mathesar/pull/3321)
+* Weekly team meeting
+* Took a look at [Connections API PR](https://github.com/mathesar-foundation/mathesar/pull/3309)
+
 ## 2023-11-20 Monday & 2023-11-21 Tuesday
 * I was out sick
 
