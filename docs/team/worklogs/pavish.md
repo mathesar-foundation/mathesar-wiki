@@ -15,6 +15,11 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-23 Thursday
+* Went through [Connections PR](https://github.com/mathesar-foundation/mathesar/pull/3309), and fixed breaking frontend changes
+* Call with Ghislaine
+* Added Transifex integration config and more notes in the [Django i18n PR](https://github.com/mathesar-foundation/mathesar/pull/3321)
+
 ## 2023-11-22 Wednesday
 * Caught up on emails and chats, updated email address to mathesar.org domain
 * Raised [PR for django translations and instructions for maintainers](https://github.com/mathesar-foundation/mathesar/pull/3321)
