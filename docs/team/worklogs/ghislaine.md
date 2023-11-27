@@ -1,6 +1,33 @@
 # Ghislaine's work log
 
-## 2023-11-18
+## 2023-11-24
+- Wireframes for design session
+- Prepare notes for design session
+
+Currently working on:
+- Bulk association of records
+
+## 2023-11-23
+- Call w/ Pavish
+- Discuss Bulk association of records
+- Write notes/ prepare design session
+ 
+Currently working on:
+- Bulk association of records
+
+## 2023-11-22
+- Call w/ Brent
+- Discuss Bulk association of records
+- Write notes/ prepare design session
+  
+## 2023-11-21
+- Check-in with Kriti
+- Design for Bulk association of records
+
+Currently working on:
+- Bulk association of records
+
+## 2023-11-20
 - One-on-one with Kriti
 - Setup new email account 
 
