@@ -12,8 +12,6 @@
 ### PR reviews
 
 - https://github.com/mathesar-foundation/mathesar/pull/3245
-- https://github.com/mathesar-foundation/mathesar/pull/3062
-- 7 other API docs PR reviews (getting big picture)
 
 ### Infrastructure
 
@@ -39,6 +37,34 @@
 ### DB connections
 
 - working on [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
+
+## Last week
+
+I'm combining reports from last week, since I spent the first part of the week dealing with a personal issue, and the last part was pretty disorganized. I didn't get much done, and my logging was nonexistent.
+
+### Meetings
+
+- 1:1 with Kriti
+- 1:1 with Ghislaine
+- Team meeting
+- 1:1 with Anish
+
+### DB connections
+
+- Finished up PR:  [Connections API](https://github.com/mathesar-foundation/mathesar/pull/3309) (merged)
+- Discussions about new RPC endpoint
+
+### API documentation
+
+- Shut down project, communicated reasons with Varsha
+- Closed PRs
+- Started going through already-merged docs work to figure out how to remove.
+
+### Installation improvements
+
+- Communication with Anish
+- Followed up on docker compse situation
+  - Walked Anish through process of setting up a subdomain and a VM on our GCP infrastructure for testing
 
 ## 2023-11-17
 
