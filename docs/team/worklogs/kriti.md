@@ -16,6 +16,7 @@
 ### Soon
 - Set up product strategy call with team
 - Set up community growth call with team
+- Send "areas of responsibility" email to team
 - Set up MFA for AWS account
 - Follow up with Ryan
 - Read through Sean's Querydown doc
