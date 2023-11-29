@@ -15,6 +15,11 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-28 Tuesday
+* Re-reviewed and requested changes in [Handle failed API requests on schema page](https://github.com/mathesar-foundation/mathesar/pull/3323)
+* Continued work on DB connections UI
+* Repo admin work
+
 ## 2023-11-27 Monday
 * Reviewed and requested changes in [Added Focus styles to Schema Row, Table Row and Buttons](https://github.com/mathesar-foundation/mathesar/pull/3313)
 * Reviewed and merged [Fixed formatting strings for timestampsWithTZ](https://github.com/mathesar-foundation/mathesar/pull/3325)
@@ -23,7 +28,7 @@
 * Team meeting
 
 ## 2023-11-24 Friday
-* Started workingon DB connections UI
+* Started working on DB connections UI
 * Repo admin work
 
 ## 2023-11-23 Thursday
