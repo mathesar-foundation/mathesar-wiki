@@ -1,7 +1,6 @@
 # Pavish's work log
 
 # Working on:
-* DB connections work
 * I18n project
 
 # Soon
@@ -15,6 +14,21 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-11-30 Thursday
+* Raised [PR for DB connections UI](https://github.com/mathesar-foundation/mathesar/pull/3326)
+* Sent mail on design issues to address in DB connections UI
+* Created issues:
+  - [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
+  - [Internal server error when database connection fails](https://github.com/mathesar-foundation/mathesar/issues/3329)
+  - [Add loading and error indications in the database page](https://github.com/mathesar-foundation/mathesar/issues/3330)
+* Repo admin work
+
+## 2023-11-29 Wednesday
+* Continued work on DB connections UI
+* Call with Brent
+* Call with Kriti
+* Repo admin work
+
 ## 2023-11-28 Tuesday
 * Re-reviewed and requested changes in [Handle failed API requests on schema page](https://github.com/mathesar-foundation/mathesar/pull/3323)
 * Continued work on DB connections UI
