@@ -1,5 +1,20 @@
 # Ghislaine's work log
 
+## 2023-11-30
+- Merge Records Design
+
+Current Focus:
+- I'm preparing research notes and designs to discuss the merge records issue next week w/ team
+
+## 2023-11-29
+- Merge Records Design Research (Existing solutions and use cases)
+
+## 2023-11-28
+- Design Session Notes and Wireframes
+
+## 2023-11-27
+- Design Session Notes and Wireframes
+
 ## 2023-11-24
 - Wireframes for design session
 - Prepare notes for design session
