@@ -1,31 +1,6 @@
 # Kriti's work log
 
-## TODO
-
-*Note: I'm off until Monday, Nov 27*
-
-### Active
-- Post weekly meeting notees on wiki
-- Continue working through administrative and IT stuff for the org transition
-- Insperity onboarding
-- Team event
-- Call with PR person about announcing transition
-- Send gift card to user who we talked to last week
-- Consolidate to-do lists across work log / various Google Docs / personal tools / notebook
-
-### Soon
-- Set up product strategy call with team
-- Set up community growth call with team
-- Send "areas of responsibility" email to team
-- Set up MFA for AWS account
-- Follow up with Ryan
-- Read through Sean's Querydown doc
-
-### Deferred
-- Reach out to sponsors for user interviews
-- Start planning out fundraising conversations
-- Consider reaching out to How to Raise Money cohort for fundraising brainstorming
-- General cleanup of GCP projects / Google Workspace accounts and groups
+I've moved my work tracking and log to Basecamp.
 
 ## 2023-11-22 (Wed)
 - Weekly team meeting
