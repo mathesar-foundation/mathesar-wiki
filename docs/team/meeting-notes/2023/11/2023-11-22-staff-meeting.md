@@ -52,6 +52,7 @@ Last week mainly focused on org transition.
     - Mathesar for Scrabble tournaments
 
 FYI
+
 - We've received the first installment of the grant
 - Org name change in process
     - Mathesar Foundation, Inc.
@@ -63,6 +64,7 @@ FYI
 - Kriti is CEO
 
 Next week
+
 - Focusing on admin work for the next few days
 - Product/strategy work after that
 
