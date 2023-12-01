@@ -4,6 +4,8 @@
 
 ### Soon
 
+- Repo labels changes
+- Facilitate consensus on design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
 - Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 - Finish reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
@@ -24,6 +26,18 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-12-01 Friday
+
+- Insperity onboarding
+- Design meeting
+- 1:1 with Kriti
+- I9 form
+- Benefits enrollment
+
+## 2023-11-23 - 2023-11-30
+
+_(Vacation)_
 
 ## 2023-11-22 Wednesday
 
