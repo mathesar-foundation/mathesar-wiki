@@ -67,9 +67,11 @@ Next week
 
 ### Pavish
 **General**:
+
 - I was out sick for a couple days, so progress was slower than usual. 
 
 **I18n**:
+
 - The [PR to replace typesafe-i18n with svelte-i18n](https://github.com/mathesar-foundation/mathesar/pull/3302) was reviewed and merged.
 - I raised a PR to [add django translations and instructions for maintainers](https://github.com/mathesar-foundation/mathesar/pull/3321).
 - I spent some more time thinking about automation and translation workflow. My suggestions are below, we can discuss this async.
@@ -94,6 +96,7 @@ Next week
   - I will be doing this inbetween my other tasks, throughout the upcoming week.
 
 **0.1.4**
+
 - DB connections
   - I will be working on the DB connections home page. I had a chat with Sean on Friday, and went through the requirements. I haven't begun work on it yet, I will be starting on it tomorrow.
 - Migration script cleanup
@@ -135,6 +138,7 @@ Questions
 
 ### Notes
 Meetings based on ticket needs
+
 - Triage
     - Covered by repo admin process - no meeting needed
 - Product approval
