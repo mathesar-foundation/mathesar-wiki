@@ -128,10 +128,12 @@ We should set up regular calls to discuss the following:
     - beta planning work
 
 We already have calls for
+
 - Ticket review
 - Design sessions
 
 Questions
+
 - What frequency should each call be?
 - Who should be involved?
 - Who should facilitate?
