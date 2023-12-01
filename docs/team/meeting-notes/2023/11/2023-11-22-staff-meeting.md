@@ -115,6 +115,7 @@ Next week
 
 ## Misc. team workflow issue discussion
 We should set up regular calls to discuss the following:
+
 - Product specs
     - This could be like the "design sessions" but focused on "product specs"?
     - Permissions / architecture 
