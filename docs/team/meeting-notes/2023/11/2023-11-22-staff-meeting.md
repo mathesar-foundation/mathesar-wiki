@@ -44,6 +44,7 @@
 
 ### Kriti
 Last week mainly focused on org transition.
+
 - Board meeting
 - Administrative and IT work
 - 1:1s and unblocking work as needed
