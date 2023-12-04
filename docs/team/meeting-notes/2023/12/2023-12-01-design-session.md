@@ -51,7 +51,7 @@ Develop a feature that allows users to directly click and edit values within the
 
 Initially, users can group multiple records based on a one-to-many relationship within an exploration. Imagine a scenario where users can edit a dedicated field to bulk link records to a single item in another table.
 
-![image](https://hackmd.io/_uploads/HyPjlBmHa.png)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/f9b77cd4-3255-430e-aeb1-0d455460c2a6)
 
 By enabling this functionality on both sides of a one-to-many relationship, users would be able to establish many-to-many associations between tables.
 :::
@@ -71,11 +71,11 @@ Create a feature in the table view that lets users perform joins directly, witho
 
 By allowing users to integrate joined tables into the same view, we could enable various types of relationships to be represented and edited without losing context from the original tables where the data exists.
 
-![image](https://hackmd.io/_uploads/r1tKMr7Bp.png)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/09ee8775-9b98-4308-a886-416ab838634c)
 
 This approach would enable users to transition from one-to-many to many-to-many relationships as needed and represent these changes in ways that are visually indicative of the relationship, such as through a nested structure or other methods.
 
-![image](https://hackmd.io/_uploads/S13bUUmrT.png)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/b4a518ac-c2e2-4c7b-ba1e-188fb8aa5a4e)
 :::
 
 ## Discussion Points
