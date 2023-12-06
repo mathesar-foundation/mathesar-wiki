@@ -14,6 +14,22 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-12-05 Tuesday
+* i18n work
+  * Continued translating app
+* Ticket approval meeting
+
+## 2023-12-04 Monday
+* i18n work
+  * Raised [PR for replacing old eslint svelte plugin with new official one](https://github.com/mathesar-foundation/mathesar/pull/3334)
+  * Continued translating app
+* Re-reviewed and merged [Handle failed API requests on schema page](https://github.com/mathesar-foundation/mathesar/pull/3323)
+* Recorded video to clarify issue [#2123](https://github.com/mathesar-foundation/mathesar/issues/2123)
+
+## 2023-12-01 Friday
+* Continued i18n work
+* Design session call
+
 ## 2023-11-30 Thursday
 * Raised [PR for DB connections UI](https://github.com/mathesar-foundation/mathesar/pull/3326)
 * Sent mail on design issues to address in DB connections UI
