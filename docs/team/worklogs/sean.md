@@ -27,6 +27,12 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-12-05 Tuesday
+
+- Some continued work reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
+- Monthly ticket approval meeting
+- Work on re-organizing ticket labels
+
 ## 2023-12-04 Monday
 
 - Send email seeking consensus on deleting our GitHub project
