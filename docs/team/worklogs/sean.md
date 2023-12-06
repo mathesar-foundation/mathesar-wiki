@@ -27,6 +27,16 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-12-04 Monday
+
+- Send email seeking consensus on deleting our GitHub project
+- Some repo admin work
+- Discuss [New connection API](https://github.com/mathesar-foundation/mathesar/issues/3293) with Brent
+- Review and refine [queue of product approval tickets](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow)
+- Review weekly meeting agenda
+- Review/merge [Db Connections page and Welcome page](https://github.com/mathesar-foundation/mathesar/pull/3326)
+- Sink a decent amount of time into troubleshooting issues with backend bugs in the connections API and 
+
 ## 2023-12-01 Friday
 
 - Insperity onboarding
