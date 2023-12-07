@@ -4,7 +4,7 @@
 
 ### Soon
 
-- Repo labels changes
+- Plan community event
 - Facilitate consensus on design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
 - Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
@@ -12,9 +12,10 @@
 
 ### Backlog
 
+- Get "non-code task" issues out of repo
+- Clean up "status: draft" issues and delete the label
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
 - Research [auto-adding items to GH project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically)
-- Fill out a new W4 form
 - Ask team about whisper idea
 - Begin work on 0.1.4 release notes
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
@@ -26,6 +27,13 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-12-06 Wednesday
+
+- Some continued work on repo issues and label cleanup
+- Build workflow for keeping GitHub ticket labels clean
+- Review/merge [Replace eslint-plugin-svelte3 with officially supported eslint-plugin-svelte plugin](https://github.com/mathesar-foundation/mathesar/pull/3334)
+- Review [Translate /src/components, add linting and formatting rules](https://github.com/mathesar-foundation/mathesar/pull/3337)
 
 ## 2023-12-05 Tuesday
 
