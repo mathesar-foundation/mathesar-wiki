@@ -9,6 +9,7 @@
 - Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 - Finish reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
+- Review [fix Drop-down menu on the navbar doesn't close on double click](https://github.com/mathesar-foundation/mathesar-website/pull/94)
 
 ### Backlog
 
@@ -27,6 +28,10 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-12-07 Thursday
+
+- Work on improving code within [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316).
 
 ## 2023-12-06 Wednesday
 
