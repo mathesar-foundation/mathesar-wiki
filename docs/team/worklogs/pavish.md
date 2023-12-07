@@ -1,7 +1,7 @@
 # Pavish's work log
 
 # Working on:
-* I18n project
+* I18n project - translating the app
 
 # Soon
 * Set up calls for Product "big picture" meetings
@@ -14,6 +14,12 @@
   - Come up with user flows
 
 # Daily logs
+## 2023-12-06 Wednesday
+* Raised [PR translating '/src/components/'](https://github.com/mathesar-foundation/mathesar/pull/3337)
+* Quick call with Sean to resolve review comments
+* Started work on translating 'src/systems'
+* Responded to [Add loading and error indications in the database page](https://github.com/mathesar-foundation/mathesar/issues/3330)
+
 ## 2023-12-05 Tuesday
 * i18n work
   * Continued translating app
