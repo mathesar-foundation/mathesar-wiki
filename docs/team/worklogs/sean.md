@@ -4,19 +4,18 @@
 
 ### Soon
 
-- Plan community event
+- DCFSA enrollment
+- [Allow editing a connection nickname](https://github.com/mathesar-foundation/mathesar/issues/3333)
 - Facilitate consensus on design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
 - Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
-- Finish reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
-- Review [fix Drop-down menu on the navbar doesn't close on double click](https://github.com/mathesar-foundation/mathesar-website/pull/94)
 
 ### Backlog
 
+- Review [fix Drop-down menu on the navbar doesn't close on double click](https://github.com/mathesar-foundation/mathesar-website/pull/94)
 - Get "non-code task" issues out of repo
 - Clean up "status: draft" issues and delete the label
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
-- Research [auto-adding items to GH project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/adding-items-automatically)
 - Ask team about whisper idea
 - Begin work on 0.1.4 release notes
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
@@ -28,6 +27,14 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-12-08 Friday
+
+- Small community event
+- Spend some time looking into the state of the API Documentation project and asking questions about it
+- Work on [Allow editing a connection nickname](https://github.com/mathesar-foundation/mathesar/issues/3333)
+- Open draft PR to [Use connection ids instead of names](https://github.com/mathesar-foundation/mathesar/pull/3341)
+- Open issue [Modify schemas API to accept connection IDs instead of connection nicknames](https://github.com/mathesar-foundation/mathesar/issues/3342)
 
 ## 2023-12-07 Thursday
 
