@@ -28,6 +28,13 @@
 
 --------------------------------------------------------------------------------
 
+## 2023-12-11 Monday
+
+- Review/merge [Translate /src/systems, support passing arguments to RichText slots](https://github.com/mathesar-foundation/mathesar/pull/3340), including brief call with Pavish
+- Team meeting + notes
+- Adapt repo admin workflow to function across all org repos
+- Some issues cleanup
+
 ## 2023-12-08 Friday
 
 - Small community event
