@@ -4,10 +4,8 @@
 
 ### Soon
 
-- DCFSA enrollment
 - [Allow editing a connection nickname](https://github.com/mathesar-foundation/mathesar/issues/3333)
-- Facilitate consensus on design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
-- Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321)
+- Re-organize design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
 - [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
 
 ### Backlog
@@ -16,7 +14,6 @@
 - Get "non-code task" issues out of repo
 - Clean up "status: draft" issues and delete the label
 - Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
-- Ask team about whisper idea
 - Begin work on 0.1.4 release notes
 - [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
 - Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
@@ -27,6 +24,16 @@
 - re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
 
 --------------------------------------------------------------------------------
+
+## 2023-12-12 Tuesday
+
+- Review [filter and create schemas using connection\_id](https://github.com/mathesar-foundation/mathesar/pull/3349)
+- Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321) and add a commit with a some dev-docs polish work
+- Design meeting
+- DCFSA enrollment
+- Open PR to [Allow editing connection nicknames](https://github.com/mathesar-foundation/mathesar/pull/3352)
+- Push more changes to [Use connection ids instead of names](https://github.com/mathesar-foundation/mathesar/pull/3341)
+- Resolve several merge conflicts in [New DB connection form](https://github.com/mathesar-foundation/mathesar/pull/3319) and rebase on top of [Add connections rpc endpoints](https://github.com/mathesar-foundation/mathesar/pull/3348)
 
 ## 2023-12-11 Monday
 
