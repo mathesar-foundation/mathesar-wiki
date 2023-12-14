@@ -2,27 +2,6 @@
 
 ## TODO
 
-### Soon
-
-- [Allow editing a connection nickname](https://github.com/mathesar-foundation/mathesar/issues/3333)
-- Re-organize design questions within [Frontend followup work on Database connections UI](https://github.com/mathesar-foundation/mathesar/issues/3328)
-- [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
-
-### Backlog
-
-- Review [fix Drop-down menu on the navbar doesn't close on double click](https://github.com/mathesar-foundation/mathesar-website/pull/94)
-- Get "non-code task" issues out of repo
-- Clean up "status: draft" issues and delete the label
-- Review [Persist column widths via API](https://github.com/centerofci/mathesar/pull/2901)
-- Begin work on 0.1.4 release notes
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
-- Begin "User Communication Guide", as a wiki page
-- Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
-- PR to add docs on running front end in prod mode
-- PR to add docs on loading sample data
-- re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
-
 --------------------------------------------------------------------------------
 
 ## 2023-12-12 Tuesday
