@@ -1,4 +1,4 @@
-# 2023-12-11 Team Meeting
+# 2023-12-11 staff meeting
 
 ## Team check in
 

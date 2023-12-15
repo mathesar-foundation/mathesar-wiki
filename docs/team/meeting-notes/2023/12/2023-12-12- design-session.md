@@ -1,4 +1,4 @@
-# 12-12-2023 Design Session
+# 2023-12-12 Design Session
 
 ## Topic
 
