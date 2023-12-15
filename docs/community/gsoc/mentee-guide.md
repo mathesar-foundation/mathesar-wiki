@@ -1,5 +1,9 @@
 # Mentee Guide
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This guide was for GSoC 2023.
+
 This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/community/mentoring/applicant-guide).
 
 ## Post-Announcement

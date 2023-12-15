@@ -1,5 +1,9 @@
 # Project Ideas
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This guide was for GSoC 2023.
+
 These ideas are for **Google Summer of Code 2023**.
 
 !!! info "Information"

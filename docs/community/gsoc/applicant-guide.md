@@ -1,5 +1,9 @@
 # Applicant Guide
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This guide was for GSoC 2023.
+
 ## Getting Started
 
 If you're interested in applying to be a GSoC Contributor for the Mathesar project, please follow this guide. Thank you in advance for your interest, time, and any contributions you make!

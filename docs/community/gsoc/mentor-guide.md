@@ -1,5 +1,9 @@
 # Mentor Guide
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This guide was for GSoC 2023.
+
 This guide only covers Mathesar-specific processes and guidelines. For a more general overview of what mentorship entails, please read [the Google Summer of Code Mentor Guide](https://google.github.io/gsocguides/mentor/).
 
 Mentoring programs are usually structured into the following stages:

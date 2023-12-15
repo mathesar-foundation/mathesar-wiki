@@ -15,9 +15,9 @@ The Mathesar team does most of our work in public communication channels, which 
 | [Matrix](./matrix.md)               | Primary real-time chat |
 | [Discord](./discord.md)             | Alternate chat (limited rooms) |
 
-## Mentoring
+## Google Summer of Code
 
-See [Mentoring](./mentoring/) for information about mentoring programs like GSoC.
+See [GSoC](./gsoc/) for information about Mathesar's participation in GSoC.
 
 ## Future Plans
 

@@ -1,5 +1,9 @@
 # Project Idea Template
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This template was for GSoC 2023.
+
 !!! info "Information"
     Please use this template while adding new project ideas to [Project Ideas](/community/mentoring/project-ideas).
 

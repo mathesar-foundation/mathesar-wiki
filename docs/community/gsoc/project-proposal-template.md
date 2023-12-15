@@ -1,5 +1,9 @@
 # Project Proposal Template
 
+!!! warning
+
+    Mathesar is not participating in GSoC 2024. This template was for GSoC 2023.
+
 This is the proposal template for applications to any mentorship programs that we participate in. **Proposals that do not follow this template will not be considered for GSoC**.
 
 We recommend creating a Google Doc that follows this structure and sharing it with the mentors. Please make sure that all mentors have commenting permissions.
