@@ -35,6 +35,7 @@ These channels focus on day-to-day engineering work.
 | Mathesar - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
 | Mathesar - Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
 | Mathesar - Infrastructure | [`#infrastructure:matrix.mathesar.org`](https://matrix.to/#/#infrastructure:matrix.mathesar.org) | Discussions related to Mathesar installation, setup and other infrastructure  |
+| Mathesar - i18n | [`#i18n:matrix.mathesar.org`](https://matrix.to/#/#i18n:matrix.mathesar.org) | Discussions related to Mathesar imternationalization |
 
 ### Design & Product
 These channels focus on day-to-day design and product work.
