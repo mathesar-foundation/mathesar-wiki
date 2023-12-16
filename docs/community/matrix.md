@@ -72,3 +72,5 @@ These channels assist the Mathesar maintainers in our workflow.
 | Mathesar - Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
 | Mathesar - Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
 | Mathesar - GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
+| Mathesar - Wiki Updates | [`#wiki-updates:matrix.mathesar.org`](https://matrix.to/#/#wiki-updates:matrix.mathesar.org) | Automated notifications of new GitHub activity ONLY on the wiki repo. |
+
