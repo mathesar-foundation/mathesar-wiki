@@ -14,13 +14,17 @@
 
 ![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/dd5dfe79-9fa4-4d62-9f66-7dfd53f78373)
 
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/9160e880-c3b2-43ed-8162-29469b181fcb)
+
+
 - **Database Connections Breadcrumb Button**:
   - On click, dropdown lists all databases.
 
 #### User has one database (database connection page)
 
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6f640137-2096-46e8-a7d3-32f43eb907fa)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6e622c2c-d2ec-4ef8-b252-3ab12d0eba3d)
 
+- **Database Connections Breadcrumb Button**: Do not display the database connections breadcrumb.
 - **Database Name with Icon**: Directs to database connection page.
 - **Schemas Breadcrumb Button**: Opens a list of schemas in the database.
 
