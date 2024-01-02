@@ -2,6 +2,8 @@
 
 ## Overview
 
+The proposed Navigation Consistency Updates aim to enhance the user experience by providing a coherent navigation system within the Mathesar application.
+
 [GitHub Issue](https://github.com/mathesar-foundation/mathesar/issues/3287)
 
 ## User Experience
