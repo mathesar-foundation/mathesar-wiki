@@ -1,8 +1,9 @@
 # Mentor Guide
 
-!!! warning
+!!! warning "GSoC 2024 will not have Mathesar"
+    **Mathesar [will not be participating](https://github.com/mathesar-foundation/mathesar/issues/3381) in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025.
 
-    Mathesar is not participating in GSoC 2024. This guide was for GSoC 2023.
+    This guide was for GSoC 2023.
 
 This guide only covers Mathesar-specific processes and guidelines. For a more general overview of what mentorship entails, please read [the Google Summer of Code Mentor Guide](https://google.github.io/gsocguides/mentor/).
 

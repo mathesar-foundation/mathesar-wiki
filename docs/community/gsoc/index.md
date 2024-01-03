@@ -2,7 +2,8 @@
 
 Welcome, and thanks for your interest in contributing to Mathesar! 
 
-**Mathesar will not be participating in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025. 
+!!! warning "GSoC 2024 will not have Mathesar"
+    **Mathesar [will not be participating](https://github.com/mathesar-foundation/mathesar/issues/3381) in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025. 
 
 ## GSoC 2023 Guides
 

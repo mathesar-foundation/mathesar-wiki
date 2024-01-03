@@ -1,8 +1,9 @@
 # Project Proposal Template
 
-!!! warning
+!!! warning "GSoC 2024 will not have Mathesar"
+    **Mathesar [will not be participating](https://github.com/mathesar-foundation/mathesar/issues/3381) in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025.
 
-    Mathesar is not participating in GSoC 2024. This template was for GSoC 2023.
+    This guide was for GSoC 2023.
 
 This is the proposal template for applications to any mentorship programs that we participate in. **Proposals that do not follow this template will not be considered for GSoC**.
 
