@@ -18,15 +18,14 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 ![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/9160e880-c3b2-43ed-8162-29469b181fcb)
 
-
 - **Database Connections Breadcrumb Button**:
-  - On click, dropdown lists all databases.
+  - On click, dropdown lists all database connections.
+  - An option to "Manage Connections" is also available.
 
 #### User has one database (database connection page)
 
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6e622c2c-d2ec-4ef8-b252-3ab12d0eba3d)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/62a92b4c-510e-4c95-a6e0-e1914adc44eb)
 
-- **Database Connections Breadcrumb Button**: Do not display the database connections breadcrumb.
 - **Database Name with Icon**: Directs to database connection page.
 - **Schemas Breadcrumb Button**: Opens a list of schemas in the database.
 
@@ -76,12 +75,6 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 - The label should be **Exploration Name** with the edit icon.
 
-**For saved explorations in edit mode with unsaved changes:**
-
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/ae2d04f7-52f4-468d-b287-f923ae4d74e2)
-
-- The label should be **Exploration Name** with the edit icon and an asterisk.
-
 ### From the Import Page
 
 ![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/52bfe6a9-16a7-451c-9797-a011957f33ea)
@@ -90,11 +83,6 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 ## State Representation
 
-### Active Page
+### Active Breadcrumb Step
 
-- The active page in some cases is not the last element in the breadcrumb trail. It needs to be highlighted to indicate that it is the current page. The text will be bolder and the in white color.
-
-### Inactive Pages
-
-- Inactive pages will be in a lighter color and will not be bold.
-- Inactive pages will be clickable and will direct the user to the page. For example, clicking on the database name will take the user to the database connection page.
+- The active breadcrumb step needs to be highlighted to indicate that it is the current page. The text will be bolder and the in white color.
