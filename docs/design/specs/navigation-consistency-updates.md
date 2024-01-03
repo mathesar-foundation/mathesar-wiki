@@ -46,7 +46,6 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 - Include **Table Name and Icon**.
 - Add **Records List Button**: Opens a dropdown of table records.
-- Records List Button should be disabled if the table is empty or in a non-readable state.
 
 ### From the Record Page
 
