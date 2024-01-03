@@ -14,9 +14,7 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 #### User has multiple databases (database connections list page)
 
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/dd5dfe79-9fa4-4d62-9f66-7dfd53f78373)
-
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/9160e880-c3b2-43ed-8162-29469b181fcb)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/06c63089-57d3-4a61-a25b-ec4a3983e41c)
 
 - **Database Connections Breadcrumb Button**:
   - On click, dropdown lists all database connections.
