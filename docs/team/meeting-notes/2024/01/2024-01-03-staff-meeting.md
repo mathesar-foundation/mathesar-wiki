@@ -31,14 +31,17 @@ Pavish’s comments: https://github.com/mathesar-foundation/mathesar/pull/3319#d
 
 Current state:  
 
- - Need to choose a “bootstrapping connection” to create new ones
-   - Look for any that match the hostname and port the user entered
-   - Then the user selects the desired one
-   - Case C is only possible when the hostname and port are found in a preexisting connection
-- Historical context:
-   - Case A was inspired by trying to more easily copy an existing credential to set up a connection, rather than setting it up from scratch
-   - Case C was argued for by the back end team.
-   - Brent is having second thoughts about having argued for that
+Need to choose a “bootstrapping connection” to create new ones
+
+- Look for any that match the hostname and port the user entered
+- Then the user selects the desired one
+- Case C is only possible when the hostname and port are found in a preexisting connection
+
+Historical context:
+
+- Case A was inspired by trying to more easily copy an existing credential to set up a connection, rather than setting it up from scratch
+- Case C was argued for by the back end team.
+- Brent is having second thoughts about having argued for that
 
 DECISION: Remove Case C, document how to set up minimally-privileged user for use with  Mathesar connections
 
