@@ -16,6 +16,7 @@ Ghislaine requested people put design reviews in Basecamp for a recent spec as a
 Current discussion will be ported to email, further discussion will happen there
 
 Brent also has some tech spec related tasks in Basecamp with comments, is it okay to have comments in Basecamp?
+
 - Persist things outside basecamp 
 - Quick (ephemeral) notes are okay in Basecamp
 
@@ -29,14 +30,15 @@ Specs: https://wiki.mathesar.org/design/specs/new-db-connection-form/
 Pavish’s comments: https://github.com/mathesar-foundation/mathesar/pull/3319#discussion_r1434348595
 
 Current state:  
+
  - Need to choose a “bootstrapping connection” to create new ones
-    - Look for any that match the hostname and port the user entered
-    - Then the user selects the desired one
+   - Look for any that match the hostname and port the user entered
+   - Then the user selects the desired one
    - Case C is only possible when the hostname and port are found in a preexisting connection
 - Historical context:
-    - Case A was inspired by trying to more easily copy an existing credential to set up a connection, rather than setting it up from scratch
-    - Case C was argued for by the back end team.
-    - Brent is having second thoughts about having argued for that
+   - Case A was inspired by trying to more easily copy an existing credential to set up a connection, rather than setting it up from scratch
+   - Case C was argued for by the back end team.
+   - Brent is having second thoughts about having argued for that
 
 DECISION: Remove Case C, document how to set up minimally-privileged user for use with  Mathesar connections
 
