@@ -17,7 +17,7 @@ This document lists the responsibilities, related instructions and guidelines fo
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
 	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
-	- All our [Mentoring](https://wiki.mathesar.org/en/community/mentoring) documentation and policies
+	- All our [Mentoring](/community/mentoring) documentation and policies
 - Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items
 - Keep an eye on GSoC related deadlines and timelines
 	- See [Calendar](#calendar)
@@ -198,13 +198,13 @@ Suggested process:
 	- In Matrix, check the little visualizations above and below messages of new people joining to see who is new
 2. Welcome them, whether they're active or engage first or not
 3. Preemptively remind them of our resources for self-guidance:
-  - the [applicant guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide)
+  - the [applicant guide](/community/mentoring/applicant-guide)
   - or, the [contributing guide](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
 4. Having provided a resource for self-guidance, encourage them to speak up if something is not clear.
 
 Example in our Matrix General channel:
 
->`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!`
+>`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](/community/mentoring/applicant-guide). If something is not clear, reach out!`
 
 
 ## Helping guidelines
@@ -235,7 +235,7 @@ Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/cor
 
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
-We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
+We track community events, including office hours, [on this Wiki page](/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
 	
   
 ## No early issue assigns

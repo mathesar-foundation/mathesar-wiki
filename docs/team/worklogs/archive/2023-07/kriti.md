@@ -185,7 +185,7 @@
   - Rescheduled 1:1s to be more manageable
   - Cancelled team meeting
   - Checked in on Matrix with: Sean, Ghislaine, Pavish, Brent, Anish, Rajat, Mukesh, Dom
-  - Posted [installation meeting notes](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+  - Posted [installation meeting notes](/meeting-notes/2023-07/2023-07-11-installation-meeting)
   - Followed up on some meeting scheduling and accounting stuff.
   - Followed up with Transifex support re: open source status
   - Created a new Transifex project and invited Mukesh and Rajat

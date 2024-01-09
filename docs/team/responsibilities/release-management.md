@@ -20,7 +20,7 @@ This guide is common for the owner and the helpers of the Release management res
     - For eg.,
         - Installation improvements is a project which is the main focus of v0.1.2.
         - Fixing user raised bugs is a theme which can be the focus of a release. v0.1.1 fixed all issues raised by users during a specific interval from the release of v0.1.0.
-    - The Release management team will choose the items from the [list of Current projects](https://wiki.mathesar.org/en/projects#current-projects) and issues the team is working on [from the "High priority" milestone](https://github.com/centerofci/mathesar/milestone/71).
+    - The Release management team will choose the items from the [list of Current projects](/projects#current-projects) and issues the team is working on [from the "High priority" milestone](https://github.com/centerofci/mathesar/milestone/71).
 1. Start an email thread with the subject: `Release plan v{release_version}`.
     - For eg., `Release plan v0.1.3`.
     - This thread will be public and all mails will be addressed to `mathesar-developers` mail group.
@@ -28,7 +28,7 @@ This guide is common for the owner and the helpers of the Release management res
 1. Based on the discussions in the mail thread, finalize the items to focus for the release, and **get approval from Kriti**.
 1. Create a project for the release and spec it out.
     - Discuss with people needed for the release, decide on the work plan and the timeline.
-    - Eg., [Spec for Release v0.1.2](https://wiki.mathesar.org/en/projects/release-0-1-2)
+    - Eg., [Spec for Release v0.1.2](/projects/release-0-1-2)
 1. Send the project spec for review, **get approval from Kriti and people involved with the release**.
 1. Clean up the release milestone, update milestone due date.
     - Ensure issues needed for the release are created and placed in the release milestone.
@@ -47,9 +47,9 @@ This guide is common for the owner and the helpers of the Release management res
 
 ## Making a release
 
-1. Once all the items needed for the release are merged into `develop`, follow the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) to publish the release.
+1. Once all the items needed for the release are merged into `develop`, follow the [Release process document](/engineering/release-process) to publish the release.
 1. Ensure that all private servers running Mathesar maintained by the core team are upgraded.
-1. Coordinate with Marketing team to [make release announcements](https://wiki.mathesar.org/en/team/responsibilities/marketing#make-release-announcements).
+1. Coordinate with Marketing team to [make release announcements](/team/responsibilities/marketing#make-release-announcements).
 
 ## After a release
 
@@ -68,7 +68,7 @@ This guide is common for the owner and the helpers of the Release management res
 1. Hotfix release branches should be based off on `master`.
     - The fixes will go directly into the release branch.
     - `develop` will not be involved for hotfix releases.
-1. All other processes from the [Release process document](https://wiki.mathesar.org/en/engineering/release-process) will remain the same as a regular release.
+1. All other processes from the [Release process document](/engineering/release-process) will remain the same as a regular release.
 
 ## Incorporating user feedback into release plan
 

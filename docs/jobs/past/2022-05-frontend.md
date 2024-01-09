@@ -5,7 +5,7 @@
 ## About us
 Mathesar is an open source tool that provides an intuitive interface to databases. Our goal is to make it easy for non-technical users to create, organize, and analyze data collaboratively, without any prior knowledge of database concepts. We started prototyping the project in March 2021 and are working towards our first (alpha) release in mid-2022.
 
-You'll be joining our small, globally distributed team at the Center of Complex Interventions (CCI), a U.S. nonprofit. We work asynchronously and value work/life balance. Our work is public - look through [our code](https://github.com/centerofci/mathesar), read [our project and team wiki](https://wiki.mathesar.org/en/home), and join [our communication channels](https://wiki.mathesar.org/en/community).
+You'll be joining our small, globally distributed team at the Center of Complex Interventions (CCI), a U.S. nonprofit. We work asynchronously and value work/life balance. Our work is public - look through [our code](https://github.com/centerofci/mathesar), read [our project and team wiki](/home), and join [our communication channels](/community).
 
 ## What you will do
 You'll be our third frontend engineer. Your day-to-day work will involve:

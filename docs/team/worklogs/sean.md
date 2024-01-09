@@ -183,7 +183,7 @@ _(Shorter day due to some kid issues)_
 
 ## 2023-11-03 Friday
 
-- Update ["New DB Connection" UI specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/)
+- Update ["New DB Connection" UI specs](/design/specs/new-db-connection-form/)
 - Send email informing others of those specs updates
 - Design discussion about [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
 - Design discussion about DB Connections home page, including writing a "mini spec" for new proposed behavior
@@ -225,7 +225,7 @@ _(Shorter day due to some kid issues)_
 - Lots of clean up in GitHub issues
 - Open [PR](https://github.com/centerofci/mathesar/pull/3280) to remove mentions of `mathesar-update-companion` from the `.github` directory within the mathesar repo.
 - Open website PR [Update core team](https://github.com/centerofci/mathesar-website/pull/96)
-- Document [repo setup tasks](https://github.com/centerofci/mathesar-internal-crm/issues/2) in [wiki page](https://wiki.mathesar.org/engineering/how-tos/set-up-new-repo/) and add section on removing a repo.
+- Document [repo setup tasks](https://github.com/centerofci/mathesar-internal-crm/issues/2) in [wiki page](/engineering/how-tos/set-up-new-repo/) and add section on removing a repo.
 - Update wiki to document ongoing responsibilities post team-restructuring
 
 ## 2023-10-31 Tuesday
@@ -278,7 +278,7 @@ _(Shorter day due to some kid issues)_
 
 - DB connections UI prototyping and design
 - Call with Brent about DB connections UI
-- Finish first draft of DB connection UI [specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/) and send an [email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/fcRG1Yb3d68) requesting that others review it.
+- Finish first draft of DB connection UI [specs](/design/specs/new-db-connection-form/) and send an [email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/fcRG1Yb3d68) requesting that others review it.
 
 ## 2023-10-23 Monday
 
@@ -360,8 +360,8 @@ _(Shorter day due to some kid issues)_
 - Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
 - Some repo analytics as follow-up thoughts to [Repo management](https://turbot.com/blog/2023/10/repo-management) link [posted](https://matrix.to/#/!OBFOMvPciDqjqcoSUO:matrix.mathesar.org/$tvDnEx9l0lm2363dE-rv52Ym9ctQ5C-Mg_4DL76E970?via=matrix.mathesar.org&via=matrix.org) by Kriti
 - Move [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995) out of release milestone, with comment pointing user towards other issues
-- Read Installation Improvements [project](https://wiki.mathesar.org/projects/2023/08/installation-improvements-0_1_4/) and [plan](https://wiki.mathesar.org/engineering/specs/installation-improvements-plan-0_1_4/) to become more familiar with it for the release
-- Read [Release management](https://wiki.mathesar.org/team/responsibilities/release-management/) docs
+- Read Installation Improvements [project](/projects/2023/08/installation-improvements-0_1_4/) and [plan](/engineering/specs/installation-improvements-plan-0_1_4/) to become more familiar with it for the release
+- Read [Release management](/team/responsibilities/release-management/) docs
 - [Cleanup](https://github.com/centerofci/mathesar-wiki/commit/0acfc0ba358a2e846448e3ecec45102ec0659605) some wiki docs content on release management and process
 
 ## 2023-10-06 Friday
@@ -563,7 +563,7 @@ _(Shorter day due to some kid issues)_
 - Brief team-management-related check-ins with Brent, Pavish, Ghislaine, Anish, Rajat
 - Open ticket [Configure code formatting for Markdown within docs and wiki sites](https://github.com/centerofci/mathesar/issues/3194)
 - Raise [mdformat bug](https://github.com/executablebooks/mdformat/issues/413) preventing us from using it
-- Publish [Markdown Style Guide](https://wiki.mathesar.org/engineering/markdown/)
+- Publish [Markdown Style Guide](/engineering/markdown/)
 - Send [Markdown syntax](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7hAgMsWgMZw/m/xayJFNtvAgAJ) email
 - Some continued work on Cell Selection refactor
 
@@ -860,7 +860,7 @@ _(Shorter day due to some kid issues)_
 
 - Team event
 - Catch up with some email discussions from the past week
-- Re-review [Publicly Sharable Links spec](https://wiki.mathesar.org/en/product/specs/publicly-shareable-links)
+- Re-review [Publicly Sharable Links spec](/product/specs/publicly-shareable-links)
 - Begin mapping out some thoughts for the SheetSelection refactor RFC
 
 ## 2023-07-06 Thursday

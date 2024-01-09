@@ -8,7 +8,7 @@
 
 In addition to data columns, we have formula columns as well. These columns are basically derived from a formula. A formula may or may not use another data column to generate the formula column. The formula can also use parameters of different data types other than columns. 
 
-The formula columns can only be created with Data explorer. For more details, you can check out this [link](https://wiki.mathesar.org/en/product/specs/2022-01-views/04-formulas)
+The formula columns can only be created with Data explorer. For more details, you can check out this [link](/product/specs/2022-01-views/04-formulas)
 
 ## Scenarios
 

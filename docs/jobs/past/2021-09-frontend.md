@@ -5,13 +5,13 @@
 We're looking for a frontend engineer to work on [Mathesar](http://mathesar.org/), a brand new open source project that will enable users of all skill levels to store, visualize, and collaborate with others on data. We're currently working hard on our alpha version, which we are aiming to ship by November 2021. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
-You'll be collaborating closely with everyone on the existing [Mathesar team](https://wiki.mathesar.org/team) to build out the frontend for the project. Our frontend stack is Svelte and TypeScript, and our initial roadmap for the MVP is [on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
+You'll be collaborating closely with everyone on the existing [Mathesar team](/team) to build out the frontend for the project. Our frontend stack is Svelte and TypeScript, and our initial roadmap for the MVP is [on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 We're working on interesting problems related to simplifying and automating database operations to make them easy to work with for non-technical users without sacrificing flexibility for advanced users. We're still working on the first version of the product, so there's ample opportunity to provide input into the direction of the project from both the technical and usability perspectives. You'll also have opportunities to contribute to backend and infrastructure work if you desire – we are an informal team.
 
 This position also involves ownership in building an active community around the product, including participating in conversations with both contributors and users, mentoring for programs like Google Summer of Code, and maintaining documentation, reviewing pull requests, and so on.
 
-We are a fully distributed team and work mostly asynchronously via [Matrix](https://wiki.mathesar.org/en/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you are can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
+We are a fully distributed team and work mostly asynchronously via [Matrix](/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you are can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
 
 ## Qualifications
 We expect you to:
@@ -58,7 +58,7 @@ US employees have the following benefits:
 ## How to Apply
 ~~Please fill out this application form.~~
 
-You are also welcome to [join our community](https://wiki.mathesar.org/community) and ask any questions you might have or [contribute to the project](https://wiki.mathesar.org/community/contributing).
+You are also welcome to [join our community](/community) and ask any questions you might have or [contribute to the project](/community/contributing).
 
 ## Equal Employment Opportunity Policy  
 The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer. CCI complies with and adheres to all United States state and federal anti-discrimination laws with respect to its employment practices. CCI does not discriminate against any employee or applicant for employment on the basis of race, color, religion, gender, sexual orientation, gender identity and expression, national origin or ancestry, age, or disability or any other category protected under state or federal law. This policy extends to recruiting, hiring, compensation, benefits, assignment, working conditions, termination, re-employment, employee treatment, and all other terms, conditions and privileges of employment. All employment-related decisions are made on a nondiscriminatory basis so as to further the principle of equal employment opportunity.

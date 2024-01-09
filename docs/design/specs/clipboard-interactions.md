@@ -7,7 +7,7 @@
 ## Additional Context
 
 - [GitHub Issue](https://github.com/centerofci/mathesar/issues/2377)
-- [Usability Improvements project](https://wiki.mathesar.org/en/projects/2023-04-usability-improvements.md) which contains this work
+- [Usability Improvements project](/projects/2023-04-usability-improvements.md) which contains this work
 
 ## Terminology and abbreviations in this document
 
@@ -203,7 +203,7 @@
 
 - If the clipboard has data with a MIME type matching our Mathesar-specific representation, we use that data. Otherwise, we use the `text/plain` data.
 
-- When using plain text paste data, Mathesar displays a modal which allows the user to configure the parsing of the paste data. This feature has some overlap with the [UI for Importing data into existing tables](https://wiki.mathesar.org/en/community/mentoring/project-ideas/ui-import-data-existing-table) GSoC project, so it is not yet fully specified.
+- When using plain text paste data, Mathesar displays a modal which allows the user to configure the parsing of the paste data. This feature has some overlap with the [UI for Importing data into existing tables](/community/mentoring/project-ideas/ui-import-data-existing-table) GSoC project, so it is not yet fully specified.
 
 - After pasting, all pasted cells are selected.
 

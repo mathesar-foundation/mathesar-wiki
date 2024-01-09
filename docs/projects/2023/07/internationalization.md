@@ -58,4 +58,4 @@ NOTE: Initial estimates - 4 weeks of FE effort and 1 week of BE effort in parall
 
 - [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/dLRJjL5_t28)
 - [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/a5DuC82BFaM)
-- [Tech Specs](https://wiki.mathesar.org/en/engineering/specs/internationalization)
+- [Tech Specs](/engineering/specs/internationalization)

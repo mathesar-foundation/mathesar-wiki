@@ -48,7 +48,7 @@ When no database connections are present:
 **Modal Form:**
 
 - The modal should be titled "New Database Connection".
-- The modal fields are dependent on the following spec: [“New Database Connection” Form Design Specs](https://wiki.mathesar.org/design/specs/new-db-connection-form/).
+- The modal fields are dependent on the following spec: [“New Database Connection” Form Design Specs](/design/specs/new-db-connection-form/).
 
 **Interactions:**
 

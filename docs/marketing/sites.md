@@ -5,7 +5,7 @@
 	- [Repo description](https://github.com/centerofci/mathesar)
 	- [Repo README](https://github.com/centerofci/mathesar/blob/master/README.md)
 - [Docs](https://docs.mathesar.org/)
-- [Wiki](https://wiki.mathesar.org/en/home)
+- [Wiki](/home)
 - CCI
 	- [Homepage](https://centerofci.org/)
 	- [CCI Mathesar page](https://centerofci.org/mathesar/)

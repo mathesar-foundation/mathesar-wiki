@@ -24,7 +24,7 @@ We should consider implementing dynamic defaults using the same formulas that we
 
 ![upload_ebe944f590f61b67ea9a5646d45668a5.png](/assets/product/specs/dynamic-defaults-proto/upload_ebe944f590f61b67ea9a5646d45668a5.png)
 
-Formulas to use from [our Formulas](https://wiki.mathesar.org/en/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
+Formulas to use from [our Formulas](/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
 
 - Current date and time: "Current date & time" formula
 - Current date and time + duration: "Add Duration to Date" formula

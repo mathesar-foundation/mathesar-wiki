@@ -8,7 +8,7 @@ We're reorganizing our team workflow into [projects](/projects) and [ongoing res
 
 ## Creating pull requests
 
-- All pull requests should follow the [code review rules](https://wiki.mathesar.org/engineering/code-review).
+- All pull requests should follow the [code review rules](/engineering/code-review).
 - All external contributors need to open an issue first before creating a pull request.
 - Team members are allowed to create PRs for minor changes without a related issue.
 
