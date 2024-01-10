@@ -79,6 +79,12 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 - Display **Import Name and Icon** after the schema breadcrumb button.
 
+### From the Administration Pages
+
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/38c830b2-2839-41ac-b5f2-83f6dbff469b)
+
+- No dropdown menus will be on the admin pages because they're at a higher level and don't need to help with data navigation. This keeps the menu behavior the same everywhere, which is less confusing for users.
+
 ## State Representation
 
 ### Active Breadcrumb Step
