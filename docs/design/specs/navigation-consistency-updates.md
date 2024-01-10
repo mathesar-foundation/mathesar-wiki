@@ -85,6 +85,16 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 - No dropdown menus will be on the admin pages because they're at a higher level and don't need to help with data navigation. This keeps the menu behavior the same everywhere, which is less confusing for users.
 
+## Additional UI Details
+
+### Navigation Bar with Scrollable Lists
+
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/02f5a05e-1bbb-45a3-a41d-0369629a91da)
+
+The menu needs to be divided into sections:
+- Main navigation links (Import and Data Explorer) that remain constant. This area will be fixed.
+- Lists (Tables and Explorations) which can expand with numerous items. This part will have independent scrolling from the fixed area, ensuring that users don't lose sight of the main navigation links while scrolling through a long list.
+
 ## State Representation
 
 ### Active Breadcrumb Step
