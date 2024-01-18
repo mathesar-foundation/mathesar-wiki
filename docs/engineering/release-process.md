@@ -119,16 +119,66 @@ Create a meta issue to track progress of the release process with the label `wor
         - It will show an error saying release notes aren't present. This is expected.
     - Ensure that the upgrade process does not throw any errors.
 
-### 5. Testing
+### 5. QA testing
 
-- Perform a smoke test on the product – Install the library management dataset, [follow the library management demo video](https://www.youtube.com/watch?v=Edbba-h4L-M&t=17s) and ensure everything works as expected.
-- Certain releases might require extensive testing. This will be mentioned in the release project spec.
+#### For Administrators
 
-#### If problems are encountered:
+- [ ] Test installing the release from scratch by following our documentation
+- [ ] Test all different installation methods
+- [ ] Test that previously installed versions of Mathesar can be upgraded to this release.
 
-- If problems are encountered during testing, make issues in the same release milestone.
+#### For users
+
+Tips:
+
+- Don't just aim to complete the tests with the minimum possible steps — try to test the edges around each of the features, seeing if you can hammer at Mathesar to break something or uncover bugs.
+- If you find a bug, try to reproduce it against the latest release (e.g. on the demo site). If you _can_ reproduce it on the latest release, then it's not a regression. It's still worth reporting, but it won't be as high of a priority. If you _can't_ reproduce it on the latest release, then it _is_ a regression. It's important to specify this.
 - The PRs for issues should be based off of the release branch, and merged into the release branch.
 - Once all issues are fixed, restart the process from the step where you [pushed images to Dockerhub](#images).
+
+Tasks:
+
+- Test create/update/delete for:
+    - [ ] Mathesar users
+    - [ ] Connection
+    - [ ] Schema
+    - [ ] Table
+    - [ ] Column
+    - [ ] Constraint
+- Import    
+    - [ ] Test basic import.
+    - [ ] Try different options for "Data Source"
+    - [ ] Try different options for "Column Data Types"
+- Table Page
+    - [ ] Test filtering, sorting, grouping
+    - [ ] Test pagination
+    - [ ] Test updating cell values for all data types
+    - [ ] Test showing/hiding/resizing table inspector and collapsing/expanding sections
+    - [ ] Test keyboard shortcuts to move active cell, enter edit mode, save value
+    - [ ] Ensure the context menu looks correct for data cells, column header cells, and row header cells
+    - [ ] Test table sharing
+    - [ ] Test cell selection via: dragging from data cell to data cell, dragging from column header cell to column header cell, dragging from row header cell to row header cell
+    - [ ] Test custom record summary template
+    - [ ] Test updating column data type
+    - [ ] Test updating column display settings
+    - [ ] Test setting column default value
+    - [ ] Test column re-ordering via drag & drop
+    - [ ] Test "Create Link" dialog
+    - [ ] Test "Extract Column Into a New Table"
+    - [ ] Test "Move Column To Linked Table"
+- Record Selector
+    - [ ] Test filtering on multiple columns
+    - [ ] Test picking an existing record
+    - [ ] Test creating a new record from within the record selector
+    - [ ] Test selecting a record from within a nested record selector
+    - [ ] Test horizontal and vertical scrolling for narrow and short viewports
+- Record Page
+    - [ ] Test updating direct fields
+    - [ ] Test setting field values to null
+    - [ ] Test navigating to linked records through linked record input
+    - [ ] Test loading a record page with linked records
+- Data Explorer
+    - ???
 
 ### 6. Write up Release notes
 
