@@ -125,8 +125,27 @@ Create a meta issue to track progress of the release process with the label `wor
 
 - [ ] Test installing the release from scratch by following our documentation
 - [ ] Test all different installation methods
+  - [ ] Docker compose
+    - [ ] All defaults, local
+    - [ ] Exposed on domain, DB managed by Mathesar
+    - [ ] Exposed on domain, DB preexisting for users, managed DB for Django
+    - [ ] Exposed on domain, DB preexisting for all data
+  - [ ] Docker integrated image
+    - [ ] All defaults, local
+    - [ ] Exposed on domain, DB managed by Mathesar
+    - [ ] Exposed on domain, DB preexisting for users, managed DB for Django
+    - [ ] Exposed on domain, DB preexisting for all data
+  - [ ] Build from scratch
+    - [ ] All defaults, local
+    - [ ] Exposed on domain, DB preexisting for all data
 - [ ] Test that previously installed versions of Mathesar can be upgraded to this release.
-
+    - [ ] Docker compose -- All above variants for docker compose
+      - [ ] Same docker compose file, same `.env`
+      - [ ] New docker compose file, same `.env`
+      - [ ] New docker compose file, bring `.env` into the new file
+    - [ ] Build from scratch -- All above variants for build from scratch
+          
+        
 #### For users
 
 Tips:
