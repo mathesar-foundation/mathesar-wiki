@@ -178,7 +178,19 @@ Tasks:
     - [ ] Test navigating to linked records through linked record input
     - [ ] Test loading a record page with linked records
 - Data Explorer
-    - ???
+    - [ ] Test creating and saving an exploration from Data Explorer view
+    - [ ] Try joining columns from multiple tables without summarization
+    - [ ] Try joining columns from multiple tables with summarization
+    - [ ] Try renaming column in column properties
+    - [ ] Test pagination
+    - [ ] Test 'Filter' transformation
+    - [ ] Test 'Sort' transformation
+    - [ ] Test 'Hide Columns' transformation
+    - [ ] Test 'Summarization' transformation
+    - [ ] Try summarizing with different aggregations
+    - [ ] Test opening an existing exploration
+    - [ ] Test editing and saving an existing exploration
+    - [ ] Create an exploration from Table page -> Inspector -> Actions -> Explore Data
 
 ### 6. Write up Release notes
 
