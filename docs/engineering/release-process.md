@@ -219,45 +219,83 @@ Tasks:
 
 ## Publishing the release
 
-### 1. Merge into master
-
-1. Merge the release branch into `master`.
-1. Ensure the release branch is deleted after merge. This should happen automatically after merging.
-
 !!! warning "Warning"
-    Note that after merging the documentation change, if someone is using the docs off of the `master` branch, they'll get a 404 until the tag actually exists. Therefore, avoid going to lunch while things are in this state.
+    These steps are currently structured in a manner that is convenient for Mathesar developer but leaves a window open during which the documentation will be out of sync with other assets required for installation and upgrades.
 
-### 2. Create a tag
+    For example: the docs get published as soon as the release PR is merged into master. At that point the tag won't yet exist in GitHub (meaning readers won't be able to download the referenced docker-compose file) and the image won't yet exist on DockerHub.
+    
+    We would like to improve this process. But in the mean time, be sure to follow these steps quickly so as to reduce the duration of this "out of sync" window.
 
-- Tag the commit you've just merged with the version number of the release.
-- Tags are created at https://github.com/centerofci/mathesar/tags. You can also tag locally and push the tag to GitHub.
+1. **Merge the release PR**
 
-### 3. Build, tag, and push release Docker images
+    This should merge the release branch into `master`. Before moving on, ensure the release branch is deleted within GitHub after merge. This should happen automatically after merging.
 
-1. Clone a fresh version of the repo from `master`.
-1. `cd` to repository, check out the commit that you've tagged.
-1. Make sure you're logged into DockerHub (credentials are in 1Password)
-1. Run the following commands, replacing `<version_number>` with the actual version:
+1. **Create the tag**
+
+    Locally tag the commit you've just merged with the version number of the release. Then push to GitHub.
 
     ```sh
-    docker buildx create --name container --driver=docker-container
-    docker buildx build -t mathesar/mathesar-caddy:<version_number> -t mathesar/mathesar-caddy:latest --builder=container --platform=linux/amd64,linux/arm64 --push -f Dockerfile.caddy .
-    docker buildx build -t mathesar/mathesar-prod:<version_number> -t mathesar/mathesar-prod:latest --builder=container --platform=linux/amd64,linux/arm64 --push --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
+    VERSION=0.1.4 # ⚠️ CUSTOMIZE THIS
+    git checkout master
+    git pull
+    git branch -d $VERSION
+    git tag $VERSION
+    git push origin $VERSION
     ```
 
-    Note that the release needs to be tagged as `latest`.
+1. **Publish Docker images**
 
-### 4. Create release in GitHub
+    1. Clone a fresh version of the repo from `master`.
 
-- Releases are made here: https://github.com/centerofci/mathesar/releases
-- The release should be associated with the tag you made in the previous step and use the release notes.
-- Auto generate the list of closed issues using GitHub's UI and add them to the release notes. 
+        A fresh clone is necessary because all files in the directory will be present within the built Docker image. You don't want to have any ignored files like `.env` in there.
 
-### 5. Merge master into develop
+    1. `cd` to repository, check out the commit that you've tagged.
+    1. Make sure you're logged into DockerHub (credentials are in 1Password)
+    1. Run the following commands:
 
-- After the release is made successfully, merge the `master` branch into `develop`.
+        ```sh
+        VERSION=0.1.4 # ⚠️ CUSTOMIZE THIS
 
+        docker buildx create --name container --driver=docker-container
 
-### 6. Update the servers once the release is complete
+        docker buildx build \
+          -t mathesar/mathesar-caddy:$VERSION \
+          -t mathesar/mathesar-caddy:latest \
+          --builder=container \
+          --platform=linux/amd64,linux/arm64 \
+          --push \
+          -f Dockerfile.caddy .
 
-- The process to update the server is [noted here](server-update-process.md)
+        docker buildx build \
+          -t mathesar/mathesar-prod:$VERSION \
+          -t mathesar/mathesar-prod:latest \
+          --builder=container \
+          --platform=linux/amd64,linux/arm64 \
+          --push \
+          --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
+        ```
+
+        Note that the release needs to be tagged as `latest`.
+
+1. **Create GitHub release**
+
+    From the [Releases page](https://github.com/centerofci/mathesar/releases), click "Draft a new release".
+
+    - Choose the tag you just created.
+    - The title should be formatted like `Version 0.1.3 (alpha release)`
+    - Click "Generate release notes"
+    - Edit the release body markdown to hyperlink to the release notes as published on docs.mathesar.org.
+    - "Set as a pre-release" should be false
+    - "Set as the latest release" should be true
+    - "Create a discussion for this release" should be false
+
+1. **Merge master into develop**
+
+    After the release is made successfully, merge the `master` branch into `develop`. Open a new PR for this and queue it to merge when the workflows finish.
+
+## Post release
+
+1. Update the servers once the release is complete
+
+    The process to update the server is [noted here](server-update-process.md)
+
