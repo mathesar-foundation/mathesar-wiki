@@ -4,16 +4,16 @@
 
 We're looking for a backend engineer to work on [Mathesar](http://mathesar.org/), a new open source project aimed at making databases more accessible to non-technical users. Our goal is to enable users of all skill levels to store, visualize, and collaborate with others on data.
 
-We're currently working hard on our alpha version, which we are aiming to ship by the end of 2021. Our team is based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) (CCI) and we are advised by Joi Ito and Reid Hoffman.
+We're currently working hard on our alpha version, which we are aiming to ship by the end of 2021. Our team is based out of the nonprofit [Center of Complex Interventions](https://www.mathesar-foundation.org/) (CCI) and we are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
 We're working on simplifying and automating database operations and data migrations to make them easy to work with for non-technical users without sacrificing flexibility for advanced users. You'll be collaborating closely with the rest of [the Mathesar team](/team) to build the backend for the project using PostgreSQL, Python, SQLAlchemy, and Django.
 
-We're still working on the first version of the product (you can find [our roadmap on GitHub](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open)) and there's ample opportunity to provide input into the direction of the project from both the technical and usability perspectives. You'll also have opportunities to contribute to frontend and infrastructure work if you desire -- we are an informal team.
+We're still working on the first version of the product (you can find [our roadmap on GitHub](https://github.com/mathesar-foundation/mathesar/milestones?direction=asc&sort=due_date&state=open)) and there's ample opportunity to provide input into the direction of the project from both the technical and usability perspectives. You'll also have opportunities to contribute to frontend and infrastructure work if you desire -- we are an informal team.
 
 This position also involves ownership in building an active community around the project, including participating in conversations with both contributors and users, mentoring new contributors and interns, maintaining documentation and tutorials, reviewing pull requests, and so on.
 
-We are a fully distributed team and work mostly asynchronously via [Matrix](/community) and [GitHub Discussions](https://github.com/centerofci/mathesar/discussions). You can be located anywhere in the world, as long as you can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
+We are a fully distributed team and work mostly asynchronously via [Matrix](/community) and [GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions). You can be located anywhere in the world, as long as you can make time between 2 PM and 8 PM UTC for occasional video calls and team events.
 
 ## Qualifications
 Requirements:

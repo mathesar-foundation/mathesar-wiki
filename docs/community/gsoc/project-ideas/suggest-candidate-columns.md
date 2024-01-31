@@ -26,8 +26,8 @@ We should end up with python functions backed by SQL that let us determine wheth
 The successful candidate would understand the motivation for normalizing a database. They'd also understand some basics about stats and be able to relate the idea of correlations between columns of a table to how different sets of columns might be able to be extracted.
 
 ## Resources
-- [relevant code](https://github.com/centerofci/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tables/operations/split.py)
-- [relevant tests](https://github.com/centerofci/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tests/tables/operations/test_split.py)
+- [relevant code](https://github.com/mathesar-foundation/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tables/operations/split.py)
+- [relevant tests](https://github.com/mathesar-foundation/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tests/tables/operations/test_split.py)
 - [Database normalization wikipedia page](https://en.wikipedia.org/wiki/Database_normalization)
 
 ## Mentors

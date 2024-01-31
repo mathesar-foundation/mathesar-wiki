@@ -33,7 +33,7 @@ Triaging an issue means setting all the appropriate fields on it.
 
 1. **Set optional labels**
   
-    Scan through the full labels list and apply other labels as necessary. Learn more about the [meaning of all our labels](https://github.com/centerofci/mathesar/labels).
+    Scan through the full labels list and apply other labels as necessary. Learn more about the [meaning of all our labels](https://github.com/mathesar-foundation/mathesar/labels).
 
 
 1. **Verify Project and fields**
@@ -54,4 +54,4 @@ Triaging an issue means setting all the appropriate fields on it.
 
 ## Notes on Labels and Milestones
 
-The list of available labels and milestones should only be changed in the `mathesar` repo. They are synced every day to the other repos related to the project using [this GitHub action](https://github.com/centerofci/mathesar/blob/master/.github/workflows/sync-github-labels-milestones.yml).
+The list of available labels and milestones should only be changed in the `mathesar` repo. They are synced every day to the other repos related to the project using [this GitHub action](https://github.com/mathesar-foundation/mathesar/blob/master/.github/workflows/sync-github-labels-milestones.yml).

@@ -45,13 +45,13 @@ If you extract a foreign key column, you'll lose the foreign key link. Start wit
 
 Suppose The **Teacher** column references the **Teachers** table ID, and I want to extract the **Subject** and **Teacher** columns from the **Roster** table to create a new table. Currently, this breaks the foreign key link between the **Teacher** column and the **Teachers** table.
 
-If you extract or move some portion of the columns involved in a multi-column constraint (e.g., a unique constraint), the constraint is silently dropped with no warning or error. See [the issue](https://github.com/centerofci/mathesar/issues/1437).
+If you extract or move some portion of the columns involved in a multi-column constraint (e.g., a unique constraint), the constraint is silently dropped with no warning or error. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1437).
 
-It's not possible to extract a non-orderable set of columns, or rather when doing so you end up jumbling up the foreign key links. See [the issue](https://github.com/centerofci/mathesar/issues/1490).
+It's not possible to extract a non-orderable set of columns, or rather when doing so you end up jumbling up the foreign key links. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1490).
 
-If you try to extract a column referenced by a foreign key column, we currently throw an error, and fail. See [the issue](https://github.com/centerofci/mathesar/issues/1433). 
+If you try to extract a column referenced by a foreign key column, we currently throw an error, and fail. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1433). 
 
-If you extract columns from the middle of a table, the new foreign key column is still the last column of the table. See [the issue](https://github.com/centerofci/mathesar/issues/1681).
+If you extract columns from the middle of a table, the new foreign key column is still the last column of the table. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1681).
 
 
 ## Solution

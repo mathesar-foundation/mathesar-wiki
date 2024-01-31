@@ -51,23 +51,23 @@ This project is a collection of smaller usability-related tickets that seem to p
 
 (See work plan)
 
-[1421]: https://github.com/centerofci/mathesar/issues/1421
-[1688]: https://github.com/centerofci/mathesar/issues/1688
-[1885]: https://github.com/centerofci/mathesar/issues/1885
-[1917-done]: https://github.com/centerofci/mathesar/issues/1917#issuecomment-1505572348
-[1917]: https://github.com/centerofci/mathesar/issues/1917
-[2232]: https://github.com/centerofci/mathesar/issues/2232
-[2362]: https://github.com/centerofci/mathesar/issues/2362
-[2377]: https://github.com/centerofci/mathesar/issues/2377
-[2387]: https://github.com/centerofci/mathesar/issues/2387
-[2773]: https://github.com/centerofci/mathesar/pull/2773
-[2782]: https://github.com/centerofci/mathesar/pull/2782
-[2792]: https://github.com/centerofci/mathesar/pull/2792
-[2808]: https://github.com/centerofci/mathesar/pull/2808
-[2811]: https://github.com/centerofci/mathesar/issues/2811
-[2812]: https://github.com/centerofci/mathesar/issues/2812
+[1421]: https://github.com/mathesar-foundation/mathesar/issues/1421
+[1688]: https://github.com/mathesar-foundation/mathesar/issues/1688
+[1885]: https://github.com/mathesar-foundation/mathesar/issues/1885
+[1917-done]: https://github.com/mathesar-foundation/mathesar/issues/1917#issuecomment-1505572348
+[1917]: https://github.com/mathesar-foundation/mathesar/issues/1917
+[2232]: https://github.com/mathesar-foundation/mathesar/issues/2232
+[2362]: https://github.com/mathesar-foundation/mathesar/issues/2362
+[2377]: https://github.com/mathesar-foundation/mathesar/issues/2377
+[2387]: https://github.com/mathesar-foundation/mathesar/issues/2387
+[2773]: https://github.com/mathesar-foundation/mathesar/pull/2773
+[2782]: https://github.com/mathesar-foundation/mathesar/pull/2782
+[2792]: https://github.com/mathesar-foundation/mathesar/pull/2792
+[2808]: https://github.com/mathesar-foundation/mathesar/pull/2808
+[2811]: https://github.com/mathesar-foundation/mathesar/issues/2811
+[2812]: https://github.com/mathesar-foundation/mathesar/issues/2812
 [spec]: https://wiki.mathesar.org/en/design/specs/clipboard-interactions
-[w-90]: https://github.com/centerofci/mathesar-wiki/pull/90
-[2844]: https://github.com/centerofci/mathesar/issues/2844
-[2867]: https://github.com/centerofci/mathesar/pull/2867
+[w-90]: https://github.com/mathesar-foundation/mathesar-wiki/pull/90
+[2844]: https://github.com/mathesar-foundation/mathesar/issues/2844
+[2867]: https://github.com/mathesar-foundation/mathesar/pull/2867
 

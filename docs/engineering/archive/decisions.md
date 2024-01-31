@@ -6,30 +6,30 @@
 
 ## June 2021
 - We decided to use limit/offset pagination instead of cursor pagination.
-	- **Discussion**: [Pagination options](https://github.com/centerofci/mathesar/discussions/177)
+	- **Discussion**: [Pagination options](https://github.com/mathesar-foundation/mathesar/discussions/177)
 - We finalized on using TypeScript on the client.
-	- **Discussion**: [Using Typescript on Client](https://github.com/centerofci/mathesar/discussions/145)
+	- **Discussion**: [Using Typescript on Client](https://github.com/mathesar-foundation/mathesar/discussions/145)
 
 ## May 2021
 - We finalized what we expect the Mathesar "Money" type to look like.
-	- **Discussion**: [Money type](https://github.com/centerofci/mathesar/discussions/118)
+	- **Discussion**: [Money type](https://github.com/mathesar-foundation/mathesar/discussions/118)
 - We're going to store timezones with local timezone information, not as UTC.
-  - **Discussion**: [Timezones](https://github.com/centerofci/mathesar/discussions/119)
+  - **Discussion**: [Timezones](https://github.com/mathesar-foundation/mathesar/discussions/119)
 - We're using `NUMERIC` Postgres types to power our general "Number" type on the roadmap.
-	- **Discussion**: ["Number" types ](https://github.com/centerofci/mathesar/discussions/116)
+	- **Discussion**: ["Number" types ](https://github.com/mathesar-foundation/mathesar/discussions/116)
 - We finalized implementation details for table creation from file imports.
-  - **Discussion**: [CSV importing / type inference](https://github.com/centerofci/mathesar/discussions/104)
+  - **Discussion**: [CSV importing / type inference](https://github.com/mathesar-foundation/mathesar/discussions/104)
 
 ## April 2021
 
 - Mathesar _should_ function as a GUI to existing DBs, although it does a lot more. There should only be one source of truth for database-related data.
-  - **Discussion:** [Mathesar: DB Client, or more integrated?](https://github.com/centerofci/mathesar/discussions/68)
+  - **Discussion:** [Mathesar: DB Client, or more integrated?](https://github.com/mathesar-foundation/mathesar/discussions/68)
 - We're using Svelte for the frontend.
-  - **Discussion:** ["Deciding the frontend framework" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/55)
+  - **Discussion:** ["Deciding the frontend framework" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/55)
 - The frontend and backend code will live in the same repository.
-  - **Discussion:** ["Repository structure to accommodate frontend code" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/53)
+  - **Discussion:** ["Repository structure to accommodate frontend code" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/53)
 - We're storing web application related tables in a separate database.
-  - **Discussion:** ["Separate DB for webapp tables and user tables" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/23)
+  - **Discussion:** ["Separate DB for webapp tables and user tables" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/23)
   - **Additional Reasoning:** We want to be able to reflect an entire database in Mathesar without having to modify it.
 
 ## March 2021

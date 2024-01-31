@@ -10,7 +10,7 @@ Outputs of our design process.
 - [Reports](/design/reports) - *Conclusions drawn after research*
 
 ## Workflow
-Design tasks are [tracked on GitHub](https://github.com/centerofci/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22work%3A+design%22) and are closely tied to our [Roadmap](/product/roadmap). 
+Design tasks are [tracked on GitHub](https://github.com/mathesar-foundation/mathesar/issues?q=is%3Aopen+is%3Aissue+label%3A%22work%3A+design%22) and are closely tied to our [Roadmap](/product/roadmap). 
 
 We aim to complete design work for a milestone at least 2-3 weeks before the deadline to allow sufficient time for implementation. Design is usually at a couple of milestones ahead of backend work.
 

@@ -50,7 +50,7 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 - We won't be bombarding the user with addon services or unnecessary configuration options
 
 ### Github issue
-- [Meta issue](https://github.com/centerofci/mathesar/issues/3172)
+- [Meta issue](https://github.com/mathesar-foundation/mathesar/issues/3172)
 
 ### Discussion work
 - Figure out where to host the Debian package on a server until we can get into the Debian official package repo. Possible options

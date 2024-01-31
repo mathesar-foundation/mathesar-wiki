@@ -13,15 +13,15 @@ If you're creating a GitHub repo, please make sure you do all of these things.
     - [ ] Public repos should also have the "Mathesar Community Team" added with "Write" permissions.
 - [ ] Set up our default GitHub workflows
     - This plugs the repo into the main Mathesar project and sets up some QoL automations
-    - See update of `sync.yml` in this [example PR](https://github.com/centerofci/mathesar/pull/3234)
-- [ ] Merge the new PR this generates ([example](https://github.com/centerofci/mathesar-internal-crm/pull/3))
+    - See update of `sync.yml` in this [example PR](https://github.com/mathesar-foundation/mathesar/pull/3234)
+- [ ] Merge the new PR this generates ([example](https://github.com/mathesar-foundation/mathesar-internal-crm/pull/3))
 - [ ] Set up comprehensive `.gitignore` file
     - You can copy this from `mathesar-private-notes` repo since it's fairly basic and doesn't involve code-specific things.
 - [ ] Set up label & milestone sync
     - This syncs labels and milestones between repos
-    - See update of `sync-github-labels-milestones.yml` in [this example](https://github.com/centerofci/mathesar/pull/3234)
+    - See update of `sync-github-labels-milestones.yml` in [this example](https://github.com/mathesar-foundation/mathesar/pull/3234)
 - [ ] Run the workflow above manually in the `mathesar` repo (so you don't have to wait a day for labels and milestones to sync)
-    - Click "run workflow" [here](https://github.com/centerofci/mathesar/actions/workflows/sync-github-labels-milestones.yml)
+    - Click "run workflow" [here](https://github.com/mathesar-foundation/mathesar/actions/workflows/sync-github-labels-milestones.yml)
 - [ ] Verify that the new milestones and labels are now available on the new repo
 - [ ] Delete default labels created by GitHub that we don't use (i.e. `bug`, `documentation`, `enhancement`, `question` etc.)
 - [ ] Ensure that repo has access to correct GitHub token for actions

@@ -19,13 +19,13 @@ A separate specifications page describes both the technical intricacies of imple
 
 ### Closed pull requests:
 
-- https://github.com/centerofci/mathesar/pull/1478 - an initial pull request that served as a proof of concept at the beginning (returns a full dependents graph for tables)
-- https://github.com/centerofci/mathesar/pull/1540 - the first refactoring to make code more readable and include more info into the query result
-- https://github.com/centerofci/mathesar/pull/1572 - tests refactoring to match with the project’s single use-case
-- https://github.com/centerofci/mathesar/pull/1577 - adding more types as possible dependent objects (like views and indexes)
-- https://github.com/centerofci/mathesar/pull/1585 - endpoint for returning schema dependents
-- https://github.com/centerofci/mathesar/pull/1608 - endpoint for returning column dependents
-- https://github.com/centerofci/mathesar/pull/1638 - backend filters to completely remove dependents of a specific type from the result
+- https://github.com/mathesar-foundation/mathesar/pull/1478 - an initial pull request that served as a proof of concept at the beginning (returns a full dependents graph for tables)
+- https://github.com/mathesar-foundation/mathesar/pull/1540 - the first refactoring to make code more readable and include more info into the query result
+- https://github.com/mathesar-foundation/mathesar/pull/1572 - tests refactoring to match with the project’s single use-case
+- https://github.com/mathesar-foundation/mathesar/pull/1577 - adding more types as possible dependent objects (like views and indexes)
+- https://github.com/mathesar-foundation/mathesar/pull/1585 - endpoint for returning schema dependents
+- https://github.com/mathesar-foundation/mathesar/pull/1608 - endpoint for returning column dependents
+- https://github.com/mathesar-foundation/mathesar/pull/1638 - backend filters to completely remove dependents of a specific type from the result
 
 ## Main challenges
 
@@ -50,5 +50,5 @@ Special thanks to Mukesh Murali for constant support and help during our weekly 
 
 - The initial proposal for the project: [Construct Dependency Graph for Database Objects (GSoC 2022 Proposal by Yurii Palaida) (summerofcode.withgoogle.com)](https://summerofcode.withgoogle.com/media/user/746462d805d7/proposal/gAAAAABjPFsNHDKT8MmRc7wvBWHNqHVhZZa2zdgOwgCAVO1hVouvPx9F8Fem2qViSJH1jZBtN9IC84krrl5sxqew5zkjgGkcqXQBv0wGrexvNZCNX7lB1J0=.pdf)
 - A blog post with impressions on the first part of the project: [How I Spent My [Google] Summer [of Code] Part 1 | by Yurii Palaida | Aug, 2022 | Medium](https://jyuart.medium.com/how-i-spent-my-google-summer-of-code-part-1-d7ab7fdc04d7)
-- All the issues done during the project: https://github.com/centerofci/mathesar/issues/398
+- All the issues done during the project: https://github.com/mathesar-foundation/mathesar/issues/398
 - [The tech spec of the implemented feature](/engineering/specs/dependents-graph)

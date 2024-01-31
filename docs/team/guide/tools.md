@@ -4,7 +4,7 @@
 We use GitHub for code, issue tracking, and long form discussions. Please see [Workflow](/team/guide/workflow) for more information.
 
 ## Gmail
-Everyone has an `@centerofci.org` email address that we use for everything work-related. We don't generally use much email.
+Everyone has an `@mathesar-foundation.org` email address that we use for everything work-related. We don't generally use much email.
 
 `admins [at] mathesar [dot] org` is a Google Group that some Mathesar staff members are on. We use it for shared accounts (e.g. DockerHub). Emails sent to it forward to all of us.
 

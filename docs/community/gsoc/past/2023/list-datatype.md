@@ -64,7 +64,7 @@ Also while trying to integrate this class to the project, I faced difficulties s
 The difficulty of introducing this decorator in the codebase and the type of changes required are indicative of the type of problems that could be found porting other pseudo data types.
 
 #### Custom adapter
-It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and viceversa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/centerofci/mathesar/issues/2962), [#2966](https://github.com/centerofci/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
+It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and viceversa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/mathesar-foundation/mathesar/issues/2962), [#2966](https://github.com/mathesar-foundation/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
 
 This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex. Moreover, it works mostly on Python’s side, meaning we are not enforcing anything on the DB side.
 
@@ -192,7 +192,7 @@ Also, consider using the term "Array" instead of "list", as the first one enclos
 #### Rendering an array
 For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
 
-The `ArrayCell` [component](https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/src/components/cell-fabric/data-types/components/array/ArrayCell.svelte) receives a list object and renders a pill per each value. Currently, it is not handling any length or dimensions property. This is convenient as, for an Array column, we can have any number of elements and dimensions per record. 
+The `ArrayCell` [component](https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar_ui/src/components/cell-fabric/data-types/components/array/ArrayCell.svelte) receives a list object and renders a pill per each value. Currently, it is not handling any length or dimensions property. This is convenient as, for an Array column, we can have any number of elements and dimensions per record. 
 
 Also, this approach is not considering the case of N-D arrays. Here, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first version, it's not worth to delay supporting it until figuring out how to design a proper UI for this multidimensional structure.
 
@@ -205,7 +205,7 @@ Also, this approach is not considering the case of N-D arrays. Here, it would be
 Array columns are read-only, and 1-D arrays are rendered with pills (one item in one pill). 
 
 **Idea:** When editing a cell, a first and basic approach would be to let the user type in the array in the correct format (e.g with brackets, elements separated by commas). Then, as it happens for the other data types, when the user leaves a cell, a call is made to the API to update a particular record. 
-Work regarding this approach can be found in [this branch](https://github.com/centerofci/mathesar/tree/array_edition). Here, cells of an Array column can be edited. Two types of components are handled: `TextInput` for when `editMode=True`, and ArrayCell otherwise. There are some issues:
+Work regarding this approach can be found in [this branch](https://github.com/mathesar-foundation/mathesar/tree/array_edition). Here, cells of an Array column can be edited. Two types of components are handled: `TextInput` for when `editMode=True`, and ArrayCell otherwise. There are some issues:
 When entering a new value, the Frontend sends to the backend a malformed array, for example:
 
 ```

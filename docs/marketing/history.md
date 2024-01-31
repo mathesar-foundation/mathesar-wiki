@@ -38,7 +38,7 @@ This is a list of links where Mathesar was featured. Only notable links or links
 
 
 ## Launch Announcements
-- [CCI website blog](https://centerofci.org/introducing-mathesar-an-open-source-database-interface-for-everyone/)
+- [CCI website blog](https://mathesar-foundation.org/introducing-mathesar-an-open-source-database-interface-for-everyone/)
 - [Twitter: @mathesar_org](https://twitter.com/mathesar_org/status/1631384636096913421)
-- [Twitter: @centerofci](https://twitter.com/centerofci/status/1631383963053826048)
-- [LinkedIn: CCI](https://www.linkedin.com/posts/centerofci_mathesar-activity-7037435303845908480-VvKt/)
+- [Twitter: @mathesar-foundation](https://twitter.com/mathesar-foundation/status/1631383963053826048)
+- [LinkedIn: CCI](https://www.linkedin.com/posts/mathesar-foundation_mathesar-activity-7037435303845908480-VvKt/)

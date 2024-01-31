@@ -2,7 +2,7 @@
 
 Welcome to the Mathesar community! We'd love to have you involved in our project, as a contributor, a user or both! Please join our community forums and talk to us there.
 
-If you're interesting in contributing, see [Contributing](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md).
+If you're interesting in contributing, see [Contributing](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md).
 
 ## Community Channels
 

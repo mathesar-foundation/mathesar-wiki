@@ -62,7 +62,7 @@ Refactor to remove SQLAlchemy objects from calls using Python DDL functions:
 
 ## Resources
 
-[Meta-issue tracking this project](https://github.com/centerofci/mathesar/issues/2737)
+[Meta-issue tracking this project](https://github.com/mathesar-foundation/mathesar/issues/2737)
 
 ## Timeline
 

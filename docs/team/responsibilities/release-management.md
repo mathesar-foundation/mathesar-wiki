@@ -20,7 +20,7 @@ This guide is common for the owner and the helpers of the Release management res
     - For eg.,
         - Installation improvements is a project which is the main focus of v0.1.2.
         - Fixing user raised bugs is a theme which can be the focus of a release. v0.1.1 fixed all issues raised by users during a specific interval from the release of v0.1.0.
-    - The Release management team will choose the items from the [list of Current projects](/projects#current-projects) and issues the team is working on [from the "High priority" milestone](https://github.com/centerofci/mathesar/milestone/71).
+    - The Release management team will choose the items from the [list of Current projects](/projects#current-projects) and issues the team is working on [from the "High priority" milestone](https://github.com/mathesar-foundation/mathesar/milestone/71).
 1. Start an email thread with the subject: `Release plan v{release_version}`.
     - For eg., `Release plan v0.1.3`.
     - This thread will be public and all mails will be addressed to `mathesar-developers` mail group.
@@ -34,7 +34,7 @@ This guide is common for the owner and the helpers of the Release management res
     - Ensure issues needed for the release are created and placed in the release milestone.
         - The release will be blocked until all these issues are resolved.
     - Move issues not planned for the release out of the milestone.
-    - All other issues people are working on (which may end up in the release if merged in time) should go in the ["High priority" milestone](https://github.com/centerofci/mathesar/milestone/71). The release will not be blocked by items present in this milestone.
+    - All other issues people are working on (which may end up in the release if merged in time) should go in the ["High priority" milestone](https://github.com/mathesar-foundation/mathesar/milestone/71). The release will not be blocked by items present in this milestone.
 
 ## Timeline
 

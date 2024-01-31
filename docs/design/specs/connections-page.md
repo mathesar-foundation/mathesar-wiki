@@ -5,7 +5,7 @@
 
 ## Overview
 
-- The goal is to create a dedicated page titled "Database Connections." This will serve as the primary entry point for managing and setting up connections. Read more about the issue here: [Github Issue](https://github.com/centerofci/mathesar/issues/3244)
+- The goal is to create a dedicated page titled "Database Connections." This will serve as the primary entry point for managing and setting up connections. Read more about the issue here: [Github Issue](https://github.com/mathesar-foundation/mathesar/issues/3244)
 - This page should be accessible from the main navigation menu when clicking on the Mathesar logo.
 - Post-installation, this will be the initial onboarding step for users.
 
@@ -81,7 +81,7 @@ Before deletion, prompt users with a confirmation dialog.
 ## Database Page Modifications
 As part of this design, the current database page must be modified to remove the sidebar database navigation. 
 
-<img width="1511" alt="image" src="https://github.com/centerofci/mathesar-wiki/assets/845767/6d6c97f8-a9c1-4d5e-9be3-7571bcdff284">
+<img width="1511" alt="image" src="https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6d6c97f8-a9c1-4d5e-9be3-7571bcdff284">
 
 
 

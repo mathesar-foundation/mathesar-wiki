@@ -1,7 +1,7 @@
 site_name: Mathesar Wiki
 site_url: https://wiki.mathesar.org/
-repo_url: https://github.com/centerofci/mathesar-wiki/
-repo_name: centerofci/mathesar-wiki
+repo_url: https://github.com/mathesar-foundation/mathesar-wiki/
+repo_name: mathesar-foundation/mathesar-wiki
 
 
 plugins:
@@ -12,15 +12,15 @@ plugins:
       validate_external_urls: False
   - redirects:
       redirect_maps:
-        'community/setup_in_windows.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
-        'community/contributing.md': 'https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md'
-        'engineering/common-issues.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
-        'engineering/setup.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
-        'engineering/architecture/api-standards.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar/api/STANDARDS.md'
-        'engineering/architecture/front-end-standards.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
-        'engineering/setup/common-issues.md': 'https://github.com/centerofci/mathesar/blob/develop/DEVELOPER_GUIDE.md'
-        'engineering/standards/api.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar/api/STANDARDS.md'
-        'engineering/standards/frontend.md': 'https://github.com/centerofci/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
+        'community/setup_in_windows.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'community/contributing.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md'
+        'engineering/common-issues.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/setup.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/architecture/api-standards.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar/api/STANDARDS.md'
+        'engineering/architecture/front-end-standards.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
+        'engineering/setup/common-issues.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
+        'engineering/standards/api.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar/api/STANDARDS.md'
+        'engineering/standards/frontend.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar_ui/STANDARDS.md'
         'community/mentoring.md': 'community/gsoc/index.md'
         'community/mentoring/applicant-guide.md': 'community/gsoc/applicant-guide.md'
         'community/mentoring/mentee-guide.md': 'community/gsoc/mentee-guide.md'

@@ -6,7 +6,7 @@
 
 Relevant issues are:
 
-[\#199](https://github.com/centerofci/mathesar/issues/199), [\#200](https://github.com/centerofci/mathesar/issues/200), and [\#201](https://github.com/centerofci/mathesar/issues/201)
+[\#199](https://github.com/mathesar-foundation/mathesar/issues/199), [\#200](https://github.com/mathesar-foundation/mathesar/issues/200), and [\#201](https://github.com/mathesar-foundation/mathesar/issues/201)
 
 As specified in the table import [design spec](/design/specs/table-import), we need to be able to support a flow where the user imports a CSV, then sees a preview of the table which would be created, with inferred types.  Thus, we need to create a table preview endpoint.
 

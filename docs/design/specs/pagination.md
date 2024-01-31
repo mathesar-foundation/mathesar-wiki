@@ -46,5 +46,5 @@ Some of the following points were discussed and shall be reconsidered later when
 - Cursor-based pagination requires users to traverse through the entire result set page by page.
 
 !!! info "Information"
-    Please see ["Pagination options" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/177) for more detail.
+    Please see ["Pagination options" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/177) for more detail.
 

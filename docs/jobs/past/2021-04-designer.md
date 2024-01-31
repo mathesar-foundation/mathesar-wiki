@@ -5,7 +5,7 @@
 ## The Project
 We're looking for a product designer to help build a brand new open source product that helps users of all skill levels use, extend, and visualize their data. We are heavily inspired by [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
 
-The current team is two engineers, we're alumni of Creative Commons and have experience working on open source projects and building community. We're aiming for an initial team size of four, including this position and a frontend engineer. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) and are advised by Joi Ito and Reid Hoffman.
+The current team is two engineers, we're alumni of Creative Commons and have experience working on open source projects and building community. We're aiming for an initial team size of four, including this position and a frontend engineer. We're based out of the nonprofit [Center of Complex Interventions](https://www.mathesar-foundation.org/) and are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
 We haven't started writing code for this project yet and your first task will be to help us design and ship the MVP. You'll have full ownership of the product design process, including user interviews, taking ideas from initial conception to high-fidelity designs, and regular usability testing. You'll translate complex data manipulation concepts into a simple and intuitive user interface for non-technical users. You'll collaborate closely with the front end engineer to ship your designs.

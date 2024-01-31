@@ -6,7 +6,7 @@ Implementing the planned changes will be done in separate projects
 - [Installation Improvement 0.1.4](/projects/installation-improvements-0_1_4)
 
 ### Problems
-1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot of pain points.
+1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/mathesar-foundation/mathesar/discussions/3108) summarizes a lot of pain points.
 
 ### Reasons
 1. We are targeting too many different use cases for Mathesar in our current documentation, which makes the documentation overwhelming for the user, and we need to simplify things.

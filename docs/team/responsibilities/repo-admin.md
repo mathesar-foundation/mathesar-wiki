@@ -26,7 +26,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - Assignee - Make sure it's assigned to someone. You might want to check the recent conversation to validate the assignee.
     - Label - Make sure it has the correct `status:` label.
     - Milestone - Make sure it's in the same milestone as the issue it fixes.
-    - Description: Make sure it follows our [PR template](https://github.com/centerofci/mathesar/blob/develop/.github/PULL_REQUEST_TEMPLATE).
+    - Description: Make sure it follows our [PR template](https://github.com/mathesar-foundation/mathesar/blob/develop/.github/PULL_REQUEST_TEMPLATE).
     - Personally follow up with the assignees if there hasn't been any activity on it from the last 3-4 working days.
         - If it's a core team member, you can reach out via Matrix.
         - If it's a non-core team member, you can tag and ask for an update using the PR comments.
@@ -42,7 +42,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - Pay extra attention before marking an issue as ready. Do not mark issues as `status: ready` until they have enough details for someone to work on them.
     - Assignee:
         - Make sure to assign the issue if someone wants to claim it and the issue is not restricted to maintainers.
-        - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
+        - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md)
     - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
 
 - If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/team/responsibilities/user-feedback), [marketing](/team/responsibilities/marketing.md)) respectively.
@@ -63,14 +63,14 @@ You need to install [github-cli](https://github.com/cli/cli#installation) to use
 
 ```
 export GH_PAGER=cat
-gh -R centerofci/mathesar issue list --search "is:open no:milestone"
-gh -R centerofci/mathesar issue list --search 'is:open label:"status: triage"'
-gh -R centerofci/mathesar pr list --search "is:open no:assignee -is:draft"
-gh -R centerofci/mathesar pr list --search "is:open no:milestone -is:draft"
+gh -R mathesar-foundation/mathesar issue list --search "is:open no:milestone"
+gh -R mathesar-foundation/mathesar issue list --search 'is:open label:"status: triage"'
+gh -R mathesar-foundation/mathesar pr list --search "is:open no:assignee -is:draft"
+gh -R mathesar-foundation/mathesar pr list --search "is:open no:milestone -is:draft"
 
-gh -R centerofci/mathesar-wiki issue list --search "is:open no:milestone"
-gh -R centerofci/mathesar-wiki issue list --search 'is:open label:"status: triage"'
-gh -R centerofci/mathesar-wiki pr list --search "is:open no:assignee -is:draft"
+gh -R mathesar-foundation/mathesar-wiki issue list --search "is:open no:milestone"
+gh -R mathesar-foundation/mathesar-wiki issue list --search 'is:open label:"status: triage"'
+gh -R mathesar-foundation/mathesar-wiki pr list --search "is:open no:assignee -is:draft"
 ```
 
 ### Helper's Tasks

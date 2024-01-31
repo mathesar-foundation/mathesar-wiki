@@ -20,7 +20,7 @@ This is useful in various situations
 - Extract dependency information from [System Catalog tables](https://www.postgresql.org/docs/8.4/catalogs.html) for the queried object
 - System Catalog Tables does not contain the dependency information of a function as functions are stored as text on the database. So [pglast](https://github.com/lelit/pglast) should be used to extract dependency information from the function body.
 - Build Dependency graph based on the dependency information.
-- Add Django dependency API to resources [listed in this issue](https://github.com/centerofci/mathesar/issues/398), making use of the underlying python dependency API
+- Add Django dependency API to resources [listed in this issue](https://github.com/mathesar-foundation/mathesar/issues/398), making use of the underlying python dependency API
 
 ### Bonus Tasks
 - Integrate it into the UI to support features as needed
@@ -33,7 +33,7 @@ A good candidate would be someone who has good understanding of SQL, and align t
 
 ## Resources
 - [Reference code](https://wiki.postgresql.org/wiki/Pg_depend_display)
-- [Relevant discussion](https://github.com/centerofci/mathesar/issues/398)
+- [Relevant discussion](https://github.com/mathesar-foundation/mathesar/issues/398)
 
 ## Mentors
 - **Primary Mentor**: Mukesh Murali

@@ -46,7 +46,7 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 - Issues uncovered during testing might affect the timeline.
 
 ## Resources
-- **Milestone**: [v0.1.2](https://github.com/centerofci/mathesar/milestone/68)
+- **Milestone**: [v0.1.2](https://github.com/mathesar-foundation/mathesar/milestone/68)
 
 ## Timeline
 * Deadline for release will be **2023-05-10**.

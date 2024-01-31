@@ -53,8 +53,8 @@ https://wiki.mathesar.org/
 
 ## See also
 
-- The [source content for Mathesar's _documentation_](https://github.com/centerofci/mathesar/tree/develop/docs), which also utilizes MkDocs.
+- The [source content for Mathesar's _documentation_](https://github.com/mathesar-foundation/mathesar/tree/develop/docs), which also utilizes MkDocs.
 
 - [Mathesar's homepage](https://mathesar.org/)
 
-- [Mathesar's main source code repository](https://github.com/centerofci/mathesar)
+- [Mathesar's main source code repository](https://github.com/mathesar-foundation/mathesar)

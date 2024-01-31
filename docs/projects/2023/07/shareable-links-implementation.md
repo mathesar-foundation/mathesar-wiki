@@ -22,7 +22,7 @@ Implement Shareable links for tables & queries.
 ## Solution
 
 * Implement Shareable links feature
-* [GH Meta ticket](https://github.com/centerofci/mathesar/issues/3032)
+* [GH Meta ticket](https://github.com/mathesar-foundation/mathesar/issues/3032)
 
 ## Timeline
 This project should be completed within the cycle.

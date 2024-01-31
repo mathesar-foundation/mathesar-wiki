@@ -59,4 +59,4 @@ Some common data types used by users (e.g. emails, URLs, etc.) do not have nativ
 
 ## Further Reading
 - The [Global Data Type Components design spec](/design/specs/global-data-type-components) shows the user experience of UI Data Types and PostgreSQL types in the UI.
-- ["Mathesar Data Types definition" on GitHub Discussions](https://github.com/centerofci/mathesar/discussions/959)
+- ["Mathesar Data Types definition" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/959)

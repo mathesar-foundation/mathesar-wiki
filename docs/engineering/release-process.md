@@ -10,7 +10,7 @@ For details on the Release management process, refer the [Release management ong
 
 ### 1. Track the process in a GH issue {:#tracking-issue}
 
-Create a meta issue to track progress of the release process with the label `work: release`. Follow the template of [Release 0.1.1](https://github.com/centerofci/mathesar/issues/2705).
+Create a meta issue to track progress of the release process with the label `work: release`. Follow the template of [Release 0.1.1](https://github.com/mathesar-foundation/mathesar/issues/2705).
 
 ### 2. Create the release branch and update version number {:#create-branch}
 
@@ -77,7 +77,7 @@ Create a meta issue to track progress of the release process with the label `wor
 1. Install the new version:
 
     ```sh
-    bash <(curl -sL https://raw.githubusercontent.com/centerofci/mathesar/<version_number>/install.sh)
+    bash <(curl -sL https://raw.githubusercontent.com/mathesar-foundation/mathesar/<version_number>/install.sh)
     ```
 
     - Note that the installation command will vary based on the installation method you use. The above command used the interactive installer.
@@ -93,7 +93,7 @@ Create a meta issue to track progress of the release process with the label `wor
    		- Eg., Assuming the current version is `0.1.0`, and the new version we need to release is `0.1.1`:
 
             ```sh
-            bash <(curl -sL https://raw.githubusercontent.com/centerofci/mathesar/0.1.0/install.sh)
+            bash <(curl -sL https://raw.githubusercontent.com/mathesar-foundation/mathesar/0.1.0/install.sh)
             ```
 
     - Open Mathesar on browser, create a few tables. Ensure the version shown in the product is the old one. i.e `0.1.0`.
@@ -279,7 +279,7 @@ Tasks:
 
 1. **Create GitHub release**
 
-    From the [Releases page](https://github.com/centerofci/mathesar/releases), click "Draft a new release".
+    From the [Releases page](https://github.com/mathesar-foundation/mathesar/releases), click "Draft a new release".
 
     - Choose the tag you just created.
     - The title should be formatted like `Version 0.1.3 (alpha release)`

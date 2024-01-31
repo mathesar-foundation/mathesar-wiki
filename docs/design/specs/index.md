@@ -6,7 +6,7 @@ See [styling and UX improvements across the entire product in Figma](https://www
 
 ## Features
 
-These are specs for new features, corresponding to our [development milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open).
+These are specs for new features, corresponding to our [development milestones](https://github.com/mathesar-foundation/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 ### Table Inspector
 - [Inline Saving and Editing](/design/specs/inline-save-edit.md)

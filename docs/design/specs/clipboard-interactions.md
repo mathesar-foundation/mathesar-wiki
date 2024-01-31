@@ -6,7 +6,7 @@
 
 ## Additional Context
 
-- [GitHub Issue](https://github.com/centerofci/mathesar/issues/2377)
+- [GitHub Issue](https://github.com/mathesar-foundation/mathesar/issues/2377)
 - [Usability Improvements project](/projects/2023-04-usability-improvements.md) which contains this work
 
 ## Terminology and abbreviations in this document
@@ -123,7 +123,7 @@
 
     - When a non-cell element has focus, cells cannot be copied, even if they are selected. This behavior is somewhat important, given that we have pages like the Record Page which can contain multiple sheets (and thus distinct cell selections simultaneously).
 
-    - Mathesar do not currently provide a visual indication when the cell has focus, but we have an [issue](https://github.com/centerofci/mathesar/issues/2380) discussing problems with this approach and ways to fix it. Those improvements can be implemented separately from the clipboard interaction implementation.
+    - Mathesar do not currently provide a visual indication when the cell has focus, but we have an [issue](https://github.com/mathesar-foundation/mathesar/issues/2380) discussing problems with this approach and ways to fix it. Those improvements can be implemented separately from the clipboard interaction implementation.
 
 - When copying, Mathesar writes the following data to the clipboard:
 
@@ -278,7 +278,7 @@
 
 ## Design imperfections and future considerations
 
-- In my [initial "copy" implementation](https://github.com/centerofci/mathesar/pull/2773), I notice that copying a lot of cells takes some time and **locks the main thread.** This is not great, but it's because we're using the sync API. It's hard to get around this though since the async API isn't fully implemented in Firefox yet. We could potentially use the async API if it's available, while falling back to the sync API for Firefox. If we want to do that, I'd rather do it later when/if users ask for improved performance here.
+- In my [initial "copy" implementation](https://github.com/mathesar-foundation/mathesar/pull/2773), I notice that copying a lot of cells takes some time and **locks the main thread.** This is not great, but it's because we're using the sync API. It's hard to get around this though since the async API isn't fully implemented in Firefox yet. We could potentially use the async API if it's available, while falling back to the sync API for Firefox. If we want to do that, I'd rather do it later when/if users ask for improved performance here.
 
 - It would be nice to add **context menu entries for copy/paste**, but there are some challenges here.
 

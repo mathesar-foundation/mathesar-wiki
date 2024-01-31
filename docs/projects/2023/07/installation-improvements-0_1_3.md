@@ -53,7 +53,7 @@ The low hanging fruit we plan to tackle in this cycle:
 - Create Mathesar Debian package
 	- *Problem solved*: Reduces installation steps (dependencies, static file building, etc.). We're choosing Debian because it's the most common server.
 - Update documentation to provide non-superuser permissions while installing Mathesar
-	- We're prioritizing this because it's a [user reported issue](https://github.com/centerofci/mathesar/issues/2990) and has been brought up in launch user feedback.
+	- We're prioritizing this because it's a [user reported issue](https://github.com/mathesar-foundation/mathesar/issues/2990) and has been brought up in launch user feedback.
 
 Issues we need to resolve through discussions:
 
@@ -70,7 +70,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 
 - Build helm charts
 	- *Limitations*: Just the yaml file for the mathesar app. We won't be adding to the installation documentation or adding it to the helm repo in this cycle
-	- *Problem solved*: Reduces steps for Kubernetes user and also [requested by users](https://github.com/centerofci/mathesar/issues/2633)
+	- *Problem solved*: Reduces steps for Kubernetes user and also [requested by users](https://github.com/mathesar-foundation/mathesar/issues/2633)
 - Build zipapps
 	- *Limitations*: Just the script to generate the zipapp. It won't be added to the installation documentation in this cycle
 	- *Problem solved*: Reduces steps for non-docker and non-debian installs
@@ -117,7 +117,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 - SQLite codebase refactor is quite small as Mathesar uses a Postgres related field in only one place (for storing column order)
 
 ## Github issue
-- [Meta issue](https://github.com/centerofci/mathesar/issues/3058)
+- [Meta issue](https://github.com/mathesar-foundation/mathesar/issues/3058)
 
 ## Resources
 - [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/_vJfb_sXdfE)
