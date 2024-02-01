@@ -2,7 +2,7 @@
 
 Scope:
 
-- This document lays out problems and potential solutions to worksheets from a technical perspective.
+- This document lays out challenges and potential solutions to worksheets from a technical perspective.
 - This document does _not_ concern itself with any UX issues.
 
 Status:
@@ -75,16 +75,16 @@ We use the following example in a number of places throughout the document:
 
     Here's (roughly) how the sheet would appear to the user.
 
-    |    | book_id | title | author        | author_url         | genres                | copies |
-    | -- | --:     | --    | --            | --                 | --                    | --:    |
-    | 1  | 921     | Foo   | `Alice Davis` | _`NULL`_           | `Adventure` `Fantasy` | 10     |
-    | 2  | 32      | Bar   | `Bob Scott`   | http://example.com |                       | 0      |
-    | 3  | 1007    | Apple | `Bob Scott`   | http://example.com | `Non-fiction`         | 2      |
+    | book_id | title | author        | author_url         | genres                | copies |
+    | --:     | --    | --            | --                 | --                    | --:    |
+    | 921     | Foo   | `Alice Davis` | _`NULL`_           | `Adventure` `Fantasy` | 10     |
+    | 32      | Bar   | `Bob Scott`   | http://example.com |                       | 0      |
+    | 1007    | Apple | `Bob Scott`   | http://example.com | `Non-fiction`         | 2      |
 
 
 ## OIDs vs names
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - Do worksheets reference PostgreSQL tables and columns using names or OIDs?
 > - If we use OIDs, how do we allow the user to edit the SQL using names?
@@ -212,30 +212,30 @@ Here's how we fetch the record summary data for the [Book List Example](#book-li
 
 - In the [Book List Example](#book-list-example), we'd get this metadata:
 
-    ```json5
+    ```json
     {
       "book_id": {
         "classification": "pk_cell",
         "table": "books",
-        "column": "id",
+        "column": "id"
       },
       "title": {
         "classification": "data_cell",
         "table": "books",
         "column": "title",
-        "pk_lookup_reference": [ "book_id" ],
+        "pk_lookup_reference": [ "book_id" ]
       },
       "author": {
         "classification": "data_cell",
         "table": "books",
         "column": "author_id",
-        "pk_lookup_reference": [ "book_id" ],
+        "pk_lookup_reference": [ "book_id" ]
       },
       "author_url": {
         "classification": "data_cell",
         "table": "author",
         "column": "url",
-        "pk_lookup_reference": [ "author" ],
+        "pk_lookup_reference": [ "author" ]
       },
       "genres": {
         "classification": "pk_array",
@@ -247,7 +247,7 @@ Here's how we fetch the record summary data for the [Book List Example](#book-li
               "query_column": "book_id"
             }
           }
-        ],
+        ]
       },
       "copies": {
         "classification": "aggregate_count",
@@ -259,8 +259,8 @@ Here's how we fetch the record summary data for the [Book List Example](#book-li
               "query_column": "book_id"
             }
           }
-        ],
-      },
+        ]
+      }
     }
     ```
 
@@ -296,7 +296,7 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 ## Reactivity
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - How do dependent cells refresh when DML changes are made?
 
@@ -310,7 +310,7 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 ## Pagination
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - How does pagination work if the SQL query defines its own LIMIT/OFFSET?
 > - How do we apply LIMIT/OFFSET to user-written queries?
@@ -333,7 +333,7 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 ## Outline view
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - How do we show the total number of items in an outline group without necessarily having all the items present in the result set (due to pagination)?
 
@@ -351,26 +351,16 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 - Sheet display
 
-    <details expanded>
-    <summary>author <tt>Alice Davis</tt> (1)
-    </summary>
+    ??? note "author _Alice Davis_ (1)"
+        |    | book_id | title | author        |
+        | -- | --:     | --    | --            |
+        | 1  | 921     | Foo   | `Alice Davis` |
 
-    > |    | book_id | title | author        |
-    > | -- | --:     | --    | --            |
-    > | 1  | 921     | Foo   | `Alice Davis` |
-
-    </details>
-
-    <details expanded>
-    <summary>author <tt>Bob Scott</tt> (2)
-    </summary>
-
-    > |    | book_id | title | author        |
-    > | -- | --:     | --    | --            |
-    > | 2  | 32      | Bar   | `Bob Scott`   |
-    > | 3  | 1007    | Apple | `Bob Scott`   |
-
-    </details>
+    ??? note "author _Bob Scott_ (2)"
+        |    | book_id | title | author        |
+        | -- | --:     | --    | --            |
+        | 2  | 32      | Bar   | `Bob Scott`   |
+        | 3  | 1007    | Apple | `Bob Scott`   |
 
 ### Nested pagination
 
@@ -409,7 +399,7 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 ## Default worksheets
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - How do we allow default worksheets to be set for tables without messing things up? For example, we want to avoid a default which has hidden columns.
 
@@ -429,7 +419,7 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 
 ## Column control
 
-> 🤔 **Problems:**
+> 🤔 **Challenges:**
 >
 > - Should column reordering modify query or modify sheet display options?
 > - How are new columns added (or not added) to existing worksheets after being added to a table?
