@@ -38,6 +38,10 @@
   --md-typeset-a-color: #fff;
 }
 
+.md-grid {
+  max-width: 80rem;
+}
+
 .md-nav--primary > label.md-nav__title {
   /**
    * Without this, the "Mathesar Wiki" label has a shadow that partially
