@@ -81,9 +81,10 @@ The proposed Navigation Consistency Updates aim to enhance the user experience b
 
 ### From the Administration Pages
 
-![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/38c830b2-2839-41ac-b5f2-83f6dbff469b)
+![image](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/14d1c7c1-29c5-4c37-b470-f3cac989022f)
 
 - No dropdown menus will be on the admin pages because they're at a higher level and don't need to help with data navigation. This keeps the menu behavior the same everywhere, which is less confusing for users.
+- Icons in this section will adopt the primary color to distinguish it as a separate area.
 
 ## Additional UI Details
 
