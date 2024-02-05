@@ -91,6 +91,16 @@ We use the following example in a number of places throughout the document:
 
 TODO
 
+## Query safeguards
+
+> 🤔 **Challenges:**
+>
+> - Do we want to prevent users from manually executing DML and DDL in their queries?
+>     - If so, how?
+>     - Are temporary tables okay?
+
+TODO
+
 ## Record summaries
 
 > 🤔 **Challenges:**
@@ -106,7 +116,7 @@ TODO
 
 - The record summary can be turned off in the display settings too. When it's off, the raw PK values will display.
 
-- By default: record summaries are enabled wherever possible — except for the PK column on the table in the `FROM` clause.
+- By default: record summaries are enabled wherever possible.
 
     In the [Book List Example](#book-list-example), this is how we get record summaries for `author` and `genres` by default, without getting record summaries for `id`.
 
