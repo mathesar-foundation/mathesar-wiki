@@ -16,12 +16,11 @@ Goals of the meeting:
 
 ## Notes
 
-- Is everyone agreed generally that the beta is focused on performance and (maybe) usability. No big new features. Basically get Mathesar to the point where we recommend it to people?
+- Is everyone agreed generally that the beta is focused on performance and (maybe) usability. No big new features. Basically get Mathesar to the point where we can recommend it to more users?
     - Yes, everyone agrees.
 - Why beta?
-    - Big goal is to grow our user base. Currently this is hard because we can't recommend it to people. We need it to perform better before we can do that.
+    - Big goal is to grow our user base. Currently this is hard because we can't recommend it to a lot of users (due to alpha status, performance issues). We need it to perform better before we can do that.
 - Brent: do we want forms for beta? Kriti: no. We should probably build this shortly after beta.
-
 - Order of operations
     - Pavish: how much difference do we want/forsee between beta and 0.1?
         - Kriti: not sure
