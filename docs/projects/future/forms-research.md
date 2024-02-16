@@ -20,7 +20,7 @@ We want to know if there's a form-like feature-set we could implement without to
 
 ## Solution
 
-It is not obvious that copying competing solutions would be a useful strategy, so we're largely looking at survey/interview research as the source of insight. Intersects with the ["Gathering User Feedback" project](https://wiki.mathesar.org/en/projects/gather-user-feedback).
+It is not obvious that copying competing solutions would be a useful strategy, so we're largely looking at survey/interview research as the source of insight. Intersects with the ["Gathering User Feedback" project](/projects/gather-user-feedback).
  
 - Build the qualifying survey
 - Perform the qualifying survey

@@ -29,7 +29,7 @@ When importing a table from a CSV file, we attempt to give reasonable types to t
 - Describe your plan or preliminary research for each of the Tasks with clarity.
 
 ## Resources
-- [0] [https://github.com/centerofci/mathesar/blob/master/db/types/operations/cast.py](https://github.com/centerofci/mathesar/blob/master/db/types/operations/cast.py) 
+- [0] [https://github.com/mathesar-foundation/mathesar/blob/master/db/types/operations/cast.py](https://github.com/mathesar-foundation/mathesar/blob/master/db/types/operations/cast.py) 
 - [1] [https://wiki.postgresql.org/wiki/Inlining_of_SQL_functions](https://wiki.postgresql.org/wiki/Inlining_of_SQL_functions)
 
 ## Mentors

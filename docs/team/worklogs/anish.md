@@ -2,105 +2,68 @@
 
 ## Actively working on
 
-### Installation improvements(0.1.4):
+- Installation docs.
 
-- Currently working on backend requirements of installation improvements project for v0.1.4
+## 2023-11-17
 
-## 2023-09-27
+- Reviewed Brent's "Connections API" PR ([#3309](https://github.com/mathesar-foundation/mathesar/pull/3309))
+- Compose: Documented env variables and added a bunch of todos ([commits](https://github.com/mathesar-foundation/mathesar/compare/develop...docker-compose))
 
-- Weekly meet
-- Sync with Mukesh
-- Discussions with Rajat & Mukesh about [#3170](https://github.com/centerofci/mathesar/pull/3170)
+## 2023-11-16
 
-## 2023-09-26
-
-- Didn't find any bugs for [#3170](https://github.com/centerofci/mathesar/pull/3170), so a light day
-- Did some profiling on mathesar
-
-## 2023-09-25
-
-- Bug fixes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-09-22
-
-- Got to know some more preexisting & new bugs with the current setup of [#3170](https://github.com/centerofci/mathesar/pull/3170)
-- Discussed the same with Rajat & Mukesh
-- Sync with Anshuman(GSoC).
-
-## 2023-09-21
-
-- Troubleshooting debian build script.(ran into multiple errors during the process)
-- Fixed merge conflicts for [#3170](https://github.com/centerofci/mathesar/pull/3170) & it's migrations so that the encrypted fields are initialized with a default username and password during migrations instead of a empty string
-- Helped Anshuman with async with [#3030](https://github.com/centerofci/mathesar/pull/3030).
-
-## 2023-09-20
-
-- Tried running Supabase with Mathesar
-- Discussed [#3109](https://github.com/centerofci/mathesar/pull/3109) with Dom & Brent, & will hopefully be fixed once [#3170](https://github.com/centerofci/mathesar/pull/3170) gets merged 
-
-## 2023-09-19
-
-- Sync with Dom
-- Sync with Mukesh
-- Fixed a bug in #3203 so that the migrations won't fail for someone running previous versions of Mathesar
-
-## 2023-09-18
-
-- *Did nothing* (Cause I ran out of work to do)
-- Waiting on the review for [#3055](https://github.com/centerofci/mathesar/pull/3055)
-- Asked Dom if I can be of help with his ongoing project
-- Will start working on the documentaion for Debian install [#3165](https://github.com/centerofci/mathesar/issues/3165) once a PR for docker installation is created as #3165 should follow the same template
-
-## 2023-09-15
-
-- Sync with Anshuman(GSoC)
-
-## 2023-09-14
-
-- Adressed requested changes for [#3055](https://github.com/centerofci/mathesar/pull/3055)
-
-## 2023-09-13
-
-- Sync with Mukesh
-- Adressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-09-12
-
-- Worked on [#3203](https://github.com/centerofci/mathesar/pull/3203)
-
-## 2023-09-11
-
-- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055) & opened [#3203](https://github.com/centerofci/mathesar/pull/3203) for fixing the same
-- Addressed requested changes for [#3170](https://github.com/centerofci/mathesar/pull/3170)
-
-## 2023-09-08
-
-- Sync with Anshuman(GSoC)
-
-## 2023-09-07
-
-- Sync with Mukesh
 - Sync with Brent
-- Sync with Sean
-- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055)
+- Shared about page info with Ghislane
+- Compose: Cleaned up compose file and deprecated `DJANGO_DATABASE_URL` ([commits](https://github.com/mathesar-foundation/mathesar/compare/develop...docker-compose))
 
-## 2023-09-06
+## 2023-11-15
 
-- Weekly meet
-- Worked on [#3055](https://github.com/centerofci/mathesar/issues/3055)
+- Reviewed ([#3200](https://github.com/centerofci/mathesar/pull/3200)).
+- Working on ([#3306](https://github.com/centerofci/mathesar/issues/3306))
 
-## 2023-09-05
+## 2023-11-14
 
-- Worked on [#3198](https://github.com/centerofci/mathesar/pull/3198) and testing it
+- Working on ([#3306](https://github.com/centerofci/mathesar/issues/3306))
 
-## 2023-09-04
+## 2023-11-13
 
-- Worked on github action for uploading static assets to release [#3198](https://github.com/centerofci/mathesar/pull/3198)
+- Started working on the compose file ([#3306](https://github.com/centerofci/mathesar/issues/3306))
 
-## 2023-09-01
+## 2023-11-10
 
-- Reviewed [#3195](https://github.com/centerofci/mathesar/pull/3195)
-- Sync with Anshuman(GSoC)
+- Async with Brent about installation
+
+## 2023-11-09
+
+- Sync with Brent
+- Read our current installation docs
+
+## 2023-11-08
+
+- Setup new Matrix account
+- Weekly team meet
+- Short sync with Kriti
+
+## 2023-11-07
+
+- Installation improvement: Add metadata about internal db connection in common_data ([#3299](https://github.com/centerofci/mathesar/pull/3299))
+
+## 2023-11-06
+
+- More reading about psycopg and postgres permissions
+
+## 2023-11-03
+
+- Read psycopg docs about connection pooling
+
+## 2023-11-02
+
+- Sync with Brent
+
+## 2023-11-01
+
+- Weekly team meet
+- Sync with Kriti
+- Fixed install commands in docs ([#3279](https://github.com/centerofci/mathesar/pull/3279))
 
 # Archive
- - [August 2023 work logs](/team/worklogs/archive/2023-08/anish/)
+ - [October 2023 work logs](/team/worklogs/archive/2023-10/anish/)

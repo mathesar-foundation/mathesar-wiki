@@ -24,8 +24,8 @@ There should be an appropriate API endpoint (to be determined in collaboration w
 The successful candidate will be able to understand and articulate the usefulness of automatically extracting a column to a separate table. They'd thus be able to design and implement tests that ensure the expected behavior is actually satisfied by the current functions.  Finally, they'd either know or be willing to learn about Django in order to be able to wire things up.
 
 ## Resources
-- [relevant code](https://github.com/centerofci/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tables/operations/split.py)
-- [relevant tests](https://github.com/centerofci/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tests/tables/operations/test_split.py)
+- [relevant code](https://github.com/mathesar-foundation/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tables/operations/split.py)
+- [relevant tests](https://github.com/mathesar-foundation/mathesar/blob/afac35483cd56626778acf01df41cae9423636d5/db/tests/tables/operations/test_split.py)
 
 ## Mentors
 - **Primary Mentor**: Brent Moran

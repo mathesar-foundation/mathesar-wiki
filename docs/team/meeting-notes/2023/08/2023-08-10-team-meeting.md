@@ -14,7 +14,7 @@ Project ideas from previous meeting and follow up discussion on Matrix:
 
 - Installation improvements
     - This is still a major barrier to Mathesar adoption
-    - Implement the plan we've already decided on [here](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting.md)
+    - Implement the plan we've already decided on [here](/meeting-notes/2023-07/2023-07-28-installation-meeting.md)
 - Make Mathesar work better with common existing Postgres setups
     - Major things we don't support that people have in their DBs
         - Views
@@ -35,7 +35,7 @@ Project ideas from previous meeting and follow up discussion on Matrix:
 - Testing Mathesar with other products that use Postgres
     - e.g. Supabase integration
 - Product research for better definition of our niche
-- Ideas from prior async brainstorming are [here](https://wiki.mathesar.org/en/meeting-notes/2023-08/2023-08-09-team-meeting.md#pre-meeting-notes-1)
+- Ideas from prior async brainstorming are [here](/meeting-notes/2023-08/2023-08-09-team-meeting.md#pre-meeting-notes-1)
 ### Pre-meeting notes
 Additional thoughts from Kriti:
 

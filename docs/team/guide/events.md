@@ -1,6 +1,6 @@
 # Team Events
 
-The Mathesar core team has a virtual team event around every two weeks to have some fun and get to know each other better. Team members take turns organizing events on a volunteer basis.
+The Mathesar maintainer team has a virtual team event around every two weeks to have some fun and get to know each other better. Alternate events are open to the community. Team members take turns organizing events on a volunteer basis.
 
 Previous events have included:
 

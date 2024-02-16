@@ -14,19 +14,19 @@ My project during the Google Summer of Code was to enhance the capability of Mat
 
 ### Import API and record insertion implementation
 
-- Implementation for `/existing_import` API endpoint: https://github.com/centerofci/mathesar/pull/1442
-- Implementation and tests for temporary table creation: https://github.com/centerofci/mathesar/pull/1457
-- Implementation for `INSERT FROM SELECT` functionality : https://github.com/centerofci/mathesar/pull/1487
+- Implementation for `/existing_import` API endpoint: https://github.com/mathesar-foundation/mathesar/pull/1442
+- Implementation and tests for temporary table creation: https://github.com/mathesar-foundation/mathesar/pull/1457
+- Implementation for `INSERT FROM SELECT` functionality : https://github.com/mathesar-foundation/mathesar/pull/1487
 
 ### Overcoming challenges caused by CSV imports and real-world data
 
-- Implementation and tests for column mapper: https://github.com/centerofci/mathesar/pull/1506
-- Constraint violation handling during import: https://github.com/centerofci/mathesar/pull/1548
-- Implemetation and tests for suggesting column mappings: https://github.com/centerofci/mathesar/pull/1698
+- Implementation and tests for column mapper: https://github.com/mathesar-foundation/mathesar/pull/1506
+- Constraint violation handling during import: https://github.com/mathesar-foundation/mathesar/pull/1548
+- Implemetation and tests for suggesting column mappings: https://github.com/mathesar-foundation/mathesar/pull/1698
 
 ## Additional context
 
-- The issues related to this project are tracked here: https://github.com/centerofci/mathesar/issues/1416
+- The issues related to this project are tracked here: https://github.com/mathesar-foundation/mathesar/issues/1416
 - Link to my proposal: [Support Importing Data into Existing Tables](https://docs.google.com/document/d/1QIs9Wl0GmvS1XnDC0KK2Ovy3K3rv2adsWZCZ1deQSak/edit?usp=sharing)
 
 ## Acknowledgement

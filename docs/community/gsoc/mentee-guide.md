@@ -1,5 +1,10 @@
 # Mentee Guide
 
+!!! warning "GSoC 2024 will not have Mathesar"
+    **Mathesar [will not be participating](https://github.com/mathesar-foundation/mathesar/issues/3381) in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025.
+
+    This guide was for GSoC 2023.
+
 This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/community/mentoring/applicant-guide).
 
 ## Post-Announcement
@@ -10,7 +15,7 @@ Program acceptance announcements have been made and you've been selected! Congra
 - Define communication channels and set up a weekly check-in with your mentor.
 - Set up your computer and development environment.
 - Read through our [Team Guide](/team/guide) and familiarize yourself with our workflow and development process.
-- Introduce yourself to [core team](/team/members).
+- Introduce yourself to [the maintainers](/team/members).
 
 ## Program Period
 

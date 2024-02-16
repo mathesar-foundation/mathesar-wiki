@@ -134,14 +134,14 @@ Updating the format a little bit, going back to _completed & active_ format
 
 - Repo admin
 
-### [i18n project](https://wiki.mathesar.org/en/projects/internationalization)
+### [i18n project](/projects/internationalization)
 
 - Internationalize access control modals.
 - Load the translations file with first FE chunk (on-going)
 
 ## 2023-07-11
 
-### [i18n project](https://wiki.mathesar.org/en/projects/internationalization)
+### [i18n project](/projects/internationalization)
 
 - Internationalize access control modals. (on-going)
 
@@ -156,7 +156,7 @@ Updating the format a little bit, going back to _completed & active_ format
 
 ## 2023-07-10
 
-### [i18n project](https://wiki.mathesar.org/en/projects/internationalization)
+### [i18n project](/projects/internationalization)
 
 - Internationalize Data import page.
 - Internationalize record page.

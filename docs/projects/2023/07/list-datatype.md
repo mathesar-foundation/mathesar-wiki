@@ -111,8 +111,8 @@ We should support the following custom grouping types for List cells:
 
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:
-  - [Project description for GSoC 2023](https://wiki.mathesar.org/en/community/mentoring/project-ideas/list-data-type)
-  - [Frontend spec](https://wiki.mathesar.org/en/projects/list-datatype/frontend-specs)
+  - [Project description for GSoC 2023](/community/mentoring/project-ideas/list-data-type)
+  - [Frontend spec](/projects/list-datatype/frontend-specs)
   - [Backend spec (nothing here yet)]()
 
 ## Timeline

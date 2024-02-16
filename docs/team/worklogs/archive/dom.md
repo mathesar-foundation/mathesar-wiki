@@ -1,15 +1,135 @@
 # Dom's work log
 ## Active
 
-- Perform Anshumna's final evaluation
-- Do weekly project update
+- Create and prioritize issue for writing tests for db creation/update/removal via API
+  - Discovered that there are no tests for this when trying to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Associated code is messy, fix it up as well
+- Make sure [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) is not reproducible anymore
+- See [#3245](https://github.com/centerofci/mathesar/issues/3245) (db bug fixes) reviewed and merged
+- Open some good first issues
+  - Got a few ideas
 - Do [#2844](https://github.com/centerofci/mathesar/issues/2844) (api for bulk upserting of records)
+  - on pause; >75% done, but seems low priority
+    - frontend aspect can't fit into 0.1.4
 
 ## Backlog
 
 - Consider automating finding 404 in our wiki
 - Do [#3076](https://github.com/centerofci/mathesar/issues/3076) (automate deploying internal mathesar)
 - Process selected TODO comments into issues [#2181](https://github.com/centerofci/mathesar/issues/2181)
+- Consider adding a make-like tool to main repo for common tasks
+
+### 2023-10-23
+
+- Sync with Brent
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found the (seemingly) last bug that kept tests from passing in CI
+- Attempt to reproduce [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug) with [#3245](https://github.com/centerofci/mathesar/issues/3245) merged
+  - Can't, but I found the bug elusive to reproduce before
+  - Asked Rajat to try as well
+
+### 2023-10-20
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+  - Found one of the problems, but ran into another
+
+### 2023-10-19
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Discuss using Zulip
+
+### 2023-10-18
+
+- Present GSoC proposal phase notes to team
+- Finish preparing GSoC proposal phase note page in wiki
+- Respond in Sean's product vision follow-up email thread
+
+### 2023-10-17
+
+- Troubleshoot CI failing for [#3245](https://github.com/centerofci/mathesar/issues/3245)
+- Respond in UX question about DB connections email thread
+- Process notes from GSoC summit on proposal phase into a document
+  - https://github.com/centerofci/mathesar-wiki/pull/106
+
+### 2023-10-16
+
+- Traveling from Sunnyvale to Dominican Republic
+
+### 2023-10-13
+
+- Submit PR related to [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+
+### 2023-10-12
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-11
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-10
+
+- Traveling to Sunnyvale for GSoC summit
+
+### 2023-10-09
+
+- Read GSoC summit updates
+- Respond in CRM intro email thread
+
+### 2023-10-06
+
+- Respond in cycle 0.1.4 retrospective email thread
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Continued working through the connection leak
+    - Significant progress, but there's still a major leak somewhere
+      - Can't yet merge
+
+### 2023-10-05
+
+- Worked on [#3230](https://github.com/centerofci/mathesar/issues/3230)
+  - Changes to reflection caused the connection leak bug to creep up again
+    - Have to fix that in order to merge
+
+### 2023-10-05
+
+- Conversation in frontend channel
+- Team sync
+
+### 2023-10-04
+
+Had a very hard time being productive, effectively took most of day off.
+
+- Sync with Sean
+
+### 2023-10-03
+
+- Started working on [#3230](https://github.com/centerofci/mathesar/issues/3230) (db reflection bug)
+- Respond in [#3223](https://github.com/centerofci/mathesar/issues/3223) (Rajat's db connection pr)
+- Review [#3201](https://github.com/centerofci/mathesar/issues/3201) and merge
+- Review [#3200](https://github.com/centerofci/mathesar/issues/3200)
+
+### 2023-10-02
+
+- Respond in rsqla1 retrospective
+- Sync with Brent
+- Respond in ux design process for importing excel/json email thread
+- See Anshumna's final evaluation performed
+
+### 2023-09-29
+
+Away on sick leave.
+
+### 2023-09-28
+
+Away on sick leave.
+
+### 2023-09-27
+
+Away on sick leave.
+
+### 2023-09-26
+
+- Last sync with Anshuman
 
 ### 2023-09-25
 

@@ -17,7 +17,7 @@ This document lists the responsibilities, related instructions and guidelines fo
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
 	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
-	- All our [Mentoring](https://wiki.mathesar.org/en/community/mentoring) documentation and policies
+	- All our [Mentoring](/community/mentoring) documentation and policies
 - Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items
 - Keep an eye on GSoC related deadlines and timelines
 	- See [Calendar](#calendar)
@@ -116,7 +116,7 @@ Starts 2023-03-20, ends 2023-04-04.
 	- Follow up with other team members as needed.
 - Keep track of issues that have already been assigned and un-assign them after 7 days of inactivity.
 	- Anish is doing this, but it’s good to keep an eye on this.
-	- https://github.com/orgs/centerofci/projects/1/views/42 may be helpful, it sorts by last activity.
+	- https://github.com/orgs/mathesar-foundation/projects/1/views/42 may be helpful, it sorts by last activity.
 - Ensure there are enough open issues for GSoC contributors to work on OR revise the applicant guide to remove the contribution requirement and come up with an alternate way to evaluate candidates (maybe have a standard backend and frontend task for everyone).
 
 
@@ -198,13 +198,13 @@ Suggested process:
 	- In Matrix, check the little visualizations above and below messages of new people joining to see who is new
 2. Welcome them, whether they're active or engage first or not
 3. Preemptively remind them of our resources for self-guidance:
-  - the [applicant guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide)
-  - or, the [contributing guide](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md)
+  - the [applicant guide](/community/mentoring/applicant-guide)
+  - or, the [contributing guide](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md)
 4. Having provided a resource for self-guidance, encourage them to speak up if something is not clear.
 
 Example in our Matrix General channel:
 
->`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](https://wiki.mathesar.org/en/community/mentoring/applicant-guide). If something is not clear, reach out!`
+>`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](/community/mentoring/applicant-guide). If something is not clear, reach out!`
 
 
 ## Helping guidelines
@@ -235,7 +235,7 @@ Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/cor
 
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
-We track community events, including office hours, [on this Wiki page](https://wiki.mathesar.org/en/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
+We track community events, including office hours, [on this Wiki page](/community/events) and GSoC-related events in our [GSoC Calendar](#calendar).
 	
   
 ## No early issue assigns
@@ -259,7 +259,7 @@ See this [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/co
 
 ## Periodic process reviews and reports
 
-GSoC administration involves periodic process reviews and reports. They are scheduled in the [calendar](#calendar). This thread tracks resulting updates: https://github.com/centerofci/mathesar/issues/2733
+GSoC administration involves periodic process reviews and reports. They are scheduled in the [calendar](#calendar). This thread tracks resulting updates: https://github.com/mathesar-foundation/mathesar/issues/2733
 
 ## Notes for future programs
 

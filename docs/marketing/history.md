@@ -33,10 +33,12 @@ This is a list of links where Mathesar was featured. Only notable links or links
 - [Postgres Weekly #496](https://postgresweekly.com/issues/496), 2023-03-08
 - Console.dev, 2023-03-09
 - [What's new in Svelte: April 2023](https://svelte.dev/blog/whats-new-in-svelte-april-2023)
+- [Wps.com](https://www.wps.com/blog/top-5-open-source-alternatives-to-airtable/#post-content-headline-2)
+- [Geekflare.com](https://geekflare.com/top-airtable-alternatives/#geekflare-toc-mathesar)
 
 
 ## Launch Announcements
-- [CCI website blog](https://centerofci.org/introducing-mathesar-an-open-source-database-interface-for-everyone/)
+- [CCI website blog](https://mathesar-foundation.org/introducing-mathesar-an-open-source-database-interface-for-everyone/)
 - [Twitter: @mathesar_org](https://twitter.com/mathesar_org/status/1631384636096913421)
-- [Twitter: @centerofci](https://twitter.com/centerofci/status/1631383963053826048)
-- [LinkedIn: CCI](https://www.linkedin.com/posts/centerofci_mathesar-activity-7037435303845908480-VvKt/)
+- [Twitter: @mathesar-foundation](https://twitter.com/mathesar-foundation/status/1631383963053826048)
+- [LinkedIn: CCI](https://www.linkedin.com/posts/mathesar-foundation_mathesar-activity-7037435303845908480-VvKt/)

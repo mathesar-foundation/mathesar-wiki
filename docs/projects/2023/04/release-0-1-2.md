@@ -36,7 +36,7 @@
 - Hire testing team, prepare testing plan, and manage testing once required features are complete.
 - Handle issues that might come up during testing.
 - The release process will remain same as our previous releases.
-  - Here is the [release process document for creating a release](https://wiki.mathesar.org/en/engineering/release-process).
+  - Here is the [release process document for creating a release](/engineering/release-process).
   - The release management ongoing responsibility is not yet documented. It will be updated during the course of this release and will contain more detailed information.
 
 The plan is more high level, since individual tasks will be tracked using GH issues.
@@ -46,7 +46,7 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 - Issues uncovered during testing might affect the timeline.
 
 ## Resources
-- **Milestone**: [v0.1.2](https://github.com/centerofci/mathesar/milestone/68)
+- **Milestone**: [v0.1.2](https://github.com/mathesar-foundation/mathesar/milestone/68)
 
 ## Timeline
 * Deadline for release will be **2023-05-10**.

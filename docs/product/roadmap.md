@@ -1,6 +1,6 @@
 # Roadmap
 
-Our feature roadmap is tracked via [GitHub milestones](https://github.com/centerofci/mathesar/milestones?direction=asc&sort=due_date&state=open). You can find out more about each feature in our [Concepts](/product/concepts) page.
+Our feature roadmap is tracked via [GitHub milestones](https://github.com/mathesar-foundation/mathesar/milestones?direction=asc&sort=due_date&state=open). You can find out more about each feature in our [Concepts](/product/concepts) page.
 
 ## About the Roadmap
 

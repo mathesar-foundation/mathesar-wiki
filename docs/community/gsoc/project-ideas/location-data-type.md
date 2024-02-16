@@ -17,8 +17,8 @@
 - Users should be able to install [PostGIS extension](https://postgis.net/)
 - Users should be able to set the Postgis data types(Geometry, Geography data types) as a column type
 - Users should be able to choose the spatial type(POINT, LINESTRING etc) for a Geometry/Geography column.
-- Add the basic operations supported by Postgres and PostGIS to our [functions framework](https://github.com/centerofci/mathesar/blob/8cad33707fa646bfe17d87da9435ed8123a85097/db/functions/base.py#L70)
-- Add the basic functions supported by PostGIS to our [functions framework](https://github.com/centerofci/mathesar/blob/8cad33707fa646bfe17d87da9435ed8123a85097/db/functions/base.py#L70)
+- Add the basic operations supported by Postgres and PostGIS to our [functions framework](https://github.com/mathesar-foundation/mathesar/blob/8cad33707fa646bfe17d87da9435ed8123a85097/db/functions/base.py#L70)
+- Add the basic functions supported by PostGIS to our [functions framework](https://github.com/mathesar-foundation/mathesar/blob/8cad33707fa646bfe17d87da9435ed8123a85097/db/functions/base.py#L70)
 - Add casting functions to change a column from a spatial data type to a different compatible spatial data type.
 - **Bonus**: Provide a text based UI for the user to enter the coordinates.  Add Map based coordinate Picker UI, using something like [OpenStreetMap](https://www.openstreetmap.org/)
 

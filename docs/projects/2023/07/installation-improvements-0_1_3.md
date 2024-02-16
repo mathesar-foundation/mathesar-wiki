@@ -26,7 +26,7 @@ The current problems we face in our installation process and documentation are:
 
 See also: [Diagram of existing steps involved in installation](#current-steps)
 
-Based on [previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
+Based on [previous discussions](/meeting-notes/2023-07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
 
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
@@ -53,7 +53,7 @@ The low hanging fruit we plan to tackle in this cycle:
 - Create Mathesar Debian package
 	- *Problem solved*: Reduces installation steps (dependencies, static file building, etc.). We're choosing Debian because it's the most common server.
 - Update documentation to provide non-superuser permissions while installing Mathesar
-	- We're prioritizing this because it's a [user reported issue](https://github.com/centerofci/mathesar/issues/2990) and has been brought up in launch user feedback.
+	- We're prioritizing this because it's a [user reported issue](https://github.com/mathesar-foundation/mathesar/issues/2990) and has been brought up in launch user feedback.
 
 Issues we need to resolve through discussions:
 
@@ -70,7 +70,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 
 - Build helm charts
 	- *Limitations*: Just the yaml file for the mathesar app. We won't be adding to the installation documentation or adding it to the helm repo in this cycle
-	- *Problem solved*: Reduces steps for Kubernetes user and also [requested by users](https://github.com/centerofci/mathesar/issues/2633)
+	- *Problem solved*: Reduces steps for Kubernetes user and also [requested by users](https://github.com/mathesar-foundation/mathesar/issues/2633)
 - Build zipapps
 	- *Limitations*: Just the script to generate the zipapp. It won't be added to the installation documentation in this cycle
 	- *Problem solved*: Reduces steps for non-docker and non-debian installs
@@ -90,7 +90,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 - Kriti and Mukesh will meet every week to plan ahead of the meetings.
 - The meeting topics are not definitive and can change.
 - Some of the topics to discuss
-	- Simplifying installation for [Personas](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+	- Simplifying installation for [Personas](/meeting-notes/2023-07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](/meeting-notes/2023-07/2023-07-11-installation-meeting)
 	- PaaS offering to support
 	- The location and workflow for storing the configuration details
 
@@ -117,14 +117,14 @@ Most of these solutions will be useful for laying the ground work for future wor
 - SQLite codebase refactor is quite small as Mathesar uses a Postgres related field in only one place (for storing column order)
 
 ## Github issue
-- [Meta issue](https://github.com/centerofci/mathesar/issues/3058)
+- [Meta issue](https://github.com/mathesar-foundation/mathesar/issues/3058)
 
 ## Resources
 - [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/_vJfb_sXdfE)
 - [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/EIP02jkb67o)
-- [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
-- [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
-- [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
+- [Meeting notes: Parts I & II](/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
+- [Meeting notes: Part IV](/meeting-notes/2023-07/2023-07-11-installation-meeting)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## References

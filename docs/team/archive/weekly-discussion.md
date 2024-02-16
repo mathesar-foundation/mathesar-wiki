@@ -5,11 +5,11 @@
 
 
 
-At the beginning of each week, we start a discussion on [GitHub Discussions](https://github.com/centerofci/mathesar/discussions) to review Mathesar's progress, provide updates to the community, and to check in about our process and workload. Everyone is welcome to add a new topic to discuss or to comment on existing topics.
+At the beginning of each week, we start a discussion on [GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions) to review Mathesar's progress, provide updates to the community, and to check in about our process and workload. Everyone is welcome to add a new topic to discuss or to comment on existing topics.
 
 Core team members are required to participate, others are welcome.
 
-All weekly discussions [can be found here](https://github.com/centerofci/mathesar/discussions/categories/planning).
+All weekly discussions [can be found here](https://github.com/mathesar-foundation/mathesar/discussions/categories/planning).
 
 ## Posting a Discussion
 

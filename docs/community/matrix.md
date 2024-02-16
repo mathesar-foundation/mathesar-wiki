@@ -35,6 +35,7 @@ These channels focus on day-to-day engineering work.
 | Mathesar - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
 | Mathesar - Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
 | Mathesar - Infrastructure | [`#infrastructure:matrix.mathesar.org`](https://matrix.to/#/#infrastructure:matrix.mathesar.org) | Discussions related to Mathesar installation, setup and other infrastructure  |
+| Mathesar - i18n | [`#i18n:matrix.mathesar.org`](https://matrix.to/#/#i18n:matrix.mathesar.org) | Discussions related to Mathesar imternationalization |
 
 ### Design & Product
 These channels focus on day-to-day design and product work.
@@ -62,8 +63,8 @@ These channels focus on community building activities.
 | Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/community/mentoring) such as GSoC |
 | Mathesar - Code for Japan | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
-### Core team workflow
-These channels assist the core team in our workflow.
+### Maintainers workflow
+These channels assist the Mathesar maintainers in our workflow.
 
 | Name | Address | Purpose |
 |-|-|-|
@@ -71,3 +72,5 @@ These channels assist the core team in our workflow.
 | Mathesar - Standup | [`#standup:matrix.mathesar.org`](https://matrix.to/#/#standup:matrix.mathesar.org) | The Mathesar team's daily standup. |
 | Mathesar - Wiki Review | [`#wiki-review:matrix.mathesar.org`](https://matrix.to/#/#wiki-review:matrix.mathesar.org) | Requests for wiki page review and associated discussion. |
 | Mathesar - GitHub Updates | [`#github:matrix.mathesar.org`](https://matrix.to/#/#github:matrix.mathesar.org) | Automated notifications of new GitHub activity. |
+| Mathesar - Wiki Updates | [`#wiki-updates:matrix.mathesar.org`](https://matrix.to/#/#wiki-updates:matrix.mathesar.org) | Automated notifications of new GitHub activity ONLY on the wiki repo. |
+

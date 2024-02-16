@@ -3,6 +3,7 @@
 This page lists other products that solve similar/related problems to what Mathesar is aiming to solve. We're glad to see other open source projects in this area.
 
 ## Open Source
+
 - [NocoDB](https://nocodb.com/)
 - [Baserow](https://baserow.io/)
 - [APITable](https://apitable.com/)
@@ -22,7 +23,9 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Basetool](https://www.basetool.io/) (unmaintained)
 
 ## Proprietary
+
 - [Airtable](https://airtable.com/)
+- [AppSheet](https://www.appsheet.com/)
 - [SeaTable](https://seatable.io/)
 - [Google Tables](https://tables.area120.google.com)
 - [Microsoft Lists](https://www.microsoft.com/en-us/microsoft-365/microsoft-lists)
@@ -47,4 +50,5 @@ This page lists other products that solve similar/related problems to what Mathe
 - [ClickUp](https://clickup.com/)
 
 ## Desktop
+
 - [Ultorg](https://www.ultorg.com/)

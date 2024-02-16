@@ -11,8 +11,8 @@
 
 ## Problem
 * We have the following features in our roadmap:
-	- [Ability to share tables and explorations](https://github.com/centerofci/mathesar/discussions/2266)
-  - [Embed tables and explorations in other websites](https://github.com/centerofci/mathesar/discussions/2265)
+	- [Ability to share tables and explorations](https://github.com/mathesar-foundation/mathesar/discussions/2266)
+  - [Embed tables and explorations in other websites](https://github.com/mathesar-foundation/mathesar/discussions/2265)
 * We require a well defined plan at the product level to begin implementation level analysis of the initial version of these features.
 
 ## Solution

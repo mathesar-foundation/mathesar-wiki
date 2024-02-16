@@ -90,7 +90,7 @@ You may submit an application for only the backend portion of this project, or f
 For the scope of this project, we will only support lists of text in the UI. Lists of other data types and multi-dimensional lists (lists of lists, etc.) out of scope.
 
 ## Resources
-- [Previous spec for List data types](https://github.com/centerofci/mathesar/issues/978): *this is an old and deprecated issue, but might be useful.*
+- [Previous spec for List data types](https://github.com/mathesar-foundation/mathesar/issues/978): *this is an old and deprecated issue, but might be useful.*
 - Please review how multi-select fields work in Airtable.
 
 ## Mentors

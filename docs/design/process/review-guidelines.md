@@ -19,11 +19,11 @@ This is the list of team members who have volunteered to review new designs.
 
 ## Process for Authors
 
-- Clone the [Mathesar Wiki Repo](https://github.com/centerofci/mathesar-wiki) and create a new page under the [Design Specs](/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/design/specs) page.
+- Clone the [Mathesar Wiki Repo](https://github.com/mathesar-foundation/mathesar-wiki) and create a new page under the [Design Specs](/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/design/specs) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
 - Add the [spec content](#spec-content) to the page. Make sure the page date is updated as well.
 - Once you think the spec is ready for review, create a PR that includes in its description:
-  - a link to the referenced design issue from the [Mathesar Repo](https://github.com/centerofci/mathesar) formatted as "Fixes `<link to the issue>`."
+  - a link to the referenced design issue from the [Mathesar Repo](https://github.com/mathesar-foundation/mathesar) formatted as "Fixes `<link to the issue>`."
   - an expected timeline for the review, if any.
 - Be sure to include the specific feedback you are seeking.
 - Assign the required reviewers by their GitHub username.
@@ -48,7 +48,7 @@ We use GitHub issues to track design work. Issues used to track design problems 
 
 ## Process for Reviewers
 - Assignees are required to review specs. Everyone else should feel free to add reviews.
-- Check for outstanding [design spec review requests](https://github.com/centerofci/mathesar-wiki/pulls?q=is%3Aopen) at least once a day.
+- Check for outstanding [design spec review requests](https://github.com/mathesar-foundation/mathesar-wiki/pulls?q=is%3Aopen) at least once a day.
 - Comment on the GitHub PR with feedback. Please follow the general advice below.
 Once you're done reviewing the document, approve the changes or unassign yourself from the PR if you don't have any feedback.
 

@@ -3,7 +3,7 @@
 ## Context
 
 ### Modal component removal
-At the time of its creation, the original design for milestone [2. Tables from File Import](https://github.com/centerofci/mathesar/milestone/1) included a modal component to display the table creation controls as part of the process of adding a new table. However, after team discussion and intending to simplify, we decided to drop the modal component and favor incorporating controls at the page level and in the context of other tasks happening in parallel, such as file import.
+At the time of its creation, the original design for milestone [2. Tables from File Import](https://github.com/mathesar-foundation/mathesar/milestone/1) included a modal component to display the table creation controls as part of the process of adding a new table. However, after team discussion and intending to simplify, we decided to drop the modal component and favor incorporating controls at the page level and in the context of other tasks happening in parallel, such as file import.
 
 ## Prototype
 ['Table Creation Controls' Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=1825%3A9345&node-id=1831%3A10912&viewport=570%2C566%2C0.10280735790729523&scaling=min-zoom)

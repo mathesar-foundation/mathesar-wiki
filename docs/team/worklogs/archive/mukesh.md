@@ -1,12 +1,73 @@
 # Mukesh work log
 
 ## Actively working on
-- Fixing the install.py issue
-- Add tooltips referencing glossary articles in the installation documentation
-  
+- Review and merge [Github action for uploading static assets to release](https://github.com/centerofci/mathesar/pull/3198)
+- Reply to DB connections work email
+- Attend Users & Permission meeting
+
 ## Backlog
 - Add a compatibility table for comparing various personas with our features
 
+# 2023-10-17
+- Check in with Varsha
+- Sync with Brent and Sean over the Database connection string UX
+- Attend the Users & Permission discussion
+- Reviewed [Fixed incomplete error responses in OpenAPI documentation for /datafiles/ endpoint](https://github.com/centerofci/mathesar/pull/3062)
+- Reviewed [Implemeted extend schema decorator to document the error response for /databases/ endpoint](https://github.com/centerofci/mathesar/pull/3070)
+- Partially review [Github action for uploading static assets to release](https://github.com/centerofci/mathesar/pull/3198)
+
+
+# 2023-10-16
+- Did some minor improvements to the Installation Docs
+- Added tooltip for previewing Glossary items in the installation docs
+- Send an email to OpenSuse requesting access to rename the home directory to Mathesar, which would enable us to use the `https://build.opensuse.org/mathesar/Debian11` as the apt repository URL instead of `https://build.opensuse.org/home:mathesar/Debian11`
+
+
+# 2023-10-13
+- Check in with Brent
+- Attend community event
+- Compose Reply to the Database connection string UX email
+
+# 2023-10-12
+- Check in with Sean on the Database connection string UX and few documentation related issues
+- Sync with Kriti
+- Fixed all the todo items in [debian docs](https://github.com/centerofci/mathesar/pull/3227)
+
+# 2023-10-11
+- Send out the email for Database connection string UX
+- Added content to the Mathesar docs homepage
+- Added content to uninstall section based on the discussion with Sean
+- Looked at the PR review backlogs to make sure if PR review went under the radar
+
+# 2023-10-10
+- Write email for the Database connection string
+- Took partial day off as I was not feeling well
+- Check in with sean
+
+# 2023-10-09
+- Sync with Rajat to discuss the documentation content needed for "Database connection UI"
+- Send message to Sean to ask for help with organising Mathesar concepts like Mathesar schema
+- Compose email for the Database connection string UX
+
+# 2023-10-06
+- Sync with Brent on various backend architecture related discussion
+- Sync meeting to discuss UX for Database connection string
+- Sync with Sean for organizing the installation documentation
+
+# 2023-10-05
+Had a partial day off due to sickness
+- Weekly meeting
+- Make some minor fixes to the installation documentation pull requests
+- Check in Pavish
+
+# 2023-10-04
+Had a day off due to sickness
+
+# 2023-10-03
+- Check-in with Sean
+- Add install.py fixes to the ["Build from scratch" docs deprecation PR](https://github.com/centerofci/mathesar/pull/3227)
+- Build Debian package based on Rajat's PR
+- Merge Anish Database connection API PR
 
 # 2023-10-02
 - Send email on choosing the Debian build platform 

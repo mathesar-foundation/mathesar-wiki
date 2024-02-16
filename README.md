@@ -35,7 +35,7 @@ https://wiki.mathesar.org/
 
 ## Contribution process
 
-- Core team members are encouraged to push small commits directly to `master`.
+- Mathesar maintainers are encouraged to push small commits directly to `master`.
 
 - Community contributors may suggest changes by opening PRs.
 
@@ -53,8 +53,8 @@ https://wiki.mathesar.org/
 
 ## See also
 
-- The [source content for Mathesar's _documentation_](https://github.com/centerofci/mathesar/tree/develop/docs), which also utilizes MkDocs.
+- The [source content for Mathesar's _documentation_](https://github.com/mathesar-foundation/mathesar/tree/develop/docs), which also utilizes MkDocs.
 
 - [Mathesar's homepage](https://mathesar.org/)
 
-- [Mathesar's main source code repository](https://github.com/centerofci/mathesar)
+- [Mathesar's main source code repository](https://github.com/mathesar-foundation/mathesar)

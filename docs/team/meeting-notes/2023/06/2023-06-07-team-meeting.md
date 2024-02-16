@@ -46,7 +46,7 @@ We've had a lot of workflow changes since launch and with Kriti's unavailability
     - Having E2E FE test cases for reducing the no. of regressions for faster and confident releases.
     - All of us being in a single call after a very long time. 
 - [Sean] I had a hard time with team management. Difficult to see what everyone is working on, given our new processes. Hard to manage, given that Kriti still ultimately held responsibility for deciding on new projects. Seems like this is all moot now though, with Kriti resuming this role.
-- [Sean] I have not done well with sticking to the timeline in my [Usability Improvements project](https://wiki.mathesar.org/en/projects/2023-04-usability-improvements.md).
+- [Sean] I have not done well with sticking to the timeline in my [Usability Improvements project](/projects/2023-04-usability-improvements.md).
 - [Sean] I have felt less motivated, less productive, more distracted, and lazier in the past few months. I would attribute this change primarily to the lack of clear team-wide direction and cohesion for us right now. I felt enthusiastic about working hard when we were pushing for the launch, but I feel groggier not that I'm not chasing a figurative carrot.
 - [Mukesh] Issues were not specced out when installation project was written, caused a lot of problems later.
 - [Mukesh] Each core contributor was involved in their own project and it was hard to pull others into your own project

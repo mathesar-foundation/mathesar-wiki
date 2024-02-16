@@ -1,5 +1,12 @@
 # Applicant Guide
 
+
+!!! warning "GSoC 2024 will not have Mathesar"
+    **Mathesar [will not be participating](https://github.com/mathesar-foundation/mathesar/issues/3381) in Google Summer of Code (GSoC) 2024** due to lack of maintainer capacity. We hope to resume participation in 2025.
+
+    This guide was for GSoC 2023.
+
+
 ## Getting Started
 
 If you're interested in applying to be a GSoC Contributor for the Mathesar project, please follow this guide. Thank you in advance for your interest, time, and any contributions you make!
@@ -8,7 +15,7 @@ If you're interested in applying to be a GSoC Contributor for the Mathesar proje
 Some things you should know about Mathesar:
 
 - Mathesar is a fairly new project and we **don't have documentation** aimed at helping new contributors understand our codebase.
-- The core team **doesn't have time** to help each individual contributor understand our codebase or how to solve a particular issue **during the GSoC application process**. We get a lot of applicants, and it would be infeasible to answer everyone's questions in detail.
+- The Mathesar maintainer team **doesn't have time** to help each individual contributor understand our codebase or how to solve a particular issue **during the GSoC application process**. We get a lot of applicants, and it would be infeasible to answer everyone's questions in detail.
 
 Successful applicants will read all available information about Mathesar, be able to understand our codebase without much help, and [ask good questions](https://www.mikeash.com/getting_answers.html) when they do need help. If this doesn't sound like you, Mathesar may not be the right organization for you.
 
@@ -20,7 +27,7 @@ You'll need to understand Mathesar well in order to submit a successful applicat
 
 Mathesar is a new project and we're still working towards releasing our first version. The best ways to learn about us is to:
 
-- Install Mathesar locally, [following the instructions in our README](https://github.com/centerofci/mathesar).
+- Install Mathesar locally, [following the instructions in our README](https://github.com/mathesar-foundation/mathesar).
 - Read about Mathesar on our [main website](https://mathesar.org).
 
 ### Step 3: Join Matrix and the developer mailing list
@@ -31,7 +38,7 @@ Feel free to ask questions about project ideas, Mathesar, or anything else! Post
 ### Step 4: Contribute to Open Issues
 You **need to make at least one contribution to Mathesar** as part of the application process. Your contribution will give us more information about your work/skills and help us evaluate your application. It will also help you learn more about Mathesar and have more information to pick a project idea.
 
-Please see our [Contribution Guidelines](https://github.com/centerofci/mathesar/blob/develop/CONTRIBUTING.md) to learn more about how to contribute.
+Please see our [Contribution Guidelines](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md) to learn more about how to contribute.
 
 ## The Application Process
 Once you're comfortable with Mathesar and the community, it's time to start the application process.

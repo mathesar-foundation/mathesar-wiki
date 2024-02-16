@@ -1,10 +1,10 @@
 # 2023-07-28 installation meeting
 
 ## Links
-- [Meeting notes: Parts I & II](https://wiki.mathesar.org/en/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
-- [Meeting notes: Part III](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
-- [Meeting notes: Part IV](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-11-installation-meeting)
-- [2023-07 installation improvements project page](https://wiki.mathesar.org/en/projects/installation-improvements-0_1_3.md)
+- [Meeting notes: Parts I & II](/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
+- [Meeting notes: Part IV](/meeting-notes/2023-07/2023-07-11-installation-meeting)
+- [2023-07 installation improvements project page](/projects/installation-improvements-0_1_3.md)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## Pre-meeting prep

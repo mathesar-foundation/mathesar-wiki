@@ -2,7 +2,7 @@
 
 ## Context
 
-This spec describes the design solution for [Usage of Foreign Key constraints](https://github.com/centerofci/mathesar/issues/243).
+This spec describes the design solution for [Usage of Foreign Key constraints](https://github.com/mathesar-foundation/mathesar/issues/243).
 
 ## Prototype Link and Video Walkthrough
 
@@ -190,8 +190,8 @@ Table preferences will contain a group of options that users can set up to chang
 
 ## Related Discussions
 
-- [Add 'Table Link Preferences' Option to Column Menu](https://github.com/centerofci/mathesar/discussions/854)
-- [Editing values for columns with a foreign key constraint applied](https://github.com/centerofci/mathesar/discussions/796)
-- [Handling duplicate foreign key columns from the 'Link Table' dialog](https://github.com/centerofci/mathesar/discussions/791)
-- [Help users link tables via question-based forms](https://github.com/centerofci/mathesar/discussions/790)
-- [Handling Composite Primary Keys and Junction Tables](https://github.com/centerofci/mathesar/discussions/804)
+- [Add 'Table Link Preferences' Option to Column Menu](https://github.com/mathesar-foundation/mathesar/discussions/854)
+- [Editing values for columns with a foreign key constraint applied](https://github.com/mathesar-foundation/mathesar/discussions/796)
+- [Handling duplicate foreign key columns from the 'Link Table' dialog](https://github.com/mathesar-foundation/mathesar/discussions/791)
+- [Help users link tables via question-based forms](https://github.com/mathesar-foundation/mathesar/discussions/790)
+- [Handling Composite Primary Keys and Junction Tables](https://github.com/mathesar-foundation/mathesar/discussions/804)

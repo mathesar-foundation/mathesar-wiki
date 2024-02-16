@@ -42,7 +42,7 @@ Users should be able to import data into existing tables as described in the "Fe
 * Demonstrate a good understanding of the Mathesar frontend codebase and required APIs.
 
 ## Resources
-* [Backend work for Importing data into existing tables: GSoC 2022](https://wiki.mathesar.org/en/engineering/reports/gsoc-2022-importing-data-into-existing-tables)
+* [Backend work for Importing data into existing tables: GSoC 2022](/engineering/reports/gsoc-2022-importing-data-into-existing-tables)
 * Explore other tools such as Airtable and NocoDB for their approach and UX for importing data into existing tables.
 
 ## Mentors

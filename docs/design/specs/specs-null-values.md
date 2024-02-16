@@ -167,4 +167,4 @@ In the case of cells with dropdown enabled, consider the following:
 
 ## Related Discussions
 
-- [UX for NULL Values](https://github.com/centerofci/mathesar/discussions/832)
+- [UX for NULL Values](https://github.com/mathesar-foundation/mathesar/discussions/832)

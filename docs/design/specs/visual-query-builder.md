@@ -8,7 +8,7 @@
 
 The queries generated in the 'Data Explorer' will be listed and saved as queries within Mathesar. In contrast to standard database queries, "Mathesar queries" are not stored as SQL commands. This Mathesar-specific object was created because otherwise, it would be impossible to reproduce user configurations.
 
-Read the [Views Product Spec](https://wiki.mathesar.org/en/product/specs/2022-01-views) for a more in-depth explanation of this feature.
+Read the [Views Product Spec](/product/specs/2022-01-views) for a more in-depth explanation of this feature.
 
 ## Accessing Data Explorer
 

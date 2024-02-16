@@ -5,7 +5,7 @@
 ## The Project
 We're looking for a frontend engineer to help build a brand new open source product that helps users of all skill levels use, extend, and visualize their data. We are heavily inspired by [Dabble DB](https://www.youtube.com/watch?v=MCVj5RZOqwY).
 
-The current team is two engineers, we're alumni of Creative Commons and have experience working on open source projects and building community. We're aiming for an initial team size of four, including this position and a product designer. We're based out of the nonprofit [Center of Complex Interventions](https://www.centerofci.org/) and are advised by Joi Ito and Reid Hoffman.
+The current team is two engineers, we're alumni of Creative Commons and have experience working on open source projects and building community. We're aiming for an initial team size of four, including this position and a product designer. We're based out of the nonprofit [Center of Complex Interventions](https://www.mathesar-foundation.org/) and are advised by Joi Ito and Reid Hoffman.
 
 ## The Position
 We haven't started writing code for this project yet and you'll be our first frontend engineer. We expect that you'll have full ownership of the front end, including picking the stack, writing modular, scalable, and well-documented code, and ensuring accessibility, near-instantaneous performance, and a great user experience. You'll also help with ideation and design of the MVP and new features, collaborating closely with our product designer.

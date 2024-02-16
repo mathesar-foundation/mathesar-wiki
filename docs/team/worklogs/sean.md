@@ -2,27 +2,382 @@
 
 ## TODO
 
-### Soon
-
-- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
-- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
-- Review [Db connection UI by rajatvijay · Pull Request #3223 · centerofci/mathesar](https://github.com/centerofci/mathesar/pull/3223)
-- Give team a heads up about next week
-- Learn about GitHub open source Fridays https://www.twitch.tv/github/videos
-
-### Backlog
-
-- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220)
-- [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
-- Research [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally) to see if we can use it to navigate to base translation source
-- Begin "User Communication Guide", as a wiki page
-- Comment on or about [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995)
-- Resolve [front end code standard prohibiting usage of events on components](https://github.com/centerofci/mathesar/pull/3191)
-- PR to add docs on running front end in prod mode
-- PR to add docs on loading sample data
-- re-report mdformat [issue](https://github.com/executablebooks/mdformat/issues/413#issuecomment-1737266836) in mdformat-mkdocs repo
-
 --------------------------------------------------------------------------------
+
+## 2023-12-12 Tuesday
+
+- Review [filter and create schemas using connection\_id](https://github.com/mathesar-foundation/mathesar/pull/3349)
+- Review [Django i18n and instructions](https://github.com/mathesar-foundation/mathesar/pull/3321) and add a commit with a some dev-docs polish work
+- Design meeting
+- DCFSA enrollment
+- Open PR to [Allow editing connection nicknames](https://github.com/mathesar-foundation/mathesar/pull/3352)
+- Push more changes to [Use connection ids instead of names](https://github.com/mathesar-foundation/mathesar/pull/3341)
+- Resolve several merge conflicts in [New DB connection form](https://github.com/mathesar-foundation/mathesar/pull/3319) and rebase on top of [Add connections rpc endpoints](https://github.com/mathesar-foundation/mathesar/pull/3348)
+
+## 2023-12-11 Monday
+
+- Review/merge [Translate /src/systems, support passing arguments to RichText slots](https://github.com/mathesar-foundation/mathesar/pull/3340), including brief call with Pavish
+- Team meeting + notes
+- Adapt repo admin workflow to function across all org repos
+- Some issues cleanup
+
+## 2023-12-08 Friday
+
+- Small community event
+- Spend some time looking into the state of the API Documentation project and asking questions about it
+- Work on [Allow editing a connection nickname](https://github.com/mathesar-foundation/mathesar/issues/3333)
+- Open draft PR to [Use connection ids instead of names](https://github.com/mathesar-foundation/mathesar/pull/3341)
+- Open issue [Modify schemas API to accept connection IDs instead of connection nicknames](https://github.com/mathesar-foundation/mathesar/issues/3342)
+
+## 2023-12-07 Thursday
+
+- Work on improving code within [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316).
+
+## 2023-12-06 Wednesday
+
+- Some continued work on repo issues and label cleanup
+- Build workflow for keeping GitHub ticket labels clean
+- Review/merge [Replace eslint-plugin-svelte3 with officially supported eslint-plugin-svelte plugin](https://github.com/mathesar-foundation/mathesar/pull/3334)
+- Review [Translate /src/components, add linting and formatting rules](https://github.com/mathesar-foundation/mathesar/pull/3337)
+
+## 2023-12-05 Tuesday
+
+- Some continued work reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
+- Monthly ticket approval meeting
+- Work on re-organizing ticket labels
+
+## 2023-12-04 Monday
+
+- Send email seeking consensus on deleting our GitHub project
+- Some repo admin work
+- Discuss [New connection API](https://github.com/mathesar-foundation/mathesar/issues/3293) with Brent
+- Review and refine [queue of product approval tickets](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow)
+- Review weekly meeting agenda
+- Review/merge [Db Connections page and Welcome page](https://github.com/mathesar-foundation/mathesar/pull/3326)
+- Sink a decent amount of time into troubleshooting issues with backend bugs in the connections API and 
+
+## 2023-12-01 Friday
+
+- Insperity onboarding
+- Design meeting
+- 1:1 with Kriti
+- I9 form
+- Benefits enrollment
+
+## 2023-11-23 - 2023-11-30
+
+_(Vacation)_
+
+## 2023-11-22 Wednesday
+
+_(Very short day due to trip prep and lack of childcare)_
+
+- Team meeting
+
+## 2023-11-21 Tuesday
+
+- Weigh in on chat system email thread
+- Continued progress on New DB connection form, including a [draft PR](https://github.com/mathesar-foundation/mathesar/pull/3319)
+- User call
+- Preliminary review of [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316#pullrequestreview-1743475745)
+
+## 2023-11-20 Monday
+
+_(Slightly shorter day due to kid stuff)_
+
+- Review/merge [Set clear value as null](https://github.com/centerofci/mathesar/pull/3310)
+- A small amount of user comms
+- Re-review "Usability Issues" email thread and HackMD doc
+- Begin scaffolding [Front end changes for the "New Database Connection" form](https://github.com/mathesar-foundation/mathesar/issues/3311)
+
+## 2023-11-19 Sunday
+
+_(A small amount of work to offset expected gaps in the coming week)_
+
+- Finish combing through draft tickets and categorizing them
+- Prepare [queue of tickets to discuss at December's product approval meeting](https://hackmd.io/8LGLy7ByRtKKBNrshqMcow)
+
+## 2023-11-17 Friday
+
+- Add more design specs to [Provide bidirectional navigation between explorations and base tables](https://github.com/centerofci/mathesar/issues/3282) in order to describe behavior
+- Respond to a number of community contributor comments in GitHub
+- Quick chat with Pavish about handoff of DB connections
+- Improve clarity of specs within [Front end work to re-organize DB connections](https://github.com/centerofci/mathesar/issues/3297) and splinter some work off into a [separate ticket](https://github.com/centerofci/mathesar/issues/3311), for easier hand-off to Pavish
+- Review/merge [Replace typesafe-i18n with svelte-i18n](https://github.com/centerofci/mathesar/pull/3302)
+- Set up recurring monthly "ticket approval meetings"
+- Comb through lots of "draft" tickets to categorize them in preparation for December's monthly product approval meeting. Also comment and close a number of tickets along the way.
+
+## 2023-11-16 Thursday
+
+- 1:1 with Brent
+- Give team a heads up about travel plans
+- Design meeting
+- 1:1 with Kriti
+- [Propose](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/JXMBCsOmKao) changes to GitHub tickets workflow
+
+## 2023-11-15 Wednesday
+
+_(Shorter day due to some health issues)_
+
+- Some user comms work
+- Some work on GH ticket process, including a call with Kriti
+- Start work on DB Connection changes
+
+## 2023-11-14 Tuesday
+
+_(Shorter day due to some kid issues)_
+
+- Install adjustable monitor arm on my desk
+- Research and triage [Linked record removal not being reflected after save](https://github.com/centerofci/mathesar/issues/3308)
+- Research and weigh in on [Able to order on an unorderable field](https://github.com/centerofci/mathesar/issues/3066)
+- Call with Kriti to discuss GitHub issues process
+
+## 2023-11-13 Monday
+
+- Some repo admin work
+- Review Ghislaine's "Prioritized List of Usability Issues"
+- Spend some time researching and learning about Grist
+
+## 2023-11-10 Friday
+
+*(Out for holiday)*
+
+## 2023-11-09 Thursday
+
+- Review Ghislaine's [Bidirectional Navigation Design Spec](https://hackmd.io/@mathesar/ry32xX9ma)
+- Some work on user comms
+- Design discussion within [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Review [Added overflow condition for TableView](https://github.com/centerofci/mathesar/pull/3303)
+- Call with Pavish to go over some small questions
+- Capture user feedback from Matrix [Prajwal](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$ZgXaTcDlBt76ggTmOvwSnJ32h0a4TsUsKgkpROBxs5c?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io)
+
+## 2023-11-08 Wednesday
+
+- Review "Installation improvements 0.1.4" email thread
+- Some user feedback work
+- Team meeting + add notes to wiki
+- Small dead end rabbit hole trying to find a way to query my local Matrix Element in order to get data out of chats
+- Larger dead end rabbit hole trying to configure xremap to do some keyboard shortcut things for personal workflows
+- User call + prep + debrief + notes
+
+## 2023-11-07 Tuesday
+
+- Some repo admin work, shepherding PRs along
+- Investigate and reply to contributor's comments in [Record page widget causing overflow](https://github.com/centerofci/mathesar/issues/3289)
+- Review [Add metadata about internal db connection in common\_data](https://github.com/centerofci/mathesar/pull/3299)
+- Discussion about docs navigation within [Add resource links to user guide intro page](https://github.com/centerofci/mathesar/pull/3301)
+- Some thinking and planning for "GitHub issues workflow" discussion tomorrow
+- Review planned agenda items for tomorrow's meeting
+- Send thoughts to team on "Product process" for tomorrow's discussion
+- Call with Pavish about i18n work
+- Call with Adam
+
+## 2023-11-06 Monday
+
+- Review and discussion around DB connections page design
+- Discussion about CRM scope
+- Create ticket to spec out [Front end work for new DB connections functionality](https://github.com/centerofci/mathesar/issues/3297)
+- Fix merge conflicts in [Refactor CellSelection data structure and store](https://github.com/centerofci/mathesar/pull/3037)
+- Open PR to [Disable the stale issues bot](https://github.com/centerofci/mathesar/pull/3298)
+- Review [add cell tab in table inspector for showing cell content](https://github.com/centerofci/mathesar/pull/2778), adding some commits
+
+## 2023-11-03 Friday
+
+- Update ["New DB Connection" UI specs](/design/specs/new-db-connection-form/)
+- Send email informing others of those specs updates
+- Design discussion about [Editing Linked Records](https://github.com/centerofci/mathesar/issues/3242)
+- Design discussion about DB Connections home page, including writing a "mini spec" for new proposed behavior
+- Create tickets for:
+    - [Connections work addendum](https://github.com/centerofci/mathesar/issues/3294)
+    - [Implement new "connections" model and API](https://github.com/centerofci/mathesar/issues/3291)
+    - [Pass data about the internal DB connection to the front end via common_data](https://github.com/centerofci/mathesar/issues/3292)
+    - [Add new RPC-style API to create connections](https://github.com/centerofci/mathesar/issues/3293)
+- Send "DB Connections backend work" email
+
+## 2023-11-02 Thursday
+
+- Delete the [mathesar-update-companion](https://github.com/centerofci/mathesar-update-companion/settings)
+- Call with Brent about DB connections UI
+- Add tickets:
+    - [Provide bidirectional navigation between explorations and base tables](https://github.com/centerofci/mathesar/issues/3282)
+    - [Create FK column from new column dialog](https://github.com/centerofci/mathesar/issues/3283)
+    - [Configure search strategy within record selector](https://github.com/centerofci/mathesar/issues/3284)
+    - [Implement the "Add Record" page](https://github.com/centerofci/mathesar/issues/3285)
+    - [Improvements for working with large text fields](https://github.com/centerofci/mathesar/issues/3286)
+    - [Make navigation header behave more consistently](https://github.com/centerofci/mathesar/issues/3287)
+    - [Remove "Records will be repositioned on refresh" message](https://github.com/centerofci/mathesar/issues/3288)
+    - [Record page widget causing overflow](https://github.com/centerofci/mathesar/issues/3289)
+    - [Unable to open nested Record selector for self-referential FK](https://github.com/centerofci/mathesar/issues/3290)
+- Some small repo admin tasks
+- Begin making adjustments to specs in response to meeting with Brent
+- Begin writing up new GitHub tickets for DB connections work
+
+## 2023-11-01 Wednesday
+
+- Review DB Connections Home Page
+- Call with Brent about DB connections UI
+- Re-assign issues and PRs assigned to Rajat
+- Team meeting
+- User interview meeting
+- Some user outreach follow-up work
+- Unassign Dom, Mukesh, and Rajat from all tickets and PRs by manually reviewing each
+- Whittle down queue of [all assigned tickets](https://github.com/orgs/centerofci/projects/1/views/3?groupedBy%5BcolumnId%5D=Assignees) by closing, commenting, and unassigning people
+- Lots of clean up in GitHub issues
+- Open [PR](https://github.com/centerofci/mathesar/pull/3280) to remove mentions of `mathesar-update-companion` from the `.github` directory within the mathesar repo.
+- Open website PR [Update core team](https://github.com/centerofci/mathesar-website/pull/96)
+- Document [repo setup tasks](https://github.com/centerofci/mathesar-internal-crm/issues/2) in [wiki page](/engineering/how-tos/set-up-new-repo/) and add section on removing a repo.
+- Update wiki to document ongoing responsibilities post team-restructuring
+
+## 2023-10-31 Tuesday
+
+- Finish updating "New DB connection" specs, and alert reviewers of changes
+- Review "workspaces" email from Pavish
+- Quick call with Pavish regarding user feedback
+- Quick call with Kriti regarding user feedback
+- 1:1 with Mukesh
+- Do some more user outreach via email and Matrix
+- Begin mapping out changes necessary to implement modified DB connections designs
+- Spend some time writing up tickets to flush out my local queue of tickets to write
+
+## 2023-10-30 Monday
+
+- Enroll in new healthcare benefits
+- Call with Pavish to discuss DB connection UI
+- Brief call with Brent to discuss DB connection UI
+- Send email to team about release notes improvements
+- Send feedback email to Rajat
+- Begin adjusting "New DB Connection" specs to suit changes discussed with Pavish and Brent
+- Research and respond to "Deleting a Database Connection" thread
+
+## 2023-10-27 Friday
+
+- Team event
+- Quick call with Pavish and Kriti to handle some user comms tasks
+- Call with Ghislaine to discuss DB connection UI
+- Review [FidalMathew: Close RecordSelector on overlay click](https://github.com/centerofci/mathesar/pull/3220), including some troubleshooting and additional work in order to merge.
+
+## 2023-10-26 Thursday
+
+*(Short day due to headache)*
+
+- Open PR on marketing website to [Make timeline for cloud version less specific](https://github.com/centerofci/mathesar-website/pull/95)
+- Chat with Dom
+- Quick call with Kriti to go over some health insurance stuff
+- Some comments and clean up in various GitHub tickets and PRs
+
+## 2023-10-25 Wednesday
+
+- Quick call with Ghislaine about user outreach
+- Investigate user reported issue [FK Column Is Not Given Dropdown / Selector -- Only Raw Text Input · Issue #3255 · centerofci/mathesar](https://github.com/centerofci/mathesar/issues/3255)
+- Help move some older PRs along by making comments
+- Resolve git merge conflicts in [Save preferred_language for auth user in db](https://github.com/centerofci/mathesar/pull/3103) and troubleshoot issue with conflicting Django migrations in order to prepare the PR for merge
+- Resolve git merge conflicts in [Db connection UI](https://github.com/centerofci/mathesar/pull/3223) and merge
+- Some smaller discussions
+
+## 2023-10-24 Tuesday
+
+- DB connections UI prototyping and design
+- Call with Brent about DB connections UI
+- Finish first draft of DB connection UI [specs](/design/specs/new-db-connection-form/) and send an [email](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/fcRG1Yb3d68) requesting that others review it.
+
+## 2023-10-23 Monday
+
+- Some user outreach and CRM work
+- Quick 1/1 with Kriti
+- Some UX design, thinking, and prototype work for the DB connections UI
+
+## 2023-10-20 Friday
+
+*(1/2 day due to household stuff and kids doctors appointment)*
+
+- Call with Pavish about DB connections
+- Email discussion about Matrix problems
+- Send another batch of user outreach email messages
+- Set up sean@mathesar.org as an email address that I can send from
+
+## 2023-10-19 Thursday
+
+*(1/2 day in order to take a nap)*
+
+- Call with Mukesh about DB connections and documentation
+- Some CRM updates from user communication
+
+## 2023-10-18 Wednesday
+
+*(out due to sick kid)*
+
+## 2023-10-17 Tuesday
+
+*(1/2 day due to sick kid)*
+
+- User feedback meeting with Pavish and Ghislaine
+- Sync with Brent regarding DB connections
+- Partially attend permissions UX meeting
+
+## 2023-10-16 Monday
+
+*(1/2 day due to kid stuff)*
+
+- 1/1 with Kriti
+- Email about [DB connections work](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/jscJ4hXIlEA)
+- Catch up on some smaller email conversations
+
+## 2023-10-13 Friday
+
+- Call with Ghislaine about DB connection UI
+- Team event
+- Some continued thinking about DB connection architecture problems
+- Spend some time wrestling with Freshdesk, especially, trying to figure out how to reply to a user using markdown.
+- Discuss abandoning Freshdesk for the user outreach project
+- Some continued conversation with Serafeim Papastefanos over email ([Logged](https://github.com/centerofci/mathesar-internal-crm/blob/266f02bdaf40caa83a00db78134dd9f325790eeb/contacts/serafeim_papastefanos.md#L66))
+
+## 2023-10-12 Thursday
+
+- 1 hr deep clean and re-organization of desk workspace
+- Database connection email discussion
+- Call with Kriti about database connections
+- Call with Mukesh about database connections
+- Send a small handful of user outreach emails
+
+## 2023-10-11 Wednesday
+
+- Produce more [PR age report metrics](https://matrix.to/#/!kpLRqiyQwsndKhBIvd:matrix.mathesar.org/$XcXRbSouPuLVWjlIFYpOrmx-CyDcekz6balJX0gRiWQ?via=matrix.mathesar.org&via=matrix.org)
+- Struggle with figuring out how to use Freshdesk to suit our needs for the user outreach. (I tried a bunch of things but couldn't get Feshdesk to do exactly what we wanted.)
+- Some work reviewing [Db connection UI](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-10 Tuesday
+
+- Call with Ghislaine and Pavish about about user outreach and feedback
+- Call with Ghislaine, Pavish, and Kriti about user outreach and feedback
+- Review Ghislaine's usability issues email and HackMD document
+- Call with Ghislaine about usability issues
+- Call with Mukesh about installation documentation questions
+- Update user outreach email template, removing "Amazon" and linking to calendar
+- Review SavvyCal functionality from user perspective
+
+## 2023-10-09 Monday
+
+- Look into benefits [questions](https://matrix.to/#/!NKhZQvxWKueeqKXVYr:matrix.mathesar.org/$xrnsqsB88aVvPlBb-8q4vwAN-2WY5iEkDw_Yx1fAQPw?via=matrix.mathesar.org) from Kriti
+- Some repo analytics as follow-up thoughts to [Repo management](https://turbot.com/blog/2023/10/repo-management) link [posted](https://matrix.to/#/!OBFOMvPciDqjqcoSUO:matrix.mathesar.org/$tvDnEx9l0lm2363dE-rv52Ym9ctQ5C-Mg_4DL76E970?via=matrix.mathesar.org&via=matrix.org) by Kriti
+- Move [Cannot import large csv tables](https://github.com/centerofci/mathesar/issues/2995) out of release milestone, with comment pointing user towards other issues
+- Read Installation Improvements [project](/projects/2023/08/installation-improvements-0_1_4/) and [plan](/engineering/specs/installation-improvements-plan-0_1_4/) to become more familiar with it for the release
+- Read [Release management](/team/responsibilities/release-management/) docs
+- [Cleanup](https://github.com/centerofci/mathesar-wiki/commit/0acfc0ba358a2e846448e3ecec45102ec0659605) some wiki docs content on release management and process
+
+## 2023-10-06 Friday
+
+- DB connection UX meeting
+- Docs pairing session with Mukesh
+- Email "product vision follow-up thoughts"
+- Begin reviewing [Db connection UI by](https://github.com/centerofci/mathesar/pull/3223)
+
+## 2023-10-05 Thursday
+
+- Team meeting
+- Address review feedback to [user outreach email](https://github.com/centerofci/mathesar_internal_crm/pull/1)
+- Give team a heads up about next week
+- Some discussion around [Allow Typing Into Cells Once Highlighted](https://github.com/centerofci/mathesar/issues/3236)
+- Respond to "2023 Cycle 2 (v0.1.4) retrospective" email
 
 ## 2023-10-04 Wednesday
 
@@ -208,7 +563,7 @@
 - Brief team-management-related check-ins with Brent, Pavish, Ghislaine, Anish, Rajat
 - Open ticket [Configure code formatting for Markdown within docs and wiki sites](https://github.com/centerofci/mathesar/issues/3194)
 - Raise [mdformat bug](https://github.com/executablebooks/mdformat/issues/413) preventing us from using it
-- Publish [Markdown Style Guide](https://wiki.mathesar.org/engineering/markdown/)
+- Publish [Markdown Style Guide](/engineering/markdown/)
 - Send [Markdown syntax](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/7hAgMsWgMZw/m/xayJFNtvAgAJ) email
 - Some continued work on Cell Selection refactor
 
@@ -505,7 +860,7 @@
 
 - Team event
 - Catch up with some email discussions from the past week
-- Re-review [Publicly Sharable Links spec](https://wiki.mathesar.org/en/product/specs/publicly-shareable-links)
+- Re-review [Publicly Sharable Links spec](/product/specs/publicly-shareable-links)
 - Begin mapping out some thoughts for the SheetSelection refactor RFC
 
 ## 2023-07-06 Thursday

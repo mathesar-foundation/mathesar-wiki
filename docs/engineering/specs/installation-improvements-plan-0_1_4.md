@@ -1,12 +1,12 @@
 # Installation Improvement Plan
 
-This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting).
+This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](/meeting-notes/2023-07/2023-07-28-installation-meeting).
 Implementing the planned changes will be done in separate projects
 
 - [Installation Improvement 0.1.4](/projects/installation-improvements-0_1_4)
 
 ### Problems
-1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/centerofci/mathesar/discussions/3108) summarizes a lot of pain points.
+1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/mathesar-foundation/mathesar/discussions/3108) summarizes a lot of pain points.
 
 ### Reasons
 1. We are targeting too many different use cases for Mathesar in our current documentation, which makes the documentation overwhelming for the user, and we need to simplify things.
@@ -17,7 +17,7 @@ Implementing the planned changes will be done in separate projects
 
 ### Targeted Personas
 
-We discussed and agreed upon a [set of personas to target initially](https://wiki.mathesar.org/en/meeting-notes/2023-07/2023-07-28-installation-meeting#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification)
+We discussed and agreed upon a [set of personas to target initially](/meeting-notes/2023-07/2023-07-28-installation-meeting#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification)
 
 Top
 

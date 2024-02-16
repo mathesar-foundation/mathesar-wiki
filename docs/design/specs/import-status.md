@@ -1,7 +1,7 @@
 # Import Status
 
 ## Context
-The initial design for [Add Table from File Import](https://wiki.mathesar.org/en/design/specs/table-import) defined all the steps needed to import a file, preview its content, make adjustments and save it as a table within Mathesar. However, certain aspects of the upload process and status lack definition for implementation as reported on the issue [#296](https://github.com/centerofci/mathesar/issues/296) on Github. This spec looks to address those gaps in the design.
+The initial design for [Add Table from File Import](/design/specs/table-import) defined all the steps needed to import a file, preview its content, make adjustments and save it as a table within Mathesar. However, certain aspects of the upload process and status lack definition for implementation as reported on the issue [#296](https://github.com/mathesar-foundation/mathesar/issues/296) on Github. This spec looks to address those gaps in the design.
 
 ## Prototype
 [Import Status Indicator](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=2306%3A11983&node-id=2306%3A11984&viewport=556%2C470%2C0.5827216506004333&scaling=contain)

@@ -1,20 +1,24 @@
 # Team
 
-## Core Team
+## Maintainers
 
-The core team maintains the project on a day-to-day basis. 
+The maintainers maintain the project on a day-to-day basis. We previously called this group the "core team".
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
-| Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering (frontend) |
-| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project lead, Product, Engineering (backend) |
+| Anish Umale | `@anish:matrix.mathesar.org` | `@Anish9901` | Engineering |
+| Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
 | Ghislaine Guerin | `@ghislaine:matrix.mathesar.org` | `@ghislaineguerin` | Product, Design |
-| Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering (frontend) |
-| Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering (backend) |
-| Mukesh Murali | `@mukesh:matrix.mathesar.org` | `@silentninja` | Engineering (backend) |
-| Dominykas Mostauskis | `@dominykas:matrix.mathesar.org` | `@dmos62` | Engineering (backend) |
-| Rajat Vijay | `@rajat:matrix.mathesar.org` | `@rajatvijay` | Engineering (frontend) |
+| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project lead, Product, Engineering |
+| Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
+| Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering |
 
+## Staff members
+These team members also work on Mathesar, but do not maintain the open source project.
+
+| **Name** | **Matrix** | **GitHub** | **Roles** |
+|-|-|-|-|
+| Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Operations, finance, strategy |
 
 ## Community Team
 
@@ -29,15 +33,18 @@ The community team contributes to Mathesar's design and development fairly regul
 | Jinxiao Li | `@jinxiaol:matrix.org` | `@Jinxiao0302` | GSoC '22 contributor |
 | Yurii Palaida | `@jyuart:matrix.org` | `@Jyuart` | GSoC '22 contributor |
 | Gabriel Sotomayor | `@mr.gabe49:matrix.org` | `@mr-gabe49` | Engineering (frontend) |
-| Anish Umale | `@anish9901:matrix.org` | `@Anish9901` | GSoC '22 contributor |
 | Han Yang | `@ppii_775:matrix.org` | `@ppii775` | Design |
 | Anshuman Maurya | `@iamezio:matrix.org` | `@IamEzio` | GSoC '23 contributor |
 | Aritra Majumder | `@arima_kun:matrix.org` | `@@Aritra8438` | GSoC '23 contributor |
 | Varsha D R | `@varshadr1234:matrix.org` | `@varshadr` | Summer '23 volunteer |
 | Shrey Tripathi | `@shrey_tripathi:matrix.org` | `@shrey27tri01` | Summer '23 volunteer |
+| Mukesh Murali | `@silentninja:matrix.org` | `@silentninja` | Engineering (backend), core team emeritus |
+| Dominykas Mostauskis | `@dmos:matrix.org` | `@dmos62` | Engineering (backend), core team emeritus |
+| Rajat Vijay | TBD | `@rajatvijay` | Engineering (frontend), core team emeritus |
 
 ## Emeritus
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
 | Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) on the Community Team |
+
