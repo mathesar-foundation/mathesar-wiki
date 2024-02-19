@@ -2,26 +2,29 @@
 
 The big picture is that we will implement access management for DB objects (including databases themselves) by giving admin users of Mathesar the ability to use database-layer permissions management tools (e.g., `GRANT`). For web service resources (e.g., Django model instances), permissions will be managed in Django.
 
-## Database Connection Model
+## Database Model
 
-As described in [the models section](./models.md), This will store the information needed to create an engine and connect to a database. Because the information includes a role (to define the initial connection role), it necessarily defines a set of privileges available on the database with that connection.
+This model will be reduced to store nothing more than metadata about a given database, as well as its name for use when constructing an actual connection to that database.
+
+## Database Server Credential Model
+
+As described in [the models section](./models.md), This will store the authentication information needed to create an engine, but won't provide a database (a required part of a connection definition in PostgreSQL). Because the information includes a role (to define the initial connection role), it necessarily defines a set of privileges available on the database with that connection.
+
+## User Database Map Model
+
+This map uses a `user_id, database` pair to look up the needed credentials, then provides a connection to the database using those credentials (if possible).
 
 ## Adding Connections (backend perspective)
 
-Regardless of UI, the backend should receive a `POST` request defining a new connection. It should store this in the `DatabaseConnection` model, and initially no users should have access to that. Then, the backend should receive `PATCH` requests to modify various users, giving them access to use that connection. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables). I don't think our "Manager", "Editor", "Viewer" framework makes sense here. You have two levels: "Admin" (a proper Mathesar superuser), and "User" (a user who's allowed to use a given connection).
-
-!!! question "UX Question"
-    Is there a use-case for having a non-admin "Manager" role who can grant access to a given connection string, but not others?
+Regardless of UI, the backend should receive a `POST` request to the new RPC endpoint defining a new connection. We'll use the same functions set up in [PR \#3348](https://github.com/mathesar-foundation/mathesar/pull/3348). The relevant info should be stored in the `Database` and `DatabaseServerCredential` models. Also, if the user does not already have an entry defining their role on the given database, we could create such an entry automatically in the `UserDatabaseMap` model. This is optional, and doesn't really affect the architecture. Then, to let some other users access that connection, we will provide an RPC function that lets an admin set different users' credentials for the given database by creating or updating `UserDatabaseMap` resources. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables).
 
 ## Granting database object privileges
 
-The backend will provide an endpoint that lets an admin (who has access to a sufficiently-privileged role via a connection) access database-level permission granting functionality directly. So, to grant access to create tables in a schema to a Mathesar user, the admin needs to send a `PATCH` request to CRUD endpoint that defines a privilege-granting query (via a function) on the database. Note that this `PATCH` request doesn't actually modify any model instance. We should probably namespace this endpoint differently than the Mathesar user admin for clarity.
+The backend will provide RPC functions that let an admin (who has access to a sufficiently-privileged database role via a connection) access database-level permission granting functionality directly. So, to grant access to create tables in a schema to a Mathesar user, the admin uses an RPC function that defines a privilege-granting query (via a PL/pgSQL function) on the database. Note that this request doesn't actually modify any model instance.
 
 - Privileges on DB objects are thus not granted directly to Mathesar users.
 - Privileges on DB objects are granted to DB roles, which may be accessible to some (or all) Mathesar users.
-
-!!! question "UX Question"
-    Should access to Connections and access to DB objects via connections be presented the same way in the UI?
+- Anytime an RPC function requiring DB access runs, it runs using the connection defined via the `UserDatabaseMap`, with the associated privileges on that database.
 
 !!! question "UX Question"
     Should the admin think in terms of groups of Mathesar users, or specifically in terms of connections when dealing with DB-level privileges?
@@ -38,7 +41,7 @@ There are some metadata objects for which privileges shouldn't really be granted
 
 ## Multi-user metadata object privileges
 
-Examples of these are table properties like preview columns. We've decided these should be per-table, and so this metadata will be stored on the user DB in a `msar_cat` namespace. Thus, modifying this metadata will occur in a request to modify the associated table, and the privilege check will be whether the relevant DB user is allowed to `ALTER` that table. Viewing this metadata would check whether the relevant DB user is allowed to `SELECT` that table.
+Examples of these are table properties like preview columns. We've decided these should be per-table, and so this metadata will be stored on the user DB in a `msar_cat` namespace. Thus, modifying this metadata will occur in a request to modify the associated table, and the privilege check will be whether the relevant DB user is allowed to `ALTER` that table. 
 
 ## Standalone Mathesar objects
 

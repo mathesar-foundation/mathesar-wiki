@@ -59,7 +59,7 @@ Referenced by DatabaseRole and Schema models.
 
 Replace this with these models:
 
-- a `Database` model containing (for now) only an ID, an OID, and a `database` (name). We could also add other metadata to this model as appropriate.
+- a `Database` model containing (for now) only an ID, an OID, and a `database` (name). We could also add other metadata to this model as appropriate (consider keeping `editable`).
 - a `DatabaseServerCredential` model containing a DB hostname, port, and username; and
 - a `UserDatabaseMap` model containing a `user_id` fkey to the `User` model, a `database_id` fkey to the `Database` model, and a `database_server_credential_id` fkey to the `DatabaseServerCredential` model. The `UserDatabaseMap` model should additionally have a `database` field, and the `user_id`, `database` pair should be unique.
 
