@@ -57,9 +57,14 @@ Stores connection info to allow accessing a DB by creating an SQLAlchemy engine.
 
 Referenced by DatabaseRole and Schema models.
 
-Replace this with a `DatabaseConnection` model containing a DB hostname, port, database, and username. We should add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means. 
+Replace this with a pair of models:
 
-The Django permissions infrastructure should handle whether a user can access the DB at all in the Django layer (i.e., whether they can use the connection string), and other permissions on the DB should be handled by restricting the relevant user (referred to by the conn string) on the DB. For this to be sensible, we need a UI concept of a database user (beyond just connecting your Mathesar user to a database) This could be something like `mathesar@mathesar_tables` (in our default setup). _If_ we don't think that's feasible from a UX perspective, we should set up a database user for each Mathesar user, on each database, with minimal permissions (`CONNECT` and `CREATE`).
+- a `DatabaseServerCredential` model containing a DB hostname, port, and username; and
+- a `UserDatabaseMap` model containing a `User` fkey, a `DatabaseServerCredential` fkey, and a `DatabaseServerCredential` fkey. The model should additionally have a `database` field, and the `user_id`, `database` pair should be unique.
+
+We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means. 
+
+The Django permissions infrastructure should handle CRUD operations on `DatabaseServerCredential` and `UserDatabaseMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user_id, database` pair.
 
 ### DatabaseRole
 
@@ -95,8 +100,6 @@ This stores a role on a given database for a given user. We should delete this m
 | sheet\_index            | integer                  |
 
 This stores metadata about files which have been uploaded for import into Mathesar. We should keep this model. `table_imported_to_id` should be removed (it's not used anywhere is it?). Also `max_level` seems like less of a data file attribute and more of an import setting.
-
-Request from Pavish: We should reduce the number of requests in the import process. Right now it's many. Consider an RPC endpoint. Brent agrees this is a good idea.
 
 ### PreviewColumnSettings
 
@@ -238,5 +241,4 @@ This stores a definition of a stored query that can be run on command. The main 
 | short_name             | character varying(255)   |
 | password_change_needed | boolean                  |
 
-This stores user metadata. I think we should  mostly keep it as is, 
-
+This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `DatabaseServerCredential` modeel.
