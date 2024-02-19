@@ -57,10 +57,11 @@ Stores connection info to allow accessing a DB by creating an SQLAlchemy engine.
 
 Referenced by DatabaseRole and Schema models.
 
-Replace this with a pair of models:
+Replace this with these models:
 
+- a `Database` model containing (for now) only an ID, an OID, and a `database` (name). We could also add other metadata to this model as appropriate.
 - a `DatabaseServerCredential` model containing a DB hostname, port, and username; and
-- a `UserDatabaseMap` model containing a `User` fkey, a `DatabaseServerCredential` fkey, and a `DatabaseServerCredential` fkey. The model should additionally have a `database` field, and the `user_id`, `database` pair should be unique.
+- a `UserDatabaseMap` model containing a `user_id` fkey to the `User` model, a `database_id` fkey to the `Database` model, and a `database_server_credential_id` fkey to the `DatabaseServerCredential` model. The `UserDatabaseMap` model should additionally have a `database` field, and the `user_id`, `database` pair should be unique.
 
 We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means. 
 
@@ -135,55 +136,55 @@ Delete this model. All permissions handled by the referencing SchemaRole should 
 
 ### SchemaRole
 
-| Column     | Type                     |
-|------------|--------------------------|
-| id         | integer                  |
-| created_at | timestamp with time zone |
-| updated_at | timestamp with time zone |
-| role       | character varying(10)    |
-| schema_id  | integer                  |
-| user_id    | integer                  |
+| Column      | Type                     |
+|-------------|--------------------------|
+| id          | integer                  |
+| created\_at | timestamp with time zone |
+| updated\_at | timestamp with time zone |
+| role        | character varying(10)    |
+| schema\_id  | integer                  |
+| user\_id    | integer                  |
 
 This should be deleted, and the permissions should be instead managed on the underlying DB.
 
 ### SharedQuery
 
-| Column     | Type                     |
-|------------|--------------------------|
-| id         | integer                  |
-| created_at | timestamp with time zone |
-| updated_at | timestamp with time zone |
-| slug       | uuid                     |
-| enabled    | boolean                  |
-| query_id   | integer                  |
+| Column      | Type                     |
+|-------------|--------------------------|
+| id          | integer                  |
+| created\_at | timestamp with time zone |
+| updated\_at | timestamp with time zone |
+| slug        | uuid                     |
+| enabled     | boolean                  |
+| query\_id   | integer                  |
 
 This model should stay. No changes here. We need to add metadata about which user created the share, so we can use that user's allowed DB credentials for accessing the underlying assets (tables, schemata, etc.)
 
 ### SharedTable
 
-| Column     | Type                     |
-|------------|--------------------------|
-| id         | integer                  |
-| created_at | timestamp with time zone |
-| updated_at | timestamp with time zone |
-| slug       | uuid                     |
-| enabled    | boolean                  |
-| table_id   | integer                  |
+| Column      | Type                     |
+|-------------|--------------------------|
+| id          | integer                  |
+| created\_at | timestamp with time zone |
+| updated\_at | timestamp with time zone |
+| slug        | uuid                     |
+| enabled     | boolean                  |
+| table\_id   | integer                  |
 
 Only change is that we need to refer directly to a table OID, and handle permissions.
 
 ### Table
 
-| Column           | Type                     |
-|------------------|--------------------------|
-| id               | integer                  |
-| created_at       | timestamp with time zone |
-| updated_at       | timestamp with time zone |
-| oid              | integer                  |
-| import_verified  | boolean                  |
-| is_temp          | boolean                  |
-| import_target_id | integer                  |
-| schema_id        | integer                  |
+| Column             | Type                     |
+|--------------------|--------------------------|
+| id                 | integer                  |
+| created\_at        | timestamp with time zone |
+| updated\_at        | timestamp with time zone |
+| oid                | integer                  |
+| import\_verified   | boolean                  |
+| is\_temp           | boolean                  |
+| import\_target\_id | integer                  |
+| schema\_id         | integer                  |
 
 Stores info about:
 
@@ -196,49 +197,49 @@ We should combine this with the `TableSettings` model to create a `TableMetadata
 
 ### TableSettings
 
-| Column              | Type                     |
-|---------------------|--------------------------|
-| id                  | integer                  |
-| created_at          | timestamp with time zone |
-| updated_at          | timestamp with time zone |
-| column_order        | jsonb                    |
-| preview_settings_id | integer                  |
-| table_id            | integer                  |
+| Column                | Type                     |
+|-----------------------|--------------------------|
+| id                    | integer                  |
+| created\_at           | timestamp with time zone |
+| updated\_at           | timestamp with time zone |
+| column\_order         | jsonb                    |
+| preview\_settings\_id | integer                  |
+| table\_id             | integer                  |
 
 This stores Mathesar-specific metadata about tables. Should be combined with remains of `Table` model.
 
 ### UIQuery
 
-|     Column      |           Type           |
-| ----------------|--------------------------|
-| id              | integer                  |
-| created_at      | timestamp with time zone |
-| updated_at      | timestamp with time zone |
-| name            | character varying(128)   |
-| description     | text                     |
-| initial_columns | jsonb                    |
-| transformations | jsonb                    |
-| display_options | jsonb                    |
-| display_names   | jsonb                    |
-| base_table_id   | integer                  |
+| Column           | Type                     |
+|------------------|--------------------------|
+| id               | integer                  |
+| created\_at      | timestamp with time zone |
+| updated\_at      | timestamp with time zone |
+| name             | character varying(128)   |
+| description      | text                     |
+| initial\_columns | jsonb                    |
+| transformations  | jsonb                    |
+| display\_options | jsonb                    |
+| display\_names   | jsonb                    |
+| base\_table\_id  | integer                  |
 
 This stores a definition of a stored query that can be run on command. The main changes are that it should refer directly to DB-layer ids (oids and attnums) rather than Django-layer.
 
 ### User
 
-|         Column         |           Type           |
-| -----------------------|--------------------------|
-| id                     | integer                  |
-| password               | character varying(128)   |
-| last_login             | timestamp with time zone |
-| is_superuser           | boolean                  |
-| username               | character varying(150)   |
-| email                  | character varying(254)   |
-| is_staff               | boolean                  |
-| is_active              | boolean                  |
-| date_joined            | timestamp with time zone |
-| full_name              | character varying(255)   |
-| short_name             | character varying(255)   |
-| password_change_needed | boolean                  |
+| Column                   | Type                     |
+|--------------------------|--------------------------|
+| id                       | integer                  |
+| password                 | character varying(128)   |
+| last\_login              | timestamp with time zone |
+| is\_superuser            | boolean                  |
+| username                 | character varying(150)   |
+| email                    | character varying(254)   |
+| is\_staff                | boolean                  |
+| is\_active               | boolean                  |
+| date\_joined             | timestamp with time zone |
+| full\_name               | character varying(255)   |
+| short\_name              | character varying(255)   |
+| password\_change\_needed | boolean                  |
 
-This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `DatabaseServerCredential` modeel.
+This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `DatabaseServerCredential` model.
