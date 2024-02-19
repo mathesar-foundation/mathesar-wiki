@@ -35,20 +35,19 @@ The backend will provide RPC functions that let an admin (who has access to a su
     - `GRANT` the owning DB role (ostensibly a user) to DB users connectable by the relevant Mathesar users.
     - Have at least one DB superuser available for use with a connection, and give relevant Mathesar users access to that DB superuser.
     
-## Single-user metadata object privileges
-
-There are some metadata objects for which privileges shouldn't really be granted or revoked. An example is the display options for a column. For these types of objects, we should simply keep an 'owning user' attribute of each model instance, and use that to apply the correct version of the metadata when returning object info from the database. Note that if we end up exposing an endpoint to work on these metadata models directly, then we'll need access policies.
-
 ## Multi-user metadata object privileges
 
 Examples of these are table properties like preview columns. We've decided these should be per-table, and so this metadata will be stored on the user DB in a `msar_cat` namespace. Thus, modifying this metadata will occur in a request to modify the associated table, and the privilege check will be whether the relevant DB user is allowed to `ALTER` that table. 
 
 ## Standalone Mathesar objects
 
-An example of this would be an Exploration. The privileges needed to actually _run_ the query are handled on the database as described above, but a user should have access to look at the exploration definition itself (as well as edit/delete) it handled by the Django access policy framework. It seems like our current Manager/Editor/Viewer framework should suffice, but needs to be applied directly to such objects.
+An example of this would be an Exploration. The privileges needed to actually _run_ the query are handled on the database as described above, but a user should have access to look at the exploration definition itself (as well as edit/delete) handled by the Django access policy framework. It seems like our current Manager/Editor/Viewer framework should suffice.
 
-!!! question "UX Question"
-    How should viewing others' objects work for these? Should they be namespaced under some "workspace" concept (currently we're using database/schema)?
+In the case of Explorations (UIQuery model), this will be derived from a policy scoped via the `Database` associated with the Exploration:
+- A super user of Mathesar will set the policy for `DatabaseServerCredential` instances via the UI.
+    - Each credential instance represents a Role on the DB.
+    - When a User wants to view/edit/manage an Exploration, the web service will check the `user, database` pair (where `database`) is the Database associated with the Exploration to get a `DatabaseServerCredential` if one exists (otherwise, no permissions are granted)
+    - Based on the policy applied to that credential, the user can then act on the Exploration.
 
 ## Shared links
 
