@@ -1,9 +1,8 @@
 # Models
 
-!!! warning "Warning"
-    This document is still a WIP. Mostly still in 'ad-hoc notes' format
+## Current Models (skipping unused batteries for now)
 
-## Models (skipping unused batteries for now)
+This section contains ad-hoc notes on our current models, and intended changes.
 
 ### Column
 

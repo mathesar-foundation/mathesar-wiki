@@ -125,9 +125,7 @@ This service should provide an JSON-RPC API for use by the front end. When an AP
 
 ### Example
 
-**TODO** Clean this up and check it.
-
-A user lists the columns for a table. Because they have access to read the columns of the table (checked on the DB), they can read (their) display options for a table. If they have access to modify a column of a table, they have access to modify the relevant display options. This works as long as there isn't a dedicated `display_options` endpoint which could receive requests directly.
+A user lists the columns for a table. Because they have access to read the columns of the table (checked on the DB), they can read display options for a table. If they have access to modify a column of a table, they have access to modify the relevant display options. This works as long as there isn't a dedicated `display_options` endpoint which could receive requests directly.
 
 ### Exceptions
 
@@ -138,7 +136,3 @@ There are some metadata and other models that we'll be keeping which _can_ recei
 - Explorations
 
 Access to these will be managed using the Django permissions framework (i.e., with access policies).
-
-### We should avoid
-
-We should absolutely avoid caching or storing permissions and access to Django models based on permissions for underlying DB models. For example, if we ever want a user to manage display options directly, they should own _any_ display option they've created (and have access to it) regardless of their access (or lack of it) to the underlying DB object.
