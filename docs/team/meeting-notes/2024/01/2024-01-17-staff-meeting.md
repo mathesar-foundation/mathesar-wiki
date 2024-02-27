@@ -14,7 +14,7 @@ Sean wants to brainstorm QA tasks to focus on during the QA phase for this relea
 
 - We don't expect to have any more code changes merged in
 - We do have docs still waiting to be merge
-- We should start with the tasks in the release process wiki page https://wiki.mathesar.org/engineering/release-process/
+- We should start with the tasks in the release process wiki page
     - Cut release branch, etc.
 - We need to have an image pushed to DockerHub to start QA
     - tagged 0.1.4
