@@ -2,6 +2,13 @@
 
 When we "cut" a release, we _begin_ the process of making a release. (This is not to be confused with [_publishing_](./publication.md) a release, which is the last step.) After a release is cut, we can perform manual QA testing and polish any remaining small changes.
 
+<!--
+  NOTE TO DOCS EDITORS:
+
+  This page has a substantial amount of content duplicated with publication.md.
+  Be sure to propagate changes there as necessary.
+-->
+
 1. **Set a VERSION variable in your shell**
 
     Run this command to set a local variable within your shell to the version number of the release you're making.
@@ -26,7 +33,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 1. **Update version numbers**
 
     ```sh
-    sed -i "s/^version =.*\$/version = $VERSION/" pyproject.toml
+    sed -i "s/^version =.*\$/version = \"$VERSION\"/" pyproject.toml
     sed -i "s/^__version__ =.*\$/__version__ = \"$VERSION\"/" mathesar/__init__.py
     git commit -a -m "Update version numbers to $VERSION"
     ```
@@ -38,7 +45,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
     gh pr create -d -B master -m "v$VERSION" -t "Release $VERSION" -b ""
     ```
 
-1. **Push images to Dockerhub**
+1. **Publish Docker images**
 
     1. Log in to DockerHub
 
@@ -46,7 +53,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
         docker login
         ```
 
-        (Find the username and password in our shared 1Password vault.)
+        (Use your personal Docker credentials. Your personal Docker account will need to be a member of our [mathesar Docker org](https://hub.docker.com/orgs/mathesar/members).)
 
     1. Locally clone the repo into a clean directory and go there.
 
@@ -59,8 +66,9 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 
         (This ensures that files which are ignored by git don't end up in the Docker image.)
 
-
     1. Build and push images to DockerHub
+
+        (This will take about 30 minutes.)
 
         ```sh
         docker buildx create --name container --driver=docker-container

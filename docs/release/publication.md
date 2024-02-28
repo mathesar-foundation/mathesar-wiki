@@ -7,6 +7,13 @@
     
     We would like to improve this process. But in the mean time, be sure to follow these steps quickly so as to reduce the duration of this "out of sync" window.
 
+<!--
+  NOTE TO DOCS EDITORS:
+
+  This page has a substantial amount of content duplicated with cutting.md.
+  Be sure to propagate changes there as necessary.
+-->
+
 1. **Set a VERSION variable in your shell**
 
     Run this command to set a local variable within your shell to the version number of the release you're making.
@@ -14,6 +21,13 @@
     ```sh
     VERSION=1.2.3 # ⚠️ CUSTOMIZE THIS
     ```
+
+    !!! note
+        Do _not_ prefix the version with `v`.
+
+1. **Merge the release notes PR** (if not yet done)
+
+    This should merge the release notes file into the release branch.
 
 1. **Merge the release PR**
 
@@ -33,12 +47,20 @@
 
 1. **Publish Docker images**
 
+    1. Log in to DockerHub
+
+        ```sh
+        docker login
+        ```
+
+        (Use your personal Docker credentials. Your personal Docker account will need to be a member of our [mathesar Docker org](https://hub.docker.com/orgs/mathesar/members).)
+
     1. Clone a fresh version of the repo from `master`.
 
         A fresh clone is necessary because all files in the directory will be present within the built Docker image. You don't want to have any ignored files like `.env` in there.
 
     1. `cd` to repository, check out the commit that you've tagged.
-    1. Make sure you're logged into DockerHub (credentials are in 1Password)
+
     1. Run the following commands:
 
         ```sh
@@ -64,6 +86,8 @@
         Note that the release needs to be tagged as `latest`.
 
 1. **Create GitHub release**
+
+    <!-- TODO: modify these steps to use `gh` instead of the web interface -->
 
     From the [Releases page](https://github.com/mathesar-foundation/mathesar/releases), click "Draft a new release".
 
