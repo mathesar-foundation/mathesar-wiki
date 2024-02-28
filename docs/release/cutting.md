@@ -71,18 +71,16 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
         (This will take about 30 minutes.)
 
         ```sh
-        docker buildx create --name container --driver=docker-container
-
         docker buildx build \
           -t mathesar/mathesar-caddy:$VERSION \
-          --builder=container \
+          --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push \
           -f Dockerfile.caddy .
 
         docker buildx build \
           -t mathesar/mathesar-prod:$VERSION \
-          --builder=container \
+          --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push \
           --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .

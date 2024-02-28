@@ -64,12 +64,10 @@
     1. Run the following commands:
 
         ```sh
-        docker buildx create --name container --driver=docker-container
-
         docker buildx build \
           -t mathesar/mathesar-caddy:$VERSION \
           -t mathesar/mathesar-caddy:latest \
-          --builder=container \
+          --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push \
           -f Dockerfile.caddy .
@@ -77,13 +75,13 @@
         docker buildx build \
           -t mathesar/mathesar-prod:$VERSION \
           -t mathesar/mathesar-prod:latest \
-          --builder=container \
+          --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push \
           --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
         ```
 
-        Note that the release needs to be tagged as `latest`.
+        These commands build, push, and tag the images as `latest`.
 
 1. **Create GitHub release**
 
