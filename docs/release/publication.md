@@ -31,7 +31,11 @@
 
 1. **Merge the release PR**
 
-    This should merge the release branch into `master`. Before moving on, ensure the release branch is deleted within GitHub after merge. This should happen automatically after merging.
+    This should merge the release branch into `master`.
+    
+    Before moving on, ensure the release branch is deleted within GitHub after merge. This should happen automatically after merging. The PR should show an entry in the activity timeline like:
+
+    > seancolsen deleted the `0.1.5` branch 1 minute ago
 
 1. **Create the tag**
 
@@ -55,11 +59,16 @@
 
         (Use your personal Docker credentials. Your personal Docker account will need to be a member of our [mathesar Docker org](https://hub.docker.com/orgs/mathesar/members).)
 
-    1. Clone a fresh version of the repo from `master`.
+    1. Locally clone the repo into a clean directory and go there.
 
-        A fresh clone is necessary because all files in the directory will be present within the built Docker image. You don't want to have any ignored files like `.env` in there.
+        ```sh
+        REPO_DIR=$(pwd)
+        CLEAN_REPO_DIR=$(mktemp -d)
+        cd $CLEAN_REPO_DIR
+        git clone -b master --single-branch --no-tags "$REPO_DIR" .
+        ```
 
-    1. `cd` to repository, check out the commit that you've tagged.
+        (This ensures that files which are ignored by git don't end up in the Docker image.)
 
     1. Run the following commands:
 
@@ -83,20 +92,29 @@
 
         These commands build, push, and tag the images as `latest`.
 
+1. Clean up
+
+    ```sh
+    cd "$REPO_DIR"
+    rm -rf $CLEAN_REPO_DIR
+    docker logout
+    ```
+
 1. **Create GitHub release**
 
-    <!-- TODO: modify these steps to use `gh` instead of the web interface -->
-
-    From the [Releases page](https://github.com/mathesar-foundation/mathesar/releases), click "Draft a new release".
-
-    - Choose the tag you just created.
-    - The title should be formatted like `Version 0.1.3 (alpha release)`
-    - Click "Generate release notes"
-    - Edit the release body markdown to hyperlink to the release notes as published on docs.mathesar.org.
-    - "Set as a pre-release" should be false
-    - "Set as the latest release" should be true
-    - "Create a discussion for this release" should be false
+    ```
+    gh release create \
+      --latest \
+      --title "Version $VERSION (alpha release)" \
+      --notes "__[Release notes](https://docs.mathesar.org/releases/$VERSION/)__" \
+      $VERSION
+    ```
 
 1. **Merge master into develop**
 
-    After the release is made successfully, merge the `master` branch into `develop`. Open a new PR for this and queue it to merge when the workflows finish.
+    GitHub will automatically create a PR for this. Find it and merge it.
+
+1. **Close the release milestone**
+
+    Move any outstanding issues to the next milestone.
+
