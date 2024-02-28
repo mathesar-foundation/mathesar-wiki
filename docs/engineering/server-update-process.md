@@ -1,4 +1,6 @@
-### Updating the Demo server
+# Server update process
+
+## Updating the Demo server
 
 - Create a new server on gcp which will be used as a template for a demo server. we will call it as `demo-template`
 - Deploy a new demo server using ansible.
