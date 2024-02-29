@@ -27,7 +27,7 @@
         - Ghislaine - try installation blocker locally again after 0.1.5 is out, might be fixed with Anish's issue
         - If there's still an issue, we'll uncheck later
 
-Next steps:
+## Next steps
 - Brent reviews docs + release notes
 - Ghislaine completes QA
 - Sean makes the release
