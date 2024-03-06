@@ -7,7 +7,7 @@
 1. [QA the release](./qa.md) and [write the release notes](./notes.md)
 1. [Publish the release](./publication.md)
 1. [Update our servers](../engineering/server-update-process.md)
-1. [Announce the release](./announce.md)
+1. Announce the release
 
 ## Prerequisites
 

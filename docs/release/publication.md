@@ -114,7 +114,4 @@
 
     GitHub will automatically create a PR for this. Find it and merge it.
 
-1. **Close the release milestone**
-
-    Move any outstanding issues to the next milestone.
 
