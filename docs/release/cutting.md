@@ -68,8 +68,6 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 
     1. Build and push images to DockerHub
 
-        (This will take about 30 minutes.)
-
         ```sh
         docker buildx build \
           -t mathesar/mathesar-caddy:$VERSION \

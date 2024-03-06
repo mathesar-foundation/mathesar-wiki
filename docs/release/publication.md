@@ -92,13 +92,13 @@
 
         These commands build, push, and tag the images as `latest`.
 
-1. Clean up
+    1. Clean up
 
-    ```sh
-    cd "$REPO_DIR"
-    rm -rf $CLEAN_REPO_DIR
-    docker logout
-    ```
+        ```sh
+        cd "$REPO_DIR"
+        rm -rf $CLEAN_REPO_DIR
+        docker logout
+        ```
 
 1. **Create GitHub release**
 
