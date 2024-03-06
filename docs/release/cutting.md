@@ -35,6 +35,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
     ```sh
     sed -i "s/^version =.*\$/version = \"$VERSION\"/" pyproject.toml
     sed -i "s/^__version__ =.*\$/__version__ = \"$VERSION\"/" mathesar/__init__.py
+    sed -i "s/^  mathesar_version:.*\$/  mathesar_version: $VERSION/" docs/mkdocs.yml
     git commit -a -m "Update version numbers to $VERSION"
     ```
 
