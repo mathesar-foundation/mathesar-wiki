@@ -81,8 +81,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
           -t mathesar/mathesar-prod:$VERSION \
           --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
-          --push \
-          --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
+          --push .
         ```
 
         (These images are intentionally not tagged as latest — that will happen during [publication](./publication.md).)

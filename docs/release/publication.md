@@ -86,8 +86,7 @@
           -t mathesar/mathesar-prod:latest \
           --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
-          --push \
-          --build-arg PYTHON_REQUIREMENTS=requirements-prod.txt .
+          --push .
         ```
 
         These commands build, push, and tag the images as `latest`.
