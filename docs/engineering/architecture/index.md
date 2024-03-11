@@ -12,14 +12,24 @@ We need a couple of terms to get started:
 
 ## Bird's Eye View
 
-The main goals of this architectural redesign are to improve the speed and reduce the complexity of the back end. Secondary goals are to improve the convenience of the API for the use case of our front end, and make it easier for users and contributors to identify which back end code supports a given front end feature. We plan to do this by:
+The main goals of this architectural redesign are to
+
+- improve the speed of the back end, and
+- reduce the complexity of the back end.
+
+Secondary goals are to
+
+- improve the convenience of the API for the use case of our front end, and
+- make it easier for users and contributors to identify which back end code supports a given front end feature.
+
+We plan to do this by:
 
 - Removing Django models representing User DB objects (e.g., tables), replacing them with functions that query and act on those DB objects directly. Insofar as we need to enrich the metadata about User DB objects with Mathesar-managed metadata, we'll do that after gathering the relevant info from the User DB.
 - Changing our API to use a JSON-RPC (2.0) spec.
 
 ## A Motivating Example: Getting the table info in a schema
 
-To get the table info in a schema, 
+To get the table info in a schema using our current architecture,
 
 1. The front end calls the endpoint `GET /api/db/v0/tables/` using a query string parameter to filter results from that endpoint based on a schema (identified by a Django-assigned integer id). Internally, then the following happens:
 
@@ -72,7 +82,7 @@ With the new architecture, to get the same info,
         - `type_options`
     - `preview_settings` -- describes how we should show each table's rows when it's linked to by a foreign key
 
-1. Using the returned info, the web service filters a `TableMetadata` model based on returned `oid`s, and gathers
+1. Using the returned info, the web service filters a `TableMetadata` model based on the passed `database` and returned `oid`s, and gathers
 
     - `import_verified`
     - `is_temp`
@@ -100,8 +110,18 @@ For each API call, there should be an identifiable DB function that performs all
 
 To achieve this, we will install the following on the user database(s)
 
-- Some custom Mathesar types.
-- Some tables holding metadata that needs to be kept near the tables.
+- Some custom Mathesar types. These are used to validate passed JSON at the User DB level. For example, we create the type
+  ```
+  TYPE __msar.col_def AS (
+    name_ text, -- The name of the column to create, quoted.
+    type_ text, -- The type of the column to create, fully specced with arguments.
+    not_null boolean, -- A boolean to describe whether the column is nullable or not.
+    default_ text, -- Text SQL giving the default value for the column.
+    identity_ boolean, -- A boolean giving whether the column is an identity pkey column.
+    description text -- A text that will become a comment for the column
+  )
+  ```
+  This type describes and validates the column info we need to add that column to a table.
 - A set of functions that provide the bulk of Mathesar's back end logic and functionality.
 
 ### Python `db` library
@@ -112,7 +132,7 @@ This library should mostly serve to provide thin wrapper functions around the Us
 
 This service should provide an JSON-RPC API for use by the front end. When an API function is called, the service should:
 
-- Grab an appropriate engine from the `DatabaseConnection` model by combining the user associated with the request with the `database`.
+- Grab an appropriate engine from the by combining the `user` associated with the request with the `database`. See the [models](models.md) page for more detail.
 - Call the relevant `db` library function (should be only one in most cases).
 - Gathers data from the service database via models if needed (this is for metadata that's inappropriate for storage in the User DB for some reason)
 - Returns it to the API
@@ -125,13 +145,13 @@ This service should provide an JSON-RPC API for use by the front end. When an AP
 
 ### Example
 
-A user lists the columns for a table. Because they have access to read the columns of the table (checked on the DB), they can read display options for a table. If they have access to modify a column of a table, they have access to modify the relevant display options. This works as long as there isn't a dedicated `display_options` endpoint which could receive requests directly.
+A user lists the columns for a table. Because they have access to read the columns of the table (checked on the DB), they can read display options for a table. If they have access to modify a column of a table, they have access to modify the relevant display options. This works as long as there isn't a dedicated `display_options` endpoint which could receive requests directly. Even in that case, we could add logic to check permissions on the relevant User DB.
 
 ### Exceptions
 
 There are some metadata and other models that we'll be keeping which _can_ receive direct requests. Currently, these are:
 
-- Database connections
+- Database connection and credential info
 - Shareable links
 - Explorations
 
