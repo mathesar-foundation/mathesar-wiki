@@ -23,7 +23,6 @@ We need to replace functionality to get `ui_type` from DB type.
 
 To replace the dependent-getting functionality, we need to move the dependents module to SQL.
 
-
 ### Constraint
 
 | Column      | Type                     |
@@ -56,15 +55,7 @@ Stores connection info to allow accessing a DB by creating an SQLAlchemy engine.
 
 Referenced by DatabaseRole and Schema models.
 
-Replace this with these models:
-
-- a `Database` model containing (for now) only an ID, an OID, and a `database` (name). We could also add other metadata to this model as appropriate (consider keeping `editable`).
-- a `DatabaseServerCredential` model containing a DB hostname, port, and username; and
-- a `UserDatabaseMap` model containing a `user_id` fkey to the `User` model, a `database_id` fkey to the `Database` model, and a `database_server_credential_id` fkey to the `DatabaseServerCredential` model. The `UserDatabaseMap` model should additionally have a `database` field, and the `user_id`, `database` pair should be unique.
-
-We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means. 
-
-The Django permissions infrastructure should handle CRUD operations on `DatabaseServerCredential` and `UserDatabaseMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user_id, database` pair.
+Replace this with `Database`, `DatabaseServer`, `DatabaseServerCredential`, and `UserDatabaseMap` models. See the [New models](#new-model-setup) for details.
 
 ### DatabaseRole
 
@@ -77,7 +68,7 @@ The Django permissions infrastructure should handle CRUD operations on `Database
 | database\_id | integer                  |
 | user\_id     | integer                  |
 
-This stores a role on a given database for a given user. We should delete this model, and instead have a many-to-many mapping between Mathesar users and database connections. All actual access should be handled by underlying DB permissions for the underlying user.
+This stores a role on a given database for a given user. We will repurpose this, and it will be applied (for now) only to `UIQuery` instances namespaced under a given database.
 
 ### DataFile
 
@@ -157,7 +148,7 @@ This should be deleted, and the permissions should be instead managed on the und
 | enabled     | boolean                  |
 | query\_id   | integer                  |
 
-This model should stay. No changes here. We need to add metadata about which user created the share, so we can use that user's allowed DB credentials for accessing the underlying assets (tables, schemata, etc.)
+This model should stay. No changes here. We need to add metadata about a credential for running the actual query.
 
 ### SharedTable
 
@@ -241,4 +232,228 @@ This stores a definition of a stored query that can be run on command. The main 
 | short\_name              | character varying(255)   |
 | password\_change\_needed | boolean                  |
 
-This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `DatabaseServerCredential` model.
+This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `UserDatabaseMap` model.
+
+## New Model setup
+
+Some of this is tentative pending decisions in our Users and Permissions work. We should be able to handle anything being discussed through simple extensions of this model framework. Also, these models are intended to get us to beta, while providing flexibility to move forward afterwards. There will be discussion of a desired next iteration at the end.
+
+### User
+
+| Column                   | Type                     | Notes  |
+|--------------------------|--------------------------|--------|
+| id                       | integer                  | pkey   |
+| password                 | character varying(128)   |        |
+| last\_login              | timestamp with time zone |        |
+| is\_superuser            | boolean                  |        |
+| username                 | character varying(150)   | unique |
+| email                    | character varying(254)   |        |
+| is\_staff                | boolean                  |        |
+| is\_active               | boolean                  |        |
+| date\_joined             | timestamp with time zone |        |
+| full\_name               | character varying(255)   |        |
+| short\_name              | character varying(255)   |        |
+| password\_change\_needed | boolean                  |        |
+
+### DatabaseServer
+
+| Column      | Type                     | Notes                          |
+|-------------|--------------------------|--------------------------------|
+| id          | integer                  | pkey                           |
+| created\_at | timestamp with time zone |                                |
+| updated\_at | timestamp with time zone |                                |
+| host        | character varying        |                                |
+| port        |                          |                                |
+
+`(host, port)` pair is unique. 
+
+Theoretically, we could also split the host out, but that seems like premature optimization.
+
+### Database
+
+| Column        | Type                     | Notes                         |
+|---------------|--------------------------|-------------------------------|
+| id            | integer                  | pkey                          |
+| created\_at   | timestamp with time zone |                               |
+| updated\_at   | timestamp with time zone |                               |
+| oid           | integer                  |                               |
+| db\_name      | text                     |                               |
+| display\_name | text                     | unique                        |
+| db\_server    | integer                  | references DatabaseServer(id) |
+| editable      | boolean                  |                               |
+
+`(db_server, oid)` pair is unique
+
+### DatabaseServerCredential
+
+| Column      | Type                     | Notes                                   |
+|-------------|--------------------------|-----------------------------------------|
+| id          | integer                  | pkey                                    |
+| created\_at | timestamp with time zone |                                         |
+| updated\_at | timestamp with time zone |                                         |
+| username    | character varying        |                                         |
+| password    | character varying        | encrypted                               |
+| db\_server  | integer                  | optional; references DatabaseServer(id) |
+
+The `db_server` field would add a bit of security and firmly attach a role to a given database server. It's debatable whether we should do this or not, and depends on desired UX. The advantage would be to make sure that whenever a `DatabaseServer` is removed from Mathesar, any associated credentials are also removed. The downside is reduced flexibility: The detached version allows for management of a common username and password across multiple servers (this may be desired). The author prefers having this foreign key in the model.
+
+### UserDatabaseMap
+
+| Column      | Type                     | Notes                                   |
+|-------------|--------------------------|-----------------------------------------|
+| id          | integer                  | pkey                                    |
+| created\_at | timestamp with time zone |                                         |
+| updated\_at | timestamp with time zone |                                         |
+| user        | integer                  | references User(id)                     |
+| database    | integer                  | references Database(id)                 |
+| role        | integer                  | references DatabaseServerCredential(id) |
+
+`(user, database)` pair is unique.
+
+### Aside: Quick overview of connecting to a DB.
+
+The Django permissions infrastructure should handle CRUD operations on `Database`, `DatabaseServerCredential`, `DatabaseServer`, and `UserDatabaseMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user_id, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDatabaseMap` model to find the `role` (referencing `DatabaseServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DatabaseServer` to pick up the `host` and `port`.
+
+We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means.
+
+### UIQuery
+
+| Column           | Type                     | Notes |
+|------------------|--------------------------|-------|
+| id               | integer                  | pkey  |
+| created\_at      | timestamp with time zone |       |
+| updated\_at      | timestamp with time zone |       |
+| database\_id     | integer                  |       |
+| base\_table\_oid | integer                  |       |
+| name             | character varying(128)   |       |
+| description      | text                     |       |
+| initial\_columns | jsonb                    |       |
+| transformations  | jsonb                    |       |
+| display\_options | jsonb                    |       |
+| display\_names   | jsonb                    |       |
+
+- The JSONB columns are the same format, except now they refer to DB-layer ids, e.g., OIDs and attnums rather than Django-layer IDs.
+- We should consider changing `display_options` to refer to instances of `ColumnMetadata` within the JSONB
+- Permissions on this object will be derived from the `DatabaseUIQueryRole` via the `(database_id, user)` pair.
+
+### DatabaseUIQueryRole (consider different name)
+
+| Column       | Type                     | Notes                   |
+|--------------|--------------------------|-------------------------|
+| id           | integer                  | pkey                    |
+| created\_at  | timestamp with time zone |                         |
+| updated\_at  | timestamp with time zone |                         |
+| role         | character varying(10)    |                         |
+| database\_id | integer                  | references Database(id) |
+| user\_id     | integer                  | references User(id)     |
+
+This will be used to store Manager, Editor, Viewer permissions on Explorations. The reason to keep this (derived from the current `DatabaseRole`) for now is to give us a namespace where we can organize permissions for `UIQuery` instances (Explorations in the current UI). If we want to use "Projects" for such a namespace, or derive these roles from the `DatabaseServerCredential` associated with a user on a `Database` via the `UserDatabaseMap`, then we will have to change or remove this model. More discussion needed here.
+
+### ColumnMetadata
+
+| Column                  | Type                     | Notes                             |
+|-------------------------|--------------------------|-----------------------------------|
+| id                      | integer                  | pkey                              |
+| created\_at             | timestamp with time zone |                                   |
+| updated\_at             | timestamp with time zone |                                   |
+| database\_id            | integer                  | References Database(id)           |
+| table\_oid              | integer                  |                                   |
+| attnum                  | integer                  |                                   |
+| bool\_input             | enum                     | ('dropdown', 'checkbox')          |
+| bool\_true              | text                     | default: 'True'                   |
+| bool\_false             | text                     | default: 'False'                  |
+| num\_min\_frac\_digits  | integer                  | min: 0, max: 20                   |
+| num\_max\_frac\_digits  | integer                  | min: 0, max: 20                   |
+| num\_show\_as\_perc     | boolean                  | Default: false                    |
+| mon\_currency\_symbol   | text                     | Default?                          |
+| mon\_currency\_location | enum                     | ('after-minus', 'end-with-space') |
+| time\_format            | text                     |                                   |
+| date\_format            | text                     |                                   |
+| duration\_min           | character varying(255)   |                                   |
+| duration\_max           | character varying(255)   |                                   |
+| duration\_show\_units   | boolean                  |                                   |
+
+- The `(database_id, table_oid, attnum)` tuple should be unique.
+- Depending on Django's support for multicolumn `CHECK` constraints, we should ensure that `num_min_frac_digits < num_max_frac_digits`. 
+- This has a number of fields to replace the current JSON storage of display options, and remove the need for the polymorphic serializer.
+- The only foreign key we reference is the `Database(id)`, needed to map to a specific database where we find the relevant table and column.
+- We don't need to reference any `schema_oid`, since a `(table_oid, attnum)` pair is unique per DB.
+- Permissions to manipulate instances of this model would be derived from permissions to manipulate the relevant table and column in the underlying database.
+
+### TableMetadata
+
+| Column              | Type                     | Notes                   |
+|---------------------|--------------------------|-------------------------|
+| id                  | integer                  | pkey                    |
+| created\_at         | timestamp with time zone |                         |
+| updated\_at         | timestamp with time zone |                         |
+| database\_id        | integer                  | references Database(id) |
+| table\_oid          | integer                  |                         |
+| import\_verified    | boolean                  |                         |
+| is\_temp            | boolean                  |                         |
+| import\_target\_oid | integer                  |                         |
+| column\_order       | jsonb                    |                         |
+| preview\_customized | boolean                  |                         |
+| preview\_template   | character varying(255)   |                         |
+
+I've left the preview template in the Mathesar layer. The hope is that we can find a sufficiently featureful and also sufficiently efficient algorithm for getting the template, thereby avoiding needing to move this down into the user Database. There will be more discussion of this below. Permissions to manipulate this should be derived from permissions on the relevant table in the underlying database.
+
+### DataFile
+
+| Column                  | Type                     |
+|-------------------------|--------------------------|
+| id                      | integer                  |
+| created\_at             | timestamp with time zone |
+| updated\_at             | timestamp with time zone |
+| file                    | character varying(100)   |
+| created\_from           | character varying(128)   |
+| base\_name              | character varying(100)   |
+| header                  | boolean                  |
+| delimiter               | character varying(1)     |
+| escapechar              | character varying(1)     |
+| quotechar               | character varying(1)     |
+| user\_id                | integer                  |
+| type                    | character varying(128)   |
+| max\_level              | integer                  |
+| sheet\_index            | integer                  |
+
+When we have our desired logic for cleaning this up sorted out, we should consider removing this model. It's currently only used ephemerally, but then the actuaul instance hangs around indefinitely.
+
+### SharedQuery
+
+| Column      | Type                     | Notes                                   |
+|-------------|--------------------------|-----------------------------------------|
+| id          | integer                  | pkey                                    |
+| created\_at | timestamp with time zone |                                         |
+| updated\_at | timestamp with time zone |                                         |
+| slug        | uuid                     | unique                                  |
+| enabled     | boolean                  |                                         |
+| query\_id   | integer                  |                                         |
+| credential  | integer                  | references DatabaseServerCredential(id) |
+
+I've chosen to store the credential id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the query is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
+
+### SharedTable
+
+| Column      | Type                     | Notes                                   |
+|-------------|--------------------------|-----------------------------------------|
+| id          | integer                  | pkey                                    |
+| created\_at | timestamp with time zone |                                         |
+| updated\_at | timestamp with time zone |                                         |
+| slug        | uuid                     | unique                                  |
+| enabled     | boolean                  |                                         |
+| table\_oid  | integer                  |                                         |
+| credential  | integer                  | references DatabaseServerCredential(id) |
+
+## After-beta-term vision
+
+For the beta, I'm hoping to avoid some work by keeping things in the Mathesar service models that I'd rather store in the underlying User Databases in a `msar_catalog` schema. The relevant models are `ColumnMetadata` and `TableMetadata`. A big motivation to move this info to the User DB is performance w.r.t. the table previews. Our current algorithm requires lots of back-and-forth between the service layer and the User DB in order to recursively build these preview templates, and to fill them. I also think it's more natural to keep these metadata models in the User DB, since they're segregated by User DB, and each instance only refers to objects on that underlying database.
+
+I also think in the even longer term that we should think about storing our `UIQuery` info on the underlying database in the form of views (perhaps in a special `msar_queries` schema). This presents some technical problems, however, that we haven't yet solved.
+
+### What about names vs. OIDs?
+
+I thought about adding another model to store a general map of names to OIDs for use when resolving missing tables, etc. This would be useful if someone drops and recreates a table, or when trying to export your Mathesar Explorations or Display Settings. I didn't add that at this stage, since:
+
+- We'd use the underlying User DB for that map if we move the Metadata models down to the UserDB, and
+- We aren't prioritizing the features requiring being able to export and reimport your Explorations for beta.
