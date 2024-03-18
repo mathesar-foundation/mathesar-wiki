@@ -49,6 +49,8 @@
     git push origin $VERSION
     ```
 
+    A draft release will be automatically created on GH once this tag is pushed.
+
 1. **Publish Docker images**
 
     1. Log in to DockerHub
@@ -99,13 +101,14 @@
         docker logout
         ```
 
-1. **Create GitHub release**
+1. **Update the draft GitHub release and publish it**
 
     ```
-    gh release create \
+    gh release edit \
       --latest \
       --title "Version $VERSION (alpha release)" \
       --notes "__[Release notes](https://docs.mathesar.org/releases/$VERSION/)__" \
+      --draft=false \
       $VERSION
     ```
 
