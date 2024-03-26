@@ -1,0 +1,6 @@
+nav:
+  - Cutting: cutting.md
+  - QA: qa.md
+  - Release notes: notes.md
+  - Publishing: publication.md
+  - ...

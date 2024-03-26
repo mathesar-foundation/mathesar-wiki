@@ -36,7 +36,7 @@
 - Hire testing team, prepare testing plan, and manage testing once required features are complete.
 - Handle issues that might come up during testing.
 - The release process will remain same as our previous releases.
-  - Here is the [release process document for creating a release](/engineering/release-process).
+  - Here is the release process document for creating a release.
   - The release management ongoing responsibility is not yet documented. It will be updated during the course of this release and will contain more detailed information.
 
 The plan is more high level, since individual tasks will be tracked using GH issues.
