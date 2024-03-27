@@ -177,29 +177,29 @@ When we have our desired logic for cleaning this up sorted out, we should consid
 
 ## SharedQuery
 
-| Column      | Type                     | Notes                             |
-|-------------|--------------------------|-----------------------------------|
-| id          | integer                  | pkey                              |
-| created\_at | timestamp with time zone |                                   |
-| updated\_at | timestamp with time zone |                                   |
-| slug        | uuid                     | unique                            |
-| enabled     | boolean                  |                                   |
-| query       | integer                  | not null; references UIQuery(id)  |
-| credential  | integer                  | references DBServerCredential(id) |
+| Column                 | Type                     | Notes                             |
+|------------------------|--------------------------|-----------------------------------|
+| id                     | integer                  | pkey                              |
+| created\_at            | timestamp with time zone |                                   |
+| updated\_at            | timestamp with time zone |                                   |
+| slug                   | uuid                     | unique                            |
+| enabled                | boolean                  |                                   |
+| query                  | integer                  | not null; references UIQuery(id)  |
+| db\_server\_credential | integer                  | references DBServerCredential(id) |
 
-I've chosen to store the credential id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the query is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
+I've chosen to store the `db_server_credential` id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the query is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
 
 ## SharedTable
 
-| Column      | Type                     | Notes                             |
-|-------------|--------------------------|-----------------------------------|
-| id          | integer                  | pkey                              |
-| created\_at | timestamp with time zone |                                   |
-| updated\_at | timestamp with time zone |                                   |
-| slug        | uuid                     | unique                            |
-| enabled     | boolean                  |                                   |
-| table\_oid  | integer                  | not null                          |
-| credential  | integer                  | references DBServerCredential(id) |
+| Column                 | Type                     | Notes                             |
+|------------------------|--------------------------|-----------------------------------|
+| id                     | integer                  | pkey                              |
+| created\_at            | timestamp with time zone |                                   |
+| updated\_at            | timestamp with time zone |                                   |
+| slug                   | uuid                     | unique                            |
+| enabled                | boolean                  |                                   |
+| table\_oid             | integer                  | not null                          |
+| db\_server\_credential | integer                  | references DBServerCredential(id) |
 
 ## After-beta-term vision
 
