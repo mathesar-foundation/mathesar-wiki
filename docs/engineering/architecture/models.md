@@ -85,7 +85,7 @@ The Django permissions infrastructure should handle CRUD operations on `Database
 
 We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password and/or other missing pieces automatically through these means.
 
-## UIQuery
+## Exploration
 
 | Column           | Type                     | Notes                   |
 |------------------|--------------------------|-------------------------|
@@ -175,19 +175,19 @@ I've left the preview template in the Mathesar layer. The hope is that we can fi
 
 When we have our desired logic for cleaning this up sorted out, we should consider removing this model. It's currently only used ephemerally, but then the actuaul instance hangs around indefinitely.
 
-## SharedQuery
+## SharedExploration
 
-| Column                 | Type                     | Notes                             |
-|------------------------|--------------------------|-----------------------------------|
-| id                     | integer                  | pkey                              |
-| created\_at            | timestamp with time zone |                                   |
-| updated\_at            | timestamp with time zone |                                   |
-| slug                   | uuid                     | unique                            |
-| enabled                | boolean                  |                                   |
-| query                  | integer                  | not null; references UIQuery(id)  |
-| db\_server\_credential | integer                  | references DBServerCredential(id) |
+| Column                 | Type                     | Notes                                |
+|------------------------|--------------------------|--------------------------------------|
+| id                     | integer                  | pkey                                 |
+| created\_at            | timestamp with time zone |                                      |
+| updated\_at            | timestamp with time zone |                                      |
+| slug                   | uuid                     | unique                               |
+| enabled                | boolean                  |                                      |
+| exploration            | integer                  | not null; references Exploration(id) |
+| db\_server\_credential | integer                  | references DBServerCredential(id)    |
 
-I've chosen to store the `db_server_credential` id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the query is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
+I've chosen to store the `db_server_credential` id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the Exploration is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
 
 ## SharedTable
 
@@ -205,7 +205,7 @@ I've chosen to store the `db_server_credential` id, rather than the creating use
 
 For the beta, I'm hoping to avoid some work by keeping things in the Mathesar service models that I'd rather store in the underlying User Databases in a `msar_catalog` schema. The relevant models are `ColumnMetadata` and `TableMetadata`. A big motivation to move this info to the User DB is performance w.r.t. the table previews. Our current algorithm requires lots of back-and-forth between the service layer and the User DB in order to recursively build these preview templates, and to fill them. I also think it's more natural to keep these metadata models in the User DB, since they're segregated by User DB, and each instance only refers to objects on that underlying database.
 
-I also think in the even longer term that we should think about storing our `UIQuery` info on the underlying database in the form of views (perhaps in a special `msar_queries` schema). This presents some technical problems, however, that we haven't yet solved.
+I also think in the even longer term that we should think about storing our `Exploration` info on the underlying database in the form of views (perhaps in a special `msar_queries` schema). This presents some technical problems, however, that we haven't yet solved.
 
 ## What about names vs. OIDs?
 
