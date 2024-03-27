@@ -39,17 +39,18 @@ We could consider making the `host` and `port` nullable when we're supporting `.
 
 ## Database
 
-| Column        | Type                     | Notes                                   |
-|---------------|--------------------------|-----------------------------------------|
-| id            | integer                  | pkey                                    |
-| created\_at   | timestamp with time zone |                                         |
-| updated\_at   | timestamp with time zone |                                         |
-| db\_name      | text                     | not null                                |
-| display\_name | text                     | not null; unique                        |
-| db\_server    | integer                  | not null; references DatabaseServer(id) |
-| editable      | boolean                  |                                         |
+| Column              | Type                     | Notes                                             |
+|---------------------|--------------------------|---------------------------------------------------|
+| id                  | integer                  | pkey                                              |
+| created\_at         | timestamp with time zone |                                                   |
+| updated\_at         | timestamp with time zone |                                                   |
+| db\_name            | text                     | not null                                          |
+| display\_name       | text                     | not null; unique                                  |
+| db\_server          | integer                  | not null; references DatabaseServer(id)           |
+| editable            | boolean                  |                                                   |
+| default\_credential | integer                  | not null; references DatabaseServerCredential(id) |
 
-`(db_server, db_name)` is unique. We could consider making `db_name` nullable when supporting `.pgpass`.
+`(db_server, db_name)` is unique. We could consider making `db_name` nullable when supporting `.pgpass`. If a Mathesar Admin user doesn't have an entry in `UserDatabaseRoleMap` for a given database, they will use the `default_credential` defined here to connect.
 
 ## DatabaseServerCredential
 
