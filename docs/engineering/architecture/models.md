@@ -72,8 +72,8 @@ We could consider making `username` and `password` nullable when supporting `.pg
 | id             | integer                  | pkey                                    |
 | created\_at    | timestamp with time zone |                                         |
 | updated\_at    | timestamp with time zone |                                         |
-| user           | integer                  | references User(id)                     |
-| database       | integer                  | references Database(id)                 |
+| user           | integer                  | not null; references User(id)           |
+| database       | integer                  | not null; references Database(id)       |
 | database\_role | integer                  | references DatabaseServerCredential(id) |
 | metadata\_role | enum                     | ('read only', 'read write')             |
 
