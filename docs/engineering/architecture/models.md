@@ -55,7 +55,7 @@ Stores connection info to allow accessing a DB by creating an SQLAlchemy engine.
 
 Referenced by DatabaseRole and Schema models.
 
-Replace this with `Database`, `DatabaseServer`, `DatabaseServerCredential`, and `UserDatabaseMap` models. See the [New models](#new-model-setup) for details.
+Replace this with `Database`, `DatabaseServer`, `DatabaseServerCredential`, and `UserDatabaseRoleMap` models. See the [New models](#new-model-setup) for details.
 
 ### DatabaseRole
 
@@ -232,7 +232,7 @@ This stores a definition of a stored query that can be run on command. The main 
 | short\_name              | character varying(255)   |
 | password\_change\_needed | boolean                  |
 
-This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `UserDatabaseMap` model.
+This stores user metadata. I think we should  mostly keep it as is. It will be referenced by the `UserDatabaseRoleMap` model.
 
 ## New Model setup
 
@@ -299,22 +299,23 @@ We could consider making the `host` and `port` nullable when we're supporting `.
 
 We could consider making `username` and `password` nullable when supporting `.pgpass`.
 
-### UserDatabaseMap
+### UserDatabaseRoleMap
 
-| Column      | Type                     | Notes                                   |
-|-------------|--------------------------|-----------------------------------------|
-| id          | integer                  | pkey                                    |
-| created\_at | timestamp with time zone |                                         |
-| updated\_at | timestamp with time zone |                                         |
-| user        | integer                  | references User(id)                     |
-| database    | integer                  | references Database(id)                 |
-| role        | integer                  | references DatabaseServerCredential(id) |
+| Column         | Type                     | Notes                                   |
+|----------------|--------------------------|-----------------------------------------|
+| id             | integer                  | pkey                                    |
+| created\_at    | timestamp with time zone |                                         |
+| updated\_at    | timestamp with time zone |                                         |
+| user           | integer                  | references User(id)                     |
+| database       | integer                  | references Database(id)                 |
+| database\_role | integer                  | references DatabaseServerCredential(id) |
+| metadata\_role | enum                     | ('read only', 'read write')             |
 
-`(user, database)` pair is unique.
+`(user, database)` pair is unique. The `metadata_role` isn't likely to be technically implemented as an `enum` on the DB for now. We'll use a Django-managed `TextChoices` field to save implementation time. See the current `DatabaseRole` model and its interaction with the `Role` class for an example. 
 
 ### Aside: Quick overview of connecting to a DB.
 
-The Django permissions infrastructure should handle CRUD operations on `Database`, `DatabaseServerCredential`, `DatabaseServer`, and `UserDatabaseMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDatabaseMap` model to find the `role` (referencing `DatabaseServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DatabaseServer` to pick up the `host` and `port`.
+The Django permissions infrastructure should handle CRUD operations on `Database`, `DatabaseServerCredential`, `DatabaseServer`, and `UserDatabaseRoleMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDatabaseRoleMap` model to find the `role` (referencing `DatabaseServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DatabaseServer` to pick up the `host` and `port`.
 
 We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means.
 
@@ -336,20 +337,7 @@ We should eventually add functionality to store some details in a [`.pgpass`](ht
 
 - The JSONB columns are the same format, except now they refer to DB-layer ids, e.g., OIDs and attnums rather than Django-layer IDs.
 - We should consider changing `display_options` to refer to instances of `ColumnMetadata` within the JSONB
-- Permissions on this object will be derived from the `DatabaseUIQueryRole` via the `(database, user)` pair.
-
-### DatabaseUIQueryRole (consider different name)
-
-| Column      | Type                     | Notes                             |
-|-------------|--------------------------|-----------------------------------|
-| id          | integer                  | pkey                              |
-| created\_at | timestamp with time zone |                                   |
-| updated\_at | timestamp with time zone |                                   |
-| role        | character varying(10)    |                                   |
-| database    | integer                  | not null; references Database(id) |
-| user        | integer                  | not null; references User(id)     |
-
-This will be used to store Manager, Editor, Viewer permissions on Explorations. The reason to keep this (derived from the current `DatabaseRole`) for now is to give us a namespace where we can organize permissions for `UIQuery` instances (Explorations in the current UI). If we want to use "Projects" for such a namespace, or derive these roles from the `DatabaseServerCredential` associated with a user on a `Database` via the `UserDatabaseMap`, then we will have to change or remove this model. More discussion needed here.
+- Permissions on this object will be derived from the `UserDatabaseRoleMap.metadata_role` via the `(database, user)` pair.
 
 ### ColumnMetadata
 
