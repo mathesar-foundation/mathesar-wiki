@@ -1,6 +1,8 @@
 # Models
 
-Some of this is tentative pending decisions in our Users and Permissions work. We should be able to handle anything being discussed through simple extensions of this model framework. Also, these models are intended to get us to beta, while providing flexibility to move forward afterwards. There will be discussion of a desired next iteration at the end.
+Subject to minor changes.
+
+We should be able to handle anything being discussed for beta through simple extensions of this model framework. Also, these models are intended to get us to beta, while providing flexibility to move forward afterwards. There will be a brief discussion of a desired next iteration at the end.
 
 ## User
 
@@ -42,13 +44,12 @@ We could consider making the `host` and `port` nullable when we're supporting `.
 | id            | integer                  | pkey                                    |
 | created\_at   | timestamp with time zone |                                         |
 | updated\_at   | timestamp with time zone |                                         |
-| oid           | integer                  | not null                                |
 | db\_name      | text                     | not null                                |
 | display\_name | text                     | not null; unique                        |
 | db\_server    | integer                  | not null; references DatabaseServer(id) |
 | editable      | boolean                  |                                         |
 
-`(db_server, oid)` pair is unique, or `(db_server, db_name)` is. Should consider whether we should even store the `oid`, since we can't look up the `db_name` to connect without ... connecting, which requires the `db_name` rather than the `oid`. We could consider making `db_name` nullable when supporting `.pgpass`
+`(db_server, db_name)` is unique. We could consider making `db_name` nullable when supporting `.pgpass`.
 
 ## DatabaseServerCredential
 
@@ -81,7 +82,7 @@ We could consider making `username` and `password` nullable when supporting `.pg
 
 The Django permissions infrastructure should handle CRUD operations on `Database`, `DatabaseServerCredential`, `DatabaseServer`, and `UserDatabaseRoleMap` resources. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDatabaseRoleMap` model to find the `role` (referencing `DatabaseServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DatabaseServer` to pick up the `host` and `port`.
 
-We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password automatically through these means.
+We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password and/or other missing pieces automatically through these means.
 
 ## UIQuery
 
