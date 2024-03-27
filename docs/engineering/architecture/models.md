@@ -21,7 +21,7 @@ We should be able to handle anything being discussed for beta through simple ext
 | short\_name              | character varying(255)   |                  |
 | password\_change\_needed | boolean                  |                  |
 
-## DatabaseServer
+## DBServer
 
 | Column      | Type                     | Notes    |
 |-------------|--------------------------|----------|
@@ -39,49 +39,49 @@ We could consider making the `host` and `port` nullable when we're supporting `.
 
 ## Database
 
-| Column              | Type                     | Notes                                             |
-|---------------------|--------------------------|---------------------------------------------------|
-| id                  | integer                  | pkey                                              |
-| created\_at         | timestamp with time zone |                                                   |
-| updated\_at         | timestamp with time zone |                                                   |
-| db\_name            | text                     | not null                                          |
-| display\_name       | text                     | not null; unique                                  |
-| db\_server          | integer                  | not null; references DatabaseServer(id)           |
-| editable            | boolean                  |                                                   |
-| default\_credential | integer                  | not null; references DatabaseServerCredential(id) |
+| Column                          | Type                     | Notes                                       |
+|---------------------------------|--------------------------|---------------------------------------------|
+| id                              | integer                  | pkey                                        |
+| created\_at                     | timestamp with time zone |                                             |
+| updated\_at                     | timestamp with time zone |                                             |
+| db\_name                        | text                     | not null                                    |
+| display\_name                   | text                     | not null; unique                            |
+| db\_server                      | integer                  | not null; references DBServer(id)           |
+| editable                        | boolean                  |                                             |
+| default\_db\_server\_credential | integer                  | not null; references DBServerCredential(id) |
 
-`(db_server, db_name)` is unique. We could consider making `db_name` nullable when supporting `.pgpass`. If a Mathesar Admin user doesn't have an entry in `UserDatabaseRoleMap` for a given database, they will use the `default_credential` defined here to connect.
+`(db_server, db_name)` is unique. We could consider making `db_name` nullable when supporting `.pgpass`. If a Mathesar Admin user doesn't have an entry in `UserDBRoleMap` for a given database, they will use the `default_credential` defined here to connect.
 
-## DatabaseServerCredential
+## DBServerCredential
 
-| Column      | Type                     | Notes                                   |
-|-------------|--------------------------|-----------------------------------------|
-| id          | integer                  | pkey                                    |
-| created\_at | timestamp with time zone |                                         |
-| updated\_at | timestamp with time zone |                                         |
-| username    | character varying        | not null                                |
-| password    | character varying        | encrypted; not null                     |
-| db\_server  | integer                  | not null; references DatabaseServer(id) |
+| Column      | Type                     | Notes                             |
+|-------------|--------------------------|-----------------------------------|
+| id          | integer                  | pkey                              |
+| created\_at | timestamp with time zone |                                   |
+| updated\_at | timestamp with time zone |                                   |
+| username    | character varying        | not null                          |
+| password    | character varying        | encrypted; not null               |
+| db\_server  | integer                  | not null; references DBServer(id) |
 
 We could consider making `username` and `password` nullable when supporting `.pgpass`.
 
-## UserDatabaseRoleMap
+## UserDBRoleMap
 
-| Column         | Type                     | Notes                                   |
-|----------------|--------------------------|-----------------------------------------|
-| id             | integer                  | pkey                                    |
-| created\_at    | timestamp with time zone |                                         |
-| updated\_at    | timestamp with time zone |                                         |
-| user           | integer                  | not null; references User(id)           |
-| database       | integer                  | not null; references Database(id)       |
-| database\_role | integer                  | references DatabaseServerCredential(id) |
-| metadata\_role | enum                     | ('read only', 'read write')             |
+| Column                | Type                     | Notes                             |
+|-----------------------|--------------------------|-----------------------------------|
+| id                    | integer                  | pkey                              |
+| created\_at           | timestamp with time zone |                                   |
+| updated\_at           | timestamp with time zone |                                   |
+| user                  | integer                  | not null; references User(id)     |
+| database              | integer                  | not null; references Database(id) |
+| db\_server_credential | integer                  | references DBServerCredential(id) |
+| metadata\_role        | enum                     | ('read only', 'read write')       |
 
 `(user, database)` pair is unique. The `metadata_role` isn't likely to be technically implemented as an `enum` on the DB for now. We'll use a Django-managed `TextChoices` field to save implementation time. See the current `DatabaseRole` model and its interaction with the `Role` class for an example. 
 
 ## Aside: Quick overview of connecting to a DB.
 
-The Django permissions infrastructure should handle CRUD operations on `Database`, `DatabaseServerCredential`, `DatabaseServer`, and `UserDatabaseRoleMap` resources. When adding a `Database` for the first time, we'll also add a `DatabaseServer` if one doesn't exist, and add or choose a `DatabaseServerCredential` to be the default based on the credential provided when adding the `Database` entry. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDatabaseRoleMap` model to find the `role` (referencing `DatabaseServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DatabaseServer` to pick up the `host` and `port`.
+The Django permissions infrastructure should handle CRUD operations on `Database`, `DBServerCredential`, `DBServer`, and `UserDBRoleMap` resources. When adding a `Database` for the first time, we'll also add a `DBServer` if one doesn't exist, and add or choose a `DBServerCredential` to be the default based on the credential provided when adding the `Database` entry. Actually accessing a database wouldn't require the permissions infrastructure; we'd instead construct a connection string by joining the appropriate `database` to the other info found by looking up the `user, database` pair. For example, given a `(user, database)` pair like `(3, 8)`, we'd look up the appropriate row in the `UserDBRoleMap` model to find the `role` (referencing `DBServerCredential`). We also follow the foreign key to the `Database` to pick up the `db_name` and then the foreign key to `DBServer` to pick up the `host` and `port`.
 
 We should eventually add functionality to store some details in a [`.pgpass`](https://www.postgresql.org/docs/current/libpq-pgpass.html) dotfile (though probably in a custom location). `psycopg` can inject the password and/or other missing pieces automatically through these means.
 
@@ -103,7 +103,7 @@ We should eventually add functionality to store some details in a [`.pgpass`](ht
 
 - The JSONB columns are the same format, except now they refer to DB-layer ids, e.g., OIDs and attnums rather than Django-layer IDs.
 - We should consider changing `display_options` to refer to instances of `ColumnMetadata` within the JSONB
-- Permissions on this object will be derived from the `UserDatabaseRoleMap.metadata_role` via the `(database, user)` pair.
+- Permissions on this object will be derived from the `UserDBRoleMap.metadata_role` via the `(database, user)` pair.
 
 ## ColumnMetadata
 
@@ -177,29 +177,29 @@ When we have our desired logic for cleaning this up sorted out, we should consid
 
 ## SharedQuery
 
-| Column      | Type                     | Notes                                   |
-|-------------|--------------------------|-----------------------------------------|
-| id          | integer                  | pkey                                    |
-| created\_at | timestamp with time zone |                                         |
-| updated\_at | timestamp with time zone |                                         |
-| slug        | uuid                     | unique                                  |
-| enabled     | boolean                  |                                         |
-| query       | integer                  | not null; references UIQuery(id)        |
-| credential  | integer                  | references DatabaseServerCredential(id) |
+| Column      | Type                     | Notes                             |
+|-------------|--------------------------|-----------------------------------|
+| id          | integer                  | pkey                              |
+| created\_at | timestamp with time zone |                                   |
+| updated\_at | timestamp with time zone |                                   |
+| slug        | uuid                     | unique                            |
+| enabled     | boolean                  |                                   |
+| query       | integer                  | not null; references UIQuery(id)  |
+| credential  | integer                  | references DBServerCredential(id) |
 
 I've chosen to store the credential id, rather than the creating user, for flexibility. We can derive this from a creating user at the time the query is created, and could (theoretically) update it if the User's credential for a given DB changes (I wouldn't recommend this).
 
 ## SharedTable
 
-| Column      | Type                     | Notes                                   |
-|-------------|--------------------------|-----------------------------------------|
-| id          | integer                  | pkey                                    |
-| created\_at | timestamp with time zone |                                         |
-| updated\_at | timestamp with time zone |                                         |
-| slug        | uuid                     | unique                                  |
-| enabled     | boolean                  |                                         |
-| table\_oid  | integer                  | not null                                |
-| credential  | integer                  | references DatabaseServerCredential(id) |
+| Column      | Type                     | Notes                             |
+|-------------|--------------------------|-----------------------------------|
+| id          | integer                  | pkey                              |
+| created\_at | timestamp with time zone |                                   |
+| updated\_at | timestamp with time zone |                                   |
+| slug        | uuid                     | unique                            |
+| enabled     | boolean                  |                                   |
+| table\_oid  | integer                  | not null                          |
+| credential  | integer                  | references DBServerCredential(id) |
 
 ## After-beta-term vision
 
