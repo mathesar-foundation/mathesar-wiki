@@ -41,6 +41,7 @@
 
 Pavish's response from email:
 > I'd like to not talk to users, not work on marketing tasks, reduce discussions, and focus entirely on coding until we get the Beta out. I'm also going to hit a pause on conferences/talks after the one I have on April 6.
+
 - Brent:
 	- We're discussing and planning too much and coding too little.
 	- Pessimistic on the timing (June)
