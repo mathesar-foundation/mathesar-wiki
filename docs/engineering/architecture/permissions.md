@@ -14,13 +14,13 @@ This model holds the `host` and `port` information for a given database.
 
 As described in [the models section](./models.md), This will store the authentication information needed to create an engine, but won't provide a database (a required part of a connection definition in PostgreSQL). Because the information includes a role (to define the initial connection role), it necessarily defines a set of privileges available on the database with that connection.
 
-## User Database Map Model
+## User Database Role Map Model
 
-This map uses a `user_id, database` pair to look up the needed credentials, then provides a connection to the database using those credentials (if possible).
+This map uses a `user, database` pair to look up the needed credentials, then provides a connection to the database using those credentials (if possible).
 
 ## Adding Connections (backend perspective)
 
-Regardless of UI, the backend should receive a `POST` request to the new RPC endpoint defining a new connection. We'll use the same functions set up in [PR \#3348](https://github.com/mathesar-foundation/mathesar/pull/3348). The relevant info should be stored in the `Database`, `DatabaseServer`, and `DatabaseServerCredential` models. Also, if the user does not already have an entry defining their role on the given database, we could create such an entry automatically in the `UserDatabaseMap` model. This is optional, and doesn't really affect the architecture. Then, to let some other users access that connection, we will provide an RPC function that lets an admin set different users' credentials for the given database by creating or updating `UserDatabaseMap` resources. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables).
+Regardless of UI, the backend should receive a `POST` request to the new RPC endpoint defining a new connection. We'll use the same functions set up in [PR \#3348](https://github.com/mathesar-foundation/mathesar/pull/3348). The relevant info should be stored in the `Database`, `DatabaseServer`, and `DatabaseServerCredential` models. Also, if the user does not already have an entry defining their role on the given database, we could create such an entry automatically in the `UserDBRoleMap` model. This is optional, and doesn't really affect the architecture. Then, to let some other users access that connection, we will provide an RPC function that lets an admin set different users' credentials for the given database by creating or updating `UserDBRoleMap` resources. Note that this does _not_ directly modify anything to do with permissions on actual database objects (e.g., schemata or tables).
 
 ## Granting database object privileges
 
@@ -28,7 +28,7 @@ The backend will provide RPC functions that let an admin (who has access to a su
 
 - Privileges on DB objects are thus not granted directly to Mathesar users.
 - Privileges on DB objects are granted to DB roles, which may be accessible to some (or all) Mathesar users.
-- Anytime an RPC function requiring DB access runs, it runs using the connection defined via the `UserDatabaseMap`, with the associated privileges on that database.
+- Anytime an RPC function requiring DB access runs, it runs using the connection defined via the `UserDBRoleMap`, with the associated privileges on that database.
 
 !!! question "UX Question"
     Should the admin think in terms of groups of Mathesar users, or specifically in terms of connections when dealing with DB-level privileges?
@@ -39,17 +39,19 @@ The backend will provide RPC functions that let an admin (who has access to a su
     - `GRANT` the owning DB role (ostensibly a user) to DB users connectable by the relevant Mathesar users.
     - Have at least one DB superuser available for use with a connection, and give relevant Mathesar users access to that DB superuser.
     
-## Metadata object privileges
+## Mathesar object privileges
 
-Examples of these are table properties like preview columns. Permissions for these are derived from permissions on relevant User DB objects. So, if a user wants to modify the preview template for a table, they would be checked against the permission to modify the underlying table structure. Thus, modifying this metadata will occur in a request to modify the associated table, and the privilege check will be whether the relevant DB user is allowed to `ALTER` that table. 
-
-## Standalone Mathesar objects
-
-An example of this would be an Exploration. The privileges needed to actually _run_ the query are handled on the database as described above, but a user should have access to look at the exploration definition itself (as well as edit/delete) handled by the Django access policy framework. It seems like our current Manager/Editor/Viewer framework should suffice.
+Examples of such objects are Explorations, and table properties like preview columns or display options. Permissions on these will be:
+- None,
+- read only, or
+- read write
+These permissions will be tracked in the `UserDBRoleMap` model via the `metadata_role` attribute. Note that these permissions are only related to CRUD operations on these objects. In the case of Explorations, actually _running_ the exploration is dependent on:
+- at least the read permission on the object, and
+- the database-level permissions associated with the connection available to the user.
 
 ### Current plan
 
-In the case of Explorations (`UIQuery` model), this will be derived from a policy scoped via the `Database` associated with the Exploration:
+In the case of Explorations (`Exploration` model), this will be derived from a policy scoped via the `Database` associated with the Exploration:
 
 - A super user of Mathesar will set the policy for a given `User` on a given `Database` instance via the UI.
     - When a `User` wants to view/edit/manage an Exploration, the web service will check the `user, database` pair (where `database`) is the `Database` associated with the Exploration to find a relevant policy.
@@ -57,7 +59,7 @@ In the case of Explorations (`UIQuery` model), this will be derived from a polic
 
 ### Alternative plan
 
-In the case of Explorations (`UIQuery` model), this will be derived from a policy scoped via the `Database` associated with the Exploration:
+In the case of Explorations (`Exploration` model), this will be derived from a policy scoped via the `Database` associated with the Exploration:
 
 - A super user of Mathesar will set the policy for `DatabaseServerCredential` instances via the UI.
     - Each credential instance represents a Role on the DB.
