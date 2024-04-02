@@ -26,7 +26,7 @@ We want to be fully transitioned to RPC APIs by the **beta release**. Ideally we
 
 - The [spec](https://www.jsonrpc.org/specification) and the [library](https://github.com/pavlov99/json-rpc) are different things (with annoyingly similar names). Wherever possible, we should attempt to disambiguate these things by explicitly saying "JSON-RPC spec" or "json-rpc library".
 
-## Open questions
+## Open questions {:#questions}
 
 ### Special characters in method names
 
@@ -113,7 +113,7 @@ We are enforcing a standard of always using named parameters and never using pos
 
 The move to JSON-RPC opens up the possibility for the front end to consolidate multiple requests into batches. We need to be cautious of this though. While parallel HTTP requests do incur overhead that can be reduced through batching, we need to be mindful that batching is essentially equivalent to `Promise.all()`. Sometimes batching requests might be possible but not preferable. For example if we can update state in one place of the UI with a fast request while concurrently updating separate UI state from a slow request, then we should issue parallel requests. The front end will need to take this behavior into account and make a case-by-case determinations on when it is appropriate to batch.
 
-## Endpoints 🡆 functions
+## Endpoints 🡆 functions {:#functions}
 
 The table below is a comprehensive list of all REST API endpoints used by the front end as of Mathesar 0.1.6. Sean performed an audit of the codebase to extract this list.
 
@@ -211,4 +211,9 @@ The table below is a comprehensive list of all REST API endpoints used by the fr
 
     To track our progress on a per-endpoint basis, we'll likely end up adding more notes to this wiki page or a GitHub ticket.
 
+## Roles
 
+| Role             | Person |
+| --               | -- |
+| Backend changes  | Brent |
+| Frontend changes | Sean |
