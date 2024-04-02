@@ -108,6 +108,10 @@ plugins:
         'en/home.md': 'index.md'
         'en/product/specs/users-permissions.md': 'product/specs/users-permissions.md'
         'en/team.md': 'team/index.md'
+        'engineering/architecture/index.md': 'projects/2024/architecture-transition/index.md'
+        'engineering/architecture/models.md': 'projects/2024/architecture-transition/models.md'
+        'engineering/architecture/old_models.md': 'projects/2024/architecture-transition/old_models.md'
+        'engineering/architecture/permissions.md': 'projects/2024/architecture-transition/permissions.md'
 
 theme:
   name: material
