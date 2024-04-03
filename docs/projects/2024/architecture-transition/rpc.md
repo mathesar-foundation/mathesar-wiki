@@ -14,11 +14,15 @@ We want to be fully transitioned to RPC APIs by the **beta release**. Ideally we
 - You should probably understand this spec before continuing to read this wiki page. Read the spec if needed.
 - We'll be using version 2.0 of the spec.
 - JSON-RPC is transport agnostic, but we plan on using it exclusively over HTTP for the forseeable future. A time may come when we use it over other transports such as web sockets, but we'll re-evaluate any architectural concerns as needed at that point.
-- All requests will be performed using HTTP POST.
 
 ## Libraries
 
 On the backend we'll be using [django-modern-rpc](https://github.com/alorence/django-modern-rpc).
+
+When using this library:
+
+- All requests will be performed using HTTP POST.
+- All responses have an HTTP status code of 200, even error responses.
 
 ### Alternatives considered
 
