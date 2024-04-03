@@ -8,37 +8,29 @@ It is maintained by Sean and Brent.
 
 We want to be fully transitioned to RPC APIs by the **beta release**. Ideally we would not have any REST-based APIs at that point.
 
-## JSON-RPC
-
-### JSON-RPC _spec_
+## JSON-RPC spec
 
 - JSON-RPC is a [spec](https://www.jsonrpc.org/specification) adopted by many libraries.
 - You should probably understand this spec before continuing to read this wiki page. Read the spec if needed.
 - We'll be using version 2.0 of the spec.
-
-### json-rpc _library_
-
-- We'll be using the [json-rpc](https://github.com/pavlov99/json-rpc) python package, which [integrates with Django](https://json-rpc.readthedocs.io/en/latest/django_integration.html) nicely.
 - JSON-RPC is transport agnostic, but we plan on using it exclusively over HTTP for the forseeable future. A time may come when we use it over other transports such as web sockets, but we'll re-evaluate any architectural concerns as needed at that point.
 - All requests will be performed using HTTP POST.
 
-### Terminology
+## Libraries
 
-- The [spec](https://www.jsonrpc.org/specification) and the [library](https://github.com/pavlov99/json-rpc) are different things (with annoyingly similar names). Wherever possible, we should attempt to disambiguate these things by explicitly saying "JSON-RPC spec" or "json-rpc library".
+On the backend we'll be using [django-modern-rpc](https://github.com/alorence/django-modern-rpc).
 
-## Open questions {:#questions}
+### Alternatives considered
 
-### Special characters in method names
+- [json-rpc](https://github.com/pavlov99/json-rpc)
+    - This seems to be less actively maintained
+    - It doesn't integrate as well with Django auth.
 
-When using the json-rpc library, what characters are we permitted to use within method names (for the purpose of namespacing)? For example, can we have a method named `schema.add`?
-
-### Docstring syntax
-
-What syntax do want want to adopt within the docstring for each function? Do we want it to be machine parsable?
+## Open questions
 
 ### TypeScript types
 
-Would it feasible for us to write custom tooling that generates TypeScript types from the introspection capabilities built in to the json-rpc library?
+Would it feasible for us to write custom tooling that generates TypeScript types from the introspection capabilities built in to django-modern-rpc?
 
 ### File uploads
 
@@ -86,7 +78,7 @@ What general rules-of-thumb should we adopt as we decide the response schema for
 
 What will our error responses look like?
 
-What HTTP status code does the json-rpc library use when returning errors? In what cases will the HTTP status code be meaningful to us, if any?
+What HTTP status code does django-modern-rpc use when returning errors? In what cases will the HTTP status code be meaningful to us, if any?
 
 ### Casing transformation
 
@@ -108,6 +100,13 @@ We are enforcing a standard of always using named parameters and never using pos
 
 - Noun first, verb second. (This makes the methods easy to sort.)
 - _(More specific guidelines will follow after some of the open questions are resolved)_
+
+### Docstrings
+
+- All API functions must have docstrings.
+- Within the docstrings the syntax should be [Sphinx style](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html).
+
+    (Some rationale for this choice is described in [#3524](https://github.com/mathesar-foundation/mathesar/pull/3524).)
 
 ### When to batch
 
