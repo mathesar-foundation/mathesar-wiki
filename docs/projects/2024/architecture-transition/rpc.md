@@ -90,6 +90,14 @@ We use snake_case for Python variables and camelCase for JavaScript variables. T
 
 If we were starting from scratch, Sean would have a preference for moving this case transformation into an automated step that would happen somewhere like middleware. Being that we're _kind of_ starting from scratch with this new RPC API, is it worth considering adopting a case transformation step like this? Sean thinks it's _probably not_.
 
+### Namespace depth
+
+How likely do we think it is that we'll end up having more deeply-namespaced method names like `foo.bar.delete`?
+
+### Error types
+
+On the frontend, do we want to leverage the type system to encode error structure on a per-function basis?
+
 ## API Standards
 
 These standards are _preliminary_ and subject to change. We'll need to better document them as they become more solidified with our rollout.
