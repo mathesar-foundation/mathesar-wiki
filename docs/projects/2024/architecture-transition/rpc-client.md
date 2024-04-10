@@ -2,37 +2,20 @@
 
 ## Examples of how the API would be called
 
-### Non-batched, non-cancellable
+### Non-batched
 
 ```ts
 /** @type {ApiRequest<Spacecraft>>} */
 const request = api.spacecrafts.get({ id: 42 });
 
-/** @type {Promise<Spacecraft>} */
+/** @type {CancellablePromise<Spacecraft>} */
 const promise = request.run();
 
 /** @type {Spacecraft} */
 const spacecraft = await promise; // Might throw!
 ```
 
-### Non-batched, cancellable
-
-```ts
-/** @type {ApiRequest<Spacecraft>>} */
-const request = api.spacecrafts.get({ id: 42 });
-
-/** @type {CancellablePromise<Spacecraft | undefined>} */
-const promise = request.cancellableRun();
-
-/**
- * Resolves to `undefined` if canceled.
- *
- * @type {Spacecraft | undefined}
- */
-const spacecraft = await promise; // Might throw!
-```
-
-### Batched, non-cancellable
+### Batched
 
 ```ts
 /** @type {[ApiResult<Spacecraft>, ApiResult<Voyage>]} */
@@ -48,19 +31,11 @@ const spacecraft = spacecraftResult.unwrap(); // Might throw!
 const voyage = voyageResult.unwrap(); // Might throw!
 ```
 
-### Batched, cancellable
-
-```ts
-/** @type {[CancellableApiResult<Spacecraft>, CancellableApiResult<Voyage>]} */
-const [spacecrafts, voyages] = await cancellableBatchSend(
-  api.spacecrafts.get({ id: 42 }),
-  api.voyages.get({ id: 100 }),
-);
-```
-
 ## Lower-level types
 
 _(Some of these would actually be **classes**, but the type defs written below give you a rough idea of how they would work.)_
+
+### ApiResult
 
 ```ts
 interface ApiOk<T> {
@@ -75,12 +50,7 @@ interface ApiError {
   data?: unknown;
 }
 
-interface ApiCancellation {
-  status: 'cancelled';
-}
-
 type ApiResult<T> = ApiOk<T> | ApiError;
-type CancellableApiResult<T> = ApiOk<T> | ApiError | ApiCancellation;
 ```
 
 ### ApiRequest
@@ -92,17 +62,7 @@ class ApiRequest<T> {
    *
    * @throws `ApiError` when awaited if any errors are encountered.
    */
-  run(): Promise<T> {
-    throw Error('Not yet implemented');
-  }
-
-  /**
-   * Run with the option to cancel while in progress. Resolves to undefined
-   * if cancelled.
-   *
-   * @throws `ApiError` when awaited if any errors are encountered.
-   */
-  cancellableRun(): CancellablePromise<T | undefined> {
+  run(): CancellablePromise<T> {
     throw Error('Not yet implemented');
   }
 
@@ -112,16 +72,7 @@ class ApiRequest<T> {
    *
    * Will not reject or throw errors.
    */
-  send(): Promise<ApiResult<T>> {
-    throw Error('Not yet implemented');
-  }
-
-  /**
-   * Provides more fine-grained control instead of `cancellableRun`.
-   *
-   * Will not reject or throw errors.
-   */
-  cancellableSend(): CancellablePromise<CancellableApiResult<T>> {
+  send(): CancellablePromise<ApiResult<T>> {
     throw Error('Not yet implemented');
   }
 }
@@ -143,10 +94,9 @@ try {
 ### Error handling with `match`
 
 ```ts
-match(await api.spacecrafts.get({ id: 42 }).cancellableSend(), 'status', {
+match(await api.spacecrafts.get({ id: 42 }).send(), 'status', {
   ok: ({ value: spacecraft }) => toast.success(spacecraft.name),
   error: ({ message }) => toast.error(message),
-  cancelled: () => console.log('Request was cancelled'),
 });
 ```
 
