@@ -14,6 +14,7 @@ This spec describes the revamped product considerations for managing Permissions
 * We will remove the ability to share credentials across databases.
   - We currently have this while creating/configuring a database.
   - We will revisit this feature later down the road when we have requirements from users.
+* Mathesar admins will no longer be able to create a new database on external database servers (servers that do not contain the Django DB).
 
 ## Terminologies
 * User refers to Mathesar user.
@@ -45,9 +46,7 @@ This spec describes the revamped product considerations for managing Permissions
   - This will use the same role utilized by the Django database.
     - The user should be able to create new roles on the internal db and use them if they wanted to.
   - The role used should contain both CREATEDATABASE and CREATEROLE privileges.
-* Mathesar admins should be able to create a new database on external servers, by specifying the same details as the 'pre-existing' database configuration.
-  - The role used should contain both CREATEDATABASE and CREATEROLE privileges.
-  - These privileges should be tested and proper errors and rectification steps should be provided to the admin.
+  - (Internal database server refers to the database server that contains the Django DB. It could be on a different host)
 * Pre-defined roles should be automatically created in this setup, similar to pre-existing databases.
 
 ### Role configuration
