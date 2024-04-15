@@ -1,4 +1,4 @@
-# RPC transition plan
+# RPC transition
 
 This document lays out plans for our 2024 transition from a REST-based API to one based on JSON-RPC.
 

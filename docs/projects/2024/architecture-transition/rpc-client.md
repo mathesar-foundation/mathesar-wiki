@@ -1,4 +1,4 @@
-# JSON-RPC client plans
+# RPC client specs
 
 ## Examples of how the API would be called
 
