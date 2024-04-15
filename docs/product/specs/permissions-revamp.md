@@ -138,6 +138,14 @@ This spec describes the revamped product considerations for managing Permissions
 * We will still face collaboration issues when objects are created outside of Mathesar, however, we could handle that by mentioning in our docs and on the UI to grant access to the 'default role' for any objects users create outside of Mathesar.
   - This way Mathesar admins will have access to those objects and can grant privileges within Mathesar accordingly.
 
+## Encapsulation
+W.r.t. the UX, configuration of roles and connection details should be performed within the context of a database page.
+* Within a database page, Mathesar should only present Postgres roles which have been explicitly configured for that specific database.
+  - If the admin would like to use the same role for multiple databases that exist on the same database server, they would have to configure it separately for each database in their respective pages.
+* Operations like updating the connection details, such as host, port etc., and roles, should also exist within the context of a database page. 
+  - Changing the password for a role should only affect the role configured for one database. If the user wants to change the password for the same role for another database, they would have to update it in it's respective database page, even if that database exists on the same PostgreSQL server.
+  - Similarly, changing the port number configured for one Mathesar user database should not affect the port number configured for other Mathesar user databases.
+
 ## Related
 - [Brent's architecture notes](https://github.com/mathesar-foundation/mathesar-wiki/pull/108)
 - [Permissions for Beta - approaches & comparison](https://hackmd.io/@mathesar/Hkads67nT)
