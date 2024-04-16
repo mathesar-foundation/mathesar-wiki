@@ -3,12 +3,12 @@
 This spec describes the revamped product considerations for managing Permissions within Mathesar. This is targetted towards the Beta release.
 
 ## Goals
-- A. Improve our permissions architecture and user flows to utilize PostgreSQL's permission system for DB objects.
-  * Our current permission handling is custom written and managed entirely within the Mathesar service layer.
-  * Several users have expressed interest towards using PostgreSQL roles, a few even mentioned that it's a blocker for them to start using Mathesar.
-  * Building our permission layer on top of PostgreSQL's permission system is future-proof and robust.
-- B. We should try to maintain feature parity with the flows we currently have.
-- C. Provide a rudimentary UX for ownerships and get users aquainted with the concept.
+1. Improve our permissions architecture and user flows to utilize PostgreSQL's permission system for DB objects.
+	1. Our current permission handling is custom written and managed entirely within the Mathesar service layer.
+	1. Several users have expressed interest towards using PostgreSQL roles, a few even mentioned that it's a blocker for them to start using Mathesar.
+	1. Building our permission layer on top of PostgreSQL's permission system is future-proof and robust.
+1. We should try to maintain feature parity with the flows we currently have.
+1. Provide a rudimentary UX for ownerships and get users aquainted with the concept.
 
 ## Features we intend to remove
 * We will remove the ability to share credentials across databases.
