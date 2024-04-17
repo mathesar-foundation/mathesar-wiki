@@ -1,5 +1,5 @@
 nav:
   - '2023'
-  - future
   - ...
+  - future
   - Template: template.md
