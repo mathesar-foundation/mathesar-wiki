@@ -61,9 +61,7 @@ To ensure that our method names use consistent terminology, use the following ve
 ### Docstrings
 
 - All API functions must have docstrings.
-- Within the docstrings the syntax should be [Sphinx style](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html).
-
-    (Some rationale for this choice is described in [#3524](https://github.com/mathesar-foundation/mathesar/pull/3524).)
+- Within the docstrings the syntax should be [Google style](https://google.github.io/styleguide/pyguide.html#383-functions-and-methods).
 
 ### Id values
 
