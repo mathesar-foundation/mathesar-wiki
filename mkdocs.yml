@@ -155,6 +155,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.tilde
   - pymdownx.tabbed:
       alternate_style: true
   - smarty

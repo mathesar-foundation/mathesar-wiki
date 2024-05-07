@@ -1,5 +1,11 @@
 # RPC client specs
 
+## Types
+
+Client-side types will be manually maintained so as to follow the behavior of the backend.
+
+(Sean did a modicum of research into whether we'd be able to auto-generate TypeScript types from the backend code, but this didn't seem viable.)
+
 ## Examples of how the API would be called
 
 ### Non-batched
