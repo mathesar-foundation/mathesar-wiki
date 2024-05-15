@@ -92,7 +92,6 @@ The table below is a comprehensive list of all REST API endpoints used by the fr
 | `/api/db/v0/queries/`                                       | POST        | `explorations.add`                      |
 | `/api/db/v0/queries/run/`                                   | POST        | `explorations.run`                      |
 | `/api/db/v0/schemas/{schemaId}/`                            | DELETE      | `schemas.delete`                        |
-| `/api/db/v0/schemas/{schemaId}/`                            | GET         | `schemas.get`                           |
 | `/api/db/v0/schemas/{schemaId}/`                            | PATCH       | `schemas.patch`                         |
 | `/api/db/v0/schemas/`                                       | GET         | `schemas.list`                          |
 | `/api/db/v0/schemas/`                                       | POST        | `schemas.add`                           |
@@ -177,7 +176,6 @@ records.list
 records.patch
 schemas.add
 schemas.delete
-schemas.get
 schemas.list
 schemas.patch
 shared_explorations.add
