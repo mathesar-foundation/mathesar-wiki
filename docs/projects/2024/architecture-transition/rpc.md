@@ -75,73 +75,73 @@ The move to JSON-RPC opens up the possibility for the front end to consolidate m
 
 The table below is a comprehensive list of all REST API endpoints used by the front end as of Mathesar 0.1.6. Sean performed an audit of the codebase to extract this list.
 
-| Endpoint                                                    | HTTP Method | Function                                |
-| --                                                          | --          | --                                      |
-| `/api/db/v0/connections/{connectionId}/`                    | DELETE      | `connections.delete`                    |
-| `/api/db/v0/connections/{connectionId}/`                    | PATCH       | `connections.patch`                     |
-| `/api/db/v0/connections/`                                   | GET         | `connections.list`                      |
-| `/api/db/v0/data_files/{id}`                                | GET         | _(keep)_                                |
-| `/api/db/v0/data_files/{id}`                                | PATCH       | _(keep)_                                |
-| `/api/db/v0/data_files/`                                    | POST        | _(keep)_                                |
-| `/api/db/v0/links/`                                         | POST        | `data_modeling.add_link`                |
-| `/api/db/v0/queries/{queryId}/`                             | DELETE      | `explorations.delete`                   |
-| `/api/db/v0/queries/{queryId}/`                             | GET         | `explorations.get`                      |
-| `/api/db/v0/queries/{queryId}/`                             | PUT         | `explorations.replace`                  |
-| `/api/db/v0/queries/{queryId}/results/`                     | GET         | `explorations.run_saved`                |
-| `/api/db/v0/queries/`                                       | GET         | `explorations.list`                     |
-| `/api/db/v0/queries/`                                       | POST        | `explorations.add`                      |
-| `/api/db/v0/queries/run/`                                   | POST        | `explorations.run`                      |
-| `/api/db/v0/schemas/{schemaId}/`                            | DELETE      | `schemas.delete`                        |
-| `/api/db/v0/schemas/{schemaId}/`                            | PATCH       | `schemas.patch`                         |
-| `/api/db/v0/schemas/`                                       | GET         | `schemas.list`                          |
-| `/api/db/v0/schemas/`                                       | POST        | `schemas.add`                           |
-| `/api/db/v0/tables/{tableId}/`                              | DELETE      | `tables.delete`                         |
-| `/api/db/v0/tables/{tableId}/`                              | GET         | `tables.get`                            |
-| `/api/db/v0/tables/{tableId}/`                              | PATCH       | `tables.patch`                          |
-| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | DELETE      | `columns.delete`                        |
-| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | PATCH       | `columns.patch`                         |
-| `/api/db/v0/tables/{tableId}/columns/`                      | GET         | `columns.list`                          |
-| `/api/db/v0/tables/{tableId}/columns/`                      | POST        | `columns.add`                           |
-| `/api/db/v0/tables/{tableId}/constraints/{id}`              | DELETE      | `constraints.delete`                    |
-| `/api/db/v0/tables/{tableId}/constraints/`                  | GET         | `constraints.list`                      |
-| `/api/db/v0/tables/{tableId}/constraints/`                  | POST        | `constraints.add`                       |
-| `/api/db/v0/tables/{tableId}/joinable_tables/`              | GET         | `tables.list_joinable`                  |
-| `/api/db/v0/tables/{tableId}/move_columns/`                 | POST        | `data_modeling.move_columns`            |
-| `/api/db/v0/tables/{tableId}/previews/`                     | POST        | `tables.get_import_preview`             |
-| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | GET         | `records.get`                           |
-| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | PATCH       | `records.patch`                         |
-| `/api/db/v0/tables/{tableId}/records/`                      | GET         | `records.list`                          |
-| `/api/db/v0/tables/{tableId}/records/`                      | POST        | `records.add`                           |
-| `/api/db/v0/tables/{tableId}/settings/{settingsId}/`        | PATCH       | `tables.metadata.patch`                 |
-| `/api/db/v0/tables/{tableId}/split_table/`                  | POST        | `data_modeling.split_table`             |
-| `/api/db/v0/tables/{tableId}/type_suggestions/`             | GET         | `data_modeling.suggest_types`           |
-| `/api/db/v0/tables/`                                        | GET         | `tables.list`                           |
-| `/api/db/v0/tables/`                                        | POST        | `tables.add`                            |
-| `/api/ui/v0/connections/{databaseId}/types/`                | GET         | `types.list`                            |
-| `/api/ui/v0/connections/create_from_known_connection/`      | POST        | `connections.add_from_known_connection` |
-| `/api/ui/v0/connections/create_from_scratch/`               | POST        | `connections.add_from_scratch`          |
-| `/api/ui/v0/connections/create_with_new_user/`              | POST        | _(remove)_                              |
-| `/api/ui/v0/database_roles/{roleId}/`                       | DELETE      | _(remove)_                              |
-| `/api/ui/v0/database_roles/`                                | POST        | _(remove)_                              |
-| `/api/ui/v0/queries/{queryId}/shares/{shareId}/`            | PATCH       | `shared_explorations.patch`             |
-| `/api/ui/v0/queries/{queryId}/shares/{shareId}/regenerate/` | POST        | `shared_explorations.regenerate`        |
-| `/api/ui/v0/queries/{queryId}/shares/`                      | GET         | `shared_explorations.list`              |
-| `/api/ui/v0/queries/{queryId}/shares/`                      | POST        | `shared_explorations.add`               |
-| `/api/ui/v0/reflect/`                                       | POST        | _(remove)_                              |
-| `/api/ui/v0/schema_roles/{roleId}/`                         | DELETE      | _(remove)_                              |
-| `/api/ui/v0/schema_roles/`                                  | POST        | _(remove)_                              |
-| `/api/ui/v0/tables/{tableId}/records/delete/`               | DELETE      | `records.delete`                        |
-| `/api/ui/v0/tables/{tableId}/shares/{shareId}/`             | PATCH       | `shared_tables.patch`                   |
-| `/api/ui/v0/tables/{tableId}/shares/{shareId}/regenerate/`  | POST        | `shared_tables.regenerate`              |
-| `/api/ui/v0/tables/{tableId}/shares/`                       | GET         | `shared_tables.list`                    |
-| `/api/ui/v0/tables/{tableId}/shares/`                       | POST        | `shared_tables.add`                     |
-| `/api/ui/v0/users/{userId}/`                                | DELETE      | `users.delete`                          |
-| `/api/ui/v0/users/{userId}/`                                | GET         | `users.get`                             |
-| `/api/ui/v0/users/{userId}/`                                | PATCH       | `users.patch`                           |
-| `/api/ui/v0/users/{userId}/password_reset/`                 | POST        | `users.password.revoke`                 |
-| `/api/ui/v0/users/`                                         | GET         | `users.list`                            |
-| `/api/ui/v0/users/`                                         | POST        | `users.add`                             |
-| `/api/ui/v0/users/password_change/`                         | POST        | `users.password.replace_own`            |
+| Endpoint                                                    | HTTP Method | Function                                  |
+| --                                                          | --          | --                                        |
+| `/api/db/v0/connections/{connectionId}/`                    | DELETE      | `connections.delete`                      |
+| `/api/db/v0/connections/{connectionId}/`                    | PATCH       | `connections.patch`                       |
+| `/api/db/v0/connections/`                                   | GET         | `connections.list`                        |
+| `/api/db/v0/data_files/{id}`                                | GET         | _(keep)_                                  |
+| `/api/db/v0/data_files/{id}`                                | PATCH       | _(keep)_                                  |
+| `/api/db/v0/data_files/`                                    | POST        | _(keep)_                                  |
+| `/api/db/v0/links/`                                         | POST        | `data_modeling.add_link`                  |
+| `/api/db/v0/queries/{queryId}/`                             | DELETE      | `explorations.delete`                     |
+| `/api/db/v0/queries/{queryId}/`                             | GET         | `explorations.get`                        |
+| `/api/db/v0/queries/{queryId}/`                             | PUT         | `explorations.replace`                    |
+| `/api/db/v0/queries/{queryId}/results/`                     | GET         | `explorations.run_saved`                  |
+| `/api/db/v0/queries/`                                       | GET         | `explorations.list`                       |
+| `/api/db/v0/queries/`                                       | POST        | `explorations.add`                        |
+| `/api/db/v0/queries/run/`                                   | POST        | `explorations.run`                        |
+| `/api/db/v0/schemas/{schemaId}/`                            | DELETE      | `schemas.delete`                          |
+| `/api/db/v0/schemas/{schemaId}/`                            | PATCH       | `schemas.patch`                           |
+| `/api/db/v0/schemas/`                                       | GET         | `schemas.list`                            |
+| `/api/db/v0/schemas/`                                       | POST        | `schemas.add`                             |
+| `/api/db/v0/tables/{tableId}/`                              | DELETE      | `tables.delete`                           |
+| `/api/db/v0/tables/{tableId}/`                              | GET         | `tables.get`                              |
+| `/api/db/v0/tables/{tableId}/`                              | PATCH       | `tables.patch`, `tables.metadata.patch`   |
+| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | DELETE      | `columns.delete`                          |
+| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | PATCH       | `columns.patch`, `columns.metadata.patch` |
+| `/api/db/v0/tables/{tableId}/columns/`                      | GET         | `columns.list`, `columns.metadata.list`   |
+| `/api/db/v0/tables/{tableId}/columns/`                      | POST        | `columns.add`                             |
+| `/api/db/v0/tables/{tableId}/constraints/{id}`              | DELETE      | `constraints.delete`                      |
+| `/api/db/v0/tables/{tableId}/constraints/`                  | GET         | `constraints.list`                        |
+| `/api/db/v0/tables/{tableId}/constraints/`                  | POST        | `constraints.add`                         |
+| `/api/db/v0/tables/{tableId}/joinable_tables/`              | GET         | `tables.list_joinable`                    |
+| `/api/db/v0/tables/{tableId}/move_columns/`                 | POST        | `data_modeling.move_columns`              |
+| `/api/db/v0/tables/{tableId}/previews/`                     | POST        | `tables.get_import_preview`               |
+| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | GET         | `records.get`                             |
+| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | PATCH       | `records.patch`                           |
+| `/api/db/v0/tables/{tableId}/records/`                      | GET         | `records.list`                            |
+| `/api/db/v0/tables/{tableId}/records/`                      | POST        | `records.add`                             |
+| `/api/db/v0/tables/{tableId}/settings/{settingsId}/`        | PATCH       | `tables.metadata.patch`                   |
+| `/api/db/v0/tables/{tableId}/split_table/`                  | POST        | `data_modeling.split_table`               |
+| `/api/db/v0/tables/{tableId}/type_suggestions/`             | GET         | `data_modeling.suggest_types`             |
+| `/api/db/v0/tables/`                                        | GET         | `tables.list`, `tables.metadata.list`     |
+| `/api/db/v0/tables/`                                        | POST        | `tables.add`                              |
+| `/api/ui/v0/connections/{databaseId}/types/`                | GET         | `types.list`                              |
+| `/api/ui/v0/connections/create_from_known_connection/`      | POST        | `connections.add_from_known_connection`   |
+| `/api/ui/v0/connections/create_from_scratch/`               | POST        | `connections.add_from_scratch`            |
+| `/api/ui/v0/connections/create_with_new_user/`              | POST        | _(remove)_                                |
+| `/api/ui/v0/database_roles/{roleId}/`                       | DELETE      | _(remove)_                                |
+| `/api/ui/v0/database_roles/`                                | POST        | _(remove)_                                |
+| `/api/ui/v0/queries/{queryId}/shares/{shareId}/`            | PATCH       | `shared_explorations.patch`               |
+| `/api/ui/v0/queries/{queryId}/shares/{shareId}/regenerate/` | POST        | `shared_explorations.regenerate`          |
+| `/api/ui/v0/queries/{queryId}/shares/`                      | GET         | `shared_explorations.list`                |
+| `/api/ui/v0/queries/{queryId}/shares/`                      | POST        | `shared_explorations.add`                 |
+| `/api/ui/v0/reflect/`                                       | POST        | _(remove)_                                |
+| `/api/ui/v0/schema_roles/{roleId}/`                         | DELETE      | _(remove)_                                |
+| `/api/ui/v0/schema_roles/`                                  | POST        | _(remove)_                                |
+| `/api/ui/v0/tables/{tableId}/records/delete/`               | DELETE      | `records.delete`                          |
+| `/api/ui/v0/tables/{tableId}/shares/{shareId}/`             | PATCH       | `shared_tables.patch`                     |
+| `/api/ui/v0/tables/{tableId}/shares/{shareId}/regenerate/`  | POST        | `shared_tables.regenerate`                |
+| `/api/ui/v0/tables/{tableId}/shares/`                       | GET         | `shared_tables.list`                      |
+| `/api/ui/v0/tables/{tableId}/shares/`                       | POST        | `shared_tables.add`                       |
+| `/api/ui/v0/users/{userId}/`                                | DELETE      | `users.delete`                            |
+| `/api/ui/v0/users/{userId}/`                                | GET         | `users.get`                               |
+| `/api/ui/v0/users/{userId}/`                                | PATCH       | `users.patch`                             |
+| `/api/ui/v0/users/{userId}/password_reset/`                 | POST        | `users.password.revoke`                   |
+| `/api/ui/v0/users/`                                         | GET         | `users.list`                              |
+| `/api/ui/v0/users/`                                         | POST        | `users.add`                               |
+| `/api/ui/v0/users/password_change/`                         | POST        | `users.password.replace_own`              |
 
 Functions sorted by name (duplicated for ease of reading):
 
@@ -149,6 +149,8 @@ Functions sorted by name (duplicated for ease of reading):
 columns.add
 columns.delete
 columns.list
+columns.metadata.list
+columns.metadata.patch
 columns.patch
 connections.add_from_known_connection
 connections.add_from_scratch
@@ -192,6 +194,7 @@ tables.get_import_preview
 tables.get
 tables.list_joinable
 tables.list
+tables.metadata.list
 tables.metadata.patch
 tables.patch
 types.list
