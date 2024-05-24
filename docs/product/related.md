@@ -50,6 +50,7 @@ This page lists other products that solve similar/related problems to what Mathe
 - [Fusioo](https://www.fusioo.com/)
 - [Quip](https://quip.com/)
 - [ClickUp](https://clickup.com/)
+- [Quickbase](https://www.quickbase.com/)
 
 ## Desktop
 
