@@ -17,7 +17,11 @@ Linting should handle many style issues, but here's some to check manually:
 1. Imports should be ordered in alphabetical order, with standard library imports first, third-party imports second, and local imports third.
 1. All class attributes should be defined _before_ class methods.
 1. Internal functions (not meant to be used outside the class or file) should be prefixed with an underscore (`_`).
-1. Variable names should _not_ be reused within the same function.
+1. Variable names should _not_ be reused within the same function
+1. Identifier terminology (for the service layer):
+    - All the database object identifiers should be named with database object followed by `_oid` e.g. `database_oid`, `schema_oid` and `table_oid`.
+    - Columns should be identified by `attnum`.
+    - The django model identifiers should be named with model name followed by `_id`, e.g. `database_id`, `user_id`, `server_id`.
 
 ## Testing
 1. There should be tests for new functionality.
