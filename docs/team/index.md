@@ -19,6 +19,7 @@ These team members also work on Mathesar, but do not maintain the open source pr
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
 | Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Operations, finance, strategy |
+| Kailash Sithambaram | `@kailash:matrix.mathesar.org` | `@kailashmathesar` | Executive Assistant |
 
 ## Community Team
 
