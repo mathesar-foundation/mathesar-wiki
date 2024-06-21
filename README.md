@@ -17,7 +17,7 @@ https://wiki.mathesar.org/
 
 ## Preview your edits locally
 
-1. Install requirements
+1. Install requirements.
 
     ```
     pip install -r requirements.txt

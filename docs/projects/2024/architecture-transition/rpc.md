@@ -6,7 +6,7 @@ It is maintained by Sean and Brent.
 
 ## Timeline
 
-We want to be fully transitioned to RPC APIs by the **beta release**. Ideally we would not have any REST-based APIs at that point.
+We want _most_ (but not all) of our REST endpoints to be fully transitioned to RPC APIs by the **beta release**. Some REST endpoints will likely remain, especially ones like `data_files` that will be difficult (or impossible?) to transition to JSON-RPC.
 
 ## JSON-RPC spec
 
@@ -30,74 +30,6 @@ When using this library:
     - This seems to be less actively maintained
     - It doesn't integrate as well with Django auth.
 
-## Open questions
-
-### TypeScript types
-
-Would it feasible for us to write custom tooling that generates TypeScript types from the introspection capabilities built in to django-modern-rpc?
-
-### File uploads
-
-How will we deal with file uploads in `data_files`? Are our needs compatible with JSON-RPC in this case?
-
-### Id values
-
-- The JSON-RPC spec requires that all request objects have `id` parameters (unless they're "notification" request objects, which we probably won't use).
-- The id parameter must be a number or string.
-- The id parameters are important in the following cases:
-    - when sending a batch request — because response objects can be returned in any order within the batch response
-    - when using the JSON-RPC spec over a channel like web sockets — because (even non-batched) responses are not issued directly to requests and thus might arrive out of order
-- However, when sending a non-batch request over HTTP, the spec does not clearly indicate the purpose of the id parameter — likely because the spec is transport agnostic and does not assume that the transport is necessarily capable of matching responses directly to requests.
-- For our purpose, we need to decide what meaning (or lack thereof) the id parameter would have for non-batched HTTP requests. We essentially have two approaches:
-
-    - **Fixed ids**: The client generates id values uniquely scoped to each HTTP request. For a non-batched request, the client uses an id of `0`. For batched requests, the client uses id values `0`, `1`, `2`... and so on.
-
-    - **Sequential ids**: The client generates sequential id values which increment for subsequent requests. The counter is reset when the page is reloaded.
-
-    We could potentially formulate other approaches too, e.g. stringified UUIDs.
-
-- Sean and Brent discussed this.
-    - Brent's inclination was to use sequential ids, but he didn't feel strongly about it. His rationale was that maybe someday this decision would come in handy, but he didn't have a clear use case for it in the forseeable future.
-    - Sean didn't have an opinion during the call.
-    - Upon reflection, Sean formed an opinion leaning towards fixed ids because they would be simpler to implement on the front end. With fixed ids, the front end's request machinery would be stateless. With sequential ids, it would be stateful, adding a small amount of complexity.
-
-### Standard verbs
-
-We'd like to use consistent terminology in our method names. What verbs do we want to use for the following concepts?
-
-- list, get all, select
-- get, get one, fetch, return
-- create, add, insert, make, new
-- partial update, edit, patch, alter
-- full update, replace, put, set
-- delete, remove, drop
-
-SQL uses different terms for DDL operations (e.g. `CREATE`, `ALTER`, `DROP`) from DML operations (e.g. `INSERT`, `UPDATE`, `DELETE`). Do we want to maintain such a distinction within our API layer?
-
-### Response structure
-
-What general rules-of-thumb should we adopt as we decide the response schema for each method?
-
-### Error structure
-
-What will our error responses look like?
-
-What HTTP status code does django-modern-rpc use when returning errors? In what cases will the HTTP status code be meaningful to us, if any?
-
-### Casing transformation
-
-We use snake_case for Python variables and camelCase for JavaScript variables. This case transformation is currently implemented on a ad-hoc basis throughout many of the outermost leaves of the frontend codebase. [Example](https://github.com/mathesar-foundation/mathesar/blob/4f498843480060e59e5378c0238a4981d8cbc91c/mathesar_ui/src/stores/abstract-types/type-configs/money.ts#L104-L109).
-
-If we were starting from scratch, Sean would have a preference for moving this case transformation into an automated step that would happen somewhere like middleware. Being that we're _kind of_ starting from scratch with this new RPC API, is it worth considering adopting a case transformation step like this? Sean thinks it's _probably not_.
-
-### Namespace depth
-
-How likely do we think it is that we'll end up having more deeply-namespaced method names like `foo.bar.delete`?
-
-### Error types
-
-On the frontend, do we want to leverage the type system to encode error structure on a per-function basis?
-
 ## API Standards
 
 These standards are _preliminary_ and subject to change. We'll need to better document them as they become more solidified with our rollout.
@@ -111,14 +43,29 @@ We are enforcing a standard of always using named parameters and never using pos
 ### Method namespacing
 
 - Noun first, verb second. (This makes the methods easy to sort.)
-- _(More specific guidelines will follow after some of the open questions are resolved)_
+- The most common method naming pattern is `noun.verb`, but method names can use arbitrarily deep namespace. It's okay to have a method at the top-level or several levels deep.
+
+### Standard verbs
+
+To ensure that our method names use consistent terminology, use the following verbs within method names:
+
+| ✅ Use      | ❌ Don't use |
+| --          | --               |
+| **list**    | ~~get all~~, ~~select~~ |
+| **get**     | ~~get one~~, ~~fetch~~, ~~return~~ |
+| **add**     | ~~create~~, ~~insert~~, ~~make~~, ~~new~~ |
+| **patch**   | ~~partial update~~, ~~edit~~, ~~alter~~ |
+| **replace** | ~~full update~~, ~~put~~, ~~set~~ |
+| **delete**  | ~~remove~~, ~~drop~~ |
 
 ### Docstrings
 
 - All API functions must have docstrings.
-- Within the docstrings the syntax should be [Sphinx style](https://sphinx-rtd-tutorial.readthedocs.io/en/latest/docstrings.html).
+- Within the docstrings the syntax should be [Google style](https://google.github.io/styleguide/pyguide.html#383-functions-and-methods).
 
-    (Some rationale for this choice is described in [#3524](https://github.com/mathesar-foundation/mathesar/pull/3524).)
+### Id values
+
+For the JSON-RPC `id` parameter, we generate values which are unique only within the scope of a single HTTP request.
 
 ### When to batch
 
@@ -128,76 +75,137 @@ The move to JSON-RPC opens up the possibility for the front end to consolidate m
 
 The table below is a comprehensive list of all REST API endpoints used by the front end as of Mathesar 0.1.6. Sean performed an audit of the codebase to extract this list.
 
-**TODO**: fill out the function names in this table.
+| Endpoint                                                    | HTTP Method | Function                                  |
+| --                                                          | --          | --                                        |
+| `/api/db/v0/connections/{connectionId}/`                    | DELETE      | `connections.delete`                      |
+| `/api/db/v0/connections/{connectionId}/`                    | PATCH       | `connections.patch`                       |
+| `/api/db/v0/connections/`                                   | GET         | `connections.list`                        |
+| `/api/db/v0/data_files/{id}`                                | GET         | _(keep)_                                  |
+| `/api/db/v0/data_files/{id}`                                | PATCH       | _(keep)_                                  |
+| `/api/db/v0/data_files/`                                    | POST        | _(keep)_                                  |
+| `/api/db/v0/links/`                                         | POST        | `data_modeling.add_link`                  |
+| `/api/db/v0/queries/{queryId}/`                             | DELETE      | `explorations.delete`                     |
+| `/api/db/v0/queries/{queryId}/`                             | GET         | `explorations.get`                        |
+| `/api/db/v0/queries/{queryId}/`                             | PUT         | `explorations.replace`                    |
+| `/api/db/v0/queries/{queryId}/results/`                     | GET         | `explorations.run_saved`                  |
+| `/api/db/v0/queries/`                                       | GET         | `explorations.list`                       |
+| `/api/db/v0/queries/`                                       | POST        | `explorations.add`                        |
+| `/api/db/v0/queries/run/`                                   | POST        | `explorations.run`                        |
+| `/api/db/v0/schemas/{schemaId}/`                            | DELETE      | `schemas.delete`                          |
+| `/api/db/v0/schemas/{schemaId}/`                            | PATCH       | `schemas.patch`                           |
+| `/api/db/v0/schemas/`                                       | GET         | `schemas.list`                            |
+| `/api/db/v0/schemas/`                                       | POST        | `schemas.add`                             |
+| `/api/db/v0/tables/{tableId}/`                              | DELETE      | `tables.delete`                           |
+| `/api/db/v0/tables/{tableId}/`                              | GET         | `tables.get`                              |
+| `/api/db/v0/tables/{tableId}/`                              | PATCH       | `tables.patch`, `tables.metadata.patch`   |
+| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | DELETE      | `columns.delete`                          |
+| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | PATCH       | `columns.patch`, `columns.metadata.patch` |
+| `/api/db/v0/tables/{tableId}/columns/`                      | GET         | `columns.list`, `columns.metadata.list`   |
+| `/api/db/v0/tables/{tableId}/columns/`                      | POST        | `columns.add`                             |
+| `/api/db/v0/tables/{tableId}/constraints/{id}`              | DELETE      | `constraints.delete`                      |
+| `/api/db/v0/tables/{tableId}/constraints/`                  | GET         | `constraints.list`                        |
+| `/api/db/v0/tables/{tableId}/constraints/`                  | POST        | `constraints.add`                         |
+| `/api/db/v0/tables/{tableId}/joinable_tables/`              | GET         | `tables.list_joinable`                    |
+| `/api/db/v0/tables/{tableId}/move_columns/`                 | POST        | `data_modeling.move_columns`              |
+| `/api/db/v0/tables/{tableId}/previews/`                     | POST        | `tables.get_import_preview`               |
+| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | GET         | `records.get`                             |
+| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | PATCH       | `records.patch`                           |
+| `/api/db/v0/tables/{tableId}/records/`                      | GET         | `records.list`                            |
+| `/api/db/v0/tables/{tableId}/records/`                      | POST        | `records.add`                             |
+| `/api/db/v0/tables/{tableId}/settings/{settingsId}/`        | PATCH       | `tables.metadata.patch`                   |
+| `/api/db/v0/tables/{tableId}/split_table/`                  | POST        | `data_modeling.split_table`               |
+| `/api/db/v0/tables/{tableId}/type_suggestions/`             | GET         | `data_modeling.suggest_types`             |
+| `/api/db/v0/tables/`                                        | GET         | `tables.list`, `tables.metadata.list`     |
+| `/api/db/v0/tables/`                                        | POST        | `tables.add`                              |
+| `/api/ui/v0/connections/{databaseId}/types/`                | GET         | `types.list`                              |
+| `/api/ui/v0/connections/create_from_known_connection/`      | POST        | `connections.add_from_known_connection`   |
+| `/api/ui/v0/connections/create_from_scratch/`               | POST        | `connections.add_from_scratch`            |
+| `/api/ui/v0/connections/create_with_new_user/`              | POST        | _(remove)_                                |
+| `/api/ui/v0/database_roles/{roleId}/`                       | DELETE      | _(remove)_                                |
+| `/api/ui/v0/database_roles/`                                | POST        | _(remove)_                                |
+| `/api/ui/v0/queries/{queryId}/shares/{shareId}/`            | PATCH       | `shared_explorations.patch`               |
+| `/api/ui/v0/queries/{queryId}/shares/{shareId}/regenerate/` | POST        | `shared_explorations.regenerate`          |
+| `/api/ui/v0/queries/{queryId}/shares/`                      | GET         | `shared_explorations.list`                |
+| `/api/ui/v0/queries/{queryId}/shares/`                      | POST        | `shared_explorations.add`                 |
+| `/api/ui/v0/reflect/`                                       | POST        | _(remove)_                                |
+| `/api/ui/v0/schema_roles/{roleId}/`                         | DELETE      | _(remove)_                                |
+| `/api/ui/v0/schema_roles/`                                  | POST        | _(remove)_                                |
+| `/api/ui/v0/tables/{tableId}/records/delete/`               | DELETE      | `records.delete`                          |
+| `/api/ui/v0/tables/{tableId}/shares/{shareId}/`             | PATCH       | `shared_tables.patch`                     |
+| `/api/ui/v0/tables/{tableId}/shares/{shareId}/regenerate/`  | POST        | `shared_tables.regenerate`                |
+| `/api/ui/v0/tables/{tableId}/shares/`                       | GET         | `shared_tables.list`                      |
+| `/api/ui/v0/tables/{tableId}/shares/`                       | POST        | `shared_tables.add`                       |
+| `/api/ui/v0/users/{userId}/`                                | DELETE      | `users.delete`                            |
+| `/api/ui/v0/users/{userId}/`                                | GET         | `users.get`                               |
+| `/api/ui/v0/users/{userId}/`                                | PATCH       | `users.patch`                             |
+| `/api/ui/v0/users/{userId}/password_reset/`                 | POST        | `users.password.revoke`                   |
+| `/api/ui/v0/users/`                                         | GET         | `users.list`                              |
+| `/api/ui/v0/users/`                                         | POST        | `users.add`                               |
+| `/api/ui/v0/users/password_change/`                         | POST        | `users.password.replace_own`              |
 
-| Endpoint                                                    | HTTP Method | Function  |
-| --                                                          | --          | --        |
-| `/api/db/v0/connections/{connectionId}/`                    | DELETE      |           |
-| `/api/db/v0/connections/{connectionId}/`                    | PATCH       |           |
-| `/api/db/v0/connections/`                                   | GET         |           |
-| `/api/db/v0/data_files/{id}`                                | GET         |           |
-| `/api/db/v0/data_files/{id}`                                | PATCH       |           |
-| `/api/db/v0/data_files/`                                    | POST        |           |
-| `/api/db/v0/links/`                                         | POST        |           |
-| `/api/db/v0/queries/{queryId}/`                             | DELETE      |           |
-| `/api/db/v0/queries/{queryId}/`                             | GET         |           |
-| `/api/db/v0/queries/{queryId}/`                             | PUT         |           |
-| `/api/db/v0/queries/{queryId}/results/`                     | GET         |           |
-| `/api/db/v0/queries/`                                       | GET         |           |
-| `/api/db/v0/queries/`                                       | POST        |           |
-| `/api/db/v0/queries/run/`                                   | POST        |           |
-| `/api/db/v0/schemas/{schemaId}/`                            | DELETE      |           |
-| `/api/db/v0/schemas/{schemaId}/`                            | GET         |           |
-| `/api/db/v0/schemas/{schemaId}/`                            | PATCH       |           |
-| `/api/db/v0/schemas/`                                       | GET         |           |
-| `/api/db/v0/schemas/`                                       | POST        |           |
-| `/api/db/v0/tables/{tableId}/`                              | DELETE      |           |
-| `/api/db/v0/tables/{tableId}/`                              | GET         |           |
-| `/api/db/v0/tables/{tableId}/`                              | PATCH       |           |
-| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | DELETE      |           |
-| `/api/db/v0/tables/{tableId}/columns/{columnId}`            | PATCH       |           |
-| `/api/db/v0/tables/{tableId}/columns/`                      | GET         |           |
-| `/api/db/v0/tables/{tableId}/columns/`                      | POST        |           |
-| `/api/db/v0/tables/{tableId}/constraints/{id}`              | DELETE      |           |
-| `/api/db/v0/tables/{tableId}/constraints/`                  | GET         |           |
-| `/api/db/v0/tables/{tableId}/constraints/`                  | POST        |           |
-| `/api/db/v0/tables/{tableId}/joinable_tables/`              | GET         |           |
-| `/api/db/v0/tables/{tableId}/move_columns/`                 | POST        |           |
-| `/api/db/v0/tables/{tableId}/previews/`                     | POST        |           |
-| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | GET         |           |
-| `/api/db/v0/tables/{tableId}/records/{recordPk}/`           | PATCH       |           |
-| `/api/db/v0/tables/{tableId}/records/`                      | GET         |           |
-| `/api/db/v0/tables/{tableId}/records/`                      | POST        |           |
-| `/api/db/v0/tables/{tableId}/settings/{settingsId}/`        | PATCH       |           |
-| `/api/db/v0/tables/{tableId}/split_table/`                  | POST        |           |
-| `/api/db/v0/tables/{tableId}/type_suggestions/`             | GET         |           |
-| `/api/db/v0/tables/`                                        | GET         |           |
-| `/api/db/v0/tables/`                                        | POST        |           |
-| `/api/ui/v0/connections/{databaseId}/types/`                | GET         |           |
-| `/api/ui/v0/connections/create_from_known_connection/`      | POST        |           |
-| `/api/ui/v0/connections/create_from_scratch/`               | POST        |           |
-| `/api/ui/v0/connections/create_with_new_user/`              | POST        |           |
-| `/api/ui/v0/database_roles/{roleId}/`                       | DELETE      |           |
-| `/api/ui/v0/database_roles/`                                | POST        |           |
-| `/api/ui/v0/queries/{queryId}/shares/{shareId}/`            | PATCH       |           |
-| `/api/ui/v0/queries/{queryId}/shares/{shareId}/regenerate/` | POST        |           |
-| `/api/ui/v0/queries/{queryId}/shares/`                      | GET         |           |
-| `/api/ui/v0/queries/{queryId}/shares/`                      | POST        |           |
-| `/api/ui/v0/reflect/`                                       | POST        | _(none)_  |
-| `/api/ui/v0/schema_roles/{roleId}/`                         | DELETE      | _(none)_  |
-| `/api/ui/v0/schema_roles/`                                  | POST        | _(none)_  |
-| `/api/ui/v0/tables/{tableId}/records/delete/`               | DELETE      |           |
-| `/api/ui/v0/tables/{tableId}/shares/{shareId}/`             | PATCH       |           |
-| `/api/ui/v0/tables/{tableId}/shares/{shareId}/regenerate/`  | POST        |           |
-| `/api/ui/v0/tables/{tableId}/shares/`                       | GET         |           |
-| `/api/ui/v0/tables/{tableId}/shares/`                       | POST        |           |
-| `/api/ui/v0/users/{userId}/`                                | DELETE      |           |
-| `/api/ui/v0/users/{userId}/`                                | GET         |           |
-| `/api/ui/v0/users/{userId}/`                                | PATCH       |           |
-| `/api/ui/v0/users/{userId}/password_reset/`                 | POST        |           |
-| `/api/ui/v0/users/`                                         | GET         |           |
-| `/api/ui/v0/users/`                                         | POST        |           |
-| `/api/ui/v0/users/password_change/`                         | POST        |           |
+Functions sorted by name (duplicated for ease of reading):
+
+```
+columns.add
+columns.delete
+columns.list
+columns.metadata.list
+columns.metadata.patch
+columns.patch
+connections.add_from_known_connection
+connections.add_from_scratch
+connections.delete
+connections.list
+connections.patch
+constraints.add
+constraints.delete
+constraints.list
+data_modeling.add_link
+data_modeling.move_columns
+data_modeling.split_table
+data_modeling.suggest_types
+explorations.add
+explorations.delete
+explorations.get
+explorations.list
+explorations.replace
+explorations.run_saved
+explorations.run
+records.add
+records.delete
+records.get
+records.list
+records.patch
+schemas.add
+schemas.delete
+schemas.list
+schemas.patch
+shared_explorations.add
+shared_explorations.list
+shared_explorations.patch
+shared_explorations.regenerate
+shared_tables.add
+shared_tables.list
+shared_tables.patch
+shared_tables.regenerate
+tables.add
+tables.delete
+tables.get_import_preview
+tables.get
+tables.list_joinable
+tables.list
+tables.metadata.list
+tables.metadata.patch
+tables.patch
+types.list
+users.add
+users.delete
+users.get
+users.list
+users.password.replace_own
+users.password.revoke
+users.patch
+```
 
 ## Plans for the transition process
 
