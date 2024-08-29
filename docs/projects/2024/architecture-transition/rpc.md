@@ -117,7 +117,7 @@ The table below is a comprehensive list of all REST API endpoints used by the fr
 | `/api/db/v0/tables/{tableId}/type_suggestions/`             | GET         | `data_modeling.suggest_types`             |
 | `/api/db/v0/tables/`                                        | GET         | `tables.list`, `tables.metadata.list`     |
 | `/api/db/v0/tables/`                                        | POST        | `tables.add`                              |
-| `/api/ui/v0/connections/{databaseId}/types/`                | GET         | `types.list`                              |
+| `/api/ui/v0/connections/{databaseId}/types/`                | GET         | _(remove)_                                |
 | `/api/ui/v0/connections/create_from_known_connection/`      | POST        | `connections.add_from_known_connection`   |
 | `/api/ui/v0/connections/create_from_scratch/`               | POST        | `connections.add_from_scratch`            |
 | `/api/ui/v0/connections/create_with_new_user/`              | POST        | _(remove)_                                |
