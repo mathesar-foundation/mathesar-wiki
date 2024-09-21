@@ -1,8 +1,6 @@
-# Core team meeting 2023-03-15
+# 2023-03-15 core team meeting 
 
-**Date**: 2023-03-13
 **Attendees**: All core team members + Anish
-
 
 ## Bigger-picture plan for Mathesar
 General plan: 

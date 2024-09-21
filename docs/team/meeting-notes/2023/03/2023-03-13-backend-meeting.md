@@ -1,8 +1,6 @@
-# Backend meeting 2023-03-13
+# 2023-03-13 backend meeting 
 
-**Date**: 2023-03-13
 **Attendees**: Anish, Brent, Dominkyas, Mukesh, Sean
-
 
 - Brent - Having gone back and forth between oids and names, it looks like solving this issue or figuring our the solution won't be a easy and quick task. So we should be okay with having a data structure as mentioned by Dom in his email
 - Dom - When will the tuple be converted.
@@ -15,7 +13,7 @@
 - Move possible python functions to Postgres functions
 - We are learning the features to implement based user feedback. So the solution should be flexible. 
 
-Action Items
+## Action Items
 
 - Figure out the functions that can be moved to postgres and write issues - Anish & Brent
 - Figure out how we want to write SQL in python - Mukesh

@@ -2,8 +2,8 @@
 
 ## Meeting Information
 **Meeting Purpose:** Brainstorm Installation Improvements
-**Attendees:** Brent, Kriti, Mukesh, Pavish
 
+**Attendees:** Brent, Kriti, Mukesh, Pavish
 
 ## Projects
 We need to split "installation improvements" into smaller projects:

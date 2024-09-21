@@ -1,6 +1,6 @@
 # Installation improvements planned for 0.1.2
 
-Date: 2023-03-27
+Date: 2023-03-27  
 Attendees: Mukesh, Pavish
 
 ## Priority
