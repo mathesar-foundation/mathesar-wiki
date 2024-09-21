@@ -1,7 +1,5 @@
 # 2024-07-23 maintainer meeting
 
-**Attendees**: Mathesar maintainers
-
 ## Identifying role that owns Mathesar internal schemas during upgrade
 Context:
 
