@@ -1,5 +1,30 @@
 # 2024-07-02 maintainer meeting
 
+## Changes to DB function signatures
+
+I [Sean] think we need a consistent approach to changing DB function signatures. Based on this [thread](https://github.com/mathesar-foundation/mathesar/pull/3637#pullrequestreview-2153802729), Anish and I seem to have different expectations. This potentially affects the experience of Mathesar administrators wishing to upgrade to Mathesar beta, so I think it's worth a brief discussion.
+
+### Discussion
+- Changes to arguments (e.g., name, type, return types) in database functions can't be handled by using `CREATE OR REPLACE`.
+    - Would cause errors.
+- Approaches:
+    - We could have an upgrade script that drops all functions in the Mathesar namespaces one at a time, without cascading.
+        - If time is limited, could drop all functions in bulk without cascading.
+    - We could drop entire schemas with `CASCADE` to ensure a known state.
+        - This would remove everything and avoid having to worry about function mismatches later.
+        - Could add warning to developers about this approach.
+- Dropping schemas shouldn't be a repeated thing, we should send out email notifications to the dev list if we need to do this once.
+    - This is the most robust solution, but can't be frequent.
+- Safer approach: if a database function signature is being changed, the PR should include a drop function statement for the old signature, placed just above the new one.
+    - Can manage changes without drops using `CASCADE`
+    - Avoids using `CREATE OR REPLACE` for functions that could otherwise fail due to type mismatches.
+    - Good temporary solution
+- Also need to clean up lingering old functions / schemas, could be good to outsource to a contractor.
+
+### Conclusion
+- When changing a function signature, include a drop function command in your PR.
+- Figure out plan to clean up old functions / schemas
+
 ## Order of operations for beta work
 
 We are very close to our beta deadline and have many interdependencies in our remaining work. We need to sort out our plan for what order we'll be doing things in and for checking in regularly and eliminating blockers.
