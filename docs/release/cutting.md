@@ -30,6 +30,10 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
     git checkout -b $VERSION
     ```
 
+1. **Notify team that release branch is cut**
+
+    This is important because engineers will need to know to target the release branch with any subsequent PRs intended for the release.
+
 1. **Update version numbers**
 
     ```sh
