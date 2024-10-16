@@ -93,6 +93,8 @@
 
         These commands build, push, and tag the images as `latest`.
 
+        If you have trouble running these commands, make sure you've run the [prerequisite setup steps](./index.md#prerequisites).
+
     1. Clean up
 
         ```sh

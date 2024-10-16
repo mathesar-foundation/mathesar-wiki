@@ -89,6 +89,8 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 
         (These images are intentionally not tagged as latest — that will happen during [publication](./publication.md).)
 
+        If you have trouble running these commands, make sure you've run the [prerequisite setup steps](./index.md#prerequisites).
+
     1. Clean up
 
         ```sh
