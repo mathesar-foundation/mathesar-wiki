@@ -103,6 +103,10 @@
         docker logout
         ```
 
+1. **Publish docs**
+
+    To publish the release notes, you'll need to [manually publish a version](https://github.com/mathesar-foundation/mathesar/tree/develop/docs#how-to-publish-a-single-version-of-mathesars-docs) (or possibly update an existing version) of our docs.
+
 1. **Update the draft GitHub release and publish it**
 
     ```
