@@ -19,8 +19,8 @@ These team members also work on Mathesar, but do not maintain the open source pr
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
 | Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Finance, Strategy |
-| Tanya Nguyen | `@tanya:matrix.mathesar.org` | `@howdytanya` | Operations, Strategy |
 | Amanda Jayawardene | `@amanda:matrix.mathesar.org` | `@amanda-jayawardene` | Operations |
+| Tanya Nguyen | `@tanya:matrix.mathesar.org` | `@howdytanya` | Operations, Strategy |
 
 ## Community Team
 
