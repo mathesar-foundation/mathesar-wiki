@@ -9,7 +9,7 @@ The maintainers maintain the project on a day-to-day basis. We previously called
 | Anish Umale | `@anish:matrix.mathesar.org` | `@Anish9901` | Engineering |
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
 | Ghislaine Guerin | `@ghislaine:matrix.mathesar.org` | `@ghislaineguerin` | Product, Design |
-| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project lead, Product, Engineering |
+| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Lead, Product, Engineering |
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
 | Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering |
 
@@ -18,9 +18,9 @@ These team members also work on Mathesar, but do not maintain the open source pr
 
 | **Name** | **Matrix** | **GitHub** | **Roles** |
 |-|-|-|-|
-| Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Operations, finance, strategy |
-| Kailash Sithambaram | `@kailash:matrix.mathesar.org` | `@kailashmathesar` | Executive Assistant |
-| Amanda Jayawardene | `@amanda:matrix.mathesar.org` | `@amanda-jayawardene` | Operations Assistant |
+| Adam Mullinax | `@adam:matrix.mathesar.org` | `N/A` | Finance, Strategy |
+| Tanya Nguyen | `@tanya:matrix.mathesar.org` | `@howdytanya` | Operations, Strategy |
+| Amanda Jayawardene | `@amanda:matrix.mathesar.org` | `@amanda-jayawardene` | Operations |
 
 ## Community Team
 
