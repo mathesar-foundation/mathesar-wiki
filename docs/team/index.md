@@ -9,7 +9,7 @@ The maintainers maintain the project on a day-to-day basis. We previously called
 | Anish Umale | `@anish:matrix.mathesar.org` | `@Anish9901` | Engineering |
 | Brent Moran | `@brent:matrix.mathesar.org` | `@mathemancer` | Engineering |
 | Ghislaine Guerin | `@ghislaine:matrix.mathesar.org` | `@ghislaineguerin` | Product, Design |
-| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Lead, Product, Engineering |
+| Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project Lead, Product, Engineering |
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
 | Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering |
 
