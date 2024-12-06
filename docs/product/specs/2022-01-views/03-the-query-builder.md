@@ -53,10 +53,10 @@ Here's a flowchart of decisions that need to be made when adding columns. This i
 In addition to selecting output columns, the user should be able to add to the query in the following ways. 
 
 ### Filtering
-The user can add filters to filter down the results of the query to a subset of rows. They can use any of the query's ouput columns in filters. The filters available for the column will depend its data type and will offer a similar experience to table or view filters.
+The user can add filters to filter down the results of the query to a subset of rows. They can use any of the query's output columns in filters. The filters available for the column will depend its data type and will offer a similar experience to table or view filters.
 
 ### Sorting
-The user can sort the query results by one or more of the query's ouput columns. Query sorting should provide a similar experience to table or view sorting.
+The user can sort the query results by one or more of the query's output columns. Query sorting should provide a similar experience to table or view sorting.
 
 ### Summarization
 The user should be able to summarize the query by one of the query's output columns. This involves the following steps:

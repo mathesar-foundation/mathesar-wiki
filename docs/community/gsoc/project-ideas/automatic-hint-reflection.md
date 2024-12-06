@@ -62,7 +62,7 @@ The automatic reflection is not essential, but it could be a significant quality
 - Figure out when to reflect and how to cache the reflections so as to minimally burden the wider system with more state;
 - Do the implementation.
 
-I would expect the above tasks to be performed (at least somewhat) asynchroniously.
+I would expect the above tasks to be performed (at least somewhat) asynchronously.
 
 ## Expected Outcome
 An automatic PostgreSQL function (and possibly type) property reflection mechanism tailored to automatically finding useful hints for the hint system.

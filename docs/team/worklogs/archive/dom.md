@@ -137,7 +137,7 @@ Away on sick leave.
 
 ### 2023-09-22
 
-- Submited draft PR for Paste API
+- Submitted draft PR for Paste API
 - Fix GSoC summit travel arrangements, broken due to a cancellation
 
 ### 2023-09-21

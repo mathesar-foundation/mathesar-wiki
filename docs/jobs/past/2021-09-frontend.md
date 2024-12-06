@@ -21,7 +21,7 @@ We expect you to:
 - have experience working professionally within an engineering team.
 - have excellent verbal communication skills in English.
 - enjoy explaining your ideas quickly, clearly, and comprehensively in writing.
-- work indpendently, build good working relationships remotely, and communicate proactively.
+- work independently, build good working relationships remotely, and communicate proactively.
 - be an advocate for an exceptional user experience.
 - be interested in building an open source community and helping others contribute to the project.
 - be curious and enjoy learning new things.

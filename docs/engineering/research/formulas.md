@@ -144,7 +144,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
 
 - ⚖️ **Deleting a referenced column**
 
-    - It's _possible_ to delete a referenced colum, but the resulting behavior may catch users off guard
+    - It's _possible_ to delete a referenced column, but the resulting behavior may catch users off guard
 
         ```sql
         alter table formulas drop column a;
@@ -204,7 +204,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
 
     - Formula columns are _virtual_, not _stored_. That is, they are computed on the fly when the table results are displayed.
 
-    - Formulas are implemented at the _application layer_, not the _database layer_. This means the formula definition is stored in application-specific metatdata, and the formula column is not visible within the underlying database. If I update a referenced value outside NocoDB, then the result of the formula that NocoDB displays _will_ update, but only due to the virtual nature of the formula. The source data is read/write accessible outside NocoDB, but not the computed data.
+    - Formulas are implemented at the _application layer_, not the _database layer_. This means the formula definition is stored in application-specific metadata, and the formula column is not visible within the underlying database. If I update a referenced value outside NocoDB, then the result of the formula that NocoDB displays _will_ update, but only due to the virtual nature of the formula. The source data is read/write accessible outside NocoDB, but not the computed data.
 
     - NocoDB has its own special formula syntax and functions.
 

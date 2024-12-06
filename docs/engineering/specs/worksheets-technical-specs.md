@@ -132,7 +132,7 @@ TODO
     >
     > Before worksheets, Mathesar associated record summaries with each _table_ so that all FKs which referenced the same table would automatically use the same record summary. With worksheets, it is not (yet?) possible to configure a default per-table record summary template to always be used for references to that table. This behavior simplifies some things, but also has the following consequences:
     >
-    > - In some cases, there might be some more tedium associated with creating new worksheets because you can't easily re-use a record summary template that you created elsewhere.
+    > - In some cases, there might be some more tedium associated with creating new worksheets because you can't easily reuse a record summary template that you created elsewhere.
     > - The Record Page can't show a record summary for the record.
     >
     > I think these are acceptable tradeoffs though. The benefit of the worksheet approach is that different worksheets can have different record summary templates to refer to the same table.

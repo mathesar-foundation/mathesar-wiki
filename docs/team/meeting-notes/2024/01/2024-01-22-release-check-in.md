@@ -5,10 +5,10 @@
 - Infra: we'll set it up and tear it down soon afterwards
 - Do we want separate database servers for everyone?
     - We'll use a single server for testing. We'll all prefix our database names with our own names, e.g. `sean_mathesar`
-- Brent will set up a DB server separate from our interal server
+- Brent will set up a DB server separate from our internal server
 - What pre-existing data should we have in place before upgrading?
     - lots of stuff going on in Django, e.g. Explorations
-    - What can go wrong? Migrations, Losing the connection between the service in its upgraded state and the correct user database — anything that would prevent the service layer from connecting to the internal DB.
+    - What can go wrong? Migrations, losing the connection between the service in its upgraded state and the correct user database — anything that would prevent the service layer from connecting to the internal DB.
 - Kriti: Do we really need to test all these different combinations?
     - Brent: We need to encourage people to move to our own latest Docker compose setup. If they've rolled their own then that's fine, but if they're running an older docker-compose setup, then they need to change their setup.
 - How aggressive do we want to be with changes for upgrades?

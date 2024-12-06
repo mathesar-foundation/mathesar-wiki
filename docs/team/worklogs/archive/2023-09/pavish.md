@@ -2,7 +2,7 @@
 
 ## 2023-09-29
 * Pondered more on user flows for E2E tests
-* Responded to user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Responded to user raised GH ticket: [How to disable schema modifications #3228](https://github.com/mathesar-foundation/mathesar/issues/3228)
 * Core team event
 
 ## 2023-09-28
@@ -26,7 +26,7 @@
 * Collected some more thoughts on Permission handling in Mathesar
 
 ## 2023-09-21
-* Re-reviewed (Load "en" translations parallely)[https://github.com/centerofci/mathesar/pull/3102]
+* Re-reviewed [Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102)
   - Thought about ways to deal with workarounds
 * Call with Rajat to discuss approaches and finalize all changes in this review round
 * Reviewed and merged [Survey banner PR](https://github.com/centerofci/mathesar-website/pull/93)

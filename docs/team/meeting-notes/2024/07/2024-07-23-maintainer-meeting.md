@@ -29,7 +29,7 @@ Questions to discuss:
 
 I've hit a small snag and I'd like opinions on the best approach to dealing with it...
 
-Mathesar 0.1.7 allows users to create a new table without specifying a table name. Mathesar generates one automatically. Personally, I don't actualy like this feature. I'd rather Mathesar prompt me for a name because renaming it later requires extra steps. To support this feature, our `tables.add` API supports the ability to auto-generate a table name during creation. But the API only returns the table OID. The front end also needs to know the auto-generated name. Here are the ways I can think of to fix this:
+Mathesar 0.1.7 allows users to create a new table without specifying a table name. Mathesar generates one automatically. Personally, I don't actually like this feature. I'd rather Mathesar prompt me for a name because renaming it later requires extra steps. To support this feature, our `tables.add` API supports the ability to auto-generate a table name during creation. But the API only returns the table OID. The front end also needs to know the auto-generated name. Here are the ways I can think of to fix this:
 
 - (A) Bodify the return value of `msar.add_mathesar_table` so that it returns something like `{ "oid": 12345, "name": "foo" }`. A downside here is that the return value would not be consistent with other return values. But this could be a good opportunity to discuss patterns around return values. Brent recent expressed a though/opinion that perhaps functions like this should return everything they can.
 

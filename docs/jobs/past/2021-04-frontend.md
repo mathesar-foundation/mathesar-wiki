@@ -17,7 +17,7 @@ We are a fully distributed team, and you can be located anywhere in the world, a
 ## Qualifications
 We're looking for an experienced engineer that has architected, built, and deployed complex frontend applications that deal with large amounts of data. Ensuring scalability, accessibility, and performance are critical, and ideally, you have strong opinions on how to make that happen. We also expect you to be an advocate for creating an exceptional user experience.
 
-Excellent communication skills in English (both written and verbal) are essential, since this position is fully remote. You should be able to work indpendently, build good working relationships remotely, and be a proactive communicator. You should also enjoy writing documentation, helping others, and building a community. You're probably also curious and enjoy learning new things.
+Excellent communication skills in English (both written and verbal) are essential, since this position is fully remote. You should be able to work independently, build good working relationships remotely, and be a proactive communicator. You should also enjoy writing documentation, helping others, and building a community. You're probably also curious and enjoy learning new things.
 
 Some nice-to-haves:
 

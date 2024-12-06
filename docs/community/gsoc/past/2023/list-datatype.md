@@ -64,15 +64,15 @@ Also while trying to integrate this class to the project, I faced difficulties s
 The difficulty of introducing this decorator in the codebase and the type of changes required are indicative of the type of problems that could be found porting other pseudo data types.
 
 #### Custom adapter
-It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and viceversa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/mathesar-foundation/mathesar/issues/2962), [#2966](https://github.com/mathesar-foundation/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
+It would give us more control if we develop a module that works directly with psycopg2, where we could fully handle the postgres-python (and vice-versa) mapping of arrays. This module will also (probably) help us fix format issues when aggregating records of date like data types. See issues [#2962](https://github.com/mathesar-foundation/mathesar/issues/2962), [#2966](https://github.com/mathesar-foundation/mathesar/issues/2966). Custom adapters for date-related data types are discussed in the psycopg2 documentation, as some exact mappings are not possible [3].
 
 This option will however, require more time both for planning and implementation, as this would be a new way of implementing a data type in Mathesar, possibly requiring modifications in several parts of the backend code; e.g. integration in the codebase will be more complex. Moreover, it works mostly on Python’s side, meaning we are not enforcing anything on the DB side.
 
 ### Supporting n-dimensional arrays
-Given that none of the ideas we had to attempt restricting arrays to 1 dimension were sucessful, we now move to consider supporting multidimensional ones.
+Given that none of the ideas we had to attempt restricting arrays to 1 dimension were successful, we now move to consider supporting multidimensional ones.
 
 **Filters**
-As reviewed earlier, opearations over n-dimensional arrays become confusing.
+As reviewed earlier, operations over n-dimensional arrays become confusing.
 
 - Length: it needs to know over what dimension to count. 
 ```

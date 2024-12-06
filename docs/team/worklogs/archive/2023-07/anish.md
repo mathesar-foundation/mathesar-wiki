@@ -24,11 +24,11 @@
 
 ## 2023-07-25
 
-- Added tests for creating & droping for [SQL tests for schema ddl #3098](https://github.com/centerofci/mathesar/pull/3098)
+- Added tests for creating & dropping for [SQL tests for schema ddl #3098](https://github.com/centerofci/mathesar/pull/3098)
 
 ## 2023-07-24
 
-- Figuring out how to start implementing the tests in the sql layer and which tests sholuld be pulled down from the python layer
+- Figuring out how to start implementing the tests in the sql layer and which tests should be pulled down from the python layer
 
 ## 2023-07-21
 

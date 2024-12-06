@@ -116,6 +116,6 @@
 ## 2023-10-02
 * Checked out Calendly and SavvyCal features for team wide round-robin meetings
 * Responded to Kriti's mail on User interviews
-* Conversations in user raised GH ticket: [Disable shema modifications #3228](https://github.com/centerofci/mathesar/issues/3228)
+* Conversations in user raised GH ticket: [How to disable schema modifications #3228](https://github.com/mathesar-foundation/mathesar/issues/3228)
 * Took a look at [Fix visual regression of input appreaing disabled #3196](https://github.com/centerofci/mathesar/pull/3196) and [fix: read-only css for input #3197](https://github.com/centerofci/mathesar/pull/3197)
   - #3197 is better but it needs additional changes before merging. I'll be making the changes myself and merge it in.

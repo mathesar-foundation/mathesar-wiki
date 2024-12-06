@@ -73,11 +73,11 @@
 - Repo-admin work
 - Synced with Mukesh regarding missing links in database ui PR.
 - Replied to retro e-mail for the last cycle.
-- Tackled review feedback & made ready for review - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Tackled review feedback & made ready for review - [[i18n] Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102)
 
 ## 2023-10-06
 
-- Worked on review feedback for - [[i18n] Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102)
+- Worked on review feedback for - [[i18n] Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102)
 
 ## 2023-10-05
 
