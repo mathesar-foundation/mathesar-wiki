@@ -1,8 +1,8 @@
 # Pavish's work log archive: 2023-08
 
 ## 2023-08-31
-* Started reviewing [Load "en" translations parallely](https://github.com/centerofci/mathesar/pull/3102) 
-* Spent time finding issues/features to work on, when I'm not actively assiting on the projects
+* Started reviewing [Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102) 
+* Spent time finding issues/features to work on, when I'm not actively assisting on the projects
 * Chat with Brent and Ghislaine on further tasks for Postgres DB compatibility and Niche research projects
 
 ## 2023-08-28 to 2023-08-30
@@ -18,7 +18,7 @@
 * 1-1 with Kriti
 
 ## 2023-08-24
-* Assiting manual QA for release
+* Assisting manual QA for release
 * Added [DB list demo mode PR in the release](https://github.com/centerofci/mathesar/pull/3171)
 
 ## 2023-08-23

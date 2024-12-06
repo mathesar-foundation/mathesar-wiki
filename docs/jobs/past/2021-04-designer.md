@@ -17,7 +17,7 @@ We are a fully distributed team, and you can be located anywhere in the world, a
 ## Qualifications
 We're looking for a designer that has extensive experience with translating complex concepts into intuitive web interfaces for non-technical users and working with engineering teams to ship them. You should be an expert in design best practices, especially in accessibility and mobile-friendliness. You should also have experience conducting effective user interviews and usability testing, and generally be an advocate for creating an exceptional user experience.
 
-Excellent communication skills in English (both written and verbal) are essential, since this position is fully remote. You should be able to work indpendently, build good working relationships remotely, and be a proactive communicator. You should also enjoy writing documentation, helping others, and building a community. You're probably also curious and enjoy learning new things.
+Excellent communication skills in English (both written and verbal) are essential, since this position is fully remote. You should be able to work independently, build good working relationships remotely, and be a proactive communicator. You should also enjoy writing documentation, helping others, and building a community. You're probably also curious and enjoy learning new things.
 
 Some nice-to-haves:
 

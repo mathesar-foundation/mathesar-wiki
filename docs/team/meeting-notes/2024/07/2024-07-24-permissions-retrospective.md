@@ -19,10 +19,10 @@ Let's talk about the product and design process for permissions - what went well
 * Initial group meetings were exhausting.
     - Explaining the entire thought process that went into a concept was quite hard and it wasn't possible in group calls.
     - Everyone approached the feature in a different mindset, which was great, but it also meant that I couldn't answer everyone in the way they approached the problem. 1:1s were more effective.
-* Feedback that went in a different direction from what I had presented meant that I had to rethink a bunch of stuff to tie the user flow together and go through loop of presenting it to the team again. This is good. The problem was that, with the new concepts, I received completely opposite feedback from what everyone had communicated in the previous meetings. I had to keep going back to square 1 everytime this happened.
+* Feedback that went in a different direction from what I had presented meant that I had to rethink a bunch of stuff to tie the user flow together and go through loop of presenting it to the team again. This is good. The problem was that, with the new concepts, I received completely opposite feedback from what everyone had communicated in the previous meetings. I had to keep going back to square 1 every time this happened.
 * Documentation took a lot of time and did not yield the team understanding I expected out of it. In contrast, designs were way useful in getting the ideas across.
 * 1:1s were way better than group calls, but this lead to people still having different ideas in their minds and the final group calls revealed issues and we had to rework on the concepts.
-    - I still think this was better and way less time consuming than having group calls everytime.
+    - I still think this was better and way less time consuming than having group calls every time.
 * I realized running meetings was a skill of its own and it's a hard skill to master.
 * Discussing raw concepts was very hard since they were fluid and I wasn't entirely confident and opinionated on the raw concepts themselves and my only focus was on the user experience. It was the opposite of discussing code related work and it took a while to get used to.
 * We encountered additional things we hadn't thought of in the design sessions, even after agreeing on the product spec. Often times in the design process with Ghislaine, we both felt pessimistic and had to pull back from feeling that.
@@ -129,7 +129,7 @@ Let's talk about the product and design process for permissions - what went well
 - Brent:
     - Seconding Pavish.
     - Even if we start with a hypothetical user, its important to start a process without thinking of what page they are on, or what features they will use, even if this is lower level.
-        - As an engineering team we have a tendency to start prodcut and design process at low level. Users don't want to create roles, they want to create and store data and retrieve, use and analyse it.
+        - As an engineering team we have a tendency to start product and design process at low level. Users don't want to create roles, they want to create and store data and retrieve, use and analyse it.
     - Having user stories should be a crucial part of the design process.
         - We had user stories for permissions, but too late in the process.
 - Ghislaine:

@@ -219,6 +219,6 @@
 ## 2023-10-02 (Mon)
 *Partial day, migraine*
 
-- Call with new lawyer abount various legal issues and next steps
+- Call with new lawyer about various legal issues and next steps
 - Caught up with email, some responses
 - Some small administrative tasks and follow ups

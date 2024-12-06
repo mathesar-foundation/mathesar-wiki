@@ -26,7 +26,7 @@
     - Adds too much complexity, we don't want this for beta
     - Same applies to changes in hostname and port for database servers, we won't allow editing them for now
 - How do we handle DB role information when deleting databases?
-    - Users might  assue that when they delete a database, all associated data — including user roles, access control information, and passwords — will be deleted automatically.
+    - Users might assume that when they delete a database, all associated data — including user roles, access control information, and passwords — will be deleted automatically.
     - We should ensure that when the user deletes the last database on a server, the system fully clears associated data.
     - We can use full cascade deletion.
         - We could use triggers or foreign key constraints to implement this.
@@ -43,7 +43,7 @@ For example...
 
 - When creating a schema, we have an `if_not_exists` parameter implemented at the lower levels of code but not implemented at the higher levels of code.
 - From the UI, if I attempt to create a schema with a name that already exists, the UI shows the dreaded XHR error 500. From the user's perspective, I think this behavior is mostly fine. The error message should be improved, but the fact that it shows an error is perfectly acceptable.
-- To me, this indicates that nobody has ever bumped into this from a user's perspective. And it shows that the lower level complexity is unecessary for our current product. I don't want to spend time carrying over that complexity through this refactor.
+- To me, this indicates that nobody has ever bumped into this from a user's perspective. And it shows that the lower level complexity is unnecessary for our current product. I don't want to spend time carrying over that complexity through this refactor.
 
 If we can reduce complexity like that while we're wrangling all this code to fit the new RPC patterns, I think it would be a boon for our codebase and also reduce implementation time.
 

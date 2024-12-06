@@ -93,7 +93,7 @@ Not at the moment.
 
 > Do we ever combine filters with any logic other than `and`?
 
-Yes. We have `and` and `or` at the higest level. We do not have nesting yet.
+Yes. We have `and` and `or` at the highest level. We do not have nesting yet.
 
 ### Conclusion
 *Not recorded*.

@@ -31,7 +31,7 @@
 
 ## 2023-12-07 Thursday
 
-- Work on improving code within [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316).
+- Work on improving code within [Added drag functionality to update precedence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316).
 
 ## 2023-12-06 Wednesday
 
@@ -42,7 +42,7 @@
 
 ## 2023-12-05 Tuesday
 
-- Some continued work reviewing [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
+- Some continued work reviewing [Added drag functionality to update precedence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316)
 - Monthly ticket approval meeting
 - Work on re-organizing ticket labels
 
@@ -79,7 +79,7 @@ _(Very short day due to trip prep and lack of childcare)_
 - Weigh in on chat system email thread
 - Continued progress on New DB connection form, including a [draft PR](https://github.com/mathesar-foundation/mathesar/pull/3319)
 - User call
-- Preliminary review of [Added drag functionality to update precendence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316#pullrequestreview-1743475745)
+- Preliminary review of [Added drag functionality to update precedence for sort condition](https://github.com/mathesar-foundation/mathesar/pull/3316#pullrequestreview-1743475745)
 
 ## 2023-11-20 Monday
 

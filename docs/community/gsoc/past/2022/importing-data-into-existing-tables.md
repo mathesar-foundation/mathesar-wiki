@@ -22,7 +22,7 @@ My project during the Google Summer of Code was to enhance the capability of Mat
 
 - Implementation and tests for column mapper: https://github.com/mathesar-foundation/mathesar/pull/1506
 - Constraint violation handling during import: https://github.com/mathesar-foundation/mathesar/pull/1548
-- Implemetation and tests for suggesting column mappings: https://github.com/mathesar-foundation/mathesar/pull/1698
+- Implementation and tests for suggesting column mappings: https://github.com/mathesar-foundation/mathesar/pull/1698
 
 ## Additional context
 

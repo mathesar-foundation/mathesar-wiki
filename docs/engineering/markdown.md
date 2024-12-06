@@ -7,7 +7,7 @@ This page recommends guidelines to follow when writing Markdown in order to keep
 - Use **four spaces** for all indentation.
 
 !!! question "Rationale: 💼 Portability"
-    Most Markdown rendering platforms handle other indentation styles with some degree of consistency for _simple_ content, so at first this guideline may appear to be unecessary. But as content gets more complex, various edge cases tend to crop up which lead to inconsistencies. Maintaining four-space indentation across the board is the best way to ensure your indentation is **always** consistent.
+    Most Markdown rendering platforms handle other indentation styles with some degree of consistency for _simple_ content, so at first this guideline may appear to be unnecessary. But as content gets more complex, various edge cases tend to crop up which lead to inconsistencies. Maintaining four-space indentation across the board is the best way to ensure your indentation is **always** consistent.
 
     For example, when some list items are intended by only _two_ spaces:
 
@@ -151,5 +151,4 @@ When a Markdown page links to another Markdown page, follow these patterns:
     Lorem ipsum dolor sit amet...
     ```
 
-    Giving custom names to your heading anchors is nice because it allows us to change the heading text without breaking the crossreference. Plus it allows for shorter URLs.
-
+    Giving custom names to your heading anchors is nice because it allows us to change the heading text without breaking the cross-reference. In addition, it allows for shorter URLs.

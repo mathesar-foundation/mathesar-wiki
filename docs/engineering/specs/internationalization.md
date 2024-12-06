@@ -38,7 +38,7 @@ The bundle footprint of the suggested library is [low](https://github.com/ivanho
 Translations files will be loaded in parallel with the FE code. There are two approaches to it:
 
 1. Detecting the language and adding the translations for that language in the common_data. But this will lead increase in the size of the common_data since the translations will grow with time.
-2. Loading the translations via a script tag. This will require having a global loader in the index.html which get's hidden once the translations are loaded.
+2. Loading the translations via a script tag. This will require having a global loader in the index.html which gets hidden once the translations are loaded.
 
 The final approach will be decided during the implementation and the tech spec will be updated accordingly.
 

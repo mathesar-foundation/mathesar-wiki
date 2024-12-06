@@ -22,7 +22,7 @@ Goals of the meeting:
     - Big goal is to grow our user base. Currently this is hard because we can't recommend it to a lot of users (due to alpha status, performance issues). We need it to perform better before we can do that.
 - Brent: do we want forms for beta? Kriti: no. We should probably build this shortly after beta.
 - Order of operations
-    - Pavish: how much difference do we want/forsee between beta and 0.1?
+    - Pavish: how much difference do we want/foresee between beta and 0.1?
         - Kriti: not sure
         - Pavish: I would think we wouldn't want to add too many features in this window
         - Kriti: I'm not even thinking about v1.0 yet. We need more information before we make these decisions.
@@ -40,7 +40,7 @@ Goals of the meeting:
 - Usability should also consider performance in different installation setups
 - Sean: not sure if it's worth making the beta depend on us moving our workflow over because we want to recommend Mathesar to people with pre-existing PG DBs.
 - Pavish: do we want to have a "user flow" like we did for the library demo?
-- Kriti: we don't necesarily need to fix _every_ usability issue
+- Kriti: we don't necessarily need to fix _every_ usability issue
 - Brent: it would be nice to have a use case that motivates us to use the DB outside of Mathesar too.
 - Kriti: it would be good for someone to come up with more scripts/stories soon
 - Kriti: I don't think the dogfooding has to be the end-all-be-all. It doesn't need to cover every feature.
@@ -162,7 +162,7 @@ Goals of the meeting:
 
 - New features
     - View support
-- Documentaion improvements (figure out requirements)
+- Documentation improvements (figure out requirements)
 - Version numbering scheme
 - Docs updates vis-à-vis versioning
 - do we want pip installation?

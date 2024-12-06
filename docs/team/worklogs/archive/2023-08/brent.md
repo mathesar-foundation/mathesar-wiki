@@ -204,7 +204,7 @@ This was a short day for me
 - Fixed another bug with PR: [Properly detect identity columns #3125](https://github.com/centerofci/mathesar/pull/3125)
 
 ### Bugfixes
-- PR [Repeat failed tests #3118](https://github.com/centerofci/mathesar/pull/3118) is merged after some chnages
+- PR [Repeat failed tests #3118](https://github.com/mathesar-foundation/mathesar/pull/3118) is merged after some changes
   
 ### Ad-hoc
 - Helped Rajat with how to install `gettext` in containers for his translations project.

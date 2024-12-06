@@ -18,7 +18,7 @@ An additional option to visualize the grouped results in the form of graphs or a
 - Research and come up UX design specs and wireframes for grouped data visualization.
 - Create necessary issues based on the finalized specs after review.
 - Research graphing libraries and identify the one most suitable with Mathesar's architecture and goals.
-- Identify missing APIs or changes required in exising APIs and implement the necessary changes on the backend.
+- Identify missing APIs or changes required in existing APIs and implement the necessary changes on the backend.
 - Implement the frontend data visualization interface.
 
 ## Expected Outcome

@@ -98,7 +98,7 @@ Meetings, purposes, timing
     - decide on architectural plans for backend performance improvements
     - have strategy discussions — e.g. how we want to grow our user base, whether we want to pursue a SaaS offering
 - Permissions and worksheets
-    - Hard to sepearate these into independent discussions
+    - Hard to separate these into independent discussions
     - Pavish: want to prioritize making decisions on permissions first because we need that for the beta but we don't need worksheets for the beta
     - Kriti: yes, but we don't want to have to re-do permissions a third time. We need to take the worksheets discussion into account as well
 - Structure of meetings

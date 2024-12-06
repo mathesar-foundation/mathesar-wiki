@@ -29,7 +29,7 @@
 * Discussions
 
 ## 2023-07-24
-* Started and completed implementing a workaround for seperating app context of shared routes and normal authenticated routes on the frontend
+* Started and completed implementing a workaround for separating app context of shared routes and normal authenticated routes on the frontend
 * Split the [large Shared tables PR](https://github.com/centerofci/mathesar/pull/3061) into two, and requested review for both
 	- [Shareable links frontend - shared table consumer view](https://github.com/centerofci/mathesar/pull/3093)
 	- [Shareable links backend - Models, APIs, bypass auth for table requests](https://github.com/centerofci/mathesar/pull/3092)

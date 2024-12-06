@@ -13,7 +13,7 @@
 - Sync with Brent and Sean over the Database connection string UX
 - Attend the Users & Permission discussion
 - Reviewed [Fixed incomplete error responses in OpenAPI documentation for /datafiles/ endpoint](https://github.com/centerofci/mathesar/pull/3062)
-- Reviewed [Implemeted extend schema decorator to document the error response for /databases/ endpoint](https://github.com/centerofci/mathesar/pull/3070)
+- Reviewed [Implemented extend schema decorator to document the error response for /databases/ endpoint](https://github.com/centerofci/mathesar/pull/3070)
 - Partially review [Github action for uploading static assets to release](https://github.com/centerofci/mathesar/pull/3198)
 
 
@@ -125,7 +125,7 @@ Had a day off due to sickness
 
 ## 2023-09-18
 - Review [Postgres basic compatibility versions 13, 14, 15](https://github.com/centerofci/mathesar/pull/3206) and merge
-- Test out the Postgres Docker image PR for compatability issues
+- Test out the Postgres Docker image PR for compatibility issues
 - Progress on documentation for Docker images
 
 ## 2023-09-15
@@ -172,7 +172,7 @@ Had a day off due to sickness
 - Review "Database credentials page" design spec
 
 ## 2023-09-07
-- Check in with Brent to discuss Postgres 15 compatiblity issues, debian package review
+- Check in with Brent to discuss Postgres 15 compatibility issues, debian package review
 - Check in with Pavish to discuss manifest.json location
 - Review backend PR for adding database credential API
 
@@ -410,7 +410,7 @@ Had a day off due to sickness
 - Contacted helpers for the Installation Improvement 0.1.3 project to get their confirmation
 - Updated the Installation Improvement 0.1.3 project specs and sent out email of the changes made
 - Started working on the backend issues for the super user creation page
-- Intergrate local IDE workspace with the workflow logs to make worklog updates easier
+- Integrate local IDE workspace with the workflow logs to make worklog updates easier
 
 
 ## 2023-07-17
@@ -440,7 +440,7 @@ Had a day off due to sickness
 
 ## 2023-07-11
 
-- Started writing email for the potential solution for simplifying Installation. Couln't complete before the meeting
+- Started writing email for the potential solution for simplifying Installation. Couldn't complete before the meeting
 - Attend Installation IV meeting
 - Sync call with Rajat to discuss Internationalization implementation in Django templates.
 

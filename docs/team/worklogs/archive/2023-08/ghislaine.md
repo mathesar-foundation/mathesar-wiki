@@ -154,7 +154,7 @@ Today, I engaged in multiple conversations with team members about the use cases
 
 I'm currently working on preparing the surveys for our niche research. Additionally, I'm planning to have more conversations with other team members to gain their perspectives and insights on our work so far.
 
-Aditionally, I worked on updating the design for creating the admin user.
+Additionally, I worked on updating the design for creating the admin user.
 
 **Current Focus:**
 

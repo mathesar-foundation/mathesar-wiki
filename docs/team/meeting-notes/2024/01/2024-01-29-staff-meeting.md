@@ -35,8 +35,8 @@ Build from scratch
 TODO items **blocking** release:
 
 - **Sean**: Modify "build from scratch" docs to bump the Node and npm versions up to newer versions
-	- Node: Atleast v18
-    - npm: Atleast v9
+	- Node: At least v18
+    - npm: At least v9
 - **Sean**: docs changes blocking release:
     - Add general disclaimer for upgrade instructions
     - Add special disclaimer for "build from scratch" upgrade instructions
