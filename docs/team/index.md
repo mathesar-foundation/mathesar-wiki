@@ -12,6 +12,7 @@ The maintainers maintain the project on a day-to-day basis. We previously called
 | Kriti Godey | `@kgodey:matrix.mathesar.org` | `@kgodey` | Project Lead, Product, Engineering |
 | Pavish Kumar Ramani Gopal | `@pavish:matrix.mathesar.org` | `@pavish` | Engineering |
 | Sean Colsen | `@seancolsen:matrix.mathesar.org` | `@seancolsen` | Engineering |
+| Zack Krida | `@zackkrida:matrix.mathesar.org` | `@zackkrida` | Technical Community Advocate |
 
 ## Staff members
 These team members also work on Mathesar, but do not maintain the open source project.
@@ -43,10 +44,4 @@ The community team contributes to Mathesar's design and development fairly regul
 | Mukesh Murali | `@silentninja:matrix.org` | `@silentninja` | Engineering (backend), core team emeritus |
 | Dominykas Mostauskis | `@dmos:matrix.org` | `@dmos62` | Engineering (backend), core team emeritus |
 | Rajat Vijay | TBD | `@rajatvijay` | Engineering (frontend), core team emeritus |
-
-## Emeritus
-
-| **Name** | **Matrix** | **GitHub** | **Roles** |
-|-|-|-|-|
-| Zack Krida | `@zackkrida:matrix.org` | `@zackkrida` | Engineering (frontend) on the Community Team |
 
