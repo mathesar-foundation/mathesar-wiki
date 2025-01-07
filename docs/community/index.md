@@ -19,6 +19,12 @@ The Mathesar team does most of our work in public communication channels, which 
 
 See [GSoC](./gsoc/) for information about Mathesar's participation in GSoC.
 
+## Community Management
+
+### Guides
+
+- [Syften Keyword Alerts Guide](guides/syften-keyword-alerts.md)
+
 ## Future Plans
 
 Some ideas we're considering in the future to grow the community:
