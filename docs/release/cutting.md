@@ -81,7 +81,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
           -f Dockerfile.caddy .
 
         docker buildx build \
-          -t mathesar/mathesar-prod:$VERSION \
+          -t mathesar/mathesar:$VERSION \
           --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push .

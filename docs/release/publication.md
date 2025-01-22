@@ -84,8 +84,8 @@
           -f Dockerfile.caddy .
 
         docker buildx build \
-          -t mathesar/mathesar-prod:$VERSION \
-          -t mathesar/mathesar-prod:latest \
+          -t mathesar/mathesar:$VERSION \
+          -t mathesar/mathesar:latest \
           --builder=cloud-mathesar-release-builder \
           --platform=linux/amd64,linux/arm64 \
           --push .

@@ -47,8 +47,8 @@ For both:
     docker image pull mathesar/mathesar-caddy:<version_number>
     docker image tag mathesar/mathesar-caddy:<version_number> mathesar/mathesar-caddy:latest
     
-    docker image pull mathesar/mathesar-prod:<version_number>
-    docker image tag mathesar/mathesar-prod:<version_number> mathesar/mathesar-prod:latest
+    docker image pull mathesar/mathesar:<version_number>
+    docker image tag mathesar/mathesar:<version_number> mathesar/mathesar:latest
     ```
 
 ### Tasks
