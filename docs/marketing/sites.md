@@ -6,9 +6,6 @@
 	- [Repo README](https://github.com/mathesar-foundation/mathesar/blob/master/README.md)
 - [Docs](https://docs.mathesar.org/)
 - [Wiki](/home)
-- CCI
-	- [Homepage](https://mathesar-foundation.org/)
-	- [CCI Mathesar page](https://mathesar-foundation.org/mathesar/)
 - [GitHub Sponsors](https://github.com/sponsors/mathesar-foundation)
 - [OpenCollective](https://opencollective.com/mathesar)
 - [GSoC](https://summerofcode.withgoogle.com/programs/2023/organizations/mathesar)
