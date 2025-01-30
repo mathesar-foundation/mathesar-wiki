@@ -61,7 +61,7 @@ This document serves as the highest-level specs document for an initial "MVP" im
 ### Query types
 
 - <details>
-    <summary><b>Basic Query</b></summary>
+    <summary><b>❌Basic Query</b></summary>
 
     ---
 
@@ -90,6 +90,11 @@ This document serves as the highest-level specs document for an initial "MVP" im
     Additionally:
 
     - You would be able to convert a Basic Query into an SQL Query.
+
+    TODO:
+
+    - aliases (important for related data)
+    - mandatory pks
 
     ---
     </details>
@@ -333,6 +338,18 @@ This document serves as the highest-level specs document for an initial "MVP" im
     ---
     </details>
 
+- <details>
+    <summary><b>❌Query safeguards</b></summary>
+
+    ---
+
+    TODO
+
+    Rationale:
+
+    ---
+    </details>
+
 ## Concessions
 
 To complete the Worksheets MVP, we would sacrifice the following user-facing functionality for the sake of development velocity. We could consider adding these features back in the future.
@@ -547,8 +564,20 @@ These hypothetical goals demonstrate exciting features that we could build _on t
     ---
     </details>
 
+- <details>
+    <summary><b>❌Reactivity</b></summary>
 
-## Subsequent specs needed
+    ---
+
+    TODO
+
+    Rationale:
+
+    ---
+    </details>
+
+
+## Subsequent specs to produce
 
 - <details>
     <summary><b>Data structure spec</b></summary>
@@ -624,9 +653,6 @@ These hypothetical goals demonstrate exciting features that we could build _on t
 
     ---
     </details>
-
-
-## Questions
 
 
 
