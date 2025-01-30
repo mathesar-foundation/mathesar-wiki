@@ -122,6 +122,12 @@ This document serves as the highest-level specs document for an initial "MVP" im
 
     The Sheet display type would function similar to the sheet interface on the table page, ideally with a minimal amount of regression in functionality. (More of its features are described within separate "goals" below.)
 
+    The Sheet would have the following user-editable configuration:
+
+    - Display options for all columns (mirroring the column metadata we currently have)
+    - Customized column widths
+    - Record summary configuration for FK columns (described in more detail below)
+
     ---
     </details>
 
@@ -237,6 +243,7 @@ This document serves as the highest-level specs document for an initial "MVP" im
     - All database collaborators would be able to modify the definition of saved worksheets and re-save them.
     - It would not be possible to move the worksheet to a different schema.
     - The worksheet interface would visually indicate the save status to users, making it clear whether the definition of a saved worksheet has been modified since it was last saved.
+    - On the Schema page, Mathesar would list Saved Worksheets instead of explorations.
 
     Unlike explorations:
 
@@ -246,66 +253,52 @@ This document serves as the highest-level specs document for an initial "MVP" im
     </details>
 
 - <details>
-    <summary><b>❌Default worksheets</b></summary>
+    <summary><b>Default worksheets</b></summary>
 
     ---
 
-    The Worksheets MVP project would replace the current Table Page with a worksheet interface. Here is how it would work:
+    The Worksheets MVP project would replace the current Table Page with a worksheet interface.
+    
+    Here is how it would work:
 
-    - The Schema Page would still present a list of tables (as it currently does).
+    - The Schema Page would still show a list of tables (as it currently does).
     - Clicking on a table within the list would open the "Default Worksheet" for that table.
-    - The Default Worksheet would be **derived** on-the-fly by combining:
-        - the table structure in Postgres
-        - metadata from the internal database
-    - It would use a **Basic Query** and a **Sheet Display**.
-    - The relevant **metadata** would be:
-        - **Column order** (like we already store). This would be used to generate a query definition that puts the columns into a user-defined order.
-        - The **column display options** (like we already have). This would be used to generate configuration for the Sheet Display that renders the columns with the appropriate formatting.
-        - The **record summary template** (but per-fk-column instead of per-table). This would also be fed into the display configuration.
-        - A new **column width** option, used for the display.
-    - While interacting with the Default Worksheet, the user would be free to modify anything about the worksheet definition. For example, they could _add other columns_ (from related tables) to the query. Or they could resize columns. All these changes would only persist within the worksheet definition, in browser memory.
-    - For all kinds of changes the user would be able to save their modified worksheet to a new named worksheet, but it wouldn't be the _default_ worksheet.
-    - If the user has only changed relevant metadata while viewing a default worksheet, then the user would have the option of updating the default worksheet. In this case, the metadata would be written to the internal database and the default worksheet would be regenerated.
-        - To allay any concerns about algorithmic complexity here, the worksheet system would not need to do any diffing. It would determine whether the default worksheet _can_ be updated as follows... There would be a "metadata extraction procedure" for gleaning savable metadata from the worksheet definition. There would also be a "worksheet derivation procedure" for deriving the worksheet definition from metadata and Postgres table structure. To analyze a worksheet definition, the system would extract the metadata and produce a reference derivation (using the same Postgres table structure as was used prior). It would compare the current definition with the reference. If they're equal, then metadata could be scraped off and saved.
+    - The Default worksheet would either be:
+        - An _auto-generated_ default worksheet, or
+        - A _customized_ default worksheet
+    - An auto-generated default worksheets would have:
+        - A **Basic Query** with:
+            - All columns in the table, in the order from PostgreSQL.
+            - No filter conditions
+            - One sort condition applied on the primary key if possible
+        - A **Sheet Display** with default configuration
+    - The user would be able to freely modify the auto-generated worksheet, with their changes triggering the "unsaved changes" visual indicator.
+    - With any unsaved changes, the user would be able to save the auto-generated worksheet as a new named worksheet.
+    - With _certain types of unsaved changes_, the user would also be able to save their changes by _updating the default worksheet_. Mathesar would only allow this action when:
+        - The query is not missing any columns from the base table, and
+        - The query doesn't have any extra columns not present in the base table, and
+        - THe query doesn't have filter conditions
+    - Customized default worksheets would serve as a metadata container, allowing the worksheet system to entirely replace our current column metadata and replace some of our current table metadata.
 
-    Behavior for newly-added columns:
+    This means there would be four kinds of worksheets:
 
-    - Whenever the user adds a column to a table (which might happen outside of Mathesar), the following would hold true:
-    - The newly-added column would automatically appear in the Default worksheet. This is true because the set of result columns used for the Basic query would be _derived_ from the table structure in postgresql.
-    - The newly-added column would _not_ automatically appear within any saved worksheets. The user would need to manually add columns to saved worksheets. In some cases, users 
-    might not expect this behavior. For example if they begin with a default worksheet, resize a column, then save a new named worksheet, the named worksheet won't get new columns added to it. Thus, we would employ the following mitigation strategies to help give users the correct expectations.
-        - When saving a default worksheet as a named worksheet, the UI would make this "new-column" behavior clear to users.
-        - When adding a new column to a table, the UI would also mention this behavior.
+    - Ephemeral worksheets (built from scratch and not saved)
+    - Named worksheets (saved with a name)
+    - Auto-generated default worksheets (representing a table, unsaved)
+    - Customized default worksheets (saved, but associated with a table instead of a name)
 
-    ---
-    </details>
+    When a new column is added to a table:
 
-- <details>
-    <summary><b>❌Metadata container</b></summary>
-
-    ---
-
-    TODO
-
-    Rationale:
+    - Ephemeral worksheets and named worksheets would be unaffected. Users would need to manually add the new column to see its data.
+        - In some cases, users might not expect this behavior. For example if they begin with a default worksheet, resize a column, then save a new named worksheet, the named worksheet won't get new columns added to it. Thus, we would employ the following mitigation strategies to help give users the correct expectations. When saving a default worksheet as a named worksheet, the UI would make this "new-column" behavior clear to users. When adding a new column to a table, the UI would also mention this behavior.
+    - Auto-generated default worksheets would automatically see the new column when generated.
+    - Customized default worksheets are trickier... Since the default worksheet serves as a representation of the table, the new column _must_ display automatically. But a customized worksheet already holds state which lists columns. To solve this source-of-truth problem,  Mathesar would reconcile the worksheet's columns with the PostgreSQL columns before loading a customized default worksheet. If the worksheet is missing a column, then the new column would be added and the customized default worksheet would be updated before it is loaded. The user would see the new column, and all changes would be saved already.
 
     ---
     </details>
 
 - <details>
-    <summary><b>❌Outline view</b></summary>
-
-    ---
-
-    TODO
-
-    Rationale:
-
-    ---
-    </details>
-
-- <details>
-    <summary><b>❌Schema page changes</b></summary>
+    <summary><b>❌Partial resilience against deleted objects</b></summary>
 
     ---
 
@@ -318,6 +311,18 @@ This document serves as the highest-level specs document for an initial "MVP" im
 
 - <details>
     <summary><b>❌Resilience against renamed objects</b></summary>
+
+    ---
+
+    TODO
+
+    Rationale:
+
+    ---
+    </details>
+
+- <details>
+    <summary><b>❌Outline view</b></summary>
 
     ---
 
@@ -500,18 +505,6 @@ These hypothetical goals demonstrate exciting features that we could build _on t
     </details>
 
 - <details>
-    <summary><b>❌Resilience against deleted objects</b></summary>
-
-    ---
-
-    TODO
-
-    Rationale:
-
-    ---
-    </details>
-
-- <details>
     <summary><b>Save worksheet as pg view</b></summary>
 
     ---
@@ -571,7 +564,7 @@ These hypothetical goals demonstrate exciting features that we could build _on t
         - how its contained query and display definitions would be stored
         - how it would be saved to the internal database, along with its name
 
-    Must specify how these data structures reference database objects. Do they use OIDs, names, or some combination thereof.
+    Must specify how these data structures reference database objects. Do they use OIDs, names, or some combination thereof. In the display, how would the column display options (e.g. customized width) be associated with columns? Names? Indexes? Both?
 
     ---
     </details>
@@ -631,6 +624,9 @@ These hypothetical goals demonstrate exciting features that we could build _on t
 
     ---
     </details>
+
+
+## Questions
 
 
 
