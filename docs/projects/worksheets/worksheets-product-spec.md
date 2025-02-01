@@ -88,7 +88,7 @@ This document is designed to:
 
     Unlike the table page:
 
-    - There would be no "Group" option. See "Outline view" below for the new feature that would replace that functionality.
+    - There would be no "Group" option. This functionality would be moved to the Sheet display instead. It's described in more detail within the "Row Grouping" feature below.
 
     Additionally:
 
@@ -315,7 +315,7 @@ This document is designed to:
     - The list of groups (within the root level or a parent group) would also be paginated, with the default page size again being 20.
     - Groups would be **collapsible**.
     - With multiple grouping columns applied, the groups would be **nested**, allowing them to be collapsed and expanded at multiple levels.
-    - With all of the grouping columns being writable via DML, each **group would have its own "Add Record" button**. This would  allow the user to insert a record directly into a group. (Folding groups would not have their own placeholder row though — just a button.)
+    - With all of the grouping columns being writable via DML, each **group would have its own "Add Record" button**. This would  allow the user to insert a record directly into a group. (Groups would not have their own placeholder row though — just a button.)
     - The sorting of groups would be specified per-grouping-column, either ascending (default) or descending.
     - The user would be able to collapse or expand all sibling groups together. This would not affect parents, children, or cousins.
     - Depending on the implementation we choose, it might be necessary to place a cap on the _depth_ of grouping, perhaps setting a maximum of three levels deep.
@@ -336,7 +336,7 @@ This document is designed to:
 
     Data export functionality would be delegated to the display.
 
-    The Sheet display would offer a data export feature similar to our current table export, but it would not be available when row folding is enabled.
+    The Sheet display would offer a data export feature similar to our current table export, but it would not be available when row grouping is enabled.
 
     Other (future) display types might implement their own export capabilities, for example exporting a chart to SVG, PNG, or PDF format.
 
@@ -456,7 +456,7 @@ To complete the Worksheets MVP, we would sacrifice the following user-facing fun
 
     ---
 
-    The "Group" feature currently available on the table page would be replaced by the "Outline View" (described in the Goals section above). This would likely be a net-win but could potentially result in some minor regressions in functionality depending on the final implementation.
+    The "Group" feature currently available on the table page would change a bit in behavior. This would likely be a net-win but could potentially result in some minor regressions in functionality depending on the final implementation.
 
     ---
     </details>
