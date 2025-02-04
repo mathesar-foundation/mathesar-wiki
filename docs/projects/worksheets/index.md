@@ -6,7 +6,15 @@ This wiki page is the top-level place to organize information about the project.
 
 ## Specs
 
-- (DRAFT) Product spec ([PR](https://github.com/mathesar-foundation/mathesar-wiki/pull/125))
+### Adopted
+
+_(none yet)_
+
+### Proposed
+
+- Product spec
+    - Sean's initial: [PR](https://github.com/mathesar-foundation/mathesar-wiki/pull/125) / [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/worksheets_product_spec/docs/projects/worksheets/worksheets-product-spec.md)
+    - Brent's "Data Palettes" proposal: [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/data_palettes/docs/projects/data-palettes.md)
 
 ## Meetings
 
