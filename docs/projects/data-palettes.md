@@ -44,6 +44,30 @@ Upon loading their palette for the first time, a user would see a number of rela
 
 They can create a new relation by either using a context menu starting from a given relation (for filtering, for example), or by choosing an operation from some other menu (e.g., for setting up a join). That new relation, along with its dependencies are persisted in Mathesar, and available to then be used as the basis for future operations. They can also, as with any relation, display the data in that relation in a sheet by clicking on it. 
 
+### Relation Type: Primary Source
+
+As stated above, a primary source relation refers to an actual persisted relation on the underlying database. Initially, this would be a relation of the following kinds:
+
+- table
+- view
+- materialized view
+- foreign table
+
+#### Editable relations
+
+Initially, only a table will be considered "editable" and receive the extra UI elements in its sheet (described below).
+
+### Derived Relations
+
+All other relations are defined by an operation applied to some other set of relations. Typically, this will just be one other relation. They would be shown in the same place and in much the same way as other relations, with some UI element to distinguish the primary source relations.
+
+### Dependencies between relations
+
+This would be rudimentary at first, and would be based on the parameters given in the definition of any derived relation. This will make it easier to help the user track down the problem if one of their derived relations isn't working because some part of its source data has been dropped or altered.
+
+- Avoiding circular dependencies is easy if we don't allow editing relation definitions, but this is constraining for the user.
+- Possible compromise is allowing them to edit user-input parameters (e.g., the string being filtered for) but not the parameter giving the relation being operated on to create a derived relation.
+
 ### Key Operation Type: SQL Query
 
 The main parameters for this are a `SELECT` query, a name for the resulting relation, and an optional list of dependencies. This would (naturally) run the given `SELECT` query, and make the resulting relation accessible for display, or for further composition. The reason for the optional dependency list is that we want some metadata there that lets us track when some relation used in the `FROM` clause of the query is deleted or otherwise changed.
@@ -85,3 +109,18 @@ Eventually, this could be extended to situations where a cell is derived (e.g., 
 ## DDL
 
 This would have the same operations we currently offer, but they'd be available from some context menu available from the primary source relation object. E.g., for extracting columns, you'd choose those columns on that relation, and see them highlighted on the sheet associated with that relation if it's open.
+
+## Key Differences from worksheets
+
+- Top level concept is composition of operations on relations.
+- DML is quite different: It uses a specific display (sheets with inline filtering), and provides that display when editing in other contexts.
+- SQL queries are "under" the overall relation definition concept. They aren't a top-level operation.
+- There is no distinction between "easy mode" for non-technical users and "power mode" for technical users.
+
+## Key Improvements from Data Explorer
+
+- Query definitions are no longer chained together as linearly dependent operations.
+- Editing is accessible from query results
+- Can view a sheet of intermediate relations in some query definition
+- Provides full SQL `SELECT` query capability for users who want it.
+- More powerful joining.
