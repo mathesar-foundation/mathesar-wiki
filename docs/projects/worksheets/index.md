@@ -35,6 +35,10 @@ _(none yet)_
 - **DML**: Sean gave Pavish a review of some of the user-facing problems that Brent had previously pointed out. We also discussed implementation details for DML. Pavish didn't raise any significant concerns or strong opinions here.
 - **"Nested" data** (for lack of a better term) we discussed a new UI idea from Pavish to place aggregated data inside or underneath certain cells. Pavish's vision for this feature is still not 100% clear to Sean, but Sean expressed interest an enthusiasm for it. It's not something in the current draft of the spec, and Pavish seemed okay with that for the time being.
 
+### 2024-02-06 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/67a4c0183608ca001388c5bd) (1h 30m)
+- We discussed the differences between composition, and query-building in Sean's Worksheets vision and Brent's Data Palettes vision, with an emphasis on clarifying Brent's vision for Sean.
 
 ## Threads
 
