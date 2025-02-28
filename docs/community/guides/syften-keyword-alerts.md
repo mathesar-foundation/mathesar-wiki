@@ -49,7 +49,7 @@ The goals of the triage are to:
 
 ### Assessing keyword alerts
 
-Each keyword alert should be evaluated for any action items. If the keyword alert is actionable it should be moved to either the "Reply to user" or "Document" sections in Asana. If neither of these sections seem appropriate for an alert, it likely isn't actionable! Keyword alerts moved to these categories are assigned to a Mathesar maintainer and given a due date by the TCA.
+Each keyword alert should be evaluated for any action items. If the keyword alert is actionable it should have it's "stage" field set as "Reply" or "Document" and assigned to a user. If neither of these sections seem appropriate for an alert, it likely isn't actionable! Keyword alerts moved to these categories are assigned to a Mathesar maintainer and given a due date by the TCA.
 
 The TCA will leave on each task explaining its importance. For example:
 
@@ -96,17 +96,17 @@ This is the checklist for the daily triage of Keyword Alerts used by the Technic
 In the [Syften Keywords Asana project](https://app.asana.com/0/1208897974386293/1208899405158619):
 
 - [ ] 1. Check the ["past due" tab](https://app.asana.com/0/1208897974386293/1209010181792987) of the Asana project for any overdue replies or documentation. Ping the assignees of these tasks in the comments of the task. If tasks are repeatedly past due or require urgent atention, reach out to the assignee more directly using your preferred method (DM, email, etc.)
-- [ ] 2. In the [todo tab](https://app.asana.com/0/1208897974386293/1208899405158619), Review the "Mention" category.
-  - [ ] Move actionable tasks requiring a reply to the "Reply to user" section, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
-  - [ ] Move actionable keyword alerts that do not require a response to the "Document" section and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
+- [ ] 2. In the ["To Triage" tab](https://app.asana.com/0/1208897974386293/1208899405158619), Review the "Mention" category.
+  - [ ] Set actionable tasks requiring a reply to the "Reply" stage, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
+  - [ ] Set actionable keyword alerts that do not require a response to the "Document" stage and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
    - [ ] Mark all non-actionable tasks as completed and leave a comment explaining why they were not actionable.
 - [ ] 3. In the [todo tab](https://app.asana.com/0/1208897974386293/1208899405158619), review the "Recommendation" category.
-  - [ ] Move actionable tasks requiring a reply to the "Reply to user" section, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
-  - [ ] Move actionable keyword alerts that do not require a response to the "Document" section and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
+  - [ ] Set actionable tasks requiring a reply to the "Reply" stage, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
+  - [ ] Set actionable keyword alerts that do not require a response to the "Document" stage and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
   - [ ] Mark all non-actionable tasks as completed and leave a comment explaining why they were not actionable.
 - [ ] 4. In the [todo tab](https://app.asana.com/0/1208897974386293/1208899405158619), Check the "Competitor" category.
-  - [ ] Move actionable tasks requiring a reply to the "Reply to user" section, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
-  - [ ] Move actionable keyword alerts that do not require a response to the "Document" section and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
+  - [ ] Set actionable tasks requiring a reply to the "Reply" stage, [assign a maintainer](#assigning-maintainers), and leave a comment with context. Set the due date to the end of the next business day.
+  - [ ] Set actionable keyword alerts that do not require a response to the "Document" stage and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
   - [ ] Mark all non-actionable tasks as completed and leave a comment explaining why they were not actionable.
 
 
@@ -123,7 +123,17 @@ If you've been assigned a user reply, follow the below steps:
 
 ## Documenting keyword alerts
 
-!!! warning "TODO"
-    We need a process for documenting "competitors" and "competitor" feature requests. Really, a mechanism to track broad user needs across the "database-backed spreadsheet" ecosystem.
+There are two ways of documenting keyword alerts with slightly different processes.
 
-For now, responses to keyword alerts should be documented in our [CRM](https://github.com/mathesar-foundation/mathesar-internal-crm).
+## Replies
+
+Any user outreach that resulted from a keyword alert should be documented in our [CRM](https://github.com/mathesar-foundation/mathesar-internal-crm). Typically the TCA will handle user outreach (or assign someone to do so), and after the interaction is done the task will be moved to the "Document" stage so a new assignee can document it in the CRM.
+
+## Competitor information
+
+Information about competitors, or feature requests should be documented in the Internal Mathesar instance. There is a table called "Product" in which any products related to Mathesar can be added. There is a table called "Product notes" where any notes about a product can be added. Typically, any Asana "Document" task will either be:
+
+- A new competitor to add to "Competitors"
+- A note about an existing competitor that should be added as a new "Product Note"
+
+If there are any tasks to document that do not seem suitable for either category, please check in with the TCA.
