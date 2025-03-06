@@ -507,6 +507,46 @@ These hypothetical goals demonstrate exciting features that we could build _on t
     </details>
 
 - <details>
+    <summary><b>Column trees</b></summary>
+
+    ---
+
+    Pavish [suggested](https://groups.google.com/a/mathesar.org/g/staff/c/Fazi45k6Z3M/m/wtrTzJiXAQAJ) a feature called "column trees". Here's how we could potentially implement column trees within worksheets:
+
+    - The query would build a relation like this:
+
+        ```sql
+        WITH
+          item_agg AS (
+            SELECT
+              items."Book" AS book_id,
+              json_agg(
+                json_build_object(
+                  'id', items.id,
+                  'barcode', items."Barcode"
+                )
+              ) AS data
+            FROM "Items" items
+            GROUP BY items."Book"
+          )
+        SELECT
+          books.id,
+          books."Title",
+          books."Publication Year" AS year_published,
+          item_agg.data AS items
+        FROM "Books" books
+        JOIN item_agg ON books.id = item_agg.book_id
+        ```
+
+    - The Basic Query would have some UI to support building json_agg expressions like that.
+
+    - The Sheet Display would have a mechanism to detect that one column in the result set should be displayed as a column tree.
+
+
+    ---
+    </details>
+
+- <details>
     <summary><b>AI-generated worksheets</b></summary>
 
     ---
