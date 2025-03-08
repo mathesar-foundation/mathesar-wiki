@@ -112,6 +112,7 @@ plugins:
         'engineering/architecture/models.md': 'projects/2024/architecture-transition/models.md'
         'engineering/architecture/old_models.md': 'projects/2024/architecture-transition/old_models.md'
         'engineering/architecture/permissions.md': 'projects/2024/architecture-transition/permissions.md'
+        'projects/worksheets/index.md': 'projects/table-query-integration/index.md'
 
 theme:
   name: material
