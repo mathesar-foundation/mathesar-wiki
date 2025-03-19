@@ -93,6 +93,12 @@ _(none yet)_
         - Brent liked Sean's approach
     - Both agreed we should aim to complete this editing flow for the 0.2.3 release.
 
+### 2024-03-17 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/67d82b048f1e7a001325ba58) (56m) (Worksheets talk begins at ≈12:50)
+- Sean and Brent have different opinions on how best to implement the "transport structure" for Worksheets.
+- They have scheduled a follow-up meeting for next week where Brent will present specific problems to Sean.
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
