@@ -18,7 +18,7 @@ _(none yet)_
 
 ## Meetings
 
-### 2024-02-03 Sean/Brent
+### 2025-02-03 Sean/Brent
 
 - [Recording](https://tldv.io/app/meetings/67a0d254ecf1250013570192) (1h 44m)
 - We discussed some of Brent's concerns with Sean's Worksheets product spec proposal:
@@ -26,7 +26,7 @@ _(none yet)_
     - **DML** Brent would like to offer DML in worksheets, but with some additional guardrails put in place to help users avoid confusing situations. We looked at an example of editing an author name shown in a table of books. He also wants to allow DML that updates _more than one cell in PostgreSQL_. His vision for this is not entirely fleshed out yet. We need to spend more time exploring and discussing this.
     - **Row Grouping** Brent has some concerns about the proposed row grouping functionality. At one point he said it "reduces the utility of row grouping". We didn't fully chase this topic down though.
 
-### 2024-02-05 Sean/Pavish
+### 2025-02-05 Sean/Pavish
 
 - [Recording](https://tldv.io/app/meetings/67a38afeb4d4720013ed8288) (1h 14m)
 - We mostly discussed questions that Pavish had about Sean's proposed Worksheets product spec in order to clarify Pavish's understanding of how Worksheets would work.
@@ -35,12 +35,12 @@ _(none yet)_
 - **DML**: Sean gave Pavish a review of some of the user-facing problems that Brent had previously pointed out. We also discussed implementation details for DML. Pavish didn't raise any significant concerns or strong opinions here.
 - **"Nested" data** (for lack of a better term) we discussed a new UI idea from Pavish to place aggregated data inside or underneath certain cells. Pavish's vision for this feature is still not 100% clear to Sean, but Sean expressed interest an enthusiasm for it. It's not something in the current draft of the spec, and Pavish seemed okay with that for the time being.
 
-### 2024-02-06 Sean/Brent
+### 2025-02-06 Sean/Brent
 
 - [Recording](https://tldv.io/app/meetings/67a4c0183608ca001388c5bd) (1h 30m)
 - We discussed the differences between composition, and query-building in Sean's Worksheets vision and Brent's Data Palettes vision, with an emphasis on clarifying Brent's vision for Sean.
 
-### 2024-03-07 Sean/Brent
+### 2025-03-07 Sean/Brent
 
 - [recording](https://tldv.io/app/meetings/67cb10ef85a7070013ce452d) (1h 36m)
 - **Short term vs long term goals**:
@@ -93,11 +93,16 @@ _(none yet)_
         - Brent liked Sean's approach
     - Both agreed we should aim to complete this editing flow for the 0.2.3 release.
 
-### 2024-03-17 Sean/Brent
+### 2025-03-17 Sean/Brent
 
 - [Recording](https://tldv.io/app/meetings/67d82b048f1e7a001325ba58) (56m) (Worksheets talk begins at ≈12:50)
 - Sean and Brent have different opinions on how best to implement the "transport structure" for Worksheets.
 - They have scheduled a follow-up meeting for next week where Brent will present specific problems to Sean.
+
+### 2025-03-24 Sean/Brent
+
+- [recording](https://tldv.io/app/meetings/67d855218f1e7a001325d83e) (1h 59m)
+- This call focused on Brent's critique of Sean's Worksheets vision, with an emphasis on Sean's previously-state opinions of relying on SQL as the "transport structure" (terminology still in flux).
 
 ## Threads
 
