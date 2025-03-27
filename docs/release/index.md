@@ -29,7 +29,8 @@ Some of the commands within our release process require you to have the followin
     docker buildx create --driver cloud mathesar/release-builder
     ```
 
-    This will create a Docker container on your system. You'll need to do this step again if you delete that container at some point.
+    This will create a Docker container on your system. You'll need to do this step again if you delete that container at some point. If you see a `failed to find driver "cloud"` error you likely need to download a supported binary from this repository: https://github.com/docker/buildx. Go to the "Releases" page and find the correct artifact to download for your operating system. 
+
 
 - **gh** (aka the [GitHub CLI](https://cli.github.com/))
 
