@@ -104,6 +104,11 @@ _(none yet)_
 - [recording](https://tldv.io/app/meetings/67d855218f1e7a001325d83e) (1h 59m)
 - This call focused on Brent's critique of Sean's Worksheets vision, with an emphasis on Sean's previously-state opinions of relying on SQL as the "transport structure" (terminology still in flux).
 
+### 2025-03-27 Sean/Brent/Zack
+
+- [recording](https://tldv.io/app/meetings/67e5610b32abaa0013ae274d)
+- Sean presented a detailed critique of Data Pallettes. His _pre_-call notes are available [here](https://gist.github.com/seancolsen/182c8f682d46af865dce0283d3bc533e).
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
