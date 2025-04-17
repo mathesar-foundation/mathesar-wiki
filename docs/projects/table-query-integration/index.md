@@ -16,7 +16,7 @@ _(none yet)_
     - Sean's "Worksheets" proposal: [PR](https://github.com/mathesar-foundation/mathesar-wiki/pull/125) / [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/worksheets_product_spec/docs/projects/worksheets/worksheets-product-spec.md)
     - Brent's "Data Palettes" proposal: [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/data_palettes/docs/projects/data-palettes.md)
 
-## Meetings
+## Meetings and video presentations
 
 ### 2025-02-03 Sean/Brent
 
@@ -108,6 +108,53 @@ _(none yet)_
 
 - [recording](https://tldv.io/app/meetings/67e5610b32abaa0013ae274d)
 - Sean presented a detailed critique of Data Pallettes. His _pre_-call notes are available [here](https://gist.github.com/seancolsen/182c8f682d46af865dce0283d3bc533e).
+
+### 2025-04-02 Sean/Zack
+
+- [Recording](https://tldv.io/app/meetings/67ed7b0edbc58600137debfc) 1h 9m
+- Sync up on latest state of the plans
+- Discuss how to reconcile disagreements between Sean/Brent
+
+### 2025-04-03 Sean/Zack
+
+- [Recording](https://tldv.io/app/meetings/67eecd6a1c3ba100136fdee9) 1h 18m
+- Deep dive into Sean's vision for Basic Query
+- Also talked about DML in explorations
+
+### 2025-04-04 Sean video presentation
+
+Sean presents a high-level vision for DML in explorations
+
+57m
+
+https://drive.google.com/file/d/1_iegEHHQaXiavVe_APng1y3W-h_iFm1h/view?usp=drive_link
+
+### 2025-04-07 Sean/Pavish
+
+- [Recording](https://tldv.io/app/meetings/67f3d3955cf32a0013fe65ed)
+- Focused on plans for DML in explorations
+- Also got Pavish up to speed on the disagreements that Sean and Brent have been having over the longer-term visions for query-building.
+
+### 2025-04-10 Sean video presentation
+
+Sean presents a vision for a "Pipeline Query" that could bridge the gap between "Worksheets" and "Data Palettes".
+
+34m
+
+https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive_link
+
+### 2025-04-10 Sean/Ghislaine
+
+- [Recording](https://tldv.io/app/meetings/67f7c50e0ca096001444e7d4)
+- Discussed plans for DML in explorations
+- Ghislaine almost entirely on board with Sean's plans for UX
+    - She wants to explore one potential change: using a split screen to multi-record cell contents in a panel below the table instead of inside a dropdown 
+
+### 2025-04-14 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/67fd14ae0a16540013ef3f57)
+- Reached several point of agreement on implementation of DML in explorations
+- Brent seems more on board with Sean's longer-term vision for query-building
 
 ## Threads
 
