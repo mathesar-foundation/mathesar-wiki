@@ -156,6 +156,11 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - Reached several point of agreement on implementation of DML in explorations
 - Brent seems more on board with Sean's longer-term vision for query-building
 
+### 2025-04-28 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/680f89ef88379200138a20f7)
+- Discussed Sean's [proposed specs](https://github.com/mathesar-foundation/mathesar-wiki/pull/127) for DML in explorations
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
