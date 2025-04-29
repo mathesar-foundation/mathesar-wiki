@@ -72,9 +72,10 @@ For both:
         - [ ] Local using all default settings
         - [ ] Exposed on domain with different database configurations:
           - [ ] Integrated Mathesar, Integrated Data
-          - [ ] Integrated Mathesar, External Data
           - [ ] External Mathesar, External Data
-          - [ ] External Mathesar, Integrated Data
+    - [ ] [Docker "Try Mathesar" command](https://docs.mathesar.org/latest/#try-mathesar) with different database configurations:
+          - [ ] Integrated Mathesar, Integrated Data
+          - [ ] Integrated Mathesar, External Data
     - [ ] [Build from scratch](https://docs.mathesar.org/latest/administration/install-from-scratch/)
         - [ ] Local using all default settings
         - [ ] Exposed on domain with different database configurations:
