@@ -33,7 +33,7 @@ This spec describes the “Forms” feature. The following content is dated 2025
 ### A simplified scenario
 - Mathesar admin wants to create a form for end-users to fill in their favourite movies, including the director, producer, casting information, and genres.
 - Mathesar admin has the following schema:
-	![user-scenario-db-schema.png](/assets/product/specs/forms/user-scenario-db-schema.png)
+	![user-scenario-db-schema.png](./img/forms/user-scenario-db-schema.png)
 - **Things to note**:
 	- This is not a real-life example and is used only for representing the following cases:
 		- Normal fields (Scalar columns in the `Movies` table).
@@ -43,7 +43,7 @@ This spec describes the “Forms” feature. The following content is dated 2025
 		- Reverse-foreign-key fields referencing a table with a single column (excluding the fk to the base table) (`Movie_Genre_mapping`), i.e. a mapping table.
 	- The wireframes below are representational, taking into consideration the implementation feasibility. They are not final.
 - **Form displayed to the end user:**
-	- ![new-form.png](/assets/product/specs/forms/new-form.png)
+	- ![new-form.png](./img/forms/new-form.png)
 	- The `id` columns are not displayed i.e. any column that has a dynamic default is hidden.
 		- The admin can still choose to display these columns in the form as readonly fields.
 	- The foreign key field `movie.director_id` is displayed as a dropdown which selects records from `Directors`.
@@ -54,9 +54,9 @@ This spec describes the “Forms” feature. The following content is dated 2025
 		- Since that table is a mapping table with a single column, only the field for fk `Movie_Genre_mapping` -> `genre_id` is shown.
 		- It opens a dropdown showing entries from `Genres`.
 - **Filling in a foriegn key field:**
-	- ![select-producer.png](/assets/product/specs/forms/select-producer.png)
-	- ![select-director.png](/assets/product/specs/forms/select-director.png)
-	- ![select-genre.png](/assets/product/specs/forms/select-genre.png)
+	- ![select-producer.png](./img/forms/select-producer.png)
+	- ![select-director.png](./img/forms/select-director.png)
+	- ![select-genre.png](./img/forms/select-genre.png)
 	- Admin can configure whether or not they want to allow end users to add new records.
 		- If they allow the '+ Add New' option is shown in the dropdowns.
 		- Admins can configure the text shown.
@@ -67,11 +67,11 @@ This spec describes the “Forms” feature. The following content is dated 2025
 	- The admin cannot choose searchable columns if they are not part of the record summary configuration. The Record summary configuration is the only source here.
 	- The admin can customize the labels for these columns.
 - **Adding new records in related tables via fk fields:**
-	- ![form-new-entry-fk-field.png](/assets/product/specs/forms/form-new-entry-fk-field.png)
+	- ![form-new-entry-fk-field.png](./img/forms/form-new-entry-fk-field.png)
 	- End users can choose to add new records for Producers, Directors, and Genres.
 	- Notice that the "Director" field shows the field "Person" for the column `person_id` which is an a FK for `People`.
 	- The user could still add a nested entry for the `People` table using the "Person" dropdown.
-		- ![form-new-nested-fk-entry.png](/assets/product/specs/forms/form-new-nested-fk-entry.png)
+		- ![form-new-nested-fk-entry.png](./img/forms/form-new-nested-fk-entry.png)
 	- "Genres", however shows fields from the `Genre` table directly, since `Movie_Genre_mapping` is a mapping table with just a reverse-fk.
 		- It adds entries to both `Genre` and `Movie_Genre_mapping`.
 
