@@ -167,6 +167,22 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - Discussed Brent's user-focused concerns with putting record summaries into the data explorer
 - Discussed Brent's vision for Mathesar without any record summaries at all
 
+### 2025-04-30 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/68122cc76184c70013a538fc) (1h)
+- Brent expresses his concerns with record summaries in the data explorer
+
+### 2025-05-01 Sean/Anish
+
+- [Recording](https://tldv.io/app/meetings/68137f1b5374a20013af9515) (58m)
+- Anish asks Sean questions about Table Query Integration, Worksheets, Basic Query, AI queries, Pipeline Query, etc.
+
+### 2025-05-01 Sean/Ghislaine
+
+- [Recording](https://tldv.io/app/meetings/68138d0de21dd50013e35bfe) 
+- Sean asks Ghislaine clarifying questions about her [split screen proposal](https://hackmd.io/@mathesar/rJarPAelgl)
+- Sean and Ghislaine talk about the disagreement that Brent and Sean are currently working through regarding record summaries in the data explorer. Ghislaine seems to be more in Brent's camp. Follow-up meeting scheduled in 1 day to continue hashing this out.
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
