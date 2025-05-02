@@ -183,6 +183,12 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - Sean asks Ghislaine clarifying questions about her [split screen proposal](https://hackmd.io/@mathesar/rJarPAelgl)
 - Sean and Ghislaine talk about the disagreement that Brent and Sean are currently working through regarding record summaries in the data explorer. Ghislaine seems to be more in Brent's camp. Follow-up meeting scheduled in 1 day to continue hashing this out.
 
+### 2025-05-02 Sean/Ghislaine
+
+- [Recording](https://tldv.io/app/meetings/6814cfee1c6126001369579f) (~1hr)
+- Discussed whether record summaries should be included in the Data Explorer
+- Ghislaine wants record summaries
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
