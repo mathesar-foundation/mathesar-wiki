@@ -1,8 +1,69 @@
 # Forms
 
-This spec describes the “Forms” feature. The following content is dated 2025-04-29, and describes the first iteration of the feature.
+This spec describes the “Forms” feature. 
 
 "Forms" lets non-technical users visually design and share data-entry forms publicly. Users select a base table, pick columns (including foreign-key, and reverse-foreign-key links), arrange and configure fields, and publish a public link. End users can then submit the form which store records in the database, with nested creation of related records.
+
+# 2025-05-05: Updates after review calls with team
+Pavish: The following content contains updates over the initial iteration based on review comments and calls with Ghislaine, Zack, Brent, and Sean.
+
+We have enough agreement on the spec to proceed with UX design.
+
+## Record summary template & Record selector
+- We will allow the admin choose searchable columns, not limited by the columns in the record_summary_template.
+- The following structure `lookup` will now replace `form.elements[].record_summary_template`:
+```json5
+{
+  "lookup": {
+    "columns": [
+      {
+        "path": [[2, 3], [3, 10], [10, 15]],
+        "label": "Name"
+      },
+      {
+        "path": [[2, 4]],
+        "label": "Email"
+      },
+      {
+        "path": [[2, 21], [21, 98]],
+        "label": "Location"
+      }
+    ],
+    "summary_template": [0, "-", 2]
+  },
+  // ...,
+}
+```
+- `lookup.columns` would contain all the columns the user can filter through.
+- `lookup.summary_template` works similarly to the record summary template, however, the column-elements correspond to indexes from `lookup.columns`.
+	- This way the columns used in the summary_template would always be a subset of columns defined in the lookup.
+- `lookup.columns[].path` is a `jp_path`.
+	- Sean expressed his opinion that the `record_summary_template` currently uses a much simpler path that follows FK links, instead of the `jp_path` which requires defining each join.
+		- This would make the work move faster since we already have the implementation for it.
+	- Brent specified concern that having the `jp_path` is more robust.
+	- Pavish is fine with either approach.
+		- We consider this an implementation detail and let Brent take a call on this during backend implementation work.
+
+### UX for Record selector
+-	The UX changes would be in the dropdown displayed to the user while they click on a foriegn_key field.
+- The rows will contain the record summary, along with the values of each column that is part of `lookup.columns`.
+	- Each row would contain the values displayed below the record summary in a "column: value" kind of manner.
+- The label displayed in the search bar & the rows would be from `lookup.columns[].label`.
+- Sorting would be in the ascending order for each column in `lookup.columns`.
+- Searching would be `starts_with` for text columns and `equals` for non-text columns. The combination between column-values would be `AND`.
+
+## Unauthenticated RPC actions
+- `forms.get` as mentioned in the initial iteration would be renamed to `forms.show`, which would not contain sensitive values like `owner_oid`.
+- We should have a separate `forms.get` which would be the private form definition that is fetched by Mathesar users.
+- The new UX would require a `forms.list_linked_records`, which will return the records & summaries for the list displayed to the user in the dropdown.
+
+## Django DB modal
+- Brent wants to spend some time thinking if `form.elements` should be a table instead of `jsonb`.
+- Pavish is fine with either, but prefers the `jsonb` since the actual performance consideration would be in creating the queries, not in parsing the json/reading from table.
+- This would not affect the API request/response structure.
+- This is an implementation detail and Brent would take a call during backend implementation work.
+
+# 2025-04-29: Initial iteration
 
 ## Terminology
 - Reverse foreign key: Denotes foreign key columns in other tables that link to base table records.
@@ -201,7 +262,7 @@ interface ValidationRules {
 ```
 
 #### Sample:
-```json
+```json5
 {
   "id": 1, // Form id
   "base_table_oid": 42,
@@ -294,7 +355,7 @@ interface ValidationRules {
 ```
 
 #### JSON while submitting the form:
-```json
+```json5
 {
   "fld_01": "value_01",
   "fld_02": "value_02",
