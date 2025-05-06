@@ -164,7 +164,8 @@ We have enough agreement on the spec to proceed with UX design.
 	- Being able to create new columns directly in the form view.
 1. Advanced form-level validations.
 1. Multi-language support for end-users filling the form.
-1. Customizable Logos.
+1. Customizable logos, banners, and accent color.
+1. Conditional logic to display form fields based on sibling field values
 
 ## Implementation notes
 
