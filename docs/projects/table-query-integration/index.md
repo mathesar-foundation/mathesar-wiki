@@ -189,6 +189,23 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - Discussed whether record summaries should be included in the Data Explorer
 - Ghislaine wants record summaries
 
+### 2025-05-06 Sean/Zack
+
+- [Recording](https://tldv.io/app/meetings/681a40266119fa00134f7780) (1h 24m)
+- Discussed next steps for resolving Sean/Brent disagreement over record summaries
+
+### 2025-05-07 Sean/Pavish
+
+- [Recording](https://tldv.io/app/meetings/681b445d452b1300133fd947) (32m)
+- Discussed
+    - How to store display options within explorations
+    - Some of Sean's questions with data explorer code
+
+### 2025-05-07 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/681b67351d631500139a3d06) (58m)
+- Resolved Sean/Brent disagreement over record summaries
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
