@@ -4,7 +4,7 @@
 
 This wiki page is the top-level place to organize information about the project.
 
-## Specs
+## High-level product specs
 
 ### Adopted
 
@@ -15,6 +15,13 @@ _(none yet)_
 - Product spec
     - Sean's "Worksheets" proposal: [PR](https://github.com/mathesar-foundation/mathesar-wiki/pull/125) / [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/worksheets_product_spec/docs/projects/worksheets/worksheets-product-spec.md)
     - Brent's "Data Palettes" proposal: [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/data_palettes/docs/projects/data-palettes.md)
+
+## Specific implementation specs
+
+These specs are listed in the order in which we plan to implement them.
+
+1. [Exploration Display Improvements](./specs/exploration-display-improvements.md)
+1. [Exploration DML](./specs/data-explorer-dml/index.md)
 
 ## Meetings and video presentations
 
