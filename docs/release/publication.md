@@ -122,4 +122,13 @@
 
     GitHub will automatically create a PR for this. Find it and merge it.
 
+1. **Deploy to our internal instance**
+
+   Immediately following the release, update our internal Mathesar instance to use the latest version. The steps here are fairly simple:
+
+   1. `ssh <server-external-IP>` or via the GCP web terminal
+   3. sudo `docker compose -f /etc/mathesar/docker-compose.yml up --pull always -d`
+   4. Log into the internal instance and verify the correct version is now shown.
+
+
 
