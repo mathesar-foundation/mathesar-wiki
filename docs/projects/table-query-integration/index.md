@@ -206,6 +206,11 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - [Recording](https://tldv.io/app/meetings/681b67351d631500139a3d06) (58m)
 - Resolved Sean/Brent disagreement over record summaries
 
+### 2025-05-13 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/682349874031d700139c1e13) (1h 2m)
+- Discussed Sean's [proposal](https://github.com/mathesar-foundation/mathesar-wiki/pull/127) for the first steps of exploration DML
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
