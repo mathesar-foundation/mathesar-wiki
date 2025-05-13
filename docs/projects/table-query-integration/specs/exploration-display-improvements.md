@@ -83,12 +83,7 @@ Several other requirements described within this spec involve storing column dis
           }
         },
         "display_options": {
-          "width": 250,
-          "record_summary_template": [
-            [
-              2
-            ]
-          ]
+          "width": 250
         }
       }
     }
@@ -115,40 +110,6 @@ Rationale:
 ### Offer type-specific column display options
 
 The "Column" tab of the exploration inspector should have a "Formatting" section just like the table page. Those formatting settings should get stored as column display options.
-
-### Allow custom record summary templates
-
-The "Column" tab of the exploration inspector should have a "Linked Record Summary" section just like the table page. The record summary template should get stored as a column display option.
-
-### Display record summaries
-
-- FK cells should display like they do in (read-only) FK columns in the table page.
-
-- Record summaries should _also_ display for **arrays of primary key values**.
-
-    For example, a query like this is easy to produce with the data explorer:
-
-    ```sql
-    WITH e AS (
-      SELECT
-        customer,
-        array_agg(id) AS ids
-      FROM emails
-      GROUP BY customer
-    )
-    SELECT
-      customers.id AS customer_id,
-      customers.full_name AS customer_name,
-      e.ids AS emails
-    FROM customers
-    LEFT JOIN e ON e.customer = customers.id;
-    ```
-
-    It shows one row per customer. And it has a column which shows an array of all the associated emails for the given customer.
-
-    In the "emails" column, we'd like to show multiple record summaries for emails records.
-
-    This means that PK array_agg cells will also need configurable record summary templates.
 
 ### Change "Delete Column" button
 
@@ -271,58 +232,16 @@ Changes:
 
 ### `explorations.run`
 
-#### Parameters
-
-- It should accept record summary templates as parameters.
-
-    TODO: How?
-
 #### Return value
-
-- The return value should contain a new `linked_record_summaries` property.
-    - This should function similar to `records.list`, but the keys should be column _names_ (not column attnums). The column names should correspond to the names in the exploration result set.
 
 - Within `column_metadata` we need the following new properties added to each column metadata blob:
     - `primary_key`
         - When the underlying table column has a single-column primary key constraint, the value here should be `true`.
         - This is to support the "record page hyperlink" feature.
 
-    - `foreign_key`
-        - When the underlying table column has a single-column foreign key constraint, the value here should look like:
-
-            ```json
-            {
-              "referent_column": {
-                "attnum": 1,
-                "name": "id",
-                "table": {
-                  "oid": 18762,
-                  "name": "customers"
-                }
-              }
-            }
-            ```
-
-        - This is to support the configuration of record summary templates on FK columns.
-
-    - `pk_array`
-        - When the column is an aggregation of primary key values, the value here should look like:
-
-            ```json
-            {
-              "table": {
-                "oid": 8715,
-                "name": "emails"
-              }
-            }
-            ```
-
-        - This is to support the configuration of record summary templates on PK array columns.
-
 ### `explorations.run_saved`
 
 Remove this API method.
 
 - We only use this on the exploration "viewing" page, which we're removing.
-- We'd like to avoid making changes to this API too, if possible. And if we kept it, we'd probably need some changes in the service layer to handle record summary stuff.
 
