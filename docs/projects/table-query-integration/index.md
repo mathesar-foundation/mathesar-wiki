@@ -218,6 +218,16 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - [Recording](https://tldv.io/app/meetings/682349874031d700139c1e13) (1h 2m)
 - Discussed Sean's [proposal](https://github.com/mathesar-foundation/mathesar-wiki/pull/127) for the first steps of exploration DML
 
+### 2025-05-21 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/682dce40ea54770013f8ff91) (1h 26m)
+- Discussed various considerations around DML in explorations
+
+### 2025-05-22 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/682f1ffc57fb4e00131931ce) (1h 31m)
+- Agreed on a path forward for [DML on base table cells](https://github.com/mathesar-foundation/mathesar-wiki/pull/132)
+
 ## Threads
 
 - 2024-01-28 Email: [A "Worksheets for Everything" vision](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/CK7q1Wfg6D0/m/_5Tkdn-hAAAJ) - Sean introduces the concept of worksheets as a hypothetical future project
