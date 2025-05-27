@@ -7,6 +7,9 @@
     
     We would like to improve this process. But in the mean time, be sure to follow these steps quickly so as to reduce the duration of this "out of sync" window.
 
+!!! info "Before publishing the releases"
+    Ensure that tags and releases created for the QA process are cleaned up.
+
 <!--
   NOTE TO DOCS EDITORS:
 
@@ -44,7 +47,7 @@
     ```sh
     git checkout master
     git pull
-    git branch -d $VERSION
+    git branch -d release-$VERSION
     git tag $VERSION
     git push origin $VERSION
     ```
