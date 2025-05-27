@@ -19,7 +19,7 @@ An experiment should be easily reversible on a technical level. This means:
 - Avoid distributing experimental code changes throughout the entire codebase. Contain them in a dedicated directory if possible.
 - Make it obvious to other developers through comments or other means that they should not depend on the experimental code.
 - Removing any code changes associated with the experiment should be a 5-minute project leading to an easily reviewable PR.
-- Experimental GitHub workflows should be in their own file.
+- Experimental GitHub workflows should be in their own files.
 
 More importantly, an experiment must be _reversible w.r.t. our perceived obligations to the public._
 
