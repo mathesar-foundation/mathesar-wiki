@@ -61,7 +61,7 @@ Pull requests adding functionality that haven't followed standard procedures, ar
 - A PR closing an issue which has been triaged by someone on the team (who didn't write it) counts as typical for now, subject to any product process imposed by Zack moving forward.
 - A PR closing an issue written by the PR author with no discussion with anyone else is experimental. So, it must be easily reversible and effort should be spent making sure no current functionality should be broken by the proposed change. If that's the case, go ahead and merge.
 
-On the other hand, if a PR
+On the other hand, if a PR:
 
 - meets the easily-reversible criteria above, and
 - the reviewer is confident that the proposed change won't break anything, and 
