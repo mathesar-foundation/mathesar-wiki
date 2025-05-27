@@ -33,7 +33,7 @@ Finally, the experiment must be reversible _in your mind_. It's crucial to be ho
 > - If this doesn't work, will I let it go without a second thought?
 > - Am I going to be willing to admit when it isn't working?
 
-If the answer to these questions are anything but a resounding "Yes and Yes!", staff are strongly encouraged to go through normal processes rather than just taking off on their own. This brings us to the next section.
+If the answer to these questions are anything but a resounding "Yes and Yes!", staff are strongly encouraged to follow the standard product process instead of experimenting. This brings us to the next section.
 
 ### Doesn't break anything
 
