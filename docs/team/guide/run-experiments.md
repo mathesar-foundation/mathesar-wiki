@@ -56,7 +56,7 @@ In the event that the 4 hour mark has been crossed in time investment in an expe
 
 ## Responsibilities for PR reviewers
 
-Pull requests adding functionality which hasn't gone through any typical process and which don't meet the above criteria to be easily reversible, or which aren't demonstrated to avoid breaking things should be closed with minimal discussion. Yes, this is a bit imprecise; staff should use their heads.
+Pull requests adding functionality that haven't followed standard procedures, aren't easily reversible, or lack demonstrations ensuring they don't break existing functionality should be closed with minimal discussion. Staff are expected to use their judgment in these situations.
 
 - A PR closing an issue which has been triaged by someone on the team (who didn't write it) counts as typical for now, subject to any product process imposed by Zack moving forward.
 - A PR closing an issue written by the PR author with no discussion with anyone else is experimental. So, it must be easily reversible and effort should be spent making sure no current functionality should be broken by the proposed change. If that's the case, go ahead and merge.
