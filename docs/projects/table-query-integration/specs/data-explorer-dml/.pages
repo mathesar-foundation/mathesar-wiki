@@ -1,0 +1,7 @@
+nav:
+  - Base table: updating-base-table-cells.md
+  - Many-to-one cells: updating-many-to-one-cells.md
+  - One-to-many cells: updating-one-to-many-cells.md
+  - Many-to-many cells: updating-many-to-many-cells.md
+  - Insert and delete: inserting-and-deleting-base-table-records.md
+  - ...

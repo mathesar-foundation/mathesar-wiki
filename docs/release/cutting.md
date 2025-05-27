@@ -27,7 +27,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
     ```sh
     git checkout develop
     git pull origin develop
-    git checkout -b $VERSION
+    git checkout -b release-$VERSION
     ```
 
 1. **Notify team that release branch is cut**
@@ -45,11 +45,11 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 1. **Create the release PR**
 
     ```sh
-    git push -u origin $VERSION
+    git push -u origin release-$VERSION
     gh pr create -d -B master -m "v$VERSION" -t "Release $VERSION" -b ""
     ```
 
-1. **Publish Docker images**
+1. **Publish Docker images for QA**
 
     1. Log in to DockerHub
 
@@ -65,7 +65,7 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
         REPO_DIR=$(pwd)
         CLEAN_REPO_DIR=$(mktemp -d)
         cd $CLEAN_REPO_DIR
-        git clone -b $VERSION --single-branch --no-tags "$REPO_DIR" .
+        git clone -b release-$VERSION --single-branch --no-tags "$REPO_DIR" .
         ```
 
         (This ensures that files which are ignored by git don't end up in the Docker image.)
@@ -98,3 +98,26 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
         rm -rf $CLEAN_REPO_DIR
         docker logout
         ```
+
+
+1. **Create a pre-release for QA**
+
+    1. Create and push a tag on GitHub with the release version.
+
+        ```sh
+        git checkout "release-$VERSION"
+        git pull
+        git tag "$VERSION"
+        git push origin "$VERSION"
+        ```
+
+    1. GH will automatically create a draft release containing the installation assets for this tag. This will take a few minutes.
+
+    1. Update the release name & description to make it clear that it's a testing release.
+
+    1. Publish this draft release as a `Pre-release` via the GitHub UI.
+
+        !!! warning "Do not set the release as `latest`"
+            - Ensure that the checkbox mentioning `latest` is **not checked**.
+            - Only set the release as a `Pre-release`.
+            - Double check this before publishing.

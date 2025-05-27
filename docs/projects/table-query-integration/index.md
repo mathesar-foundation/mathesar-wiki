@@ -4,7 +4,7 @@
 
 This wiki page is the top-level place to organize information about the project.
 
-## Specs
+## High-level product specs
 
 ### Adopted
 
@@ -15,6 +15,13 @@ _(none yet)_
 - Product spec
     - Sean's "Worksheets" proposal: [PR](https://github.com/mathesar-foundation/mathesar-wiki/pull/125) / [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/worksheets_product_spec/docs/projects/worksheets/worksheets-product-spec.md)
     - Brent's "Data Palettes" proposal: [rendered](https://github.com/mathesar-foundation/mathesar-wiki/blob/data_palettes/docs/projects/data-palettes.md)
+
+## Specific implementation specs
+
+These specs are listed in the order in which we plan to implement them.
+
+1. [Exploration Display Improvements](./specs/exploration-display-improvements.md)
+1. [Exploration DML](./specs/data-explorer-dml/index.md)
 
 ## Meetings and video presentations
 
@@ -160,6 +167,66 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 
 - [Recording](https://tldv.io/app/meetings/680f89ef88379200138a20f7)
 - Discussed Sean's [proposed specs](https://github.com/mathesar-foundation/mathesar-wiki/pull/127) for DML in explorations
+
+### 2025-04-29 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/6810dc649fd7a700136d1750) 2h 6m
+- Discussed Brent's user-focused concerns with putting record summaries into the data explorer
+- Discussed Brent's vision for Mathesar without any record summaries at all
+
+### 2025-04-30 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/68122cc76184c70013a538fc) (1h)
+- Brent expresses his concerns with record summaries in the data explorer
+
+### 2025-05-01 Sean/Anish
+
+- [Recording](https://tldv.io/app/meetings/68137f1b5374a20013af9515) (58m)
+- Anish asks Sean questions about Table Query Integration, Worksheets, Basic Query, AI queries, Pipeline Query, etc.
+
+### 2025-05-01 Sean/Ghislaine
+
+- [Recording](https://tldv.io/app/meetings/68138d0de21dd50013e35bfe) 
+- Sean asks Ghislaine clarifying questions about her [split screen proposal](https://hackmd.io/@mathesar/rJarPAelgl)
+- Sean and Ghislaine talk about the disagreement that Brent and Sean are currently working through regarding record summaries in the data explorer. Ghislaine seems to be more in Brent's camp. Follow-up meeting scheduled in 1 day to continue hashing this out.
+
+### 2025-05-02 Sean/Ghislaine
+
+- [Recording](https://tldv.io/app/meetings/6814cfee1c6126001369579f) (~1hr)
+- Discussed whether record summaries should be included in the Data Explorer
+- Ghislaine wants record summaries
+
+### 2025-05-06 Sean/Zack
+
+- [Recording](https://tldv.io/app/meetings/681a40266119fa00134f7780) (1h 24m)
+- Discussed next steps for resolving Sean/Brent disagreement over record summaries
+
+### 2025-05-07 Sean/Pavish
+
+- [Recording](https://tldv.io/app/meetings/681b445d452b1300133fd947) (32m)
+- Discussed
+    - How to store display options within explorations
+    - Some of Sean's questions with data explorer code
+
+### 2025-05-07 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/681b67351d631500139a3d06) (58m)
+- Resolved Sean/Brent disagreement over record summaries
+
+### 2025-05-13 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/682349874031d700139c1e13) (1h 2m)
+- Discussed Sean's [proposal](https://github.com/mathesar-foundation/mathesar-wiki/pull/127) for the first steps of exploration DML
+
+### 2025-05-21 Sean/Brent/Zack
+
+- [Recording](https://tldv.io/app/meetings/682dce40ea54770013f8ff91) (1h 26m)
+- Discussed various considerations around DML in explorations
+
+### 2025-05-22 Sean/Brent
+
+- [Recording](https://tldv.io/app/meetings/682f1ffc57fb4e00131931ce) (1h 31m)
+- Agreed on a path forward for [DML on base table cells](https://github.com/mathesar-foundation/mathesar-wiki/pull/132)
 
 ## Threads
 
