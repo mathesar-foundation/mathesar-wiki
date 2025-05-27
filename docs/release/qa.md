@@ -33,28 +33,42 @@ For both:
     ```sh
     docker image pull mathesar/mathesar-caddy:<version_number>
     docker image tag mathesar/mathesar-caddy:<version_number> mathesar/mathesar-caddy:latest
-    
+
     docker image pull mathesar/mathesar:<version_number>
     docker image tag mathesar/mathesar:<version_number> mathesar/mathesar:latest
     ```
+
+### Understanding Database connections
+
+#### Database types
+
+- **Mathesar Database** - The Django database used by Mathesar
+- **Data database** - The user database(s) being explored in Mathesar's UI
+
+#### Connection types
+
+- **Local** - On the host machine
+- **External** - Outside of the host machine
+- **Integrated** - Inside of Mathesar's docker image
+- **Docker Postgres service** - Postgres service running in a docker compose network
 
 ### Tasks
 
 - [ ] Test direct install on Linux and macOS by following our documentation
 - [ ] Test all different installation methods
-    - [ ] Docker compose
-        - [ ] All defaults, local
-        - [ ] Exposed on domain, DB managed by Mathesar
-        - [ ] Exposed on domain, DB preexisting for users, managed DB for Django
-        - [ ] Exposed on domain, DB preexisting for all data
-    - [ ] Docker integrated image
-        - [ ] All defaults, local
-        - [ ] Exposed on domain, DB managed by Mathesar
-        - [ ] Exposed on domain, DB preexisting for users, managed DB for Django
-        - [ ] Exposed on domain, DB preexisting for all data
+    - [ ] [Docker compose](https://docs.mathesar.org/latest/administration/install-via-docker-compose/)
+        - [ ] Local using all default settings
+        - [ ] Exposed on domain with different database configurations:
+          - [ ] Docker Postgres service Mathesar, Docker Postgres service Data
+          - [ ] Docker Postgres service Mathesar, External Data
+          - [ ] External Mathesar, External Data
+    - [ ] [Docker "Try Mathesar" command](https://docs.mathesar.org/latest/#try-mathesar) with different database configurations:
+          - [ ] Integrated Mathesar, Integrated Data
+          - [ ] Integrated Mathesar, External Data
     - [ ] Direct install on Linux
-        - [ ] All defaults, local
         - [ ] Exposed on domain, DB preexisting for all data
+        - [ ] Local using all default settings
+        - [ ] Exposed on domain with Local Mathesar, Local Data
 - [ ] Test that previously installed versions of Mathesar can be upgraded to this release.
     - [ ] Docker compose -- All above variants for docker compose
         - [ ] Same docker compose file, same `.env`
@@ -79,7 +93,7 @@ Tasks:
     - [ ] Table
     - [ ] Column
     - [ ] Constraint
-- Import    
+- Import
     - [ ] Test basic import.
     - [ ] Try different options for "Data Source"
     - [ ] Try different options for "Column Data Types"
