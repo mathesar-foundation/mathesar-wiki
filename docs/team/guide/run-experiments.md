@@ -14,7 +14,7 @@ These are ordered from most to least important.
 
 ### Easily reversible
 
-An experiment should be easily reversible on a technical level. This means
+An experiment should be easily reversible on a technical level. This means:
 
 - Avoid splattering code changes related to the experiment all over the codebase. Contain them in their own directory if possible.
 - Make it obvious to other developers through comments or other means that they should not depend on the experimental code.
