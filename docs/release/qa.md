@@ -71,7 +71,8 @@ For both:
     - [ ] [Docker compose](https://docs.mathesar.org/latest/administration/install-via-docker-compose/)
         - [ ] Local using all default settings
         - [ ] Exposed on domain with different database configurations:
-          - [ ] Integrated Mathesar, Integrated Data
+          - [ ] Local docker pg Mathesar, Local docker pg Data
+          - [ ] Local docker pg Mathesar, External Data
           - [ ] External Mathesar, External Data
     - [ ] [Docker "Try Mathesar" command](https://docs.mathesar.org/latest/#try-mathesar) with different database configurations:
           - [ ] Integrated Mathesar, Integrated Data
