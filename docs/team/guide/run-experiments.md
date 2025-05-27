@@ -1,6 +1,6 @@
 # Experiments
 
-This is a quick guide to provide some guidelines Mathesar staff should use when doing something "experimental". For example:
+This quick guide outlines best practices for Mathesar staff when conducting "experimental" work. For example:
 
 - Adding a feature to Mathesar without going through the product process.
 - Promoting Mathesar in some previously-unknown venue.
