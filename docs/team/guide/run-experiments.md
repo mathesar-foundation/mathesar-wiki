@@ -6,7 +6,7 @@ This quick guide outlines best practices for Mathesar staff when conducting "exp
 - Promoting Mathesar in some previously-unknown venue.
 - Adding an integration with a 3rd-party service to Mathesar or its repo, e.g., a 1-click deploy button.
 
-We encourage experimenting with these sorts of things without the bureaucratic overhead of normal processes, but staff should try to make sure their experiment satisfies some basic guidelines.
+We encourage experimenting with these sorts of things without the bureaucratic overhead of normal processes, but staff should make sure their experiment satisfies some basic guidelines.
 
 ## Guidelines for an acceptable experiment
 
