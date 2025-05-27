@@ -45,7 +45,7 @@ If the answer to these questions are anything but a resounding "Yes and Yes!", s
 
 This is obvious, but bears mentioning. Do not spend more than 8 hours working on something experimental without talking to anyone else about it. Even better, talk to someone else after 4 hours of time investment.
 
-## Find an Accountabilibuddy
+## Find an "Accountabilibuddy"
 
 In the event that the 4 hour mark has been crossed in time investment in an experiment, staff are _strongly encouraged_ to find an accountabilibuddy. If time investment crosses 8 hours, this is required. 
 
