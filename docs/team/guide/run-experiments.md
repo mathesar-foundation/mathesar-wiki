@@ -3,7 +3,7 @@
 This quick guide outlines best practices for Mathesar staff when conducting "experimental" work. For example:
 
 - Adding a feature to Mathesar without going through the product process.
-- exploring a previously-unknown community where we may promote Mathesar.
+- Exploring a previously-unknown community where we may promote Mathesar.
 - Adding an integration with a 3rd-party service to Mathesar or its repo, e.g., a 1-click deploy button.
 
 We encourage experimenting with these sorts of things without the bureaucratic overhead of normal processes, but staff should make sure their experiment satisfies some basic guidelines.
