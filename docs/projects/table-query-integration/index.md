@@ -21,6 +21,7 @@ _(none yet)_
 These specs are listed in the order in which we plan to implement them.
 
 1. [Exploration Display Improvements](./specs/exploration-display-improvements.md)
+1. [Exploration Record Summaries](./specs/exploration-record-summaries.md)
 1. [Exploration DML](./specs/data-explorer-dml/index.md)
 
 ## Meetings and video presentations
