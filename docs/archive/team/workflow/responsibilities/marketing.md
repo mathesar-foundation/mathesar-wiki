@@ -51,7 +51,7 @@ Release announcements should include highlights from release notes. We should av
 - Evaluate Syften keywords and update them if needed.
 - Make progress on our [Mathesar launch publicity checklist](https://github.com/mathesar-foundation/mathesar-website/issues/78), delegate tasks as needed.
     - We’ll hold off on making new announcements until our installation process is improved
-- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the [Marketing History](/marketing/history) page
+- Keep track of where we’re getting traffic from (using Syften, GitHub Insights and our analytics), and track notable sources in the Marketing History page
     - Also post noteworthy publicity to the `Mathesar - Marketing` channel on Matrix.
 - Add Mathesar to aggregators (tracked [in this issue](https://github.com/mathesar-foundation/mathesar-website/issues/84)).
     - Feel free to ask the owner to review any copy written for this.
@@ -65,5 +65,5 @@ Release announcements should include highlights from release notes. We should av
 
 ## Notes & Resources
 
-- See [Marketing](/marketing) section of the wiki.
+- See Marketing section of the wiki.
 - Eventually, the plan is to create an “evangelism guide” ([example](https://about.gitlab.com/handbook/marketing/community-relations/developer-evangelism/social-media/))
