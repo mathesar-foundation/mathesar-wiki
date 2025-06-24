@@ -44,7 +44,7 @@ These channels focus on day-to-day design and product work.
 |-|-|-|
 | Mathesar - Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Mathesar - Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
-| Mathesar - Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/design/process/review-guidelines) |
+| Mathesar - Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/archive/product/design/process/review-guidelines) |
 | Mathesar - Documentation | [`#documentation:matrix.mathesar.org`](https://matrix.to/#/#documentation:matrix.mathesar.org) | Discussion about [our documentation](https://docs.mathesar.org) |
 
 ### Projects
@@ -60,7 +60,7 @@ These channels focus on community building activities.
 | Name | Address | Purpose |
 |-|-|-|
 | Mathesar - Marketing | [`#marketing.mathesar.org`](https://matrix.to/#/#marketing:matrix.mathesar.org) | Discussions related to promoting Mathesar |
-| Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/community/mentoring) such as GSoC |
+| Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/community/gsoc) such as GSoC |
 | Mathesar - Code for Japan | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
 ### Maintainers workflow

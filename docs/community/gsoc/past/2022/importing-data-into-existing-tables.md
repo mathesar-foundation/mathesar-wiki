@@ -8,7 +8,7 @@ Mathesar is a tool that provides a intuitive and user-friendly interface to data
 
 Mathesar can be used for data modeling, creating views, data storage and much more but, this requires data to be present in a database. What happens if the a partial amount of data is located on a local machine of the user and the rest is present in a database? This is where a feature like importing data into an existing table comes in handy.
 
-My project during the Google Summer of Code was to enhance the capability of Mathesar's backend to support importing a CSV/TSV into an existing table. Take a look at the full project description [here](https://summerofcode.withgoogle.com/programs/2022/projects/oCtBUJHr). Below are the relevant links to the Pull Requests that were made by me for the implementation of this project.
+My project during the Google Summer of Code was to enhance the capability of Mathesar's backend to support importing a CSV/TSV into an existing table. Take a look at the full project description [here](https://summerofcode.withgoogle.com/programs/2022/archive/projects/oCtBUJHr). Below are the relevant links to the Pull Requests that were made by me for the implementation of this project.
 
 ## Completed tasks
 

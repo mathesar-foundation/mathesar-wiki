@@ -22,7 +22,7 @@ Brent also has some tech spec related tasks in Basecamp with comments, is it oka
 
 ## DB connection UI issue
 
-Specs: https://wiki.mathesar.org/design/specs/new-db-connection-form/
+Specs: https://wiki.mathesar.org/archive/product/design/specs/new-db-connection-form/
 
 - Pavish concerned with UX in case C
 - Sean proposing to eliminate case C

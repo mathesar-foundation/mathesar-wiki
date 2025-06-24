@@ -6,7 +6,7 @@
     This guide was for GSoC 2023.
 
 !!! info "Information"
-    Please use this template while adding new project ideas to [Project Ideas](/community/mentoring/project-ideas).
+    Please use this template while adding new project ideas to [Project Ideas](/community/gsoc/project-ideas).
 
 
 ## Classification

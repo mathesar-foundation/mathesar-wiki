@@ -1,6 +1,6 @@
 # UI Data Types
 
-Please see the ["Data Types" product concept page](/product/concepts/data-types) for more information about the idea behind UI data types (a.k.a. "UI types" for brevity).
+Please see the ["Data Types" product concept page](/archive/product/concepts/data-types) for more information about the idea behind UI data types (a.k.a. "UI types" for brevity).
 
 ## Goals
 The main goal of the UI Data Type system is to create a better user experience for non-technical users on the frontend. We aim to do this by:
@@ -58,5 +58,5 @@ We'll expand these over time as we support advanced functionality for more types
 Some common data types used by users (e.g. emails, URLs, etc.) do not have native PostgreSQL equivalents. For these data types, Mathesar ships with custom PostgreSQL types that users can install if they want.
 
 ## Further Reading
-- The [Global Data Type Components design spec](/design/specs/global-data-type-components) shows the user experience of UI Data Types and PostgreSQL types in the UI.
+- The [Global Data Type Components design spec](/archive/product/design/specs/global-data-type-components) shows the user experience of UI Data Types and PostgreSQL types in the UI.
 - ["Mathesar Data Types definition" on GitHub Discussions](https://github.com/mathesar-foundation/mathesar/discussions/959)

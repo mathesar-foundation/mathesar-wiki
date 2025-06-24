@@ -34,15 +34,15 @@ If the candidate is interested, it would be great to also have the types integra
 
 ## Resources
 - Data Types in Mathesar:
-  - [Data Types "Concepts" page](/product/concepts/data-types)
+  - [Data Types "Concepts" page](/archive/product/concepts/data-types)
   - [Mathesar UI Data Types engineering page](/engineering/glossary/ui-types)
-- [Existing Data Type components design spec](/design/specs/global-data-type-components), to see how current data types work.
+- [Existing Data Type components design spec](/archive/product/design/specs/global-data-type-components), to see how current data types work.
 - Filters in Mathesar:
-  - [Filters "Concepts" page](/product/concepts/filters)
+  - [Filters "Concepts" page](/archive/product/concepts/filters)
   - [Filters engineering page](/engineering/glossary/filters)
 
 ## Mentors
 - **Primary Mentor**: Kriti Godey
 - **Backup Mentor**: Mukesh Murali
 
-See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.

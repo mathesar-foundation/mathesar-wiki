@@ -1,7 +1,7 @@
 # 2023-07-06 installation planning meeting
 
 !!! info "Information"
-    See [this page](/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md) for notes on parts I and II of this meeting. 
+    See [this page](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting) for notes on parts I and II of this meeting. 
 
 
 **Attendees**: Kriti, Brent, Mukesh, Sean, Pavish
