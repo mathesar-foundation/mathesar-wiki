@@ -8,7 +8,7 @@
 
 Maria will present a report about the current state of list data types in Mathesar, and her work over the last couple months.
 
-[The report](/engineering/reports/list-datatype). 
+[The report](/community/gsoc/past/2023/list-datatype). 
 
 ## Product strategy update
 - **Allocated time**: 45 minutes

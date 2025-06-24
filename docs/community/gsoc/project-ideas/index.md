@@ -8,7 +8,7 @@
 These ideas are for **Google Summer of Code 2023**.
 
 !!! info "Information"
-    For information about applying to Google Summer of Code, please see [**our Applicant Guide**](/community/mentoring/applicant-guide).
+    For information about applying to Google Summer of Code, please see [**our Applicant Guide**](/community/gsoc/applicant-guide).
 
 
 ## Ideas
@@ -30,10 +30,10 @@ These ideas are for **Google Summer of Code 2023**.
 | 13 | [Support importing Excel and JSON files](./import-excel-json-files) | Python, SQL, Django, SQLAlchemy | Long (~350 hours) | Medium | Dom | Anish |
 | 14 | [Automatically suggest improvements to table normalization](./auto-suggest-normalization) | PostgreSQL, Database theory, a bit of statistics | Long (~350 hours)  | High | Brent | Dom |
 
-*For ideas from previous years, see our [Project Idea Archive](/community/mentoring/project-ideas/archive).*
+*For ideas from previous years, see our [Project Idea Archive](/community/gsoc/project-ideas/archive).*
 
 ## Original Ideas
 
-You are also welcome to propose your own original idea if you have a suggestion for a new feature. Our [Roadmap](/product/roadmap) and [Feature Ideas](/product/feature-ideas) pages might be helpful in coming up with your idea.
+You are also welcome to propose your own original idea if you have a suggestion for a new feature. Our [Roadmap](/archive/product/roadmap) and [Feature Ideas](/archive/product/feature-ideas) pages might be helpful in coming up with your idea.
 
 Please talk to us and ensure that someone on the team is willing to mentor your idea before you submit your proposal.

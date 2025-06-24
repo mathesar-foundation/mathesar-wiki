@@ -31,7 +31,7 @@ Some ideas we're considering in the future to grow the community:
 
 - Setting up events, such as office hours, pair programming sessions, or even livestreaming our work.
 - An end-user focused Matrix channel
-- A way for users to vote on [Roadmap](../product/roadmap.md) items.
+- A way for users to vote on [Roadmap](../archive/product/roadmap.md) items.
 
 Let us know if you have more ideas!
 

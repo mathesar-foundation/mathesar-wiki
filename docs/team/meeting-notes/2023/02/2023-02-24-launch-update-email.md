@@ -22,7 +22,7 @@ Here is the plan for next week:
 
 Team members who are free should work on (in priority order):
 1. Supporting team members working on launch blockers, if requested
-2. Any available tasks in Launch Nice to Haves: https://github.com/orgs/centerofci/projects/1/views/45
+2. Any available tasks in Launch Nice to Haves: https://github.com/orgs/centerofci/archive/projects/1/views/45
 3. Reviewing community PRs and generally engaging with the community.
 4. Reviewing GSoC project ideas and making sure the implementation details look good
 5. Reviewing our documentation and making improvements.

@@ -67,7 +67,7 @@ We have a HackMD template to make this easier, you can use it like so:
 
 ## After the meeting
 
-- Clean up the notes and publish them on the wiki, see [Meeting Notes](/meeting-notes).
+- Clean up the notes and publish them on the wiki, see Meeting Notes section.
 - Follow up with participants and other interested parties with decisions and action items.
 
 # Additional resources

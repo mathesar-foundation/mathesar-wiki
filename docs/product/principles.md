@@ -1,7 +1,7 @@
 # Product Principles
 
 !!! info "Information"
-    See also [Design Principles](/design/design-principles)
+    See also [Design Principles](/archive/product/design/principles)
 
 
 ## Product

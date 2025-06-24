@@ -5,7 +5,7 @@
 - Kriti extended current iteration to 2023-02-27
 - Some items in Launch nice-to-haves are moved to next week's iteration (e.g. load testing optimizing reflection)
 - Only left things in the current milestone that seem to have a reasonable chance of getting done
-- This view is up to date: https://github.com/orgs/centerofci/projects/1/views/47
+- This view is up to date: https://github.com/orgs/centerofci/archive/projects/1/views/47
 - What if demo site is not ready for lots of traffic?
     - We still launch. If it crashes, then oh well. Demo is just a nice-to-have.
 

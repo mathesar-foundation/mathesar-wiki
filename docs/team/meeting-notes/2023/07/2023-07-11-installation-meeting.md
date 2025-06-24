@@ -1,8 +1,8 @@
 # 2023-07-11 installation meeting
 
 ## Links
-- [Meeting notes: Parts I & II](/meeting-notes/2023-06/2023-06-13-installation-planning-meeting.md)
-- [Meeting notes: Part III](/meeting-notes/2023-07/2023-07-06-installation-meeting.md)
+- [Meeting notes: Parts I & II](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting)
+- [Meeting notes: Part III](/team/meeting-notes/2023/07/2023-07-06-installation-meeting)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## Notes

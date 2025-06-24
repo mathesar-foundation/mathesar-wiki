@@ -13,7 +13,7 @@ Hey all, 
 
 I am Jinxiao Li, a lucky Mathesar contributor at Google Summer of Code 2022. During this three-month coding period, I am delighted to work with [@Brent Moran](mailto:brent@mathesar-foundation.org) and [@Pavish Kumar Ramani Gopal](mailto:pavish@mathesar-foundation.org) to implement Mathesar database functions for JSON data types. I am very grateful for the support of every team member and the enjoyable time I spent on this project.
 
-The works are listed below at the Github links and you can also have a look at the project description [here](https://summerofcode.withgoogle.com/programs/2022/projects/ggLRaaH3). We implemented two main custom types for this goal: Mathesar JSON array and Mathesar JSON object. Most of the functions are settled down while a few are in progress but can be completed very soon. Feel free to leave comments and suggestions.
+The works are listed below at the Github links and you can also have a look at the project description [here](https://summerofcode.withgoogle.com/programs/2022/archive/projects/ggLRaaH3). We implemented two main custom types for this goal: Mathesar JSON array and Mathesar JSON object. Most of the functions are settled down while a few are in progress but can be completed very soon. Feel free to leave comments and suggestions.
 
 **JSON type reading and casting implementation**
 

@@ -120,8 +120,8 @@ When a Markdown page links to another Markdown page, follow these patterns:
 | - | - |
 | Relative child | `[Lorem ipsum](./foo/lorem.md)` |
 | Relative ancestor | `[Lorem ipsum](../../lorem.md)` |
-| Absolute path | `[Lorem ipsum](/foo/bar/lorem.md)` |
-| Index page | `[Lorem ipsum](/foo/bar/lorem/index.md)` |
+| Absolute path | `[Lorem ipsum](/foo/bar/lorem)` |
+| Index page | `[Lorem ipsum](/foo/bar/lorem/index)` |
 | Section in current page | `[Lorem ipsum](#lorem-ipsum)` |
 | Section in different page | `[Lorem ipsum](./foo/bar.md#lorem-ipsum)` |
 

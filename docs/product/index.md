@@ -48,5 +48,4 @@ Data is valuable and shouldn’t be tied to using a specific proprietary service
 
 
 ## Further reading
-- [Tool Category Exploration](/design/reports/tool-category) - *Report on initial research towards defining Mathesar's scope*
-- [Product Concepts](/product/concepts)
+- [Tool Category Exploration](/archive/product/design/reports/tool-category) - *Report on initial research towards defining Mathesar's scope*

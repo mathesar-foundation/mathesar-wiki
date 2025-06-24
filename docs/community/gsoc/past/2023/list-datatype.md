@@ -3,7 +3,7 @@
 In this report we will talk about the scope and goals of the project:  List data type. Considerations and difficulties are also discussed, as well as the project's current state. Finally, a future work line is given.
 
 ## Introduction
-The `List` data type project is about adding support to the `Array` Postgres type in Mathesar. One important detail to highlight is that we were only going to consider the **1-dimensional case** of arrays, as this is the most common use case (and it was also going to save us dealing with some complexities that we're going to review below). The features originally proposed to be implemented are detailed in the [project's page](/projects/list-datatype).
+The `List` data type project is about adding support to the `Array` Postgres type in Mathesar. One important detail to highlight is that we were only going to consider the **1-dimensional case** of arrays, as this is the most common use case (and it was also going to save us dealing with some complexities that we're going to review below). The features originally proposed to be implemented are detailed in the [project's page]/archive/product/projects/2023/07/list-datatype).
 
 ### Preliminaries
 An `Array` is not a data type per se, but a data structure that holds values of a certain data type. It is not supported by all the SQL databases, but Postgres does. A common array is a structure characterized by having a length and dimension. E.g.
@@ -185,7 +185,7 @@ Any data type can have its "array version" . Therefore, it doesn't seem a good i
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
 A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
-![ui_create_list_col.png](/product/list_datatype_project/ui_create_list_col.png)
+![ui_create_list_col.png](/assets/archive/product/projects/2023/07/list-datatype/ui_create_list_col.png)
 
 Also, consider using the term "Array" instead of "list", as the first one encloses n-dimensional arrays too (which will be supported in the future) and operations that work with them.
 

@@ -61,8 +61,8 @@ Users should be able able to create kanban boards on top of the tabular data. Th
 ## Resources
 
 - [What is a Kanban board?](https://en.wikipedia.org/wiki/Kanban_board)
-- [How grouping works currently?](../../../design/specs/filter-sort-group.md)
-- [Examples of existing design specs](../../../design/specs)
+- [How grouping works currently?](/archive/product/design/specs/filter-sort-group.md)
+- [Examples of existing design specs](/archive/product/design/specs)
 - [Running the codebase locally](https://github.com/mathesar-foundation/mathesar/blob/master/README.md#local-development)
 
 ## Mentors

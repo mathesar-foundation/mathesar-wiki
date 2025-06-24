@@ -2,7 +2,7 @@
 
 ## The Problem
 !!! info "Information"
-    This is related to [Break Columns out to New Table](/community/mentoring/project-ideas/break-out-columns), please read that project idea first.
+    This is related to [Break Columns out to New Table](/community/gsoc/project-ideas/break-out-columns), please read that project idea first.
 
 
 
@@ -34,4 +34,4 @@ The successful candidate would understand the motivation for normalizing a datab
 - **Primary Mentor**: Brent Moran
 - **Backup Mentor**: Kriti Godey
 
-See our [Team Members](/team/members) page for Matrix and GitHub handles of mentors.
+See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
