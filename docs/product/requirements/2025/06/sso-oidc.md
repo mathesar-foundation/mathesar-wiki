@@ -114,6 +114,7 @@ We should:
 - update mathesar.org and our `README.md` to include SSO in tandem with the next release.
 	- On mathesar.org, this should include the homepage, product page, and a few use cases.
 - consider posting on self-hosting communities to let people know that we have SSO.
+- consider adding ourselves to https://ssotax.org/friends-of-sso.html
 
 ## Use Cases
 
