@@ -15,8 +15,9 @@ These pages relate to Mathesar's development.
 
 These pages relate to managing the community of contributors around the project, but are also applicable to the product development workflow.
 
-- [Issue Triage](/team/guide/issues) - *How to triage incoming issues, including ones you make yourself*
-- [Issue Assignment](/team/guide/issues) - *How to assign issues to interested contributors or yourself*
+- [Issue Triage and Assignment](/team/guide/issues) - *How to triage incoming issues, including ones you make yourself*
+- [Syften Keyword Alerts Guide](/team/guide/syften-keyword-alerts.md)
+
 
 ## Other
 
