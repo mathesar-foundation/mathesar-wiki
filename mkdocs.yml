@@ -10,7 +10,9 @@ plugins:
   - awesome-nav
   - htmlproofer:
       validate_external_urls: False
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#2c3037"
   - redirects:
       redirect_maps:
         'community/setup_in_windows.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
