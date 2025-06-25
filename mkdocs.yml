@@ -10,6 +10,7 @@ plugins:
   - awesome-nav
   - htmlproofer:
       validate_external_urls: False
+  - social
   - redirects:
       redirect_maps:
         'community/setup_in_windows.md': 'https://github.com/mathesar-foundation/mathesar/blob/develop/DEVELOPER_GUIDE.md'
