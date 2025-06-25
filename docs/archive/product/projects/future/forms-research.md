@@ -51,10 +51,10 @@ This project should take **5 weeks**.
 
 | Date | Outcome |
 | - | - |
-| 2023-06-02 | Qualifying survey built | 
-| 2023-06-?? | Qualifying survey begins | 
-| 2023-06-?? | Qualifying survey ends | 
-| 2023-06-?? | Qualifying survey analyzed | 
-| 2023-06-?? | Qualitative interviews begin | 
-| 2023-06-?? | Qualitative interviews end | 
+| 2023-06-02 | Qualifying survey built |
+| 2023-06-?? | Qualifying survey begins |
+| 2023-06-?? | Qualifying survey ends |
+| 2023-06-?? | Qualifying survey analyzed |
+| 2023-06-?? | Qualitative interviews begin |
+| 2023-06-?? | Qualitative interviews end |
 | 2023-06-?? | Qualitative interviews analyzed | 

@@ -120,9 +120,9 @@ This project should take **13 weeks**.
 
 | Date | Outcome |
 | - | - |
-| 2023-05-01 | Product specification starts | 
-| 2023-05-19 | Implementation spec complete | 
-| 2023-05-24 | Implementation spec approved | 
+| 2023-05-01 | Product specification starts |
+| 2023-05-19 | Implementation spec complete |
+| 2023-05-24 | Implementation spec approved |
 | 2023-06-22 | Design work complete |
 | 2023-07-03 | Backend work complete |
 | 2023-07-05 | Frontend work complete |

@@ -55,7 +55,7 @@ The plan is more high level, since individual tasks will be tracked using GH iss
 
 | Date | Outcome |
 | - | - |
-| 2023-04-10 | Work starts. | 
+| 2023-04-10 | Work starts. |
 | 2023-04-18 | Design work related to switching user databases is complete. |
 | 2023-04-18 | Backend work related to switching user databases is complete. |
 | 2023-04-25 | Frontend work related to switching user databases is complete. |

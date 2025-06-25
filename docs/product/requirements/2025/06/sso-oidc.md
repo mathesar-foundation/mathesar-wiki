@@ -1,5 +1,11 @@
 # SSO (OIDC)
 
+| **Role** | **Person** | **Status** |
+|-|-|-|
+| **Author** |  Kriti Godey | ✅ Complete |
+| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
+| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+
 ## The Problem
 
 Mathesar users would like to reduce the number of separate passwords they need to use.

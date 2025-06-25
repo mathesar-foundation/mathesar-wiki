@@ -28,7 +28,7 @@ This project should take **5 days**, subject to possible delay due to review fee
 
 | Date | Outcome |
 | - | - |
-| 2023-06-26 | Work begins | 
-| 2023-06-28 | Product spec is sent for review | 
-| 2023-06-29 | Review is completed | 
+| 2023-06-26 | Work begins |
+| 2023-06-28 | Product spec is sent for review |
+| 2023-06-29 | Review is completed |
 | 2023-06-30 | Feedback and iterations are complete. Work begins on implementation project. |

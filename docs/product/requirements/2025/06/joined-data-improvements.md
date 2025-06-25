@@ -1,5 +1,11 @@
 # Working with Joined Data
 
+| **Role** | **Person** | **Status** |
+|-|-|-|
+| **Author** |  Kriti Godey | ✅ Complete |
+| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
+| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+
 ## The Problem
 
 Mathesar users would like an easy way to view and edit data from related tables while looking at a table.

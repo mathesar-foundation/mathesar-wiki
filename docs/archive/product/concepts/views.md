@@ -56,10 +56,10 @@ In order to track the data necessary to answer these questions, here's a possibl
 |-|-|-|
 | 67 | 13 | 45 |
 | 68 | 22 | 45 |
-| 69 | 33 | 34 | 
+| 69 | 33 | 34 |
 | 70 | 41 | 34 |
 | 89 | 13 | 71 |
-| 97 | 33 | 83 | 
+| 97 | 33 | 83 |
 | .. | .. | .. |
 
 ##### Movie Watch
@@ -67,7 +67,7 @@ In order to track the data necessary to answer these questions, here's a possibl
 |-|-|-|
 | 91 | 13 | 2021-10-13 |
 | 100 | 22 | 2021-10-01 |
-| 104 | 33 | 2021-09-23 | 
+| 104 | 33 | 2021-09-23 |
 | 190 | 41 | 2021-08-12 |
 | 203 | 13 | 2019-01-20 |
 | .. | .. | .. |
@@ -77,7 +77,7 @@ As is obvious, none of these tables answer your questions by themselves, even wh
 
 Imagine a view with this structure:
 
-| ID | Title | Actors | Last Watched | Times Watched | Language | Release Year | 
+| ID | Title | Actors | Last Watched | Times Watched | Language | Release Year |
 |-|-|-|-|-|-|-|
 | 13 | Thelma & Louise | Brad Pitt, Geena Davis | 2021-10-13 | 2 | English | 1991 |
 | 22 | Meet Joe Black | Brad Pitt | 2021-10-01 | 1 | English | 1998 |

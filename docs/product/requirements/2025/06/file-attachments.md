@@ -1,5 +1,11 @@
 # File Attachments
 
+| **Role** | **Person** | **Status** |
+|-|-|-|
+| **Author** |  Zack Krida | ✅ Complete |
+| **Reviewer** | Kriti Godey | :yellow_circle: Reviewing |
+| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+
 ## Problem we're solving
 
 Users need to associate files with individual records in their tables, and they prefer to add, view, and remove these files in context with their associated data. They need to determine which records do or do not have required files. Without built-in file support, users are forced to rely on third-party tools and fragmented workflows.

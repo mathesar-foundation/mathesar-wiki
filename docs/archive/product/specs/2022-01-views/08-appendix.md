@@ -27,10 +27,10 @@ These tables and views are used to illustrate concepts in other parts of this sp
 |-|-|-|
 | 67 | 13 | 45 |
 | 68 | 22 | 45 |
-| 69 | 33 | 34 | 
+| 69 | 33 | 34 |
 | 70 | 41 | 34 |
 | 89 | 13 | 71 |
-| 97 | 33 | 83 | 
+| 97 | 33 | 83 |
 | 99 | 33 | 84 |
 
 ### Views

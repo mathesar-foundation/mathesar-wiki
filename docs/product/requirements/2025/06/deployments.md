@@ -1,5 +1,12 @@
 # Additional Deployment Options
 
+| **Role** | **Person** | **Status** |
+|-|-|-|
+| **Author** |  Kriti Godey | ✅ Complete |
+| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
+| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+
+
 ## The Problem
 
 Additional deployment options are actually solving four different problems:
