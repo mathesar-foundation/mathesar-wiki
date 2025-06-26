@@ -23,10 +23,10 @@
 	What are our externally measurable success criteria?
 	How much time is it worth spending on solving this problem (T-shirt size)?
 
-## User Stories
+## Requirements
 
-!!! example "Write user stories."
-	Classic user stories.
+!!! example "Write requirements."
+	Classic user stories or basic requirements.
 	
 ## Use Cases
 
