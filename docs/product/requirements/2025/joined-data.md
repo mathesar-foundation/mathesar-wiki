@@ -1,10 +1,13 @@
-# Working with Joined Data
+# Requirements Template
+
+!!! example "Add stakeholders"
+	Add new stakeholders to the table below.
 
 | **Role** | **Person** | **Status** |
 |-|-|-|
-| **Author** |  Kriti Godey | ✅ Complete |
-| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
-| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+| **Author** | Kriti Godey |  🟢 Done |
+| **Reviewer** | Brent Moran | 🔵 In review|
+| **Reviewer** | Zack Krida | 🔵 In review |
 
 ## The Problem
 
@@ -31,6 +34,16 @@ Users have told us they cannot adopt Mathesar without this process being easier,
 
 Yes, it will require design changes, but it’s absolutely feasible. We’ve already done the technical feasibility work on this as part of Worksheets and Table Query Integration investigation so I will not repeat it here.
 
+
+## Success Criteria
+
+How we'll know we've succeeded with our goals:
+
+* Users who’ve requested the feature saying that it works for them.  
+* Kriti being able to do product planning in Mathesar.  
+* People using this feature, as shown in analytics.
+* Uptick in DAUs and MAUs (may not be conclusively linked to this feature).
+
 ## Requirements
 
 Minimum necessary:
@@ -55,39 +68,6 @@ Additional scope (not necessary for MVP):
 	* Multiple paths to the table
 	* Natural joins
 
-## Out of Scope 
-
-* Any additional query building functionality – only adding / removing columns that already exist.  
-* Adding records that are not one-to-many  
-* Any summarizations or transformations that aren’t lists.  
-* Changing any existing table page functionality.  
-* Editing / deleting related records – only adding / removing them or creating them are in scope.  
-* Adding new related records with complex constraints.
-
-## Evaluation and Guardrails
-
-How we'll know we've succeeded with our goals:
-
-* Users who’ve requested the feature saying that it works for them.  
-* Kriti being able to do product planning in Mathesar.  
-* People using this feature, as shown in analytics.
-* Uptick in DAUs and MAUs (may not be conclusively linked to this feature).
-
-Things to watch out for while implementing:
-
-* Scope creep and competing goals. We need to focus on fixing only this one issue.  
-* Optimizing for edge cases.
-
-## Community Engagement
-
-We should:
-
-- seek input from community members who have asked for this, to ensure that we're building the right set of features and addressing their use cases.
-- update mathesar.org and our `README.md` to include this as a featured use case.
-	- On mathesar.org, this should include the product page and a few use cases.
-	- We may want to create a new use case built around this feature because this unlocks a lot of workflows.
-	- We'll need new screenshots too.
-
 ## Use Case
 
 I’m just using myself as the user here. I have a [product planning schema](https://internal.mathesar.org/db/8/schemas/49870/) in Mathesar. 
@@ -107,21 +87,3 @@ I also realized midway through making this schema that I want to associate multi
 * Manipulate impacts associated with an idea in the same way as categories.
 
 I don’t want to keep adding these columns every time, so I’d like to save this as my default view of the table, since I always use this the same way.
-
-
-## Comparison to Prior Work
-
-**Worksheets:** 
-
-* No new query paradigm, just added functionality to the query page.  
-* Functionality is limited to what solves the immediate problem, but can be extended for future problems.  
-* Tables are still the central organizing concept.
-
-**Prior design concepts:** 
-
-*We have had a bunch of designs related to this before.*
-
-* [One-to-Many Relationships \- Mathesar Wiki](https://wiki.mathesar.org/design/specs/views-one-to-many-relationships/)  
-* [Multiple Records Associated with a Single Record \- Mathesar Wiki](https://wiki.mathesar.org/design/specs/multiple-records-spec/)  
-* [Editing Records Within a View \- Mathesar Wiki](https://wiki.mathesar.org/design/specs/eding-view-records/)
-
