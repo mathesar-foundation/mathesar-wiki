@@ -61,13 +61,17 @@ User Experience:
 
 ## High-Level Implementation Plan
 
-!!! example "Create high-level plan."
-	- Types of work needed: design / backend / frontend / documentation / other.
-	- Types of work output for each type of work.
-	- Stakeholders / reviewers / implementers.
-	- Infrastructure needs.
-	- Workflow: who does what, in what order.
-	- Rough timeline.
+**Work needed**: Backend
+
+**Stakeholders**:
+
+- Anish (implmenter)
+- Brent (reviewer)
+- Kriti (docs & user-facing items approver)
+
+**Workflow**: usual code workflow + Kriti reviews.
+
+**Rough timeline:** 0.4.0
 
 ## Community Engagement
 
