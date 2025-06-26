@@ -1,11 +1,10 @@
-# Additional Deployment Options
+# Expanded Deployment Options
 
 | **Role** | **Person** | **Status** |
 |-|-|-|
-| **Author** |  Kriti Godey | ✅ Complete |
-| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
-| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
-
+| **Author** | Kriti Godey | 🟢 Done |
+| **Reviewer** | Brent Moran | 🟠 In revision |
+| **Reviewer** | Zack Krida | 🟢 Approved |
 
 ## The Problem
 
@@ -47,8 +46,7 @@ It helps us grow by:
 
 Yes\! It’s not feasible to implement *every single* way to deploy Mathesar, but there’s some low-hanging fruit that could have a real impact.
 
-
-## Evaluation and Guardrails
+## Success Criteria
 
 How we'll know we've succeeded with our goals:
 
@@ -57,140 +55,21 @@ How we'll know we've succeeded with our goals:
 * Ideally we also get an uptick in user feedback / new issues, etc, but that should not be a formal success criterion since that also depends on other issues. 
 * The number and variety of installation methods we offer are equivalent to other products in the ecosystem.
 
-Things to watch out for while implementing:
-
-* Not making installation methods easily discoverable in our documentation. See [Self-hosting](https://nocodb.com/docs/self-hosting) (NocoDB) and [Install with Docker](https://baserow.io/docs/installation%2Finstall-with-docker) (Baserow, see sidebar) for positive examples.
-* Trying to make our documentation too preemptively perfect – let’s just put it out there.
-* Not implementing things because of prioritizing hypothetical maintainability concerns, or not imagining that something might be useful, or worrying about cluttering the documentation (these have all come up in the past).
-* Spending a lot of time stuck on one installation method without raising it / figuring out if we should keep going.
-
-
 ## Requirements
 
 This is not a single task, it is a series of discrete tasks. Each task may be fairly small. We should aim to get 1 thing from this list shipped every week, in order of highest leverage.
 
-**Initial Goals:** Get Mathesar integrated into a variety of different categories of platform, prioritizing low effort and high impact outcomes.
+**Initial Goals**: Get Mathesar integrated into a variety of different categories of platform, prioritizing low effort and high impact outcomes. We'll focus on:
 
-### Supabase
+- 1 x hosted Postgres platform
+- 1 x popular DevOps tool
+- 2-3 x one-click PaaS services
+- 1 x self-hosted PaaS
+- 1 x IaaS service
 
-*Why?*: Postgres-specificity + reach + potential for discoverability.
-
-- The [Supabase partner integration page](https://supabase.com/partners/integrations) should include Mathesar. 
-- Our documentation should link to the Supabase integration and an accompanying guide about how to use Supabase with Mathesar.
-	- Also review docs for how well it explains RLS, how to set up a DB without allowing DDL changes, and how to set up roles and permissions.
-- We should publish a blog post about how to set up RLS in Supabase / Postgres generally and use it with Mathesar.
-- We should track analytics of how much traffic and clicks all this is generating, both for the Supabase specific items as well as generally.
-
-Example: [Directus's Supabase integration](https://supabase.com/partners/integrations/directus) shows how to demonstrate integration with a self-hosted project.
-
-*Maps to use case: Frances*  
-*Maps to category: Hosted Postgres / backend services*
-
-### Helm chart
-
-*Why?*: Integrates into existing infrastructure, user requests.
-
-- Users should be able to install Mathesar via a Helm chart. available in a repo.  
-	- Potentially multiple types of helm charts based on structure. 
-- Our documentation should link to those charts as a first class citizen in the installation section, with accompanying documentation on how to use them.
-- We should track analytics of how much traffic and clicks all this is generating, both for the Helm specific items as well as generally.
-
-*Maps to use case: Frances*  
-*Maps to category: DevOps tools*
-
-### DigitalOcean
-
-*Why?*: Quick implementation time, helps people evaluate, makes Mathesar deployment accessible without CLI.
-
-- Users should be able to find and install Mathesar in the [DigitalOcean Marketplace](https://marketplace.digitalocean.com/) as a [one-click app](https://docs.digitalocean.com/products/marketplace/droplet-1-click-apps/). 
-- Our documentation should include deploying with Digital Ocean as a first class citizen in the installation section, with accompanying documentation on how to work with it.
-	- The user should be able to complete the setup without ever using the command line or having to make any decisions about database size, SSL, etc.
-	- The setup should take less than 15 minutes and produce a working HTTPS endpoint with a login screen.
-	- We need to be able to help non-technical users find their organization’s existing DB and connect it to Mathesar in the UI or docs. We can’t assume as much technical familiarity when they’re doing a one-click deploy.
-- Our README and documentation should include a [one-click deploy button](https://www.digitalocean.com/community/tutorials/one-click-deploy-button).
-- We should track analytics of how much traffic and clicks all this is generating, both for the Digital Ocean specific items as well as generally.
-
-*Maps to use case: Blair*  
-*Maps to category: Simple platforms*
-
-### Railway
-
-*Why?*: Quick implementation time, helps people evaluate, makes Mathesar deployment accessible without CLI.
-
-- Users should be able to find and install Mathesar on [Railway](https://railway.com/) as a [one-click app](https://railway.com/deploy). 
-- Our documentation should include deploying with Railway as a first class citizen in the installation section, with accompanying documentation on how to work with it.
-- Our README and documentation should include a [one-click deploy button](https://www.digitalocean.com/community/tutorials/one-click-deploy-button).
-	- We need to be able to help non-technical users find their organization’s existing DB and connect it to Mathesar in the UI or docs. We can’t assume as much technical familiarity when they’re doing a one-click deploy.
-- We should track analytics of how much traffic and clicks all this is generating, both for the Railway specific items as well as generally.
-
-*Maps to use case: Drew*  
-*Maps to category: Simple platforms, Developer-focused PaaS*
-
-### Cloudron
-
-*Why?*: Works for self-hosters, expanding platform diversity.
-
-- Users should be able to find and install Mathesar through [Cloudron](https://www.cloudron.io/).
-- Our documentation should include deploying with Cloudron as a first class citizen in the installation section, with accompanying documentation on how to work with it.
-- We should track analytics of how much traffic and clicks all this is generating, both for the Cloudron specific items as well as generally.
-
-*Maps to use case: Isa*  
-*Maps to category: Self-hosted PaaS*
-
-### Fly.io
-
-*Why?*: Expands platform diversity to more developer-focused tooling.
-
-- Users should be able to find and install Mathesar through [fly.io](http://fly.io).
-- Our documentation should include deploying with fly.io as a first class citizen in the installation section, with accompanying documentation on how to work with it.
-- We should track analytics of how much traffic and clicks all this is generating, both for the fly.io specific items as well as generally.
-
-*Maps to use case: Casey*  
-*Maps to category: Developer-focused PaaS*
-
-### Google Cloud Platform
-
-*Why?*: Big Three cloud infrastructure platform, expands platform diversity.
-
-- Users should be able to find and install Mathesar through the [Google Cloud Marketplace](https://cloud.google.com/marketplace?hl=en).
-- We should write guides for how to set up Mathesar with GCP, such that they are foolproof to follow and follow GCP best practices and networking.
-	- Using CloudSQL
-	- Using Helm + GKE
-	- Using a VM
-
-*Maps to use case: Gray*  
-*Maps to category: Cloud IaaS*
-
----
-
-*We will evaluate what’s next for this project after we complete implementation of the above, based on our current user base and the efficacy of all the things we've already done.* 
-
-
-## Community Engagement
-
-We should:
-
-- seek input from community members who have asked for additional deployment options, to ensure that we're building the right set of features and addressing their use cases.
-- set up a Community Guides section of our docs so that we can ask people to contribute their setups.
-- update our blog with every new guide we write, even if it also goes on our documentation website.
-- consider updating website copy with each new deployment method.
-- consider posting on platform-specific or self-hosting communities when we add a new platform.
-- consider adding one-click buttons to our website.
-
-## What We’re Not Doing (Yet)
-
-These issues came up in the user stories below, but we're not prioritizing them.
-
-* Updating UI documentation with screenshots for people to use to train other people.
-	* Too much work; too unrelated to this project.
-* AWS *and* GCP
-	* We should only start with one here since it’ll be a lot of work.
-	* Depends on what our users use more.
-* Anything to do with the use cases of:
-	* Harper, on-premise engineer.
-	* John, Mac user.
-	* Elliot: AWS user (unless we substitute him for Gray and do AWS instead of GCP).
-
+!!! example "Write user stories."
+	Classic user stories.
+	
 ## Use Cases
 
 I thought it would be useful to consider a wide range of potential installers so that we could be thoughtful about what we can support and what we’re putting off. Only some of them have been prioritized for the actual proposal.
@@ -341,26 +220,7 @@ User stories:
 5. John wants Mathesar to install with local defaults (e.g., SQLite or bundled Postgres) if he doesn’t configure anything, so he can test it instantly.
 6. John wants to uninstall Mathesar cleanly using `brew uninstall mathesar` and remove any runtime artifacts, so his system stays clean.
 
-## Comparison of hosting platforms vs. benefits
-
-| 🏁Targets to prioritize | **🏋️Effort**  | **🚨Urgency** | **⚠️Importance** | 🚧Evaluating Mathesar for production use | ⚒️ Integrating into their own infra | 🚢 Discovering Mathesar through a tool they use| 🧱Aiming to make prod. deployment easier |
-|---|---|---|---|---|---|---|---|
-| | | | | 🧑‍💻Semi-technical users deploying Mathesar | 🧪 Test with their own secure data | ⭐ Social-proof validation through integrations | 📡 Real-world signal from reproducible methods  |
-| **As many as possible** (meta) | N/A |  | *N/A* | ❌ We only need a couple simple ones for this cohort | ✅ We need to integrate with as many platforms as people use. | ✅ More people will discover us if we’re more places | 🟨 We’re likely to get most benefits with this cohort with a few well chosen platforms. |
-| **Simpler PaaS**<br>Digital Ocean<br>Heroku<br>Railway<br>etc. |  | **Medium**<br>Not blocking anything | **High**<br>Removes adoption barrier | ✅ People don’t want to spend time deploying to evaluate or if they’re non-technical | ❌ People who’ve invested in infrastructure usually end up at a bigger cloud marketplace. | 🟨 Some people will discover us here, but people who tend to be discovering things through platforms are likely bigger.  | ✅ People who just want to deploy Mathesar will appreciate easy deployment options.   |
-| **Cheaper hosts**<br>Dreamhost, etc. | **Medium**<br>Don’t usually support Docker out of the box | **Low**<br>No one asked for this | **Low**<br>There are other ways to solve low-cost evaluation | ✅ People don’t want to pay much to evaluate | ❌ See above. | ❌ See above. | 🟨 Easy deployment doesn’t usually mean cheap. |
-| **Cloud IaaS**<br>GCP, AWS, Azure, IBM etc. | **Medium**<br>May need approval & learning platform specifics | **Medium**<br>Not blocking anything, although people have asked. | **High**<br>We have often seen people deploy on these, people have asked us for an AMI. | ❌ Not always likely to have AWS etc. accounts | ✅ Definitely the place to be for integrating into existing infrastructure. | 🟨 People do discover things on AWS and GCP, but may be better on smaller platforms. | 🟨 Cloud infrastructure is sometimes hard to deploy. |
-| **DevOps tools**<br>Helm chart<br>Terraform modules<br>Ansible playbook<br>Kubernetes operator<br>Packer template<br>etc. | **Medium**<br>This needs some learning | **Medium**<br>Not blocking anything, although people have asked. | **High**<br>People have also asked us repeatedly for a helm chart. | ❌ Too technical | ✅ Often necessary | ✅ Often necessary | 🟨 Sometimes too technical, sometimes helpful. |
-| **Postgres-like DBs**<br>Citus<br>TimescaleDB (TigerData)<br>Yugabyte<br>CockroachDB<br>Babelfish<br>AWS Aurora<br>Materialize<br>etc. | **High**<br> Often don’t support Postgres features we depend on. | **Low**<br>Not many asks for it. | **Low**<br>No use case we know of. | ❌ Too technical | 🟨 Sometimes a key part of their stack, sometimes too specialized to need Mathesar. | 🟨 Could be a source of growth if we find one that works well. | ❌ Not likely to be helpful here. |
-| **Frontend platforms**<br>Vercel, Netlify, etc. | **Medium**<br>This needs us to figure out the platform. | **Medium**<br>Seems like they would be a good place for discovery. | **Medium**<br>This is expansive rather than unblocking. | 🟨 People are more likely to be looking for DBs if they’re users of these platforms. | 🟨 Depending on the team, they may rely more on these platforms. | ✅ This seems like a good place for discovery. | ✅ People who use these platforms are likely looking for a quick deployment. |
-| **Backend platforms**<br>Supabase, etc. | **Low**<br>They use Postgres, we just need a guide on how to connect to it. | **High**<br>Postgres-specific platform with high reach. | **High**<br>Likely strong overlap in users. | 🟨 Potentially, people who have a Supabase DB are likely to want quick evaluation. | 🟨 Supabase is definitely a popular tool. | ✅ This seems like a good place for discovery. | ✅ People who use these platforms are likely looking for a quick deployment. |
-| **Developer-focused PaaS** <br>fly.io<br>Railway<br>Koyeb<br>Render<br>etc. | **Medium**<br>This needs us to figure out the platform. | **Medium**<br>Seems important to our user base. | **Medium**<br>Seems like a good platform to be on eventually. | ❌ Too focused on high-performance and serverless. | 🟨 *Maybe*. Seems a bit specialized.  | 🟨 *Maybe* – seems a bit specialized. | ✅ People who use these platforms are likely looking for a quick deployment. |
-| **Self-hosted PaaS**<br>Coolify<br>Cloudron<br>Caprover<br>etc. | **Medium**<br>This needs us to figure out the platform. | **Medium**<br>Seems important to our user base. | **Medium**<br>Seems like a good platform to be on eventually. | ❌ Definitely not self-hosters | 🟨 Seems less likely for orgs, but people who use these seem like they really use them. | ❌ Seems less likely to spawn discovery. | 🟨 Only for people who bought into this particular ecosystem.  |
-| **Managed Postgres**<br>Neon, Nile, Crunchy Bridge, ScaleGrid, Aiven, Prisma Postgres, etc. | **Medium**<br>This needs us to figure out the platform. | **Medium**<br>Postgres-specific is good for us | **High**<br>Seems good for distribution. | ❌ Seems too specialized for this group of people. | ✅ Seems really good for people who actually use Postgres a lot. | ✅ Seems like a good place for people in the Postgres ecosystem to discover things. | 🟨 People who are using hosted Postgres may want easier deploys for Mathesar.  |
-| **Local installation**<br>apt package, snap, flatpak, AppImage, Homebrew, podman, systemd, Nix | **High**<br>Needs individual support per platform. | **Medium-low**<br>People asked for it in the past but not recently. | **Medium-low**<br>No specific use case we know of. | 🟨 Too technical? Evaluating *could* happen locally, but Docker should cover that. | ❌ Existing infrastructure is usually not local. | ❌ No discovery happening here. | ❌ Deployment is probably not happening locally. |
-
-
-## Comparison of user personas
+### Comparison of user personas
 
 | 🧑‍💻Persona   | Background | Motivation | Needs | Constraints | Behavior | Environment |
 |---|---|---|---|---|---|---|
@@ -374,39 +234,3 @@ User stories:
 | **🚧⚒️Harper**  | Works at a mid-size company with strict data policies.  The Postgres DB runs on bare-metal in a secured internal network. | Wants Mathesar for ops and finance teams to self-serve data reporting, but can’t put data or tools in the cloud. | Install Mathesar inside their firewalled network, ideally via Docker Compose. Configure it to connect to existing internal DB without breaking security assumptions. Manage auth via internal LDAP or SSO.  | No cloud, no external network access, no public Docker Hub. Needs to build from source or use pre-scanned container images. | Reads install docs carefully, runs things on airgapped servers, uses their own CA for SSL certs. | Airgapped internal network, no access to internet or cloud. Services run on physical servers, some virtualized with KVM or VMware. Postgres hosted locally, locked down by firewall \+ VPN access. TLS via internal CA; client machines trust this CA. Uses internal Docker registry; images are scanned and promoted manually. LDAP or Keycloak used for internal identity; no cloud auth permitted. Infrastructure maintained via shell scripts, Ansible, and occasional systemd services.      |
 | **⚒️🧱Isa**  | Isa manages a handful of apps for a community org and side projects. She uses CapRover to avoid dealing with Docker or cloud config directly. Her stack includes Ghost, Outline, Plausible, and Postgres (via a CapRover one-click app). | Isa wants to use Mathesar to give non-technical volunteers a way to edit structured data—like translation strings, schedule data, or membership records—without building custom UIs or giving raw DB access. | Isa wants to install Mathesar from an app catalog with a few clicks. She doesn’t want to manage Dockerfiles, ports, or SSL. Must deploy through CapRover’s GUI and use its container orchestration. Prefers UI-based deployment.   | Cannot use command-line tooling to install or configure apps. Might use built-in Postgres from the platform or link to external DB. Will not run SSL setup scripts or reverse proxies manually. Prefers apps that behave like other CapRover-deployed tools—one click, then domain \+ login.  | Isa starts by scanning CapRover’s “One Click Apps” list for anything that might be a UI for Postgres. If Mathesar isn’t there, Isa looks for a `captain-definition` file or a deployable Docker image with clear setup instructions. Isa uses the CapRover UI exclusively—logs into the dashboard, picks “Apps > One Click App,” fills out env vars in a web form, and clicks deploy. Once deployed, Isa uses the “Visit App” button in CapRover to verify it loads under HTTPS. Isa pastes in DB credentials during setup, copied from CapRover’s own Postgres app output. If Mathesar doesn’t connect on first try, Isa reopens the CapRover UI and looks for logs via the “App Logs” tab. After first login, Isa manually creates 2–3 user accounts and sends links to teammates via email. If any problems arise, Isa searches the Mathesar GitHub issues, CapRover forums, or posts a question tagged "self-host" on a community thread.       | CapRover installed on a small VPS (1 core, 2 GB RAM, 50 GB SSD). CapRover's one-click Postgres container already running. Uses CapRover UI to deploy all services. Public domain with auto-SSL via CapRover’s built-in Let’s Encrypt integration.   |
 | **🚧John** | John is a macOS-native developer who tries out new open source tools locally before considering them for work or side projects. Uses `brew` for everything: installs Redis, postgres, psql, httpie, etc. | John saw Mathesar on GitHub or Hacker News and wants to see if it’s a viable lightweight Airtable replacement. His DB is a local Postgres instance from Homebrew, already populated with app data. | He installs Mathesar with `brew install mathesar` or `brew tap mathesar/cli`. Expects a local server to run with `mathesar start` and launch in browser. Uses embedded Postgres for local test, or connects to test DB.  | Doesn’t use Docker unless necessary. Avoids GUI installers or browser-based setup wizards. Will abandon the tool if local install takes more than 10 minutes or requires registering accounts. Needs good local defaults. Fast setup and teardown expected.   | John finds Mathesar through GitHub or a blog post and immediately runs `brew install mathesar` or `brew tap mathesar/tap`. <br>After install, John runs `mathesar start`, expects it to spin up locally and open `http://localhost:8000` in the browser. <br>If it asks for DB config, John pastes in a connection string to his local dev database (`postgres://noah@localhost/myproject_dev`)<br>John tests the UI using real data from a side project—opens a table, changes a few rows, checks Postgres in another terminal to confirm it worked. <br>Any time something doesn’t work, John opens Console.app or terminal logs to look for stack traces or port conflicts.<br>John may file a GitHub issue or PR if something’s broken, but will move on if the tool isn’t usable in 10–15 minutes. <br>If satisfied, John may suggest the team use it internally, fork the repo, or write a wrapper script for quick reuse. | macOS Sonoma, using Terminal + iTerm + brew. <br><br>Local Postgres installed via `brew install postgresql@15`<br><br>Runs local services via `brew services start postgresql`. <br><br>Data lives in `myproject_dev` DB.<br><br>No Docker installed, avoids Compose setups for tests. |
-
-## Ecosystem Research
-
-### NocoDB
-
-For what it’s worth, NocoDB supports a few different types of hosting platforms, see all types below in the next section.
-
-**“Auto upstall”:** This is their default script meant for a Linux server that installs everything including Postgres, sets up a DB, sets up SSL, upgrades, etc. I think it’s meant to be idempotentent.
-
-**Simple platforms:** Digital Ocean, Railway, some other “one click deploy” buttons.
-
-**Cloud marketplaces:** AWS Fargate, GCP Cloud Run
-
-**DevOps tools:** Docker, Docker Compose, Helm chart
-
-**Local installation:** Homebrew, Nix/NixOS, npm
-
-**Self-hosted PaaS tools:** Cloudron, CapRover \+ they link to an external TrueNAS / FreeNAS guide.
-
-### Baserow
-
-Baserow supports a similar list of hosting services as NocoDB.
-
-**DevOps tools:** Docker, Docker Compose, Helm chart, K8S. They have images that contain all dependencies and are ready to go.
-
-**Simple platforms:** Digital Ocean, Heroku, Render, Railway \+ a page for other third-party hosting providers
-
-**Cloud marketplaces:** AWS Fargate / other ways of deploying on AWS using Docker & Kubernetes
-
-**Self-hosted PaaS tools:** Cloudron
-
-Additionally, they have:
-
-- Guides on how to set up various proxies: Traefix, nginx, Apache  
-- A guide on how to set up logging and monitoring  
-- A guide on how to save files securely
