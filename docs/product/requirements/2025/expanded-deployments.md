@@ -3,8 +3,8 @@
 | **Role** | **Person** | **Status** |
 |-|-|-|
 | **Author** | Kriti Godey | 🟢 Done |
-| **Reviewer** | Brent Moran | 🟠 In revision |
-| **Reviewer** | Zack Krida | 🟢 Approved |
+| **Reviewer** | Brent Moran | 🔵 In review |
+| **Reviewer** | Zack Krida | 🔵 In review |
 
 ## The Problem
 
