@@ -1,8 +1,5 @@
 # View and Edit Joined Data
 
-!!! example "Add stakeholders"
-	Add new stakeholders to the table below.
-
 | **Role** | **Person / Item** | **Status** |
 |-|-|-|
 | **Requirements** | [Working with Joined Data reqs](/product/requirements/2025/jouned-data) | |
@@ -12,7 +9,7 @@
 
 ## Solution
 
-- Starting at a table, add related one-to-one columns that are "enum like" (are either a FK pointing back to the table, or are a many-to-many table) to the table view. See the values in that column.  
+- Starting at a table, add related one-to-many columns that are "enum like" (are either a FK pointing back to the table, or are a many-to-many table) to the table view. See the values in that column.  
 - Adding and removing existing items to one-to-many columns from the cell displaying them, with autocomplete based on values. 
 
 ## Tradeoffs
