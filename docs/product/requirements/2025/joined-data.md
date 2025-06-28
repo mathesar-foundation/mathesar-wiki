@@ -31,6 +31,25 @@ Users have told us they cannot adopt Mathesar without this process being easier,
 
 Yes, it will require design changes, but it’s absolutely feasible. We’ve already done the technical feasibility work on this as part of Worksheets and Table Query Integration investigation so I will not repeat it here.
 
+## Use Case
+
+I’m just using myself as the user here. I have a [product planning schema](https://internal.mathesar.org/db/8/schemas/49870/) in Mathesar. 
+
+I think of the [**Ideas**](https://internal.mathesar.org/db/8/schemas/49870/tables/49873/) table as the primary concept in this schema.. I’m organizing product ideas. Everything else is scaffolding.
+
+Each idea has multiple [**categories**](https://internal.mathesar.org/db/8/schemas/49870/tables/49884/). In order to organize ideas in a way that’s useful to me, I need to have a single work area where I can:
+
+* Start from the ideas list and add in a category column so I can see all categories associated with an idea.  
+* Add and remove categories associated with an idea.  
+  * Create new categories inline if needed.
+
+I also realized midway through making this schema that I want to associate multiple [**impact**](https://internal.mathesar.org/db/8/schemas/49870/tables/49931/)s to the same idea. I’d like to be able to:
+
+* Extract the impact foreign key column into a mapping table and preserve existing mappings (this is tracked as a [GitHub issue](https://github.com/mathesar-foundation/mathesar/issues/4570)).  
+* Add the impact column to the ideas list (which already has the category column)  
+* Manipulate impacts associated with an idea in the same way as categories.
+
+I don’t want to keep adding these columns every time, so I’d like to save this as my default view of the table, since I always use this the same way.
 
 ## Success Criteria
 
@@ -64,23 +83,3 @@ Additional scope (not necessary for MVP):
 	* Any join distance
 	* Multiple paths to the table
 	* Natural joins
-
-## Use Case
-
-I’m just using myself as the user here. I have a [product planning schema](https://internal.mathesar.org/db/8/schemas/49870/) in Mathesar. 
-
-I think of the [**Ideas**](https://internal.mathesar.org/db/8/schemas/49870/tables/49873/) table as the primary concept in this schema.. I’m organizing product ideas. Everything else is scaffolding.
-
-Each idea has multiple [**categories**](https://internal.mathesar.org/db/8/schemas/49870/tables/49884/). In order to organize ideas in a way that’s useful to me, I need to have a single work area where I can:
-
-* Start from the ideas list and add in a category column so I can see all categories associated with an idea.  
-* Add and remove categories associated with an idea.  
-  * Create new categories inline if needed.
-
-I also realized midway through making this schema that I want to associate multiple [**impact**](https://internal.mathesar.org/db/8/schemas/49870/tables/49931/)s to the same idea. I’d like to be able to:
-
-* Extract the impact foreign key column into a mapping table and preserve existing mappings (this is tracked as a [GitHub issue](https://github.com/mathesar-foundation/mathesar/issues/4570)).  
-* Add the impact column to the ideas list (which already has the category column)  
-* Manipulate impacts associated with an idea in the same way as categories.
-
-I don’t want to keep adding these columns every time, so I’d like to save this as my default view of the table, since I always use this the same way.
