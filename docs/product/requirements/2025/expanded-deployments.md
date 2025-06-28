@@ -46,30 +46,6 @@ It helps us grow by:
 
 Yes\! It’s not feasible to implement *every single* way to deploy Mathesar, but there’s some low-hanging fruit that could have a real impact.
 
-## Success Criteria
-
-How we'll know we've succeeded with our goals:
-
-* We’re seeing more people installing Mathesar and using it (DAUs / MAUs trackable to that install method).
-* We’re specifically seeing people using any new installation method we set up.
-* Ideally we also get an uptick in user feedback / new issues, etc, but that should not be a formal success criterion since that also depends on other issues. 
-* The number and variety of installation methods we offer are equivalent to other products in the ecosystem.
-
-## Requirements
-
-This is not a single task, it is a series of discrete tasks. Each task may be fairly small. We should aim to get 1 thing from this list shipped every week, in order of highest leverage.
-
-**Initial Goals**: Get Mathesar integrated into a variety of different categories of platform, prioritizing low effort and high impact outcomes. We'll focus on:
-
-- 1 x hosted Postgres platform
-- 1 x popular DevOps tool
-- 2-3 x one-click PaaS services
-- 1 x self-hosted PaaS
-- 1 x IaaS service
-
-!!! example "Write user stories."
-	Classic user stories.
-	
 ## Use Cases
 
 I thought it would be useful to consider a wide range of potential installers so that we could be thoughtful about what we can support and what we’re putting off. Only some of them have been prioritized for the actual proposal.
@@ -234,3 +210,24 @@ User stories:
 | **🚧⚒️Harper**  | Works at a mid-size company with strict data policies.  The Postgres DB runs on bare-metal in a secured internal network. | Wants Mathesar for ops and finance teams to self-serve data reporting, but can’t put data or tools in the cloud. | Install Mathesar inside their firewalled network, ideally via Docker Compose. Configure it to connect to existing internal DB without breaking security assumptions. Manage auth via internal LDAP or SSO.  | No cloud, no external network access, no public Docker Hub. Needs to build from source or use pre-scanned container images. | Reads install docs carefully, runs things on airgapped servers, uses their own CA for SSL certs. | Airgapped internal network, no access to internet or cloud. Services run on physical servers, some virtualized with KVM or VMware. Postgres hosted locally, locked down by firewall \+ VPN access. TLS via internal CA; client machines trust this CA. Uses internal Docker registry; images are scanned and promoted manually. LDAP or Keycloak used for internal identity; no cloud auth permitted. Infrastructure maintained via shell scripts, Ansible, and occasional systemd services.      |
 | **⚒️🧱Isa**  | Isa manages a handful of apps for a community org and side projects. She uses CapRover to avoid dealing with Docker or cloud config directly. Her stack includes Ghost, Outline, Plausible, and Postgres (via a CapRover one-click app). | Isa wants to use Mathesar to give non-technical volunteers a way to edit structured data—like translation strings, schedule data, or membership records—without building custom UIs or giving raw DB access. | Isa wants to install Mathesar from an app catalog with a few clicks. She doesn’t want to manage Dockerfiles, ports, or SSL. Must deploy through CapRover’s GUI and use its container orchestration. Prefers UI-based deployment.   | Cannot use command-line tooling to install or configure apps. Might use built-in Postgres from the platform or link to external DB. Will not run SSL setup scripts or reverse proxies manually. Prefers apps that behave like other CapRover-deployed tools—one click, then domain \+ login.  | Isa starts by scanning CapRover’s “One Click Apps” list for anything that might be a UI for Postgres. If Mathesar isn’t there, Isa looks for a `captain-definition` file or a deployable Docker image with clear setup instructions. Isa uses the CapRover UI exclusively—logs into the dashboard, picks “Apps > One Click App,” fills out env vars in a web form, and clicks deploy. Once deployed, Isa uses the “Visit App” button in CapRover to verify it loads under HTTPS. Isa pastes in DB credentials during setup, copied from CapRover’s own Postgres app output. If Mathesar doesn’t connect on first try, Isa reopens the CapRover UI and looks for logs via the “App Logs” tab. After first login, Isa manually creates 2–3 user accounts and sends links to teammates via email. If any problems arise, Isa searches the Mathesar GitHub issues, CapRover forums, or posts a question tagged "self-host" on a community thread.       | CapRover installed on a small VPS (1 core, 2 GB RAM, 50 GB SSD). CapRover's one-click Postgres container already running. Uses CapRover UI to deploy all services. Public domain with auto-SSL via CapRover’s built-in Let’s Encrypt integration.   |
 | **🚧John** | John is a macOS-native developer who tries out new open source tools locally before considering them for work or side projects. Uses `brew` for everything: installs Redis, postgres, psql, httpie, etc. | John saw Mathesar on GitHub or Hacker News and wants to see if it’s a viable lightweight Airtable replacement. His DB is a local Postgres instance from Homebrew, already populated with app data. | He installs Mathesar with `brew install mathesar` or `brew tap mathesar/cli`. Expects a local server to run with `mathesar start` and launch in browser. Uses embedded Postgres for local test, or connects to test DB.  | Doesn’t use Docker unless necessary. Avoids GUI installers or browser-based setup wizards. Will abandon the tool if local install takes more than 10 minutes or requires registering accounts. Needs good local defaults. Fast setup and teardown expected.   | John finds Mathesar through GitHub or a blog post and immediately runs `brew install mathesar` or `brew tap mathesar/tap`. <br>After install, John runs `mathesar start`, expects it to spin up locally and open `http://localhost:8000` in the browser. <br>If it asks for DB config, John pastes in a connection string to his local dev database (`postgres://noah@localhost/myproject_dev`)<br>John tests the UI using real data from a side project—opens a table, changes a few rows, checks Postgres in another terminal to confirm it worked. <br>Any time something doesn’t work, John opens Console.app or terminal logs to look for stack traces or port conflicts.<br>John may file a GitHub issue or PR if something’s broken, but will move on if the tool isn’t usable in 10–15 minutes. <br>If satisfied, John may suggest the team use it internally, fork the repo, or write a wrapper script for quick reuse. | macOS Sonoma, using Terminal + iTerm + brew. <br><br>Local Postgres installed via `brew install postgresql@15`<br><br>Runs local services via `brew services start postgresql`. <br><br>Data lives in `myproject_dev` DB.<br><br>No Docker installed, avoids Compose setups for tests. |
+
+## Success Criteria
+
+How we'll know we've succeeded with our goals:
+
+* We’re seeing more people installing Mathesar and using it (DAUs / MAUs trackable to that install method).
+* We’re specifically seeing people using any new installation method we set up.
+* Ideally we also get an uptick in user feedback / new issues, etc, but that should not be a formal success criterion since that also depends on other issues. 
+* The number and variety of installation methods we offer are equivalent to other products in the ecosystem.
+
+## Requirements
+
+This is not a single task, it is a series of discrete tasks. Each task may be fairly small. We should aim to get 1 thing from this list shipped every week, in order of highest leverage.
+
+**Initial Goals**: Get Mathesar integrated into a variety of different categories of platform, prioritizing low effort and high impact outcomes. We'll focus on:
+
+- 1 x hosted Postgres platform
+- 1 x popular DevOps tool
+- 2-3 x one-click PaaS services
+- 1 x self-hosted PaaS
+- 1 x IaaS service
