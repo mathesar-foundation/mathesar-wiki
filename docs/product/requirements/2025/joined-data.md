@@ -1,4 +1,4 @@
-# Requirements Template
+# View and Edit Joined Data
 
 !!! example "Add stakeholders"
 	Add new stakeholders to the table below.
