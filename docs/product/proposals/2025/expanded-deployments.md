@@ -78,8 +78,7 @@ Example: [Directus's Supabase integration](https://supabase.com/partners/integra
 
 *Why?*: Expands platform diversity to more developer-focused tooling.
 
-- Users should be able to find and install Mathesar through [fly.io](http://fly.io).
-- Our documentation should include deploying with fly.io as a first class citizen in the installation section, with accompanying documentation on how to work with it.
+- Our documentation should include a guide to deploying with fly.io as a first class citizen in the installation section, with accompanying documentation on how to work with it.
 - We should track analytics of how much traffic and clicks all this is generating, both for the fly.io specific items as well as generally.
 
 *Maps to use case: Casey*  
