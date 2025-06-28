@@ -1,7 +1,8 @@
 # Expanded Deployments
 
-| **Role** | **Person** | **Status** |
+| **Role** | **Person / Item** | **Status** |
 |-|-|-|
+| **Requirements** | [Expanded Deployments requirements](/product/requirements/2025/expanded-deployments) | |
 | **Author** | Kriti Godey | 🟢 Done |
 | **Reviewer** | Brent Moran | 🔵 In review |
 | **Reviewer** | Zack Krida | 🔵 In review |
