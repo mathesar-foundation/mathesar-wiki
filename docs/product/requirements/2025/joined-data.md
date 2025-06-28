@@ -1,8 +1,5 @@
 # View and Edit Joined Data
 
-!!! example "Add stakeholders"
-	Add new stakeholders to the table below.
-
 | **Role** | **Person** | **Status** |
 |-|-|-|
 | **Author** | Kriti Godey |  🟢 Done |
