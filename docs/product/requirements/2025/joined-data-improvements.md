@@ -1,10 +1,7 @@
 # Working with Joined Data
 
-| **Role** | **Person** | **Status** |
-|-|-|-|
-| **Author** |  Kriti Godey | ✅ Complete |
-| **Reviewer** | Zack Krida | :yellow_circle: Reviewing |
-| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+!!! danger "Old version"
+	These requirements [are being updated](https://github.com/mathesar-foundation/mathesar-wiki/pull/142).
 
 ## The Problem
 
