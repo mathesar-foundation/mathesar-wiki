@@ -17,6 +17,12 @@
 	- Current pain points: how is the user solving this problem now, either within Mathesar, or otherwise?
 	- Why is it worth solving now?: explain why we think this problem is worth solving now (high-level feasibility, signals).
 
+## Use Cases
+
+!!! example "Write use cases."
+	Use cases.
+	User persona-related synthesis (if any).
+
 ## Success Criteria
 
 !!! example "Create success criteria."
@@ -27,9 +33,3 @@
 
 !!! example "Write requirements."
 	Classic user stories or basic requirements.
-	
-## Use Cases
-
-!!! example "Write use cases."
-	Use cases.
-	User persona-related synthesis (if any).
