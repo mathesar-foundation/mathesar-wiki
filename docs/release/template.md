@@ -115,4 +115,4 @@ This is our release notes template. The template part follows the horizontal rul
 
 ## Upgrading to [VERSION]  {:#upgrading}
 
-> There should be a subsection for each installation type.
+> Include a subsection for each installation type.
