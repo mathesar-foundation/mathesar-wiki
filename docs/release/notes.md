@@ -18,6 +18,8 @@ The release notes PR will be merged at the start of the [publication](./publicat
 
 ## Guidelines
 
+!!! info "See the [release notes template](./template.md) for additional information."
+
 - Write for an audience of Mathesar users and administrators. Keep in mind that these readers may not be technical and almost certainly won't understand acronyms internal to our team (e.g. RSQLA1) that occasionally appear in PR titles.
 
 - Within each section, order the items with the most compelling ones first. Begin with the things that you think readers are most likely to care about.
