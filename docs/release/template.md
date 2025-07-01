@@ -60,7 +60,7 @@ This is our release notes template. The template part follows the horizontal rul
 >	- "You can now use Mathesar to configure roles and privileges in PostgreSQL and to set granular access control at the individual schema and table level."
 > - Links to any relevant documentation that's new.
 > 
-> Include screenshots if possible.
+> If this improvement involves a UI change, or there is some other visual representation possible (docs screenshot, SQL command, etc.), please include one.
 >
 > Other notes:
 >
