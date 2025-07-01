@@ -8,7 +8,7 @@
 
 ## The Problem
 
-["Vibe coding"](https://en.wikipedia.org/wiki/Vibe_coding) has become a popular paradigm for software development, empowering user with varied expertise to create their own software. Databases are an inherently complex, but often necessary, part of software development. Interacting with them typically requires significant technical knowledge. This is often a pain point for users ([example](https://www.reddit.com/r/vibecoding/comments/1kx72kj/how_do_you_keep_your_ai_agents_vibing_with_your/), [example 2](https://www.reddit.com/r/vibecoding/comments/1k5su89/vibe_coding_got_me_far_but_backend_almost_broke/)) that Mathesar can help solve.
+["Vibe coding"](https://en.wikipedia.org/wiki/Vibe_coding) has become a popular paradigm for software development, empowering users with varied expertise to create their own software. Databases are an inherently complex, but often necessary, part of software development. Interacting with them typically requires significant technical knowledge. This is often a pain point for users ([example](https://www.reddit.com/r/vibecoding/comments/1kx72kj/how_do_you_keep_your_ai_agents_vibing_with_your/), [example 2](https://www.reddit.com/r/vibecoding/comments/1k5su89/vibe_coding_got_me_far_but_backend_almost_broke/)) that Mathesar can help solve.
 
 Mathesar can serve as a development companion and admin back-end or vibe-coded applications. When integrated with a [Model Context Protocol (MCP) server](https://modelcontextprotocol.io/introduction) server, Mathesar transforms into a natural-language-powered bridge between the complexity of databases and the ease of vibe-coding.
 
