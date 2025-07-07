@@ -10,7 +10,7 @@
 
 ["Vibe coding"](https://en.wikipedia.org/wiki/Vibe_coding) has become a popular paradigm for software development, empowering users with varied expertise to create their own software. Databases are an inherently complex, but often necessary, part of software development. Interacting with them typically requires significant technical knowledge. This is often a pain point for users ([example](https://www.reddit.com/r/vibecoding/comments/1kx72kj/how_do_you_keep_your_ai_agents_vibing_with_your/), [example 2](https://www.reddit.com/r/vibecoding/comments/1k5su89/vibe_coding_got_me_far_but_backend_almost_broke/)) that Mathesar can help solve.
 
-Mathesar can serve as a development companion and admin back-end or vibe-coded applications. When integrated with a [Model Context Protocol (MCP) server](https://modelcontextprotocol.io/introduction) server, Mathesar transforms into a natural-language-powered bridge between the complexity of databases and the ease of vibe-coding.
+Mathesar can serve as a development companion and admin back-end for vibe-coded applications. When integrated with a [Model Context Protocol (MCP) server](https://modelcontextprotocol.io/introduction) server, Mathesar transforms into a natural-language-powered bridge between the complexity of databases and the ease of vibe-coding.
 
 Although users haven’t explicitly asked for this functionality, there are strong indicators—drawn from competitors, the tech media, and internal stakeholders—that a simple, beta-level MCP server integration would be highly valuable. This is an opportunity to be at the forefront of AI integrations in data platforms.
 
@@ -29,13 +29,11 @@ As a non-technical t-shirt business owner "vibe coding" my shop's application us
 
 ## Success Criteria
 
-How we'll know we've succeeded with our goals:
+We'll know we've succeeded if users are using the MCP server, as indicated by the following signals:
 
-- Users are using Mathesar's MCP server, as indicated by some signals:
-  - Users give feedback on the MCP server, via GitHub issue or elsewhere.
-    - Even bug reports will be a positive signal here!
-  - GitHub stars on the MCP server repo
-  - Content (blog and social posts primarily) about Mathesar's MCP server sees notable traffic.
+- Users give feedback on the MCP server, via GitHub issue. Bug reports, feature requests, or outright complaints are all positive signals here.
+- GitHub stars on the MCP server repository increase.
+- Content (blog and social posts primarily) about Mathesar's MCP server sees notable traffic.
 
 ## Requirements
 
