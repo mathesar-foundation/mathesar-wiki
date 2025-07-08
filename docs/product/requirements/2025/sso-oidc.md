@@ -125,7 +125,7 @@ Grace (customer success team)
 
 How we'll know we've succeeded with our goals for adding SSO:
 
-* We should transition [internal.mathesar.org](http://internal.mathesar.org) to this login style and not hate it.  
+* We transition [internal.mathesar.org](http://internal.mathesar.org) to use Google Workspace OIDC SSO and not hate it.  
 * We track SSO usage growing in analytics.  
 * We see an uptick in conversion from our website (after we advertise SSO)  
 * We see qualitative positive user feedback on GitHub / Reddit, etc.
