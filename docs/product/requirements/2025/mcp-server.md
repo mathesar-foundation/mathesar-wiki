@@ -6,7 +6,7 @@
 
 Mathesar can serve as a development companion and admin back-end for vibe-coded applications. When integrated with a [Model Context Protocol (MCP) server](https://modelcontextprotocol.io/introduction) server, Mathesar transforms into a natural-language-powered bridge between the complexity of databases and the ease of vibe-coding.
 
-Although users haven’t explicitly asked for this functionality, there are strong indicators—drawn from competitors, the tech media, and internal stakeholders—that a simple, beta-level MCP server integration would be highly valuable. This is an opportunity to be at the forefront of AI integrations in data platforms.
+Although users haven’t explicitly asked for this functionality, we hypothesize that a simple, beta-level MCP server integration would be highly valuable in helping semi-technical users that are new to building applications work with databases, and make Mathesar useful for a whole set of new workflows without having to add new features within the product.
 
 ### Is it feasible to solve?
 
