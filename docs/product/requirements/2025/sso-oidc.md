@@ -1,7 +1,5 @@
 # SSO (OIDC)
 
-## The Problem
-
 Mathesar users would like to reduce the number of separate passwords they need to use.
 
 Mathesar admins would like:

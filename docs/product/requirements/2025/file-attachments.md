@@ -1,10 +1,7 @@
 # File Attachments
 
-| **Role** | **Person** | **Status** |
-|-|-|-|
-| **Author** |  Zack Krida | ✅ Complete |
-| **Reviewer** | Kriti Godey | :yellow_circle: Reviewing |
-| **Reviewer** | Brent Moran | :yellow_circle: Reviewing |
+!!! danger "Old version"
+	These requirements will be updated soon.
 
 ## Problem we're solving
 

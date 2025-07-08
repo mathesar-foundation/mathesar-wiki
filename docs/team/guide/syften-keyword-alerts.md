@@ -4,6 +4,7 @@
     Have you been assigned a keyword alert task and are looking for what to do?
     See the [replying to users](#replying-to-users) or [documenting keyword alerts](#documenting-keyword-alerts) sections for next steps.
 
+Current Keyword Lead: Zack
 
 **Keyword alerts** refer to Mathesar-related keywords tracked across the web. We use a tool called [Syften](https://syften.com/) to monitor these keyword alerts, similar to Google Alerts, but more robust and tailored to technical products like Mathesar.
 
@@ -23,9 +24,9 @@ We currently classify three types of keyword alerts. In order of their importanc
       - Promote Mathesar to new users.
       - Identify user pain points.
 2. **Competitor**.
-   References to competing products. These mentions help us:
+   References to other products in the spreadsheet-like and database management ecosystem. These mentions help us:
       - Identify user pain points.
-      - Discover feature requests or gaps in competitors' products.
+      - Discover feature requests or gaps in other products.
       - Gauge general sentiment and understand use cases within our space.
 
 Keyword alerts are configured in [Syften](https://syften.com/setup).
@@ -33,10 +34,10 @@ Keyword alerts are configured in [Syften](https://syften.com/setup).
 ## Daily keyword alert triage
 
 !!! info "Tip"
-    See the [daily checklist](#daily-tca-checklist) for a systemized "runbook" of the approach outlined here.
+    See the [daily checklist](#daily-lead-checklist) for a systemized "runbook" of the approach outlined here.
 
 
-Keyword alerts are triaged daily by the Technical Community Advocate (TCA). A [script](https://github.com/mathesar-foundation/mathesar-infrastructure/actions/workflows/syften-to-asana.yml) runs every 30 minutes to convert the keyword alerts to asana tasks in the ["Community - Syften Keyword Alerts"](https://app.asana.com/0/1208897974386293/1208899405158619) Asana project.
+Keyword alerts are triaged daily by the Keyword Lead (Lead). A [script](https://github.com/mathesar-foundation/mathesar-infrastructure/actions/workflows/syften-to-asana.yml) runs every 30 minutes to convert the keyword alerts to asana tasks in the ["Community - Syften Keyword Alerts"](https://app.asana.com/0/1208897974386293/1208899405158619) Asana project.
 
 The goals of the triage are to:
 
@@ -45,13 +46,13 @@ The goals of the triage are to:
    - User support
    - User feedback
    - Opportunities to recommend Mathesar in a natural, relevant way.
-1. Identify product feedback and user pain points to document, including from competitor and recommendation alerts.
+2. Identify product feedback and user pain points to document, including from ecosystem and recommendation alerts.
 
 ### Assessing keyword alerts
 
-Each keyword alert should be evaluated for any action items. If the keyword alert is actionable it should have it's "stage" field set as "Reply" or "Document" and assigned to a user. If neither of these sections seem appropriate for an alert, it likely isn't actionable! Keyword alerts moved to these categories are assigned to a Mathesar maintainer and given a due date by the TCA.
+Each keyword alert should be evaluated for any action items. If the keyword alert is actionable it should have it's "stage" field set as "Reply" or "Document" and assigned to a user. If neither of these sections seem appropriate for an alert, it likely isn't actionable! Keyword alerts moved to these categories are assigned to a Mathesar maintainer and given a due date by the Lead.
 
-The TCA will leave on each task explaining its importance. For example:
+The Lead will leave on each task explaining its importance. For example:
 
 - The keyword alert: "I am running nocodb and n8n currently. What are the benefits of using Postgres instead of sticking with what nocodb defaults with (i think it’s SQLite)?"
 - The task comment: "This user wants to learn more about Postgres. We should provide general advice but disclose we work on a competing product called Mathesar {link to our homepage}"
@@ -80,15 +81,21 @@ Keyword alert tasks should be assigned to the most appropriate team member based
 
 Through this process we should develop and maintain a list of stock replies ([link here when created]()) to facilitate quick responses to common keyword alert types.
 
+### When the lead is out of office
+
+If the Keyword lead is out of office for any amount of time greater than one business day, another team member should take over the daily checklist.
+
+For longer periods of absence or when assigning a new lead, the [Asana rule](https://app.asana.com/0/1208897974386293/rules/1209672933848745) that automatically assigns direct mentions to the Lead should be updated to the new Lead.
+
 ### Questions and feedback
 If you have questions about this process of suggestions to improve it, feel free to reach out to community@mathesar.org with your ideas.
 
 ---
 
 
-## Daily TCA checklist
+## Daily Lead checklist
 
-This is the checklist for the daily triage of Keyword Alerts used by the Technical Community Advocate.
+This is the checklist for the daily triage of Keyword Alerts used by the Keyword Lead.
 
 !!! info "Tip"
     If you do not see a particular category visible in Asana, it means there are currently no keyword alerts for that category.
@@ -109,14 +116,13 @@ In the [Syften Keywords Asana project](https://app.asana.com/0/1208897974386293/
   - [ ] Set actionable keyword alerts that do not require a response to the "Document" stage and assign a maintainer to respond within 2-3 business days. Be sure to leave a comment explaining what should be documented.
   - [ ] Mark all non-actionable tasks as completed and leave a comment explaining why they were not actionable.
 
-
 ## Replying to users
 
 If you've been assigned a user reply, follow the below steps:
 
 1. Read the original keyword alert and any comments left on the Asana task.
 2. Draft your reply and leave it as an Asana comment.
-3. Assign the Asana task back to the Technical Community Advocate (TCA) for review.
+3. Assign the Asana task back to the Keyword Lead (Lead) for review.
 4. When your reply is approved, post it and leave a link on the Asana task.
 5. Mark the task as completed.
 6. Log the interaction in the [CRM](https://github.com/mathesar-foundation/mathesar-internal-crm).
@@ -127,13 +133,13 @@ There are two ways of documenting keyword alerts with slightly different process
 
 ## Replies
 
-Any user outreach that resulted from a keyword alert should be documented in our [CRM](https://github.com/mathesar-foundation/mathesar-internal-crm). Typically the TCA will handle user outreach (or assign someone to do so), and after the interaction is done the task will be moved to the "Document" stage so a new assignee can document it in the CRM.
+Any user outreach that resulted from a keyword alert should be documented in our [CRM](https://github.com/mathesar-foundation/mathesar-internal-crm). Typically the Lead will handle user outreach (or assign someone to do so), and after the interaction is done the task will be moved to the "Document" stage so a new assignee can document it in the CRM.
 
-## Competitor information
+## Ecosystem information
 
-Information about competitors, or feature requests should be documented in the Internal Mathesar instance. There is a table called "Product" in which any products related to Mathesar can be added. There is a table called "Product notes" where any notes about a product can be added. Typically, any Asana "Document" task will either be:
+Information about other tools in the ecosystem or feature requests should be documented in the Internal Mathesar instance. There is a table called "Product" in which any products related to Mathesar can be added. There is a table called "Product notes" where any notes about a product can be added. Typically, any Asana "Document" task will either be:
 
-- A new competitor to add to "Competitors"
-- A note about an existing competitor that should be added as a new "Product Note"
+- A new tool to add to the "Product" table
+- A note about an existing ecosystem tool that should be added as a new "Product Note"
 
-If there are any tasks to document that do not seem suitable for either category, please check in with the TCA.
+If there are any tasks to document that do not seem suitable for either category, please check in with the Lead.
