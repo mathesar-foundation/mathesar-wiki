@@ -1,15 +1,5 @@
 # Requirements Template
 
-!!! example "Add stakeholders"
-	Add new stakeholders to the table below.
-
-| **Role** | **Person** | **Status** |
-|-|-|-|
-| **Author** | | 🔵 In review |
-| **Reviewer** | Kriti Godey |  🟡 In progress |
-| **Reviewer** | Brent Moran | 🟠 In revision |
-| **Reviewer** | Zack Krida | 🟢 Approved |
-
 ## The Problem
 
 !!! example "Describe the problem."
