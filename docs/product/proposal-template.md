@@ -1,16 +1,5 @@
 # Proposal Template
 
-!!! example "Add stakeholders"
-	Add new stakeholders to the table below.
-
-| **Role** | **Person / Item** | **Status** |
-|-|-|-|
-| **Requirements** | Link to document | |
-| **Author** | | 🔵 In review |
-| **Reviewer** | Kriti Godey |  🟡 In progress |
-| **Reviewer** | Brent Moran | 🟠 In revision |
-| **Reviewer** | Zack Krida | 🟢 Approved |
-
 ## Solution
 
 !!! example "Describe solution."
@@ -31,6 +20,7 @@
 	- Infrastructure needs.
 	- Workflow: who does what, in what order.
 	- Rough timeline.
+	- Next steps to approval and implementation.
 
 ## Research
 
