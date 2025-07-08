@@ -1,11 +1,5 @@
 # SSO (OIDC)
 
-| **Role** | **Person** | **Status** |
-|-|-|-|
-| **Author** | Kriti Godey |  🟢 Done |
-| **Reviewer** | Brent Moran | 🔵 In review |
-| **Reviewer** | Zack Krida | 🔵 In review |
-
 ## The Problem
 
 Mathesar users would like to reduce the number of separate passwords they need to use.
@@ -37,13 +31,14 @@ SSO may also help us grow Mathesar adoption, because:
 
 ### Is it feasible to solve?
 
-Yes! We use Django for our users.
+Yes! We use Django for our users, and there are several libraries we can just drop into our codebase.
 
 * [juanifioren/django-oidc-provider](https://github.com/juanifioren/django-oidc-provider)  
 * [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit)  
 * [mozilla/mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc)  
 
 Further feasibility research is unnecessary, it should be quick to implement. I briefly considered just implementing it instead of writing this.
+
 
 ## Use Cases
 
@@ -131,6 +126,8 @@ How we'll know we've succeeded with our goals for adding SSO:
 * We see qualitative positive user feedback on GitHub / Reddit, etc.
 
 ## Requirements
+
+These requirements are from the point of view of the user and aim to represent all of the interaction surfaces that they have with this feature in Mathesar. They are not meant to map to implementation details. Some requirements may not need any implementation work done to fulfil them.
 
 ### Minimal Scope
 
