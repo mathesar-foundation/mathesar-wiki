@@ -1,5 +1,7 @@
 # SSO (OIDC)
 
+[View this project in GitHub](https://github.com/orgs/mathesar-foundation/projects/2/views/1?query=sort%3Aupdated-desc+is%3Aopen&pane=issue&itemId=117162539&issue=mathesar-foundation%7Cmathesar%7C4578)
+
 Mathesar users would like to reduce the number of separate passwords they need to use.
 
 Mathesar admins would like:
