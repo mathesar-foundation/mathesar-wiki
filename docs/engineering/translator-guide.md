@@ -6,7 +6,7 @@ Welcome! This guide is for contributors who want to help translate Mathesar into
 
 Mathesar uses [Transifex](https://explore.transifex.com/mathesar/mathesar/) to manage all translations. It’s an online localization platform that allows our global community to collaboratively translate Mathesar into multiple languages.
 
-The [Mathesar Transifex project](https://explore.transifex.com/mathesar/mathesar/) lists all available languages, shows the percentage completed for each one, and provides tools for contributing directly through your btestifex.zackrowser.
+The [Mathesar Transifex project](https://explore.transifex.com/mathesar/mathesar/) lists all available languages, shows the percentage completed for each one, and provides tools for contributing directly through your browser.
 
 ## Getting Started
 
