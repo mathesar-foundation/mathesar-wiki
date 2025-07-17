@@ -4,7 +4,7 @@
 
 ## Solution
 
-Mathesar will implement support for file attachments on records by introducing a new "Files" column type that allows users to upload, remove, and view files. The files column can contain one or multiple files. Files will be persisted to the local filesystem and the actuall database will store files in a JSON structure which references the paths to files alongside any other necessary metadata.
+Mathesar will implement support for file attachments on records by introducing a new "Files" column type that allows users to upload, remove, and view files. The files column can contain one or multiple files. Files will be persisted to the local filesystem and the actual database will store files in a JSON structure which references the paths to files alongside any other necessary metadata.
 
 The user will be able to filter and sort in Mathesar's UI based on the file column. Filtering on files can be done by:
 
@@ -20,7 +20,7 @@ Initially, file support will use a local filesystem backend, with support for Do
 
 ### Limited in-app file previews
 
-Initially, file previews will be constrained to images _only_. All other file types will require the user to open them in a new tab, leaveraing built-in browser file previewing, or to dowload the file to view it.
+Initially, file previews will be constrained to images _only_. All other file types will require the user to open them in a new tab, leveraging built-in browser file previewing, or to download the file to view it.
 
 Other projects in the ecosystem tend to show previews for many more file types, like PDFs. This functionally technically depends on generating thumbnails, which we also do not plan to support initially.
 
@@ -52,7 +52,7 @@ Initially, we will not allow users to edit filenames or any other metadata.
 
 - New "File" column type
 - "File" column type cell display:
- - Present a row of suqare attachments. Show a file icon for all non-images. Display images constrained to a square aspect ratio.
+ - Present a row of square attachments. Show a file icon for all non-images. Display images constrained to a square aspect ratio.
  - At the end of attachments have a "+" button which triggers the file upload modal.
 - New "File Upload" Modal
   - Rework the existing file upload component (used for table importing) to support an expanded set of file types and to display in a modal.
@@ -79,7 +79,7 @@ Initially, we will not allow users to edit filenames or any other metadata.
 
 ## Research
 
-To define the scope of this work I looked into the file attachement implementations of Airtable, Baserow, and NocoDB. All of these softwares can be easily evaluated for free to explore their file functionality and how they each handle some of the specific functionality here.
+To define the scope of this work I looked into the file attachment implementations of Airtable, Baserow, and NocoDB. All of these softwares can be easily evaluated for free to explore their file functionality and how they each handle some of the specific functionality here.
 
 ## Community Engagement
 
