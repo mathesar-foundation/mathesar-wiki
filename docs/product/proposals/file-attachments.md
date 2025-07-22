@@ -21,7 +21,7 @@ Additionally, we'll use the following terms internally:
 
 ### Multiple files per cell
 
-Each cell in a Files column can contain zero, or multiple files.
+Each cell in a Files column may contain zero, one, or multiple files. Cells can not be restricted to contain a certain number of files.
 
 ### File immutability
 
