@@ -1,9 +1,6 @@
 # SSO (OIDC)
 
-!!! danger "Old version"
-	These requirements [are being updated](https://github.com/mathesar-foundation/mathesar-wiki/pull/141).
-
-## The Problem
+[View this project in GitHub](https://github.com/orgs/mathesar-foundation/projects/2/views/1?query=sort%3Aupdated-desc+is%3Aopen&pane=issue&itemId=117162539&issue=mathesar-foundation%7Cmathesar%7C4578)
 
 Mathesar users would like to reduce the number of separate passwords they need to use.
 
@@ -42,82 +39,6 @@ Yes! We use Django for our users, and there are several libraries we can just dr
 
 Further feasibility research is unnecessary, it should be quick to implement. I briefly considered just implementing it instead of writing this.
 
-## Requirements
-
-
-### Minimal Scope
-
-Setup:
-
-* Configure OIDC (Google Workspace / Okta / Auth0, etc) via config file.  
-* Restrict access to a specific email domain in config.  
-* Manually pre-create accounts and link to OIDC identities, at minimum.  
-* Define a default Postgres role for all SSO users in the config file.
-
-Maintenance:
-
-* Retain fallback login method in case SSO is misconfigured.  
-* Get clear error messaging for others if login fails.  
-* See clear error if a user is unauthorized based on domain or mapping.
-
-End user experience:
-
-* Users see a “Sign in with Google” / “Sign in with Okta” option on the login page.  
-* Sign in and immediately access the right data without manual setup.  
-* Use their existing work account to access data self-serve.
-
-Documentation:
-
-* Access clear documentation for OIDC setup, domain restriction, role mapping, and debugging.
-
-Analytics (for us):
-
-* Track SSO setup as an event in analytics.
-
-### Full Scope
-
-Assuming we can do the full scope without too much additional effort, we should do so, since it will make Mathesar useful for a much wider variety of users.
-
-JIT provisioning:
-
-* Automatically provision accounts on first login. No manual creation of users needed.  
-* View group claims received from IdP and role assignment in logs, to help debug issues.  
-* Understand why a user failed to authenticate or received incorrect access.
-
-Group-based role mapping:
-
-* Map IdP groups to Postgres roles via config.  
-* Automatically assign roles based on IdP group membership.
-
-Merging users automatically:
-
-* Signing in with username/password or SSO should be the same account if the email is the same.
-
-
-## Evaluation and Guardrails
-
-How we'll know we've succeeded with our goals for adding SSO:
-
-* We should transition [internal.mathesar.org](http://internal.mathesar.org) to this login style and not hate it.  
-* We track SSO usage growing in analytics.  
-* We see an uptick in conversion from our website (after we advertise SSO)  
-* We see qualitative positive user feedback on GitHub / Reddit, etc.
-
-Things to watch out for while implementing:
-
-* Adding more scope to these requirements for the feature to be “more useful”.  
-	* e.g. “SAML isn’t that much harder…”  
-* Over-indexing on all user needs. This is an initial MVP and won't solve everyone’s needs and that's okay. We can always add more features later.
-
-## Community Engagement
-
-We should:
-
-- seek input from community members who have asked for SSO, to ensure that we're building the right set of features and addressing their use cases.
-- update mathesar.org and our `README.md` to include SSO in tandem with the next release.
-	- On mathesar.org, this should include the homepage, product page, and a few use cases.
-- consider posting on self-hosting communities to let people know that we have SSO.
-- consider adding ourselves to https://ssotax.org/friends-of-sso.html
 
 ## Use Cases
 
@@ -195,40 +116,63 @@ Grace (customer success team)
 
 * As Grace, I want to access live customer data in Mathesar by signing in with my usual company account so that I can self-serve metrics without waiting on the data team.
 
-## Out of Scope
+## Success Criteria
 
-This is explicitly an MVP, so the following things are out of scope:
+How we'll know we've succeeded with our goals for adding SSO:
 
-Authentication Methods:
+* We transition [internal.mathesar.org](http://internal.mathesar.org) to use Google Workspace OIDC SSO and not hate it.  
+* We track SSO usage growing in analytics.  
+* We see an uptick in conversion from our website (after we advertise SSO)  
+* We see qualitative positive user feedback on GitHub / Reddit, etc.
 
-* No SAML support (OIDC only)  
-* No support for IdP-initiated login flows (SP-initiated only)  
-* No social login (e.g. GitHub, Facebook, etc.)  
-* No password-based SSO fallback except for Mathesar admins.
+## Requirements
 
-Provisioning and Role Management:
+These requirements are from the point of view of the user and aim to represent all of the interaction surfaces that they have with this feature in Mathesar. They are not meant to map to implementation details. Some requirements may not need any implementation work done to fulfil them.
 
-* No SCIM or automatic deprovisioning  
-* No UI for managing users, roles, or SSO config  
-* No per-user or per-session role overrides  
-* No multi-role assignment per user  
-* No support for assigning roles via UI or API based on group claims (config file only)
+### Minimal Scope
 
-Access Control:
+Setup:
 
-* No support for multi-tenancy or per-project IdP config  
-* No other permissions mapping beyond Postgres roles  
-* No email-based whitelists beyond domain restriction  
-* No support for conditional logic on access (e.g. “this group *and* this claim”)
+* Configure OIDC (Google Workspace / Okta / Auth0, etc) via config file.  
+* Restrict access to a specific email domain in config.  
+* Manually pre-create accounts and link to OIDC identities, at minimum.  
+* Define a default Postgres role for all SSO users in the config file.
 
-Observability and Admin Tools:
+Maintenance:
 
-* No UI for viewing login attempts, group mappings, or audit trails  
-* No real-time SSO diagnostics or health checks  
-* No alerting for failed logins or misconfigurations
+* Retain fallback login method in case SSO is misconfigured.  
+* Get clear error messaging for others if login fails.  
+* See clear error if a user is unauthorized based on domain or mapping.
 
-User Experience:
+End user experience:
 
-* No role-selection prompt on login  
-* No way for end-users to request access or change roles  
-* No customization of login UI
+* Users see a “Sign in with Google” / “Sign in with Okta” option on the login page.  
+* Sign in and immediately access the right data without manual setup.  
+* Use their existing work account to access data self-serve.
+
+Documentation:
+
+* Access clear documentation for OIDC setup, domain restriction, role mapping, and debugging.
+
+Analytics (for us):
+
+* Track SSO setup as an event in analytics.
+
+### Full Scope
+
+Assuming we can do the full scope without too much additional effort, we should do so, since it will make Mathesar useful for a much wider variety of users.
+
+JIT provisioning:
+
+* Automatically provision accounts on first login. No manual creation of users needed.  
+* View group claims received from IdP and role assignment in logs, to help debug issues.  
+* Understand why a user failed to authenticate or received incorrect access.
+
+Group-based role mapping:
+
+* Map IdP groups to Postgres roles via config.  
+* Automatically assign roles based on IdP group membership.
+
+Merging users automatically:
+
+* Signing in with username/password or SSO should be the same account if the email is the same.
