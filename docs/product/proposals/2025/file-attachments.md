@@ -1,6 +1,7 @@
 # File Attachments
 
-[Requirements](../requirements/2025/file-attachments.md)
+!!! info "This proposal is based on [these requirements](../../requirements/2025/file-attachments.md)."
+
 
 ## Solution
 

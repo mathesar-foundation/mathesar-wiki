@@ -1,8 +1,10 @@
 # SSO (OIDC)
 
-!!! info "This project is being implemented. See our [GitHub issue](https://github.com/mathesar-foundation/mathesar/issues/4578)"
+!!! success "Project approved, implementation [tracked in GitHub](https://github.com/mathesar-foundation/mathesar/issues/4578)."
 
 ## Solution
+
+Based on [these requirements](../requirements/2025/sso-oidc.md).
 
 ### High level plan
 
