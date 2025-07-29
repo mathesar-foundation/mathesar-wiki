@@ -5,7 +5,7 @@
 
 ## Solution
 
-Mathesar will implement support for file attachments on records by introducing a new "Files" column type that allows users to upload, remove, and view files.
+Mathesar will implement support for file attachments on records by introducing a new "File" column type that allows users to upload, remove, and view files.
 
 ### User-facing terminology
 
@@ -13,16 +13,15 @@ Airtable and NocoDB use the term "Attachment" for this feature, whereas Baserow 
 
 Mathesar will employ the following terms for users:
 
-- **"Files"** — the name of the UI type for the column
-- **"File"** — a single file attachment within a cell
+- **"File"** — the name of the UI type for the column, and the term for the file attachment within the cell.
 
-Additionally, we'll use the following terms internally:
+### One file per cell
 
-- **"File cell"** — one cell within a Files column (Note this is not "Files Cell", just for the sake of simplicity)
+Each cell in a File column may contain zero or one file.
 
-### Multiple files per cell
+Users who need to associate multiple files with one record will use separate tables related through foreign key constraints.
 
-Each cell in a Files column may contain zero, one, or multiple files. Cells can not be restricted to contain a certain number of files.
+For the File Attachments MVP, the only way to work with multiple files per record will be via the record page.
 
 ### File immutability
 
@@ -109,7 +108,7 @@ Data in the Postgres user database will work as follows:
     - `metadata`: jsonb (additional file-type-specific metadata)
     - `thumbnail`: mathesar_types.local_thumbnail (will be NULL for file types that don't support thumbnails)
 
-- The Postgres type for a "Files" column will be an array of `mathesar_types.local_file`.
+- The Postgres type for a "File" column will be `mathesar_types.local_file`.
 
 ### File name on download
 
@@ -121,78 +120,22 @@ Users will be able to _edit_ the file name for each file. These edits will only 
 
 Null and empty-sting file names will be _allowed_.
 
-### File Cell Viewer
-
-The front end will have a "File cell viewer" which allows the user to work with all the files associated with a single cell. 
-
-Capabilities
-
-- Upload a new file to the cell
-- View thumbnails for all files in the cell, with the ability to scroll the thumbnails as necessary.
-- View a single file within the browser (for supported file types, e.g. images)
-- View the next/previous file within the array of files
-- Remove a single file from the cell
-- Rename a single file
-- Download a single file
-
-Behavior:
-
-- The File Cell Viewer simultaneously displays a large view of one file (the "active" file) while also displaying thumbnail views for all files in the cell.
-- Exactly one file is active at all times. This means that if no files are present in the cell, the file cell viewer cannot be opened.
-- The file name and size are shown for the active file.
-- Viewing the full file within the File Cell Viewer will only be supported for image file types (at least initially).
-- Left-clicking the download link will trigger the browser's native download dialog.
-- Opening the download link in a new tab will allow the user to view the file in the browser for file types supported by the browser (e.g. PDF, video, etc.)
-
-Further UX details, design, and layout decisions are TBD.
-
-### Empty file cells
-
-When using Postgres arrays, an empty array is a distinct from a NULL value. This difference opens the door to potential problems for users.
-
-The behavior of "empty" file cells needs to be consistent, from the user's perspective, For example we want to avoid a situation where users can end up with two seemingly identical "empty" file cells that actually behave differently when the "is empty" filter function is used.
-
-Some ways we might choose to approach this problem:
-
-- Enforce that Files columns are NOT NULL, with an empty array as a default. This gets a little tricky if the user manually removes the constraint and then sets a cell to NULL.
-
-- Prevent empty arrays by establishing a trigger to convert an empty array to be NULL instead.
-
-- Allow a mix of different representations of "empty"; use application logic to handle both cases.
-
-We'll need to consider behavior for: filter, sort, group, copy, paste, "set to null", and potentially other user-facing functionality.
-
-The best solution is TBD, pending further brainstorming and analysis of various tradeoffs.
-
 ### Loading behavior when adding a file
 
-When the user uploads a single file, the loading experience will be very basic.
+When the user uploads a file, the loading experience will be very basic.
 
 1. The user will see a loading spinner somewhere. (No progress bar.)
 1. After the file is uploaded and all the server-side logic is completed (including the thumbnail generation), the spinner will resolve.
 
 ### File deletion UX
 
-Currently, Mathesar allows the contents of a single cell to be set to NULL via the context menu. No confirmation dialog appears.
-
-However, deleting files is (arguably) a more destructive operation, so we would like to use confirmation dialogs.
-
-- When removing a single file from a cell, Mathesar will present a confirmation dialog.
-
-- The "Set to NULL" cell context menu option will need to operate different on Files cells.
-
-    - The option will be labeled:
-    
-        > Remove all files
-    
-    - It will have a confirmation dialog
+Currently, Mathesar allows the contents of a single cell to be set to NULL via the context menu. No confirmation dialog appears. The File Cell will follow this same behavior.
 
 ### File content deletion strategy
 
 There are many ways that file _associations_ can be removed from Postgres:
 
-- One entry deleted from the files cell array
-- The entire cell set to NULL (or empty array)
+- The File Cell set to NULL
 - The record deleted
 - The column deleted (or even just cast to TEXT)
 - The table/schema/database dropped
@@ -213,70 +156,77 @@ Rationale:
 
 ### Copying and exporting file cells
 
-When a Files cell is copied to the clipboard or exported to a CSV file, Mathesar will
-serialize the content of the Postgres data to a string. None of the _file content_ will be included. The exact serialization format is not important.
+When a File cell is copied to the clipboard or exported to a CSV file, Mathesar will serialize the content of the Postgres data to a string. None of the _file content_ will be included. The exact serialization format is not important.
 
 ### Pasting data into file cells
 
-We'll allow Mathesar users to paste into file cells **only when copying from file cells in Mathesar**. In such cases, the data will be written directly to Postgres with no attempt at validating or modifying the files in the file attachments directory.
+We'll allow Mathesar users to paste into file cells **only when copying from file cells in Mathesar**. In such cases, the data will be written directly to Postgres with no attempt at validating or modifying the file in the file attachments directory.
 
 For the MVP, we will _not_ support:
 
 - Copy-pasting _files_ into file cells
 - Copy-pasting serialized file reference data stored in CSV format (e.g. as exported from Mathesar).
 
-### Table page behavior
+### File Cell behavior
 
-On the table page, a single file cell will:
+A File Cell will be used in the following locations:
 
-- Display file thumbnail images, if present.
-- If a file does not have a thumbnail, a generic icon will display in its place. The same icon will be used for all file types, regardless of MIME.
-- Click a button to upload a file into the cell. This will open a modal into which the user can drag a file.
-- Click a single file to open the file cell viewer, with the clicked file activated.
+- On the table page
+- In the table widgets which display on the record page
+- In the data explorer
+- In the record selector
 
-When the user does not have permission to modify the column in Postgres, the cell will be disabled. In this case, UI to upload/remove/rename will be hidden. Users will still be able to view/download files though.
+Capabilities
 
-### Record page behavior
+- Upload a new file to the cell
+- Remove the file from the cell, setting the cell to NULL
+- View the file in a modal file viewer within the current page (only for supported file types, i.e. images)
+- Open the file in a new browser tab (useful for PDF files)
+- Download the file, triggering the browser's save dialog
+- Rename the file
 
-On the record page, the UI for a Files field will be very similar to the UI on the table page.
+Thumbnails
 
-Additionally (but only if it's very easy) we'd like to make the UI slightly taller (e.g. 80px tall). This way the thumbnails are clearer.
+- The File Cell will display the thumbnail image in the cell, if present.
+- If the attached file does not have a thumbnail, a generic icon will display in its place. The same icon will be used for all file types, regardless of MIME.
 
-### Data explorer behavior
+Disabled File Cells
 
-Behavior in the data explorer should match that of the table page (with a disabled cell). Users will be able to view and download files from the data explorer.
+- A disabled File Cell is read-only. It will only allow viewing/opening/downloading the attached file.
+- In the table page and table widget, file cells will be enabled or disabled depending on write permissions to the cell.
+- In the data explorer file cells will always disabled, because the data explorer is read-only.
+
+In the record selector
+
+- File thumbnails (or icons) will display in the record selector, but the user will not be able to click anything in the cell. There will be no way to open the modal file viewer.
+
+### File Input behavior
+
+Record page behavior
+
+- On the record page, the UI for a File field will be very similar to the UI on the table page.
+- Additionally (but only if it's very easy) we'd like to make the UI slightly taller (e.g. 80px tall). This way the thumbnails are clearer.
+
+Behavior of other File-specific input elements
+
+- Throughout the Mathesar UI, there are various places that offer type-dependent inputs.
+    - A column's default value
+    - The record selector search field
+    - The value in an equality filtering condition
+- In these UI locations, Mathesar will offer a simple text box for File columns
+- The text boxes in these places will be essentially useless. They won't allow users to upload files. In theory, a user could copy the Postgres cell serialization from a sheet and paste it into the default value. Perhaps that would work. But it's not important. The point is that we need to show _something_ in these UI locations and we don't have a good mechanism to hide them. So we'll show a text box, essentially as a simplified fallback, akin to our handling of unknown types.
 
 ### Forms behavior
 
 Initially, file attachments will not be compatible with forms. The mechanism to enforce this incompatibility (and the exact user behavior when attempting to use files in forms) will be determined during implementation.
 
-### Filtering behavior
-
-If it's easy, we'd like to allow users to filter on a Files column being empty (or not empty).
-
-Aside from that, we'll not attempt to implement any files-specific filtering initially.
-
-### Behavior of other Files-specific input elements
-
-Throughout the Mathesar UI, there are various places that offer type-dependent inputs. In these UI locations, Mathesar will offer a simple text box for Files columns:
-
-- A column's default value
-- The record selector search field
-- The value in an equality filtering condition
-
-The text boxes in these places will be essentially useless. They won't allow users to upload files. In theory, a user could copy the Postgres cell serialization from a sheet and paste it into the default value. Perhaps that would work. But it's not important. The point is that we need to show _something_ in these UI locations and we don't have a good mechanism to hide them. So we'll show a text box, essentially as a simplified fallback, akin to our handling of unknown types.
-
-### Record selector behavior
-
-File thumbnails (or icons) will display in the record selector, but the user will not be able to click anything in the cell. There will be no way to open the file cell viewer.
-
 ### Import behavior
 
-Importing from CSV will function as with an unknown type — if the value provided can be cast to the Postgres type, then Mathesar will accept it. But users will have no way of importing files into a Files column.
+Importing from CSV will function as with an unknown type — if the value provided can be cast to the Postgres type, then Mathesar will accept it. But users will have no way of importing files into a File column.
 
 ### Permissions behavior
 
-Permissions for working with files follow the permissions for working with the particular Files cell, as determined in Postgres. At the Postgres level, the operations of adding, removing, and renaming files are all the same DB-level operation — it's all just an update. This means that Mathesar admin users will not have the ability to (for example) grant a user access to add files while restricting their ability to remove files. It also means that (in theory) an UPDATE could fail for more complex permissions reasons of which the front end is unable to foresee (e.g. RLS).
+Permissions for working with files follow the permissions for working with the particular File cell, as determined in Postgres. At the Postgres level, the operations of adding, removing, and renaming files are all the same DB-level operation — it's all just an update. This means that Mathesar admin users will not have the ability to (for example) grant a user access to add files while restricting their ability to remove files. It also means that (in theory) an UPDATE could fail for more complex permissions reasons of which the front end is unable to foresee (e.g. RLS).
 
 ### Upload failure behavior
 
@@ -305,19 +255,9 @@ We'll ensure that uploaded SVG files and HTML files are safe to work with in Mat
 
 Our user research has shown that Mathesar administrators are likely to want support for an S3-compatible file storage backend. However to keep scope tight, the file attachments MVP will only support locally-stored files. After this project, we are likely to prioritize implementing a system for pluggable remote file storage backends, potentially using a library like [django-storages](https://django-storages.readthedocs.io/en/latest/backends/s3_compatible/index.html).
 
-### No ability to restrict a cell to zero or _one_ file
-
-In the future we could consider implementing a (simpler) "File" column type which has a _scalar_ file type at the Postgres level (instead of an array). This would allow users to work with files relationally — and more elegantly handle cases where one and only one file is _required_ for a record.
-
-None of the competing products we've evaluated seem to offer such functionality, which is why we are not pursuing it at this time.
-
-### No reordering files within a cell
-
-Airtable allows users to drag to re-order files within a cell. We will not support this initially.
-
 ### No special filtering
 
-Airtable allows users to perform complex filtering such as searching within all the file names of files cells. We won't implement any special filtering initially.
+Airtable allows users to perform complex filtering such as searching within all the file names of file cells. We won't implement any special filtering initially.
 
 ### No ability to drop an upload into a cell
 
@@ -336,10 +276,6 @@ Mathesar administrators could conceivably wish to restrict file uploads to a cer
 Initially, file previews will be constrained to images _only_. All other file types will require the user to open them in a new tab, leveraging built-in browser file previewing, or to download the file to view it.
 
 Other projects in the ecosystem tend to show previews for many more file types, like PDFs. This functionally technically depends on generating thumbnails, which we also do not plan to support initially.
-
-### Single-file uploading
-
-Our new file upload modal will only support one file at a time initially. This will allow us to leverage the existing file import component for data sources in the table import flow while minimizing the amount of changes necessary to the component.
 
 ## High-Level Implementation Plan
 
@@ -436,6 +372,7 @@ We'll release this feature with accompanying user documentation. Specifically, i
 
 - Files being accessible anonymously via URL
 - Files not being deleted when removed from the cell
+- How to work with multiple files per record
 - The limited in-app file previews
 - No limits on file upload size
 - Wow to configure the files directory to work with Docker volumes
