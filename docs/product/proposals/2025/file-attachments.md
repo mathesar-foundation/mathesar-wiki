@@ -114,12 +114,6 @@ Data in the Postgres user database will work as follows:
 
 When a user downloads a file, the name of the saved file will be taken from the file name as stored in Postgres.
 
-### File name editing
-
-Users will be able to _edit_ the file name for each file. These edits will only affect the data in Postgres. They will not touch the files stored in the file attachments directory.
-
-Null and empty-sting file names will be _allowed_.
-
 ### Loading behavior when adding a file
 
 When the user uploads a file, the loading experience will be very basic.
@@ -276,6 +270,10 @@ Mathesar administrators could conceivably wish to restrict file uploads to a cer
 Initially, file previews will be constrained to images _only_. All other file types will require the user to open them in a new tab, leveraging built-in browser file previewing, or to download the file to view it.
 
 Other projects in the ecosystem tend to show previews for many more file types, like PDFs. This functionally technically depends on generating thumbnails, which we also do not plan to support initially.
+
+### No file name editing
+
+Airtable allows users to rename files after they have been uploaded. We won't support this feature initially.
 
 ## High-Level Implementation Plan
 
