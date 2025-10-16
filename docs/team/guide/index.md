@@ -10,6 +10,7 @@ These pages relate to Mathesar's development.
 - [Meetings](/team/guide/meetings) - *How we should approach meetings*
 - [Design Review](/archive/product/design/process/review-guidelines) - *Guidelines for reviewing new designs*
 - [Code Review](/engineering/code-review) - *Guidelines for reviewing new code*
+- [Security Assessment](/team/guide/security-assessment) - *How to assess security vulnerabilities*
 
 ## Community Management
 
