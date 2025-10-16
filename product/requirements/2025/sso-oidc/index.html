@@ -1,0 +1,2249 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.mathesar.org/product/requirements/2025/sso-oidc/">
+      
+      
+        <link rel="prev" href="../joined-data-improvements/">
+      
+      
+        <link rel="next" href="../../../../engineering/glossary/filters/">
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>SSO (OIDC) - Mathesar Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="SSO (OIDC) - Mathesar Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://wiki.mathesar.org/assets/images/social/product/requirements/2025/sso-oidc.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://wiki.mathesar.org/product/requirements/2025/sso-oidc/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="SSO (OIDC) - Mathesar Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://wiki.mathesar.org/assets/images/social/product/requirements/2025/sso-oidc.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#sso-oidc" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Mathesar Wiki" class="md-header__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathesar Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SSO (OIDC)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Mathesar Wiki" class="md-nav__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Mathesar Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/mailing-lists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailing lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../community/gsoc/applicant-guide/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    GSoC
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../team/guide/comm-tips/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../team/meeting-notes/2021/04/2021-04/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Related Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../requirements-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../proposals/2025/sso-oidc/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Proposals
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_7">
+            <span class="md-nav__icon md-icon"></span>
+            Requirements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deployments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Additional Deployment Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file-attachments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    File Attachments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forms-public/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forms (Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../joined-data-improvements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Working with Joined Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    SSO (OIDC)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    SSO (OIDC)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pain-points-for-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pain points for users
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-its-worth-solving" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why it&rsquo;s worth solving
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-feasible-to-solve" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is it feasible to solve?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-minimal-user-alice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Most Minimal User: Alice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Most Minimal User: Alice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      User stories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-common-user-bob-carol" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Common User: Bob &amp; Carol
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="More Common User: Bob &amp; Carol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      User stories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Success Criteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minimal Scope
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#full-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Full Scope
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../engineering/glossary/filters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../engineering/code-review/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Code review
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../engineering/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../engineering/translator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Translator Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/cutting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../archive/product/engineering-resources/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../archive/team/workflow/comms-assignee/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pain-points-for-users" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pain points for users
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-its-worth-solving" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why it&rsquo;s worth solving
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#is-it-feasible-to-solve" class="md-nav__link">
+    <span class="md-ellipsis">
+      Is it feasible to solve?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use Cases
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Cases">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#most-minimal-user-alice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Most Minimal User: Alice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Most Minimal User: Alice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      User stories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#more-common-user-bob-carol" class="md-nav__link">
+    <span class="md-ellipsis">
+      More Common User: Bob &amp; Carol
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="More Common User: Bob &amp; Carol">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-stories_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      User stories
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Success Criteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Minimal Scope
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#full-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Full Scope
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="sso-oidc">SSO (OIDC)<a class="headerlink" href="#sso-oidc" title="Permanent link">&para;</a></h1>
+<p><a href="https://github.com/orgs/mathesar-foundation/projects/2/views/1?query=sort%3Aupdated-desc+is%3Aopen&amp;pane=issue&amp;itemId=117162539&amp;issue=mathesar-foundation%7Cmathesar%7C4578">View this project in GitHub</a></p>
+<p>Mathesar users would like to reduce the number of separate passwords they need to use.</p>
+<p>Mathesar admins would like:</p>
+<ul>
+<li>All of their internal users using the same secure login that can be managed in one place.</li>
+<li>Reuse their existing groups and roles.</li>
+<li>Create users automatically and avoid manual work to create users.</li>
+</ul>
+<p>Mathesar maintainers would like Mathesar to be adopted at organizations with IT policies that require SSO.</p>
+<h3 id="pain-points-for-users">Pain points for users<a class="headerlink" href="#pain-points-for-users" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The current user creation process in Mathesar involves setting up users through the UI, plus getting them credentials manually. It&rsquo;s slow and cumbersome.</li>
+<li>Organizations that use SSO cannot benefit from their SSO setup when using Mathesar.</li>
+<li>Separate passwords also create a security risk, especially for a tool like Mathesar that may connect to a production database.</li>
+<li>People <strong><em>don’t adopt Mathesar</em></strong> because of this.</li>
+</ul>
+<h3 id="why-its-worth-solving">Why it&rsquo;s worth solving<a class="headerlink" href="#why-its-worth-solving" title="Permanent link">&para;</a></h3>
+<p>We are currently focusing on major issues that are blocking people from adopting Mathesar. <strong>SSO is one of the lowest effort / highest impact ways to do that.</strong> It has <a href="https://github.com/mathesar-foundation/mathesar/discussions/2291">several comments and upvotes</a> in our GitHub.</p>
+<p>SSO may also help us grow Mathesar adoption, because:</p>
+<ul>
+<li>Other products charge for SSO as part of their open core offering, but we would be releasing it under GPL.</li>
+<li>Mathesar supports Postgres DB-based permissions, but organizations who care about access control enough to use it are also likely to care about SSO.</li>
+</ul>
+<h3 id="is-it-feasible-to-solve">Is it feasible to solve?<a class="headerlink" href="#is-it-feasible-to-solve" title="Permanent link">&para;</a></h3>
+<p>Yes! We use Django for our users, and there are several libraries we can just drop into our codebase.</p>
+<ul>
+<li><a href="https://github.com/juanifioren/django-oidc-provider">juanifioren/django-oidc-provider</a>  </li>
+<li><a href="https://github.com/jazzband/django-oauth-toolkit">jazzband/django-oauth-toolkit</a>  </li>
+<li><a href="https://github.com/mozilla/mozilla-django-oidc">mozilla/mozilla-django-oidc</a>  </li>
+</ul>
+<p>Further feasibility research is unnecessary, it should be quick to implement. I briefly considered just implementing it instead of writing this.</p>
+<h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Permanent link">&para;</a></h2>
+<p>This is background information that I used to help me think through the requirements. I started with the use cases first and derived everything else from there. The use cases are made up, but people have described their use cases on <a href="https://github.com/mathesar-foundation/mathesar/discussions/2291">our SSO (single sign-on) support GitHub discussion</a>, which may also be helpful to read. </p>
+<h3 id="most-minimal-user-alice">Most Minimal User: Alice<a class="headerlink" href="#most-minimal-user-alice" title="Permanent link">&para;</a></h3>
+<p>Alice is a tech generalist who manages databases and IT (among other things) for her 30-person organization, but neither of those are her main job. She wants to set up Mathesar to help non-technical people who need access to data self-serve. </p>
+<p>Their organization uses Google Workspace to manage accounts, and she knows that if Mathesar doesn’t support Google Workspace login, she’s going to have more tech support on her hands, not less. She also wants to ensure that users accessing the DB through the Mathesar UI use a Postgres role with limited permissions.</p>
+<p>Since they have a small organization, she doesn’t mind creating/updating/deleting the users manually in Mathesar. She does need to configure email domain based whitelisting in Mathesar, and she&rsquo;d like to be able to set the default Postgres role for all users, rather than have to set a role for individual users. Deprovisioning is not a priority because once they lose access to their Google email, they can’t get into Mathesar either.</p>
+<p>Alice already has Google Workspace set up. She’s fine with doing the configuration on the command line or through config files. All she needs is:</p>
+<ol>
+<li>A way to configure Google Workspace SSO in Mathesar. (Google supports both OIDC and SAML).</li>
+<li>A way to limit who can access Mathesar to a particular email domain.</li>
+<li>A way to set up what Postgres role people automatically get when they sign in – a single role is fine.</li>
+<li>A way to create users in Mathesar and map them to the accounts they’ll be signing in with – manual is fine.</li>
+<li>A UI for users to log in to Mathesar with their Google account.</li>
+</ol>
+<h4 id="user-stories">User stories<a class="headerlink" href="#user-stories" title="Permanent link">&para;</a></h4>
+<p>Alice (tech generalist, small org admin)</p>
+<ul>
+<li>As Alice, I want to configure OIDC SSO with our Google Workspace account via a config file so that my users can sign in with their Google accounts.  </li>
+<li>As Alice, I want to restrict Mathesar access to users with a specific email domain so that unauthorized users can’t sign in even if they have a valid Google account.  </li>
+<li>As Alice, I want to define a default Postgres role in the config file that all SSO-authenticated users get, so that they don’t accidentally have too much access.  </li>
+<li>As Alice, I want to either pre-create user accounts in Mathesar and link them to their Google account or have Mathesar automatically create user accounts linked to the Postgres role in the config file, for anyone new that signs in from the specific email domain.  </li>
+<li>As Alice, I want my users to see a login screen that includes a “Sign in with Google” button so they can access Mathesar easily without needing credentials from me.</li>
+</ul>
+<p>David (non-technical staff at Alice’s org)</p>
+<ul>
+<li>As David, I want to sign in to Mathesar using my Google Workspace account so I don’t have to remember a new password or ask Alice for access.</li>
+<li>As David, I want to be granted access with the right permissions when I sign in so I can immediately use the product without extra steps.</li>
+</ul>
+<h3 id="more-common-user-bob-carol">More Common User: Bob &amp; Carol<a class="headerlink" href="#more-common-user-bob-carol" title="Permanent link">&para;</a></h3>
+<p>Bob works on the data science team at a 80-person company, and often collaborates with non-technical users e.g. sales and customer success. They also work with a team of outsourced data entry workers to populate their data. </p>
+<p>Mathesar would really make his job easier by allowing the data entry team to input data directly and simplifying data gathering. Mathesar would also allow the sales and support team to self-serve without the data science team being a bottleneck. Bob needs to work with Carol, his organization&rsquo;s IT person, to install Mathesar.</p>
+<p>Carol is comfortable installing Mathesar and connecting to their production database as long as Mathesar supports the following:</p>
+<ul>
+<li>Integration with Okta / Auth0, the identity provider used in the organization.  </li>
+<li>Separate Postgres roles for the data entry people, sales, and customer success – with proper RBAC. Carol is willing to set these up manually through <code>psql</code>.</li>
+<li>Automatic provisioning of roles based on groups – Carol does not want to make individual users, Carol has already set up groups in Okta and wants Mathesar to assocale ‘sales’ in the authorization headers with the ‘sales’ DB role, etc.  </li>
+<li>Documentation on how all this works, so Carol can learn about Mathesar comfortably.  </li>
+<li>Some information on how to debug failures, if someone can’t log in.</li>
+</ul>
+<p>Carol also needs the basic requirements that Alice needs. Carol still doesn’t need a UI for any of this.</p>
+<h4 id="user-stories_1">User stories<a class="headerlink" href="#user-stories_1" title="Permanent link">&para;</a></h4>
+<p>Bob (power user at medium org, internal advocate)</p>
+<ul>
+<li>As Bob, I want Mathesar set up at our organization so that I have more time to devote to data science and less to logistics.  </li>
+<li>As Bob, I want to hand off SSO configuration to our IT admin but still use Mathesar confidently once access is set up.  </li>
+<li>As Bob, I want to enable multiple Postgres roles for different kinds of users so that each group gets only the access they need.</li>
+</ul>
+<p>Carol (IT admin, medium org)</p>
+<ul>
+<li>As Carol, I want to configure OIDC SSO via a config file using our existing IdP (e.g., Okta/Auth0) so that I don’t have to create new identity workflows.  </li>
+<li>As Carol, I want to map IdP groups to specific Postgres roles in a config file so that access is automatically assigned based on group membership.  </li>
+<li>As Carol, I want to see logs showing which groups were received in the login assertion and what role was assigned, so I can debug access issues.  </li>
+<li>As Carol, I want clear documentation explaining how to configure OIDC, role mapping, and email domain restrictions so I can deploy Mathesar without reverse engineering.  </li>
+<li>As Carol, I want Mathesar to show users an unauthorized error if they don’t match allowed domains or mappings so that access failures are clear and traceable.  </li>
+<li>As Carol, I want a fallback login method to remain available so I don’t get locked out if the IdP is misconfigured.</li>
+</ul>
+<p>Frank (data entry contractor)</p>
+<ul>
+<li>As Frank, I want to sign in using my work email and immediately have access to the parts of the database I need, without having to be invited or manually added.</li>
+</ul>
+<p>Grace (customer success team)</p>
+<ul>
+<li>As Grace, I want to access live customer data in Mathesar by signing in with my usual company account so that I can self-serve metrics without waiting on the data team.</li>
+</ul>
+<h2 id="success-criteria">Success Criteria<a class="headerlink" href="#success-criteria" title="Permanent link">&para;</a></h2>
+<p>How we&rsquo;ll know we&rsquo;ve succeeded with our goals for adding SSO:</p>
+<ul>
+<li>We transition <a href="http://internal.mathesar.org">internal.mathesar.org</a> to use Google Workspace OIDC SSO and not hate it.  </li>
+<li>We track SSO usage growing in analytics.  </li>
+<li>We see an uptick in conversion from our website (after we advertise SSO)  </li>
+<li>We see qualitative positive user feedback on GitHub / Reddit, etc.</li>
+</ul>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<p>These requirements are from the point of view of the user and aim to represent all of the interaction surfaces that they have with this feature in Mathesar. They are not meant to map to implementation details. Some requirements may not need any implementation work done to fulfil them.</p>
+<h3 id="minimal-scope">Minimal Scope<a class="headerlink" href="#minimal-scope" title="Permanent link">&para;</a></h3>
+<p>Setup:</p>
+<ul>
+<li>Configure OIDC (Google Workspace / Okta / Auth0, etc) via config file.  </li>
+<li>Restrict access to a specific email domain in config.  </li>
+<li>Manually pre-create accounts and link to OIDC identities, at minimum.  </li>
+<li>Define a default Postgres role for all SSO users in the config file.</li>
+</ul>
+<p>Maintenance:</p>
+<ul>
+<li>Retain fallback login method in case SSO is misconfigured.  </li>
+<li>Get clear error messaging for others if login fails.  </li>
+<li>See clear error if a user is unauthorized based on domain or mapping.</li>
+</ul>
+<p>End user experience:</p>
+<ul>
+<li>Users see a “Sign in with Google” / “Sign in with Okta” option on the login page.  </li>
+<li>Sign in and immediately access the right data without manual setup.  </li>
+<li>Use their existing work account to access data self-serve.</li>
+</ul>
+<p>Documentation:</p>
+<ul>
+<li>Access clear documentation for OIDC setup, domain restriction, role mapping, and debugging.</li>
+</ul>
+<p>Analytics (for us):</p>
+<ul>
+<li>Track SSO setup as an event in analytics.</li>
+</ul>
+<h3 id="full-scope">Full Scope<a class="headerlink" href="#full-scope" title="Permanent link">&para;</a></h3>
+<p>Assuming we can do the full scope without too much additional effort, we should do so, since it will make Mathesar useful for a much wider variety of users.</p>
+<p>JIT provisioning:</p>
+<ul>
+<li>Automatically provision accounts on first login. No manual creation of users needed.  </li>
+<li>View group claims received from IdP and role assignment in logs, to help debug issues.  </li>
+<li>Understand why a user failed to authenticate or received incorrect access.</li>
+</ul>
+<p>Group-based role mapping:</p>
+<ul>
+<li>Map IdP groups to Postgres roles via config.  </li>
+<li>Automatically assign roles based on IdP group membership.</li>
+</ul>
+<p>Merging users automatically:</p>
+<ul>
+<li>Signing in with username/password or SSO should be the same account if the email is the same.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.copy", "navigation.path", "navigation.indexes", "navigation.sections", "navigation.prune"], "search": "../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

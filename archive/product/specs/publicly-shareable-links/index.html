@@ -1,0 +1,3595 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.mathesar.org/archive/product/specs/publicly-shareable-links/">
+      
+      
+        <link rel="prev" href="../permissions-revamp/">
+      
+      
+        <link rel="next" href="../undo-quick-save-functionality/">
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Publicly shareable links - Mathesar Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Publicly shareable links - Mathesar Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/specs/publicly-shareable-links.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://wiki.mathesar.org/archive/product/specs/publicly-shareable-links/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Publicly shareable links - Mathesar Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/specs/publicly-shareable-links.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#publicly-shareable-links" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Mathesar Wiki" class="md-header__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathesar Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Publicly shareable links
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Mathesar Wiki" class="md-nav__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Mathesar Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/mailing-lists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailing lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../community/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../community/gsoc/applicant-guide/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    GSoC
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../team/guide/comm-tips/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../team/meeting-notes/2021/04/2021-04/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../product/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../product/principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../product/proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../product/related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Related Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../product/requirements-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../product/proposals/2025/sso-oidc/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Proposals
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../product/requirements/2025/deployments/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../engineering/glossary/filters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../engineering/code-review/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Code review
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../engineering/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../engineering/translator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Translator Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/cutting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../release/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../engineering-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../feature-ideas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature Ideas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../concepts/data-types/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../design/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../guides/migrate-from-017-to-020/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../research/formulas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1_10" id="__nav_7_1_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Specs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1_10">
+            <span class="md-nav__icon md-icon"></span>
+            Specs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dynamic-defaults-proto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dynamic Defaults Proto-Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../example-schema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Example Schema
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forms
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permissions-revamp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Permissions - Revamp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Publicly shareable links
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publicly shareable links
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-this-feature-is-and-what-its-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      What this feature is, and what its not
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope-for-the-initial-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope for the initial version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assumptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminologies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-ux-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggested UX flow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Suggested UX flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-creating-the-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      User creating the link
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User creating the link">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharing-a-tableexploration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing a table/exploration:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-a-tableexploration-is-already-shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      When a table/exploration is already shared:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-control-modal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing control modal:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-viewing-shared-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      User viewing shared link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessibility
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-level-backend-implementation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-level Backend implementation approach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="High-level Backend implementation approach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#endpoints-db-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Endpoints &amp; DB schema:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication-and-authorization-for-existing-entity-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication and Authorization for existing entity API endpoints:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-level-frontend-implementation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-level Frontend implementation approach
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-approaches-discussions-on-django-model-and-db-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Approaches &amp; discussions on Django model and DB schema
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Approaches &amp; discussions on Django model and DB schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditions:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#things-to-consider-while-choosing-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Things to consider while choosing approach:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approaches-that-are-not-feasible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approaches that are not feasible:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approaches-considered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approaches considered:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Approaches considered:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sparse-table-exclusive-belongs-to-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      &lsquo;Sparse table exclusive belongs-to&rsquo; approach.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#one-dedicated-table-per-entity-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      &lsquo;One dedicated table per entity&rsquo; approach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      Result
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-approaches-on-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Approaches on API endpoints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Approaches on API endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option 1:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#option-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Result:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-scheduled-for-later-iterations" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Scheduled for later iterations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-competitive-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Competitive research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Competitive research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#airtable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Airtable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocodb" class="md-nav__link">
+    <span class="md-ellipsis">
+      NocoDB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google sheets
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../undo-quick-save-functionality/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick Save Functionality
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../users-permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Users &amp; Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../2022-01-views/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    2022 01 views
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../concepts/data-types/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../technical-specs/dateandtime/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Technical specs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../team/workflow/comms-assignee/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-this-feature-is-and-what-its-not" class="md-nav__link">
+    <span class="md-ellipsis">
+      What this feature is, and what its not
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scope-for-the-initial-version" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope for the initial version
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assumptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assumptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminologies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggested-ux-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggested UX flow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Suggested UX flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-creating-the-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      User creating the link
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="User creating the link">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sharing-a-tableexploration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing a table/exploration:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-a-tableexploration-is-already-shared" class="md-nav__link">
+    <span class="md-ellipsis">
+      When a table/exploration is already shared:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sharing-control-modal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sharing control modal:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-viewing-shared-link" class="md-nav__link">
+    <span class="md-ellipsis">
+      User viewing shared link
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessibility
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-level-backend-implementation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-level Backend implementation approach
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="High-level Backend implementation approach">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#endpoints-db-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      Endpoints &amp; DB schema:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authentication-and-authorization-for-existing-entity-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      Authentication and Authorization for existing entity API endpoints:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#high-level-frontend-implementation-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      High-level Frontend implementation approach
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-approaches-discussions-on-django-model-and-db-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Approaches &amp; discussions on Django model and DB schema
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Approaches &amp; discussions on Django model and DB schema">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conditions:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#things-to-consider-while-choosing-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Things to consider while choosing approach:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approaches-that-are-not-feasible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approaches that are not feasible:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#approaches-considered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Approaches considered:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Approaches considered:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sparse-table-exclusive-belongs-to-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      &lsquo;Sparse table exclusive belongs-to&rsquo; approach.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#one-dedicated-table-per-entity-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      &lsquo;One dedicated table per entity&rsquo; approach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recommendation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recommendation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result" class="md-nav__link">
+    <span class="md-ellipsis">
+      Result
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-approaches-on-api-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Approaches on API endpoints
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Approaches on API endpoints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option 1:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#option-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option 2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#result_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Result:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-scheduled-for-later-iterations" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Scheduled for later iterations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-competitive-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Competitive research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Competitive research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#airtable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Airtable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nocodb" class="md-nav__link">
+    <span class="md-ellipsis">
+      NocoDB
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google sheets
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="publicly-shareable-links">Publicly shareable links<a class="headerlink" href="#publicly-shareable-links" title="Permanent link">&para;</a></h1>
+<p>This spec describes the working principle of the initial versions of Publicly shareable links and ability to embed tables &amp; explorations in other sites.</p>
+<h2 id="goals">Goals<a class="headerlink" href="#goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Users should be able to publicly share tables &amp; explorations as url links.</li>
+<li>Users should be able to embed tables and explorations in other sites.</li>
+</ul>
+<h2 id="what-this-feature-is-and-what-its-not">What this feature is, and what its not<a class="headerlink" href="#what-this-feature-is-and-what-its-not" title="Permanent link">&para;</a></h2>
+<ul>
+<li>This feature is related to publishing an existing table or exploration (and in the future, forms &amp; queries) via public urls, which can be accessed by anybody with the link.</li>
+<li>This feature is not related to access control between users in a Mathesar instance.</li>
+</ul>
+<h2 id="scope-for-the-initial-version">Scope for the initial version<a class="headerlink" href="#scope-for-the-initial-version" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The links will be generated only for tables and explorations.</li>
+<li>The links would display a read-only version of tables and explorations, i.e. only &lsquo;viewer&rsquo; access.</li>
+<li>The links will not contain applied filters, groups, and sorting. If users want them, they can create explorations with the filters applied and then share them.</li>
+<li>The menu bar with options to filter, group, sort will be present.</li>
+<li>Inspector will not be visible in shared tables &amp; explorations.</li>
+</ul>
+<h2 id="assumptions">Assumptions<a class="headerlink" href="#assumptions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Only users with manager access would want to share tables &amp; explorations publicly.</li>
+<li>Embedding is assumed to take less work as the idea is only to provide code for an iframe with the public link. It may be removed from the initial verison as part of scope reduction if the work takes longer than anticipated.</li>
+</ul>
+<h2 id="terminologies">Terminologies<a class="headerlink" href="#terminologies" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The names and terminologies used here are for the purposes of the spec only. It will differ during implementation.</li>
+<li>For implementation, we intend to name the feature &lsquo;<strong>Shares</strong>&rsquo;.</li>
+</ul>
+<h2 id="suggested-ux-flow">Suggested UX flow<a class="headerlink" href="#suggested-ux-flow" title="Permanent link">&para;</a></h2>
+<h3 id="user-creating-the-link">User creating the link<a class="headerlink" href="#user-creating-the-link" title="Permanent link">&para;</a></h3>
+<h4 id="sharing-a-tableexploration">Sharing a table/exploration:<a class="headerlink" href="#sharing-a-tableexploration" title="Permanent link">&para;</a></h4>
+<ul>
+<li>User opens table/query.</li>
+<li>Notices a button saying &lsquo;Share&rsquo; in the table menu bar.</li>
+<li>This button is also present in the inspector.</li>
+<li>Upon clicking, the &lsquo;Sharing control modal&rsquo; opens. Read further down for it&rsquo;s UX.</li>
+</ul>
+<h4 id="when-a-tableexploration-is-already-shared">When a table/exploration is already shared:<a class="headerlink" href="#when-a-tableexploration-is-already-shared" title="Permanent link">&para;</a></h4>
+<ul>
+<li>User opens table/exploration.</li>
+<li>The button saying &lsquo;Share&rsquo; in the menu bar &amp; inspector have a different indication.<ul>
+<li>This could be a different background or an icon.</li>
+</ul>
+</li>
+<li>This indication would denote that the table/exploration is already publicly shared.</li>
+<li>Upon clicking, the &lsquo;Sharing control modal&rsquo; opens. Read further down for it&rsquo;s UX.</li>
+</ul>
+<h4 id="sharing-control-modal">Sharing control modal:<a class="headerlink" href="#sharing-control-modal" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Modal shows information on whether the table is already shared or not.</li>
+<li>If shared, it shows the public link.<ul>
+<li>Users can copy the link.</li>
+<li>Users can clear it.</li>
+<li>Users can regenerate the link.</li>
+<li>Users can see code to embed the table/exploration.</li>
+<li>Users can click on a hyperlink which opens the public link in a separate tab, so that they can preview it.</li>
+</ul>
+</li>
+<li>If not shared, users can generate a new link.</li>
+</ul>
+<h3 id="user-viewing-shared-link">User viewing shared link<a class="headerlink" href="#user-viewing-shared-link" title="Permanent link">&para;</a></h3>
+<ul>
+<li>When users access the public url, they view the table/exploration in a dedicated page for it.</li>
+<li>This page will not contain breadcrumbs and profile controls.</li>
+<li>This page will contain the app header and the name of the table/exploration.</li>
+<li>It will contain a readonly view of the table/exploration, similar to how a &lsquo;viewer&rsquo; would view it.</li>
+<li>It will not contain the table/exploration inspector for the initial version.</li>
+<li>Tables will contain the menu bar with options to filter, sort, and group.</li>
+</ul>
+<h3 id="accessibility">Accessibility<a class="headerlink" href="#accessibility" title="Permanent link">&para;</a></h3>
+<ul>
+<li>For the initial version, we will not support smaller screens.</li>
+</ul>
+<h2 id="high-level-backend-implementation-approach">High-level Backend implementation approach<a class="headerlink" href="#high-level-backend-implementation-approach" title="Permanent link">&para;</a></h2>
+<p>Refer relevant discussions in <a href="https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/Cw306oVkx6g/m/z4wmV0jZAQAJ">mail thread</a>.</p>
+<h3 id="endpoints-db-schema">Endpoints &amp; DB schema:<a class="headerlink" href="#endpoints-db-schema" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Refer to <strong>Appendix #1</strong> for approaches &amp; discussions on selection of Django model structure.
+Refer to <strong>Appendix #2</strong> for approaches &amp; discussions on selection of API endpoint structure.</p>
+</blockquote>
+<ul>
+<li>Django models<ul>
+<li>One abstract model containing common fields</li>
+</ul>
+</li>
+<li>Each entity will have a model inheriting from the abstract model</li>
+<li>DB schema
+    <img alt="public_links_one_table_per_entity.png" src="/assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png" /></li>
+<li>API endpoints:<ul>
+<li>The <code>shares</code> endpoints will be placed within each entity. For tables, it would be:</li>
+<li>CREATE: <code>POST /tables/&lt;table_id&gt;/shares/</code></li>
+<li>LIST: <code>GET /tables/&lt;table_id&gt;/shares/</code></li>
+<li>PARTIAL UPDATE: <code>PATCH /tables/&lt;table_id&gt;/shares/&lt;link_id&gt;/</code></li>
+<li>REGENERATE SLUG: <code>POST /tables/&lt;table_id&gt;/shares/&lt;link_id&gt;/regenerate/</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="authentication-and-authorization-for-existing-entity-api-endpoints">Authentication and Authorization for existing entity API endpoints:<a class="headerlink" href="#authentication-and-authorization-for-existing-entity-api-endpoints" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Bypassing authentication for APIs needed by frontend:</li>
+<li>For publicly shared content, we should be able to bypass login for the GET requests required to display the table/query in the UI. This includes GET endpoints in tables, queries, columns, records etc.,</li>
+<li>The frontend will set an additional request header <code>public_link_slug</code> when attempting to access entity endpoints (eg., /tables, /queries etc.,) via a publicly shared url. The value of this request header will be the same as the slug of the public link.<ul>
+<li>Eg., <code>public_link_slug</code>: <code>f2eea1b0-591f-4414-89ae-87d1688bf1d6</code> </li>
+</ul>
+</li>
+<li>This can be done by adding custom permission classes to these specific endpoints, which override the default <code>rest_framework.permissions.IsAuthenticated</code> class, and changes the condition to:<ul>
+<li>If isAuthenticated, provide access.</li>
+<li>If not authenticated, Check if the request contains the <code>public_link_slug</code> header. If no, reject request.</li>
+<li>If <code>public_link_slug</code> header is present, Check if the relevant links table contains the slug. If no, reject request.<ul>
+<li>If the relevant table contains the slug, identify the entity the slug relates to. Check if the requested object (column, record, table etc.,) is either the same entity or a sub-entity of it. Eg., If a column is requested and the slug is linked to a table, check if the column is part of the table. If no, reject request.</li>
+<li>If yes, allow request.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Bypassing authorization for APIs needed by frontend:</li>
+<li>The custom auth mentioned above would only be applied to GET methods of selected endpoints for actions like list, retrieve. Essentially, everything a viewer would have access to.</li>
+<li>Since the user is autonomous, we do not have to specify a custom <code>scope_queryset</code> since the access to the requested resource is public.</li>
+<li>If the user is already logged in, we do not have to do any of this and let the existing logic take over.</li>
+</ul>
+<h2 id="high-level-frontend-implementation-approach">High-level Frontend implementation approach<a class="headerlink" href="#high-level-frontend-implementation-approach" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Sending an additional request header:</li>
+<li>A request header <code>public_link_slug</code> will be sent will all API requests when the current parent route is <code>/public/</code>. The value of this header would be the same as the slug.</li>
+</ul>
+<h2 id="appendix">Appendix<a class="headerlink" href="#appendix" title="Permanent link">&para;</a></h2>
+<h3 id="1-approaches-discussions-on-django-model-and-db-schema">1. Approaches &amp; discussions on Django model and DB schema<a class="headerlink" href="#1-approaches-discussions-on-django-model-and-db-schema" title="Permanent link">&para;</a></h3>
+<h4 id="requirements">Requirements:<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h4>
+<ul>
+<li>(1) When a table, query, or in future forms, charts etc., get deleted, the corresponding links should get deleted.</li>
+<li>(2) A link should contain metadata which is common to all kinds of links. Eg., password, access_levels etc.,</li>
+<li>(3) We might require entity specific metadata for links. For eg., Option to &lsquo;Download as csv&rsquo; could be a table specific link metadata, or &lsquo;Download image&rsquo; could be a chart specific link metadata.</li>
+<li>(4) We might require multiple links for the same entity. A table could have one link with access level as viewer, and another password protected one for access level editor.</li>
+</ul>
+<h4 id="conditions">Conditions:<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h4>
+<ul>
+<li>(5) Links are not top level entities i.e. We cannot have a &lsquo;public_links&rsquo; database table and have mapping tables to individual entites. This is due to (1).<ul>
+<li>When a table is deleted, there should not be an orphan link which we have to clean up with triggers.</li>
+</ul>
+</li>
+<li>(6) It&rsquo;s best not to rely on triggers and utilize FKs.</li>
+</ul>
+<h4 id="things-to-consider-while-choosing-approach">Things to consider while choosing approach:<a class="headerlink" href="#things-to-consider-while-choosing-approach" title="Permanent link">&para;</a></h4>
+<ul>
+<li>DB schema</li>
+<li>API request/response structure</li>
+<li>Complexity of backend implementation</li>
+</ul>
+<h4 id="approaches-that-are-not-feasible">Approaches that are not feasible:<a class="headerlink" href="#approaches-that-are-not-feasible" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The &ldquo;entity_type and entity_id polymorphic joins&rdquo; approach.<ul>
+<li>Does not satisfy (6)</li>
+</ul>
+</li>
+<li>The &ldquo;reverse-belongs to&rdquo; approach where a table (or any entity) contains the link as part of it&rsquo;s model. <ul>
+<li>Requires dedicated mapping tables to implement (4)</li>
+<li>Duplications needed for (2)</li>
+</ul>
+</li>
+<li>The &ldquo;polymorphic django model libraries&rdquo; approaches (Django polymorphic, Django model-utils Inheritance Manager, Django concrete inheritance).<ul>
+<li>Does not satisfy (1) and (5)</li>
+</ul>
+</li>
+</ul>
+<h4 id="approaches-considered">Approaches considered:<a class="headerlink" href="#approaches-considered" title="Permanent link">&para;</a></h4>
+<p>Both the following approaches satisfy all points above.</p>
+<h5 id="sparse-table-exclusive-belongs-to-approach">&lsquo;Sparse table exclusive belongs-to&rsquo; approach.<a class="headerlink" href="#sparse-table-exclusive-belongs-to-approach" title="Permanent link">&para;</a></h5>
+<ul>
+<li>DB schema:
+    <img alt="public_links_sparse_table.png" src="/assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table.png" /></li>
+<li>DB schema when we implement (4):
+    <img alt="public_links_sparse_table_metadata.png" src="/assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table_metadata.png" /></li>
+<li>Requires a check condition on the table to ensure that there&rsquo;s exactly 1 of the entities for each link.</li>
+<li>Pros:<ul>
+<li>API requests and responses would be under a single endpoint <code>/public_links/</code>.</li>
+<li>Public links can be generated as <code>/public/&lt;url_slug&gt;</code>, without having to specify the type of entity in the url.</li>
+</ul>
+</li>
+<li>Cons:<ul>
+<li>Simple for the initial version, but complexity increases when we have entity specific metadata.</li>
+<li>A multi-column FK would be needed in the metadata tables to ensure that the entity ids are not null.</li>
+<li>Queries would be fast but would require making joins to multiple metadata tables.</li>
+<li>Django models would get complicated.</li>
+<li>POST and GET API requests to <code>/public_links</code> would have to include entity specify metadata:<ul>
+<li>Additional code would be required to update the metadata tables.</li>
+<li>Custom serializers might be required to parse the requests.</li>
+</ul>
+</li>
+<li>We could attempt to simplify this portion using the Django polymorphic libraries, but it introduces the complexity of adding and utilizing another library.</li>
+</ul>
+</li>
+</ul>
+<h5 id="one-dedicated-table-per-entity-approach">&lsquo;One dedicated table per entity&rsquo; approach<a class="headerlink" href="#one-dedicated-table-per-entity-approach" title="Permanent link">&para;</a></h5>
+<ul>
+<li>DB schema
+    <img alt="public_links_one_table_per_entity.png" src="/assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png" /></li>
+<li>Pros:<ul>
+<li>Models are simple.</li>
+<li>Can be implemented using abstract models, and Django simplifies all implementation logic. </li>
+<li>API requests &amp; responses don&rsquo;t require custom handling.</li>
+<li>Queries would be fast.</li>
+<li>Each entity&rsquo;s custom metadata would be part of it&rsquo;s own table.</li>
+</ul>
+</li>
+<li>Cons:<ul>
+<li>Multiple tables with similar duplicated columns would be required for a feature which is essentially common to all the entities.</li>
+<li>API requests &amp; responses require multiple endpoints, one for each entity.</li>
+<li>Tables would be under <code>/public_links/tables/</code></li>
+<li>Queries would be under <code>/public_links/queries</code>.</li>
+<li>Public links would need to contain the type of entity.</li>
+<li>Tables would be shared with link <code>/public/tables/&lt;url_slug&gt;</code>.</li>
+<li>Queries: <code>/public/queries/&lt;url_slug&gt;</code>.</li>
+</ul>
+</li>
+</ul>
+<h4 id="recommendation">Recommendation<a class="headerlink" href="#recommendation" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Implementation and maintenance wise, the &lsquo;One dedicated table per entity&rsquo; is the simplest, and considering that we might definitely have entity specific metadata, I&rsquo;m recommending it.</li>
+<li>I don&rsquo;t see an issue with having the entity in the url (eg., <code>/public/queries/&lt;url_slug&gt;</code>).</li>
+<li>Anything we might want to do with links would require us to do it in all the tables, but Django simplifies that for us, so I don&rsquo;t see complexity there.</li>
+</ul>
+<h4 id="result">Result<a class="headerlink" href="#result" title="Permanent link">&para;</a></h4>
+<ul>
+<li>It was discussed and concluded via mail that we&rsquo;ll go ahead with the &lsquo;One dedicated table per entity&rsquo; approach.</li>
+</ul>
+<h3 id="2-approaches-on-api-endpoints">2. Approaches on API endpoints<a class="headerlink" href="#2-approaches-on-api-endpoints" title="Permanent link">&para;</a></h3>
+<h4 id="option-1">Option 1:<a class="headerlink" href="#option-1" title="Permanent link">&para;</a></h4>
+<p>CREATE: <code>POST /shares/table-link/</code>. Table id will be part of request body.
+LIST: <code>GET /shares/table-link/</code>
+LIST &amp; FILTER BY ENTITY: <code>GET /shares/table-link/?table=&lt;table_id&gt;</code>
+LIST &amp; FILTER BY SLUG: <code>GET /shares/table-link/?slug=&lt;slug&gt;</code>
+PARTIAL UPDATE: <code>PATCH /shares/table-link/&lt;link_id&gt;/</code>. Table id should not be allowed to be updated.
+REGENERATE SLUG: <code>POST /shares/table-link/&lt;link_id&gt;/regenerate/</code></p>
+<p>Pros:</p>
+<ul>
+<li>Shared url need not contain entity id: <code>http://localhost:8000/shared/tables/&lt;slug&gt;/</code></li>
+<li>Code related to shared links can be within a single place</li>
+<li>Generic viewsets and serializers can be written reducing possible duplication</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Entity id needs to specified as part of request body.<ul>
+<li>Additional logic would be required to disallow update of entity id.</li>
+<li>Additional logic required to filter by entity id.</li>
+</ul>
+</li>
+</ul>
+<h4 id="option-2">Option 2<a class="headerlink" href="#option-2" title="Permanent link">&para;</a></h4>
+<p>Endpoints for shares would be placed within each entity. For table, it would be:</p>
+<p>CREATE: <code>POST /tables/&lt;table_id&gt;/shares/</code>
+LIST: <code>GET /tables/&lt;table_id&gt;/shares/</code>
+<del>LIST &amp; FILTER BY ENTITY: <code>GET /tables/&lt;table_id&gt;/shares/</code></del> (This is the same as list)
+<del>LIST &amp; FILTER BY SLUG: <code>GET /tables/&lt;table_id&gt;/shares/?slug=&lt;slug&gt;</code></del> (Not required by frontend, since shared url already has <code>table_id</code>)
+PARTIAL UPDATE: <code>PATCH /tables/&lt;table_id&gt;/shares/&lt;link_id&gt;/</code>
+REGENERATE SLUG: <code>POST /tables/&lt;table_id&gt;/shares/&lt;link_id&gt;/regenerate/</code></p>
+<p>Pros:</p>
+<ul>
+<li>Placed within hierarchy of respective entities</li>
+<li>Entity id is a path param:<ul>
+<li>Entity need not be specified in the request body additionally</li>
+<li>No additional filtering needed by entity</li>
+<li>Update requests should not modify entity, and since entity is part of url path, no additional logic is needed for it</li>
+</ul>
+</li>
+<li>Option to filter by slug is not required</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Shared url needs to contain entity id: <code>http://localhost:8000/shared/tables/&lt;table_id&gt;/?token={$slug}</code></li>
+<li>Some code duplication might be needed</li>
+</ul>
+<h4 id="result_1">Result:<a class="headerlink" href="#result_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Pavish and Kriti discussed via private chat and decided to go with Option 2.</li>
+</ul>
+<h3 id="3-scheduled-for-later-iterations">3. Scheduled for later iterations<a class="headerlink" href="#3-scheduled-for-later-iterations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Shared views with persisted filters, grouping etc.,</li>
+<li>Option to restrict link access by password</li>
+<li>Sharing record page &amp; forms</li>
+<li>Option to share as editor</li>
+<li>Option to show table/exploration inspector</li>
+</ul>
+<h3 id="4-competitive-research">4. Competitive research<a class="headerlink" href="#4-competitive-research" title="Permanent link">&para;</a></h3>
+<h4 id="airtable">Airtable<a class="headerlink" href="#airtable" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Option to generate link &amp; embedding view is present in menu bar.</li>
+<li>Shared views are read-only.</li>
+<li>Option to share entire bases.</li>
+<li>Links:</li>
+<li>Once link is generated, there are options to clear it, generate new link.</li>
+<li>Options to restrict/allow users to copy data from view. Options to restrict/show all fields, including ones created in future.</li>
+<li>Option to restict by password or by email domain (needs higher plan).</li>
+<li>Embed:</li>
+<li>Provides code to embed iframe.</li>
+<li>Shows desktop and mobile preview.</li>
+<li>Option to show/hide controls bar.</li>
+<li>Filters, groups, and sorting added to a table is applied to the shared output view.</li>
+<li>This is possible because this configuration is always persisted.</li>
+<li>Option to share form for cases where adding data is required.</li>
+</ul>
+<h4 id="nocodb">NocoDB<a class="headerlink" href="#nocodb" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Link is automatically generated for all tables.</li>
+<li>Option to restrict access via a password.</li>
+<li>Option to restrict/allow download.</li>
+<li>Filters, hidden columns, sorting etc., are automatically applied to shared link.</li>
+<li>This is possible because this configuration is always persisted.</li>
+<li>Shared content is read-only.</li>
+</ul>
+<h4 id="google-sheets">Google sheets<a class="headerlink" href="#google-sheets" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Option to share content as viewer, commenter, and editor.</li>
+<li>Option to publish a public url which does not require users to login to view the content.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["content.code.copy", "navigation.path", "navigation.indexes", "navigation.sections", "navigation.prune"], "search": "../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2492 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.mathesar.org/community/gsoc/mentor-guide/">
+      
+      
+        <link rel="prev" href="../mentee-guide/">
+      
+      
+        <link rel="next" href="../project-idea-template/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Mentor Guide - Mathesar Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Mentor Guide - Mathesar Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://wiki.mathesar.org/assets/images/social/community/gsoc/mentor-guide.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://wiki.mathesar.org/community/gsoc/mentor-guide/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Mentor Guide - Mathesar Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://wiki.mathesar.org/assets/images/social/community/gsoc/mentor-guide.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mentor-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Mathesar Wiki" class="md-header__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathesar Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mentor Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Mathesar Wiki" class="md-nav__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Mathesar Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mailing-lists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailing lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    GSoC
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            GSoC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../applicant-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Applicant Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mentee-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mentee Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Mentor Guide
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mentor Guide
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-project-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing project ideas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-for-the-mentoring-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying for the mentoring program
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accepting-contributions-from-applicants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accepting contributions from applicants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accepting contributions from applicants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#communication-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Tips
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewing-proposals-from-applicants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewing proposals from applicants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reviewing proposals from applicants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-reviewing-involve" class="md-nav__link">
+    <span class="md-ellipsis">
+      What does reviewing involve?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-mentees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing mentees
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-the-mentees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with the mentees
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with the mentees">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#welcoming-the-mentee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Welcoming the mentee
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finalizing-the-project-plan-and-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finalizing the project plan and workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mentoring-period" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mentoring Period
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mentoring Period">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weekly-check-ins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weekly check-ins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ongoing-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ongoing work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feedback
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-idea-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Idea Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../project-ideas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Project ideas
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project-proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../past/2022/dependents-graph/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Previous Projects
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../team/guide/comm-tips/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../team/meeting-notes/2021/04/2021-04/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../product/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Related Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../product/requirements-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../product/proposals/2025/sso-oidc/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Proposals
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../product/requirements/2025/deployments/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../engineering/glossary/filters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../engineering/code-review/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Code review
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering/translator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Translator Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/cutting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../release/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../archive/product/engineering-resources/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../archive/team/workflow/comms-assignee/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-project-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing project ideas
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-for-the-mentoring-program" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying for the mentoring program
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accepting-contributions-from-applicants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accepting contributions from applicants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accepting contributions from applicants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#communication-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Communication Tips
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reviewing-proposals-from-applicants" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviewing proposals from applicants
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reviewing proposals from applicants">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-does-reviewing-involve" class="md-nav__link">
+    <span class="md-ellipsis">
+      What does reviewing involve?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-mentees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Choosing mentees
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-the-mentees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with the mentees
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Working with the mentees">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#welcoming-the-mentee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Welcoming the mentee
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finalizing-the-project-plan-and-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finalizing the project plan and workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mentoring-period" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mentoring Period
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mentoring Period">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#weekly-check-ins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Weekly check-ins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ongoing-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ongoing work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      Feedback
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="mentor-guide">Mentor Guide<a class="headerlink" href="#mentor-guide" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">GSoC 2024 will not have Mathesar</p>
+<p><strong>Mathesar <a href="https://github.com/mathesar-foundation/mathesar/issues/3381">will not be participating</a> in Google Summer of Code (GSoC) 2024</strong> due to lack of maintainer capacity. We hope to resume participation in 2025.</p>
+<p>This guide was for GSoC 2023.</p>
+</div>
+<p>This guide only covers Mathesar-specific processes and guidelines. For a more general overview of what mentorship entails, please read <a href="https://google.github.io/gsocguides/mentor/">the Google Summer of Code Mentor Guide</a>.</p>
+<p>Mentoring programs are usually structured into the following stages:
+1. Preparing project ideas
+2. Applying for the mentoring program
+3. Accepting contributions from applicants
+4. Reviewing proposals from applicants
+5. Choosing mentees
+6. Planning with mentees
+7. Working with mentees</p>
+<h2 id="preparing-project-ideas">Preparing project ideas<a class="headerlink" href="#preparing-project-ideas" title="Permanent link">&para;</a></h2>
+<p>We need a list of potential project ideas that applicants can submit a proposal to implement. </p>
+<p>Project ideas should be:</p>
+<ul>
+<li>a self-contained feature or improvement for Mathesar</li>
+<li>scoped so that a single person can reasonably implement it in the timeframe of the mentoring program<ul>
+<li>For GSoC, this is either 350 hours or 175 hours</li>
+</ul>
+</li>
+<li>not time-sensitive or critical (there is no guarantee that the project will ship)</li>
+<li>compatible with our existing product roadmap</li>
+</ul>
+<p>Once you&rsquo;ve come up with a project idea, please:
+1. Flesh it out using our <a href="/community/gsoc/project-idea-template">Project Idea Template</a>.
+2. Add it to the <a href="/community/gsoc/project-ideas">Project Ideas</a> page.</p>
+<p>If you&rsquo;re wondering if your project idea makes sense, discuss it on Matrix with other team members first before writing it down.</p>
+<blockquote>
+<p><strong>See also:</strong> The <a href="https://google.github.io/gsocguides/mentor/defining-a-project-ideas-list">&ldquo;Defining a Project (Ideas List)&rdquo; page of the GSoC mentor guide</a></p>
+</blockquote>
+<h2 id="applying-for-the-mentoring-program">Applying for the mentoring program<a class="headerlink" href="#applying-for-the-mentoring-program" title="Permanent link">&para;</a></h2>
+<p>Once we have fleshed our our project ideas, Kriti will submit Mathesar&rsquo;s application to the mentoring program. While we wait to hear back, you should:</p>
+<ul>
+<li>create a set of <code>good first issue</code> tasks suitable for first-time contributors to the codebase.</li>
+<li>mentally prepare to deal with increased communication work.</li>
+</ul>
+<h2 id="accepting-contributions-from-applicants">Accepting contributions from applicants<a class="headerlink" href="#accepting-contributions-from-applicants" title="Permanent link">&para;</a></h2>
+<p>Once the mentoring program (e.g. Google) announces the organizations participating in the program, potential applicants will start communicating with us. This stage of the program is the most intense.</p>
+<p>You should:</p>
+<ul>
+<li>welcome new contributors and help them get started with:<ul>
+<li>applicant information</li>
+<li>local project setup</li>
+<li>finding issues to contribute to</li>
+</ul>
+</li>
+<li>review PRs quickly</li>
+<li>answer questions about the project ideas and the product.</li>
+</ul>
+<h3 id="communication-tips">Communication Tips<a class="headerlink" href="#communication-tips" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Point people to public channels and away from email and DMs so that others can answer questions too.</li>
+<li>You may get low effort questions like &ldquo;how do I get started?&rdquo;. Don&rsquo;t try to guess what people mean, ask for more specific questions.<ul>
+<li>In general, the effort involved in helping someone should be proportional to the effort they put in.</li>
+</ul>
+</li>
+<li>If you find yourself answering the same questions often, update the relevant documentation so you can point people to it instead.</li>
+<li>Do not give individual applicants information about competing applications (e.g. how many proposals we got for a particular project idea).</li>
+</ul>
+<h2 id="reviewing-proposals-from-applicants">Reviewing proposals from applicants<a class="headerlink" href="#reviewing-proposals-from-applicants" title="Permanent link">&para;</a></h2>
+<p>Applicants will start working on draft proposals and sharing them with you a few weeks before the deadline. You are responsible for reviewing all proposals for which you are the primary mentor.</p>
+<p>You should:</p>
+<ul>
+<li>track draft proposals and review status in our <a href="https://docs.google.com/spreadsheets/d/1FSahyG8f6pkWj_hv7oMi6g49ANIpKJWDVtUS-Qwz0ZQ/">our internal spreadsheet</a></li>
+<li>ask applicants to submit draft proposals directly to you via Matrix and add them to the spreadsheet when you get them.</li>
+<li>review proposals in 1-2 days if possible.</li>
+<li>ask for review from other team members if you think it would be useful. </li>
+</ul>
+<h3 id="what-does-reviewing-involve">What does reviewing involve?<a class="headerlink" href="#what-does-reviewing-involve" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reviewing involves leaving comments on the proposal to help the applicant improve the proposal before final submission.</li>
+<li>Review comments should focus on finding problems with the proposal, not suggesting specific solutions.</li>
+<li>Comments should mostly be in the form of:<ul>
+<li>Questions about something unclear.</li>
+<li>1-2 sentence explanations about why something doesn&rsquo;t make sense.</li>
+<li>1-2 sentence statements describing what&rsquo;s missing in a section.</li>
+<li>Suggestions for areas of the codebase to contribute code to (to strengthen confidence in the proposal).</li>
+</ul>
+</li>
+<li>Questions to ask yourself during review:<ul>
+<li>Does the applicant understand the project idea?</li>
+<li>Is the implementation plan:<ul>
+<li>technically feasible?</li>
+<li>technically <em>desirable</em>?</li>
+</ul>
+</li>
+<li>Is the implementation timeline realistic (including time needed to learn new skills and get familiar with the codebase?</li>
+<li>Does the timeline include concrete deliverables?</li>
+<li>Has the applicant thought through design and UX issues?</li>
+<li>Are the applicant&rsquo;s code contributions strong enough that you feel confident that they can follow through on their plan?</li>
+</ul>
+</li>
+</ul>
+<h2 id="choosing-mentees">Choosing mentees<a class="headerlink" href="#choosing-mentees" title="Permanent link">&para;</a></h2>
+<p>After the final proposals are in, you&rsquo;ll meet with the rest of the Mathesar team and decide which proposals are strong enough to accept. </p>
+<p>This is an internal decision, we do not communicate with applicants about their proposals at this point.</p>
+<p>During this period, you should:
+1. finalize mentorship for each project
+2. alk to co-mentors to create a plan for how to collaborate on each project, e.g. 
+    1. Will one of you be the primary mentor or will all of you be equally involved? 
+    2. How will checkins and notes be shared?</p>
+<h2 id="working-with-the-mentees">Working with the mentees<a class="headerlink" href="#working-with-the-mentees" title="Permanent link">&para;</a></h2>
+<p>At this point,
+1. We&rsquo;ve decided which applications to accept
+2. The mentoring program has approved our selection
+3. The accepted mentees have been announced</p>
+<h3 id="welcoming-the-mentee">Welcoming the mentee<a class="headerlink" href="#welcoming-the-mentee" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reach out to your mentee ASAP and welcome them to the project.</li>
+<li>Have an introductory call with the mentee and get to know each other. <ul>
+<li>Ask them questions about themselves and talk about yourself too.</li>
+</ul>
+</li>
+<li>Ensure that the mentee is added to our <a href="/team/">Team Members</a> and has the correct GitHub and wiki permissions.</li>
+</ul>
+<h3 id="finalizing-the-project-plan-and-workflow">Finalizing the project plan and workflow<a class="headerlink" href="#finalizing-the-project-plan-and-workflow" title="Permanent link">&para;</a></h3>
+<p>Before work on the project gets underway, you should:</p>
+<ul>
+<li>collaborate with your mentee to finalize the implementation details and weekly deliverables for the project</li>
+<li>create a document to keep any project information and notes, include:</li>
+<li>an up-to-date implementation plan and weekly milestones</li>
+<li>the mentee’s contact information and emergency contact</li>
+<li>all meeting notes</li>
+<li>any other project-relevant information.</li>
+<li>share the project document with co-mentors and the organization admin</li>
+<li>set up regular meetings: </li>
+<li>a weekly video call for the mentors to check-in with the mentee</li>
+<li>a monthly call with the Mathesar organization admin to check in with the mentee.</li>
+<li>decide with the mentee on the workflow the project will follow. e.g.</li>
+<li>Does the mentee understand regular git workflow (e.g. pull requests, branches, reviews)?</li>
+<li>Does the mentee understand the code review process?</li>
+<li>How often should code be committed?</li>
+<li>How often should your mentee give you progress reports?</li>
+<li>What is the best way for the mentee to get your attention when they are stuck?</li>
+</ul>
+<h3 id="mentoring-period">Mentoring Period<a class="headerlink" href="#mentoring-period" title="Permanent link">&para;</a></h3>
+<p>You&rsquo;re now ready to mentor!</p>
+<h4 id="weekly-check-ins">Weekly check-ins<a class="headerlink" href="#weekly-check-ins" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Take good notes so that your backup mentor can pick up where you left off easily if you’re unavailable.</li>
+<li>Make sure the mentee is on-track with their weekly milestones and if not, work with them to figure out why and come up with a plan.</li>
+<li>Ask how the mentee is doing generally.</li>
+<li>Praise things they are doing well and provide constructive criticism on the things they could improve on. Both of these are important.</li>
+</ul>
+<h4 id="ongoing-work">Ongoing work<a class="headerlink" href="#ongoing-work" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Review all work/code promptly. You should aim to review within 1 business day.</li>
+<li>If your mentee is blocked on their work for some other reason, help them become unblocked as soon as possible.</li>
+<li>Check in on Matrix with the mentee once every day or two. <ul>
+<li>Remember that mentees are inexperienced and may not know they are stuck, when to ask for help, and/or how to articulate problems well.</li>
+</ul>
+</li>
+</ul>
+<h4 id="feedback">Feedback<a class="headerlink" href="#feedback" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Submit your required program evaluations on time.</li>
+<li>Ask for feedback on your mentorship every few weeks.</li>
+<li>Your mentee might like to present their work at a CCI research meeting and get some feedback. It&rsquo;s up to you to facilitate this.</li>
+</ul>
+<h4 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h4>
+<p>Talk to the program coordinator proactively if you&rsquo;re not sure what to do. Some things to pay attention to:</p>
+<ul>
+<li>Your mentee is not active and engaged regularly.</li>
+<li>Your mentee is not communicating enough or misses a check-in.</li>
+<li>You have concerns or even just a bad feeling about something.</li>
+<li>You have feedback or questions about any part of the program process.</li>
+<li>You&rsquo;d like feedback about how your mentoring is going</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.path", "navigation.indexes", "navigation.sections", "navigation.prune"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

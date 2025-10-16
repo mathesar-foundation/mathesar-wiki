@@ -1,0 +1,4481 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.mathesar.org/archive/product/design/specs/clipboard-interactions/">
+      
+      
+        <link rel="prev" href="../boolean-data-type/">
+      
+      
+        <link rel="next" href="../column-extraction/">
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Clipboard Interaction specs - Mathesar Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Clipboard Interaction specs - Mathesar Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/design/specs/clipboard-interactions.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://wiki.mathesar.org/archive/product/design/specs/clipboard-interactions/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Clipboard Interaction specs - Mathesar Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/design/specs/clipboard-interactions.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#clipboard-interaction-specs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="Mathesar Wiki" class="md-header__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathesar Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Clipboard Interaction specs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="Mathesar Wiki" class="md-nav__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Mathesar Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/mailing-lists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailing lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../community/gsoc/applicant-guide/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    GSoC
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../team/guide/comm-tips/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../../team/meeting-notes/2021/04/2021-04/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../product/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Related Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/requirements-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../product/proposals/2025/sso-oidc/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Proposals
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../product/requirements/2025/deployments/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../engineering/glossary/filters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../engineering/code-review/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Code review
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../engineering/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../engineering/translator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Translator Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/cutting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../feature-ideas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature Ideas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../concepts/data-types/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_1_6" id="__nav_7_1_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../standards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Standards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_6_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Specs
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_1_6_5" id="__nav_7_1_6_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_7_1_6_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Specs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-formula-column/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Formula Columns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-update-delete-records/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Adding, Update and Deleting Records
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boolean-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boolean Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Clipboard Interaction specs
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clipboard Interaction specs
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#design-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminology-and-abbreviations-in-this-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminology and abbreviations in this document
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-clipboards-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How clipboards work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-web-clipboard-apis-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How web clipboard APIs work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-other-products-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How other products work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How other products work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copying" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copying
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mathesars-clipboard-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar&rsquo;s clipboard design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mathesar’s clipboard design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copying-cells-from-mathesar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copying cells from Mathesar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tsv-data-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      TSV data representation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathesar-specific-data-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar-specific data representation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasting-cells-to-mathesar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting cells to Mathesar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasting cells to Mathesar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pasting-cells-into-columns-of-different-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting cells into columns of different types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-imperfections-and-future-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design imperfections and future considerations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../column-extraction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Column Extraction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../connections-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    &ldquo;Database Connections&rdquo; Page Design Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-edit-delete-views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create, Edit, Delete Views
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-type-duration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Duration Data Type Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-type-options/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Type Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-types-text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Text Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database-switching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multiple Database Switching
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../date-time-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Date, Time, and DateTime Data Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eding-view-records/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing Records Within a View
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../email-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Email Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Formulas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filter-sort-group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Filter, Sort, and Group Tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foreign-key-constraints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage of Foreign Key Constraints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-data-type-components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Global Data Type Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../import-status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Import Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inline-save-edit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inline Saving and Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../listing-views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Listing Views Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lookup-field-component/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lookup Field Component Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../money-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Money Data Type Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multiple-records-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multiple Records Associated with a Single Record
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation-consistency-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Consistency Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../new-db-connection-form/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    &ldquo;New Database Connection&rdquo; Form Design Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../non-mathesar-data-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Non-Mathesar Data Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../number-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Number Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pagination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pagination Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../read-only-table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Read Only Table Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record Page Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-selector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record selector UX design specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record Summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schemas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Working with Schemas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sidebar-improvements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sidebar Improvements Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../specs-null-values/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NULL Value Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-creation-controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Table Creation Controls (discard modal update)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Add Table from Import/URI/Data paste Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-inspector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Table Inspector
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basic Table Operations Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui-styling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Interface Style
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../url-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    URL Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewing-views-specs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Viewing a View
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../views-one-to-many-relationships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    One-to-Many Relationships
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-query-builder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Explorer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../working-with-columns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Working with Columns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../exploration/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Exploration
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../process/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Process
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../reports/inventory-use-case/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Reports
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../guides/migrate-from-017-to-020/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../research/formulas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../specs/dynamic-defaults-proto/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Specs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../technical-specs/dateandtime/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Technical specs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../team/workflow/comms-assignee/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#design-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminology-and-abbreviations-in-this-document" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminology and abbreviations in this document
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-clipboards-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How clipboards work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-web-clipboard-apis-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How web clipboard APIs work
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-other-products-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How other products work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How other products work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copying" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copying
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mathesars-clipboard-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar&rsquo;s clipboard design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mathesar’s clipboard design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#copying-cells-from-mathesar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Copying cells from Mathesar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tsv-data-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      TSV data representation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathesar-specific-data-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar-specific data representation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pasting-cells-to-mathesar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting cells to Mathesar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pasting cells to Mathesar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pasting-cells-into-columns-of-different-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasting cells into columns of different types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-imperfections-and-future-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Design imperfections and future considerations
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="clipboard-interaction-specs">Clipboard Interaction specs<a class="headerlink" href="#clipboard-interaction-specs" title="Permanent link">&para;</a></h1>
+<h2 id="design-goals">Design goals<a class="headerlink" href="#design-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Allow users to copy/paste one (and sometimes multiple) cell values within Mathesar &ndash; and also between Mathesar and another applications.</li>
+</ul>
+<h2 id="additional-context">Additional Context<a class="headerlink" href="#additional-context" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/mathesar-foundation/mathesar/issues/2377">GitHub Issue</a></li>
+<li><a href="/archive/product/projects/2023/04/2023-04-usability-improvements">Usability Improvements project</a> which contains this work</li>
+</ul>
+<h2 id="terminology-and-abbreviations-in-this-document">Terminology and abbreviations in this document<a class="headerlink" href="#terminology-and-abbreviations-in-this-document" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⏩ represents a tab character within strings</li>
+<li>MIME refers to a <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types">MIME type</a></li>
+<li>TSV refers to &ldquo;Tab Separated Value&rdquo;</li>
+<li>Similar products<ul>
+<li><strong>Calc</strong> means LibreOffice Calc</li>
+<li><strong>Sheets</strong> means Google Sheets</li>
+<li><strong>Airtable</strong> means Airtable</li>
+<li><strong>GT</strong> means Google Tables</li>
+</ul>
+</li>
+</ul>
+<h2 id="research">Research<a class="headerlink" href="#research" title="Permanent link">&para;</a></h2>
+<h3 id="how-clipboards-work">How clipboards work<a class="headerlink" href="#how-clipboards-work" title="Permanent link">&para;</a></h3>
+<ul>
+<li>When you copy data into your system clipboard, that data is stored along with an associated MIME type. In the simplest scenario of copying plain text, the text you copy is stored along with the MIME type <code>text/plain</code>.</li>
+<li>The clipboard can also hold multiple representations of the same data simultaneously with each representation being associated with a different MIME type. This allows applications to do things like write <code>text/html</code> data to the clipboard for rich text while also writing <code>text/plain</code> for a plain text representation of the same data.</li>
+<li>When you paste, it&rsquo;s up to the receiving application to read the different MIME types and decide which representation to receive, potentially incorporating some user input into that decision process.</li>
+<li>
+<p>Some applications even write other vendor-specific metadata into the clipboard, associating it with non-standard MIME types. For example, when copying cells in Google Sheets, the application writes some JSON data to the clipboard and associates it with the MIME type:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>application/x-vnd.google-docs-embedded-grid_range_clip+wrapped
+</span></code></pre></div>
+</li>
+<li>
+<p>You can inspect your clipboard contents and their MIME types by pasting into this <a href="https://evercoder.github.io/clipboard-inspector/">clipboard inspector app</a>.</p>
+</li>
+</ul>
+<h3 id="how-web-clipboard-apis-work">How web clipboard APIs work<a class="headerlink" href="#how-web-clipboard-apis-work" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>All browsers have a <a href="https://developer.mozilla.org/en-US/docs/Web/API/ClipboardEvent"><em>synchronous</em> clipboard API</a></p>
+<ul>
+<li>It&rsquo;s based on the DOM events <code>copy</code>, <code>paste</code>, and <code>cut</code> which bubble up from the focused element any time the user triggers the corresponding keyboard shortcut.</li>
+<li>It allows reading/writing data from/to the clipboard with arbitrary MIME types.</li>
+<li>It&rsquo;s widely supported.</li>
+<li>It is constrained by its reliance on user-initiated clipboard events via keyboard shortcuts. So it can&rsquo;t, for example, respond to copy/paste via a custom context menu.</li>
+<li>It&rsquo;s synchronous nature has the unfortunate consequence of locking the main thread while processing the clipboard data.</li>
+</ul>
+</li>
+<li>
+<p>Most browsers also implement the newer <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard"><em>asynchronous</em> clipboard API</a></p>
+<ul>
+<li>It provides imperative, asynchronous methods to read and write clipboard data without responding to user events.</li>
+<li>It can process large clipboard data without locking the main thread.</li>
+<li>Copying plain text (i.e. MIME type <code>text/plain</code>) to the clipboard is widely supported and does not require any special permissions.</li>
+<li>Copying data with any other MIME type unfortunately <a href="https://caniuse.com/mdn-api_clipboard_write">lacks support</a> in Firefox.</li>
+<li>Pasting text from the clipboard has even worse support, and also (by design) requires a special browser permission (for security reasons).</li>
+</ul>
+</li>
+</ul>
+<h3 id="how-other-products-work">How other products work<a class="headerlink" href="#how-other-products-work" title="Permanent link">&para;</a></h3>
+<h4 id="copying">Copying<a class="headerlink" href="#copying" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>MIME types</p>
+<ul>
+<li><strong>Calc</strong> writes <code>text/plain</code>, <code>text/html</code>, and a few others that we don&rsquo;t care about</li>
+<li><strong>Sheets</strong> writes <code>text/plain</code>, <code>text/html</code>, and a vendor specific representation in JSON</li>
+<li><strong>Airtable</strong> and <strong>GT</strong> only write <code>text/plain</code></li>
+</ul>
+</li>
+<li>
+<p>When generating TSV text from a cell containing a newline or tab (delimiter) character</p>
+<ul>
+<li><strong>Calc</strong> and <strong>GT</strong> Corrupt the data, converting the delimiter to space</li>
+<li><strong>Sheets</strong> quotes the cell with double quotes</li>
+<li><strong>Airtable</strong> quotes the cell when it contains a newline but not when it contains a tab. This seems like a bug.</li>
+</ul>
+</li>
+<li>
+<p>When quoting a cell value that contains a double quote character</p>
+<ul>
+<li><strong>Calc</strong>, <strong>Sheets</strong>, and <strong>Airtable</strong> escape the double quote by preceding it with a double quote</li>
+</ul>
+</li>
+<li>
+<p>User feedback</p>
+<ul>
+<li><strong>Calc</strong> puts a dashed blue border around the copied cells</li>
+<li><strong>Sheets</strong> puts a then dashed black border around the cells that moves</li>
+<li><strong>Airtable</strong> and <strong>GT</strong> show a toast message</li>
+</ul>
+</li>
+<li>
+<p>Non-rectangular cell grids</p>
+<ul>
+<li><strong>Calc</strong> does not allow cells to be copied from multiple selections</li>
+<li><strong>Sheets</strong> copies the cells from the most recent selection, leaving other selections un-copied</li>
+<li><strong>Airtable</strong> does not allow multiple selections</li>
+</ul>
+</li>
+</ul>
+<h4 id="pasting">Pasting<a class="headerlink" href="#pasting" title="Permanent link">&para;</a></h4>
+<ul>
+<li>
+<p>MIME types</p>
+<ul>
+<li><strong>Calc</strong> and <strong>Sheets</strong> read <code>text/html</code> if available, with <code>text/plain</code> as a fallback</li>
+<li><strong>Airtable</strong> and <strong>GT</strong> only read <code>text/plain</code></li>
+</ul>
+</li>
+<li>
+<p>When receiving pasted TSV text containing quoted cells</p>
+<ul>
+<li><strong>Calc</strong>, <strong>Sheets</strong>, and <strong>Airtable</strong> remove quotes from cells. This makes it possible to copy-paste cells that contain delimiters but also makes it impossible to copy-paste a cell containing text surrounded with double quotes. Because these products prefer reading <code>text/html</code>, this limitation may not present itself often when copying/pasting between these products.</li>
+<li><strong>GT</strong> had bugs that prevented me from trying this out</li>
+</ul>
+</li>
+<li>
+<p>User feedback</p>
+<ul>
+<li><strong>Calc</strong> removes the border around the copied cells</li>
+<li><strong>Sheets</strong> keeps the border around the copied cells</li>
+<li><strong>Airtable</strong> shows a toast message with a progress indicator</li>
+<li><strong>GT</strong> requires a confirmation when pasting more than one cell at a time</li>
+</ul>
+</li>
+<li>
+<p>When pasting into an FK column</p>
+<ul>
+<li><strong>Airtable</strong> uses the pasted value to lookup an existing record (using its &ldquo;Primary field&rdquo;) or create a new one if needed. This is very slick.</li>
+<li><strong>GT</strong> works okay if the value is copied from cells within that same column, but it shows a toast error otherwise. They seem to be using some sort of internal clipboard to handle this.</li>
+</ul>
+</li>
+<li>
+<p>When pasting into a column of a different type</p>
+<ul>
+<li><strong>Airtable</strong> Spends time to save, but then the value is empty afterwards. Sometimes see error toast &ldquo;Can&rsquo;t paste into this field. The destination field is computed.&rdquo; Overall, weird behavior. Feels buggy.</li>
+<li><strong>GT</strong> shows a toast error</li>
+</ul>
+</li>
+<li>
+<p>Non-rectangular cell grids</p>
+<ul>
+<li><strong>Calc</strong> handles each line of source data on its own, pasting over existing cells until the line terminates. Existing cells after the line ends will be left untouched.</li>
+<li><strong>Sheets</strong> paste into a rectangle large enough to contain all cells in the source data. Blank values are used to fill in the missing cells.</li>
+<li><strong>Airtable</strong> pastes all text into one cell.</li>
+</ul>
+</li>
+<li>
+<p>Other notes</p>
+<ul>
+<li>
+<p><strong>Airtable</strong> appears to use some sort of internal clipboard in addition to the system clipboard. I noticed this when experimenting with cells containing tab characters.</p>
+<p>The (three) cells <code>one</code> <code>two</code> <code>three</code> produce the TSV <code>one⏩two⏩three</code> when copied, but the (two) cells <code>one⏩two</code> <code>three</code> also produce that same TSV text. I can copy-paste the two-cell variant within the same browser tab successfully, but when I try copy-pasting that two-cell across browsers, then the two-cell variant becomes the three-cell variant. This seems to be poorly implemented to me.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="mathesars-clipboard-design">Mathesar&rsquo;s clipboard design<a class="headerlink" href="#mathesars-clipboard-design" title="Permanent link">&para;</a></h2>
+<h3 id="copying-cells-from-mathesar">Copying cells from Mathesar<a class="headerlink" href="#copying-cells-from-mathesar" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Copying cells is triggered by the user&rsquo;s platform-specific keyboard shortcut. There is no context menu entry to trigger a copy.</p>
+</li>
+<li>
+<p>When the browser&rsquo;s focus is on a cell element, the <code>copy</code> event copies the content of all the selected cells in the sheet which contains the focused cell.</p>
+<ul>
+<li>
+<p>When a non-cell element has focus, cells cannot be copied, even if they are selected. This behavior is somewhat important, given that we have pages like the Record Page which can contain multiple sheets (and thus distinct cell selections simultaneously).</p>
+</li>
+<li>
+<p>Mathesar do not currently provide a visual indication when the cell has focus, but we have an <a href="https://github.com/mathesar-foundation/mathesar/issues/2380">issue</a> discussing problems with this approach and ways to fix it. Those improvements can be implemented separately from the clipboard interaction implementation.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>When copying, Mathesar writes the following data to the clipboard:</p>
+<ul>
+<li>
+<p><code>text/plain</code></p>
+<p>This is a TSV representation of the cell data, as described in more detail below.</p>
+</li>
+<li>
+<p><code>application/x-vnd.mathesar-sheet-clipboard</code></p>
+<p>This is a Mathesar-specific representation of the cell data, as described in more detail below.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>After copying, a toast message displays the number of cells copied. (Similar to <strong>Airtable</strong>)</p>
+<blockquote>
+<p>Copied 3 cells.</p>
+</blockquote>
+</li>
+<li>
+<p>After copying, the cell selection border style remains as before (unlike <strong>Sheets</strong> and <strong>Calc</strong> which add a dashed border).</p>
+</li>
+<li>
+<p>Some products (e.g. <strong>Sheets</strong>, <strong>Calc</strong>) support &ldquo;multiple selections&rdquo; wherein the user can hold <code>Ctrl</code> to formulate a non-rectangular selection of cells. Mathesar does not currently support this feature, but it&rsquo;s worth considering how the clipboard feature might interact with such a feature. As noted in the &ldquo;How other products work&rdquo; section, no other product that I tested actually allowed the user to copy non-rectangular cell selections. So I think it&rsquo;s safe to say that if Mathesar implements multiple cell selections in the future, we would want to ensure that the copied cell data is always rectangular. We could enforce this constraint by disallowing the copy action when multiple selections are present (like <strong>Calc</strong>) or by only copying the most recently made selection (like <strong>Sheets</strong>).</p>
+</li>
+<li>
+<p>This spec does not implement any &ldquo;cut&rdquo; operation.</p>
+</li>
+</ul>
+<h3 id="tsv-data-representation">TSV data representation<a class="headerlink" href="#tsv-data-representation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Serialization</p>
+<ul>
+<li>If a cell contains one or more tab or newline characters, then the cell value should be enclosed in double quotes</li>
+<li>When enclosing a cell in double quotes, the double quote character should be escaped by preceding it with a double quote.</li>
+</ul>
+</li>
+<li>
+<p>Deserialization</p>
+<ul>
+<li><em>This is to be improvised during implementation taking a best effort at reversing the above serialization logic.</em> 😬</li>
+</ul>
+</li>
+<li>
+<p>Notes</p>
+<ul>
+<li>The serialization logic seems to be pretty straightforward and consistent across <strong>Calc</strong> and <strong>Sheets</strong>, so I think it makes sense to stick with it.</li>
+<li>It seems hard (impossible?) to create a deserializer which accurately reverses that logic for all cases. Sometimes cells are quoted. Sometimes they&rsquo;re not. It&rsquo;s chaos! I have also noticed inconsistencies between <strong>Calc</strong> and <strong>Sheets</strong> here. For example, <strong>Calc</strong> deserializes <code>""one""⏩two</code> to <code>"one"⏩two</code> whereas <strong>Sheets</strong> deserializes it to <code>one""</code> <code>two</code>. Both seem wrong to me, so I&rsquo;m not sure what logic they&rsquo;re using in their deserializers.</li>
+<li>It might be worth looking for a third-party CSV/TSV library to handle the serialization/deserialization.</li>
+</ul>
+</li>
+</ul>
+<h3 id="mathesar-specific-data-representation">Mathesar-specific data representation<a class="headerlink" href="#mathesar-specific-data-representation" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>It&rsquo;s JSON that looks like this:</p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nt">&quot;columns&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;timestamp without time zone&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;fk&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;integer&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;fk&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;boolean&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;fk&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;text&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;fk&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="w">    </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;mathesar_types.email&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;fk&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="w">  </span><span class="p">],</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">  </span><span class="nt">&quot;cells&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="w">    </span><span class="p">[</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;raw&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1893-11-22T15:05:11.0 AD&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;11/22/1893 15:05&quot;</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;raw&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1287</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;This is a record summary&quot;</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;raw&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;No&quot;</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;raw&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;raw&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;foo@example.org&quot;</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">    </span><span class="p">]</span>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">  </span><span class="p">]</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="p">}</span>
+</span></code></pre></div>
+<p>or, in TypeScript:</p>
+<div class="language-ts highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">interface</span><span class="w"> </span><span class="nx">ClipboardCells</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="nx">columns</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kr">type</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="nx">fk</span><span class="o">:</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="p">}[];</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="nx">cells</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">raw</span><span class="o">:</span><span class="w"> </span><span class="kt">unknown</span><span class="p">,</span><span class="w"> </span><span class="nx">text?</span><span class="o">:</span><span class="w"> </span><span class="kt">string</span><span class="w"> </span><span class="p">}[][];</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Each cell is stored as an object.</p>
+<ul>
+<li>The object always has a <code>raw</code> property which holds the cell value, as transmitted via the API.</li>
+<li>If the cell is formatted differently from the raw value for display, then the cell object also has a <code>text</code> property holding a string representation of the displayed value.</li>
+</ul>
+</li>
+</ul>
+<h3 id="pasting-cells-to-mathesar">Pasting cells to Mathesar<a class="headerlink" href="#pasting-cells-to-mathesar" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>If the clipboard has data with a MIME type matching our Mathesar-specific representation, we use that data. Otherwise, we use the <code>text/plain</code> data.</p>
+</li>
+<li>
+<p>When using plain text paste data, Mathesar displays a modal which allows the user to configure the parsing of the paste data. This feature has some overlap with the <a href="/community/gsoc/project-ideas/ui-import-data-existing-table">UI for Importing data into existing tables</a> GSoC project, so it is not yet fully specified.</p>
+</li>
+<li>
+<p>After pasting, all pasted cells are selected.</p>
+</li>
+<li>
+<p>Non-rectangular data is handled in the same manner as <strong>Calc</strong> (described above).</p>
+</li>
+<li>
+<p>Pasting across multiple records is handled via a new, yet-to-be designed API. It might look something like this</p>
+<p><code>POST</code></p>
+<div class="language-json highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">[</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="nt">&quot;table&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1287</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">    </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;1&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">17</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;3&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;foo&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;18&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;1&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">18</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;3&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bar&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;18&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;baz&quot;</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">      </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;1&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">19</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;3&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;18&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;bat&quot;</span><span class="w"> </span><span class="p">},</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="p">]</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">  </span><span class="p">}</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="p">]</span>
+</span></code></pre></div>
+<p>The API would handles updating existing records as well as creating new records.</p>
+<p>This API is subject to further discussion and design. It could be that we don&rsquo;t even need it.</p>
+</li>
+<li>
+<p>If the paste data extends beyond the column limits, Mathesar shows an error and no data is modified</p>
+<blockquote>
+<p><strong>Unable to Paste</strong></p>
+<p>The table does not have enough columns to hold the copied data.</p>
+</blockquote>
+</li>
+<li>
+<p>If the paste data extends beyond the rows displayed in the table, then new rows are added as needed. This means that it&rsquo;s possible to paste into the placeholder row at the bottom of the table.</p>
+<p>The sheet has separate sections for displays &ldquo;saved records&rdquo; and &ldquo;new records&rdquo; with &ldquo;new records&rdquo; extending past the pagination page size. This presents a challenge for pasting new records because there could be hundreds of new records and we don&rsquo;t necessarily want to hold all that data in memory as the user continues to use the application.</p>
+<p>If, after pasting, the number of new records will be 50 or fewer, then the sheet displays them as new records, as if the user had manually added them.</p>
+<p>If, after pasting, the number of new records will be more than 50, then the sheet fully refreshes, wiping out any new records that were displayed on the sheet prior to pasting.</p>
+</li>
+<li>
+<p>When the paste data has an empty string for a cell value, <code>null</code> is used if possible, with an empty string as a fallback for non-nullable text columns.</p>
+</li>
+<li>
+<p>When multiple cells are selected during paste:</p>
+<ul>
+<li>The paste data is repeated as needed to completely fill the selection. (Same as <strong>Calc</strong>.)</li>
+<li>If the paste data extends beyond the selection, then the selection is increased to fit the paste data. (Same as <strong>Sheets</strong>.)</li>
+</ul>
+</li>
+</ul>
+<h4 id="pasting-cells-into-columns-of-different-types">Pasting cells into columns of different types<a class="headerlink" href="#pasting-cells-into-columns-of-different-types" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p>Column metadata from the source data is matched to columns in the target table. For each pairing, the following logic takes place:</p>
+<ul>
+<li>Some pairings of column types cannot be pasted. For example an <code>email</code> column cannot be pasted into a <code>number</code> column. These pairings result in an error.</li>
+<li>If the target column is a text column and the source column has formatted values, then Mathesar asks the user what to do. Examples of this include copying FK data into a text column, or copying dates into a text column.</li>
+</ul>
+</li>
+<li>
+<p>If any pairing results in an error, Mathesar aborts the paste and displays a toast error to the user such as:</p>
+<blockquote>
+<p><strong>Unable to Paste</strong></p>
+<p>Email data cannot be pasted into a Number column.</p>
+</blockquote>
+</li>
+<li>
+<p>If any pairing results in a &ldquo;ask&rdquo; outcome, then Mathesar prompts the user via a dialog like the following:</p>
+<blockquote>
+<p><strong>Paste</strong></p>
+<p>The data you are pasting can be represented in multiple ways. Paste the raw values to use the text</p>
+<p><code>Paste Raw Values</code> &nbsp; &nbsp; &nbsp; <code>Paste Formatted Values</code></p>
+</blockquote>
+<p>&ldquo;Paste Formatted Values&rdquo; is selected by default.</p>
+<p>When &ldquo;Paste Formatted Values&rdquo; is chosen, formatted values will be used for the paste when possible. Otherwise, raw values will be used.</p>
+</li>
+</ol>
+<h2 id="design-imperfections-and-future-considerations">Design imperfections and future considerations<a class="headerlink" href="#design-imperfections-and-future-considerations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>In my <a href="https://github.com/mathesar-foundation/mathesar/pull/2773">initial &ldquo;copy&rdquo; implementation</a>, I notice that copying a lot of cells takes some time and <strong>locks the main thread.</strong> This is not great, but it&rsquo;s because we&rsquo;re using the sync API. It&rsquo;s hard to get around this though since the async API isn&rsquo;t fully implemented in Firefox yet. We could potentially use the async API if it&rsquo;s available, while falling back to the sync API for Firefox. If we want to do that, I&rsquo;d rather do it later when/if users ask for improved performance here.</p>
+</li>
+<li>
+<p>It would be nice to add <strong>context menu entries for copy/paste</strong>, but there are some challenges here.</p>
+<ul>
+<li>
+<p>When copying: If we use the synchronous clipboard API it seems[^1] that we can&rsquo;t trigger copy events programmatically. Somehow Google Sheets is doing it, but I haven&rsquo;t dug deeper to figure out how. With the async clipboard API Firefox lacks support for MIME types other than <code>text/plain</code>.</p>
+</li>
+<li>
+<p>When pasting: The synchronous clipboard API doesn&rsquo;t allow programmatic pasting at all. The async clipboard API doesn&rsquo;t work allow pasting in Firefox and requires a special permission in other browsers.</p>
+</li>
+</ul>
+<p>We could consider showing context menus in some browsers. We could also consider showing a &ldquo;How to Paste&rdquo; modal on paste which only serves to add discoverability to the clipboard feature. <strong>Sheets</strong> actually does this when you choose the &ldquo;Paste&rdquo; option whin the context menu.</p>
+<p>Overall, this doesn&rsquo;t seem worth the additional complexity currently.</p>
+</li>
+<li>
+<p>It would be nice to copy an <strong>HTML representation</strong> (i.e. <code>text/html</code>) of the cell data too.</p>
+<ul>
+<li>This would allow users to copy data from Mathesar and paste into word-processing applications as an HTML table.</li>
+<li>This behavior would be consistent with <strong>Calc</strong> and <strong>Sheets</strong>.</li>
+<li>It would allow better copy/paste of text containing tabs, newlines, and quotes</li>
+<li>It would take some extra processing time to generate the data though, and I&rsquo;d kind of like to avoid that until Firefox has implemented the async clipboard API.</li>
+<li>We could consider taking this up later.</li>
+</ul>
+</li>
+</ul>
+<p>[^1]: MDN <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event">says</a></p>
+<div class="codehilite"><pre><span></span><code><span class="o">&gt;</span><span class="w"> </span><span class="n">It</span><span class="s1">&#39;s possible to construct and dispatch a synthetic copy event, but this will not affect the system clipboard.</span>
+</code></pre></div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../..", "features": ["content.code.copy", "navigation.path", "navigation.indexes", "navigation.sections", "navigation.prune"], "search": "../../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,4725 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.mathesar.org/archive/product/design/specs/visual-query-builder/">
+      
+      
+        <link rel="prev" href="../views-one-to-many-relationships/">
+      
+      
+        <link rel="next" href="../working-with-columns/">
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Data Explorer - Mathesar Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i%7CFira+Code:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Nunito Sans";--md-code-font:"Fira Code"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Data Explorer - Mathesar Wiki" >
+      
+        <meta  property="og:description"  content="None" >
+      
+        <meta  property="og:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/design/specs/visual-query-builder.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://wiki.mathesar.org/archive/product/design/specs/visual-query-builder/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Data Explorer - Mathesar Wiki" >
+      
+        <meta  name="twitter:description"  content="None" >
+      
+        <meta  name="twitter:image"  content="https://wiki.mathesar.org/assets/images/social/archive/product/design/specs/visual-query-builder.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#data-explorer" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="Mathesar Wiki" class="md-header__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mathesar Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Explorer
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="Mathesar Wiki" class="md-nav__button md-logo" aria-label="Mathesar Wiki" data-md-component="logo">
+      
+  <img src="../../../../../assets/images/logo.svg" alt="logo">
+
+    </a>
+    Mathesar Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mathesar-foundation/mathesar-wiki/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mathesar-foundation/mathesar-wiki
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Community
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Community
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/github/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GitHub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/mailing-lists/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mailing lists
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Matrix
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../community/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../community/gsoc/applicant-guide/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    GSoC
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Team
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../team/guide/comm-tips/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guide
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../../team/meeting-notes/2021/04/2021-04/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Meetings
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../../product/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/proposal-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proposal Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/related/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Related Products
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../product/requirements-template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Requirements Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../product/proposals/2025/sso-oidc/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Proposals
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../product/requirements/2025/deployments/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Requirements
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../engineering/glossary/filters/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../../../engineering/code-review/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Code review
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../engineering/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../engineering/translator-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Translator Guide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Release
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/cutting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/qa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Release notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../release/template/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../engineering-resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../feature-ideas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feature Ideas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roadmap
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../concepts/data-types/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Concepts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_6" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_1_6" id="__nav_7_1_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Principles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Resources
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../standards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Standards
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_6_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Specs
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7_1_6_5" id="__nav_7_1_6_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_7_1_6_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7_1_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Specs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-formula-column/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Formula Columns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-update-delete-records/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Adding, Update and Deleting Records
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boolean-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boolean Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clipboard-interactions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Clipboard Interaction specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../column-extraction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Column Extraction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../connections-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    &ldquo;Database Connections&rdquo; Page Design Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../create-edit-delete-views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Create, Edit, Delete Views
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-type-duration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Duration Data Type Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-type-options/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Type Options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-types-text/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Text Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database-switching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multiple Database Switching
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../date-time-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Date, Time, and DateTime Data Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../eding-view-records/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing Records Within a View
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../email-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Email Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Formulas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Formulas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filter-sort-group/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Filter, Sort, and Group Tables
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foreign-key-constraints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage of Foreign Key Constraints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../global-data-type-components/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Global Data Type Components
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../import-status/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Import Status
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inline-save-edit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inline Saving and Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../listing-views/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Listing Views Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lookup-field-component/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lookup Field Component Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../money-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Money Data Type Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multiple-records-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multiple Records Associated with a Single Record
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation-consistency-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Consistency Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Navigation Updates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../new-db-connection-form/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    &ldquo;New Database Connection&rdquo; Form Design Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../non-mathesar-data-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Non-Mathesar Data Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../number-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Number Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pagination/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pagination Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../read-only-table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Read Only Table Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record Page Design
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-selector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record selector UX design specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../record-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Record Summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../schemas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Working with Schemas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sidebar-improvements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sidebar Improvements Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../specs-null-values/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    NULL Value Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-creation-controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Table Creation Controls (discard modal update)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Add Table from Import/URI/Data paste Specs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-inspector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Table Inspector
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../table-operations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basic Table Operations Spec
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui-styling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Interface Style
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../url-data-type/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    URL Data Type
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewing-views-specs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Viewing a View
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../views-one-to-many-relationships/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    One-to-Many Relationships
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Data Explorer
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Explorer
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Context
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathesar-queries-vs-sql-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar Queries vs. SQL Queries
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-data-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Data Explorer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenarios
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-the-base-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selecting the Base Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selecting the Base Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#table-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table Links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#join-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Join Types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-the-base-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the base table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-table-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base Table Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-input-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Input Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Input Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-input-columns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Input Columns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Input Columns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-selection-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Selection Modes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming-convention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Convention
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#columns-with-multiple-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      Columns with Multiple Records
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-type-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type Changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#input-column-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Column Sources
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Formulas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtering-input-column-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtering Input Column Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggregating-input-column-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aggregating Input Column Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-a-formula-to-an-input-column" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying a Formula to an Input Column
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-transformations-to-the-result-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying Transformations to the Result Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Applying Transformations to the Result Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filtering-the-output-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtering the Output Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summarizing-the-result-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summarizing the Result Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting-the-output-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sorting the Output Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-a-new-column-to-a-summarized-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding a New Column to a Summarized Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deleting-a-result-transformation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deleting a Result Transformation Step
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#previewing-the-query-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Previewing the Query Results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving-the-query-as-a-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saving the Query as a View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-and-resolving-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting and Resolving Errors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting and Resolving Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-result-table-has-no-rows" class="md-nav__link">
+    <span class="md-ellipsis">
+      The result table has no rows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#there-are-duplicate-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      There are duplicate values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-input-column-used-in-a-formula-has-been-deleted" class="md-nav__link">
+    <span class="md-ellipsis">
+      An input column used in a formula has been deleted
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-naming-convention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Naming Convention
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspector-panel-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspector Panel Modes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inspector Panel Modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Selection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../working-with-columns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Working with Columns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../exploration/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Exploration
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../process/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Process
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../reports/inventory-use-case/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Reports
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../guides/migrate-from-017-to-020/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../research/formulas/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../specs/dynamic-defaults-proto/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Specs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../technical-specs/dateandtime/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Technical specs
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    
+  
+  
+  
+    <a href="../../../../team/workflow/comms-assignee/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Team
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Context
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Context">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathesar-queries-vs-sql-queries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathesar Queries vs. SQL Queries
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-data-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Data Explorer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scenarios
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selecting-the-base-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selecting the Base Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selecting the Base Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#table-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table Links
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Table Links">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#join-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      Join Types
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-the-base-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Changing the base table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#base-table-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Base Table Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-input-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Input Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Input Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adding-input-columns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Input Columns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Adding Input Columns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-selection-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Selection Modes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naming-convention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Naming Convention
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#columns-with-multiple-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      Columns with Multiple Records
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-type-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data Type Changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#input-column-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Column Sources
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Formulas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtering-input-column-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtering Input Column Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aggregating-input-column-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aggregating Input Column Values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-a-formula-to-an-input-column" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying a Formula to an Input Column
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#applying-transformations-to-the-result-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying Transformations to the Result Table
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Applying Transformations to the Result Table">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#filtering-the-output-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtering the Output Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summarizing-the-result-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summarizing the Result Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sorting-the-output-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sorting the Output Table
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adding-a-new-column-to-a-summarized-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding a New Column to a Summarized Table
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deleting-a-result-transformation-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deleting a Result Transformation Step
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#previewing-the-query-results" class="md-nav__link">
+    <span class="md-ellipsis">
+      Previewing the Query Results
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saving-the-query-as-a-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      Saving the Query as a View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting-and-resolving-errors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting and Resolving Errors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting and Resolving Errors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-result-table-has-no-rows" class="md-nav__link">
+    <span class="md-ellipsis">
+      The result table has no rows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#there-are-duplicate-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      There are duplicate values
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-input-column-used-in-a-formula-has-been-deleted" class="md-nav__link">
+    <span class="md-ellipsis">
+      An input column used in a formula has been deleted
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Other Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-naming-convention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Naming Convention
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inspector-panel-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inspector Panel Modes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Inspector Panel Modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#column-selection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Column Selection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="data-explorer">Data Explorer<a class="headerlink" href="#data-explorer" title="Permanent link">&para;</a></h1>
+<h2 id="context">Context<a class="headerlink" href="#context" title="Permanent link">&para;</a></h2>
+<p>&lsquo;Data Explorer,&rsquo; Mathesar&rsquo;s visual query builder, is described in this document. Users can analyze data, link data from other tables, and transform it using this feature.</p>
+<h3 id="mathesar-queries-vs-sql-queries">Mathesar Queries vs. SQL Queries<a class="headerlink" href="#mathesar-queries-vs-sql-queries" title="Permanent link">&para;</a></h3>
+<p>The queries generated in the &lsquo;Data Explorer&rsquo; will be listed and saved as queries within Mathesar. In contrast to standard database queries, &ldquo;Mathesar queries&rdquo; are not stored as SQL commands. This Mathesar-specific object was created because otherwise, it would be impossible to reproduce user configurations.</p>
+<p>Read the <a href="/archive/product/specs/2022-01-views">Views Product Spec</a> for a more in-depth explanation of this feature.</p>
+<h2 id="accessing-data-explorer">Accessing Data Explorer<a class="headerlink" href="#accessing-data-explorer" title="Permanent link">&para;</a></h2>
+<p>&lsquo;Data Explorer&rsquo; will be accessible in several ways because it is an essential step in numerous user flows.</p>
+<p>There are many ways to access &lsquo;Data Explorer.&rsquo; The navigation updates specification goes into detail about each one.</p>
+<p><a href="/archive/product/design/specs/navigation-updates#data-explorer">Updates on the Navigation</a></p>
+<h2 id="scenarios">Scenarios<a class="headerlink" href="#scenarios" title="Permanent link">&para;</a></h2>
+<h2 id="selecting-the-base-table">Selecting the Base Table<a class="headerlink" href="#selecting-the-base-table" title="Permanent link">&para;</a></h2>
+<p>The base table determines which columns and links are available as input columns. When a user adds columns from linked tables, the base table also determines the automatic joins performed.</p>
+<h3 id="table-links">Table Links<a class="headerlink" href="#table-links" title="Permanent link">&para;</a></h3>
+<p>Tables can be linked to the base table using foreign keys that can be located in the base table or in other tables. The columns from all linked tables are shown in the column list and grouped according to the corresponding source table.</p>
+<p>For each foreign key column, a collapsible list is automatically added to the list. Once expanded, a list of all the columns in the source table is displayed.</p>
+<h4 id="join-types">Join Types<a class="headerlink" href="#join-types" title="Permanent link">&para;</a></h4>
+<p>Although SQL has additional join options, the system will restrict joins to &lsquo;LEFT JOIN&rsquo; type alone, in order to simplify things for less technical users and make it easier for them to learn the new concepts.</p>
+<h3 id="changing-the-base-table">Changing the base table<a class="headerlink" href="#changing-the-base-table" title="Permanent link">&para;</a></h3>
+<p>The user should set a base table at the start of the query building process. Changing it after the input columns have been selected will result in losing all progress.</p>
+<p>A warning should be issued to users, so they know the implications of making this change.</p>
+<h3 id="base-table-options">Base Table Options<a class="headerlink" href="#base-table-options" title="Permanent link">&para;</a></h3>
+<p>The system will show all schema tables in the base table selector.</p>
+<p>To choose a table, the user must first find it in the list and then click on it. They can also use the search box in the table selection menu to locate the table by filtering the list by table name.</p>
+<p>After making a selection, the name of the base table is displayed in the selector, and previously disabled interface elements in &lsquo;data explorer&rsquo; become interactive.</p>
+<p>After selecting a base table, the user will be directed to the next stage, column selection.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/esUftomoFsZiRhZDMYdoPP.png">Selecting a Base Table</a></p>
+<p><a href="https://share.balsamiq.com/c/me5CfGGeX3R35x2otLqbpu.png">Base Table Selected</a></p>
+<h2 id="the-input-table">The Input Table<a class="headerlink" href="#the-input-table" title="Permanent link">&para;</a></h2>
+<p>The input table is built by selecting columns from the base table or generating new ones using formulas.</p>
+<h3 id="adding-input-columns">Adding Input Columns<a class="headerlink" href="#adding-input-columns" title="Permanent link">&para;</a></h3>
+<p>To add columns to a query configuration panel, the user must first select the <code>Add Column</code> button in the <code>Columns</code> portion of the query configuration panel. Due to this action, the <code>Column Selector</code> component will be displayed in the inspector panel. The <code>Column Selector</code> will display a list of all available columns and those already in use. In addition, a complete list of all formulas will be available.</p>
+<p>The columns in <code>Column Selector</code> are listed in a hierarchical structure based on the links that exist in both directions between the base table and other tables. The icons indicate whether the linked records are a single or multiple record collection.</p>
+<p>Links are presented as nested sections containing the columns from the linked tables.
+When adding input columns, the user can add them using the list controls or drop the columns directly into the result table.</p>
+<h4 id="column-selection-modes">Column Selection Modes<a class="headerlink" href="#column-selection-modes" title="Permanent link">&para;</a></h4>
+<p>Depending on the interaction, columns may be selected in a variety of ways:</p>
+<table>
+<thead>
+<tr>
+<th>Selection Mode</th>
+<th>Interaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Single Selection</td>
+<td>Click a list item</td>
+</tr>
+<tr>
+<td>Drop Single Column</td>
+<td>Click and drag list item to drop area</td>
+</tr>
+<tr>
+<td>Multiple Selection</td>
+<td>Click + Shift Key to select first and all items in between. For non-contiguous items, Click + Control Key.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="naming-convention">Naming Convention<a class="headerlink" href="#naming-convention" title="Permanent link">&para;</a></h4>
+<p>The system will default name columns to indicate their source table and column using the <a href="#column-naming-convention">naming convention</a>.</p>
+<h4 id="columns-with-multiple-records">Columns with Multiple Records<a class="headerlink" href="#columns-with-multiple-records" title="Permanent link">&para;</a></h4>
+<p>Depending on how tables are linked, some columns might contain multiple records associated with a record in the base table. Specific functionality to manage those records should be available to users.</p>
+<table>
+<thead>
+<tr>
+<th>Functionality</th>
+<th>User Goals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Filter</td>
+<td>Show only a subset of the linked records</td>
+</tr>
+<tr>
+<td>Aggregate</td>
+<td>Display the multiple records as a combined record</td>
+</tr>
+<tr>
+<td>Display Formats</td>
+<td>Change the way each record item is displayed</td>
+</tr>
+<tr>
+<td>Sort</td>
+<td>Change the order in which the linked records are displayed</td>
+</tr>
+<tr>
+<td>Limit</td>
+<td>Limit the number of linked records</td>
+</tr>
+</tbody>
+</table>
+<h4 id="data-type-changes">Data Type Changes<a class="headerlink" href="#data-type-changes" title="Permanent link">&para;</a></h4>
+<p>When columns are added to the input table, their data type may differ from the source. A &lsquo;Text Type&rsquo; column, for example, will change to a &lsquo;Text List Type&rsquo; or &lsquo;Number Type&rsquo; when added as a multiple record column due to automatic aggregation.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/oyxTXxqSh8rLqU3JY71DWY.png">Adding Columns</a></p>
+<p><a href="https://share.balsamiq.com/c/7U9yahZtYWX2G5obkyivoz.png">Added Column</a></p>
+<h3 id="input-column-sources">Input Column Sources<a class="headerlink" href="#input-column-sources" title="Permanent link">&para;</a></h3>
+<p>Once the input columns have been added, the user can inspect them by selecting each from the result table or the list of columns in the query configuration panel. The panel will include a section titled &lsquo;Source&rsquo; in the details for each column. The source column, table, and links will all be listed in this panel portion.</p>
+<p>The source will include <code>Links</code> only for data sourced via tables connected to or from the base table.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/ewCxvkjS8VoScKfgb9hFos.png">Column Sources</a></p>
+<h3 id="adding-formulas">Adding Formulas<a class="headerlink" href="#adding-formulas" title="Permanent link">&para;</a></h3>
+<p>Formulas are used to generate new columns based on different parameters. To access the formulas list, the user starts the <code>Add Column</code> process and selects the option <code>From Formula</code> at the top of the inspector panel. Selecting a formula will open a form that users can fill out to determine the values of the new column.</p>
+<p>Depending on the selected formula, different settings will be available.
+More on formulas and specific details for each will be covered in a separate issue. Columns generated from formulas will display a formula icon indicator in the column header.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/vWfJ9sUYWJxed5Zo5WtPGi.png">Added Formula</a></p>
+<h3 id="filtering-input-column-values">Filtering Input Column Values<a class="headerlink" href="#filtering-input-column-values" title="Permanent link">&para;</a></h3>
+<p>Columns that link to multiple records can have filters applied to them to retrieve only values that match user-specified criteria. Multiple filters are allowed for each input column.</p>
+<p>Filter options will be determined by the data type of the input column.</p>
+<p>Users can add filters by clicking on the <code>Add Filter</code> option from the query configuration panel or directly from the column header menu in the results table.</p>
+<p>Columns with filters applied will display a filter icon indicator in the column header.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/tK2hZy6FB4zVYpN56ejpBk.png">Added Input Filter</a></p>
+<h3 id="aggregating-input-column-values">Aggregating Input Column Values<a class="headerlink" href="#aggregating-input-column-values" title="Permanent link">&para;</a></h3>
+<p>In cases where a link may refer to multiple values, input columns can be aggregated. In such cases, the system will perform automatic aggregation based on the data type of the referenced column. Users can change the type of aggregation at any time.</p>
+<p>Aggregated columns will have an aggregation icon indicator in the column header.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/fNcbvQ1q5xMyni5JxBg3Rc.png">Added Input Aggregation</a></p>
+<h3 id="applying-a-formula-to-an-input-column">Applying a Formula to an Input Column<a class="headerlink" href="#applying-a-formula-to-an-input-column" title="Permanent link">&para;</a></h3>
+<p>Direct input columns can also be transformed into formulas. The available formulas will depend on the input column type.</p>
+<p>The user will select the <code>Apply Formula</code> option in the column header menu to transform the input column into a formula.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/nEzYaNKNTSv9EFwzwtfSof.png">Applying a Formula</a></p>
+<h2 id="applying-transformations-to-the-result-table">Applying Transformations to the Result Table<a class="headerlink" href="#applying-transformations-to-the-result-table" title="Permanent link">&para;</a></h2>
+<p>The result table refers to the resulting table from all input columns selected and added, including filters and aggregations. Users can transform this output by applying output filters, sorts, and summarizations to the result table.</p>
+<h3 id="filtering-the-output-table">Filtering the Output Table<a class="headerlink" href="#filtering-the-output-table" title="Permanent link">&para;</a></h3>
+<p>Users can filter the output table by adding a filter step to any column from the result table. The column selector, in this scenario, will only allow users to select input columns rather than the whole column list from the column selection stage.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/dAVYnp8VnG2r2HzkSZ3rgp.png">Output Filter</a></p>
+<h3 id="summarizing-the-result-table">Summarizing the Result Table<a class="headerlink" href="#summarizing-the-result-table" title="Permanent link">&para;</a></h3>
+<p>The <code>Summarization</code> step lets users generate a summarized version of the result table. When added, the system will group the table values based on a summary column of their choice. The summary can be done using the summary column&rsquo;s exact values or the data type&rsquo;s available grouping options.</p>
+<p>To summarize the table, the user selects the <code>Summarize</code> option from the result transformations menu and adds the step. Once added, the remaining columns are automatically assigned an aggregation function, which users can change at any time. The data type of the output column is used to infer aggregates.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/rPMwwETnuQ8a4ut8NfmcDB.png">Output Summarization</a></p>
+<p><a href="https://share.balsamiq.com/c/x2iwVBT3NwzmKyhnxSiJku.png">Summarization Options</a></p>
+<h3 id="sorting-the-output-table">Sorting the Output Table<a class="headerlink" href="#sorting-the-output-table" title="Permanent link">&para;</a></h3>
+<p>Users can sort the output table by applying a sort to any result table columns.</p>
+<p>To sort the table, the user selects the <code>Sort</code> option from the result transformations menu and adds it to the list. Once added, the user can set a column and a direction for the sort.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/8TYP1XNz49tS7hHqujMmqS.png">Output Sorting</a></p>
+<h3 id="adding-a-new-column-to-a-summarized-table">Adding a New Column to a Summarized Table<a class="headerlink" href="#adding-a-new-column-to-a-summarized-table" title="Permanent link">&para;</a></h3>
+<p>If the result table has transformations applied, new columns will be added automatically to the summarization steps and an aggregation set by default.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/kWyvRL822BdBubhT4ghzgA.png">Adding New Column</a></p>
+<h2 id="deleting-a-result-transformation-step">Deleting a Result Transformation Step<a class="headerlink" href="#deleting-a-result-transformation-step" title="Permanent link">&para;</a></h2>
+<p>To delete a result transformation step, the user can click on the <code>Delete</code> button present in each step item. Deleting a step means that the system will undo all transformations made through that step, and the result table will reflect the updated output.</p>
+<p>When subsequent steps rely on columns resulting from a deleted step, the system will display error warnings for every failed step. The table output will only reflect the output generated by those stages without errors.</p>
+<hr />
+<p>Wireframes</p>
+<p><a href="https://share.balsamiq.com/c/XeNAKGz1UnDMfscSTLDVp.png">Deleting a Transformation Step</a></p>
+<h2 id="previewing-the-query-results">Previewing the Query Results<a class="headerlink" href="#previewing-the-query-results" title="Permanent link">&para;</a></h2>
+<p>A preview, or query result table, should be visible while the user is in <code>Data Explorer.</code> The result table will change based on the different configurations. For example, if a user applies a filter, the system should refresh the table to show the output with the filter applied.</p>
+<h2 id="saving-the-query-as-a-view">Saving the Query as a View<a class="headerlink" href="#saving-the-query-as-a-view" title="Permanent link">&para;</a></h2>
+<p>Under <code>Save Options</code>, the user can name the resulting query and choose to save it. This would save the view as a query the system would run every time the user opens it.</p>
+<h2 id="troubleshooting-and-resolving-errors">Troubleshooting and Resolving Errors<a class="headerlink" href="#troubleshooting-and-resolving-errors" title="Permanent link">&para;</a></h2>
+<h3 id="the-result-table-has-no-rows">The result table has no rows<a class="headerlink" href="#the-result-table-has-no-rows" title="Permanent link">&para;</a></h3>
+<p>The result table could be empty if a filter returns no results or if the base table is empty. Since queries will run every time the user opens a view, it is possible that the data has changed or that the filter condition returns no results.</p>
+<p>Providing a count of rows and columns from the original base table would eliminate confusion around the data source (the table is not empty).</p>
+<p>Additionally, users should be able to identify which input columns are filtered, see the applied criteria for each filter and remove the filters if needed.</p>
+<h3 id="there-are-duplicate-values">There are duplicate values<a class="headerlink" href="#there-are-duplicate-values" title="Permanent link">&para;</a></h3>
+<p>If a user adds a column with multiple records without an aggregation, values from other columns will be duplicated. Adding aggregations by default for columns with multiple records would help users discover this functionality.</p>
+<p>The system can determine the aggregation formula based on the column&rsquo;s data type.</p>
+<h3 id="an-input-column-used-in-a-formula-has-been-deleted">An input column used in a formula has been deleted<a class="headerlink" href="#an-input-column-used-in-a-formula-has-been-deleted" title="Permanent link">&para;</a></h3>
+<p>If a user deletes an input column utilized in a formula, that formula column must display the error and prompt the user to resolve it. The user can replace the affected column with another one or delete the formula column.</p>
+<h2 id="other-considerations">Other Considerations<a class="headerlink" href="#other-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="column-naming-convention">Column Naming Convention<a class="headerlink" href="#column-naming-convention" title="Permanent link">&para;</a></h3>
+<p>Input column names, when constructed, should have generated names that reference the source of the columns. For example, a column <code>full_name</code> from the <code>Person</code> table, linked by the column <code>actor_id</code> in <code>Movie,</code> would be named <code>movie_actor full_name.</code></p>
+<p>When column names fit the patterns employed in Mathesar, we might detect unnecessary suffixes like <code>id</code> and strip them out to shorten the names (e.g., <code>sequel title</code> instead of <code>sequel_id title</code>).</p>
+<p>Additionally, the generated name can include a link hierarchy. For example <code>sequel_prequel_sequel title</code> for a column named <code>title</code> added through Movie&rsquo;s <code>sequel_id</code>&rsquo;s <code>prequel_id</code>&rsquo;s <code>sequel_id</code>.</p>
+<p>Users can alter the default names at any time and still see the source information under the column details.</p>
+<h2 id="inspector-panel-modes">Inspector Panel Modes<a class="headerlink" href="#inspector-panel-modes" title="Permanent link">&para;</a></h2>
+<p>The inspector panel can be displayed in various modes depending on the currently active and selected objects. For example, clicking on a column will change the inspector&rsquo;s content to show the details for that column.</p>
+<p>Inspector displays query details and saves options by default.</p>
+<h3 id="column-selection">Column Selection<a class="headerlink" href="#column-selection" title="Permanent link">&para;</a></h3>
+<p>The column selection mode is activated by clicking on the <code>Add Column</code> option in the column selection step. When active, this inspector mode will list columns:</p>
+<ul>
+<li>from the base table</li>
+<li>from tables with links in the base table</li>
+<li>from tables with links to the base table</li>
+</ul>
+<hr />
+<p>Questions</p>
+<ul>
+<li>How will users know where to begin when using Data Explorer?</li>
+<li>Is it possible to disable aggregation by default?</li>
+<li>Should we display the primary key id from the base table?</li>
+<li>How do we handle a view that is out of sync, where objects may be modified outside Mathesar?</li>
+<li>Where are edit actions performed? What can be modified in a view or data explorer?</li>
+<li>What if we only showed Mathesar views and kept non-Mathesar views hidden?</li>
+<li>How are the view and query connected if you save a view associated with the query at that time?</li>
+<li>When a view query changes, how can we tell?</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../..", "features": ["content.code.copy", "navigation.path", "navigation.indexes", "navigation.sections", "navigation.prune"], "search": "../../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
