@@ -10,7 +10,17 @@ https://nvd.nist.gov/vuln-metrics/cvss/v4-calculator
 
 ## Assessment of issues and proposed features
 
-If a team member notices a proposed feature or issue that we plan to implement, and that feature has some perceived security risk, that team member should do an assessment based on their understanding of the proposed feature using the calculator above. Only fill out the "Base Metrics" section. For example, consider [File Upload support in forms](https://github.com/mathesar-foundation/mathesar/issues/4829). Here's my attempt at an assessment:
+If a team member notices a proposed feature or issue that we plan to implement, and that feature has some perceived security risk, that team member should do an assessment based on their understanding of the proposed feature using the calculator above. **Only fill out the "Base Metrics" section.**
+
+### When should I assess a feature or issue?
+
+The goal should be to assess the feature after it's actually specced out somewhat, but before it's merged. If the issue is not yet fully specced out, the assessment may be a waste of time, e.g., if the person designing the feature has already though through mitigation options for any issues noticed. Subject to that constraint, however, earlier in the process is better.
+
+Eventually, it's likely that a quick assessment will be part of pulling any issue or proposed feature into a release cycle.
+
+### Example Assessment before mitigation
+
+For example, consider [File Upload support in forms](https://github.com/mathesar-foundation/mathesar/issues/4829). Here's my attempt at an assessment:
 
 ![sec_assess_ex_before.png](/assets/images/sec_assess_ex_before.png)
 
