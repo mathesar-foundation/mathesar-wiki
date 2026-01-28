@@ -91,6 +91,8 @@ When we "cut" a release, we _begin_ the process of making a release. (This is no
 
         If you have trouble running these commands, make sure you've run the [prerequisite setup steps](./index.md#prerequisites).
 
+    1. When the builds are finished, manually verify that they successfully pushed to Docker Hub at https://hub.docker.com/r/mathesar/mathesar/tags.
+    
     1. Clean up
 
         ```sh
