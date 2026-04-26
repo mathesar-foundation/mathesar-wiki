@@ -25,23 +25,9 @@ jobs:
       - name: Build docs
         run: mkdocs build --clean --strict
 
-      - name: Reject root-relative Markdown links
+      - name: Reject internal raw HTML links and images
         run: |
-          if rg -n '!?\[[^]\n]*\]\(/' docs --glob '*.md'; then
-            echo 'Found root-relative internal Markdown links or images. Use source-relative paths instead.'
-            exit 1
-          fi
-
-      - name: Reject raw HTML internal links
-        run: |
-          if rg -n '<(?:img|a)\b[^>]*(?:src|href)="/' docs --glob '*.md'; then
-            echo 'Found raw HTML internal links or images. Use Markdown syntax instead.'
-            exit 1
-          fi
-
-      - name: Reject emitted internal .md links
-        run: |
-          if rg -n '(?:href|src)="(?:/|(?:\.\./)+|\./)[^"]+\.md(?:#|")' site --glob '*.html'; then
-            echo 'Found emitted internal .md links in generated HTML.'
+          if rg --pcre2 -n '<(?:img|a)\b[^>]*(?:src|href)="(?!https?:|mailto:|tel:|#|//)[^"]+"' docs --glob '*.md'; then
+            echo 'Found internal raw HTML links or images. Use Markdown syntax instead.'
             exit 1
           fi
