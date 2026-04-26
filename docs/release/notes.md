@@ -28,7 +28,7 @@ The release notes PR will be merged at the start of the [publication](./publicat
 
     - In addition to the title, write a short blurb to describe the improvement.
     - Add a screenshot if possible.
-    
+
     (See [0.1.4](https://docs.mathesar.org/releases/0.1.4/) as an example of these "improvements" guidelines in practice.)
 
 - PRs which fix mid-cycle regressions should be lumped into their originating items. For example, if we implement a feature that in turn breaks some functionality elsewhere, that's a regression. If the regression never gets released, then from the user's perspective it's not actually a bug. Rather, the regression is just part of our internal process of building the feature.

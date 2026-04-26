@@ -1,4 +1,4 @@
-# Deprecated Models 
+# Deprecated Models
 
 This section contains ad-hoc notes on our current models, and intended changes.
 
@@ -116,7 +116,7 @@ Referenced by TableSettings.
 | oid          | integer                  |
 | database\_id | integer                  |
 
-Nothing stored here. 
+Nothing stored here.
 
 Referenced by SchemaRole and Table models.
 

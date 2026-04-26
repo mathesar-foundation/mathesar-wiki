@@ -24,7 +24,7 @@ Day off
 
 ## 2023-10-11
 - Usability Issues: Add more detail and create Github Issues
-- Exploratory design for record selector and inline record editing 
+- Exploratory design for record selector and inline record editing
 
 ## 2023-10-10
 - Usability issues discussion and collaboration request

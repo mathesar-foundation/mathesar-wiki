@@ -96,7 +96,7 @@ Throughout our stack, we may want to represent numbers as strings. When doing so
 - To satisfy Goal F, Mathesar delegates to the front-end the responsibility to decide between displaying a number in standard notation or scientific notation.
 
     The algorithm for making this decision is as follows.
-    
+
     - If the front-end cannot parse the number, then it retains the notation used in the stringified number.
     - If the front-end can only produce a `BigInt`, then it will use standard notation because: (a) `Intl.NumberFormat` is not capable of accurately formatting very large `BigInt` values due to its upper limit on `maximumFractionDigits` of `20`, and (b) standard notation makes it clearer to the user that the value is an integer.
     - If the front-end can produce a `number`, then it will use some yet-to-be-determined heuristics to make a best guess as to whether the user would prefer to see the number in standard notation or scientific notation.

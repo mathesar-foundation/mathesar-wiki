@@ -7,7 +7,7 @@
 ## Additional Context
 
 - [GitHub Issue](https://github.com/mathesar-foundation/mathesar/issues/2377)
-- [Usability Improvements project](/archive/product/projects/2023/04/2023-04-usability-improvements) which contains this work
+- [Usability Improvements project](../../projects/2023/04/2023-04-usability-improvements.md) which contains this work
 
 ## Terminology and abbreviations in this document
 
@@ -128,7 +128,7 @@
 - When copying, Mathesar writes the following data to the clipboard:
 
     - `text/plain`
-    
+
         This is a TSV representation of the cell data, as described in more detail below.
 
     - `application/x-vnd.mathesar-sheet-clipboard`
@@ -203,7 +203,7 @@
 
 - If the clipboard has data with a MIME type matching our Mathesar-specific representation, we use that data. Otherwise, we use the `text/plain` data.
 
-- When using plain text paste data, Mathesar displays a modal which allows the user to configure the parsing of the paste data. This feature has some overlap with the [UI for Importing data into existing tables](/community/gsoc/project-ideas/ui-import-data-existing-table) GSoC project, so it is not yet fully specified.
+- When using plain text paste data, Mathesar displays a modal which allows the user to configure the parsing of the paste data. This feature has some overlap with the [UI for Importing data into existing tables](../../../../community/gsoc/project-ideas/ui-import-data-existing-table.md) GSoC project, so it is not yet fully specified.
 
 - After pasting, all pasted cells are selected.
 
@@ -233,7 +233,7 @@
 - If the paste data extends beyond the column limits, Mathesar shows an error and no data is modified
 
     > **Unable to Paste**
-    > 
+    >
     > The table does not have enough columns to hold the copied data.
 
 - If the paste data extends beyond the rows displayed in the table, then new rows are added as needed. This means that it's possible to paste into the placeholder row at the bottom of the table.

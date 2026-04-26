@@ -1,7 +1,7 @@
 # Number Data Type
 
 ## Context
-Number data types allow users to add numeric values in different formats. 
+Number data types allow users to add numeric values in different formats.
 
 ## Prototype
 !!! warning "Warning"
@@ -24,7 +24,7 @@ The following is an interactive representation of the various options that users
 When setting a number type, a user can pick from different formats, including decimals, floats, integers.
 
 #### User filters the values of a number data type column
-A user can filter the values of a number data type column. The filtering options will vary depending on the type selected. 
+A user can filter the values of a number data type column. The filtering options will vary depending on the type selected.
 
 #### User groups records according to numeric values of a column
 A user can create groups based on the numeric values of a column. The User can choose to group by unique values or automatic ranges. Range options can be set so that groups are created by size or number of groups.

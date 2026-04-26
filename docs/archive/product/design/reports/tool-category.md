@@ -1,7 +1,7 @@
 # Tool Category Exploration
 
 ## Is Mathesar a Database GUI tool?
-Based on discussions with the team, the answer is no. While Mathesar shares many of the core features found on database GUI tools, it is not intended to support advanced database administration and operations. 
+Based on discussions with the team, the answer is no. While Mathesar shares many of the core features found on database GUI tools, it is not intended to support advanced database administration and operations.
 
 ## Then what kind of tool is Mathesar?
 One of Mathesar's primary purposes is data storage, with the addition of robust data model customization features, integration with external data sources, data visualization, and sharing capabilities. This combination of features makes Mathesar a mix between a database GUI and analysis & visualization tools.

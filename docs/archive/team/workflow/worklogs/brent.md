@@ -79,7 +79,7 @@ I'm combining reports from last week, since I spent the first part of the week d
 
 ### DB Connections
 
-- Read through some RPC framework docs to see if they're worth getting into for 
+- Read through some RPC framework docs to see if they're worth getting into for
 
 ## 2023-11-16
 

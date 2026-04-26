@@ -12,7 +12,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
 - Work with the Mathesar design team to figure out how end users can interact with the JSON data types in the UI, including:
   - How data is displayed
   - How data is entered
-  - What [Mathesar Types](/engineering/glossary/ui-types) to show
+  - What [Mathesar Types](../../../engineering/glossary/ui-types.md) to show
   - What filtering options to support
   - What grouping options to support
   - What display options to support
@@ -29,16 +29,16 @@ By the end of this project, we expect that users will be able to seamlessly use 
 
 ## Resources
 - Data Types in Mathesar:
-  - [Data Types "Concepts" page](/archive/product/concepts/data-types)
-  - [Mathesar UI Data Types engineering page](/engineering/glossary/ui-types)
-- [Existing Data Type components design spec](/archive/product/design/specs/global-data-type-components), to see how current data types work.
+  - [Data Types "Concepts" page](../../../archive/product/concepts/data-types.md)
+  - [Mathesar UI Data Types engineering page](../../../engineering/glossary/ui-types.md)
+- [Existing Data Type components design spec](../../../archive/product/design/specs/global-data-type-components.md), to see how current data types work.
 - Filters in Mathesar:
-  - [Filters "Concepts" page](/archive/product/concepts/filters)
-  - [Filters engineering page](/engineering/glossary/filters)
+  - [Filters "Concepts" page](../../../archive/product/concepts/filters.md)
+  - [Filters engineering page](../../../engineering/glossary/filters.md)
 - [PostgreSQL JSON types documentation](https://www.postgresql.org/docs/current/datatype-json.html)
 
 ## Mentors
 - **Primary Mentor**: Brent Moran
 - **Backup Mentor**: Mukesh Murali
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

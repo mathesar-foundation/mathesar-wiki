@@ -1,14 +1,14 @@
 # Lookup Field Component Specs
 
 ## Context
-The lookup field component was specified as part of the design for ['Add Table from Import'](/archive/product/design/specs/table-import). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:
+The lookup field component was specified as part of the design for ['Add Table from Import'](./table-import.md). Based on discussions held after the design review of the document, we determined the need to provide further detail on how users will use this component and what steps they must follow to complete the following tasks:
 
 - Add a table to an existing schema
 - Add a table to a new schema
 
 ## Scenario: Selecting a Schema
 
-![](/assets/archive/product/design/specs/lookup-field-component/Cr6i2pU.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/Cr6i2pU.png)
 
 The lookup field component allows the user to choose a value from a list to perform a specific action. A common task within Mathesar will be the creation of database objects such as tables and views. These objects belong to a schema, which is the structure of a database.
 
@@ -26,16 +26,16 @@ Our current use case doesn't contain instances where a lookup field might requir
 #### Selecting from Existing Values
 For a schema that already exists, the user will have to click on the desired schema to select it.
 
-![](/assets/archive/product/design/specs/lookup-field-component/jRBFNUO.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/jRBFNUO.png)
 
 In some cases, users might see an item listed but can't select it. This state could be due to insufficient privileges or other factors. In that case, the item will be grayed out and non-interactive.
 
-![](/assets/archive/product/design/specs/lookup-field-component/eej36bN.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/eej36bN.png)
 
 #### Add a New Schema and Select It
 In some cases, a user might want to add the table to a new schema. To avoid leaving this view and restarting the process, the user can add it from the lookup menu.
 
-![](/assets/archive/product/design/specs/lookup-field-component/aP3hoGa.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/aP3hoGa.png)
 
 ##### Pros
 - Easier to transform into multi-select in the future as space can be handled better because 'Find a schema' is separated from 'Selected Schemas'
@@ -50,16 +50,16 @@ In some cases, a user might want to add the table to a new schema. To avoid leav
 
 - Retrieve all schemas by clicking on the field
 
-![](/assets/archive/product/design/specs/lookup-field-component/dKPcSq3.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/dKPcSq3.png)
 
 - Type to find existing schemas
 
-![](/assets/archive/product/design/specs/lookup-field-component/hdL78gs.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/hdL78gs.png)
 
 #### Add a New Schema and Select It
 - Type to create a new schema if no matches found
 
-![](/assets/archive/product/design/specs/lookup-field-component/b92JFFc.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/b92JFFc.png)
 
 ##### Pros
 - Fewer steps overall. User can both refine the list of schemas or create a new one without requiring additional steps
@@ -70,15 +70,15 @@ In some cases, a user might want to add the table to a new schema. To avoid leav
 ## Review Summary
 
 ### Choosing Alternative #2
-Alternative #2 is preferred as it is more ARIA friendly. 
+Alternative #2 is preferred as it is more ARIA friendly.
 
 Clicking the input field to reveal full list of options:
 
-![](/assets/archive/product/design/specs/lookup-field-component/rygEN__i_.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/rygEN__i_.png)
 
 Typing the name of the schema to retrieve matching options:
 
-![](/assets/archive/product/design/specs/lookup-field-component/BJuBNu_su.png)
+![](../../../../assets/archive/product/design/specs/lookup-field-component/BJuBNu_su.png)
 
 
 ### Discarding 'Add Schema' functionality from the lookup field for now
@@ -90,7 +90,7 @@ Some concerns exist around the need for confirmation steps and system feedback r
 
 **Ideas to improve the experience:**
 
-- Allowing users to extend current schema names to create new ones 
+- Allowing users to extend current schema names to create new ones
 
 
 ### Simplifying Schema and Table Creation

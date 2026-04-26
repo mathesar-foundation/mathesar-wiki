@@ -76,7 +76,7 @@
 
 #### Mukesh
 - Help Dom with live demo throughput issue
-- Deployment Type 3 
+- Deployment Type 3
     - install.sh improvements
 
 #### Pavish
@@ -90,7 +90,7 @@
  - Get consistent 404 page PR merged - Usability testing.
  - Documentation for users and permissions.
  - QA user and permissions.
- - QA the platform in general. 
+ - QA the platform in general.
 
 #### Sean
 - Review [Update schema access control modal UX](https://github.com/centerofci/mathesar/pull/2540)
@@ -99,7 +99,7 @@
 - Review [Add Deployment docs](https://github.com/centerofci/mathesar/pull/2497)
 
 ## Permissions - clarifications
-- **Summary**: 
+- **Summary**:
     1. Can a schema manager edit schema name & description?
         - We have options to do this at both the schema page & db page.
         - Currently, the UI allows schema managers to do this at the schema page, but not at the DB page. We need to make this consistent.

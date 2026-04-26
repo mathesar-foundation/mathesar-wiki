@@ -38,7 +38,7 @@
 ## Product vision brainstorming
 
 ### Pre-meeting prep
-- **Discussion goal**: What outcome should we be aiming for at the end of our product vision / direction conversations? 
+- **Discussion goal**: What outcome should we be aiming for at the end of our product vision / direction conversations?
 
 By "outcome", I mean "the final output" of the process.
 - e.g. if it's a document describing our product vision, what questions should it answer / what topics does it need to cover? What timeline do we set the product direction for? How would we use the document?
@@ -62,7 +62,7 @@ By "outcome", I mean "the final output" of the process.
     - What features?
     - What users are targeted?
     - What is our position in our market compared to other tools?
-    - What's our emphasis level on a SaaS version?    
+    - What's our emphasis level on a SaaS version?
 - Sean:
     - "What is the outcome?" is a good framing
     - SaaS version may be a different question
@@ -81,7 +81,7 @@ By "outcome", I mean "the final output" of the process.
     - Agrees with Sean, but SaaS should be a consideration sooner because it affects architecture
 - Brent
     - A SaaS product is essentially a different product that uses Mathesar as a tool
-    - The product level decisions are totally different from self-hosted - e.g. multi-tenancy 
+    - The product level decisions are totally different from self-hosted - e.g. multi-tenancy
         - It's not "how do we implement multi-tenancy", it's "what do we want the UX for hosted users to be?"
     - We do need product vision for SaaS, but I'm not sure it's the same thing as the vision for Mathesar the product
     - Outcome:
@@ -115,7 +115,7 @@ By "outcome", I mean "the final output" of the process.
     - Kind of users to target
     - Problems they want to solve
     - Solutions offered by Mathesar
-    - SAAS could become a path towards those solutions. 
+    - SAAS could become a path towards those solutions.
 - Pavish:
     - Having use cases
     - Try to gather more info before focusing too much on use cases
@@ -133,7 +133,7 @@ By "outcome", I mean "the final output" of the process.
     - Important to be "exciting and dynamic" with a new product. We don't necessarily need to wait for user feedback before we develop the product vision. We might not get enough data any time soon. Being exciting is more important than being right.
 - Rajat:
     - If we had 5 very different use cases, then we could choose to focus on only one or two in the short term, with the intent of doing the others in the longer term.
-    - We can use market cap, competitor analysis, our strengths, etc to decide between these use cases. 
+    - We can use market cap, competitor analysis, our strengths, etc to decide between these use cases.
 - Dom:
     - Agrees that the product vision should be exciting
     - How do we feel about the trade off between a product vision that we _personally_ find exciting vs a product vision that we deem to be practical?

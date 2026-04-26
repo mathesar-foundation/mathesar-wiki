@@ -66,4 +66,4 @@
 - Fixed install commands in docs ([#3279](https://github.com/centerofci/mathesar/pull/3279))
 
 # Archive
- - [October 2023 work logs](/archive/team/workflow/worklogs/archive/2023-10/anish/)
+ - [October 2023 work logs](./archive/2023-10/anish.md)

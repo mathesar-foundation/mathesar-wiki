@@ -1,6 +1,6 @@
 # Forms
 
-This spec describes the “Forms” feature. 
+This spec describes the “Forms” feature.
 
 "Forms" lets non-technical users visually design and share data-entry forms publicly. Users select a base table, pick columns (including foreign-key, and reverse-foreign-key links), arrange and configure fields, and publish a public link. End users can then submit the form which store records in the database, with nested creation of related records.
 
@@ -84,7 +84,7 @@ We have enough agreement on the spec to proceed with UX design.
 	- I want to reorder fields via drag-and-drop and insert dividers or instructional text to structure my form visually.
 	- I want the main record and any related/nested records to all be created in one shot, when the end user submits the form.
 
-- **Form Submitter (End User)**  
+- **Form Submitter (End User)**
 	- I want a clear, labelled form that only shows fields relevant to my task.
 	- I want descriptive messages to guide me fill the form.
 	- I want clear indications when the form is successfully submitted.

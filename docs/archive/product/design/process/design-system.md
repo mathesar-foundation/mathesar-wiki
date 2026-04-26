@@ -10,7 +10,7 @@
 - Design Files or living code
 
 ### Ways to create library components
-There's no single best approach when it comes to building components. Methods like fast-prototyping will sometimes require interfaces to use components before they become available and documented in the library. 
+There's no single best approach when it comes to building components. Methods like fast-prototyping will sometimes require interfaces to use components before they become available and documented in the library.
 
 In the book *Building Design Systems*, two different approaches to creating new components are described. Both methods of construction are outlined here:
 

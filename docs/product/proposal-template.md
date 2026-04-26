@@ -33,4 +33,3 @@
 	How does this project interface with the community? How can we include the community during development and after release?
 
 
-	

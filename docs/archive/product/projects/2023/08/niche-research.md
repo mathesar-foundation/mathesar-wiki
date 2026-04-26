@@ -1,5 +1,5 @@
-**Status**: Draft  
-**Review Status**: Draft  
+**Status**: Draft
+**Review Status**: Draft
 **Theme**: Niche Research and Persona Development for Mathesar
 
 
@@ -73,7 +73,7 @@ We believe that small businesses using PostgreSQL are a good fit for Mathesar be
 - **Social Media**: Analyze mentions and discussions related to PostgreSQL database management, especially those expressing challenges with existing tools or seeking new solutions.
 - **Industry Forums**: Look for information in forums specific to industries that can benefit from Mathesar, and note real-world scenarios and challenges posed by users.
 - **Online Communities**: Track discussions related to Mathesar or database management on platforms like Reddit and Hacker News where users might discuss their database management needs or share their experiences with other tools.
-   
+
 #### Classification of Use Cases
 
 - **Database Beginners**: Capture use cases where users are transitioning from spreadsheets to databases or when they are venturing into the database world for the first time.

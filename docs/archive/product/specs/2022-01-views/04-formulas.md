@@ -22,7 +22,7 @@ In order to make finding the right formula easier, we should categorize formulas
 
 See below for a _very_ rough representation of the idea.
 
-![view_builder_4.png](/assets/archive/product/specs/2022-01-views/04-formulas/view_builder_4.png)
+![view_builder_4.png](../../../../assets/archive/product/specs/2022-01-views/04-formulas/view_builder_4.png)
 
 ### Editing Formula Data
 When a query is turned into a View, we will allow users to edit data from the View in some cases. Each formula that is editable will define its own editing behavior, but here are some general guidelines:
@@ -58,10 +58,10 @@ A set of filters that can be applied to a column.
 ### Single Record Text-Like
 Either a **Single Record Column Reference** or a literal string.
 
-If using a column reference, it can be of any data type but the data in the column will be treated like text. 
+If using a column reference, it can be of any data type but the data in the column will be treated like text.
 
 ### Multiple Record Text-Like
-A **Multiple Record Column Reference**. The column can be of any data type but the data in the column will be treated like text. 
+A **Multiple Record Column Reference**. The column can be of any data type but the data in the column will be treated like text.
 
 ### Single Record Number-Like
 Either a **Single Record Column Reference** or a literal number.
@@ -104,15 +104,15 @@ Literal text expressing a [regular expression](https://www.postgresql.org/docs/c
 ## List of Formulas
 This is a list of view formulas that we should support in the alpha release of Mathesar, categorized into types.
 
-- [Record Aggregations *Formulas that aggregate a column across multiple records*](/archive/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
-- [Random Generators *Formulas that generate random data*](/archive/product/specs/2022-01-views/04-formulas/4b-random-generators)
-- [Text Formulas *Formulas that work on text data*](/archive/product/specs/2022-01-views/04-formulas/4c-text-formulas)
-- [Number Formulas *Formulas that work on number data*](/archive/product/specs/2022-01-views/04-formulas/4d-number-formulas)
-- [Boolean Formulas *Formulas that work on boolean data*](/archive/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
-- [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](/archive/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
-- [List Formulas *Formulas that work on list data*](/archive/product/specs/2022-01-views/04-formulas/4g-list-formulas)
-- [Cumulative Formulas *Formulas building on previous rows in the query*](/archive/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
-- [Regular Expression Formulas *Formulas that use regular expressions*](/archive/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
-- [Custom Formulas *An interface to support more complicated formulas*](/archive/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
+- [Record Aggregations *Formulas that aggregate a column across multiple records*](./04-formulas/4a-record-aggregations.md)
+- [Random Generators *Formulas that generate random data*](./04-formulas/4b-random-generators.md)
+- [Text Formulas *Formulas that work on text data*](./04-formulas/4c-text-formulas.md)
+- [Number Formulas *Formulas that work on number data*](./04-formulas/4d-number-formulas.md)
+- [Boolean Formulas *Formulas that work on boolean data*](./04-formulas/4e-boolean-formulas.md)
+- [Date. Time, and Duration Formulas *Formulas that work on date, time, and duration data*](./04-formulas/4f-datetime-formulas.md)
+- [List Formulas *Formulas that work on list data*](./04-formulas/4g-list-formulas.md)
+- [Cumulative Formulas *Formulas building on previous rows in the query*](./04-formulas/4h-cumulative-formulas.md)
+- [Regular Expression Formulas *Formulas that use regular expressions*](./04-formulas/4i-regex-formulas.md)
+- [Custom Formulas *An interface to support more complicated formulas*](./04-formulas/4j-custom-formulas.md)
 
 

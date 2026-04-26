@@ -31,7 +31,7 @@ The scope of changes we're currently making to record summaries for Mathesar bet
 
 ## Old record summaries
 
-_This section reviews the behavior of record summaries as of Mathesar 0.1.7 just to provide context to this document. This behavior is specified in more detail within our [old specs document](/archive/product/design/specs/record-summary.md)._
+_This section reviews the behavior of record summaries as of Mathesar 0.1.7 just to provide context to this document. This behavior is specified in more detail within our [old specs document](../../../design/specs/record-summary.md)._
 
 Without any user configuration, records are summarized by their first non-PK column.
 

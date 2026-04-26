@@ -107,9 +107,9 @@
 
 #### Notes
 - Decided against implementing analytics in the backend because frontend has a lot of events that are not visible to backend.
-- Analytics events are better captured on the frontend, as we have a better context of the user actions and can also capture events that don't make any backend API calls. 
+- Analytics events are better captured on the frontend, as we have a better context of the user actions and can also capture events that don't make any backend API calls.
 - Kriti: if this is going to be very complicated to implement, we can skip it for launch.
-- Pavish suggested using global function which would be called any time we want to track a custom event. 
+- Pavish suggested using global function which would be called any time we want to track a custom event.
 - This global function would send the events to our analytic platform only during the demo build and will be empty for other build types. Sean agrees with the suggested approach
-- Mukesh needs to figure out a way to avoid typescript complaining about the missing global function. 
+- Mukesh needs to figure out a way to avoid typescript complaining about the missing global function.
 - It is better to use a wrapper function called `sendAnalytics` and call any analytics related code within that function, so that any logic related to analytics is encapsulated properly.

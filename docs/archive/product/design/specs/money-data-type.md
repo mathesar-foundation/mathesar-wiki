@@ -35,7 +35,7 @@ The user might also choose to group the data based on the values of the 'Money' 
 
 ## Review Notes
 
-- For the MVP we'll assume the number locale format based on the selected currency. Eventually we can add options so that, for example, US dollars can be displayed with dot separators instead of commas. 
+- For the MVP we'll assume the number locale format based on the selected currency. Eventually we can add options so that, for example, US dollars can be displayed with dot separators instead of commas.
 - All locales will be included whenever there's a locale-related option.
 
 ### Update 23 Feb 2022

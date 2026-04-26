@@ -1,6 +1,6 @@
 # Running Effective Team Meetings
 
-By default, we are an asynchronous team and communicate via our [mailing lists](/community/mailing-lists) or [GitHub](/community/github) issues for anything that involves discussion. We also do ephemeral communication on [Matrix](/community/matrix).
+By default, we are an asynchronous team and communicate via our [mailing lists](../../community/mailing-lists.md) or [GitHub](../../community/github.md) issues for anything that involves discussion. We also do ephemeral communication on [Matrix](../../community/matrix.md).
 
 But sometimes, meeting synchronously is the fastest way to get something done. Here's how you should approach meetings.
 
@@ -8,7 +8,7 @@ These steps should _definitely_ be applied to any meeting with more than two peo
 
 ## Before scheduling
 
-1. **Think about whether you _need_ a meeting.** 
+1. **Think about whether you _need_ a meeting.**
 
     Meetings are costly, e.g. a one hour meeting with five people costs five hours of people's work + whatever time it takes to context switch before and after.
 
@@ -54,9 +54,9 @@ You can now schedule the meeting. Make sure to send the agenda and asynchronous 
 
 We have a HackMD template to make this easier, you can use it like so:
 
-![screen_shot_2022-12-08_at_9.53.42_pm.png](/assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.42_pm.png)
+![screen_shot_2022-12-08_at_9.53.42_pm.png](../../assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.42_pm.png)
 
-![screen_shot_2022-12-08_at_9.53.57_pm.png](/assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.57_pm.png)
+![screen_shot_2022-12-08_at_9.53.57_pm.png](../../assets/team/guide/meetings/screen_shot_2022-12-08_at_9.53.57_pm.png)
 
 ## At the meeting
 

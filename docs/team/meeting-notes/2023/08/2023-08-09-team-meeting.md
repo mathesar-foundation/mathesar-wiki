@@ -15,7 +15,7 @@
 	- Still need to decide how specific our niche is. We'll do this once we've done more research, planned for the next cycle.
 - Please note that this _does not mean_ we're only supporting users with existing databases. We're just going to be focusing on making the experience better for those users first.
 	- We should not be making any technical or architectural decisions that cut off our ability to support other users in the future.
-- Side note: 1/1 discussions to gather feedback on product strategy were productive! 
+- Side note: 1/1 discussions to gather feedback on product strategy were productive!
 	- Ghislaine will be scheduling discussions with remaining team members about product strategy.
 	- We'll also use this discussion format more in the future.
 
@@ -24,7 +24,7 @@
 ### Pre-meeting prep
 - **Discussion prompt**:
     - Please write down your thoughts about the previous cycle, we'll discuss.
-- **Discussion goal**: 
+- **Discussion goal**:
     - Analyze previous cycle
     - See what worked so we can keep it for the next cycle
     - See what didn't work so we can figure out how to tweak the next cycle
@@ -49,16 +49,16 @@
 - [Brent] People seemed to each be absorbed by their own projects (at least in the back end); cross-communication was weak.
 - [Brent] No synergy between back end projects; time spent on one was time lost on another.
 - [Sean] hard to know exactly how to deal with changes in plans mid-cycle. I spent almost the entire cycle on unplanned work because it was related to a user-reported bug.
-- [Rajat] Sean had a lot of review items on him which contributed towards some of the delays. 
+- [Rajat] Sean had a lot of review items on him which contributed towards some of the delays.
 - [Ghislaine] There's room for improvement in how we facilitate more meaningful team discussions.
-- [Dom] Underestimated how much time work outside my project will require, and that this work will mostly have to happen at the last 1-2 weeks of the cycle. 
+- [Dom] Underestimated how much time work outside my project will require, and that this work will mostly have to happen at the last 1-2 weeks of the cycle.
 - [Pavish] Task assignment planning before the cycle needs to be improved. Both i18n and Shareable links projects had a lot of code changes (and multiple PRs) to review, and Sean had to do both, which lead to inevitable delays.
 - [Pavish] There was a part of me that wanted to avoid context switching and not do tasks that felt like they took my focus away from my project, and another part of me that wanted to do those tasks. I did subpar work juggling between the two.
   - I wanted to collect my thoughts and have a more focused discussion around 'Users who do not want anything installed on their DB', and resorted to chats over Matrix in the end. I could have taken a day or two to send a more meaningful mail instead.
   - I noticed a number of issues that we may want to focus on the next cycle which I discussed over chat, and am yet to create tickets for.
   - I did not attend the last Installation planning meeting to focus more on my project, though I was super interested in it.
 - [Pavish] There was no specific person assigned to deal with general issues that may arise during the cycle. It was hard to request help from any specific person since everyone had a lot of work.
-  - I was met with test case failures due to 'too many clients' error, and I required help from the backend team members who had overall knowledge of the test suite so that I could proceed in the best possible direction. I wasn't sure whom to reach out to, and requested help from everyone. 
+  - I was met with test case failures due to 'too many clients' error, and I required help from the backend team members who had overall knowledge of the test suite so that I could proceed in the best possible direction. I wasn't sure whom to reach out to, and requested help from everyone.
 - [Mukesh] Context switching between researching and doing code related work in the same cycle was daunting.
 - [Mukesh] There was no one assigned for firefighting issues that weren't related to any project.
 #### Shout outs

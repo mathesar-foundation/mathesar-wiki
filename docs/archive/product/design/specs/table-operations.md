@@ -19,7 +19,7 @@ Users can update a table name during the table creation process, even before the
 If the table has been saved, the user can always access the table name input by clicking on the table name heading on the top of the tab content panel.
 
 ### User adds an empty table
-During the table creation process, a user might choose to add an empty table. Once they select this option, there are no other steps required, and the user can start modifying the table's content from scratch. Only a protected mathesar ID field is created, which gets populated once the user saves new data. To enter user-defined data, a user must create a new column field. 
+During the table creation process, a user might choose to add an empty table. Once they select this option, there are no other steps required, and the user can start modifying the table's content from scratch. Only a protected mathesar ID field is created, which gets populated once the user saves new data. To enter user-defined data, a user must create a new column field.
 
 ### User adds a table from imported data via clipboard content
 A user might choose to create a new table from imported data. In which case, they have multiple options, such as uploading a file, pasting content from the clipboard, or downloading the file from a URL. In the case of clipboard content, the user can paste the contents of a CSV file or copy and paste from spreadsheet apps, such as Google Sheets or Excel. Mathesar will recognize the format and generate a table accordingly.
@@ -28,12 +28,12 @@ A user might choose to create a new table from imported data. In which case, the
 A user might also have a link that points to a valid file that they want to import. In this case, the user can point to the file by entering a web address.
 
 ### User deletes a table
-The option to delete a table is available in the context menu located in the table's toolbar at the top of the tab panel. If the table is not empty, the user will have to confirm the deletion. 
+The option to delete a table is available in the context menu located in the table's toolbar at the top of the tab panel. If the table is not empty, the user will have to confirm the deletion.
 
 ## Interactions
 
 ### Sequential Table Names
-A user might add multiple tables without user-defined names, in which case the system can assign a numerical appendix to the placeholder name. 
+A user might add multiple tables without user-defined names, in which case the system can assign a numerical appendix to the placeholder name.
 
 ### Input Errors
 Inputs that contain validation errors should provide users with a clear reason for what is causing the error and how to fix it. These messages should become visible when the user interacts with the field, either hovering or focusing on it.

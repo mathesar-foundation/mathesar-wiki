@@ -147,7 +147,7 @@ Next steps:
 * Problems I'm trying to solve
     * I'm the primary "user" of work logs. It's helpful for me to know what people are working on and try and anticipate issues and blockers.
     * Having them be in the same place as my tasks helps me since I don't have to check multiple locations.
-* I don't think the wiki is more convenient for everybody. We have at least 3 team members (Kriti, Adam, Ghislaine) who don't have code editors open all day, and I expect that to grow. 
+* I don't think the wiki is more convenient for everybody. We have at least 3 team members (Kriti, Adam, Ghislaine) who don't have code editors open all day, and I expect that to grow.
     * I'd like a unified management workflow for everyone.
 * If everyone tracks their tasks in Basecamp, I'm not sure if we need work logs at all, given the "Activity" view in Basecamp.
     * Work on GitHub and meetings won't be covered, but I'm not sure if that matters.

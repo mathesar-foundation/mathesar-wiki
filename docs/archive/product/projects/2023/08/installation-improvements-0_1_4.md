@@ -20,16 +20,16 @@
 
 
 ## Problem
-Our current installation process is not aligned with the proposed [Installation Plan](/archive/product/technical-specs/installation-improvements-plan-0_1_4) for improving our installation flow. 
+Our current installation process is not aligned with the proposed [Installation Plan](../../../technical-specs/installation-improvements-plan-0_1_4.md) for improving our installation flow.
 
 ## Solution
-We will be focusing on Top Priority Personas in this project. Please read through the [Installation Plan](/archive/product/technical-specs/installation-improvements-plan-0_1_4) and [this discussion](/team/meeting-notes/2023/07/2023-07-28-installation-meeting/#what-work-do-we-need-to-do-to-enable-this-outline) to get a better idea of the proposed solutions
+We will be focusing on Top Priority Personas in this project. Please read through the [Installation Plan](../../../technical-specs/installation-improvements-plan-0_1_4.md) and [this discussion](../../../../../team/meeting-notes/2023/07/2023-07-28-installation-meeting.md#what-work-do-we-need-to-do-to-enable-this-outline) to get a better idea of the proposed solutions
 
-- Add Postgres to our docker image (Carried over from the [previous cycle](/archive/product/projects/2023/07/installation-improvements-0_1_3), needs testing before it can be merged)
-- Create a Debian package (Partially complete, carried over from the [previous cycle](/archive/product/projects/2023/07/installation-improvements-0_1_3)
+- Add Postgres to our docker image (Carried over from the [previous cycle](../07/installation-improvements-0_1_3.md), needs testing before it can be merged)
+- Create a Debian package (Partially complete, carried over from the [previous cycle](../07/installation-improvements-0_1_3.md)
 - User database configuration moved to the Mathesar UI
     - Only superuser can add a Database
-    - The user database credentials set using the environment variable (in case of PaaS) will be read only. It cannot be modified using the UI 
+    - The user database credentials set using the environment variable (in case of PaaS) will be read only. It cannot be modified using the UI
 - Remove the docker compose installation section and the related scripts
 - Remove Build from the source installation section
 - Add Install on Debian to our documentation
@@ -69,6 +69,6 @@ We will be focusing on Top Priority Personas in this project. Please read throug
 
 ## Resources
 
-- [Previous cycle project](/archive/product/projects/2023/07/installation-improvements-0_1_3)
-- [Installation Plan](/archive/product/technical-specs/installation-improvements-plan-0_1_4)
+- [Previous cycle project](../07/installation-improvements-0_1_3.md)
+- [Installation Plan](../../../technical-specs/installation-improvements-plan-0_1_4.md)
 - [Project Feedback and Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/afuDFJAiK1Q)

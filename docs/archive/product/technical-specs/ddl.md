@@ -10,7 +10,7 @@ The main interest we'll have in these operations in this context is to allow the
 ## Goals
 - User should be able to create tables
 - User should be able to define tables in terms of already existing tables (e.g., joins, or by splitting columns out of a table)
-- User should be able to recover previous models. 
+- User should be able to recover previous models.
 	- For DDL ops, it's not clear this should be an "undo" flow. The user might start with one big table, normalize their DB schema to reduce repetition for some manual input, then want to see everything back on one big table again. It's more of having different models with the same underlying data.
 
 ## DDL function signatures

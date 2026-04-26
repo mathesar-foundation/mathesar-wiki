@@ -6,10 +6,10 @@ Views are "virtual tables". Data is presented in rows and columns just like a ta
 
 Views can involve combining data from multiple tables or other views, filtering, sorting, aggregating (grouping), or even creating entirely computed columns.
 
-Under the hood, views are defined by a database (SQL) query. 
+Under the hood, views are defined by a database (SQL) query.
 
 ### Views in Mathesar
-We expect that [Tables](/archive/product/concepts/tables) will be used for entering simple data quickly and Views will be used for looking at data, creating reports, or editing inter-related data easily.
+We expect that [Tables](../../concepts/tables.md) will be used for entering simple data quickly and Views will be used for looking at data, creating reports, or editing inter-related data easily.
 
 You should use Views when you'd like to:
 
@@ -20,10 +20,10 @@ You should use Views when you'd like to:
 
 
 ## Usage
-[Tables](/archive/product/concepts/tables) that are structured to avoid data duplication (i.e. are properly [normalized](https://en.wikipedia.org/wiki/Database_normalization)) are not the most useful for seeing the most relevant information in a single place.
+[Tables](../../concepts/tables.md) that are structured to avoid data duplication (i.e. are properly [normalized](https://en.wikipedia.org/wiki/Database_normalization)) are not the most useful for seeing the most relevant information in a single place.
 
 ### Views vs. Tables
-To think about the difference between Views and [Tables](/archive/product/concepts/tables), here's an example. Imagine you want to track your movie watches in Mathesar. Questions you might be thinking about are:
+To think about the difference between Views and [Tables](../../concepts/tables.md), here's an example. Imagine you want to track your movie watches in Mathesar. Questions you might be thinking about are:
 
 - On what day of the week do I usually watch movies?
 - When did I last see Brad Pitt in a movie?

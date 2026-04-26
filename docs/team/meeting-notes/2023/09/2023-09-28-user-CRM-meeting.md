@@ -45,7 +45,7 @@
     - what questions do we want to ask them?
     - Who should be on the call?
 - How do we avoid spam traps?
-    - Make sure to put this 
+    - Make sure to put this
 - Do we send a follow-up email if people don't respond?
     - Sean: I don't think I'd want to bug people more than once
     - We could discuss this later
@@ -59,7 +59,7 @@
 Options:
 
 - Mathesar
-    - Example of a contact record in Mathesar: 
+    - Example of a contact record in Mathesar:
         - https://internal.mathesar.org/db/mathesar_tables/522/tables/2194/9
         - Sean: This takes 15 seconds to load. I don't like it
 - Google Sheets?

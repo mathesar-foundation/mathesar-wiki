@@ -31,7 +31,7 @@ We should be able to handle anything being discussed for beta through simple ext
 | host        | character varying        | not null |
 | port        | integer                  | not null |
 
-`(host, port)` pair is unique. 
+`(host, port)` pair is unique.
 
 Theoretically, we could also split the host out, but that seems like premature optimization.
 
@@ -77,7 +77,7 @@ We could consider making `username` and `password` nullable when supporting `.pg
 | db\_server_credential | integer                  | references DBServerCredential(id) |
 | metadata\_role        | enum                     | ('read only', 'read write')       |
 
-`(user, database)` pair is unique. The `metadata_role` isn't likely to be technically implemented as an `enum` on the DB for now. We'll use a Django-managed `TextChoices` field to save implementation time. See the current `DatabaseRole` model and its interaction with the `Role` class for an example. 
+`(user, database)` pair is unique. The `metadata_role` isn't likely to be technically implemented as an `enum` on the DB for now. We'll use a Django-managed `TextChoices` field to save implementation time. See the current `DatabaseRole` model and its interaction with the `Role` class for an example.
 
 ## Aside: Quick overview of connecting to a DB.
 
@@ -130,7 +130,7 @@ We should eventually add functionality to store some details in a [`.pgpass`](ht
 | duration\_show\_units   | boolean                  |                                   |
 
 - The `(database, table_oid, attnum)` tuple should be unique.
-- Depending on Django's support for multicolumn `CHECK` constraints, we should ensure that `num_min_frac_digits < num_max_frac_digits`. 
+- Depending on Django's support for multicolumn `CHECK` constraints, we should ensure that `num_min_frac_digits < num_max_frac_digits`.
 - This has a number of fields to replace the current JSON storage of display options, and remove the need for the polymorphic serializer.
 - The only foreign key we reference is the `Database(id)`, needed to map to a specific database where we find the relevant table and column.
 - We don't need to reference any `schema_oid`, since a `(table_oid, attnum)` pair is unique per DB.

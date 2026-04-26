@@ -10,7 +10,7 @@
 
 ### Discussion
 - Team is in agreement that it's fine to have record summaries not be editable for the "RC".
-- Sean will look into the bare minimum change we can make to the UI that makes it clear that record summaries aren't editable / won't lead the user down a dead end. 
+- Sean will look into the bare minimum change we can make to the UI that makes it clear that record summaries aren't editable / won't lead the user down a dead end.
     - Doesn't have to be a perfect UX.
     - Could be as simple as hiding a section inside the table inspector.
 - We will need to communicate to users in the RC release notes that this feature is temporarily not working.
@@ -90,7 +90,7 @@ We need to go through docs.mathesar.org and ensure our documentation is accurate
     - Should we be setting the `OWNER` role here?  https://docs.mathesar.org/installation/build-from-source/#installation-steps
 - This needs to happen before RC.
 
-### Onboarding UI changes 
+### Onboarding UI changes
 
 Do we need any changes in our onboarding user flow to account for the new permissions setup?
 
@@ -111,7 +111,7 @@ The Mathesar schemas `msar` and `_msar` should both be set up so that `PUBLIC` h
     - It's not shown as a role in the roles table, so needs special handling.
 - We want to set this up for current objects, but also for any object we create in those schemas in the future.
 - Examples of things namespaced under these schemas:
-    - Our TLD table 
+    - Our TLD table
     - Functions
     - Sequences
 - Options for setting up `PUBLIC` access:

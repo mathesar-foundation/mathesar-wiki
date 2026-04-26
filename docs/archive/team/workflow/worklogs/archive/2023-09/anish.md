@@ -39,7 +39,7 @@
 ## 2023-09-20
 
 - Tried running Supabase with Mathesar
-- Discussed [#3109](https://github.com/centerofci/mathesar/pull/3109) with Dom & Brent, & will hopefully be fixed once [#3170](https://github.com/centerofci/mathesar/pull/3170) gets merged 
+- Discussed [#3109](https://github.com/centerofci/mathesar/pull/3109) with Dom & Brent, & will hopefully be fixed once [#3170](https://github.com/centerofci/mathesar/pull/3170) gets merged
 
 ## 2023-09-19
 
@@ -106,4 +106,4 @@
 - Sync with Anshuman(GSoC)
 
 # Archive
- - [August 2023 work logs](/archive/team/workflow/worklogs/archive/2023-08/anish/)
+ - [August 2023 work logs](../2023-08/anish.md)

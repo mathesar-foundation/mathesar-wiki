@@ -1,7 +1,7 @@
 # Email Data Type
 
 ## Context
-Email data types are custom Mathesar data types used to store email addresses. 
+Email data types are custom Mathesar data types used to store email addresses.
 
 ## Prototype
 !!! warning "Warning"
@@ -34,4 +34,4 @@ Users can group 'email' data types columns by first letter or domain.
 
 ### Additional Changes
 #### New record row placement
-The new record row, originally designed to sit at the bottom of the table, will now be on top. Change is due to confusing placement within groups and compensating for the pagination change impact on the usability of adding new records. 
+The new record row, originally designed to sit at the bottom of the table, will now be on top. Change is due to confusing placement within groups and compensating for the pagination change impact on the usability of adding new records.

@@ -17,10 +17,10 @@
     - Anish is working on release notes changes
     - Tomorrow
 
-## Increasing development velocity 
+## Increasing development velocity
 
 - What's slowing us down?
-    - User calls 
+    - User calls
     - Research for user help
     - Admin work
         - Notes, CRM updates
@@ -157,4 +157,4 @@ Which release should we aim to be the beta?
 	- Having a single option to read/read-write Mathesar metadata (includes Explorations & all metadata namespaced on the database)
 - What is a base in Mathesar - Schemas vs Databases? - decision made
 	- Users will create a role with access to just a particular schema, and the permission will depend on that role. There will be a user database entry where the permissions for metadata will also be setup.
- - 
+ -

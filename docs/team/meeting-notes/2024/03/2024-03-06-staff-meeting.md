@@ -7,7 +7,7 @@
 - Kriti:
     - Release went out on time
     - We made our build process faster, next time release will be smoother
-    - Documentation improvements for release process 
+    - Documentation improvements for release process
     - Demo deployment changes
 - Ghislaine:
     - Even though I had low participation, it felt like the process was smoother. I felt more informed of what needed to be done.
@@ -38,11 +38,11 @@
 
 - Sean:
     - Simplify Basecamp project
-    
+
         I'd like to condense the [Basecamp project template](https://3.basecamp.com/5718119/buckets/36260906/todosets/7069685162) by shifting some of that complexity into documentation that lives in wiki pages.
 
         I wrote an [email](https://groups.google.com/a/mathesar.org/g/staff/c/VyyS7Vboao8) about this which [proposes a new template](https://gist.github.com/seancolsen/1127514bd71deb9333650a32db3f3899), but I'm not attached to that template specifically.
-        
+
         I've been steadily improving our [Release docs](https://wiki.mathesar.org/release/). Now, [cutting a release](https://wiki.mathesar.org/release/notes/), [writing the release notes](https://wiki.mathesar.org/release/notes/), and [publishing a release](https://wiki.mathesar.org/release/publication/) are all clear, self-contained processes that can be completed in under 30 minutes. For processes such as these, I think a single task within Basecamp is sufficient. I would expect that, if someone hits a snag during one of these processes and is unable to complete it, they can add new tasks to Basecamp at that point to track the work necessary to resolve the snag.
 
     - Can we set up some sort of continuous deployment from the master branch?

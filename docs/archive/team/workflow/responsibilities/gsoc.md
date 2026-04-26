@@ -1,6 +1,6 @@
 # GSoC 2023
 
-**Owner**: Dom  
+**Owner**: Dom
 **Helpers**: Anish, Rajat
 
 ## Introduction
@@ -17,7 +17,7 @@ This document lists the responsibilities, related instructions and guidelines fo
 - Be an org admin for GSoC
 - Be extremely familiar with the GSoC program, including
 	- [GSoC mentor guide](https://google.github.io/gsocguides/mentor/)
-	- All our [Mentoring](/community/gsoc) documentation and policies
+	- All our [Mentoring](../../../../community/gsoc/index.md) documentation and policies
 - Keep an eye on any GSoC related emails and action items, and ensure the rest of the team completes any action items
 - Keep an eye on GSoC related deadlines and timelines
 	- See [Calendar](#calendar)
@@ -108,8 +108,8 @@ Starts 2023-03-20, ends 2023-04-04.
 	- See [greet/help schedule](#greethelp-schedule) section
  	- See [greeting instructions](#greeting-instructions) section
  	- See [helping guidelines](#helping-guidelines) section
-  
-  
+
+
 #### Owner
 
 - Monitor GSoC draft applications and ensure they all get reviewed in a timely manner.
@@ -186,8 +186,8 @@ Do not remove rows from the spreadsheet. You might be tempted to do this for mul
 2. Read the proposal and provide feedback via Google Doc comments
 3. (Recommended) Place general comments on the title of the proposal (or somewhere thereabouts); this seems to have become an unwritten rule (until now) amongst some of the mentors
 4. Once done, add a general comment saying that the review is finished, so that the status of the review is not ambiguous to the candidate
-5. (Recommended) Ask that the candidate resubmit via the same draft proposal form he originally used, when/if he wants to request a new review; this way the admin will be able to track and notify of new requests for review, otherwise it's the mentor's responsibility 
-6. Update the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet) 
+5. (Recommended) Ask that the candidate resubmit via the same draft proposal form he originally used, when/if he wants to request a new review; this way the admin will be able to track and notify of new requests for review, otherwise it's the mentor's responsibility
+6. Update the [tracking spreadsheet](#internal-draft-proposal-tracking-spreadsheet)
 
 
 ## Greeting instructions
@@ -198,13 +198,13 @@ Suggested process:
 	- In Matrix, check the little visualizations above and below messages of new people joining to see who is new
 2. Welcome them, whether they're active or engage first or not
 3. Preemptively remind them of our resources for self-guidance:
-  - the [applicant guide](/community/gsoc/applicant-guide)
+  - the [applicant guide](../../../../community/gsoc/applicant-guide.md)
   - or, the [contributing guide](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md)
 4. Having provided a resource for self-guidance, encourage them to speak up if something is not clear.
 
 Example in our Matrix General channel:
 
->`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](/community/gsoc/applicant-guide). If something is not clear, reach out!`
+>`Welcome @practicat, @Joangie Marquez, @Mayank Arya, @shantanu oak, @krishav 👋 If you're here for GSoC, don't forget to check out our [GSoC candidate  guide](../../../../community/gsoc/applicant-guide.md). If something is not clear, reach out!`
 
 
 ## Helping guidelines
@@ -236,8 +236,8 @@ Related [conversation thread](https://groups.google.com/u/1/a/mathesar.org/g/cor
 Office hours are public sync meetings we host where community members (GSoC candidates mostly) join to get help. Previous year such meetings only received community participation just before the end of the proposal period. We're currently planning to host these only during the last week of the proposal period.
 
 We track community events, including office hours, on a wiki page and GSoC-related events in our [GSoC Calendar](#calendar).
-	
-  
+
+
 ## No early issue assigns
 
 This rule should not be always applied. Its purpose is to maximize the number of issues candidates have available. Useful when number of issues available for candidates to prove themselves is low.
@@ -289,7 +289,7 @@ Sean
     - What are we open to considering changing (next year)?
     - Are there other ways we could evaluate candidates?
     - Ranking/scoring needs improvement, but went smoother than contributions
-    
+
 Kriti
     - Many ways to solve candidate evaluation
         - We could have a test that people have to take
@@ -302,13 +302,13 @@ Kriti
     - People wanting to put things on their resume is not bad
         - It's an exchange
             - Problem is if the candidate doesn't offer anything
-        
+
 Anish
     - Many people were trying to pump up number of PRs they had
         - A single person did 7 good-first-issues
             - Instead of doing more difficult issues
         - Or single person doing many issues simultaneously
-        
+
 Mukesh
     - Lack of documentation is a test for contributors
     - A lot of contributors seem to treat GSoC as competitive
@@ -325,13 +325,13 @@ Mukesh
     - Unequal distribution of proposals for project ideas
         - Many strong proposals for the same project idea
             - But many project ideas didn't get almost any proposals
-        
+
 Ghislaine
     - Valuable contributors are those that actually want to add new features
         - They care
         - Sean:
             - 1 contributor on frontend that didn't come from GSoC
-        
+
 Survey
     - What percentage of time each of us spent on GSoC during the proposal phase?
         - Sean 60%
@@ -342,4 +342,3 @@ Survey
         - Anish 30%
         - Dom 100%
 ```
-

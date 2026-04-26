@@ -1,7 +1,7 @@
 # 2024-07-11 maintainer meeting
- 
+
  **Attendees**: Brent, Pavish (partial), Anish, Sean
- 
+
 ## Current work check-in
  - Anyone have any blockers or priorities that need to change?
  - Pavish: I'm implementing a bunch of endpoints in the same PR, heads up to Brent that it's going to be large, but it should be simple to review, not a lot going on.
@@ -32,7 +32,7 @@ Comment from Pavish:
 - Probably broke during Brent's work.
 - We do want the SQL to be upgraded when Docker restarts.
     - Need to switch to psycopg3 etc.
-- Anish can work on this. 
+- Anish can work on this.
     - Not a priority before beta.
     - Can do a 1 line fix to temporary fix it for now.
 - Anish is fixing this right now.
@@ -43,9 +43,9 @@ Our current process seems to be that all backend PRs get reviewed by Brent. Can 
 
 ### Conclusion
 
-- Default to assign Brent to review backend PRs for now. 
+- Default to assign Brent to review backend PRs for now.
     - If Brent gets too overwhelmed with PR review, then he'll delegate to Anish as needed.
-- Feel free to assign Anish directly if it's an area of the codebase that you know he has worked on previously. 
+- Feel free to assign Anish directly if it's an area of the codebase that you know he has worked on previously.
 
 
 ## "Not found" behavior in SQL functions
@@ -90,7 +90,7 @@ I'm proposing that we agree on a standard of raising exceptions. I don't think t
 
 ### Discussion
 
-- Brent prefers functions that deal with missing data more gracefully and don't throw exceptions. 
+- Brent prefers functions that deal with missing data more gracefully and don't throw exceptions.
 - Sean is concerned that inconsistent exception handling could lead to confusing UI
     - e.g. looking like a table rename succeeded when it didn't.
 - General agreement about coding standards being useful to have, but this doesn't seem worth it right now.

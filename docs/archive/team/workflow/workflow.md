@@ -4,11 +4,11 @@ Mathesar work happens on GitHub. We create GitHub issues to track everything we'
 
 We track our tasks in the [Mathesar GitHub project](https://github.com/orgs/mathesar-foundation/archive/projects/1).
 
-We're reorganizing our team workflow into [projects](/archive/product/projects) and [ongoing responsibilities](/archive/team/workflow/responsibilities).
+We're reorganizing our team workflow into [projects](../../product/projects/index.md) and [ongoing responsibilities](./responsibilities/index.md).
 
 ## Creating pull requests
 
-- All pull requests should follow the [code review rules](/engineering/code-review).
+- All pull requests should follow the [code review rules](../../../engineering/code-review/index.md).
 - All external contributors need to open an issue first before creating a pull request.
 - Team members are allowed to create PRs for minor changes without a related issue.
 
@@ -28,7 +28,7 @@ In case that's unavoidable:
 
 
 # Resources
-For a list of public repos and other resources, see [GitHub](/community/github).
+For a list of public repos and other resources, see [GitHub](../../../community/github.md).
 
 - [Mathesar GitHub project](https://github.com/orgs/mathesar-foundation/archive/projects/1) that organizes our open issues
 

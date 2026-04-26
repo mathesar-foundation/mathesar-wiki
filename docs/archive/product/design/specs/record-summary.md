@@ -1,6 +1,6 @@
 # Record Summary
 
-## Context 
+## Context
 
 Record summaries are strings that represent a record's data. They are specified by users and can include variable values from the record's fields, or include symbols and text characters.
 
@@ -10,11 +10,11 @@ Wherever we want to represent one record, we use the record summary. Here is a n
 
 - In FK cells, to represent the records that are linked via a foreign key.
 
-    ![image](/assets/archive/product/design/specs/record-summary/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
+    ![image](../../../../assets/archive/product/design/specs/record-summary/179570423-e41b54e2-ebd7-4e73-acb2-8337ec6bb2db.png)
 
 - In the Record Page, to serve as both a header and a representation of linked records.
 
-    ![image](/assets/archive/product/design/specs/record-summary/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
+    ![image](../../../../assets/archive/product/design/specs/record-summary/179571077-3ab610ff-d0ca-4d70-b840-e760dd567edb.png)
 
 - In group header rows, when the table page is grouped by a FK column.
 
@@ -67,7 +67,7 @@ Here's an example where a user customizes the Authors template to show the autho
 
 1. Within the table inspector, the "Table" pane contains a section titled "Record Summary" below the "Properties" section and expanded by default. Below is a mockup of hhe UI in that section:
 
-    ![image](/assets/archive/product/design/specs/record-summary/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
+    ![image](../../../../assets/archive/product/design/specs/record-summary/195416813-cd6a7d4a-d8f9-4693-ad34-ff0fb0b8dc7e.png)
 
 1. The "Preview" area shows the record summary for the first record from the table as displayed with the current sorting/filtering/grouping/pagination. If the table shows no rows, then the "Preview" area will be absent.
 

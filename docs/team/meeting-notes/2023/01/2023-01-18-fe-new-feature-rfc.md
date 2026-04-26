@@ -26,7 +26,7 @@ Attendees: Core frontend team
     >     - Login page rerouting & UI after password change
     >     - Work on each route & page in app to change view based on permission level
     >     - Modal for editing access level in DB page
-    >     - Modal for editing access level in schema page  
+    >     - Modal for editing access level in schema page
 * The RFC will not go into depth on the implementation details since it will hinder our speed at the current stage of our product.
 * It'll target on high level details and on modules which affect the rest of the application.
 * It'll target details that are common/used by more than one of the medium-sized chunks.

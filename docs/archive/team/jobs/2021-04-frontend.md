@@ -39,5 +39,5 @@ US employees have the following benefits:
 ## How to Apply
 ~~Please fill out this form.~~
 
-## Equal Employment Opportunity Policy  
+## Equal Employment Opportunity Policy
 The Center of Complex Interventions, Inc. (CCI) is an equal opportunity employer. CCI complies with and adheres to all United States state and federal anti-discrimination laws with respect to its employment practices. CCI does not discriminate against any employee or applicant for employment on the basis of race, color, religion, gender, sexual orientation, gender identity and expression, national origin or ancestry, age, or disability or any other category protected under state or federal law. This policy extends to recruiting, hiring, compensation, benefits, assignment, working conditions, termination, re-employment, employee treatment, and all other terms, conditions and privileges of employment. All employment-related decisions are made on a nondiscriminatory basis so as to further the principle of equal employment opportunity.

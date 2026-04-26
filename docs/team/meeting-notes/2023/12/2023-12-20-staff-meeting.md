@@ -25,7 +25,7 @@ This is before we can get to the testing and release process.
     - Finish upgrade and environment variables docs
     - Global review of docs
 - Fix migrations
-- i18n bugs 
+- i18n bugs
     - How to spot: snakecase variable names in UI
 - Milestone: https://github.com/mathesar-foundation/mathesar/milestone/72
     - We'll review in January

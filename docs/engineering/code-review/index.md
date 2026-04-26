@@ -13,9 +13,9 @@ If your review is requested, it means that you are responsible for reviewing the
 
 ## Tips
 - If the branch needs to be updated before merging (because it's out-of-date with the `master` branch), do so, as long as the merge can be performed automatically.  Otherwise, ask the Author to handle it.
-- See [Backend Code Review](/engineering/code-review/backend) for guidelines specific to backend code.
+- See [Backend Code Review](./backend.md) for guidelines specific to backend code.
 - We should be aiming to merge PRs in and create new issues for improvements rather than keeping PRs in review until every possible issue is fixed.
-- Code review should be a fairly quick process. Reviewers should be focused on asking the right questions, not on doing research into the answers and suggesting them. 
+- Code review should be a fairly quick process. Reviewers should be focused on asking the right questions, not on doing research into the answers and suggesting them.
     - e.g. if you're wondering if the author considered a particular implication of a change they made, ask them that instead of doing research into all the implications yourself and informing the author of them.
 - If you'd like to reconsider the architecture of a PR, create a draft issue for figuring that out rather than blocking the PR until you figure out the right architecture.
 - When reviewing community contributed PRs, if it's easier to make the changes yourself rather than describe the changes needed as a code review, just make the changes and merge the PR. You can explain what you did and thank the contributor for their work.

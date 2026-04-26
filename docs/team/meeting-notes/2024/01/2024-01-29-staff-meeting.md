@@ -2,7 +2,7 @@
 
 ## Release check in
 
-- Pavish: we do have one critical issue: [Met with empty schemas page after docker-compose upgrade](https://github.com/mathesar-foundation/mathesar/issues/3426) 
+- Pavish: we do have one critical issue: [Met with empty schemas page after docker-compose upgrade](https://github.com/mathesar-foundation/mathesar/issues/3426)
 - Pavish and Brent chatted a bit to troubleshoot this
 - Pavish was able to upgrade. All the users were there. All the connections were there. He just couldn't connect and see schemas.
 
@@ -41,8 +41,8 @@ TODO items **blocking** release:
     - Add general disclaimer for upgrade instructions
     - Add special disclaimer for "build from scratch" upgrade instructions
     - Invite reader to contribute docs improvements within build from scratch install and upgrade docs
-- **Brent**: Address [Met with empty schemas page after docker-compose upgrade](https://github.com/mathesar-foundation/mathesar/issues/3426) 
-- **Sean**: Merge docs PR 
+- **Brent**: Address [Met with empty schemas page after docker-compose upgrade](https://github.com/mathesar-foundation/mathesar/issues/3426)
+- **Sean**: Merge docs PR
 - **Pavish**: If #3426 has code changes, re-test after changes. (If it's docs-only changes, then no re-testing necessary)
 - **Pavish** will re-build images after testing
 - **Sean and Pavish**: work together to do all release steps

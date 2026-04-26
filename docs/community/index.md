@@ -17,7 +17,7 @@ The Mathesar team does most of our work in public communication channels, which 
 
 ## Google Summer of Code
 
-See [GSoC](./gsoc/) for information about Mathesar's participation in GSoC.
+See [GSoC](./gsoc/index.md) for information about Mathesar's participation in GSoC.
 
 
 ## Future Plans

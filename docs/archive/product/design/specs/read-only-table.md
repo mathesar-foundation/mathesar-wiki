@@ -8,7 +8,7 @@
 ### Impact
 Read-only tables the first step towards having an interactive table component. Tables, in general, will help Mathesar users to make sense of their database records, as they will be able to inspect them and manipulate them without the need to perform complicated queries.
 
-Tables are also used to represent data in other views, such as import of data from files. 
+Tables are also used to represent data in other views, such as import of data from files.
 
 ## Interactions
 ### Browsing multiple tables
@@ -21,7 +21,7 @@ Scrolling is preferred over other methods of showing partial content, such as pa
 ## User Interface
 ### Components
 #### Table
-![z7s80vm.png](/assets/archive/product/design/specs/read-only-table/z7s80vm.png)
+![z7s80vm.png](../../../../assets/archive/product/design/specs/read-only-table/z7s80vm.png)
 
 The table component uses columns and rows to display data in a grid.
 ##### Read-Only Variation
@@ -39,7 +39,7 @@ Other uses:
 *Not covered yet*
 
 #### Tabs
-![](/assets/archive/product/design/specs/read-only-table/FVrZz22.png )
+![](../../../../assets/archive/product/design/specs/read-only-table/FVrZz22.png)
 
 The tabs component allows navigation between related groups of content. The tabs can represent table or view content types in their open state.
 
@@ -50,7 +50,7 @@ To consider:
 - AWS Athena and how they handle multiple instances of a table.
 - Working on views without saving them so that user can discard them easily.
 ##### States
-![](/assets/archive/product/design/specs/read-only-table/UM72eeI.png)
+![](../../../../assets/archive/product/design/specs/read-only-table/UM72eeI.png)
 
 When the content of a table or view is visible, the corresponding tab will have an active state.
 Based on the type of content represented by the tab, there will be a different icon displayed next to the content name label.
@@ -58,19 +58,19 @@ Based on the type of content represented by the tab, there will be a different i
 - It is possible to have multiple tabs open at the same time, however there can only be one active tab.
 - Tabs should take into account width settings that avoid sub-optimal target sizes that could impact usability. See the example below for 'New Tab'. Additionally consider how longer names are truncated.
 
-![](/assets/archive/product/design/specs/read-only-table/S1ez3TSqdu.png )
-![](/assets/archive/product/design/specs/read-only-table/r1iJkI9_d.png )
+![](../../../../assets/archive/product/design/specs/read-only-table/S1ez3TSqdu.png)
+![](../../../../assets/archive/product/design/specs/read-only-table/r1iJkI9_d.png)
 
 - A control to close tabs should be available on each tab.
- ![](/assets/archive/product/design/specs/read-only-table/BJJCkI5O_.png)
+ ![](../../../../assets/archive/product/design/specs/read-only-table/BJJCkI5O_.png)
 
 Notes:
 
-- In future iteration maybe tabs can be reordered by drag-and-drop interaction. 
+- In future iteration maybe tabs can be reordered by drag-and-drop interaction.
 
 
 #### Sidebar Navigation
-![](/assets/archive/product/design/specs/read-only-table/WchoIDA.png)
+![](../../../../assets/archive/product/design/specs/read-only-table/WchoIDA.png)
 
 The sidebar navigation component allows navigation between different content groups displayed in the sidebar. Unlike the tabs component, the elements cannot be reordered or closed.
 
@@ -83,17 +83,17 @@ All items, including the group headers, change style on mouse over. The trigger 
 
 For content that exceeds the available space, labels should be truncated and a tooltip available to view full details.
 
-![](/assets/archive/product/design/specs/read-only-table/D2oJz5s.png)
+![](../../../../assets/archive/product/design/specs/read-only-table/D2oJz5s.png)
 
 ##### Behavior
 On launch, and if no content is active, the sidebar navigation is displayed with all the levels collapsed.
 The main content area is also empty with no tables opened. An empty state is displayed when no tables are open.
 
-![](/assets/archive/product/design/specs/read-only-table/9XbmVXw.png)
+![](../../../../assets/archive/product/design/specs/read-only-table/9XbmVXw.png)
 
 On reload, the navigation level states should persist.
 
-What is expanded or collapsed should also persist if a higher level state changes. 
+What is expanded or collapsed should also persist if a higher level state changes.
 
 Questions:
 
@@ -106,14 +106,14 @@ Future Idea:
 
 ### Views
 #### Data Browser / Table View
-![](/assets/archive/product/design/specs/read-only-table/5AEnei2.png )
+![](../../../../assets/archive/product/design/specs/read-only-table/5AEnei2.png)
 
 The data browser or table view is where most of Mathesar's functionality is accessed and used. The sidebar at the left allows users to navigate to tables and views. The right area is where content is displayed, in this case the content of tables and views.
 
 ##### Panel-based Content Area
-![](/assets/archive/product/design/specs/read-only-table/CZ0cHvM.png )
+![](../../../../assets/archive/product/design/specs/read-only-table/CZ0cHvM.png)
 
-The content area will contain most of the interactive elements that make the core user experience of Mathesar. In some cases, it will require additional functionality to be present as the user works through different tasks. In other cases, the content area may have enhanced functionalities that are not visible to the user while they are working through a task but can be displayed according to certain interactions, such as a record form, or other widgets. 
+The content area will contain most of the interactive elements that make the core user experience of Mathesar. In some cases, it will require additional functionality to be present as the user works through different tasks. In other cases, the content area may have enhanced functionalities that are not visible to the user while they are working through a task but can be displayed according to certain interactions, such as a record form, or other widgets.
 For this reason, we want the main content to support a multi-panel layer, making it easy to mix different widgets within the same area.
 This will also help to make Mathesar more extensible in the future, as new functionality can be added without breaking the existing layout.
 

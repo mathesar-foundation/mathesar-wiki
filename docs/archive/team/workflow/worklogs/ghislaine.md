@@ -26,7 +26,7 @@ Currently working on:
 - Call w/ Pavish
 - Discuss Bulk association of records
 - Write notes/ prepare design session
- 
+
 Currently working on:
 - Bulk association of records
 
@@ -34,7 +34,7 @@ Currently working on:
 - Call w/ Brent
 - Discuss Bulk association of records
 - Write notes/ prepare design session
-  
+
 ## 2023-11-21
 - Check-in with Kriti
 - Design for Bulk association of records
@@ -44,7 +44,7 @@ Currently working on:
 
 ## 2023-11-20
 - One-on-one with Kriti
-- Setup new email account 
+- Setup new email account
 
 Currently working on:
 - Bulk association of records

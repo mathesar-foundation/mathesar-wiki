@@ -8,7 +8,7 @@ Mathesar's user interface design encompasses its visual elements and interaction
 Mathesar's user interface should incorporate a readable sans-serif font that is optimized for web and mobile interfaces.
 
 #### Scale
-The distance between the smallest and largest font size on a typographic scale should be minimal and just enough to create contrast and hierarchy between content. 
+The distance between the smallest and largest font size on a typographic scale should be minimal and just enough to create contrast and hierarchy between content.
 
 #### Contrast
 The design should employ contrast to improve the readability of interface elements and increase the visual relevance of some interactive elements.

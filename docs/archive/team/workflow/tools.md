@@ -1,7 +1,7 @@
 # Team Communication Tool
 
 ## GitHub
-We use GitHub for code, issue tracking, and long form discussions. Please see [Workflow](/archive/team/workflow/workflow) for more information.
+We use GitHub for code, issue tracking, and long form discussions. Please see [Workflow](./workflow.md) for more information.
 
 ## Gmail
 Everyone has an `@mathesar-foundation.org` email address that we use for everything work-related. We don't generally use much email.
@@ -14,7 +14,7 @@ We use Loom to record and store narrated screen recordings for asynchronous comm
 ## Matrix
 We use Matrix for chat. We have our own homeserver and everyone on the core team has `@matrix.mathesar.org` accounts that they're expected to use for work. You can also join our public rooms with your private account if you'd like.
 
-Please see [Community](/community) for a list of public rooms.
+Please see [Community](../../../community/index.md) for a list of public rooms.
 
 ## Slack
 We use Slack for chatting with the CCI team and community. Feel free to browse and join any public channels, there are a lot of them.
@@ -57,7 +57,7 @@ We currently use CCI's 1Password account to share Mathesar-related passwords (e.
 We use SavvyCal to schedule meetings with third-parties (e.g. interviews). Not everyone has a SavvyCal account, we set them up as needed.
 
 ## Google Calendar
-We use Google Calendar to manage our calendars. 
+We use Google Calendar to manage our calendars.
 
 It is expected that you keep your calendar up to date so that people can schedule meetings without having to check with you about availability. The [working hours](https://support.google.com/a/users/answer/9308669?hl=en) feature is especially useful. You should set your working hours to when you're available for meetings; you're not necessarily expected to be working during all of those hours.
 
@@ -67,4 +67,4 @@ We have two shared calendars:
 - The `CCI Vacation` calendar is used to note when you'll be taking time off. Please update it in advance.
 
 ## Syften
-We use Syften to get email alerts of mentions of Mathesar and related topics on social media, forums, and blogs. 
+We use Syften to get email alerts of mentions of Mathesar and related topics on social media, forums, and blogs.

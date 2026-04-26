@@ -79,7 +79,7 @@ I'd say a good candidate would be one that is comfortable taking the time to exp
 - [This](https://github.com/mathesar-foundation/mathesar/blob/ea3f200e19e4e1138e952ac1976e9f074db6c1c3/db/functions/base.py) is the current (rudimentary) state of the functions system, that uses hints.
 
 ## Mentors
-- **Primary Mentor**: Dominykas Mostauskis 
+- **Primary Mentor**: Dominykas Mostauskis
 - **Backup Mentor**: Brent Moran
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

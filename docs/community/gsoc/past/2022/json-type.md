@@ -9,7 +9,7 @@
 
 ---
 
-Hey all, 
+Hey all,
 
 I am Jinxiao Li, a lucky Mathesar contributor at Google Summer of Code 2022. During this three-month coding period, I am delighted to work with [@Brent Moran](mailto:brent@mathesar-foundation.org) and [@Pavish Kumar Ramani Gopal](mailto:pavish@mathesar-foundation.org) to implement Mathesar database functions for JSON data types. I am very grateful for the support of every team member and the enjoyable time I spent on this project.
 
@@ -17,7 +17,7 @@ The works are listed below at the Github links and you can also have a look at 
 
 **JSON type reading and casting implementation**
 
-- Main implementation: [https://github.com/mathesar-foundation/mathesar/pull/1443](https://github.com/mathesar-foundation/mathesar/pull/1443)  
+- Main implementation: [https://github.com/mathesar-foundation/mathesar/pull/1443](https://github.com/mathesar-foundation/mathesar/pull/1443)
 - Minor issue fixes: [https://github.com/mathesar-foundation/mathesar/pull/1474](https://github.com/mathesar-foundation/mathesar/pull/1474)
 
 **JSON type sorting implementation**

@@ -49,7 +49,7 @@ Brent's notes (private): https://hackmd.io/4DId5uYKR1icDXZs8Bq9oQ
     - These users are not using Mathesar for critical operations, and we wouldn't suggest they do, because they're not technical enough to manage it.
         - We can improve Mathesar for these use cases (e.g. offering hosted Mathesar, or hosted DB)
 - Discussion:
-    - It's interesting that some people want us for our capabilities, not just because we're a "free Airtable", it proves some of our hypotheses 
+    - It's interesting that some people want us for our capabilities, not just because we're a "free Airtable", it proves some of our hypotheses
     - It's good to know there are business users interested in data tools
     - Seems like some users are coming from a PoV where running their business on spreadsheets is no longer sustainable
         - Don't think about things like backups

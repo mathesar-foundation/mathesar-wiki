@@ -45,7 +45,7 @@ Ghislaine is 0.1.7 release owner
             - Do we need to preserve old endpoints?
                 - Not too much extra work
             - Frontend and backend needs to discuss how we're going to make this change across multiple releases
-                - We need to be on the same page about what we're doing for each release 
+                - We need to be on the same page about what we're doing for each release
                 - Also try to minimize work
             - We need to be able to track progress on this
                 - Brent will create meta issue with bullet points (not all filled out), can change over time
@@ -70,7 +70,7 @@ Ghislaine is 0.1.7 release owner
     - Permissions refactor
         - Done so far:
             - Architecture mostly solidified
-                - Still have some things to go - how to derive permissions for Mathesar objects 
+                - Still have some things to go - how to derive permissions for Mathesar objects
                 - Backend can go any which way
                 - We're all agreed that exploration permissions will be managed in the service layer
                 - Ghislaine: Is this related to Mathesar table metadata?
@@ -78,7 +78,7 @@ Ghislaine is 0.1.7 release owner
                     - Sean would like to derive from exploration permissions
                         - Simpler to implement
             - Backend can do a few weeks worth of work without solidifying remaining issues
-                - No schema level permissions yet other than through DB roles, we can add pieces once this UX is solidified 
+                - No schema level permissions yet other than through DB roles, we can add pieces once this UX is solidified
                 - We will need to add pieces, but we don't need to undo anything
             - Next step: UX exploration to finalize frontend implementation (and remaining backend architecture)
                 - Pavish and Ghislaine had an initial call

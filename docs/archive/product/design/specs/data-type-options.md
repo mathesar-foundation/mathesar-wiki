@@ -29,13 +29,13 @@ Replace the current scrollable list with a dropdown menu to save vertical space.
 
 Inline alignment can be used for groups of fields in order to save vertical space.
 
-![image](/assets/archive/product/design/specs/data-type-options/6VPzH8Cd7USbhf6jZpzQvc.png)
+![image](../../../../assets/archive/product/design/specs/data-type-options/6VPzH8Cd7USbhf6jZpzQvc.png)
 
 ### Clearly identify the database-level options
 
 A warning message can be displayed inline when the user tries to change a database-level option. The icon can then be used for other instances where the user needs to be aware of database-level options.
 
-![image](/assets/archive/product/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
+![image](../../../../assets/archive/product/design/specs/data-type-options/fpnLR7JtkJJZXGybZoYL8d.png)
 
 ### Visibility of Save and Cancel buttons
 

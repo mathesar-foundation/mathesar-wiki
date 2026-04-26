@@ -33,12 +33,12 @@ To bring our SQL into conformance with the second standard above, I would:
     - `msar.get_relation_name_or_null`
 
     For each such function we could either: move it into the `__msar` schema; or we could remove the quoting on the return value (refactoring call sites as needed). We could decide between these two strategies on a per-function basis depending on which strategy appears easiest.
-    
+
 - Move the following functions into the `__msar` schema.
 
     - `msar.get_duplicate_col_defs`
     - `msar.process_col_def_jsonb`
-    - `msar.process_con_def_jsonb` 
+    - `msar.process_con_def_jsonb`
 
     This is because they return `__msar.col_def` and `__msar.con_def` types which contain quoted values. These functions are not called from the service layer, so this move seems fine to me. Conveniently, those custom types are already in the `__msar` namespace, as I would expect since they contain quoted values.
 

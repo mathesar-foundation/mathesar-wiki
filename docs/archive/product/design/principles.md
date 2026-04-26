@@ -3,7 +3,7 @@
 Our design principles are a set of beliefs, views, or approaches we chose to guide our design decisions.
 
 !!! info "Information"
-    See also [Product Principles](/product/principles).
+    See also [Product Principles](../../../product/principles.md).
 
 
 

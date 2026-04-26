@@ -5,7 +5,7 @@ These formulas operate on date & time types. They are based on PostgreSQL [date/
 ## Add Duration to Date
 Adds a duration to a date or datetime.
 
-- **Date Type**: Datetime or Time (depends on input) 
+- **Date Type**: Datetime or Time (depends on input)
 - **Variables Accepted**:
     - **Date or Time**:
         - **Type**: Single Record Date or Time-Like
@@ -14,7 +14,7 @@ Adds a duration to a date or datetime.
         - **Type**: Single Record Duration-Like
         - **Description**: Duration to add
 - **Editable?**: No
-- **PostgreSQL Mapping**: `+` operator 
+- **PostgreSQL Mapping**: `+` operator
 
 ## Subtract Duration from Date
 Subtracts a duration from a date or datetime.
@@ -28,12 +28,12 @@ Subtracts a duration from a date or datetime.
         - **Type**: Single Record Duration-Like
         - **Description**: Duration to subtract
 - **Editable?**: No
-- **PostgreSQL Mapping**: `-` operator 
+- **PostgreSQL Mapping**: `-` operator
 
 ## Date Difference (Age)
 Subtracts a datetime type from a datetime type and returns the resulting duration
 
-- **Date Type**: Duration 
+- **Date Type**: Duration
 - **Variables Accepted**:
     - **Date or Time 1**:
         - **Type**: Single Record Date or Time-Like
@@ -42,12 +42,12 @@ Subtracts a datetime type from a datetime type and returns the resulting duratio
         - **Type**: Single Record Date or Time-Like
         - **Description**: Second date(time)
 - **Editable?**: No
-- **PostgreSQL Mapping**: `-` operator 
+- **PostgreSQL Mapping**: `-` operator
 
 ## Current Date
 Always shows current date.
 
-- **Date Type**: Date 
+- **Date Type**: Date
 - **Variables Accepted**: *None*
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_date` function
@@ -55,7 +55,7 @@ Always shows current date.
 ## Current Time
 Always shows current time.
 
-- **Date Type**: Time 
+- **Date Type**: Time
 - **Variables Accepted**: *None*
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_time` function
@@ -63,7 +63,7 @@ Always shows current time.
 ## Current Date & Time
 Always shows current date and time.
 
-- **Date Type**: Datetime 
+- **Date Type**: Datetime
 - **Variables Accepted**: *None*
 - **Editable?**: No
 - **PostgreSQL Mapping**: `current_timestamp` function
@@ -71,7 +71,7 @@ Always shows current date and time.
 ## Truncate
 Truncates date to specified precision.
 
-- **Date Type**: Datetime 
+- **Date Type**: Datetime
 - **Variables Accepted**:
     - **Date or Time**:
         - **Type**: Single Record Datetime-Like
@@ -93,12 +93,12 @@ Truncates date to specified precision.
             - millennium
         - **Description**: Precision to truncate to.
 - **Editable?**: No
-- **PostgreSQL Mapping**: `date_trunc` function 
+- **PostgreSQL Mapping**: `date_trunc` function
 
 ## Extract
 Extracts a specific part of a date from a datetime.
 
-- **Date Type**: Text 
+- **Date Type**: Text
 - **Variables Accepted**:
     - **Date or Time**:
         - **Type**: Single Record Datetime-Like
@@ -133,7 +133,7 @@ Extracts a specific part of a date from a datetime.
 ## Convert Timezone
 Converts a datetime into a specified timezone.
 
-- **Date Type**: Datetime 
+- **Date Type**: Datetime
 - **Variables Accepted**:
     - **Date or Time*:
         - **Type**: Single Record Datetime-Like
@@ -142,4 +142,4 @@ Converts a datetime into a specified timezone.
         - **Type**: Choice. Options are a list of valid timezones.
         - **Description**: Timezone to convert to
 - **Editable?**: No
-- **PostgreSQL Mapping**: `timezone(zone, timestamp)` function 
+- **PostgreSQL Mapping**: `timezone(zone, timestamp)` function

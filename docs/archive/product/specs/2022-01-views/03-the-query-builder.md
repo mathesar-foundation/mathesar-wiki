@@ -21,14 +21,14 @@ Users should be able to add columns to see in the query's output. Users can add 
 ### From a Table
 - The user will see a list of [available columns](#available-columns).
 - Once the user has added a column, we make a best guess for the following attributes:
-    - **Source Relationship**: This is the relationship of the column's table to the base table. 
+    - **Source Relationship**: This is the relationship of the column's table to the base table.
         - If there's only one way that the tables are related, there is no need to make a guess.
         - If there are multiple relationships between the table, we will pick one.
-    - **Aggregation**: This sets how the column is aggregated (none i.e. separate rows per unique pair, list, count, average, min, max, etc.). 
-        - This is only applicable to tables which have multiple related records to the base table. 
+    - **Aggregation**: This sets how the column is aggregated (none i.e. separate rows per unique pair, list, count, average, min, max, etc.).
+        - This is only applicable to tables which have multiple related records to the base table.
         - By default, we will aggregate columns as a list.
-        - Please see [Record Aggregations](/archive/product/specs/2022-01-views/04-formulas/4a-record-aggregations) for a list of all aggregations supported.
-- The user will see the source relationship and aggregations used and can alter them if desired. 
+        - Please see [Record Aggregations](./04-formulas/4a-record-aggregations.md) for a list of all aggregations supported.
+- The user will see the source relationship and aggregations used and can alter them if desired.
 - The user can also alter the column in the following ways:
   - Adding a **Formula**: This alters the column to use a formula where one of the variables is the column.
   - Adding a **Filter**: This filters the column's results to a subset.
@@ -47,10 +47,10 @@ Users should be able to add columns to see in the query's output. Users can add 
 ### Flowchart
 Here's a flowchart of decisions that need to be made when adding columns. This is meant to be an illustrative example; we might end up making decisions in a different order or replacing some decisions with assumptions that the user can then change.
 
-![view_flowchart.drawio.png](/assets/archive/product/specs/2022-01-views/03-the-query-builder/view_flowchart.drawio.png)
+![view_flowchart.drawio.png](../../../../assets/archive/product/specs/2022-01-views/03-the-query-builder/view_flowchart.drawio.png)
 
 ## Query Refinement
-In addition to selecting output columns, the user should be able to add to the query in the following ways. 
+In addition to selecting output columns, the user should be able to add to the query in the following ways.
 
 ### Filtering
 The user can add filters to filter down the results of the query to a subset of rows. They can use any of the query's output columns in filters. The filters available for the column will depend its data type and will offer a similar experience to table or view filters.
@@ -142,12 +142,12 @@ When adding query output columns, available columns are calculated as follows:
 - If a base table has not been set, we show all columns from all tables.
     - We may want to hide columns with foreign key constraints (FKs), since they are duplicates of the source columns.
 - If a base table has been set, we show:
-    - all columns from the base table 
+    - all columns from the base table
         - If the base table has no relationships to itself within three levels, then we can hide columns from the base table that have already been added to the query's output columns
     - all columns from tables that the base table has FKs to or with FKs to the base table, up to three levels of FKs away.
 
 ### Formulas
-Please see the next page, [04. Formulas](/archive/product/specs/2022-01-views/04-formulas).
+Please see the next page, [04. Formulas](./04-formulas.md).
 
 ### Column Input Filters
 When applying filters to an input column (let's call it `X`), the user selects three things:

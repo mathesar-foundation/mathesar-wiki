@@ -21,26 +21,26 @@ For various reasons, a user might, at some point, edit the given name of a schem
 When working on a particular schema, a user might navigate back to a list of all schemas.
 
 ### User jumps to another schema from the top navigation
-A user can click on the top search bar to reveal a list of their recently opened schemas and databases. Typing the name of any existing schema or database should display a list of all matching items. 
+A user can click on the top search bar to reveal a list of their recently opened schemas and databases. Typing the name of any existing schema or database should display a list of all matching items.
 
 ### User tries to delete a non-empty schema
-Before a user can delete a schema containing other objects such as tables or views, they must be aware of this information and the content that the system will delete along with the schema. 
+Before a user can delete a schema containing other objects such as tables or views, they must be aware of this information and the content that the system will delete along with the schema.
 
 ### User deletes an empty schema
-An empty schema can be deleted by a user with the appropriate permissions and no additional steps. 
+An empty schema can be deleted by a user with the appropriate permissions and no additional steps.
 
 ## Interactions
 ### Editing inline vs. edit modal
 There are cases where, for example, we might want to edit details, such as a table name inline (by clicking on the name label) rather than using a separate modal to provide a form with more information.
-In schemas, we might add additional settings that we want to make accessible to users, such as managing access privileges and permissions, etc. The requirement could also be solved by having a schema details dedicated view that is not contained within a modal. 
-Additionally, a schema might not allow editing of its name, in which case, inline editing might make it harder to inform the user about these limitations. 
+In schemas, we might add additional settings that we want to make accessible to users, such as managing access privileges and permissions, etc. The requirement could also be solved by having a schema details dedicated view that is not contained within a modal.
+Additionally, a schema might not allow editing of its name, in which case, inline editing might make it harder to inform the user about these limitations.
 
 ### Preventing Deletion of Schema
 Deleting a schema could lead to problems when any of its tables had relations with tables from another schema. Users need to be aware of this when they proceed to delete the schema. However, preventing them from doing so might be harder to verify, and the user could find it difficult to break all schema references before proceeding. If we allow deletion, we'll need to either turn the schema references in other tables to a different type or represent the error once the user opens an affected table.
 
 ## User Interface
 ### Top navigation bar
-Included in this spec is an initial draft of what our top navigation bar might look like when implemented. There are still details to resolve, like how we might incorporate searching or jump across different databases and schemas (similar to what Github does). 
+Included in this spec is an initial draft of what our top navigation bar might look like when implemented. There are still details to resolve, like how we might incorporate searching or jump across different databases and schemas (similar to what Github does).
 
 ### Search bar navigation
 The top search bar allows users to search through high-level objects such as schemas and databases that Mathesar manages.

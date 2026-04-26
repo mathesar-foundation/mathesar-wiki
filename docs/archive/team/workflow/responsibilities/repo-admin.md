@@ -1,6 +1,6 @@
 # Repo administration
 
-**Owner**: Sean  
+**Owner**: Sean
 **Helper**: _(nobody)_
 
 ## Responsibilities at a Glance
@@ -33,7 +33,7 @@ Go through each of your notifications for the Mathesar repositories and follow t
     - When a non-core team member does not reply for more than a week, check with the core team reviewer. If she is comfortable with moving the PR forward and merging it then assign the corresponding issue to her otherwise close the PR.
 - For the rest of the notifications, **if it's about an issue**
     - Make sure to read the issue description and the recent conversation on it before moving to the next steps.
-    - Make sure the issue is triaged properly as per our guide [here](/team/guide/issues)
+    - Make sure the issue is triaged properly as per our guide [here](../../../../team/guide/issues.md)
     - A mental model for labels:
         - "difficulty: easy" => "help wanted" & "good first issues"
         - "difficulty: medium" => "help wanted"
@@ -45,11 +45,11 @@ Go through each of your notifications for the Mathesar repositories and follow t
         - Make sure to un-assign the issue if there has been no activity from a community contributor from the last 1 week, as per our [contributing guidelines](https://github.com/mathesar-foundation/mathesar/blob/develop/CONTRIBUTING.md)
     - Notifications about the GitHub bot marking an issue `stale`: If the issue already exists, remove the stale label otherwise add a comment and close it as done.
 
-- If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](/archive/team/workflow/responsibilities/user-feedback), [marketing](/archive/team/workflow/responsibilities/marketing)) respectively.
+- If a comment or issue can be considered user feedback or helpful for marketing materials, please flag it to the owners of these responsibilities ([user feedback](./user-feedback.md), [marketing](./marketing.md)) respectively.
 
 #### Acting on notifications from GitHub Discussions
 
-Flag discussion-related notifications to the marketing and user feedback teams for a response. This can be done by sending a notification to the [Marketing](https://matrix.to/#/#marketing:matrix.mathesar.org) channel and tagging the owner of [user feedback](/archive/team/workflow/responsibilities/user-feedback) and [marketing](/archive/team/workflow/responsibilities/marketing) responsibilities.
+Flag discussion-related notifications to the marketing and user feedback teams for a response. This can be done by sending a notification to the [Marketing](https://matrix.to/#/#marketing:matrix.mathesar.org) channel and tagging the owner of [user feedback](./user-feedback.md) and [marketing](./marketing.md) responsibilities.
 
 #### Assigning reviewers fairly
 

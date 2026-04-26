@@ -2,11 +2,11 @@
 
 ## 2023-08-31
 
-I've been lax about filling these in for a few days. My work has involved 
+I've been lax about filling these in for a few days. My work has involved
 
-- the release, 
-- hunting related bugs, and 
-- deployment of the release. 
+- the release,
+- hunting related bugs, and
+- deployment of the release.
 
 I'm resetting to get back on track.
 
@@ -60,7 +60,7 @@ I'm resetting to get back on track.
 - 1:1 with Dom
 - make-up meeting with Aritra
 
-### Preexisting DB compatibility 
+### Preexisting DB compatibility
 - Planning/looking through GH issues
 
 ### Email
@@ -205,7 +205,7 @@ This was a short day for me
 
 ### Bugfixes
 - PR [Repeat failed tests #3118](https://github.com/mathesar-foundation/mathesar/pull/3118) is merged after some changes
-  
+
 ### Ad-hoc
 - Helped Rajat with how to install `gettext` in containers for his translations project.
 

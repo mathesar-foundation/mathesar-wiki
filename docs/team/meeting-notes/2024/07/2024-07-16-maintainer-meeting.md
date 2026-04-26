@@ -1,7 +1,7 @@
 # 2024-07-16 maintainer meeting
- 
+
  **Attendees**: Brent, Pavish, Anish, Sean.
- 
+
 ## Breaking changes to develop branch
 
 This was an impromptu agenda item. Notes below:

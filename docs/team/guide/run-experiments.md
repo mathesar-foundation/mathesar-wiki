@@ -60,11 +60,11 @@ There should be some way to tell whether the experiment has succeeded or failed.
 
 ### Find an "Accountabilibuddy"
 
-In the event that the 4 hour mark has been crossed in time investment in an experiment, staff are _strongly encouraged_ to find an accountabilibuddy. If time investment crosses 8 hours, this is required. 
+In the event that the 4 hour mark has been crossed in time investment in an experiment, staff are _strongly encouraged_ to find an accountabilibuddy. If time investment crosses 8 hours, this is required.
 
-- Choose any staff member (with sufficient context, and ideally a skeptical attitude) to be your accountabilibuddy for the experiment. 
-- Their role is to listen to a short pitch, look at any examples or output of the experiment so far, and assess the experiment according to the guidelines above. 
-- If it seems like the experiment is worth continuing, the staff member who originated the experiment and the accountabilibuddy should let the rest of the staff know what they're doing through typical channels (Matrix, email). 
+- Choose any staff member (with sufficient context, and ideally a skeptical attitude) to be your accountabilibuddy for the experiment.
+- Their role is to listen to a short pitch, look at any examples or output of the experiment so far, and assess the experiment according to the guidelines above.
+- If it seems like the experiment is worth continuing, the staff member who originated the experiment and the accountabilibuddy should let the rest of the staff know what they're doing through typical channels (Matrix, email).
 - They should be prepared to be told to stop what they're doing, or go through the normal process if appropriate. In some cases, the consensus may be "just keep going".
 
 ### Responsibilities for PR reviewers
@@ -77,7 +77,7 @@ Pull requests adding functionality that haven't followed standard procedures, ar
 On the other hand, if a PR:
 
 - meets the easily-reversible criteria above, and
-- the reviewer is confident that the proposed change won't break anything, and 
+- the reviewer is confident that the proposed change won't break anything, and
 - there's sufficient time before the next release to make sure the change doesn't really screw things up, then
 
 it can (and in most cases should) be merged without much discussion about its value. However, it's crucial to think skeptically about the reversibility w.r.t. our perceived obligations in this analysis.

@@ -1,0 +1,33 @@
+name: Docs Check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+      - '.github/workflows/docs-check.yml'
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build docs
+        run: mkdocs build --clean --strict
+
+      - name: Reject internal raw HTML links and images
+        run: |
+          if rg --pcre2 -n '<(?:img|a)\b[^>]*(?:src|href)="(?!https?:|mailto:|tel:|#|//)[^"]+"' docs --glob '*.md'; then
+            echo 'Found internal raw HTML links or images. Use Markdown syntax instead.'
+            exit 1
+          fi

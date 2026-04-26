@@ -13,7 +13,7 @@
 | **Contributor (requirements)**         | Mukesh                                            | *Creates GitHub issues*                                                    |
 | **Contributor (documentation)**        | Mukesh                                            | *Creates Documentation*                                                    |
 | **Contributor (documentation review first pass)** | Pavish, Marius (contractor)            | *Reviews documentation and the docker-compose code changes*                |
-| **Contributor (documentation review second pass)** | Kriti                                 | *Reviews documentation after Pavish and Marius have reviewed it*           |  
+| **Contributor (documentation review second pass)** | Kriti                                 | *Reviews documentation after Pavish and Marius have reviewed it*           |
 | **Contributor (Testing)**              | Pavish, Contributors from Upwork(yet to be hired) | *Test out the instructions from the documentation and make sure they work* |
 | **Contributor (Hiring)**               | Kriti                                             | *Hire contributors from Upwork to help with testing*                       |
 
@@ -21,7 +21,7 @@
 * Users are trying to use Mathesar with various setups and our installation documentation is lacking information to help them with it
   1. Users want to use Mathesar with Kubernetes, Nomad etc. Our docker-compose script won't be helpful in such cases
 	2. The installation script asks for `sudo` access, [so some users are not comfortable with it](https://github.com/mathesar-foundation/mathesar/issues/2761)
-  3. The installation script is tightly coupled, [preventing them from using it with their own setup](https://hackmd.io/wUpuiOwLRhGDy2y7H-ccHw). The user cannot use the script to do only certain tasks, for example, they cannot use the script to only create a configuration file and skip other steps. 
+  3. The installation script is tightly coupled, [preventing them from using it with their own setup](https://hackmd.io/wUpuiOwLRhGDy2y7H-ccHw). The user cannot use the script to do only certain tasks, for example, they cannot use the script to only create a configuration file and skip other steps.
  	4. Configuration files don't have enough comments, [leading to confusion](https://github.com/mathesar-foundation/mathesar/issues/2655#issuecomment-1465731661) when users try to change it manually.
   5. Only Docker-based installation is listed in our docs. But [Users want to install Mathesar without using Docker](https://news.ycombinator.com/item?id=35007769)
   6. The docker-compose file is [complex](https://www.reddit.com/r/selfhosted/comments/11n2fxx/comment/jbnmdvi/?utm_source=share&utm_medium=web2x&context=3)
@@ -31,7 +31,7 @@
 ## Solution
 - [Add Documentation for setting up Mathesar with the Mathesar Service Docker Image](https://github.com/mathesar-foundation/mathesar/issues/2783). Fixes Problem[a]
 - [Add Documentation for installing Mathesar without using install.sh](https://github.com/mathesar-foundation/mathesar/issues/2761). Fixes Problem[b] and [c]
-- [Documenting our config files so user can manually edit them](/archive/product/projects/2023/04/installation-documentation-improvements)https://github.com/mathesar-foundation/mathesar/issues/2784). Fixes Problem[d]
+- [Documenting our config files so user can manually edit them](./installation-documentation-improvements.md)https://github.com/mathesar-foundation/mathesar/issues/2784). Fixes Problem[d]
 - [Documenting setting up Mathesar without Docker](https://github.com/mathesar-foundation/mathesar/issues/2427). Fixes Problem[e]
 - [Document upgrade instructions for non-docker-compose environments](https://github.com/mathesar-foundation/mathesar/issues/2785)
 - [Document limitations involved with the installation script](https://github.com/mathesar-foundation/mathesar/issues/2787). Auxiallary fix for Problem[b] and [c]

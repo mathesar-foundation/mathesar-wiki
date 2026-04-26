@@ -3,6 +3,17 @@ site_url: https://wiki.mathesar.org/
 repo_url: https://github.com/mathesar-foundation/mathesar-wiki/
 repo_name: mathesar-foundation/mathesar-wiki
 
+not_in_nav: |
+  /archive/index.md
+  /community/index.md
+  /community/events/*.md
+  /community/gsoc/index.md
+  /community/gsoc/mentor-summit-notes/*.md
+  /engineering/how-tos/*.md
+  /release/index.md
+  /team/index.md
+  /team/guide/index.md
+
 
 plugins:
   - search:
@@ -81,3 +92,14 @@ markdown_extensions:
   - toc:
       title: On this page
       permalink: true
+
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+    absolute_links: warn
+  links:
+    not_found: warn
+    anchors: warn
+    absolute_links: warn
+    unrecognized_links: warn

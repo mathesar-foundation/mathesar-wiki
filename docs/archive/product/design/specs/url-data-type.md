@@ -3,7 +3,7 @@
 ## Context
 URL data types are custom Mathesar data types used to store URLs.
 
-## Prototype 
+## Prototype
 !!! warning "Warning"
     This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 

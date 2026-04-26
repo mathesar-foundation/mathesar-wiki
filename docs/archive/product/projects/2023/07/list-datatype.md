@@ -1,7 +1,7 @@
 # List Data Type - Project Draft
 
 **Name**: Adding support for list data type in Mathesar
-**Status**: Draft 
+**Status**: Draft
 **Theme**: List data type
 
 ## Team
@@ -31,7 +31,7 @@ We already have support for arrays in explorations (and the Data Explorer), but 
 **Note:**
 The implementation of Lists is not trivial, due to the way in which Arrays are implemented in Postgres. Here, there is not really a concept of dimensions or length, as Postgres does not really care about checking or validating those. Back on the hood, even though a user could set the length of an array when creating a column, this is not actually checked or enforced by the engine. All arrays are n-dimensional, with whatever lenght. The only checking that is done is that, within a record, all the elements of an array must have the same number of dimensions. Otherwise the engine will throw an error.
 
-This adds complexity to several of the proposed features of lists. 
+This adds complexity to several of the proposed features of lists.
 
 - Aggregations
 - Way of displaying
@@ -42,7 +42,7 @@ This adds complexity to several of the proposed features of lists.
 ### Creating a list column
 #### From the table page
 - `List` should be an available data type in addition to all of the others. Therefore, users should be able to visualize it in the dropdown menu of all the available data types.
-![data_types_dropdown.png](/assets/archive/product/projects/2023/07/list-datatype/data_types_dropdown.png)
+![data_types_dropdown.png](../../../../../assets/archive/product/projects/2023/07/list-datatype/data_types_dropdown.png)
 
 - Users should be able to provide a default value, or set it to `null`, as Mathesar supports this for the other data types as well.
 
@@ -50,29 +50,29 @@ This adds complexity to several of the proposed features of lists.
 - When importing data from a CSV file, *what should be inferred as list?*
 	- `"{item1,item2,...}"`: this is what Postgresql infers as an array when importing data from a CSV file (note the double quotes).
   - `[item1,item2,...]`: this notation is allowed when inserting values in an array column in Postresql.
-  
-  
+
+
 ### Displaying data from lists
 - Items of the “list” type should be shown as pills (as it is currently shown in the data explorer).
-![visualizacion_columna.png](/assets/archive/product/projects/2023/07/list-datatype/visualizacion_columna.png)
+![visualizacion_columna.png](../../../../../assets/archive/product/projects/2023/07/list-datatype/visualizacion_columna.png)
 
 - Lists can be large (e.g. starting from the dozens of items), so they must be truncated.
 
-The previous points are regarding one dimensional lists. For n-dimensional ones, it's probably a better idea to take another approach, like some JSON renderers.  
-A first approach to this case will be to render the arrays as plain text. 
+The previous points are regarding one dimensional lists. For n-dimensional ones, it's probably a better idea to take another approach, like some JSON renderers.
+A first approach to this case will be to render the arrays as plain text.
 
 ### Editing and deleting records
 - Users should be able to create a list; this is, fill an empty cell in a list data type column. A list can be created by separating items with a comma. Example:
 
 From the record page:
 
-![input_box.png](/assets/archive/product/projects/2023/07/list-datatype/input_box.png)
+![input_box.png](../../../../../assets/archive/product/projects/2023/07/list-datatype/input_box.png)
 
 By double clicking a cell from the table page:
 
-![llenar_celda.png](/assets/archive/product/projects/2023/07/list-datatype/llenar_celda.png)
+![llenar_celda.png](../../../../../assets/archive/product/projects/2023/07/list-datatype/llenar_celda.png)
 
-- Users should be able to edit the text of an existing list item. ***Two possible ways are***: 
+- Users should be able to edit the text of an existing list item. ***Two possible ways are***:
 	 1. Clicking a single pill, and so the user will edit the text in that pill.
    2. Displaying the content of the list as a text with comma-separated items, and so the user would edit the list as if they are editing a text.
 
@@ -82,7 +82,7 @@ By double clicking a cell from the table page:
 ### Error handling
 - Errors should be handled and displayed if any of the operations fail.
 
-### Filters 
+### Filters
 We should support the following filters for `List` cells:
 1. is empty
 1. is not empty
@@ -94,7 +94,7 @@ Regarding the length of the list in a cell:
 3. number of items equal to `<NUMBER>`
 7. number of items lesser than `<NUMBER>`
 8. number of items lesser than or equal to `<NUMBER>`
-    
+
 ### Grouping
 We should support the following custom grouping types for List cells:
 1. Number of list items
@@ -111,8 +111,8 @@ We should support the following custom grouping types for List cells:
 
 - **Issues**: [GitHub meta issue]()
 - **Wiki pages**:
-  - [Project description for GSoC 2023](/community/gsoc/project-ideas/list-data-type)
-  - [Frontend spec](/archive/product/technical-specs/list-data-type-frontend-specs)
+  - [Project description for GSoC 2023](../../../../../community/gsoc/project-ideas/list-data-type.md)
+  - [Frontend spec](../../../technical-specs/list-data-type-frontend-specs.md)
   - [Backend spec (nothing here yet)]()
 
 ## Timeline
@@ -130,7 +130,7 @@ This project should take **13 weeks**.
 
 ## Future work
 - Have different designs for item's display appearance, depending on their data type. Consider for example polygons; how should we display them?
-- Convert any column to a list column. E.g user can change the data type `money` of a column, to `list of money`. In [PostgreSQL](https://www.postgresql.org/docs/current/arrays.html), an array can be of any of its built-in data types. 
+- Convert any column to a list column. E.g user can change the data type `money` of a column, to `list of money`. In [PostgreSQL](https://www.postgresql.org/docs/current/arrays.html), an array can be of any of its built-in data types.
 - Support operations between `list` columns. E.g.: users can define a new `list` column as the result of concatenating the items of two other `list` columns. This can be extended to a functionality similar to inserting formulas in cells of a spreadsheet (like in Excel, Calc).
 - Sort a `list` column with a custom expression. E.g.: for a numerical list column, sort the column based on the average of the lists.
 

@@ -44,7 +44,7 @@
 
 ## 2023-10-17
 
-- Found some bugs and opened issues for the same [#3247](https://github.com/centerofci/mathesar/issues/3247), [#3248](https://github.com/centerofci/mathesar/issues/3232) 
+- Found some bugs and opened issues for the same [#3247](https://github.com/centerofci/mathesar/issues/3247), [#3248](https://github.com/centerofci/mathesar/issues/3232)
 
 ## 2023-10-16
 
@@ -73,7 +73,7 @@
 
 ## 2023-10-06
 
-- UX for db connections sync 
+- UX for db connections sync
 - Worked on [#3232](https://github.com/centerofci/mathesar/issues/3232)
 
 ## 2023-10-05
@@ -96,4 +96,4 @@
 
 
 # Archive
- - [September 2023 work logs](/archive/team/workflow/worklogs/archive/2023-09/anish/)
+ - [September 2023 work logs](../2023-09/anish.md)

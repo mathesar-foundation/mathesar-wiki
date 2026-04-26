@@ -9,67 +9,67 @@ See [styling and UX improvements across the entire product in Figma](https://www
 These are specs for new features, corresponding to our [development milestones](https://github.com/mathesar-foundation/mathesar/milestones?direction=asc&sort=due_date&state=open).
 
 ### Table Inspector
-- [Inline Saving and Editing](/archive/product/design/specs/inline-save-edit)
-- [Table Inspector](/archive/product/design/specs/table-inspector)
-- [Data Type Options](/archive/product/design/specs/data-type-options)
+- [Inline Saving and Editing](./inline-save-edit.md)
+- [Table Inspector](./table-inspector.md)
+- [Data Type Options](./data-type-options.md)
 
 ### Navigation
-- [Navigation Updates](/archive/product/design/specs/navigation)
-- [Add Table from Import/URI/Data paste Specs](/archive/product/design/specs/table-import)
+- [Navigation Updates](./navigation.md)
+- [Add Table from Import/URI/Data paste Specs](./table-import.md)
 	- This is under "Navigation" because we needed to update it after the navigation changed from having tabs for different tables.
 
 ### Queries
-- [Data Explorer](/archive/product/design/specs/visual-query-builder)
-- [Formula Columns](/archive/product/design/specs/add-formula-column)
+- [Data Explorer](./visual-query-builder.md)
+- [Formula Columns](./add-formula-column.md)
 
 ### Data Modeling
-- [Column Extraction](/archive/product/design/specs/column-extraction)
+- [Column Extraction](./column-extraction.md)
 
 ### Records
-- [Record Page](/archive/product/design/specs/record-page)
-- [Record Summary](/archive/product/design/specs/record-summary)
+- [Record Page](./record-page.md)
+- [Record Summary](./record-summary.md)
 
 ### Views
-- [Listing Views](/archive/product/design/specs/listing-views)
-- [Editing Records Within a View](/archive/product/design/specs/eding-view-records)
-- [Create, Edit, Delete Views](/archive/product/design/specs/create-edit-delete-views)
-- [Viewing Views](/archive/product/design/specs/viewing-views-specs)
+- [Listing Views](./listing-views.md)
+- [Editing Records Within a View](./eding-view-records.md)
+- [Create, Edit, Delete Views](./create-edit-delete-views.md)
+- [Viewing Views](./viewing-views-specs.md)
 
 ### Links between Tables (Foreign Keys, Table Relationships)
-- [Record Selector](/archive/product/design/specs/record-selector)
-- [Usage of Foreign Key Constraints](/archive/product/design/specs/foreign-key-constraints)
-- [Multiple Records Associated with a Single Record](/archive/product/design/specs/multiple-records-spec)
-- [One-to-Many Relationships](/archive/product/design/specs/views-one-to-many-relationships)
+- [Record Selector](./record-selector.md)
+- [Usage of Foreign Key Constraints](./foreign-key-constraints.md)
+- [Multiple Records Associated with a Single Record](./multiple-records-spec.md)
+- [One-to-Many Relationships](./views-one-to-many-relationships.md)
 
 ### Data Types
-- [Global Data Types](/archive/product/design/specs/global-data-type-components)
-- [Non-Mathesar Data Types](/archive/product/design/specs/non-mathesar-data-types)
-- [Duration Data Type](/archive/product/design/specs/data-type-duration)
-- [Date/Time Data Type](/archive/product/design/specs/date-time-data-type)
-- [Boolean Data Type](/archive/product/design/specs/boolean-data-type)
-- [Money Data Type](/archive/product/design/specs/money-data-type)
-- [URL Data Type](/archive/product/design/specs/url-data-type)
-- [Email Data Type](/archive/product/design/specs/email-data-type)
-- [Number Data Type](/archive/product/design/specs/number-data-type)
-- [Text Data Type](/archive/product/design/specs/data-types-text)
+- [Global Data Types](./global-data-type-components.md)
+- [Non-Mathesar Data Types](./non-mathesar-data-types.md)
+- [Duration Data Type](./data-type-duration.md)
+- [Date/Time Data Type](./date-time-data-type.md)
+- [Boolean Data Type](./boolean-data-type.md)
+- [Money Data Type](./money-data-type.md)
+- [URL Data Type](./url-data-type.md)
+- [Email Data Type](./email-data-type.md)
+- [Number Data Type](./number-data-type.md)
+- [Text Data Type](./data-types-text.md)
 
 ### Tables
-- [UX for NULL Values](/archive/product/design/specs/specs-null-values)
-- [Working with Columns](/archive/product/design/specs/working-with-columns)
-- [Basic Table Operations](/archive/product/design/specs/table-operations)
-- [Add, Update, Delete Records](/archive/product/design/specs/add-update-delete-records)
-- [Filter, Sort, Group Tables](/archive/product/design/specs/filter-sort-group)
-- [Add Table from File Import](/archive/product/design/specs/table-import)
-- [Read Only Table](/archive/product/design/specs/read-only-table)
-- [Import Status](/archive/product/design/specs/import-status)
-- [Table Creation Controls](/archive/product/design/specs/table-creation-controls)
-- [Pagination Component](/archive/product/design/specs/pagination)
+- [UX for NULL Values](./specs-null-values.md)
+- [Working with Columns](./working-with-columns.md)
+- [Basic Table Operations](./table-operations.md)
+- [Add, Update, Delete Records](./add-update-delete-records.md)
+- [Filter, Sort, Group Tables](./filter-sort-group.md)
+- [Add Table from File Import](./table-import.md)
+- [Read Only Table](./read-only-table.md)
+- [Import Status](./import-status.md)
+- [Table Creation Controls](./table-creation-controls.md)
+- [Pagination Component](./pagination.md)
 
 ### Database and Schemas
-- [Working with Schemas](/archive/product/design/specs/schemas)
-- [Multiple Databases](/archive/product/design/specs/database-switching)
+- [Working with Schemas](./schemas.md)
+- [Multiple Databases](./database-switching.md)
 
 ### UI Improvements
-- [Left Sidebar Improvements](/archive/product/design/specs/sidebar-improvements)
-- [Lookup Field Component](/archive/product/design/specs/lookup-field-component)
-- [Clipboard interactions](/archive/product/design/specs/clipboard-interactions)
+- [Left Sidebar Improvements](./sidebar-improvements.md)
+- [Lookup Field Component](./lookup-field-component.md)
+- [Clipboard interactions](./clipboard-interactions.md)

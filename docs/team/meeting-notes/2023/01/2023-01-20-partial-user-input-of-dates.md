@@ -33,12 +33,12 @@ Secondarily (to mitigate against similar issues):
     - When the ticket was originally opened, this approach was not considered viable due to performance problems with the API. Now those performance concerns seem to have vanished with the recent reflection improvements. But...
 
     - This will require a bit of work on the front end due to [1893](https://github.com/centerofci/mathesar/issues/1893).
-    
+
     - Plus it doesn't give the user good feedback. If there are multiple filter conditions, we won't be able to show them which one is invalid.
 
 - ❌ Validate partially-entered dates with Postgres on the backend before running the query, then remove problematic filter conditions before running the query
 
-    - Users might enter an invalid value, expecting to see filtered data and become confused 
+    - Users might enter an invalid value, expecting to see filtered data and become confused
 
     - Running multiple DB queries in sequence, is not great for performance.
 

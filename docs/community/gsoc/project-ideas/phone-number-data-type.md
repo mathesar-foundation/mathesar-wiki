@@ -15,7 +15,7 @@
 - Users should be able to set a column's data type to "Phone Number".
 - Data with the "Phone Number" data type set should be automatically formatted in a pretty way where possible.
 	 - e.g. 10-digit US/Canada phone numbers should be formatted as (XXX) XXX-XXXX
-- Phone numbers that cannot be automatically formatted should be formatted as text    
+- Phone numbers that cannot be automatically formatted should be formatted as text
 
 ## Architectural Problems
 We need to figure out:

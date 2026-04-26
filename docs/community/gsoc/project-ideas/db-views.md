@@ -26,7 +26,7 @@ Mathesar should support _read-only_ views. A user should be able to:
   - Opening the record details page from a view makes no sense.
 - We need to determine how to integrate database views into the Data Explorer
   - It's likely this would look something like how a table looks in Data Explorer when it has no links to another table.
-  
+
 Overall, we expect a significant portion of this project to involve dealing with UX concerns before implementing.
 
 ## Tasks

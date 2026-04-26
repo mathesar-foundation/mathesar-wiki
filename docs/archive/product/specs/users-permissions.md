@@ -4,7 +4,7 @@ This spec describes how the initial version of users & permissions will work in 
 
 ## Feature Goals
 - Facilitate user collaboration by giving multiple users access to the data in Mathesar
-- Allow Mathesar administrators to follow the security best practice of the principle of least privilege 
+- Allow Mathesar administrators to follow the security best practice of the principle of least privilege
 - Allow Mathesar administrators to set up user accounts, view or change current users and their privileges, and delete users.
 - Allow users to customize their Mathesar experience, including:
 	- Display settings such as table inspector show/hide, etc.
@@ -28,14 +28,14 @@ To make these goals more concrete, here's how these features could be used in [t
 	- Allow **library patrons** to log in and see only their own checkouts with the associated due dates.
 
 ## Scope & Assumptions
-This is meant to be a very basic framework for users & permissions that we can implement in 2022 in Cycles 4 and 5. 
+This is meant to be a very basic framework for users & permissions that we can implement in 2022 in Cycles 4 and 5.
 
 We're making the following assumptions for this spec to reduce implementation complexity. These should ***not*** be treated as permanent assumptions for the product.
 
 ### Users will be Mathesar-specific.
 This means:
 
-- Users created using the Mathesar UI will not be able to log in to the PostgreSQL DB using the same credentials. 
+- Users created using the Mathesar UI will not be able to log in to the PostgreSQL DB using the same credentials.
 - Existing Postgres DB users will not be able to log in to Mathesar using their credentials.
 
 Although it would be ideal to reflect Postgres users in Mathesar and vice-versa, this involves either figuring out how to store people's DB credentials securely or have them log in every time they open the application. Neither seems ideal.
@@ -70,12 +70,12 @@ Mathesar administrators should be able to navigate to a user management page and
 - Add / remove user permissions
 
 *Wireframes are for illlustrative purposes, they are not meant to reflect final design.*
-![users.png](/assets/archive/product/specs/users-permissions/users.png)
-![user-page.png](/assets/archive/product/specs/users-permissions/user-page.png)![user-page-custom.png](/assets/archive/product/specs/users-permissions/user-page-custom.png)
+![users.png](../../../assets/archive/product/specs/users-permissions/users.png)
+![user-page.png](../../../assets/archive/product/specs/users-permissions/user-page.png)![user-page-custom.png](../../../assets/archive/product/specs/users-permissions/user-page-custom.png)
 
 ### Log in and Log out
 Users should be able to log in and log out of Mathesar using their username and password.
-![sign-in.png](/assets/archive/product/specs/users-permissions/sign-in.png)
+![sign-in.png](../../../assets/archive/product/specs/users-permissions/sign-in.png)
 
 ### User Profile Page
 Individual users should be able to edit their own information. This is also going to be where they edit their settings for using Mathesar, once we have some.
@@ -114,16 +114,16 @@ The frontend should save this stuff and respect table inspector show/hide settin
 Last access / favorite will be used on the schema and database homepages, but those designs are out of scope for this spec.
 
 ### API permissions
-We also need to implement permissions on the API that match user permissions. 
+We also need to implement permissions on the API that match user permissions.
 
 ### Bonus Goals: Table & Exploration sharing
 There should be a way for users to share individual tables and explorations with others.
-![sharing.png](/assets/archive/product/specs/users-permissions/sharing.png)
+![sharing.png](../../../assets/archive/product/specs/users-permissions/sharing.png)
 
 
 ### Bonus goals: User data type & row level permissions
 Here's some ideation on this feature. Further details will be specified if we have time to implement them.
-![rls.png](/assets/archive/product/specs/users-permissions/rls.png)
+![rls.png](../../../assets/archive/product/specs/users-permissions/rls.png)
 
 ## Implementation Details
 High-level notes on how we should implement these features.
@@ -154,7 +154,7 @@ All users can:
 #### Administrator
 A superuser. They have every permission related to the Mathesar installation listed below.
 
-For now, only the default admin user can have this permission. New users cannot be created with this permission. 
+For now, only the default admin user can have this permission. New users cannot be created with this permission.
 
 #### Database permissions
 These permissions apply to a single database.

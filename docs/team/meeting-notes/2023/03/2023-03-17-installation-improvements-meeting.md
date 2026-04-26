@@ -16,8 +16,8 @@ We need to split "installation improvements" into smaller projects:
     - Ideally:
         - Single Docker image
         - Will come with DB for Django
-        - User can create DB or 
-- Provide a single Docker Compose file 
+        - User can create DB or
+- Provide a single Docker Compose file
     - Ensure comments
 - Set up configuration file for Mathesar installation
     - e.g. mathesar.conf (e.g. yaml file)
@@ -107,5 +107,5 @@ Here is what is done to fix the above problems
 
 - Kriti mentioned that she has a lot of thoughts on improving our installation process, so Brent, Kriti, Mukesh, and Pavish will be having a meeting today to get a brain dump from Kriti.
 - I will be creating a list of issues based on the discussion from the meeting and update this email thread with the next set of actions items after the meeting
-- I will be coordinating with Marius de Beer who is currently writing documentation for "Installing Mathesar on various Linux Distro with/without Docker" to make sure the documentation and improvements to the installation process are in sync. 
+- I will be coordinating with Marius de Beer who is currently writing documentation for "Installing Mathesar on various Linux Distro with/without Docker" to make sure the documentation and improvements to the installation process are in sync.
 

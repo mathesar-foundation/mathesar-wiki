@@ -4,12 +4,12 @@ Setting up a new GitHub repo involves a bunch of different steps to tie into our
 
 ## Setup tasks
 
-If you're creating a GitHub repo, please make sure you do all of these things. 
+If you're creating a GitHub repo, please make sure you do all of these things.
 
 - [ ] Repo name should use hyphens, not underscores
 - [ ] Default branch name should be `master`, not `main`
 - [ ] Repo collaborators should ONLY use Teams, not individual accounts.
-    - [ ] Private repos only the "Mathesar Maintainers" should have access, and the access level should be "Maintain". 
+    - [ ] Private repos only the "Mathesar Maintainers" should have access, and the access level should be "Maintain".
     - [ ] Public repos should also have the "Mathesar Community Team" added with "Write" permissions.
 - [ ] Set up our default GitHub workflows
     - This plugs the repo into the main Mathesar project and sets up some QoL automations
@@ -26,8 +26,8 @@ If you're creating a GitHub repo, please make sure you do all of these things.
 - [ ] Delete default labels created by GitHub that we don't use (i.e. `bug`, `documentation`, `enhancement`, `question` etc.)
 - [ ] Ensure that repo has access to correct GitHub token for actions
     - This involves going to the org settings > Secrets & variables > Actions and granting the new repo permissions to the `MATHESAR_ORG_GITHUB_TOKEN` secret
-- [ ] Set up repo settings 
-    - [ ] Ensure Issues is on 
+- [ ] Set up repo settings
+    - [ ] Ensure Issues is on
     - [ ] Turn off Wikis
     - [ ] Turn off Projects (we use org-level projects, not repo-level projects)
     - [ ] Turn off Discussions
@@ -35,7 +35,7 @@ If you're creating a GitHub repo, please make sure you do all of these things.
         - [ ] Turn off squash merging
         - [ ] Turn off rebase merging
         - [ ] Turn on auto-merge
-        - [ ] Turn on automatically deletion of head branches 
+        - [ ] Turn on automatically deletion of head branches
 
 ## Teardown tasks
 

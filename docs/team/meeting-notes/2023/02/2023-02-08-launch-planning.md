@@ -78,7 +78,7 @@ Blockers NEED to get done before launch.
 - Additional deployment types (Brent, Dom, Mukesh)
 - "High" items in Backlog milestone (Pavish, Rajat, Sean, Ghislaine)
 - Pre-launch publicity (Kriti)
-- Process for publishing releases on DockerHub 
+- Process for publishing releases on DockerHub
 
 ### Process
 - Currently ad-hoc process for launch
@@ -107,7 +107,7 @@ Blockers NEED to get done before launch.
         - Brent will send email to mailing list with dev changes
     - install script is looking good, almost done (Mukesh)
     - Documentation is pending
-        - Port needs to be documented so that people can run things on different ports if needed 
+        - Port needs to be documented so that people can run things on different ports if needed
         - Make sure we're clear about using WSL in Windows
         - Make prerequisites of bash and Docker clear
     - Install script will be friendlier for Windows too

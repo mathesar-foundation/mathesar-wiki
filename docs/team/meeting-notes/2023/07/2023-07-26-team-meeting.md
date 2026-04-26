@@ -8,7 +8,7 @@
 
 Maria will present a report about the current state of list data types in Mathesar, and her work over the last couple months.
 
-[The report](/community/gsoc/past/2023/list-datatype). 
+[The report](../../../../community/gsoc/past/2023/list-datatype.md).
 
 ## Product strategy update
 - **Allocated time**: 45 minutes
@@ -22,7 +22,7 @@ Maria will present a report about the current state of list data types in Mathes
         - [User Research data](https://internal.mathesar.org/db/mathesar_tables/14/) (private)
         - [Use cases list](https://hackmd.io/wC38kFL-Q6mR2TJR2_ZCEw) (private)
         - [Persona needs analysis](https://hackmd.io/TeTCKnX4QUCik3iwDBhtkQ) (private)
-- **Discussion goal**: 
+- **Discussion goal**:
     - Share progress and get feedback on current approach from the team
 
 ### Notes

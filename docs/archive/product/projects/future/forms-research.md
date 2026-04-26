@@ -1,7 +1,7 @@
 # Forms Research
 
 **Name**: Forms Research
-**Status**: In progress 
+**Status**: In progress
 **Theme**: Product research
 
 ## Team
@@ -20,8 +20,8 @@ We want to know if there's a form-like feature-set we could implement without to
 
 ## Solution
 
-It is not obvious that copying competing solutions would be a useful strategy, so we're largely looking at survey/interview research as the source of insight. Intersects with the ["Gathering User Feedback" project](/archive/product/projects/2023/04/gather-user-feedback).
- 
+It is not obvious that copying competing solutions would be a useful strategy, so we're largely looking at survey/interview research as the source of insight. Intersects with the ["Gathering User Feedback" project](../2023/04/gather-user-feedback.md).
+
 - Build the qualifying survey
 - Perform the qualifying survey
 - Analyze the qualifying survey
@@ -29,7 +29,7 @@ It is not obvious that copying competing solutions would be a useful strategy, s
 	- Use the jobs-to-be-done framework
 - Analyze the qualitative interviews
 	- Doesn't involve writing a product spec
-  
+
 ## Risks
 - Project might take too long
 	- Reasons why this might happen
@@ -40,7 +40,7 @@ It is not obvious that copying competing solutions would be a useful strategy, s
 ## Resources
 !!! info "Information"
     This section collects project related resources. It's expected that there might not be anything here until the project plan is approved, and this section will grow over the project's timeframe.
- 
+
 
 ## Timeline
 This project should take **5 weeks**.
@@ -57,4 +57,4 @@ This project should take **5 weeks**.
 | 2023-06-?? | Qualifying survey analyzed |
 | 2023-06-?? | Qualitative interviews begin |
 | 2023-06-?? | Qualitative interviews end |
-| 2023-06-?? | Qualitative interviews analyzed | 
+| 2023-06-?? | Qualitative interviews analyzed |

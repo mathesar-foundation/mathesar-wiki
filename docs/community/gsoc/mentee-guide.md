@@ -5,7 +5,7 @@
 
     This guide was for GSoC 2023.
 
-This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](/community/gsoc/applicant-guide).
+This guide is for accepted mentees. If you are an applicant, read our [Applicant Guide](./applicant-guide.md).
 
 ## Post-Announcement
 
@@ -14,8 +14,8 @@ Program acceptance announcements have been made and you've been selected! Congra
 - Continue to refine your project plan and timeline with your mentors.
 - Define communication channels and set up a weekly check-in with your mentor.
 - Set up your computer and development environment.
-- Read through our [Team Guide](/team/guide) and familiarize yourself with our workflow and development process.
-- Introduce yourself to [the maintainers](/team/).
+- Read through our [Team Guide](../../team/guide/index.md) and familiarize yourself with our workflow and development process.
+- Introduce yourself to [the maintainers](../../team/index.md).
 
 ## Program Period
 

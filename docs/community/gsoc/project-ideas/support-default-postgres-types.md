@@ -1,7 +1,7 @@
 # Better Support for Default PostgreSQL Data Types
 
 ## The Problem
-Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include [more default PostgreSQL types](https://www.postgresql.org/docs/current/datatype.html) such as Network Address types, Geometric Types, UUID Types, and Range Types. 
+Mathesar currently only allows the user to use a small set of data types. We'd like to expand the data types we offer in our product to include [more default PostgreSQL types](https://www.postgresql.org/docs/current/datatype.html) such as Network Address types, Geometric Types, UUID Types, and Range Types.
 
 ## Classification
 - **Difficulty**: Medium
@@ -14,7 +14,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
 - Work with the Mathesar design team to figure out how end users can interact with file and image data types in the UI, including:
   - How data is displayed
   - How data is entered
-  - What [Mathesar Types](/engineering/glossary/ui-types) to show
+  - What [Mathesar Types](../../../engineering/glossary/ui-types.md) to show
   - What filtering options to support for each type
   - What grouping options to support for each type
   - What display options to support for each type
@@ -33,17 +33,17 @@ If the candidate is interested, it would be great to also have the types integra
 
 ## Resources
 - Data Types in Mathesar:
-  - [Data Types "Concepts" page](/archive/product/concepts/data-types)
-  - [Mathesar UI Data Types engineering page](/engineering/glossary/ui-types)
-- [Existing Data Type components design spec](/archive/product/design/specs/global-data-type-components), to see how current data types work.
+  - [Data Types "Concepts" page](../../../archive/product/concepts/data-types.md)
+  - [Mathesar UI Data Types engineering page](../../../engineering/glossary/ui-types.md)
+- [Existing Data Type components design spec](../../../archive/product/design/specs/global-data-type-components.md), to see how current data types work.
 - Filters in Mathesar:
-  - [Filters "Concepts" page](/archive/product/concepts/filters)
-  - [Filters engineering page](/engineering/glossary/filters)
+  - [Filters "Concepts" page](../../../archive/product/concepts/filters.md)
+  - [Filters engineering page](../../../engineering/glossary/filters.md)
 - [PostgreSQL types documentation](https://www.postgresql.org/docs/current/datatype.html)
 
 
 ## Mentors
 - **Primary Mentor**: Kriti Godey
-- **Backup Mentor**: Dominykas Mostauskis 
+- **Backup Mentor**: Dominykas Mostauskis
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

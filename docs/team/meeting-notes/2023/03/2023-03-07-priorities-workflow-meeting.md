@@ -33,15 +33,15 @@ How we do this:
 - Mukesh
     > "Fix issues people report and make releases quickly"
   -  Prioritizing features to build
-        - We have features requests which would take us in a different direction, for example changing our current install script meant for easy one-click installation where users let us do the necessary steps needed to run mathesar to a detailed multi-step process where we inform the user what is being done. I don't want us to chase two rabbits at time. 
+        - We have features requests which would take us in a different direction, for example changing our current install script meant for easy one-click installation where users let us do the necessary steps needed to run mathesar to a detailed multi-step process where we inform the user what is being done. I don't want us to chase two rabbits at time.
 - Brent
     - We need to cultivate our user feedback
         - Consider where and how we're trying to get feedback
         - Try and present ourselves in a way to gather useful feedback
-        - Guide users into giving useful feedback (problems, not features) 
+        - Guide users into giving useful feedback (problems, not features)
 - Pavish: SaaS userbase may not care about the same things as hosted version
 - Anish
-    - Will it help us to look at feedback from other mature alternatives like(Airtable, Baserow and so.) to prioritize what features we should implement? 
+    - Will it help us to look at feedback from other mature alternatives like(Airtable, Baserow and so.) to prioritize what features we should implement?
     - Maybe we can prioritise features that people have been asking for a long time but it hasn't yet been implemented.
     - Right now we'll prioritize feedback from people actually using Mathesar. But later we'll try to branch out and get more feedback from other users too.
 
@@ -67,7 +67,7 @@ Projects have the following attributes:
 
 ### Process
 - We set up a place on the wiki to document projects.
-- We have regular meetings/emails to decide on what projects we're going to work on, and who will own them. 
+- We have regular meetings/emails to decide on what projects we're going to work on, and who will own them.
 - The owner writes up a document following the project template. The detail in the document should match the timeline of the project
     - e.g. a 1 week project needs less detail; a 6 week project needs more
 - Contributors and approvers review & approve the project.
@@ -86,7 +86,7 @@ Projects have the following attributes:
     - Writing the full technical spec is part of the project implementation
     - Kriti: specs don't need to be too involved for smaller projects. Could be similar to what we write for a GSoC project idea
 - Mukesh
-    - Can we add a pre-requisite attribute? This will give us an idea of the timeline. 
+    - Can we add a pre-requisite attribute? This will give us an idea of the timeline.
     - Sean: I think projects should be as self-contained as possible.
     - Kriti: Sure -- the project attributes listed above are only the "required" attributes. We can add other attributes to specific projects as needed.
 - Projects can only have one owner

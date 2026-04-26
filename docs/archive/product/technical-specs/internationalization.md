@@ -197,7 +197,7 @@ Other options:
 
 **Translations update workflow**
 
-Any change in the base language(English) text will require the developer to notify the translator via the translation service([Transifex](https://transifex.com/)). This will be part of the developer docs as well as the guidelines for translators mentioned in the project [proposal](/archive/product/projects/2023/07/internationalization).
+Any change in the base language(English) text will require the developer to notify the translator via the translation service([Transifex](https://transifex.com/)). This will be part of the developer docs as well as the guidelines for translators mentioned in the project [proposal](../projects/2023/07/internationalization.md).
 
 ### Development Tooling
 

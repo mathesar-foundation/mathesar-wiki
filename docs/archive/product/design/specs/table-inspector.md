@@ -81,9 +81,9 @@ Actions:
 - Explore Data
 - Delete Table
 
-![image](/assets/archive/product/design/specs/table-inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183378847-b942ecd3-6f3c-4cd4-8cc4-3080a041b2a4.png)
 
-![image](/assets/archive/product/design/specs/table-inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183380108-b3db8d3b-7301-4a19-bc38-cd777a4dde46.png)
 
 ### Column Mode
 
@@ -107,9 +107,9 @@ Actions:
 - Extract Columns to Table
 - Delete column
 
-![image](/assets/archive/product/design/specs/table-inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183432613-ead6315e-3802-4345-9427-820c66094797.png)
 
-![image](/assets/archive/product/design/specs/table-inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183433425-9a906a91-28a4-4045-9300-732af811ed8d.png)
 
 ### Record Mode
 
@@ -120,13 +120,13 @@ Actions:
 - Delete Record
 - Duplicate Record
 
-![image](/assets/archive/product/design/specs/table-inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183444464-fb268bfc-77e2-45cf-9180-373cf950ca63.png)
 
 ### Cell Mode
 
 Shown when inspector mode is set to `Cell`.
 
-![image](/assets/archive/product/design/specs/table-inspector/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/183445209-a2d7bf2c-453b-4cae-84e8-94b645ce9271.png)
 
 ## User interactions inside a mode
 
@@ -140,7 +140,7 @@ The UI inside the modes can be divided into exactly two sections
 
 Ideally any fields that do DDL operation should have an "Edit" button, then "Save" and "Cancel" button to persist or discard the changes. But for the sake speed in this spec, any operation DDL that currently works without a "Save" button should continue to do so.
 
-Inline saving and editing requires the implementation of new UI interactions so that the user can toggle the 'Edit' mode and save or discard the changes. Details on this are provided in the [Inline Saving Spec](/archive/product/design/specs/inline-save-edit) spec.
+Inline saving and editing requires the implementation of new UI interactions so that the user can toggle the 'Edit' mode and save or discard the changes. Details on this are provided in the [Inline Saving Spec](./inline-save-edit.md) spec.
 
 - Any operation that currently has a save button should have a "Save" button and an accompanying "Edit" button.
 - The operations that currently do not support a "Save" button will remain a single-click operation.
@@ -163,7 +163,7 @@ The actions, when clicked, should open a modal dialog with the corresponding act
 
 I think the 'Actions' panel could include the data modeling suggestions in the future. It could also include shortcuts to create queries that include the filters set in a table or the group options into a summary.
 
-![image](/assets/archive/product/design/specs/table-inspector/182186186-91449400-5608-42a2-8f05-33506cb2532b.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/182186186-91449400-5608-42a2-8f05-33506cb2532b.png)
 
 ### Selection Modes
 
@@ -208,18 +208,18 @@ Users would be better served if the software could support keyboard controls. We
 
 To make the table inspector's user interface more flexible, it should have expandable parts that can be collapsed and scrolled to.
 
-![image](/assets/archive/product/design/specs/table-inspector/182355968-c9129949-344a-4e41-a685-90700a816141.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/182355968-c9129949-344a-4e41-a685-90700a816141.png)
 
 ### Examples
 
 #### Retool
 
-![d1568b5ad2e1ce13d51ad419e60b8fdb0b7238c8](/assets/archive/product/design/specs/table-inspector/182356613-1b222a0b-f77f-4a15-a9df-84ed874ce5f3.gif)
+![d1568b5ad2e1ce13d51ad419e60b8fdb0b7238c8](../../../../assets/archive/product/design/specs/table-inspector/182356613-1b222a0b-f77f-4a15-a9df-84ed874ce5f3.gif)
 
 #### Palantir
 
-![image](/assets/archive/product/design/specs/table-inspector/182356749-88273bdb-d4c8-4495-9aa8-c10816171059.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/182356749-88273bdb-d4c8-4495-9aa8-c10816171059.png)
 
 #### Balsamiq
 
-![image](/assets/archive/product/design/specs/table-inspector/182357016-aba81b9e-a45a-4466-808a-6e4963a01038.png)
+![image](../../../../assets/archive/product/design/specs/table-inspector/182357016-aba81b9e-a45a-4466-808a-6e4963a01038.png)

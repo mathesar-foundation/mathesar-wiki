@@ -39,7 +39,7 @@ The strategies outlined below are the result of research and discussions with Br
 
 ### Editable Explorations
 
-Develop a feature that allows users to directly click and edit values within the exploration view, similar to the functionality of a spreadsheet. 
+Develop a feature that allows users to directly click and edit values within the exploration view, similar to the functionality of a spreadsheet.
 
 - Enable direct within-exploration editing for managing and modifying data in the related tables.
 - Design the interface to visually represent editable areas, consistently distinguishing them from non-editable summary fields.

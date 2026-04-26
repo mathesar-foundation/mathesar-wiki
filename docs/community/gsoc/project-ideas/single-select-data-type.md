@@ -39,7 +39,7 @@ The Mathesar UI has the concept of links between tables. Links create a new colu
 - Users should be able to find the "single select" option easily when creating a new link
 
 ## UX Design Problems
-- What new options will the table inspector need? 
+- What new options will the table inspector need?
 - How do we choose colors for each choice?
 - How do we distinguish tables that are being used for choices in the UI?
 	- Should we distinguish them when they are in a list or only on the table page?
@@ -47,7 +47,7 @@ The Mathesar UI has the concept of links between tables. Links create a new colu
 
 ## Tasks
 1. Write a UX design document describing the manner in which the single select field will be incorporated into Mathesar's UI. Then work with the front end team and product designer to solidify the UX design.
-1. Write an API spec to 
+1. Write an API spec to
     1. store and retrieve information about whether a column is a regular FK or a single select field.
     2. store color information for linked records
 1. Get feedback from the back end team to solidify the API behavior.

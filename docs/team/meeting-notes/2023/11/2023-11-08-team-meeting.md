@@ -42,7 +42,7 @@
 
 ## Product process
 
-- **Added by**: Kriti 
+- **Added by**: Kriti
 
 In the last meeting, Sean brought up having a process to quickly move product work forward. When new work is proposed (either internally or externally):
 - First we need to decide _if_ we want to do it
@@ -101,7 +101,7 @@ This conundrum reminds me of this HN thread from last week: [The product manager
 
 ## GitHub issues workflow
 
-- **Allocated time**: 
+- **Allocated time**:
 - **Added by**: Sean
 
 Potential questions (written by Kriti)
@@ -114,7 +114,7 @@ Potential questions (written by Kriti)
     - A place for contributors to find issues
 - Issues vs. discussions
     - Should we use both?
-- How should we track design issues in GitHub? 
+- How should we track design issues in GitHub?
     - What about frontend issues that include design spec?
 - GitHub project
     - Should we be using this to track work?

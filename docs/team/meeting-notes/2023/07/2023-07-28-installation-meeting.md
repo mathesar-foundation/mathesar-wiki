@@ -1,10 +1,10 @@
 # 2023-07-28 installation meeting
 
 ## Links
-- [Meeting notes: Parts I & II](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting)
-- [Meeting notes: Part III](/team/meeting-notes/2023/07/2023-07-06-installation-meeting)
-- [Meeting notes: Part IV](/team/meeting-notes/2023/07/2023-07-11-installation-meeting)
-- [2023-07 installation improvements project page](/archive/product/projects/2023/07/installation-improvements-0_1_3)
+- [Meeting notes: Parts I & II](../06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](./2023-07-06-installation-meeting.md)
+- [Meeting notes: Part IV](./2023-07-11-installation-meeting.md)
+- [2023-07 installation improvements project page](../../../../archive/product/projects/2023/07/installation-improvements-0_1_3.md)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## Pre-meeting prep
@@ -16,7 +16,7 @@ Please read the following proposed outline for the documentation
   - Considered to be used for production, so all best practices like using Postgres as internal db, env variables are used by default
 
 ### Table of contents
-- Introduction & Overview 
+- Introduction & Overview
     - Content: homepage of docs.mathesar.org
 - Installation
     - Install with Docker
@@ -38,7 +38,7 @@ Please read the following proposed outline for the documentation
     - Install with Helm
         - Content: Instructions for using Helm Chart
         - Persona: Install on existing infrastructure [MEDIUM]
-    - [...same pattern will apply for future installs] 
+    - [...same pattern will apply for future installs]
 - Configuration
     - Environment variables
     - Connecting to DBs on localhost
@@ -231,7 +231,7 @@ Personas are fine, see additional detail added above.
 - Figure out as a team how we want to manage our DockerHub repo and tags
     - There are a bunch of different strategies
 - Reassess Docker version requirements once we do a single Docker image
-    - We only have a stringent version requirement because of Docker Compose, which we don't plan to use 
+    - We only have a stringent version requirement because of Docker Compose, which we don't plan to use
 - Building static files
     - If it's possible to build static files as part of the release assets in e.g. https://github.com/centerofci/mathesar/releases/tag/0.1.2, we should do that
     - Single source of truth for release assets

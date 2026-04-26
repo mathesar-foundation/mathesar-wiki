@@ -22,7 +22,7 @@ If a table within the open schema has unsaved changes, a warning will inform the
 ### Persist Tabs for Schemas
 The status of tabs should be persistent when reopening a schema.
 
-![](/assets/archive/product/design/specs/database-switching/qMsmiZo.png)
+![](../../../../assets/archive/product/design/specs/database-switching/qMsmiZo.png)
 
 ### Missing Default Database
 When opening Mathesar, the default database is the one that was most recently open. If this database no longer exists, then Mathesar should show an error message and direct the user to open a different database or troubleshoot the connection.
@@ -31,12 +31,12 @@ When opening Mathesar, the default database is the one that was most recently op
 ### Indicating Tables with Errors
 If a table contains errors, the interface should help identify those by adding a visual indicator to the corresponding tab.
 
-![](/assets/archive/product/design/specs/database-switching/mCwwg8S.png)
+![](../../../../assets/archive/product/design/specs/database-switching/mCwwg8S.png)
 
 ### Showing Recent Objects
 A list of recent objects is available to help users access their most frequently used objects, such as tables and views.
 
-![](/assets/archive/product/design/specs/database-switching/0vScHwP.png)
+![](../../../../assets/archive/product/design/specs/database-switching/0vScHwP.png)
 
 ## User Interface
 
@@ -44,7 +44,7 @@ A list of recent objects is available to help users access their most frequently
 The database navigation menu provides a context for the various databases and schemas that users can access through Mathesar.
 From this menu, the user can search through all databases and navigate to schemas.
 
-![](/assets/archive/product/design/specs/database-switching/JGIqCOi.png)
+![](../../../../assets/archive/product/design/specs/database-switching/JGIqCOi.png)
 
 ## Review Notes
 ### Database Names

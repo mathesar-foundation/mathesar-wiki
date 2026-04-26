@@ -42,14 +42,14 @@ Discussion:
 - Sean: Would be nice to name the cycle something absolute rather than relative
     - For now, we can name them after the release
     - Official cycle name for _this_ cycle: Cycle 0.1.4
-    
+
 
 ## Release 0.1.3 check in
 - Who can take this over from Rajat?
     - Brent will take this over
 - Also do we have anyone taking over repo admin?
     - Sean will take this over
-- It's important to test the images 
+- It's important to test the images
     - especially make sure login and import upload pages work
     - Pavish will help release owner know what to test
 - Issue: https://github.com/centerofci/mathesar/issues/3149

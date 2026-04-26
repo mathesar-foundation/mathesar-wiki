@@ -1,7 +1,7 @@
 # Formulas Research
 
 **Name**: Formulas Research
-**Status**: Done (see the [report](/archive/product/research/formulas))
+**Status**: Done (see the [report](../../../research/formulas.md))
 
 ## Team
 
@@ -12,7 +12,7 @@
 ## Problem
 
 - Our roadmap includes [Support for calculated columns in tables](https://github.com/mathesar-foundation/mathesar/discussions/2271)
-- Dhruvi produced a preliminary [UX design](/archive/product/design/specs/add-formula-column) last year to consider how we might add support for formulas within the Data Explorer.
+- Dhruvi produced a preliminary [UX design](../../../design/specs/add-formula-column.md) last year to consider how we might add support for formulas within the Data Explorer.
 - We lack a documented understanding of the ways in which our competitors are using formulas.
 - We lack a documented understanding of the Postgres features (and their limitations) that we might utilize to implement formulas.
 

@@ -1,6 +1,6 @@
 # Column Moving Improvements
 
-**Status**: Draft 
+**Status**: Draft
 **Review status**: Draft
 **Theme**: Data modeling features
 
@@ -19,7 +19,7 @@ It came to my attention during RSQLA1 that our column extraction and moving feat
 
 The column moving operation has the potential for data loss, or at least for jumbling up the link in certain edge cases, e.g., if the foreign key was created outside of Mathesar and is on a text column rather than integer.
 
-The column moving operation is one-way only. Currently, you can only move columns along a foreign key link from the referrer table to the referenced table. E.g., from a remainder table to an extracted table. This asymmetry is not portrayed to the user, and they could easily tinker themselves into an irreversible situation. 
+The column moving operation is one-way only. Currently, you can only move columns along a foreign key link from the referrer table to the referenced table. E.g., from a remainder table to an extracted table. This asymmetry is not portrayed to the user, and they could easily tinker themselves into an irreversible situation.
 
 Merging tables is not available from the UI. This means you can't un-extract your columns.
 
@@ -49,7 +49,7 @@ If you extract or move some portion of the columns involved in a multi-column co
 
 It's not possible to extract a non-orderable set of columns, or rather when doing so you end up jumbling up the foreign key links. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1490).
 
-If you try to extract a column referenced by a foreign key column, we currently throw an error, and fail. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1433). 
+If you try to extract a column referenced by a foreign key column, we currently throw an error, and fail. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1433).
 
 If you extract columns from the middle of a table, the new foreign key column is still the last column of the table. See [the issue](https://github.com/mathesar-foundation/mathesar/issues/1681).
 

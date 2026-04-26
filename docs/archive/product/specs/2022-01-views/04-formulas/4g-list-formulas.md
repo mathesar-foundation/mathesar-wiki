@@ -28,7 +28,7 @@ Turns two lists into one big list.
         - **Type**: Single Record List-Like
         - **Description**: Second list
 - **Editable?**: No
-- **PostgreSQL Mapping**: `||` operator 
+- **PostgreSQL Mapping**: `||` operator
 
 ## Contains List
 Checks if all items in a list are also in another list.
@@ -42,7 +42,7 @@ Checks if all items in a list are also in another list.
         - **Type**: Single Record List-Like
         - **Description**: List whose items should be contained in the other list
 - **Editable?**: No
-- **PostgreSQL Mapping**: `@>` operator 
+- **PostgreSQL Mapping**: `@>` operator
 
 ## Contains Item
 Checks if a specific item is in a list.
@@ -56,7 +56,7 @@ Checks if a specific item is in a list.
         - **Type**: Same as data type of the List
         - **Description**: Item to check
 - **Editable?**: No
-- **PostgreSQL Mapping**: `IN` construct 
+- **PostgreSQL Mapping**: `IN` construct
 
 ## Overlap
 Checks if two lists have any items in common.
@@ -70,7 +70,7 @@ Checks if two lists have any items in common.
         - **Type**: Single Record List-Like
         - **Description**: Second list
 - **Editable?**: No
-- **PostgreSQL Mapping**: `&&` operator 
+- **PostgreSQL Mapping**: `&&` operator
 
 ## Convert to Text
 Converts a list into text.
@@ -87,9 +87,9 @@ Converts a list into text.
     - **NULL text**:
         - **Type**: Text
         - **Description**: What to show null values as
-        - **Default Value**: `` (NULL values will not be shown at all)     
+        - **Default Value**: `` (NULL values will not be shown at all)
 - **Editable?**: No
-- **PostgreSQL Mapping**: `array_length` function 
+- **PostgreSQL Mapping**: `array_length` function
 
 ## Length
 Returns the count of a list
@@ -100,4 +100,4 @@ Returns the count of a list
         - **Type**: Single Record List-Like
         - **Description**: List to count
 - **Editable?**: No
-- **PostgreSQL Mapping**: `array_length` function 
+- **PostgreSQL Mapping**: `array_length` function

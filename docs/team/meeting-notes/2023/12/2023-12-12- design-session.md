@@ -22,7 +22,7 @@ The challenge in choosing between these ideas is that we don't have clarity on w
 - **Compatibility with Non-Editable Records**: In future versions, should Mathesar allow users to create read-only, shareable views, linked records would be accessible only for viewing details. The chosen interaction should not limit its usability.
 - **Data Entry Focus:** Focusing on the editing form as the primary element of the UI is beneficial for data entry workflows. Our surveys showed users had interest in data entry via forms.
 - **Record Page and Form Interactions:** Some inconsistencies might arise when users access these controls from the record page or the editing form. The solution needs to consider how the controls will work in different presentation modes for records.
-- **Multiple Link Records:** If in the future we allow users to create multiple link records, then we'll need to consider how to handle the UI for editing multiple link records. 
+- **Multiple Link Records:** If in the future we allow users to create multiple link records, then we'll need to consider how to handle the UI for editing multiple link records.
 - **Lack of Undo:** Given the current absence of an undo feature in Mathesar, it's important to minimize the likelihood of accidental edits, for example, a user thinking he's editing an instance of a record and not the record in another table.
 - **Contextual Menu Discoverability:** The design should consider the potential issue of users not discovering or remembering the functionalities hidden within contextual menus.
 - **Keyboard Navigation:** Ideally, users should be able to edit and replace records using keyboard-only navigation.
@@ -79,12 +79,12 @@ Given that Idea 1 and Idea 2 serve different user needs, a third idea would be t
 
 ## Actions we need to support
 - Add a new linked record
-    - Editing current table 
+    - Editing current table
     - Editing the other table
 - De-link linked record
-    - Editing only current table 
+    - Editing only current table
 - Swap linked record for a different linked record
-    - Editing only current table 
+    - Editing only current table
 - Edit underlying record
     - Editing the other table
 - Navigate to record page

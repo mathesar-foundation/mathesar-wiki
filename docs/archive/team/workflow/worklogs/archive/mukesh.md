@@ -70,7 +70,7 @@ Had a day off due to sickness
 - Merge Anish Database connection API PR
 
 # 2023-10-02
-- Send email on choosing the Debian build platform 
+- Send email on choosing the Debian build platform
 - Reply to the "Best installation method for helping people install Mathesar" email
 - Fix the Build from source documentation
 
@@ -79,7 +79,7 @@ Had a day off due to sickness
 - Reply to the install.py issue
 - Took the day off as I wasn't well
 - Partially attended the core team event
-  
+
 # 2023-09-28
 - Finally fixed the issues with building on a Debian build platform
 - Started writing email summarising Debian build platform options.
@@ -113,13 +113,13 @@ Had a day off due to sickness
 ## 2023-09-20
 - Use the Postgres docker image in Github CI test suite
 - Async discussion with Anish to help with fixing the SQLite migration issue
-- Merge [SQLite support for internal database](https://github.com/centerofci/mathesar/pull/3203) 
+- Merge [SQLite support for internal database](https://github.com/centerofci/mathesar/pull/3203)
 - Merge [Debian package script](https://github.com/centerofci/mathesar/pull/3189)
 
 
 ## 2023-09-19
 - Create PR to [Update Docker installation instructions based on the updated installation plan ](https://github.com/centerofci/mathesar/pull/3212)
-- Check in with Anish on the SQlite PR tests  
+- Check in with Anish on the SQlite PR tests
 - Check in with Rajat
 - Check in with Sean
 
@@ -140,7 +140,7 @@ Had a day off due to sickness
 - Async check in with Brent
 
 ## 2023-09-13
-- Review Anish backend credentials API PR 
+- Review Anish backend credentials API PR
 - Sync with Pavish and Ghislaine
 - Sync with Anish on the backend credentials PR
 - Async check in Rajat
@@ -226,7 +226,7 @@ Had a day off due to sickness
 
 ## 2023-08-25
 - Sync with Kriti
-- Work on adding a debian package 
+- Work on adding a debian package
 
 ## 2023-08-24
 - Created various issues to track the Installation Improvement Project 0.1.4
@@ -273,7 +273,7 @@ Had a day off due to sickness
 
 ## 2023-08-15
 - Review the PR's opened by Varsha to unblock some of her work
-- Wrote the guidelines for the Installation project spec 
+- Wrote the guidelines for the Installation project spec
   - Split the project into two, one for laying the groundwork and the other for documentation
 - Read through "Installing on user db email"
 
@@ -319,14 +319,14 @@ Had a day off due to sickness
 
 - Sync with Brent
 - Team Event
-- Debug issues with the debian package 
+- Debug issues with the debian package
 
 
 ## 2023-08-03
 
 - Make requested changes to [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
 - Review Column splitting PR
-- Add documentation changes to the Superuser create PR 
+- Add documentation changes to the Superuser create PR
 - Check in with Rajat on the superuser create PR
 
 
@@ -334,7 +334,7 @@ Had a day off due to sickness
 
 - Make requested changes to [Add Postgres to Mathesar docker image](https://github.com/centerofci/mathesar/pull/3121#top)
 - Review Column splitting PR
-- Add documentation changes to the Superuser create PR 
+- Add documentation changes to the Superuser create PR
 - Check in with Rajat on the superuser create PR
 
 ## 2023-08-02
@@ -383,7 +383,7 @@ Had a day off due to sickness
 - Review some of Varsha's PR
 - Split tasks in the [Installation Improvement Project](https://github.com/centerofci/mathesar/issues/3058 ) into feature complete and feature incomplete tasks
 - Check with Ghislaine on the design work for superuser create page
-- Open PR for the Django superuser creation page 
+- Open PR for the Django superuser creation page
 - Sync with Kriti
 
 ## 2023-07-24
@@ -422,9 +422,9 @@ Had a day off due to sickness
 
 ## 2023-07-14
 
-- Update the Installation Project proposal 
+- Update the Installation Project proposal
 - Had a sync call with Brent
-- Took a day off 
+- Took a day off
 
 ## 2023-07-13
 
@@ -453,6 +453,6 @@ Had a day off due to sickness
 
 ## 2023-07-07
 
-- Filter out the installation solutions specific for the targeted groups 
+- Filter out the installation solutions specific for the targeted groups
 - Sync with Brent
 - Core Team event

@@ -19,7 +19,7 @@
 
 ## Problem
 
-SQLAlchemy is a fantastic piece of software, but it's becoming less suitable to our needs as the project evolves. In particular, we've found it to be weak and inefficient for our use case which doesn't assume a stable underlying data model at any point. This means we have to constantly reflect the database state in order to perform operations on it, and maintaining this reflection of the database has become more and more burdensome. 
+SQLAlchemy is a fantastic piece of software, but it's becoming less suitable to our needs as the project evolves. In particular, we've found it to be weak and inefficient for our use case which doesn't assume a stable underlying data model at any point. This means we have to constantly reflect the database state in order to perform operations on it, and maintaining this reflection of the database has become more and more burdensome.
 
 Our use of SQLAlchemy in this project is slowing down development, and indeed slowing down the performance of the app in a massive way.
 

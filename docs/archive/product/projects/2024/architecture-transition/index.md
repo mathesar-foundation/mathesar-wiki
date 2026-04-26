@@ -46,7 +46,7 @@ To get the table info in a schema using our current architecture,
 
 1. The web service determines which connection to use with the User DB by querying for which `Database` model (called connections in the API) the requested schema lives under, and asking that model to give it a connection string.
 
-1. The web service then gathers the following info _for each table_ by querying the User DB. These queries are initiated by `@property` annotations in the Django models. 
+1. The web service then gathers the following info _for each table_ by querying the User DB. These queries are initiated by `@property` annotations in the Django models.
 
     - `name`
     - `description` -- The comment (description) of the table, defined in the User DB.
@@ -63,7 +63,7 @@ To get the table info in a schema using our current architecture,
     - `type`
     - `type_options` -- e.g., the precision specified for a `numeric` column
 
-All of this gets joined together, then sent back as a response from the API. 
+All of this gets joined together, then sent back as a response from the API.
 
 With the new architecture, to get the same info,
 
@@ -71,7 +71,7 @@ With the new architecture, to get the same info,
 
 1. The web service uses the `user` and `database` (the user is picked up from the request object) to acquire a connection string.
 
-1. Using that connection, the web service calls a PL/pgSQL function installed on the User DB called `get_schema_table_details` to gather 
+1. Using that connection, the web service calls a PL/pgSQL function installed on the User DB called `get_schema_table_details` to gather
 
     - `name`
     - `description`
@@ -95,7 +95,7 @@ With the new architecture, to get the same info,
     - `display_options`
 
 We then join all of this together, and return it as a response from the API.
-    
+
 The fundamental difference is that in the current version, we use foreign keys between Django models to find tables for the schema, then columns for each table. Then all queries on the User DB are initiated by functions on these model instances. In the new version, we instead run a query on the User DB to gather all relevant table and column info available on that DB, then enrich that data with metadata stored in non-foreign-key-linked metadata models in the Django DB.
 
 ## Introduction to relevant layers
@@ -132,7 +132,7 @@ This library should mostly serve to provide thin wrapper functions around the Us
 
 This service should provide an JSON-RPC API for use by the front end. When an API function is called, the service should:
 
-- Grab an appropriate engine from the by combining the `user` associated with the request with the `database`. See the [models](models.md) page for more detail.
+- Grab an appropriate engine from the by combining the `user` associated with the request with the `database`. See the [models](./models.md) page for more detail.
 - Call the relevant `db` library function (should be only one in most cases).
 - Gathers data from the service database via models if needed (this is for metadata that's inappropriate for storage in the User DB for some reason)
 - Returns it to the API

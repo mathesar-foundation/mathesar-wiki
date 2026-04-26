@@ -32,15 +32,15 @@ The URL should be used to display the navigation structure to users. It should b
 
 ### Top Navigation Bar
 
-![image](/assets/archive/product/design/specs/navigation-updates/180155893-8e997029-6397-4b56-b4d6-8515668b6f3e.png)
+![image](../../../../assets/archive/product/design/specs/navigation-updates/180155893-8e997029-6397-4b56-b4d6-8515668b6f3e.png)
 
 Every page has a top-level global navigation bar. Users may add new items or jump to existing ones from the top navigation bar.
 
 #### Jump List and Search
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/845767/179805725-f1ff5ed4-155f-43d5-8874-9c988243e737.png">
+![179805725-f1ff5ed4-155f-43d5-8874-9c988243e737.png](https://user-images.githubusercontent.com/845767/179805725-f1ff5ed4-155f-43d5-8874-9c988243e737.png){ width="600" }
 
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/845767/179806192-47b43b43-0ded-4053-a06a-7be49b805006.png">
+![179806192-47b43b43-0ded-4053-a06a-7be49b805006.png](https://user-images.githubusercontent.com/845767/179806192-47b43b43-0ded-4053-a06a-7be49b805006.png){ width="300" }
 
 1. Input Control
 
@@ -68,13 +68,13 @@ Every page has a top-level global navigation bar. Users may add new items or jum
 
 The breadcrumbs are shown on all pages and indicate the current location in the context of the navigation path. For example, the user would see the current record, preceded by the table, schema, and database to which that record belongs while they're on a specific record page.
 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/845767/179806555-51e89d56-e584-4632-b52a-28154fa5c242.png">
+![179806555-51e89d56-e584-4632-b52a-28154fa5c242.png](https://user-images.githubusercontent.com/845767/179806555-51e89d56-e584-4632-b52a-28154fa5c242.png){ width="800" }
 
 The breadcrumbs are shown on all pages and indicate the current location in the context of the navigation path. For example, the user would see the current record, preceded by the table, schema, and database to which that record belongs while they're on a specific record page.
 
 ### Table Row Links
 
-![image](/assets/archive/product/design/specs/navigation-updates/180157771-7e98353c-544d-4681-bb04-0f0a3efb10d3.png)
+![image](../../../../assets/archive/product/design/specs/navigation-updates/180157771-7e98353c-544d-4681-bb04-0f0a3efb10d3.png)
 
 Users may use tables to go to a specific record page. Each row's primary key cell has a link to the record that the user may access by clicking on it.
 
@@ -82,19 +82,19 @@ Users may use tables to go to a specific record page. Each row's primary key cel
 
 1. Record Navigation
 
-    ![image](/assets/archive/product/design/specs/navigation-updates/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
+    ![image](../../../../assets/archive/product/design/specs/navigation-updates/180193437-ca7d0358-e3d9-4118-be8d-bbba95135b5c.png)
 
     When on a record page, you may use the record navigation controls to move between records. Included are options for going through the records sequentially or jumping to a specific record.
 
 1. Linked Fields
 
-    ![image](/assets/archive/product/design/specs/navigation-updates/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
+    ![image](../../../../assets/archive/product/design/specs/navigation-updates/180197191-e7607eac-105b-4ee6-a0fe-68ee40bfff84.png)
 
     When fields with foreign keys are shown on the record page, the links to the tables they relate to be clickable by the user.
 
 ### Data Explorer
 
-![image](/assets/archive/product/design/specs/navigation-updates/180244256-3594fb03-21dd-4194-b812-e1f51975f796.png)
+![image](../../../../assets/archive/product/design/specs/navigation-updates/180244256-3594fb03-21dd-4194-b812-e1f51975f796.png)
 
 Users may access Data Explorer from various locations and as part of the following flows:
 

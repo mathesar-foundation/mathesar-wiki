@@ -35,7 +35,7 @@
 - Some issues reported by Google search console
     - Just for mathesar.org, not for demo (or staging)
 - Got great feedback on current version of website
-- We should probably update website copy to mention SaaS version coming soon + 
+- We should probably update website copy to mention SaaS version coming soon +
 - Add social proof section of website
     - Testimonials
     - Feedback quotes
@@ -44,7 +44,7 @@
 - Usability note:
     - How to get back to the site from the demo?
     - Maybe even for general installations of the app.
-    
+
 ### Analytics
 - Nice to put some on live demo website
 - Mukesh will work on this after Kriti creates an issue
@@ -54,7 +54,7 @@
 - Only useful for demo at the moment, need to think about self-hosted
 
 ### Users & Permissions QA
-- Anish will document what needs to be tested 
+- Anish will document what needs to be tested
 - Kriti will provide feedback
 
 ### Launch milestone updates

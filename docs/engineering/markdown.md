@@ -16,7 +16,7 @@ This page recommends guidelines to follow when writing Markdown in order to keep
 
 !!! tip "Tip: how to handle embedded content with two-space indentation"
     In some cases it can be helpful to keep your _text editor_ set to indent by _two_ spaces (and to manually indent everything by double that amount). For example, if you're authoring content which includes a code block of JSON or TypeScript that has two-space indentation within it, then if you indent that code block within a markdown list the code indentation can get messed up if your text editor is set to indent the markdown by four spaces.
-    
+
 ## Line breaks
 
 - Do not insert line breaks mid-paragraph.
@@ -40,9 +40,9 @@ This page recommends guidelines to follow when writing Markdown in order to keep
 
 !!! question "Rationale: 💼 Portability"
     Markdown rendering platforms have inconsistent behavior for paragraphs containing line breaks.
-    
+
     For example, when a paragraph contains a line break:
-    
+
     - GitHub inserts a `<br>` tag
     - MkDocs ignores the line break
 
@@ -118,12 +118,13 @@ When a Markdown page links to another Markdown page, follow these patterns:
 
 | Type | Example |
 | - | - |
+| Relative sibling | `[Lorem ipsum](./lorem.md)` |
 | Relative child | `[Lorem ipsum](./foo/lorem.md)` |
 | Relative ancestor | `[Lorem ipsum](../../lorem.md)` |
-| Absolute path | `[Lorem ipsum](/foo/bar/lorem)` |
-| Index page | `[Lorem ipsum](/foo/bar/lorem/index)` |
+| Index page | `[Lorem ipsum](./foo/bar/index.md)` |
 | Section in current page | `[Lorem ipsum](#lorem-ipsum)` |
 | Section in different page | `[Lorem ipsum](./foo/bar.md#lorem-ipsum)` |
+| Media / file | `![Diagram](../assets/example.png)` |
 
 **❌ Bad** examples:
 
@@ -135,15 +136,16 @@ When a Markdown page links to another Markdown page, follow these patterns:
 
 !!! question "Rationale: 🛠️ Maintainability"
     - Following the rules above helps us avoid broken links.
-    - MkDocs will detect broken links when building books, but only if the links are absolute and end with `.md`.
+    - MkDocs validates source-relative links and rewrites them correctly in the built site.
     - Using consistent syntax helps us to more easily find-and-replace links when moving pages.
+    - Prefer Markdown syntax for internal links and images because MkDocs does not validate or rewrite raw HTML URLs.
 
 !!! tip "Tip: Custom heading anchors"
     We use the [Attribute Lists](https://python-markdown.github.io/extensions/attr_list/) extension within our MkDocs guides to enable custom named anchors for headings. Use it like this:
 
     ```md
     ## Section A {:#a}
-    
+
     See [section B](#b) in order to...
 
     ## Section B {:#b}

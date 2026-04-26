@@ -1,6 +1,6 @@
 # Avoiding regressions
 
-**Status**: Draft 
+**Status**: Draft
 **Review status**: Draft
 **Theme**: code quality, user experience, developer experience
 
@@ -43,7 +43,7 @@ TODO
 - **Wiki pages**:
   - [Product spec]()
   - [Backend spec]()
-  - [Frontend spec]()  
+  - [Frontend spec]()
 - **Email discussions**:
 	- [Project approval discussion]()
   - [Weekly updates]()

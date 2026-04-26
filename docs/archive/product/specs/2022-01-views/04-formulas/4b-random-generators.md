@@ -22,7 +22,7 @@ These formulas generate random data.
 - **Date Editable?**: No
 
 ### Implementation
-We should build a custom function using the `random()` PostgreSQL function. 
+We should build a custom function using the `random()` PostgreSQL function.
 
 [Docs are here](https://www.postgresql.org/docs/current/functions-math.html), see Table 9.6.
 
@@ -34,6 +34,6 @@ We should build a custom function using the `random()` PostgreSQL function.
 - **Date Editable?**: No
 
 ### Implementation
-The `gen_random_uuid()` PostgreSQL function. 
+The `gen_random_uuid()` PostgreSQL function.
 
 [Docs are here](https://www.postgresql.org/docs/current/functions-uuid.html).
