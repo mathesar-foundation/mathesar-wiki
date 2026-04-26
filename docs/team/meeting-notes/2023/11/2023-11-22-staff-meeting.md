@@ -71,7 +71,7 @@ Next week
 ### Pavish
 **General**:
 
-- I was out sick for a couple days, so progress was slower than usual. 
+- I was out sick for a couple days, so progress was slower than usual.
 
 **I18n**:
 
@@ -121,7 +121,7 @@ We should set up regular calls to discuss the following:
 
 - Product specs
     - This could be like the "design sessions" but focused on "product specs"?
-    - Permissions / architecture 
+    - Permissions / architecture
 - Implementation specs
 - Product strategy
     - Higher level
@@ -157,7 +157,7 @@ Meetings based on ticket needs
     - Async
 - Unblocking
     - Async
-- User feedback 
+- User feedback
     - Async
 
 Meetings based on other needs

@@ -23,7 +23,7 @@ Successful applicants will read all available information about Mathesar, be abl
 The [Google Summer of Code contributor guide](https://google.github.io/gsocguides/student/) is a great introduction to what goes into being a GSoC Contributor. The rest of this document assumes you're familiar with its contents.
 
 ### Step 2: Learn about Mathesar
-You'll need to understand Mathesar well in order to submit a successful application. 
+You'll need to understand Mathesar well in order to submit a successful application.
 
 Mathesar is a new project and we're still working towards releasing our first version. The best ways to learn about us is to:
 
@@ -31,9 +31,9 @@ Mathesar is a new project and we're still working towards releasing our first ve
 - Read about Mathesar on our [main website](https://mathesar.org).
 
 ### Step 3: Join Matrix and the developer mailing list
-Join [the "Mentoring Programs" Matrix channel](/community/matrix) or the [developer mailing list](/community/mailing-lists) as early as possible to introduce yourself and get feedback on your ideas.
+Join [the "Mentoring Programs" Matrix channel](../matrix.md) or the [developer mailing list](../mailing-lists.md) as early as possible to introduce yourself and get feedback on your ideas.
 
-Feel free to ask questions about project ideas, Mathesar, or anything else! Post questions in the main channel - **do not** contact mentors individually. 
+Feel free to ask questions about project ideas, Mathesar, or anything else! Post questions in the main channel - **do not** contact mentors individually.
 
 ### Step 4: Contribute to Open Issues
 You **need to make at least one contribution to Mathesar** as part of the application process. Your contribution will give us more information about your work/skills and help us evaluate your application. It will also help you learn more about Mathesar and have more information to pick a project idea.
@@ -44,12 +44,12 @@ Please see our [Contribution Guidelines](https://github.com/mathesar-foundation/
 Once you're comfortable with Mathesar and the community, it's time to start the application process.
 
 ### Step 1: Pick a project idea
-You'll need to pick a project that you're interested in working on. Please see our [Project Ideas](/community/gsoc/project-ideas) page for a list of ideas we've come up with.
+You'll need to pick a project that you're interested in working on. Please see our [Project Ideas](./project-ideas/index.md) page for a list of ideas we've come up with.
 
 Once you pick a project, make sure you understand what the work entails so that you can plan the work out ahead of time and submit a strong application. The mentors are here to help you. We expect you to have a lot of questions and we're happy to answer them.
 
 ### Step 2: Write a draft proposal
-You'll now need to write a draft proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](/community/gsoc/project-proposal-template) for this.
+You'll now need to write a draft proposal for the idea you've chosen to work on. You'll need to use our [Project Proposal Template](./project-proposal-template.md) for this.
 
 We expect you to do **a significant amount of work** on creating your proposal. You'll need to demonstrate that you understand exactly how to make the changes you're proposing to the codebase and that you can split the project into smaller deliverables that keep you on track.
 

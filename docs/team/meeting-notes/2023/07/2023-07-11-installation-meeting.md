@@ -1,8 +1,8 @@
 # 2023-07-11 installation meeting
 
 ## Links
-- [Meeting notes: Parts I & II](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting)
-- [Meeting notes: Part III](/team/meeting-notes/2023/07/2023-07-06-installation-meeting)
+- [Meeting notes: Parts I & II](../06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](./2023-07-06-installation-meeting.md)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## Notes
@@ -35,15 +35,15 @@ Solutions:
     - Config files can be put into protected locations (e.g. not readable by other users on the system)
     - Config file will live in the container, not the host system
     - Environment variables doesn't make sense for this persona
-    - We can pass environment variables when running the image if needed, and they would persist in the config file in the Docker filesystem 
+    - We can pass environment variables when running the image if needed, and they would persist in the config file in the Docker filesystem
 - What do we need environment variables for?
     - Binding volumes?
         - Not needed for this persona
-        - If they want to transition installation to long term solution, that would be different, but we're not recommending that anyway 
+        - If they want to transition installation to long term solution, that would be different, but we're not recommending that anyway
         - We could have docs for "you lost your container, how to get your data"
     - Using different ports?
 - For this persona, it's about speed to get Mathesar running
-- What about users who want to try it out quickly by connecting to an existing DB? 
+- What about users who want to try it out quickly by connecting to an existing DB?
     - Pass config via environment variables
     - Write config file via UI, persist to disk.
 

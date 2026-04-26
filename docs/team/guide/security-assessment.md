@@ -22,7 +22,7 @@ Eventually, it's likely that a quick assessment will be part of pulling any issu
 
 For example, consider [File Upload support in forms](https://github.com/mathesar-foundation/mathesar/issues/4829). Here's my attempt at an assessment:
 
-![sec_assess_ex_before.png](/assets/images/sec_assess_ex_before.png)
+![sec_assess_ex_before.png](../../assets/images/sec_assess_ex_before.png)
 
 This assessment is based _only_ on the issue description. If the score is "Medium" or "High", or if the team is otherwise uncomfortable with the security implications, we then discuss mitigation options, and then reassess.
 

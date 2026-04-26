@@ -22,7 +22,7 @@
 	* stores multiple postgres roles that can connect to the said database.
 	* allows Mathesar users connect to the database by utilizing one of the stored postgres roles *(each Mathesar user associated with a DB role)*.
 	* has access-control implemented in Mathesar to manage it.
-* I've tried to explain this concept in form of questions and answers. Please read through the following list: 
+* I've tried to explain this concept in form of questions and answers. Please read through the following list:
 
 1. **How would the user flow look like, after installing Mathesar?**
 	* The first thing the user would be expected to do after installation is to create a Project.

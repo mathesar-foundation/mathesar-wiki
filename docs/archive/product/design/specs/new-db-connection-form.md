@@ -46,7 +46,7 @@ With this spec...
 
 This is the simplest (and hopefully most common) incarnation of this form. As an example, the user should (somehow) arrive at this form after installing Mathesar using the Docker installation method.
 
-<img src="/assets/archive/product/design/specs/new-db-connection-form/a.png" width="550px">
+![a.png](../../../../assets/archive/product/design/specs/new-db-connection-form/a.png){ width="550px" }
 
 Notes:
 
@@ -64,7 +64,7 @@ Notes:
         - "Known connection" = the credentials for the internal DB, from environment variables
 
     - Else, (SQLite is used for the internal DB) then:
-    
+
         - If at least one connection exists to a user database, then:
 
             - "Credentials source" = "Reuse credentials..."
@@ -96,13 +96,13 @@ Notes:
 
 - Under the "Create this database..." checkbox field, the help text includes a postgres user name in quotes. That user name is dynamic so as to match the user name of the chosen connection.
 
-- The "Connection nickname" field auto-updates as the user enters the database name, but the user can modify the "Connection nickname" value independently of "Database name". (This behavior of auto-generating a nickname is the reason for putting the field last.) 
+- The "Connection nickname" field auto-updates as the user enters the database name, but the user can modify the "Connection nickname" value independently of "Database name". (This behavior of auto-generating a nickname is the reason for putting the field last.)
 
 ## (Case B) Manually entering new connection credentials
 
 If, on the form depicted above, you change "Credentials source" to "Enter new...", then the "Known connection" field will be replaced by the fields shown below:
 
-<img src="/assets/archive/product/design/specs/new-db-connection-form/b.png" width="550px">
+![b.png](../../../../assets/archive/product/design/specs/new-db-connection-form/b.png){ width="550px" }
 
 Notes:
 
@@ -114,7 +114,7 @@ Notes:
 
 If, on the form depicted above, you change "User type" to "Create a new...", then the "User name" and Password fields will be replaced by the fields shown below:
 
-<img src="/assets/archive/product/design/specs/new-db-connection-form/c.png" width="550px">
+![c.png](../../../../assets/archive/product/design/specs/new-db-connection-form/c.png){ width="550px" }
 
 Notes:
 

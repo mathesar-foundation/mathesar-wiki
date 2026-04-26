@@ -32,7 +32,7 @@
 - **Record selector**: ✅
 
     - RPC changes done
-    - Ready for QA 
+    - Ready for QA
 
 - **Table page**: 🟡
 
@@ -101,7 +101,7 @@ All balls for this currently in Sean's court. Once this is done:
 
 - Ghislaine will start (unstructured) QA on the `develop` branch locally.
     - Mathesar should be set up in production mode for QA
-    - Pavish will help Ghislaine set it up. 
+    - Pavish will help Ghislaine set it up.
 
 ### 2. All planned work on permissions is merged.
 Pavish and Anish are working on this. This triggers:

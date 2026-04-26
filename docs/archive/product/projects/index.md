@@ -6,12 +6,12 @@
 
 - The Mathesar team's work is chunked into fixed-length projects to keep it organized.
 - The Mathesar maintainers work in 4-week "cycles", and each project is designed to fit into that timeline. The community team's project lengths vary.
-		- Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](/archive/team/workflow/responsibilities/).
+		- Projects always have an end date. Work without an end date is tracked under [ongoing responsibilities](../../team/workflow/responsibilities/index.md).
 - Each project has one and only owner, and various helpers. Helpers are assigned specific responsibilities.
 
 ### Process
 
-- Anyone willing to do the work can propose a project. Please use the [project template](/archive/product/projects/template).
+- Anyone willing to do the work can propose a project. Please use the [project template](./template.md).
 - Projects are discussed and approved by the Mathesar maintainers (either in meetings or via email).
 		- The project manager facilitates these discussions.
 - Project prioritization will be based on our product strategy (currently in development).
@@ -32,9 +32,9 @@ Sean, Dom, and Rajat are going to be working on ad-hoc tasks and helping with pr
 
 | Owner     | Project | Status |
 | --        | -- | -- |
-| Anshuman | [Support importing Excel and JSON files](/community/gsoc/project-ideas/import-excel-json-files) project idea | In progress |
-| Aritra | [Add more summarization functions](/community/gsoc/project-ideas/more-summarizations) project idea | In progress |
-| Varsha | [API documentation](/community/gsoc/project-ideas/api-documentation) project idea | In progress |
+| Anshuman | [Support importing Excel and JSON files](../../../community/gsoc/project-ideas/import-excel-json-files.md) project idea | In progress |
+| Aritra | [Add more summarization functions](../../../community/gsoc/project-ideas/more-summarizations.md) project idea | In progress |
+| Varsha | [API documentation](../../../community/gsoc/project-ideas/api-documentation.md) project idea | In progress |
 
 
 ## Future project ideas
@@ -52,4 +52,4 @@ Here are some other project ideas that have been written up, but need to be revi
 
 ## Project template
 
-[Use this template](/archive/product/projects/template) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.
+[Use this template](./template.md) when creating a new project page, filling in data as needed. You can add or remove attributes if necessary.

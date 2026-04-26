@@ -51,7 +51,7 @@ Brent
             - Hard to aggregate
         - Deceptively organized
         - Veto/neutral/sponsor is something to consider
-        
+
 Sean
     - PR reviews
     - We could do a retrospective of GSoC at the end of GSoC (end of summer)
@@ -69,7 +69,7 @@ Sean
     - What are we open to considering changing (next year)?
     - Are there other ways we could evaluate candidates?
     - Ranking/scoring needs improvement, but went smoother than contributions
-    
+
 Kriti
     - Many ways to solve candidate evaluation
         - We could have a test that people have to take
@@ -82,13 +82,13 @@ Kriti
     - People wanting to put things on their resume is not bad
         - It's an exchange
             - Problem is if the candidate doesn't offer anything
-        
+
 Anish
     - Many people were trying to pump up number of PRs they had
         - A single person did 7 good-first-issues
             - Instead of doing more difficult issues
         - Or single person doing many issues simultaneously
-        
+
 Mukesh
     - Lack of documentation is a test for contributors
     - A lot of contributors seem to treat GSoC as competitive
@@ -105,13 +105,13 @@ Mukesh
     - Unequal distribution of proposals for project ideas
         - Many strong proposals for the same project idea
             - But many project ideas didn't get almost any proposals
-        
+
 Ghislaine
     - Valuable contributors are those that actually want to add new features
         - They care
         - Sean:
             - 1 contributor on frontend that didn't come from GSoC
-        
+
 Survey
     - What percentage of time each of us spent on GSoC during the proposal phase?
         - Sean 60%
@@ -123,7 +123,7 @@ Survey
         - Dom 100%
 ```
 
-    
+
 ## General Q&A
 
 - **Added by**: Kriti

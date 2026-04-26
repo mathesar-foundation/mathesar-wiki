@@ -13,7 +13,7 @@
         - Email from `hello [at] mathesar [dot] org` (in Freshdesk)
         - Installation request forms (in Freshdesk)
 - Ensure that someone is responsible for following up promptly for all user communications
-- Flags user feedback to the owner of the [user feedback](/archive/team/workflow/responsibilities/user-feedback) responsibility.
+- Flags user feedback to the owner of the [user feedback](./user-feedback.md) responsibility.
 
 ### Principles
 

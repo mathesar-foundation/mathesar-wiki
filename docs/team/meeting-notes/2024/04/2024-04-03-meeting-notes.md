@@ -8,7 +8,7 @@
     - People seemed less stressed.
 - Pavish:
 	- Release went smoothly and it didn't feel like an event we all were involved deeply in (this is good!).
-- Ghislaine: 
+- Ghislaine:
     - Planning seems to be working. We are making iterative improvements after each release.
 - Brent
     - Seemed to take less mindshare than normal
@@ -21,7 +21,7 @@
 - Ghislaine:
     - I was confused by the initial QA assignments. I also don't have much experience triaging new bugs, not clear how to assign milestones / decide if they should be prioritized etc.
 - Anish:
-    - Release could’ve gone smoother if I clearly knew what should go in the QA plan and release notes. Which has now been documented by Sean for upcoming releases.  
+    - Release could’ve gone smoother if I clearly knew what should go in the QA plan and release notes. Which has now been documented by Sean for upcoming releases.
 
 ### Shout outs
 - Kriti:
@@ -49,7 +49,7 @@
 
 ### Action items
 - Plan a focused meeting around QA (assigned to Ghislaine)
-    - Figure out how installation and upgrade testing should work 
+    - Figure out how installation and upgrade testing should work
         - Minimal fuss, easy cloud deployments, plan for testing should balance thorough testing from user standpoint with minimal work on our end
     - Figure out who's doing the prescriptive / tailored user QA
         - We need a previous release deployed to check for regressions
@@ -95,7 +95,7 @@
         - Cell selection
         - Get Demo working properly
         - Try to get installation / upgrade outsourced
-- Figure out how to unify tracking "current priorities" vs. "definitely in this release" 
+- Figure out how to unify tracking "current priorities" vs. "definitely in this release"
 
 ### Final list for release
 - Cell selection - touches a lot of frontend code, lets get this merged

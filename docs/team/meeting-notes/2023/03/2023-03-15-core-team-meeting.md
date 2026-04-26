@@ -1,9 +1,9 @@
-# 2023-03-15 core team meeting 
+# 2023-03-15 core team meeting
 
 **Attendees**: All core team members + Anish
 
 ## Bigger-picture plan for Mathesar
-General plan: 
+General plan:
 
 - Things are still in flux
 - Figuring out how to grow the project
@@ -75,7 +75,7 @@ General plan:
 ## Selecting projects
 - Sean wants to get rid of some rows in projects table
     - Releases
-    - Understand Mathesar Users    
+    - Understand Mathesar Users
 - After we decide who owns various ongoing things, we'll figure out tracking
 - Selected projects
     - Funding
@@ -146,7 +146,7 @@ Ongoing responsibilities are defined as:
     - Actively shepherd PRs towards closing to help prevent them from going stale
     - Troubleshoot GitHub actions and make improvements where necessary
 
-- **Release management** 
+- **Release management**
     - Decide what goes in each release
     - Decide when to release
     - Publish each release, delegating tasks as needed

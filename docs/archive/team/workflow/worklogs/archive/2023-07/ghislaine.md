@@ -16,7 +16,7 @@ Based on my personal experience using Mathesar for the user research project, I'
 
 ## 2023-07-26
 
-Prepared presentation for the team meeting. 
+Prepared presentation for the team meeting.
 Attended team meeting and presented user research.
 Design for Admin User creation.
 

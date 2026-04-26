@@ -9,7 +9,7 @@
         - Sean will do this as part of publishing release, mainly release process docs updates
     - QA
         - Library demo testing pending
-        - Ghislaine had a question on Matrix on how to QA the demo. 
+        - Ghislaine had a question on Matrix on how to QA the demo.
             - Ghislaine doesn't need to worry about QA for demo for this release, deploying the demo can serve as QA
             - Also, Brent has done QA already.
             - Brent suggested a new DockerHub repo for demo images, but we decided we don't need it since the long term plan is to change the demo setup and remove demo mode.

@@ -27,13 +27,13 @@ Once selected, the inspector panel will list 'New linked table from columns' as 
 
 When a user selects a column that cannot be moved, the move action will be disabled and a tooltip will be available explaining why the column cannot be moved.
 
-![image](/assets/archive/product/design/specs/column-extraction/8p3u9NbBGBr6gqPx7VW9RZ.png)
+![image](../../../../assets/archive/product/design/specs/column-extraction/8p3u9NbBGBr6gqPx7VW9RZ.png)
 
 ## Extract Columns Dialog
 
 The dialog will list the columns that will be moved and the table that will be created. The user can change the name of the new table. The dialog will also list the links that will be created between the new table and the original table. The user can change the name of the link column.
 
-![image](/assets/archive/product/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
+![image](../../../../assets/archive/product/design/specs/column-extraction/7prBiuRUXhPYi6wZxwRcyV.png)
 
 ### Impact of the Extract Columns Operation
 
@@ -61,7 +61,7 @@ Only columns that can be moved will be available for selection. A message inside
 
 Once the user is happy with the changes, they can click on the `Extract Columns` button. The inspector panel will be toggled and the new link column will be selected in the original table. Under the `Columns` section, the user will see the new table listed as a link.
 
-![image](/assets/archive/product/design/specs/column-extraction/99zmoTssPdnh2AYS5tDeWJ.png)
+![image](../../../../assets/archive/product/design/specs/column-extraction/99zmoTssPdnh2AYS5tDeWJ.png)
 
 This spec does not include the implementation of 'Link Properties' which should be handled in a separate spec.
 
@@ -73,7 +73,7 @@ In some cases, a user may want to move columns from one table to another table. 
 
 A table might be linked to through more than one column. The user will be able to select the link column to use for the move operation under the 'Link Column' section. If only one link column exists, it will be selected by default.
 
-![image](/assets/archive/product/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
+![image](../../../../assets/archive/product/design/specs/column-extraction/gzGpUGi1srtxQ2kwd2TruB.png)
 
 ### Impact of the Move Columns Operation
 

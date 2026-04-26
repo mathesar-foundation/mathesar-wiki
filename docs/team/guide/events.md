@@ -4,7 +4,7 @@ The Mathesar maintainer team has a virtual team event around every two weeks to 
 
 Previous events have included:
 
-- Watching a movie together using [Syncplay](https://syncplay.pl/). 
+- Watching a movie together using [Syncplay](https://syncplay.pl/).
 - Playing [GeoGuessr](https://www.geoguessr.com/) both collaboratively and competitively.
 - Playing trivia competitively (in teams) on [Sporcle](https://www.sporcle.com/).
 - Playing an online escape room together.

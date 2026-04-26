@@ -1,3 +1,3 @@
 # Use Cases
 
-[inventory-use-case](/archive/product/design/exploration/use-cases/inventory-use-case)
+[inventory-use-case](./use-cases/inventory-use-case.md)

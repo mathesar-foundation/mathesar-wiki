@@ -168,7 +168,7 @@ More architecture writing!
 - Some messaging and emailing about various details
   - Started email chain about permissions concepts
   - Scheduled meetings for next day
-  
+
 ### Marketing
 
 - Cleared out Syften notifications

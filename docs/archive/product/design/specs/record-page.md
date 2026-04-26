@@ -53,11 +53,11 @@ One "widget" allows the user to see (and potentially modify) other data in the s
 - One widget appears on the Record Page **for each foreign key which references this table**.
 
 - Each widget has a **title** like:
-    
+
     > Related `Checkouts` Records
 
     If this table is referenced by multiple FKs from the same (other) table, or this table is referenced by an FK within this table itself, then the widget title will be:
-    
+
     > Related `Checkouts` Records *(via `Patron Id`)*
 
 - Each widget displays the related records in a sheet UI similar to the sheet within the Table Page.
@@ -92,7 +92,7 @@ One "widget" allows the user to see (and potentially modify) other data in the s
     - **Table widgets** (which are described above, to be implemented first)
 
     - **Query widgets** (which are more complex and will hopefully be implemented later)
-    
+
         Some example use-cases for query widgets are:
 
         - Show a patron's currently-checked out books
@@ -105,7 +105,7 @@ One "widget" allows the user to see (and potentially modify) other data in the s
     The button is a link (can be opened in a new tab) to create a new query within the Data Explorer. The link contains URL parameters which specify the id of this table and the id of this record. The Data Explorer then allow the user to build a query from scratch, but the choice of base table is limited only to tables which contain FKs to this table.
 
     While building the query, the Data Explorer displays the Record Summary of the original record (where the user was before building the query). The user can click on that Record Summary to navigate back to that Record Page. The results of the query the user is building are filtered to show only the items related to that record. That filtering operation is not defined within the query the user is building, but rather performed as part of the `filter` params when fetching the results of the query. The UI which displays the specific Record Summary also allows the user to change the record (using the Record Selector) -- merely for the purpose of previewing their query from the perspective of a different record while building it.
-    
+
     We will need to clarify what happens when the user saves the query. Is the query visible within the top level of the schema? Or is it hidden? Perhaps this is configurable.
 
 - Each **query widget** provides the following options:
@@ -120,7 +120,7 @@ One "widget" allows the user to see (and potentially modify) other data in the s
 - Above all widgets, a "Show Hidden Queries" dropdown button exists giving the user the capability to un-hide any table widgets widgets they have hidden.
 
 - Each widget is collapsible via a triangle icon to the left of its title. The collapsed/expanded state per-widget is persisted via local storage and will apply to all records within this table.
-    
+
 - The default ordering of widgets is not defined, but users *can* re-order all the widgets as as they so choose.
 
     The mechanism for re-ordering the widgets is subject to further UX experimentation. Drag and drop would seem to be an obvious choice, though the height of each widget (when expanded) would make dragging cumbersome. It may be possible to collapse all widgets when the user initiates a drag, however the user's cursor might jump around on the page if we do this. Another idea is a drop down menu in which the user can re-order the widgets. This menu could potentially contain UI to show/hide the widgets too!

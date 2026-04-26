@@ -1,4 +1,4 @@
-## Preface 
+## Preface
 
 - these are notes derived from a session held in 2023 GSoC mentor summit
     - the audience of these notes is the team at Mathesar
@@ -13,7 +13,7 @@
 
 - a different set of notes for the same meeting
     - (raw and not written by Dom)
-    - can be found [here](proposal-phase-gsoc-summit-session-minutes.md).
+    - can be found [here](./proposal-phase-gsoc-summit-session-minutes.md).
 
 ## Notes
 
@@ -99,7 +99,7 @@
 
 - trade-off between candidate's skill and candidate's need for mentoring
     - when selecting candidates there are at least two things you can optimize for
-        - how good a candidate already is 
+        - how good a candidate already is
         - how much of an impact we can make by mentoring this candidate
     - i.e. balancing maturity and newbieness
     - a candidate that is not familiar even with the most basic things

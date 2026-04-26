@@ -67,18 +67,18 @@ These specs are listed in the order in which we plan to implement them.
             Specifically he worried that they would require a conceptual understanding of joins which business users would be unlikely to have. He briefly mentioned difficulties that he had when learning joins, and said he's seen others struggle with these concepts too. Brent found this interesting and suggested circling back to it in another call. But Brent and Sean didn't explore any means to solve this problem within Data Palettes.
 
         - Brent expressed concern that joins in Worksheets would not offer enough power.
-        
+
             Specifically he worried that the Basic Query would be incapable of joining a worksheet with a table or other worksheet. This join-related concern seemed to be the crux of his larger concern about worksheets being ill-suited for composition. Sean found Brent's join-related concern thrilling since he had also been pondering it, and he readily offered two potential solutions:
 
             1. The most elegant (but hardest) approach would be to use static analysis of SQL queries to identify join paths along existing foreign keys. He offered an example. This made sense to Brent.
             1. As a quicker solution, we could allow users to manually codify join paths between worksheets and tables, persisting those join paths in Mathesar metadata. It would be the responsibility of more technical users to specify the join paths. Then less-technical users would automatically gain access to them. This also made sense to Brent.
-            
+
             Brent seemed rather appeased by Sean's potential solutions.
 
     - Brent expressed a desire to focus on Worksheets moving forward.
-    
+
         His attempts at polishing out the problems with Data Palettes has required a lot of UI/UX thought, and he would like to think less about user interfaces moving forward.
-    
+
         Instead, he would like to focus on identifying specific problems with Worksheets and working with Sean to find solutions to those problems.
 
     - Overall, this conversation brought Sean and Brent significantly closer to alignment on the long term goals!
@@ -155,7 +155,7 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 - [Recording](https://tldv.io/app/meetings/67f7c50e0ca096001444e7d4)
 - Discussed plans for DML in explorations
 - Ghislaine almost entirely on board with Sean's plans for UX
-    - She wants to explore one potential change: using a split screen to multi-record cell contents in a panel below the table instead of inside a dropdown 
+    - She wants to explore one potential change: using a split screen to multi-record cell contents in a panel below the table instead of inside a dropdown
 
 ### 2025-04-14 Sean/Brent
 
@@ -186,7 +186,7 @@ https://drive.google.com/file/d/1hkL_WB3mHNYiLSVI3aqwplOUqRKbe7Cs/view?usp=drive
 
 ### 2025-05-01 Sean/Ghislaine
 
-- [Recording](https://tldv.io/app/meetings/68138d0de21dd50013e35bfe) 
+- [Recording](https://tldv.io/app/meetings/68138d0de21dd50013e35bfe)
 - Sean asks Ghislaine clarifying questions about her [split screen proposal](https://hackmd.io/@mathesar/rJarPAelgl)
 - Sean and Ghislaine talk about the disagreement that Brent and Sean are currently working through regarding record summaries in the data explorer. Ghislaine seems to be more in Brent's camp. Follow-up meeting scheduled in 1 day to continue hashing this out.
 

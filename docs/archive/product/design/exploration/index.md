@@ -13,10 +13,10 @@ A single student worked on a design concept for an "attachment" data type in Mat
 ### Sharing data
 A group of four students worked on designing a "sharing" feature i.e. how Mathesar users could invite collaborators, and share data sets via URL or embedding.
 
-- [Final deliverable - Figma file](https://www.figma.com/file/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477) 
-- [Final deliverable - Figma prototype](https://www.figma.com/proto/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477&scaling=min-zoom&page-id=236%3A24477&starting-point-node-id=236%3A25507&show-proto-sidebar=1) 
+- [Final deliverable - Figma file](https://www.figma.com/file/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477)
+- [Final deliverable - Figma prototype](https://www.figma.com/proto/LaL2nXhmKV4s3E60nkAn7P/Share-Feature?node-id=236%3A24477&scaling=min-zoom&page-id=236%3A24477&starting-point-node-id=236%3A25507&show-proto-sidebar=1)
 - [Final deliverable - Product spec](https://docs.google.com/document/d/1doB34Fh_tMp5PvfCWCRqT5Jn7AXj_uxXukqlTPCMDxc/)
-- [User Interviews and Competitive Analysis presentatipn](https://docs.google.com/presentation/d/1HQZRmcktwMD8hdYOvkfk0wZxFwF75ZOiTHCNs19ft84/) 
+- [User Interviews and Competitive Analysis presentatipn](https://docs.google.com/presentation/d/1HQZRmcktwMD8hdYOvkfk0wZxFwF75ZOiTHCNs19ft84/)
 
 ## Fall 2021
 
@@ -34,12 +34,12 @@ A group of four students worked on design concepts for how Mathesar users could 
 - [Final Presentation *Final work product, including completed designs*](https://docs.google.com/presentation/d/1niviyUEJINRQsOgSRfM65H8YuyYLtLLs/edit?usp=sharing&ouid=110253414265591589278&rtpof=true&sd=true)
 
 ## April 2021
-- [Inventory Use Case *User journey for creating a basic media inventory using Mathesar*](/archive/product/design/exploration/use-cases/inventory-use-case)
-- [Inventory: Data Exploration *Data exploration features for the inventory use case*](/archive/product/design/exploration/inventory-data-exploration)
-- [Data Management Skills *Notes on skills needed by users to interact with data*](/archive/product/design/exploration/data-management-skills)
+- [Inventory Use Case *User journey for creating a basic media inventory using Mathesar*](./use-cases/inventory-use-case.md)
+- [Inventory: Data Exploration *Data exploration features for the inventory use case*](./inventory-data-exploration.md)
+- [Data Management Skills *Notes on skills needed by users to interact with data*](./data-management-skills.md)
 
 ## UI Inspiration
 These are screenshots, articles etc. related to UI/UX patterns that may be useful to us while designing Mathesar.
 
-- [Data Types](/archive/product/design/exploration/data-types)
-- [Advanced Filters](/archive/product/design/exploration/filters)
+- [Data Types](./data-types.md)
+- [Advanced Filters](./filters.md)

@@ -1,7 +1,7 @@
 # 2023-07-06 installation planning meeting
 
 !!! info "Information"
-    See [this page](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting) for notes on parts I and II of this meeting. 
+    See [this page](../06/2023-06-13-installation-planning-meeting.md) for notes on parts I and II of this meeting.
 
 
 **Attendees**: Kriti, Brent, Mukesh, Sean, Pavish
@@ -21,7 +21,7 @@
         - What should be the source of truth?
 - Notes:
     - Make it really clear what URL to use it.
-    - Make it really easy to log in 
+    - Make it really easy to log in
         - No solution presumed, could be token to set up first user, or automatically creating a user, or whatever.
     - Aside: token based auth will help with E2E tests later
 
@@ -42,7 +42,7 @@
 - From Mukesh's research:
     - Windows & Mac - it's possible to install Postgres, but it's not ideal because it's a background service
         - People complain about running background services
-- We should find a way to run it on local Python intepreter 
+- We should find a way to run it on local Python intepreter
     - Zipapp doesn't bundle intepreter, it just bundles dependencies
 - Pyinstaller does bundle interpreter, but it does a lot of magic and is hard to get working
     - But Mukesh got Pyoxidizer and cx_freeze working

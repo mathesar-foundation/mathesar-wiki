@@ -1,9 +1,9 @@
 # Views in Mathesar
 
 ## Overview
-All data in Mathesar is stored in **[Tables](/archive/product/concepts/tables)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.
+All data in Mathesar is stored in **[Tables](../../concepts/tables.md)**. However, users may not always want to analyze, edit, or otherwise work with data in the same way that it is stored. This might involve combining data from multiple tables or only looking at a subset of rows and columns from a single table.
 
-- For example, tables are often optimized for reducing redundancy in data storage. It's hard to work with interrelated data and perform data analysis tasks using tables alone. On a day to day basis, users may want to work with data spread across different tables. 
+- For example, tables are often optimized for reducing redundancy in data storage. It's hard to work with interrelated data and perform data analysis tasks using tables alone. On a day to day basis, users may want to work with data spread across different tables.
 - Tables for data analysis are often stored in a denormalized format. Users may want to work with it by reducing the redundancies.
 
 This is where **Queries** and **Views** come in – to help the user see the data how they want to see it, regardless of where it is stored.
@@ -27,31 +27,31 @@ The user goals for **Views** are:
 - To provide a better editing experience for related data (especially many-to-many relationships)
 
 ### Implementation
-Under the hood, **queries** are `SELECT` SQL queries and **views** are PostgreSQL views. 
+Under the hood, **queries** are `SELECT` SQL queries and **views** are PostgreSQL views.
 
-This means that in order to work with Views in Mathesar, we need to translate concepts used in [PostgreSQL queries](https://www.postgresql.org/docs/14/queries.html) to our end users in a user-friendly way. 
+This means that in order to work with Views in Mathesar, we need to translate concepts used in [PostgreSQL queries](https://www.postgresql.org/docs/14/queries.html) to our end users in a user-friendly way.
 
 ## Concepts and Features
 We're introducing a number of new product concepts and features in this specification. They are expanded upon below, split into different pages for readability.
 
-- [01. Assumptions and Limitations](/archive/product/specs/2022-01-views/01-assumptions)
-- [02. Feature Requirements](/archive/product/specs/2022-01-views/02-feature-requirements)
-- [03. The Query Builder](/archive/product/specs/2022-01-views/03-the-query-builder)
-- [04. Formulas](/archive/product/specs/2022-01-views/04-formulas)
-    - [(a) Record Aggregations](/archive/product/specs/2022-01-views/04-formulas/4a-record-aggregations)
-    - [(b) Random Generators](/archive/product/specs/2022-01-views/04-formulas/4b-random-generators)
-    - [(c) Text Formulas](/archive/product/specs/2022-01-views/04-formulas/4c-text-formulas)
-    - [(d) Number Formulas](/archive/product/specs/2022-01-views/04-formulas/4d-number-formulas)
-    - [(e) Boolean Formulas](/archive/product/specs/2022-01-views/04-formulas/4e-boolean-formulas)
-    - [(f) Date. Time, and Duration Formulas](/archive/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
-    - [(g) List Formulas](/archive/product/specs/2022-01-views/04-formulas/4g-list-formulas)
-    - [(h) Cumulative Formulas](/archive/product/specs/2022-01-views/04-formulas/4h-cumulative-formulas)
-    - [(i) Regular Expression Formulas](/archive/product/specs/2022-01-views/04-formulas/4i-regex-formulas)
-    - [(j) Custom Formulas](/archive/product/specs/2022-01-views/04-formulas/4j-custom-formulas)
-- [05. View Structure](/archive/product/specs/2022-01-views/05-view-structure)
-- [06. View Columns](/archive/product/specs/2022-01-views/06-view-columns)
-- [07. Breaking Down DB Queries](/archive/product/specs/2022-01-views/07-breaking-down-db-queries)
-- [08. Appendix](/archive/product/specs/2022-01-views/08-appendix)
+- [01. Assumptions and Limitations](./01-assumptions.md)
+- [02. Feature Requirements](./02-feature-requirements.md)
+- [03. The Query Builder](./03-the-query-builder.md)
+- [04. Formulas](./04-formulas.md)
+    - [(a) Record Aggregations](./04-formulas/4a-record-aggregations.md)
+    - [(b) Random Generators](./04-formulas/4b-random-generators.md)
+    - [(c) Text Formulas](./04-formulas/4c-text-formulas.md)
+    - [(d) Number Formulas](./04-formulas/4d-number-formulas.md)
+    - [(e) Boolean Formulas](./04-formulas/4e-boolean-formulas.md)
+    - [(f) Date. Time, and Duration Formulas](./04-formulas/4f-datetime-formulas.md)
+    - [(g) List Formulas](./04-formulas/4g-list-formulas.md)
+    - [(h) Cumulative Formulas](./04-formulas/4h-cumulative-formulas.md)
+    - [(i) Regular Expression Formulas](./04-formulas/4i-regex-formulas.md)
+    - [(j) Custom Formulas](./04-formulas/4j-custom-formulas.md)
+- [05. View Structure](./05-view-structure.md)
+- [06. View Columns](./06-view-columns.md)
+- [07. Breaking Down DB Queries](./07-breaking-down-db-queries.md)
+- [08. Appendix](./08-appendix.md)
 
 ## See also
-- ["Views" Concepts page](/archive/product/concepts/views)
+- ["Views" Concepts page](../../concepts/views.md)

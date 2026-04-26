@@ -48,7 +48,7 @@ Let's talk about the product and design process for permissions - what went well
 ### Brent
 
 - Really excited about the end result
-- I think we took a lot of time to get to the end result, though. 
+- I think we took a lot of time to get to the end result, though.
     - We kept having "false agreement" where we (or some subset) thought things were decided, but then had to go back to that decision
     - I think I got pushed into starting from a back end perspective, but we seemed to get more agreement more quickly when we were going through actual UIs, then working back to models, etc.
     - I think we spent too much time overoptimizing with abstractions, straying from one of our core values, representing the DB state directly
@@ -148,7 +148,7 @@ Let's talk about the product and design process for permissions - what went well
 - Ghislaine:
     - Agreed with Sean's separation of steps and the data model focused approach.
 - Brent:
-    - Going through the process via 'what can the product do" is a good approach. 
+    - Going through the process via 'what can the product do" is a good approach.
         - Has implications for the data model.
     - Doesn't make sense for one person to spec the data model on their own.
         - Data model and the product need to work together.
@@ -165,7 +165,7 @@ Let's talk about the product and design process for permissions - what went well
 ### Wrap up
 - We will circle back to this conversation closer to beta / after beta, when we are planning our next big feature.
 - Foreign data wrappers and worksheets are potemtoal big upcoming projects (although not as complex as permissions)
-- Meeting was useful to surface a bunch of things to help better our process, we will use the feedback to improve our process. 
+- Meeting was useful to surface a bunch of things to help better our process, we will use the feedback to improve our process.
 
 ## Retrospective summary
 
@@ -189,7 +189,7 @@ Let's talk about the product and design process for permissions - what went well
 - Holding all of permissions in your head was hard, it was hard to weigh in when not everything was understandable.
     - Roles and permissions have less documentation at the DB layer too.
     - Providing concepts within our meetings would have been helpful.
-    
+
 ### Why did it take so long?
 - No requirements for the project.
 - No target user in mind.

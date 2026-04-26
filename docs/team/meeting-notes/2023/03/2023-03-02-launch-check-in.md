@@ -38,7 +38,7 @@
     - Make upgrade work with new database types etc.
 - Documentation
     - Improve installation documentation
-    - Documentation for getting library data 
+    - Documentation for getting library data
     - Get docs out of codebase and into MkDocs
     - Demo mode documentation
     - Frontend & backend codebase structure

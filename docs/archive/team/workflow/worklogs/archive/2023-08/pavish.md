@@ -1,7 +1,7 @@
 # Pavish's work log archive: 2023-08
 
 ## 2023-08-31
-* Started reviewing [Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102) 
+* Started reviewing [Load "en" translations parallely](https://github.com/mathesar-foundation/mathesar/pull/3102)
 * Spent time finding issues/features to work on, when I'm not actively assisting on the projects
 * Chat with Brent and Ghislaine on further tasks for Postgres DB compatibility and Niche research projects
 

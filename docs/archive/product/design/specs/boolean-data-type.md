@@ -1,7 +1,7 @@
 # Boolean Data Type
 
 ## Context
-Boolean data types are used to store TRUE or FALSE values. 
+Boolean data types are used to store TRUE or FALSE values.
 
 ## Prototype
 !!! warning "Warning"
@@ -17,7 +17,7 @@ The user can set the column data type to 'Boolean' by accessing the 'Data Type O
 Whether there are existing values or not, the outcomes will vary if they are valid boolean values.
 If there are valid URL values, the system will convert them to boolean types. There are only two boolean values. They are True and False. However, we might map existing values or integers as equivalents to true and false, for example, 'yes and no' or '0 and 1'.
 
-If there are no valid boolean values, the system will prevent the change from being made. 
+If there are no valid boolean values, the system will prevent the change from being made.
 
 ##### Setting Options
 The following is an interactive representation of the various options that users can set for this type:
@@ -32,7 +32,7 @@ Depending on the configuration, the user will enter a 'Boolean' value with two d
 - Checkbox (Checked, Unchecked)
 
 #### User filters a 'Boolean' data type column
-Users can filter 'Boolean' data type columns by basic equality operators (is, is not) and whether the value is empty. 
+Users can filter 'Boolean' data type columns by basic equality operators (is, is not) and whether the value is empty.
 
 #### User groups a 'Boolean' data type column
 Users can group 'boolean' data types columns simply by adding them to the group columns list. The function will create a group for each boolean value (TRUE, FALSE).

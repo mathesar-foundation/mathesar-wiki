@@ -48,7 +48,7 @@ Navigation within Mathesar will take place in three different ways:
 - The database page is linked via the logo in the site top (We'll require CRUD UI for databases when we finally add support for many databases, and we may create some extra UI that stays within the header at that point).
 - Next to the logo is a breadcrumb navigation.
 - The breadcrumb navigation content will display the user's trail of pages visited as well as toggles to search inside each navigation level using [page selectors](#page-selector).
-- Upon reaching the record level, the top navigation will show a search records button, which will open the [Record Selector](/archive/product/design/specs/record-selector) component.
+- Upon reaching the record level, the top navigation will show a search records button, which will open the [Record Selector](./record-selector.md) component.
 - The current page will be excluded from the breadcrumb trail.
 - The current page label will be displayed in the toolbar component below the top header component.
 - Each type of page will be identified by an icon (table, schema, record etc.)
@@ -107,7 +107,7 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Route: `/{database_name}/{schema_id}/explorations/`
   - Favicon: Schema
   - `<title>`: `Explorations in {schema_name} | Mathesar`
-  
+
 - **Data Import: Upload file/Specify data**:
   - Route:  `/{database_name}/{schema_id}/import/`
   - Favicon: Mathesar logo
@@ -122,7 +122,7 @@ Throughout Mathesar, the following links exist within pages which allow for more
   - Route: ``/{database_name}/{schema_id}/data-explorer/`
   - Favicon: Data Explorer
   - `<title>`: `Data Explorer | {schema_name} | Mathesar`
-  
+
 - **Data Explorer - Open Exploration**:
   - Route: ``/{database_name}/{schema_id}/explorations/{exploration_id}/`
   - Favicon: Data Explorer

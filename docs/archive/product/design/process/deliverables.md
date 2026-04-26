@@ -4,7 +4,7 @@
 The Design Hand-Off document contains the necessary information, links to assets, supporting documentation, and a high-level overview of the functionality to be delivered for implementing a design. The design hand-off is created as a throwaway document, to be used only during the implementation phase. Once the design is implemented, it should lead to subsequent updates to permanent design documents such as component libraries.
 
 ### Goal
-- After reading the document, the team should have a conceptual understanding of the current state of the design, the desired design state, and the necessary actions for implementing it. 
+- After reading the document, the team should have a conceptual understanding of the current state of the design, the desired design state, and the necessary actions for implementing it.
 - The team should be able to identify and resolve any remaining issues or gaps in the design before implementation.
 
 ### Content

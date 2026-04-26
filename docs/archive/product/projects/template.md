@@ -4,7 +4,7 @@
     This project is ridiculous on purpose. We are not doing this.
 
 
-**Status**: Draft 
+**Status**: Draft
 **Review status**: Draft
 **Theme**: User growth
 
@@ -66,7 +66,7 @@ Mathesar's next release will include the new feature described under "solution".
 - **Wiki pages**:
   - [Product spec]()
   - [Backend spec]()
-  - [Frontend spec]()  
+  - [Frontend spec]()
 - **Email discussions**:
 	- [Project approval discussion]()
   - [Weekly updates]()

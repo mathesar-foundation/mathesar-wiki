@@ -30,22 +30,22 @@
 
 ## 2023-07-27 (Thu)
 - **Team management**
-    - 1:1 with Mukesh 
+    - 1:1 with Mukesh
 - **Comms**
     - Caught up on GitHub / Matrix / email
-    - Responded to Sean's email about user reported issues 
+    - Responded to Sean's email about user reported issues
 - **User help**
-    - Followed up on user's request for a `develop` build in      
+    - Followed up on user's request for a `develop` build in
 - **Product**
     - Worked through installation docs outline and meeting agenda with Mukesh
 - **Fundraising**
-    - Did some work on the script for the upcoming meeting 
+    - Did some work on the script for the upcoming meeting
 
 ## 2023-07-26 (Wed)
 - **Team management**
     - Weekly meeting
 - **Fundraising**
-    - Prep for today's workshop session (podcast)     
+    - Prep for today's workshop session (podcast)
     - How to Raise Money workshop session (7/11)
 - **Comms**
     - Caught up on GitHub / email / Matrix correspondence
@@ -75,7 +75,7 @@
     - Product strategy discussion and next steps call with Ghislaine
     - Worked on product strategy draft
 - **Tooling**
-    - Followed up on 1Password Open Source program approval 
+    - Followed up on 1Password Open Source program approval
     - Re-enabled accounts now that our team has more seats
 
 ## 2023-07-21 (Fri)
@@ -140,8 +140,8 @@
         - Internationalization
         - Product strategy
   - Reviewed and followed up on installation project
-  - Updated [projects](/archive/product/projects) page with a bit more detail on our workflow.
-  - Simplified [project template](/archive/product/projects/template) to be more in line with the new workflow.
+  - Updated [projects](../../../../../product/projects/index.md) page with a bit more detail on our workflow.
+  - Simplified [project template](../../../../../product/projects/template.md) to be more in line with the new workflow.
   - Followed up on Shrey's project.
   - Reviewed and followed up on Aritra's project idea.
   - Followed up on Varsha's email.
@@ -185,7 +185,7 @@
   - Rescheduled 1:1s to be more manageable
   - Cancelled team meeting
   - Checked in on Matrix with: Sean, Ghislaine, Pavish, Brent, Anish, Rajat, Mukesh, Dom
-  - Posted [installation meeting notes](/team/meeting-notes/2023/07/2023-07-11-installation-meeting)
+  - Posted [installation meeting notes](../../../../../../team/meeting-notes/2023/07/2023-07-11-installation-meeting.md)
   - Followed up on some meeting scheduling and accounting stuff.
   - Followed up with Transifex support re: open source status
   - Created a new Transifex project and invited Mukesh and Rajat
@@ -200,13 +200,13 @@
     - Internationalization
     - Installation improvements
   - Product strategy project check in with Ghislaine
-  
+
 ## 2023-07-12 (Wed)
 - **Management & administration**
   - Caught up on email, GitHub, Matrix
-  - Re-organized [projects](/archive/product/projects) and [responsibilities](/archive/team/workflow/responsibilities) pages.
+  - Re-organized [projects](../../../../../product/projects/index.md) and [responsibilities](../../../responsibilities/index.md) pages.
 - **Product**
-    - Wrote up [2023-07 product strategy](/archive/product/projects/2023/07/2023-07-product-strategy) project
+    - Wrote up [2023-07 product strategy](../../../../../product/projects/2023/07/2023-07-product-strategy.md) project
 - **Fundraising**
   - How to Raise Money workshop session (3/11)
 - **Other**
@@ -232,7 +232,7 @@
 - **Management & administration**
   - Caught up with email, Matrix, and GitHub (various responses and follow ups)
 - **Product**
-  - Planning meeting with Ghislaine for strategy / user research work 
+  - Planning meeting with Ghislaine for strategy / user research work
   - Reviewed the spec for shareable links and sent some feedback via email
   - Read through and responded to forms research
   - Looked through Aritra's blog post and associated PR

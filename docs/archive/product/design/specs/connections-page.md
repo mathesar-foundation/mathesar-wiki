@@ -48,7 +48,7 @@ When no database connections are present:
 **Modal Form:**
 
 - The modal should be titled "New Database Connection".
-- The modal fields are dependent on the following spec: [“New Database Connection” Form Design Specs](/archive/product/design/specs/new-db-connection-form/).
+- The modal fields are dependent on the following spec: [“New Database Connection” Form Design Specs](./new-db-connection-form.md).
 
 **Interactions:**
 
@@ -79,9 +79,9 @@ Before deletion, prompt users with a confirmation dialog.
 - The modal should be opened by clicking on the "Delete" button in the Connections List table.
 
 ## Database Page Modifications
-As part of this design, the current database page must be modified to remove the sidebar database navigation. 
+As part of this design, the current database page must be modified to remove the sidebar database navigation.
 
-<img width="1511" alt="image" src="https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6d6c97f8-a9c1-4d5e-9be3-7571bcdff284">
+![6d6c97f8-a9c1-4d5e-9be3-7571bcdff284](https://github.com/mathesar-foundation/mathesar-wiki/assets/845767/6d6c97f8-a9c1-4d5e-9be3-7571bcdff284){ width="1511" }
 
 
 

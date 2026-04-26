@@ -1,6 +1,6 @@
 # Installation improvements planned for 0.1.2
 
-Date: 2023-03-27  
+Date: 2023-03-27
 Attendees: Mukesh, Pavish
 
 ## Priority
@@ -9,7 +9,7 @@ Attendees: Mukesh, Pavish
 - Documentation for setting up Mathesar without Docker
 - UI for setting up/connection to user DB
     - Show in the UI for using the same django DB server to create new db if user wants to
-    - Show an option to connect to different server 
+    - Show an option to connect to different server
 - Mention in UI that we add custom types (optional) and casting functions (mandatory) in the user DB
 - Update upgrade UI to mention instructions on how to perform an update in non-docker (docker-compose) environments
 - Make our config file easier to for users to understand

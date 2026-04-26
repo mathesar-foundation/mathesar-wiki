@@ -22,9 +22,9 @@ We should consider implementing dynamic defaults using the same formulas that we
 - User toggles the "Default Value" option
 - The user selects from a list of preset options
 
-![upload_ebe944f590f61b67ea9a5646d45668a5.png](/assets/archive/product/specs/dynamic-defaults-proto/upload_ebe944f590f61b67ea9a5646d45668a5.png)
+![upload_ebe944f590f61b67ea9a5646d45668a5.png](../../../assets/archive/product/specs/dynamic-defaults-proto/upload_ebe944f590f61b67ea9a5646d45668a5.png)
 
-Formulas to use from [our Formulas](/archive/product/specs/2022-01-views/04-formulas/4f-datetime-formulas)
+Formulas to use from [our Formulas](./2022-01-views/04-formulas/4f-datetime-formulas.md)
 
 - Current date and time: "Current date & time" formula
 - Current date and time + duration: "Add Duration to Date" formula

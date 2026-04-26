@@ -15,7 +15,7 @@ The Record Selector can be opened via the following workflows.
     - Filter condition values, both in table filters and in queries
     - Column default values
     - Search fields for FK columns within the Record Selector itself (recursively)
-- **Icon links** alongside tables listed for a schema use the Record Selector to navigate to a specific [Record Page](/archive/product/design/specs/record-page).
+- **Icon links** alongside tables listed for a schema use the Record Selector to navigate to a specific [Record Page](./record-page.md).
 
 ## Behavior of data entry components
 
@@ -25,7 +25,7 @@ In both cases, the component needs to allow the following actions:
 
 - (A) **Launch** the Record Selector to set (or update) the value.
 - (B) **Clear** a value already set (making it `NULL`).
-- (C) **Navigate** to the [Record Page](/archive/product/design/specs/record-page) for the selected record using a plain `<a>` element so that users may copy the link or open it in a new tab. *(While this is a strict requirement for cells, it may be okay to forgo navigation from inputs entirely.)*
+- (C) **Navigate** to the [Record Page](./record-page.md) for the selected record using a plain `<a>` element so that users may copy the link or open it in a new tab. *(While this is a strict requirement for cells, it may be okay to forgo navigation from inputs entirely.)*
 
 Additionally for cells, the component needs to allow:
 
@@ -35,7 +35,7 @@ Additionally for cells, the component needs to allow:
 
 Cells and inputs can be empty (`NULL`) or full. And they can be focused (selected in the case of cells), or unfocused. These characteristics lead to eight distinct states, each of which has a design specified below.
 
-![Mockup Grid](/assets/archive/product/design/specs/record-selector/linked-record-data-entry-mockup-grid.png)
+![Mockup Grid](../../../../assets/archive/product/design/specs/record-selector/linked-record-data-entry-mockup-grid.png)
 
 ### User interactions
 
@@ -71,7 +71,7 @@ The custom context menu for cells contains the following entries:
 
     Preliminary designs for this feature had cell which looked more like this:
 
-    ![FK cell with underlined record summary](/assets/archive/product/design/specs/record-selector/fk-cell-underlined-record-summary.png)
+    ![FK cell with underlined record summary](../../../../assets/archive/product/design/specs/record-selector/fk-cell-underlined-record-summary.png)
 
     The idea was that you'd click on the record summary to navigate to the Record Page. The problem with this design is that users may want to open the Record Page in a new tab, but for other functionality we are providing a custom context menu on cells, making that difficult. Using an icon for navigation allows the user to open the browser's context menu on the navigation link and then open the link in a new tab or to copy the link to the clipboard. The user can still open the custom context menu via the non-icon area within the cell, allowing them to set the value to `NULL`, just as they would for any other type of column.
 
@@ -79,7 +79,7 @@ The custom context menu for cells contains the following entries:
 
     Here's a problem I'd like to avoid. Consider the following UX design from AirTable
 
-    ![AirTable example](/assets/archive/product/design/specs/record-selector/air-table-fk-cell-data-entry-example.png)
+    ![AirTable example](../../../../assets/archive/product/design/specs/record-selector/air-table-fk-cell-data-entry-example.png)
 
     The `x` button within the record summary (which clears the value) only displays when the cell is selected. That's nice aesthetically, but it can lead to the user unintentionally clearing the value by double clicking the cell in the area where the `x` button will appear after the first click.
 
@@ -89,7 +89,7 @@ The custom context menu for cells contains the following entries:
 
 Here's a "Publications" record selector, as it looks immediately after opening:
 
-![image](/assets/archive/product/design/specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
+![image](../../../../assets/archive/product/design/specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
 
 ### Layout
 
@@ -159,7 +159,7 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
     ```
 
 1. We are looking for an author named "Anna Rich". Let's search the "Authors" table by entering "Anna" into "First Name" and "Rich" into "Last Name".
-    
+
 1. This produces the following results (with the `points` column displayed here for reference).
 
     |Id|First Name|Last Name|Website|_points_|
@@ -210,17 +210,17 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 
 1. When at least one column contains a query, a "ghost row" will appear above the result set, allowing the user to select a record that will be created on-the-fly using all of the data from their search. The ghost row is filled in as the user types.
 
-    ![image](/assets/archive/product/design/specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
+    ![image](../../../../assets/archive/product/design/specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
 
 1. The user can highlight the ghost row by pressing `Up` -- and in this state, validation errors will be displayed for cells as needed using the same UX as when adding a new row to a table.
 
-    ![image](/assets/archive/product/design/specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
+    ![image](../../../../assets/archive/product/design/specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
 
 ## Entering a related record using a nested record selector
 
 1. To create a new Publications record, the user needs to supply an Authors record. They use a "nested" record selector to locate or create one Authors record as follows:
 
-    ![image](/assets/archive/product/design/specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
+    ![image](../../../../assets/archive/product/design/specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
 
     Note: There are some layout details here that will need to be worked out during implementation, such as horizontal scrolling.
 
@@ -277,7 +277,7 @@ Use case...
 
 We could also construct a more common use case if we venture outside our example schema. Consider a CRM-like schema with `person` records which each have many `email_address` records. When entering an `activity` record, I want to select a `person` that has at least one `email_address` which contains a field that matches a query. _And_ in this case I also want to _add_ a new person with that email address if I don't find a matching person. Adding is especially tough because we can't create the `email_address` record until we create the `peron` record, so the "drill-down-and-back-up-again" UX outlined in the specs above won't work for the `email_address`.
 
-These scenarios are more tricky to handle and will require more UX thought. But for some schemata handling them well will be pretty important. 
+These scenarios are more tricky to handle and will require more UX thought. But for some schemata handling them well will be pretty important.
 
 
 

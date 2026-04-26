@@ -17,7 +17,7 @@ Mentoring programs are usually structured into the following stages:
 7. Working with mentees
 
 ## Preparing project ideas
-We need a list of potential project ideas that applicants can submit a proposal to implement. 
+We need a list of potential project ideas that applicants can submit a proposal to implement.
 
 Project ideas should be:
 
@@ -28,8 +28,8 @@ Project ideas should be:
 - compatible with our existing product roadmap
 
 Once you've come up with a project idea, please:
-1. Flesh it out using our [Project Idea Template](/community/gsoc/project-idea-template).
-2. Add it to the [Project Ideas](/community/gsoc/project-ideas) page.
+1. Flesh it out using our [Project Idea Template](./project-idea-template.md).
+2. Add it to the [Project Ideas](./project-ideas/index.md) page.
 
 If you're wondering if your project idea makes sense, discuss it on Matrix with other team members first before writing it down.
 
@@ -68,7 +68,7 @@ You should:
 - track draft proposals and review status in our [our internal spreadsheet](https://docs.google.com/spreadsheets/d/1FSahyG8f6pkWj_hv7oMi6g49ANIpKJWDVtUS-Qwz0ZQ/)
 - ask applicants to submit draft proposals directly to you via Matrix and add them to the spreadsheet when you get them.
 - review proposals in 1-2 days if possible.
-- ask for review from other team members if you think it would be useful. 
+- ask for review from other team members if you think it would be useful.
 
 ### What does reviewing involve?
 - Reviewing involves leaving comments on the proposal to help the applicant improve the proposal before final submission.
@@ -89,14 +89,14 @@ You should:
 	- Are the applicant's code contributions strong enough that you feel confident that they can follow through on their plan?
 
 ## Choosing mentees
-After the final proposals are in, you'll meet with the rest of the Mathesar team and decide which proposals are strong enough to accept. 
+After the final proposals are in, you'll meet with the rest of the Mathesar team and decide which proposals are strong enough to accept.
 
 This is an internal decision, we do not communicate with applicants about their proposals at this point.
 
 During this period, you should:
 1. finalize mentorship for each project
-2. alk to co-mentors to create a plan for how to collaborate on each project, e.g. 
-	1. Will one of you be the primary mentor or will all of you be equally involved? 
+2. alk to co-mentors to create a plan for how to collaborate on each project, e.g.
+	1. Will one of you be the primary mentor or will all of you be equally involved?
 	2. How will checkins and notes be shared?
 
 ## Working with the mentees
@@ -107,9 +107,9 @@ At this point,
 
 ### Welcoming the mentee
 - Reach out to your mentee ASAP and welcome them to the project.
-- Have an introductory call with the mentee and get to know each other. 
+- Have an introductory call with the mentee and get to know each other.
 	- Ask them questions about themselves and talk about yourself too.
-- Ensure that the mentee is added to our [Team Members](/team/) and has the correct GitHub and wiki permissions.
+- Ensure that the mentee is added to our [Team Members](../../team/index.md) and has the correct GitHub and wiki permissions.
 
 ### Finalizing the project plan and workflow
 Before work on the project gets underway, you should:
@@ -121,7 +121,7 @@ Before work on the project gets underway, you should:
   - all meeting notes
   - any other project-relevant information.
 - share the project document with co-mentors and the organization admin
-- set up regular meetings: 
+- set up regular meetings:
   - a weekly video call for the mentors to check-in with the mentee
   - a monthly call with the Mathesar organization admin to check in with the mentee.
 - decide with the mentee on the workflow the project will follow. e.g.
@@ -143,7 +143,7 @@ You're now ready to mentor!
 #### Ongoing work
 - Review all work/code promptly. You should aim to review within 1 business day.
   - If your mentee is blocked on their work for some other reason, help them become unblocked as soon as possible.
-- Check in on Matrix with the mentee once every day or two. 
+- Check in on Matrix with the mentee once every day or two.
 	- Remember that mentees are inexperienced and may not know they are stuck, when to ask for help, and/or how to articulate problems well.
 
 #### Feedback

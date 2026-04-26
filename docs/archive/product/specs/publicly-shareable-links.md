@@ -71,7 +71,7 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 	- One abstract model containing common fields
   - Each entity will have a model inheriting from the abstract model
 * DB schema
-    ![public_links_one_table_per_entity.png](/assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
+    ![public_links_one_table_per_entity.png](../../../assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
 * API endpoints:
 	- The `shares` endpoints will be placed within each entity. For tables, it would be:
       - CREATE: `POST /tables/<table_id>/shares/`
@@ -83,7 +83,7 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 - Bypassing authentication for APIs needed by frontend:
   - For publicly shared content, we should be able to bypass login for the GET requests required to display the table/query in the UI. This includes GET endpoints in tables, queries, columns, records etc.,
   - The frontend will set an additional request header `public_link_slug` when attempting to access entity endpoints (eg., /tables, /queries etc.,) via a publicly shared url. The value of this request header will be the same as the slug of the public link.
-    - Eg., `public_link_slug`: `f2eea1b0-591f-4414-89ae-87d1688bf1d6` 
+    - Eg., `public_link_slug`: `f2eea1b0-591f-4414-89ae-87d1688bf1d6`
   - This can be done by adding custom permission classes to these specific endpoints, which override the default `rest_framework.permissions.IsAuthenticated` class, and changes the condition to:
     - If isAuthenticated, provide access.
     - If not authenticated, Check if the request contains the `public_link_slug` header. If no, reject request.
@@ -121,7 +121,7 @@ Refer relevant discussions in [mail thread](https://groups.google.com/a/mathesar
 #### Approaches that are not feasible:
   * The "entity_type and entity_id polymorphic joins" approach.
     - Does not satisfy (6)
-  * The "reverse-belongs to" approach where a table (or any entity) contains the link as part of it's model. 
+  * The "reverse-belongs to" approach where a table (or any entity) contains the link as part of it's model.
     - Requires dedicated mapping tables to implement (4)
     - Duplications needed for (2)
   * The "polymorphic django model libraries" approaches (Django polymorphic, Django model-utils Inheritance Manager, Django concrete inheritance).
@@ -133,9 +133,9 @@ Both the following approaches satisfy all points above.
 
 ##### 'Sparse table exclusive belongs-to' approach.
   * DB schema:
-    ![public_links_sparse_table.png](/assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table.png)
+    ![public_links_sparse_table.png](../../../assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table.png)
   * DB schema when we implement (4):
-    ![public_links_sparse_table_metadata.png](/assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table_metadata.png)
+    ![public_links_sparse_table_metadata.png](../../../assets/archive/product/specs/publicly-shareable-links/public_links_sparse_table_metadata.png)
   * Requires a check condition on the table to ensure that there's exactly 1 of the entities for each link.
   * Pros:
     * API requests and responses would be under a single endpoint `/public_links/`.
@@ -152,10 +152,10 @@ Both the following approaches satisfy all points above.
 
 ##### 'One dedicated table per entity' approach
   * DB schema
-    ![public_links_one_table_per_entity.png](/assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
+    ![public_links_one_table_per_entity.png](../../../assets/archive/product/specs/publicly-shareable-links/public_links_one_table_per_entity.png)
   * Pros:
     * Models are simple.
-    * Can be implemented using abstract models, and Django simplifies all implementation logic. 
+    * Can be implemented using abstract models, and Django simplifies all implementation logic.
     * API requests & responses don't require custom handling.
     * Queries would be fast.
     * Each entity's custom metadata would be part of it's own table.
@@ -172,7 +172,7 @@ Both the following approaches satisfy all points above.
   * Implementation and maintenance wise, the 'One dedicated table per entity' is the simplest, and considering that we might definitely have entity specific metadata, I'm recommending it.
   * I don't see an issue with having the entity in the url (eg., `/public/queries/<url_slug>`).
   * Anything we might want to do with links would require us to do it in all the tables, but Django simplifies that for us, so I don't see complexity there.
-  
+
 #### Result
 * It was discussed and concluded via mail that we'll go ahead with the 'One dedicated table per entity' approach.
 

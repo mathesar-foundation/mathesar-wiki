@@ -13,7 +13,7 @@ Mathesar currently only allows the user to use a small set of data types. We'd l
 - Work with the Mathesar design team to figure out how end users can interact with PostGIS data types in the UI, including:
   - How data is displayed
   - How data is entered
-  - What [Mathesar Types](/engineering/glossary/ui-types) to show
+  - What [Mathesar Types](../../../engineering/glossary/ui-types.md) to show
   - What filtering options to support for each type
   - What grouping options to support for each type
   - What display options to support for each type
@@ -32,12 +32,12 @@ If the candidate is interested, it would be great to also have the types integra
 
 ## Resources
 - Data Types in Mathesar:
-  - [Data Types "Concepts" page](/archive/product/concepts/data-types)
-  - [Mathesar UI Data Types engineering page](/engineering/glossary/ui-types)
-- [Existing Data Type components design spec](/archive/product/design/specs/global-data-type-components), to see how current data types work.
+  - [Data Types "Concepts" page](../../../archive/product/concepts/data-types.md)
+  - [Mathesar UI Data Types engineering page](../../../engineering/glossary/ui-types.md)
+- [Existing Data Type components design spec](../../../archive/product/design/specs/global-data-type-components.md), to see how current data types work.
 - Filters in Mathesar:
-  - [Filters "Concepts" page](/archive/product/concepts/filters)
-  - [Filters engineering page](/engineering/glossary/filters)
+  - [Filters "Concepts" page](../../../archive/product/concepts/filters.md)
+  - [Filters engineering page](../../../engineering/glossary/filters.md)
 - PostGIS resources:
   - [PostGIS website](http://postgis.net/)
   - [PostGIS Data Types reference](https://postgis.net/docs/reference.html#PostGIS_Types)
@@ -46,4 +46,4 @@ If the candidate is interested, it would be great to also have the types integra
 - **Primary Mentor**: Kriti Godey
 - **Backup Mentor**: Brent Moran
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

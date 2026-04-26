@@ -1,7 +1,7 @@
 # 2023-07 backend fixes
 
 **Name**: 2023-07 backend fixes
-**Status**: In progress 
+**Status**: In progress
 **Review status**: Approved
 
 ## Team

@@ -7,11 +7,11 @@
 - **Length**: Long (~350 hours)
 
 ## The Problem
-- The Mathesar UI allows users to configure the column types for their data, choosing between types like "Number", "Date", "Text", and so on. 
+- The Mathesar UI allows users to configure the column types for their data, choosing between types like "Number", "Date", "Text", and so on.
 - We would like to provide a Spatial data type so that users can
   - Store Geometric values like a location coordinate, boundaries of an area etc
   - Process the spatial values like sorting based on nearest location coordinate, filtering for values within a certain boundary.
-  - Visualize a spatial value 
+  - Visualize a spatial value
 
 ## Feature Description
 - Users should be able to install [PostGIS extension](https://postgis.net/)
@@ -57,4 +57,4 @@ We need to figure out
 
 ## Mentors
 **Primary Mentor**: Mukesh
-**Secondary Mentor(s)**: Pavish 
+**Secondary Mentor(s)**: Pavish

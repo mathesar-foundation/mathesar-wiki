@@ -7,7 +7,7 @@ I've moved my work tracking and log to Basecamp.
 - Orientation / onboarding meeting with Insperity
 - 1:1 with Adam
 - Lots of administrative and IT stuff for the org transition, including (but not limited to)
-    - Signed up for corporate bank account 
+    - Signed up for corporate bank account
     - Reconciled invoices and receipts across multiple folders
         - Google Drive permissions are awful
     - Various wire transfer related issues
@@ -201,7 +201,7 @@ I'm sure there's a bunch of stuff I'm not remembering, but I don't think it's wo
 - Set up Transifex accounts for the team
 - Some marketing discussion / comments
 - Email + Matrix + Slack + GitHub catch up
-    - Some overdue responses 
+    - Some overdue responses
 - Progress on next steps for Anish
 - Some more offboarding tasks for Dom, Mukesh, Rajat
 - CIT visiting researcher followup

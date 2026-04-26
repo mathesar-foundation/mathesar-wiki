@@ -9,7 +9,7 @@
 
 Here's a "Publications" record selector, as it looks immediately after opening:
 
-![image](/assets/archive/product/technical-specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
+![image](../../../assets/archive/product/technical-specs/record-selector/173131159-2723a75e-2dcb-443a-a3c5-97d5657f5882.png)
 
 ### Layout
 
@@ -79,7 +79,7 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
     ```
 
 1. We are looking for an author named "Anna Rich". Let's search the "Authors" table by entering "Anna" into "First Name" and "Rich" into "Last Name".
-    
+
 1. This produces the following results (with the `points` column displayed here for reference).
 
     |Id|First Name|Last Name|Website|_points_|
@@ -130,17 +130,17 @@ The search uses some fuzzy logic when finding and sorting records. Here's how it
 
 1. When at least one column contains a query, a "ghost row" will appear above the result set, allowing the user to select a record that will be created on-the-fly using all of the data from their search. The ghost row is filled in as the user types.
 
-    ![image](/assets/archive/product/technical-specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
+    ![image](../../../assets/archive/product/technical-specs/record-selector/173131894-bbbd945a-0748-42b6-b510-b258c7aeb6a0.png)
 
 1. The user can highlight the ghost row by pressing `Up` -- and in this state, validation errors will be displayed for cells as needed using the same UX as when adding a new row to a table.
 
-    ![image](/assets/archive/product/technical-specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
+    ![image](../../../assets/archive/product/technical-specs/record-selector/173132518-e93987c8-9cda-4d8f-9de3-f37a6bf7cc1a.png)
 
 ## Entering a related record using a nested record selector
 
 1. To create a new Publications record, the user needs to supply an Authors record. They use a "nested" record selector to locate or create one Authors record as follows:
 
-    ![image](/assets/archive/product/technical-specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
+    ![image](../../../assets/archive/product/technical-specs/record-selector/173816522-eda451c1-046d-46f1-bfc0-6abdf4f2c085.png)
 
     Note: There are some layout details here that will need to be worked out during implementation, such as horizontal scrolling.
 
@@ -197,7 +197,7 @@ Use case...
 
 We could also construct a more common use case if we venture outside our example schema. Consider a CRM-like schema with `person` records which each have many `email_address` records. When entering an `activity` record, I want to select a `person` that has at least one `email_address` which contains a field that matches a query. _And_ in this case I also want to _add_ a new person with that email address if I don't find a matching person. Adding is especially tough because we can't create the `email_address` record until we create the `peron` record, so the "drill-down-and-back-up-again" UX outlined in the specs above won't work for the `email_address`.
 
-These scenarios are more tricky to handle and will require more UX thought. But for some schemata handling them well will be pretty important. 
+These scenarios are more tricky to handle and will require more UX thought. But for some schemata handling them well will be pretty important.
 
 
 

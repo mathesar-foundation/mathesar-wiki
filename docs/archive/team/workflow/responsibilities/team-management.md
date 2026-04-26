@@ -1,6 +1,6 @@
 # Team management
 
-**Owner**: Kriti  
+**Owner**: Kriti
 **Helper**: Sean
 
 ## Maintenance tasks

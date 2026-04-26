@@ -49,7 +49,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
           b integer,
           c integer generated always as (a + b) stored
         );
-        insert into formulas (a, b) values 
+        insert into formulas (a, b) values
         (1, 7),
         (5, 11);
         select * from formulas;
@@ -182,7 +182,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
           c integer generated always as (a + b) stored,
           d integer generated always as (c * 2) stored
         );
-        insert into formulas (a, b) values 
+        insert into formulas (a, b) values
         (1, 7),
         (5, 11);
         ```
@@ -191,7 +191,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
 
     - It's interesting to note that SQLite does [not](https://www.sqlite.org/gencol.html) have this limitation:
 
-        > The expression of a generated column can refer to any of the other declared columns in the table, including other generated columns, as long as the expression does not directly or indirectly refer back to itself. 
+        > The expression of a generated column can refer to any of the other declared columns in the table, including other generated columns, as long as the expression does not directly or indirectly refer back to itself.
 
 
 ## Competing products
@@ -260,7 +260,7 @@ This is a report which details some research that Sean did in 2023-06 to vet the
 
     - Hovering the column header shows the formula definition
 
-        ![image](/assets/archive/product/research/formulas/b7a53348-4811-42f6-a562-f6d31b955af6)
+        ![image](../../../assets/archive/product/research/formulas/b7a53348-4811-42f6-a562-f6d31b955af6)
 
     - I kept wanted to double-click the _cell_ to edit the formula. Instead, I need to click the column header, then select "edit" from the menu
 

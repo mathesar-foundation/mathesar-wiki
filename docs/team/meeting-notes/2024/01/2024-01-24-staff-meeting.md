@@ -10,7 +10,7 @@ Not many regressions identified.
 
 **GitHub issues**
 
-- [Incorrect Z index for sheet header cells within table widget](https://github.com/mathesar-foundation/mathesar/issues/3396) 
+- [Incorrect Z index for sheet header cells within table widget](https://github.com/mathesar-foundation/mathesar/issues/3396)
     - might be bumped out since it's very minor
 - [Array cells not styled correctly](https://github.com/mathesar-foundation/mathesar/issues/3402)
     - cannot reproduce
@@ -39,7 +39,7 @@ Not many regressions identified.
     - Choose between master / Docker image not being in sync or having to change Docker without version changes
     - We should currently be pushing docs changes whenever we want
         - We won't push a new Docker image for docs changes for now
-    - For the long term, we want to be making new patch releases if we update docs, but we'll do this for the beta 
+    - For the long term, we want to be making new patch releases if we update docs, but we'll do this for the beta
 - QA testing (users)
     - Ghislaine went through library demo and task based testing
     - No new things found

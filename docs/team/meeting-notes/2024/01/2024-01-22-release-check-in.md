@@ -1,4 +1,4 @@
-# 2024-01-22 QA testing meeting 
+# 2024-01-22 QA testing meeting
 
 ## General notes
 
@@ -40,7 +40,7 @@
 
 ## For administrators
 
-General tips for all 
+General tips for all
 
 - Follow docs as you perform steps. Report docs problems.
 

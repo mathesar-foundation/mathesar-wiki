@@ -1,6 +1,6 @@
 # User feedback tracking
 
-**Owner**: Kriti  
+**Owner**: Kriti
 **Call Assistance Helpers**: Pavish, Kriti, Brent, Ghislaine
 
 ## All Team Members

@@ -47,7 +47,7 @@ I (Sean) noticed that [this issue](https://github.com/mathesar-foundation/mathes
 - But if we're doing this incrementally, then `develop` will only be broken in small bits, we can delete the architecture branch.
 - We need to figure out when we can call the RPC work good enough for the frontend to start working on it, make shims between REST and RPC endpoints if needed.
     - All APIs won't be done by deadline, so we need to figure out a stopping point that's not "all APIs"
-- We're changing SQL functions, not really service layer functions, so this will break `develop` 
+- We're changing SQL functions, not really service layer functions, so this will break `develop`
 - You can't change the return type of SQL functions, you have to drop and re-create them.
     - Using a more aggressive strategy to replace SQL functions would solve Anish's qualm.
     - Only thing affected by more aggressive strategy is if someone uses our SQL functions in their table definitions, which seems unlikely.
@@ -119,7 +119,7 @@ Sean:
 - Sean is new to the codebase, it's useful to know how people are doing things, useful to have these discussions.
     - There are undocumented code standards that Brent/Anish have sort of agreed on.
 
-Brent: 
+Brent:
 
 - All the libraries we use are inconsistent about variable order, etc.
 - It's good to discuss or write things down, but let's not hold up PRs.

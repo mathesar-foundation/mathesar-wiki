@@ -17,7 +17,7 @@
 We discussed bidirectional navigation between explorations and a table and options to solve the problem without complex design solutions.
 
 - We agreed that this problem is worth solving, both Sean and Ghislaine found this issue annoying when using Mathesar in their workflow
-- We discussed the concept of navigation via global search bar, but dismissed it as too high-concept and not related to this specific problem 
+- We discussed the concept of navigation via global search bar, but dismissed it as too high-concept and not related to this specific problem
 - We dismissed, the idea of using the shortcuts menu for links to explorations based on Sean's input. He pointed out that it is unlikely that users will think of using it for this purpose.
 - Debated adding explorations inside the inspector panel but ended up rejecting this idea due to the inspector's designated function for table metadata only.
 - We considered a separate panel to show explorations and links (i.e. a "related objects navigation" panel)
@@ -29,7 +29,7 @@ We discussed bidirectional navigation between explorations and a table and optio
 ### Decision
 - Decided to implement a drop-down menu next to filter, sort, and group options, labeled "Explorations". There should be a divider between "filter, sort, and group" and this new button.
 - In the drop-down, users will find all explorations where the current table is the base, along with an option to add new explorations with the base table preselected.
-- For both unsaved and saved explorations, we will have a link to the base table available on the top bar. 
+- For both unsaved and saved explorations, we will have a link to the base table available on the top bar.
 - We decided on this option because:
     - It doesn't violate the concept of the table inspector
     - It doesn't require large changes to the application which should be considered more holistically

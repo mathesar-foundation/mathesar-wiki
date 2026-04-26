@@ -63,7 +63,7 @@
 
 ## 2023-07-12
 
-- Refactor [#2986](https://github.com/centerofci/mathesar/pull/2986) and make it ready for review 
+- Refactor [#2986](https://github.com/centerofci/mathesar/pull/2986) and make it ready for review
 - Async with Brent
 
 ## 2023-07-11

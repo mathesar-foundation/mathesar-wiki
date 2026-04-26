@@ -1,7 +1,7 @@
 # Release v0.1.2
 
 **Name**: Release v0.1.2
-**Status**: In review 
+**Status**: In review
 
 ## Introduction
 * This project is a collection of items needed for v0.1.2 release.

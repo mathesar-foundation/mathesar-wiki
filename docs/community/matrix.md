@@ -33,7 +33,7 @@ These channels focus on day-to-day engineering work.
 | Mathesar - Code | [`#code:matrix.mathesar.org`](https://matrix.to/#/#code:matrix.mathesar.org) | Technical or code-related discussion. |
 | Mathesar - Backend | [`#backend:matrix.mathesar.org`](https://matrix.to/#/#backend:matrix.mathesar.org) | Discussions related to backend code specifically |
 | Mathesar - Frontend | [`#frontend:matrix.mathesar.org`](https://matrix.to/#/#frontend:matrix.mathesar.org) | Discussions related to frontend code specifically  |
-| Mathesar - Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](/engineering/code-review) |
+| Mathesar - Code Review | [`#code-review:matrix.mathesar.org`](https://matrix.to/#/#code-review:matrix.mathesar.org) | Requests for code review. See [Code Review Guidelines](../engineering/code-review/index.md) |
 | Mathesar - Infrastructure | [`#infrastructure:matrix.mathesar.org`](https://matrix.to/#/#infrastructure:matrix.mathesar.org) | Discussions related to Mathesar installation, setup and other infrastructure  |
 | Mathesar - i18n | [`#i18n:matrix.mathesar.org`](https://matrix.to/#/#i18n:matrix.mathesar.org) | Discussions related to Mathesar imternationalization |
 
@@ -44,7 +44,7 @@ These channels focus on day-to-day design and product work.
 |-|-|-|
 | Mathesar - Design | [`#design:matrix.mathesar.org`](https://matrix.to/#/#design:matrix.mathesar.org) | Design-related discussion. |
 | Mathesar - Product | [`#product:matrix.mathesar.org`](https://matrix.to/#/#product:matrix.mathesar.org) | Product-related discussion. |
-| Mathesar - Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](/archive/product/design/process/review-guidelines) |
+| Mathesar - Design Review | [`#design-review:matrix.mathesar.org`](https://matrix.to/#/#design-review:matrix.mathesar.org) | Requests for design review. See [Design Review Guidelines](../archive/product/design/process/review-guidelines.md) |
 | Mathesar - Documentation | [`#documentation:matrix.mathesar.org`](https://matrix.to/#/#documentation:matrix.mathesar.org) | Discussion about [our documentation](https://docs.mathesar.org) |
 
 ### Projects
@@ -54,13 +54,13 @@ These channels focus on specific projects.
 |-|-|-|
 | Mathesar - Data Modeling | [`#data-modeling.mathesar.org`](https://matrix.to/#/#data-modeling:matrix.mathesar.org) | Discussions related to data modeling projects |
 
-### Community 
+### Community
 These channels focus on community building activities.
 
 | Name | Address | Purpose |
 |-|-|-|
 | Mathesar - Marketing | [`#marketing.mathesar.org`](https://matrix.to/#/#marketing:matrix.mathesar.org) | Discussions related to promoting Mathesar |
-| Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](/community/gsoc) such as GSoC |
+| Mathesar - Mentoring Programs | [`#mentoring.mathesar.org`](https://matrix.to/#/#mentoring:matrix.mathesar.org) | Discussions related to [mentoring programs](./gsoc/index.md) such as GSoC |
 | Mathesar - Code for Japan | [`#code-for-japan:matrix.mathesar.org`](https://matrix.to/#/#code-for-japan:matrix.mathesar.org) | Bridge to the `#proj-mathesar` channel on the Code for Japan Slack |
 
 ### Maintainers workflow

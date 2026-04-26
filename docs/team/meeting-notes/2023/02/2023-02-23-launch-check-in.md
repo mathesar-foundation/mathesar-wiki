@@ -29,7 +29,7 @@
 - We have hired someone from Upwork to write some more installation docs
 
 ### Live demo
-- We need to discuss some design/UX issues 
+- We need to discuss some design/UX issues
 - Timing for improvements to live demo: We are okay pushing some imprvements to the live demo after the release, but we want to get as much in before the release as possible
 - Load balancer is in progress
     - Need to figure out how to determine when to scale.
@@ -57,7 +57,7 @@
 ### Priorities per person
 
 #### Anish
-- Finish all the QA testing tasks 
+- Finish all the QA testing tasks
 - Takeover #2520
 - Community work
 
@@ -97,7 +97,7 @@
 #### Rajat
 - Review the QA plan
 - Do the remaining QA items for users and permissions
-- Review related changes on users and permissions documentation. 
+- Review related changes on users and permissions documentation.
 
 
 #### Sean

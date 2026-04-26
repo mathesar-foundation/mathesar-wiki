@@ -8,7 +8,7 @@
     - pending confirmation
     - let's go ahead with UX changes
 - Hopefully merged today or tomorrow
-- Docs for this are currently assigned to Kriti; 
+- Docs for this are currently assigned to Kriti;
 - Don't include unconfirmed tables issue #2520
     - There's a PR -- pending review;
     - nice-to-have
@@ -42,7 +42,7 @@
 - Integrating into website
 - Documenting type 2 and 3 deployments
 - Update `README.md` (issue #2495)
-- Ghislaine working on styling 
+- Ghislaine working on styling
     - could integrate feedback from usability testers
 
 ### Usability improvements
@@ -51,7 +51,7 @@
 
 ### Upgrades
 - Sean opened a PR over the weekend.
-- The releases exist, but 
+- The releases exist, but
     - We should delete them
     - Merge the upgrades frontend PR #2514,
         - Change POST request to GET
@@ -80,7 +80,7 @@
 - Website bio double-check
 
 #### Dom
-- Rewrite upgrade endpoint from GET to POST in caddyfile 
+- Rewrite upgrade endpoint from GET to POST in caddyfile
 - Demo bottleneck hunting
 
 #### Ghislaine
@@ -134,4 +134,4 @@
 - Dom: we'll need to consider how the upgrade process works with Watchtower, may not work unless we use a consistent tag for latest version (rather than version number based tags).
 - Lots of complexity to consider, can't resolve now.
 - Next step: **Brent will write a wiki page proposing a step-by-step process for how to cut a release.**
-    - We'll discuss once that's ready 
+    - We'll discuss once that's ready

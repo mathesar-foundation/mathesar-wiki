@@ -24,7 +24,7 @@ A user can set a column to reference another table's data by selecting the optio
 #### A user selects a referenced table for the new linked column
 A user can reference any table where a primary key is set as long as they are in the same schema. The table selector displays not only the table name but also the primary key column for reference.
 
-#### A user enters data into a linked column. 
+#### A user enters data into a linked column.
 Once the linked column has been successfully set up, the user can begin to enter data. The values of the related fields must match exactly any of the values specified in the referenced table's lookup field.
 
 #### A user deletes a linked record in the reference table.

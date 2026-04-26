@@ -80,8 +80,8 @@ Decision: move updates to weekly on Monday
 ### Rajat
 
 - Was out for most of the time until this week.
-- Positive for i18n & installations work. 
-- Will start release work, early next week. 
+- Positive for i18n & installations work.
+- Will start release work, early next week.
 
 ### Sean
 
@@ -151,7 +151,7 @@ Decision: move updates to weekly on Monday
 - Small businesses have accelerated growth
 - Have need for ad-hoc data modelling and querying
 - Ghislaine thinks we should narrow to start ups with less-defined processes
-    - Ad-hoc attitude towards modelling 
+    - Ad-hoc attitude towards modelling
     - Ad-hoc attitude towards security
 - Input will probably be in a denormalized format
     - how to work with modelled data?

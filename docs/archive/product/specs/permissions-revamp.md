@@ -76,7 +76,7 @@ This spec describes the revamped product considerations for managing Permissions
 * The owner of an object can transfer the ownership to any login or group role configured in Mathesar.
 
 ### Ownership of container objects
-* Owning a container object such as a schema does not guarantee owning objects within it. We will make this behaviour clear to the user using appropriate documenation in the UI and our docs. 
+* Owning a container object such as a schema does not guarantee owning objects within it. We will make this behaviour clear to the user using appropriate documenation in the UI and our docs.
 * We will support recursive reassignment of ownership of contained objects for which the user's role has ownership of. This will be an optional checkbox.
 	* For eg., while transfering ownership,
 		* for schemas, we will display a list of tables within it whose ownership belong to the user's role (or any of their group roles).

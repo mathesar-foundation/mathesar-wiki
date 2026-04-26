@@ -126,7 +126,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
         - Linux:
             - .deb repos
             - .aur for Arch
-            - dpkg? 
+            - dpkg?
     - Mac: DMG file / EXE files for Windows
         - e.g. OpenRefine, opens in a browser
 - Where is the Postgres server?
@@ -155,7 +155,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
     - easier to upgrade
     - smaller file size - no bundled dependencies
     - We can include postgres as a package dependency
-- Advantages of plain download (of an executable) over repo distribution 
+- Advantages of plain download (of an executable) over repo distribution
     - more up-to-date
     - simpler for us in the short term
 - Additional args/flags that the CLI app could have
@@ -183,7 +183,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 
 ### Someone installing everything on localhost (not just trying it out)
 - If you're using Docker setup:
-    - May need to be a little different 
+    - May need to be a little different
     - Docker volume needs to not be knocked out
         - Don't let Docker volumes be managed by Docker, use a directory
     - We should say this is NOT recommended for longer term Mathesar use
@@ -204,7 +204,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
 - How do we handle security best practices?
     - Our own docs should be a reference
     - We can have step by step guides in a different section
-        - This is an organizing principle 
+        - This is an organizing principle
         - We should not write a lot of guides, maybe just have one high quality one
         - We can link to community written guides as they emerge
     - e.g.
@@ -260,7 +260,7 @@ Continued on 2023-06-14, Aritra and Anshuman also attended.
         - Write up summary
     - Research into supporting SQLite for Mathesar internal DB
         - Will be useful for multiple personas / installation types
-    - Research feasibility of doing config through UI (from security perspective) 
+    - Research feasibility of doing config through UI (from security perspective)
         - How best to store config if we move DB config into UI
         - How to do this on a remote server (accessible to the internet) securely
             - maybe look at WordPress

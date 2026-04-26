@@ -87,7 +87,7 @@ Goals of the meeting:
     - Pavish: asked about this
     - Kriti: not sure we need this
     - Investigate PaaS as a prerequisite to wide publicity
-- Depends on if we're publicizing Beta 
+- Depends on if we're publicizing Beta
 - Brent: PaaS should be straightforward so long as our image is set up correctly.
 - Pavish: Mostly this task involves a bunch of QA work, testing our image out with different platforms.
 - Anish: it would be good to reduce our 3rd party dependencies. This would help us support more python versions.
@@ -178,7 +178,7 @@ Goals of the meeting:
     - Pavish: figure out permissions, static files
     - Kriti: put this all in basecamp, ensure we talk about rest of "more detail later" issues
     - Sean: write use cases for Basecamp/CRM
-    - Anish: work on reducing dependencies, Python/Postgres support 
+    - Anish: work on reducing dependencies, Python/Postgres support
     - Ghislaine: work on user scripts for QA
 - Not scheduling next call yet, will be after we have more clarity on permissions / usability items
 - Other things we're working on:
@@ -193,6 +193,6 @@ Goals of the meeting:
         - That takes top priority
     - Anish is working on improving infrastructure for demo
         - This goes under release automation, although we didn't talk about it earlier
-        - This should take priority over Postgres / Python / dependencies since it will free up more of our time sooner 
+        - This should take priority over Postgres / Python / dependencies since it will free up more of our time sooner
     - Brent is working on deploying 0.1.4 to demo
         - This is high-priority

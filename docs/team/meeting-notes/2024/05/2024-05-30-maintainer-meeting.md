@@ -67,5 +67,5 @@ Since I [Sean] was absent from the last meeting, I'd like to circle back to this
 ### Discussion
 - Explorations are associated with schemas right now, and names need to be unique per schema.
 - Do we want to redo this, given that we're not sure about the future of explorations?
-- Probably not worth redoing right now. 
+- Probably not worth redoing right now.
 - Let's stick with current strategy.

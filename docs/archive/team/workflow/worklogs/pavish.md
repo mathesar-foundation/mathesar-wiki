@@ -136,7 +136,7 @@
 ## 2023-11-06 Monday
 * Raised [PR to simply Dockerfile and dev compose file](https://github.com/centerofci/mathesar/pull/3295)
 * Continued i18n work
-  - Continued figuring out automation workflow 
+  - Continued figuring out automation workflow
   - Chat with Kriti on ordering translations
 * Created an issue to track [cleaning up migration scripts](https://github.com/centerofci/mathesar/issues/3296)
 
@@ -158,7 +158,7 @@
 * Started looking at i18n work to assess what's pending
 
 # Archive
- - [October 2023 work logs](/archive/team/workflow/worklogs/archive/2023-10/pavish)
- - [September 2023 work logs](/archive/team/workflow/worklogs/archive/2023-09/pavish)
- - [August 2023 work logs](/archive/team/workflow/worklogs/archive/2023-08/pavish)
- - [July 2023 work logs](/archive/team/workflow/worklogs/archive/2023-07/pavish)
+ - [October 2023 work logs](./archive/2023-10/pavish.md)
+ - [September 2023 work logs](./archive/2023-09/pavish.md)
+ - [August 2023 work logs](./archive/2023-08/pavish.md)
+ - [July 2023 work logs](./archive/2023-07/pavish.md)

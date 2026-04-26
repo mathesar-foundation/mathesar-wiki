@@ -6,7 +6,7 @@
 - **Installation**: Docker setup merged. Install script in draft PR form. We adjusted some tasks within GH during the meeting. We're focusing only on "Deployment type 1". Maybe Dom could work on other deployment types?
 - **Updates** Still working on Watchtower.
 - **Docs** Brent has started working on docs content. Docs content is so far limited to install process. Still need to flesh out the "wrapper" docs content, with top-level stuff.
-- **Usability testing**: Finished first round. [See notes](https://hackmd.io/isRhxp4fQoKHaJ457r1FOg) Nothing seems to be blocking the launch so far. We have things to work on later though. 
+- **Usability testing**: Finished first round. [See notes](https://hackmd.io/isRhxp4fQoKHaJ457r1FOg) Nothing seems to be blocking the launch so far. We have things to work on later though.
 - **Deployment testing** Blocked on docs being done. We're working on getting machines for Mac/Linux/Windows to test on various platforms based on instructions in docs.
 - **Demo video**: New voiceover is done. They're working on the edit.
 - **Website**: Looking good. New illusstrations are done. Basically the website is done!
@@ -24,7 +24,7 @@
 - **Summary**: We have user roles: "Manager", "Editor", and "Viewer". Can an Editor modify metadata like Explorations, and column display settings? I predict that some users will want to grant this permission and some will not. Short of adding another role, we should take our best guess as to the behavior that most users will want, making sure we're all on the same page as a team.
 
 ### Notes
-- Editors _can_ edit metadata. 
+- Editors _can_ edit metadata.
 - Schema/table names and descriptions are _not_ considered metadata (since they're stored in the user database).
 - We may want more granular permissions later, but we hope this will be okay for now
 

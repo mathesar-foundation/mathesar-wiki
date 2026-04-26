@@ -17,15 +17,15 @@ This is our release notes template. The template part follows the horizontal rul
 >
 > Examples:
 >
-> - Mathesar 0.3.0 focuses on improvements to Mathesar’s installation experience, look-and-feel, usability, and stability. 
+> - Mathesar 0.3.0 focuses on improvements to Mathesar’s installation experience, look-and-feel, usability, and stability.
 > - This release contains targeted fixes for bugs within Mathesar’s new UNIX socket connection feature, as released in version 0.2.3.
-> - Mathesar 0.2.1 addresses a number of bug fixes identified by members of our community during our beta release. 
+> - Mathesar 0.2.1 addresses a number of bug fixes identified by members of our community during our beta release.
 >
 > **Second and third sentence:** Mention highlights of the release from the point of view of what's changed for the user (which may not always be how we think about things internally e.g. 'record selector improvements' gets translated to 'improvements in locating records').
 >
 > Examples:
 >
-> - Highlights include a new dark mode theme, a UI refresh in light mode and a new install method using a one-line script. We've also improved usability of the Data Explorer, finding table records, and creating records. 
+> - Highlights include a new dark mode theme, a UI refresh in light mode and a new install method using a one-line script. We've also improved usability of the Data Explorer, finding table records, and creating records.
 > - This release includes some quality-of-life improvements to Mathesar like nicknames for databases, persisted column widths, and the ability to connect databases without a password.
 > - This release introduces a UUID data type, enhanced primary key handling including support for UUIDs as primary keys, more flexible primary key handlind during data import, and more.
 >
@@ -50,16 +50,16 @@ This is our release notes template. The template part follows the horizontal rul
 > - A new look for Mathesar
 > - Updated “from scratch” installation workflow
 > - New access control system based on PostgreSQL roles and privileges
-> 
+>
 > The text should describe:
 >
 > - What we did in terms of changes e.g. "we streamlined Mathesar's from scratch install workflow", "we completely redesigned Mathesar's access control system" etc.
-> - What that does, in neutral, externally observable terms e.g. 
+> - What that does, in neutral, externally observable terms e.g.
 > 	- "eliminates several steps from the process"
 >	- "allows users to use UNIX sockets to connect their Postgres instance to Mathesar"
 >	- "You can now use Mathesar to configure roles and privileges in PostgreSQL and to set granular access control at the individual schema and table level."
 > - Links to any relevant documentation that's new.
-> 
+>
 > If this improvement involves a UI change, or there is some other visual representation possible (docs screenshot, SQL command, etc.), please include one.
 >
 > Other notes:
@@ -80,7 +80,7 @@ This is our release notes template. The template part follows the horizontal rul
 
 ## Bug Fixes
 
-> The bug fixes section can be skipped if there are none. 
+> The bug fixes section can be skipped if there are none.
 >
 > This is just a list of bug fixes that link to the relevant PR. No need for subsections.
 >

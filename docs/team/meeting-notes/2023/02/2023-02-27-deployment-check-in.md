@@ -35,7 +35,7 @@ Kriti:
 We are not working on these yet, we'll discuss tomorrow.
 
 - https://github.com/centerofci/mathesar/issues/2427
-- https://github.com/centerofci/mathesar/issues/2571 
+- https://github.com/centerofci/mathesar/issues/2571
     - Solve using documentation (easy to do for Mac)
 
 Kicked out of launch or closed:

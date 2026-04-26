@@ -1,10 +1,10 @@
 # Pagination Specs
 
 ## Context
-The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](/archive/product/design/specs/read-only-table). The team decided to add pagination to read-only tables during the [May 19th team meeting](/team/meeting-notes/2021/05/2021-05). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
+The team identified the need for a pagination component during the review of the design specs for [Read-Only Tables](./read-only-table.md). The team decided to add pagination to read-only tables during the [May 19th team meeting](../../../../team/meeting-notes/2021/05/2021-05.md). The team chose pagination against the original requirement of having infinite scrolling to prevent issues with real-time data causing data duplication.
 
 ## Pagination Component Details
-![](/assets/archive/product/design/specs/pagination/HyZR_lN9d.png)
+![](../../../../assets/archive/product/design/specs/pagination/HyZR_lN9d.png)
 
 
 The pagination component contains the controls for navigating across the parts (pages) of records from a table that the UI can't fully display. It usually sits at the bottom of a table.
@@ -24,7 +24,7 @@ The pagination component controls are:
 ### Scrolling Area
 The scrolling settings of the table should allow the pagination component to be fixed at the bottom.
 
-![](/assets/archive/product/design/specs/pagination/1oghfOu.png)
+![](../../../../assets/archive/product/design/specs/pagination/1oghfOu.png)
 In this figure, the two red horizontal lines delineate the scrolling area.
 
 ### Page Size

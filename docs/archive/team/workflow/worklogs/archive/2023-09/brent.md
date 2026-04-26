@@ -2,7 +2,7 @@
 
 ## 2023-09-29
 
-Still moving boxes around; not much desk time. 
+Still moving boxes around; not much desk time.
 
 ### Infrastructure
 
@@ -18,7 +18,7 @@ Still moving boxes around; not much desk time.
 
 ## 2023-09-28
 
-Still moving boxes around; not much desk time. 
+Still moving boxes around; not much desk time.
 
 ### Meetings
 
@@ -111,7 +111,7 @@ Today was moving day. Attended meetings and did some thinking while carrying box
 
 - Sent email with instructions for when https://github.com/centerofci/mathesar/pull/3206 gets merged
 - Sent project update email
-- Worked on performance testing, 
+- Worked on performance testing,
 - Worked on splitting findings into themed projects
 
 ### Marketing

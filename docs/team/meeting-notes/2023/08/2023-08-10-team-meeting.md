@@ -14,7 +14,7 @@ Project ideas from previous meeting and follow up discussion on Matrix:
 
 - Installation improvements
     - This is still a major barrier to Mathesar adoption
-    - Implement the plan we've already decided on [here](/team/meeting-notes/2023/07/2023-07-28-installation-meeting)
+    - Implement the plan we've already decided on [here](../07/2023-07-28-installation-meeting.md)
 - Make Mathesar work better with common existing Postgres setups
     - Major things we don't support that people have in their DBs
         - Views
@@ -30,18 +30,18 @@ Project ideas from previous meeting and follow up discussion on Matrix:
         - Generated columns
             - Improved support for generated columns
         - Constraints
-            - Display info for EXCLUDE and CHECK constraints 
+            - Display info for EXCLUDE and CHECK constraints
 - Improved UX for viewing all tables, e.g. hiding tables, showing ER diagram
 - Testing Mathesar with other products that use Postgres
     - e.g. Supabase integration
 - Product research for better definition of our niche
-- Ideas from prior async brainstorming are [here](/team/meeting-notes/2023/08/2023-08-09-team-meeting.md#pre-meeting-notes)
+- Ideas from prior async brainstorming are [here](./2023-08-09-team-meeting.md#pre-meeting-notes)
 ### Pre-meeting notes
 Additional thoughts from Kriti:
 
 - Firefighting + backlog clearing team
     - Including stuff like moving wiki to MkDocs, automating internal deployment / `develop` Docker builds
-- Do we also want to consider work that will let release more frequently? 
+- Do we also want to consider work that will let release more frequently?
 - We also need help with organizing our backlog
 #### Brent's thoughts
 - I think we should really try to do the project to fix up the column moving, or remove that feature, and wiring up to a preexisting DB makes this even more relevant. The current functionality lets you screw things up irreversibly, and it won't be obvious to a user when they're in danger from our current UI.
@@ -56,7 +56,7 @@ Additional thoughts from Kriti:
 - Generated columns:
     - I think the only support we need for this is to notice that they're essentially a dynamic default as far as the front end is concerned:
         - we shouldn't modify the default generator, or
-        - allow input into those cells. 
+        - allow input into those cells.
     - We could also trivially show the generating expression (in fact this might already happen if we're showing dynamic defaults somehow), but I'd consider that a bonus.
     - We're already flagging these columns as a dynamic default in the back end, it's a matter of whether the front end is then handling that with enough fidelity.
 - Supporting different                 setups: This may be the thing we need the most work on overall
@@ -73,7 +73,7 @@ Are there projects that we need to continue?
 - "Backend fixes"
 - "Frontend fixes"
 - Kriti: What is the status of i18n project?
-    - Should be finished soon. But This is only the infrastructure around it -- not actually the translation. We'll be hiding the UI so that there are no user-facing changes until. 
+    - Should be finished soon. But This is only the infrastructure around it -- not actually the translation. We'll be hiding the UI so that there are no user-facing changes until.
     - Rajat will be working on workflow and documentation next week. Expecting to finish by the end of the cycle.
 - Sean: concern about some tasks being too big for one cycle and some tasks being too small for the cycle
 - We should have two people working on smaller tasks and backlog type things.
@@ -134,7 +134,7 @@ Are there projects that we need to continue?
         - Exporting tables as CSV
         - Duplicating a table
 - Investigating compatibility with pre-existing databases
-    - Brent (full-time, owner) 
+    - Brent (full-time, owner)
     - Pavish (full-time)
     - Ghislaine (part-time)
     - Sean (part-time)
@@ -162,7 +162,7 @@ Things we need to discuss:
 - Installation plan details finalization
 - Product level permissions discussion to account for related entities
 - Approval of written up projects
-- Delegating responsibilities for Kriti's time off 
+- Delegating responsibilities for Kriti's time off
 ### Conclusion
 - How to prioritize the backlog
 	- Rajat, Sean, Dom, Kriti will come up with a plan
@@ -185,5 +185,5 @@ Things we need to discuss:
 	- Pavish will start an email thread
 - Approval of written up projects
 	- We'll do this at next Wednesday's weekly meeting
-- Delegating responsibilities for Kriti's time off 
+- Delegating responsibilities for Kriti's time off
 	- Kriti will start an email thread

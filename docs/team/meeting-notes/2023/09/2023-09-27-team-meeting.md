@@ -71,7 +71,7 @@ New priorities for release have been established (getting installation as close 
         * If we can tune a few specific endpoints, we could improve performance greatly
 * Niche research
     * Ghislaine's report had a lot of research around small businesses using Postgres
-    * The outcome can be attained only after we talk to users 
+    * The outcome can be attained only after we talk to users
 * Moving from alpha to beta
     * We are ready to be used in production i.e we can openly recommend using Mathesar in production
     * We may not necessarily need more features, but if we get feedback from users on deal-breaking features, we can add them in
@@ -138,7 +138,7 @@ It may be necessary to incorporate some projects under this ongoing responsibili
 ### Pre-meeting prep
 **Discussion goal**: Come up with suggestions to effectively coordinate with project helpers
 
-The Installation Improvement 0.1.4 project got delayed as a crucial feature (Database credentials page) which other features depended upon got delayed. This problem happened as I didn't communicate the urgency of the work needed to be done and instead did a async check in with the helpers. I would like to hear some suggestions to avoid this problem in future. 
+The Installation Improvement 0.1.4 project got delayed as a crucial feature (Database credentials page) which other features depended upon got delayed. This problem happened as I didn't communicate the urgency of the work needed to be done and instead did a async check in with the helpers. I would like to hear some suggestions to avoid this problem in future.
 
 Suggestion:
 - weekly sync check in with helpers to discuss their work load make sense or if we should reorganise their work

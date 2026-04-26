@@ -8,20 +8,20 @@ The `List` data type project is about adding support to the `Array` Postgres typ
 ### Preliminaries
 An `Array` is not a data type per se, but a data structure that holds values of a certain data type. It is not supported by all the SQL databases, but Postgres does. A common array is a structure characterized by having a length and dimension. E.g.
 ```
-a = [1, 1, 3] # a has length=3 and dimensions=1   
+a = [1, 1, 3] # a has length=3 and dimensions=1
 b = [[1, 1], [2, 3]] # b has dimensions=2
 c = [[[1, 1, 1]]] # c has dimensions=3
 ```
 If you've worked with Python's numpy, you can think of dimensions as the number of available axis. Note that the notion of length becomes blurry if we're not in 1-D; should we count the number of items at the inner dimension? SQL works with the `array_length` function, which needs to be passed the `dimension` as an argument, so it returns the number of items at that dimension.
 
 ### SQL Alchemy (SA) support
-This library supports the handling of arrays, and it implements it as a data type class with an `item_type` attribute that specifies the true data type in the DB. 
-The Array class also uses an optional `dimensions` argument, with a default value of 1. This does not actually reflects into an ARRAY column enforced to be 1-dimensional in the DB; it's just a hack of the library to traverse the arrays more efficiently when converting them to Python's lists. 
+This library supports the handling of arrays, and it implements it as a data type class with an `item_type` attribute that specifies the true data type in the DB.
+The Array class also uses an optional `dimensions` argument, with a default value of 1. This does not actually reflects into an ARRAY column enforced to be 1-dimensional in the DB; it's just a hack of the library to traverse the arrays more efficiently when converting them to Python's lists.
 !!! warning "Warning"
-    **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays. 
+    **Attention**, SQL Alchemy needs to work with the psycopg2 DB API to manipulate arrays.
 
 
- 
+
 ## Methodology
 ### Restricting the dimensions to one
 Our initial goal was to support 1-D arrays. For this, we assumed the following:
@@ -32,22 +32,22 @@ Our initial goal was to support 1-D arrays. For this, we assumed the following:
 However, this was not true.
 
 **Arrays in PostgreSQL**
-The implementation of Arrays in PostgreSQL is tricky, and for our project, it brought a big overhead. From [1]: *"... the current implementation ignores any supplied array size limits, i.e., the behavior is the same as for arrays of unspecified length. The current implementation does not enforce the declared number of dimensions either. "* 
+The implementation of Arrays in PostgreSQL is tricky, and for our project, it brought a big overhead. From [1]: *"... the current implementation ignores any supplied array size limits, i.e., the behavior is the same as for arrays of unspecified length. The current implementation does not enforce the declared number of dimensions either. "*
 
 Problems:
 1. We cannot be sure now that all the values in an ARRAY column will have the same dimensions and length.
 2. Users can create ARRAY columns with N-dimensions back with Postgres, and Mathesar would have to figure out how to render them.
 3. Any display option that the Frontend usually handles per column would now need to be processed per cell.
-4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions. 
+4. We cannot give users the chance to create a `List` column with a fixed number of dimensions, and assure them that all the records will comply with that number of dimensions.
 
 In summary, we don't have control over any dimensions nor length properties, because they are not even considered in the Postgres implementation. Some ideas on how to implement the `Array` type are going to be discussed now.
 
 #### Custom Mathesar Type
 Similar data types like JSON and JSON Arrays have been implemented as custom data type classes in Mathesar. As such, they are reflected as Domains on the DB. Implementing Arrays in this way has some issues:
 
-- As any data type can have its Array version, this implies that Mathesar will have to create a Domain for every possible scalar type. 
-- We would not have an Array type for any other scalar type installed on a user's DB (any custom type that Mathesar is not aware of). 
-- Other aspects tied to a data type, such as cast functions, will also be multiplied by this factor. 
+- As any data type can have its Array version, this implies that Mathesar will have to create a Domain for every possible scalar type.
+- We would not have an Array type for any other scalar type installed on a user's DB (any custom type that Mathesar is not aware of).
+- Other aspects tied to a data type, such as cast functions, will also be multiplied by this factor.
 - This can be dangerous for backwards-compatibility in the future; we would have to support both a constrained array version and an unconstrained one (for when Mathesar does give full support to n-dimensional arrays).
 
 #### Type decorator in SA
@@ -74,11 +74,11 @@ Given that none of the ideas we had to attempt restricting arrays to 1 dimension
 **Filters**
 As reviewed earlier, operations over n-dimensional arrays become confusing.
 
-- Length: it needs to know over what dimension to count. 
+- Length: it needs to know over what dimension to count.
 ```
-a = ARRAY[1, 1, 3] 
-# a has length=3 and dimensions=1   
-b = ARRAY[[1, 1, 1], [2, 3, 1]] 
+a = ARRAY[1, 1, 3]
+# a has length=3 and dimensions=1
+b = ARRAY[[1, 1, 1], [2, 3, 1]]
 # b has 2 dimensions
 # for dimension 1, length=2
 # for dimension 2, length=3
@@ -91,7 +91,7 @@ SELECT array[[442,2],[443,2]] @> array[2,443] -- returns True too
 ```
 So, it's like, before comparing, Postgres engine unnests the arrays involved in the comparison, and it will check if each value on the right-hand side array is present in the array to the left.
 
-- Sort: there can be different criteria for sorting records of an Array column, and it becomes less intuitive/clear to compare and sort n-dimensional arrays. In addition, each possible scalar type has its own criteria for sorting. 
+- Sort: there can be different criteria for sorting records of an Array column, and it becomes less intuitive/clear to compare and sort n-dimensional arrays. In addition, each possible scalar type has its own criteria for sorting.
 
 **Summarization**
 Grouping records of a given column is currently supported. In the backend, the SA function array_agg() is used for this purpose, and it returns an object of SA's Array [6] type. However, if we now deal with arrays as records, grouping them can lead to inconsistencies in the inner dimensions of the Array. For example:
@@ -109,28 +109,28 @@ Grouping records of a given column is currently supported. In the backend, the S
 In general, grouping arrays can lead to a mismatch in the dimensions of the elements within an array.
 
 **Rendering format**
-Currently, each data type in Mathesar has its own UI component. A list also has its own styling, which is currently rendering pills in the data explorer. What should we display then, for a list of dates? Including a date picker inside a pill does not sound user-friendly. Now, consider a multidimensional array of dates. What's the best way of rendering it? Without overloading the frontend and overwhelming the user who wants to edit one item/element.  
+Currently, each data type in Mathesar has its own UI component. A list also has its own styling, which is currently rendering pills in the data explorer. What should we display then, for a list of dates? Including a date picker inside a pill does not sound user-friendly. Now, consider a multidimensional array of dates. What's the best way of rendering it? Without overloading the frontend and overwhelming the user who wants to edit one item/element.
 
 ## Current state and considerations
 
 ### Backend
 There is no new data type for arrays; the SA's `Array` [6] type, which was already supported for aggregation transformations, is the one we're going to keep working with.
 
-#### CRUD operations  
+#### CRUD operations
 Sending a patch request (update) to an array column correctly updates the records in a table.
 A request looks like this:
 ```
 {"125":[50000,200]}
 ```
 
-where 125 is the id of the column to be updated, and the value is an array. 
-Reading is also working well for 1-D arrays.  
+where 125 is the id of the column to be updated, and the value is an array.
+Reading is also working well for 1-D arrays.
 
 **Next steps:**
 
 - Test through API client: create and delete column.
 - Tests for n-d case, in particular, when reading the data, how does the mapping of SA work (i.e how the formed array look like)?
-- Type options dict properties: length and dimensions, should be discarded. 
+- Type options dict properties: length and dimensions, should be discarded.
 
 
 #### Filters
@@ -146,7 +146,7 @@ These filters are supported:
 
 The filters are implemented with sql functions, which need to be passed a dimension value.
 
-In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains). 
+In the case of `ArrayContains`, we have to make sure it uses the correct operator, e.g. the proper [SA comparator class](https://docs.sqlalchemy.org/en/14/dialects/postgresql.html#sqlalchemy.dialects.postgresql.ARRAY.Comparator.contains).
 
 **Next steps:**
 
@@ -185,14 +185,14 @@ Any data type can have its "array version" . Therefore, it doesn't seem a good i
 - The user can easily misread one list type and select a wrong one, for example, choosing List of Money instead of List of Email (both begin with *'List of ...'*).
 
 A cleaner approach suggested by Ghislaine [4] is to have a separate menu for the Array or List type.
-![ui_create_list_col.png](/assets/archive/product/projects/2023/07/list-datatype/ui_create_list_col.png)
+![ui_create_list_col.png](../../../../assets/archive/product/projects/2023/07/list-datatype/ui_create_list_col.png)
 
 Also, consider using the term "Array" instead of "list", as the first one encloses n-dimensional arrays too (which will be supported in the future) and operations that work with them.
 
 #### Rendering an array
 For 1-D arrays, items are displayed inside a pill, which corresponds to the `Chip` component in the frontend. The pills are not modifiable.
 
-The `ArrayCell` [component](https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar_ui/src/components/cell-fabric/data-types/components/array/ArrayCell.svelte) receives a list object and renders a pill per each value. Currently, it is not handling any length or dimensions property. This is convenient as, for an Array column, we can have any number of elements and dimensions per record. 
+The `ArrayCell` [component](https://github.com/mathesar-foundation/mathesar/blob/develop/mathesar_ui/src/components/cell-fabric/data-types/components/array/ArrayCell.svelte) receives a list object and renders a pill per each value. Currently, it is not handling any length or dimensions property. This is convenient as, for an Array column, we can have any number of elements and dimensions per record.
 
 Also, this approach is not considering the case of N-D arrays. Here, it would be better to render them as plain text. N-D arrays are not used as much as 1-D arrays (people would prefer to go for a vector type instead), so their use cases will be, hopefully, rare. For a first version, it's not worth to delay supporting it until figuring out how to design a proper UI for this multidimensional structure.
 
@@ -202,9 +202,9 @@ Also, this approach is not considering the case of N-D arrays. Here, it would be
 - Detect and display n-dimensional arrays as plain text.
 
 #### Editing arrays in cells
-Array columns are read-only, and 1-D arrays are rendered with pills (one item in one pill). 
+Array columns are read-only, and 1-D arrays are rendered with pills (one item in one pill).
 
-**Idea:** When editing a cell, a first and basic approach would be to let the user type in the array in the correct format (e.g with brackets, elements separated by commas). Then, as it happens for the other data types, when the user leaves a cell, a call is made to the API to update a particular record. 
+**Idea:** When editing a cell, a first and basic approach would be to let the user type in the array in the correct format (e.g with brackets, elements separated by commas). Then, as it happens for the other data types, when the user leaves a cell, a call is made to the API to update a particular record.
 Work regarding this approach can be found in [this branch](https://github.com/mathesar-foundation/mathesar/tree/array_edition). Here, cells of an Array column can be edited. Two types of components are handled: `TextInput` for when `editMode=True`, and ArrayCell otherwise. There are some issues:
 When entering a new value, the Frontend sends to the backend a malformed array, for example:
 
@@ -219,11 +219,11 @@ This is because making both components work in sync is complex. There is probabl
 
 **Next steps:**
 
-- Enable edition from the record view. The user will have to type the array in the correct format. 
+- Enable edition from the record view. The user will have to type the array in the correct format.
 - Same for the table view, the user can click over a cell and edit the array as plain text.
 
 #### Deleting items
-**It is currently not possible to delete elements from an array.** Also, the UI/UX has to be sorted out for this functionality. 
+**It is currently not possible to delete elements from an array.** Also, the UI/UX has to be sorted out for this functionality.
 
 - Will users be able to delete individual items? Consider the added complexity to this task if the array is large; it's very easy for the user to loose sight of the element they want to eliminate.
 - An easier and reasonable first approach is to let the user handle this through plain text edition. Also, we should think about the persona of the target users. It's more natural for a DB maintainer to just edit records through a form, using plain text.
@@ -232,7 +232,7 @@ This is because making both components work in sync is complex. There is probabl
 A drag-and-drop feature does not seem to be very useful to offer.
 
 - Again, we should consider the complexity of this task for large lists.
-- For sorting, for end users used to calc documents, making use of a formula to achieve this is more intuitive and comfortable. 
+- For sorting, for end users used to calc documents, making use of a formula to achieve this is more intuitive and comfortable.
 - I suggest to test the demand of this feature first before thinking on implementing it. One idea is through a poll.
 
 ### Documentation
@@ -247,11 +247,11 @@ Currently, there is no documentation for the List data type. It would be nice to
 
 In particular, as it was previously discussed, operations for n-dimensional arrays can become confusing, so it would be good to have a section that explains how they work.
 
-**Developer documentation**  
+**Developer documentation**
 When supporting this data type, it would be good to have documentation about the same aspects mentioned before, but for developers, e.g. at a more technical level. It should be included:
 
 - Transformations: what operators are used, sql functions and their arguments.
-- Basics of the Array type: how it is implemented (in Mathesar and Postgres), its string form, notions of dimensions and length. 
+- Basics of the Array type: how it is implemented (in Mathesar and Postgres), its string form, notions of dimensions and length.
 - API: what is sent and what is received.
 - What is currently supported and what's not, for 1-D or N-D arrays.
 

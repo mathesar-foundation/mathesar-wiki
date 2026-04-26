@@ -6,7 +6,7 @@ We'd like to be able to know what other database objects depend on a database ob
 This is useful in various situations
 
 - To show to the user in the frontend before they decide to delete a `Schema` or a `Table`.
-- To show how a `View` was constructed 
+- To show how a `View` was constructed
 - To get a high level overview of the Data Model
 
 ## Classification
@@ -26,7 +26,7 @@ This is useful in various situations
 - Integrate it into the UI to support features as needed
 
 ## Expected Outcome
-There should an appropriate python api backed by SQL functions which would take in the `oid` or `name` of the database object whose dependency graph has to be constructed along with some filtering parameters to limit the listed dependent objects and return a hierarchical dependency graph which contains information of the dependent object. The dependency query varies based on the type of the database object, so the queries for each type should be split into composable `CTE` for readability.   
+There should an appropriate python api backed by SQL functions which would take in the `oid` or `name` of the database object whose dependency graph has to be constructed along with some filtering parameters to limit the listed dependent objects and return a hierarchical dependency graph which contains information of the dependent object. The dependency query varies based on the type of the database object, so the queries for each type should be split into composable `CTE` for readability.
 
 ## Application Tips
 A good candidate would be someone who has good understanding of SQL, and align themselves with the goals of Mathesar. They should be willing to do a fair amount of research both in terms of UX and engineering. They will be working full-stack and would either know or be motivated to learn the necessary technologies in order to complete the project.
@@ -39,4 +39,4 @@ A good candidate would be someone who has good understanding of SQL, and align t
 - **Primary Mentor**: Mukesh Murali
 - **Backup Mentor**: Brent Moran
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

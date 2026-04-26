@@ -3,7 +3,7 @@
 ## Context
 Duration data types represent a period of time measured in hours, minutes, and/or seconds.
 
-## Prototype 
+## Prototype
 !!! warning "Warning"
     This prototype might be outdated due to global component updates. Please refer to the link under 'Setting Options' for an updated version of the shared components.
 

@@ -25,7 +25,7 @@ As possible dependent objects, it returns:
 
 For each dependent object, a new set of dependents is constructed. The depth of the graph is artificially limited to 10, but the limit can be changed.
 
-For Mathesar-supported types, the graph returns its Django id (like the table’s `14`). OIDs return along with names, for all other types of objects. 
+For Mathesar-supported types, the graph returns its Django id (like the table’s `14`). OIDs return along with names, for all other types of objects.
 
 ### Example:
 
@@ -103,21 +103,21 @@ It’s possible to exclude specific types from the response using query paramete
 ## UI
 *Still under consideration*
 
-When trying to delete one of the objects, a pop-up window should appear showing all the dependent objects that prevent a user from deleting it. Objects with their own dependents will have toggles to show them. By default, they should be collapsed, displaying just the first level. 
+When trying to delete one of the objects, a pop-up window should appear showing all the dependent objects that prevent a user from deleting it. Objects with their own dependents will have toggles to show them. By default, they should be collapsed, displaying just the first level.
 
 An example from Kriti:
 
-![Schema deletion.png](/assets/archive/product/technical-specs/dependents-graph/Schema%20deletion.png)
+![Schema deletion.png](<../../../assets/archive/product/technical-specs/dependents-graph/Schema deletion.png>)
 
 An iteration based on a previous mockup which utilizes graph capabilities also:
 
 Option 1:
 
-![schema_del1](/assets/archive/product/technical-specs/dependents-graph/schema_del1.png)
+![schema_del1](../../../assets/archive/product/technical-specs/dependents-graph/schema_del1.png)
 
 Option 2:
 
-![schema_del2](/assets/archive/product/technical-specs/dependents-graph/schema_del2.png)
+![schema_del2](../../../assets/archive/product/technical-specs/dependents-graph/schema_del2.png)
 
 ## Implementation details
 

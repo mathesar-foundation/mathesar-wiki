@@ -14,7 +14,7 @@ These formulas aggregate the values of a single column across multiple records o
 ### Example Query
 ```sql
 select movie.title as title, count(actor.name) as num_actors
-from movie 
+from movie
 inner join movie_actor_map on movie.id = movie_actor_map.movie_id
 inner join actor on movie_actor_map.actor_id = actor.id
 group by movie.title;
@@ -27,7 +27,7 @@ group by movie.title;
     - **Column**:
         - **Description**: The column to aggregate.
         - **Type** Multiple Record Text-Like
-- **Data Editable?**: Yes 
+- **Data Editable?**: Yes
 
 ### Editing behavior
 Data generated using list formulas are editable in two ways:
@@ -37,9 +37,9 @@ Data generated using list formulas are editable in two ways:
     - We should make it clear to the user that all instances of the data will be changed, not just in this record.
 - **Adding and removing items to a list**: The user can add or remove items from the list. This is only true in the following circumstances:
     - the tables being used to generate the list (including intermediate tables) have no other required fields other than the one the user is editing.
-    - we have enough information in the filters being used to generate the list to fill in any required fields other than the one the user is editing in the tables being used to generate the list (including intermediate tables) 
+    - we have enough information in the filters being used to generate the list to fill in any required fields other than the one the user is editing in the tables being used to generate the list (including intermediate tables)
 
-To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](/archive/product/specs/2022-01-views/08-appendix). 
+To illustrate editing behavior, let's consider the **Movie Actor** view in [Appendix A](../08-appendix.md).
 
 - **Editing existing items**:
     - The user can edit `Brad Pitt` in row 1 to say `William Bradley Pitt` instead.
@@ -48,13 +48,13 @@ To illustrate editing behavior, let's consider the **Movie Actor** view in [Appe
         - We need to be using autocomplete to select records here (with a record preview) so that the user can select the correct record in case there are two `Geena Davis` records.
         - If there was no filter defined on the column, we would leave the `Role` value blank.
     - The user can add `Anthony Hopkins` to `Meet Joe Black` and this will insert new records in both `Person` and `Movie Person Map` (again with a `Role` of `Actor`).
-    
+
 Although the illustration above uses a mapping table, it also applies to other forms of relationships.
-    
+
 ### Example Query
 ```sql
 select movie.title as title, array_agg(actor.name) as actors
-from movie 
+from movie
 inner join movie_actor_map on movie.id = movie_actor_map.movie_id
 inner join actor on movie_actor_map.actor_id = actor.id
 group by movie.title;

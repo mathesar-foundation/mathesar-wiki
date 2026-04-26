@@ -55,7 +55,7 @@ Dom:
 
 ### Conclusion
 - Compatibility with existing DBs is approved.
-- Let's try to get Niche Research and Installation Improvements approved async. 
+- Let's try to get Niche Research and Installation Improvements approved async.
     - Look for updates on Monday.
     - Send feedback by EOD Monday
     - Try to approve by early next week
@@ -137,7 +137,7 @@ Kriti's responsibilties, will delegate when out:
 - Brainstorming is better in 1:1 conversations, not in email or big groups.
 
 ### Conclusion
-- The person who starts the email thread should be responsible for stating the purpose of the email and periodically checking in and summarizing viewpoints, etc, and guiding the conversation to the desired conclusion 
+- The person who starts the email thread should be responsible for stating the purpose of the email and periodically checking in and summarizing viewpoints, etc, and guiding the conversation to the desired conclusion
 	- We do this in meetings, but not emails
 - Purpose could be spitballing, building consensus, agreeing on a decision, etc.
 - Sometimes it's good to have options if we're trying to making a decision.

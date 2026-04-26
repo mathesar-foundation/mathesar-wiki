@@ -1,6 +1,6 @@
 # Product management
 
-**Owner**: Kriti  
+**Owner**: Kriti
 **Helper**: Pavish, Ghislaine, Sean
 
 ## Maintenance tasks

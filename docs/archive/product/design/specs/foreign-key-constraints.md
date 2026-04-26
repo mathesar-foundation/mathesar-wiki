@@ -144,7 +144,7 @@ Linked records can be changed or deleted according to the user's preference. Sin
   - The column contains the referenced values for each cell.
   - When clicked, a pre-filtered list is displayed inside the [record selector](#record-selector) component. The dropdown includes a search input that will show other matching records if modified. Clicking on any of those records will close the dropdown and replace the existing one.
   - Note that in the case of multi-column foreign key constraints, there will be no dropdown displayed, and the user can edit the field like a regular text field.
-  
+
 ### Scenario 5b: The field is empty
 
 #### Steps for 5b

@@ -5,7 +5,7 @@
 - **Added by**: Ghislaine
 - **Summary**: Address backend concerns and clarifications for the Quick Save functionality
 - **Expected time**: 30 min
-- **Priority**: 
+- **Priority**:
 - **Required participants:** Backend team (Brent, Mukesh, or Dom)
 - **Additional participants:**: *Please replace this with your name if you're interested in participating*
 
@@ -22,14 +22,14 @@ From Sean's previous email:
 
 1. How can we handle the backup and restoration of both data and metadata stored in separate databases?
 2. What measures can be taken to ensure atomicity while backing up and restoring data and metadata?
-3. How can we handle the fact that oids/attnums do not remain stable through backup/restore operations, and how does this impact our ability to use pg_dump? 
+3. How can we handle the fact that oids/attnums do not remain stable through backup/restore operations, and how does this impact our ability to use pg_dump?
 
 
 ### Notes
 
 - Terminology
     - Ghislaine thinks "backup" is more appropriate terminology
-    - 
+    -
 - Scope
     - Hard to address this feature from a product perspective without knowing the technical limitations
     - Being able to "undo arbitrary edits on a given cell without undoing other edits" is not feasible within the year. We won't focus on any sort of undo.
@@ -50,7 +50,7 @@ From Sean's previous email:
     - Allowing users to access that history locally
     - Having local-first data
     - Dolt: MySQL compatible database
-    - CR-SQLite: 
+    - CR-SQLite:
         - These have functionality for diffs, logs, merging changes, etc.
 - Brent: It would great if we could find another project (e.g. Dolt) to collaborate with so that we can make it someone else's problem
 

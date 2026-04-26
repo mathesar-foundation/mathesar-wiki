@@ -17,7 +17,7 @@ Current discussion will be ported to email, further discussion will happen there
 
 Brent also has some tech spec related tasks in Basecamp with comments, is it okay to have comments in Basecamp?
 
-- Persist things outside basecamp 
+- Persist things outside basecamp
 - Quick (ephemeral) notes are okay in Basecamp
 
 ## DB connection UI issue
@@ -29,7 +29,7 @@ Specs: https://wiki.mathesar.org/archive/product/design/specs/new-db-connection-
 
 Pavish’s comments: https://github.com/mathesar-foundation/mathesar/pull/3319#discussion_r1434348595
 
-Current state:  
+Current state:
 
 Need to choose a “bootstrapping connection” to create new ones
 

@@ -1,6 +1,6 @@
 # Marketing
 
-**Owner**: Kriti  
+**Owner**: Kriti
 **Helpers**: Brent, Sean, Ghislaine, Anish
 
 ## Day-to-day maintenance tasks
@@ -9,7 +9,7 @@
 
 Syften notifications are auto-assigned to the "Marketing" group in Freshdesk. They cover Hacker News and Reddit.
 
-**If a comment or post can be considered user feedback**, please flag it to the owner of the [user feedback](/archive/team/workflow/responsibilities/user-feedback) responsibility.
+**If a comment or post can be considered user feedback**, please flag it to the owner of the [user feedback](./user-feedback.md) responsibility.
 
 #### Process for responding:
 

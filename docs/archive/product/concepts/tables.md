@@ -2,11 +2,11 @@
 
 ## About
 
-A **table** is where data in a [Database](/archive/product/concepts/databases) is actually stored.
+A **table** is where data in a [Database](./databases.md) is actually stored.
 
 Tables consist of **columns** and **records** (rows).
 
-- A **column** describes the data stored, including (but not limited to ) its [Data Type](/archive/product/concepts/data-types).
+- A **column** describes the data stored, including (but not limited to ) its [Data Type](./data-types.md).
 - A **record** is a single unit of data that can be stored in a table. Each record stores data corresponding to each column defined on the table.
 
 ### Tables in Mathesar
@@ -46,4 +46,4 @@ In the above example, it would be better to have a separate table for `Country` 
 
 Now, if you need to add a new person from Papua New Guinea to the **People** table, you don't need to type `Papua New Guinea` again and risk making a typo. You don't need to remember that Papua New Guinea's ID is 21 either - Mathesar offers auto-complete functionality for linked tables and will find the correct record from **Countries** when you start typing the country name.
 
-Although this is convenient for data entry, while looking at the data or analyzing it, you might want to see the full country name next to each person's name. For that functionality, you should set up a [View](/archive/product/concepts/views). 
+Although this is convenient for data entry, while looking at the data or analyzing it, you might want to see the full country name next to each person's name. For that functionality, you should set up a [View](./views.md).

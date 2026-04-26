@@ -22,7 +22,7 @@
     - Kicked off email thread for contract renewal
     - Gusto benefits survey
     - Followed up on some benefits stuff
-- **Project management**    
+- **Project management**
     - Reviewed installation project
 - **Fundraising**
     - Sent internal funding update
@@ -101,13 +101,13 @@
     - Followed up on email discussions which haven't been started yet
 - **Comms**
     - Triaged email & GitHub
-    - Responded to email and GitHub issues as needed 
+    - Responded to email and GitHub issues as needed
     - Handled Matrix comms
 - **Fundraising**
     - Followed up with funder
     - Followed up on fundraising workshop scheduling
     - Other fundraising related correspondence
- 
+
 ## 2023-08-11 to 2023-08-15 (Fri - Tue)
 *Out of office for various reasons*
 
@@ -115,7 +115,7 @@
 - **Team & project management**
     - Ran today's team meeting
     - 1:1 with Pavish
-    - Augmented and posted team meeting notes on the wiki 
+    - Augmented and posted team meeting notes on the wiki
     - Sent a summary with action items out to the team
 - **Comms**
     - Triaged GitHub and email
@@ -166,12 +166,12 @@
     - Updated superuser creation copy in [this PR](https://github.com/centerofci/mathesar/pull/3131)
 - **Team**
     - 1:1 with Sean
-    
+
 ## 2023-08-04 (Fri)
 - **Fundraising**
     - Made adjustments to fundraising script and slides based on feedback from practice sessions
     - Practiced fundraising presentation
-     - Meeting with funder 
+     - Meeting with funder
 
 ## 2023-08-03 (Thu)
 *Day off*

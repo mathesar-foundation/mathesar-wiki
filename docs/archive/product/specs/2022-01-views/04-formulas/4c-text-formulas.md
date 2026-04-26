@@ -26,7 +26,7 @@ Concatenates two strings together.
         - **Type**: Single Record Text-Like
         - **Description**: Second text
 - **Editable?**: No
-- **PostgreSQL Mapping**: `||` operator 
+- **PostgreSQL Mapping**: `||` operator
 
 ## Contains
 Checks if a text contains another text
@@ -71,7 +71,7 @@ Overlays a string at the specified position with another string
         - **Description**: Starting position of text to be replaced
     - **Overlay Text**:
         - **Type**: Single Record Text-Like
-        - **Description**: Text to overlay on the base text 
+        - **Description**: Text to overlay on the base text
     - **Count**:
         - **Type**: Integer
         - **Description**: Number of characters to replace

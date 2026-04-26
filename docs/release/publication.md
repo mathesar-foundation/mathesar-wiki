@@ -4,7 +4,7 @@
     These steps are currently structured in a manner that is convenient for Mathesar developer but leaves a window open during which the documentation will be out of sync with other assets required for installation and upgrades.
 
     For example: the docs get published as soon as the release PR is merged into master. At that point the tag won't yet exist in GitHub (meaning readers won't be able to download the referenced docker-compose file) and the image won't yet exist on DockerHub.
-    
+
     We would like to improve this process. But in the mean time, be sure to follow these steps quickly so as to reduce the duration of this "out of sync" window.
 
 !!! info "Before publishing the releases"
@@ -35,7 +35,7 @@
 1. **Merge the release PR**
 
     This should merge the release branch into `master`.
-    
+
     Before moving on, ensure the release branch is deleted within GitHub after merge. This should happen automatically after merging. The PR should show an entry in the activity timeline like:
 
     > seancolsen deleted the `0.1.5` branch 1 minute ago

@@ -47,7 +47,7 @@ We use the following example in a number of places throughout the document:
     <summary>Side note</summary>
 
     > In [Querydown](https://gist.github.com/seancolsen/42d5f3873e644e3905eaac0b69f876ac) this would be:
-    > 
+    >
     > ```
     > #books
     > $ id -> book_id
@@ -56,7 +56,7 @@ We use the following example in a number of places throughout the document:
     > $ #genres.id%list -> genres
     > $ #items -> copies
     > ```
-    > 
+    >
     > With a the worksheets having a modular approach to queries and displays, my hope is that a Mathesar _extension_ could eventually provide a Querydown-based query editor. This would be a really fast way to build powerful worksheets!
 
     </details>
@@ -104,7 +104,7 @@ TODO
 ## Record summaries
 
 > 🤔 **Challenges:**
-> 
+>
 > - Where is the record summary template stored?
 > - How does the worksheet fetch the record summary data? (We need to handle direct FK columns as well as array aggregates.)
 
@@ -155,7 +155,7 @@ TODO
         ```
 
         _(The source table for this record summary is `authors`, so column references pertain to columns in that table.)_
-    
+
         The worksheet is then customized to store this improved template, which is persisted within the worksheet:
 
         ```
@@ -163,7 +163,7 @@ TODO
         ```
 
     - The "genres" column also shows record summaries by default. With no template being explicitly configured, the sheet is smart enough to use the following template:
-    
+
         ```
         {genre.name}
         ```
@@ -293,14 +293,14 @@ In the [Book List Example](#book-list-example), we want to make some changes to 
 - In the **genres** column, we can change "Non-fiction" to "Nonfiction". This is an `UPDATE` query on the `genres` table.
 
     There's still a lot of UX to figure out here. Here's one UX idea:
-    
+
     - The user will be given the option to _edit any fields referenced within the record summary_. In this case the record summary only references one field. But theoretically it could reference multiple. And the record summary could also include static text in the template too. When the user edits, they don't edit the text exactly as it's shown in the record summary — they edit the text from a specific _field_, one field at a time. So then the worksheet gets a new value for `genres.name`. The worksheet submits a request to update `genres.name`. The worksheet doesn't know the `genres` PK value, but it does know the `books_genres` PK value and that should be enough to tell the backend to update a specific `genres` record, changing the `name` value.
 
 - From the **copies** column, we might later implement some UI for editing too! Ideas:
 
     - Hyperlink to a new worksheet (to be opened in a separate tab) which shows all those counted items (with the right filters applied).
     - Do something similar in a modal
-    
+
     These approaches would allow users to quickly add/delete records that would in turn affect the total count.
 
 

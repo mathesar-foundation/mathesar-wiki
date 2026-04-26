@@ -1,9 +1,9 @@
 # Installation Improvement Plan
 
-This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](/team/meeting-notes/2023/07/2023-07-28-installation-meeting).
+This project contains the summarized plan to improve the installation, mostly based on the [ previous discussions](../../../team/meeting-notes/2023/07/2023-07-28-installation-meeting.md).
 Implementing the planned changes will be done in separate projects
 
-- [Installation Improvement 0.1.4](/archive/product/projects/2023/08/installation-improvements-0_1_4)
+- [Installation Improvement 0.1.4](../projects/2023/08/installation-improvements-0_1_4.md)
 
 ### Problems
 1. Many users have found our installation process to be complicated, [this great feedback](https://github.com/mathesar-foundation/mathesar/discussions/3108) summarizes a lot of pain points.
@@ -17,7 +17,7 @@ Implementing the planned changes will be done in separate projects
 
 ### Targeted Personas
 
-We discussed and agreed upon a [set of personas to target initially](/team/meeting-notes/2023/07/2023-07-28-installation-meeting#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification)
+We discussed and agreed upon a [set of personas to target initially](../../../team/meeting-notes/2023/07/2023-07-28-installation-meeting.md#do-the-personas-make-sense-do-we-need-any-additional-narrowing-down-or-clarification)
 
 Top
 
@@ -53,7 +53,7 @@ Discourage
 - The user need to be a `SUPERUSER` or be the `OWNER` of the database if they want Mathesar to manage that database
 
 ### Terminology
-- Internal database - Mathesar stores its metadata like `Exploration`, `Admin user` registration details in this database. 
+- Internal database - Mathesar stores its metadata like `Exploration`, `Admin user` registration details in this database.
 - User database - These databases contain the data which the user wants to manage using Mathesar. Mathesar can manage more than one database at a time.
 - Installing Mathesar Schema - Mathesar needs to install some SQL functions in the user database for it to function correctly. When the user does some operation using the Mathesar UI these functions are called by Mathesar to perform operations on the database. Additionally Mathesar offers custom types that don't exists on Postgres like `EMAIL` which can be used by the user.
 
@@ -68,7 +68,7 @@ Discourage
 ***The installation plan is based on the assumption above. So please comment if you are not okay with the above assumption***
 
 ### Outline of the steps after the installation overhaul project
-Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The [documentation outline](#outline-of-the-documentation) will provide detailed information of the steps involved with a particular installation type 
+Please note, these steps don't directly correlate 1:1 with our installation documentation structure, rather the intent is to categorize based on the behavior of the steps and give an overview of the steps for easier understanding of how they affect the installation process. The [documentation outline](#outline-of-the-documentation) will provide detailed information of the steps involved with a particular installation type
 
 #### Installing Mathesar
 The installation steps are grouped into three categories (ordered sequentially)
@@ -80,16 +80,16 @@ The installation steps are grouped into three categories (ordered sequentially)
      - A `SECRET_KEY` will be automatically generated and stored in the config file
      - An SQLite database file will be created and will be used as the internal database for storing the Mathesar metadata
    - For certain installation types, we might override the above defaults to provide a better default suited for that installation type. These will be mentioned in the [documentation outline](#outline-of-the-documentation)
-   
+
 2. Pre-install config
    - The defaults Mathesar come with might not suit every use-case. These are the **optional** steps that the user may need to perform to adapt Mathesar to their environment.
    - These settings are targeted towards technical users, mostly done using the command line, and it is assumed the user knows what he is doing
    - Note: They need to be **performed before starting and using** Mathesar.
    - Mathesar related is tightly tied to configurations in this step. The user should not expect to retain Mathesar data magically if he is pointing the internal database URL to a different database.
    - The following configuration steps fall into this category
-     - Passing in their own secret key as an environment variable. 
+     - Passing in their own secret key as an environment variable.
      - Passing in the credentials of the database to be used as the internal database.
-     
+
 3. Setup
    - Once Mathesar is installed and running, the user needs to set up few things before Mathesar can be used.
    - These will be done using the Mathesar UI
@@ -99,7 +99,7 @@ The installation steps are grouped into three categories (ordered sequentially)
 #### Post Install Configuring Mathesar
 The installation steps are grouped into two
 
-1. Post-install non-mathesar config 
+1. Post-install non-mathesar config
    - These are optional steps that the user may need to perform to actually make Mathesar functionally complete.
    - These steps will be done using the Mathesar UI
    - Internal database will be used for storing the information (if any)
@@ -119,7 +119,7 @@ The installation steps are grouped into two
 
 #### Uninstall process
 - Remove the installed schema from a specific database - Removing the database from Mathesar will uninstall all the installed types from the user database
-- Completely remove Mathesar - Remove databases first using the above step and then perform one or two steps specific to the installation type for uninstalling Mathesar completely 
+- Completely remove Mathesar - Remove databases first using the above step and then perform one or two steps specific to the installation type for uninstalling Mathesar completely
 
 
 
@@ -127,10 +127,10 @@ The installation steps are grouped into two
 
 ## Proposed Outline
 ### Homepage
-- Introduction & Overview 
+- Introduction & Overview
     - Content: homepage of docs.mathesar.org
     - Remains the same
-- Installation 
+- Installation
     - We will be replacing the current Installation section in the homepage of docs.mathesar.org and the related navigation section with the following installation options. Each installation option will point to the content page
     - Install with Docker
         - Content: [Single image Docker](#install-with-docker)
@@ -160,7 +160,7 @@ We will follow the below pattern to keep the documentation consistent and easier
 
 - Pre-requisites
 - Installation
-  - Install steps 
+  - Install steps
   - Pre-install config options will be shown as a tip or a warning.
     - As these steps should be done before starting Mathesar, we need to make sure the user knows about these steps and takes an informed decision before proceeding further.
     - The description is meant to be brief and will point to the actual content which will be under the "Next steps to take" Mathesar section
@@ -191,7 +191,7 @@ We will follow the below pattern to keep the documentation consistent and easier
     - Single docker run command (Install)
         - Mount a volume to store information in the default location used by Docker
         - Tip where we explain how to configure for production use (Pre-install config)
-            - Set secret key as environment variable 
+            - Set secret key as environment variable
             - Use a separate database for storing mathesar metadata etc
     - Set up superuser through UI (Setup)
 - Next steps to take (Post install config)
@@ -284,8 +284,8 @@ We will follow the below pattern to keep the documentation consistent and easier
     - Platform specific configuration instructions
     - Point to "Environment variables" page
   - Uninstall process
-  
-  
+
+
 ### Environment Variables
 List of environment variables and descriptions
 

@@ -1,6 +1,6 @@
 # Remove SQL Alchemy -- Performance edition
 
-**Status**: Draft 
+**Status**: Draft
 **Review status**: Draft
 **Theme**: DX, Performance, Pre-existing PG
 
@@ -38,11 +38,11 @@ I added 50ms of latency to calls between the web service and the DB, in order to
 
 Below is a screenshot showing the recorded times for all requests to http://localhost:8000.
 
-![mathesar_perf_3_5_8_10__20230926.png](/assets/archive/product/projects/rsqla-performance-edition/mathesar_perf_3_5_8_10__20230926.png)
+![mathesar_perf_3_5_8_10__20230926.png](../../../../assets/archive/product/projects/rsqla-performance-edition/mathesar_perf_3_5_8_10__20230926.png)
 
 More tables, or columns per table makes the situation worse. Here's the same experiment, with the single change of having 10 tables per schema, with 15 columns per table:
 
-![mathesar_perf_3_10_15_10__20230926.png](/assets/archive/product/projects/rsqla-performance-edition/mathesar_perf_3_10_15_10__20230926.png)
+![mathesar_perf_3_10_15_10__20230926.png](../../../../assets/archive/product/projects/rsqla-performance-edition/mathesar_perf_3_10_15_10__20230926.png)
 
 ## Solution
 
@@ -64,7 +64,7 @@ TODO
 - **Wiki pages**:
   - [Product spec]()
   - [Backend spec]()
-  - [Frontend spec]()  
+  - [Frontend spec]()
 - **Email discussions**:
 	- [Project approval discussion]()
   - [Weekly updates]()

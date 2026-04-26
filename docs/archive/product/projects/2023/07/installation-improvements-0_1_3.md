@@ -26,7 +26,7 @@ The current problems we face in our installation process and documentation are:
 
 See also: [Diagram of existing steps involved in installation](#current-steps)
 
-Based on [previous discussions](/team/meeting-notes/2023/07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
+Based on [previous discussions](../../../../../team/meeting-notes/2023/07/2023-07-06-installation-meeting.md#prioritization), we'd like to prioritize the following "user personas":
 
 - Someone trying Mathesar out quickly (and can use Docker)
 - Someone installing Mathesar on a PaaS
@@ -90,7 +90,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 - Kriti and Mukesh will meet every week to plan ahead of the meetings.
 - The meeting topics are not definitive and can change.
 - Some of the topics to discuss
-	- Simplifying installation for [Personas](/team/meeting-notes/2023/07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](/team/meeting-notes/2023/07/2023-07-11-installation-meeting)
+	- Simplifying installation for [Personas](../../../../../team/meeting-notes/2023/07/2023-07-06-installation-meeting.md#top) not covered by [previous meetings](../../../../../team/meeting-notes/2023/07/2023-07-11-installation-meeting.md)
 	- PaaS offering to support
 	- The location and workflow for storing the configuration details
 
@@ -122,41 +122,41 @@ Most of these solutions will be useful for laying the ground work for future wor
 ## Resources
 - [Project Approval Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/_vJfb_sXdfE)
 - [Project Update Thread](https://groups.google.com/a/mathesar.org/g/mathesar-developers/c/EIP02jkb67o)
-- [Meeting notes: Parts I & II](/team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting)
-- [Meeting notes: Part III](/team/meeting-notes/2023/07/2023-07-06-installation-meeting)
-- [Meeting notes: Part IV](/team/meeting-notes/2023/07/2023-07-11-installation-meeting)
+- [Meeting notes: Parts I & II](../../../../../team/meeting-notes/2023/06/2023-06-13-installation-planning-meeting.md)
+- [Meeting notes: Part III](../../../../../team/meeting-notes/2023/07/2023-07-06-installation-meeting.md)
+- [Meeting notes: Part IV](../../../../../team/meeting-notes/2023/07/2023-07-11-installation-meeting.md)
 - [Mukesh's installation research](https://hackmd.io/SFWrMLWMR72P-iQ_M30JFA) (private)
 
 ## References
 
 ### Current steps
-![current_install_flow_0.1.3.png](/assets/archive/product/projects/2023/07/installation-improvements-0_1_3/current_install_flow_0.1.3.png)
+![current_install_flow_0.1.3.png](../../../../../assets/archive/product/projects/2023/07/installation-improvements-0_1_3/current_install_flow_0.1.3.png)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
-  
+
         - Install Docker
     </details>
     <details>
       <summary>Docker Image(3 steps)</summary>
-  
+
         - Install Docker
         - Setup a database
         - Create a database superuser
     </details>
     <details>
       <summary>Building from source(3 steps)</summary>
-  
+
         - Install Postgres
         - Setup mathesar database
         - Create a database superuser
     </details>
 
 
-1. Downloading and set up Mathesar 
+1. Downloading and set up Mathesar
     <details>
       <summary>Docker Compose(2 steps)</summary>
-  
+
         - Download docker compose script
         - Run docker compose command to download
     </details>
@@ -165,7 +165,7 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Building from source(6 steps)</summary>
-  
+
         - Clone git repo
         - Install python
         - Create virtualenv for python
@@ -177,7 +177,7 @@ Most of these solutions will be useful for laying the ground work for future wor
 1. Configuring Mathesar
     <details>
       <summary>Docker Compose(6 steps)</summary>
-  
+
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -187,7 +187,7 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Mathesar docker Image(6 steps)</summary>
-  
+
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -197,7 +197,7 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Building from source(7 steps)</summary>
-  
+
             - Add internal database credentials to env file
             - Add user database credentials to env file
             - Generate secret key
@@ -211,55 +211,55 @@ Most of these solutions will be useful for laying the ground work for future wor
 
     <details>
       <summary>Docker Compose(1 step)</summary>
-  
+
             - Run docker command
     </details>
     <details>
       <summary>Docker Image(1 step)</summary>
-  
+
             - Run docker command
     </details>
     <details>
       <summary>Building from source(2 steps)</summary>
-  
+
             - Create gunicorn systemctl script
             - Run the script
     </details>
 
 
 ### Expected steps after this project
-![expected-install-flow.svg](/assets/expected-install-flow.svg)
+![expected-install-flow.svg](../../../../../assets/expected-install-flow.svg)
 1. Pre-requisites before installing Mathesar
     <details>
       <summary>Docker Compose(1 step)</summary>
-  
+
         - Install Docker
     </details>
     <details>
       <summary>Mathesar docker Image(3 steps)</summary>
-  
+
         - Install Docker
         - Setup a database
         - Create a database superuser
     </details>
     <details>
       <summary>Mathesar + Postgres docker Image(1 step)</summary>
-  
+
         - Install Docker
     </details>
     <details>
       <summary>Non-Docker install(3 steps)</summary>
-  
+
         - Install Postgres
         - Setup mathesar database
         - Create a database superuser
     </details>
 
 
-1. Downloading and set up Mathesar 
+1. Downloading and set up Mathesar
     <details>
       <summary>Docker Compose(2 steps)</summary>
-  
+
         - Download docker compose script
         - Run docker compose command to download
     </details>
@@ -268,20 +268,20 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Non Docker Install Debian(1 step)</summary>
-  
+
         - Run apt install
     </details>
     <details>
       <summary>Non-Docker Non-debian(1 step)</summary>
-  
+
         - Install Python
         - Download zipapps
     </details>
-   
+
 1. Configuring Mathesar
     <details>
       <summary>Docker Compose(5 steps)</summary>
-  
+
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -290,7 +290,7 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Mathesar docker Image(5 steps)</summary>
-  
+
             - Generate secret key
             - Add secret key to env file
             - Add internal database credentials to env file
@@ -306,7 +306,7 @@ Most of these solutions will be useful for laying the ground work for future wor
     </details>
     <details>
       <summary>Non-Docker install (6 steps)</summary>
-  
+
             - Add internal database credentials to env file
             - Add user database credentials to env file
             - Generate secret key
@@ -314,26 +314,26 @@ Most of these solutions will be useful for laying the ground work for future wor
             - Export environment variables
             - Run install script(migrations and install database types)
     </details>
-   
+
 1. Starting Mathesar
 
     <details>
       <summary>Docker Compose(1 step)</summary>
-  
+
             - Run docker command
     </details>
     <details>
       <summary>Docker Image(1 step)</summary>
-  
+
             - Run docker command
     </details>
     <details>
       <summary>Non-Docker(1 step)</summary>
-  
+
             - Run the Mathesar executable
     </details>
-    
+
 ### Overview diagram
  This diagram gives a overview of current steps (problems), solutions, steps after this cycle (outcome) along with information on how the solutions affect the current steps and the outcome.
 
-![mathesar_installation_flow(2023-07-10).drawio.svg](/assets/mathesar_installation_flow(2023-07-10).drawio.svg)
+![mathesar_installation_flow(2023-07-10).drawio.svg](<../../../../../assets/mathesar_installation_flow(2023-07-10).drawio.svg>)

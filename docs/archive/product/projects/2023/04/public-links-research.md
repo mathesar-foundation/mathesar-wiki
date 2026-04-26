@@ -2,7 +2,7 @@
 
 **Name**: Research: Publicly shareable links
 **Status**: Complete
-**Follow up**: [Shareable links implementation project](/archive/product/projects/2023/07/shareable-links-implementation)
+**Follow up**: [Shareable links implementation project](../07/shareable-links-implementation.md)
 
 ## Team
 | Role | Assignee |
@@ -19,7 +19,7 @@
 * Research approaches in competing products.
 * Come up with UX flow suggestions.
 * Come up with a preliminary backend and frontend approach to validate feasibility of the features.
-* Adjust scope to the minimal useful initial version of these features. 
+* Adjust scope to the minimal useful initial version of these features.
 * Write up a product spec and go through review, iterations, and approval from the team.
 * Once the product spec is approved, write up a new project for implementating the features.
 

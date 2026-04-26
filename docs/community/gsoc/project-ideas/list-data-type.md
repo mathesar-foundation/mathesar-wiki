@@ -31,7 +31,7 @@ List data could be displayed and edited in the following places. All of these ne
 
 **Viewing lists**
 
-- Data of the "list" type should be shown as pills. 
+- Data of the "list" type should be shown as pills.
 - Please look at the way lists are shown in the Data Explorer as a reference.
 
 **Editing lists**

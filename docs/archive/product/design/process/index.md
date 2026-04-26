@@ -3,7 +3,7 @@
 There are five phases in our design process.
 
 !!! info "Information"
-    See [Specs](/archive/product/design/specs) for deliverables from this process.
+    See [Specs](../specs/index.md) for deliverables from this process.
 
 
 
@@ -20,13 +20,13 @@ Frame the design problems that need to be solved to implement the roadmap.
 
 ### Questions
 #### How do we know what the desired future state is?
-The desired future state is defined by our product strategy and the required functionality that it aims to deliver as captured in our [roadmap](/archive/product/roadmap). The product strategy is the "big picture" that drives our work, and it helps us communicate what the product stands for, why it exists and where it should go.
+The desired future state is defined by our product strategy and the required functionality that it aims to deliver as captured in our [roadmap](../../roadmap.md). The product strategy is the "big picture" that drives our work, and it helps us communicate what the product stands for, why it exists and where it should go.
 
 #### What if the roadmap changes?
 In a perfect world, we would build everything we outlined in our product roadmap. However, as we often learn the hard way, nobody has time to do everything in the roadmap at once. So we have to compromise and determine what we absolutely can build based on constraints like time and current team size.
 
 When prioritizing, we select the features that will significantly impact users or that we already know will require less effort for us to build.
-To understand the user needs, we develop [use cases](/archive/product/design/exploration/use-cases). A use case scenario depicts how a user would use the product to solve a particular problem. We validate these use cases against our current roadmap version. If the features fail to solve the user needs, we revisit them to add the missing parts or simplify the use case.
+To understand the user needs, we develop [use cases](../exploration/use-cases.md). A use case scenario depicts how a user would use the product to solve a particular problem. We validate these use cases against our current roadmap version. If the features fail to solve the user needs, we revisit them to add the missing parts or simplify the use case.
 
 #### What are design problems?
 Design problems are concerned with design aspects of the product that are lacking, unresolved, or otherwise preventing a desirable future state from being achieved.
@@ -35,7 +35,7 @@ Design problems are concerned with design aspects of the product that are lackin
 During the point-of-view phase, we turn the problem into an actionable, goal-oriented statement. 'Actionable' is the key word here, as we understand there's no "right" product feature or design solution; we have to decide which is best for a particular situation. The point of view is essential for decision-making and helps us focus our energies to prioritize.
 
 ### Goals
-Transform the framed problems into a set of goals and use those to kickstart the possibility exploration process. 
+Transform the framed problems into a set of goals and use those to kickstart the possibility exploration process.
 
 ### Activities
 - **Exploratory Wireframing**
@@ -46,10 +46,10 @@ Transform the framed problems into a set of goals and use those to kickstart the
 During this phase, we explore the universe of possible design solutions and identify those that can potentially help us meet the goals we're trying to achieve. Design solutions don't have to be fully worked out to start the selection process.
 
 ### Goals
-Explore the different ways in which we can solve a design problem 
+Explore the different ways in which we can solve a design problem
 
 ### Activities
-- **Possibility Definition** 
+- **Possibility Definition**
 - **Define Selection Criteria**
 - **Possibility Selection**
 
@@ -61,7 +61,7 @@ We work towards selecting ideas in different ways, based on the implications of 
 As is the case with most design projects, there isn't a single correct outcome. While methods, when applied properly, have a solid chance of leading to good results, creativity often trumps methodology when exploring the seemingly endless options and nuances of design ideas. We need to sacrifice our methodology to stay open to new possibilities, loosen up, and embrace the chaos from time to time. The fewer constraints we put on ourselves during the ideation process, the more creative we can get.
 
 ## Prototyping
-During the prototyping phase, the ideas from the previous step will evolve into more realistic representations of the final solution. To this end, prototypes can be interactive, use actual data, or whatever means exist to make the concepts more tangible. Prototypes should be used to create a testable solution that the team can implement. 
+During the prototyping phase, the ideas from the previous step will evolve into more realistic representations of the final solution. To this end, prototypes can be interactive, use actual data, or whatever means exist to make the concepts more tangible. Prototypes should be used to create a testable solution that the team can implement.
 
 It's essential to be attentive to sources of feedback when iterating through prototypes. We often over-design a prototype to the point where we are not testing the intended solution but simply refining it. To ensure that every iteration has a clear purpose, we must move from prototyping into testing as soon as possible and many times as necessary during the design process.
 
@@ -82,7 +82,7 @@ Evaluate how usable (i.e., can users use it?), desirable (i.e., do users want it
 ### Activities
 - **Informal action analysis**
 	- Take a look at the sequence of actions users have to perform to complete a task
-  - Analyze each action based on how frequent they might be, how many facts does the user have to learn to perform an action etc. 
+  - Analyze each action based on how frequent they might be, how many facts does the user have to learn to perform an action etc.
 - **Cognitive walkthrough**
 	- Imagine what people are thinking or doing while using the prototype
   - Find obvious problems, missing controls, confusing labels
@@ -95,4 +95,4 @@ Evaluate how usable (i.e., can users use it?), desirable (i.e., do users want it
 
 ### Questions
 #### Do we need to always test with actual users?
-User-centered testing can be conducted with or without actual users depending on the requirements and context. However, in the end, both types of testing will always be required. 
+User-centered testing can be conducted with or without actual users depending on the requirements and context. However, in the end, both types of testing will always be required.

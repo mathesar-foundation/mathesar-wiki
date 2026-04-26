@@ -5,7 +5,7 @@
 
 ## Team
 
-**Project Owner:**  Sean 
+**Project Owner:**  Sean
 
 |               | Workers | Reviewers         |
 | --            | --      | --                |

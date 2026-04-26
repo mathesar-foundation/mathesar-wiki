@@ -14,7 +14,7 @@ Users working within views may want to add new records to one or more source tab
 
 ### Scenario 1: If the view allows editing (updatable view)
 #### User adds a record
-Users will be able to add records directly from views. However, they might need to add multiple records across more than one table, depending on how the view is structured. For that reason, some of the constraints applied to the referenced tables might influence the interactions. 
+Users will be able to add records directly from views. However, they might need to add multiple records across more than one table, depending on how the view is structured. For that reason, some of the constraints applied to the referenced tables might influence the interactions.
 
 For convenience, users can add values to the fields of a new record directly in the table. However, a record form will also be available, allowing users to edit the complete record, as it exists in the referenced table.
 
@@ -35,7 +35,7 @@ If the deleted record was linked to other tables or views, the user could still 
 If the deleted record was not linked to other tables or views, the user should delete it without warnings.
 
 #### User edits a record
-Users will be able to edit records by changing the values directly from the table. The input control will depend on the data type of the referenced column. 
+Users will be able to edit records by changing the values directly from the table. The input control will depend on the data type of the referenced column.
 
 ##### User edits the selected field from the record
 A user can edit a single field from the table by selecting it and changing its contents. This action will change the record, but all other fields will be left the same.
@@ -64,13 +64,13 @@ Some items from previous reviews for the 'Working with Views' milestone have bee
 
 ### Scenarios
 #### User adds a column
-The user adds a column to a view by accessing the 'New Column' menu from the view table. The user can choose to select a column from a view or a table from the menu. 
+The user adds a column to a view by accessing the 'New Column' menu from the view table. The user can choose to select a column from a view or a table from the menu.
 
 #### User views details for a linked column in a table (foreign key)
 The user might want to view column details for a foreign key column in a table. To do so, they can open the column header menu, which will contain the referenced table, the primary key field from that table, the lookup field, and a link to the referenced table.
 
 #### User selects a lookup column for a table
-The user might want to use another column as a lookup rather than the default assigned by the system. To do so, they can access the 'Set Lookup Column' from the table options menu in the table toolbar. 
+The user might want to use another column as a lookup rather than the default assigned by the system. To do so, they can access the 'Set Lookup Column' from the table options menu in the table toolbar.
 
 #### User sees a list of referenced tables for a view
 The user might want to see a list of all tables that are referenced in a particular view. To do so, they can open the view options menu and select the 'Relationships' option.

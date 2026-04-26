@@ -25,7 +25,7 @@ Adds two numbers together.
         - **Type**: Single Record Number-Like
         - **Description**: Second number
 - **Editable?**: No
-- **PostgreSQL Mapping**: `+` operator 
+- **PostgreSQL Mapping**: `+` operator
 
 
 ## Ceiling
@@ -155,7 +155,7 @@ Multiplies two numbers together.
         - **Type**: Single Record Number-Like
         - **Description**: Second number
 - **Editable?**: No
-- **PostgreSQL Mapping**: `*` operator 
+- **PostgreSQL Mapping**: `*` operator
 
 ## Power
 Calculate the exponent of a number.
@@ -184,7 +184,7 @@ Round to a given decimal place.
         - **Description**: Decimal places to round to
         - **Default Value**: 0
 - **Editable?**: No
-- **PostgreSQL Mapping**: `round` function 
+- **PostgreSQL Mapping**: `round` function
 
 
 ## Square Root
@@ -210,7 +210,7 @@ Subtracts a number from another number.
         - **Type**: Single Record Number-Like
         - **Description**: Number to subtract
 - **Editable?**: No
-- **PostgreSQL Mapping**: `-` operator 
+- **PostgreSQL Mapping**: `-` operator
 
 ## Truncate
 Truncate to a given decimal place.
@@ -225,4 +225,4 @@ Truncate to a given decimal place.
         - **Description**: Decimal places to truncate to
         - **Default Value**: 0
 - **Editable?**: No
-- **PostgreSQL Mapping**: `trunc` function 
+- **PostgreSQL Mapping**: `trunc` function

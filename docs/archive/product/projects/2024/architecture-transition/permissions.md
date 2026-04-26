@@ -32,13 +32,13 @@ The backend will provide RPC functions that let an admin (who has access to a su
 
 !!! question "UX Question"
     Should the admin think in terms of groups of Mathesar users, or specifically in terms of connections when dealing with DB-level privileges?
-    
+
 !!! danger "Potential Confusion"
     In case the admin or DBA want multiple Mathesar users to be able to modify various DB objects, three options are available:
     - Give all relevant Mathesar users access to connect as the owning DB user.
     - `GRANT` the owning DB role (ostensibly a user) to DB users connectable by the relevant Mathesar users.
     - Have at least one DB superuser available for use with a connection, and give relevant Mathesar users access to that DB superuser.
-    
+
 ## Mathesar object privileges
 
 Examples of such objects are Explorations, and table properties like preview columns or display options. Permissions on these will be:
@@ -66,7 +66,7 @@ In the case of Explorations (`Exploration` model), this will be derived from a p
     - When a User wants to view/edit/manage an Exploration, the web service will check the `user, database` pair (where `database`) is the Database associated with the Exploration to get a `DatabaseServerCredential` if one exists (otherwise, no permissions are granted)
     - Based on the policy applied to that credential, the user can then act on the Exploration.
 
-This plan would require a minor change to the [models](models.md), but isn't very difficult to implement. The author considers it a UX question which way we go on this.
+This plan would require a minor change to the [models](./models.md), but isn't very difficult to implement. The author considers it a UX question which way we go on this.
 
 ## Shared links
 

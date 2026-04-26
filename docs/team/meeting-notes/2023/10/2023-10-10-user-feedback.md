@@ -13,8 +13,8 @@ Ghislaine:
 - Ghislaine & Kriti have decided on a note for the gift card
 - Kriti suggested to do $25 for 30 min and $50 Amazon gift card for an hour.
 - Group email portion needs to be resolved
-    
-Pavish: 
+
+Pavish:
 - If you want to do round robin scheduling or single-email scheduling, Pavish has figured this out.
 - Kriti said she thought it would be best if we used the round robin method
 - Pavish still thinks that we should use a single-point-of-contact to schedule.

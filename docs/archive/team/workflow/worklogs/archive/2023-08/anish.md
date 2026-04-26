@@ -110,4 +110,4 @@
 - Added SQL and python tests for links DDL [#3120](https://github.com/centerofci/mathesar/pull/3120)
 
 # Archive
- - [July 2023 work logs](/archive/team/workflow/worklogs/archive/2023-07/anish/)
+ - [July 2023 work logs](../2023-07/anish.md)

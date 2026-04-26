@@ -19,7 +19,7 @@ Triaging an issue means setting all the appropriate fields on it.
 ### Responsibility
 
 - Everyone creating issues should do their best to triage them at creation time.
-- Team members who work on the [repo admin](/archive/team/workflow/responsibilities/repo-admin) responsibility should catch issues opened by non-team members or were not properly triaged during creation.
+- Team members who work on the [repo admin](../../archive/team/workflow/responsibilities/repo-admin.md) responsibility should catch issues opened by non-team members or were not properly triaged during creation.
 
 ### How to triage one issue
 
@@ -32,7 +32,7 @@ Triaging an issue means setting all the appropriate fields on it.
     | `status:` | 1 | _Should not be `status: triage`_ |
 
 1. **Set optional labels**
-  
+
     Scan through the full labels list and apply other labels as necessary. Learn more about the [meaning of all our labels](https://github.com/mathesar-foundation/mathesar/labels).
 
 
@@ -50,7 +50,7 @@ Triaging an issue means setting all the appropriate fields on it.
 
     If you don't know what milestone to put something in, talk to Kriti.
 
-    Do not create any new milestones.  
+    Do not create any new milestones.
 
 ## Notes on Labels and Milestones
 

@@ -33,20 +33,20 @@ SSO may also help us grow Mathesar adoption, because:
 
 Yes! We use Django for our users, and there are several libraries we can just drop into our codebase.
 
-* [juanifioren/django-oidc-provider](https://github.com/juanifioren/django-oidc-provider)  
-* [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit)  
-* [mozilla/mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc)  
+* [juanifioren/django-oidc-provider](https://github.com/juanifioren/django-oidc-provider)
+* [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit)
+* [mozilla/mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc)
 
 Further feasibility research is unnecessary, it should be quick to implement. I briefly considered just implementing it instead of writing this.
 
 
 ## Use Cases
 
-This is background information that I used to help me think through the requirements. I started with the use cases first and derived everything else from there. The use cases are made up, but people have described their use cases on [our SSO (single sign-on) support GitHub discussion](https://github.com/mathesar-foundation/mathesar/discussions/2291), which may also be helpful to read. 
+This is background information that I used to help me think through the requirements. I started with the use cases first and derived everything else from there. The use cases are made up, but people have described their use cases on [our SSO (single sign-on) support GitHub discussion](https://github.com/mathesar-foundation/mathesar/discussions/2291), which may also be helpful to read.
 
 ### Most Minimal User: Alice
 
-Alice is a tech generalist who manages databases and IT (among other things) for her 30-person organization, but neither of those are her main job. She wants to set up Mathesar to help non-technical people who need access to data self-serve. 
+Alice is a tech generalist who manages databases and IT (among other things) for her 30-person organization, but neither of those are her main job. She wants to set up Mathesar to help non-technical people who need access to data self-serve.
 
 Their organization uses Google Workspace to manage accounts, and she knows that if Mathesar doesn’t support Google Workspace login, she’s going to have more tech support on her hands, not less. She also wants to ensure that users accessing the DB through the Mathesar UI use a Postgres role with limited permissions.
 
@@ -64,10 +64,10 @@ Alice already has Google Workspace set up. She’s fine with doing the configura
 
 Alice (tech generalist, small org admin)
 
-* As Alice, I want to configure OIDC SSO with our Google Workspace account via a config file so that my users can sign in with their Google accounts.  
-* As Alice, I want to restrict Mathesar access to users with a specific email domain so that unauthorized users can’t sign in even if they have a valid Google account.  
-* As Alice, I want to define a default Postgres role in the config file that all SSO-authenticated users get, so that they don’t accidentally have too much access.  
-* As Alice, I want to either pre-create user accounts in Mathesar and link them to their Google account or have Mathesar automatically create user accounts linked to the Postgres role in the config file, for anyone new that signs in from the specific email domain.  
+* As Alice, I want to configure OIDC SSO with our Google Workspace account via a config file so that my users can sign in with their Google accounts.
+* As Alice, I want to restrict Mathesar access to users with a specific email domain so that unauthorized users can’t sign in even if they have a valid Google account.
+* As Alice, I want to define a default Postgres role in the config file that all SSO-authenticated users get, so that they don’t accidentally have too much access.
+* As Alice, I want to either pre-create user accounts in Mathesar and link them to their Google account or have Mathesar automatically create user accounts linked to the Postgres role in the config file, for anyone new that signs in from the specific email domain.
 * As Alice, I want my users to see a login screen that includes a “Sign in with Google” button so they can access Mathesar easily without needing credentials from me.
 
 David (non-technical staff at Alice’s org)
@@ -77,16 +77,16 @@ David (non-technical staff at Alice’s org)
 
 ### More Common User: Bob & Carol
 
-Bob works on the data science team at a 80-person company, and often collaborates with non-technical users e.g. sales and customer success. They also work with a team of outsourced data entry workers to populate their data. 
+Bob works on the data science team at a 80-person company, and often collaborates with non-technical users e.g. sales and customer success. They also work with a team of outsourced data entry workers to populate their data.
 
 Mathesar would really make his job easier by allowing the data entry team to input data directly and simplifying data gathering. Mathesar would also allow the sales and support team to self-serve without the data science team being a bottleneck. Bob needs to work with Carol, his organization's IT person, to install Mathesar.
 
 Carol is comfortable installing Mathesar and connecting to their production database as long as Mathesar supports the following:
 
-* Integration with Okta / Auth0, the identity provider used in the organization.  
+* Integration with Okta / Auth0, the identity provider used in the organization.
 * Separate Postgres roles for the data entry people, sales, and customer success – with proper RBAC. Carol is willing to set these up manually through `psql`.
-* Automatic provisioning of roles based on groups – Carol does not want to make individual users, Carol has already set up groups in Okta and wants Mathesar to assocale ‘sales’ in the authorization headers with the ‘sales’ DB role, etc.  
-* Documentation on how all this works, so Carol can learn about Mathesar comfortably.  
+* Automatic provisioning of roles based on groups – Carol does not want to make individual users, Carol has already set up groups in Okta and wants Mathesar to assocale ‘sales’ in the authorization headers with the ‘sales’ DB role, etc.
+* Documentation on how all this works, so Carol can learn about Mathesar comfortably.
 * Some information on how to debug failures, if someone can’t log in.
 
 Carol also needs the basic requirements that Alice needs. Carol still doesn’t need a UI for any of this.
@@ -95,17 +95,17 @@ Carol also needs the basic requirements that Alice needs. Carol still doesn’t 
 
 Bob (power user at medium org, internal advocate)
 
-* As Bob, I want Mathesar set up at our organization so that I have more time to devote to data science and less to logistics.  
-* As Bob, I want to hand off SSO configuration to our IT admin but still use Mathesar confidently once access is set up.  
+* As Bob, I want Mathesar set up at our organization so that I have more time to devote to data science and less to logistics.
+* As Bob, I want to hand off SSO configuration to our IT admin but still use Mathesar confidently once access is set up.
 * As Bob, I want to enable multiple Postgres roles for different kinds of users so that each group gets only the access they need.
 
 Carol (IT admin, medium org)
 
-* As Carol, I want to configure OIDC SSO via a config file using our existing IdP (e.g., Okta/Auth0) so that I don’t have to create new identity workflows.  
-* As Carol, I want to map IdP groups to specific Postgres roles in a config file so that access is automatically assigned based on group membership.  
-* As Carol, I want to see logs showing which groups were received in the login assertion and what role was assigned, so I can debug access issues.  
-* As Carol, I want clear documentation explaining how to configure OIDC, role mapping, and email domain restrictions so I can deploy Mathesar without reverse engineering.  
-* As Carol, I want Mathesar to show users an unauthorized error if they don’t match allowed domains or mappings so that access failures are clear and traceable.  
+* As Carol, I want to configure OIDC SSO via a config file using our existing IdP (e.g., Okta/Auth0) so that I don’t have to create new identity workflows.
+* As Carol, I want to map IdP groups to specific Postgres roles in a config file so that access is automatically assigned based on group membership.
+* As Carol, I want to see logs showing which groups were received in the login assertion and what role was assigned, so I can debug access issues.
+* As Carol, I want clear documentation explaining how to configure OIDC, role mapping, and email domain restrictions so I can deploy Mathesar without reverse engineering.
+* As Carol, I want Mathesar to show users an unauthorized error if they don’t match allowed domains or mappings so that access failures are clear and traceable.
 * As Carol, I want a fallback login method to remain available so I don’t get locked out if the IdP is misconfigured.
 
 Frank (data entry contractor)
@@ -120,9 +120,9 @@ Grace (customer success team)
 
 How we'll know we've succeeded with our goals for adding SSO:
 
-* We transition [internal.mathesar.org](http://internal.mathesar.org) to use Google Workspace OIDC SSO and not hate it.  
-* We track SSO usage growing in analytics.  
-* We see an uptick in conversion from our website (after we advertise SSO)  
+* We transition [internal.mathesar.org](http://internal.mathesar.org) to use Google Workspace OIDC SSO and not hate it.
+* We track SSO usage growing in analytics.
+* We see an uptick in conversion from our website (after we advertise SSO)
 * We see qualitative positive user feedback on GitHub / Reddit, etc.
 
 ## Requirements
@@ -133,21 +133,21 @@ These requirements are from the point of view of the user and aim to represent a
 
 Setup:
 
-* Configure OIDC (Google Workspace / Okta / Auth0, etc) via config file.  
-* Restrict access to a specific email domain in config.  
-* Manually pre-create accounts and link to OIDC identities, at minimum.  
+* Configure OIDC (Google Workspace / Okta / Auth0, etc) via config file.
+* Restrict access to a specific email domain in config.
+* Manually pre-create accounts and link to OIDC identities, at minimum.
 * Define a default Postgres role for all SSO users in the config file.
 
 Maintenance:
 
-* Retain fallback login method in case SSO is misconfigured.  
-* Get clear error messaging for others if login fails.  
+* Retain fallback login method in case SSO is misconfigured.
+* Get clear error messaging for others if login fails.
 * See clear error if a user is unauthorized based on domain or mapping.
 
 End user experience:
 
-* Users see a “Sign in with Google” / “Sign in with Okta” option on the login page.  
-* Sign in and immediately access the right data without manual setup.  
+* Users see a “Sign in with Google” / “Sign in with Okta” option on the login page.
+* Sign in and immediately access the right data without manual setup.
 * Use their existing work account to access data self-serve.
 
 Documentation:
@@ -164,13 +164,13 @@ Assuming we can do the full scope without too much additional effort, we should 
 
 JIT provisioning:
 
-* Automatically provision accounts on first login. No manual creation of users needed.  
-* View group claims received from IdP and role assignment in logs, to help debug issues.  
+* Automatically provision accounts on first login. No manual creation of users needed.
+* View group claims received from IdP and role assignment in logs, to help debug issues.
 * Understand why a user failed to authenticate or received incorrect access.
 
 Group-based role mapping:
 
-* Map IdP groups to Postgres roles via config.  
+* Map IdP groups to Postgres roles via config.
 * Automatically assign roles based on IdP group membership.
 
 Merging users automatically:

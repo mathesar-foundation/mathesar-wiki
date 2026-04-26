@@ -1,6 +1,6 @@
 # Filters in Mathesar
 
-This page covers filters from an engineering/architecture perspective. Please see the ["Filters" product concepts page](/archive/product/concepts/filters) for a user-facing looking at filters.
+This page covers filters from an engineering/architecture perspective. Please see the ["Filters" product concepts page](../../archive/product/concepts/filters.md) for a user-facing looking at filters.
 
 ## Criteria for Filters in Mathesar
 In Mathesar, filters are a subset of functions that take in a set of row or a relation as input and return only the rows that satisfy some condition.
@@ -35,7 +35,7 @@ You might be wondering why filter scope is limited to a single row. This is to a
 This can be illustrated with treating "is a duplicate" as a filter below and observing how the results change based on ordering. This uses the table from the example above.
 
 ### Order 1
-Imagine the user applies filters in this order: 
+Imagine the user applies filters in this order:
 1. `"Year" > 1993`
 2. `"Favorite" is TRUE`
 3. `"Title" is a duplicate`

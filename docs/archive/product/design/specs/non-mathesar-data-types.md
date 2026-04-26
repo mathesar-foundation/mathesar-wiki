@@ -4,9 +4,9 @@
 Non-Mathesar types are database types that don't have any special functionality within Mathesar. This could be because that functionality is not implemented, yet it's a standard Postgres type (Other), or because it's a custom data type and not included in standard Postgres data types (Custom).
 
 ### Limited Functionality
-'Non-Mathesar' data type can be edited or added, but there are no particular data input or display features. 
+'Non-Mathesar' data type can be edited or added, but there are no particular data input or display features.
 
-## Prototype 
+## Prototype
 [Non-Mathesar Data Type Prototype](https://www.figma.com/proto/Uaf1ntcldzK2U41Jhw6vS2/Mathesar-MVP?page-id=3981%3A32764&node-id=3983%3A33046&viewport=3203%2C274%2C0.7351959347724915&scaling=contain&starting-point-node-id=3983%3A33046)
 
 ## User Experience
@@ -15,13 +15,13 @@ Non-Mathesar types are database types that don't have any special functionality 
 Users cannot set 'Non-Mathesar' data types. Mathesar can only add these by connecting to an existing database.
 
 #### User enters a new 'Non-Mathesar' data type value
-Users can edit the existing values of a 'Non-Mathesar' data type column as they would with [text string types](/archive/product/design/specs/data-types-text).
+Users can edit the existing values of a 'Non-Mathesar' data type column as they would with [text string types](./data-types-text.md).
 
 #### User filters a 'Non-Mathesar' data type column
-Users can filter the existing values of a 'Non-Mathesar' data type column as they would with [text string types](/archive/product/design/specs/data-types-text).
+Users can filter the existing values of a 'Non-Mathesar' data type column as they would with [text string types](./data-types-text.md).
 
 #### User groups a 'Non-Mathesar' data type column
-Users can group the existing values of a 'Non-Mathesar' data type column as they would with [text string types](/archive/product/design/specs/data-types-text).
+Users can group the existing values of a 'Non-Mathesar' data type column as they would with [text string types](./data-types-text.md).
 
 ## Review Notes
 ### Adjust size of cells based on content length

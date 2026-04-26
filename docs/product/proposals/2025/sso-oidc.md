@@ -8,9 +8,9 @@
 
 We use Django for our users, and there are several libraries we can just drop into our codebase.
 
-* [juanifioren/django-oidc-provider](https://github.com/juanifioren/django-oidc-provider)  
-* [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit)  
-* [mozilla/mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc)  
+* [juanifioren/django-oidc-provider](https://github.com/juanifioren/django-oidc-provider)
+* [jazzband/django-oauth-toolkit](https://github.com/jazzband/django-oauth-toolkit)
+* [mozilla/mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc)
 
 OIDC is a protocol and any OIDC IdP can be used once we implement one of those libraries. For example, the [Mozilla Django OIDC](https://mozilla-django-oidc.readthedocs.io/en/stable/installation.html#quick-start) library's setup involves setting up:
 
@@ -75,49 +75,49 @@ Someone setting this up with Google Workspace would set up an internal [OAuth ap
 
 Things to watch out for while implementing:
 
-* Adding more scope to these requirements for the feature to be “more useful”.  
-	* e.g. “SAML isn’t that much harder…”  
+* Adding more scope to these requirements for the feature to be “more useful”.
+	* e.g. “SAML isn’t that much harder…”
 * Over-indexing on all user needs. This is an initial MVP and won't solve everyone’s needs and that's okay. We can always add more features later.
 
 This is explicitly an MVP, so the following things are out of scope:
 
 Authentication Methods:
 
-* No SAML support (OIDC only)  
-* No support for IdP-initiated login flows (SP-initiated only)  
-* No social login (e.g. GitHub, Facebook, etc.)  
+* No SAML support (OIDC only)
+* No support for IdP-initiated login flows (SP-initiated only)
+* No social login (e.g. GitHub, Facebook, etc.)
 * No password-based SSO fallback except for Mathesar admins.
 
 Provisioning and Role Management:
 
-* No SCIM or automatic deprovisioning  
-* No UI for managing users, roles, or SSO config  
-* No per-user or per-session role overrides  
-* No multi-role assignment per user  
+* No SCIM or automatic deprovisioning
+* No UI for managing users, roles, or SSO config
+* No per-user or per-session role overrides
+* No multi-role assignment per user
 * No support for assigning roles via UI or API based on group claims (config file only)
 
 Access Control:
 
-* No support for multi-tenancy or per-project IdP config  
-* No other permissions mapping beyond Postgres roles  
-* No email-based whitelists beyond domain restriction  
+* No support for multi-tenancy or per-project IdP config
+* No other permissions mapping beyond Postgres roles
+* No email-based whitelists beyond domain restriction
 * No support for conditional logic on access (e.g. “this group *and* this claim”)
 
 Observability and Admin Tools:
 
-* No UI for viewing login attempts, group mappings, or audit trails  
-* No real-time SSO diagnostics or health checks  
+* No UI for viewing login attempts, group mappings, or audit trails
+* No real-time SSO diagnostics or health checks
 * No alerting for failed logins or misconfigurations
 
 User Experience:
 
-* No role-selection prompt on login  
-* No way for end-users to request access or change roles  
+* No role-selection prompt on login
+* No way for end-users to request access or change roles
 * No customization of login UI
 
 ## High-Level Implementation Plan
 
-**Work needed**: 
+**Work needed**:
 
 - Selection of Django library
 - Backend work on SSO and configuration (output: PR)
@@ -140,7 +140,7 @@ User Experience:
 - Update the [project issue](https://github.com/mathesar-foundation/mathesar/issues/4578) with new links.
 - Anish: make implementation tasks.
 - Implementation proceeds as planned.
- 
+
 ## Community Engagement
 
 We should:

@@ -8,7 +8,7 @@ Relevant issues are:
 
 [\#199](https://github.com/mathesar-foundation/mathesar/issues/199), [\#200](https://github.com/mathesar-foundation/mathesar/issues/200), and [\#201](https://github.com/mathesar-foundation/mathesar/issues/201)
 
-As specified in the table import [design spec](/archive/product/design/specs/table-import), we need to be able to support a flow where the user imports a CSV, then sees a preview of the table which would be created, with inferred types.  Thus, we need to create a table preview endpoint.
+As specified in the table import [design spec](../design/specs/table-import.md), we need to be able to support a flow where the user imports a CSV, then sees a preview of the table which would be created, with inferred types.  Thus, we need to create a table preview endpoint.
 
 ## Changing whether the first row is a header
 
@@ -110,7 +110,7 @@ Because we eventually want to do type inference in a temporary table, we'll avoi
 
 ## Saving changes
 
-The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being the same as the `previews` request.  
+The changes to column types and names can be saved by submitting a `PATCH` request to the `tables` endpoint, with the column list being the same as the `previews` request.
 
 Table name changes should be submitted using the already existing `PATCH` behavior (i.e., a `PATCH` with the `name` key changed).
 
@@ -190,7 +190,7 @@ The full table blob will be returned, so a return for the above request could be
 This would set the columns in the preview to have the specified names and types. Any column which is unaltered would have and empty JSON object (as in the 0th column above), otherwise, only attributes of a column which are to be altered would be submitted in the request. So, in the example:
 
 - we alter nothing about the 0th column,
-- we alter the name of the 1st column, 
+- we alter the name of the 1st column,
 - we alter the type of the 2nd column,
 - we dropped the 3rd column, and
 - we alter both the name and type of the 4th column.

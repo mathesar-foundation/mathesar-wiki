@@ -28,15 +28,15 @@ If the candidate is interested in working on the frontend, we'd also love to see
 
 ## Application Tips
 - Please provide as much technical detail as you can on how this will integrate into Mathesar's code. API schemas, libraries you plan to use, etc.
-	- Mathesar is a self-hosted product. You'll need to think through any requirements that the administrator of a Mathesar instance will need to perform (e.g. if you plan to use an external API, will the administrator need a developer key for that API?) 
+	- Mathesar is a self-hosted product. You'll need to think through any requirements that the administrator of a Mathesar instance will need to perform (e.g. if you plan to use an external API, will the administrator need a developer key for that API?)
 - Don't reinvent the wheel - use external libraries for the functionality where you can.
 - It's helpful to start from the experience that you'd like the end-user to have and work backwards.
 
 ## Resources
-- [Import Preview API technical spec](/archive/product/technical-specs/import-preview-api)
+- [Import Preview API technical spec](../../../archive/product/technical-specs/import-preview-api.md)
 
 ## Mentors
 - **Primary Mentor**: Mukesh Murali
 - **Backup Mentor**: Kriti Godey
 
-See our [Team Members](/team/) page for Matrix and GitHub handles of mentors.
+See our [Team Members](../../../team/index.md) page for Matrix and GitHub handles of mentors.

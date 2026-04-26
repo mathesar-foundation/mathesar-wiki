@@ -1,6 +1,6 @@
 # 05. View Structure
 
-Once a query is built using the [Query Builder](/archive/product/specs/2022-01-views/03-the-query-builder), it can be saved as a View. Users should be able to see and use Views in Mathesar just like [Tables](/archive/product/concepts/tables).
+Once a query is built using the [Query Builder](./03-the-query-builder.md), it can be saved as a View. Users should be able to see and use Views in Mathesar just like [Tables](../../concepts/tables.md).
 
 This page describes how Views should work.
 
@@ -20,17 +20,17 @@ Once the user has opened a view, it should support the following features.
 
 ### Editing View Data
 - The user should be able to edit data in rows if the column is editable.
-    - Columns that use [Formulas](/archive/product/specs/2022-01-views/04-formulas) have different editing behavior depending on the formula.
+    - Columns that use [Formulas](./04-formulas.md) have different editing behavior depending on the formula.
     - Columns that are direct representations of data from an underlying table should be editable.
 - The user should be able to open up a form to edit the record of any cell with a single record as a source.
 
 ### Column Information
-The user should be able to see all column information for each view column. Please see [06. View Columns](/archive/product/specs/2022-01-views/06-view-columns) for details.
+The user should be able to see all column information for each view column. Please see [06. View Columns](./06-view-columns.md) for details.
 
 ### Query
 Users should be able to see the underlying SQL query that powers the view. This is read-only, but can be copied and pasted.
 
-We could also potentially show a read-only breakdown of the query into [Query Builder](/archive/product/specs/2022-01-views/03-the-query-builder) features, but I'm not sure if this is feasible or would be a good idea.
+We could also potentially show a read-only breakdown of the query into [Query Builder](./03-the-query-builder.md) features, but I'm not sure if this is feasible or would be a good idea.
 
 ### View Structural Updates
 Users should be able to perform the following actions:

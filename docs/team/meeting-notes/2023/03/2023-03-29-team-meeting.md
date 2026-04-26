@@ -92,7 +92,7 @@
 
 ## Where to put what kind of docs
 - **Participants:** Sean, Kriti
-- **Summary**: 
+- **Summary**:
 
     Since we are working on cleaning up and fleshing out our documentation, I want to seek some clarity on the scope of our different docs sources, attempting to eliminate ambiguity and disagreement.
 
@@ -114,7 +114,7 @@
     - Sometimes we have highly specific markdown files like [this one](https://github.com/centerofci/mathesar/blob/a813767c196dbe3127d8f7e10d30c02d44147121/mathesar_ui/src/systems/table-view/link-table/diagram/README.md) that would feel awkward in the docs site. Putting this documentation content as close as possible to the code that it documents is a great way to keep it up-to-date and discoverable. If we keep that file in its place and also choose to move some of the README content into the docs site then it seems a little hard to draw a clear/consistent line between the two. What about [this README](https://github.com/centerofci/mathesar/blob/a813767c196dbe3127d8f7e10d30c02d44147121/mathesar_ui/src/component-library/README.md), for example? It's much higher-level, but still not _top_-level.
 
     - The docs site is published from the `master` branch, and that's important because we want to ensure that it reflects the latest _released_ version of Mathesar so that docs readers who are installing or using Mathesar don't see content before it's actually applicable. But what's "applicable" to _developers_ is not the latest released version -- it's the development version. Here's a [PR](https://github.com/centerofci/mathesar/pull/2683) that made a some docs improvement for developers. We merged it last week but it's still not published because the author targetted `develop` (by default) and I failed to notice/think that perhaps it should have targetted `master` instead. EDIT: I just found [another such PR](https://github.com/centerofci/mathesar/pull/2696) after investigating a [complaint](https://matrix.to/#/!vXLxAqmrJWsDMWPSpo:matrix.mathesar.org/$0SAiuvZwAlvOC9FL93jNslyuH3HivBACFgK1K1D4Pyc?via=matrix.mathesar.org&via=matrix.org&via=t2bot.io) about incorrect documentation.
-    
+
     To be clear: I very much support the initiative to move dev docs out of the wiki. I would just rather put them in plain markdown files within the codebase instead of putting them into the docs site.
 
     Putting content into the docs site certainly has its benefits. I have more thoughts about some of the nuance and gray area, and I think it might be best to chat about it so that we can agree on some guidelines as we flesh out our docs.

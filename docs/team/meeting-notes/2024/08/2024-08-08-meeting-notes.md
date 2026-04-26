@@ -33,12 +33,12 @@ Goal: team discussion on how we're approaching the beta, get to agreement and ne
     - We do need to update the types API
 - Frontend needs to be functional.
     - We can hide some features, but there shouldn't be visible errors right away.
-- Permissions work should be functional. 
+- Permissions work should be functional.
 - Updating documentation and user guides
     - We should do this so they're accurate, but we don't have to perfect them.
 
 ### Scope-related discussions
-What is going to be such a terrible UX for the RC that it's worth blocking on? 
+What is going to be such a terrible UX for the RC that it's worth blocking on?
 
 We can't have errors that block the user from doing critical things.
 
@@ -53,21 +53,21 @@ We can't have errors that block the user from doing critical things.
     - Can be done for beta.
     - Can do this if backend is out of work and needs something to do.
         - Better than adding new features which could introduce bugs.
-- Installation 
+- Installation
     - Documentation should be up to date for RC
     -   Brent will take the lead on this, will investigate what needs to be done and send out a proposal.
     - We need to make sure a fresh install with fresh conditions works really well, since this will be the default experience.
 - UI updates for permissions
     - Current permissions UI doesn't account for DB superuser being able to take any action.
     - Installation flow might need UX updates to account for new permissions changes
-    - We need to explain how permissioning for explorations work 
+    - We need to explain how permissioning for explorations work
 - Other UI updates
     - Record summary UI might need updates to go with new implementation
     - We should show FK ID for record summaries if we can't show the summary itself due to permissions issues.
 - Import page - we don't show UI for selecting an owner
     - Tables are owned by user who created the import
     - Others may be able to see the table name but can't view the table
-    - Transferring ownership after creation should still work, should suffice for RC 
+    - Transferring ownership after creation should still work, should suffice for RC
 - Column extraction - treat as the same thing as import page
 - Table cells should be non-editable if permissions don't allow editing
     - This should be in place for the RC.
@@ -195,12 +195,12 @@ Collected from above discussions.
 - Hide shares?
     - Will this speed up release?
     - Yes, probably
-        - Pavish: we need product level work on this to account for multiple shares with different users 
+        - Pavish: we need product level work on this to account for multiple shares with different users
         - Brent: Backend implementation is quick, but the product level work is still pending, so we can't start implementing.
             - How we're going to decide what role we're using
         - We can also defer RPC backend changes
         - Sean is fine with temporarily hiding them, Ghislaine is too. Anish too.
-- Fix critical bugs from frontend consuming the RPC 
+- Fix critical bugs from frontend consuming the RPC
 - Installation documentation updates + any associated work on the product.
     - Brent will figure this out and let the team know proposal for changes, discuss with Pavish.
 - Table cell editing working correctly with permissions
@@ -248,4 +248,4 @@ Open ended discussion inspired by our development process over the last few mont
 - The goal is to release the simplest thing for the user.
 - There's a difference between modularity being a goal and having multiple product / release goals when building a feature.
 
-Lots of strong opinions, but we ran out of time here, we will pick up the discussion in a future meeting closer to beta.  
+Lots of strong opinions, but we ran out of time here, we will pick up the discussion in a future meeting closer to beta.

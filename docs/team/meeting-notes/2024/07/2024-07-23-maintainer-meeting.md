@@ -25,7 +25,7 @@ Questions to discuss:
 
 ### API return value when creating a table without providing a name
 
-**Sean:** 
+**Sean:**
 
 I've hit a small snag and I'd like opinions on the best approach to dealing with it...
 

@@ -13,7 +13,7 @@
 - Mathesar currently has *partial* support for two new types:
 
     - **JSON Object** columns, which should allow user input such as:
-    
+
         ```json
         {
           "foo": "bar",
@@ -22,7 +22,7 @@
         ```
 
     - **JSON Array** columns, which should allow user input such as:
-    
+
         ```json
         [
           { "foo": "bar", "baz": 0 },
@@ -43,7 +43,7 @@ The JSON editor should meet all the following requirements:
 - It should provide syntax highlighting, and be compatible with dark mode too.
 - It should give users feedback on when their entry is not valid JSON.
 - It should give users feedback on when their entry is valid JSON but is not valid for the column type. For example, the JSON Object column should not accept a JSON Array, and neither of our JSON column types should accept JSON values like `1`.
-- It should display server errors 
+- It should display server errors
 - It should load all its resources (e.g. JavaScript, static assets) asynchronously so that the initial page load is not degraded after adding this feature.
 - It should provide a graceful experience for the user while loading.
 - It should be easy to use.

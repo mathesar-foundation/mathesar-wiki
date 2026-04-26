@@ -1,4 +1,4 @@
-# Investigating compatibility with pre-existing databases 
+# Investigating compatibility with pre-existing databases
 
 **Status**: In Progress
 **Review status**: Approved
@@ -25,7 +25,7 @@ The bare minimum would be to show the views that already exist on a DB in the UI
 - Where should they be shown?
 - Can we get away without enabling editing of the view definition, or editing data in the underlying tables at this time?
 - Most difficult work here is UI/UX.
-- This potentially overlaps with data explorer (or at least it will seem to for users). 
+- This potentially overlaps with data explorer (or at least it will seem to for users).
   - How should we deal with this?
   - We either need a distinct representation from saved explorations or an integrated approach.
 
@@ -72,7 +72,7 @@ I think we should really try to do the project to fix up the column moving, or r
 
 ## Solution
 
-For this project, we need to 
+For this project, we need to
 
 - Go through commentary and issues from users to ensure nothing has been forgotten in the problems listed above.
 - Find realistic sample PostgreSQL databases and try connecting Mathesar to see if we've forgotten anything else.
@@ -108,4 +108,4 @@ Users should be able to connect Mathesar to a preexisting database
 
 ## Timeline
 
-Within the coming cycle, we should at least get as far as writing up (meta)issues for any problems we discover that will result in either data loss, or breakage of the front end experience while they remain unsolved. As a bonus, we'd like to have issues for other categories of problems, prioritized and triaged. 
+Within the coming cycle, we should at least get as far as writing up (meta)issues for any problems we discover that will result in either data loss, or breakage of the front end experience while they remain unsolved. As a bonus, we'd like to have issues for other categories of problems, prioritized and triaged.

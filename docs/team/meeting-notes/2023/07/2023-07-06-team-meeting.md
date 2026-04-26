@@ -96,7 +96,7 @@ Goals are visibility for:
     - Kriti will set up a section of the wiki for personal logs.
 - Sign of life
     - We want to develop a culture of saying 'good morning' in Internal channel
-    
+
 ## Action item wrap-up
 - Write up your projects by next meeting.
 - Work logs in wiki (most recent on top)

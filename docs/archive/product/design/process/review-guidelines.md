@@ -19,7 +19,7 @@ This is the list of team members who have volunteered to review new designs.
 
 ## Process for Authors
 
-- Clone the [Mathesar Wiki Repo](https://github.com/mathesar-foundation/mathesar-wiki) and create a new page under the [Design Specs](/archive/product/design/specs) directory. Additionally, create a link to it from the top-level [Documents](/archive/product/design/specs) page.
+- Clone the [Mathesar Wiki Repo](https://github.com/mathesar-foundation/mathesar-wiki) and create a new page under the [Design Specs](../specs/index.md) directory. Additionally, create a link to it from the top-level [Documents](../specs/index.md) page.
   - Please follow the format of the most recent spec. Spec formats may change over time.
 - Add the [spec content](#spec-content) to the page. Make sure the page date is updated as well.
 - Once you think the spec is ready for review, create a PR that includes in its description:
@@ -28,7 +28,7 @@ This is the list of team members who have volunteered to review new designs.
 - Be sure to include the specific feedback you are seeking.
 - Assign the required reviewers by their GitHub username.
   - Choose reviewers from the Design Review Team section above.
-  - Always request a review from all Mathesar members with Product or Design roles (see [Team](/team) for handles. From the engineering roles, assign both a frontend and backend engineer. If there are multiple engineers with a role, rotate the person assigned for subsequent reviews.
+  - Always request a review from all Mathesar members with Product or Design roles (see [Team](../../../../team/index.md) for handles. From the engineering roles, assign both a frontend and backend engineer. If there are multiple engineers with a role, rotate the person assigned for subsequent reviews.
 - Please post the GitHub PR link to `#design-review:matrix.mathesar.org`.
 - If the reviewers request changes or have questions, please make the changes and re-request the review.
 - Once everyone has had a chance to review (or the timeline expires) and you're satisfied with the feedback, update the spec and ensure that it all fits together nicely.
