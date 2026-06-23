@@ -2,7 +2,7 @@
 
 ## Assigning issues
 
-Issues should only be assigned to core and community team members who have committed to completing the issue.
+Issues should only be assigned to maintainers who have committed to completing the issue.
 
 If an outside contributor wants to work on the issue, they should still comment on it to indicate interest, but there's no need to assign it to them.
 
