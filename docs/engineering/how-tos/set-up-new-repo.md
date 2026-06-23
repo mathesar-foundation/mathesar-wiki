@@ -9,8 +9,7 @@ If you're creating a GitHub repo, please make sure you do all of these things.
 - [ ] Repo name should use hyphens, not underscores
 - [ ] Default branch name should be `master`, not `main`
 - [ ] Repo collaborators should ONLY use Teams, not individual accounts.
-    - [ ] Private repos only the "Mathesar Maintainers" should have access, and the access level should be "Maintain".
-    - [ ] Public repos should also have the "Mathesar Community Team" added with "Write" permissions.
+    - [ ] Add the "Mathesar Maintainers" team with "Maintain" permissions.
 - [ ] Set up our default GitHub workflows
     - This plugs the repo into the main Mathesar project and sets up some QoL automations
     - See update of `sync.yml` in this [example PR](https://github.com/mathesar-foundation/mathesar/pull/3234)
@@ -42,4 +41,3 @@ If you're creating a GitHub repo, please make sure you do all of these things.
 If you're removing a GitHub repo, please make sure you do all of these things.
 
 - [ ] Remove all references to the repo from within the `.github` directory of the main `mathesar` repo.
-

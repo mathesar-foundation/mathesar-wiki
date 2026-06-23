@@ -1,6 +1,6 @@
 # Mathesar Team Guide
 
-A guide for Mathesar core and community team members.
+A guide for Mathesar core team members.
 
 ## Product Development
 
