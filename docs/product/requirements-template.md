@@ -7,7 +7,7 @@
 	- Current pain points: how is the user solving this problem now, either within Mathesar, or otherwise?
 	- Why is it worth solving now?: explain why we think this problem is worth solving now (signals).
 
-### Is it feasible?
+### Is it feasible to solve?
 
 !!! example "Evaluate high-level feasibility."
 	- What indicators do we have that this is possible? How does it relate to existing work in Mathesar?
