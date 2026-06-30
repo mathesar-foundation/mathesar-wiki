@@ -8,22 +8,38 @@ Users need to associate files with individual records in their tables, and they 
 
 File attachments is a constrained, standalone feature that exists in all of the spreadsheet-like products in Mathesar's ecosystem. File attachments are extremely common in _most_ web-based software, as such there are considerable resources, libraries, and references to facilitate the work on this feature. It is very feasible to implement.
 
-## Use Cases
+## Use Case - Invoice & Proof Management
 
-As the owner of a construction company, I want to:
+As a business operations manager handling invoices, I want to:
 
-- Associate screenshots of signed contracts with each construction job, so I know which jobs can have their status updated to “Approved”.
-- Make sure staff members who can access our main jobs table are able to view the associated contracts, order sheets, and permits for each job, without needing access to any other system.
-- Attach inspection reports, permits, and compliance documents to jobs, so my team and I can produce reports about non-compliant jobs.
-- Find a construction job using its job ID number, so I can immediately access and print the signed contract.
-- Check that "Approved" jobs have the required documents, an approved contract and a paid invoice, so that work can begin as quickly as possible.
-- Remove files that have accidentally been added to the wrong job, so that the correct materials are ordered for each job.
+* Attach photographic "proofs" to each invoice—images that clearly show SKUs and product names for every line item.
+* Add multiple documents (e.g., purchase orders, signed contracts) that support or validate the invoice.
+* Upload files to invoice records at any point during the approval and fulfillment process.
+* Quickly browse all photographic proofs in medium-size thumbnails without needing to open each one.
+* Open and inspect product proofs or contract PDFs in full resolution for detailed review.
+* Download any file associated with an invoice for sharing or printing.
+* Identify which invoices are still missing required attachments (e.g., signed contract or PO).
+* Efficiently handle 10–200 files per invoice record without performance issues.
+* Perform data edits alongside file uploads as part of the same user interaction.
 
 ## Requirements
 
-- Add one or multiple file attachments of any type to records
-- Remove file attachments previously associated with records
-- Find specific records based on attachment(s) information
+* Add **one or multiple** file attachments (images or PDFs) to a record.
+* Upload new files to a record at any time.
+* Remove files associated with a record.
+* Download individual files.
+* View attachment thumbnails for **quick visual scan** (especially for images).
+* View attachments in **full resolution** (image or PDF, in-browser acceptable).
+* Maintain **fast loading times** when displaying many files in a single view.
+* Allow users to distinguish whether a file field is populated or empty (e.g., for required uploads).
+
+### Optional / Deferred Features
+
+These are valuable but not required for the initial version:
+
+* Upload new files to a record easily on mobile.
+* Display medium-size previews for **PDFs** (not just download links or filenames).
+* Display **EXIF data** for images (can be accessed after downloading for now).
 
 ## Ecosystem Analysis
 
