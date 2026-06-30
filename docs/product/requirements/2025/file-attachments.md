@@ -1,5 +1,7 @@
 # File Attachments
 
+!!! success "Approved, see [project](../../proposals/2025/file-attachments.md)."
+
 ## The Problem
 
 Users need to associate files with individual records in their tables, and they prefer to add, view, and remove these files in context with their associated data. They need to determine which records do or do not have required files. Without built-in file support, users are forced to rely on third-party tools and fragmented workflows.

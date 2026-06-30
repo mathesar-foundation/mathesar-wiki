@@ -1,6 +1,6 @@
 # SSO (OIDC)
 
-[View this project in GitHub](https://github.com/orgs/mathesar-foundation/projects/2/views/1?query=sort%3Aupdated-desc+is%3Aopen&pane=issue&itemId=117162539&issue=mathesar-foundation%7Cmathesar%7C4578)
+!!! success "Approved, see [project](../../proposals/2025/sso-oidc.md) and [GitHub issue](https://github.com/mathesar-foundation/mathesar/issues/4578)."
 
 Mathesar users would like to reduce the number of separate passwords they need to use.
 
